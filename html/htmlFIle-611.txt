@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html lang="ja" xml:lang="ja">
+<head prefix="og: http://ogp.me/ns/website#">
+<meta charset="UTF-8" />
+<title>プラン・インターナショナル・ジャパンのボランティア・寄付で途上国の子どもに支援を。</title>
+<link rel="canonical" href="https://www.plan-international.jp/" />
+<meta name="keywords" content="ボランティア,寄付,NGO,プラン,インターナショナル,ジャパン,フォスター" />
+<meta name="description" content="プラン・インターナショナル・ジャパンは、子どもとともに途上国の地域開発を進める国際NGO。あなたのボランティアや寄付で、途上国51カ国の子どもたちを支援します。子どもたちが持つ能力や可能性を十分に発揮できる地域づくりを目指します。" />
+<!-- OGP -->
+<meta property="og:title" content="プラン・インターナショナル・ジャパンのボランティア・寄付で途上国の子どもに支援を。">
+<meta property="og:type" content="website" />
+<meta property="og:description" content="プラン・インターナショナル・ジャパンは、子どもとともに途上国の地域開発を進める国際NGO。あなたのボランティアや寄付で、途上国51カ国の子どもたちを支援します。子どもたちが持つ能力や可能性を十分に発揮できる地域づくりを目指します。">
+<meta property="og:url" content="https://www.plan-international.jp/" >
+<meta property="og:image" content="/common/img/logo_sns_plan.png" >
+<meta property="og:site_name" content="公益財団法人プラン・インターナショナル・ジャパン" >
+<!-- /OGP -->
+
+<meta name="format-detection" content="telephone=no">
+<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<link rel="shortcut icon" href="/common/img/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="apple-touch-icon" href="/common/img/apple-touch-icon.png" />
+<link rel="stylesheet" href="/common/css/common.css" media="all" />
+<link rel="stylesheet" href="/common/css/remodal.css" media="all" />
+<link rel="stylesheet" href="/common/css/remodal-default-theme.css" media="all" />
+<link rel="stylesheet" href="/common/css/slider-pro.min.css" media="all" />
+<link rel="stylesheet" href="/common/css/print.css" media="print" />
+<!-- Google Tag Manager 201708 add -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PH6B9NV');</script>
+<!-- End Google Tag Manager -->
+<script type="text/javascript" src="/common/js/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="/common/js/remodal.js"></script>
+<script type="text/javascript" src="/common/js/jquery.bxSlider.js"></script>
+<script type="text/javascript" src="/common/js/jquery.sliderPro.min.js"></script>
+<script type="text/javascript" src="/common/js/jquery.matchHeight.js"></script>
+<script type="text/javascript" src="/common/js/main.js?ver=201803"></script>
+<script type="text/javascript" src="/donate/includes/donate_cart.js?ver=201805"></script>
+<script type="text/javascript" src="/common/js/jquery.inputPrompt.js"></script>
+<script type="text/javascript">
+function postLandingQuery(){
+  return $.ajax({
+    url : '/donate/save_landing_query.php',
+    type : 'POST',
+    data : { uri : '/' },
+    timeout : 10000,
+  });
+}
+  $(window).on('load', function(){
+    $.Deferred().resolve().then(postLandingQuery).then(getCart);
+  });
+</script>
+<script type="text/javascript" src="/common/js/mail_request_form_pardot.js"></script><!-- pardotとメルマガ登録用js -->
+</head>
+<body class="top">
+<!-- [ Reader Start ] -->
+<div class="pageReader">
+  <p><a id="reader-pagetop" tabindex="-1">ページの先頭です</a></p>
+</div>
+<!-- [ Reader End ] --> 
+<!-- [ Reader Start ] -->
+<div class="pageReader">
+  <dl>
+    <dt>ページ内を移動するためのリンク</dt>
+    <dd><a href="#reader-content" accesskey="c" tabindex="-1">本文(c)へ</a></dd>
+    <dd><a href="#reader-gnavi" accesskey="g" tabindex="-1">グローバルナビゲーション(g)へ</a></dd>
+    <dd><a href="#reader-site" accesskey="i" tabindex="-1">サイトのご利用案内(i)へ</a></dd>
+  </dl>
+</div>
+<!-- [ Reader End ] -->
+<div id="base" class="base">
+  <header id="header" class="header">
+    <div class="header__body">
+      <div class="header__body__top"> 
+                <ul class="h-linkList">
+          <li class="h-linkList__item"><a href="/first/" class="h-linkList__item__link">はじめての方へ</a></li>
+          <li class="h-linkList__item"><a href="/company/" class="h-linkList__item__link">企業の皆様へ</a></li>
+          <li class="h-linkList__item"><a href="/school/" class="h-linkList__item__link">教育関係者の方へ</a></li>
+          <li class="h-linkList__item"><a href="/youth/" class="h-linkList__item__link">ユースの皆様へ</a></li>
+          <li class="h-linkList__item"><a href="/press/" class="h-linkList__item__link">プレスの方へ</a></li>
+          <li class="h-linkList__item"><a href="/recruit/" class="h-linkList__item__link">採用情報</a></li>
+          <li class="h-linkList__item"><a href="/sitemap/" class="h-linkList__item__link">サイトマップ</a></li>
+          <li class="h-linkList__item"><a href="/english/" class="h-linkList__item__link">English</a></li>
+        </ul>
+        <!-- /.h-linkList --> 
+        <!-- /h_linklist --> 
+      </div>
+      <!-- /.header__body__top -->
+      <div class="header__body__middle">
+        <h1><span>ボランティア・寄付で途上国の子どもに支援を。</span></h1>
+        <div class="header__body__left"> 
+          <p class="logo"><a href="/"><img src="/common/img/logo_pc.png" alt="プラン・インターナショナル" width="194" height="74" /></a></p> 
+        </div>
+        <!-- /.header__body__left -->
+        <div class="header__body__right headerUtility"> 
+                    <div class="headerUtility__item">
+            <ul class="h-link">
+              <li><a href="/faq/">よくあるご質問</a></li>
+              <li><a href="/inquiry/inquiry.php">お問い合わせ</a></li>
+            </ul>
+            <div class="search">
+              <form action="/search/" id="cse-search-box">
+                <input type="hidden" name="cx" value="017915079705794783562:hljgkrqvawy" />
+                <input type="hidden" name="ie" value="UTF-8" />
+                <input type="text" name="q" size="20" class="gsearchbox" />
+                <input type="image" src="/common/img/gsearch_btn.png" name="sa" class="search_btn" alt="検索" title="検索" />
+                <div class="cb"></div>
+              </form>
+            </div>
+            <!-- /.search -->
+            <div class="head__btn">
+              <p class="head__btn__body"><a href="/supporter/" class="btn">
+              <span>支援者の方へ</span></a></p>
+              <!-- /.head__btn__body -->
+            </div>
+            <!-- /.head__btn -->
+          </div>
+          <!-- /.headerUtility__item -->
+ 
+          <!-- /h_utility --> 
+        </div>
+        <!-- /.header__body__right --> 
+      </div>
+      <!-- /.header__body__middle --> 
+    </div>
+    <!-- /.header__body --> 
+    <!-- [ Reader Start ] -->
+    <div class="pageReader">
+      <p><a id="reader-gnavi" tabindex="-1">ここからグローバルナビです。</a></p>
+    </div>
+    <!-- [ Reader End ] -->
+    <nav id="navGlobal" class="navGlobal">
+      <div class="navGlobal__body"> 
+                <ul class="listGnav">
+          <li class="listGnav__item">
+            <div class="listGnav__item__body dropdown">
+              <a href="/about/" class="listGnav__item__link">プランを知る</a>
+              <div class="sub-navi">
+                <div class="sub-navi__list">
+                  <div class="sub-navi__item">
+                    <p class="heading">&lt;プラン・インターナショナル&gt;</p>
+                    <ul>
+                      <li><a href="/about/policy/">活動の基本方針</a>
+                        <ul>
+                          <li><a href="/about/policy/treaty/">子どもの権利条約</a></li>
+                          <li><a href="/about/policy/safeguarding/">子どもと若者のセーフガーディング</a></li>
+                          <li><a href="/about/policy/development/">子どもとともに進める地域開発</a></li>
+						  <li><a href="/about/policy/sdgs/">持続可能な開発目標（SDGs）</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="/about/priorities/">プランが取り組む8つの活動分野</a></li>
+                      <li><a href="/about/data/">プランの基本データ</a></li>
+                      <li><a href="/about/history/">プランの歴史</a></li>
+                      <li><a href="/about/country/">活動国と支援国</a>
+                        <ul>
+                          <li><a href="/about/country/">活動国</a></li>
+                          <li><a href="/about/country/index02.html">支援国</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- /.sub-navi__item -->
+                  <div class="sub-navi__item">
+                    <p class="heading">&lt;プラン・インターナショナル・ジャパン&gt;</p>
+                    <ul>
+                      <li><a href="/about/planinternationaljapan/">プラン・インターナショナル・<br class="pc-only" />ジャパンとは</a>
+                        <ul>
+                          <li><a href="/about/planinternationorganization/aljapan/">組織と役割、沿革</a></li>
+                          <li><a href="/about/planinternationaljapan/information/">情報公開</a></li>
+                          <li><a href="/about/planinternationaljapan/kifu/">寄付金について</a></li>
+                          <li><a href="/about/planinternationaljapan/access/">アクセス</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="/about/plannumber/">数字でみるプラン・<br class="pc-only" />インターナショナル・ジャパン</a></li>
+                    </ul>
+                  </div>
+                  <!-- /.sub-navi__item -->
+                  <div class="sub-navi__item">
+                    <p class="heading">&nbsp;</p>
+                    <ul>
+                      <li><a href="/about/libraries/">紹介資料のご案内</a>
+                        <ul>
+                          <li><a href="/about/libraries/data/">プラン紹介資料</a></li>
+                          <li><a href="/about/libraries/movie/">プラン・ムービー</a></li>
+                          <li><a href="/about/libraries/news/">プラン・ニュース</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- /.sub-navi__item -->
+                </div>
+                <!-- /.sub-navi__list -->
+              </div>
+              <!-- /.sub-navi -->
+            </div>
+            <!-- /.listGnav__item__body -->
+          </li>
+          <li class="listGnav__item">
+            <div class="listGnav__item__body dropdown">
+              <a href="/activity/" class="listGnav__item__link">活動をみる</a>
+              <div class="sub-navi">
+                <div class="sub-navi__list">
+                  <div class="sub-navi__item">
+                    <ul>
+                      <li><a href="/activity/report/">活動レポート</a></li>
+                    </ul>
+                  </div>
+                  <!-- /.sub-navi__item -->
+                  <div class="sub-navi__item">
+                    <ul>
+                      <li><a href="/activity/effect/">活動成果</a>
+                        <ul>
+                          <li><a href="/activity/effect/education/">教育</a></li>
+                          <li><a href="/activity/effect/health/">保健</a></li>
+                          <li><a href="/activity/effect/right/">性と生殖に関する健康と権利</a></li>
+                          <li><a href="/activity/effect/water/">水と衛生</a></li>
+                          <li><a href="/activity/effect/stability/">家計の安定</a></li>
+                          <li><a href="/activity/effect/participation/">子どもの参加</a></li>
+                          <li><a href="/activity/effect/protection/">子どもの保護</a></li>
+                          <li><a href="/activity/effect/emergency/">緊急支援</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- /.sub-navi__item -->
+                  <div class="sub-navi__item">
+                    <ul>
+                      <li><a href="/activity/annualreport/">活動報告書</a></li>
+                      <li><a href="/activity/advocacy/">アドボカシー</a></li>
+                      <li><a href="/activity/grant/">公的機関との連携</a></li>
+                    </ul>
+                  </div>
+                  <!-- /.sub-navi__item -->
+                </div>
+                <!-- /.sub-navi__list -->
+              </div>
+              <!-- /.sub-navi -->
+            </div>
+            <!-- /.listGnav__item__body -->
+          </li>
+          <li class="listGnav__item">
+            <div class="listGnav__item__body dropdown">
+              <a href="/join/" class="listGnav__item__link">あなたにできる支援</a>
+              <div class="sub-navi">
+                <div class="sub-navi__list">
+                  <div class="sub-navi__item">
+                    <p class="heading">&lt;基幹支援&gt;</p>
+                    <ul>
+                      <li><a href="/join/sponsor/">プラン・スポンサーシップ</a></li>
+                    </ul>
+                    <p class="heading">&lt;テーマ別支援&gt;</p>
+                    <ul>
+                      <li><a href="/join/girls/">ガールズ・プロジェクト</a></li>
+                      <li><a href="/join/global/">グローバル・プロジェクト</a></li>
+                    </ul>
+                   </div>
+                  <!-- /.sub-navi__item -->
+                  <div class="sub-navi__item">
+                    <p class="heading">&lt;大型支援&gt;</p>
+                    <ul>
+                      <li><a href="/join/order/">オーダーメイド・プロジェクト</a></li>
+                      <li><a href="/join/1million/">一口100万円プロジェクト</a></li>
+                    </ul>
+                    <p class="heading">&lt;緊急&gt;</p>
+                    <ul>
+                      <li><a href="/join/appeal/">緊急・復興支援</a></li>
+                    </ul>
+                  </div>
+                  <!-- /.sub-navi__item -->
+                  <div class="sub-navi__item">
+                    <p class="heading">&lt;その他&gt;</p>
+                    <ul>
+                      <li><a href="/join/bequest/">遺贈や相続財産の寄付</a></li>
+                      <li><a href="/join/funeral.html">お香典・ご祝儀からの寄付</a></li>
+                      <li><a href="/join/pr/">みんなに広める活動</a></li>
+                    </ul>
+					</div>
+                  <!-- /.sub-navi__item --> 
+                  </div>
+                <!-- /.sub-navi__list -->
+              </div>
+              <!-- /.sub-navi -->
+            </div>
+            <!-- /.listGnav__item__body -->
+         </li>
+		 <li class="listGnav__item">
+            <div class="listGnav__item__body dropdown"> <a href="/girl/" class="listGnav__item__link is-active">Because I am a Girl</a>
+              <div class="sub-navi">
+                <div class="sub-navi__list">
+                  <div class="sub-navi__item">
+                    <ul>
+                      <li><a href="/girl/about/">Because I am a Girl とは</a></li>
+                      <li><a href="/girl/girlsday/">国際ガールズ・デー</a></li>
+                    </ul>
+                  </div>
+                  <div class="sub-navi__item">
+                    <ul>
+                      <li><a href="/girl/why/">なぜ女の子?</a></li>
+                      <li><a href="/girl/story/">実話をもとにしたストーリー</a></li>
+                    </ul>
+                  </div>
+                  <div class="sub-navi__item">
+                    <ul>
+                      <li><a href="/girl/action/">参加をする</a></li>
+                      <li><a href="/girl/supporters/">賛同メッセージ</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <!-- /.sub-navi__list --> 
+              </div>
+              <!-- /.sub-navi --> 
+            </div>
+            <!-- /.listGnav__item__body --> 
+          </li>
+          <li class="listGnav__item">
+            <div class="listGnav__item__body">
+              <a href="/inquiry/doc_request.php" class="listGnav__item__link is-active">資料請求</a>
+            </div>
+            <!-- /.listGnav__item__body -->
+          </li>
+          <li class="listGnav__item">
+            <div class="listGnav__item__body">
+              <a href="/kifu/" class="listGnav__item__link">寄付をする</a>
+            </div>
+            <!-- /.listGnav__item__body -->
+          </li>
+        </ul> 
+        <!-- /.listGnav --> 
+                <div class="sp-menu">
+          <ul class="menu">
+            <li class="menu__item is-menu"><a href="javascript: void(0);">メニュー表示ボタン</a></li>
+            <li class="menu__item is-search"><a href="javascript: void(0);">検索表示ボタン</a></li>
+          </ul>
+          <!-- /.menu -->
+        </div>
+ 
+        <!-- /.sp-menu --> 
+                <div class="sp__header">
+          <p class="btn-close">閉じる</p>
+          <ul class="sp__header__menu">
+            <li class="item01 accordion"><a href="javascript: void(0);">プランを知る</a>
+              <ul>
+                <li><a href="/about/policy/">活動の基本方針</a></li>
+                <li><a href="/about/data/">プランの基本データ</a></li>
+                <li><a href="/about/history/">プランの歴史</a></li>
+                <li><a href="/about/country/">活動国と支援国</a></li>
+                <li><a href="/about/planinternationaljapan/">プラン・インターナショナル・ジャパンとは</a></li>
+                <li><a href="/about/plannumber/">数字でみるプラン・インターナショナル・ジャパン</a></li>
+                <li><a href="/about/libraries/">紹介資料のご案内</a></li>
+              </ul>
+            </li>
+            <li class="item02 accordion"><a href="javascript: void(0);">活動をみる</a>
+              <ul>
+                <li><a href="/activity/report/">活動レポート</a></li>
+                <li><a href="/activity/effect/">活動成果</a></li>
+                <li><a href="/activity/annualreport/">活動報告書</a></li>
+                <li><a href="/activity/grant/">公的機関との連携</a></li>
+              </ul>
+            </li>
+            <li class="item03 accordion"><a href="javascript: void(0);">あなたにできる支援</a>
+              <ul>
+                <li><a href="/join/sponsor/">プラン・スポンサーシップ</a></li>
+                <li><a href="/join/girls/">ガールズ・プロジェクト</a></li>
+                <li><a href="/join/global/">グローバル・プロジェクト</a></li>
+                <li><a href="/join/order/">オーダーメイド・プロジェクト</a></li>
+                <li><a href="/join/1million/">一口100万円プロジェクト</a></li>
+                <li><a href="/join/appeal/">緊急・復興支援</a></li>
+                <li><a href="/join/bequest/">遺贈や相続財産の寄付</a></li>
+                <li><a href="/join/funeral.html">お香典・ご祝儀からの寄付</a></li>
+                <li><a href="/join/pr/">みんなに広める活動</a></li>
+              </ul>
+            </li>
+            <li class="item04"><a href="/girl/">Because I am a Girl</a></li>
+            <li class="item05"><a href="/inquiry/doc_request.php">資料請求</a></li>
+            <li class="item06"><a href="/kifu/">寄付をする</a></li>
+          </ul>
+          <div class="sp__header__sub">
+            <div class="sp__sub__item">
+              <ul>
+                <li><a href="/explan/">支援説明会「プラン・ラウンジ」</a></li>
+                <li><a href="/eventcalendar/">イベント・キャンペーンカレンダー</a></li>
+                <li><a href="/blog/">プラン・ブログ</a></li>
+                <li><a href="http://www.janic.org/more/accountability/" target="_blank">アカウンタビリティ・セルフチェック</a></li>
+                <li><a href="/deduction/">寄付金控除について</a></li>
+                <li><a href="/paonline/mypage.php">マイ・プラン・ページ</a></li>
+              </ul>
+            </div>
+            <!-- /.sp__sub__item -->
+            <div class="sp__sub__item">
+              <ul class="list-table">
+                <li><a href="/first/">はじめての方へ</a></li>
+                <li><a href="/company/">企業の皆様へ</a></li>
+                <li><a href="/school/">教育関係者の皆様へ</a></li>
+                <li><a href="/youth/">ユースの皆様へ</a></li>
+                <li><a href="/press/">プレスの方へ</a></li>
+                <li><a href="/supporter/">支援者の方へ</a></li>
+                <li><a href="/recruit/">採用情報</a></li>
+                <li><a href="/sitemap/">サイトマップ</a></li>
+                <li><a href="/english/">English</a></li>
+                <li><span>&nbsp;</span></li>
+              </ul>
+            </div>
+            <!-- /.sp__sub__item -->
+            <div class="sp__sub__item">
+              <ul class="list-side">
+                <li><a href="/faq/">よくあるご質問</a></li>
+                <li><a href="/inquiry/inquiry.php">お問い合わせ</a></li>
+                <li><a href="/news/">NEWS一覧</a></li>
+              </ul>
+            </div>
+            <!-- /.sp__sub__item -->
+          </div>
+          <!-- /.sp__header__sub -->
+        </div>
+        <!-- /.sp__header -->
+ 
+                <div class="sp__search">
+          <p class="btn-close">閉じる</p>
+            <div class="search">
+              <form action="/search/">
+                <input type="hidden" name="cx" value="017915079705794783562:hljgkrqvawy" />
+                <input type="hidden" name="ie" value="UTF-8" />
+                <input type="text" name="q" size="20" class="gsearchbox" />
+                <input type="image" src="/common/img/sp_gsearch_btn.png" name="sa" class="search_btn" alt="検索" title="検索" />
+                <div class="cb"></div>
+              </form>
+            </div>
+            <!-- /.search -->
+        </div>
+        <!-- /.sp__search -->
+ 
+      </div>
+      <!-- /.navGlobal__body --> 
+    </nav>
+    <!-- /#navGlobal --> 
+    <!-- [ Reader Start ] -->
+    <div class="pageReader">
+      <p><a id="reader-gnaviEnd" tabindex="-1">グローバルメニューここまでです。</a></p>
+    </div>
+    <!-- [ Reader End ] --> 
+        <div class="header__cart">
+      <p class="icon__arrow"><i class="icon--btn-arrow-left"></i></p>
+      <div class="header__cart__body">
+        <p class="count_base">
+          <span class="close">close</span>
+          <a href="/donate/donate_list.php">
+            <span class="text">未完了の<br />寄付手続き</span>
+            <span class="plan_count">0<span class="ken">件</span></span>
+            
+          </a>
+        </p>
+      </div>
+    </div>
+ 
+  </header>
+  <!-- /#header -->
+  
+  <div id="main" class="main">
+    <div class="main__body"> 
+      <!-- [ Reader Start ] -->
+      <div class="pageReader">
+        <p><a id="reader-content" tabindex="-1">ここから本文です。</a></p>
+      </div>
+      <!-- [ Reader End ] -->
+      <div class="kifuInput">
+        <input type="hidden" id="sp_area" name="sp_area" value="" />
+        <input type="hidden" id="sp_sex" name="sp_sex" value="" />
+        <input type="hidden" id="sp_lang" name="sp_lang" value="0" />
+        <input type="hidden" id="sp_count" name="sp_count" value="1" />
+        <input type="hidden" id="sp_money" name="sp_money" value="3000" />
+      </div>
+      <!-- /.kifuInput -->
+      <div class="contents__Body-auto">
+        <div class="slide">
+          <div class="slide__body">
+          <div class="slide__item"> <span><img src="/img/top_slide_img_emergency180711_pc.jpg" alt="「平成30年7月豪雨」緊急支援" /></span>
+              <div class="slide__text">
+                <p class="sub-title" style="text-shadow: rgba(0,0,0,0.5) 1px 1px 1px, rgba(0,0,0,0.5) -1px -1px 1px, rgba(0,0,0,0.5) 1px -1px 1px, rgba(0,0,0,0.5) -1px 1px 1px;">被災地の子どもに安全な場所と心のケアを</p>
+                <p class="title">｢平成30年7月豪雨｣緊急支援</p>
+                <p class="slide__btn is-one"> <a href="/news/info/20180709_10626?top_btn_01" class="btn btn-arrow btn-blue"><span>詳細をみる</span></a> </p>
+                <!-- /.slide__btn --> 
+              </div>
+            </div>
+            <!-- /slide block -->
+             <div class="slide__item textLeft">
+              <span><img src="/img/top_slide_img_1803_pc.jpg" alt="画像：女の子の未来に、投資を。" /></span>
+              <div class="slide__text">
+                <p class="title"><img src="/img/top_slide_img_1803_text_pc.png" alt="女の子の未来に、投資を。" /></p>
+                <p class="slide__btn is-one">
+                  <a href="/news/info/20180402_8364?top_btn_03" class="btn btn-arrow btn-pink"><span>詳細をみる</span></a>
+                </p>
+                <!-- /.slide__btn -->
+              </div>
+            </div>
+
+            <!-- /slide block -->
+            <div class="slide__item"> <span><img src="/img/top_slide_img_05_pc.jpg" alt="誰も置き去りにしない、誰も取り残さない世界へ。" /></span>
+              <div class="slide__text">
+                <p class="sub-title">誰も置き去りにしない、誰も取り残さない世界へ。</p>
+                <p class="title">あなたにできる支援</p>
+                <p class="slide__btn is-one"> <a href="/join/?top_btn_04" class="btn btn-arrow btn-blue"><span>詳細をみる</span></a> </p>
+                
+              </div>
+            </div>
+            <!-- /slide block -->
+            <div class="slide__item"> <span><img src="/img/top_slide_img_about_pc.jpg" alt="世界70カ国以上で活動する国際NGO　プランを知る" /></span>
+              <div class="slide__text">
+                <p class="sub-title">世界70カ国以上で活動する国際NGO</p>
+                <p class="title">プランを知る</p>
+                <p class="slide__btn is-one">
+                  <a href="/about/?top_btn_05" class="btn btn-arrow btn-blue"><span>詳細をみる</span></a>
+                </p>
+                <!-- /.slide__btn --> 
+              </div>
+            </div>
+            <!-- /slide block -->
+          </div>
+          <!-- /.slide__text --> 
+        </div>
+        <!-- /.slide -->
+        <div class="project">
+          <div class="project__box">
+            <p class="project__img"><img src="/img/top_key_img_01_pc.jpg" alt="プラン・スポンサーシップ" /></p>
+            <div class="contents">
+              <p class="title"><img src="/img/project_txt_img_01_pc.png" width="269" height="61" alt="Plan Sponsorship" /></p>
+              <div class="project__btn"> <a href="javascript: void(0);" id="26091" class="kifu_button btnChange btn btn-arrow btn-yellow" onClick="addCart_speedRegiByUa('/index.html?top_btn_05', '26091', $('#sp_money').val(), $('#sp_count').val(), $('#sp_area').val(), $('#sp_sex').val(), $('#sp_lang').val());"><span>寄付をする</span></a> <a href="javascript: void(0);" class="btn btn-glay kifu-select"><span>選択されています</span></a> <a href="/join/sponsor/?top_btn_06" class="btn btn-arrow btn-blue"><span>詳細をみる</span></a> </div>
+            </div>
+          </div>
+          <!-- /.project__box -->
+          <div class="project__box girlBox">
+            <p class="project__img"><img src="/img/top_key_img_02_pc.jpg" alt="「世界の女の子に、生きていく力を。」" /></p>
+            <div class="contents">
+              <p class="title"><img src="/img/project_txt_img_02_pc.png" width="286" height="61" alt="Because I am a Girl" /></p>
+              <div class="project__btn w460 set-center"> <a href="/girl/?top_btn_07" class="btn btn-arrow btn-pink"><span>詳細をみる</span></a> </div>
+            </div>
+          </div>
+          <!-- /.project__box --> 
+        </div>
+        <!-- /.project --> 
+      </div>
+      <!-- /.contents__Body-auto --> 
+      
+      <div class="contents__Body-auto bg-glay">
+  <div class="topics">
+    <div class="topics__body">
+      <h2>TOPICS</h2>
+      <div class="news-list" rel="roll">
+        <ul>
+ 
+        <li>
+            <span class="date">2018/07/12</span>
+            <span class="icon bg-lightBlue">活動レポート</span>
+            <a href="/activity/report/20180712_3482/">「障がいのある子どもの教育支援」プロジェクトを開始しました～トーゴ～</a>
+<span class="icon__new">NEW</span>        </li>
+        <li>
+            <span class="date">2018/07/11</span>
+            <span class="icon bg-lightBlue">活動レポート</span>
+            <a href="/activity/report/20180711_3573/">【第3報】「子どもひろば」を開設しました～「平成30年7月豪雨」緊急支援～</a>
+<span class="icon__new">NEW</span>        </li>
+        <li>
+            <span class="date">2018/07/11</span>
+            <span class="icon bg-lightBlue">活動レポート</span>
+            <a href="/activity/report/20180711_3518/">【第2報】緊急支援チームを派遣、住民から聞き取り～「平成30年7月豪雨」緊急支援～</a>
+<span class="icon__new">NEW</span>        </li>
+        <li>
+            <span class="date">2018/07/10</span>
+            <span class="icon bg-lightBlue">活動レポート</span>
+            <a href="/activity/report/20180710_3457/">「栄養不良の子どもの食料支援」プロジェクトを開始しました～ニジェール～</a>
+<span class="icon__new">NEW</span>        </li>
+        <li>
+            <span class="date">2018/07/09</span>
+            <span class="icon bg-blue">お知らせ</span>
+            <a href="/news/info/20180709_10626/">【第1報】「平成30年7月豪雨」緊急支援へのご寄付をお願いします</a>
+<span class="icon__new">NEW</span>        </li>
+        </ul>
+      </div>
+      <!-- /.news-list -->
+    </div>
+    <!-- /.topics__body -->
+  </div>
+  <!-- /.topics -->
+</div>
+<!-- /.contents__Body-auto -->
+
+      <div class="contents__Body">
+        <ul class="link-list newsDetailLink">
+          <li class="set-right"><a href="/news/">NEWS一覧</a></li>
+        </ul>
+      </div>
+      <!-- /.contents__Body --> 
+
+
+      <div class="contents__Body-auto">
+        <div class="wrap">
+          <h2 class="set-center">子どもたちとともに、<br />
+            地域の自立をすすめる<br class="sp-only" />国際NGO</h2>
+          <div class="tab is-one">
+            <div class="tab__head">
+              <div class="tab__head__body">
+                <div class="tab__head__item active"> <a href="javascript: void(0);">プランの<br class="sp-only" />活動地域</a> </div>
+                <!-- /.tab__head__item -->
+                <div class="tab__head__item"> <a href="javascript: void(0);">チャイルド<br class="sp-only" />とともに</a> </div>
+                <!-- /.tab__head__item -->
+                <div class="tab__head__item"> <a href="javascript: void(0);">活動の<br class="sp-only" />成果</a> </div>
+                <!-- /.tab__head__item -->
+                <div class="tab__head__item"> <a href="javascript: void(0);">支援金の<br class="sp-only" />使い方</a> </div>
+                <!-- /.tab__head__item --> 
+              </div>
+              <!-- /.tab__head__body --> 
+            </div>
+            <!-- /.tab__head -->
+            <div class="tab__body">
+              <div class="tab__body__item active">
+                <div class="overlap">
+                  <p class="overlap__img"><img src="/img/tab_img_01_pc.png" width="960" height="560" alt="活動国と支援国" /></p>
+                  <p class="overlap__text btn-w306"><a href="/about/country/" class="btn btn-arrow btn-lightBlue"><span>活動国と支援国</span></a></p>
+                </div>
+                <!-- /.overlap --> 
+              </div>
+              <!-- /.tab__body__item -->
+              <div class="tab__body__item">
+                <div class="overlap">
+                  <p class="overlap__img"><img src="/img/tab_img_02_2017_pc.png" width="960" height="560" alt="数字でみるプラン・インターナショナル・ジャパン" /></p>
+                  <p class="overlap__text btn-w600"><a href="/about/plannumber/" class="btn btn-arrow btn-lightBlue"><span>数字でみるプラン・インターナショナル・ジャパン</span></a></p>
+                </div>
+                <!-- /.overlap --> 
+              </div>
+              <!-- /.tab__body__item -->
+              <div class="tab__body__item">
+                <div class="overlap">
+                  <p class="overlap__img"><img src="/img/tab_img_03_2017_pc.png" width="960" height="560" alt="活動成果" /></p>
+                  <p class="overlap__text btn-w306"><a href="/activity/effect/" class="btn btn-arrow btn-lightBlue"><span>活動成果</span></a></p>
+                </div>
+                <!-- /.overlap --> 
+              </div>
+              <!-- /.tab__body__item -->
+              <div class="tab__body__item">
+                <div class="overlap">
+                  <p class="overlap__img"><img src="/img/tab_img_04_2017_pc.png" width="960" height="560" alt="情報公開" /></p>
+                  <p class="overlap__text btn-w306"><a href="/about/planinternationaljapan/information/" class="btn btn-arrow btn-lightBlue"><span>情報公開</span></a></p>
+                </div>
+                <!-- /.overlap --> 
+              </div>
+              <!-- /.tab__body__item --> 
+            </div>
+            <!-- /.tab__body --> 
+          </div>
+          <!-- /.tab -->
+          <p class="plan-btn"><a href="/about/" class="btn btn-arrow btn-blue"><span>プランを知る</span></a></p>
+        </div>
+        <!-- /.wrap --> 
+      </div>
+      <!-- /.contents__Body-auto -->
+      
+      <div class="contents__Body-auto bg-lightBlue">
+        <div class="wrap">
+          <h2 class="set-center">子どもたちとともにプランが<br class="sp-only" />取り組む活動分野</h2>
+          <div class="field">
+            <div class="field__item">
+              <p><a href="/activity/effect/education/"><img src="/img/activity_img_01_pc.png" width="231" height="284" alt="教育" /></a></p>
+            </div>
+            <!-- /.field__item -->
+            <div class="field__item">
+              <p><a href="/activity/effect/health/"><img src="/img/activity_img_02_pc.png" width="231" height="284" alt="保健" /></a></p>
+            </div>
+            <!-- /.field__item -->
+            <div class="field__item">
+              <p><a href="/activity/effect/right/"><img src="/img/activity_img_03_pc.png" width="231" height="284" alt="性と生殖に関する健康と権利" /></a></p>
+            </div>
+            <!-- /.field__item -->
+            <div class="field__item">
+              <p><a href="/activity/effect/water/"><img src="/img/activity_img_04_pc.png" width="231" height="284" alt="水と衛生" /></a></p>
+            </div>
+            <!-- /.field__item -->
+            <div class="field__item">
+              <p><a href="/activity/effect/stability/"><img src="/img/activity_img_05_pc.png" width="231" height="284" alt="家計の安定" /></a></p>
+            </div>
+            <!-- /.field__item -->
+            <div class="field__item">
+              <p><a href="/activity/effect/participation/"><img src="/img/activity_img_06_pc.png" width="231" height="284" alt="子どもの参加" /></a></p>
+            </div>
+            <!-- /.field__item -->
+            <div class="field__item">
+              <p><a href="/activity/effect/protection/"><img src="/img/activity_img_07_pc.png" width="231" height="284" alt="子どもの保護" /></a></p>
+            </div>
+            <!-- /.field__item -->
+            <div class="field__item">
+              <p><a href="/activity/effect/emergency/"><img src="/img/activity_img_08_pc.png" width="231" height="284" alt="緊急支援" /></a></p>
+            </div>
+            <!-- /.field__item --> 
+          </div>
+          <!-- /.field -->
+          <p class="bnr__img"><a href="/girl/"><img src="/img/activity_img_09_pc.png" width="860" height="190" alt="世界の女の子に、生きていく力を。" /></a></p>
+          <p class="plan-btn"><a href="/activity/" class="btn btn-arrow btn-blue"><span>活動をみる</span></a></p>
+        </div>
+        <!-- /.wrap --> 
+      </div>
+      <!-- /.contents__Body-auto --> 
+      <!-- /.contents__Body-auto -->
+<div class="contents__Body-auto">
+  <div class="wrap">
+  <h2 class="set-center m-t5 pickup-heading">PICK UP</h2>
+    <div class="pickup">
+    <a href="/news/supporter/20180703_10195/" class="pickup__box">
+  <div class="pickup__img">
+    <p><img src="/news/wp-content/uploads/sites/2/2018/07/180703_01.jpg" width="308" height="216" alt="pickup画像01" /></p>
+    <p class="icon"><img src="/common/img/icon_to_sponsor.png" width="132" height="29" alt="支援者の方へ" /></p>
+  </div>
+  <!-- /.pickup__img -->
+  <div class="pickup__text">
+
+    <p class="text">
+      「2019年カレンダー付きグリーティングカード」キャンペーンのお知らせ<span class="icon__new">NEW</span>    </p>
+  </div>
+  <!-- /.pickup__text -->
+</a>
+<!-- /.pickup__box -->
+    <a href="/news/event/20180605_9523" class="pickup__box">
+  <div class="pickup__img">
+    <p><img src="/eventcalendar/img/poster_180605.png" width="308" alt="夏休み読書感想文コンクール2018　「リアル」を知る。未来が変わる。" /></p>
+    <p class="icon"><img src="/common/img/icon_event.png" width="132" height="29" alt="イベント" /></p>
+  </div>
+  <!-- /.pickup__img -->
+  <div class="pickup__text">
+  <p class="text">夏休み読書感想文コンクール2018　「リアル」を知る。未来が変わる。</p>
+  </div>
+  <!-- /.pickup__text -->
+</a>
+<!-- /.pickup__box -->
+
+<a href="/news/event/20180601_9588" class="pickup__box">
+  <div class="pickup__img">
+    <p><img src="/news/wp-content/uploads/sites/2/2018/06/180601_02.jpg" width="308" height="216" alt="【プラン・ラウンジ7月】「上映会＆交流会」参加者募集（7/21東京・三軒茶屋）" /></p>
+    <p class="icon"><img src="/common/img/icon_event.png" width="132" height="29" alt="イベント" /></p>
+  </div>
+  <!-- /.pickup__img -->
+  <div class="pickup__text">
+
+    <p class="text">【プラン・ラウンジ7月】「上映会＆交流会」参加者募集（7/21東京・三軒茶屋）</p>
+  </div>
+  <!-- /.pickup__text -->
+</a>
+<!-- /.pickup__box -->
+
+
+
+    </div>
+    <!-- /.pickup -->
+  </div>
+  <!-- /.wrap -->
+</div>
+<!-- /.contents__Body-auto --> 
+      
+      <div class="contents__Body-auto bg-whiteblue">
+  <div class="news">
+    <div class="news__body">
+      <h2 class="set-center">NEWS</h2>
+      <div class="news-list">
+ 
+        <dl>
+          <dt>
+            <span class="date">2018/07/12</span>
+            <span class="icon bg-lightBlue">活動レポート</span>
+          </dt>
+          <dd>
+            <a href="/activity/report/20180712_3482/">「障がいのある子どもの教育支援」プロジェクトを開始しました～トーゴ～</a>
+<span class="icon__new">NEW</span>          </dd>
+        </dl>
+        <dl>
+          <dt>
+            <span class="date">2018/07/11</span>
+            <span class="icon bg-lightBlue">活動レポート</span>
+          </dt>
+          <dd>
+            <a href="/activity/report/20180711_3573/">【第3報】「子どもひろば」を開設しました～「平成30年7月豪雨」緊急支援～</a>
+<span class="icon__new">NEW</span>          </dd>
+        </dl>
+        <dl>
+          <dt>
+            <span class="date">2018/07/11</span>
+            <span class="icon bg-lightBlue">活動レポート</span>
+          </dt>
+          <dd>
+            <a href="/activity/report/20180711_3518/">【第2報】緊急支援チームを派遣、住民から聞き取り～「平成30年7月豪雨」緊急支援～</a>
+<span class="icon__new">NEW</span>          </dd>
+        </dl>
+        <dl>
+          <dt>
+            <span class="date">2018/07/11</span>
+            <span class="icon bg-movie">動画</span>
+          </dt>
+          <dd>
+            <a href="/news/movie/20180711_9409/">【シリーズ動画】「チャイルドの一日」11～ドミニカ共和国のロスメリーとジャネリス～</a>
+<span class="icon__new">NEW</span>          </dd>
+        </dl>
+        <dl>
+          <dt>
+            <span class="date">2018/07/10</span>
+            <span class="icon bg-lightBlue">活動レポート</span>
+          </dt>
+          <dd>
+            <a href="/activity/report/20180710_3457/">「栄養不良の子どもの食料支援」プロジェクトを開始しました～ニジェール～</a>
+<span class="icon__new">NEW</span>          </dd>
+        </dl>
+      </div>
+      <!-- /.news-list -->
+      <p class="plan-btn"><a href="/news/" class="btn btn-arrow btn-blue"><span>NEWS 一覧をみる</span></a></p>
+    </div>
+    <!-- /.news__body -->
+  </div>
+  <!-- /.news -->
+</div>
+<!-- /.contents__Body-auto --> 
+      
+      <!-- [ Reader Start ] -->
+      <div class="pageReader">
+        <p><a id="reader-contentEnd" tabindex="-1">本文ここまでです。</a></p>
+      </div>
+      <!-- [ Reader End ] --> 
+    </div>
+    <!-- /.main__body --> 
+    
+          <div class="body__contents">
+        <div class="bnr-list">
+          <ul class="bnr-list__body">
+            <li class="bnr-list__item"><a href="/explan/"><img src="/common/img/footer_bnr_01.png" width="280" height="70" alt="説明会 「プラン・ラウンジ」" /></a></li>
+            <li class="bnr-list__item"><a href="/eventcalendar/"><img src="/common/img/footer_bnr_02.png" width="280" height="70" alt="イベント・キャンペーン カレンダー" /></a></li>
+            <li class="bnr-list__item"><a href="/blog/"><img src="/common/img/footer_bnr_03.png" width="280" height="70" alt="プラン・ブログ" /></a></li>
+            <li class="bnr-list__item"><a href="http://www.janic.org/active/organizational_strength/" target="_blank"><img src="/common/img/footer_bnr_04.png" width="280" height="70" alt="アカウンタビリティ・セルフチェック" /></a></li>
+            <li class="bnr-list__item"><a href="/deduction/"><img src="/common/img/footer_bnr_05.png" width="280" height="70" alt="寄付金控除について" /></a></li>
+            <li class="bnr-list__item"><a href="/paonline/mypage.php"><img src="/common/img/footer_bnr_06.png" width="280" height="70" alt="マイ・プラン・ページ" /></a></li>
+          </ul>
+          <!-- /.bnr-list__body -->
+        </div>
+        <!-- /.bnr-list -->
+      </div>
+      <!-- /.body__contents --> 
+    <!-- /bnr__contents --> 
+          <div class="body__contents bg-lightGlay pc-only">
+        <div class="sns">
+          <div class="sns__item sns-mail">
+            <p class="sns-ttl">プラン・インターナショナル・<br />ジャパン メールマガジン</p>
+            <div id="mail_request_form02" class="sns-mail__body">
+              <form name="mail_request_form02" action="/paonline/subscribe_mail_magazine.php" method="post" id="mail_request_main_form" target="_blank">
+                <input type="hidden" name="mode" id="main_form_mode" value="confirm" />
+                <input type="hidden" name="subscribe" id="main_form_subscribe" value="1" />
+                <img src="/common/img/subscribe_btn.png" name="to_confirm" id="mail_request_to_confirm" width="70" height="46" alt="登録" title="登録" />
+                <!-- <img src="common/img/suspend_btn.gif" name="to_confirm_suspend" id="mail_suspend_to_confirm" width="37" height="17" alt="停止" title="停止" /> -->
+                <input type="text" name="email" id="mail_request_email" size="20" maxlength="100" title="メールアドレス入力" class="placeholder" />
+                <div class="cb"></div>
+              </form>
+            </div>
+            <!-- /.sns-mail__body -->
+            <p class="sns-link"><a href="/mail/">メールマガジンの詳細はこちら</a></p>
+            <p>プランの活動や最新情報を<br />毎月、2回<br />メールでお届けしています。</p>
+          </div>
+          <!-- /.sns__item -->
+          <div class="sns__item sns-fb">
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FPlaninternational.jp%2F&tabs=timeline&width=300&height=300&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="300" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+          </div>
+          <!-- /.sns__item -->
+          <div class="sns__item sns-youtbe">
+            <p class="sns-ttl"><a href="https://www.youtube.com/user/planjapantv" target="_blank">Plan International Japan Videos</a></p>
+            <div class="iframe-wrap">
+              <iframe width="280" height="160" src="https://www.youtube.com/embed/bHj8oDHgRB4?rel=0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <!-- /.sns__item -->
+        </div>
+        <!-- /.sns -->
+      </div>
+      <!-- /.body__contents -->
+      <div class="body__contents">
+        <ul class="sns-icon">
+          <li class="sns-icon__item icon__mail"><a href="/mail/"><img src="/common/img/icon_mail.png" width="39" height="31" alt="メールアイコン" /></a></li>
+          <li class="sns-icon__item icon__facebook"><a href="https://www.facebook.com/Planinternational.jp/" target="_blank"><img src="/common/img/icon_facebook.png" width="31" height="31" alt="facebookアイコン" /></a></li>
+          <li class="sns-icon__item icon__youtube"><a href="https://www.youtube.com/user/planjapantv/" target="_blank"><img src="/common/img/icon_youtube.png" width="44" height="31" alt="youtubeアイコン" /></a></li>
+        </ul>
+        <!-- /.sns-icon -->
+      </div>
+      <!-- /.body__contents --> 
+    <!-- /sns__contents --> 
+    
+    <!-- pardot -->
+    <div style="display:none;">
+      <iframe id="hiddenFrame" src="index_pardot_inner.html"></iframe>
+    </div>
+    <!-- /pardot --> 
+    
+  </div>
+  <!-- /#main --> 
+    <footer id="footer" class="footer">
+    <!-- [ Reader Start ] -->
+    <div class="pageReader">
+      <p><a id="reader-site" tabindex="-1">ここからサイトのご利用案内です。</a></p>
+    </div>
+    <!-- [ Reader End ] -->
+    <div class="footer__top">
+      <div class="footer__top__body">
+        <div class="returnTop">
+          <p class="returnTop__body"><a href="#reader-pagetop" class="returnTop__body__link"><img src="/common/img/f_top_img.png" width="80" height="80" alt="ページの先頭へ" /></a></p>
+        </div>
+        <div class="f-infoList">
+          <div class="f-infoList__item">
+            <p class="ttl"><a href="/about/">プランとは</a></p>
+            <ul class="link-list">
+              <li><a href="/about/policy/">活動の基本方針</a></li>
+              <li><a href="/about/data/">プランの基本データ</a></li>
+              <li><a href="/about/history/">プランの歴史</a></li>
+              <li><a href="/about/country/">活動国と支援国</a></li>
+              <li><a href="/about/planinternationaljapan/">プラン・インターナショ<br />ナル・ジャパンとは</a></li>
+              <li><a href="/about/plannumber/">数字でみるプラン・<br />インターナショナル・<br />ジャパン</a></li>
+              <li><a href="/about/libraries/">紹介資料のご案内</a></li>
+            </ul>
+          </div>
+          <!-- /.f-infoList__item -->
+          <div class="f-infoList__item">
+            <p class="ttl"><a href="/activity/">活動をみる</a></p>
+            <ul class="link-list">
+              <li><a href="/activity/report/">活動レポート</a></li>
+              <li><a href="/activity/effect/">活動成果</a></li>
+              <li><a href="/activity/annualreport/">活動報告書</a></li>
+              <li><a href="/activity/grant/">公的機関との連携</a></li>
+            </ul>
+          </div>
+          <!-- /.f-infoList__item -->
+          <div class="f-infoList__item">
+            <p class="ttl"><a href="/join/">あなたにできる支援</a></p>
+            <ul class="link-list">
+              <li><a href="/join/sponsor/">プラン・スポンサーシップ</a></li>
+              <li><a href="/join/girls/">ガールズ・プロジェクト</a></li>
+              <li><a href="/join/global/">グローバル・プロジェクト</a></li>
+              <li><a href="/join/order/">オーダーメイド・プロジェクト</a></li>
+              <li><a href="/join/1million/">一口100万円プロジェクト</a></li>
+              <li><a href="/join/appeal/">緊急・復興支援</a></li>
+              <li><a href="/join/bequest/">遺贈や相続財産の寄付</a></li>
+              <li><a href="/join/funeral.html">お香典・ご祝儀からの寄付</a></li>
+              <li><a href="/join/pr/">みんなに広める活動</a></li>
+            </ul>
+          </div>
+          <!-- /.f-infoList__item -->
+          <div class="f-infoList__item">
+            <p class="ttl"><a href="/kifu/">寄付をする</a></p>
+            <ul class="link-list">
+              <li><a href="/deduction/">寄付金控除</a></li>
+            </ul>
+          </div>
+          <!-- /.f-infoList__item -->
+          <div class="f-infoList__item">
+            <p class="ttl"><a href="/inquiry/doc_request.php">資料請求</a></p>
+            <p class="ttl"><a href="/faq/">よくある質問</a></p>
+            <p class="ttl"><a href="/inquiry/inquiry.php">お問い合わせ</a></p>
+            <p class="ttl"><a href="/news/">NEWS一覧</a></p>
+          </div>
+          <!-- /.f-infoList__item -->
+        </div>
+        <!-- /.f-infoList -->
+
+        <div class="f-infoLink pc-only">
+          <ul>
+            <li><a href="/first/">はじめての方へ</a></li>
+            <li><a href="/supporter/">支援者の方へ</a></li>
+            <li><a href="/company/">企業の皆様へ</a></li>
+            <li><a href="/school/">教育関係者の皆様へ</a></li>
+            <li><a href="/youth/">ユースの皆様へ</a></li>
+            <li><a href="/press/">プレスの方へ</a></li>
+            <li><a href="/recruit/">採用情報</a></li>
+          </ul>
+        </div>
+        <!-- /.f-infoLink -->
+        <div class="f-infoLink">
+          <ul>
+            <li><a href="/copy/">リンク・著作権・商標について</a></li>
+            <li><a href="/environment/">推奨環境</a></li>
+            <li><a href="/accountability/">アカウンタビリティ・セルフチェック</a></li>
+            <li><a href="/privacy/">個人情報保護</a></li>
+            <li class="pc-only"><a href="/sitemap/">サイトマップ</a></li>
+            <li class="pc-only"><a href="/paonline/mypage.php">マイ・プラン・ページ</a></li>
+          </ul>
+        </div>
+        <!-- /.f-infoLink -->
+      </div>
+      <!-- /.footer__top__body -->
+    </div>
+    <!-- /.footer__top -->
+    <!-- [ Reader Start ] -->
+    <div class="pageReader">
+      <p><a id="reader-siteEnd" tabindex="-1">サイトのご利用案内ここまでです。</a></p>
+    </div>
+    <!-- [ Reader End ] -->
+
+    <div class="footer__middle">
+      <p>ボランティア・寄付の<br class="sp-only" />公益財団法人プラン・インターナショナル・ジャパン <br />〒154-8545 東京都世田谷区三軒茶屋2-11-22<br class="sp-only" /> サンタワーズセンタービル10F&amp;11F<br class="sp-only" /> TEL:03-5481-0030<br class="sp-only" /> <a href="/about/planinternationaljapan/access/">アクセスはこちら</a></p>
+    </div>
+    <!-- /.footer__middle -->
+    <div class="footer__bottom">
+      <p>Copyright &copy; <script>copyright();</script> Plan International Japan. All rights reserved.</p>
+    </div>
+    <!-- /.footer__bottom -->
+
+  </footer>
+  <!-- /#footer -->
+
+<!-- Google Tag Manager (noscript) 201708 add -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PH6B9NV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- GoogelAnalytics start-->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-4397448-2', 'auto', {'allowLinker': true});
+ga('require', 'linker');
+ga('linker:autoLink', ['linkpt.cardservice.co.jp']);
+ga('send', 'pageview');
+</script>
+<!-- GoogelAnalytics end-->
+
+  <!-- YTMtag start-->
+  <script type="text/javascript">
+    (function () {
+      var tagjs = document.createElement("script");
+      var s = document.getElementsByTagName("script")[0];
+      tagjs.async = true;
+      tagjs.src = "//s.yjtag.jp/tag.js#site=n3NRKcR";
+      s.parentNode.insertBefore(tagjs, s);
+    }());
+  </script>
+  <noscript>
+    <iframe src="//b.yjtag.jp/iframe?c=n3NRKcR" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+  </noscript>
+  <!-- YTMtag end-->
+
+  <!-- pardot start-->
+  <script type="text/javascript">
+  piAId = '220162';
+  piCId = '1472';
+
+  (function() {
+   function async_load(){
+    var s = document.createElement('script'); s.type = 'text/javascript';
+    s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+    var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+   }
+   if(window.attachEvent) { window.attachEvent('onload', async_load); }
+   else { window.addEventListener('load', async_load, false); }
+  })();
+  </script>
+  <!-- pardot end-->
+ 
+  
+</div>
+</body>
+</html>

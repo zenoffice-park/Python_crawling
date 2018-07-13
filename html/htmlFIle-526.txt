@@ -1,0 +1,634 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>お問い合わせ  &#8211;  新東科学株式会社</title>
+		
+	  <link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="新東科学株式会社 &raquo; お問い合わせ のコメントのフィード" href="http://www.heidon.co.jp/contactus/feed/" />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v7.0.9 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script type="text/javascript" data-cfasync="false">
+	var mi_track_user      = true;
+	var mi_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-3872057-1';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+	
+	if ( mi_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+		__gaTracker('create', 'UA-3872057-1', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('require', 'displayfeatures');
+		__gaTracker('require', 'linkid', 'linkid.js');
+		__gaTracker('send','pageview');
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+					})();
+		}
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.heidon.co.jp\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.7"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.heidon.co.jp/wp/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-theme-css'  href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/blitzer/jquery-ui.min.css?ver=1.11.4' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-timepicker-css'  href='http://www.heidon.co.jp/wp/wp-content/plugins/contact-form-7-datepicker/js/jquery-ui-timepicker/jquery-ui-timepicker-addon.min.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-lightbox-2.min.css-css'  href='http://www.heidon.co.jp/wp/wp-content/plugins/wp-lightbox-2/styles/lightbox.min.css?ver=1.3.4' type='text/css' media='all' />
+<link rel='stylesheet' id='mimetypes-link-icons-css'  href='http://www.heidon.co.jp/wp/wp-content/plugins/mimetypes-link-icons/css/style.php?cssvars=bXRsaV9oZWlnaHQ9MTYmbXRsaV9pbWFnZV90eXBlPXBuZyZtdGxpX2xlZnRvcnJpZ2h0PWxlZnQ&#038;ver=3.0' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.heidon.co.jp/wp/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.heidon.co.jp/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://www.heidon.co.jp/wp/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.hoverIntent.minified.js?ver=4.9.7'></script>
+<script type='text/javascript' src='http://www.heidon.co.jp/wp/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.cookie.js?ver=4.9.7'></script>
+<script type='text/javascript' src='http://www.heidon.co.jp/wp/wp-content/plugins/jquery-vertical-accordion-menu/js/jquery.dcjqaccordion.2.9.js?ver=4.9.7'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","is_debug_mode":"false","download_extensions":"doc,exe,js,pdf,ppt,tgz,zip,xls","inbound_paths":"","home_url":"http:\/\/www.heidon.co.jp","track_download_as":"event","internal_label":"int","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.heidon.co.jp/wp/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js?ver=7.0.9'></script>
+<link rel='https://api.w.org/' href='http://www.heidon.co.jp/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.heidon.co.jp/wp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.heidon.co.jp/wp/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.7" />
+<link rel="canonical" href="http://www.heidon.co.jp/contactus/" />
+<link rel='shortlink' href='http://www.heidon.co.jp/?p=286' />
+<link rel="alternate" type="application/json+oembed" href="http://www.heidon.co.jp/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.heidon.co.jp%2Fcontactus%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.heidon.co.jp/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.heidon.co.jp%2Fcontactus%2F&#038;format=xml" />
+
+<meta http-equiv="Content-Language" content="ja" />
+<style type="text/css" media="screen">
+.qtrans_flag span { display:none }
+.qtrans_flag { height:12px; width:18px; display:block }
+.qtrans_flag_and_text { padding-left:20px }
+.qtrans_flag_ja { background:url(http://www.heidon.co.jp/wp/wp-content/plugins/qtranslate/flags/jp.png) no-repeat }
+.qtrans_flag_en { background:url(http://www.heidon.co.jp/wp/wp-content/plugins/qtranslate/flags/gb.png) no-repeat }
+.qtrans_flag_zh { background:url(http://www.heidon.co.jp/wp/wp-content/plugins/qtranslate/flags/cn.png) no-repeat }
+</style>
+<link hreflang="en" href="http://www.heidon.co.jp/en/contactus/" rel="alternate" />
+<link hreflang="zh" href="http://www.heidon.co.jp/zh/contactus/" rel="alternate" />
+
+<meta property="fb:admins" content="管理員的 Facebook 帳號 ID" />
+<meta property="fb:app_id" content="網站 Facebook APP 的 ID" />
+<meta property="og:title" content="お問い合わせ"/>
+<meta property="og:description" content="[contact-form-7 id="2158"]"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="http://www.heidon.co.jp/contactus/"/>
+<meta property="og:site_name" content="新東科学株式会社"/>
+<meta property="og:image" content="" />
+<link rel="image_src" type="image/jpeg" href="" />
+<meta property="og:locale" content="zh_tw">
+		
+		<link rel="pingback" href="http://www.heidon.co.jp/wp/xmlrpc.php" />
+		<link href="http://www.heidon.co.jp/wp/wp-content/themes/HEIDON/style.css" media="screen" rel="stylesheet" type="text/css" />
+		<![if !IE]>
+		<link rel="stylesheet"  href="http://www.heidon.co.jp/wp/wp-content/themes/HEIDON/checkbox.css" type="text/css">
+		<![endif]>
+		<script type="text/JavaScript">
+		//DW Start
+		function MM_preloadImages() { //v3.0
+		  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+			var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+			if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+		}
+
+		function MM_swapImgRestore() { //v3.0
+		  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+		}
+
+		function MM_findObj(n, d) { //v4.01
+		  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+			d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+		  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+		  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+		  if(!x && d.getElementById) x=d.getElementById(n); return x;
+		}
+
+		function MM_swapImage() { //v3.0
+		  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+		   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+		}
+		//DW End 
+		</script>
+		
+	</head>
+	<body>
+		<div class="container">
+			<div id="header" class="header">
+<!--top設定：這邊是加上最上方橘色條Slogan及搜尋、語言選單的那部份-->
+<div class="top_wrap"><div class="top">
+	<div class="custom top_slogan">
+	撹拌機・摩擦測定器のことなら、国内N0.1の新東科学株式会社へご相談ください。</div>
+
+	<div class="top_search">
+	<form role="search" method="get" id="searchform" action="http://www.heidon.co.jp/">
+		<input name="s" id="s" maxlength="20" class="inputbox top_search" type="text" size="20" value="サイト内検索" onBlur="if (this.value=='') this.value='サイト内検索';" onFocus="if (this.value=='サイト内検索') this.value='';">
+        <input type="image" value="検索" class=" top_search" src="http://www.heidon.co.jp/wp/wp-content/themes/HEIDON/images/searchButton.gif" onClick="this.form.searchword.focus();">	
+	</form>
+	</div>
+
+	<ul class="top_menu"><li><a href="http://www.heidon.co.jp/contactus/">日</a></li>
+<li><a href="http://www.heidon.co.jp/en/contactus/">英</a></li>
+<li><a href="http://www.heidon.co.jp/zh/contactus/">中</a></li>
+</ul>	<!--<ul class="top_menu">
+    <li ><a href="http://www.heidon.co.jp/">日</a></li>
+    <li ><a href="http://www.heidon.co.jp/en/index.html">En</a></li>
+    <li ><a href="http://www.heidon.co.jp/cn/index.html">Ch</a></li>
+    </ul>-->
+</div></div>
+<!--top設定結束-->  
+
+<!--header_bn頁首的logo及聯絡方式設定-->  
+<div id="header_bn">
+                    <div class="header_logo">
+                    <a href="http://www.heidon.co.jp"><img src="http://www.heidon.co.jp/wp/wp-content/themes/HEIDON/images/logo.png" alt="HEIDON WEB 新東科学株式会社" border="0"> </a> </div>
+                    <div class="head_banner"><img alt="" src="http://www.heidon.co.jp/wp/wp-content/themes/HEIDON/images/header_tel.png"></div>
+</div>
+<!--header_bn的設定結束-->  
+
+
+<!--nav主選單的設定開始-->             
+<div id="nav">
+	<div class="menu-%e3%83%a1%e3%82%a4%e3%83%b3%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc-container"><ul id="menu-%e3%83%a1%e3%82%a4%e3%83%b3%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc" class="menu"><li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-72"><a href="http://www.heidon.co.jp/">トップ</a></li>
+<li id="menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-147"><a href="http://www.heidon.co.jp/products/">製品一覧</a>
+<ul class="sub-menu">
+	<li id="menu-item-156" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-156"><a href="http://www.heidon.co.jp/products/tribo-gear/">トライボギア</a></li>
+	<li id="menu-item-177" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-177"><a href="http://www.heidon.co.jp/products/three-one-motor/">スリーワンモータ</a></li>
+	<li id="menu-item-184" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-184"><a href="http://www.heidon.co.jp/products/warpage-checker/">歪み検査器</a></li>
+	<li id="menu-item-189" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-189"><a href="http://www.heidon.co.jp/products/search/">製品検索</a></li>
+</ul>
+</li>
+<li id="menu-item-208" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-208"><a href="http://www.heidon.co.jp/catalog/">カタログ</a></li>
+<li id="menu-item-117" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-117"><a href="http://www.heidon.co.jp/company/">会社情報</a>
+<ul class="sub-menu">
+	<li id="menu-item-124" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-124"><a href="http://www.heidon.co.jp/company/aboutus/">会社概要</a></li>
+	<li id="menu-item-123" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123"><a href="http://www.heidon.co.jp/company/access/">所在地・アクセス</a></li>
+	<li id="menu-item-122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122"><a href="http://www.heidon.co.jp/company/brand/">ブランド</a></li>
+	<li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121"><a href="http://www.heidon.co.jp/company/guidance/">会社案内</a></li>
+	<li id="menu-item-120" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120"><a href="http://www.heidon.co.jp/company/management-concept/">経営理念</a></li>
+	<li id="menu-item-119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-119"><a href="http://www.heidon.co.jp/company/history/">沿革</a></li>
+	<li id="menu-item-118" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118"><a href="http://www.heidon.co.jp/company/acquisition/">取得認証</a></li>
+</ul>
+</li>
+<li id="menu-item-290" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-286 current_page_item menu-item-290"><a href="http://www.heidon.co.jp/contactus/">お問い合わせ</a></li>
+</ul></div></div>
+			</div>
+<div class="content">
+	<div class="article">
+			<ul class="breadcrumb">
+		<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+			<a href="http://www.heidon.co.jp" itemprop="url" title="新東科学株式会社">
+			<span itemprop="title">新東科学株式会社</span></a> 
+		</li>
+				<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="active">
+			<span class="divider">›</span> 
+			<span itemprop="title">
+			お問い合わせ</span>
+		</li>
+			</ul>
+
+<!--接下來這裏是頁面切版內容，請自行改為程式吧-->
+<div class="pagefor_form">
+<h1 class="article-title">お問い合わせ</h1>
+
+</div>
+
+
+        
+					<article class="article-content">
+				<div role="form" class="wpcf7" id="wpcf7-f2158-p286-o1" lang="ja" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="/contactus/#wpcf7-f2158-p286-o1" method="post" class="wpcf7-form wpcf7-acceptance-as-validation" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="2158" />
+<input type="hidden" name="_wpcf7_version" value="5.0.2" />
+<input type="hidden" name="_wpcf7_locale" value="ja" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f2158-p286-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="286" />
+</div>
+<div class="pagefor_form">
+<div>
+		電話でのお問い合せも行っておりますので、どうぞご利用下さい。<br />
+                カタログ郵送をご希望の方も、下記のお問い合わせからご連絡ください。<br />
+<span class="fm_ten">*</span>	は<span class="fm_ten">必須項目</span>となります。
+	</div>
+<div class="form_wrap">
+<div class="fm_title">お客様情報</div>
+<table border="0" cellspacing="0" cellpadding="0" class="fm01">
+<tr>
+<td width="25%" class="fm_basequstion">姓<span class="fm_ten">*</span></td>
+<td width="25%"><span class="wpcf7-form-control-wrap last_name"><input type="text" name="last_name" value="" size="12" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span></td>
+<td width="25%" class="fm_basequstion">名<span class="fm_ten">*</span></td>
+<td width="25%"><span class="wpcf7-form-control-wrap first_name"><input type="text" name="first_name" value="" size="12" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span></td>
+</tr>
+<tr>
+<td width="25%" class="fm_basequstion">姓フリガナ<span class="fm_ten">*</span></td>
+<td width="25%"><span class="wpcf7-form-control-wrap last_name_kana"><input type="text" name="last_name_kana" value="" size="12" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span></td>
+<td width="25%" class="fm_basequstion">名フリガナ<span class="fm_ten">*</span></td>
+<td width="25%"><span class="wpcf7-form-control-wrap first_name_kana"><input type="text" name="first_name_kana" value="" size="12" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span></td>
+</tr>
+</table>
+<table border="0" cellspacing="0" cellpadding="0" class="fm01">
+<tr>
+<td nowrap class="fm_basequstion">会社名（組織名）<span class="fm_ten">*</span></td>
+<td><span class="wpcf7-form-control-wrap company"><input type="text" name="company" value="" size="45" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span></td>
+</tr>
+<tr>
+<td nowrap class="fm_basequstion">部署名</td>
+<td><span class="wpcf7-form-control-wrap department"><input type="text" name="department" value="" size="45" class="wpcf7-form-control wpcf7-text" aria-invalid="false" /></span></td>
+</tr>
+<tr>
+<td nowrap class="fm_basequstion">郵便番号<span class="fm_ten">*</span></td>
+<td><span class="wpcf7-form-control-wrap zip"><input type="text" name="zip" value="" size="15" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span></td>
+</tr>
+<tr>
+<td nowrap class="fm_basequstion">都道府県<span class="fm_ten">*</span></td>
+<td><span class="wpcf7-form-control-wrap state"><input type="text" name="state" value="" size="15" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span></td>
+</tr>
+<tr>
+<td nowrap class="fm_basequstion">市区郡<span class="fm_ten">*</span></td>
+<td><span class="wpcf7-form-control-wrap city"><input type="text" name="city" value="" size="15" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span></td>
+</tr>
+<tr>
+<td nowrap class="fm_basequstion">町名以下<span class="fm_ten">*</span></td>
+<td><span class="wpcf7-form-control-wrap street"><input type="text" name="street" value="" size="45" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span></td>
+</tr>
+<tr>
+<td nowrap class="fm_basequstion">電話番号<span class="fm_ten">*</span></td>
+<td><span class="wpcf7-form-control-wrap phone"><input type="tel" name="phone" value="" size="45" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" /></span></td>
+</tr>
+<tr>
+<td nowrap class="fm_basequstion">ＦＡＸ番号</td>
+<td><span class="wpcf7-form-control-wrap fax"><input type="tel" name="fax" value="" size="45" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel" aria-invalid="false" /></span></td>
+</tr>
+<tr>
+<td nowrap class="fm_basequstion">メールアドレス<span class="fm_ten">*</span></td>
+<td><span class="wpcf7-form-control-wrap email"><input type="email" name="email" value="" size="45" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" /></span></td>
+</tr>
+</table>
+<div class="fm_title">お問い合わせ内容<span class="fm_ten">*</span></div>
+<div class="fm_question"><span class="wpcf7-form-control-wrap message"><textarea name="message" cols="80" rows="5" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></textarea></span></div>
+<table width="100%" cellpadding="40">
+<tr align="center">
+<td>
+                 <span class="wpcf7-form-control-wrap acceptance"><span class="wpcf7-form-control wpcf7-acceptance"><span class="wpcf7-list-item"><label><input type="checkbox" name="acceptance" value="1" aria-invalid="false" /><span class="wpcf7-list-item-label">当社からのメール配信*を希望する<span class="fm_ten">*</span></span></label></span></span></span>
+            </td>
+</tr>
+</table>
+<div align="center" class="fm_button"><input type="submit" value="送信" class="wpcf7-form-control wpcf7-submit" /></div>
+</p></div>
+<div class="pagefor_form">
+		*新東科学株式会社の製品やイベントなどに関する情報を今後メールでお知らせいたします。<br />
+                メール配信開始後に配信停止を希望する場合は、配信メールに記載する手順方法によってメール配信を停止することが可能です。
+</div>
+</div>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
+				<div class="clearfix"></div>
+			</article>
+			</div>
+	<div class="sidebar">
+	<aside id="sidebar">
+	<section id="dc_jqaccordion_widget-2" class="sidebar-right"><h1 class="sidebar-title">Three one motor</h1>		
+		<div class="dcjq-accordion" id="dc_jqaccordion_widget-2-item">
+		
+			<ul id="menu-sidemenu-three-one-motor" class="category_tree01"><li id="menu-item-2133" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2133"><a href="http://www.heidon.co.jp/products/three-one-motor/dc1/">カップ用スリーワンモータ DC1</a></li>
+<li id="menu-item-1142" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1142"><a>ハイパワー汎用撹拌機</a>
+<ul class="sub-menu">
+	<li id="menu-item-1138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1138"><a href="http://www.heidon.co.jp/products/three-one-motor/blh3000/">BLh3000</a></li>
+	<li id="menu-item-1139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1139"><a href="http://www.heidon.co.jp/products/three-one-motor/blh1200/">BLh1200</a></li>
+	<li id="menu-item-1140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1140"><a href="http://www.heidon.co.jp/products/three-one-motor/blh600/">BLh600</a></li>
+	<li id="menu-item-1141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1141"><a href="http://www.heidon.co.jp/products/three-one-motor/blh300/">BLh300</a></li>
+</ul>
+</li>
+<li id="menu-item-1147" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1147"><a>汎用撹拌機</a>
+<ul class="sub-menu">
+	<li id="menu-item-1143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1143"><a href="http://www.heidon.co.jp/products/three-one-motor/bl3000/">BL3000</a></li>
+	<li id="menu-item-1144" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1144"><a href="http://www.heidon.co.jp/products/three-one-motor/bl1200/">BL1200</a></li>
+	<li id="menu-item-1145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1145"><a href="http://www.heidon.co.jp/products/three-one-motor/bl600/">BL600</a></li>
+	<li id="menu-item-1146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1146"><a href="http://www.heidon.co.jp/products/three-one-motor/bl300/">BL300</a></li>
+</ul>
+</li>
+<li id="menu-item-1137" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1137"><a>ミニプラントクラス撹拌機</a>
+<ul class="sub-menu">
+	<li id="menu-item-1133" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1133"><a href="http://www.heidon.co.jp/products/three-one-motor/blw3000/">BLW3000</a></li>
+	<li id="menu-item-1134" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1134"><a href="http://www.heidon.co.jp/products/three-one-motor/blw1200/">BLW1200</a></li>
+	<li id="menu-item-1135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1135"><a href="http://www.heidon.co.jp/products/three-one-motor/blw600/">BLW600</a></li>
+	<li id="menu-item-1136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1136"><a href="http://www.heidon.co.jp/products/three-one-motor/blw300/">BLW300</a></li>
+</ul>
+</li>
+<li id="menu-item-1111" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1111"><a>完全防爆型撹拌機</a>
+<ul class="sub-menu">
+	<li id="menu-item-1109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1109"><a href="http://www.heidon.co.jp/products/three-one-motor/ep1800/">EP1800</a></li>
+	<li id="menu-item-1110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1110"><a href="http://www.heidon.co.jp/products/three-one-motor/ep700/">EP700</a></li>
+	<li id="menu-item-1992" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1992"><a href="http://www.heidon.co.jp/products/three-one-motor/ep400/">EP400</a></li>
+	<li id="menu-item-1991" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1991"><a href="http://www.heidon.co.jp/products/three-one-motor/ep200/">EP200</a></li>
+</ul>
+</li>
+<li id="menu-item-1132" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1132"><a>トルク変換器付撹拌機</a>
+<ul class="sub-menu">
+	<li id="menu-item-1129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1129"><a href="http://www.heidon.co.jp/products/three-one-motor/bl1200te/">BL1200Te</a></li>
+	<li id="menu-item-1130" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1130"><a href="http://www.heidon.co.jp/products/three-one-motor/bl600te/">BL600Te</a></li>
+	<li id="menu-item-1131" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1131"><a href="http://www.heidon.co.jp/products/three-one-motor/bl300te/">BL300Te</a></li>
+</ul>
+</li>
+<li id="menu-item-1118" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1118"><a>外部出力付撹拌機</a>
+<ul class="sub-menu">
+	<li id="menu-item-1115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1115"><a href="http://www.heidon.co.jp/products/three-one-motor/bl1200ft/">BL1200Ft</a></li>
+	<li id="menu-item-1116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1116"><a href="http://www.heidon.co.jp/products/three-one-motor/bl600ft/">BL600Ft</a></li>
+	<li id="menu-item-1117" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1117"><a href="http://www.heidon.co.jp/products/three-one-motor/bl300ft/">BL300Ft</a></li>
+</ul>
+</li>
+<li id="menu-item-1114" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1114"><a>ハイパワー外部入出力付リモコン撹拌機</a>
+<ul class="sub-menu">
+	<li id="menu-item-1112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1112"><a href="http://www.heidon.co.jp/products/three-one-motor/blh1200r/">BLh1200R</a></li>
+	<li id="menu-item-1113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1113"><a href="http://www.heidon.co.jp/products/three-one-motor/blh600r/">BLh600R</a></li>
+	<li id="menu-item-1957" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1957"><a href="http://www.heidon.co.jp/products/three-one-motor/blh300r/">BLh300R</a></li>
+</ul>
+</li>
+<li id="menu-item-1128" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1128"><a>外部入出力付リモコン撹拌機</a>
+<ul class="sub-menu">
+	<li id="menu-item-1125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1125"><a href="http://www.heidon.co.jp/products/three-one-motor/bl1200r/">BL1200R</a></li>
+	<li id="menu-item-1126" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1126"><a href="http://www.heidon.co.jp/products/three-one-motor/bl600r/">BL600R</a></li>
+	<li id="menu-item-1127" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1127"><a href="http://www.heidon.co.jp/products/three-one-motor/bl300r/">BL300R</a></li>
+</ul>
+</li>
+<li id="menu-item-2119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2119"><a href="http://www.heidon.co.jp/products/three-one-motor/bl600z/">上下回転撹拌機 BL600Z+</a></li>
+<li id="menu-item-1154" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1154"><a href="http://www.heidon.co.jp/products/three-one-motor/bl300mx-10/">マックスブレンド撹拌装置 BL300Mx-10</a></li>
+<li id="menu-item-1153" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1153"><a href="http://www.heidon.co.jp/products/three-one-motor/starer100/">循環用撹拌機 スターラー100</a></li>
+<li id="menu-item-1150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1150"><a href="http://www.heidon.co.jp/products/three-one-motor_option/option/stand/">スタンド CS/CSII</a></li>
+<li id="menu-item-1151" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1151"><a href="http://www.heidon.co.jp/products/three-one-motor_option/option/shaft/">攪拌翼・撹拌シャフト</a></li>
+<li id="menu-item-2121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2121"><a href="http://www.heidon.co.jp/products/three-one-motor_option/option/magnet/">マグネット撹拌シール マイティマグシール</a></li>
+</ul>		
+		</div>
+		</section><section id="dc_jqaccordion_widget-3" class="sidebar-right"><h1 class="sidebar-title">Tribo Gear</h1>		
+		<div class="dcjq-accordion" id="dc_jqaccordion_widget-3-item">
+		
+			<ul id="menu-sidemenu-tribogear" class="category_tree01"><li id="menu-item-2054" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2054"><a href="http://www.heidon.co.jp/products/tribo-gear/type40/">摩擦摩耗試験機 TYPE:40</a></li>
+<li id="menu-item-1198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1198"><a href="http://www.heidon.co.jp/products/tribo-gear/hhs2000/">荷重変動型摩擦摩耗試験システム TYPE:HHS2000／ HHS3000</a></li>
+<li id="menu-item-1190" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1190"><a href="http://www.heidon.co.jp/products/tribo-gear/type10/">静摩擦係数測定機 TYPE:10</a></li>
+<li id="menu-item-1199" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1199"><a href="http://www.heidon.co.jp/products/tribo-gear/type14fw/">表面性測定機 TYPE:14</a></li>
+<li id="menu-item-1189" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1189"><a href="http://www.heidon.co.jp/products/tribo-gear/type17/">離着性強度試験機 TYPE:17</a></li>
+<li id="menu-item-1188" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1188"><a href="http://www.heidon.co.jp/products/tribo-gear/type18/">連続加重式引掻強度試験機 TYPE:18/18L</a></li>
+<li id="menu-item-2105" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2105"><a href="http://www.heidon.co.jp/products/tribo-gear/type20/">トルク式摩耗抵抗測定機 TYPE:20</a></li>
+<li id="menu-item-1201" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1201"><a href="http://www.heidon.co.jp/products/tribo-gear/type22/">連続荷重式表面性測定機 TYPE:22</a></li>
+<li id="menu-item-1202" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1202"><a href="http://www.heidon.co.jp/products/tribo-gear/type3030s/">往復磨耗試験機 TYPE:30/30S</a></li>
+<li id="menu-item-1193" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1193"><a href="http://www.heidon.co.jp/products/tribo-gear/type33/">触感計 TYPE:33</a></li>
+<li id="menu-item-1195" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1195"><a href="http://www.heidon.co.jp/products/tribo-gear/type34/">回転ドラム/往復摺動運動併用摩擦磨耗試験機 TYPE:34</a></li>
+<li id="menu-item-1197" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1197"><a href="http://www.heidon.co.jp/products/tribo-gear/type35/">広域荷重摩擦磨耗試験機 TYPE:35</a></li>
+<li id="menu-item-1196" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1196"><a href="http://www.heidon.co.jp/products/tribo-gear/type36/">低荷重磨耗試験機 TYPE:36</a></li>
+<li id="menu-item-2024" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2024"><a href="http://www.heidon.co.jp/products/tribo-gear/type37/">ポータブル摩擦計 3Dミューズ TYPE:37i</a></li>
+<li id="menu-item-1203" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1203"><a href="http://www.heidon.co.jp/products/tribo-gear/type38/">表面性測定機 TYPE:38</a></li>
+<li id="menu-item-1194" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1194"><a href="http://www.heidon.co.jp/products/tribo-gear/type94i-ii/">ポータブル摩擦計 TYPE:94i-II</a></li>
+<li id="menu-item-1204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1204"><a href="http://www.heidon.co.jp/products/tribo-gear/tribovac2000/">真空摩擦摩耗試験機 Tribovac2000</a></li>
+<li id="menu-item-1205" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1205"><a href="http://www.heidon.co.jp/products/tribogear_option/tribosoft/tribosoft/">トライボソフト</a></li>
+<li id="menu-item-1206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1206"><a href="http://www.heidon.co.jp/products/tribogear_option/option/tribogear_option/">トライボギア オプション</a></li>
+<li id="menu-item-1207" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1207"><a href="http://www.heidon.co.jp/products/tribogear_option/tri-option-goods1/tribogear-gauge-head/">トライボギア 測定子</a></li>
+</ul>		
+		</div>
+		</section><section id="dc_jqaccordion_widget-4" class="sidebar-right"><h1 class="sidebar-title">Warpage-checker</h1>		
+		<div class="dcjq-accordion" id="dc_jqaccordion_widget-4-item">
+		
+			<ul id="menu-sidemenu-warpage-checker" class="category_tree01"><li id="menu-item-1211" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1211"><a href="http://www.heidon.co.jp/products/warpage-checker/25w25ws/">歪み検査器 TYPE:25W/25WS</a></li>
+</ul>		
+		</div>
+		</section>	<div class="pagerighttab">
+	<div>
+	<a href="http://www.heidon.co.jp/test/"><img id="si_1" alt="" src="http://www.heidon.co.jp/wp/wp-content/themes/HEIDON/images/top_tag01.png" onmouseover="MM_swapImage('si_1','','http://www.heidon.co.jp/wp/wp-content/themes/HEIDON/images/top_tag01_on.png',1)" onmouseout="MM_swapImgRestore()"></a></li>
+<div>
+	<a href="http://www.heidon.co.jp/demo/"><img id="si_2" alt="" src="http://www.heidon.co.jp/wp/wp-content/themes/HEIDON/images/top_tag02.png" onmouseover="MM_swapImage('si_2','','http://www.heidon.co.jp/wp/wp-content/themes/HEIDON/images/top_tag02_on.png',1)" onmouseout="MM_swapImgRestore()"></a></li>
+<!--<div>
+	<a href="#"><img id="si_3" src="http://www.heidon.co.jp/wp/wp-content/themes/HEIDON/images/top_tag03.jpg" onmouseover="MM_swapImage('si_3','','http://www.heidon.co.jp/wp/wp-content/themes/HEIDON/images/top_tag03_on.jpg',1)" onmouseout="MM_swapImgRestore()" border="0"></a></div>
+<div>
+	<a href="#"><img id="si_4" src="http://www.heidon.co.jp/wp/wp-content/themes/HEIDON/images/top_tag04.jpg" onmouseover="MM_swapImage('si_4','','http://www.heidon.co.jp/wp/wp-content/themes/HEIDON/images/top_tag04_on.jpg',1)" onmouseout="MM_swapImgRestore()" border="0"></a></div>-->
+<div>
+	<a href="http://www.heidon.co.jp/products/search/"><img id="si_5" src="http://www.heidon.co.jp/wp/wp-content/themes/HEIDON/images/top_tag05.png" onmouseover="MM_swapImage('si_5','','http://www.heidon.co.jp/wp/wp-content/themes/HEIDON/images/top_tag05_on.png',1)" onmouseout="MM_swapImgRestore()" border="0"></a></div>
+<div class="clr">
+	&nbsp;</div>
+</div>
+</aside>	
+	</div>
+</div>
+
+	
+
+	<div class="clr"></div>
+    <div class="footer">
+		<div id="bottom">
+                    
+                
+
+<div class="custom">
+	<div>
+	<img alt="" src="http://www.heidon.co.jp/wp/wp-content/themes/HEIDON/images/footer_add.jpg"></div>
+</div>
+
+<div id="footer_nav">
+	<div class="menu-%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc-container"><ul id="menu-%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc" class="menu"><li id="menu-item-139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-139"><a href="http://www.heidon.co.jp/company/">会社情報</a></li>
+<li id="menu-item-2124" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2124"><a href="http://www.heidon.co.jp/recruit/">採用情報</a></li>
+<li id="menu-item-2125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2125"><a href="http://www.heidon.co.jp/demo/">デモ機貸し出し</a></li>
+<li id="menu-item-138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138"><a href="http://www.heidon.co.jp/sitemap/">サイトマップ</a></li>
+</ul></div></div>
+
+
+                <div class="copyright">Copyright © Shinto Scientific Co., Ltd. All rights reserved.</div>
+                <div class="footer_logo"><img src="http://www.heidon.co.jp/wp/wp-content/themes/HEIDON/images/footer_logo.png"></div>
+            
+        <div class="design"></div>
+</div>
+        
+        
+        
+        
+	</div>
+	</div>
+				<script type="text/javascript">
+				jQuery(document).ready(function($) {
+					jQuery('#dc_jqaccordion_widget-2-item .category_tree01').dcAccordion({
+						eventType: 'click',
+						hoverDelay: 0,
+						menuClose: false,
+						autoClose: true,
+						saveState: false,
+						autoExpand: false,
+						classExpand: 'current-menu-item',
+						classDisable: '',
+						showCount: false,
+						disableLink: false,
+						cookie: 'dc_jqaccordion_widget-2',
+						speed: 'fast'
+					});
+				});
+			</script>
+		
+						<script type="text/javascript">
+				jQuery(document).ready(function($) {
+					jQuery('#dc_jqaccordion_widget-3-item .category_tree01').dcAccordion({
+						eventType: 'click',
+						hoverDelay: 0,
+						menuClose: false,
+						autoClose: true,
+						saveState: false,
+						autoExpand: false,
+						classExpand: 'current-menu-item',
+						classDisable: '',
+						showCount: false,
+						disableLink: false,
+						cookie: 'dc_jqaccordion_widget-3',
+						speed: 'fast'
+					});
+				});
+			</script>
+		
+						<script type="text/javascript">
+				jQuery(document).ready(function($) {
+					jQuery('#dc_jqaccordion_widget-4-item .category_tree01').dcAccordion({
+						eventType: 'click',
+						hoverDelay: 0,
+						menuClose: false,
+						autoClose: true,
+						saveState: false,
+						autoExpand: false,
+						classExpand: 'current-menu-item',
+						classDisable: '',
+						showCount: false,
+						disableLink: false,
+						cookie: 'dc_jqaccordion_widget-4',
+						speed: 'fast'
+					});
+				});
+			</script>
+		
+			<script type="text/javascript">
+<!--
+piCId = '17398';
+piAId = '534832';
+
+piHostname = 'pi.pardot.com';
+
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
+-->
+</script><script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/www.heidon.co.jp\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"\u3042\u306a\u305f\u304c\u30ed\u30dc\u30c3\u30c8\u3067\u306f\u306a\u3044\u3053\u3068\u3092\u8a3c\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002"}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.heidon.co.jp/wp/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.2'></script>
+<script type='text/javascript' src='http://www.heidon.co.jp/wp/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.heidon.co.jp/wp/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"\u9589\u3058\u308b","currentText":"\u4eca\u65e5","monthNames":["1\u6708","2\u6708","3\u6708","4\u6708","5\u6708","6\u6708","7\u6708","8\u6708","9\u6708","10\u6708","11\u6708","12\u6708"],"monthNamesShort":["1\u6708","2\u6708","3\u6708","4\u6708","5\u6708","6\u6708","7\u6708","8\u6708","9\u6708","10\u6708","11\u6708","12\u6708"],"nextText":"\u6b21\u3078","prevText":"\u524d","dayNames":["\u65e5\u66dc\u65e5","\u6708\u66dc\u65e5","\u706b\u66dc\u65e5","\u6c34\u66dc\u65e5","\u6728\u66dc\u65e5","\u91d1\u66dc\u65e5","\u571f\u66dc\u65e5"],"dayNamesShort":["\u65e5","\u6708","\u706b","\u6c34","\u6728","\u91d1","\u571f"],"dayNamesMin":["\u65e5","\u6708","\u706b","\u6c34","\u6728","\u91d1","\u571f"],"dateFormat":"yy\u5e74mm\u6708d\u65e5","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/i18n/datepicker-ja.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.heidon.co.jp/wp/wp-content/plugins/contact-form-7-datepicker/js/jquery-ui-timepicker/jquery-ui-timepicker-addon.min.js?ver=4.9.7'></script>
+<script type='text/javascript' src='http://www.heidon.co.jp/wp/wp-content/plugins/contact-form-7-datepicker/js/jquery-ui-timepicker/i18n/jquery-ui-timepicker-ja.js?ver=4.9.7'></script>
+<script type='text/javascript' src='http://www.heidon.co.jp/wp/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.heidon.co.jp/wp/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.heidon.co.jp/wp/wp-includes/js/jquery/ui/slider.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.heidon.co.jp/wp/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.heidon.co.jp/wp/wp-content/plugins/contact-form-7-datepicker/js/jquery-ui-sliderAccess.js?ver=4.9.7'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var JQLBSettings = {"fitToScreen":"1","resizeSpeed":"400","displayDownloadLink":"0","navbarOnTop":"0","loopImages":"","resizeCenter":"","marginSize":"0","linkTarget":"_self","help":"","prevLinkTitle":"previous image","nextLinkTitle":"next image","prevLinkText":"\u00ab Previous","nextLinkText":"Next \u00bb","closeTitle":"close image gallery","image":"Image ","of":" of ","download":"Download","jqlb_overlay_opacity":"80","jqlb_overlay_color":"#000000","jqlb_overlay_close":"1","jqlb_border_width":"10","jqlb_border_color":"#ffffff","jqlb_border_radius":"0","jqlb_image_info_background_transparency":"100","jqlb_image_info_bg_color":"#ffffff","jqlb_image_info_text_color":"#000000","jqlb_image_info_text_fontsize":"10","jqlb_show_text_for_image":"1","jqlb_next_image_title":"next image","jqlb_previous_image_title":"previous image","jqlb_next_button_image":"http:\/\/www.heidon.co.jp\/wp\/wp-content\/plugins\/wp-lightbox-2\/styles\/images\/next.gif","jqlb_previous_button_image":"http:\/\/www.heidon.co.jp\/wp\/wp-content\/plugins\/wp-lightbox-2\/styles\/images\/prev.gif","jqlb_maximum_width":"","jqlb_maximum_height":"","jqlb_show_close_button":"1","jqlb_close_image_title":"close image gallery","jqlb_close_image_max_heght":"22","jqlb_image_for_close_lightbox":"http:\/\/www.heidon.co.jp\/wp\/wp-content\/plugins\/wp-lightbox-2\/styles\/images\/closelabel.gif","jqlb_keyboard_navigation":"1","jqlb_popup_size_fix":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.heidon.co.jp/wp/wp-content/plugins/wp-lightbox-2/wp-lightbox-2.min.js?ver=1.3.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var i18n_mtli = {"hidethings":"1","enable_async":"","enable_async_debug":"","avoid_selector":".wp-caption"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.heidon.co.jp/wp/wp-content/plugins/mimetypes-link-icons/js/mtli-str-replace.min.js?ver=3.1.0'></script>
+<script type='text/javascript' src='http://www.heidon.co.jp/wp/wp-includes/js/wp-embed.min.js?ver=4.9.7'></script>
+</body>
+</html><script>
+	jQuery(document).ready(function() {
+		jQuery(".wpcf7-list-item-label").each(function (e) {
+			jQuery(this).after("<span style='position:relative;top:3px;left:3px;'>"+jQuery(this).html()+"</span>").html("");
+		});
+		console.log(jQuery(".wpcf7-list-item-label").html());
+	});
+</script>

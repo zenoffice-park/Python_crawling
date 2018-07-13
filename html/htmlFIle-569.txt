@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html  lang="en-US">
+<head id="head"><title>
+	Home | QSR International
+</title><meta charset="UTF-8" /> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="google-site-verification" content="LU2g2MqqzlkLhsnWW6Pu0-_7aTAqdzPbYQevEmqDO_A" />
+
+<link rel="stylesheet" href="/css/styles-qsr.css">
+
+<!-- Page-hiding snippet (recommended)  -->
+<style>.async-hide { opacity: 0 !important} </style>
+<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-TF7V6V4':true});</script>
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TFZHJ5');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Modified Analytics tracking code with Optimize plugin -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-993153-1', 'auto');
+    ga('require', 'GTM-TF7V6V4');
+    ga('send', 'pageview');
+</script>
+
+<script type="text/javascript">
+    adroll_adv_id = "UHT244HHCJCXJLESZLM6YJ";
+    adroll_pix_id = "K55JPHFHLNENVI222BFUOL";
+    /* OPTIONAL: provide email to improve user identification */
+    /* adroll_email = "username@example.com"; */
+    (function () {
+        var _onload = function(){
+            if (document.readyState && !/loaded|complete/.test(document.readyState)){setTimeout(_onload, 10);return}
+            if (!window.__adroll_loaded){__adroll_loaded=true;setTimeout(_onload, 50);return}
+            var scr = document.createElement("script");
+            var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+            scr.setAttribute('async', 'true');
+            scr.type = "text/javascript";
+            scr.src = host + "/j/roundtrip.js";
+            ((document.getElementsByTagName('head') || [null])[0] ||
+                document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+        };
+        if (window.addEventListener) {window.addEventListener('load', _onload, false);}
+        else {window.attachEvent('onload', _onload)}
+    }());
+</script>
+ 
+<link href="/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
+<link href="/favicon.ico" type="image/x-icon" rel="icon"/>
+<style>
+.cms-bootstrap .header-actions-container .control-group-inline {
+ width: auto!important;
+}
+.cms-bootstrap .header-actions-container .btn-actions .btn {
+ min-width: 0!important;
+ min-height: 0!important;
+}
+.cms-bootstrap .checkbox input:checked+label:after {
+ content: '';
+}
+</style></head>
+<body class="LTR ENUS ContentBody h2-heading" >
+     <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TFZHJ5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <form method="post" action="/" id="form">
+<input type="hidden" name="__CMSCsrfToken" id="__CMSCsrfToken" value="p3I/PVZubsPhyCrXHK0hBZlHpQmJguBk7lRRDSsZD2EAYqNb1jjHfD8MkA9dgWnpqF8D+19+ETaIthNSfxJka1Vr8G8=" />
+
+
+<input type="hidden" name="lng" id="lng" value="en-US" />
+<script src="/CMSPages/GetResource.ashx?scriptfile=%7e%2fCMSScripts%2fWebServiceCall.js" type="text/javascript"></script>
+<script type="text/javascript">
+	//<![CDATA[
+
+function PM_Postback(param) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); } if(window.CMSContentManager) { CMSContentManager.allowSubmit = true; }; __doPostBack('m$am',param); }
+function PM_Callback(param, callback, ctx) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }if (window.CMSContentManager) { CMSContentManager.storeContentChangedStatus(); };WebForm_DoCallback('m$am',param,callback,ctx,null,true); }
+//]]>
+</script>
+<script src="/ScriptResource.axd?d=qph9tUZ6hGPLbkznkRkqTdf1UBLelj1C2YWxEeeS4fz34ZlI7VJEijsZtjlYX7vVsn1O6Raj-WbzhRft9hPLWTWtjK8sWeuI_7kmrZD4-23JQRtY0&amp;t=7c776dc1" type="text/javascript"></script>
+<script type="text/javascript">
+	//<![CDATA[
+
+var CMS = CMS || {};
+CMS.Application = {
+  "isRTL": "false",
+  "isDebuggingEnabled": false,
+  "applicationUrl": "/",
+  "imagesUrl": "/CMSPages/GetResource.ashx?image=%5bImages.zip%5d%2f",
+  "isDialog": false
+};
+
+//]]>
+</script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A5343185" />
+    
+    <div id="ctxM">
+
+</div>
+    <script type="text/javascript">
+piAId = '347611';
+piCId = '1105';
+(function() {
+function async_load(){
+var s = document.createElement('script'); s.type = 'text/javascript';
+s.src = ('https:' == document.location.protocol ? 'https://pi' :
+'http://cdn') + '.pardot.com/pd.js';
+var c = document.getElementsByTagName('script')[0];
+c.parentNode.insertBefore(s, c);
+}
+if(window.attachEvent) { window.attachEvent('onload', async_load); }
+else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+<div class="master-wrapper qsr-layout" id="masterWrapper">
+  
+
+  <header class="dark-background">
+    <div class="utility">
+      
+      <div class="site-selection js-site-selection">
+  <div class="close-button utility-item">
+    <a href="#" class="js-collapsible-site-selection">close</a>
+  </div>
+  
+  <div class="module layout-flex">
+<div class="module-site-cta nvivo " style="background-image:url(/assets/images/bg-nvivo.jpg)">
+  <div class="heading">
+    <div class="img-wrapper">
+      <img src="/assets/images/nvivo-logo.png" />
+    </div>
+    <p class="by">by QSR</p>
+  </div>
+  
+  <p>Supports robust qualitative and mixed methods research for virtually any data source and any research method.</p>
+  <p class="cta-btn"><a href="/nvivo/home" class="btn">Learn more</a></p>
+</div><div class="module-site-cta interpris " style="background-image:url(/assets/images/bg-interpris.jpg)">
+  <div class="heading">
+    <div class="img-wrapper">
+      <img src="/assets/images/interpris-logo.png" />
+    </div>
+    <p class="by">by QSR</p>
+  </div>
+  
+  <p>Intuitive data analysis software designed for public policy experts analyzing surveys.</p>
+  <p class="cta-btn"><a href="/interpris/home" class="btn">Learn more</a></p>
+</div><div class="module-site-cta qsr current" style="background-image:url(/assets/images/bg-qsr.jpg)">
+  <div class="heading">
+    <div class="img-wrapper">
+      <img src="/assets/images/qsr-logo-white.png" />
+    </div>
+    <p class="by"></p>
+  </div>
+  
+  <p>Creating software to help you discover the rich insights from humanised data.</p>
+  <p class="cta-btn"><a href="/home" class="btn">Learn more</a></p>
+</div>
+  </div>
+</div>
+      
+      <div class="utility-item">
+        <div class="quick-jump">
+<a href="#" class="js-collapsible-site-selection"><span>Quick Jump</span></a>
+</div>
+<div class="search"><a href="/system/search"><span>Search</span></a></div>
+      </div>
+    </div>
+    
+    <div class="wrapper" style="background-image:url('/assets/images/qsr-corporate-header-bg.jpg')">
+      <a href="/" class="logo">
+        <img alt="QSR logo" src="/assets/images/qsr-logo-white.svg" class="mobile" />
+        <img alt="QSR logo" src="/assets/images/qsr-logo-white.svg" class="desktop" />
+      </a>
+      
+      <div class="mobile-nav">
+  <a href="#menu" class="navbar-toggle">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </a>
+  
+  <nav id="menu">
+    <ul>
+<li><a href="/about">About</a></li><li><a href="/partner">Partner</a></li><li><a href="/work-with-us">Work with us</a></li><li><a href="/newsroom">Newsroom</a></li>
+</ul>
+</nav>
+</div>
+      <nav>
+<ul>
+<li><a href="#" class="mega-menu-trigger">About<span class="dropdown-arrow"></span></a><div class="mega-menu">
+  <div class="mega-menu-wrapper"><span class="arrow-up"></span>
+    <div class="tile-wrapper">
+      
+      <div class="tile "><div class="link">
+  <a href="/about-us"><h4>About us</h4></a>
+  </div><p></p></div><!--tile-->
+<div class="tile"><div class="link">
+  <a href="/about-us/quick-facts"><h4>Quick facts</h4></a>
+  </div><p></p></div><!--tile-->
+<div class="tile"><div class="link">
+  <a href="/about-us/history"><h4>Our history</h4></a>
+  </div><p></p></div><!--tile-->
+<div class="tile"><div class="link">
+  <a href="/about-us/meet-the-team"><h4>Meet the team</h4></a>
+  </div><p></p></div><!-- last tile -->
+
+</div>
+</div>
+</div></li><li><a href="/about-us/partner-opportunities" class="">Partner</a></li><li><a href="/about-us/careers" class="">Work with us</a></li><li><a href="/about-us/newsroom" class="">Newsroom</a></li>
+</ul>
+</nav> 
+      
+    </div>
+  </header>
+
+
+<div class="container-fluid">
+  <div class="row">
+    
+    <div class="module module-double-cta">
+      <h1>Helping you discover the rich insights from humanized data.
+
+
+
+</h1><div class="cta-container">
+<div class="module-site-cta nvivo" style="background-image:url(/assets/images/bg-nvivo.jpg)">
+  <div class="heading">
+    <div class="img-wrapper">
+      <img src="/assets/images/nvivo-logo.png" />
+    </div>
+    
+    <p class="by">by QSR</p>
+  </div>
+  
+  <p>Supports robust qualitative and mixed methods research for virtually any data source and any research method.</p>
+  <p class="cta-btn"><a href="/nvivo/home" class="btn">Learn more</a></p>
+</div><div class="module-site-cta interpris" style="background-image:url(/assets/images/bg-interpris.jpg)">
+  <div class="heading">
+    <div class="img-wrapper">
+      <img src="/assets/images/interpris-logo.png" />
+    </div>
+    
+    <p class="by">by QSR</p>
+  </div>
+  
+  <p>Intuitive data analysis software designed for public policy experts analyzing surveys.</p>
+  <p class="cta-btn"><a href="/interpris/home" class="btn">Learn more</a></p>
+</div>
+</div>
+    </div>
+    
+  </div>
+</div>
+
+
+  <footer>
+    <div class="overlay"></div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="footer-content">
+          <div class="copy">	<p>© QSR International Pty Ltd  |  <a href="/legal/privacy-policy">Privacy</a>  |  <a href="/legal/terms-and-conditions">Terms &amp; Conditions</a>  |  <a href="/legal/legal">Legal</a>  |  <a href="/system/sitemap">Sitemap</a>  |  <a href="/nvivo/contact-us">Contact us</a></p></div>
+          
+          <div class="footer-logo">
+            <img src="/assets/images/qsr-logo-white.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+<script src="/js/libs/jquery-2.1.3.min.js"></script>
+<script src="/js/libs/angular.min.js"></script>
+<script src="/js/scripts.js"></script>
+
+<script type="text/javascript">
+  var trackcmp_email = '';
+  var trackcmp = document.createElement("script");
+  trackcmp.async = true;
+  trackcmp.type = 'text/javascript';
+  trackcmp.src = '//trackcmp.net/visit?actid=798844331&e='+encodeURIComponent(trackcmp_email)+'&r='+encodeURIComponent(document.referrer)+'&u='+encodeURIComponent(window.location.href);
+  var trackcmp_s = document.getElementsByTagName("script");
+  if (trackcmp_s.length) {
+    trackcmp_s[0].parentNode.appendChild(trackcmp);
+  } else {
+    var trackcmp_h = document.getElementsByTagName("head");
+    trackcmp_h.length && trackcmp_h[0].appendChild(trackcmp);
+  }
+</script>
+
+
+<!-- Google Code for Remarketing Tag -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 971358406;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/971358406/?guid=ON&amp;script=0"/>
+</div>
+</noscript>
+    
+    
+
+<script type="text/javascript">
+	//<![CDATA[
+WebServiceCall('/cmsapi/webanalytics', 'LogHit', '{"NodeAliasPath":"/Home","DocumentCultureCode":"en-US","UrlReferrer":""}')
+//]]>
+</script>  <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="FVfivXaMnMu65QjqI1pUN6pxE1QyJxUoS/FNexXhIFGs0SqdJuTfV42aHv7TmgjuHSKGNgAvWYUfldoJCJRPxXZlwU0GbdtN3+2OjjLe1EVgzgndxfjZRcyQehtP1F+GsFQ4JNnGHP/R+X5850TTfjf5qiyFc1EXsWedaGy+tPnfGduWUloy7ZsD1pc2jAq58sf/JiP2CtvuwDbymS5YbWNkoyd3+XOTJUnRXiSMldBj9H0wscxHECietIPeEMeqsx79g3Fy+VOsCTHHYF1GNerbg9MIZP+qUpkQZhn1Qx+D1BQ0gIfsdZj5C2Yx3PRlblMabbNTLdHqlz1ru/EBaQm57+MzsvSRmfupJE1vov3Z1kweEdi+f6MG7vRL9yBtCMy2OhzSoiv3nARzTjplYYJrsnN9D447qNi8PUO/udnrmvgrTsdVOIoSV3Ji9Wxq4tIMFDrXc3V6EGOHMAII8SUDHa69f6qGPFL8fmsM3bqRnAHBYu0y3b/AIXP4fgC7qflpoHIrcOoykQcKr6172mVKhdcGbLU4vmlC3DZWTOnC5qwRGHx8OdvW/9N7r3GEMmisUCxBWE2ohKBk3VUMvjW3ynFRydnLSRSnsRjawYxd/dYxcvD9HGeVXGTT04+P+loDkPt8QTaLNVcPMvBCl3NAnwY3Dg25Atsb6kb/Ur2uDCA1gZu9tMSWxnS53cf3SC0V1EfskRW0/EG7veOf6rKspu/i9qg+ggINbdfRHdYbUlbbp+eFdf7cRb4uSnD0MYMPZE0K4MSOxLJwP3GQb0gPOWvZqvGDvU654LxTbaSm/CMPf6Nm7SgfW+E8b85N3mVwfyfAwd3ADHaW91XlnU1YbgteWl/9Gw5dofdpIt+HLUURiZ8AKsku74S9fVnpX55mjU8KJvoXOsTmzmtPMenN5aW42f2t2J4sgnJRKeKcVJsh3aRdwOFI7T1nabHqA68KrILAZBwTPL3t4PKwu/srOBMbgVcgtL8WwoaiDnOJ06XjdGGCcbDGGQ9o3tn6JZDdF2kt9g7sXNLY0NZS3EN8f3E9lRqAsDSTia5rUcIdd/VVWWVkRGhQQYckSOSGPmWxSQjRzVtoGsanwjixynra/WTXmex3kHT2UjmiLOMkIVGSkEpRIjR0ROtcreG4ORgVFqFM8VE+XZ/b7M7vsLIXz5ABk2uLmoB7uZ6pvupgg1bLvj0ZCAqafGHzGcbuYVekxh6PJRwFSwgrH1dE+GAYnW9pC9mSvLf49LdiLK9fsVEd6+hdRnpDKufq6AQYbMWypPCMUeioRU3x6XzIw1FtD/xGl+gSgAVIG4+nljG5UDFT6iy1ievlaBubdZ23NlP+UQoVSW2bXa/8ukfzhrMXjG3XoqvRrbdPJJoYJaWF4xX2qbI8wXSlZolC8x5ayF/xZ+DEQuiC3gBQMZ74oPKLkgQ7fUanKt9nhkF4RQUVYHTcd8p04PFOUyorjJqVgNZhJy2boW4o/LGeisZqLe0mW0x434pwdMfugW0ajvgWtuJf7ekY7PHr6QYeUBW4c7BUlPdew/h5lRHWoTGe3mK0KM5hF35ayRbbOh3V5fzWDugoNfX74pBjzhNEamWDD4x6D/p7LX7NmPNkKqxi6yFl5aLab0LfFtnSUHM+X/9WOtZaEbJUeJlwvG38VrLsWSAYExumjLgt5FF5QUwZyZFnE842evU104jJ/ef5fk2+2U0KHTYj62i7MuRwzmlhIurIzaSqWnPkGsMTzNp69nDqszYASat4awE4icXjt65TlUdGZ2ZaZ45fvmh794lXfomX+u/9GX08naPG/NR5dxw+CBmrwibe8bQoc8EoSYsXvlw5MoJNRUZBSK6TEGus83htqJvNlcU5gtnL3Bz4oSRDP3mvuGVOiNVJeC0JS+HMKViTGbOiz2FKNk88LgkZKWWA4Q==" />
+  <script type="text/javascript"> 
+      //<![CDATA[
+      if (window.WebForm_InitCallback) { 
+        __theFormPostData = '';
+        __theFormPostCollection = new Array();
+        window.WebForm_InitCallback(); 
+      }
+      //]]>
+    </script>
+  </form>
+</body>
+</html>

@@ -1,0 +1,1225 @@
+ <!DOCTYPE html> <html lang="ja" xmlns="http://www.w3.org/1999/xhtml"> <head> <meta http-equiv="content-type" content="text/html; charset=utf-8" /> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>
+	賃貸オフィスの検索ならOffice Finder (オフィス ファインダー)
+</title> 
+    
+
+    <link href="https://www.jllproperty.jp/officefinder" rel="canonical"/> <script type="text/javascript"> var sln = 'officefinder'; var slk = 'officefinder'; var prefecture = 'tokyo'; </script> <link rel="stylesheet" type="text/css" href="/officefinderjp/styles/main.css?v=1.1.16" /> <script type="text/javascript">
+            //App Insights
+            var appInsights = window.appInsights || function (config) {
+                function s(config) { t[config] = function () { var i = arguments; t.queue.push(function () { t[config].apply(t, i) }) } } var t = { config: config }, r = document, f = window, e = "script", o = r.createElement(e), i, u; for (o.src = config.url || "//az416426.vo.msecnd.net/scripts/a/ai.0.js", r.getElementsByTagName(e)[0].parentNode.appendChild(o), t.cookie = r.cookie, t.queue = [], i = ["Event", "Exception", "Metric", "PageView", "Trace"]; i.length;) s("track" + i.pop()); return config.disableExceptionTracking || (i = "onerror", s("_" + i), u = f[i], f[i] = function (config, r, f, e, o) { var s = u && u(config, r, f, e, o); return s !== !0 && t["_" + i](config, r, f, e, o), s }), t
+            }({
+                // Dynamically assigns Intrumentation key assigned from web.config file
+                instrumentationKey: "01c5c18d-47d8-4325-8a48-413892cc0c2a"
+            });
+
+            window.appInsights = appInsights;
+            appInsights.trackPageView();
+    </script> <script type="text/javascript">var sf_appPath='/';</script><script type="text/javascript" src="//assets.adobedtm.com/bf8b6fe3d667eb41e642cda473f48c3bb5137825/satelliteLib-ace13761b4ec7fbbc8fd9bfb969098dfe8fd58c6.js"></script><script type="text/javascript">
+  dataLayer = [];
+var refinerforanalytics={};
+</script><style type="text/css" media="all">/*////// Top Voice Banner ////*/
+ #voice01 .btn_wrapper {
+    display: block;
+    background-color: #e81911;
+    font-size: 15px;
+    padding: 10px 12px;
+    text-align: center;
+  }
+
+  
+  #voice01 .btn_wrapper .btn {
+    display: inline-block;
+    padding: 7px 2em;
+    letter-spacing: 0.1em;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  #voice01 .btn_wrapper .btn:after {
+    content: "";
+    width: 10px;
+    height: 16px;
+    background: url(https://olmjpstdataprod001.blob.core.windows.net/sitefinity/images/librariesprovider8/case-studies/icon_casestudies_arrow.png?sfvrsn=2) 0 0 no-repeat;
+    background-size: 10px auto;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-left: .5em;
+  }
+ 
+  #voice01 .btn_wrapper .btn:hover {
+    background-color: transparent;
+  }
+
+@media (min-width: 768px) {
+  
+ #voice01 .btn_wrapper {
+    padding: 17px 12px;
+  }
+  
+  #voice01 .btn_wrapper .btn {
+    font-size: 15px;
+    border-radius: 0;
+    border: 2px solid #fff;
+  }
+
+}
+
+</style><meta name="Generator" content="Sitefinity 8.2.5900.0 PU" /><meta name="description" content="賃貸オフィスの検索ならオフィスファインダー。主要都市のオフィスをこだわり条件で一発検索。オフィス探しはOFFICE FINDERにお任せ。" /><meta name="keywords" content="賃貸 オフィス, オフィス 検索, office finder, オフィスファインダー" /></head> <body ng-app="jllpropertyapp" class="officefinder "> <!-- Google Tag Manager --> <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5RZRRH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5RZRRH'); </script> <!-- End Google Tag Manager --><script> var eloqformdata=undefined;</script> <style>
+.search_result .detail_wrapper .img img {
+    max-width: 168px;
+    max-height: 170px;
+}
+.comparison_list .detail_wrapper .img img {
+    max-width: 168px;
+    max-height: 170px;
+}
+.comparison_list_generated .table_wrapper .img img {
+    max-width: 168px;
+    max-height: 170px;
+}
+</style> <script>
+    var __buildVersion = '1.1.16';
+    var __language = 'ja-jp';
+    var __configset = 'pd';
+    </script> <script src="/ScriptResource.axd?d=94kyvkWSFyosyQ16-ZhjzVw9i4qcrz6Yqopj5eNO5XExOV6Kzy96CG5uZjFDrAf-SQhzZElcfF2hBJ4Dc3O2EtO_pFH83W6WFyDzf2-kOfRKOTxOo5DbGykNrGiGyxKrM6gGYnylzbbJ8YpevapiBaBWZL4RNjA28_wWAOoiAM3Plygg0&amp;t=37b841b5" type="text/javascript"></script><script src="/ScriptResource.axd?d=EydukmxBmDstn7gSYzQESDE5E08EyZWgJckPzrOJb4o42MQzjgueDQgdalCpB_mg3epmsJqKtBgHSUcnL3sIbbvVVWP0R1qkH5XB9x1NKzeVik-KTAxFZXrtThUK05DSjPIueXfNMucjSrxLW835-J4cUUQkd7JMxcOWT05liNE2P6Ea0&amp;t=37b841b5" type="text/javascript"></script> <script type="text/javascript" src="/officefinderjp/scripts/main.js?v=1.1.16"></script> <div class="Site sfPublicWrapper" id="PublicWrapper"> 
+<div id="Contentplaceholder1_T973D9059015_Col00" class="sf_colsIn generalTemplate" data-sf-element="Container" data-placeholder-label="main"><div id="Contentplaceholder1_T973D9059016_Col00" class="sf_colsIn" data-sf-element="Container" data-placeholder-label="header">
+
+
+
+
+
+
+<div >
+    <div ><form></form></div>
+</div>    <div class="widgetTemplateName" data-widget-template-name="Search POST Form"></div>
+
+<form action="/search/results?query=kSpUQe4sK5NM2--bft9R6-IcFDE=" method="post" id="searchform"> <input type="hidden" name="criteria" id="criteria" value=""> <input type="hidden" name="q" id="q" value=""> </form>
+
+<div >
+    <div ><!--[if lt IE 9]>
+<div class="alert alert-danger alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+お使いの Microsoft Internet Explorer のバージョンでは、正しく本サイトをご利用いただけなくなる可能性がございます。誠に恐れ入りますが、本サイトの推奨環境をご確認いただき、ブラウザを最新バージョンに更新してください
+</div><![endif]--></div>
+</div>    <div class="widgetTemplateName" data-widget-template-name="Aside Menu"></div>
+
+<div class="navmenu navmenu-default navmenu-fixed-left offcanvas ng-scope" style="background: #ffffff;" data-ng-controller="AsideBarController as asidebar"> <ul class="nav navmenu-nav header">
+        <li class="fl">MENU</li>
+        <li class="fr" ng-click="asidebar.closeAside()"><a href=""><img src="/themes/officeFinderjp/images/icon_close.png"></a></li>
+      </ul>
+<!--a class="navmenu-brand" href="#">Project name</a-->
+<ul class="nav navmenu-nav search">
+    <li class="area"><a href="/area">エリアから検索</a></li>
+    <li class="rail"><a href="/railway">路線から検索</a></li>
+    <li class="map"><a href="/map">地図から検索</a></li>
+    
+</ul>
+<ul class="nav navmenu-nav list">
+    <li><a class="glyphicon glyphicon-menu-right" href="/area/chiyoda-ku" title="" target="">千代田区物件一覧</a></li>
+    <li><a class="glyphicon glyphicon-menu-right" href="/area/chuo-ku" title="" target="">中央区物件一覧</a></li>
+    <li><a class="glyphicon glyphicon-menu-right" href="/area/minato-ku" title="" target="">港区物件一覧</a></li>
+    <li><a class="glyphicon glyphicon-menu-right" href="/area/shibuya-ku" title="" target="">渋谷区物件一覧</a></li>
+    <li><a class="glyphicon glyphicon-menu-right" href="/area/shinjuku-ku" title="" target="">新宿区物件一覧</a></li>
+    <li><a class="glyphicon glyphicon-menu-right" href="/area/shinagawa-ku" title="" target="">品川区物件一覧</a></li>
+    <li><a class="glyphicon glyphicon-menu-right" href="/area/meguro-ku" title="" target="">目黒区物件一覧</a></li>
+    <li><a class="glyphicon glyphicon-menu-right" href="/area/toshima-ku" title="" target="">豊島区物件一覧</a></li>
+    <li><a class="glyphicon glyphicon-menu-right" href="/area/koto-ku" title="" target="">江東区物件一覧</a></li>
+    <li><a class="glyphicon glyphicon-menu-right" href="/area/other-ku" title="" target="">その他地域物件一覧</a></li>
+</ul>
+<ul class="nav navmenu-nav site">
+    <li><a class="glyphicon glyphicon-triangle-right" href="/about" title="" target="">このサイトについて</a></li>
+    <li><a class="glyphicon glyphicon-triangle-right" href="/about/company" title="" target="">運営会社</a></li>
+    <li><a class="glyphicon glyphicon-triangle-right" href="/about/privacy-statement" title="" target="">プライバシー保護について</a></li>
+    <li><a class="glyphicon glyphicon-triangle-right" href="/about/terms-of-use" title="" target="">利用規約</a></li>
+    <li><a class="glyphicon glyphicon-triangle-right" href="/sitemap">サイトマップ</a></li>
+</ul>
+</div>
+    <div class="widgetTemplateName" data-widget-template-name="header_officefinder_JP"></div>
+
+<div class="mainHeader" ng-controller="MyCtrl2 as ctrl" data-ng-element-ready="loadCompleted()">
+  <!-- サイドオープン時メインコンテンツを覆う -->
+  <div class=" overlay hidden-lg hidden-md" id="js__overlay"></div>
+  <!-- サイドメニュー -->
+  <nav class="side-menu hidden-lg hidden-md hidden-print">
+    <dl class="header_nav">
+      <dt class="area"><a href="/officefinder/tokyo/area">エリア検索</a></dt>
+      <dd>
+        <ul>
+          <li><a href="/officefinder/tokyo/area">東京都</a></li>
+          <li><a href="/officefinder/kanagawa/area">神奈川県</a></li>
+          <li><a href="/officefinder/chiba/area">千葉県</a></li>
+          <li><a href="/officefinder/saitama/area">埼玉県</a></li>
+          <li><a href="/officefinder/osaka/area">大阪府</a></li>
+          <li><a href="/officefinder/kyoto/area">京都府</a></li>
+          <li><a href="/officefinder/hyogo/area">兵庫県</a></li>
+        </ul>
+      </dd>
+      <dt class="rail"><a href="/officefinder/tokyo/railway">路線検索</a></dt>
+      <dt class="map"><a href="/officefinder/tokyo/map">地図検索</a></dt>
+      <dt class="btn_list"><a href="/officefinder/compare">検討中リスト</a></dt>
+      <dt class="s360"><a target="_blank" href="/360">360ツアー</a></dt>
+      <dt class="site_logifinder"><a href="/logifinder">倉庫検索 Logi Finder</a></dt>
+      <dt class="site_translate"><a href="/officefinder/translate-to-english">Translate</a></dt>
+    </dl>
+    <ul class="header_nav_about">
+      <li><a href="/officefinder/about" title="" target=""><span class="glyphicon glyphicon-triangle-right"></span>このサイトについて</a></li>
+      <li><a href="/officefinder/about/company" title="" target=""><span class="glyphicon glyphicon-triangle-right"></span>運営会社</a></li>
+      <li><a href="/officefinder/about/privacy-statement" title="" target=""><span class="glyphicon glyphicon-triangle-right"></span>プライバシー保護について</a></li>
+      <li><a href="/officefinder/about/terms-of-use" title="" target=""><span class="glyphicon glyphicon-triangle-right"></span>利用規約</a></li>
+      <li><a href="/officefinder/sitemap"><span class="glyphicon glyphicon-triangle-right"></span>サイトマップ</a></li>
+      <!--/header_nav_about-->
+    </ul>
+    <!--/header_nav-->
+  </nav>
+  <!-- 開閉用ボタン -->
+  <div class="side-menu-btn hidden-lg hidden-md" id="js__sideMenuBtn"></div>
+
+  <div class="wrapper head-menu hidden-print">
+    <header class="hidden-lg hidden-md">
+      <div class="header_inner clearfix">
+        <div class="header_logo">
+          <a href="/officefinder">
+            <img class="logo-image" src="//olmjpstdataprod001.blob.core.windows.net/sitefinity/images/librariesprovider6/default-album/jll-logo-new.tmb-0.png?sfvrsn=1" alt="JLL" width="80">
+          </a>
+          <a href="/officefinder">
+            <img class="logo-image" src="//olmjpstdataprod001.blob.core.windows.net/sitefinity/images/librariesprovider8/default-album/header_logo_officefinder.png?sfvrsn=2" alt="OFFICE FINDER" width="160">
+            
+          </a>
+        </div>
+        <ul>
+          <li>
+            <a href="tel:0120917236">
+              <img src="//olmjpstdataprod001.blob.core.windows.net/sitefinity/images/librariesprovider6/default-album/icon_sp_tel.tmb-0.png?sfvrsn=1" alt="JLL" width="17">
+            </a>
+          </li>
+          <li>
+            <a href="/officefinder/inquiry">
+              <img src="//olmjpstdataprod001.blob.core.windows.net/sitefinity/images/librariesprovider6/default-album/icon_sp_contact.tmb-0.png?sfvrsn=1" alt="JLL" width="19">
+            </a>
+          </li>
+        </ul>
+        <ul class="link_btns hidden-xs">
+          <li class="s360">
+            <a target="_blank" href="/360">
+              <img src="//olmjpstdataprod001.blob.core.windows.net/sitefinity/images/librariesprovider8/default-album/icon_360_new.png?sfvrsn=2" alt="">
+            </a>
+          </li>
+          <li class="site_logifinder"><a href="/logifinder">倉庫検索<span>Logi Finder</span></a></li>
+          <li class="site_translate">
+            <a href="/officefinder/translate-to-english">
+              <img src="//olmjpstdataprod001.blob.core.windows.net/sitefinity/images/librariesprovider8/default-album/icon_translate.png?sfvrsn=2" alt="">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <header class="hidden-xs hidden-sm">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-8 col-md-9 clearfix">
+            <div class="header_wrapper">
+              <div class="header_logo">
+                <a href="/officefinder">
+                      <img class="logo-image" src="//olmjpstdataprod001.blob.core.windows.net/sitefinity/images/librariesprovider6/default-album/jll-logo-new.tmb-0.png?sfvrsn=1" alt="JLL" width="80">
+                  </a>
+                <a href="/officefinder">
+                  <img class="logo-image" src="//olmjpstdataprod001.blob.core.windows.net/sitefinity/images/librariesprovider8/default-album/header_logo_officefinder.png?sfvrsn=2" alt="OFFICE FINDER" width="160">
+                  
+                </a>
+              </div>
+              <ul class="header_nav">
+                <li class="area">
+                  <a href="/officefinder/tokyo/area">エリア検索</a>
+                  <ul>
+                    <li><a href="/officefinder/tokyo/area">東京都</a></li>
+                    <li><a href="/officefinder/kanagawa/area">神奈川県</a></li>
+                    <li><a href="/officefinder/chiba/area">千葉県</a></li>
+                    <li><a href="/officefinder/saitama/area">埼玉県</a></li>
+                    <li><a href="/officefinder/osaka/area">大阪府</a></li>
+                    <li><a href="/officefinder/kyoto/area">京都府</a></li>
+                    <li><a href="/officefinder/hyogo/area">兵庫県</a></li>
+                  </ul>
+                </li>
+                <li class="rail">
+                  <a href="/officefinder/tokyo/railway">路線検索</a>
+                </li>
+                <li class="map">
+                  <a href="/officefinder/tokyo/map">地図検索</a>
+                </li>
+                <li class="btn_list">
+                  <a href="/officefinder/compare">検討中リスト</a>
+                </li>
+                <!--/header_nav-->
+              </ul>
+              <!--/header_wrapper-->
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-3">
+            <div class="link_btns_wrapper">
+              <ul class="link_btns">
+                <li class="s360">
+                  <a target="_blank" href="/360">
+                    <img src="//olmjpstdataprod001.blob.core.windows.net/sitefinity/images/librariesprovider8/default-album/icon_360_new.png?sfvrsn=2" alt="">
+                  </a>
+                </li>
+                <li class="site_logifinder"><a href="/logifinder">倉庫検索<span>Logi Finder</span></a></li>
+                <li class="site_translate">
+                  <a href="/officefinder/translate-to-english">
+                    <img src="//olmjpstdataprod001.blob.core.windows.net/sitefinity/images/librariesprovider8/default-album/icon_translate.png?sfvrsn=2" alt="">
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="contact_wrapper">
+              <ul class="contact">
+                <li class="tel">
+                  <a class="telno" href="">
+                    0120-917-236
+                  </a>
+                </li>
+                <li class="inquiry"><a href="/officefinder/inquiry/request">お問い合わせ</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!--/header-->
+    </header>
+  </div>
+</div>
+<div class="container of-header-print visible-print-block pr_pb_10">
+  <div class="row">
+    <div class="col-sm-12"><img src="/officefinderjp/images/bnr_print_header.png" alt=""></div>
+    <!--/row-->
+  </div>
+  <!--/container-->
+</div>
+
+</div>
+<div id="contents">
+<div id="Contentplaceholder1_T973D9059012_Col00" class="sf_colsIn wrapper" data-sf-element="Contents Div" data-placeholder-label="Contents Placeholder"><div id="Contentplaceholder1_T973D9059010_Col00" data-placeholder-label="Site Content" class="sf_colsIn Site" data-sf-element="Container">    <div class="widgetTemplateName" data-widget-template-name="Homepage main search"></div>
+
+<div id="top">
+    <div id="main_vi_area" data-ng-controller="SearchFormController" ng-init="init()">
+        <div id="main_vi"  ng-style="{ 'background-image':'url(https://olmjpstdataprod001.blob.core.windows.net/sitefinity/images/librariesprovider8/default-album/officefinder_main_vi.jpg?sfvrsn=2)'}">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="lead">賃貸オフィスを検索する</h1>
+                        
+                    </div>
+                    <!--/row-->
+                </div>
+                <!--/container-->
+            </div>
+            <!--/main_vi-->
+        </div>
+        <div class="search_wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-inline">
+                            <div class="form-group floor_large type">
+                                <select ng-model="prefectureItem" class="form-control input-lg ng-pristine ng-untouched ng-valid select_arrow01" ng-change="getCurrentPrectureIndex();" ng-options="option.Prefecture for option in refiners.PrefectureList"></select>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control input-lg searchbox" typeahead-focus-first="false" typeahead-min-length="2" ng-keydown="$event.which === 13 && keywordKeypress($event)" id="searchbox" ng-model="refiners.keyword" typeahead="match as match.Category for match in getMatches($viewValue)"
+                                       typeahead-on-select="onSelect($item, $model, $label)" typeahead-template-url="homepagetypeahead.html" jll-placeholder="エリア、駅やビル名を入力" placeholder="エリア、駅やビル名を入力">
+                            </div>
+                            <div class="form-group floor_large type">
+                                <select ng-model="searchType" class="form-control input-lg ng-pristine ng-valid ng-touched select_arrow01 ng-untouched" ng-init="searchType = searchTypes[0]" ng-options="option.name for option in searchTypes"></select>
+                            </div>
+                            <div class="form-group floor_large">
+                                <select ng-show="searchType.imgNumber===2" class="form-control input-lg tsubo no-border ng-pristine ng-untouched ng-valid select_arrow02" ng-change="floorAreaUpdate();" ng-model="searchType.min" ng-options="v.DisplayText for v in refiners.Size.MinValues"></select>
+
+                                <select ng-show="searchType.imgNumber===3" class="form-control input-lg staff no-border ng-hide ng-pristine ng-untouched ng-valid select_arrow02" ng-change="floorAccomodationUpdate();" ng-model="searchType.min" ng-options="v.DisplayText for v in refiners.Accomodation.MinValues"></select>
+                            </div>
+                            <div class="form-group floor_large">
+                                <select ng-show="searchType.imgNumber===2" class="form-control input-lg tsubo select_arrow02" ng-change="floorAreaUpdate();" ng-model="searchType.max" ng-options="v.DisplayText for v in refiners.Size.MaxValues"></select>
+                                <select ng-show="searchType.imgNumber===3" class="form-control input-lg staff ng-hide select_arrow02" ng-change="floorAccomodationUpdate();" ng-model="searchType.max" ng-options="v.DisplayText for v in refiners.Accomodation.MaxValues"></select>
+                            </div>
+                            <p class="btn_wrapper">
+                                <input type="button" ng-click="doSearch()" class="btn_search btn btn-lg" value="検索">
+                            </p>
+                        </div>
+                        
+                    </div>
+                    <!--row-->
+                </div>
+                <!--/container-->
+            </div>
+            <!--/search_wrapper-->
+        </div>
+        <!--/main_vi_areas-->
+    </div>
+</div>
+<script type="text/ng-template" id="homepagetypeahead.html">
+    <ul class="jll_typeahead ">
+        <li class="category" ng-click="$event.stopPropagation()">{{ match.model.Category }} </li>
+        <li ng-repeat="item in match.model.Matches">
+            <a href="" ng-click="item.selected=true"><span ng-bind-html="item.DisplayText"></span></a>
+        </li>
+    </ul>
+</script>
+  
+
+
+
+
+<div> 
+    <section id="featured">
+    <div class="container">
+        <div class="row" data-ng-controller="NewPropertiesController">
+            <div class="col-md-12">
+                <ul class="tab">
+                  		    <li ng-class="{'active':1===1}"><a href="#shutoken">都内のおすすめ賃貸オフィス</a></li>
+                  		    <li ng-class="{'active':2===1}"><a href="#kansai">関西エリアおすすめ物件情報</a></li>
+                </ul>
+                <div class="tab-contents">				
+                  <div id="shutoken" ng-class="{'content on':1===1, 'content':1>1}">
+                        <h2 class="text-center">都内のおすすめ賃貸オフィス</h2>
+                        <div class="featured-wrapper">
+                            <div id="featured-c" class="owl-carousel owl-theme owl-loaded">
+                              <div class="" data-parent-element-css="" data-element-css="" data-jll-attach-directive=""
+                              data-start="newlisting-move" data-shouldremovestartpositionclass="true">
+                                <div class="is-hidden newlisting-move">                                  
+                                      <div class="item">
+                                         <p class="img">
+                                          <a href="/officefinder/property-547488">
+                                          <img src="//jll-global-gdim-res.cloudinary.com/image/upload/t_jp_main_pad/v1510674925/JP_ML20171113/OCEAN-GATE-MINATOMIRAI_49455_20171113_001.jpg" alt="横浜、オーシャンゲートみなとみらい、外観" title="横浜、オーシャンゲートみなとみらい、外観">
+                                          </a>
+                                        </p>
+                                      <div class="item_info">
+                                        <a href="/officefinder/property-547488"><h6>オーシャンゲートみなとみらい</h6></a>
+                                        <table class="info table table-condensed">
+                                          <tbody>
+                                            <tr>
+                                              <th>住所</th>
+                                              <td>横浜市西区みなとみらい3-7-1</td>
+                                            </tr>
+                                            <tr>
+                                              <th>エリア</th>
+                                              <td>みなとみらい・桜木町</td>
+                                            </tr>
+                                            <tr ng-if="'みなとみらい'" class="nr-station">
+                                              <th>最寄り駅</th>
+                                              <td ns="みなとみらい" swd="2" nos="4" jll-nearest=""></td>
+                                            </tr>
+                                            <tr>
+                                              <th>竣工</th>
+                                              <td>2017年</td>
+                                            </tr>
+                                            <tr>
+                                              <th>募集面積</th>
+                                              <td>60~895坪</td>
+                                            </tr>
+                                            <tr>
+                                              <td colspan="2">
+                                                <img class="img-360-vt" ng-click="show360Video('//viewoffice.ap.jll.com/view/Office/Japan/Tokyo/MinatoMirai%20Ocean%20Gate')" src="//olmjpstdataprod001.blob.core.windows.net/sitefinity/images/librariesprovider8/virtual360/vt360_top_icon.jpg" title="バーチャルツアー" />
+                                              </td>                                              
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <div class="btn_wrapper"><a class="btn" href="/officefinder/property-547488">詳細を見る</a></div>
+                                      </div>
+                                    </div>
+                                      <div class="item">
+                                         <p class="img">
+                                          <a href="/officefinder/property-547479">
+                                          <img src="//jll-global-gdim-res.cloudinary.com/image/upload/t_jp_main_pad/v1510674779/JP_ML20171113/Concurred-Yokohama-Building_49381_20171113_005.jpg" alt="横浜、コンカード横浜、外観" title="横浜、コンカード横浜、外観">
+                                          </a>
+                                        </p>
+                                      <div class="item_info">
+                                        <a href="/officefinder/property-547479"><h6>コンカード横浜</h6></a>
+                                        <table class="info table table-condensed">
+                                          <tbody>
+                                            <tr>
+                                              <th>住所</th>
+                                              <td>横浜市神奈川区金港町3-1</td>
+                                            </tr>
+                                            <tr>
+                                              <th>エリア</th>
+                                              <td>横浜駅東口</td>
+                                            </tr>
+                                            <tr ng-if="'横浜'" class="nr-station">
+                                              <th>最寄り駅</th>
+                                              <td ns="横浜" swd="6" nos="10" jll-nearest=""></td>
+                                            </tr>
+                                            <tr>
+                                              <th>竣工</th>
+                                              <td>2008年</td>
+                                            </tr>
+                                            <tr>
+                                              <th>募集面積</th>
+                                              <td>58~243坪</td>
+                                            </tr>
+                                            <tr>
+                                              <td colspan="2">
+                                                <img class="img-360-vt" ng-click="show360Video('//vtour.azurewebsites.net/office/Japan/Tokyo/concurred_yokohama/')" src="//olmjpstdataprod001.blob.core.windows.net/sitefinity/images/librariesprovider8/virtual360/vt360_top_icon.jpg" title="バーチャルツアー" />
+                                              </td>                                              
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <div class="btn_wrapper"><a class="btn" href="/officefinder/property-547479">詳細を見る</a></div>
+                                      </div>
+                                    </div>
+                                      <div class="item">
+                                         <p class="img">
+                                          <a href="/officefinder/property-555680">
+                                          <img src="//jll-global-gdim-res.cloudinary.com/image/upload/t_jp_main_pad/v1510633487/JP_ML20171113/Jimbocho-Mitsui-Building_25202_20171113_012.jpg" alt="千代田区、神保町三井ビルディング、外観" title="千代田区、神保町三井ビルディング、外観">
+                                          </a>
+                                        </p>
+                                      <div class="item_info">
+                                        <a href="/officefinder/property-555680"><h6>神保町三井ビルディング</h6></a>
+                                        <table class="info table table-condensed">
+                                          <tbody>
+                                            <tr>
+                                              <th>住所</th>
+                                              <td>東京都千代田区神田神保町1-105</td>
+                                            </tr>
+                                            <tr>
+                                              <th>エリア</th>
+                                              <td>神保町・九段</td>
+                                            </tr>
+                                            <tr ng-if="'神保町'" class="nr-station">
+                                              <th>最寄り駅</th>
+                                              <td ns="神保町" swd="3" nos="10" jll-nearest=""></td>
+                                            </tr>
+                                            <tr>
+                                              <th>竣工</th>
+                                              <td>2003年</td>
+                                            </tr>
+                                            <tr>
+                                              <th>募集面積</th>
+                                              <td>108~290坪</td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <div class="btn_wrapper"><a class="btn" href="/officefinder/property-555680">詳細を見る</a></div>
+                                      </div>
+                                    </div>
+                                      <div class="item">
+                                         <p class="img">
+                                          <a href="/officefinder/property-548359">
+                                          <img src="//jll-global-gdim-res.cloudinary.com/image/upload/t_jp_main_pad/v1510651629/JP_ML20171113/PMO-Tamachi-Higashi--Pre--PMO-Tamachi-II-PJ-_35275_20171113_001.jpg" alt="港区、PMO田町東、外観" title="港区、PMO田町東、外観">
+                                          </a>
+                                        </p>
+                                      <div class="item_info">
+                                        <a href="/officefinder/property-548359"><h6>PMO田町東</h6></a>
+                                        <table class="info table table-condensed">
+                                          <tbody>
+                                            <tr>
+                                              <th>住所</th>
+                                              <td>東京都港区芝4-13-3</td>
+                                            </tr>
+                                            <tr>
+                                              <th>エリア</th>
+                                              <td>高輪・芝</td>
+                                            </tr>
+                                            <tr ng-if="'三田（東京都）'" class="nr-station">
+                                              <th>最寄り駅</th>
+                                              <td ns="三田（東京都）" swd="3" nos="8" jll-nearest=""></td>
+                                            </tr>
+                                            <tr>
+                                              <th>竣工</th>
+                                              <td>2018年</td>
+                                            </tr>
+                                            <tr>
+                                              <th>募集面積</th>
+                                              <td>182坪</td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <div class="btn_wrapper"><a class="btn" href="/officefinder/property-548359">詳細を見る</a></div>
+                                      </div>
+                                    </div>
+                                      <div class="item">
+                                         <p class="img">
+                                          <a href="/officefinder/property-555780">
+                                          <img src="//jll-global-gdim-res.cloudinary.com/image/upload/t_jp_main_pad/v1510671231/JP_ML20171113/PMO-Higashi-Shimbashi_47106_20171113_002.jpg" alt="港区、PMO東新橋、外観" title="港区、PMO東新橋、外観">
+                                          </a>
+                                        </p>
+                                      <div class="item_info">
+                                        <a href="/officefinder/property-555780"><h6>PMO東新橋</h6></a>
+                                        <table class="info table table-condensed">
+                                          <tbody>
+                                            <tr>
+                                              <th>住所</th>
+                                              <td>東京都港区東新橋2-12-1</td>
+                                            </tr>
+                                            <tr>
+                                              <th>エリア</th>
+                                              <td>新橋・虎ノ門</td>
+                                            </tr>
+                                            <tr ng-if="'大門（東京都）'" class="nr-station">
+                                              <th>最寄り駅</th>
+                                              <td ns="大門（東京都）" swd="5" nos="10" jll-nearest=""></td>
+                                            </tr>
+                                            <tr>
+                                              <th>竣工</th>
+                                              <td>2018年</td>
+                                            </tr>
+                                            <tr>
+                                              <th>募集面積</th>
+                                              <td>104坪</td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <div class="btn_wrapper"><a class="btn" href="/officefinder/property-555780">詳細を見る</a></div>
+                                      </div>
+                                    </div>
+                                      <div class="item">
+                                         <p class="img">
+                                          <a href="/officefinder/property-536587">
+                                          <img src="//jll-global-gdim-res.cloudinary.com/image/upload/t_jp_main_pad/v1510661934/JP_ML20171113/Shinjuku-Mitsui-Building_41512_20171113_005.jpg" alt="新宿区、新宿三井ビルディング、外観" title="新宿区、新宿三井ビルディング、外観">
+                                          </a>
+                                        </p>
+                                      <div class="item_info">
+                                        <a href="/officefinder/property-536587"><h6>新宿三井ビルディング</h6></a>
+                                        <table class="info table table-condensed">
+                                          <tbody>
+                                            <tr>
+                                              <th>住所</th>
+                                              <td>東京都新宿区西新宿2-1-1</td>
+                                            </tr>
+                                            <tr>
+                                              <th>エリア</th>
+                                              <td>西新宿</td>
+                                            </tr>
+                                            <tr ng-if="'都庁前'" class="nr-station">
+                                              <th>最寄り駅</th>
+                                              <td ns="都庁前" swd="2" nos="10" jll-nearest=""></td>
+                                            </tr>
+                                            <tr>
+                                              <th>竣工</th>
+                                              <td>1974年</td>
+                                            </tr>
+                                            <tr>
+                                              <th>募集面積</th>
+                                              <td>254坪</td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <div class="btn_wrapper"><a class="btn" href="/officefinder/property-536587">詳細を見る</a></div>
+                                      </div>
+                                    </div>
+                                </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                  <div id="kansai" ng-class="{'content on':2===1, 'content':2>1}">
+                        <h2 class="text-center">関西エリアおすすめ物件情報</h2>
+                        <div class="featured-wrapper">
+                            <div id="featured-c" class="owl-carousel owl-theme owl-loaded">
+                              <div class="" data-parent-element-css="" data-element-css="" data-jll-attach-directive=""
+                              data-start="newlistingkansai-move" data-shouldremovestartpositionclass="true">
+                                <div class="is-hidden newlistingkansai-move">                                  
+                                      <div class="item">
+                                         <p class="img">
+                                          <a href="/officefinder/property-555789">
+                                          <img src="//jll-global-gdim-res.cloudinary.com/image/upload/t_jp_main_pad/v1510670478/JP_ML20171113/Asia-One-Center_46594_20171113_002.jpg" alt="兵庫県エリアその他、アジア・ワン・センター（Asia One Center）、外観" title="兵庫県エリアその他、アジア・ワン・センター（Asia One Center）、外観">
+                                          </a>
+                                        </p>
+                                      <div class="item_info">
+                                        <a href="/officefinder/property-555789"><h6>アジア・ワン・センター（Asia One Center）</h6></a>
+                                        <table class="info table table-condensed">
+                                          <tbody>
+                                            <tr>
+                                              <th>住所</th>
+                                              <td>神戸市東灘区向洋町中1-17</td>
+                                            </tr>
+                                            <tr>
+                                              <th>エリア</th>
+                                              <td>その他兵庫県全域</td>
+                                            </tr>
+                                            <tr ng-if="'アイランドセンター'" class="nr-station">
+                                              <th>最寄り駅</th>
+                                              <td ns="アイランドセンター" swd="4" nos="3" jll-nearest=""></td>
+                                            </tr>
+                                            <tr>
+                                              <th>竣工</th>
+                                              <td>1993年</td>
+                                            </tr>
+                                            <tr>
+                                              <th>募集面積</th>
+                                              <td>261~501坪</td>
+                                            </tr>
+                                            <tr>
+                                              <td colspan="2">
+                                                <img class="img-360-vt" ng-click="show360Video('//vtour.azurewebsites.net/office/Japan/Tokyo/Asia_One_Center/')" src="//olmjpstdataprod001.blob.core.windows.net/sitefinity/images/librariesprovider8/virtual360/vt360_top_icon.jpg" title="バーチャルツアー" />
+                                              </td>                                              
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <div class="btn_wrapper"><a class="btn" href="/officefinder/property-555789">詳細を見る</a></div>
+                                      </div>
+                                    </div>
+                                      <div class="item">
+                                         <p class="img">
+                                          <a href="/officefinder/property-547154">
+                                          <img src="//jll-global-gdim-res.cloudinary.com/image/upload/t_jp_main_pad/v1510661629/JP_ML20171113/Nakanoshima-Daibiru_41349_20171113_005.jpg" alt="大阪市北区、中之島ダイビル、外観" title="大阪市北区、中之島ダイビル、外観">
+                                          </a>
+                                        </p>
+                                      <div class="item_info">
+                                        <a href="/officefinder/property-547154"><h6>中之島ダイビル</h6></a>
+                                        <table class="info table table-condensed">
+                                          <tbody>
+                                            <tr>
+                                              <th>住所</th>
+                                              <td>大阪市北区中之島3-3-23</td>
+                                            </tr>
+                                            <tr>
+                                              <th>エリア</th>
+                                              <td>堂島・中之島</td>
+                                            </tr>
+                                            <tr ng-if="'渡辺橋'" class="nr-station">
+                                              <th>最寄り駅</th>
+                                              <td ns="渡辺橋" swd="2" nos="10" jll-nearest=""></td>
+                                            </tr>
+                                            <tr>
+                                              <th>竣工</th>
+                                              <td>2009年</td>
+                                            </tr>
+                                            <tr>
+                                              <th>募集面積</th>
+                                              <td>87~446坪</td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <div class="btn_wrapper"><a class="btn" href="/officefinder/property-547154">詳細を見る</a></div>
+                                      </div>
+                                    </div>
+                                      <div class="item">
+                                         <p class="img">
+                                          <a href="/officefinder/property-555516">
+                                          <img src="//jll-global-gdim-res.cloudinary.com/image/upload/t_jp_main_pad/v1510667363/JP_ML20171113/Forecast-Sakaisuji-Hommachi_44718_20171113_002.jpg" alt="大阪市中央区、フォーキャスト堺筋本町、外観" title="大阪市中央区、フォーキャスト堺筋本町、外観">
+                                          </a>
+                                        </p>
+                                      <div class="item_info">
+                                        <a href="/officefinder/property-555516"><h6>フォーキャスト堺筋本町</h6></a>
+                                        <table class="info table table-condensed">
+                                          <tbody>
+                                            <tr>
+                                              <th>住所</th>
+                                              <td>大阪市中央区久太郎町1-6-29</td>
+                                            </tr>
+                                            <tr>
+                                              <th>エリア</th>
+                                              <td>本町・堺筋本町</td>
+                                            </tr>
+                                            <tr ng-if="'堺筋本町'" class="nr-station">
+                                              <th>最寄り駅</th>
+                                              <td ns="堺筋本町" swd="1" nos="10" jll-nearest=""></td>
+                                            </tr>
+                                            <tr>
+                                              <th>竣工</th>
+                                              <td>2009年</td>
+                                            </tr>
+                                            <tr>
+                                              <th>募集面積</th>
+                                              <td>284坪</td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <div class="btn_wrapper"><a class="btn" href="/officefinder/property-555516">詳細を見る</a></div>
+                                      </div>
+                                    </div>
+                                      <div class="item">
+                                         <p class="img">
+                                          <a href="/officefinder/property-555005">
+                                          <img src="//jll-global-gdim-res.cloudinary.com/image/upload/t_jp_main_pad/v1510645923/JP_ML20171113/Shin-Nankai-Kaikan-Building_31855_20171113_002.jpg" alt="大阪市中央区、なんばスカイオ（旧：（仮）新南海会館ビル）、外観" title="大阪市中央区、なんばスカイオ（旧：（仮）新南海会館ビル）、外観">
+                                          </a>
+                                        </p>
+                                      <div class="item_info">
+                                        <a href="/officefinder/property-555005"><h6>なんばスカイオ（旧：（仮）新南海会館ビル）</h6></a>
+                                        <table class="info table table-condensed">
+                                          <tbody>
+                                            <tr>
+                                              <th>住所</th>
+                                              <td>大阪市中央区難波5-1-60</td>
+                                            </tr>
+                                            <tr>
+                                              <th>エリア</th>
+                                              <td>心斎橋・なんば</td>
+                                            </tr>
+                                            <tr ng-if="'近鉄日本橋'" class="nr-station">
+                                              <th>最寄り駅</th>
+                                              <td ns="近鉄日本橋" swd="9" nos="9" jll-nearest=""></td>
+                                            </tr>
+                                            <tr>
+                                              <th>竣工</th>
+                                              <td>2018年</td>
+                                            </tr>
+                                            <tr>
+                                              <th>募集面積</th>
+                                              <td>562坪</td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <div class="btn_wrapper"><a class="btn" href="/officefinder/property-555005">詳細を見る</a></div>
+                                      </div>
+                                    </div>
+                                      <div class="item">
+                                         <p class="img">
+                                          <a href="/officefinder/property-553993">
+                                          <img src="//jll-global-gdim-res.cloudinary.com/image/upload/t_jp_main_pad/v1510655127/JP_ML20171113/Shin-Osaka-MT-Building-No-1_37413_20171113_010.jpg" alt="大阪市淀川区、新大阪MTビル1号館、外観" title="大阪市淀川区、新大阪MTビル1号館、外観">
+                                          </a>
+                                        </p>
+                                      <div class="item_info">
+                                        <a href="/officefinder/property-553993"><h6>新大阪MTビル1号館</h6></a>
+                                        <table class="info table table-condensed">
+                                          <tbody>
+                                            <tr>
+                                              <th>住所</th>
+                                              <td>大阪市淀川区西中島5-13-9</td>
+                                            </tr>
+                                            <tr>
+                                              <th>エリア</th>
+                                              <td>新大阪・十三</td>
+                                            </tr>
+                                            <tr ng-if="'新大阪'" class="nr-station">
+                                              <th>最寄り駅</th>
+                                              <td ns="新大阪" swd="4" nos="8" jll-nearest=""></td>
+                                            </tr>
+                                            <tr>
+                                              <th>竣工</th>
+                                              <td>1984年</td>
+                                            </tr>
+                                            <tr>
+                                              <th>募集面積</th>
+                                              <td>256坪</td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <div class="btn_wrapper"><a class="btn" href="/officefinder/property-553993">詳細を見る</a></div>
+                                      </div>
+                                    </div>
+                                </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <script type="text/ng-template" id="VT360ViewModal.html">
+        <div id="modal_window" class="vt360Wrapper">
+             <a class="close" ng-click="cancel()" title="閉じる">X</a>
+                 <iframe src="{{str360Url}}" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+   </script>
+</section>
+
+
+</div>     <div class="widgetTemplateName" data-widget-template-name="Home Page Recommendations Widget"></div>
+
+
+<section id="recommend" class="toppage hidden-print ng-cloak" ng-controller="RecommendedPropertyController" ng-init="init();">
+  <div class="container">
+    <div id="imgLoad" ng-show="isLoading"><div style="height:102px"><p style="font-size:25px;"><img src="/Themes/officefinderjp/Images/loader.gif"></p></div></div>
+    <div class="row" ng-show="toBeDisplayed">
+      <div class="col-md-12">
+        <h3 class="middle-title" style="padding:10px 0 10px 10px; color:#fff;">レコメンド物件</h3>
+        <div class="recommend-wrapper">
+          <div id="recommend-c" class="owl-carousel owl-theme">
+            <div class="item" ng-cloak ng-repeat="prop in Recommendations" on-finish-render="ngRepeatFinished">
+              <a class="clearfix" href="/{{prop.Property.BuildingUrl}}" target="_blank">
+                <p class="img"><img class="img-responsive" src="{{formatUrl(prop.Property.TopPropertyImageUrl)}}" alt="{{prop.Property.Region}}、{{formatPropertyTitle(prop.Property.Title)}}、外観" title="{{prop.Property.Region}}、{{formatPropertyTitle(prop.Property.Title)}}、外観"></p>
+                <h6>{{prop.Property.BuildingName}}</h6>
+                <div>
+                  <p class="address">{{prop.Property.AddressText}}</p>
+                  
+                  <p class="access" ng-hide="prop.Property.NearestStation === '' || prop.Property.NearestStation === null" jll-nearest="" ns="{{prop.Property.NearestStation}}" swd="{{prop.Property.StationWalkDuration}}" nos="{{prop.Property.NoOfStations}}"></p>
+                  <p class="floor">{{prop.Property.StoreyText}}</p>
+                  
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div >
+    <div ><section id="voice01">
+          	<div class="container">
+          		<div class="row">
+          			<div class="title_wrapper clearfix"><h3><span>事例紹介</span></h3><a href="/officefinder/case-studies" style="padding-top:6px;">アーカイブを見る</a></div>
+          			<div class="col-md-6 col-sm-6 detail_wrapper">
+          				<h4>【新着】Contemporary Amperex Technology Japan(CATJ)株式会社</h4>
+          				<div class="row">
+          <p class="img col-md-4"><a href="/officefinder/case-studies/catj"><img class="img-responsive" src="https://olmjpstdataprod001.blob.core.windows.net/sitefinity/images/librariesprovider8/case-studies/case_img_catj01.jpg?sfvrsn=2" alt="お客様の声、Contemporary Amperex Technology Japan(CATJ)株式会社" title="Contemporary Amperex Technology Japan(CATJ)株式会社"></a></p>
+          					<div class="col-md-8">
+          						<p class="title"><a href="/officefinder/case-studies/catj">Contemporary Amperex Technology Japan(CATJ)株式会社</a></p>
+          						<a href="/officefinder/case-studies/catj"><p>Contemporary Amperex Technology Japan(CATJ)株式会社は、中国で2011年に創業し、わずか7年で電気自動車（EV）バッテリー販売数の世界トップに躍り出たCATL（寧徳時代新能源科技）の日本法人です。</p></a>
+          					</div>
+          				<!--/row--></div>
+          			</div>
+          			<div class="col-md-6 col-sm-6 detail_wrapper">
+          				<h4>ヤマトマテリアル株式会社</h4>
+          				<div class="row">
+          <p class="img col-md-4"><a href="/officefinder/case-studies/yamatomaterial"><img class="img-responsive" src="https://olmjpstdataprod001.blob.core.windows.net/sitefinity/images/librariesprovider8/case-studies/case_img_yamato01.jpg?sfvrsn=2" alt="お客様の声、ヤマトマテリアル株式会社" title="お客様の声、ヤマトマテリアル株式会社"></a></p>
+          					<div class="col-md-8">
+          						<p class="title"><a href="/officefinder/case-studies/yamatomaterial">ヤマトマテリアル株式会社</a></p>
+          						<a href="/officefinder/case-studies/yamatomaterial"><p>ヤマトマテリアル株式会社は、1889年（明治22年）の創業以来、容器・包装、アクア（ウォーターサーバー関連）、生産システム、エレクトロニクスの各分野を中心に 幅広い事業展開を行う専門商社です。</p></a>
+          					</div>
+          				<!--/row--></div>
+          			</div>
+          			
+          			
+          			
+          		<!--/row--></div>
+          		
+          		<div class="row">
+            		<div class="col-md-6 col-sm-6 detail_wrapper">
+          				<h4>セキスイハイム近畿株式会社</h4>
+          				<div class="row">
+          <p class="img col-md-4"><a href="/officefinder/case-studies/sekisuiheim"><img class="img-responsive" src="https://olmjpstdataprod001.blob.core.windows.net/sitefinity/images/librariesprovider8/case-studies/case_img_sekisui01.jpg?sfvrsn=2" alt="お客様の声、セキスイハイム近畿株式会社" title="お客様の声、セキスイハイム近畿株式会社"></a></p>
+          					<div class="col-md-8">
+          						<p class="title"><a href="/officefinder/case-studies/sekisuiheim">セキスイハイム近畿株式会社</a></p>
+          						<a href="/officefinder/case-studies/sekisuiheim"><p>セキスイハイム近畿株式会社は、2017年7月に梅田阪急ビルオフィスタワー23階に都市型情報発信拠点「セキスイハイムミュージアム梅田」をオープンしました。</p></a>
+          					</div>
+          				<!--/row--></div>
+          			</div>
+          			
+            		<div class="col-md-6 col-sm-6 detail_wrapper">
+          				<h4>イマージョン・ジャパン株式会社</h4>
+          				<div class="row">
+          <p class="img col-md-4"><a href="/officefinder/case-studies/immersion"><img class="img-responsive" src="https://olmjpstdatadev002.blob.core.windows.net/sitefinity-apmn/images/librariesprovider8/case-studies/case_img_immersion01.jpg?sfvrsn=2" alt="お客様の声、イマージョン・ジャパン株式会社" title="お客様の声、イマージョン・ジャパン株式会社"></a></p>
+          					<div class="col-md-8">
+          						<p class="title"><a href="/officefinder/case-studies/immersion">イマージョン・ジャパン</a></p>
+          						<a href="/officefinder/case-studies/immersion"><p>イマージョン・ジャパン株式会社は、タッチ フィードバック テクノロジーで世界をリードするイノベーター企業です。</p></a>
+          					</div>
+          				<!--/row--></div>
+          			</div>
+          			
+            		
+            		
+            		
+          		<!--/row--></div>
+          		
+          		<div class="btn_wrapper"><a class="btn" href="/officefinder/case-studies/all">すべての事例ページを見る</a></div>
+          		
+          		
+          		
+          	<!--/container--></div>
+          <!--/voice--></section></div>
+</div>
+<div >
+    <div ><section>
+            <div class="video wrapper" style="padding-top: 0;">
+              <div class="container ">
+                <div class="row">
+                  <div class="col-md-12" style="padding-right:0;">
+                 
+            <div class="title_wrapper clearfix" style="margin-left: 0"><h3>事例紹介ビデオ</h3></div>
+                      <div class="col-sm-4">
+                        <div class="video_outer">
+                          <div class="video_wrap">
+                            <iframe src="https://www.youtube.com/embed/2stWErovvCA" frameborder="0" allowfullscreen=""></iframe>
+                          </div>
+                          <h4>日本マクドナルド　オフィスリニューアルプロジェクト</h4>
+                        </div>
+                      </div>
+                      
+                      <div class="col-sm-4">
+                        <div class="video_outer">
+                          <div class="video_wrap">
+                            <iframe  src="https://www.youtube.com/embed/xvu1WBSlmt4" frameborder="0" allowfullscreen=""></iframe>
+                          </div>
+                          <h4>アストラゼネカ株式会社　日本法人本社移転プロジェクト</h4>
+                        </div>
+                      </div>
+                      
+                      <div class="col-sm-4">
+                        <div class="video_outer">
+                          <div class="video_wrap">
+                            <iframe src="https://www.youtube.com/embed/gLh5EY2Mi2c" frameborder="0" allowfullscreen=""></iframe>
+                          </div>
+                          <h4>Invivoscribe社　日本オフィスおよび研究所設立プロジェクト</h4>
+                        </div>
+                      </div>
+                   </div>
+                  </div>
+               
+              <!--/container--></div>
+            <!--/video--></div>
+            </section>
+            
+            <!--div class="container banner_area">
+            <div class="row">
+            <div class="col-md-12">
+            <img class="img-responsive"  src="https://olmjpstdataprod001.blob.core.windows.net/sitefinity/images/librariesprovider6/default-album/bnr_campaign2016_2.jpg?sfvrsn=2" alt="bnr_campaign2016_2"/>
+            </div>
+            </div>
+            </div--!></div>
+</div>
+<div >
+    <div ><!-- <div class="container">
+  			  <div style="text-align: center; margin: 30px 0;">
+    			  <div style="display: inline-block; padding: 25px 30px; background-color: #f5f5f5;text-align: left;">
+      			  <p style="font-weight: bold; margin-bottom: 20px;">年末年始休業のお知らせ</p>
+      			  <p>平素は格別のご高配を賜り、誠にありがとうございます。年末年始の休業期間について、以下お知らせ致します。</p>
+      			  <p>ご不便をおかけいたしますが、何卒ご了承いただきますようお願い申し上げます。</p>
+      			  <p style="text-decoration: underline; margin-top: 25px">休業期間：2017年12月28日（木曜日）〜2018年1月3日（水曜日）</p>
+      			  <p style="margin-top: 25px; margin-bottom: 0;">※メールによるお問い合わせにつきましては、2018年1月4日以降順次回答をさせていただきます。</p>
+    			  </div>
+  			  </div>
+			  </div>-->
+
+<section id="market_summary">
+          	<div class="container">
+          		<div class="row">
+          			<div class="col-md-12">
+          				<ul id="tabmenu" class="clearfix">
+                      <li class="active"><a href="#tab1">東京オフィス市況・<br class="visible-xs">相場アップデート</a></li>
+                      <li class=""><a href="#tab2">大阪オフィス市況・<br class="visible-xs">相場アップデート</a></li>
+                  </ul>
+                  <div id="tabbox">
+                      <div id="tab1">
+                        <div class="detail_wrapper">
+                    		  <p style="margin: 0 0 15px;padding-bottom: 5px;border-bottom: 2px solid #9f9f9f;font-weight: 700;line-height: 1.3;">2018年7月東京オフィス市場賃料・空室動向 (Aグレードオフィス市場)</p>
+
+                    				<p style="font-weight:700;">6月短観 大企業製造業の業況判断 悪化2期連続</p>
+                    				<p>6月の短観によると、大企業製造業の業況判断は21ポイントとなり、前回3月調査時との比較で3ポイント悪化した。悪化は2期連続。米国における輸入制限の発動、追加関税懸念や原材料高が影響した。先行きの業況判断をみると、21ポイントで横ばいとなっている。</p>
+                    				<p style="font-weight:700;">2018年第2四半期 Aグレードオフィス空室率2.0%へと低下</p>
+                    				<p>第2四半期末時点のAグレードオフィスの空室率は2.0%となり、前月比1.2ポイントの低下、前期比0.7ポイントの低下、前年比0.9ポイントの低下となった。空室率はCBD全体にかけて低下し、とりわけ丸の内・大手町にて大幅な低下がみられた。賃料は月額坪当たり37,098円となり、前月比0.1%の下落、前期比0.1%の上昇、前年比1.5%の上昇となった。上昇は25四半期連続。上昇ペースは3四半期ぶりに減速した。賃料はCBD全体で上昇、とりわけ新宿の既存ビルにて上昇がみられた。</p>
+                    				<p style="font-weight:700;">2018年第2四半期 Bグレードオフィス 空室率1%を下回る水準へと低下2006年以来初めて</p>
+                    				<p>第2四半期末時点のBグレードオフィスの空室率は0.9%となり、前期比0.5ポイントの低下、前年比1.6ポイントの低下となった。低下は4四半期連続。2006年以来初めて1%を下回る水準へと低下した。賃料は月額坪当たり23,155 円となり、前期比1.1%の上昇、前年比2.3%の上昇となった。上昇ペースは3四半期連続加速。空室が減少した、一部ビルでは力強い賃料上昇がみられた。</p>
+                    				<p style="font-weight:700;">Aグレードオフィス 2018年の新規供給を吸収する旺盛な需要 2019年の予約契約も順調</p>
+                    				<p>第2四半期の新規供給は155,000m²となり、ストックは前期比1.9%増加、前年比4.7%増加した。msb Tamachi 田町ステーションタワーS(貸床面積77,000m²)、日本橋高島屋三井ビル(貸床面積59,000m²)、住友不動産御成門タワー(貸床面積18,000m²)が竣工した。旺盛な需要が2018年の新規供給を吸収しており、予約契約は2019年の供給予定まで順調となっている。</p>
+                  			</div>
+                        <div style="margin-top:30px;"><img style="margin:0 auto;" class="img-responsive" src="https://olmjpstdataprod001.blob.core.windows.net/sitefinity/images/librariesprovider8/default-album/img_office_180709.jpg?sfvrsn=2" alt="img_office_180709" width="680"></div>
+
+                        <a class="show_archive" href="/officefinder/markets" style="top:0;">アーカイブを見る</a>
+                      <!--/tab1--></div>
+                      <div id="tab2">
+                        <div class="detail_wrapper">
+                    				<p style="margin: 0 0 15px;padding-bottom: 5px;border-bottom: 2px solid #9f9f9f;font-weight: 700;line-height: 1.3;">2018年1四半期</p>
+                    				<p style="font-weight:700;">賃貸市場</p>
+                    				<p>第1四半期末時点の空室率は1.1%となり、前期比0.9ポイントの低下、前年比2.3ポイントの低下となった。低下は5四半期連続。前四半期を上回るペースで低下し、2四半期連続1%台を示した。中之島で大規模な吸収がみられた。</p>
+                    				<p>第1四半期末時点の賃料は月額坪当たり19,274円となり、前期比2.5%の上昇、前年比8.8%の上昇となった。上昇は15四半期連続。上昇ペースは減速したものの引き続き強い水準を示した。賃料上昇はCBD全体でみられたが、特に梅田、西梅田が牽引した。</p>
+                    				<p style="font-weight:700;">投資市場</p>
+                    				<p>第1四半期末時点の価格は前期比6.9%の上昇、前年比22.3%の上昇となった。上昇は18四半期連続。上昇ペースは概ね横ばいとなった。投資利回りの低下を反映して、前期比並みの力強い上昇となった。投資市場では取引が活発化しており、国内外の投資家による取得がみられ全体の投資総額は増加したが、Aグレードオフィスの取引は確認されなかった。</p>
+                    				<p style="font-weight:700;">見通し</p>
+                    				<p>Oxford Economicsによると、2018年の大阪市のGDP成長率予測は0.3%増となる見通しである。リスク要因には海外の金融市場や経済動向が挙げられる。</p>
+                    				<p>2018年の賃貸市場では、需要が堅調となる一方で、新規供給は過去10年平均比47%程度の限定的な水準にとどまることから、空室率は引き続き2%を下回る水準で推移し、賃料の力強い上昇基調を下支えする見通しである。投資市場では、投資利回りの低下は限定的となることから、価格は賃料上昇を反映して上昇する見通しである。</p>
+                  			</div>
+                  			<div style="margin-top:30px;"><img style="margin:0 auto;" class="img-responsive" src="https://olmjpstdataprod001.blob.core.windows.net/sitefinity/images/librariesprovider8/default-album/img_office_180509_osaka.png?sfvrsn=2" alt="img_office_180509_osaka"></div>
+                        <a class="show_archive" href="/officefinder/markets-osaka" style="top:0;">アーカイブを見る</a>                  
+                      <!--/tab2--></div>
+                  </div>
+        			  </div>
+
+          		<!--/row--></div>
+          	<!--/container--></div>
+          <!--/market_summary--></section>
+<script>
+$("#tabmenu li a").on("click", function(e) {
+            e.preventDefault();
+            $("#tabbox > div").hide();
+            $(this).parent().addClass("active");
+            $(this).parent().siblings().removeClass("active");
+            $($(this).attr("href")).fadeToggle();
+        });
+</script></div>
+</div>
+<div >
+    <div ><div class="sns_area_outer">
+    	    	<div class="container sns_area">
+    	    		<div class="row">
+      	    		<div class="col-lg-3 col-md-4 col-sm-5">
+    	    		    <p class="top_facebook"><a href="https://www.facebook.com/jll.officefinder" target="_blank"><img src="https://olmjpstdataprod001.blob.core.windows.net/sitefinity/images/librariesprovider6/default-album/icon_fb_square.png?sfvrsn=0" alt="facebook" />JLL公式Facebook</a></p>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5">
+    	    		    <p class="top_twitter"><a href="https://twitter.com/intent/follow?screen_name=JLLNews_JP"   target="_blank"><img  src="https://olmjpstdataprod001.blob.core.windows.net/sitefinity/images/librariesprovider6/default-album/icon_tw_square.png?sfvrsn=0" alt="twitter" />JLL公式Twitter</a></p>
+                </div>
+    	    		</div>
+    	    	<!--/container--></div>
+  	    	<!--/sns_area_outer--></div></div>
+</div>
+</div>
+
+    </div>
+</div><div id="Contentplaceholder1_T973D9059017_Col00" class="sf_colsIn generalTemplate" data-sf-element="Container" data-placeholder-label="footer">    <div class="widgetTemplateName" data-widget-template-name="footer_officefinder_JP"></div>
+
+<div class="wrapper wrapper-lower hidden-print">
+  <div class="footer">
+    <div class="footer_nav01">
+      <div class="container">
+        <p>JLLは不動産に関する戦略的なソリューションとサービスを包括的に提供する総合不動産サービス会社です。</p>
+        <div class="row">
+          <div class="col-lg-6 col-md-4 col-sm-5">
+            <div class="row">
+              <div class="col-lg-6 col-lg-offset-0 col-md-offset-1">
+                <dl>
+                  <dt>東京都のエリア別オフィス賃貸物件一覧</dt>
+                  <dd><a href="/officefinder/tokyo/area/chiyoda-ku">千代田区オフィス賃貸物件一覧</a></dd>
+                  <dd><a href="/officefinder/tokyo/area/chuo-ku">中央区オフィス賃貸物件一覧</a></dd>
+                  <dd><a href="/officefinder/tokyo/area/minato-ku">港区オフィス賃貸物件一覧</a></dd>
+                  <dd><a href="/officefinder/tokyo/area/shibuya-ku">渋谷区オフィス賃貸物件一覧</a></dd>
+                  <dd><a href="/officefinder/tokyo/area/shinjuku-ku">新宿区オフィス賃貸物件一覧</a></dd>
+                  <dd><a href="/officefinder/tokyo/area/shinagawa-ku">品川区オフィス賃貸物件一覧</a></dd>
+                  <dd><a href="/officefinder/tokyo/area/meguro-ku">目黒区オフィス賃貸物件一覧</a></dd>
+                </dl>
+              </div>
+              <div class="col-lg-6 col-lg-offset-0 col-md-offset-1">
+                <dl>
+                  <dt class="text_indent">東京都のエリア別オフィス賃貸物件一覧</dt>
+                  <dd><a href="/officefinder/tokyo/area/toshima-ku">豊島区オフィス賃貸物件一覧</a></dd>
+                  <dd><a href="/officefinder/tokyo/area/koto-ku">江東区オフィス賃貸物件一覧</a></dd>
+                  <dd><a href="/officefinder/tokyo/area/nakano-ku">中野区オフィス賃貸物件一覧</a></dd>
+                  <dd><a href="/officefinder/tokyo/area/taito-ku">台東区オフィス賃貸物件一覧</a></dd>
+                  <dd><a href="/officefinder/tokyo/area/bunkyo-ku">文京区オフィス賃貸物件一覧</a></dd>
+                  <dd><a href="/officefinder/tokyo/area/others">その他オフィス賃貸物件一覧</a></dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="row">
+              <div class="col-md-6">
+                <dl>
+                  <dt>関東エリアのオフィス賃貸物件一覧</dt>
+                  <dd><a href="/officefinder/kanagawa/floor-space/0-9999999">神奈川オフィス賃貸物件一覧</a></dd>
+                  <dd><a href="/officefinder/chiba/floor-space/0-9999999">千葉オフィス賃貸物件一覧</a></dd>
+                  <dd><a href="/officefinder/saitama/floor-space/0-9999999">埼玉オフィス賃貸物件一覧</a></dd>
+                </dl>
+              </div>
+              <div class="col-md-6">
+                <dl>
+                  <dt>関西エリアのオフィス賃貸物件一覧</dt>
+                  <dd><a href="/officefinder/osaka/floor-space/0-9999999">大阪オフィス賃貸物件一覧</a></dd>
+                  <dd><a href="/officefinder/kyoto/floor-space/0-9999999">京都オフィス賃貸物件一覧</a></dd>
+                  <dd><a href="/officefinder/hyogo/floor-space/0-9999999">兵庫オフィス賃貸物件一覧</a></dd>
+                </dl>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/container-->
+      </div>
+      <!--/footer_nav01-->
+    </div>
+    <div class="footer_nav02">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-7 col-sm-6">
+            <ul class="navi">
+              <li>
+                <a class="telno" href="tel:0120917236">
+                  <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                  0120-917-236
+                </a>
+              </li>
+              <li class="inquiry"><a href="/officefinder/inquiry">お問い合わせ</a></li>
+              <li class="request"><a href="/officefinder/inquiry/request">物件リクエスト</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-5 col-sm-6">
+            <ul class="about01">
+              <li><a href="/officefinder/about/basic-policy-for-anti-social-forces" target="_blank">反社会的勢力による被害を防止するための基本的な考え方</a></li>
+              <li>
+                <a href="/officefinder/about/notice-concerning-advertisements-under-the-financial-instruments-and-exchange-act" target="_blank">広告等における表示事項</a>
+                <a href="/officefinder/about/solicitation-policy-regarding-financial-instruments-transaction">金融取引に係る勧誘方針</a>
+              </li>
+              <li><a href="/officefinder/about/receipts-of-complaints" target="_blank">金融商品取引に関する苦情受付および紛争解決について</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom-container">
+    <div class="footer-navigation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="navi">
+              <li class="footer-navi-list"><a href="http://www.joneslanglasalle.co.jp/japan/ja-jp">JLL - 日本</a></li>
+              <li class="footer-navi-list"><a href="/officefinder/about/privacy-statement">プライバシー保護について</a></li>
+              <li class="footer-navi-list"><a href="/officefinder/about/terms-of-use">利用規約</a></li>
+              <li class="footer-navi-list"><a href="/officefinder/column/howto">このサイトについて</a></li>
+              <li class="footer-navi-list"><a href="/officefinder/about">運営会社</a></li>
+              <li class="footer-navi-list"><a href="/officefinder/sitemap">サイトマップ</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyrights">© 2017 Jones Lang LaSalle, IP, Inc</div>
+  </div>
+</div>
+<div class="container print-disclaimer visible-print">
+  <div class="row">
+    <div class="col-sm-12">
+      <p><img class="img-responsive" src="/themes/officefinderjp/images/print-disclaimer_footer.png" alt=""></p>
+      <div class="footer_address">
+        <p class="company_name">ジョーンズ ラング ラサール株式会社</p>
+        <p>〒100-0014　東京都千代田区永田町2-13-10　プルデンシャルタワー</p>
+        <p><span>Tel： 03-5501-9200</span><span class="pr_pl_10 ">Fax：03-5501-9211</span></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(function () {
+    $(".officefinder .mainHeader nav.side-menu").css({ 'display': 'none' });
+    var $body = $('body');
+    var $menubtn = $('#js__sideMenuBtn');
+    $menubtn.on('click', function () {
+      $body.toggleClass('side-open');
+      $(this).toggleClass('menu_close');
+      if ($(this).hasClass('menu_close')) {
+        $("html").css({ 'overflow-y': 'hidden' });
+        $(".officefinder .mainHeader .wrapper.head-menu").css({ 'display': 'none' });
+        $(".officefinder .mainHeader nav.side-menu").css({ 'display': 'block' });
+      }
+      else {
+        $("html").css({ 'overflow-y': 'auto' });
+        $(".officefinder .mainHeader .wrapper.head-menu").css({ 'display': 'block' });
+        $(".officefinder .mainHeader nav.side-menu").css({ 'display': 'none' });
+      }
+      //$('#js__overlay').on('click', function () {
+      //    $body.removeClass('side-open');
+      //    if ($menubtn.hasClass('menu_close')) {
+      //      $($menubtn).removeClass('menu_close');
+      //      $("html").css({ 'overflow-y': 'auto' });
+      //      $(".officefinder .mainHeader .wrapper.head-menu").css({ 'display': 'block' });
+      //    }
+      //    else {
+      //      $("html").css({ 'overflow-y': 'hidden' });
+      //      $(".officefinder .mainHeader .wrapper.head-menu").css({ 'display': 'none' });
+      //    }
+      //});
+    });
+  });
+</script>
+
+</div>
+
+</div>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+ </div> <script type="text/javascript" src="/WebResource.axd?d=yAZznlIeaGQJz8qTi4uqDasBFyM60mIjZHWXXRKP9FgbL9idNaQ8rKCeNhE2J7NFpHoWPPXo2XTjfTBk3uTWIdYJdPgY4_cy47hIi3FkqldALroEA2M4424Uly5jnzBU2TJgImr4CrcYaNwa3g666gr1PSM1&amp;t=636644647020000000">
+
+</script><script type="text/javascript">
+	StatsClient.LogVisit('58cc838a-7a50-4b24-88ff-fba96c7d82d5', '118078dd-52f3-4564-9250-1d25c1fccffe');
+</script><script type="text/javascript">
+_satellite.pageBottom();
+</script> </body> </html>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             

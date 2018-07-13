@@ -1,0 +1,1014 @@
+<!doctype html>
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="ja"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="ja"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="ja"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="ja"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>ホーム｜丸文
+	</title>
+    <meta name="description" content="丸文株式会社のホームページ">
+    <meta name="keywords" content="丸文株式会社">
+    <meta name="viewport" content="width=1170">
+	
+    <link rel="stylesheet" href="/common/site_css/styles.css">
+    <link rel="stylesheet" href="/common/site_css/custom.css">
+
+  </head>
+
+	<body class="jp home">
+		
+
+    <!-- @wrapper header -->
+    <div class="wrapper-header">
+      <div id="id-header" class=" layout-header module-header">
+        <h1><a href="/index.html"><img alt="" src="/site_img/logo_new_blue.png"/></a></h1>
+        <!-- @module search -->
+       <div class="layout-search module-search">
+			<form method="GET" action="/search_result" accept-charset="UTF-8">
+				<div class="input-group"> <input name="q" type="text" class="form-control" placeholder="検索"><input type="hidden" name="target_type" value="all"><input type="hidden" name="sorting" value="relationship"><input type="hidden" name="form.search" value="1"> <span class="input-group-btn"><button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+					</span>
+				</div>
+			</form>
+        </div>
+        <!-- @module site-nav -->
+        <div class="layout-site-nav module-site-nav">
+          <ul class="nav nav-pills">
+            <li role="presentation"><a href="/en/index.html"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span> English</a></li>
+            <!--li role="presentation"><a href="/sitemap.html"><span class="glyphicon glyphicon-th" aria-hidden="true"></span> サイトマップ</a></li -->
+          </ul>
+        </div>
+      </div>
+    </div>
+	
+	    <div class="wrapper-home-main-image">
+	      <div class="layout-home-main-image module-home-main-image">
+	        <div class="home-main-image" id="home-main-image">
+	          <div class="home-main-image-message">
+	            <img id="home-main-image-line" alt="" src="/site_img/main_image_home_4_02_line.png"/>
+	            <img id="home-main-image-en" alt="" src="/site_img/main_image_home_4_02_en.png"/>
+	            <img id="home-main-image-jp" alt="" src="/site_img/main_image_home_4_02_jp.png"/>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	
+    <!-- @wrapper global-nav -->
+	
+
+	<div class="wrapper-global-nav">
+		<!-- @module global-nav -->
+		<div class="layout-global-nav module-global-nav">
+			<ul class="nav nav-pills nav-justified">
+				<li role="presentation" class="active"><a href="/index.html">ホーム</a></li>
+				
+						<li role="presentation"><a href="/corporate/index.html">企業情報</a></li>
+						<li role="presentation"><a href="/product/index.html">取扱商品</a></li>
+						<li role="presentation"><a href="/ir/index.html">投資家情報</a></li>
+						<li role="presentation"><a href="/csr/index.html">CSR</a></li>
+				<li role="presentation"><a href="/recruit/index.html
+" target="_self">リクルート</a></li>
+			</ul>
+		</div>
+	</div>
+
+
+		<!-- @wrapper main -->
+		<div class="wrapper-main">
+			<div class="wrapper-background-image layout-background-image"> </div>
+			<!-- @layout main -->
+			<div class="layout-main layout-main-home-content">
+				<div class="wrapper-content">
+					<div class="module-background-image"></div>
+					<!-- @layout main -->
+					<div class="layout-main-content-only">
+						<!-- @layout main-content -->
+						<div class="layout-main-content">
+							<!-- メインコンテンツ -->
+<div align ="center"><b>平成30年7月豪雨により被害を受けられました皆さまに、心よりお見舞い申し上げ、一日も早い復旧をお祈りいたします。</b></div><br>
+							
+							<!-- Home:最新情報と取扱商品 -->
+							<div class="wrapper-info-and-product">
+								<div class="info-and-product">
+									<div class="wrapper-info">
+										<div class="layout-home-page-content module-top-page-content">
+											<h2 class="">インフォメーション</h2> </div>
+										<div class="layout-tab-panel module-tab-panel">
+											<!-- tab of tab-panel -->
+											<ul class="nav nav-tabs" role="tablist">
+												<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-list" aria-hidden="true"></span> すべて</a></li>
+												<li role="presentation" class=""><a href="#ir" aria-controls="ir" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-list" aria-hidden="true"></span> IR関連</a></li>
+												<li role="presentation" class=""><a href="#product" aria-controls="product" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-list" aria-hidden="true"></span> 取扱商品</a></li>
+											</ul>
+											<!-- content of tab-panel -->
+											<div class="tab-content">
+												<div role="tabpanel module-information-list" class="tab-pane active" id="home">
+													<table class="table table-striped module-information-list">
+														<thead>
+															<tr>
+																<th>日時</th>
+																<th>カテゴリ</th>
+																<th>タイトル</th>
+															</tr>
+														</thead>
+														<tbody>
+															
+<tr>
+  <td class="td-date"><span class="module-date-format">2018/07/13</span></td>
+  
+  <td class="td-cat"><span class="label label-custom-type-f">お知らせ</span></td>
+  
+  <td class="td-text"><a href="/info/general/a7ijkd0000007kil.html" target="_self">平成30年7月豪雨被災地に対する支援について</a></td>
+</tr>
+
+																	
+<tr>
+  <td class="td-date"><span class="module-date-format">2018/06/29</span></td>
+  
+  <td class="td-cat"><span class="label label-custom-type-d">商品情報</span></td>
+  
+  <td class="td-text"><a href="/info/events/a7ijkd00000078yj.html" target="_self">Interop Tokyo2018【6/13-15】にご来場いただきありがとうございました。丸文ブース出展製品をご紹介いたします。</a></td>
+</tr>
+
+																	
+<tr>
+  <td class="td-date"><span class="module-date-format">2018/06/29</span></td>
+  
+  <td class="td-cat"><span class="label label-custom-type-d">商品情報</span></td>
+  
+  <td class="td-text"><a href="/info/events/a7ijkd000000782u.html" target="_self">Interop Tokyo2018【6/13-15】にご来場いただきありがとうございました。丸文テクニカルセミナー当日資料をご紹介いたします。</a></td>
+</tr>
+
+																	
+<tr>
+  <td class="td-date"><span class="module-date-format">2018/06/29</span></td>
+  
+  <td class="td-cat"><span class="label label-custom-type-d">商品情報</span></td>
+  
+  <td class="td-text"><a href="/info/events/a7ijkd0000006y76.html" target="_self">Interop Tokyo2018【6/13-15】にご来場いただきありがとうございました。</a></td>
+</tr>
+
+																	
+<tr>
+  <td class="td-date"><span class="module-date-format">2018/06/25</span></td>
+  
+  <td class="td-cat"><span class="label label-custom-type-e">イベント</span></td>
+  
+  <td class="td-text"><a href="/info/events/a7ijkd00000077ul.html" target="_self">ET-WEST2018に出展</a></td>
+</tr>
+
+																	
+<tr>
+  <td class="td-date"><span class="module-date-format">2018/05/17</span></td>
+  
+  <td class="td-cat"><span class="label label-custom-type-d">商品情報</span></td>
+  
+  <td class="td-text"><a href="/info/products/a7ijkd0000006u5u.html" target="_self">MC10社はBioStamp nPoint&trade; Systemの米国FDA 510(k)認証を取得しました。</a></td>
+</tr>
+
+																	
+<tr>
+  <td class="td-date"><span class="module-date-format">2018/05/17</span></td>
+  
+  <td class="td-cat"><span class="label label-custom-type-b">IR開示</span></td>
+  
+  <td class="td-text"><a href="/press/a7ijkd0000006u3a-att/20180517teikan.pdf" class="state-link-pdf" target="_blank">定款の一部変更に関するお知らせ<span class="file-type-suffix"></span></a></td>
+</tr>
+
+																	
+														</tbody>
+													</table>
+												</div>
+												<div role="tabpanel module-information-list" class="tab-pane" id="ir">
+													<table class="table table-striped module-information-list">
+														<thead>
+															<tr>
+																<th>日時</th>
+																<th>カテゴリ</th>
+																<th>タイトル</th>
+															</tr>
+														</thead>
+														<tbody>
+															
+<tr>
+  <td class="td-date"><span class="module-date-format">2018/07/13</span></td>
+  
+  <td class="td-cat"><span class="label label-custom-type-f">お知らせ</span></td>
+  
+  <td class="td-text"><a href="/info/general/a7ijkd0000007kil.html" target="_self">平成30年7月豪雨被災地に対する支援について</a></td>
+</tr>
+
+																	
+<tr>
+  <td class="td-date"><span class="module-date-format">2018/05/17</span></td>
+  
+  <td class="td-cat"><span class="label label-custom-type-b">IR開示</span></td>
+  
+  <td class="td-text"><a href="/press/a7ijkd0000006u3a-att/20180517teikan.pdf" class="state-link-pdf" target="_blank">定款の一部変更に関するお知らせ<span class="file-type-suffix"></span></a></td>
+</tr>
+
+																	
+<tr>
+  <td class="td-date"><span class="module-date-format">2018/05/08</span></td>
+  
+  <td class="td-cat"><span class="label label-custom-type-b">IR開示</span></td>
+  
+  <td class="td-text"><a href="/ir/library/results.html" class="state-link-default"
+
+ target="_self">平成30年3月期　決算短信を掲載しました<span class="file-type-suffix"></span></a></td>
+</tr>
+
+																	
+<tr>
+  <td class="td-date"><span class="module-date-format">2018/05/08</span></td>
+  
+  <td class="td-cat"><span class="label label-custom-type-b">IR開示</span></td>
+  
+  <td class="td-text"><a href="/press/a7ijkd0000006rsd-att/20180508ktl.pdf" class="state-link-pdf" target="_blank">連結子会社の吸収合併（簡易・略式）に関するお知らせ<span class="file-type-suffix"></span></a></td>
+</tr>
+
+																	
+<tr>
+  <td class="td-date"><span class="module-date-format">2018/05/08</span></td>
+  
+  <td class="td-cat"><span class="label label-custom-type-b">IR開示</span></td>
+  
+  <td class="td-text"><a href="/press/a7ijkd0000006rnf-att/20180508sem.pdf" class="state-link-pdf" target="_blank">連結子会社の事業譲渡に関するお知らせ<span class="file-type-suffix"></span></a></td>
+</tr>
+
+																	
+<tr>
+  <td class="td-date"><span class="module-date-format">2018/05/08</span></td>
+  
+  <td class="td-cat"><span class="label label-custom-type-b">IR開示</span></td>
+  
+  <td class="td-text"><a href="/press/a7ijkd0000006rih-att/20180508plan.pdf" class="state-link-pdf" target="_blank">当社株券等の大量買付行為への対応策（買収防衛策）の導入に関するお知らせ<span class="file-type-suffix"></span></a></td>
+</tr>
+
+																	
+<tr>
+  <td class="td-date"><span class="module-date-format">2018/02/23</span></td>
+  
+  <td class="td-cat"><span class="label label-custom-type-b">IR開示</span></td>
+  
+  <td class="td-text"><a href="/press/a7ijkd00000063ng-att/20180223jinji.pdf" class="state-link-pdf" target="_blank">組織変更および人事異動について(PDF134KB)<span class="file-type-suffix"></span></a></td>
+</tr>
+
+																	
+														</tbody>
+													</table>
+												</div>
+												<div role="tabpanel module-information-list" class="tab-pane" id="product">
+													<table class="table table-striped module-information-list">
+														<thead>
+															<tr>
+																<th>日時</th>
+																<th>カテゴリ</th>
+																<th>タイトル</th>
+															</tr>
+														</thead>
+														<tbody>
+															
+<tr>
+  <td class="td-date"><span class="module-date-format">2018/07/13</span></td>
+  
+  <td class="td-cat"><span class="label label-custom-type-f">お知らせ</span></td>
+  
+  <td class="td-text"><a href="/info/general/a7ijkd0000007kil.html" target="_self">平成30年7月豪雨被災地に対する支援について</a></td>
+</tr>
+
+																	
+<tr>
+  <td class="td-date"><span class="module-date-format">2018/06/29</span></td>
+  
+  <td class="td-cat"><span class="label label-custom-type-d">商品情報</span></td>
+  
+  <td class="td-text"><a href="/info/events/a7ijkd00000078yj.html" target="_self">Interop Tokyo2018【6/13-15】にご来場いただきありがとうございました。丸文ブース出展製品をご紹介いたします。</a></td>
+</tr>
+
+																	
+<tr>
+  <td class="td-date"><span class="module-date-format">2018/06/29</span></td>
+  
+  <td class="td-cat"><span class="label label-custom-type-d">商品情報</span></td>
+  
+  <td class="td-text"><a href="/info/events/a7ijkd000000782u.html" target="_self">Interop Tokyo2018【6/13-15】にご来場いただきありがとうございました。丸文テクニカルセミナー当日資料をご紹介いたします。</a></td>
+</tr>
+
+																	
+<tr>
+  <td class="td-date"><span class="module-date-format">2018/06/29</span></td>
+  
+  <td class="td-cat"><span class="label label-custom-type-d">商品情報</span></td>
+  
+  <td class="td-text"><a href="/info/events/a7ijkd0000006y76.html" target="_self">Interop Tokyo2018【6/13-15】にご来場いただきありがとうございました。</a></td>
+</tr>
+
+																	
+<tr>
+  <td class="td-date"><span class="module-date-format">2018/05/17</span></td>
+  
+  <td class="td-cat"><span class="label label-custom-type-d">商品情報</span></td>
+  
+  <td class="td-text"><a href="/info/products/a7ijkd0000006u5u.html" target="_self">MC10社はBioStamp nPoint&trade; Systemの米国FDA 510(k)認証を取得しました。</a></td>
+</tr>
+
+																	
+<tr>
+  <td class="td-date"><span class="module-date-format">2018/05/08</span></td>
+  
+  <td class="td-cat"><span class="label label-custom-type-d">商品情報</span></td>
+  
+  <td class="td-text"><a href="/info/products/a7ijkd0000006qz2.html" target="_self">FINsix社は株式会社豊田自動織機との戦略的パートナーシップを発表しました。</a></td>
+</tr>
+
+																	
+<tr>
+  <td class="td-date"><span class="module-date-format">2018/03/28</span></td>
+  
+  <td class="td-cat"><span class="label label-custom-type-e">イベント</span></td>
+  
+  <td class="td-text"><a href="/info/events/a7ijkd0000006d70.html" target="_self">MEDTEC Japan 2018に出展</a></td>
+</tr>
+
+																	
+														</tbody>
+													</table>
+												</div>
+											</div>
+											
+
+											<div class="btn-all">
+	                      <ul class="nav nav-pills">
+												
+	                        <li role="presentation" class="active"><a href="/press/press_release.html"><span class="glyphicon glyphicon-list" aria-hidden="true"></span> プレスリリース一覧</a></li>
+												
+													<li role="presentation" class="active"><a href="/info/information.html"><span class="glyphicon glyphicon-list" aria-hidden="true"></span> インフォメーション一覧</a></li>
+												
+	                      </ul>
+	                    </div>
+
+										</div>
+									</div>
+									<div class="wrapper-product">
+										<div class="layout-home-page-content module-top-page-content">
+											<h2 class="">取扱商品</h2> </div>
+										<div class="wrapper-home-page-row-link-box-maker-and-solution">
+											<div class="layout-home-page-row-link-box-maker-and-solution">
+												
+													<div class="layout-product-category-menu-home module-product-category-menu theme-product-category-menu-home">
+														<div class="product-category-menu-body">
+															<a href="/product/semicon/index.html"><img class="" alt="半導体" src="/product/semicon/a8tque0000002iad-img/product_top_a_2.jpg" /></a>
+														</div>
+														<div class="product-category-menu-header">
+															<h2><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="/product/semicon/index.html"> 半導体</a></h2> </div>
+													</div>
+												
+													<div class="layout-product-category-menu-home module-product-category-menu theme-product-category-menu-home">
+														<div class="product-category-menu-body">
+															<a href="/product/component/index.html"><img class="" alt="電子部品・モジュール" src="/product/component/a8tque0000002ibi-img/product_top_b_2.jpg" /></a>
+														</div>
+														<div class="product-category-menu-header">
+															<h2><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="/product/component/index.html"> 電子部品・モジュール</a></h2> </div>
+													</div>
+												
+													<div class="layout-product-category-menu-home module-product-category-menu theme-product-category-menu-home">
+														<div class="product-category-menu-body">
+															<a href="/product/system/index.html"><img class="" alt="システム機器" src="/product/system/a8tque0000002idp-img/product_top_c_2.jpg" /></a>
+														</div>
+														<div class="product-category-menu-header">
+															<h2><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a href="/product/system/index.html"> システム機器</a></h2> </div>
+													</div>
+												
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Home:最新情報と取扱商品 -->
+							
+								<!-- Home:PickUp -->
+								<div class="wrapper-pickup-and-banner">
+									
+										<div class="layout-column-pickup-home">
+											<div class="layout-home-page-content module-top-page-content">
+												<h2 class="top-page-content-pickup"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true" style="margin-right: 0.5rem;"></span> Pick Up !</h2> </div>
+											<div class="layout-list-pickup-home">
+												
+													<div class="layout-pickup-home module-pickup-home" data-grid-columns="1" data-grid-rows="1">
+														<div class="pickup-home-body-description">
+															<div class="pickup-home-body">
+																<div class="pickup-home-image">
+																	<a href="/product/component/a7ijkd0000004h1t.html" target="_self"><img class="" alt="" src="/a8tque000000c9vx-img/a7ijkd0000004jle.jpg" /></a>
+																</div>
+																
+															</div>
+															<div class="pickup-home-description">
+																
+																	<p>超小型ACアダプター"DART" amazonにて販売中です。</p>
+																
+															</div>
+														</div>
+													</div>
+												
+													<div class="layout-pickup-home module-pickup-home" data-grid-columns="1" data-grid-rows="1">
+														<div class="pickup-home-body-description">
+															<div class="pickup-home-body">
+																<div class="pickup-home-image">
+																	<a href="/product/component/8ids6e000000w5m2.html" target="_self"><img class="" alt="" src="/a8tque000000c9vx-img/8ids6e000000w5o6.jpg" /></a>
+																</div>
+																
+																	<div class="pickup-home-title">
+																		<p><a href="/product/component/8ids6e000000w5m2.html" target="_self">オリジナルセンサー評価プラットフォームquattro II</a></p>
+																	</div>
+																
+															</div>
+															<div class="pickup-home-description">
+																
+																	<p>様々なセンサーを様々なマイクロコントローラーを用いて評価できる丸文オリジナルのセンサー評価プラットフォームです。</p>
+																
+															</div>
+														</div>
+													</div>
+												
+													<div class="layout-pickup-home module-pickup-home" data-grid-columns="1" data-grid-rows="1">
+														<div class="pickup-home-body-description">
+															<div class="pickup-home-body">
+																<div class="pickup-home-image">
+																	<a href="/product/component/a7ijkd00000055wh.html" target="_self"><img class="" alt="" src="/a8tque000000c9vx-img/a7ijkd000000570k.png" /></a>
+																</div>
+																
+																	<div class="pickup-home-title">
+																		<p><a href="/product/component/a7ijkd00000055wh.html" target="_self">TQ-Systemsの小型組込みCPUモジュール</a></p>
+																	</div>
+																
+															</div>
+															<div class="pickup-home-description">
+																
+																	<p>ドイツTQ-Systems社のIntel／Arm SoC搭載小型組込みCPUモジュールです。</p>
+																
+															</div>
+														</div>
+													</div>
+												
+													<div class="layout-pickup-home module-pickup-home" data-grid-columns="1" data-grid-rows="1">
+														<div class="pickup-home-body-description">
+															<div class="pickup-home-body">
+																<div class="pickup-home-image">
+																	<a href="/product/system/qgc18e0000039110.html
+" target="_self"><img class="" alt="”KEMAR”　イヤホン性能計測用マネキン" src="/a8tque000000c9vx-img/a7ijkd00000060xc.jpg" /></a>
+																</div>
+																
+																	<div class="pickup-home-title">
+																		<p><a href="/product/system/qgc18e0000039110.html
+" target="_self">KEMAR　イヤホン性能計測用マネキン”HATS”</a></p>
+																	</div>
+																
+															</div>
+															<div class="pickup-home-description">
+																
+																	<p>ハイレゾ計測やローノイズ計測を可能にしたグラス社製音響計測用マネキン(HATS)</p>
+																
+															</div>
+														</div>
+													</div>
+												
+													<div class="layout-pickup-home module-pickup-home" data-grid-columns="1" data-grid-rows="1">
+														<div class="pickup-home-body-description">
+															<div class="pickup-home-body">
+																<div class="pickup-home-image">
+																	<a href="/maker/a7ijkd0000005eqa.html" target="_self"><img class="" alt="" src="/a8tque000000c9vx-img/a7ijkd000000491w.png" /></a>
+																</div>
+																
+																	<div class="pickup-home-title">
+																		<p><a href="/maker/a7ijkd0000005eqa.html" target="_self">セブンソリューションズ</a></p>
+																	</div>
+																
+															</div>
+															<div class="pickup-home-description">
+																
+																	<p>セブンソリューションズの高精度時刻同期技術WHITE RABBIT</p>
+																
+															</div>
+														</div>
+													</div>
+												
+													<div class="layout-pickup-home module-pickup-home" data-grid-columns="1" data-grid-rows="1">
+														<div class="pickup-home-body-description">
+															<div class="pickup-home-body">
+																<div class="pickup-home-image">
+																	<a href="http://www.marubun.co.jp/gaia/ti_index.html" target="_self"><img class="" alt="TEXAS INSTRUMENTSのご紹介" src="/a8tque000000c9vx-img/a8tque000000d29x.jpg" /></a>
+																</div>
+																
+																	<div class="pickup-home-title">
+																		<p><a href="http://www.marubun.co.jp/gaia/ti_index.html" target="_self">TEXAS INSTRUMENTSのご紹介</a></p>
+																	</div>
+																
+															</div>
+															<div class="pickup-home-description">
+																
+																	<p>TI製アナログ、デジタル、DLP®の推奨製品資料や開発ツールを動画紹介等で分かりやすく解説しています。</p>
+																
+															</div>
+														</div>
+													</div>
+												
+													<div class="layout-pickup-home module-pickup-home" data-grid-columns="1" data-grid-rows="1">
+														<div class="pickup-home-body-description">
+															<div class="pickup-home-body">
+																<div class="pickup-home-image">
+																	<a href="/product/semicon/8ids6e000000w2fi.html" target="_self"><img class="" alt="FINsixの超小型電源ソリューション" src="/a8tque000000c9vx-img/FINSIX_PICKUP.jpg" /></a>
+																</div>
+																
+																	<div class="pickup-home-title">
+																		<p><a href="/product/semicon/8ids6e000000w2fi.html" target="_self">FINsixの超小型電源ソリューション</a></p>
+																	</div>
+																
+															</div>
+															<div class="pickup-home-description">
+																
+																	<p>独自の高周波アナログ技術がACアダプターや電源モジュールの超小型化を実現します。</p>
+																
+															</div>
+														</div>
+													</div>
+												
+													<div class="layout-pickup-home module-pickup-home" data-grid-columns="1" data-grid-rows="1">
+														<div class="pickup-home-body-description">
+															<div class="pickup-home-body">
+																<div class="pickup-home-image">
+																	<a href="/product/system/a7ijkd0000002lb3.html
+" target="_blank"><img class="" alt="" src="/a8tque000000c9vx-img/a7ijkd0000002629.jpg" /></a>
+																</div>
+																
+															</div>
+															<div class="pickup-home-description">
+																
+																	<p>スパイレントのGPS /GNSS シミュレータ</p>
+																
+															</div>
+														</div>
+													</div>
+												
+													<div class="layout-pickup-home module-pickup-home  state-pickup-home-no-description" data-grid-columns="1" data-grid-rows="1">
+														<div class="pickup-home-body-description">
+															<div class="pickup-home-body">
+																<div class="pickup-home-image">
+																	<a href="/product/component/a7ijkd0000003ex3.html
+" target="_self"><img class="" alt="" src="/a8tque000000c9vx-img/a7ijkd0000003fhp.jpg" /></a>
+																</div>
+																
+																	<div class="pickup-home-title">
+																		<p><a href="/product/component/a7ijkd0000003ex3.html
+" target="_self">AferoのセキュアIoTプラットフォーム</a></p>
+																	</div>
+																
+															</div>
+															<div class="pickup-home-description">
+																
+															</div>
+														</div>
+													</div>
+												
+													<div class="layout-pickup-home module-pickup-home" data-grid-columns="1" data-grid-rows="1">
+														<div class="pickup-home-body-description">
+															<div class="pickup-home-body">
+																<div class="pickup-home-image">
+																	<a href="/product/component/solar_enou.html" target="_self"><img class="" alt="" src="/a8tque000000c9vx-img/8ids6e000000rcft.jpg" /></a>
+																</div>
+																
+															</div>
+															<div class="pickup-home-description">
+																
+																	<p>「SOLAR営農(そらぁ ええの～)」は申請から売電までがワンパックになった丸文オリジナルの営農型太陽光発電パックです。</p>
+																
+															</div>
+														</div>
+													</div>
+												
+													<div class="layout-pickup-home module-pickup-home" data-grid-columns="1" data-grid-rows="1">
+														<div class="pickup-home-body-description">
+															<div class="pickup-home-body">
+																<div class="pickup-home-image">
+																	<a href="/info/events.html" target="_self"><img class="" alt="" src="/a8tque000000c9vx-img/a8tque000000dcgz.png" /></a>
+																</div>
+																
+															</div>
+															<div class="pickup-home-description">
+																
+																	<p>展示会やセミナーの開催情報をお知らせします。</p>
+																
+															</div>
+														</div>
+													</div>
+												
+													<div class="layout-pickup-home module-pickup-home" data-grid-columns="1" data-grid-rows="1">
+														<div class="pickup-home-body-description">
+															<div class="pickup-home-body">
+																<div class="pickup-home-image">
+																	<a href="/product/component/a7ijkd0000002j5i.html" target="_self"><img class="" alt="MC10の密着型センサープラットフォーム" src="/a8tque000000c9vx-img/a7ijkd00000021y0.jpg" /></a>
+																</div>
+																
+															</div>
+															<div class="pickup-home-description">
+																
+																	<p>MC10の身体密着型センサープラットフォームBioStampRCは生体情報計測やモニター用のクラウド一体型研究者向けキットです。</p>
+																
+															</div>
+														</div>
+													</div>
+												
+													<div class="layout-pickup-home module-pickup-home" data-grid-columns="1" data-grid-rows="1">
+														<div class="pickup-home-body-description">
+															<div class="pickup-home-body">
+																<div class="pickup-home-image">
+																	<a href="/product/component/8ids6e000000rwsr.html" target="_self"><img class="" alt="" src="/a8tque000000c9vx-img/8ids6e000000ty42.gif" /></a>
+																</div>
+																
+															</div>
+															<div class="pickup-home-description">
+																
+																	<p>モレックスの各種接続システムソリューションを提供しています。</p>
+																
+															</div>
+														</div>
+													</div>
+												
+													<div class="layout-pickup-home module-pickup-home" data-grid-columns="1" data-grid-rows="1">
+														<div class="pickup-home-body-description">
+															<div class="pickup-home-body">
+																<div class="pickup-home-image">
+																	<a href="http://www.marubun.co.jp/product/semicon/8ids6e000000q0g6.html#mgineer" target="_self"><img class="" alt="" src="/a8tque000000c9vx-img/a7ijkd0000005v0t.jpg" /></a>
+																</div>
+																
+															</div>
+															<div class="pickup-home-description">
+																
+																	<p>マキシム社の設計者向けブログ"mgineer"</p>
+																
+															</div>
+														</div>
+													</div>
+												
+													<div class="layout-pickup-home module-pickup-home  state-pickup-home-no-description" data-grid-columns="1" data-grid-rows="1">
+														<div class="pickup-home-body-description">
+															<div class="pickup-home-body">
+																<div class="pickup-home-image">
+																	<a href="https://www.youtube.com/user/MarubunCorporation" target="_blank"><img class="" alt="YouTube 丸文チャンネル" src="/a8tque000000c9vx-img/a7ijkd0000002s6r.png" /></a>
+																</div>
+																
+																	<div class="pickup-home-title">
+																		<p><a href="https://www.youtube.com/user/MarubunCorporation" target="_blank">YouTube丸文チャンネル</a></p>
+																	</div>
+																
+															</div>
+															<div class="pickup-home-description">
+																
+															</div>
+														</div>
+													</div>
+												
+											</div>
+										</div>
+									
+										<div class="layout-column-banner-home">
+											<div class="layout-home-page-content module-top-page-content">
+												<h2 class="top-page-content-pickup"> Division Companies</h2> </div>
+											<div class="list-banner">
+												
+													<div class="module-banner">
+														<div class="panel panel-default">
+															<div class="panel-body">
+																<a href="http://www.marubun.co.jp/gaia/index.html" target="_blank"><img alt="ガイアカンパニー" src="/a8tque000000c9vx-img/a8tque000000d1lp.png" /></a>
+															</div>
+														</div>
+													</div>
+												
+													<div class="module-banner">
+														<div class="panel panel-default">
+															<div class="panel-body">
+																<a href="http://www.marubun.co.jp/artemis/index.html" target="_blank"><img alt="アルテミスカンパニー" src="/a8tque000000c9vx-img/a8tque000000d1lf.png" /></a>
+															</div>
+														</div>
+													</div>
+												
+													<div class="module-banner">
+														<div class="panel panel-default">
+															<div class="panel-body">
+																<a href="http://www.marubun.co.jp/chronos/index.html" target="_blank"><img alt="クロノスカンパニー" src="/a8tque000000c9vx-img/a8tque000000d1l5.png" /></a>
+															</div>
+														</div>
+													</div>
+												
+													<div class="module-banner">
+														<div class="panel panel-default">
+															<div class="panel-body">
+																<a href="http://www.marubun.co.jp/kairos/index.html" target="_blank"><img alt="カイロスカンパニー" src="/a8tque000000c9vx-img/a8tque000000c9x3.png" /></a>
+															</div>
+														</div>
+													</div>
+												
+													<div class="module-banner">
+														<div class="panel panel-default">
+															<div class="panel-body">
+																<a href="http://www.marubun.co.jp/dione/index.html" target="_blank"><img alt="ディオネカンパニー" src="/a8tque000000c9vx-img/a8tque000000d1ku.png" /></a>
+															</div>
+														</div>
+													</div>
+												
+													<div class="module-banner">
+														<div class="panel panel-default">
+															<div class="panel-body">
+																<a href="" target="_self"><img alt="" src="/a8tque000000c9vx-img/a8tque000000d2f5.png" /></a>
+															</div>
+														</div>
+													</div>
+												
+													<div class="module-banner">
+														<div class="panel panel-default">
+															<div class="panel-body">
+																<a href="http://www.marubunarrow.com/" target="_blank"><img alt="" src="/a8tque000000c9vx-img/a7ijkd00000002kw.png" /></a>
+															</div>
+														</div>
+													</div>
+												
+													<div class="module-banner">
+														<div class="panel panel-default">
+															<div class="panel-body">
+																<a href="" target="_self"><img alt="" src="/a8tque000000c9vx-img/a7ijkd00000002lg.png" /></a>
+															</div>
+														</div>
+													</div>
+												
+													<div class="module-banner">
+														<div class="panel panel-default">
+															<div class="panel-body">
+																<a href="http://www.marubun-tsusyo.co.jp/" target="_blank"><img alt="丸文通商株式会社" src="/a8tque000000c9vx-img/a8tque000000d1q3.png" /></a>
+															</div>
+														</div>
+													</div>
+												
+													<div class="module-banner">
+														<div class="panel panel-default">
+															<div class="panel-body">
+																<a href="http://www.marubun-semicon.co.jp/" target="_blank"><img alt="丸文セミコン株式会社" src="/a8tque000000c9vx-img/a8tque000000d1qr.png" /></a>
+															</div>
+														</div>
+													</div>
+												
+													<div class="module-banner">
+														<div class="panel panel-default">
+															<div class="panel-body">
+																<a href="http://www.marubun-west.co.jp/" target="_blank"><img alt="丸文ウエスト株式会社" src="/a8tque000000c9vx-img/a8tque000000d1qd.png" /></a>
+															</div>
+														</div>
+													</div>
+												
+													<div class="module-banner">
+														<div class="panel panel-default">
+															<div class="panel-body">
+																<a href="http://www.foresight-t.co.jp/" target="_blank"><img alt="株式会社フォーサイトテクノ" src="/a8tque000000c9vx-img/a8tque000000d1r1.png" /></a>
+															</div>
+														</div>
+													</div>
+												
+													<div class="module-banner">
+														<div class="panel panel-default">
+															<div class="panel-body">
+																<a href="http://www.hokushinrika.co.jp/" target="_blank"><img alt="株式会社北信理化" src="/a8tque000000c9vx-img/a8tque000000d1rl.png" /></a>
+															</div>
+														</div>
+													</div>
+												
+													<div class="module-banner">
+														<div class="panel panel-default">
+															<div class="panel-body">
+																<a href="https://www.ktl-corp.co.jp/" target="_blank"><img alt="株式会社ケィティーエル" src="/a8tque000000c9vx-img/a8tque000000d1rb.png" /></a>
+															</div>
+														</div>
+													</div>
+												
+											</div>
+										</div>
+									
+								</div>
+								<!-- Home:/PickUp -->
+							
+							<!-- /メインコンテンツ -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+    <div class="wrapper-page-nav">
+      <!-- @layout page-nav -->
+      <div class="layout-page-nav">
+        <div class="module-to-top">
+          <span class="glyphicon glyphicon-open" aria-hidden="true"></span> <a class="" href="#id-header" role="button">このページの先頭へ</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper-footer-nav">
+      <!-- @layout footer-nav -->
+      <div class="layout-footer-nav module-footer-nav">
+        <h2>ショートカット</h2>
+        <!-- @layout link-list -->
+        <div class="layout-link-list">
+
+		
+			<!-- @module link-list -->
+			<div class="module-link-list">
+				
+
+					<h3><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> <a href="/corporate/index.html
+" target="_self">企業情報</a></h3>
+
+					<ul>
+						
+								<li><a href="/corporate/message.html
+" target="_self">ご挨拶</a></li>
+							
+								<li><a href="/corporate/philosophy.html
+" target="_self"> 企業理念</a></li>
+							
+								<li><a href="/corporate/profile.html
+" target="_self">会社概要</a></li>
+							
+								<li><a href="/corporate/board.html
+" target="_self">役員一覧</a></li>
+							
+								<li><a href="/corporate/business.html
+" target="_self">事業内容</a></li>
+							
+								<li><a href="/corporate/history.html
+" target="_self">沿革</a></li>
+							
+								<li><a href="/corporate/office.html
+" target="_self">拠点一覧</a></li>
+							
+								<li><a href="/corporate/group.html
+" target="_self">グループ会社</a></li>
+							
+					</ul>
+				
+			</div>
+		
+			<!-- @module link-list -->
+			<div class="module-link-list">
+				
+
+					<h3><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> <a href="/product/index.html
+" target="_self">取扱商品</a></h3>
+
+					<ul>
+						
+								<li><a href="/product/semicon/index.html
+" target="_self">半導体</a></li>
+							
+								<li><a href="/product/component/index.html
+" target="_self">電子部品・モジュール</a></li>
+							
+								<li><a href="/product/system/index.html
+" target="_self">システム機器</a></li>
+							
+								<li><a href="/product/solution/index.html
+" target="_self">製品ソリューション</a></li>
+							
+								<li><a href="/maker/index.html
+" target="_self">取扱メーカー一覧</a></li>
+							
+					</ul>
+				
+			</div>
+		
+			<!-- @module link-list -->
+			<div class="module-link-list">
+				
+
+					<h3><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> <a href="/ir/index.html
+" target="_self">投資家情報</a></h3>
+
+					<ul>
+						
+								<li><a href="/ir/management/index.html
+" target="_self">経営方針 </a></li>
+							
+								<li><a href="/ir/governance/index.html
+" target="_self">コーポレートガバナンス</a></li>
+							
+								<li><a href="/ir/financial/index.html
+" target="_self">財務・業績情報</a></li>
+							
+								<li><a href="/ir/library/index.html
+" target="_self"> IRライブラリー</a></li>
+							
+								<li><a href="/ir/events/index.html
+" target="_self">IRイベント</a></li>
+							
+								<li><a href="/ir/stockinfo/index.html
+" target="_self">株式・株主情報</a></li>
+							
+								<li><a href="/ir/individual/index.html
+" target="_self">個人投資家の皆さまへ</a></li>
+							
+								<li><a href="/ir/shareholder/index.html
+" target="_self">株主の皆様へ</a></li>
+							
+								<li><a href="/ir/kohkoku/kohkoku.html
+" target="_self">電子公告</a></li>
+							
+					</ul>
+				
+			</div>
+		
+			<!-- @module link-list -->
+			<div class="module-link-list">
+				
+
+					<h3><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> <a href="/csr/index.html
+" target="_self">CSR</a></h3>
+
+					<ul>
+						
+								<li><a href="/csr/8ids6e000000i59n.html
+" target="_self">CSR方針</a></li>
+							
+								<li><a href="/csr/8ids6e0000002dv8.html
+" target="_self">特定輸出者</a></li>
+							
+								<li><a href="/csr/traceinternational.html
+" target="_self">TRACE認証</a></li>
+							
+								<li><a href="/csr/ems.html
+" target="_self">環境・品質方針</a></li>
+							
+								<li><a href="/csr/security.html
+" target="_self">情報セキュリティ</a></li>
+							
+					</ul>
+				            <h3><a href="/recruit">リクルート</a></h3>
+            <h3><a href="/info/information.html">インフォメーション</a></h3>
+            <h3><a href="/press/press_release.html">プレスリリース</a></h3>
+            <h3><a href="/contact.html">お問い合わせ</a></h3>
+            <h3><a href="/en/index.html">ENGLISH</a></h3>
+
+				
+			</div>
+		
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper-footer">
+      <!-- @layout footer -->
+      <div class="layout-footer module-footer">
+        <footer>
+          <p>Copyright &copy; 2002-2018 MARUBUN CORPORATION All Rights Reserved.　　<font size="2"><a href="/agreement.html" style="color:#ffffff;">ウェブサイト利用規約</a>｜ <a href="/privacy_policy.html" style="color:#ffffff;">個人情報保護について</a>｜</font></p>
+        </footer>
+      </div>
+    </div>
+	
+	    <script src="/common/site_js/min/threed_final.min.js"></script>
+	
+    <script src="/common/site_js/min/main.min.js"></script>
+    <script src=""></script>
+    <!-- GA -->
+		<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-94274-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    <!-- PD -->
+<script type="text/javascript">
+piAId = '537762';
+piCId = '10518';
+piHostname = 'pi.pardot.com';
+
+(function() {
+ function async_load(){
+  var s = document.createElement('script'); s.type = 'text/javascript';
+  s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+  var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+ }
+ if(window.attachEvent) { window.attachEvent('onload', async_load); }
+ else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+    <!-- PD -->
+    <!-- GA -->
+	</body>
+
+</html>

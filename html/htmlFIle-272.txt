@@ -1,0 +1,2311 @@
+<!doctype html>
+<html class="no-js" lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="google-site-verification" content="2673f0941b2e44e3" />
+
+		
+		<title>Babylonstoren - 	Contact
+</title>
+
+		<script>
+				dataLayer = [];
+		</script>
+
+    			<!-- Google Tag Manager -->
+			<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+			new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+			j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+			'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+			})(window,document,'script','dataLayer','GTM-WC3P7D');</script>
+    
+    <link rel="shortcut icon" href="https://www.babylonstoren.com/favicon.ico">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css?v=1">
+		<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:500,500i,600,600i|Open+Sans:400,400i,600,600i,700,700i" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="https://www.babylonstoren.com/css/main.css?v=4">
+		<link rel="stylesheet" type="text/css" href="https://www.babylonstoren.com/css/cropper.css">
+		<link rel="stylesheet" type="text/css" href="https://www.babylonstoren.com/css/admin.css?v=3">
+		<link rel="stylesheet" type="text/css" href="https://www.babylonstoren.com/css/weather.css">
+
+		<script src="https://www.dineplan.com/resources/dineplan.widget.v2.1.min.js"></script>
+
+		<script>
+        //==== GLOBAL TRANSLATIONS
+        var SELECTADATE_GLOBAL = 'Select a date';
+        var UPLOADCV_GLOBAL = 'Upload CV';
+        var NOFILESSELECTED_GLOBAL = 'No files selected';
+
+        
+        var imageSliderBuilder = {};
+        var giftcardRedeemId = 20001000;
+        var voucherRedeemId = 20111;
+        var giftCardId = 10002000;
+        var couponId = 10222;
+        var shippingCost = 0;
+
+        //====== VOUCHER TRANSLATIONS
+        var VOUCHER_NOT_VALID = "Notice. This voucher is no longer valid.";
+        var VOUCHER_DOES_NOT_EXIST = "Notice. This voucher does not exist.";
+        var VOUCHER_WRONG_REGION = "Notice. This voucher can not be used in your region";
+        var VOUCHER_NOT_ACTIVE = "Notice. This voucher is not active right now";
+        var VOUCHER_MINIMUM_SPEND = "Notice. This voucher requires a minimum spend";
+        var VOUCHER_SPECIFIC_PRODUCT = "Notice. This voucher is only valid for specific products";
+        var VOUCHER_SPECIFIC_CATEGORY = "Notice. This voucher is only valid for a specific Category";
+        var VOUCHER_USED = "Notice. This voucher has already been used";
+        var VOUCHER_ZA_ONLY = "Notice. This voucher can only be redeemed in the South African Store.";
+        var VOUCHER_ALREADY_USED = "Notice. This voucher has already been used. Please log in to use it if it is yours.";
+		</script>
+		<script src="https://www.babylonstoren.com/js/vendor/modernizr.js"></script>
+		<script src="https://www.babylonstoren.com/js/vendor/jquery-1.12.4.min.js"></script>
+
+		<script src="https://www.babylonstoren.com/js/vendor/knockout-3.3.0.js"></script>
+		<script src="https://www.babylonstoren.com/js/models/shop-model.js?v=11"></script>
+
+		
+        <!-- Region Styles -->
+        <style>
+                    .sa-only { display: inline; }
+            .uk-only { display: none; }
+                </style>
+
+	</head>
+
+		    <body>
+	
+            <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WC3P7D"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+		<div id="slidenav1" class="slidenav">
+            <div class="slidenav-wrap">
+				
+				<div id="header" class="row">
+  <div class="container">
+
+    <a href="https://www.babylonstoren.com" class="header__logo">
+      <div class="header__logo--brown">
+        <img src="https://www.babylonstoren.com/img/logo_brown_sml.png" class="header__logo--sm" alt="Babylonstoren">
+        <img src="https://www.babylonstoren.com/img/logo_brown_xsml.png" class="header__logo--xs" alt="Babylonstoren">
+      </div>
+
+      <div class="header__logo--white">
+        <img src="https://www.babylonstoren.com/img/logo_white_sml.png" class="header__logo--sm" alt="Babylonstoren">
+        <img src="https://www.babylonstoren.com/img/logo_white_xsml.png" class="header__logo--xs" alt="Babylonstoren">
+      </div>
+    </a>
+
+    <div class="hide-on-md-up">
+      <div class="header__mobile-dropdowns">
+        <a href="#mobile-basket" class="header__basket" data-fullnav-trigger>
+          <span class="header__basket-items" data-bind="text: shopModel.cartCount"></span>
+          <span style="position:absolute;bottom:-20px;left:-6px;">Basket</span>
+        </a>
+
+        <a href="#mobile-nav" class="header__mobile-icon" data-fullnav-trigger>
+          <span class="header__mobile-line"></span>
+          <span class="header__mobile-line"></span>
+          <span class="header__mobile-line"></span>
+          <span class="header__mobile-text">Menu</span>
+        </a>
+
+                  <div class="content-nav-dropdown-wrap">
+            <select class="content-nav-dropdown expand hide-on-md-up">
+	<option value="Contact">Contact</option>
+	<option value="FAQ">FAQ</option>
+	<option value="Map">Map</option>
+	<option value="Directions">Directions</option>
+	<option value="Enquire">Enquire</option>
+</select>          </div>
+        
+      </div>
+    </div>
+
+
+    <div class="show-on-md-up">
+
+      <ul class="header__extra-links">
+        <li><a href="https://www.babylonstoren.com/press">press</a></li>
+        <li><a href="https://www.babylonstoren.com/blog">blog</a></li>
+      </ul>
+
+      <div class="header__config">
+        <select data-custom-select set-locale>
+            <option value="en"  selected >English</option>
+            <option value="af" >Afrikaans</option>
+			     <option value="zh" >Mandarin</option>
+            <option value="de" >Deutsch</option>
+            
+          </select>
+      
+          <a href="javascript:void(0)" class="region-modal-trigger">Japan</a>
+      </div>
+
+      <div class="header__nav">
+		<div class="header__nav--left">
+  <ul>
+				<li class="has-dropdown" style="position:relative">
+				
+	  <a href=  "#" ><div >Hotel</div></a>
+				<ul>
+						  
+				<li>
+						<a href="/experience/farm-hotel">
+						  
+			<div style="position:relative">
+						<div >
+				<img alt="#" src="https://www.babylonstoren.com/medialib/img/1455612508.jpeg" />
+			</div>
+			<div >farm hotel</div>
+			</div>
+			
+						</a>
+					</li>
+				  
+				<li>
+						<a href="/experience/hotel-rates">
+						  
+			<div style="position:relative">
+						<div >
+				<img alt="#" src="https://www.babylonstoren.com/medialib/img/1455612524.jpeg" />
+			</div>
+			<div >rates</div>
+			</div>
+			
+						</a>
+					</li>
+									  		</ul>
+			</li>
+				<li class="has-dropdown" style="position:relative">
+				
+	  <a href=  "#" ><div >Garden</div></a>
+				<ul>
+						  
+				<li>
+						<a href="/experience/garden">
+						  
+			<div style="position:relative">
+						<div >
+				<img alt="#" src="https://www.babylonstoren.com/medialib/img/1495013976.jpeg" />
+			</div>
+			<div >garden</div>
+			</div>
+			
+						</a>
+					</li>
+				  
+				<li>
+						<a href="/gardening-app">
+						  
+			<div style="position:relative">
+						<div >
+				<img alt="#" src="https://www.babylonstoren.com/medialib/img/1522059530.png" />
+			</div>
+			<div >Garden App</div>
+			</div>
+			
+						</a>
+					</li>
+									  		</ul>
+			</li>
+				<li  style="position:relative">
+				
+	  <a href= "/spa" ><div >Spa</div></a>
+							  	</li>
+				<li class="has-dropdown" style="position:relative">
+				
+	  <a href=  "#" ><div >Restaurants</div></a>
+				<ul>
+						  
+				<li>
+						<a href="/experience/restaurants/babel">
+						  
+			<div style="position:relative">
+						<div >
+				<img alt="#" src="https://www.babylonstoren.com/medialib/img/1494940554.jpeg" />
+			</div>
+			<div >babel</div>
+			</div>
+			
+						</a>
+					</li>
+				  
+				<li>
+						<a href="/experience/restaurants/greenhouse">
+						  
+			<div style="position:relative">
+						<div >
+				<img alt="#" src="https://www.babylonstoren.com/medialib/img/1494940424.jpeg" />
+			</div>
+			<div >greenhouse</div>
+			</div>
+			
+						</a>
+					</li>
+				  
+				<li>
+						<a href="https://www.babylonstoren.com/bakery">
+						  
+			<div style="position:relative">
+						<div >
+				<img alt="#" src="https://www.babylonstoren.com/medialib/img/1494940131.jpeg" />
+			</div>
+			<div >Bakery</div>
+			</div>
+			
+						</a>
+					</li>
+				  
+				<li>
+						<a href="https://www.babylonstoren.com/healing-garden">
+						  
+			<div style="position:relative">
+						<div >
+				<img alt="#" src="https://www.babylonstoren.com/medialib/img/1486983549.jpeg" />
+			</div>
+			<div >Tea Ritual</div>
+			</div>
+			
+						</a>
+					</li>
+									  		</ul>
+			</li>
+				<li class="has-dropdown" style="position:relative">
+				
+	  <a href=  "#" ><div >Cellar</div></a>
+				<ul>
+						  
+				<li>
+						<a href="/experience/wines">
+						  
+			<div style="position:relative">
+						<div >
+				<img alt="#" src="https://www.babylonstoren.com/medialib/img/1494948651.jpeg" />
+			</div>
+			<div >our wine</div>
+			</div>
+			
+						</a>
+					</li>
+				  
+				<li>
+						<a href="/wine-club">
+						  
+			<div style="position:relative">
+						<div >
+				<img alt="#" src="https://www.babylonstoren.com/medialib/img/1494948602.jpeg" />
+			</div>
+			<div >wine club</div>
+			</div>
+			
+						</a>
+					</li>
+				  
+				<li>
+						<a href="/tasting-room">
+						  
+			<div style="position:relative">
+						<div >
+				<img alt="#" src="https://www.babylonstoren.com/medialib/img/1479311143.jpeg" />
+			</div>
+			<div >Tasting Room</div>
+			</div>
+			
+						</a>
+					</li>
+									  		</ul>
+			</li>
+				  </ul>
+</div>
+
+<div class="header__nav--right">
+  <ul>
+				<li  style="position:relative">
+				
+	  <a href= "/experience/functions"  ><div >Functions</div></a>
+	  					  	</li>
+				<li  style="position:relative">
+				
+	  <a href= "/experience/workshop"  ><div >Workshops</div></a>
+	  					  	</li>
+				<li  style="position:relative">
+				
+	  <a href= "/shop"  ><div >Shop</div></a>
+	  					  	</li>
+				<li  style="position:relative">
+				
+	  <a href= "/contact"  ><div >Visit us</div></a>
+	  					  	</li>
+				  </ul>
+</div>
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<div id="mobile-nav" class="fullnav">
+  <div class="mobile-nav__header">
+    <select data-custom-select set-locale>
+      <option value="en"  selected >English</option>
+      <option value="af" >Afrikaans</option>
+      <option value="de" >Deutsch</option>
+      <option value="zh" >Mandarin</option>
+    </select>
+        
+                <a href="#mobile-nav" class="region-modal-trigger" data-fullnav-close>Japan</a>
+        <a href="#mobile-nav" class="mobile-nav__close" data-fullnav-close></a>
+  </div>
+
+  <div class="mobile-nav__content">
+    <div class="slide-list">
+      <ul>
+	
+			
+	<li>
+		
+		<a href=  "#"  >Hotel</a>
+		
+				  
+		<ul>
+					<li><a href="/experience/farm-hotel">farm hotel</a></li>
+				</ul>
+		  
+		<ul>
+					<li><a href="/experience/hotel-rates">rates</a></li>
+				</ul>
+					</li>
+	
+				
+	<li>
+		
+		<a href=  "#"  >Garden</a>
+		
+				  
+		<ul>
+					<li><a href="/experience/garden">garden</a></li>
+				</ul>
+		  
+		<ul>
+					<li><a href="/gardening-app">Garden App</a></li>
+				</ul>
+					</li>
+	
+				
+	<li>
+		
+		<a href= "/spa"  >Spa</a>
+		
+			</li>
+	
+				
+	<li>
+		
+		<a href=  "#"  >Restaurants</a>
+		
+				  
+		<ul>
+					<li><a href="/experience/restaurants/babel">babel</a></li>
+				</ul>
+		  
+		<ul>
+					<li><a href="/experience/restaurants/greenhouse">greenhouse</a></li>
+				</ul>
+		  
+		<ul>
+					<li><a href="https://www.babylonstoren.com/bakery">Bakery</a></li>
+				</ul>
+		  
+		<ul>
+					<li><a href="https://www.babylonstoren.com/healing-garden">Tea Ritual</a></li>
+				</ul>
+					</li>
+	
+				
+	<li>
+		
+		<a href=  "#"  >Cellar</a>
+		
+				  
+		<ul>
+					<li><a href="/experience/wines">our wine</a></li>
+				</ul>
+		  
+		<ul>
+					<li><a href="/wine-club">wine club</a></li>
+				</ul>
+		  
+		<ul>
+					<li><a href="/tasting-room">Tasting Room</a></li>
+				</ul>
+					</li>
+	
+				
+	<li>
+		
+		<a href= "/experience/functions"  >Functions</a>
+		
+			</li>
+	
+				
+	<li>
+		
+		<a href= "/experience/workshop"  >Workshops</a>
+		
+			</li>
+	
+				
+	<li>
+		
+		<a href= "/shop"  >Shop</a>
+		
+			</li>
+	
+				
+	<li>
+		
+		<a href= "/contact"  >Visit us</a>
+		
+			</li>
+	
+		
+</ul>
+    </div>
+  </div>
+
+  <ul class="mobile-nav__footer">
+    <li><a href="tel: + 27 (0)21 863 1804"><i class="fa fa-phone fa-3x"></i></a></li>
+    <li><a href="mailto:enquiries@babylonstoren.com"><i class="fa fa-envelope fa-3x"></i></a></li>
+    <li><a href="https://maps.google.com/maps?ll=-33.827271,18.927694&amp;z=15&amp;t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=embed&amp;cid=12292877332170461394" target="_blank"><i class="fa fa-map-marker fa-3x"></i></a></li>
+  </ul>
+</div>
+
+<div id="mobile-basket" class="fullnav">
+  <div class="mobile-basket__header">
+    <a href="#mobile-basket" class="mobile-basket__close" data-fullnav-close></a>
+  </div>
+  <div class="mobile-basket__content">
+    <div class="basket">
+    <div data-bind="visible: !shopModel.isCartEmpty()">
+        <div class="basket__overlay" data-bind="visible: shopModel.cartLoading"></div>
+
+        <ul class="basket__products" data-bind="foreach: shopModel.cart">
+            <li data-bind="if: price > 0">
+                <img class="basket__product-image" data-bind="attr: { src: image }">
+                <div class="basket__product-info">
+                    <div class="basket__product-name" data-bind="text: title"></div>
+
+                                            <input type="number" class="basket__product-quantity no-spinner" data-bind="value: quantity, event: { change: function() { $root.shopModel.updateQuantity($data) } }" min="1">
+                                            x <span data-bind="html: $root.shopModel.currencySymbol"></span> <span data-bind="text: price, attr: { id: row_id }"></span>
+                                            <i class="basket__product-remove fa fa-close" data-bind="click: function() { $root.shopModel.removeProduct($data) }"></i>
+                                    </div>
+            </li>
+        </ul>
+
+        <div class="basket__product-totals">
+            <table class="no-style">
+                <tr>
+                  <td>Subtotal</td>
+                  <td>
+                      <span data-bind="html: $root.shopModel.currencySymbol"></span>
+                      <span data-bind="html: shopModel.subtotal"></span>
+                  </td>
+                </tr>
+                <tr class="cart_shipping_row" style="display:none">
+                  <td>Shipping</td>
+                  <td><span data-bind="html: shopModel.shipping" class="cart_shipping_total"></span></td>
+                </tr>
+                <tr class="cart_discount_row text-color-green-3" data-bind="if: shopModel.discount() > 0">
+                  <td>Discount</td>
+                  <td>
+                      - <span data-bind="html: $root.shopModel.currencySymbol"></span>
+                      <span data-bind="html: shopModel.discount"></span>
+                  </td>
+                </tr>
+                <tr class="cart_voucher_row text-color-green-3" data-bind="if: shopModel.voucher() < 0">
+                  <td>Voucher</td>
+                  <td>
+                      <span data-bind="html: $root.shopModel.currencySymbol"></span>
+                      <span data-bind="html: shopModel.voucher"></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Total</td>
+                  <td>
+                      <span data-bind="html: $root.shopModel.currencySymbol"></span>
+                      <span data-bind="html: shopModel.total" class="cart_total"></span>
+                  </td>
+                </tr>
+            </table>
+        </div>
+
+        <div data-bind="if: shopModel.isWineClubPage">
+            <div data-bind="if: shopModel.wineCount() < 12 && !shopModel.isWineClubMember()">
+                <div class="basket__note text-center text-uppercase font-bold">
+                    Please choose at least 12 bottles
+                </div>
+            </div>
+            <div class="text-right" data-bind="if: shopModel.isWineClubMember() || shopModel.wineCount() >= 12">
+                <a href="https://www.babylonstoren.com/shop/checkout" class="button basket__submit">Checkout</a>
+            </div>
+        </div>
+
+                    <div data-bind="if: !shopModel.isWineClubPage()">
+                                                    
+                <div class="text-right">
+                    <a href="https://www.babylonstoren.com/shop/checkout" class="button basket__submit">Checkout</a>
+                </div>
+
+            </div>
+    	
+    </div>
+
+    <div class="basket__empty" data-bind="visible: shopModel.isCartEmpty">Your basket is empty</div>
+</div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  var navDropdown = (function() {
+
+    function init() {
+      calculateDropdownWidth();
+      bindEvents();
+    }
+
+    function bindEvents() {
+      $(window).resize(function() {
+        if ($(this).width() > 991) {
+          calculateDropdownWidth();
+        }
+      });
+    }
+
+    function calculateDropdownWidth() {
+      //Calculate left dropdowns
+      var leftMaxOffset = $('.header__nav--left > ul').offset().left - 20;
+
+      $('.header__nav--left .has-dropdown').each(function(i, el) {
+        var $el = $(el);
+        var count = $('ul li', $el).length;
+
+        var linkW = $('> a', $el).outerWidth();
+        var menuW = (count*133) + (count*20) + (10*2);
+        var menuLeft = (menuW - linkW) / 2;
+
+        if ($el.offset().left-menuLeft < leftMaxOffset) {
+          menuLeft =  $el.offset().left - leftMaxOffset;
+        }
+
+        $('ul', $el).css({
+          width: menuW + 'px',
+          left: -menuLeft + 'px'
+        });
+      });
+
+      //Calculate right dropdowns
+      var rightMaxOffset = (
+        Math.ceil($('.header__nav--right > ul').offset().left) 
+        + Math.ceil($('.header__nav--right > ul').outerWidth())
+      );
+
+      $('.header__nav--right .has-dropdown').each(function(i, el) {
+        var $el = $(el);
+        var count = $('ul li', $el).length;
+
+        var linkW = $('> a', $el).outerWidth();
+        var linkRight = linkW + $('> a', $el).offset().left;
+        var menuW = (count*133) + (count*20) + (10*2);
+        var menuRight = (menuW - linkW) / 2;
+
+        if (linkRight+menuRight > rightMaxOffset) {
+          menuRight =  rightMaxOffset - linkRight;
+        }
+
+        $('ul', $el).css({
+          width: menuW + 'px',
+          left: 'auto',
+          right: -menuRight + 'px'
+        });
+      });
+    }
+
+    return { 
+      init: init, 
+      calculateDropdownWidth: calculateDropdownWidth 
+    };
+  })();
+
+  $(function() {
+    navDropdown.init();
+  });
+</script>
+				<div class="banner">
+	
+		<div class="banner__controls row">
+		<div class="container">
+			<div class="banner__controls-wrap">
+				<div class="banner__pagination"></div>
+
+				<div class="banner__buttons">
+					<a href="#" class="banner__prev outline" banner-prev></a>
+					<a href="#" class="banner__next outline" banner-next></a>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+	
+	<div class="banner__container"  data-slick-slider>
+
+					
+				
+			<div class="banner__slide" data-image-dark>
+				
+			  <div class="banner__image">
+				  
+				<img id="banner-mobile-image-14804003" alt="#" class="banner__image-small" src="https://www.babylonstoren.com/medialib/img/1449140902.jpeg"/>
+				
+				<img id="banner-desktop-image-14704003" alt="#" class="banner__image-large" src="https://www.babylonstoren.com/medialib/img/1449140892.jpeg"/>
+				
+			  </div>
+			  
+			</div>
+			 
+			
+		 
+	
+	</div>
+	
+		  
+	
+</div>
+ 
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+				    <div id="main" class="row">
+        <div class="container">
+
+            <ul id="breadcrumb">
+		<li class="breadcrumb__item"><a href="https://www.babylonstoren.com/">Home</a></li>
+		<li class="breadcrumb__item">Contact</li>
+</ul>
+
+            <div class="grid gutter-large">
+
+                <div class="col-sm-8-14 col-md-10-14">
+
+                    <div class="margin-bottom-30px" style="position: relative;">
+	
+<h2><div >Opening Times & Contact Information</div></h2>
+<div class="clearfix" style="position: relative;">
+		<div class="floating-paragraph-image  element-is-not-visible "   image-box-1>
+		<div >
+			<img src="https://www.babylonstoren.com/img/calltoaction-default.gif" alt="" class="fluid"/>
+		 </div>
+	</div>
+	<span ></span>
+	
+	</div>
+</div>
+                    
+                                                            
+                                        
+                    
+                                                                                
+                    <!-- FLO: added '&& Output::$slug != "contact"' -->
+                                        
+                    						<style type="text/css">
+	.border-box { border: 1px solid #dfe1e1; }
+	.border-box ol { margin: 0; }
+	.border-box select { 
+		padding: 18px 20px; 
+		background-position: right 18px center; 
+		border: none; 
+		border-bottom: 1px solid #dfe1e1;
+		color: #424041;
+		font-family: 'GillSans', 'Gill Sans';
+		font-size: 1.250em;
+		font-weight: normal;
+	}
+	.border-box .grid { margin: 0; }
+	.border-box__title { border-bottom: 1px solid #dfe1e1; }
+	.border-box__padding { padding: 18px 20px; }
+
+	@media (min-width: 992px) {
+		.border-box__left-col { border-right: 1px solid #dfe1e1; }
+	}
+
+	#directionsTo {
+		z-index: 100000;
+	}
+
+	#enquireTo {
+		z-index: 100000;
+	}
+	</style>
+
+<div class="clearfix" style="height:20px;"></div>
+
+<dl class="smart-tabs content-spacing" data-tabs-accordion>
+
+								
+			<dt>
+									<a href="javascript:void(0)">
+						<div ><span id="contacts">Contact us</span></div>
+						<span class="smart-tabs__arrow"></span>
+					</a>
+							</dt>
+			<dd>
+				<div ><style type="text/css">.grid .col-md-4-10 { width:35%; }.contact-info-middle { width:34% !important; }</style><div class="margin-bottom-30px" id="contacts"><div class="grid"><div class="col-md-4-10"><p><strong>ENQUIRIES AND RESERVATIONS OFFICE</strong></p></div><div class="col-md-3-10 contact-info-middle"><p>Monday&ndash;Sunday:<br />8h00&ndash;17h00</p></div><div class="col-md-3-10"><p><a href="tel:+27 (0)21 863 3852">+27 (0)21 863 3852</a><br /><a href="mailto:enquiries@babylonstoren.com" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Email Clicks', 'eventAct': 'Click', 'eventLbl': 'enquiries@babylonstoren.com', 'eventVal': 0});">enquiries@babylonstoren.com</a></p></div></div><hr class="margin-top-15px margin-bottom-30px" /><div class="grid"><div class="col-md-4-10"><p><strong>GARDEN</strong></p></div><div class="col-md-3-10 contact-info-middle"><p>Monday&ndash;Sunday:<br />9h00&ndash;17h00 (last entry 16h00)<br />Guided garden tours start at the Farm Shop: 10h00&ndash;11h30</p></div><div class="col-md-3-10"><p><a href="tel:+27 (0)21 863 3852">+27 (0)21 863 3852</a><br /><a href="mailto:enquiries@babylonstoren.com" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Email Clicks', 'eventAct': 'Click', 'eventLbl': 'enquiries@babylonstoren.com', 'eventVal': 0});">enquiries@babylonstoren.com</a></p></div></div><hr class="margin-top-15px margin-bottom-30px" /><div class="grid"><div class="col-md-4-10"><p><strong>BABEL RESTAURANT</strong></p></div><div class="col-md-3-10 contact-info-middle"><p><strong>Breakfast&nbsp;</strong>&nbsp;Monday&ndash;Sunday: 8h00&ndash;9h30<br /><strong>Lunch&nbsp;</strong>&nbsp;Wednesday&ndash;Sunday:&nbsp;<br />from 12h00<br /><strong>Dinner&nbsp;</strong>&nbsp;Monday&ndash;Sunday:<br />from 19h00</p></div><div class="col-md-3-10"><p><a href="tel:+27 (0)21 863 3852">+27 (0)21 863 3852</a><br /><a href="mailto:enquiries@babylonstoren.com" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Email Clicks', 'eventAct': 'Click', 'eventLbl': 'enquiries@babylonstoren.com', 'eventVal': 0});">enquiries@babylonstoren.com</a></p></div></div><hr class="margin-top-15px margin-bottom-30px" /><div class="grid"><div class="col-md-4-10"><p><strong>BAKERY DINNERS</strong></p></div><div class="col-md-3-10 contact-info-middle"><p>Wednesdays &amp; Fridays:<br />from 19h00</p></div><div class="col-md-3-10"><p><a href="tel:+27 (0)21 863 3852">+27 (0)21 863 3852</a><br /><a href="mailto:enquiries@babylonstoren.com" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Email Clicks', 'eventAct': 'Click', 'eventLbl': 'enquiries@babylonstoren.com', 'eventVal': 0});">enquiries@babylonstoren.com</a></p></div></div><hr class="margin-top-15px margin-bottom-30px" /><div class="grid"><div class="col-md-4-10"><p><strong>HEALING GARDEN</strong></p></div><div class="col-md-3-10 contact-info-middle"><p><strong>Tea ritual&nbsp;</strong>&nbsp;Tuesdays:<br />9h30</p></div><div class="col-md-3-10"><p><a href="tel:+27 (0)21 863 3852">+27 (0)21 863 3852</a><br /><a href="mailto:enquiries@babylonstoren.com" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Email Clicks', 'eventAct': 'Click', 'eventLbl': 'enquiries@babylonstoren.com', 'eventVal': 0});">enquiries@babylonstoren.com</a></p></div></div><hr class="margin-top-15px margin-bottom-30px" /><div class="grid"><div class="col-md-4-10"><p><strong>THE GREENHOUSE RESTAURANT</strong></p></div><div class="col-md-3-10 contact-info-middle"><p>Monday&ndash;Sunday:<br />10h00&ndash;16h00</p></div><div class="col-md-3-10"><p><a href="tel:+27 (0)21 863 3852">+27 (0)21 863 3852</a><br /><a href="mailto:enquiries@babylonstoren.com" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Email Clicks', 'eventAct': 'Click', 'eventLbl': 'enquiries@babylonstoren.com', 'eventVal': 0});">enquiries@babylonstoren.com</a></p></div></div><hr class="margin-top-15px margin-bottom-30px" /><div class="grid"><div class="col-md-4-10"><p><strong>WINE TASTING</strong></p></div><div class="col-md-3-10 contact-info-middle"><p><strong>Winter from May&nbsp;&nbsp;</strong>Monday&ndash;Sunday: 10h00&ndash;17h00<br /><strong>Summer from September&nbsp;</strong>&nbsp;Monday&ndash;Sunday: 10h00&ndash;18h00</p></div><div class="col-md-3-10"><p><a href="tel:+27 (0)21 863 3852">+27 (0)21 863 3852</a><br /><a href="mailto:enquiries@babylonstoren.com" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Email Clicks', 'eventAct': 'Click', 'eventLbl': 'enquiries@babylonstoren.com', 'eventVal': 0});">enquiries@babylonstoren.com</a></p></div></div><hr class="margin-top-15px margin-bottom-30px" /><div class="grid"><div class="col-md-4-10"><p><strong>THE FARM SHOP</strong></p></div><div class="col-md-3-10 contact-info-middle"><p>Monday&ndash;Sunday:<br />9h00&ndash;17h00</p></div><div class="col-md-3-10"><p><a href="tel:+27 (0)21 863 3852">+27 (0)21 863 3852</a><br /><a href="mailto:enquiries@babylonstoren.com" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Email Clicks', 'eventAct': 'Click', 'eventLbl': 'enquiries@babylonstoren.com', 'eventVal': 0});">enquiries@babylonstoren.com</a></p></div></div><hr class="margin-top-15px margin-bottom-30px" /><div class="grid"><div class="col-md-4-10"><p><strong>THE GARDEN SPA</strong></p></div><div class="col-md-3-10 contact-info-middle"><p>Monday&ndash;Sunday:<br />8h00&ndash;17h00</p></div><div class="col-md-3-10"><p><a href="tel:+27 (0)21 300 3929">+27 (0)21 300 3929</a><br /><a href="mailto:spa@babylonstoren.com" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Email Clicks', 'eventAct': 'Click', 'eventLbl': 'spa@babylonstoren.com', 'eventVal': 0});">spa@babylonstoren.com</a></p></div></div><hr class="margin-top-15px margin-bottom-30px" /><div class="grid"><div class="col-md-4-10"><p><strong>FARM HOTEL</strong></p></div><div class="col-md-3-10 contact-info-middle"><p><strong>Daily check-in&nbsp;</strong>&nbsp;14h00<br /><strong>Daily check-out&nbsp;</strong>&nbsp;11h00</p></div><div class="col-md-3-10"><p><a href="tel:+27 (0)21 863 3852">+27 (0)21 863 3852</a><br /><a href="mailto:reservations@babylonstoren.com" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Email Clicks', 'eventAct': 'Click', 'eventLbl': 'reservations@babylonstoren.com', 'eventVal': 0});">reservations@babylonstoren.com</a><br /><a href="mailto:reservations2@babylonstoren.com" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Email Clicks', 'eventAct': 'Click', 'eventLbl': 'reservations2@babylonstoren.com', 'eventVal': 0});">reservations2@babylonstoren.com</a></p></div></div><hr class="margin-top-15px margin-bottom-30px" /><div class="grid"><div class="col-md-4-10"><p><strong>ONLINE SHOP QUERIES</strong></p></div><div class="col-md-3-10 contact-info-middle"><p>Monday&ndash;Friday:<br />07h30-16h30</p></div><div class="col-md-3-10"><p><a href="tel:+27 (0)21 300 3919">+27 (0)21 300 3919</a><br /><a href="mailto:deliveries@babylonstoren.com" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Email Clicks', 'eventAct': 'Click', 'eventLbl': 'deliveries@babylonstoren.com', 'eventVal': 0});">deliveries@babylonstoren.com</a></p></div></div><hr class="margin-top-15px margin-bottom-30px" /><div class="grid"><div class="col-md-4-10"><p><strong>WINE TRADE ENQUIRIES</strong></p></div><div class="col-md-5-10"><p>Niel Nothnagel &ndash; <a href="mailto:niel@babylonstoren.com">niel@babylonstoren.com</a></p></div></div><hr class="margin-top-15px margin-bottom-30px" /><div class="grid"><div class="col-md-4-10"><p><strong>PR &amp; MEDIA ENQUIRIES</strong></p></div><div class="col-md-5-10"><p>Lize Grobbelaar &ndash; <a href="mailto:media@babylonstoren.com" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Email Clicks', 'eventAct': 'Click', 'eventLbl': 'media@babylonstoren.com', 'eventVal': 0});">media@babylonstoren.com</a></p></div></div></div></div>
+			</dd>	
+							
+								
+			<dt>
+									<a href="javascript:void(0)">
+						<div ><span id="faq">FAQ</span></div>
+						<span class="smart-tabs__arrow"></span>
+					</a>
+							</dt>
+			<dd>
+				<div ><div id="faq"><div class="small-on-md-up"><div class="small-on-md-up"><div style="position:relative"><p><strong>Q: Are you pet friendly?</strong></p><div><p>A: Regrettably we do not allow pets on the farm. We have resident tortoises, ducks, chickens and children on the farm, and we would not want to potentially harm them. Guide dogs welcome.</p></div><hr class="margin-bottom-25px" /></div><div style="position:relative"><p><strong>Q: Do you take bookings for The Greenhouse?</strong></p><div><p>A: At The Greenhouse we allocate tables on a first come, first served basis between 10h00 and 16h00. Please arrive early to avoid a long queue during busy times. For groups of between 13 and 18 guests, please do make a reservation.&nbsp;For groups of more than 18 people, contact <a href="mailto:functions@babylonstoren.com" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Email Clicks', 'eventAct': 'Click', 'eventLbl': 'functions@babylonstoren.com', 'eventVal': 0});">functions@babylonstoren.com</a> for our private venue rates and packages.</p></div><hr class="margin-bottom-25px" /></div><div style="position:relative"><p><strong>Q: Do you have a play area for kids?</strong></p><div><p>A: We offer a farm and garden experience; children love the animals and space outside.</p></div><hr class="margin-bottom-25px" /></div><div style="position:relative"><p><strong>Q: Are you wheelchair friendly?</strong></p><div><p>A: Babylonstoren is a farm and garden experience engaging all the senses. The nature and extent of the garden with uneven paths of gravel, pips and sticks make&nbsp;it very challenging for wheelchairs. We do not have staff available to escort guests but offer wheelchairs at the farm shop for those with strong family members or friends able to assist.</p></div><hr class="margin-bottom-25px" /></div><div style="position:relative"><p><strong>Q: How old is the garden?</strong></p><div><p>A:&nbsp;The farm dates back to 1692. The oldest buildings were erected in the late 17th century, with the manor house dating back to 1777. After the property was bought in 2007, French-Italian architect Patrice Taravella, owner of <a href="http://www.prieuredorsan.com/" onmousedown="dataLayer.push({'event': 'eventTracker', 'eventCat': 'Outbound Links', 'eventAct': 'Click', 'eventLbl': 'www.prieuredorsan.com/', 'eventVal': 0});">Prieur&eacute; Notre Dame d&rsquo;Orsan</a>, designed the garden. Over the next few years pergolas, gravel pathways and water canals were built. During 2009 the gardeners started preparing the soil and did most of the planting for the formal garden. Babylonstoren opened its doors to the public in November 2010.</p></div><hr class="margin-bottom-25px" /></div><div style="position:relative"><p><strong>Q: What do you farm &quot;outside&nbsp;the garden&quot;?</strong></p><div><p>A: We grow plums and citrus for export. For our own use we have olives, grapes, figs, prickly pears, persimmons and now also blood oranges, specially for our garden juices. In addition we grow mealies, rye, wheat, alfalfa and risotto rice. We alternate the rice with waterblommetjies &ndash; after the rice harvest, waterblommetjies are planted in the same dams. Our almond and pecan trees do not produce nuts yet but are growing beautifully and before long, we&rsquo;ll have our first harvest. We make our own rooibos and honey bush teas. We also grow proteas and make our own compost for use in the garden and on the farm. A big camp is being built at the moment. This is where we&rsquo;ll house our own free-range pigs.</p></div><hr class="margin-bottom-25px" /></div><div style="position:relative"><p><strong>Q: How do you pronounce Babylonstoren?</strong></p><div><p>A: Listen to the pronunciation&nbsp;<a href="javascript:pronouncebbs()">here</a>.</p></div><hr class="margin-bottom-25px" /></div><div style="position:relative"><p><strong>Q: Where does the name come from?</strong></p><div><p>A:&nbsp;Babylonstoren&rsquo;s life started in 1692, when Governor Simon van der Stel granted the free burgher Pieter van der Byl a small piece of land at the foot of a conical hill. It was dubbed, in Dutch, Babilonische Tooren, later Babilonstoring or Babylonstoren, as the 17th-century farmers thought its shape resembled the Tower of Babel mentioned in the Bible. An interesting but unproven speculation is that it also suggests the linguistic melting pot the valley became at that time, with Dutch, French, German and various Khoi and San languages intermingling, and exotic Asian words sailing in with the spice trade &ndash; all of which evoke the biblical story of the Tower of Babel.</p></div><hr class="margin-bottom-25px" /></div><div style="position:relative"><p><strong>Q: What does the logo represent?</strong></p><div><p>A:&nbsp;The Babylonstoren logo, which consists of the pipe (representing the&nbsp;farmer), the flower (representing the garden) and the bird (representing nature), combines the very essence of Babylonstoren &ndash; keeping things simple and as true to the earth as possible.</p><hr /><p><strong>Q: Why do you ask an entrance fee and what is it used for?</strong></p><p>A:&nbsp;When visitors come to Babylonstoren, whether it&rsquo;s for lunch or a garden tour, an entrance fee is required for access to our 3.5 hectare garden which is the heart of Babylonstoren. On weekends and public holidays entry costs R20 per person (R10 per child under 12), but on weekdays it is R10 for all. Babylonstoren places great value on the upliftment of the community and therefore all entrance fees go to our Babylonstoren Trust. The Trust raises funds for community projects such as the Learning Centre where our farm workers&rsquo; children are cared for while their parents are hard at work in our vineyards and orchards. Meals are provided as well as help with school work. The Trust also provides support with private and other school fees for older children and it funds sporting equipment and clothes as well as transport to and from sports days.&nbsp;</p></div></div></div></div></div></div>
+			</dd>	
+							
+								
+			<dt>
+									<a href="javascript:void(0)">
+						<div ><span id="map">Map</span></div>
+						<span class="smart-tabs__arrow"></span>
+					</a>
+							</dt>
+			<dd>
+				<div ><div><img class="fluid" src="https://www.babylonstoren.com/medialib/img/babylonstoren-gate-map.jpg" /></div></div>
+			</dd>	
+							
+								
+			<dt>
+									<a href="javascript:void(0)">
+						<div ><span id="directionsTo">Directions</span></div>
+						<span class="smart-tabs__arrow"></span>
+					</a>
+							</dt>
+			<dd>
+				<div ></div>
+			</dd>	
+							
+								
+			<dt>
+									<a href="javascript:void(0)">
+						<div ><span id="enquireTo">Enquire</span></div>
+						<span class="smart-tabs__arrow"></span>
+					</a>
+							</dt>
+			<dd>
+				<div ></div>
+			</dd>	
+							
+				
+	</dl>
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+<script src="https://www.babylonstoren.com/js/sticky-nav.js"></script>
+<script src="https://www.babylonstoren.com/js/sticky-content-nav.js"></script>
+<script>
+
+$(document).ready(function(){
+
+$(document).on('click', '#directionsTo', function(e) {
+	$('#directions').show();
+	$('#contact').hide();
+	e.preventDefault();
+});
+
+$(document).on('click', '#enquireTo', function(e) {
+	$('#contact').show();
+	$('#directions').hide();
+	e.preventDefault();
+});
+
+$(document).on('click', '#contacts', function(e) {
+	$('#contact').hide();
+	$('#directions').hide();
+	e.preventDefault();
+});
+
+$(document).on('click', '#faq', function(e) {
+	$('#contact').hide();
+	$('#directions').hide();
+	e.preventDefault();
+});
+
+$(document).on('click', '#map', function(e) {
+	$('#contact').hide();
+	$('#directions').hide();
+	e.preventDefault();
+});
+
+});
+
+</script> 
+						 
+						<style>
+	.hide {
+		display: none;
+	}
+
+	.show {
+		display: inline;
+	}
+</style>
+<div id="contact" class="hide border-brown-3 margin-bottom-30px">
+	<h4 style="padding: 20px 15px 0;" >
+		Still unsure about something? Kindly complete the form below and we'll get back to you:
+	</h4>
+	<div class="brown-block" id="contact-form-place">
+		<form method="POST" action="https://www.babylonstoren.com/contact/sendmail" accept-charset="UTF-8" id="contact-form"><input name="_token" type="hidden" value="LdZwoaHFmWa0SPoPDFcgcsPoZMad2DUWCu7x3KG1">
+			<div class="grid">
+				<div class="col-md-1-2">
+					<input required="required" class="border-none expand" placeholder="First Name" name="first_name" type="text">
+					<input required="required" class="border-none expand" placeholder="Last Name" name="last_name" type="text">
+					<input required="required" class="border-none expand" placeholder="Email Address" name="email" type="text">
+					<input required="required" class="border-none expand" placeholder="Contact Number" name="number" type="text">
+				</div>
+				<div class="col-md-1-2">
+					<textarea required="required" class="border-none" placeholder="Comments" name="comment" cols="50" rows="10"></textarea>
+
+					<div class="checkbox-label">
+						<input id="news" data-checkbox="" name="news" type="checkbox" value="yes">
+						<label for="news">I would like to receive news from Babylonstoren</label>
+					</div>
+					<button type="submit" style="width: 200px; margin-bottom: 0; " class="large margin-bottom-20px">Submit</button>
+
+									  
+				  
+				</div>
+			</div>
+		</form>
+	</div>
+	</div>
+						<style>
+	.hide {
+		display: none;
+	}
+
+	.show {
+		display: inline;
+	}
+</style>
+<div id="directions" class="hide border-box margin-bottom-40px">
+	<div class="grid no-gutter">
+		<div class="col-md-1-2 border-box__left-col">
+			<h5 class="border-box__title border-box__padding margin-bottom-0px">
+				Directions
+			</h5>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13258.36222732229!2d18.929490701988612!3d-33.82287780748632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaa9912cd9b78d0d2!2sBabylonstoren!5e0!3m2!1sen!2s!4v1385470752371" width="313" height="312" frameborder="0" style="border:0; width:100%;"></iframe>
+			<div class="border-box__padding">
+				<p class="small-on-md-up">
+					<span class="text-uppercase">GPS co-ordonates:</span><br>
+					33 49' 21.00" S 18 55' 48.00" E
+				</p>
+				<p class="small-on-md-up">
+					<a href="https://maps.google.com/maps?ll=-33.827271,18.927694&amp;z=15&amp;t=m&amp;hl=en-US&amp;gl=US&amp;mapclient=embed&amp;cid=12292877332170461394" target="_blank">Open in Google Maps</a>
+				</p>
+			</div>
+		</div>
+		<div class="col-md-1-2">
+			<h5 class="border-box__title border-box__padding margin-bottom-0px">
+				Where are you coming from?
+			</h5>
+			<div class="margin-bottom-40px" style="position:relative">
+								
+				<select class="expand" data-bind="value: directionModel.selectedStartingPoint" id="driving-directions">
+					<!-- ko foreach: directionModel.directionData -->
+					<option data-bind="text: $data.title, value: $data.id"></option>
+					<!-- /ko -->
+				</select>
+				
+				<div class="border-box__padding">
+					<div class="small-on-md-up" data-bind="foreach: directionModel.directionData">
+						<div data-bind="attr: { 'driving-directions': $data.id, 'style': $data.style }">
+							<div data-bind="html: $data.directions"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+                                        
+                    										<div class="call-to-action-container">
+
+		
+					
+								
+</div>
+														</div>
+
+                <div class="col-sm-6-14 col-md-4-14">
+                						<div class="info-block" style="position: relative;">
+	
+	<h3 class="info-block__title"><div >General Information</div></h3>
+	<div ><ul><li>When visitors come to Babylonstoren, whether it&rsquo;s for lunch or a garden tour, an entrance fee is required for access to our 3.5 hectare garden which is the heart of Babylonstoren. Entrance fees go to the <a href="http://www.babylonstoren.com/blog/post/whats-the-entrance-fee-all-about">Babylonstoren Trust</a> for the education of our local children.<ul><li>Weekends and public holidays: R20 per person | R10 per child under 12</li><li>Weekdays: R10 for all</li><li>Free entry for RHS members.</li><li>Exception: Closed on Christmas Day</li></ul></li><li>This is a working farm with lots of feathery friends, so please leave your pets at home. Guide dogs welcome.</li><li>If you&#39;re coming with a bus, please let us know in advance.&nbsp;</li><li>Parents with prams and guests in wheelchairs, kindly note that all pathways in the garden are gravel and in some areas covered with peach pips.</li><li>Remember to wear comfortable shoes, bring a hat in summer and wellies plus an umbrella in winter. A famous Swedish proverb holds: <em>There ain&rsquo;t no bad weather, just the wrong clothes.</em></li></ul><p><embed height="0" id="xunlei_com_thunder_helper_plugin_d462f475-c18e-46be-bd10-327458d045bd" type="application/thunder_download_plugin" width="0"></embed></p></div>
+</div>
+                    
+					<div class="call-to-action-container">
+
+		
+					
+								
+</div>
+					                                    </div>
+
+            </div>
+        </div>
+    </div>
+
+	<style>
+		.video-wrapper {
+			position: relative;
+			padding-bottom: 53.5%;
+			padding-top: 25px;
+			margin-bottom: 15px;
+			height: 0;
+			width: 100%;
+		}
+		.video-wrapper iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+				<!--==========================================
+FOOTER PRIMARY
+===========================================-->
+
+<div id="footer-primary" class="row show-on-md-up">
+	<div class="container">
+		<div class="grid gutter-large">
+
+			<div 
+				class="col-md-2-13 footer-primary__col"
+						
+		style="position:relative">
+			
+			
+			<h3 class="footer-primary__col-title"><div >to do</div></h3>
+
+			<ul class="footer-primary__links">
+				
+									  
+													
+							<li>
+																
+																<a href="/experience/wines">
+																
+																
+																  
+								
+																<span >Our Wine</span>
+																								</a>
+															</li>
+							
+											  
+													
+							<li>
+																
+																<a href="/experience/farm-hotel">
+																
+																
+																  
+								
+																<span >Farm Hotel</span>
+																								</a>
+															</li>
+							
+											  
+													
+							<li>
+																
+																<a href="/experience/spa">
+																
+																
+																  
+								
+																<span >Spa</span>
+																								</a>
+															</li>
+							
+											  
+													
+							<li>
+																
+																<a href="/experience/garden">
+																
+																
+																  
+								
+																<span >Garden</span>
+																								</a>
+															</li>
+							
+											  
+													
+							<li>
+																
+																<a href="/experience/restaurants/babel">
+																
+																
+																  
+								
+																<span >Babel Restaurant</span>
+																								</a>
+															</li>
+							
+											  
+													
+							<li>
+																
+																<a href="/experience/restaurants/greenhouse">
+																
+																
+																  
+								
+																<span >Greenhouse Restaurant</span>
+																								</a>
+															</li>
+							
+											  
+													
+							<li>
+																
+																<a href="/experience/workshop">
+																
+																
+																  
+								
+																<span >Workshops</span>
+																								</a>
+															</li>
+							
+											  
+													
+							<li>
+																
+																<a href="/experience/functions">
+																
+																
+																  
+								
+																<span >Functions</span>
+																								</a>
+															</li>
+							
+																			
+								
+			</ul>
+			
+						
+		</div>
+		
+				
+							<div 
+				class="col-md-2-13 footer-primary__col"
+						
+		style="position:relative">
+			
+			
+			<h3 class="footer-primary__col-title"><div >view</div></h3>
+
+			<ul class="footer-primary__links">
+				
+									  
+													
+							<li>
+																
+																<a href="/shop">
+																
+																
+																  
+								
+																<span >Online Shop</span>
+																								</a>
+															</li>
+							
+											  
+													
+							<li>
+																
+																<a href="/wine-club">
+																
+																
+																  
+								
+																<span >Wine Club</span>
+																								</a>
+															</li>
+							
+											  
+													
+							<li>
+																
+																<a href="/blog">
+																
+																
+																  
+								
+																<span >Blog</span>
+																								</a>
+															</li>
+							
+											  
+													
+							<li>
+																
+																<a href="/about">
+																
+																
+																  
+								
+																<span >About</span>
+																								</a>
+															</li>
+							
+											  
+													
+							<li>
+																
+																<a href="/press">
+																
+																
+																  
+								
+																<span >Press</span>
+																								</a>
+															</li>
+							
+											  
+													
+							<li>
+																
+																<a href="/careers">
+																
+																
+																  
+								
+																<span >Careers</span>
+																								</a>
+															</li>
+							
+											  
+													
+							<li>
+																
+																<a href="/contact">
+																
+																
+																  
+								
+																<span >Contact Us</span>
+																								</a>
+															</li>
+							
+											  
+													
+							<li>
+																
+																<a href="http://www.babylonstoren.com/volunteers">
+																
+																
+																  
+								
+																<span >Volunteers</span>
+																								</a>
+															</li>
+							
+																			
+								
+			</ul>
+			
+						
+		</div>
+		
+				
+							<div 
+						class="col-md-3-13 footer-primary__col"
+				
+		style="position:relative">
+			
+			
+			<h3 class="footer-primary__col-title"><div >ABOUT BABYLONSTOREN</div></h3>
+
+			<ul class="footer-primary__links">
+				
+									  
+													
+							<li>
+																
+																<a href="javascript:pronouncebbs()">
+																
+																
+																  
+								
+																<span >'Babylonstoren' pronunciation</span>
+																								</a>
+															</li>
+							
+											  
+													
+							<li>
+																
+																<a href="https://www.youtube.com/watch?v=y4r_znBhuDE">
+																
+																
+																  
+								
+																<span >Quick Pic Tour of Babylonstoren</span>
+																								</a>
+															</li>
+							
+											  
+													
+							<li>
+																
+																<a href="/about">
+																
+																
+																  
+								
+																<span >History of Babylonstoren</span>
+																								</a>
+															</li>
+							
+																			
+								
+			</ul>
+			
+						
+		</div>
+		
+				
+							<div 
+						class="col-md-3-13 footer-primary__col"
+				
+		style="position:relative">
+			
+			
+			<h3 class="footer-primary__col-title"><div >CONTACT US</div></h3>
+
+			<ul class="footer-primary__links">
+				
+									  
+													
+							<li>
+																
+																
+																<a class="footer__nav-item" href="tel:+270218633852" target="_blank"><i class="fa fa-phone fa-lg"></i>
+																
+																  
+								
+																<span >+27 (0)21 863 3852</span>
+																								</a>
+															</li>
+							
+											  
+													
+							<li>
+																
+																
+																<a class="footer__nav-item" href="mailto:enquiries@babylonstoren.com" target="_blank"><i class="fa fa-envelope fa-lg"></i>
+																
+																  
+								
+																<span >enquiries@babylonstoren.com<br/><br/></span>
+																								</a>
+															</li>
+							
+											  
+													
+							<li>
+																
+																
+																<a class="footer__nav-item" href="https://www.facebook.com/Babylonstoren" target="_blank"><i class="fa fa-facebook fa-lg"></i>
+																
+																  
+								
+																<span >Facebook</span>
+																								</a>
+															</li>
+							
+											  
+													
+							<li>
+																
+																
+																<a class="footer__nav-item" href="https://twitter.com/babylonstoren" target="_blank"><i class="fa fa-twitter fa-lg"></i>
+																
+																  
+								
+																<span >Twitter</span>
+																								</a>
+															</li>
+							
+											  
+													
+							<li>
+																
+																
+																<a class="footer__nav-item" href="https://instagram.com/babylonstoren" target="_blank"><i class="fa fa-instagram fa-lg"></i>
+																
+																  
+								
+																<span >Instagram</span>
+																								</a>
+															</li>
+							
+											  
+													
+							<li>
+																
+																
+																<a class="footer__nav-item" href="https://plus.google.com/+babylonstoren" target="_blank"><i class="fa fa-google-plus fa-lg"></i>
+																
+																  
+								
+																<span >Google+</span>
+																								</a>
+															</li>
+							
+											  
+													
+							<li>
+																
+																
+																<a class="footer__nav-item" href="https://www.youtube.com/channel/UCntUzv42vmt7P9Xmcf5a_-w" target="_blank"><i class="fa fa-youtube fa-lg"></i>
+																
+																  
+								
+																<span >YouTube</span>
+																								</a>
+															</li>
+							
+																			
+								
+			</ul>
+			
+						
+		</div>
+		
+				
+							<div 
+						class="col-md-3-13 footer-primary__col"
+				
+		style="position:relative">
+			
+					
+			<script>
+		$(document).ready(function() {
+
+			
+		$("input#english").change(function() {
+			if(this.checked) {
+				$("input#english").attr('checked', 'checked');
+				$("input#afrikaans").prop("disabled", true);
+				$("form").attr("action", "//babylonstoren.us9.list-manage.com/subscribe/post?u=375035a503a1898b4d60b871f&amp;id=8e64b8cc74");
+				$("#inputName input").attr('name', 'b_375035a503a1898b4d60b871f_8e64b8cc74');
+			} else {
+				$("input#english").removeAttr('checked', 'checked');
+				$("input#afrikaans").prop("disabled", false);
+				$("form").attr("action", "");
+				$("#inputName input").attr('name', '');
+			}
+		});
+
+		$("input#afrikaans").change(function() {
+			if(this.checked) {
+				$("input#afrikaans").attr('checked', 'checked');
+				$("input#english").prop("disabled", true);
+				$("form").attr("action", "//babylonstoren.us9.list-manage.com/subscribe/post?u=375035a503a1898b4d60b871f&amp;id=3b6c72536a");
+				$("#inputName input").attr('name', 'b_375035a503a1898b4d60b871f_3b6c72536a');
+			} else {
+				$("input#afrikaans").removeAttr('checked', 'checked');
+				$("input#english").prop("disabled", false);
+				$("form").attr("action", "");
+				$("#inputName input").attr('name', '');
+			}
+		});
+			
+		});
+		</script>
+			<div class="footer__newsletter">
+				<p><span >Good things come to those who sign up for our newsletter.</span></p>
+				<form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					<input type="email" value="" name="newslettermail" class="no-outline margin-bottom-10px" id="mce-EMAIL" placeholder="Email Address" required>
+					<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+				<div id="chooseLanguage" style="padding-bottom: 10px;">
+					<label>
+					<input id="english" type="checkbox"> English
+					
+					</label>
+					<label>
+					
+					<input id="afrikaans" type="checkbox"> Afrikaans
+					</label>
+					</div>
+
+					<div id="inputName" style="position: absolute; left: -5000px;">
+						<input type="text" name="" tabindex="-1" value="">
+					</div>
+
+										<button type="submit" id="mc-embedded-subscribe" class="small">
+						<div >Submit</div>
+					</button>
+				</form>
+
+				<script type="text/javascript">
+					$('#mc-embedded-subscribe-form').submit(function() {
+						var email = $('[name="newslettermail"]').val();
+
+						if (email) {
+							var url = $(this).attr('action') + "&MERGE0=" + email;
+							$(this).attr('action', url);
+						}
+					});
+				</script>
+			</div>
+			
+			<div class="footer__weather" style="position: absolute; bottom: 0; left: 30px;">
+				<!-- Docs at http://http://simpleweatherjs.com -->
+				<div id="weather"></div>
+			</div>
+		</div>
+		
+				
+			
+
+
+
+
+
+		
+		
+		
+		
+		
+		
+		
+
+
+		</div>
+	</div>
+</div>
+
+
+<!--==========================================
+FOOTER SECONDARY
+===========================================-->
+
+<div style="padding-bottom: 10px;" id="footer-secondary" class="row">
+	<div class="container">
+
+		<div class="grid show-on-md-up clearfix">
+	<div class="col-md-5-5">
+													<div class="left margin-right-15px" style="position:relative">
+									
+					<div 
+					style="width:70px; height: 70px;
+										"
+					>
+												
+						<img src="https://www.babylonstoren.com/img/calltoaction-default.gif" />
+						
+											</div>
+				</div>
+															<div class="left margin-right-15px" style="position:relative">
+									
+					<div 
+					style="width:70px; height: 70px;
+										"
+					>
+												
+						<img src="https://www.babylonstoren.com/medialib/img/1463125272.png" />
+						
+											</div>
+				</div>
+															<div class="left margin-right-15px" style="position:relative">
+									
+					<div 
+					style="width:70px; height: 70px;
+										"
+					>
+												
+						<img src="https://www.babylonstoren.com/medialib/img/1463125282.png" />
+						
+											</div>
+				</div>
+															<div class="left margin-right-15px" style="position:relative">
+									
+					<div 
+					style="width:70px; height: 70px;
+										"
+					>
+												
+						<img src="https://www.babylonstoren.com/medialib/img/1463125288.png" />
+						
+											</div>
+				</div>
+																						<div class="left margin-right-15px" style="position:relative">
+									
+					<div 
+					style="width:70px; height: 70px;
+										"
+					>
+												
+						<img src="https://www.babylonstoren.com/medialib/img/1463125298.png" />
+						
+											</div>
+				</div>
+															<div class="left margin-right-15px" style="position:relative">
+									
+					<div 
+					style="width:70px; height: 70px;
+										"
+					>
+												
+						<img src="https://www.babylonstoren.com/medialib/img/1463125304.png" />
+						
+											</div>
+				</div>
+															<div class="left margin-right-15px" style="position:relative">
+									
+					<div 
+					style="width:70px; height: 70px;
+										"
+					>
+												
+						<img src="https://www.babylonstoren.com/medialib/img/1463125309.png" />
+						
+											</div>
+				</div>
+															<div class="left margin-right-15px" style="position:relative">
+									
+					<div 
+					style="width:70px; height: 70px;
+										"
+					>
+												
+						<img src="https://www.babylonstoren.com/medialib/img/1463125313.png" />
+						
+											</div>
+				</div>
+															<div class="left margin-right-15px" style="position:relative">
+									
+					<div 
+					style="width:70px; height: 70px;
+										"
+					>
+												
+						<img src="https://www.babylonstoren.com/medialib/img/1463125318.png" />
+						
+											</div>
+				</div>
+															<div class="left margin-right-15px" style="position:relative">
+									
+					<div 
+					style="width:70px; height: 70px;
+										"
+					>
+												
+						<img src="https://www.babylonstoren.com/medialib/img/1487880404.jpeg" />
+						
+											</div>
+				</div>
+															<div class="left margin-right-15px" style="position:relative">
+									
+					<div 
+					style="width:70px; height: 70px;
+										"
+					>
+												
+						<img src="https://www.babylonstoren.com/medialib/img/1487880501.jpeg" />
+						
+											</div>
+				</div>
+															<div class="left margin-right-15px" style="position:relative">
+									
+					<div 
+					style="width:70px; height: 70px;
+										"
+					>
+												
+						<img src="https://www.babylonstoren.com/medialib/img/1496642595.jpeg" />
+						
+											</div>
+				</div>
+															<div class="left margin-right-15px" style="position:relative">
+									
+					<div 
+					style="width:70px; height: 70px;
+										"
+					>
+												<a href="https://www.cntraveler.com/stories/2014-12-16/view-the-full-gold-list-2015-the-worlds-best-hotels" target="_blank">
+												
+						<img src="https://www.babylonstoren.com/medialib/img/1516874265.jpeg" />
+						
+												</a>
+											</div>
+				</div>
+										</div>
+</div>
+
+		
+		
+		
+		
+		
+		
+
+
+		<!-- <img class="show-on-md-up" src="https://www.babylonstoren.com/img/footer-logos.jpg"> -->
+
+		
+		<div class="col-md-5-5">
+		<p style="text-align: center; margin-top: 30px;">
+			&copy; Copyright 2018 Babylonstoren | <a href="https://www.babylonstoren.com/terms-and-conditions" target="_blank">Terms & Conditions</a> | <a href="https://www.babylonstoren.com/privacy-policy" target="_blank">Privacy Policy</a> | <a href="http://cdn.babylonstoren.com/" target="_blank">Admin</a>
+		</p>
+	</div>
+		
+	</div>
+</div>
+
+									<div class="themodal text-center" id="region-modal" style="max-width: 460px; padding-top: 40px;">
+					    <h3>Please select a country below.</h3>
+					    <form id="region-form" method="POST" action="https://www.babylonstoren.com/set-region">
+							<select id="region-select" name="country_id" class="expand margin-bottom-40px">
+								<option value="">Select your country</option>
+																	<option value="1" data-country="Afghanistan">Afghanistan</option>
+																	<option value="2" data-country="Albania">Albania</option>
+																	<option value="3" data-country="Algeria">Algeria</option>
+																	<option value="4" data-country="American Samoa">American Samoa</option>
+																	<option value="5" data-country="Andorra">Andorra</option>
+																	<option value="6" data-country="Angola">Angola</option>
+																	<option value="7" data-country="Anguilla">Anguilla</option>
+																	<option value="8" data-country="Antarctica">Antarctica</option>
+																	<option value="9" data-country="Antigua and/or Barbuda">Antigua and/or Barbuda</option>
+																	<option value="10" data-country="Argentina">Argentina</option>
+																	<option value="11" data-country="Armenia">Armenia</option>
+																	<option value="12" data-country="Aruba">Aruba</option>
+																	<option value="13" data-country="Australia">Australia</option>
+																	<option value="14" data-country="Austria">Austria</option>
+																	<option value="15" data-country="Azerbaijan">Azerbaijan</option>
+																	<option value="16" data-country="Bahamas">Bahamas</option>
+																	<option value="17" data-country="Bahrain">Bahrain</option>
+																	<option value="18" data-country="Bangladesh">Bangladesh</option>
+																	<option value="19" data-country="Barbados">Barbados</option>
+																	<option value="20" data-country="Belarus">Belarus</option>
+																	<option value="21" data-country="Belgium">Belgium</option>
+																	<option value="22" data-country="Belize">Belize</option>
+																	<option value="23" data-country="Benin">Benin</option>
+																	<option value="24" data-country="Bermuda">Bermuda</option>
+																	<option value="25" data-country="Bhutan">Bhutan</option>
+																	<option value="26" data-country="Bolivia">Bolivia</option>
+																	<option value="27" data-country="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
+																	<option value="28" data-country="Botswana">Botswana</option>
+																	<option value="29" data-country="Bouvet Island">Bouvet Island</option>
+																	<option value="30" data-country="Brazil">Brazil</option>
+																	<option value="31" data-country="British lndian Ocean Territory">British lndian Ocean Territory</option>
+																	<option value="32" data-country="Brunei Darussalam">Brunei Darussalam</option>
+																	<option value="33" data-country="Bulgaria">Bulgaria</option>
+																	<option value="34" data-country="Burkina Faso">Burkina Faso</option>
+																	<option value="35" data-country="Burundi">Burundi</option>
+																	<option value="36" data-country="Cambodia">Cambodia</option>
+																	<option value="37" data-country="Cameroon">Cameroon</option>
+																	<option value="38" data-country="Canada">Canada</option>
+																	<option value="39" data-country="Cape Verde">Cape Verde</option>
+																	<option value="40" data-country="Cayman Islands">Cayman Islands</option>
+																	<option value="41" data-country="Central African Republic">Central African Republic</option>
+																	<option value="42" data-country="Chad">Chad</option>
+																	<option value="43" data-country="Chile">Chile</option>
+																	<option value="44" data-country="China">China</option>
+																	<option value="45" data-country="Christmas Island">Christmas Island</option>
+																	<option value="46" data-country="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
+																	<option value="47" data-country="Colombia">Colombia</option>
+																	<option value="48" data-country="Comoros">Comoros</option>
+																	<option value="49" data-country="Congo">Congo</option>
+																	<option value="50" data-country="Cook Islands">Cook Islands</option>
+																	<option value="51" data-country="Costa Rica">Costa Rica</option>
+																	<option value="52" data-country="Croatia (Hrvatska)">Croatia (Hrvatska)</option>
+																	<option value="53" data-country="Cuba">Cuba</option>
+																	<option value="251" data-country="Curaçao">Curaçao</option>
+																	<option value="54" data-country="Cyprus">Cyprus</option>
+																	<option value="55" data-country="Czech Republic">Czech Republic</option>
+																	<option value="56" data-country="Denmark">Denmark</option>
+																	<option value="57" data-country="Djibouti">Djibouti</option>
+																	<option value="58" data-country="Dominica">Dominica</option>
+																	<option value="59" data-country="Dominican Republic">Dominican Republic</option>
+																	<option value="248" data-country="DR Congo">DR Congo</option>
+																	<option value="60" data-country="East Timor">East Timor</option>
+																	<option value="61" data-country="Ecudaor">Ecudaor</option>
+																	<option value="62" data-country="Egypt">Egypt</option>
+																	<option value="63" data-country="El Salvador">El Salvador</option>
+																	<option value="64" data-country="Equatorial Guinea">Equatorial Guinea</option>
+																	<option value="65" data-country="Eritrea">Eritrea</option>
+																	<option value="66" data-country="Estonia">Estonia</option>
+																	<option value="67" data-country="Ethiopia">Ethiopia</option>
+																	<option value="68" data-country="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
+																	<option value="69" data-country="Faroe Islands">Faroe Islands</option>
+																	<option value="70" data-country="Fiji">Fiji</option>
+																	<option value="71" data-country="Finland">Finland</option>
+																	<option value="72" data-country="France">France</option>
+																	<option value="73" data-country="France, Metropolitan">France, Metropolitan</option>
+																	<option value="74" data-country="French Guiana">French Guiana</option>
+																	<option value="75" data-country="French Polynesia">French Polynesia</option>
+																	<option value="76" data-country="French Southern Territories">French Southern Territories</option>
+																	<option value="77" data-country="Gabon">Gabon</option>
+																	<option value="78" data-country="Gambia">Gambia</option>
+																	<option value="79" data-country="Georgia">Georgia</option>
+																	<option value="80" data-country="Germany">Germany</option>
+																	<option value="81" data-country="Ghana">Ghana</option>
+																	<option value="82" data-country="Gibraltar">Gibraltar</option>
+																	<option value="83" data-country="Greece">Greece</option>
+																	<option value="84" data-country="Greenland">Greenland</option>
+																	<option value="85" data-country="Grenada">Grenada</option>
+																	<option value="86" data-country="Guadeloupe">Guadeloupe</option>
+																	<option value="87" data-country="Guam">Guam</option>
+																	<option value="88" data-country="Guatemala">Guatemala</option>
+																	<option value="241" data-country="Guernsey">Guernsey</option>
+																	<option value="89" data-country="Guinea">Guinea</option>
+																	<option value="90" data-country="Guinea-Bissau">Guinea-Bissau</option>
+																	<option value="91" data-country="Guyana">Guyana</option>
+																	<option value="92" data-country="Haiti">Haiti</option>
+																	<option value="93" data-country="Heard and Mc Donald Islands">Heard and Mc Donald Islands</option>
+																	<option value="94" data-country="Honduras">Honduras</option>
+																	<option value="95" data-country="Hong Kong">Hong Kong</option>
+																	<option value="96" data-country="Hungary">Hungary</option>
+																	<option value="97" data-country="Iceland">Iceland</option>
+																	<option value="98" data-country="India">India</option>
+																	<option value="99" data-country="Indonesia">Indonesia</option>
+																	<option value="100" data-country="Iran (Islamic Republic of)">Iran (Islamic Republic of)</option>
+																	<option value="101" data-country="Iraq">Iraq</option>
+																	<option value="102" data-country="Ireland">Ireland</option>
+																	<option value="243" data-country="Isle of Man">Isle of Man</option>
+																	<option value="103" data-country="Israel">Israel</option>
+																	<option value="104" data-country="Italy">Italy</option>
+																	<option value="105" data-country="Ivory Coast">Ivory Coast</option>
+																	<option value="106" data-country="Jamaica">Jamaica</option>
+																	<option value="107" data-country="Japan">Japan</option>
+																	<option value="242" data-country="Jersey">Jersey</option>
+																	<option value="108" data-country="Jordan">Jordan</option>
+																	<option value="109" data-country="Kazakhstan">Kazakhstan</option>
+																	<option value="110" data-country="Kenya">Kenya</option>
+																	<option value="111" data-country="Kiribati">Kiribati</option>
+																	<option value="112" data-country="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of</option>
+																	<option value="113" data-country="Korea, Republic of">Korea, Republic of</option>
+																	<option value="246" data-country="Kosovo">Kosovo</option>
+																	<option value="114" data-country="Kuwait">Kuwait</option>
+																	<option value="115" data-country="Kyrgyzstan">Kyrgyzstan</option>
+																	<option value="116" data-country="Lao People's Democratic Republic">Lao People's Democratic Republic</option>
+																	<option value="117" data-country="Latvia">Latvia</option>
+																	<option value="118" data-country="Lebanon">Lebanon</option>
+																	<option value="119" data-country="Lesotho">Lesotho</option>
+																	<option value="120" data-country="Liberia">Liberia</option>
+																	<option value="121" data-country="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
+																	<option value="122" data-country="Liechtenstein">Liechtenstein</option>
+																	<option value="123" data-country="Lithuania">Lithuania</option>
+																	<option value="124" data-country="Luxembourg">Luxembourg</option>
+																	<option value="125" data-country="Macau">Macau</option>
+																	<option value="126" data-country="Macedonia">Macedonia</option>
+																	<option value="127" data-country="Madagascar">Madagascar</option>
+																	<option value="128" data-country="Malawi">Malawi</option>
+																	<option value="129" data-country="Malaysia">Malaysia</option>
+																	<option value="130" data-country="Maldives">Maldives</option>
+																	<option value="131" data-country="Mali">Mali</option>
+																	<option value="132" data-country="Malta">Malta</option>
+																	<option value="133" data-country="Marshall Islands">Marshall Islands</option>
+																	<option value="134" data-country="Martinique">Martinique</option>
+																	<option value="135" data-country="Mauritania">Mauritania</option>
+																	<option value="136" data-country="Mauritius">Mauritius</option>
+																	<option value="137" data-country="Mayotte">Mayotte</option>
+																	<option value="245" data-country="Mayotte">Mayotte</option>
+																	<option value="138" data-country="Mexico">Mexico</option>
+																	<option value="139" data-country="Micronesia, Federated States of">Micronesia, Federated States of</option>
+																	<option value="140" data-country="Moldova, Republic of">Moldova, Republic of</option>
+																	<option value="141" data-country="Monaco">Monaco</option>
+																	<option value="142" data-country="Mongolia">Mongolia</option>
+																	<option value="247" data-country="Montenegro">Montenegro</option>
+																	<option value="143" data-country="Montserrat">Montserrat</option>
+																	<option value="144" data-country="Morocco">Morocco</option>
+																	<option value="145" data-country="Mozambique">Mozambique</option>
+																	<option value="146" data-country="Myanmar">Myanmar</option>
+																	<option value="147" data-country="Namibia">Namibia</option>
+																	<option value="148" data-country="Nauru">Nauru</option>
+																	<option value="149" data-country="Nepal">Nepal</option>
+																	<option value="150" data-country="Netherlands">Netherlands</option>
+																	<option value="151" data-country="Netherlands Antilles">Netherlands Antilles</option>
+																	<option value="152" data-country="New Caledonia">New Caledonia</option>
+																	<option value="153" data-country="New Zealand">New Zealand</option>
+																	<option value="154" data-country="Nicaragua">Nicaragua</option>
+																	<option value="155" data-country="Niger">Niger</option>
+																	<option value="156" data-country="Nigeria">Nigeria</option>
+																	<option value="157" data-country="Niue">Niue</option>
+																	<option value="158" data-country="Norfork Island">Norfork Island</option>
+																	<option value="159" data-country="Northern Mariana Islands">Northern Mariana Islands</option>
+																	<option value="160" data-country="Norway">Norway</option>
+																	<option value="161" data-country="Oman">Oman</option>
+																	<option value="162" data-country="Pakistan">Pakistan</option>
+																	<option value="163" data-country="Palau">Palau</option>
+																	<option value="249" data-country="Palestinian Territory">Palestinian Territory</option>
+																	<option value="164" data-country="Panama">Panama</option>
+																	<option value="165" data-country="Papua New Guinea">Papua New Guinea</option>
+																	<option value="166" data-country="Paraguay">Paraguay</option>
+																	<option value="167" data-country="Peru">Peru</option>
+																	<option value="168" data-country="Philippines">Philippines</option>
+																	<option value="169" data-country="Pitcairn">Pitcairn</option>
+																	<option value="170" data-country="Poland">Poland</option>
+																	<option value="171" data-country="Portugal">Portugal</option>
+																	<option value="172" data-country="Puerto Rico">Puerto Rico</option>
+																	<option value="173" data-country="Qatar">Qatar</option>
+																	<option value="174" data-country="Reunion">Reunion</option>
+																	<option value="175" data-country="Romania">Romania</option>
+																	<option value="176" data-country="Russian Federation">Russian Federation</option>
+																	<option value="177" data-country="Rwanda">Rwanda</option>
+																	<option value="178" data-country="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
+																	<option value="179" data-country="Saint Lucia">Saint Lucia</option>
+																	<option value="180" data-country="Saint Vincent and the Grenadines">Saint Vincent and the Grenadines</option>
+																	<option value="181" data-country="Samoa">Samoa</option>
+																	<option value="182" data-country="San Marino">San Marino</option>
+																	<option value="183" data-country="Sao Tome and Principe">Sao Tome and Principe</option>
+																	<option value="184" data-country="Saudi Arabia">Saudi Arabia</option>
+																	<option value="185" data-country="Senegal">Senegal</option>
+																	<option value="186" data-country="Serbia">Serbia</option>
+																	<option value="187" data-country="Seychelles">Seychelles</option>
+																	<option value="188" data-country="Sierra Leone">Sierra Leone</option>
+																	<option value="189" data-country="Singapore">Singapore</option>
+																	<option value="190" data-country="Slovakia">Slovakia</option>
+																	<option value="191" data-country="Slovenia">Slovenia</option>
+																	<option value="192" data-country="Solomon Islands">Solomon Islands</option>
+																	<option value="193" data-country="Somalia">Somalia</option>
+																	<option value="194" data-country="South Africa">South Africa</option>
+																	<option value="195" data-country="South Georgia South Sandwich Islands">South Georgia South Sandwich Islands</option>
+																	<option value="250" data-country="South Sudan">South Sudan</option>
+																	<option value="196" data-country="Spain">Spain</option>
+																	<option value="197" data-country="Sri Lanka">Sri Lanka</option>
+																	<option value="198" data-country="St. Helena">St. Helena</option>
+																	<option value="199" data-country="St. Pierre and Miquelon">St. Pierre and Miquelon</option>
+																	<option value="200" data-country="Sudan">Sudan</option>
+																	<option value="201" data-country="Suriname">Suriname</option>
+																	<option value="202" data-country="Svalbarn and Jan Mayen Islands">Svalbarn and Jan Mayen Islands</option>
+																	<option value="203" data-country="Swaziland">Swaziland</option>
+																	<option value="204" data-country="Sweden">Sweden</option>
+																	<option value="205" data-country="Switzerland">Switzerland</option>
+																	<option value="206" data-country="Syrian Arab Republic">Syrian Arab Republic</option>
+																	<option value="207" data-country="Taiwan">Taiwan</option>
+																	<option value="208" data-country="Tajikistan">Tajikistan</option>
+																	<option value="209" data-country="Tanzania, United Republic of">Tanzania, United Republic of</option>
+																	<option value="210" data-country="Thailand">Thailand</option>
+																	<option value="211" data-country="Togo">Togo</option>
+																	<option value="212" data-country="Tokelau">Tokelau</option>
+																	<option value="213" data-country="Tonga">Tonga</option>
+																	<option value="214" data-country="Trinidad and Tobago">Trinidad and Tobago</option>
+																	<option value="215" data-country="Tunisia">Tunisia</option>
+																	<option value="216" data-country="Turkey">Turkey</option>
+																	<option value="217" data-country="Turkmenistan">Turkmenistan</option>
+																	<option value="218" data-country="Turks and Caicos Islands">Turks and Caicos Islands</option>
+																	<option value="219" data-country="Tuvalu">Tuvalu</option>
+																	<option value="220" data-country="Uganda">Uganda</option>
+																	<option value="221" data-country="Ukraine">Ukraine</option>
+																	<option value="222" data-country="United Arab Emirates">United Arab Emirates</option>
+																	<option value="223" data-country="United Kingdom">United Kingdom</option>
+																	<option value="224" data-country="United States">United States</option>
+																	<option value="225" data-country="United States minor outlying islands">United States minor outlying islands</option>
+																	<option value="226" data-country="Uruguay">Uruguay</option>
+																	<option value="227" data-country="Uzbekistan">Uzbekistan</option>
+																	<option value="228" data-country="Vanuatu">Vanuatu</option>
+																	<option value="229" data-country="Vatican City State">Vatican City State</option>
+																	<option value="230" data-country="Venezuela">Venezuela</option>
+																	<option value="231" data-country="Vietnam">Vietnam</option>
+																	<option value="232" data-country="Virgin Islands (British)">Virgin Islands (British)</option>
+																	<option value="233" data-country="Virgin Islands (U.S.)">Virgin Islands (U.S.)</option>
+																	<option value="234" data-country="Wallis and Futuna Islands">Wallis and Futuna Islands</option>
+																	<option value="235" data-country="Western Sahara">Western Sahara</option>
+																	<option value="236" data-country="Yemen">Yemen</option>
+																	<option value="237" data-country="Yugoslavia">Yugoslavia</option>
+																	<option value="238" data-country="Zaire">Zaire</option>
+																	<option value="239" data-country="Zambia">Zambia</option>
+																	<option value="240" data-country="Zimbabwe">Zimbabwe</option>
+															</select><br>
+							<input type="hidden" name="_token" value="LdZwoaHFmWa0SPoPDFcgcsPoZMad2DUWCu7x3KG1">
+							<input type="hidden" name="country_name" id="region-country" value="">   						    <button type="submit" class="large">continue</button>
+					    </form>
+					</div>
+				
+				<script>
+		var admin_slug = "contact";
+		var output_HEADING = 1;
+var output_BODY = 2;
+var output_MIXEDHEADING = 3;
+var output_PLAINBODY = 4;
+var output_IMAGE = 5;
+var output_BUTTONTEXT = 6;
+var output_LINK = 7;
+var output_IMAGEMOBILE = 8;
+var output_ATTR = 9;
+var output_ALTTEXT = 10;
+var output_DATE = 11;
+var output_DATE_FROM = 12;
+var output_DATE_TO = 13;
+var output_PLAINTEXT = 14;
+var output_OPTIONS = 15;
+var output_FILE = 16;
+var output_URL = 17;
+var output_VIDEO_WEBM = 18;
+var output_VIDEO_MP4 = 19;
+var output_BUTTONTEXT2 = 20;
+var output_URL2 = 21;
+
+	</script>					
+
+			</div> <!-- end of .slidenav -->
+        </div> <!-- end of .slidenav-wrap -->
+
+		<script src="https://www.babylonstoren.com/js/vendor/jquery.validate.min.js"></script>
+		<script src="https://www.babylonstoren.com/js/vendor/slick.min.js"></script>
+		<!-- <script src="https://www.babylonstoren.com/js/vendor/jquery.smartTabs.js"></script> -->
+		<script src="https://www.babylonstoren.com/js/vendor/jquery.slideList.js"></script>
+		<script src="https://www.babylonstoren.com/js/vendor/select2.min.js"></script>
+		<script src="https://www.babylonstoren.com/js/vendor/jquery.screwdefaultbuttonsV2.min.js"></script>
+  		<script src="https://www.babylonstoren.com/js/vendor/jquery.the-modal.js"></script>
+  		<script src="https://www.babylonstoren.com/js/moment.min.js"></script>
+
+  		<script src="https://www.babylonstoren.com/js/libs/jquery.slideNav.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(function() {
+                var slidenav1 = new $.slidenav("#slidenav1", {});
+            });
+        </script>
+
+		<style type="text/css">
+	#video-modal {
+		padding: 0;
+		max-width: 1000px;
+		height: 600px;
+	}
+
+	#video-modal iframe {
+		width: 100%;
+		height: 600px;
+	}
+</style>
+
+<div class="themodal" id="video-modal"></div>
+
+<script>
+	var $video;
+	var $videoModal;
+	
+	$(function() {
+
+		$video = $('#threesixty-view-modal');
+		$videoModal = $video.themodal();
+
+		$('.close', $video).click(function() {
+			$videoModal.close();
+		});
+
+		$('[href="#video-modal-trigger"]').click(function(e) {
+			openVideoModal();
+			e.preventDefault();
+		});
+	});
+	
+	function openVideoModal() {
+
+		var $iframe = '<iframe src="https://ipcamlive.com/player/player.php?alias=57728ba566ed3" width="800px" height="450px" frameborder="0" allowfullscreen autoplay="1"></iframe>';
+
+		if ( !$('iframe', $video).length ) {
+			$video.append( $iframe );
+		}
+
+		$videoModal.open();
+	}
+</script>
+		<style type="text/css">
+	#threesixty-view-modal {
+		padding: 0;
+		max-width: 1000px;
+		height: 600px;
+	}
+
+	#threesixty-view-modal iframe {
+		width: 100%;
+		height: 600px;
+	}
+</style>
+
+<div class="themodal" id="threesixty-view-modal"></div>
+
+<script>
+	
+	var $threeSixtyView;
+	var $threeSixtyViewModal;
+	
+	$(function() {
+
+		$threeSixtyView = $('#threesixty-view-modal');
+		$threeSixtyViewModal = $threeSixtyView.themodal();
+		
+		$('.close', $threeSixtyView).click(function() {
+			$threeSixtyViewModal.close();
+		});
+
+	});
+	
+	function threesixtyview(){
+		
+		var url = "https://www.eyeonlocation.com/eyeviewer/mobile/?client=babylonstoren&eol_domain=www.babylonstoren.com&tag=hotel&return_to=http%3A%2F%2Fwww.babylonstoren.com%2F";
+
+		
+		if ( !$('iframe', $threeSixtyView).length ) 
+		{
+			$threeSixtyView.append('<iframe src="' + url + '"/>');
+		}
+
+		$threeSixtyViewModal.open();
+		
+	}
+	
+</script>
+
+		<script src="https://www.babylonstoren.com/js/main.js?v=4"></script>
+		<script>
+			// This is the main view model. All other view models are it's children.
+			var cartData = 0;
+			var regionData = {"id":1,"title":"Default","slug":"default","currency_code":"USD","currency_symbol":"$","infobar_content":"region1Infobar","url":"www.babylonstoren.com","contact_name":"Charl Coetzee","tel":"+27 (0) 21 300 3919","email":"deliveries@babylonstoren.com","email_welcome_text":"<p>Welcome to Babylonstoren, and thank you for joining our online community! We will be sure to keep you up to date with all our latest products and tips for fine living.<\/p>\r\n","email_order_text":"<p><strong>We&#39;ve received your&nbsp;order&nbsp;- we hope that you enjoy it!<\/strong><\/p>\r\n","terms":"region1Terms","privacy":"region1Privacy","email_welcome_recipients":"","email_order_recipients":"trevor@babylonstoren.com","status":1,"created_at":"2016-04-18 06:38:56","updated_at":"2018-03-07 12:54:50","deleted_at":null,"conversion":"13.8124","email_careers":"anneline@babylonstoren.com","email_volunteers":"enquiries@babylonstoren.com","email_order_notify":"charl@babylonstoren.com,trevor@babylonstoren.com,tandi@babylonstoren.com,jessica@babylonstoren.com"};
+
+			window.viewModel = {
+				shopModel: new ShopModel({ cartData: cartData })
+			};
+
+			viewModel.shopModel.setCurrency( regionData.currency_symbol );
+			viewModel.shopModel.setCurrencyCode( regionData.currency_code );
+
+						viewModel.shopModel.isWineClubMember(0);
+					</script>
+
+		
+							<script src="https://www.babylonstoren.com/js/models/direction-model.js"></script>
+		<script>
+		var directionData = [{"10":{"id":7089,"content":"Cape Town","block_group_id":0,"status":1,"type":10,"blockid":4007,"language":1,"order":0},"2":{"id":1297,"content":"<ol><li>Take the N1 towards Paarl, continue for about 45 km.</li><li>Take Exit 47 &ndash; Klapmuts, Stellenbosch R44 off-ramp.</li><li>At the stop street turn right (underneath the N1 towards Stellenbosch).</li><li>You will see Butterfly World on your left.&nbsp;Go over the traffic lights, and continue over the bridge.</li><li>At the next set of traffic lights, turn left onto the Klapmuts/Simondium Road towards the R45.</li><li>About 6 km down that road, on your right, you&#39;ll see Babylonstoren.</li></ol>","block_group_id":0,"status":1,"type":2,"blockid":4007,"language":1,"order":0},"5":{"id":0,"content":"img/calltoaction-default.gif","block_group_id":0,"status":1,"type":5,"blockid":4007,"language":1,"order":0,"width":100,"height":50,"mime":"image/gif"}},{"10":{"id":1298,"content":"Stellenbosch: Klapmuts","block_group_id":0,"status":1,"type":10,"blockid":4007,"language":1,"order":1},"2":{"id":1299,"content":"<ol><li>Take the R44 towards Wellington.</li><li>About 16 km outside of Stellenbosch you&#39;ll see a farm stall called The Potbelly Pantry&nbsp;on your left hand side.</li><li>Turn right at the traffic lights, just after you&#39;ve passed The Potbelly Pantry, onto the Klapmuts/Simondium Road towards the R45.</li><li>About 6 km down that road, on your right, you&#39;ll see Babylonstoren.</li></ol>","block_group_id":0,"status":1,"type":2,"blockid":4007,"language":1,"order":1},"5":{"id":0,"content":"img/calltoaction-default.gif","block_group_id":0,"status":1,"type":5,"blockid":4007,"language":1,"order":1,"width":100,"height":50,"mime":"image/gif"}},{"10":{"id":7099,"content":"Over Helshoogte Pass","block_group_id":0,"status":1,"type":10,"blockid":4007,"language":1,"order":2},"2":{"id":1301,"content":"<ol><li>You can also get to the farm from Stellenbosch via the Helshoogte Pass (R310), towards Franschhoek, which is a really beautiful road.</li><li>After about 13 km you&#39;ll come to a T-junction.</li><li>Turn left on the R45 towards Paarl.</li><li>After 4 km (at Vrede &amp; Lust), take the Klapmuts/Simondium Road turn-off to your left.</li><li>About 3 km down the road you&#39;ll see Babylonstoren on your left.</li></ol>","block_group_id":0,"status":1,"type":2,"blockid":4007,"language":1,"order":2},"5":{"id":0,"content":"img/calltoaction-default.gif","block_group_id":0,"status":1,"type":5,"blockid":4007,"language":1,"order":2,"width":100,"height":50,"mime":"image/gif"}},{"10":{"id":1302,"content":"Franschhoek","block_group_id":0,"status":1,"type":10,"blockid":4007,"language":1,"order":3},"2":{"id":1303,"content":"<ol><li>Take the R45 towards Paarl.</li><li>At Vrede &amp; Lust take the Klapmuts/Simondium Road turn-off to your left.</li><li>About 3 km down the road you&#39;ll see Babylonstoren on your left.</li></ol>","block_group_id":0,"status":1,"type":2,"blockid":4007,"language":1,"order":3},"5":{"id":0,"content":"img/calltoaction-default.gif","block_group_id":0,"status":1,"type":5,"blockid":4007,"language":1,"order":3,"width":100,"height":50,"mime":"image/gif"}},{"10":{"id":1304,"content":"Paarl","block_group_id":0,"status":1,"type":10,"blockid":4007,"language":1,"order":4},"2":{"id":1305,"content":"<ol><li>In Paarl, head south on Main Road towards the N1/R101.</li><li>Pass under the N1 and continue on the R101, do not turn onto the N1.</li><li>Turn left onto the R45 towards Franschhoek.</li><li>At Vrede &amp; Lust take the Klapmuts/Simondium Road turn-off to your right.</li><li>About 3 km down the road you&#39;ll see Babylonstoren on your left.</li></ol>","block_group_id":0,"status":1,"type":2,"blockid":4007,"language":1,"order":4},"5":{"id":0,"content":"img/calltoaction-default.gif","block_group_id":0,"status":1,"type":5,"blockid":4007,"language":1,"order":4,"width":100,"height":50,"mime":"image/gif"}},{"10":{"id":1306,"content":"Cape Town International Airport","block_group_id":0,"status":1,"type":10,"blockid":4007,"language":1,"order":5},"2":{"id":1307,"content":"<ol><li>From the airport you need to take the on-ramp onto N2 East (Somerset West).</li><li>After about 3,5&nbsp;km, take exit 22/R300 off-ramp towards Kuilsrivier.</li><li>Stay on the R300 highway for about 14&nbsp;km.</li><li>Merge onto the N1 towards Paarl.</li><li>Stay on the N1 highway for about 20&nbsp;km.</li><li>Take exit 47 &ndash; Klapmuts, Stellenbosch R44 off-ramp.</li><li>At the stop street turn right (underneath the N1 towards Stellenbosch).</li><li>You will see Butterfly World on your left. Go over the traffic lights, and continue over the bridge.</li><li>At the next set of traffic lights, turn left onto the Klapmuts/Simondium Road towards the R45.</li><li>About 6 km down that road, on your right, you&#39;ll see Babylonstoren.</li></ol>","block_group_id":0,"status":1,"type":2,"blockid":4007,"language":1,"order":5},"5":{"id":0,"content":"img/calltoaction-default.gif","block_group_id":0,"status":1,"type":5,"blockid":4007,"language":1,"order":5,"width":100,"height":50,"mime":"image/gif"}},{"10":{"id":7473,"content":"Cape Town","block_group_id":0,"status":1,"type":10,"blockid":4007,"language":1,"order":6},"2":{"id":0,"content":"Body","block_group_id":0,"status":1,"type":2,"blockid":4007,"language":1,"order":6},"5":{"id":0,"content":"img/calltoaction-default.gif","block_group_id":0,"status":1,"type":5,"blockid":4007,"language":1,"order":6,"width":100,"height":50,"mime":"image/gif"}}];
+		viewModel.directionModel = new DirectionModel(directionData);
+
+		$(window).load(function() {
+			// open relevant content 
+			var detailId = document.location.hash;
+
+			if (detailId) 
+			{
+				
+				console.log(detailId);
+				
+				if ( !$(detailId).hasClass('current') ) 
+				{
+					$(detailId).parent().parent().trigger('click');
+				}
+
+				$('html, body').animate({
+					scrollTop: $(detailId).offset().top
+				}, 300);
+			}
+		});
+
+		$(function () {
+
+			
+			$("#contact-form").validate({
+				rules: {
+					first_name: "required",	
+					last_name: "required",	
+			 		email: {
+			            required: true,
+			            email: true
+			          },
+					number: "required",
+					comment: "required"
+				},
+				messages: {
+					first_name: "<p class='errorMessage'>Please enter your first name</p>",
+					last_name: "<p class='errorMessage'>Please enter your last name</p>",
+					email: "<p class='errorMessage'>Please enter a valid email</p>",
+					number: "<p class='errorMessage'>Please enter a valid mobile number</p>",
+					comment: "<p class='errorMessage'>Please enter your comment</p>"
+					
+				}
+			});
+		});
+	</script>
+	
+		<script type="text/javascript" src="https://www.babylonstoren.com/js/sm2.min.js"></script>
+		<script type="text/javascript" src="https://www.babylonstoren.com/js/jquery.simpleWeather.min.js"></script>
+
+		<script type="text/javascript">
+
+            <!-- Sound Mananger -->
+			soundManager.url = "https://www.babylonstoren.com/swf";
+			soundManager.useFlashBlock = false;
+			soundManager.debugMode = false;
+
+			function pronouncebbs() {
+				var wheelSound = soundManager.createSound({
+					id: 'aSound',
+					url: "https://www.babylonstoren.com/media/Babylonstoren.mp3"
+				});
+
+				wheelSound.play();
+			}
+
+            <!-- Simple Weather -->
+			$.simpleWeather({
+				location: 'Cape Town, ZA',
+				woeid: '',
+				unit: 'c',
+				success: function(weather) {
+					html = '<i class="icon-'+weather.code+'"></i> '+weather.temp+'&deg;'+weather.units.temp;
+					$("#weather").html(html);
+				},
+				error: function(error) {
+					$("#weather").html('<p>'+error+'</p>');
+				}
+			});
+
+			$(document).ready(function() {
+				ko.applyBindings(viewModel);
+
+				$("#mc-embedded-subscribe-form").validate({
+					rules: {
+				 		EMAIL: { required: true, email: true }
+					},
+					messages: {
+						EMAIL: "<p class='errorMessage'>Please enter a valid email</p>"
+					}
+				});
+			});
+		</script>
+		
+		
+		<script>
+			$(function() {
+				show_timeline();
+
+				
+				for (var el in imageSliderBuilder) {
+					imageSlider.init( el );
+
+									}
+			});
+		</script>
+
+		<script>
+		if (window.location.href === "https://www.babylonstoren.com/experience/restaurants/greenhouse" || window.location.href === "https://www.babylonstoren.com/tasting-room") {
+		$(document).ready(function() {
+			$('li.current').css('display', 'none');
+		});
+		}
+		</script>
+				<script type="text/javascript">
+			// BAKERY DINEPLAN BUTTON ENABLED
+
+$(document).ready(function () {
+	if(window.location.href === "https://www.babylonstoren.com/bakery") {
+	$('.themodal').css({
+		'max-width': '524px',
+		'height': 'auto'});
+	var $video;
+	var $videoModal;
+
+	$(function() {
+
+		$video = $('#threesixty-view-modal');
+		$videoModal = $video.themodal();
+
+		$('.close', $video).click(function() {
+			$videoModal.close();
+		});
+
+		$('a[href="#bakery-modal-trigger"]').click(function(e) {
+			openVideoModal();
+			e.preventDefault();
+		});
+	});
+
+	function openVideoModal() {
+
+		var $iframe = '<div id="dineplanModalClass"><iframe style="margin: 20px 0 0 20px;width: 485px;height: 500px;" src="https://www.dineplan.com/widget/v2/frame/752" frameborder="0" allowfullscreen autoplay="1"></iframe></div>';
+
+		if ( !$('iframe', $video).length ) {
+			$video.append( $iframe );
+		}
+
+		$videoModal.open();
+	}
+}
+});
+		</script>
+
+		<script type="text/javascript">
+		// Temporary CSS for the tabs
+			$(document).ready(function(){
+				$('.smart-tabs__tabs').css('margin', '0 0 50px 0');
+			});
+		</script>
+
+	</body>
+</html>

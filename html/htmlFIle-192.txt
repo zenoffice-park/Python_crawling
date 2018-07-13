@@ -1,0 +1,557 @@
+ 
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Canyon Magazine</title>
+
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="https://canyonmag.net/pingback_url">
+<link rel="shortcut icon" href="https://canyonmag.net/wordpress/wp-content/themes/canyonmag2016/favicon.ico" />
+
+<!-- This site is optimized with the Yoast SEO plugin v7.7.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Canyon Magazine is an online exploration, photo and technical journal about the sport of canyoning from all corners of the globe."/>
+<link rel="canonical" href="https://canyonmag.net/" />
+<link rel="publisher" href="https://plus.google.com/+CanyonMagazine"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:locale:alternate" content="ja_JP" />
+<meta property="og:locale:alternate" content="es_ES" />
+<meta property="og:locale:alternate" content="de_DE" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Canyon Magazine" />
+<meta property="og:description" content="Canyon Magazine is an online exploration, photo and technical journal about the sport of canyoning from all corners of the globe." />
+<meta property="og:url" content="https://canyonmag.net/" />
+<meta property="og:site_name" content="Canyon Magazine" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Canyon Magazine is an online exploration, photo and technical journal about the sport of canyoning from all corners of the globe." />
+<meta name="twitter:title" content="Canyon Magazine" />
+<meta name="twitter:site" content="@canyonmag" />
+<meta name="twitter:image" content="https://canyonmag.net/wordpress/wp-content/uploads/betalogue-2016-06-featured-image.jpg" />
+<meta name="twitter:creator" content="@canyonmag" />
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/canyonmag.net\/","name":"Canyon Magazine","potentialAction":{"@type":"SearchAction","target":"https:\/\/canyonmag.net\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"Organization","url":"https:\/\/canyonmag.net\/","sameAs":["https:\/\/facebook.com\/canyonmag","https:\/\/twitter.com\/canyonmag","https:\/\/plus.google.com\/+CanyonMagazine","https:\/\/www.youtube.com\/channel\/UCd2zhXWGlUVgw1Xx8tmCohQ","https:\/\/pinterest.com\/canyonmag\/","https:\/\/twitter.com\/canyonmag"],"@id":"https:\/\/canyonmag.net\/#organization","name":"Canyon Magazine","logo":"http:\/\/canyonmag.net\/wordpress\/wp-content\/uploads\/canyonmag-new-logo.jpg"}</script>
+<meta name="msvalidate.01" content="E83D9F6C2B36DB7F565C462C12117221" />
+<meta name="google-site-verification" content="WAdasF0GIUGufhCVWOkOTwtBQh4njug1tFYGtop1MWw" />
+<meta name="p:domain_verify" content="bddf973bfebd318c2f645b2c7ff1c5ab" />
+<meta name="yandex-verification" content="b11a5802d63f79cc" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://canyonmag.net/wordpress/wp-content/plugins/contact-form-7/includes/css/styles.css' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrapcss-css'  href='https://canyonmag.net/wordpress/wp-content/themes/canyonmag2016/bootstrap/bootstrap.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='https://canyonmag.net/wordpress/wp-content/themes/canyonmag2016/style.css' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='https://canyonmag.net/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="https://canyonmag.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcanyonmag.net%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://canyonmag.net/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcanyonmag.net%2F&#038;format=xml" />
+<link rel="alternate" href="https://canyonmag.net/" hreflang="en" />
+<link rel="alternate" href="https://canyonmag.net/ja/" hreflang="ja" />
+<link rel="alternate" href="https://canyonmag.net/es/" hreflang="es" />
+<link rel="alternate" href="https://canyonmag.net/de/" hreflang="de" />
+<style type='text/css'>img#wpstats{display:none}</style><link rel="icon" href="https://canyonmag.net/wordpress/wp-content/uploads/cropped-canyonmag-new-logo-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://canyonmag.net/wordpress/wp-content/uploads/cropped-canyonmag-new-logo-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://canyonmag.net/wordpress/wp-content/uploads/cropped-canyonmag-new-logo-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://canyonmag.net/wordpress/wp-content/uploads/cropped-canyonmag-new-logo-270x270.jpg" />
+
+<!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+
+<body id="page-top"class="home page-template-default page page-id-2" ontouchstart="">
+
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div class="container-fluid">
+
+  <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapsing-navbar">&#9776;</button>
+  <a class="navbar-brand" href="https://canyonmag.net"><span class="text-red">&#9613;canyon</span>magazine</a>
+
+  <div class="collapse navbar-toggleable-sm" id="collapsing-navbar">
+    <div class="menu-top-navigation-english-container"><ul id="menu-top-navigation-english" class="nav navbar-nav"><li id="menu-item-117" class="nav-item"><a title="Explore" href="https://canyonmag.net/explore/">Explore</a></li>
+<li id="menu-item-118" class="nav-item"><a title="News" href="https://canyonmag.net/news/">News</a></li>
+<li id="menu-item-237" class="nav-item"><a title="Event" href="https://canyonmag.net/event/">Event</a></li>
+<li id="menu-item-64" class="nav-item"><a title="Technical" href="https://canyonmag.net/technical/">Technical</a></li>
+<li id="menu-item-105" class="nav-item"><a title="Database" href="https://canyonmag.net/database/">Database</a></li>
+<li id="menu-item-487" class="nav-item"><a title="&lt;i class=&quot;fa fa-search&quot; title=&quot;Search&quot;&gt;&lt;/i&gt;" href="#search"><i class="fa fa-search" title="Search"></i></a></li>
+<li id="menu-item-488" class="nav-item"><a title="&lt;img class=&quot;flag-nav&quot; src=&quot;https://canyonmag.net/wordpress/wp-content/themes/canyonmag2016/img/au.png&quot;&gt;" href="#language"><img class="flag-nav" src="https://canyonmag.net/wordpress/wp-content/themes/canyonmag2016/img/au.png"></a></li>
+</ul></div>  </div>
+
+</div>
+</nav>
+    
+<header class="header-home" style="background-image: url('https://canyonmag.net/wordpress/wp-content/uploads/access-gear-mesh-expedition-bag-review-featured-image.jpg');">
+  <div class="header-overlay">
+    <div class="header-content">
+      <div class="header-content-inner">
+        <h1>Access Gear Expedition Canyoning Bag</h1>
+        <p>Access Gear out of New Zealand designs and make canyoning backpacks for whitewater canyoning that last the test of time.</p>
+        				<a href="https://canyonmag.net/explore/access-gear-expedition-canyoning-bag/" class="btn btn-primary">Read More...</a>
+				        			</div>
+    </div>
+  </div>
+</header>
+
+<section  id="about" class="bg-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-lg-10 offset-lg-1 text-justify">
+        <p class="text-xs-center"><img width="128px" height="45px" src="https://canyonmag.net/wordpress/wp-content/themes/canyonmag2016/img/mountain.png" alt="Mountain Image"></p>
+       
+                <p class="m-b-0">Canyon Magazine is an online exploration, photo and technical journal about the sport of canyoning from all corners of the globe. We explore stories, journeys, expeditions and features a technical section covering theory, equipment and techniques. Our vision, is to capture the whole canyoning experience of adventure and expeditions throughout the world...</p>
+              </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="explore" class="bg-white p-y-0">
+<div class="container-fluid">
+
+<div class="row">
+  <div class="col-xs-12 col-md-8 p-b-sm">
+    <a href="https://canyonmag.net/explore/access-gear-expedition-canyoning-bag/" class="portfolio-box">
+    <img class="img-fluid lazy hidden-sm-down" width="1812px" height="1010px" data-original="https://canyonmag.net/wordpress/wp-content/uploads/access-gear-mesh-expedition-bag-review-featured-image-906x505.jpg" alt="access-gear-mesh-expedition-bag-review-featured-image">
+    <img class="img-fluid lazy hidden-md-up" width="453px" height="505px" data-original="https://canyonmag.net/wordpress/wp-content/uploads/access-gear-mesh-expedition-bag-review-featured-image-453x505.jpg" alt="access-gear-mesh-expedition-bag-review-featured-image">
+      <div class="portfolio-box-caption">
+        <div class="portfolio-box-caption-content">
+          <h3>Access Gear Expedition Canyoning Bag</h3>
+          <p>Access Gear out of New Zealand designs and make canyoning backpacks for whitewater canyoning that last the test of time.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+ 
+  <div class="col-xs-12 col-md-4 p-b-sm home-left">
+    <a href="https://canyonmag.net/explore/costa-rica-part-iii-ghost-canyon/" class="portfolio-box">
+    <img class="img-fluid lazy hidden-sm-down" width="906px" height="1010px" data-original="https://canyonmag.net/wordpress/wp-content/uploads/costa-rica-phantom-canyon-featured-image-453x505.jpg" alt="costa-rica-phantom-canyon-featured-image">
+    <img class="img-fluid lazy hidden-md-up" width="453px" height="505px" data-original="https://canyonmag.net/wordpress/wp-content/uploads/costa-rica-phantom-canyon-featured-image-453x505.jpg" alt="costa-rica-phantom-canyon-featured-image">
+      <div class="portfolio-box-caption">
+        <div class="portfolio-box-caption-content">
+          <h3>Costa Rica Part III &#8211; Ghost Canyon</h3>
+          <p>The river of Fantasma Canyon (Ghost Canyon) is born on the steep and unstable slopes of the Congo Volcano.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 p-b-sm home-right">
+    <a href="https://canyonmag.net/explore/costa-rica-part-ii-mordor-canyon/" class="portfolio-box">
+    <img class="img-fluid lazy hidden-sm-down" width="906px" height="1010px" data-original="https://canyonmag.net/wordpress/wp-content/uploads/costa-rica-mordor-canyon-featured-image-453x505.jpg" alt="costa-rica-mordor-canyon-featured-image">
+    <img class="img-fluid lazy hidden-md-up" width="453px" height="505px" data-original="https://canyonmag.net/wordpress/wp-content/uploads/costa-rica-mordor-canyon-featured-image-453x505.jpg" alt="costa-rica-mordor-canyon-featured-image">
+      <div class="portfolio-box-caption">
+        <div class="portfolio-box-caption-content">
+          <h3>Costa Rica Part II &#8211; Mordor Canyon</h3>
+          <p>Mordor Canyon is a beautiful canyon with spectacular volcanic landscapes with walls, made of volcanic rock up to a height of 200 metres.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+ 
+
+  <div class="col-xs-12 col-md-8 p-b-sm">
+    <a href="https://canyonmag.net/explore/costa-rica-part-i-gata-fiera-canyon/" class="portfolio-box">
+    <img class="img-fluid lazy hidden-sm-down" width="1812px" height="1010px" data-original="https://canyonmag.net/wordpress/wp-content/uploads/costa-rica-gata-fiera-canyon-featured-image-906x505.jpg" alt="costa-rica-gata-fiera-canyon-featured-image">
+    <img class="img-fluid lazy hidden-md-up" width="453px" height="505px" data-original="https://canyonmag.net/wordpress/wp-content/uploads/costa-rica-gata-fiera-canyon-featured-image-453x505.jpg" alt="costa-rica-gata-fiera-canyon-featured-image">
+      <div class="portfolio-box-caption">
+        <div class="portfolio-box-caption-content">
+          <h3>Costa Rica Part I &#8211; Gata Fiera Canyon</h3>
+          <p>It’s impossible not to feel admiration for nature. Mountains, rivers, canyons, their topography and verticality, their forms and colours.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-8 p-b-sm">
+    <a href="https://canyonmag.net/explore/lennox-creek/" class="portfolio-box">
+    <img class="img-fluid lazy hidden-sm-down" width="1812px" height="1010px" data-original="https://canyonmag.net/wordpress/wp-content/uploads/lennox-creek-new-zealand-featured-image-906x505.jpg" alt="lennox-creek-new-zealand-featured-image">
+    <img class="img-fluid lazy hidden-md-up" width="453px" height="505px" data-original="https://canyonmag.net/wordpress/wp-content/uploads/lennox-creek-new-zealand-featured-image-453x505.jpg" alt="lennox-creek-new-zealand-featured-image">
+      <div class="portfolio-box-caption">
+        <div class="portfolio-box-caption-content">
+          <h3>Lennox Creek</h3>
+          <p>An uncomfortable feeling strikes me for the first time. I fall, despite holding tightly to my rappel rope.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+ 
+  <div class="col-xs-12 col-md-4 p-b-sm home-left">
+    <a href="https://canyonmag.net/explore/trummelbach-the-connection/" class="portfolio-box">
+    <img class="img-fluid lazy hidden-sm-down" width="906px" height="1010px" data-original="https://canyonmag.net/wordpress/wp-content/uploads/trummelbach-the-connection-featured-image-453x505.jpg" alt="trummelbach-the-connection-featured-image">
+    <img class="img-fluid lazy hidden-md-up" width="453px" height="505px" data-original="https://canyonmag.net/wordpress/wp-content/uploads/trummelbach-the-connection-featured-image-453x505.jpg" alt="trummelbach-the-connection-featured-image">
+      <div class="portfolio-box-caption">
+        <div class="portfolio-box-caption-content">
+          <h3>Trümmelbach &#8220;The Connection&#8221;</h3>
+          <p>Was it possible to go down there? How dangerous are the seracs? Is it possible to cross?</p>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 p-b-sm home-right">
+    <a href="https://canyonmag.net/explore/indirect-anchor-cutting/" class="portfolio-box">
+    <img class="img-fluid lazy hidden-sm-down" width="906px" height="1010px" data-original="https://canyonmag.net/wordpress/wp-content/uploads/indirect-anchor-cutting-featured-image-453x505.jpg" alt="indirect-anchor-cutting-featured-image">
+    <img class="img-fluid lazy hidden-md-up" width="453px" height="505px" data-original="https://canyonmag.net/wordpress/wp-content/uploads/indirect-anchor-cutting-featured-image-453x505.jpg" alt="indirect-anchor-cutting-featured-image">
+      <div class="portfolio-box-caption">
+        <div class="portfolio-box-caption-content">
+          <h3>Indirect Anchor Cutting</h3>
+          <p>Indirect Rope Cutting is perhaps the first rescue technique every canyoneer should learn.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+ 
+
+  <div class="col-xs-12 col-md-8 p-b-sm">
+    <a href="https://canyonmag.net/explore/beneath-the-eiger/" class="portfolio-box">
+    <img class="img-fluid lazy hidden-sm-down" width="1812px" height="1010px" data-original="https://canyonmag.net/wordpress/wp-content/uploads/beneath-the-eiger-featured-image-906x505.jpg" alt="beneath-the-eiger-featured-image">
+    <img class="img-fluid lazy hidden-md-up" width="453px" height="505px" data-original="https://canyonmag.net/wordpress/wp-content/uploads/beneath-the-eiger-featured-image-453x505.jpg" alt="beneath-the-eiger-featured-image">
+      <div class="portfolio-box-caption">
+        <div class="portfolio-box-caption-content">
+          <h3>Beneath the Eiger</h3>
+          <p>Descending Sandbach in the North Alps when a thin window of opportunity arises.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+  </div>
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-8 p-b-sm">
+    <a href="https://canyonmag.net/explore/smeima/" class="portfolio-box">
+    <img class="img-fluid lazy hidden-sm-down" width="1812px" height="1010px" data-original="https://canyonmag.net/wordpress/wp-content/uploads/smeima-featured-image-906x505.jpg" alt="smeima-featured-image">
+    <img class="img-fluid lazy hidden-md-up" width="453px" height="505px" data-original="https://canyonmag.net/wordpress/wp-content/uploads/smeima-featured-image-453x505.jpg" alt="smeima-featured-image">
+      <div class="portfolio-box-caption">
+        <div class="portfolio-box-caption-content">
+          <h3>Smeima</h3>
+          <p>This was the moment where you curse yourself for not bringing a 100+ meter rope or at least a bolting kit.</p>
+        </div>
+      </div>
+    </a>
+  </div>
+ 
+  <div class="col-xs-12 col-md-4 p-b-sm home-left">
+    <a href="https://canyonmag.net/explore/cima-ric-azores-2016/" class="portfolio-box">
+    <img class="img-fluid lazy hidden-sm-down" width="906px" height="1010px" data-original="https://canyonmag.net/wordpress/wp-content/uploads/cima-ric-azores-2016-featured-image-453x505.jpg" alt="cima-ric-azores-2016-featured-image">
+    <img class="img-fluid lazy hidden-md-up" width="453px" height="505px" data-original="https://canyonmag.net/wordpress/wp-content/uploads/cima-ric-azores-2016-featured-image-453x505.jpg" alt="cima-ric-azores-2016-featured-image">
+      <div class="portfolio-box-caption">
+        <div class="portfolio-box-caption-content">
+          <h3>CIMA / RIC Azores 2016</h3>
+          <p>200 canyoners from 14 countries descend on Flores Island for CIMA / RIC Azores 2016&#8230;</p>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-4 p-b-sm home-right">
+    <a href="https://canyonmag.net/explore/artazulo-and-lizebar/" class="portfolio-box">
+    <img class="img-fluid lazy hidden-sm-down" width="906px" height="1010px" data-original="https://canyonmag.net/wordpress/wp-content/uploads/artazulo-and-lizebar-featured-image-453x505.jpg" alt="artazulo-and-lizebar-featured-image">
+    <img class="img-fluid lazy hidden-md-up" width="453px" height="505px" data-original="https://canyonmag.net/wordpress/wp-content/uploads/artazulo-and-lizebar-featured-image-453x505.jpg" alt="artazulo-and-lizebar-featured-image">
+      <div class="portfolio-box-caption">
+        <div class="portfolio-box-caption-content">
+          <h3>Artazulo and Lizebar</h3>
+          <p>It&#8217;s short, good and twice as good&#8230;</p>
+        </div>
+      </div>
+    </a>
+  </div>
+ 
+
+  <div class="col-xs-12 col-md-8 p-b-sm">
+    <a href="https://canyonmag.net/explore/taiwan-canyoning-expedition-malishan/" class="portfolio-box">
+    <img class="img-fluid lazy hidden-sm-down" width="1812px" height="1010px" data-original="https://canyonmag.net/wordpress/wp-content/uploads/taiwan-canyoning-expedition-the-malishan-featured-image-906x505.jpg" alt="taiwan-canyoning-expedition-the-malishan-featured-image">
+    <img class="img-fluid lazy hidden-md-up" width="453px" height="505px" data-original="https://canyonmag.net/wordpress/wp-content/uploads/taiwan-canyoning-expedition-the-malishan-featured-image-453x505.jpg" alt="taiwan-canyoning-expedition-the-malishan-featured-image">
+      <div class="portfolio-box-caption">
+        <div class="portfolio-box-caption-content">
+          <h3>Taiwan Canyoning Expedition: The Malishan</h3>
+          <p> 8-day Malishan canyon exploration. How the hell am I going to make it?</p>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+  
+
+
+
+</div>
+</section>
+
+
+
+
+ <section class="link-about link">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-6 col-lg-4 text-left footer-column-social">
+        <h2>Social</h2>			<div class="textwidget"><a class="btn-social" href="https://facebook.com/canyonmag"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x"></i></span></a>
+<a class="btn-social" href="https://twitter.com/canyonmag"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x"></i></span></a> 
+<a class="btn-social" href="https://instagram.com/canyonmag"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x"></i></span></a> 
+<a class="btn-social" href="https://plus.google.com/+CanyonMagazine"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-google-plus fa-stack-1x"></i></span></a> 
+<a class="btn-social" href="https://pinterest.com/canyonmag/"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-pinterest fa-stack-1x"></i></span></a>
+<a class="btn-social" href="https://vimeo.com/channels/526755"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-vimeo fa-stack-1x"></i></span></a></div>
+		      </div>
+      <div class="col-xs-12 col-md-6 col-lg-8 text-left">
+        <h2>Mail Magazine</h2>			<div class="textwidget"><div id="mc_embed_signup">
+<form action="//canyonmag.us5.list-manage.com/subscribe/post?u=27ddb2dd9634b3fe83a8b5ea9&amp;id=da23b18c2f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+	
+	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+	
+    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_27ddb2dd9634b3fe83a8b5ea9_da23b18c2f" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary"></div>
+    </div>
+</form>
+</div>
+<small class="text-muted">Sign up to receive email updates.</small></div>
+		      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer Menu -->
+
+<section class="link-about about">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 text-left footer-column">
+        <h2>Info</h2><div class="menu-footer-info-english-container"><ul id="menu-footer-info-english" class="menu"><li id="menu-item-49" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49"><a href="https://canyonmag.net/about/">About</a></li>
+<li id="menu-item-47" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47"><a href="https://canyonmag.net/write-for-us/">Write for Us</a></li>
+<li id="menu-item-749" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-749"><a href="https://canyonmag.net/submit-article/">Submit Article</a></li>
+<li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="https://canyonmag.net/warning/">Warning</a></li>
+</ul></div>			<div class="textwidget"><a href="#" data-toggle="modal" data-target="#contact">Contact</a><br>
+<a href="#" data-toggle="modal" data-target="#donate">Donate</a><br>
+<a href="http://xpedeq.com">xpedeq.com</a></div>
+		      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 text-left footer-column">
+        <h2>Explore</h2>
+        <ul>
+          <li><a href="https://canyonmag.net/explore/">Editorial</a></li>
+          <li><a href="https://canyonmag.net/explore/">Exploration</a></li>
+          <li><a href="https://canyonmag.net/explore/">Interview</a></li>
+          <li><a href="https://canyonmag.net/explore/">Medical</a></li>
+          <li><a href="https://canyonmag.net/explore/">Photo Journal</a></li>
+          <li><a href="https://canyonmag.net/explore/">Review</a></li>
+          <li><a href="https://canyonmag.net/explore/">Trip Report</a></li>
+          <li><a href="https://canyonmag.net/explore/">Video</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 text-left footer-column">
+        <h2>News</h2>
+        <ul>
+          <li><a href="https://canyonmag.net/news/">Book</a></li>
+          <li><a href="https://canyonmag.net/news/">Equipment</a></li>
+          <li><a href="https://canyonmag.net/news/">General</a></li>
+          <li><a href="https://canyonmag.net/news/">News</a></li>
+          <li><a href="https://canyonmag.net/news/">Rescue</a></li>
+          <li><a href="https://canyonmag.net/news/">Safety</a></li>
+          <li><a href="https://canyonmag.net/news/">Video</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 text-left footer-column">
+        <h2>Event</h2>
+        <ul>
+          <li><a href="https://canyonmag.net/event/">Conference</a></li>
+          <li><a href="https://canyonmag.net/event/">RIC</a></li>
+          <li><a href="https://canyonmag.net/event/">Training</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 text-left footer-column-last">
+        <h2>Technical</h2>
+        <ul>
+          <li><a href="https://canyonmag.net/technical/#introduction">Introduction</a></li>
+          <li><a href="https://canyonmag.net/technical/#essentials">Essentials</a></li>
+          <li><a href="https://canyonmag.net/technical/#ropework">Ropework</a></li>
+          <li><a href="https://canyonmag.net/technical/#safety">Safety</a></li>
+          <li><a href="https://canyonmag.net/technical/#advanced">Advanced</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 text-left footer-column-last">
+        <h2>Database</h2>
+        <ul>
+        <li><a href="https://canyonmag.net/database/">Australien</a></li>
+        <li><a href="https://canyonmag.net/database/">Hong Kong</a></li>
+        <li><a href="https://canyonmag.net/database/">Japan</a></li>
+        <li><a href="https://canyonmag.net/database/">Taiwan</a></li>
+        </ul>
+    </div>
+  </div>
+</section>
+
+
+ 
+<!-- Copyright -->
+<footer>
+  <div class="container-fluid">
+        <p>&copy; 2013 - 2018 Canyon Magazine and the respective authors.</p>
+      </div>
+</footer>
+
+<!-- Search Dialog -->
+<div id="search">
+  <button type="button" class="close"><i class="fa fa-times"></i></button>
+  <form>
+      　  <input type="search" value="" id="s" name="s" placeholder="Search..." />
+        <button type="submit" class="btn btn-primary">GO</button>
+  </form>
+</div>
+
+<!-- Modal Languages -->
+<div class="modal fade" id="language" tabindex="-1" role="dialog" aria-labelledby="languageLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                                        
+<!-- https://canyonmag.net/<br>
+https://canyonmag.net/ja/ -->
+
+                <h4 class="modal-title" id="languageLabel">Language</h4>
+       
+              </div>
+      <div class="modal-body p-a-0 m-a-0">
+
+          <table id="dblanguage" class="table table-striped table-hover table-sprite m-a-0">
+            <tbody>
+              <tr data-href="/"><td><i class="sprite sprite-au"></i></td><td>English</td><td><i class="fa fa-check-square" aria-hidden="true"></i></td></tr>
+              <tr data-href="/ja/"><td><i class="sprite sprite-jp"></i></td><td>日本語</td><td><i class="fa fa-check-square" aria-hidden="true"></i></td></tr>
+              <tr data-href="/es/"><td><i class="sprite sprite-es"></i></td><td>Español</td><td><i class="fa fa-check-square" aria-hidden="true"></i></td></tr>
+              <tr data-href="/de/"><td><i class="sprite sprite-de"></i></td><td>Deutsche</td><td><i class="fa fa-check-square" aria-hidden="true"></i></td></tr>
+            </tbody>
+          </table>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Donate -->
+<div class="modal fade" id="donate" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                <h4 class="modal-title" id="donateLabel">Donate</h4>
+              </div>
+      <div class="modal-body">
+                <p>Canyon Magazine is run from our own pockets. Help us stay online by clicking the donate button below and supporting us.</p>
+                <form action="//www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="AUQMFGCVKW3YC">
+        <h2 class="text-xs-center"><input type="image" src="https://canyonmag.net/wordpress/wp-content/themes/canyonmag2016/img/donate.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"></h2>
+        <!--<img alt="" border="0" src="//www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">-->
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Contact -->
+<div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                <h4 class="modal-title" id="ContactLabel">Contact</h4>
+              </div>
+      <div class="modal-body">
+        <p>We always love to hear what you think about Canyon Magazine. If you have any comments, suggestions or any other ideas, please fill out the contact form below and we'll get back to you as soon as possible.</p>
+        <div role="form" class="wpcf7" id="wpcf7-f115-o1" lang="en-US" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="/#wpcf7-f115-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="115" />
+<input type="hidden" name="_wpcf7_version" value="5.0.2" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f115-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="0" />
+</div>
+<div class="form-group">
+	<label class="required" for="yourName">Name</label><br />
+	<span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="yourName" aria-required="true" aria-invalid="false" /></span>
+</div>
+<div class="form-group">
+	<label class="required" for="yourEmail">Email</label><br />
+	<span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" id="yourEmail" aria-required="true" aria-invalid="false" /></span>
+</div>
+<div class="form-group">
+	<label class="required" for="yourMessage">Message</label><br />
+	<span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form-control" id="yourMessage" aria-required="true" aria-invalid="false"></textarea></span>
+</div>
+<div class="form-group">
+	<span class="wpcf7-form-control-wrap quiz-113"><label><span class="wpcf7-quiz-label">The capital of Japan?</span> <input type="text" name="quiz-113" size="40" class="wpcf7-form-control wpcf7-quiz" autocomplete="off" aria-required="true" aria-invalid="false" /></label><input type="hidden" name="_wpcf7_quiz_answer_quiz-113" value="1a34ecd910b56eefac51be397e27725a" /></span>
+</div>
+<div class="form-group">
+	<input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit btn btn-large btn-primary" />
+</div>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form></div>      </div>
+    </div>
+  </div>
+</div>
+
+<script type='text/javascript' src='https://canyonmag.net/wordpress/wp-content/themes/canyonmag2016/js/jquery.min.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/canyonmag.net\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://canyonmag.net/wordpress/wp-content/plugins/contact-form-7/includes/js/scripts.js'></script>
+<script type="text/javascript" src="https://canyonmag.net/wordpress/wp-content/themes/canyonmag2016/js/tether.min.js" async="async"></script>
+<script type="text/javascript" src="https://canyonmag.net/wordpress/wp-content/themes/canyonmag2016/bootstrap/bootstrap.min.js" async="async"></script>
+<script type='text/javascript' src='https://canyonmag.net/wordpress/wp-content/themes/canyonmag2016/js/jquery.lazyload.min.js'></script>
+<script type="text/javascript" src="https://canyonmag.net/wordpress/wp-content/themes/canyonmag2016/js/canyonmag.js" async="async"></script>
+<script type="text/javascript">
+			var date = new Date();
+			date.setTime( date.getTime() + 31536000 );
+			document.cookie = "pll_language=en; expires=" + date.toUTCString() + "; path=/";</script><script type='text/javascript' src='https://stats.wp.com/e-201828.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:6.2.1',blog:'113331474',post:'2',tz:'9',srv:'canyonmag.net'} ]);
+	_stq.push([ 'clickTrackerInit', '113331474', '2' ]);
+</script>
+<!-- start social profiles (https://developers.google.com/structured-data/customize/social-profiles) -->
+ <script type="application/ld+json">
+ { 
+ "@context" : "http://schema.org",
+ "@type" : "Organization",
+ "name" : “Canyon Magazine“,
+ "url" : "https://canyonmag.net/“,
+ "logo": "http://canyonmag.net/wordpress/wp-content/uploads/canyonmag-new-logo.jpg",
+ "sameAs" : [ 
+ "https://www.facebook.com/canyonmag”,
+ "https://www.instagram.com/canyonmag",
+ "https://www.twitter.com/canyonmag",
+ "https://www.youtube.com/channel/UCd2zhXWGlUVgw1Xx8tmCohQ",
+ "https://www.pinterest.com/canyonmag/",
+ "https://plus.google.com/+CanyonMagazine/"
+ ]
+ }
+ </script>
+ <!-- end social profiles -->
+  
+</body>
+</html>

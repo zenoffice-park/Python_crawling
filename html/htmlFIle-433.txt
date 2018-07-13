@@ -1,0 +1,696 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="description" content="Our Planetary Centrifugal mixer can be utilized for variety of materials.">
+<meta name="keywords" content="mixer,planetary centrifugal mixer,dispersion,deforming,deaeration,pulverizing,wet pulverizing,emulsification,filling syringes">
+<meta name="google-site-verification" content="ccA7VyGV6gLRSu664T1jBYYMyHcIZIe_9IccZZGA1rg" />
+<title>Planetary Mixer and Centrifugal Mixer｜THINKY CORPORATION</title>
+<link href="/common/css/common.css" rel="stylesheet">
+<link href="/css/contents.css" rel="stylesheet">
+<link href="/common/css/sp.css" rel="stylesheet">
+<link href="/js/bxslider/jquery.bxslider.css" rel="stylesheet">
+<link href="/css/easy-responsive-tabs.css" rel="stylesheet">
+<link rel="icon" type="image/png" href="images/favicon.ico" >
+
+
+</head>
+<body id="top">
+
+<!--wrap-->
+<div id="wrap"> 
+  
+  <!-- header --> 
+  
+<div id="header" class="cf">
+  <div id="header-inner">
+    <h1 id="logo"><a href="/"><img src="/common/images/logo.gif" width="225" height="56" alt="Pioneer of planetary centrifugal mixers THINKY CORPORATION"></a></h1>
+    <p id="menu-bt"> <img class="menu" src="/common/images/sp_menu_noactive.png" width="47" height="40" alt="" /> </p>
+    <div id="nav-area"> 
+      
+      <!--nav-->
+      <div id="nav" class="clear cf">
+        <ul>
+          <li id="home-n"> <a href="/">HOME</a> </li>
+          <li id="product-n" class="pl"> <a class="pc" href="/products/">PRODUCTS</a> <span class="sp pl-bt">PRODUCTS</span>
+            <ul class="pulldown">
+              <li id="index"><a href="/products/">List by usage</a></li>
+              <li><a href="/products/movie.html">Video</a></li>
+            </ul>
+          </li>
+          <li id="casestudies-n"><a href="/casestudies/">CASE STUDIES</a></li>
+          <li id="support-n" class="pl"> <a class="pc" href="/support/">SUPPORT</a> <span class="sp pl-bt">SUPPORT</span>
+            <ul class="pulldown">
+              <li><a href="/support/">Support Policy</a></li>
+              <li><a href="/support/support.html">Customer Service Desk Guide / Product Support Information</a></li>
+              <li><a href="/support/faq.html">FAQ</a></li>
+            </ul>
+          </li>
+          <li id="thinky-n" class="pl"> <a class="pc" href="/thinky/">APPLICATION</a> <span class="sp pl-bt">APPLICATION</span>
+            <ul class="pulldown">
+              <li><a href="/thinky/">Application</a></li>
+              <li><a href="/thinky/commentary/kakuhan.html">Product technical explanation</a></li>
+            </ul>
+          </li>
+          <li id="about-n" class="pl"> <a class="pc" href="/corporate/">COMPANY</a> <span class="sp pl-bt">COMPANY</span>
+            <ul class="pulldown">
+              <li><a href="/corporate/">About THINKY</a></li>
+              <li><a href="/corporate/message.html">Message from the President</a></li>
+              <li><a href="/corporate/secret.html">Our Secret Story of Development</a></li>
+              <li><a href="/corporate/lab.html">THINKY Application Laboratory</a></li>
+              <li><a href="/corporate/about.html">Company overview</a></li>
+              <li><a href="/corporate/history.html">History</a></li>
+              <li><a href="/corporate/three_features_of_thinky.html">Three features of THINKY</a></li>
+              <li><a href="/corporate/agency.html">Agency Network</a></li>
+              <li><a href="/corporate/access.html">Access</a></li>
+            </ul>
+          </li>
+          <li id="contact-n" class="pl"> <a class="pc">CONTACT</a> <span class="sp pl-bt">CONTACT</span>
+            <ul class="pulldown">
+              <li><a href="https://www.thinky.co.jp/global/contact.html" target="_blank">Contact</a></li>
+              <li><a href="https://www.thinky.co.jp/global/catalog/contact.html" target="_blank">Catalog Request</a></li>
+              <!--<li><a href="https://www.thinky.co.jp/form/mailmagazine" target="_blank">Please subscribe to our mailing list</a></li>-->
+              <li><a href="https://www.thinky.co.jp/global/contact.html" target="_blank">Request a Demo</a></li>
+              <li><a href="/products/privacy.html">Privacy policy</a></li>
+              <li><a href="/products/purposes.html">Purposes of use</a></li>
+              <li><a href="/products/use-website.html">Use of the website</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!--/nav--> 
+      
+      <!--tnav-->
+      <div id="tnav">
+        <div id="left-tnav">
+          <ul class="cf">
+            <li><a href="http://www.thinky.co.jp/">JAPAN</a></li>
+	    <li><a href="http://www.thinkyusa.com/">USA</a></li>
+            <li><a href="http://www.thinky.cn/">CHINA</a></li>
+
+          </ul>
+        </div>
+        <div id="right-tnav" class="cf">
+          <ul>
+            <li><a href="https://www.thinky.co.jp/global/contact.html" target="_blank"><img src="/common/images/pc_mail.gif" alt="Contact by mail from" height="64" class="replace large"></a></li>
+          </ul>
+        </div>
+      </div>
+      <!--/tnav--> 
+      
+    </div>
+    <div class="google-search"> 
+      <form action="/search/msearch.cgi" accept-charset="utf-8">
+<input type="search" size="20" name="query" value="" style="width:180px;height:25px;"><input type="submit" value="search">
+<input type="hidden" name="index" value="">
+<input type="hidden" name="config" value="">
+</form><!--<script type='text/javascript'>
+					  (function() {
+					    var cx = '008731675831334465643:1wznfqmyuss';
+					    var gcse = document.createElement('script');
+					    gcse.type = 'text/javascript';
+					    gcse.async = true;
+					    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+					        '//www.google.com/cse/cse.js?cx=' + cx;
+					    var s = document.getElementsByTagName('script')[0];
+					    s.parentNode.insertBefore(gcse, s);
+					  })();
+					</script>
+      <gcse:search></gcse:search>-->
+    </div>
+  </div>
+</div>
+ 
+  <!-- /header -->
+  
+  <div id="mainImage">
+    <div class="inner">
+      <ul class="bxslider">
+        <li><a href="/products/item-all/ce-certified-model/arv-10ktwince.html"><img src="/images/slide04.jpg" alt="Product Information" width="980" height="233"></a></li>
+        <li><a href="/worldtour/index.html" target="_blank"><img src="/images/slide02.png" alt="Exhibition World Tour 2017 - 2018" width="980" height="233"></a></li>
+        <li><a href="/products/"><img src="/images/slide03.png" alt="Product Information" width="980" height="233"></a></li>
+        <li><a href="/products/item-all/nano-pulverizer/np-100.html"><img src="/images/slide01.png" alt="Nano pulverization takes only 2 minutes" width="980" height="233"></a></li>
+      </ul>
+      <div id="topBtnCont" class="cf">
+        <div id="topProductInfo">
+          <dl>
+            <dt>Product Information</dt>
+            <dd>
+              <ul>
+                <li><a href="/products/index.html#product01"><img src="/images/productinfo01.png" alt="" width="205"></a></li>
+                <li><a href="/products/index.html#product02"><img src="/images/productinfo02.png" alt="" width="205"></a></li>
+                <li><a href="/products/index.html#product06"><img src="/images/productinfo03.png" alt="" width="205"></a></li>
+                <li><a href="/products/index.html#product05"><img src="/images/productinfo04.png" alt="" width="205"></a></li>
+                <li><a href="/products/index.html#product09"><img src="/images/productinfo05.png" alt="" width="205"></a></li>
+                <li><a href="/products/index.html#product10"><img src="/images/productinfo06.png" alt="" width="205"></a></li>
+              </ul>
+            </dd>
+          </dl>
+        </div>
+        <div id="topEtc">
+          <ul>
+            <li><a href="/casestudies/"><img src="/images/etc01.png" alt="" width="313"></a></li>
+            <li><a href="/products/movie.html"><img src="/images/etc02.png" alt="" width="313"></a></li>
+            <li><a href="https://www.thinky.co.jp/global/catalog/contact.html" target="_blank"><img src="/images/etc03.png" alt="" width="313"></a></li>
+          </ul>
+        </div>
+      </div>
+      <ul id="topBannerCont">
+        <li><a href="/corporate/three_features_of_thinky.html"><img src="/images/banner01.png" alt="" width="320"></a></li>
+        <li><a href="worldtour/index.html" target="_blank"><img src="/images/banner02.png" alt="" width="320"></a></li>
+        <li><a href="/corporate/agency.html"><img src="/images/banner03.png" alt="" width="320"></a></li>
+      </ul>
+      
+  
+      
+    </div>
+  </div>
+  
+  <!--contents-->
+  
+  
+  
+  <div id="contents"> 
+    
+    <div class="section white">
+        <div class="inner cf"> 
+                          <div class="contact-box">
+                	<a href="https://www.thinky.co.jp/global/contact.html" target="_blank"><img src="/common/images/contact01_bt.gif" width="264" alt="Contact by mail form" /></a>
+                </div>
+
+		<div class="contact-box center">
+                	<a href="https://www.thinky.co.jp/global/freedemo/contact.html" target="_blank"><img src="/common/images/contact02_bt.gif" width="264" alt="Request a Demo" /></a>
+                </div>
+
+                <div class="contact-box">
+                	<a href="https://www.thinky.co.jp/global/catalog/contact.html" target="_blank"><img src="/common/images/contact03_bt.gif" width="264" alt="Catalog Request" /></a>
+                </div>
+                
+ 
+        </div>
+      </div>
+    
+    <!-- main -->
+    <div id="main">
+      <div class="section gray">
+        <div class="inner rela cf">
+          <h2><span>N</span>ew information</h2>
+          <div id="newsCont">
+            <div class="resp-tabs-container"> 
+              <!-- New information -->
+              <div>
+                <table class="news-list">
+<tr>
+<td class="date">05-31-2018</td>
+    <td><a href="http://www.grapheneconf.com/2018/index.php" target="_blank">We exhibit at the Graphene 2018 to 26th to 29th of June at Maritim Hotel & Internationales Congress Center Dresden in Dresden, Germany.</a></td>
+</tr>
+<tr>
+<td class="date">03-16-2018</td>
+    <td><a href="http://appconference.com/" target="_blank">We exhibit at the Australia APP 2018 3rd to 6th of May at Gold Coast Convention & Exhibition Centre</a>, Booth NO.#15</a>, at Australia.</td>
+</tr>
+<tr>
+<td class="date">02-01-2018</td>
+    <td><a href="https://www.arablab.com/" target="_blank">We exhibit at the ARABLAB 2018 18th to 21th of March at Dubai International Convention & Exhibition Centre</a>, <a href="https://www.arablab.com/exhibitor/director/exhibitor/thinky-corporation-japan/3897" target="_blank">Booth NO.#1156</a>, at Dubai.</a></td>
+</tr>					
+<tr>
+<td class="date">11-06-2017</td>
+    <td>We exhibit at the JEC WORLD 6th to 8th of March at Paris Nord Villepinte Exhibition Centre, Booth NO.#C60, at Paris.</a></td>
+</tr> 
+<tr>
+<td class="date">09-25-2017</td>
+    <td>We exhibit at the JEC Asia 2017 & ICF 1st to 3rd of November at Coex Convention and Exhibition Center, Booth NO.#D13, at Seoul, Korea.</td>
+</tr>                 
+<tr>
+<td class="date">08-31-2017</td>
+    <td>We exhibit at the Manufacturing Solutions Expo (MSE) 2017 25th to 27th of October at Suntec Singapore Convention & Exhibition Centre, Booth NO.#D18, at Singapore.</td>
+</tr>                
+<tr>
+<td class="date">07-13-2017</td>
+    <td>We exhibit at the COMPOSITES EUROPE 2017 19th to 21th of September at Messe Stuttgart, Booth NO.#4A41, at Germany.</td>
+</tr>					
+<tr>
+<td class="date">06-30-2017</td>
+    <td>We exhibit at the Taipei Aerospace & Defense Technology Exhibition 2017 17th to 19th of August at  Taipei World Trade Center Exhibition Hall1,Booth NO.#A0505a, at Taipei, Taiwan.</td>
+</tr> 
+
+
+<tr>
+<td class="date">05-17-2017</td>
+    <td>We exhibit at the PSECE 2017 Exhibit 21th to 23th of June at SMX Convention Center, Hall 1 Booth No.108, at Manila, Philippines.</td>
+</tr> 
+
+<tr>
+<td class="date">03-27-2017</td>
+    <td>We exhibit at the National Manufacturing Week(NMW) 2017 Exhibit 9th to 12th of May at Melbourne Convention And Exhibition Centre, Stand: 2340 at Melbourne, Australia.</td>
+</tr>   
+<tr>
+<td class="date">02-24-2017</td>
+    <td>We exhibit at the KOREA Lab 2017 Exhibit 18th to 21th of April at KINTEX (Hall 7B, KINTEX2) Booth No. : 7F402, at Gyeonggi-do, Korea.
+</td>
+</tr>   
+<!--2016
+<tr>
+<td class="date">11-01-2016</td>
+    <td>We exhibit at the ArabLab 2017 Exhibit 20th to 23th of March at Dubai International Convention and Exhibition Centre, at Dubai, UAE.
+</td>
+</tr>                
+
+<tr>
+<td class="date">11-01-2016</td>                     <td>We exhibit at the JEC World 2017 Exhibit 14th to 16th of March at Paris Nord Villepinte, at Paris, France.
+</td>
+</tr>
+ 
+<tr>
+  <td height="53" class="date">09-16-2016</td>
+  <td>We exhibit at the MRS Fall Meeting &amp; Exhibit 29th of November to 1st of December , at Hynes Convention Center, Level 2, Boston, MA.
+    </td>
+</tr>
+
+<tr>
+<td class="date">09-16-2016</td>
+     <td>We exhibit at the APFO EXPO SHENZHEN 2016 24th to 26th of November, at Shenzhen Convention &amp; Exhibition Center.</td>
+      </tr>
+      <tr>
+       <td class="date">09-16-2016</td>
+       <td>We exhibit at JEC Asia  15th to 17th of November, at Singapore.</td>
+      </tr>
+      
+     <tr>
+      <td class="date">09-16-2016</td>
+      <td>We exhibit at the MS&amp;T 24th to 26th of October, at Salt Place Convention Center, Saltlake City, UT.</td>
+     </tr>
+     <tr>
+      <td class="date">09-16-2016</td>
+      <td>We exhibit at the CAMX 2016 27th to 29th of September, at Anaheim Convention Center, Anaheim, CA.</td>
+     </tr>
+     <tr>
+      <td class="date">09-16-2016</td>
+      <td>We exhibit at Thailand LAB International 2016  21th to 23th of September, at Bangkok, Thailand.</td>
+     </tr>
+     <tr>
+      <td class="date">08-26-2016</td>
+      <td>We exhibit at The 6th Cambodia International Machinery Industry Fair (CIMIF)  26th to 29th of August, at Phnom Penh, Cambodia.</td>
+     </tr>
+     <tr>
+      <td class="date">08-26-2016</td>
+      <td>We exhibit at the BATTERY SHOW 2016 24th to 26th of August, at Guangzhou Poly World Trade Center Expo.</td>
+     </tr>
+     <tr>
+      <td class="date">08-24-2016</td>
+      <td>We exhibit at the China International Adhesives and Sealants Exhibition 13th to 15th of September, at Suburban Collection Showplace,Novi, MI.</td>
+     </tr>
+     <tr>
+      <td class="date">08-21-2016</td>
+      <td>We exhibit at the American Chemical Society (ACS) Fall National Meeting 2016 21st to 23th of August, at Pennsylvania Convention Center,Philadelphia, PA.</td>
+     </tr>
+     <tr>
+       <td class="date">05-16-2016</td>
+       <td>We exhibit at the SAMPE 2016 23rd to 26th of May, at Long Beach Convention Center 300 East Ocean Blvd,Long Beach,California 90802 United States.</td>
+       </tr>
+
+       <tr>
+        <td class="date">05-16-2016</td>
+       <td>We exhibit at the CIBF 2016 10th to 12nd of June, at Shenzhen Convention and Exhibition Center ,China.</td>
+                  </tr>
+
+                                    <tr>
+                    <td class="date">05-16-2016</td>
+                    <td>We were exhibiting at the National Manufacturing Week 2016 11st to 13rd of May, at Sydney Showground,Sydney Olympic Park.</td>
+                  </tr>
+                                    <tr>
+                    <td class="date">05-02-2016</td>
+                    <td>We were exhibiting at the HANNOVER MESSE 2016 25th to 29th of April, at Hannover Exhibition Grounds at Messegelände, D-30521 Hannover, Germany.</td>
+                  </tr>
+                                    <tr>
+                    <td class="date">04-15-2016</td>
+                    <td>We were exhibiting at the American Coatings SHOW 12nd to 14th of April,Indianapolis, IN U.S.A. </td>
+                  </tr>
+                                    <tr>
+                    <td class="date">03-14-2016</td>
+                    <td>We were exhibiting at the Middle East Coating Show 2016 14th to 16th of March, at Dubai World Trade Centre.</td>
+                  </tr>
+                                    <tr>
+                    <td class="date">03-18-2016</td>
+                    <td>We were exhibiting at the SEMICON China 15th to 17th of March, Shanghai New International Expo Centre(SNIEC) in Shanghai, China.</a></td>
+                  </tr>
+                                    <tr>
+                    <td class="date">02-22-2016</td>
+                    <td>We were exhibiting at the Kenya Labrorum the 18th to 20th of February,Oshwal Centre Nairobi Kenya.</td>
+                  </tr>
+                                    <tr>
+                    <td class="date">02-12-2016</td>
+                    <td>We were exhibiting at the MD&M 2016 West the 9th to 11st of February, at Anaheim Convention Center ,at 800 W. Katella Avenue, Anaheim, CA 92802.</td>
+                  </tr>
+ 
+  <!--
+    <tr>
+                    <td class="date">12-08-2015</td>
+                    <td>We were exhibiting at the Manufacturing Indonesia 2015 from the 2nd to 5th of December, at Jakarta International Expo (JLExpo) in Kemayoran</td>
+                  </tr>
+                  <tr>
+                    <td class="date">11-27-2015</td>
+                    <td>We were exhibiting at the C-TOUCH 2015 Shenzhen from the 25th to 27th of November, at  Shenzhen Convention & Exhibition Center, Fuhua Third Road, Futian District, Shenzhen, China.</td>
+                  </tr>
+                  <tr>
+                    <td class="date">11-24-2015</td>
+                    <td>We were exhibiting at the KOMPOZYT EXPO 2015 from the 25th to 26th of November.</td>
+                  </tr>
+                  <tr>
+                    <td class="date">11-12-2015</td>
+                    <td>We were exhibiting at the The China International Pharmaceutical Industry Exhibition from the 17th to 20th of November at China.</td>
+                  </tr>
+                  <tr>
+                    <td class="date">11-12-2015</td>
+                    <td>We were exhibiting at the Nano for Defense 2015 from the 16th to 19th of November,at the Pacific Palms Resort in City of Industry, CA (overlooking the San Gabriel Mountains just outside of Los Angeles). </td>
+                  </tr>
+		  <tr>
+                    <td class="date">11-12-2015</td>
+                    <td>We were exhibiting at the 2015 CHEM SHOW NEW YORK from the 17th to 19th of November, at The Event for Processing Technology Javits Convention Center,New York City.</td>
+                  </tr>
+                  <tr>
+                    <td class="date">10-02-2015</td>
+                    <td>We were exhibiting at the bondexpo 2015 from the 5th to 8th of October at Germany.</td>
+                  </tr>
+                  <tr>
+                    <td class="date">09-28-2015</td>
+                    <td>We were exhibiting at the ABAA8 2015 from the 30th of September to 2nd of October at Palacio Euskalduna, in Bilbao, Spain.</td>
+                  </tr>
+                  <tr>
+                    <td class="date">09-24-2015</td>
+                    <td>We were exhibiting at the Asia Pacific Coating Show from the 17th to 18th of September in Kuala Lumpur Convenction Center, Malyasia  HALL #4 & 5 BOOTH # K-03</td>
+                  </tr>
+                  <tr>
+                    <td class="date">08-07-2015</td>
+                    <td>We were exhibiting at the Asia Labex 2015 from the 25th to 27th of August in Pragati Maidan, India  HALL #7-A,B,C BOOTH # C-124</td>
+                  </tr>
+                  <tr>
+                    <td class="date">08-07-2015</td>
+                    <td>We were exhibiting at the ACS 2015 from 16th to 20th in August 2015 in Massachusetts Convention center, MA,Booth No.333</td>
+                  </tr>
+                  <tr>
+                    <td class="date">05-01-2015</td>
+                    <td>We were exhibiting at the TechConnect World 2015 from 15th to 16th in June 2015 in Gaylord National Resort & Convention Center, Washington, DC,Booth No.419</td>
+                  </tr>
+                  <tr>
+                    <td class="date">05-01-2015</td>
+                    <td>We were exhibiting at the SAMPE 2015 from 19th to 20th in May 2015 in Baltimore Convention Center, Baltimore, MD,Booth No.F-35</td>
+                  </tr>
+                  <tr>
+                    <td class="date">01-28-2015</td>
+                    <td>We were exhibiting at the ToxExpo 2015 from 23rd to 25th in March 2015 in San Diego Convention Center, San Diego,Booth No.383</td>
+                  </tr>
+                  <tr>
+                    <td class="date">01-28-2015</td>
+                    <td>We were exhibiting at the MD&M West 2015 from 11st to 12nd in February 2015 in Anaheim Convention Center, CA,Booth No.2111</td>
+                  </tr>
+<!--<tr>
+                    <td class="date">10-29-2014</td>
+                    <td>We were exhibiting at the 2014 AAPS in San Diego Convention Center, San Diego from 2nd to 6th in November 2014</td>
+                  </tr>
+                  <tr>
+                    <td class="date">10-10-2014</td>
+                    <td>We were exhibiting at the ACMA at CAMX 2014 in Orlando, FL from 14th to 16th in October 2014</td>
+                  </tr>
+                  <tr>
+                    <td class="date">5-28-2014</td>
+                    <td>We were exhibiting at the SAMPE 2014 from 2nd to 4th in June 2014 Washington State Convention Center 800 Convention Place Seattle, WA,Booth No.K2</td>
+                  </tr>
+                  <tr>
+                    <td class="date">4-17-2014</td>
+                    <td>We were exhibiting at the MRS Spring Meeting from 22th to 23th in April 2014 San Francisco,CA,Booth No.633</td>
+                  </tr>
+                  <tr>
+                    <td class="date">3-14-2014</td>
+                    <td>We were exhibiting at the SOT 2014 Annual Meeting from 24th to 26th in March 2014 Phoenix, AZ, Phoenix Convention Center No.1616</td>
+                  </tr>
+                  <tr>
+                    <td class="date">12-25-2013 </td>
+                    <td><a href="/products/item-all/vacuum-mixer/arv-50led.html">We launched new product "ARV-50LED".</a></td>
+                  </tr>
+                  <tr>
+                    <td class="date">11-7-2013</td>
+                    <td>We were exhibiting at the AAPS from 10th to 14th in&nbsp;November 2013 San Antonio, TX, Booth NO. #639</td>
+                  </tr>
+                  <tr>
+                    <td class="date">9-4-2013</td>
+                    <td>We were exhibiting at the SAMPE Tech&nbsp;2013 from 21th to 24th in&nbsp;October 2013 Wichita, KS, Booth NO. #E17</td>
+                  </tr>
+                  <tr>
+                    <td class="date">5-21-2013</td>
+                    <td>We were exhibiting at the MD&amp;M Brazil 2013 from 27th to 28th in August 2013. </td>
+                  </tr>
+                  <tr>
+                    <td class="date">4-12-2013</td>
+                    <td>We were exhibiting at the SAMPE 2013 from 6th to 9th in May 2013 Long Beach, CA, Booth NO. #G16</td>
+                  </tr>
+                  <tr>
+                    <td class="date">3-25-2013</td>
+                    <td>We were exhibiting at the BIOMEDevice from 10th to 11th in April 2013 Boston, MA, Booth NO. #846</td>
+                  </tr>
+                  <tr>
+                    <td class="date">2-18-2013</td>
+                    <td>We were exhibiting at the PITTCON 2013 from 18th to 21st in March 2013 Philadephia, PA Booth NO. #359</td>
+                  </tr>-->
+                </table>
+              </div>
+              <!-- /New information --> 
+            </div>
+          </div>
+          <!--<p class="magazine_bt"><a href="https://www.thinky.co.jp/form/mailmagazine" target="_blank">Please subscribe to our mailing list</a></p>-->
+        </div>
+      </div>
+      <div class="section white">
+        <div class="inner cf"> 
+          
+          <!--link-box-->
+          <div class="link-box link_bg01 cf">
+            <div class="link-box-inner">
+              <p class="link-box-heading"><span>P</span>RODUCT</p>
+              <ul class="link-list">
+                <li><a href="/products/">List by usage</a></li>
+                <li><a href="/products/movie.html">Introduction　Video
+</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--link-box--> 
+          
+          <!--link-box-->
+          <div class="link-box link_bg02 center cf">
+            <div class="link-box-inner">
+              <p class="link-box-heading"><span>A</span>PPLICATION</p>
+              <ul class="link-list">
+                <li><a href="/thinky/">Application</a></li>
+                <li><a href="/thinky/commentary/kakuhan.html">Product technical explanation</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--link-box--> 
+          
+          <!--link-box-->
+          <div class="link-box link_bg03 cf">
+            <div class="link-box-inner">
+              <p class="link-box-heading"><span>A</span>BOUT US</p>
+              <ul class="link-list cf">
+                <li><a href="/corporate/">About THINKY</a></li>
+                <li><a href="/corporate/message.html">Message from the President</a></li>
+                <li><a href="/corporate/secret.html">Our Secret Story of Development</a></li>
+                <li><a href="/corporate/lab.html">THINKY Lab</a></li>
+                <li><a href="/corporate/about.html">Company overview</a></li>
+                <li><a href="/corporate/history.html">History</a></li>
+                <li><a href="/corporate/three_features_of_thinky.html">Three features of THINKY</a></li>
+                <li><a href="/corporate/agency.html">Agency Network</a></li>
+                <li><a href="/corporate/access.html">Access</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--link-box--> 
+          
+        </div>
+      </div>
+      <div class="section gray">
+        <div class="inner cf"> 
+                          <div class="contact-box">
+                	<a href="https://www.thinky.co.jp/global/contact.html" target="_blank"><img src="/common/images/contact01_bt.gif" width="264" alt="Contact by mail form" /></a>
+                </div>
+
+		<div class="contact-box center">
+                	<a href="https://www.thinky.co.jp/global/freedemo/contact.html" target="_blank"><img src="/common/images/contact02_bt.gif" width="264" alt="Request a Demo" /></a>
+                </div>
+
+                <div class="contact-box">
+                	<a href="https://www.thinky.co.jp/global/catalog/contact.html" target="_blank"><img src="/common/images/contact03_bt.gif" width="264" alt="Catalog Request" /></a>
+                </div>
+                
+ 
+        </div>
+      </div>
+    </div>
+    <!-- /main --> 
+    
+  </div>
+  <!--/contents--> 
+  
+  <!-- footer --> 
+  
+<div id="footer">
+  <div id="footer-inner">
+    <p class="category"><span class="sp arrow"><img src="/common/images/footer_arrow_off.gif" width="28" height="17" alt="" /></span><a href="/products/">PRODUCTS</a></p>
+    <ul class="cf pulldown">
+      <li class="heading"><a href="/products/index.html#product01">Planetary Centrifugal Mixer "THINKY MIXER"</a></li>
+      <li><a href="/products/item-all/rotation-revolution-mixer/ar-100.html">AR-100</a></li>
+      <li><a href="/products/item-all/rotation-revolution-mixer/are-310.html">ARE-310</a></li>
+      <li><a href="/products/item-all/rotation-revolution-mixer/are-400twin.html">ARE-400TWIN</a></li>
+      <li class="last"><a href="/products/item-all/rotation-revolution-mixer/are-500.html">ARE-500</a></li>
+      <li class="heading"><a href="/products/index.html#product02">Planetary Centrifugal Vacuum Mixer</a></li>    
+      <li><a href="/products/item-all/vacuum-mixer/arv-310.html">ARV-310</a></li>
+      <li><a href="/products/item-all/vacuum-mixer/arv-930twin.html">ARV-930TWIN</a></li>
+      <li><a href="/products/item-all/vacuum-mixer/arv-5000.html">ARV-5000</a></li>
+      <li><a href="/products/item-all/vacuum-mixer/arv-3000twin.html">ARV-3000TWIN</a></li>
+      <li class="last"><a href="/products/item-all/vacuum-mixer/arv-10ktwin.html">ARV-10kTWIN</a></li>
+      <li class="heading"><a href="/products/index.html#product03">Planetary Centrifugal Solder Paste Mixer</a></li>
+      <li class="last"><a href="/products/item-all/solder-paste/sr-500.html">SR-500</a></li>
+      <li class="heading"><a href="/products/index.html#product04">Planetary Centrifugal Vacuum Mixer for LED</a></li>
+      <li><a href="/products/item-all/vacuum-mixer/arv-50led.html">ARV-50LED</a></li>
+      <li class="last"><a href="/products/item-all/vacuum-mixer/arv-310led.html">ARV-310LED</a></li>
+      <li class="heading"><a href="/products/index.html#product05">Vacuum Syringe Charger</a></li>
+      <li><a href="/products/item-all/syringe-filler-machine/arc-40h.html">ARC-40H</a></li>
+      <li class="last"><a href="/products/item-all/syringe-filler-machine/arc-600twin.html">ARC-600TWIN</a></li>
+      <li class="heading"><a href="/products/index.html#product06">Nano Pulverizer</a></li>
+      <li class="last"><a href="/products/item-all/nano-pulverizer/np-100.html">NP-100</a></li>
+      <li class="heading"><a href="/products/index.html#product07">Nano Premixer</a></li>
+      <li class="last"><a href="/products/item-all/nano-premixer/pr-1.html">PR-1</a></li>
+      <li class="heading"><a href="/products/index.html#product08">Liquid Crystal Degasing Equipment</a></li>
+      <li class="last"><a href="/products/item-all/lc/lc-3000lc6000-2.html">LC-3000/6000-2</a></li>
+      <li class="heading"><a href="/products/index.html#product10">CE Certified model</a></li>
+      <li><a href="/products/item-all/ce-certified-model/are-250ce.html">ARE-250CE</a></li>
+      <li><a href="/products/item-all/ce-certified-model/are-500ce.html">ARE-500CE</a></li>
+      <li><a href="/products/item-all/ce-certified-model/are-400twince.html">ARE-400TWINCE</a></li>
+      <li><a href="/products/item-all/ce-certified-model/arv-310ce.html">ARV-310CE</a></li>
+      <li><a href="/products/item-all/ce-certified-model/arv-930twince.html">ARV-930TWINCE</a></li>
+      <li><a href="/products/item-all/ce-certified-model/arv-5000ce.html">ARV-5000CE</a></li>
+      <li><a href="/products/item-all/ce-certified-model/arv-10ktwince.html">ARV-10kTWINCE</a></li>
+      <li><a href="/products/item-all/ce-certified-model/arv-310ledce.html">ARV-310LEDCE</a></li>
+      <li><a href="/products/item-all/ce-certified-model/sr-500ce.html">SR-500CE</a></li>
+      <li><a href="/products/item-all/ce-certified-model/np-100ce.html">NP-100CE</a></li>
+      <li class="last"><a href="/products/item-all/ce-certified-model/pr-1ce.html">PR-1CE</a></li>
+      <li class="heading"><a href="/products/containers-adapters.html">Containers and Adapters</a></li>
+      <li class="heading"><a href="/products/movie.html"> Video</a></li>
+    </ul>
+    <p class="category"><span class="sp arrow"><img src="/common/images/footer_arrow_off.gif" width="28" height="17" alt="" /></span>CASE STUDIES </p>
+    <ul class="cf pulldown">
+      <li class="last"><a href="/casestudies/">Case Studies</a></li>
+    </ul>
+    <p class="category"><span class="sp arrow"><img src="/common/images/footer_arrow_off.gif" width="28" height="17" alt="" /></span>SUPPORT</p>
+    <ul class="cf pulldown">
+      <li><a href="/support/">Support Policy</a></li>
+      <li><a href="/support/support.html">Customer Service Desk Guide / Product Support Information</a></li>
+      <li class="last"><a href="/support/faq.html">FAQ</a></li>
+    </ul>
+    <p class="category"><span class="sp arrow"><img src="/common/images/footer_arrow_off.gif" width="28" height="17" alt="" /></span>APPLICATION</p>
+    <ul class="cf pulldown">
+      <li><a href="/thinky/">Application</a></li>
+      <li class="last"><a href="/thinky/commentary/kakuhan.html">Product technical explanation</a></li>
+    </ul>
+    <p class="category"><span class="sp arrow"><img src="/common/images/footer_arrow_off.gif" width="28" height="17" alt="" /></span>COMPANY</p>
+    <ul class="cf pulldown">
+      <li><a href="/corporate/">About THINKY</a></li>
+      <li><a href="/corporate/message.html">Message from the President</a></li>
+      <li><a href="/corporate/secret.html">Our Secret Story of Development</a></li>
+      <li><a href="/corporate/lab.html">THINKY Application Laboratory</a></li>
+      <li><a href="/corporate/about.html">Company overview</a></li>
+      <li><a href="/corporate/history.html">History</a></li>
+      <li><a href="/corporate/three_features_of_thinky.html">Three features of THINKY</a></li>
+      <li><a href="/corporate/agency.html">Agency Network</a></li>
+      <li class="last"><a href="/corporate/access.html">Access</a></li>
+    </ul>
+    <p class="category"><span class="sp arrow"><img src="/common/images/footer_arrow_off.gif" width="28" height="17" alt="" /></span>CONTACT</p>
+    <ul class="cf pulldown">
+      <li><a href="https://www.thinky.co.jp/global/contact.html" target="_blank">Contact</a></li>
+      <li><a href="https://www.thinky.co.jp/global/catalog/contact.html" target="_blank">Catalog Request</a></li>
+      <!--<li><a href="https://www.thinky.co.jp/form/mailmagazine" target="_blank">Please subscribe to our mailing list</a></li>-->
+      <li><a href="https://www.thinky.co.jp/global/contact.html" target="_blank">Request a Demo</a></li>
+      <li><a href="/products/privacy.html">Privacy policy</a></li>
+      <li><a href="/products/purposes.html">Purposes of use</a></li>
+      <li class="last"><a href="/products/use-website.html">Use of the website</a></li>
+    </ul>
+  </div>
+  <div id="copyright">Copyright &copy; THINKY All Rights Reserved.</div>
+</div>
+<p id="pagetop"> <a href="#wrap"><img src="/common/images/pagetop.png" width="74" height="50" alt="PAGETOP" /></a> </p>
+ 
+  <!-- /footer --> 
+  
+</div>
+<!--/wrap--> 
+
+<!--M-code-->
+<script type="text/javascript">
+(function() {
+  var didInit = false;
+  function initMunchkin() {
+    if(didInit === false) {
+      didInit = true;
+      Munchkin.init('064-WFK-523');
+    }
+  }
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '//munchkin.marketo.net/munchkin.js';
+  s.onreadystatechange = function() {
+    if (this.readyState == 'complete' || this.readyState == 'loaded') {
+      initMunchkin();
+    }
+  };
+  s.onload = initMunchkin;
+  document.getElementsByTagName('head')[0].appendChild(s);
+})();
+</script>
+<!--M-code-->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" type='text/javascript'></script> 
+<script src="/common/js/common.js" type='text/javascript'></script> 
+<script src="/js/bxslider/jquery.bxslider.min.js" type='text/javascript'></script> 
+<script type="text/javascript" src="/js/easyResponsiveTabs.js"></script> 
+<script src="/js/contents.js" type='text/javascript'></script> 
+<script src='//www.google.com/jsapi' type='text/javascript'></script> 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-24448864-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24448864-5']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript">
+function trackOutboundLink(link, category, action) {
+ 
+try {
+_gaq.push(['_trackEvent', category , action]);
+} catch(err){}
+ 
+setTimeout(function() {
+document.location.href = link.href;
+}, 100);
+}
+</script>
+
+</body>
+</html>

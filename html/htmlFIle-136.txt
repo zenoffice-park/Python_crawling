@@ -1,0 +1,2175 @@
+
+
+<!doctype html>
+<html lang="en">
+<head id="ctl00_Head1"><meta charset="UTF-8" /><title>
+	FRAMECAD - The Rapid Steel Framing Design &amp; Build System
+</title><meta name="description" content="FRAMECAD provides global light weight steel design and construction solutions to allow the rapid construction of quality buildings. Find out how." /> 
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+<meta http-equiv="pragma" content="no-cache" /> 
+<meta http-equiv="content-style-type" content="text/css" /> 
+<meta http-equiv="content-script-type" content="text/javascript" /> 
+ 
+<link href="/favicon.ico" type="image/x-icon" rel="shortcut icon"/> 
+<link href="/favicon.ico" type="image/x-icon" rel="icon"/> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" /><meta name="viewport" content="initial-scale=1, maximumscale=1" />
+
+	<!-- favicon -->
+	<link rel="shortcut icon" href="/favicon.ico" />
+
+	<!-- Presentation -->
+	<link rel="stylesheet" type="text/css" href="/site_assets/resources/css/screen.css?20170203" media="screen" /><link rel="stylesheet" type="text/css" href="/site_assets/resources/css/screen.727.css" media="only screen and (max-width: 726px)" />
+	<!-- small tablets -->
+	<link rel="stylesheet" type="text/css" href="/site_assets/resources/css/screen.320.css" media="only screen and (max-width: 321px)" />
+	<!-- mobile phones -->
+	<link rel="stylesheet" type="text/css" href="/site_assets/resources/css/screen.979.css" media="only screen and (min-width: 727px) and (max-width: 979px)" /><link rel="stylesheet" type="text/css" href="/site_assets/resources/css/screen.1200.css" media="only screen and (min-width : 1200px)" /><link rel="stylesheet" type="text/css" href="/site_assets/resources/css/print.css" media="print" /><link rel="stylesheet" type="text/css" href="/site_assets/resources/css/newstyle.css" media="all" /><link href="/site_assets/resources/css/subscribe.css" rel="stylesheet" /><link href="/site_assets/resources/css/magnificpopup.css" rel="stylesheet" />
+	
+	<!--[if lt IE 9]>
+	    <link rel="stylesheet" type="text/css" href="/site_assets/resources/css/ie.css" media="screen" />
+    <![endif]-->
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:Light" rel="stylesheet" type="text/css" /><link href="//cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css" rel="stylesheet" type="text/css" /><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/site_assets/resources/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/site_assets/resources/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/site_assets/resources/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/site_assets/resources/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/site_assets/resources/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/site_assets/resources/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/site_assets/resources/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" href="/site_assets/resources/favicon/favicon-196x196.png" sizes="196x196">
+    <link rel="icon" type="image/png" href="/site_assets/resources/favicon/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="/site_assets/resources/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/site_assets/resources/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/site_assets/resources/favicon/favicon-16x16.png" sizes="16x16">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/site_assets/resources/favicon/mstile-144x144.png">
+<meta name='tags' content=''>
+
+	<!-- Social -->
+	<!-- Google+ uses title, image and description -->
+	<meta property="og:title" /><meta property="og:type" /><meta property="og:image" /><meta property="og:url" /><meta property="fb:admins" /><meta property="og:site_name" /><meta property="og:description" /><meta name="google-site-verification" content="JxKst3cQeLQYta_DwhGudCI2rfwgyDgIhLjaT3LedeE" />
+
+	<script src="https://use.fontawesome.com/9f64be7fda.js"></script>
+
+	<noscript>
+		<link rel="stylesheet" type="text/css" href="/site_assets/resources/css/noscript.css" media="all" />
+	</noscript>
+	
+	<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-M3NQN9');</script>
+	<!-- End Google Tag Manager -->
+
+	<!-- Hotjar Tracking Code for www.framecad.com -->
+	<script>
+		(function(h,o,t,j,a,r){
+			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+			h._hjSettings={hjid:786349,hjsv:6};
+			a=o.getElementsByTagName('head')[0];
+			r=o.createElement('script');r.async=1;
+			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+	</script>
+
+	<!-- Begin Cookie Consent-->
+	<script type="text/javascript">
+			window.cookieconsent_options = { "message": "This website uses cookies to ensure you get the best experience on our website", "dismiss": "Got it!", "learnMore": "More info", "link": "https://www.framecad.com/en/privacy-policy", "theme": "dark-top" };
+	</script>
+ 
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
+	<!-- End Cookie Consent-->
+
+</head>
+<body id="ctl00_uxBody" class="type-framecad-home template-framecad.home">
+
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M3NQN9"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
+	<div id="main-div">
+		<form method="post" action="./home?aliaspath=%2fhome" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="ctl00_manScript_HiddenField" id="ctl00_manScript_HiddenField" value="" />
+<input type="hidden" name="__CMSCsrfToken" id="__CMSCsrfToken" value="JnOp2nbo7MJvoo9zSHsTVDcvr1BKxtGEk1ApFYLETa/F/lTlLu7P4iMGpWs/3JHg+B3IWdLyiLZLl5pnwSqvBT/VYTB1tOuK8eupyI98qig=" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJLTY5NzM5NzE1DxYCHhNWYWxpZGF0ZVJlcXVlc3RNb2RlAgEWAmYPZBYEAgEPZBYcAggPFgIeBGhyZWYFLi9zaXRlX2Fzc2V0cy9yZXNvdXJjZXMvY3NzL3NjcmVlbi5jc3M/MjAxNzAyMDNkAgkPFgIfAQUpL3NpdGVfYXNzZXRzL3Jlc291cmNlcy9jc3Mvc2NyZWVuLjcyNy5jc3NkAgsPFgIfAQUpL3NpdGVfYXNzZXRzL3Jlc291cmNlcy9jc3Mvc2NyZWVuLjMyMC5jc3NkAg0PFgIfAQUpL3NpdGVfYXNzZXRzL3Jlc291cmNlcy9jc3Mvc2NyZWVuLjk3OS5jc3NkAg4PFgIfAQUqL3NpdGVfYXNzZXRzL3Jlc291cmNlcy9jc3Mvc2NyZWVuLjEyMDAuY3NzZAIPDxYCHwEFJC9zaXRlX2Fzc2V0cy9yZXNvdXJjZXMvY3NzL3ByaW50LmNzc2QCEA8WAh8BBScvc2l0ZV9hc3NldHMvcmVzb3VyY2VzL2Nzcy9uZXdzdHlsZS5jc3NkAhEPFgIfAQUoL3NpdGVfYXNzZXRzL3Jlc291cmNlcy9jc3Mvc3Vic2NyaWJlLmNzc2QCEg8WAh8BBSwvc2l0ZV9hc3NldHMvcmVzb3VyY2VzL2Nzcy9tYWduaWZpY3BvcHVwLmNzc2QCFA8WAh8BBSEvc2l0ZV9hc3NldHMvcmVzb3VyY2VzL2Nzcy9pZS5jc3NkAhYPFgIfAQUxLy9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PU9wZW4rU2FuczpMaWdodGQCFw8WAh8BBTovL2Nkbi5kYXRhdGFibGVzLm5ldC8xLjEwLjE1L2Nzcy9qcXVlcnkuZGF0YVRhYmxlcy5taW4uY3NzZAIYDxYCHwEFTmh0dHBzOi8vY2RuanMuY2xvdWRmbGFyZS5jb20vYWpheC9saWJzL2ZvbnQtYXdlc29tZS80LjcuMC9jc3MvZm9udC1hd2Vzb21lLmNzc2QCJA8WAh8BBScvc2l0ZV9hc3NldHMvcmVzb3VyY2VzL2Nzcy9ub3NjcmlwdC5jc3NkAgMPFgIeBWNsYXNzBSl0eXBlLWZyYW1lY2FkLWhvbWUgdGVtcGxhdGUtZnJhbWVjYWQuaG9tZRYCAgEPZBYSAgIPZBYEAgEPFgIeC18hSXRlbUNvdW50AgQWCGYPZBYCZg8VBAVhYm91dAAJL0Fib3V0LVVzCEFib3V0IFVzZAIBD2QWAmYPFQQHY29udGFjdAALL0NvbnRhY3QtVXMKQ29udGFjdCBVc2QCAg9kFgJmDxUEB3N1cHBvcnQACC9TdXBwb3J0B1N1cHBvcnRkAgMPZBYCZg8VBAdjYXJlZXJzAA4vSm9iLVZhY2FuY2llcwdDYXJlZXJzZAIHDxBkEBUKCk5aL1BhY2lmaWMJQXVzdHJhbGlhD0FtZXJpY2EgLSBOb3J0aBFBbWVyaWNhIC0gQ2VudHJhbA9BbWVyaWNhIC0gU291dGgGRXVyb3BlEU1pZGRsZSBFYXN0L0luZGlhBEFzaWERQWZyaWNhIC0gTm9ydGhlcm4RQWZyaWNhIC0gU291dGhlcm4VCgpOZXdaZWFsYW5kCUF1c3RyYWxpYQxOb3J0aEFtZXJpY2EOQ2VudHJhbEFtZXJpY2EMU291dGhBbWVyaWNhDVdlc3Rlcm5FdXJvcGUKTWlkZGxlRWFzdARBc2lhDk5vcnRoZXJuQWZyaWNhDlNvdXRoZXJuQWZyaWNhFCsDCmdnZ2dnZ2dnZ2dkZAIDD2QWAmYPFgIfAwIEFghmD2QWAmYPFQMUL1RoZS1GcmFtZWNhZC1TeXN0ZW0AE1RoZSBGUkFNRUNBRCBTeXN0ZW1kAgEPZBYCZg8VAxIvUHJvZHVjdHMtU2VydmljZXMAE1Byb2R1Y3RzICYgU2VydmljZXNkAgIPZBYCZg8VAw0vYXBwbGljYXRpb25zABVCdWlsZGluZyBBcHBsaWNhdGlvbnNkAgMPZBYCZg8VAxEvRlJBTUVDQUQtQ29ubmVjdAAQRlJBTUVDQUQgQ29ubmVjdGQCBg9kFgRmD2QWAmYPZBYCAgEPFgIfAwIEFghmD2QWAmYPFQeDAWh0dHBzOi8vYmxvZy5mcmFtZWNhZC5jb20vYmxvZy9nYWluLWdyZWF0ZXItcHJvamVjdC1lZmZpY2llbmN5LXdpdGgtZGV0YWlsZWQtcHJvZHVjdGlvbi1yZXBvcnRpbmctZnJvbS1teWZyYW1lY2FkLWFuZC1teS1wcm9kdWN0aW9uL2h0dHBzOi8vY29udGVudC5mcmFtZWNhZC5jb20vaHViZnMvRkNBRCUyMDEucG5nZEdhaW4gR3JlYXRlciBQcm9qZWN0IEVmZmljaWVuY3kgd2l0aCBEZXRhaWxlZCBQcm9kdWN0aW9uIFJlcG9ydGluZyBmcm9tIE15RlJBTUVDQUQgYW5kIE15IFByb2R1Y3Rpb26DAWh0dHBzOi8vYmxvZy5mcmFtZWNhZC5jb20vYmxvZy9nYWluLWdyZWF0ZXItcHJvamVjdC1lZmZpY2llbmN5LXdpdGgtZGV0YWlsZWQtcHJvZHVjdGlvbi1yZXBvcnRpbmctZnJvbS1teWZyYW1lY2FkLWFuZC1teS1wcm9kdWN0aW9uZEdhaW4gR3JlYXRlciBQcm9qZWN0IEVmZmljaWVuY3kgd2l0aCBEZXRhaWxlZCBQcm9kdWN0aW9uIFJlcG9ydGluZyBmcm9tIE15RlJBTUVDQUQgYW5kIE15IFByb2R1Y3Rpb24NSnVseSAxMywgMjAxOJkBQXZhaWxhYmxlIGdsb2JhbGx5IGFuZCBiYWNrZWQgYnkgYSBkZWRpY2F0ZWQgdGVhbSBvZiBpbmR1c3RyeSBleHBlcnRzLCBNeSBQcm9kdWN0aW9uIGlzIHRoZSBvbmx5IGNsb3VkLWJhc2VkIHBvcnRhbCB0aGF0IHN1cHBvcnRzIHRoZSBwcm9kdWN0aW9uIG9mIENvLi4uZAIBD2QWAmYPFQdCaHR0cHM6Ly9ibG9nLmZyYW1lY2FkLmNvbS9ibG9nL2ZhcS1hbGwteW91ci1jZnMtcXVlc3Rpb25zLWFuc3dlcmVkP2h0dHBzOi8vY29udGVudC5mcmFtZWNhZC5jb20vaHViZnMvMzIyMDkzNDg5NzJfODA2ODBlODk4NF96LmpwZyRGQVE6IEFsbCB5b3VyIENGUyBxdWVzdGlvbnMgYW5zd2VyZWRCaHR0cHM6Ly9ibG9nLmZyYW1lY2FkLmNvbS9ibG9nL2ZhcS1hbGwteW91ci1jZnMtcXVlc3Rpb25zLWFuc3dlcmVkJEZBUTogQWxsIHlvdXIgQ0ZTIHF1ZXN0aW9ucyBhbnN3ZXJlZA1KdWx5IDAyLCAyMDE4mQFIb3cgaXMgc3RlZWwgZW5lcmd5IGVmZmljaWVudD8gSXMgQ29sZCBGb3JtZWQgU3RlZWwgYSByb2J1c3QgY29uc3RydWN0aW9uIG1hdGVyaWFsPyBEb2VzIGl0IGxpbWl0IGhvbWUgZGVzaWduIGNhcGFiaWxpdGllcz8gV2lsbCBhIHN0ZWVsIGZyYW1lZCBob21lIGwuLi5kAgIPZBYCZg8VBzVodHRwczovL2Jsb2cuZnJhbWVjYWQuY29tL2Jsb2cvZXNidWlsZC10cmFkZXNob3ctMjAxODRodHRwczovL2NvbnRlbnQuZnJhbWVjYWQuY29tL2h1YmZzL0Jhbm5lciUyMGJsb2cucG5nQUpvaW4gRlJBTUVDQUQgYXQgRVNidWlsZCB0cmFkZXNob3cgaW4gU2hhbmdoYWksIDE4IC0gMjAgSnVseSAyMDE4NWh0dHBzOi8vYmxvZy5mcmFtZWNhZC5jb20vYmxvZy9lc2J1aWxkLXRyYWRlc2hvdy0yMDE4QUpvaW4gRlJBTUVDQUQgYXQgRVNidWlsZCB0cmFkZXNob3cgaW4gU2hhbmdoYWksIDE4IC0gMjAgSnVseSAyMDE4DUp1bHkgMDEsIDIwMTiZAVdlIGFyZSB0aHJpbGxlZCB0byBpbnZpdGUgeW91IGF0IEVTYnVpbGQgdHJhZGVzaG93YXRvdXIgc3RhbmQgMjE3OSAmYW1wOyAyMTgwIGluIEhhbGwgRTIsIGZyb20gMTh0aCB0byAyMHRoIG9mIEp1bHkgYXRTaGFuZ2hhaSBOZXcgSW50ZXJuYXRpb25hbCBFeHBvIC4uLmQCAw9kFgJmDxUHZGh0dHBzOi8vYmxvZy5mcmFtZWNhZC5jb20vYmxvZy9vbi1vci1vZmZzaXRlLWZyYW1lY2FkLXN1cHBvcnRzLXlvdS1hY3Jvc3MtYWxsLXN0YWdlcy1vZi1jb25zdHJ1Y3Rpb25JaHR0cHM6Ly9jb250ZW50LmZyYW1lY2FkLmNvbS9odWJmcy8zNTgyNTA0MDQ1Ml8yMmIzMjMwMTE3X2slMjAlMjgxJTI5LmpwZ0RIb3cgdG8gbWF4aW1pc2UgcHJvZHVjdGl2aXR5IHVzaW5nIHRoZSBGUkFNRUNBRCBDb25zdHJ1Y3Rpb24gcHJvY2Vzc2RodHRwczovL2Jsb2cuZnJhbWVjYWQuY29tL2Jsb2cvb24tb3Itb2Zmc2l0ZS1mcmFtZWNhZC1zdXBwb3J0cy15b3UtYWNyb3NzLWFsbC1zdGFnZXMtb2YtY29uc3RydWN0aW9uREhvdyB0byBtYXhpbWlzZSBwcm9kdWN0aXZpdHkgdXNpbmcgdGhlIEZSQU1FQ0FEIENvbnN0cnVjdGlvbiBwcm9jZXNzDUp1bmUgMTQsIDIwMTiZAVNwZWVkLCBwcmVjaXNpb24sIHN0cmVuZ3RoLCBkdXJhYmlsaXR5IGFuZCBzdXN0YWluYWJpbGl0eSAtIHRoZXNlIGFyZSBmaXZlIHdvcmRzIHVzZWQgdG8gZGVzY3JpYmUgQ29sZCBGb3JtZWQgU3RlZWwgY29uc3RydWN0aW9uLCBidXQgYWNoaWV2aW5nIHRoZSBmYS4uLmQCAQ9kFgICAQ8PFgIeB1Zpc2libGVoZGQCBw9kFgRmD2QWAmYPDxYEHghDc3NDbGFzcwUPUGFnZVBsYWNlaG9sZGVyHgRfIVNCAgJkZAIBD2QWAgIBD2QWAmYPFgQfAwIEHwRnFggCAQ9kFgRmDxUCHS9jYXNlLXN0dWRpZXMvRG91Z2xhc3MtQ29sb255Uy9zaXRlX2Fzc2V0cy9tZWRpYS9mcmFtZWNhZC9pbWFnZXMvZGNyZXNpemUuanBnP3Y9MTYwMjIwMTcwMDU1NDImd2lkdGg9NTQyJmV4dD0uanBnZAIBDxUBPEEgNy0gc3RvcnkgbXVsdGlmYW1pbHkgYnVpbGRpbmcgY29tcGxldGVkIGluIDEvNCBvZiB0aGUgdGltZWQCAg9kFgRmDxUCFy9jYXNlLXN0dWRpZXMvU0JTLUdyb3VwVC9zaXRlX2Fzc2V0cy9tZWRpYS9mcmFtZWNhZC9pbWFnZXMvY2FzZSBzdHVkaWVzL2xlb3BvbGQtMy01NDEuanBnP3dpZHRoPTU0MiZleHQ9LmpwZ2QCAQ8VATlMaWdodCBHYXVnZSBTdGVlbCAtIFNCUyBHcm91cCdzIHRvcCBjaG9pY2UgZm9yIHRvcCBsZXZlbHNkAgMPZBYEZg8VAhovY2FzZS1zdHVkaWVzL0ludGVsbGlzdGVlbJEBL3NpdGVfYXNzZXRzL21lZGlhL2ZyYW1lY2FkL2ltYWdlcy9jYXNlIHN0dWRpZXMvaW50ZWxsaXN0ZWVsL2xpZ2h0LWdhdWdlLXN0ZWVsLTMtbGV2ZWxzLWFzc2lzdGVkLWxpdmluZy1idWlsZGluZy1zYWdlLXBhcmsuanBnP3dpZHRoPTU0MiZleHQ9LmpwZ2QCAQ8VAT1JbnRlbGxpc3RlZWzigJlzIG9uc2l0ZSBjb25zdHJ1Y3Rpb24gbWV0aG9kb2xvZ3kgZGVsaXZlcnMgLi4uZAIED2QWBGYPFQJAL2Nhc2Utc3R1ZGllcy9Ib3ctRlJBTUVDQUQtc29mdHdhcmUtaW50ZWdyYXRlcy13aXRoLTNELXNjYW5uLSgxKWovc2l0ZV9hc3NldHMvbWVkaWEvZnJhbWVjYWQvaW1hZ2VzL2Nhc2Ugc3R1ZGllcy9pbnRlcm5hbCB3YWxscy9pbnRlcm5hbC13YWxscy1zbWFsbC5wbmc/d2lkdGg9NTQyJmV4dD0ucG5nZAIBDxUBOUhvdyBGUkFNRUNBRCBzb2Z0d2FyZSBpbnRlZ3JhdGVzIHdpdGggM0Qgc2Nhbm5pbmcgZm9yIC4uLmQCCA9kFgICAQ9kFgJmDxYCHwMCBBYIZg9kFgRmDxUBEVBsYW5uaW5nICYgRGVzaWduZAIBDxYCHwMCBRYKZg9kFgJmDxUDBG9wZW41L1Byb2R1Y3RzLVNlcnZpY2VzL1BsYW5uaW5nLURlc2lnbi9EZXNpZ24tQ29sbGVjdGlvbnMcQnVpbGRpbmcgRGVzaWduIENvbGxlY3Rpb25zIGQCAQ9kFgJmDxUDBG9wZW4yL1Byb2R1Y3RzLVNlcnZpY2VzL1BsYW5uaW5nLURlc2lnbi9EZXNpZ24tU2VydmljZXMYQnVpbGRpbmcgRGVzaWduIFNlcnZpY2VzZAICD2QWAmYPFQMEb3BlbjwvUHJvZHVjdHMtU2VydmljZXMvUGxhbm5pbmctRGVzaWduL0Rlc2lnbi1EZXRhaWxpbmctU29mdHdhcmUkQnVpbGRpbmcgRGVzaWduICYgRGV0YWlsaW5nIFNvZnR3YXJlZAIDD2QWAmYPFQMEb3BlbjUvUHJvZHVjdHMtU2VydmljZXMvUGxhbm5pbmctRGVzaWduL0Rlc2lnbi1Db25zdWx0YW5jeRtCdWlsZGluZyBEZXNpZ24gQ29uc3VsdGFuY3lkAgQPZBYCZg8VAwRvcGVuMi9Qcm9kdWN0cy1TZXJ2aWNlcy9QbGFubmluZy1EZXNpZ24vRGVzaWduLVRyYWluaW5nGEJ1aWxkaW5nIERlc2lnbiBUcmFpbmluZ2QCAQ9kFgRmDxUBDENvbnN0cnVjdGlvbmQCAQ8WAh8DAgUWCmYPZBYCZg8VAwRvcGVuOC9Qcm9kdWN0cy1TZXJ2aWNlcy9Db25zdHJ1Y3Rpb24vQ29uc3RydWN0aW9uLU1ldGhvZG9sb2d5GENvbnN0cnVjdGlvbiBNZXRob2RvbG9neWQCAQ9kFgJmDxUDBG9wZW4uL1Byb2R1Y3RzLVNlcnZpY2VzL0NvbnN0cnVjdGlvbi9TdWItQXNzZW1ibGllcw5TdWIgQXNzZW1ibGllc2QCAg9kFgJmDxUDBG9wZW41L1Byb2R1Y3RzLVNlcnZpY2VzL0NvbnN0cnVjdGlvbi9NYW51ZmFjdHVyaW5nLVN5c3RlbXMVTWFudWZhY3R1cmluZyBTeXN0ZW1zZAIDD2QWAmYPFQMEb3BlbisvUHJvZHVjdHMtU2VydmljZXMvQ29uc3RydWN0aW9uL0NvbnN1bHRhbmN5GENvbnN0cnVjdGlvbiBDb25zdWx0YW5jeWQCBA9kFgJmDxUDBG9wZW4oL1Byb2R1Y3RzLVNlcnZpY2VzL0NvbnN0cnVjdGlvbi9UcmFpbmluZwhUcmFpbmluZ2QCAg9kFgRmDxUBEkJ1aWxkaW5nIE1hdGVyaWFsc2QCAQ8WAh8DAggWEGYPZBYCZg8VAwRvcGVuNS9Qcm9kdWN0cy1TZXJ2aWNlcy9CdWlsZGluZy1NYXRlcmlhbHMvQ2xhZGRpbmctTGluaW5nE0NsYWRkaW5nIGFuZCBMaW5pbmdkAgEPZBYCZg8VAwRvcGVuMC9Qcm9kdWN0cy1TZXJ2aWNlcy9CdWlsZGluZy1NYXRlcmlhbHMvQ29ubmVjdG9ycwpDb25uZWN0b3JzZAICD2QWAmYPFQMEb3Blbi8vUHJvZHVjdHMtU2VydmljZXMvQnVpbGRpbmctTWF0ZXJpYWxzL0Zhc3RlbmVycwlGYXN0ZW5lcnNkAgMPZBYCZg8VAwRvcGVuLS9Qcm9kdWN0cy1TZXJ2aWNlcy9CdWlsZGluZy1NYXRlcmlhbHMvUm9vZmluZwdSb29maW5nZAIED2QWAmYPFQMEb3BlbkEvUHJvZHVjdHMtU2VydmljZXMvQnVpbGRpbmctTWF0ZXJpYWxzL0luc3VsYXRpb24sLVdyYXBzLWFuZC1Gb2lscxtJbnN1bGF0aW9uLCBXcmFwcyBhbmQgRm9pbHNkAgUPZBYCZg8VAwRvcGVuLi9Qcm9kdWN0cy1TZXJ2aWNlcy9CdWlsZGluZy1NYXRlcmlhbHMvRmxvb3JpbmcIRmxvb3JpbmdkAgYPZBYCZg8VAwRvcGVuKy9Qcm9kdWN0cy1TZXJ2aWNlcy9CdWlsZGluZy1NYXRlcmlhbHMvU3RlZWwFU3RlZWxkAgcPZBYCZg8VAwRvcGVuKy9Qcm9kdWN0cy1TZXJ2aWNlcy9CdWlsZGluZy1NYXRlcmlhbHMvVG9vbHMFVG9vbHNkAgMPZBYEZg8VAQdTdXBwb3J0ZAIBDxYCHwMCBxYOZg9kFgJmDxUDBG9wZW4lL1Byb2R1Y3RzLVNlcnZpY2VzL1N1cHBvcnQvTXlGUkFNRUNBRBlNeUZSQU1FQ0FEIEN1c3RvbWVyUG9ydGFsZAIBD2QWAmYPFQMEb3Blbi8vUHJvZHVjdHMtU2VydmljZXMvU3VwcG9ydC9nbG9iYWwtY3VzdG9tZXItY2FyZRRHbG9iYWwgQ3VzdG9tZXIgQ2FyZWQCAg9kFgJmDxUDBG9wZW4sL1Byb2R1Y3RzLVNlcnZpY2VzL1N1cHBvcnQvVGVjaG5pY2FsLVN1cHBvcnQRVGVjaG5pY2FsIFN1cHBvcnRkAgMPZBYCZg8VAwRvcGVuLi9Qcm9kdWN0cy1TZXJ2aWNlcy9TdXBwb3J0L0VuZ2luZWVyaW5nLXN1cHBvcnQTRW5naW5lZXJpbmcgU3VwcG9ydGQCBA9kFgJmDxUDBG9wZW4rL1Byb2R1Y3RzLVNlcnZpY2VzL1N1cHBvcnQvU29mdHdhcmUtc3VwcG9ydBBTb2Z0d2FyZSBTdXBwb3J0ZAIFD2QWAmYPFQMEb3BlbikvUHJvZHVjdHMtU2VydmljZXMvU3VwcG9ydC9EZXNpZ24tU3VwcG9ydA5EZXNpZ24gU3VwcG9ydGQCBg9kFgJmDxUDBG9wZW4vL1Byb2R1Y3RzLVNlcnZpY2VzL1N1cHBvcnQvQ29uc3RydWN0aW9uLVN1cHBvcnQtQ29uc3RydWN0aW9uIFN1cHBvcnQgLSBCZXN0IFByYWN0aWNlIFRyYWluaW5nZAIJD2QWAmYPDxYEHwUFD1BhZ2VQbGFjZWhvbGRlch8GAgJkFgJmD2QWAgIBD2QWAmYPZBYCAgEPZBYCZg9kFgRmD2QWAmYPZBYEAgoPFgIfAwLaARa0A2YPZBYCZg8VAwtBZmdoYW5pc3RhbgALQWZnaGFuaXN0YW5kAgEPZBYCZg8VAwdBbGJhbmlhAAdBbGJhbmlhZAICD2QWAmYPFQMHQWxnZXJpYQAHQWxnZXJpYWQCAw9kFgJmDxUDDkFtZXJpY2FuIFNhbW9hAA5BbWVyaWNhbiBTYW1vYWQCBA9kFgJmDxUDB0FuZG9ycmEAB0FuZG9ycmFkAgUPZBYCZg8VAwZBbmdvbGEABkFuZ29sYWQCBg9kFgJmDxUDE0FudGlndWEgYW5kIEJhcmJ1ZGEAE0FudGlndWEgYW5kIEJhcmJ1ZGFkAgcPZBYCZg8VAwlBcmdlbnRpbmEACUFyZ2VudGluYWQCCA9kFgJmDxUDB0FybWVuaWEAB0FybWVuaWFkAgkPZBYCZg8VAwVBcnViYQAFQXJ1YmFkAgoPZBYCZg8VAwlBdXN0cmFsaWEACUF1c3RyYWxpYWQCCw9kFgJmDxUDB0F1c3RyaWEAB0F1c3RyaWFkAgwPZBYCZg8VAwpBemVyYmFpamFuAApBemVyYmFpamFuZAIND2QWAmYPFQMHQmFoYW1hcwAHQmFoYW1hc2QCDg9kFgJmDxUDB0JhaHJhaW4AB0JhaHJhaW5kAg8PZBYCZg8VAwpCYW5nbGFkZXNoAApCYW5nbGFkZXNoZAIQD2QWAmYPFQMIQmFyYmFkb3MACEJhcmJhZG9zZAIRD2QWAmYPFQMHQmVsYXJ1cwAHQmVsYXJ1c2QCEg9kFgJmDxUDB0JlbGdpdW0AB0JlbGdpdW1kAhMPZBYCZg8VAwZCZWxpemUABkJlbGl6ZWQCFA9kFgJmDxUDBUJlbmluAAVCZW5pbmQCFQ9kFgJmDxUDBkJodXRhbgAGQmh1dGFuZAIWD2QWAmYPFQMHQm9saXZpYQAHQm9saXZpYWQCFw9kFgJmDxUDF0Jvc25pYSBhbmQgSGVyemVnb3ZpbmlhABdCb3NuaWEgYW5kIEhlcnplZ292aW5pYWQCGA9kFgJmDxUDCEJvdHN3YW5hAAhCb3Rzd2FuYWQCGQ9kFgJmDxUDBkJyYXppbAAGQnJhemlsZAIaD2QWAmYPFQMWQnJpdGlzaCBWaXJnaW4gSXNsYW5kcwAWQnJpdGlzaCBWaXJnaW4gSXNsYW5kc2QCGw9kFgJmDxUDEUJydW5laSBEYXJ1c3NhbGFtABFCcnVuZWkgRGFydXNzYWxhbWQCHA9kFgJmDxUDCEJ1bGdhcmlhAAhCdWxnYXJpYWQCHQ9kFgJmDxUDDEJ1cmtpbmEgRmFzbwAMQnVya2luYSBGYXNvZAIeD2QWAmYPFQMHQnVydW5kaQAHQnVydW5kaWQCHw9kFgJmDxUDCENhbWJvZGlhAAhDYW1ib2RpYWQCIA9kFgJmDxUDCENhbWVyb29uAAhDYW1lcm9vbmQCIQ9kFgJmDxUDBkNhbmFkYQAGQ2FuYWRhZAIiD2QWAmYPFQMOQ2F5bWFuIElzbGFuZHMADkNheW1hbiBJc2xhbmRzZAIjD2QWAmYPFQMYQ2VudHJhbCBBZnJpY2FuIFJlcHVibGljABhDZW50cmFsIEFmcmljYW4gUmVwdWJsaWNkAiQPZBYCZg8VAwRDaGFkAARDaGFkZAIlD2QWAmYPFQMFQ2hpbGUABUNoaWxlZAImD2QWAmYPFQMFQ2hpbmEABUNoaW5hZAInD2QWAmYPFQMIQ29sb21iaWEACENvbG9tYmlhZAIoD2QWAmYPFQMFQ29uZ28ABUNvbmdvZAIpD2QWAmYPFQMMQ29vayBJc2xhbmRzAAxDb29rIElzbGFuZHNkAioPZBYCZg8VAwpDb3N0YSBSaWNhAApDb3N0YSBSaWNhZAIrD2QWAmYPFQMHQ3JvYXRpYQAHQ3JvYXRpYWQCLA9kFgJmDxUDBEN1YmEABEN1YmFkAi0PZBYCZg8VAwhDdXJhw6dhbwAIQ3VyYcOnYW9kAi4PZBYCZg8VAwZDeXBydXMABkN5cHJ1c2QCLw9kFgJmDxUDDkN6ZWNoIFJlcHVibGljAA5DemVjaCBSZXB1YmxpY2QCMA9kFgJmDxUDIERlbW9jcmF0aWMgUmVwdWJsaWMgb2YgdGhlIENvbmdvACBEZW1vY3JhdGljIFJlcHVibGljIG9mIHRoZSBDb25nb2QCMQ9kFgJmDxUDB0Rlbm1hcmsAB0Rlbm1hcmtkAjIPZBYCZg8VAwhEamlib3V0aQAIRGppYm91dGlkAjMPZBYCZg8VAwhEb21pbmljYQAIRG9taW5pY2FkAjQPZBYCZg8VAxJEb21pbmljYW4gUmVwdWJsaWMAEkRvbWluaWNhbiBSZXB1YmxpY2QCNQ9kFgJmDxUDCkVhc3QgVGltb3IACkVhc3QgVGltb3JkAjYPZBYCZg8VAwdFY3VhZG9yAAdFY3VhZG9yZAI3D2QWAmYPFQMFRWd5cHQABUVneXB0ZAI4D2QWAmYPFQMLRWwgU2FsdmFkb3IAC0VsIFNhbHZhZG9yZAI5D2QWAmYPFQMRRXF1YXRvcmlhbCBHdWluZWEAEUVxdWF0b3JpYWwgR3VpbmVhZAI6D2QWAmYPFQMHRXJpdHJlYQAHRXJpdHJlYWQCOw9kFgJmDxUDB0VzdG9uaWEAB0VzdG9uaWFkAjwPZBYCZg8VAwhFdGhpb3BpYQAIRXRoaW9waWFkAj0PZBYCZg8VAxBGYWxrbGFuZCBJc2xhbmRzABBGYWxrbGFuZCBJc2xhbmRzZAI+D2QWAmYPFQMERmlqaQAERmlqaWQCPw9kFgJmDxUDB0ZpbmxhbmQAB0ZpbmxhbmRkAkAPZBYCZg8VAwZGcmFuY2UABkZyYW5jZWQCQQ9kFgJmDxUDDUZyZW5jaCBHdWlhbmEADUZyZW5jaCBHdWlhbmFkAkIPZBYCZg8VAxBGcmVuY2ggUG9seW5lc2lhABBGcmVuY2ggUG9seW5lc2lhZAJDD2QWAmYPFQMFR2Fib24ABUdhYm9uZAJED2QWAmYPFQMHR2VvcmdpYQAHR2VvcmdpYWQCRQ9kFgJmDxUDB0dlcm1hbnkAB0dlcm1hbnlkAkYPZBYCZg8VAwVHaGFuYQAFR2hhbmFkAkcPZBYCZg8VAwZHcmVlY2UABkdyZWVjZWQCSA9kFgJmDxUDB0dyZW5hZGEAB0dyZW5hZGFkAkkPZBYCZg8VAwpHdWFkZWxvdXBlAApHdWFkZWxvdXBlZAJKD2QWAmYPFQMER3VhbQAER3VhbWQCSw9kFgJmDxUDCUd1YXRlbWFsYQAJR3VhdGVtYWxhZAJMD2QWAmYPFQMGR3VpbmVhAAZHdWluZWFkAk0PZBYCZg8VAwZHdXlhbmEABkd1eWFuYWQCTg9kFgJmDxUDBUhhaXRpAAVIYWl0aWQCTw9kFgJmDxUDCEhvbmR1cmFzAAhIb25kdXJhc2QCUA9kFgJmDxUDCUhvbmcgS29uZwAJSG9uZyBLb25nZAJRD2QWAmYPFQMHSHVuZ2FyeQAHSHVuZ2FyeWQCUg9kFgJmDxUDB0ljZWxhbmQAB0ljZWxhbmRkAlMPZBYCZg8VAwVJbmRpYQAFSW5kaWFkAlQPZBYCZg8VAwlJbmRvbmVzaWEACUluZG9uZXNpYWQCVQ9kFgJmDxUDBElyYW4ABElyYW5kAlYPZBYCZg8VAwRJcmFxAARJcmFxZAJXD2QWAmYPFQMHSXJlbGFuZAAHSXJlbGFuZGQCWA9kFgJmDxUDBklzcmFlbAAGSXNyYWVsZAJZD2QWAmYPFQMFSXRhbHkABUl0YWx5ZAJaD2QWAmYPFQMLSXZvcnkgQ29hc3QAC0l2b3J5IENvYXN0ZAJbD2QWAmYPFQMHSmFtYWljYQAHSmFtYWljYWQCXA9kFgJmDxUDBUphcGFuAAVKYXBhbmQCXQ9kFgJmDxUDBkpvcmRhbgAGSm9yZGFuZAJeD2QWAmYPFQMKS2F6YWtoc3RhbgAKS2F6YWtoc3RhbmQCXw9kFgJmDxUDBUtlbnlhAAVLZW55YWQCYA9kFgJmDxUDCEtpcmliYXRpAAhLaXJpYmF0aWQCYQ9kFgJmDxUDBktvc292bwAGS29zb3ZvZAJiD2QWAmYPFQMGS3V3YWl0AAZLdXdhaXRkAmMPZBYCZg8VAwlLeXJneXp0YW4ACUt5cmd5enRhbmQCZA9kFgJmDxUDBExhb3MABExhb3NkAmUPZBYCZg8VAwZMYXR2aWEABkxhdHZpYWQCZg9kFgJmDxUDB0xlYmFub24AB0xlYmFub25kAmcPZBYCZg8VAwdMZXNvdGhvAAdMZXNvdGhvZAJoD2QWAmYPFQMHTGliZXJpYQAHTGliZXJpYWQCaQ9kFgJmDxUDBUxpYnlhAAVMaWJ5YWQCag9kFgJmDxUDDUxpZWNodGVuc3RlaW4ADUxpZWNodGVuc3RlaW5kAmsPZBYCZg8VAwlMaXRodWFuaWEACUxpdGh1YW5pYWQCbA9kFgJmDxUDCkx1eGVtYm91cmcACkx1eGVtYm91cmdkAm0PZBYCZg8VAwVNYWNhdQAFTWFjYXVkAm4PZBYCZg8VAwlNYWNlZG9uaWEACU1hY2Vkb25pYWQCbw9kFgJmDxUDCk1hZGFnYXNjYXIACk1hZGFnYXNjYXJkAnAPZBYCZg8VAwZNYWxhd2kABk1hbGF3aWQCcQ9kFgJmDxUDCE1hbGF5c2lhAAhNYWxheXNpYWQCcg9kFgJmDxUDCE1hbGRpdmVzAAhNYWxkaXZlc2QCcw9kFgJmDxUDBE1hbGkABE1hbGlkAnQPZBYCZg8VAwVNYWx0YQAFTWFsdGFkAnUPZBYCZg8VAxBNYXJzaGFsbCBJc2xhbmRzABBNYXJzaGFsbCBJc2xhbmRzZAJ2D2QWAmYPFQMKTWFydGluaXF1ZQAKTWFydGluaXF1ZWQCdw9kFgJmDxUDCk1hdXJpdGFuaWEACk1hdXJpdGFuaWFkAngPZBYCZg8VAwlNYXVyaXRpdXMACU1hdXJpdGl1c2QCeQ9kFgJmDxUDB01heW90dGUAB01heW90dGVkAnoPZBYCZg8VAwZNZXhpY28ABk1leGljb2QCew9kFgJmDxUDCk1pY3JvbmVzaWEACk1pY3JvbmVzaWFkAnwPZBYCZg8VAwdNb2xkb3ZhAAdNb2xkb3ZhZAJ9D2QWAmYPFQMGTW9uYWNvAAZNb25hY29kAn4PZBYCZg8VAwhNb25nb2xpYQAITW9uZ29saWFkAn8PZBYCZg8VAwpNb250ZW5lZ3JvAApNb250ZW5lZ3JvZAKAAQ9kFgJmDxUDCk1vbnRzZXJyYXQACk1vbnRzZXJyYXRkAoEBD2QWAmYPFQMHTW9yb2NjbwAHTW9yb2Njb2QCggEPZBYCZg8VAwpNb3phbWJpcXVlAApNb3phbWJpcXVlZAKDAQ9kFgJmDxUDB015YW5tYXIAB015YW5tYXJkAoQBD2QWAmYPFQMHTmFtaWJpYQAHTmFtaWJpYWQChQEPZBYCZg8VAwVOYXVydQAFTmF1cnVkAoYBD2QWAmYPFQMFTmVwYWwABU5lcGFsZAKHAQ9kFgJmDxUDC05ldGhlcmxhbmRzAAtOZXRoZXJsYW5kc2QCiAEPZBYCZg8VAw1OZXcgQ2FsZWRvbmlhAA1OZXcgQ2FsZWRvbmlhZAKJAQ9kFgJmDxUDC05ldyBaZWFsYW5kAAtOZXcgWmVhbGFuZGQCigEPZBYCZg8VAwlOaWNhcmFndWEACU5pY2FyYWd1YWQCiwEPZBYCZg8VAwVOaWdlcgAFTmlnZXJkAowBD2QWAmYPFQMHTmlnZXJpYQAHTmlnZXJpYWQCjQEPZBYCZg8VAwROaXVlAAROaXVlZAKOAQ9kFgJmDxUDGE5vcnRoZXJuIE1hcmlhbmEgSXNsYW5kcwAYTm9ydGhlcm4gTWFyaWFuYSBJc2xhbmRzZAKPAQ9kFgJmDxUDBk5vcndheQAGTm9yd2F5ZAKQAQ9kFgJmDxUDBE9tYW4ABE9tYW5kApEBD2QWAmYPFQMIUGFraXN0YW4ACFBha2lzdGFuZAKSAQ9kFgJmDxUDBVBhbGF1AAVQYWxhdWQCkwEPZBYCZg8VAwlQYWxlc3RpbmUACVBhbGVzdGluZWQClAEPZBYCZg8VAwZQYW5hbWEABlBhbmFtYWQClQEPZBYCZg8VAxBQYXB1YSBOZXcgR3VpbmVhABBQYXB1YSBOZXcgR3VpbmVhZAKWAQ9kFgJmDxUDCFBhcmFndWF5AAhQYXJhZ3VheWQClwEPZBYCZg8VAwRQZXJ1AARQZXJ1ZAKYAQ9kFgJmDxUDC1BoaWxpcHBpbmVzAAtQaGlsaXBwaW5lc2QCmQEPZBYCZg8VAxBQaXRjYWlybiBJc2xhbmRzABBQaXRjYWlybiBJc2xhbmRzZAKaAQ9kFgJmDxUDBlBvbGFuZAAGUG9sYW5kZAKbAQ9kFgJmDxUDCFBvcnR1Z2FsAAhQb3J0dWdhbGQCnAEPZBYCZg8VAwtQdWVydG8gUmljbwALUHVlcnRvIFJpY29kAp0BD2QWAmYPFQMFUWF0YXIABVFhdGFyZAKeAQ9kFgJmDxUDB1JldW5pb24AB1JldW5pb25kAp8BD2QWAmYPFQMHUm9tYW5pYQAHUm9tYW5pYWQCoAEPZBYCZg8VAxJSdXNzaWFuIEZlZGVyYXRpb24AElJ1c3NpYW4gRmVkZXJhdGlvbmQCoQEPZBYCZg8VAwZSd2FuZGEABlJ3YW5kYWQCogEPZBYCZg8VAwxTYWludCBIZWxlbmEADFNhaW50IEhlbGVuYWQCowEPZBYCZg8VAxVTYWludCBLaXR0cyBhbmQgTmV2aXMAFVNhaW50IEtpdHRzIGFuZCBOZXZpc2QCpAEPZBYCZg8VAwtTYWludCBMdWNpYQALU2FpbnQgTHVjaWFkAqUBD2QWAmYPFQMMU2FpbnQgTWFydGluAAxTYWludCBNYXJ0aW5kAqYBD2QWAmYPFQMgU2FpbnQgVmluY2VudCBhbmQgdGhlIEdyZW5hZGluZXMAIFNhaW50IFZpbmNlbnQgYW5kIHRoZSBHcmVuYWRpbmVzZAKnAQ9kFgJmDxUDBVNhbW9hAAVTYW1vYWQCqAEPZBYCZg8VAwpTYW4gTWFyaW5vAApTYW4gTWFyaW5vZAKpAQ9kFgJmDxUDDFNhdWRpIEFyYWJpYQAMU2F1ZGkgQXJhYmlhZAKqAQ9kFgJmDxUDB1NlbmVnYWwAB1NlbmVnYWxkAqsBD2QWAmYPFQMGU2VyYmlhAAZTZXJiaWFkAqwBD2QWAmYPFQMKU2V5Y2hlbGxlcwAKU2V5Y2hlbGxlc2QCrQEPZBYCZg8VAwxTaWVycmEgTGVvbmUADFNpZXJyYSBMZW9uZWQCrgEPZBYCZg8VAwlTaW5nYXBvcmUACVNpbmdhcG9yZWQCrwEPZBYCZg8VAwhTbG92YWtpYQAIU2xvdmFraWFkArABD2QWAmYPFQMIU2xvdmVuaWEACFNsb3ZlbmlhZAKxAQ9kFgJmDxUDD1NvbG9tb24gSXNsYW5kcwAPU29sb21vbiBJc2xhbmRzZAKyAQ9kFgJmDxUDB1NvbWFsaWEAB1NvbWFsaWFkArMBD2QWAmYPFQMMU291dGggQWZyaWNhAAxTb3V0aCBBZnJpY2FkArQBD2QWAmYPFQMLU291dGggS29yZWEAC1NvdXRoIEtvcmVhZAK1AQ9kFgJmDxUDC1NvdXRoIFN1ZGFuAAtTb3V0aCBTdWRhbmQCtgEPZBYCZg8VAwVTcGFpbgAFU3BhaW5kArcBD2QWAmYPFQMJU3JpIExhbmthAAlTcmkgTGFua2FkArgBD2QWAmYPFQMFU3VkYW4ABVN1ZGFuZAK5AQ9kFgJmDxUDCFN1cmluYW1lAAhTdXJpbmFtZWQCugEPZBYCZg8VAwlTd2F6aWxhbmQACVN3YXppbGFuZGQCuwEPZBYCZg8VAwZTd2VkZW4ABlN3ZWRlbmQCvAEPZBYCZg8VAwtTd2l0emVybGFuZAALU3dpdHplcmxhbmRkAr0BD2QWAmYPFQMFU3lyaWEABVN5cmlhZAK+AQ9kFgJmDxUDBlRhaXdhbgAGVGFpd2FuZAK/AQ9kFgJmDxUDClRhamlraXN0YW4AClRhamlraXN0YW5kAsABD2QWAmYPFQMIVGFuemFuaWEACFRhbnphbmlhZALBAQ9kFgJmDxUDCFRoYWlsYW5kAAhUaGFpbGFuZGQCwgEPZBYCZg8VAwRUb2dvAARUb2dvZALDAQ9kFgJmDxUDB1Rva2VsYXUAB1Rva2VsYXVkAsQBD2QWAmYPFQMFVG9uZ2EABVRvbmdhZALFAQ9kFgJmDxUDE1RyaW5pZGFkIGFuZCBUb2JhZ28AE1RyaW5pZGFkIGFuZCBUb2JhZ29kAsYBD2QWAmYPFQMHVHVuaXNpYQAHVHVuaXNpYWQCxwEPZBYCZg8VAwZUdXJrZXkABlR1cmtleWQCyAEPZBYCZg8VAwxUdXJrbWVuaXN0YW4ADFR1cmttZW5pc3RhbmQCyQEPZBYCZg8VAxBUdXJrcyBhbmQgQ2FpY29zABBUdXJrcyBhbmQgQ2FpY29zZALKAQ9kFgJmDxUDBlR1dmFsdQAGVHV2YWx1ZALLAQ9kFgJmDxUDBlVnYW5kYQAGVWdhbmRhZALMAQ9kFgJmDxUDB1VrcmFpbmUAB1VrcmFpbmVkAs0BD2QWAmYPFQMUVW5pdGVkIEFyYWIgRW1pcmF0ZXMAFFVuaXRlZCBBcmFiIEVtaXJhdGVzZALOAQ9kFgJmDxUDDlVuaXRlZCBLaW5nZG9tAA5Vbml0ZWQgS2luZ2RvbWQCzwEPZBYCZg8VAxhVbml0ZWQgU3RhdGVzIG9mIEFtZXJpY2EAGFVuaXRlZCBTdGF0ZXMgb2YgQW1lcmljYWQC0AEPZBYCZg8VAxxVbml0ZWQgU3RhdGVzIFZpcmdpbiBJc2xhbmRzABxVbml0ZWQgU3RhdGVzIFZpcmdpbiBJc2xhbmRzZALRAQ9kFgJmDxUDB1VydWd1YXkAB1VydWd1YXlkAtIBD2QWAmYPFQMKVXpiZWtpc3RhbgAKVXpiZWtpc3RhbmQC0wEPZBYCZg8VAwdWYW51YXR1AAdWYW51YXR1ZALUAQ9kFgJmDxUDCVZlbmV6dWVsYQAJVmVuZXp1ZWxhZALVAQ9kFgJmDxUDB1ZpZXRuYW0AB1ZpZXRuYW1kAtYBD2QWAmYPFQMOV2VzdGVybiBTYWhhcmEADldlc3Rlcm4gU2FoYXJhZALXAQ9kFgJmDxUDBVllbWVuAAVZZW1lbmQC2AEPZBYCZg8VAwZaYW1iaWEABlphbWJpYWQC2QEPZBYCZg8VAwhaaW1iYWJ3ZQAIWmltYmFid2VkAgsPFgIfAwIzFmZmD2QWAmYPFQMHQWxhYmFtYQAHQWxhYmFtYWQCAQ9kFgJmDxUDBkFsYXNrYQAGQWxhc2thZAICD2QWAmYPFQMHQXJpem9uYQAHQXJpem9uYWQCAw9kFgJmDxUDCEFya2Fuc2FzAAhBcmthbnNhc2QCBA9kFgJmDxUDCkNhbGlmb3JuaWEACkNhbGlmb3JuaWFkAgUPZBYCZg8VAwhDb2xvcmFkbwAIQ29sb3JhZG9kAgYPZBYCZg8VAwtDb25uZWN0aWN1dAALQ29ubmVjdGljdXRkAgcPZBYCZg8VAwhEZWxhd2FyZQAIRGVsYXdhcmVkAggPZBYCZg8VAxREaXN0cmljdCBvZiBDb2x1bWJpYQAURGlzdHJpY3Qgb2YgQ29sdW1iaWFkAgkPZBYCZg8VAwdGbG9yaWRhAAdGbG9yaWRhZAIKD2QWAmYPFQMHR2VvcmdpYQAHR2VvcmdpYWQCCw9kFgJmDxUDBkhhd2FpaQAGSGF3YWlpZAIMD2QWAmYPFQMFSWRhaG8ABUlkYWhvZAIND2QWAmYPFQMISWxsaW5vaXMACElsbGlub2lzZAIOD2QWAmYPFQMHSW5kaWFuYQAHSW5kaWFuYWQCDw9kFgJmDxUDBElvd2EABElvd2FkAhAPZBYCZg8VAwZLYW5zYXMABkthbnNhc2QCEQ9kFgJmDxUDCEtlbnR1Y2t5AAhLZW50dWNreWQCEg9kFgJmDxUDCUxvdWlzaWFuYQAJTG91aXNpYW5hZAITD2QWAmYPFQMFTWFpbmUABU1haW5lZAIUD2QWAmYPFQMITWFyeWxhbmQACE1hcnlsYW5kZAIVD2QWAmYPFQMNTWFzc2FjaHVzZXR0cwANTWFzc2FjaHVzZXR0c2QCFg9kFgJmDxUDCE1pY2hpZ2FuAAhNaWNoaWdhbmQCFw9kFgJmDxUDCU1pbm5lc290YQAJTWlubmVzb3RhZAIYD2QWAmYPFQMLTWlzc2lzc2lwcGkAC01pc3Npc3NpcHBpZAIZD2QWAmYPFQMITWlzc291cmkACE1pc3NvdXJpZAIaD2QWAmYPFQMHTW9udGFuYQAHTW9udGFuYWQCGw9kFgJmDxUDCE5lYnJhc2thAAhOZWJyYXNrYWQCHA9kFgJmDxUDBk5ldmFkYQAGTmV2YWRhZAIdD2QWAmYPFQMNTmV3IEhhbXBzaGlyZQANTmV3IEhhbXBzaGlyZWQCHg9kFgJmDxUDCk5ldyBKZXJzZXkACk5ldyBKZXJzZXlkAh8PZBYCZg8VAwpOZXcgTWV4aWNvAApOZXcgTWV4aWNvZAIgD2QWAmYPFQMITmV3IFlvcmsACE5ldyBZb3JrZAIhD2QWAmYPFQMOTm9ydGggQ2Fyb2xpbmEADk5vcnRoIENhcm9saW5hZAIiD2QWAmYPFQMMTm9ydGggRGFrb3RhAAxOb3J0aCBEYWtvdGFkAiMPZBYCZg8VAwRPaGlvAARPaGlvZAIkD2QWAmYPFQMIT2tsYWhvbWEACE9rbGFob21hZAIlD2QWAmYPFQMGT3JlZ29uAAZPcmVnb25kAiYPZBYCZg8VAwxQZW5uc3lsdmFuaWEADFBlbm5zeWx2YW5pYWQCJw9kFgJmDxUDDFJob2RlIElzbGFuZAAMUmhvZGUgSXNsYW5kZAIoD2QWAmYPFQMOU291dGggQ2Fyb2xpbmEADlNvdXRoIENhcm9saW5hZAIpD2QWAmYPFQMMU291dGggRGFrb3RhAAxTb3V0aCBEYWtvdGFkAioPZBYCZg8VAwlUZW5uZXNzZWUACVRlbm5lc3NlZWQCKw9kFgJmDxUDBVRleGFzAAVUZXhhc2QCLA9kFgJmDxUDBFV0YWgABFV0YWhkAi0PZBYCZg8VAwdWZXJtb250AAdWZXJtb250ZAIuD2QWAmYPFQMIVmlyZ2luaWEACFZpcmdpbmlhZAIvD2QWAmYPFQMKV2FzaGluZ3RvbgAKV2FzaGluZ3RvbmQCMA9kFgJmDxUDDVdlc3QgVmlyZ2luaWEADVdlc3QgVmlyZ2luaWFkAjEPZBYCZg8VAwlXaXNjb25zaW4ACVdpc2NvbnNpbmQCMg9kFgJmDxUDB1d5b21pbmcAB1d5b21pbmdkAgEPFgIfBGgWAmYPD2RkZAIKD2QWAgIBDxYCHwMCBRYKZg9kFgJmDxUCCS9BYm91dC1VcwhBYm91dCBVc2QCAg9kFgJmDxUCCy9Db250YWN0LVVzCkNvbnRhY3QgVXNkAgQPZBYCZg8VAg4vSm9iLVZhY2FuY2llcwdDYXJlZXJzZAIGD2QWAmYPFQIcL0NvbnRhY3QtVXMvT2ZmaWNlLUxvY2F0aW9ucxBPZmZpY2UgTG9jYXRpb25zZAIID2QWAmYPFQIqL1Byb2R1Y3RzLVNlcnZpY2VzL0Jyb2NodXJlcy1hbmQtRG93bmxvYWRzF0Jyb2NodXJlcyBhbmQgRG93bmxvYWRzZAILD2QWAgIBDxYCHwMCAhYEZg9kFgJmDxUCGy9GcmVxdWVudGx5LUFza2VkLVF1ZXN0aW9ucxpGcmVxdWVudGx5IEFza2VkIFF1ZXN0aW9uc2QCAQ9kFgJmDxUCJC9Db250YWN0LVVzL0VtYWlsLW5ld3NsZXR0ZXItc2lnbi11cBhFbWFpbCBuZXdzbGV0dGVyIHNpZ24gdXBkAgwPZBYCAgEPFgIfAwIDFgZmD2QWAmYPFQIRL1Rlcm1zLUNvbmRpdGlvbnMSVGVybXMgJiBDb25kaXRpb25zZAICD2QWAmYPFQIPL1ByaXZhY3ktUG9saWN5DlByaXZhY3kgUG9saWN5ZAIED2QWAmYPFQIIL1NpdGVtYXAHU2l0ZW1hcGRkt1MeOIpI4uCVu6OVtbfshyMR1rT6V29Ef8nDEkotbuM=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=cF4inIfVgBQdtnkyUZXQV1oSpyMGPdD99gYxA64kjzAh9L7b4pY3iJZR9fZd-23Ltz35OsRHQjMFH1ac60rXLurJCxYVL7gd4h3rhLLtqCA1&amp;t=636476119203255666" type="text/javascript"></script>
+
+<input type="hidden" name="lng" id="lng" value="en-AU" />
+<script type="text/javascript">
+	//<![CDATA[
+
+function PM_Postback(param) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); } if(window.CMSContentManager) { CMSContentManager.allowSubmit = true; }; __doPostBack('ctl00$CMSPortalManager1$am',param); }
+function PM_Callback(param, callback, ctx) { if (window.top.HideScreenLockWarningAndSync) { window.top.HideScreenLockWarningAndSync(1080); }if (window.CMSContentManager) { CMSContentManager.storeContentChangedStatus(); };WebForm_DoCallback('ctl00$CMSPortalManager1$am',param,callback,ctx,null,true); }
+//]]>
+</script>
+<script src="/ScriptResource.axd?d=22_HuB1lCmXT0GkHXMb4ABrhXTkKrMc19d_ZvvqDRUXwnEd_91RBj2JYCpbvVMkVUFKcQQhvsRRjpkvFjs-uTBzG9pwh1k1uzTRoHDoIvRJpJCDPaAwTtFN99M5ognSY0&amp;t=7c776dc1" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=km6BAHIr_iJVHPUPRb1KWUzUisgH0PDFiEozLAoJMlI8xxTyzBA1RfUY25Av4LY0h8qeSz7CYka1ex7QIYa1J9CgXHZbb4HZ0pqJym7OAULq1_OBcayl02KoSDGjZQ8kzgaUzUT7pNWAIpVPtsn5gQ2&amp;t=7c776dc1" type="text/javascript"></script>
+<script type="text/javascript">
+	//<![CDATA[
+
+var CMS = CMS || {};
+CMS.Application = {
+  "isRTL": "false",
+  "isDebuggingEnabled": true,
+  "applicationUrl": "/",
+  "imagesUrl": "/CMSPages/GetResource.ashx?image=%5bImages.zip%5d%2f",
+  "isDialog": false
+};
+
+//]]>
+</script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="FB6F5982" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdABZah/eB7EqtWNz8eiFFtJFbicramRjTBdX1idYbgY2S9NgMf7pan7EM64h1OVC3+QiQNAHIkhGyARlbN9mSW1I+z88gxeHxoCi5bh+fQ8tnMXA33ELBbraP9MA9OQPCYH9fUDSBJfxd1hVpaAxLyU4TLkpt5t12nA46lXiEtSJ40T34Q31Y32Ajf7TbM9J89drNq2lQcP3wFo+r9EwBqN177mCwzJU7oOJQTPCQ1gNbJmeG6049wWPByLNX2+u3QWMDb+8d2hz1Lvlp2ZdaYLZLgQv7eczRExAAq+LSzeT4VVyofDDV1/qRDz0Vw9/Cx/qv9cs51IghsYVgHdgAwOOmNan/01JZVf1eiHgqTIDZQM4ayxNglPzsnbCL1U9+RtJsXyntl++HGklLfLWtibM7Ie3qROIjPwEM8GnZIXXIMYxqEFYDsJ8r9AkWWT5jyyoO6Xrm5wnFFvFXpNOIJ2h8W1MW01tKZD70IqcmXSDr+4sadms7b9nVYUM5zElt3FQ=" />
+</div>
+			<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$manScript', 'aspnetForm', ['tctl00$plcZones$lt$zoneContent$SubscribeSection$pnlNewsletterPopup','','tctl00$ctxM',''], [], [], 90, 'ctl00');
+//]]>
+</script>
+<div id="ctl00_ctxM">
+
+</div>
+			
+<div id="dashboard-container" class="outer">
+	<!-- Login form -->
+	<div id="dashboard">
+        
+        
+		    <div class="form row">
+			    <div class="form-container">
+                    <input name="ctl00$uxMyFrameCad$uxEmail" type="text" id="ctl00_uxMyFrameCad_uxEmail" class="login_email" placeholder="Email" />
+			    </div>
+
+			    <div class="form-container">
+                    <input name="ctl00$uxMyFrameCad$uxPassword" type="password" id="ctl00_uxMyFrameCad_uxPassword" class="login_password" placeholder="Password" />
+			    </div>
+
+			    <div class="form-action">
+                    <input type="submit" name="ctl00$uxMyFrameCad$uxSubmit" value="Login" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$uxMyFrameCad$uxSubmit&quot;, &quot;&quot;, true, &quot;MyFramecadLogin&quot;, &quot;&quot;, false, false))" id="ctl00_uxMyFrameCad_uxSubmit" class="btn grey" />
+                    <a href="https://my.framecad.com/myfcresetpassword.aspx">Forgotten Password</a>
+				    <a href="/products-services/support/global-customer-care/">What is MyFRAMECAD?</a>
+			    </div>
+		    </div>
+        
+        
+	</div>
+</div>
+
+			<div id="header-container" class="outer">
+				<div id="header" class="inner">
+					<div class="navs">
+						
+
+
+
+<ul id="top-nav" class="unlist">
+	
+			<li class="about "><a href="/About-Us">About Us</a></li>
+		
+			<li class="contact "><a href="/Contact-Us">Contact Us</a></li>
+		
+			<li class="support "><a href="/Support">Support</a></li>
+		
+			<li class="careers "><a href="/Job-Vacancies">Careers</a></li>
+		
+	
+	<li id="ctl00_uxTopNavigation_uxMyFramecadSecondary" class="myframecad-new"><a href="https://my.framecad.com/AbpLocalization/ChangeCulture?cultureName=en-AU&returnUrl=/Account/Login" class="no-highlight">MyFRAMECAD</a></li>
+	<li>
+		<select name="ctl00$uxTopNavigation$regions" id="regions" class="sparkbox-custom">
+	<option value="NewZealand">NZ/Pacific</option>
+	<option value="Australia">Australia</option>
+	<option selected="selected" value="NorthAmerica">America - North</option>
+	<option value="CentralAmerica">America - Central</option>
+	<option value="SouthAmerica">America - South</option>
+	<option value="WesternEurope">Europe</option>
+	<option value="MiddleEast">Middle East/India</option>
+	<option value="Asia">Asia</option>
+	<option value="NorthernAfrica">Africa - Northern</option>
+	<option value="SouthernAfrica">Africa - Southern</option>
+
+</select>
+	</li>
+	<li>
+		
+		
+
+		<div id="google_translate_element"></div>
+		<script type="text/javascript">
+			function googleTranslateElementInit() {
+				new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'ar,en,es,fr,pt,ru,zh-CN', layout: google.translate.TranslateElement.InlineLayout.SIMPLE }, 'google_translate_element');
+			}
+		</script>
+		<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+		<style>
+			.goog-te-gadget-icon {
+				background: none !important;
+				display: none;
+			}
+		</style>
+	</li>
+</ul>
+
+						
+
+<div class="main-nav-container clear">
+	<ul id="main-nav" class="unlist">
+		<li class="logo"><a href="/">Framecad</a></li>
+        
+	            <li><a href="/The-Framecad-System" class="">The FRAMECAD System</a></li>
+            
+	            <li><a href="/Products-Services" class="">Products & Services</a></li>
+            
+	            <li><a href="/applications" class="">Building Applications</a></li>
+            
+	            <li><a href="/FRAMECAD-Connect" class="">FRAMECAD Connect</a></li>
+            
+		<li><a href="http://blog.framecad.com/blog">Blog</a></li>
+	</ul>
+	<div class="search-container search-form">
+		<input type="text" name="searchtext" value="" placeholder="Search"/>
+		<input class="search-btn" type="submit" value="Search" />
+	</div>
+</div>
+
+<div class="mobile mobile-menu">Menu</div>
+					</div>
+				</div>
+				<!--Start:HeaderContent-->
+				
+	<div id="featured-container" class="outer home">
+		<div id="featured">
+			<div class="span4">
+				<h1>Rapid construction, the smart way. The&nbsp; FRAMECAD<sup><span class="st">&reg;</span></sup><span class="s1"> </span>System delivers large scale Cold Formed Steel construction projects faster with its advanced steel framing automated process.</h1>
+
+<h1>&nbsp;</h1>
+
+			</div>
+			<div class="span4 home-hero">
+				<a href="#home-video-container" class="video-lightbox">Play video</a>
+
+				<div class="animation" data-frames="24" data-initial="1" data-fps="25" data-playtime="4" data-filepath="/site_assets/resources/images/animations/communities/" data-filename="communities-fr-" data-filetype="png" data-loop="true" data-autostart="true">
+					<img src="https://d2l4vd9pz6eoxu.cloudfront.net/site_assets/resources/images/animations/communities/communities-fr-1.png" alt="" />
+				</div>
+			</div>
+			<div style="display: none">
+				<div id="home-video-container">
+					<iframe width="640" height="550" style="width: 100%; height: 550px;" src="https://www.youtube.com/embed/grj0Du-ml5U?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+				<!--End:HeaderContent-->
+			</div>
+
+			<div id="content-container" class="outer ">
+				<!--Start:PreContent-->
+				
+				<!--End:PreContent-->
+				
+					<div id="content" class="inner  terms-page">
+						<!--Start:MainContent-->
+						
+	<div class="overview section row home">
+		<div class="span4 indented introduction">
+			<h3 class="indented">FRAMECAD Design Solutions </h3>
+			<div class="flexslider drop-shadow lifted">
+				<ul class="slides">
+					<li>
+						<a href="/en/products-services/planning-design/design-detailing-software">
+							<img height="100%" width="100%" src="https://d2l4vd9pz6eoxu.cloudfront.net/site_assets/media/framecad/images/about us/homepage/monitor-your-framecad2.png?width=542&height=325&ext=.png" alt="Building Design & Detailing Software"></a>
+						<div class="indented">
+							<h2 class="override-link">
+								<a href="/en/products-services/planning-design/design-detailing-software">
+									Building Design & Detailing Software
+								</a>
+							</h2>
+
+							<p>Building design, engineering calculations, structural analysis, detailing and machine control have all been fully integrated by FRAMECAD® into one comprehensive software suite.  </p>
+
+							<a href="/en/products-services/planning-design/design-detailing-software">More about FRAMECAD Software ›</a>
+						</div>
+					</li>
+					<li>
+						<a href="/en/products-services/construction/manufacturing-systems">
+							<img height="100%" width="100%" src="https://d2l4vd9pz6eoxu.cloudfront.net/site_assets/media/framecad/images/about us/homepage/cold-formed-steel-manufacturing-systems.png?width=542&height=325&ext=.png" alt="Advanced Manufacturing Systems"></a>
+						<div class="indented">
+							<h2 class="override-link">
+								<a href="/en/products-services/construction/manufacturing-systems">
+									Advanced Manufacturing Systems
+								</a>
+							</h2>
+
+							<p>Heavy duty, precision-orientated manufacturing equipment for the high-volume production of residential and commercial buildings.</p>
+
+							<a href="/en/products-services/construction/manufacturing-systems">More about FRAMECAD Manufacturing Equipment ›</a>
+						</div>
+					</li>
+					<li>
+						<a href="/en/case-studies">
+							<img height="100%" width="100%" src="https://d2l4vd9pz6eoxu.cloudfront.net/site_assets/media/framecad/images/about us/homepage/hyatt.png?width=542&height=325&ext=.png" alt="FRAMECAD Case Studies "></a>
+						<div class="indented">
+							<h2 class="override-link">
+								<a href="/en/case-studies">
+									FRAMECAD Case Studies 
+								</a>
+							</h2>
+
+							<p>View our case studies showcasing projects developed with the FRAMECAD technology. From top-end residential designs, to safe and cost-effective social housing, these projects be produced efficiently using the FRAMECAD System.</p>
+
+							<a href="/en/case-studies">More about FRAMECAD Case Studies ›</a>
+						</div>
+					</li>
+					<li>
+						<a href="/en/framecad-connect">
+							<img height="100%" width="100%" src="https://d2l4vd9pz6eoxu.cloudfront.net/site_assets/media/framecad/images/about us/homepage/cold-formed-steel-companies.png?width=542&height=325&ext=.png" alt="FRAMECAD Connect"></a>
+						<div class="indented">
+							<h2 class="override-link">
+								<a href="/en/framecad-connect">
+									FRAMECAD Connect
+								</a>
+							</h2>
+
+							<p>We are proud to promote the services of local experts who design and build with the FRAMECAD System. Find a FRAMECAD Connect expert near you.
+</p>
+
+							<a href="/en/framecad-connect">More about FRAMECAD Connect ›</a>
+						</div>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+		<div class="span4">
+			<div class="latest-news section row">
+				<h3 class="indented override-link"><a href="http://blog.framecad.com/blog">Blog</a></h3>
+
+				
+
+<ul class="news-items row js-blog">
+	
+			<li>
+				<a href="https://blog.framecad.com/blog/gain-greater-project-efficiency-with-detailed-production-reporting-from-myframecad-and-my-production" target="_blank" class="news-thumbnail">
+					<img class="lazy" src="https://content.framecad.com/hubfs/FCAD%201.png" alt="Gain Greater Project Efficiency with Detailed Production Reporting from MyFRAMECAD and My Production">
+				</a>
+				<div class="news-item-detail indented">
+					<h5><a href="https://blog.framecad.com/blog/gain-greater-project-efficiency-with-detailed-production-reporting-from-myframecad-and-my-production" target="_blank">Gain Greater Project Efficiency with Detailed Production Reporting from MyFRAMECAD and My Production</a></h5>
+					<span class="date">July 13, 2018</span>
+					<p>Available globally and backed by a dedicated team of industry experts, My Production is the only cloud-based portal that supports the production of Co...</p>
+				</div>
+			</li>
+		
+			<li>
+				<a href="https://blog.framecad.com/blog/faq-all-your-cfs-questions-answered" target="_blank" class="news-thumbnail">
+					<img class="lazy" src="https://content.framecad.com/hubfs/32209348972_80680e8984_z.jpg" alt="FAQ: All your CFS questions answered">
+				</a>
+				<div class="news-item-detail indented">
+					<h5><a href="https://blog.framecad.com/blog/faq-all-your-cfs-questions-answered" target="_blank">FAQ: All your CFS questions answered</a></h5>
+					<span class="date">July 02, 2018</span>
+					<p>How is steel energy efficient? Is Cold Formed Steel a robust construction material? Does it limit home design capabilities? Will a steel framed home l...</p>
+				</div>
+			</li>
+		
+			<li>
+				<a href="https://blog.framecad.com/blog/esbuild-tradeshow-2018" target="_blank" class="news-thumbnail">
+					<img class="lazy" src="https://content.framecad.com/hubfs/Banner%20blog.png" alt="Join FRAMECAD at ESbuild tradeshow in Shanghai, 18 - 20 July 2018">
+				</a>
+				<div class="news-item-detail indented">
+					<h5><a href="https://blog.framecad.com/blog/esbuild-tradeshow-2018" target="_blank">Join FRAMECAD at ESbuild tradeshow in Shanghai, 18 - 20 July 2018</a></h5>
+					<span class="date">July 01, 2018</span>
+					<p>We are thrilled to invite you at ESbuild tradeshowatour stand 2179 &amp; 2180 in Hall E2, from 18th to 20th of July atShanghai New International Expo ...</p>
+				</div>
+			</li>
+		
+			<li>
+				<a href="https://blog.framecad.com/blog/on-or-offsite-framecad-supports-you-across-all-stages-of-construction" target="_blank" class="news-thumbnail">
+					<img class="lazy" src="https://content.framecad.com/hubfs/35825040452_22b3230117_k%20%281%29.jpg" alt="How to maximise productivity using the FRAMECAD Construction process">
+				</a>
+				<div class="news-item-detail indented">
+					<h5><a href="https://blog.framecad.com/blog/on-or-offsite-framecad-supports-you-across-all-stages-of-construction" target="_blank">How to maximise productivity using the FRAMECAD Construction process</a></h5>
+					<span class="date">June 14, 2018</span>
+					<p>Speed, precision, strength, durability and sustainability - these are five words used to describe Cold Formed Steel construction, but achieving the fa...</p>
+				</div>
+			</li>
+		
+
+</ul>
+<a href="http://blog.framecad.com/blog" class="read-all-news">Read all news <i class="fa fa-chevron-right"></i></a>
+
+				
+			</div>
+		</div>
+	</div>
+	<span></span>
+
+						<!--End:MainContent-->
+						<!--Start:BrochureDownloadPreFooter-->
+						
+						<!--End:BrochureDownloadPreFooter-->
+					</div>
+				
+				<!--Start:PostContent-->
+				
+	<div class="outer">
+		<div class="case-studies home">
+
+			<div class="inner" style="margin: -70px auto 40px">
+
+				
+						<div class="editable-wrapper">
+							<div class="span3 cta-span3"><!--HubSpot Call-to-Action	Code	--><span class="hs-cta-wrapper" id="hs-cta-wrapper-00703053-f424-4b31-92e5-1d78744d5b60"><span class="hs-cta-node	hs-cta-
+00703053-f424-4b31-92e5-1d78744d5b60" id="hs-cta-00703053-f424-4b31-92e5-1d78744d5b60"><!--[if	lte IE	8]><div	id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/2087004/00703053-f424-4b31-92e5-1d78744d5b60" target="_blank"><img alt="FRAMECAD	LGS	eBook" class="hs-cta-img" id="hs-cta-img-
+00703053-f424-4b31-92e5-1d78744d5b60" src="https://no-cache.hubspot.com/cta/default/2087004/00703053-f424-4b31-92e5-
+1d78744d5b60.png" style="border-width:0px;" /></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js" type="text/javascript"></script><script type="text/javascript">	
+hbspt.cta.load(2087004,	'00703053-f424-4b31-92e5-1d78744d5b60',	{});	</script></span><!-- end	HubSpot Call-to-Action	Code	--></div>
+
+<div class="span3 cta-span3"><!--HubSpot Call-to-Action	Code	--><span class="hs-cta-wrapper" id="hs-cta-wrapper-a084129f-4d45-4a20-b493-97d37d53076d"><span class="hs-cta-node	hs-ctaa084129f-4d45-4a20-b493-97d37d53076d" id="hs-cta-a084129f-4d45-4a20-b493-97d37d53076d"><!--[if	lte IE	8]><div	id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/2087004/a084129f-4d45-4a20-b493-97d37d53076d" target="_blank"><img alt="New	Call-to-action" class="hs-cta-img" id="hs-ctaimg-a084129f-4d45-4a20-b493-97d37d53076d" src="https://no-cache.hubspot.com/cta/default/2087004/a084129f-4d45-4a20-b493-
+97d37d53076d.png" style="border-width:0px;" /></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js" type="text/javascript"></script><script type="text/javascript">	
+hbspt.cta.load(2087004,	'a084129f-4d45-4a20-b493-97d37d53076d',	{});	</script></span><!-- end	HubSpot Call-to-Action	Code	--></div>
+
+<div class="span3 cta-span3 cta-span3-norightmargin"><!--HubSpot Call-to-Action	Code	--><span class="hs-cta-wrapper" id="hs-cta-wrapper-1c6c36e0-0cad-4398-a37e-0085a63f0fdf"><span class="hs-cta-node	hs-cta-
+1c6c36e0-0cad-4398-a37e-0085a63f0fdf" id="hs-cta-1c6c36e0-0cad-4398-a37e-0085a63f0fdf"><!--[if	lte IE	8]><div	id="hs-cta-ie-element"></div><![endif]--><a href="https://cta-redirect.hubspot.com/cta/redirect/2087004/1c6c36e0-0cad-4398-a37e-0085a63f0fdf" target="_blank"><img alt="New	Call-to-action" class="hs-cta-img" id="hs-cta-img-
+1c6c36e0-0cad-4398-a37e-0085a63f0fdf" src="https://no-cache.hubspot.com/cta/default/2087004/1c6c36e0-0cad-4398-a37e-
+0085a63f0fdf.png" style="border-width:0px;" /></a></span><script charset="utf-8" src="https://js.hscta.net/cta/current.js" type="text/javascript"></script><script type="text/javascript">	
+hbspt.cta.load(2087004,	'1c6c36e0-0cad-4398-a37e-0085a63f0fdf',	{});	</script></span><!-- end	HubSpot Call-to-Action	Code	--></div>
+
+
+
+
+
+						</div>
+					
+
+			</div>
+
+			<div class="inner">
+				<div class="span5 indented">
+					<h3><a href="/case-studies">Case Studies</a></h3>
+					<p><p>See how the FRAMECAD System has delivered quality, light frame steel building solutions for businesses and communities around the world.</p>
+<br /></p>
+				</div>
+			</div>
+			<div id="ctl00_PostContent_uxCaseStudiesContainer" class="case-study-slider drop-shadow lifted">
+				
+        <ul class="slides">
+    
+        <li>
+        <div class="span4 case-study ">
+            <a href="/case-studies/Douglass-Colony">
+				<div class="case-study-image-wrapper">
+					<img src="https://d2l4vd9pz6eoxu.cloudfront.net/site_assets/media/framecad/images/dcresize.jpg?v=16022017005542&width=542&ext=.jpg" alt="" />
+				</div>
+			    <div class="information">
+				    <h6>Case study</h6>
+				    <h4 class="case-study-title">A 7- story multifamily building completed in 1/4 of the time</h4>
+			    </div>
+            </a>
+		</div>
+        </li>
+    
+        <li>
+        <div class="span4 case-study ">
+            <a href="/case-studies/SBS-Group">
+				<div class="case-study-image-wrapper">
+					<img src="https://d2l4vd9pz6eoxu.cloudfront.net/site_assets/media/framecad/images/case studies/leopold-3-541.jpg?width=542&ext=.jpg" alt="" />
+				</div>
+			    <div class="information">
+				    <h6>Case study</h6>
+				    <h4 class="case-study-title">Light Gauge Steel - SBS Group's top choice for top levels</h4>
+			    </div>
+            </a>
+		</div>
+        </li>
+    
+        <li>
+        <div class="span4 case-study ">
+            <a href="/case-studies/Intellisteel">
+				<div class="case-study-image-wrapper">
+					<img src="https://d2l4vd9pz6eoxu.cloudfront.net/site_assets/media/framecad/images/case studies/intellisteel/light-gauge-steel-3-levels-assisted-living-building-sage-park.jpg?width=542&ext=.jpg" alt="" />
+				</div>
+			    <div class="information">
+				    <h6>Case study</h6>
+				    <h4 class="case-study-title">Intellisteel’s onsite construction methodology delivers ...</h4>
+			    </div>
+            </a>
+		</div>
+        </li>
+    
+        <li>
+        <div class="span4 case-study ">
+            <a href="/case-studies/How-FRAMECAD-software-integrates-with-3D-scann-(1)">
+				<div class="case-study-image-wrapper">
+					<img src="https://d2l4vd9pz6eoxu.cloudfront.net/site_assets/media/framecad/images/case studies/internal walls/internal-walls-small.png?width=542&ext=.png" alt="" />
+				</div>
+			    <div class="information">
+				    <h6>Case study</h6>
+				    <h4 class="case-study-title">How FRAMECAD software integrates with 3D scanning for ...</h4>
+			    </div>
+            </a>
+		</div>
+        </li>
+    
+        </ul>
+    
+
+			</div>
+			<div class="inner section row">
+				<p><a href="/en/case-studies/" class="read-all-news indented">See all case studies &rsaquo;</a>	</p>
+			</div>
+			<span></span>
+		</div>
+	</div>
+	<div class="inner" id="divInner">
+		<div class="the-framecad-network section row">
+			<div id="tile-animation" class="span4">
+				<div class="sliced">
+					<img src="https://d2l4vd9pz6eoxu.cloudfront.net/site_assets/resources/images/content/framecad.network.map.jpg" width="542" height="276" alt="" />
+				</div>
+			</div>
+			<div class="span4">
+				<div class="indented">
+					<h4>The FRAMECAD<sup>&reg;</sup> Network</h4>
+					<p>FRAMECAD&rsquo;s local presence is key to its global leadership. Find out about our global network of partners and how to join us.</p>
+<br />
+				</div>
+				<div class="cta indented">
+					<a href="/en/about-us/the-framecad-network/" class="btn">More about the FRAMECAD Network</a>
+				</div>
+				<div class="sign-up indented">
+					<label for="">Sign up for email updates</label>
+					<input type="email" class="email" id="newsletter-sign-up" placeholder="Email address">
+					<input type="submit" value="Sign up" id="btn-newsletter-sign-up" class="btn grey">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+				<!--Start:PostContent-->
+			</div>
+			<!--Start:PreFooterContainer-->
+			
+
+	<div class="pre-footer">
+		<div class="inner">
+			
+
+<h4 class="indented">Products and services you've browsed:</h4>
+<div class="products-and-services row">
+    
+		    <div class="span2 indented">
+			    <h5>Planning & Design</h5>
+			    <ul>
+                    
+				            <li class="open">
+                                <a href="/Products-Services/Planning-Design/Design-Collections">Building Design Collections </a>
+				            </li>
+                        
+				            <li class="open">
+                                <a href="/Products-Services/Planning-Design/Design-Services">Building Design Services</a>
+				            </li>
+                        
+				            <li class="open">
+                                <a href="/Products-Services/Planning-Design/Design-Detailing-Software">Building Design & Detailing Software</a>
+				            </li>
+                        
+				            <li class="open">
+                                <a href="/Products-Services/Planning-Design/Design-Consultancy">Building Design Consultancy</a>
+				            </li>
+                        
+				            <li class="open">
+                                <a href="/Products-Services/Planning-Design/Design-Training">Building Design Training</a>
+				            </li>
+                        
+			    </ul>
+		    </div>
+        
+		    <div class="span2 indented">
+			    <h5>Construction</h5>
+			    <ul>
+                    
+				            <li class="open">
+                                <a href="/Products-Services/Construction/Construction-Methodology">Construction Methodology</a>
+				            </li>
+                        
+				            <li class="open">
+                                <a href="/Products-Services/Construction/Sub-Assemblies">Sub Assemblies</a>
+				            </li>
+                        
+				            <li class="open">
+                                <a href="/Products-Services/Construction/Manufacturing-Systems">Manufacturing Systems</a>
+				            </li>
+                        
+				            <li class="open">
+                                <a href="/Products-Services/Construction/Consultancy">Construction Consultancy</a>
+				            </li>
+                        
+				            <li class="open">
+                                <a href="/Products-Services/Construction/Training">Training</a>
+				            </li>
+                        
+			    </ul>
+		    </div>
+        
+		    <div class="span2 indented">
+			    <h5>Building Materials</h5>
+			    <ul>
+                    
+				            <li class="open">
+                                <a href="/Products-Services/Building-Materials/Cladding-Lining">Cladding and Lining</a>
+				            </li>
+                        
+				            <li class="open">
+                                <a href="/Products-Services/Building-Materials/Connectors">Connectors</a>
+				            </li>
+                        
+				            <li class="open">
+                                <a href="/Products-Services/Building-Materials/Fasteners">Fasteners</a>
+				            </li>
+                        
+				            <li class="open">
+                                <a href="/Products-Services/Building-Materials/Roofing">Roofing</a>
+				            </li>
+                        
+				            <li class="open">
+                                <a href="/Products-Services/Building-Materials/Insulation,-Wraps-and-Foils">Insulation, Wraps and Foils</a>
+				            </li>
+                        
+				            <li class="open">
+                                <a href="/Products-Services/Building-Materials/Flooring">Flooring</a>
+				            </li>
+                        
+				            <li class="open">
+                                <a href="/Products-Services/Building-Materials/Steel">Steel</a>
+				            </li>
+                        
+				            <li class="open">
+                                <a href="/Products-Services/Building-Materials/Tools">Tools</a>
+				            </li>
+                        
+			    </ul>
+		    </div>
+        
+		    <div class="span2 indented">
+			    <h5>Support</h5>
+			    <ul>
+                    
+				            <li class="open">
+                                <a href="/Products-Services/Support/MyFRAMECAD">MyFRAMECAD CustomerPortal</a>
+				            </li>
+                        
+				            <li class="open">
+                                <a href="/Products-Services/Support/global-customer-care">Global Customer Care</a>
+				            </li>
+                        
+				            <li class="open">
+                                <a href="/Products-Services/Support/Technical-Support">Technical Support</a>
+				            </li>
+                        
+				            <li class="open">
+                                <a href="/Products-Services/Support/Engineering-support">Engineering Support</a>
+				            </li>
+                        
+				            <li class="open">
+                                <a href="/Products-Services/Support/Software-support">Software Support</a>
+				            </li>
+                        
+				            <li class="open">
+                                <a href="/Products-Services/Support/Design-Support">Design Support</a>
+				            </li>
+                        
+				            <li class="open">
+                                <a href="/Products-Services/Support/Construction-Support">Construction Support - Best Practice Training</a>
+				            </li>
+                        
+			    </ul>
+		    </div>
+        
+</div>
+			
+
+<div class="make-enquiry">
+	<a href="/enquire" class="btn btn-blue">Make an enquiry</a>
+</div>
+		</div>
+	</div>
+
+
+			<!--End:PreFooterContainer-->
+			
+					
+
+<!-- Subscribe Section -->
+<style>
+	.sticky-inner-content {
+		width: initial; 
+		height: 100%;
+		margin: 0 auto;
+		padding: 0 120px;
+	}
+	.sticky-footer .form-panel, 
+	.sticky-footer .horizontal-form, 
+	.sticky-footer .social-media-panel, 
+	.sticky-footer .social-media-panel ul.social-media{
+		display:flex; 
+		height:100%;
+	}
+	.sticky-footer .form-panel h2, 
+	.sticky-footer .social-media-panel h2{
+		/*font-family:'Open Sans';*/
+		text-shadow:none;
+		font-size:24px;
+		line-height: 38px;
+		color:#20282a;
+		margin-bottom: 0;
+	}
+		.sticky-footer .social-media-panel h2 {
+			margin-right: 30px;
+		}
+		.sticky-footer .form-panel h2 {
+			font-family: "Frutiger55Roman","Helvetica Neue",Helvetica,Arial,Verdana,sans-serif
+		}
+	#secondary-footer {
+		width: 100%;
+		height: 120px;
+		background: #333;
+	}
+
+	.sticky-footer .horizontal-form .btn-enquiry{
+		color: #ffffff;
+		padding: 9px 20px;
+		background-color: #549dbf;
+		/*font-family: 'Open Sans';*/
+		text-shadow:none;
+		font-weight:lighter;
+		font-size: 16px;
+		border-radius:5px;
+		margin-left: 10px;
+	}
+	.sticky-footer .horizontal-form .form-control input {
+		-webkit-border-radius: 3px 0 0 3px; 
+		-moz-border-radius: 3px 0 0 3px; 
+		border-radius: 3px 0 0 3px; 
+		background-color: #e6eaed; 
+		width: 100%; 
+		height: 40px; 
+		/*font-family: 'Open Sans';*/
+		text-shadow:none;
+		font-weight:lighter;
+		font-size: 16px;
+		color:#bfbebf;
+		margin-right:10px;
+	}
+	/*.sticky-footer .horizontal-form .form-control input::-webkit-input-placeholder,
+	.sticky-footer .horizontal-form .form-control input:-moz-placeholder,
+	.sticky-footer .horizontal-form .form-control input::-moz-placeholder,
+	.sticky-footer .horizontal-form .form-control input:-ms-input-placeholder{
+		color:#bfbebf;
+		font-family: 'Open Sans';
+		font-weight:lighter;
+		font-size: 16px;
+	}*/
+	#subscriberEmailField::-webkit-input-placeholder, 
+	#subscriberEmailField2::-webkit-input-placeholder {
+		color:#bfbebf;
+		/*font-family: 'Open Sans';*/
+		text-shadow:none;
+		font-weight:lighter;
+		font-size: 16px;
+	}
+	.social-media-panel ul.social-media li {
+		margin-right: 10px;
+		line-height: 1;
+		margin-bottom: 0px;
+	}
+		.social-media li a i,
+		.sticky-footer-close i {
+			color:#2c3335;
+		}
+	@media(max-width:1415px){
+		.sticky-inner-content{
+			width:1136px;
+		}
+		.sticky-inner-content{padding:0 10px;}
+		
+	}
+	@media(max-width:1260px) {
+		.sticky-footer .social-media-panel{
+			float:left;
+			margin-left:15px;
+		}
+	}
+	@media(max-width:1175px){
+		.sticky-inner-content{
+			width:980px;
+		}
+		.sticky-footer .form-panel,
+		.sticky-footer .social-media-panel
+		{
+			margin-left:10px;
+		}
+	}
+	@media(max-width:1065px){
+		.sticky-inner-content{
+			padding: 0 10px;
+		}
+	}
+	@media(max-width:980px){
+		.sticky-footer {
+			padding-left:0;
+		}
+		.sticky-footer .form-panel,
+		.sticky-footer .social-media-panel
+		{
+			margin-left:0;
+		}
+		/*.sticky-inner-content{
+			width:728px;
+		}*/
+		.sticky-inner-content{
+			width:100%;
+		}
+		.sticky-footer .form-panel{
+			width:100%;
+			display:block;
+			text-align: center;
+		}
+		.sticky-footer .horizontal-form {
+			display:block;
+		}
+		.sticky-footer .horizontal-form{
+			margin-left: 0;
+		}
+
+		.horizontal-form{
+			display:block;
+		}
+		.form-control.form-control--labelled.input-with-clear.js-input-clear{
+			margin-bottom: 30px;
+		}
+		.sticky-footer .social-media-panel{
+			width: 100%;
+			text-align: center;
+			margin-top: 30px;
+			display:block;
+		}
+		.sticky-footer .social-media-panel h2{
+			display:none;
+		}
+		.sticky-footer .social-media-panel ul.social-media{
+			display: inline-flex;
+		}
+		.sticky-footer .horizontal-form .form-control input{
+			width:300px;
+			margin-right: 10px;
+		}
+		.sticky-footer .horizontal-form .btn-enquiry{
+			margin-left:0;
+		}
+	}
+	/*@media(max-width:785px){
+		.sticky-footer .form-panel{
+			display:inline-block;
+			text-align:left;
+		}
+		.sticky-footer .horizontal-form{
+			margin-left:0;
+		}
+	}*/
+	@media(max-width:680px) {
+		.qrcode-popup{
+			width:auto;
+		}
+	}
+	.qrcode-popup{
+		width:630px;
+	}
+
+	.span-qrcode{
+		width:200px;
+	}
+	.span-details{
+		width:400px;
+	}
+	.wechat-btn{
+		position: relative;
+		display: inline-block;
+		width: 173px;
+		height: 51px;
+		margin-bottom: 0;
+		-ms-background-size: 100%;
+		background-size: 100%;
+		background-position: 50%;
+		background-repeat: no-repeat;
+	}
+	.wechat-btn:hover{
+		opacity: .75;
+	}
+</style>
+
+<div class="js-sticky-footer sticky-footer clearfix">
+    <div class="static-sticky-footer sticky-content-wrapper inner">
+        <div class="sticky-inner-content">
+            <div class="form-panel">
+                <h2>Interested in learning more?</h2>
+				
+                <div class="horizontal-form">
+                    <div class="form-control form-control--labelled input-with-clear js-input-clear" style="min-width: 225px;">
+                        
+                        <div class="EditingFormControlNestedControl editing-form-control-nested-control">
+                            <input name="subscriberEmail" placeholder="Your email" type="text" maxlength="100" id="subscriberEmailField" class="form-control subscriberEmail subscriberEmailField txt-email">
+                        </div>
+                        
+                    </div>
+
+					
+                    <!-- <a href="#newsletterPopup" data-effect="mfp-move-from-top" class="js-subscribe-btn btn-enquiry">Make an enquiry </a> -->
+
+					
+					<a href="/en/enquire" class="btn-enquiry">Make an enquiry </a>
+                </div>
+            </div>
+            <div class="social-media-panel">
+                <h2>Connect</h2>
+                <ul class="social-media">
+					<li><a href="//www.facebook.com/FRAMECAD" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+                    <li><a href="//twitter.com/FRAMECAD" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+					<li><a href="//www.linkedin.com/company/framecad-limited" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
+                    <li><a href="//www.youtube.com/user/framecadsolutions?feature=watch" target="_blank"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a></li>
+					<li><a href="#QRPopup" data-effect="mfp-move-from-top" class="js-wechat-btn"><i class="fa fa-wechat fa-2x" aria-hidden="true"></i></a></li>
+                    <li><a href="//www.weibo.com/u/6177524744?refer_flag=1001030201_" target="_blank"><i class="fa fa-weibo fa-2x" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    
+        <div class="floating-sticky-footer sticky-content-wrapper fadeInUp animated inner">
+            <div class="sticky-inner-content">
+				<div class="form-panel">
+					<h2>Interested in learning more?</h2>
+					
+					<div class="horizontal-form">
+						<div class="form-control form-control--labelled input-with-clear js-input-clear" style="min-width: 225px;">
+							
+							<div class="EditingFormControlNestedControl editing-form-control-nested-control">
+								<input name="subscriberEmail" placeholder="Your email" type="text" maxlength="100" id="subscriberEmailField2" class="form-control subscriberEmail subscriberEmailField txt-email">
+							</div>
+							
+						</div>
+						<a href="/en/enquire" target="_blank" class="btn-enquiry">Make an enquiry </a>
+					</div>
+				</div>
+				<div class="social-media-panel">
+					<h2>Connect</h2>
+					<ul class="social-media">
+						<li><a href="//www.facebook.com/FRAMECAD" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+						<li><a href="//twitter.com/FRAMECAD" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+						<li><a href="//www.linkedin.com/company/framecad-limited" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
+						<li><a href="//www.youtube.com/user/framecadsolutions?feature=watch" target="_blank"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a></li>
+					    <li><a href="#QRPopup" data-effect="mfp-move-from-top" class="js-wechat-btn"><i class="fa fa-wechat fa-2x" aria-hidden="true"></i></a></li>
+                        <li><a href="//www.weibo.com/u/6177524744?refer_flag=1001030201_" target="_blank"><i class="fa fa-weibo fa-2x" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</div>
+            <a class="sticky-footer-close"><i class="fa fa-times"></i></a>
+        </div>
+    
+</div>
+<div id="newsletterPopup" class="newsletter popup mfp-hide mfp-with-anim popup--fluid-width">
+    <div id="ctl00_plcZones_lt_zoneContent_SubscribeSection_pnlNewsletterPopup">
+	
+            <div>
+                <h1>Enquire about FRAMECAD products and services</h1>
+				<h4>FRAMECAD products and services are dedicated for professionals of the construction industry. If you are a consumer interested in using LGS construction, please visit <a href="/framecad-connect">our page</a> of national and international partner experts who design and build using the FRAMECAD System.<br />
+<br />
+If you are interested in applying for a position at FRAMECAD, please visit <a href="/careers">our careers page.</a></h4>
+
+                
+
+<div class="section row span8" id="enquiry-success" style="display: none;">
+    <h3>Thanks!</h3>
+    <p>We have received your enquiry and will be in touch within 24-48 hours.</p>
+    
+    
+    <input name="ctl00$plcZones$lt$zoneContent$SubscribeSection$uxEnquiryForm$uxEnquirySourceDocumentType" type="hidden" id="ctl00_plcZones_lt_zoneContent_SubscribeSection_uxEnquiryForm_uxEnquirySourceDocumentType" />
+    <input name="ctl00$plcZones$lt$zoneContent$SubscribeSection$uxEnquiryForm$uxEnquirySourceDocumentId" type="hidden" id="ctl00_plcZones_lt_zoneContent_SubscribeSection_uxEnquiryForm_uxEnquirySourceDocumentId" />
+    <input name="ctl00$plcZones$lt$zoneContent$SubscribeSection$uxEnquiryForm$uxEnquirySourceCrmResourceId" type="hidden" id="ctl00_plcZones_lt_zoneContent_SubscribeSection_uxEnquiryForm_uxEnquirySourceCrmResourceId" />
+    <input name="ctl00$plcZones$lt$zoneContent$SubscribeSection$uxEnquiryForm$uxEnquiryPartnerName" type="hidden" id="ctl00_plcZones_lt_zoneContent_SubscribeSection_uxEnquiryForm_uxEnquiryPartnerName" />
+    <input name="ctl00$plcZones$lt$zoneContent$SubscribeSection$uxEnquiryForm$uxEnquiryPartnerDocumentId" type="hidden" id="ctl00_plcZones_lt_zoneContent_SubscribeSection_uxEnquiryForm_uxEnquiryPartnerDocumentId" />
+    <input name="ctl00$plcZones$lt$zoneContent$SubscribeSection$uxEnquiryForm$uxEnquiryPartnerCrmId" type="hidden" id="ctl00_plcZones_lt_zoneContent_SubscribeSection_uxEnquiryForm_uxEnquiryPartnerCrmId" />
+    <input name="ctl00$plcZones$lt$zoneContent$SubscribeSection$uxEnquiryForm$uxEnquiryFormType" type="hidden" id="ctl00_plcZones_lt_zoneContent_SubscribeSection_uxEnquiryForm_uxEnquiryFormType" />
+</div>
+
+<div id="enquiry-form">
+    <div class="section row enquiry">
+		
+			
+        <div class="row form">
+            <div class="span4 indented">
+                
+                <h3>Your contact details</h3>
+                <label for="firstname">Your name <span class="required">*</span></label>
+                <div class="form-container">
+                    <div class="span2">
+                        <input type="text" placeholder="First Name" id="firstname" name="FirstName" maxlength="50" /></div>
+                    <div class="span2">
+                        <input type="text" placeholder="Surname" id="surname" name="LastName" maxlength="50" /></div>
+                </div>
+                <label for="email">Email <span class="required">*</span></label>
+                <div class="form-container">
+                    <div>
+                        <input type="text" placeholder="example@example.com" class="full" id="email" maxlength="100" name="EmailAddress" value="" /></div>
+                </div>
+                <label for="confirm-email">Confirm email <span class="required">*</span></label>
+                <div class="form-container">
+                    <div>
+                        <input type="text" placeholder="example@example.com" class="full" id="confirm-email" maxlength="100" name="ConfirmEmailAddress" value="" /></div>
+                </div>
+                <label for="country-code">Phone number</label>
+                <div class="form-container">
+                    <div class="span1">
+                        <input type="text" placeholder="Country" id="country-code" name="CountryCode" maxlength-old="10" />
+                    </div>
+                    <div class="span1">
+                        <input type="text" placeholder="Area" id="areacode" name="AreaCode" maxlength-old="10" />
+                    </div>
+                    <div class="span2">
+                        <input type="text" placeholder="" id="phone" name="PhoneNumber" maxlength-old="30" />
+                    </div>
+                </div>
+                
+                <div class="form-container span-two">
+                    <div class="span2">
+						<label for="region">Location <span class="required">*</span></label>
+                        <select class="chosen-select js-enquiry-form-country-dropdown" id="country" name="Country">
+                            <option value="">Country</option>
+
+							
+                                    <option value="Afghanistan" >Afghanistan</option>
+                                
+                                    <option value="Albania" >Albania</option>
+                                
+                                    <option value="Algeria" >Algeria</option>
+                                
+                                    <option value="American Samoa" >American Samoa</option>
+                                
+                                    <option value="Andorra" >Andorra</option>
+                                
+                                    <option value="Angola" >Angola</option>
+                                
+                                    <option value="Antigua and Barbuda" >Antigua and Barbuda</option>
+                                
+                                    <option value="Argentina" >Argentina</option>
+                                
+                                    <option value="Armenia" >Armenia</option>
+                                
+                                    <option value="Aruba" >Aruba</option>
+                                
+                                    <option value="Australia" >Australia</option>
+                                
+                                    <option value="Austria" >Austria</option>
+                                
+                                    <option value="Azerbaijan" >Azerbaijan</option>
+                                
+                                    <option value="Bahamas" >Bahamas</option>
+                                
+                                    <option value="Bahrain" >Bahrain</option>
+                                
+                                    <option value="Bangladesh" >Bangladesh</option>
+                                
+                                    <option value="Barbados" >Barbados</option>
+                                
+                                    <option value="Belarus" >Belarus</option>
+                                
+                                    <option value="Belgium" >Belgium</option>
+                                
+                                    <option value="Belize" >Belize</option>
+                                
+                                    <option value="Benin" >Benin</option>
+                                
+                                    <option value="Bhutan" >Bhutan</option>
+                                
+                                    <option value="Bolivia" >Bolivia</option>
+                                
+                                    <option value="Bosnia and Herzegovinia" >Bosnia and Herzegovinia</option>
+                                
+                                    <option value="Botswana" >Botswana</option>
+                                
+                                    <option value="Brazil" >Brazil</option>
+                                
+                                    <option value="British Virgin Islands" >British Virgin Islands</option>
+                                
+                                    <option value="Brunei Darussalam" >Brunei Darussalam</option>
+                                
+                                    <option value="Bulgaria" >Bulgaria</option>
+                                
+                                    <option value="Burkina Faso" >Burkina Faso</option>
+                                
+                                    <option value="Burundi" >Burundi</option>
+                                
+                                    <option value="Cambodia" >Cambodia</option>
+                                
+                                    <option value="Cameroon" >Cameroon</option>
+                                
+                                    <option value="Canada" >Canada</option>
+                                
+                                    <option value="Cayman Islands" >Cayman Islands</option>
+                                
+                                    <option value="Central African Republic" >Central African Republic</option>
+                                
+                                    <option value="Chad" >Chad</option>
+                                
+                                    <option value="Chile" >Chile</option>
+                                
+                                    <option value="China" >China</option>
+                                
+                                    <option value="Colombia" >Colombia</option>
+                                
+                                    <option value="Congo" >Congo</option>
+                                
+                                    <option value="Cook Islands" >Cook Islands</option>
+                                
+                                    <option value="Costa Rica" >Costa Rica</option>
+                                
+                                    <option value="Croatia" >Croatia</option>
+                                
+                                    <option value="Cuba" >Cuba</option>
+                                
+                                    <option value="Curaçao" >Curaçao</option>
+                                
+                                    <option value="Cyprus" >Cyprus</option>
+                                
+                                    <option value="Czech Republic" >Czech Republic</option>
+                                
+                                    <option value="Democratic Republic of the Congo" >Democratic Republic of the Congo</option>
+                                
+                                    <option value="Denmark" >Denmark</option>
+                                
+                                    <option value="Djibouti" >Djibouti</option>
+                                
+                                    <option value="Dominica" >Dominica</option>
+                                
+                                    <option value="Dominican Republic" >Dominican Republic</option>
+                                
+                                    <option value="East Timor" >East Timor</option>
+                                
+                                    <option value="Ecuador" >Ecuador</option>
+                                
+                                    <option value="Egypt" >Egypt</option>
+                                
+                                    <option value="El Salvador" >El Salvador</option>
+                                
+                                    <option value="Equatorial Guinea" >Equatorial Guinea</option>
+                                
+                                    <option value="Eritrea" >Eritrea</option>
+                                
+                                    <option value="Estonia" >Estonia</option>
+                                
+                                    <option value="Ethiopia" >Ethiopia</option>
+                                
+                                    <option value="Falkland Islands" >Falkland Islands</option>
+                                
+                                    <option value="Fiji" >Fiji</option>
+                                
+                                    <option value="Finland" >Finland</option>
+                                
+                                    <option value="France" >France</option>
+                                
+                                    <option value="French Guiana" >French Guiana</option>
+                                
+                                    <option value="French Polynesia" >French Polynesia</option>
+                                
+                                    <option value="Gabon" >Gabon</option>
+                                
+                                    <option value="Georgia" >Georgia</option>
+                                
+                                    <option value="Germany" >Germany</option>
+                                
+                                    <option value="Ghana" >Ghana</option>
+                                
+                                    <option value="Greece" >Greece</option>
+                                
+                                    <option value="Grenada" >Grenada</option>
+                                
+                                    <option value="Guadeloupe" >Guadeloupe</option>
+                                
+                                    <option value="Guam" >Guam</option>
+                                
+                                    <option value="Guatemala" >Guatemala</option>
+                                
+                                    <option value="Guinea" >Guinea</option>
+                                
+                                    <option value="Guyana" >Guyana</option>
+                                
+                                    <option value="Haiti" >Haiti</option>
+                                
+                                    <option value="Honduras" >Honduras</option>
+                                
+                                    <option value="Hong Kong" >Hong Kong</option>
+                                
+                                    <option value="Hungary" >Hungary</option>
+                                
+                                    <option value="Iceland" >Iceland</option>
+                                
+                                    <option value="India" >India</option>
+                                
+                                    <option value="Indonesia" >Indonesia</option>
+                                
+                                    <option value="Iran" >Iran</option>
+                                
+                                    <option value="Iraq" >Iraq</option>
+                                
+                                    <option value="Ireland" >Ireland</option>
+                                
+                                    <option value="Israel" >Israel</option>
+                                
+                                    <option value="Italy" >Italy</option>
+                                
+                                    <option value="Ivory Coast" >Ivory Coast</option>
+                                
+                                    <option value="Jamaica" >Jamaica</option>
+                                
+                                    <option value="Japan" >Japan</option>
+                                
+                                    <option value="Jordan" >Jordan</option>
+                                
+                                    <option value="Kazakhstan" >Kazakhstan</option>
+                                
+                                    <option value="Kenya" >Kenya</option>
+                                
+                                    <option value="Kiribati" >Kiribati</option>
+                                
+                                    <option value="Kosovo" >Kosovo</option>
+                                
+                                    <option value="Kuwait" >Kuwait</option>
+                                
+                                    <option value="Kyrgyztan" >Kyrgyztan</option>
+                                
+                                    <option value="Laos" >Laos</option>
+                                
+                                    <option value="Latvia" >Latvia</option>
+                                
+                                    <option value="Lebanon" >Lebanon</option>
+                                
+                                    <option value="Lesotho" >Lesotho</option>
+                                
+                                    <option value="Liberia" >Liberia</option>
+                                
+                                    <option value="Libya" >Libya</option>
+                                
+                                    <option value="Liechtenstein" >Liechtenstein</option>
+                                
+                                    <option value="Lithuania" >Lithuania</option>
+                                
+                                    <option value="Luxembourg" >Luxembourg</option>
+                                
+                                    <option value="Macau" >Macau</option>
+                                
+                                    <option value="Macedonia" >Macedonia</option>
+                                
+                                    <option value="Madagascar" >Madagascar</option>
+                                
+                                    <option value="Malawi" >Malawi</option>
+                                
+                                    <option value="Malaysia" >Malaysia</option>
+                                
+                                    <option value="Maldives" >Maldives</option>
+                                
+                                    <option value="Mali" >Mali</option>
+                                
+                                    <option value="Malta" >Malta</option>
+                                
+                                    <option value="Marshall Islands" >Marshall Islands</option>
+                                
+                                    <option value="Martinique" >Martinique</option>
+                                
+                                    <option value="Mauritania" >Mauritania</option>
+                                
+                                    <option value="Mauritius" >Mauritius</option>
+                                
+                                    <option value="Mayotte" >Mayotte</option>
+                                
+                                    <option value="Mexico" >Mexico</option>
+                                
+                                    <option value="Micronesia" >Micronesia</option>
+                                
+                                    <option value="Moldova" >Moldova</option>
+                                
+                                    <option value="Monaco" >Monaco</option>
+                                
+                                    <option value="Mongolia" >Mongolia</option>
+                                
+                                    <option value="Montenegro" >Montenegro</option>
+                                
+                                    <option value="Montserrat" >Montserrat</option>
+                                
+                                    <option value="Morocco" >Morocco</option>
+                                
+                                    <option value="Mozambique" >Mozambique</option>
+                                
+                                    <option value="Myanmar" >Myanmar</option>
+                                
+                                    <option value="Namibia" >Namibia</option>
+                                
+                                    <option value="Nauru" >Nauru</option>
+                                
+                                    <option value="Nepal" >Nepal</option>
+                                
+                                    <option value="Netherlands" >Netherlands</option>
+                                
+                                    <option value="New Caledonia" >New Caledonia</option>
+                                
+                                    <option value="New Zealand" >New Zealand</option>
+                                
+                                    <option value="Nicaragua" >Nicaragua</option>
+                                
+                                    <option value="Niger" >Niger</option>
+                                
+                                    <option value="Nigeria" >Nigeria</option>
+                                
+                                    <option value="Niue" >Niue</option>
+                                
+                                    <option value="Northern Mariana Islands" >Northern Mariana Islands</option>
+                                
+                                    <option value="Norway" >Norway</option>
+                                
+                                    <option value="Oman" >Oman</option>
+                                
+                                    <option value="Pakistan" >Pakistan</option>
+                                
+                                    <option value="Palau" >Palau</option>
+                                
+                                    <option value="Palestine" >Palestine</option>
+                                
+                                    <option value="Panama" >Panama</option>
+                                
+                                    <option value="Papua New Guinea" >Papua New Guinea</option>
+                                
+                                    <option value="Paraguay" >Paraguay</option>
+                                
+                                    <option value="Peru" >Peru</option>
+                                
+                                    <option value="Philippines" >Philippines</option>
+                                
+                                    <option value="Pitcairn Islands" >Pitcairn Islands</option>
+                                
+                                    <option value="Poland" >Poland</option>
+                                
+                                    <option value="Portugal" >Portugal</option>
+                                
+                                    <option value="Puerto Rico" >Puerto Rico</option>
+                                
+                                    <option value="Qatar" >Qatar</option>
+                                
+                                    <option value="Reunion" >Reunion</option>
+                                
+                                    <option value="Romania" >Romania</option>
+                                
+                                    <option value="Russian Federation" >Russian Federation</option>
+                                
+                                    <option value="Rwanda" >Rwanda</option>
+                                
+                                    <option value="Saint Helena" >Saint Helena</option>
+                                
+                                    <option value="Saint Kitts and Nevis" >Saint Kitts and Nevis</option>
+                                
+                                    <option value="Saint Lucia" >Saint Lucia</option>
+                                
+                                    <option value="Saint Martin" >Saint Martin</option>
+                                
+                                    <option value="Saint Vincent and the Grenadines" >Saint Vincent and the Grenadines</option>
+                                
+                                    <option value="Samoa" >Samoa</option>
+                                
+                                    <option value="San Marino" >San Marino</option>
+                                
+                                    <option value="Saudi Arabia" >Saudi Arabia</option>
+                                
+                                    <option value="Senegal" >Senegal</option>
+                                
+                                    <option value="Serbia" >Serbia</option>
+                                
+                                    <option value="Seychelles" >Seychelles</option>
+                                
+                                    <option value="Sierra Leone" >Sierra Leone</option>
+                                
+                                    <option value="Singapore" >Singapore</option>
+                                
+                                    <option value="Slovakia" >Slovakia</option>
+                                
+                                    <option value="Slovenia" >Slovenia</option>
+                                
+                                    <option value="Solomon Islands" >Solomon Islands</option>
+                                
+                                    <option value="Somalia" >Somalia</option>
+                                
+                                    <option value="South Africa" >South Africa</option>
+                                
+                                    <option value="South Korea" >South Korea</option>
+                                
+                                    <option value="South Sudan" >South Sudan</option>
+                                
+                                    <option value="Spain" >Spain</option>
+                                
+                                    <option value="Sri Lanka" >Sri Lanka</option>
+                                
+                                    <option value="Sudan" >Sudan</option>
+                                
+                                    <option value="Suriname" >Suriname</option>
+                                
+                                    <option value="Swaziland" >Swaziland</option>
+                                
+                                    <option value="Sweden" >Sweden</option>
+                                
+                                    <option value="Switzerland" >Switzerland</option>
+                                
+                                    <option value="Syria" >Syria</option>
+                                
+                                    <option value="Taiwan" >Taiwan</option>
+                                
+                                    <option value="Tajikistan" >Tajikistan</option>
+                                
+                                    <option value="Tanzania" >Tanzania</option>
+                                
+                                    <option value="Thailand" >Thailand</option>
+                                
+                                    <option value="Togo" >Togo</option>
+                                
+                                    <option value="Tokelau" >Tokelau</option>
+                                
+                                    <option value="Tonga" >Tonga</option>
+                                
+                                    <option value="Trinidad and Tobago" >Trinidad and Tobago</option>
+                                
+                                    <option value="Tunisia" >Tunisia</option>
+                                
+                                    <option value="Turkey" >Turkey</option>
+                                
+                                    <option value="Turkmenistan" >Turkmenistan</option>
+                                
+                                    <option value="Turks and Caicos" >Turks and Caicos</option>
+                                
+                                    <option value="Tuvalu" >Tuvalu</option>
+                                
+                                    <option value="Uganda" >Uganda</option>
+                                
+                                    <option value="Ukraine" >Ukraine</option>
+                                
+                                    <option value="United Arab Emirates" >United Arab Emirates</option>
+                                
+                                    <option value="United Kingdom" >United Kingdom</option>
+                                
+                                    <option value="United States of America" >United States of America</option>
+                                
+                                    <option value="United States Virgin Islands" >United States Virgin Islands</option>
+                                
+                                    <option value="Uruguay" >Uruguay</option>
+                                
+                                    <option value="Uzbekistan" >Uzbekistan</option>
+                                
+                                    <option value="Vanuatu" >Vanuatu</option>
+                                
+                                    <option value="Venezuela" >Venezuela</option>
+                                
+                                    <option value="Vietnam" >Vietnam</option>
+                                
+                                    <option value="Western Sahara" >Western Sahara</option>
+                                
+                                    <option value="Yemen" >Yemen</option>
+                                
+                                    <option value="Zambia" >Zambia</option>
+                                
+                                    <option value="Zimbabwe" >Zimbabwe</option>
+                                
+
+                            
+                        </select>
+                    </div>
+                    <div class="span2 js-us-state-dropdown-container" style="display: none;">
+						<label for="region">State <span class="required">*</span></label>
+                        <select class="chosen-select" id="state" name="State">
+                            <option value=""></option>
+
+							
+                                    <option value="Alabama" >Alabama</option>
+                                
+                                    <option value="Alaska" >Alaska</option>
+                                
+                                    <option value="Arizona" >Arizona</option>
+                                
+                                    <option value="Arkansas" >Arkansas</option>
+                                
+                                    <option value="California" >California</option>
+                                
+                                    <option value="Colorado" >Colorado</option>
+                                
+                                    <option value="Connecticut" >Connecticut</option>
+                                
+                                    <option value="Delaware" >Delaware</option>
+                                
+                                    <option value="District of Columbia" >District of Columbia</option>
+                                
+                                    <option value="Florida" >Florida</option>
+                                
+                                    <option value="Georgia" >Georgia</option>
+                                
+                                    <option value="Hawaii" >Hawaii</option>
+                                
+                                    <option value="Idaho" >Idaho</option>
+                                
+                                    <option value="Illinois" >Illinois</option>
+                                
+                                    <option value="Indiana" >Indiana</option>
+                                
+                                    <option value="Iowa" >Iowa</option>
+                                
+                                    <option value="Kansas" >Kansas</option>
+                                
+                                    <option value="Kentucky" >Kentucky</option>
+                                
+                                    <option value="Louisiana" >Louisiana</option>
+                                
+                                    <option value="Maine" >Maine</option>
+                                
+                                    <option value="Maryland" >Maryland</option>
+                                
+                                    <option value="Massachusetts" >Massachusetts</option>
+                                
+                                    <option value="Michigan" >Michigan</option>
+                                
+                                    <option value="Minnesota" >Minnesota</option>
+                                
+                                    <option value="Mississippi" >Mississippi</option>
+                                
+                                    <option value="Missouri" >Missouri</option>
+                                
+                                    <option value="Montana" >Montana</option>
+                                
+                                    <option value="Nebraska" >Nebraska</option>
+                                
+                                    <option value="Nevada" >Nevada</option>
+                                
+                                    <option value="New Hampshire" >New Hampshire</option>
+                                
+                                    <option value="New Jersey" >New Jersey</option>
+                                
+                                    <option value="New Mexico" >New Mexico</option>
+                                
+                                    <option value="New York" >New York</option>
+                                
+                                    <option value="North Carolina" >North Carolina</option>
+                                
+                                    <option value="North Dakota" >North Dakota</option>
+                                
+                                    <option value="Ohio" >Ohio</option>
+                                
+                                    <option value="Oklahoma" >Oklahoma</option>
+                                
+                                    <option value="Oregon" >Oregon</option>
+                                
+                                    <option value="Pennsylvania" >Pennsylvania</option>
+                                
+                                    <option value="Rhode Island" >Rhode Island</option>
+                                
+                                    <option value="South Carolina" >South Carolina</option>
+                                
+                                    <option value="South Dakota" >South Dakota</option>
+                                
+                                    <option value="Tennessee" >Tennessee</option>
+                                
+                                    <option value="Texas" >Texas</option>
+                                
+                                    <option value="Utah" >Utah</option>
+                                
+                                    <option value="Vermont" >Vermont</option>
+                                
+                                    <option value="Virginia" >Virginia</option>
+                                
+                                    <option value="Washington" >Washington</option>
+                                
+                                    <option value="West Virginia" >West Virginia</option>
+                                
+                                    <option value="Wisconsin" >Wisconsin</option>
+                                
+                                    <option value="Wyoming" >Wyoming</option>
+                                
+                        </select>
+                    </div>
+
+					<div class="span2 js-cn-state-dropdown-container" style="display: none;">
+						<label for="region"> <span class="required">*</span></label>
+						<select class="chosen-select" id="province-cn" name="ProvinceCn">
+							<option value=""></option>
+							<option value="Beijing"></option>
+                            <option value="Tianjin"></option>
+                            <option value="Shanghai"></option>
+                            <option value="Chongqing"></option>
+                            <option value="Hebei"></option>
+                            <option value="Shanxi"></option>
+                            <option value="Liaoning"></option>
+                            <option value="Jilin"></option>
+                            <option value="Heilongjiang"></option>
+                            <option value="Jiangsu"></option>
+                            <option value="Zhejiang"></option>
+                            <option value="Anhui"></option>
+                            <option value="Fujian"></option>
+                            <option value="Jiangxi"></option>
+                            <option value="Shandong"></option>
+                            <option value="Henan"></option>
+                            <option value="Hubei"></option>
+                            <option value="Hunan"></option>
+                            <option value="Guangdong"></option>
+                            <option value="Hainan"></option>
+                            <option value="Sichuan"></option>
+                            <option value="Guizhou"></option>
+                            <option value="Yunnan"></option>
+                            <option value="Shaanxi"></option>
+                            <option value="Gansu"></option>
+                            <option value="Qinghai"></option>
+                            <option value="Taiwan"></option>
+                            <option value="Inner Mongolia"></option>
+                            <option value="Guangxi"></option>
+                            <option value="Tibert"></option>
+                            <option value="Ningxia"></option>
+                            <option value="Xinjiang"></option>
+                            <option value="Hong Kong"></option>
+							<option value="Macau"></option>
+						</select>
+					</div>
+                </div>
+
+                
+                <div class="form-container">
+                    <div class="span2">
+						<label>Company name <span class="required">*</span></label>
+                        <input type="text" id="company" name="Company" maxlength="100" />
+                    </div>
+                    <div class="span2">
+						<label>Job title <span class="required">*</span></label>
+                        <input type="text" id="jobtitle" name="JobTitle" maxlength="100" />
+                    </div>
+                </div>
+                
+                <label>Comments</label>
+                <div class="form-container span-full">
+                    <textarea class="full" name="Comments" maxlength="1500"></textarea>
+                </div>
+                
+                    <input type="hidden" id="updates" name="SendUpdates" value="true" />
+                
+            </div>
+
+            
+                <div class="span4 indented">
+                    <h3>What products or services can we help you with?</h3>
+                    <ul class="unlist checkboxes section-list">
+                        <li>
+                            <input type="checkbox" id="framecad" name="Products" value="The FRAMECAD System" checked="checked" />
+                            <label for="framecad">The FRAMECAD System</label>
+                        </li>
+
+						<li>
+                            <input type="checkbox" id="steel" name="Products" value="Steel" checked="checked" />
+                            <label for="steel">Steel</label>
+                        </li>
+
+						<li>
+                            <input type="checkbox" id="manufacturingequipment" name="Products" value="Manufacturing Equipment" checked="checked" />
+                            <label for="manufacturingequipment">Manufacturing Equipment</label>
+                        </li>
+
+						<li>
+                            <input type="checkbox" id="fastnersandconnectors" name="Products" value="Fastners & Connectors" checked="checked" />
+                            <label for="fastnersandconnectors">Fastners & Connectors</label>
+                        </li>
+
+						<li>
+                            <input type="checkbox" id="software" name="Products" value="Software" checked="checked" />
+                            <label for="software">Software</label>
+                        </li>
+
+						<li>
+                            <input type="checkbox" id="subassemblies" name="Products" value="Sub Assemblies" checked="checked" />
+                            <label for="subassemblies">Sub Assemblies</label>
+                        </li>
+
+						<li>
+                            <input type="checkbox" id="training" name="Products" value="Training" checked="checked" />
+                            <label for="training">Training</label>
+                        </li>
+
+						<li>
+                            <input type="checkbox" id="myframecadcustomerportal" name="Products" value="MyFRAMECAD Customer Portal" checked="checked" />
+                            <label for="myframecadcustomerportal">MyFRAMECAD CustomerPortal</label>
+                        </li>
+
+						<li>
+                            <input type="checkbox" id="nzframing" name="Products" value="NZ Framing" checked="checked" />
+                            <label for="nzframing">NZ Framing</label>
+                        </li>
+
+						<li>
+                            <input type="checkbox" id="buildingproducts" name="Products" value="Building Products" checked="checked" />
+                            <label for="buildingproducts">Building Products</label>
+                        </li>
+
+                        
+                        
+                    </ul>
+                </div>
+            
+            
+        </div>
+        <div class="bottom-cta">
+            <input type="hidden" name="EnquiryType" value="Enquiry" />
+            <input type="hidden" name="ResourceIdentifier" value="" />
+            <input type="hidden" id="tracking-group" value="Signup" />
+            <input type="hidden" id="tracking-item" value="Email Submission" />
+            <input type="submit" value="Make enquiry" class="btn" id="btn-make-enquiry" />
+            <a href="/privacy-policy/">Privacy Policy</a>
+        </div>
+    </div>
+
+</div>
+
+                
+            </div>
+        
+</div>
+</div>
+<div id="QRPopup" class="popup mfp-hide mfp-with-anim qrcode-popup">
+	 <div class="row">
+		 <div class="span4 span-qrcode">
+			 <img style="width:200px;margin-bottom: 0;" src="https://d2l4vd9pz6eoxu.cloudfront.net/Site_Assets/Media/Framecad/Images/Icons/WECHAT-QR-CODE.jpg">
+             <p style="text-align: center;color: green;margin-bottom: 0;">FRAMECAD WeChat Channel</p>
+		 </div>
+		 <div class="span4 span-details">
+			 <h3>Available for existing WeChat users in Chinese only - click on links below to download</h3>
+			 <p>Please use the URLs here for the app download buttons:</p>
+			 <p>
+				 <a class="wechat-btn" target="_blank" style="background-image:url(//res.wx.qq.com/a/wx_fed/wechat_portal/res/static/img/3la2DYJ.png);" href="https://appsto.re/us/S8gTy.i"></a> 
+				 <a class="wechat-btn" target="_blank" style="margin-left:5px;background-image:url(//res.wx.qq.com/a/wx_fed/wechat_portal/res/static/img/COWNINN.png)" href="https://play.google.com/store/apps/details?id=com.tencent.mm&referrer=utm_source%3Dwechat.com%26utm_medium%3Ddesktop"></a>
+			 </p>
+
+		 </div>
+	 </div>
+</div>
+<!-- End of Subscribe Section -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://d2l4vd9pz6eoxu.cloudfront.net/site_assets/resources/javascript/magnificpopup.js"></script>
+<script type="text/javascript">
+    /*
+* Subscribe Section
+*/
+    var $btnSubscribe = $(".js-subscribe-btn");
+
+    if ($btnSubscribe.length > 0) {
+
+        $btnSubscribe.magnificPopup({
+            closeBtnInside: true,
+            prependTo: "#aspnetForm",
+            removalDelay: 500, //delay removal by X to allow out-animation
+            callbacks: {
+                beforeOpen: function () {
+                    this.st.mainClass = this.st.el.attr("data-effect");
+                },
+                close: function () {
+                    this.content.removeClass("success");
+                }
+            },
+            midClick: true,
+            type: "inline"
+        });
+        
+        $btnSubscribe.on("click", function (e) {
+            $('#email').val($('.subscriberEmail').val());
+            $('#confirm-email').val($('.subscriberEmail').val());
+            var parent = $(this).parent();
+
+            var $valEmail = parent.find($(".subscriberEmail")).val();
+
+            if ($valEmail != "") {
+
+                $(".subscriberEmailField").val($valEmail).trigger("focus");
+
+            }
+
+        });
+
+        $(".subscriberEmail").on("keyup", function () {
+
+            var value = $(this).val();
+
+            $(".subscriberEmail").val(value);
+
+            if (value != "") {
+                $(".subscriberEmail").parent().parent().addClass("show-label");
+            } else {
+                $(".subscriberEmail").parent().parent().removeClass("show-label");
+            }
+
+        });
+
+        $(".subscriberEmail").on("focus", function () {
+
+            $(this).parent().parent().addClass("show-label");
+
+        });
+
+        $(".subscriberEmail").on("focusout", function () {
+
+            var value = $(this).val();
+
+            if (value != "") {
+
+                $(this).parent().parent().addClass("show-label");
+
+            } else {
+
+                $(this).parent().parent().removeClass("show-label");
+
+            }
+
+        });
+	}
+
+	var $jswechatbtn = $(".js-wechat-btn");
+
+	if ($jswechatbtn.length > 0) {
+		$jswechatbtn.magnificPopup({
+			closeBtnInside: true,
+			removalDelay: 500, //delay removal by X to allow out-animation
+			callbacks: {
+				beforeOpen: function () {
+					this.st.mainClass = this.st.el.attr("data-effect");
+				},
+				close: function () {
+					this.content.removeClass("success");
+				}
+			},
+			midClick: true,
+			type: "inline"
+		});
+	}
+
+    $(window).on('scroll', function () {
+
+        checkFooterScroll();
+
+    });
+
+    $(document).ready(function () {
+
+        initFooterSticky();
+
+        checkFooterScroll();
+
+    });
+
+    function checkFooterScroll() {
+
+        var $stickyFooter = $('.js-sticky-footer');
+
+        if ($stickyFooter.length > 0) {
+            if (isScrolledIntoView('#footer-container')) {
+
+                $("body").removeClass("footer-sticky-visible");
+
+                $(".arrows").hide();
+
+            } else {
+
+                $("body").addClass("footer-sticky-visible");
+
+                $(".arrows").show();
+            }
+        }
+    }
+
+    function initFooterSticky() {
+
+        var $stickyFooter = $('.js-sticky-footer');
+
+        if ($stickyFooter.length > 0) {
+
+            $("body").addClass("footer-sticky-visible");
+
+        }
+
+        $(".sticky-footer-close").on("click", function (e) {
+
+            e.preventDefault();
+
+            $("body").addClass("footer-sticky-forcehide");
+
+        });
+
+    }
+
+    var isScrolledIntoView = function (elem) {
+        var $elem = $(elem);
+        var $window = $(window);
+
+        var docViewTop = $window.scrollTop();
+        var docViewBottom = docViewTop + $window.height();
+
+        var elemTop = $elem.offset().top;
+        var elemBottom = elemTop + $elem.height();
+
+        return ((elemTop <= docViewBottom));
+    }
+
+    /*
+	* End of Subscribe Section
+	*/
+
+</script>
+
+                
+
+			
+
+			<div class="stickyfooter-container" style="display:none;">
+				<div class="subcontainer" >
+					<div class="stfooter-span4 col1">
+						<label class="label-stickyfooter">Interested in learning more?</label>
+					</div>
+					<div class="stfooter-span4 form-container">
+						<div class="form-col col-2">
+							<input class="txt-email" type="text" placeholder="Your email">
+						</div>
+						<div class="form-col col-3">
+							
+							<a class="btn-enquiry" href="#">Make an enquiry</a>
+						</div>
+					</div>
+					
+					<div class="stfooter-span4 col4">
+						<ul class="social-icon">
+							<li class="label-margin-right"><label class="label-stickyfooter">Connect with us</label></li>
+                            <li>
+                                <a href="https://www.facebook.com/FRAMECAD"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/FRAMECAD"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                            </li>
+							<li>
+                                <a href="https://www.linkedin.com/company/framecad-limited"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://www.youtube.com/user/framecadsolutions?feature=watch"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>
+                            </li>
+                            
+                        </ul>
+					</div>
+				</div>
+			</div>
+			
+			<div id="footer-container" class="outer">
+               
+				<div id="footer" class="inner">
+
+					<div class="logo"></div>
+					
+					
+
+					<div class="center">
+						
+
+<ul class="unlist primary">
+    <li>
+        
+	            <a href="/About-Us">About Us</a>
+             <span>\</span> </li><li>
+	            <a href="/Contact-Us">Contact Us</a>
+             <span>\</span> </li><li>
+	            <a href="/Job-Vacancies">Careers</a>
+             <span>\</span> </li><li>
+	            <a href="/Contact-Us/Office-Locations">Office Locations</a>
+             <span>\</span> </li><li>
+	            <a href="/Products-Services/Brochures-and-Downloads">Brochures and Downloads</a>
+            
+    </li>
+</ul>
+						
+
+<ul class="unlist secondary">
+    
+	        <li><a href="/Frequently-Asked-Questions">Frequently Asked Questions</a></li>
+        
+	        <li><a href="/Contact-Us/Email-newsletter-sign-up">Email newsletter sign up</a></li>
+        
+</ul>
+						
+
+<ul class="unlist tertiary">
+    
+	        <li><a href="/Terms-Conditions">Terms & Conditions</a></li>
+        <li>\</li>
+	        <li><a href="/Privacy-Policy">Privacy Policy</a></li>
+        <li>\</li>
+	        <li><a href="/Sitemap">Sitemap</a></li>
+        
+</ul>
+					</div>
+					<div class="social">
+						<ul class="unlist">
+							<li><a href="https://www.facebook.com/FRAMECAD" class="fb" target="_blank">Facebook</a></li>
+							<li><a href="https://twitter.com/FRAMECAD" class="twitter" target="_blank">Twitter</a></li>
+							<li><a href="https://www.linkedin.com/company/framecad-limited" class="linkedin fa fa-linkedin fa-2x" target="_blank"></a></li>
+							<li><a href="http://www.youtube.com/user/framecadsolutions?feature=watch" class="youtube" target="_blank">Youtube</a></li>
+							<li><a href="#WeChatPopup" data-effect="mfp-move-from-top" class="js-wechat-footer-btn wechat-footer linkedin fa fa-wechat fa-2x"></a></li>
+                            <li><a href="//www.weibo.com/u/6177524744?refer_flag=1001030201_" class="linkedin fa fa-weibo fa-2x" target="_blank"></a></li>
+						</ul>
+						<!--Start WeChat modal-->
+						<div id="WeChatPopup" class="popup mfp-hide mfp-with-anim qrcode-popup">
+							 <div class="row">
+								 <div class="span4 span-qrcode">
+									 <img style="width:200px;margin-bottom: 0;" src="https://d2l4vd9pz6eoxu.cloudfront.net/Site_Assets/Media/Framecad/Images/Icons/WECHAT-QR-CODE.jpg">
+									 <p style="text-align: center;color: green;margin-bottom: 0;">FRAMECAD WeChat Channel</p>
+								 </div>
+								 <div class="span4 span-details">
+									 <h3>Available for existing WeChat users in Chinese only - click on links below to download</h3>
+									 <p>Please use the URLs here for the app download buttons:</p>
+									 <p>
+										 <a class="wechat-btn" target="_blank" style="background-image:url(//res.wx.qq.com/a/wx_fed/wechat_portal/res/static/img/3la2DYJ.png);" href="https://appsto.re/us/S8gTy.i"></a> 
+										 <a class="wechat-btn" target="_blank" style="margin-left:5px;background-image:url(//res.wx.qq.com/a/wx_fed/wechat_portal/res/static/img/COWNINN.png)" href="https://play.google.com/store/apps/details?id=com.tencent.mm&referrer=utm_source%3Dwechat.com%26utm_medium%3Ddesktop"></a>
+									 </p>
+
+								 </div>
+							 </div>
+						</div>
+						<!--End WeChat modal-->
+					</div>
+					<p class="reference">©2016 FRAMECAD<sup>®</sup> Limited FRAMECAD<sup>®</sup>, the FRAMECAD<sup>®</sup> logo, FRAMEMASTER and the FRAMEMASTER logo are all trade marks of FRAMECAD<sup>®</sup> Limited.</p>
+				</div>
+			</div>
+
+			<div class="js-google-translate-available-culture-versions" style="display: none;">
+				<input type="hidden" name="ctl00$hdnAvailableCultureVersions" id="ctl00_hdnAvailableCultureVersions" value="en-AU" />
+			</div>
+			<div class="js-google-translate-check hidden" style="display: none;">content</div>
+		
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("ctl00_manScript_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();
+var callBackFrameUrl='/WebResource.axd?d=1dGvOEPUhAkRP0A-H9ldkFoi11VB8zUMDej09FQTJ6wpot06TX9m4_HElB9pEyk1SsfzNC5-dA1WZ5T8GOTdO4d_7HSJSfRX5AWWgY6bUd41&t=636476119203255666';
+WebForm_InitCallback();//]]>
+</script>
+</form>
+	</div>
+
+	<div class="floating-container-logo">
+		<a class="floating-close-logo">X</a>
+		<a class="floating-circle-logo" href="http://blog.framecad.com/blog/framecad-celebrating-30-years-of-cfs-construction">
+			<img src="https://d2l4vd9pz6eoxu.cloudfront.net/Site_Assets/Resources/Images/assets/30years-logo.png" />
+		</a>
+	</div>
+	
+
+	<div id="fb-root"></div>
+	<!-- video on ie8  -->
+	<!--[if IE 8]>
+	<script type="text/javascript" src="/site_assets/resources/javascript/plugins/mediaelement/html5shiv.js"></script>
+<![endif]-->
+
+	<!-- Javascript -->
+	<script type="text/javascript">JSCLASS_PATH = '/site_assets/resources/javascript/js.class/min/';</script>
+	<script type="text/javascript" src="https://d2l4vd9pz6eoxu.cloudfront.net/site_assets/resources/javascript/js.class/min/loader-browser.js"></script>
+	<script type="text/javascript" src="https://d2l4vd9pz6eoxu.cloudfront.net/site_assets/resources/javascript/main.js"></script>
+	<script type="text/javascript">
+		// 3-2-1-GO!
+		JS.require('ns.init', function () { });
+
+		JS.require('ns.googleTranslate', function (googleTranslate) {
+			$(window).load(googleTranslate.init);
+		});
+
+		JS.require('ns.enquiryForm', function (enquiryForm) {
+			$(window).load(enquiryForm.init);
+		});
+	</script>
+	
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-6047819-4']);
+		_gaq.push(['_trackPageview']);
+
+		(function () {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+	<script type="text/javascript">
+		window.heap = window.heap || []; heap.load = function (a) { window._heapid = a; var b = document.createElement("script"); b.type = "text/javascript", b.async = !0, b.src = ("https:" === document.location.protocol ? "https:" : "http:") + "//cdn.heapanalytics.com/js/heap.js"; var c = document.getElementsByTagName("script")[0]; c.parentNode.insertBefore(b, c); var d = function (a) { return function () { heap.push([a].concat(Array.prototype.slice.call(arguments, 0))) } }, e = ["identify", "track"]; for (var f = 0; f < e.length; f++) heap[e[f]] = d(e[f]) };
+		heap.load("3671536909");
+	</script>
+
+	<!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/2087004.js"></script>
+    <!-- End of HubSpot Embed Code -->
+
+	<!--Staring of floating cirle logo script-->
+	<script>
+		$(".floating-close-logo").on('click', function () { $('.floating-container-logo').attr("style", "display:none;"); });
+	</script>
+	<!--End of floating cirle logo script-->
+	<!--Start WeChat footer popup-->
+	<script>
+		$(".js-wechat-footer-btn").magnificPopup({
+			closeBtnInside: true,
+			removalDelay: 500, //delay removal by X to allow out-animation
+			callbacks: {
+				beforeOpen: function () {
+					this.st.mainClass = this.st.el.attr("data-effect");
+				},
+				close: function () {
+					this.content.removeClass("success");
+				}
+			},
+			midClick: true,
+			type: "inline"
+		});
+	</script>
+	<!--End WeChat footer popup-->
+	
+
+
+
+
+</body>
+</html>

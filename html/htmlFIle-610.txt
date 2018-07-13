@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="icon" href="/favicon.ico">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+<meta name="format-detection" content="telephone=no,address=no,email=no">
+<meta name="description" content="Panoviewn（パノビューン）とは360°見渡せるパノラマコンテンツ制作サービスです。既存のWebサイトにも簡単に組込めます。ホテル、不動産、観光地などをパノラマ撮影しコンテンツを付加することで、よりリアルな空間を演出、PRすることが可能です。Googleストリートビューに対応も出来ます。">
+<title>Panoviewn（パノビューン）｜360°パノラマコンテンツ制作</title>
+
+<!-- Google Tag Manager -->
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTHKBV3');</script>
+
+<!-- End Google Tag Manager -->
+
+<link href="/css/reset.css" rel="stylesheet">
+<link href="/css/common.css" rel="stylesheet">
+<link href="/css/top.css?20171220" rel="stylesheet">
+<link href="/css/modal.css" rel="stylesheet">
+<link href="/css/custom.css?20171227" rel="stylesheet">
+<!--フォント-->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/notosansjp.css">
+<script src="/js/jquery.js"></script>
+
+
+</head>
+<body id="top">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTHKBV3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+  <!--**********キービジュアル**********-->
+  <div class="topImage">
+    <div>
+      <img src="/img/top_logo.svg" alt="Panoviewn"/>
+      <p>
+        よりリアルな演出を。
+      </p>
+      <p class="topContact">
+        <a href="#linkThree">
+          <i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i>CONTACT
+        </a>
+      </p>
+    </div>
+    <p class="scroll pcObj">
+      <a href="#case">
+        <span></span>Scroll
+      </a>
+    </p>
+  </div>
+
+  <!--**********ヘッダ**********-->
+  <header>
+    <div class="wrap">
+      <h1>
+        <a href="#top">
+          <img src="/img/logo.svg" alt="Panoviewn"/>
+        </a>
+      </h1>
+      <nav>
+        <ul id="navi">
+          <li>
+            <a href="#linkOne">
+              Case
+            </a>
+          </li>
+          <li>
+            <a href="#linkTwo">
+              Price
+            </a>
+          </li>
+          <li>
+            <a href="#linkThree">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <!--**********コンテンツ**********-->
+  <div class="ctsWrap">
+    
+    <!--/////ケース/////-->
+    <section id="case" class="pageCurrent">
+      <span class="scrollPosition" id="linkOne"></span>
+      <div class="wrap">
+        <h2>
+          Case
+        </h2>
+        <h3>
+          ■CASE1 <span>&#133;ホテル・旅館にて</span>
+        </h3>
+        <ul class="caseList">
+          <li>
+            <img src="/img/ph_case01_01.jpg" alt="ホテル・旅館での使用例画像01"/>
+            <p>
+              Panoviewnを使用してパノラマコンテンツに設置したアイコンからホテルや旅館の情報などを表示させることができます。
+            </p>
+          </li>
+          <li>
+            <img src="/img/ph_case01_02.jpg" alt="ホテル・旅館での使用例画像02"/>
+            <p>
+              お問い合わせフォームを設置することもでき、別ページに移動することなくスムーズにお問い合わせを促すことができます。
+            </p>
+          </li>
+        </ul>
+        <h3>
+          ■CASE2 <span>&#133;モデルルームにて</span>
+        </h3>
+        <ul class="caseList">
+          <li>
+            <img src="/img/ph_case02_01.jpg" alt="モデルルームでの使用例画像01"/>
+            <p>
+              マップを設置することで、ユーザーはマップを見ながら部屋を移動できます。画像のみで見るよりもリアルにその場所をイメージできます。
+            </p>
+          </li>
+          <li>
+            <img src="/img/ph_case02_02.jpg" alt="モデルルームでの使用例画像02"/>
+            <p>
+              ご購入フォームなども埋め込めるため、気に入った家具・設備をその画面から、購入まで導くことも可能です。
+            </p>
+          </li>
+        </ul>
+        <h3>
+          ■CASE&#8734;
+          <span>&#133;ご利用シーンは様々です</span>
+        </h3>
+        <ul class="caseList">
+          <li>
+            <img src="/img/ph_school_case.jpg" alt="学校"/>
+            <p>
+              学校
+            </p>
+          </li>
+          <li>
+            <img src="/img/ph_showroom_case.jpg" alt="ショールーム"/>
+            <p>
+              ショールーム
+            </p>
+          </li>
+          <li>
+            <img src="/img/ph_wedding_case.jpg" alt="結婚式場"/>
+            <p>
+              結婚式場
+            </p>
+          </li>
+          <li>
+            <img src="/img/ph_sightseeing_case.jpg" alt="観光地"/>
+            <p>
+              観光地
+            </p>
+          </li>
+          <li>
+            <img src="/img/ph_sports_case.jpg" alt="スポーツ施設"/>
+            <p>
+              スポーツ施設
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    
+    <!--/////特徴/////-->
+    <section class="feature">
+      <div class="wrap">
+        <h3 class="aboutTtl">
+          リアルを求めるユーザーに、<br class="spBr">よりリアルにアプローチ
+        </h3>
+        <!--box-->
+        <dl class="propertyCts">
+          <dt>
+            <img src="/img/ph_property_360.svg" alt="アイコン01"/>
+          </dt>
+          <dd>
+            <p>
+              パノラマコンテンツによる360°の仮想空間
+            </p>
+            <p>
+              まるでその場にいるかのような魅力を伝えられます。
+            </p>
+          </dd>
+        </dl>
+        <!--box-->
+        <dl class="propertyCts">
+          <dt>
+            <img src="/img/ph_property_sns.svg" alt="アイコン02"/>
+          </dt>
+          <dd>
+            <p>
+              SNSとの連携も簡単
+            </p>
+            <p>
+              Panoviewnに各種SNSを組込むことも可能です。
+            </p>
+          </dd>
+        </dl>
+        <!--box-->
+        <dl class="propertyCts">
+          <dt>
+            <img src="/img/ph_property_10bai.svg" alt="アイコン03"/>
+          </dt>
+          <dd>
+            <p>
+              ユーザー滞在時間が平均の10倍以上
+            </p>
+            <p>
+              ユーザーの離脱を少なくし、アプローチの機会を増やします。
+            </p>
+          </dd>
+        </dl>
+        <!--box-->
+        <dl class="propertyCts">
+          <dt>
+            <img src="/img/ph_property_web.svg" alt="アイコン04"/>
+          </dt>
+          <dd>
+            <p>
+              既存のWebサイトにも組込み可能
+            </p>
+            <p>
+              既存サイトを作り直す必要なく、簡単に組込めます。
+            </p>
+          </dd>
+        </dl>
+        <!--box-->
+        <dl class="propertyCts">
+          <dt>
+            <img src="/img/ph_property_sp.svg" alt="アイコン05"/>
+          </dt>
+          <dd>
+            <p>
+              自動でスマートフォンにも最適化
+            </p>
+            <p>
+              手間をかけることなく、スマートフォンにも自動で最適化されます。
+            </p>
+          </dd>
+        </dl>
+        <!--box-->
+        <dl class="propertyCts">
+          <dt>
+            <img src="/img/ph_property_language.svg" alt="アイコン06"/>
+          </dt>
+          <dd>
+            <p>
+              多言語化対応も
+            </p>
+            <p>
+              様々な言語にも対応可能、世界各国へアプローチもできます。
+            </p>
+          </dd>
+        </dl>
+      </div>
+    </section>
+    
+    <!--/////導入実績/////-->
+    <section class="works">
+      <div class="wrap">
+        <h2>
+          Works
+        </h2>
+        <!---->
+        <ul id="worksList">
+          <li>
+            <a data-modal-target="works03" class="click-works">
+              <img src="/img/ph_works_audi.jpg" width="800" height="800" alt="Audi Virtual Showroom"/>
+              <p>
+                【Audi Virtual Showroom】
+              </p>
+            </a>
+            <span class="works-read"><strong>Audi Virtual Showroom</strong><br>詳細情報やカタログダウンロード・<br>試乗申込までワンストップでご利用可能</span>
+          </li>
+          <li>
+            <a data-modal-target="works01" class="click-works">
+              <img src="/img/ph_works_conference.jpg" width="800" height="800" alt="会議室"/>
+              <p>
+                【会議室.COM】
+              </p>
+            </a>
+            <span class="works-read"><strong>会議室.COM</strong><br>貸会議室のバーチャル内覧開催中！</span>
+          </li>
+          <li>
+            <a data-modal-target="works02" class="click-works">
+              <img src="/img/ph_works_2.png" width="800" height="800" alt="MIDTOWN CHRISTMAS2017 スターライトガーデン"/>
+              <p>
+                【Tourmake Japan】
+              </p>
+            </a>
+            <span class="works-read"><strong>Tourmake Japan企画</strong><br>
+              「VR TOUR Christmas illumination 2017」<br>
+              当社撮影コンテンツ掲載中！</span>
+          </li>
+          <!-- li class="comingsoon">
+            <img src="/img/ph_works_coming.svg" alt="Coming Soon"/>
+          </li -->
+        </ul>
+      </div>
+    </section>
+    
+    <!--**********モーダル**********-->
+    <!--/////導入事例01/////-->
+    <div class="modal modal-works" data-modal-id="works01">
+      <a data-modal-action="close" class="modalClose">
+        ×
+      </a>
+      <!---->
+      <dl class="worksCts">
+        <dt>
+          <img src="/img/logo_black.svg" alt="Panoviewn"/>
+        </dt>
+        <dd>
+          <p>
+            【会議室.COM】
+          </p>
+          <div class="iframeWrap">
+            <img src="/img/loading.svg" alt="" class="loading-img">
+            <iframe id="iframe-works01" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+        </dd>
+      </dl>
+      <!--モーダル閉じタグ↓-->
+    </div>
+
+    <!--/////導入事例02/////-->
+    <div class="modal modal-works" data-modal-id="works02">
+      <a data-modal-action="close" class="modalClose">
+        ×
+      </a>
+      <!---->
+      <dl class="worksCts">
+        <dt>
+          <img src="/img/logo_black.svg" alt="Panoviewn"/>
+        </dt>
+        <dd>
+          <p>
+            【Tourmake Japan】
+          </p>
+          <div class="iframeWrap">
+            <img src="/img/loading.svg" alt="" class="loading-img">
+            <iframe id="iframe-works02" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+        </dd>
+      </dl>
+      <!--モーダル閉じタグ↓-->
+    </div>
+
+    <!--/////導入事例03/////-->
+    <div class="modal modal-works" data-modal-id="works03">
+      <a data-modal-action="close" class="modalClose">
+        ×
+      </a>
+      <!---->
+      <dl class="worksCts">
+        <dt>
+          <img src="/img/logo_black.svg" alt="Panoviewn"/>
+        </dt>
+        <dd>
+          <p>
+            【Audi Virtual Showroom】
+          </p>
+          <div class="iframeWrap">
+            <img src="/img/loading.svg" alt="" class="loading-img">
+            <iframe id="iframe-works03" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+        </dd>
+      </dl>
+      <!--モーダル閉じタグ↓-->
+    </div>
+
+    
+    <!--/////ご利用料金/////-->
+    <section id="cost">
+      <span class="scrollPosition" id="linkTwo"></span>
+      <div class="wrap">
+        <h2>
+          Price
+        </h2>
+        <ul class="costPlan">
+          <li>
+            <h3>
+              Lite
+            </h3>
+            <p class="price">
+              &yen;300,000
+            </p>
+            <dl class="costList">
+              <dt>
+                撮影時間<br>（目安）
+              </dt>
+              <dd>
+                1日
+              </dd>
+              <dt>
+                Google<br>STV対応
+              </dt>
+              <dd>
+                ―
+              </dd>
+              <dt>
+                エリア<br>（上限数）
+              </dt>
+              <dd>
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i><br> （10エリア）
+              </dd>
+              <dt>
+                マップ*<br>（上限数）
+              </dt>
+              <dd>
+                ―
+              </dd>
+              <dt>
+                ポイント<br>（上限数）
+              </dt>
+              <dd>
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i><br>（10ポイント）
+              </dd>
+              <dt>
+                動画
+              </dt>
+              <dd>
+                ―
+              </dd>
+              <dt>
+                空撮
+              </dt>
+              <dd>
+                ―
+              </dd>
+            </dl>
+          </li>
+          <!---->
+          <li>
+            <h3>
+              Standard
+            </h3>
+            <p class="price">
+              &yen;500,000
+            </p>
+            <dl class="costList">
+              <dt>
+                撮影時間<br>（目安）
+              </dt>
+              <dd>
+                1～2日
+              </dd>
+              <dt>
+                Google<br>STV対応
+              </dt>
+              <dd>
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+              </dd>
+              <dt>
+                エリア<br>（上限数）
+              </dt>
+              <dd>
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i><br> （30エリア）
+              </dd>
+              <dt>
+                マップ*<br>（上限数）
+              </dt>
+              <dd>
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i><br> （1フロア）
+              </dd>
+              <dt>
+                ポイント<br>（上限数）
+              </dt>
+              <dd>
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i><br> （30ポイント）
+              </dd>
+              <dt>
+                動画
+              </dt>
+              <dd>
+                ―
+              </dd>
+              <dt>
+                空撮
+              </dt>
+              <dd>
+                ―
+              </dd>
+            </dl>
+          </li>
+          <!---->
+          <li>
+            <h3>
+              Premium**
+            </h3>
+            <p class="price">
+              ASK
+            </p>
+            <dl class="costList">
+              <dt>
+                撮影時間<br>（目安）
+              </dt>
+              <dd>
+                2～3日
+              </dd>
+              <dt>
+                Google<br> STV対応
+              </dt>
+              <dd>
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+              </dd>
+              <dt>
+                エリア**<br>（上限数）
+              </dt>
+              <dd>
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i><br> （50エリア）
+              </dd>
+              <dt>
+                マップ**<br>（上限数）
+              </dt>
+              <dd>
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i><br> （5フロア）
+              </dd>
+              <dt>
+                ポイント**<br>（上限数）
+              </dt>
+              <dd>
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i><br>（50ポイント）
+              </dd>
+              <dt>
+                動画
+              </dt>
+              <dd>
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+              </dd>
+              <dt>
+                空撮
+              </dt>
+              <dd>
+                ―
+              </dd>
+            </dl>
+          </li>
+          <!---->
+          <li>
+            <h3>
+              Expert
+            </h3>
+            <p class="price">
+              ASK
+            </p>
+            <dl class="costList">
+              <dt>
+                撮影時間<br>（目安）
+              </dt>
+              <dd>
+                3日～
+              </dd>
+              <dt>
+                Google<br>STV対応
+              </dt>
+              <dd>
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+              </dd>
+              <dt>
+                エリア<br>（上限数）
+              </dt>
+              <dd>
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i><br>（要相談）
+              </dd>
+              <dt>
+                マップ*<br>（上限数）
+              </dt>
+              <dd>
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i><br>（要相談）
+              </dd>
+              <dt>
+                ポイント<br>（上限数）
+              </dt>
+              <dd>
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i><br>（要相談）
+              </dd>
+              <dt>
+                動画
+              </dt>
+              <dd>
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+              </dd>
+              <dt>
+                空撮
+              </dt>
+              <dd>
+                <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+              </dd>
+            </dl>
+          </li>
+        </ul>
+        <!---->
+        <ul class="hosoku">
+          <li>
+            <p>
+              * マップの作成は別途お見積りとなります。<br>** Premiumプランのエリア、マップ、ポイントは追加可能です。ご相談ください。
+            </p>
+            <p>
+              ※交通費・宿泊費は別途お見積りとなります。<br>※個別カスタマイズも承ります。詳しくはお問い合わせください。
+            </p>
+          </li>
+          <li class="clearfix">
+            <h4>
+              サーバー保守費用
+            </h4>
+            <p class="serverCost">
+              1件：3,000円／月（税別・1年更新）
+            </p>
+            <p>
+              ・公開後のコンテンツ修正については都度お見積りさせていただきます。<br>・追加撮影、編集を任意に行えるお得な年間保守プランもございます。詳しくはお問い合わせください。
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    
+    <!--/////申し込みフロー/////-->
+    <section id="flow">
+      <div class="wrap">
+        <h2>
+          Flow
+        </h2>
+        <ul>
+          <li>
+            <h3>
+              お申し込み
+            </h3>
+            <p>
+              担当がご訪問または電話にてご対応致します。契約書及び申込確認書をご記入の上、ご返送いただきます。
+            </p>
+          </li>
+          <li>
+          </li>
+          <li>
+            <h3>
+              導入条件確認
+            </h3>
+            <p>
+              撮影場所、撮影日時、使用内容の確認をさせていただきます。（お申し込みと前後する場合があります）
+            </p>
+          </li>
+          <li>
+          </li>
+          <li>
+            <h3>
+              撮影
+            </h3>
+            <p>
+              現場にて撮影を行います。（プランに応じて期間変動します）
+            </p>
+          </li>
+          <li>
+          </li>
+          <li>
+            <h3>
+              コンテンツ制作
+            </h3>
+            <p>
+              360°パノラマ加工・編集、ポイント等の組込みを行います。
+            </p>
+          </li>
+          <li>
+          </li>
+          <li>
+            <p class="term">
+              1週間 ～ 1ヶ月
+            </p>
+          </li>
+          <li>
+          </li>
+          <li>
+            <h3>
+              納品
+            </h3>
+            <p>
+              サーバー上での公開・納品となります。詳細についてはお問い合わせ、ご相談ください。
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>    
+    <!--/////お問い合わせ/////-->
+    <section id="contact">
+      <span class="scrollPosition" id="linkThree"></span>
+      <div class="wrap contact">
+        <h2>
+          Contact
+        </h2>
+        <form id="form1" method="post">
+          <p id="error-msg">入力内容に誤りがあります。赤枠の項目をご確認ください。</p>
+          <table>
+            <tr class="contactList">
+              <th>
+                お問い合わせ項目<span class="must">必須</span>
+              </th>
+              <td>
+                <ul>
+                  <li>
+                    <input type="checkbox" name="00N0K00000JRy4R" value="1" id="plan">
+                    <label for="plan" class="check_css" id="00N0K00000JRy4R">
+                      プラン
+                    </label>
+                    <label class="selectLabel">
+                      <select name="00N0K00000JRy4g" id="00N0K00000JRy4g">
+                        <option value="">選択してください</option>
+                        <option value="Lite">Lite</option>
+                        <option value="Standard">Standard</option>
+                        <option value="Premium">Premium</option>
+                        <option value="Expert">Expert</option>
+                      </select>
+                    </label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="00N0K00000JRy4v" value="1" id="request">
+                    <label for="request" class="check_css" id="00N0K00000JRy4v">
+                      資料を請求したい
+                    </label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="00N0K00000JRy50" value="1" id="detail">
+                    <label for="detail" class="check_css" id="00N0K00000JRy50">
+                      詳しく話を聞きたい
+                    </label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="00N0K00000JRy55" value="1" id="estimate">
+                    <label for="estimate" class="check_css" id="00N0K00000JRy55">
+                      見積りをしてほしい
+                    </label>
+                  </li>
+                  <li>
+                    <input type="checkbox" class="checkOther" name="00N0K00000JRy5A" value="1" id="other">
+                    <label for="other" class="check_css" id="00N0K00000JRy5A">
+                      その他
+                    </label>
+                    <input class="textOther" type="text" name="00N0K00000JRy5F" id="00N0K00000JRy5F">
+                  </li>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                利用開始時期
+              </th>
+              <td>
+                <label class="selectLabel">
+                  <select name="00N28000009GACj">
+                    <option value="" selected>選択してください</option>
+                    <option value="今すぐ">今すぐ</option>
+                    <option value="1か月以内">1ヶ月以内</option>
+                    <option value="3か月以内">3ヶ月以内</option>
+                    <option value="半年以内">半年以内</option>
+                    <option value="1年以内">1年以内</option>
+                    <option value="未定">未定</option>
+                  </select>
+                </label>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                お問い合わせ内容
+              </th>
+              <td>
+                <textarea name="00N28000009GAD8"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <th>
+                企業名・団体名<span class="must">必須</span>
+              </th>
+              <td>
+                <input type="text" name="company" id="company">
+              </td>
+            </tr>
+            <tr>
+              <th>
+                ご担当者名<span class="must">必須</span>
+              </th>
+              <td class="input-inine">
+                <input type="text" name="last_name" id="last_name" placeholder="姓">
+                <input type="text" name="first_name" id="first_name" placeholder="名">
+              </td>
+            </tr>
+            <tr>
+              <th>
+                部署名
+              </th>
+              <td>
+                <input type="text" name="00N28000007w43s">
+              </td>
+            </tr>
+            <tr>
+              <th>
+                役職名
+              </th>
+              <td>
+                <input type="text" name="title">
+              </td>
+            </tr>
+            <tr>
+              <th>
+                メールアドレス<span class="must">必須</span>
+              </th>
+              <td>
+                <input type="email" name="email" id="email">
+              </td>
+            </tr>
+            <tr>
+              <th>
+                電話番号<span class="must">必須</span>
+              </th>
+              <td>
+                <input type="tel" name="phone" id="phone" placeholder="0357987780">
+              </td>
+            </tr>
+            <tr>
+              <th>
+                ホームページURL
+              </th>
+              <td>
+                <input type="url" name="URL">
+              </td>
+            </tr>
+          </table>
+
+          <div class="privacy">
+            <p class="privacyPolicy">
+              ご記入ありがとうございました。<br>当サイトにおける
+              <a href="https://asno-sys.co.jp/privacy/" target="_blank">
+                個人情報の取り扱い
+              </a>
+              について同意いただいた方のみ「確認画面へ」ボタンをクリックしてください。
+            </p>
+            <p class="privacyConcent">
+              <input type="checkbox" name="agree" value="1" id="concent">
+              <label for="concent" class="check_css ">
+                個人情報の取り扱いについて同意する
+              </label>
+            </p>
+          </div>
+
+          <input type="hidden" name="lead_source" value="Web"><!-- lead_source -->
+          <input type="hidden" name="00N2800000A9jOF" value="panoviewn_inq"><!-- リードタイプ -->
+          <input type="hidden" name="00N0K00000JRy5K" value="1" /><!-- お問い合わせ希望サービス-Panoviewn -->
+          <input type="hidden" name="oid" value="00D280000016bOo"><!-- oid -->
+
+  <input type="hidden" name="_xsrf_token" value="de63a9b30bd67c9730468a5ee7746dface44d4d7a52105b2668b96d2f920f9fb618aa141f06cd5b8a60cf1ed95dd6abc2e64a49be8ea28217ce48c93dd435de6" />
+
+          <p class="submit">
+            <a id="confirmBtn" class="inactive">確認画面へ</a>
+            <input type="hidden" data-modal-target="confirmModal" id="modaltrriger">
+          </p>
+        </form>
+        <div class="telContact">
+          <p>
+            お電話はこちら
+          </p>
+          <p>
+            <a class="telLink">
+              03-5798-7780
+            </a>
+          </p>
+          <p>
+            受付時間／9：30～18：00（土日祝、年末年始除く）<br>
+            <span>「パノビューンを見た」とお伝えください</span>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- .ctsWrap閉じタグ↓ -->
+  </div>
+  
+  <!--**********モーダル**********-->
+  <!--/////確認画面/////-->
+  <div class="modal" data-modal-id="confirmModal">
+    <a data-modal-action="close" class="modalClose">
+      ×
+    </a>
+    <!---->
+    <p class="confirmTtl">
+      【確認画面】
+    </p>
+    <form action="send.php" method="post">
+    <table class="confirmTable" id="confirmTable">
+      <tbody>
+        <tr>
+          <th scope="row">
+            お問い合わせ項目
+          </th>
+          <td id="row1">
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">
+            利用開始時期
+          </th>
+          <td id="row2">
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">
+            お問い合わせ内容
+          </th>
+          <td id="row3">
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">
+            企業名・団体名
+          </th>
+          <td id="row4">
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">
+            ご担当者名
+          </th>
+          <td id="row5">
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">
+            部署名
+          </th>
+          <td id="row6">
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">
+            役職名
+          </th>
+          <td id="row7">
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">
+            メールアドレス
+          </th>
+          <td id="row8">
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">
+            電話番号
+          </th>
+          <td id="row9">
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">
+            ホームページURL
+          </th>
+          <td id="row10">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!---->
+    <ul class="btnGroup">
+      <li>
+        <a data-modal-action="close" >
+          キャンセル
+        </a>
+      </li>
+      <li>
+        <input type="submit" value="送信" class="btn-black">
+      </li>
+    </ul>
+    </form>
+    <!--モーダル閉じタグ↓-->
+  </div>
+  
+<!--**********トップへ**********-->
+<p id="goTop">
+  <a href="#top">
+  <i class="fa fa-chevron-up"></i>
+  </a>
+</p>
+
+<!--**********フッタ**********-->
+<footer id="footer">
+  <ul>
+    <li>
+      ｜
+      <a href="https://asno-sys.co.jp/privacy/" target="_blank">
+      個人情報保護方針
+      </a>
+    </li>
+    <li>
+      ｜
+      <a href="https://asno-sys.co.jp/" target="_blank">
+      運営会社
+      </a>
+      ｜
+    </li>
+  </ul>
+  <p>
+    <small>Copyright &copy; ASNO System All rights reserved.</small>
+  </p>
+</footer>
+
+
+<script src="/js/jquery_scroll.js"></script>
+<script src="/js/jquery_nospam.js"></script>
+<script src="/js/jquery_header_fixed.js"></script>
+<script src="/js/jquery_modal.js"></script>
+<script src="/js/jquery_page_current.js"></script>
+<script src="/js/jquery_tel_sp.js"></script>
+
+<script src="/js/jquery.form.js"></script>
+<script src="/js/jquery_custom.js?20171227"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,737 @@
+
+
+<!DOCTYPE html>
+<html id="ctl00_htmlTag" lang="en" xml:lang="en">
+<head id="ctl00_Head1"><title>
+	Minitab
+</title><meta charset="utf-8" /><meta name="viewport" content="width=device-width" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="verify-v1" content="KEG+fPTro2T4qR83VyOn/+r9QGsXbvPnG42sD/Nkj/4=" /><meta name="y_key" content="bf23b16fcff81647" /><meta name="msvalidate.01" content="04A71680640BF94CE4DDF169FCF5B8B9" /><link rel="stylesheet" type="text/css" href="/WorkArea/FrameworkUI/css/ektron.stylesheet.ashx?id=-1759591071+-1510701721+1944345359+-300771134+-2018578593" /><script type="text/javascript" src="/WorkArea/FrameworkUI/js/ektron.javascript.ashx?id=-569449246+-1939951303+-1080527330+-1687560804+-1253165105+-1388997516+2009761168+27274999+1979897163+-422906301+-1818005853+-1357665627+133559081+1762586108+1782883395+-941413047+-573088553+1905788864+-1793043690+-1572948616"></script><link href="/css/v3/MasterPageBundle.min.css" rel="stylesheet" /><link href="/css/v4/master.css" rel="stylesheet" />
+    <style type="text/css">
+        /* this is a hack to force pagebuilder columns to be 100% 
+           because Safari doesn't honor margin: 0 auto without it.*/
+        div[data-ux-pagebuilder="Column"] {
+            width: 100%;
+        }
+    </style>
+    
+    <link href="/css/v4/master.min.css" rel="stylesheet" />
+
+
+    <script src="/js/v3/masterPageHeaderBundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Open Sans:300,400,600,700,800:latin', 'Material Icons']
+            }
+        });
+    </script>
+
+    <link rel="icon" type="image/png" href="/Favicon.ico" />
+    </head>
+<body id="masterPageV3">
+    <form method="post" action="/en-us/" id="aspnetForm">
+<div class="aspNetHidden">
+<input type="hidden" name="EktronClientManager" id="EktronClientManager" value="-1759591071,-1687560804,-1080527330,-1939951303,-569449246,-1253165105,-1510701721,-1388997516,2009761168,27274999,1979897163,-422906301,-1818005853,-1357665627,133559081,1944345359,-300771134,1762586108,1782883395,-941413047,-573088553,1905788864,-2018578593,-1793043690,-1572948616" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMjEyOTE1OTYyNg9kFgJmD2QWAgIBDxYEHgRsYW5nBQJlbh4IeG1sOmxhbmcFAmVuFgICARBkZBYEAgQPZBYEAgMPZBYCZg9kFgJmD2QWAgIDD2QWAmYPZBYCAgEPFgIeBWNsYXNzBRBkcm9wem9uZSBQQkNsZWFyFgICAw8WAh4LXyFJdGVtQ291bnQCARYCZg9kFgICAQ8WBB8CBQlQQlZpZXdpbmceBXN0eWxlBQt3aWR0aDoxMDAlOxYCAgEPZBYCAgMPFgIfAwIEFgJmD2QWAgIBD2QWAmYPZBYCZg9kFgICAQ9kFgICAw9kFgJmD2QWAgIDD2QWAgIBD2QWAmYPZBYCZg9kFgICAQ9kFgZmD2QWAgIBD2QWAmYPZBYCZg9kFgICAQ8WAh8DAgEWAmYPZBYCAgEPFgQfAgUJUEJWaWV3aW5nHwQFC3dpZHRoOjEwMCU7FgICAQ8WBB4IY29sdW1uaWQFAi0xHgpjb2x1bW5ndWlkBSQ1MmRhOWIyMS0yNDg5LTRlOGQtOTRlYy1kMjU2YThhZDM5YjcWBAIBDxYCHgdWaXNpYmxlaBYCAgMPFgQeBXRpdGxlBQZSZXNpemUfB2gWAgIBDxYEHgNzcmMFRy9Xb3JrQXJlYS8vUGFnZUJ1aWxkZXIvUGFnZUNvbnRyb2xzL1RoZW1lcy9UcnVlQmx1ZS9pbWFnZXMvZWRpdF9vZmYucG5nHgNhbHQFBlJlc2l6ZWQCAw8WAh8DAgFkAgEPZBYCAg8PZBYIZg8WAh4FdmFsdWUFATBkAgIPFgIfCwU4L3dpZGdldHMvdGFyZ2V0ZWRjb250ZW50L2NvbnRyb2xzL3RhcmdldGNvbnRlbnRsaXN0LmFzcHhkAgMPFgIfAwIGFgxmD2QWBAIBDw8WBB4NT25DbGllbnRDbGljawU1RWt0cm9uLldpZGdldC5UYXJnZXRlZENvbnRlbnRMaXN0LnNlbGVjdCg0Mjk0OTY3Mjk3KTseD0NvbW1hbmRBcmd1bWVudAUKNDI5NDk2NzI5N2QWAmYPFQEKNDI5NDk2NzI5N2QCAw8PFgQfDAU1RWt0cm9uLldpZGdldC5UYXJnZXRlZENvbnRlbnRMaXN0LnNlbGVjdCg0Mjk0OTY3Mjk3KTsfDQUKNDI5NDk2NzI5N2QWAmYPFQEyRW1wbG95bWVudCBPcHBvcnR1bml0aWVzIGJ5IE1pbml0YWIgT2ZmaWNlIENvdW50cnlkAgEPZBYEAgEPDxYEHwwFLEVrdHJvbi5XaWRnZXQuVGFyZ2V0ZWRDb250ZW50TGlzdC5zZWxlY3QoNSk7Hw0FATVkFgJmDxUBATVkAgMPDxYEHwwFLEVrdHJvbi5XaWRnZXQuVGFyZ2V0ZWRDb250ZW50TGlzdC5zZWxlY3QoNSk7Hw0FATVkFgJmDxUBDkJ5IE1UQiBDb21wYW55ZAICD2QWBAIBDw8WBB8MBSxFa3Ryb24uV2lkZ2V0LlRhcmdldGVkQ29udGVudExpc3Quc2VsZWN0KDQpOx8NBQE0ZBYCZg8VAQE0ZAIDDw8WBB8MBSxFa3Ryb24uV2lkZ2V0LlRhcmdldGVkQ29udGVudExpc3Quc2VsZWN0KDQpOx8NBQE0ZBYCZg8VAQ5TQVJMIENvdW50cmllc2QCAw9kFgQCAQ8PFgQfDAUsRWt0cm9uLldpZGdldC5UYXJnZXRlZENvbnRlbnRMaXN0LnNlbGVjdCgzKTsfDQUBM2QWAmYPFQEBM2QCAw8PFgQfDAUsRWt0cm9uLldpZGdldC5UYXJnZXRlZENvbnRlbnRMaXN0LnNlbGVjdCgzKTsfDQUBM2QWAmYPFQENUHR5IENvdW50cmllc2QCBA9kFgQCAQ8PFgQfDAUsRWt0cm9uLldpZGdldC5UYXJnZXRlZENvbnRlbnRMaXN0LnNlbGVjdCgyKTsfDQUBMmQWAmYPFQEBMmQCAw8PFgQfDAUsRWt0cm9uLldpZGdldC5UYXJnZXRlZENvbnRlbnRMaXN0LnNlbGVjdCgyKTsfDQUBMmQWAmYPFQENTHRkIENvdW50cmllc2QCBQ9kFgQCAQ8PFgQfDAUsRWt0cm9uLldpZGdldC5UYXJnZXRlZENvbnRlbnRMaXN0LnNlbGVjdCgxKTsfDQUBMWQWAmYPFQEBMWQCAw8PFgQfDAUsRWt0cm9uLldpZGdldC5UYXJnZXRlZENvbnRlbnRMaXN0LnNlbGVjdCgxKTsfDQUBMWQWAmYPFQENSW5jIENvdW50cmllc2QCBA8PFgIfB2hkFhACAQ8WAh4EVGV4dAUEUGFnZWQCAw8WAh8OBQJvZmQCBQ8WAh8OBQEwZAIHDw8WBh4ISW1hZ2VVcmwFJS9Xb3JrQXJlYS9pbWFnZXMvdWkvaWNvbnMvZm9yd2FyZC5wbmceDUFsdGVybmF0ZVRleHQFCkdvIFRvIFBhZ2UeB1Rvb2xUaXAFCkdvIFRvIFBhZ2VkZAIJDw8WBh8QBQpGaXJzdCBQYWdlHw8FLC9Xb3JrQXJlYS9pbWFnZXMvdWkvaWNvbnMvYXJyb3dIZWFkRmlyc3QucG5nHxEFCkZpcnN0IFBhZ2VkZAILDw8WBh8QBQ1QcmV2aW91cyBQYWdlHw8FKy9Xb3JrQXJlYS9pbWFnZXMvdWkvaWNvbnMvYXJyb3dIZWFkTGVmdC5wbmcfEQUNUHJldmlvdXMgUGFnZWRkAg0PDxYGHxAFCU5leHQgUGFnZR8PBSwvV29ya0FyZWEvaW1hZ2VzL3VpL2ljb25zL2Fycm93SGVhZFJpZ2h0LnBuZx8RBQlOZXh0IFBhZ2VkZAIPDw8WBh8QBQlMYXN0IFBhZ2UfDwUrL1dvcmtBcmVhL2ltYWdlcy91aS9pY29ucy9hcnJvd0hlYWRMYXN0LnBuZx8RBQlMYXN0IFBhZ2VkZAIDD2QWBAIJDw8WBB8OBQZDYW5jZWwfEQUGQ2FuY2VsZGQCCw8PFgYfDgUEU2F2ZR8MBacBaWYoRWt0cm9uLlJ1bGVFZGl0b3Iuc2F2ZSgnY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRCb3R0b20kY29sdW1uRGlzcGxheSRjdGwwMCRjb250cm9sY29sdW1uJGN0bDAwJFdpZGdldEhvc3QkV2lkZ2V0SG9zdF93aWRnZXQkcnVsZUVkaXRvcicpID09IGZhbHNlKXsgcmV0dXJuIGZhbHNlO30fEQUEU2F2ZWRkAgUPZBYCZg9kFgJmD2QWAgIDD2QWAmYPZBYCAgEPFgIfAgUQZHJvcHpvbmUgUEJDbGVhchYCAgMPFgIfAwIBFgJmD2QWAgIBDxYCHwIFCVBCVmlld2luZxYCAgEPZBYCAgMPFgIfA2ZkAgYPZBYCZg8QZBAVCAdDaGluZXNlB0VuZ2xpc2gGRnJlbmNoBkdlcm1hbghKYXBhbmVzZQZLb3JlYW4KUG9ydHVndWVzZQdTcGFuaXNoFQgEMjA1MgQxMDMzBDEwMzYEMTAzMQQxMDQxBDEwNDIEMTA0NgQyMDU4FCsDCGdnZ2dnZ2dnFgECAWQYDgUoY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRUb3AkdXhVWFN3aXRjaA8PZGZkBa0BY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRCb3R0b20kY29sdW1uRGlzcGxheSRjdGwwMCRjb250cm9sY29sdW1uJGN0bDAwJFdpZGdldEhvc3QkV2lkZ2V0SG9zdF93aWRnZXQkQWN0aXZlQ29sdW1uJHJlcENvbHVtbnMkY3RsMDAkY29udHJvbGNvbHVtbiRjdGwwMCRXaWRnZXRIb3N0JHV4VVhTd2l0Y2gPD2RmZAVeY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRCb3R0b20kY29sdW1uRGlzcGxheSRjdGwwMCRjb250cm9sY29sdW1uJGN0bDAyJFdpZGdldEhvc3QkdXhVWFN3aXRjaA8PZGZkBStjdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJEJvdHRvbSR1eFVYU3dpdGNoDw9kZmQFXmN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkQm90dG9tJGNvbHVtbkRpc3BsYXkkY3RsMDAkY29udHJvbGNvbHVtbiRjdGwwMCRXaWRnZXRIb3N0JHV4VVhTd2l0Y2gPD2RmZAVeY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRCb3R0b20kY29sdW1uRGlzcGxheSRjdGwwMCRjb250cm9sY29sdW1uJGN0bDAzJFdpZGdldEhvc3QkdXhVWFN3aXRjaA8PZGZkBW1jdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJEJvdHRvbSRjb2x1bW5EaXNwbGF5JGN0bDAwJGNvbnRyb2xjb2x1bW4kY3RsMDIkV2lkZ2V0SG9zdCRXaWRnZXRIb3N0X3dpZGdldCRWaWV3U2V0Dw9kZmQFvAFjdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJEJvdHRvbSRjb2x1bW5EaXNwbGF5JGN0bDAwJGNvbnRyb2xjb2x1bW4kY3RsMDAkV2lkZ2V0SG9zdCRXaWRnZXRIb3N0X3dpZGdldCRBY3RpdmVDb2x1bW4kcmVwQ29sdW1ucyRjdGwwMCRjb250cm9sY29sdW1uJGN0bDAwJFdpZGdldEhvc3QkV2lkZ2V0SG9zdF93aWRnZXQkVmlld1NldA8PZGZkBS5jdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJFBhZ2VIb3N0MSR1eFVYU3dpdGNoDw9kZmQFbWN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkQm90dG9tJGNvbHVtbkRpc3BsYXkkY3RsMDAkY29udHJvbGNvbHVtbiRjdGwwMyRXaWRnZXRIb3N0JFdpZGdldEhvc3Rfd2lkZ2V0JFZpZXdTZXQPD2RmZAVeY3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRCb3R0b20kY29sdW1uRGlzcGxheSRjdGwwMCRjb250cm9sY29sdW1uJGN0bDAxJFdpZGdldEhvc3QkdXhVWFN3aXRjaA8PZGZkBXxjdGwwMCRDb250ZW50UGxhY2VIb2xkZXIxJEJvdHRvbSRjb2x1bW5EaXNwbGF5JGN0bDAwJGNvbnRyb2xjb2x1bW4kY3RsMDAkV2lkZ2V0SG9zdCRXaWRnZXRIb3N0X3dpZGdldCRUYXJnZXRlZENvbnRlbnRWaWV3U2V0Dw9kZmQFbWN0bDAwJENvbnRlbnRQbGFjZUhvbGRlcjEkQm90dG9tJGNvbHVtbkRpc3BsYXkkY3RsMDAkY29udHJvbGNvbHVtbiRjdGwwMSRXaWRnZXRIb3N0JFdpZGdldEhvc3Rfd2lkZ2V0JFZpZXdTZXQPD2RmZAV9Y3RsMDAkQ29udGVudFBsYWNlSG9sZGVyMSRCb3R0b20kY29sdW1uRGlzcGxheSRjdGwwMCRjb250cm9sY29sdW1uJGN0bDAwJFdpZGdldEhvc3QkV2lkZ2V0SG9zdF93aWRnZXQkQWN0aXZlQ29sdW1uJHV4VVhTd2l0Y2gPD2RmZIK53roJInXTzjqt+vmXOvIeFmYcdXDx1Vz//cWoU5bs" />
+</div>
+
+
+<script src="/ScriptResource.axd?d=DO2KE9ljlvCM25bjCs4gHAnRrmFZdDub-Szk2fdnv7yEuJieh4hKZRbdc-zu2Lo4LqME9ci2jLHw5bUgc_ivLaInxJKMJ0ixE52Ua-tYmOB9MFtVW8NsVrxHgfhUF19zF6zfIZb-olfDJWgOL8vnqBKa_n0oTECWltM-X2t7ry01&amp;t=ffffffffad4b7194" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAA6TIBtxfbeuSNY1ze2sX5dVr95nT3o3c9nqKG7mIWoUTyCPR7ERoN4bnApF8JrquJMrIPjC0XS0/Saf6XJg1erE4Nzt1ESGM2fno99xbYD/G1OZPfhVFs/tFg6IbyybSMEvk2/kAPQZAq4A4oueTAgSA8+BF8YHN1mWObxqnuGVYPC+nh8ZdO6ZiD8Wr4/nMsnRnrRPJegbNVFOW3Tj5TToC5z3o3Jslp+csbXKQ+Miv6eJqPfl+OEdkA6AY0EtJ1x11+T4qfHJubztVYX+pXdgKvBe9xK/0VIlAPQhhwSUnOa0/UXnU9PaJQto804DQXUQY+29rk94BcRB7MGF6oTf" />
+</div>
+
+        <div class="pageContainer offCanvasNav">
+            <div class="inner">
+                <div class="search">
+                    <div id="submitQueryMobile" class="icon"></div>
+                    <input id="queryStringMobile" class="searchInput" placeholder="Search this site" type="text">
+                </div>
+                <div class="offCanvasMenu">
+                    
+                    
+                    <div class="navSectionHeader">Main Section</div>
+                    <div>
+	<ul class="menu">                                            
+    <li class="dropdown">                                                                                
+        <a href="javascript:void(0);">                                <span class="text">Products</span>                                <span class="icon"></span>                            </a>                                                                                
+        <div class="dropdownBox hide">                                                                                                                    
+            <ul>                                                                                                                                                        
+                <li>                                                                                                                                                                                            
+                    <a href="/products/minitab/">Minitab 18</a>                </li>                                                                                                                                                        
+                <li>                                                                                                                                                                                            
+                    <a href="/products/quality-trainer/">Quality Trainer</a>                </li>                                                                                                                                                                                                                           
+                                                                 
+                <li>                                                                                                                                                                                            
+                    <a href="/products/companion/">Companion</a>                </li>            </ul>        </div>    </li>                                            
+    <li class="dropdown">                                                                                
+        <a href="javascript:void(0);">                                <span class="text">Services</span>                                <span class="icon"></span>                            </a>                                                                                
+        <div class="dropdownBox hide">                                                                                                                    
+            <ul>                                                                                                                                                        
+                <li>                                                                                                                                                                                            
+                    <a href="/services/training/">Training</a>                </li>                                                                                                                                                        
+                <li>                                                                                                                                                                                            
+                    <a href="/services/statistical-consulting/">Statistical Consulting</a>                </li>                                                                                                                                                        
+                                                                                                                                                                     
+                <li>                                                                                                                                                                                            
+                    <a href="/services/">All Services</a>                </li>            </ul>        </div>    </li>                                            
+    <li>                                                                                
+        <a href="/support/">Support</a>    </li>                                            
+    <li>                                                                                
+        <a href="/academic/">Academic</a>    </li>    
+    <li>                                                                                
+        <a href="/events/">Events</a>    </li>         
+    <li>                                                                                
+        <a href="http://blog.minitab.com/" target="_blank">Blog</a>    </li>                                            
+    <li>                                                                                
+        <a href="https://licensing.minitab.com/account/manage/">My Account<span class="icon"></span>                            </a>       </li>                                            
+    <li class="hideForSmallScreens">                                                                                
+        <a class="searchButton"></a>    </li>
+</ul>
+</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="mainContent">
+            <header class="pageContainer header">
+                <div class="pageContainer globalHeader">
+                    <div class="frame">
+                        <div class="inner">
+                            <a href="/">
+                                <img class="minitabLogo" alt="Minitab, Inc." src="/images/icons/MinitabIcon.svg" />
+                            </a>
+                        </div>
+                        <div class="smallGlobalNav" style="display: none;">
+                            <a class="navButton menuButton" href="javascript:void(0);">
+                                <span>Menu</span>
+                            </a>
+                        </div>
+                        <div class="globalNav" style="display: none;">
+                            <div>
+	<ul class="menu">                                            
+    <li class="dropdown">                                                                                
+        <a href="javascript:void(0);">                                <span class="text">Products</span>                                <span class="icon"></span>                            </a>                                                                                
+        <div class="dropdownBox hide">                                                                                                                    
+            <ul>                                                                                                                                                        
+                <li>                                                                                                                                                                                            
+                    <a href="/products/minitab/">Minitab 18</a>                </li>                                                                                                                                                        
+                <li>                                                                                                                                                                                            
+                    <a href="/products/quality-trainer/">Quality Trainer</a>                </li>                                                                                                                                                                                                                           
+                                                                 
+                <li>                                                                                                                                                                                            
+                    <a href="/products/companion/">Companion</a>                </li>            </ul>        </div>    </li>                                            
+    <li class="dropdown">                                                                                
+        <a href="javascript:void(0);">                                <span class="text">Services</span>                                <span class="icon"></span>                            </a>                                                                                
+        <div class="dropdownBox hide">                                                                                                                    
+            <ul>                                                                                                                                                        
+                <li>                                                                                                                                                                                            
+                    <a href="/services/training/">Training</a>                </li>                                                                                                                                                        
+                <li>                                                                                                                                                                                            
+                    <a href="/services/statistical-consulting/">Statistical Consulting</a>                </li>                                                                                                                                                        
+                                                                                                                                                                     
+                <li>                                                                                                                                                                                            
+                    <a href="/services/">All Services</a>                </li>            </ul>        </div>    </li>                                            
+    <li>                                                                                
+        <a href="/support/">Support</a>    </li>                                            
+    <li>                                                                                
+        <a href="/academic/">Academic</a>    </li>    
+    <li>                                                                                
+        <a href="/events/">Events</a>    </li>         
+    <li>                                                                                
+        <a href="http://blog.minitab.com/" target="_blank">Blog</a>    </li>                                            
+    <li>                                                                                
+        <a href="https://licensing.minitab.com/account/manage/">My Account<span class="icon"></span>                            </a>       </li>                                            
+    <li class="hideForSmallScreens">                                                                                
+        <a class="searchButton"></a>    </li>
+</ul>
+</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pageContainer searchBar">
+                    <div id="submitQuery" class="icon"></div>
+                    <input id="queryString" class="searchInput" type="text" placeholder="Search this site" />
+                </div>
+                
+                
+            </header>
+
+            
+    
+
+    <script type="text/javascript">
+        Ektron.PBSettings = { 'dontClose': false }
+    </script>
+
+
+
+
+        
+        
+
+    
+
+
+    
+        
+
+        <div id="ctl00_ContentPlaceHolder1_Bottom_updatepanel" class="">
+	
+                <div id="ctl00_ContentPlaceHolder1_Bottom_dzcontainer" class="dropzone PBClear">
+                    
+                    
+                            <div id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_zone" class="PBViewing" style="width:100%;">
+                                <ul id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_column" class="columnwidgetlist">
+                                    
+                                    
+                                            <li class="PBItem">
+                                                
+        <div id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl00_WidgetHost_dropcontainer" class="widget">
+            <span id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl00_WidgetHost_lblErrorMessage"></span>
+            <div id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl00_WidgetHost_updatepanel">
+		
+                    
+                    <div id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl00_WidgetHost_dvContent" class="content">
+                        <div id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl00_WidgetHost_WidgetHost_widget_wrapper" class="targetedContent">
+	
+			
+        <div class="columns-container clearfix">
+            
+                    <div id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl00_WidgetHost_WidgetHost_widget_ActiveColumn_repColumns_ctl00_zone" class="PBViewing" style="width:100%;">
+                        <ul id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl00_WidgetHost_WidgetHost_widget_ActiveColumn_repColumns_ctl00_column" class="columnwidgetlist" columnid="-1" columnguid="52da9b21-2489-4e8d-94ec-d256a8ad39b7">
+                            
+                            
+                                    <li class="PBItem">
+                                        
+        <div id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl00_WidgetHost_WidgetHost_widget_ActiveColumn_repColumns_ctl00_controlcolumn_ctl00_WidgetHost_dropcontainer" class="widget">
+            <span id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl00_WidgetHost_WidgetHost_widget_ActiveColumn_repColumns_ctl00_controlcolumn_ctl00_WidgetHost_lblErrorMessage"></span>
+            <div id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl00_WidgetHost_WidgetHost_widget_ActiveColumn_repColumns_ctl00_controlcolumn_ctl00_WidgetHost_updatepanel">
+			
+                    
+                    <div id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl00_WidgetHost_WidgetHost_widget_ActiveColumn_repColumns_ctl00_controlcolumn_ctl00_WidgetHost_dvContent" class="content">
+                        
+        <div id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl00_WidgetHost_WidgetHost_widget_ActiveColumn_repColumns_ctl00_controlcolumn_ctl00_WidgetHost_WidgetHost_widget_CB">
+				<div class="mtb-container mtb-widePadding mtb-wideFrame" id="siteHeroAlt">                                  
+    <style type="text/css">
+        #siteHeroAlt {
+            background-image: url();
+            background-size: cover;
+            position: relative;
+            -moz-perspective: 1600px;
+            -ms-perspective: 1600px;
+            -webkit-perspective: 1600px;
+            perspective: 1600px;
+            overflow: hidden;
+            padding: 4rem 0;
+            border-bottom: 10px solid #8CC63F;
+        }
+
+            #siteHeroAlt .mtb-backgroundImage {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background-image: url(/uploadedImages/Content/Home/cbm-hp-bg.jpg);
+                background-repeat: no-repeat;
+                background-size: 60%;
+                background-position: 0 25%;
+                z-index: 0;
+
+            }
+
+            #siteHeroAlt .mtb-backgroundOverlay {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: linear-gradient(to right, rgba(11,11,11,0.5) 0,rgba(11,11,11,0.6) 0,rgba(11,11,11,0.6) 0,rgba(11,11,11,1) 100%); 
+                z-index: 0;
+            }
+
+            #siteHeroAlt .heroFrame {
+                display: flex;
+                align-items: center;
+                position: relative;
+                z-index: 1;
+                color: #eee;
+            }
+
+                #siteHeroAlt .heroFrame .heroText {
+                    -ms-flex: 0 1 30rem;
+                    -webkit-flex: 0 1 30rem;
+                    flex: 0 1 30rem;
+                    margin: 2rem;
+                    flex-basis: 40rem;
+                }
+
+                #siteHeroAlt .heroFrame .heroImage {
+                    -ms-flex: 0 1 40rem;
+                    -webkit-flex: 0 1 40rem;
+                    flex: 0 1 40rem;
+                    padding: 0 2rem 0 0;
+                }
+
+        #qcHeroAlt .heroFrame .heroImage img {
+            max-width: 34rem;
+            position: relative;
+            top: 5px;
+        }
+
+        #siteHeroAlt .mtb-button {
+            white-space: nowrap;
+        }
+
+        .orange {
+            color: #eb7203;
+        }
+
+        .mtb-themeOrange {
+            background-color: #eb7203;
+        }
+
+
+        @media screen and (max-width: 50rem) {
+            #siteHeroAlt .heroFrame {
+                -ms-flex-direction: column;
+                -webkit-flex-direction: column;
+                flex-direction: column;
+                display: block;
+                padding: 2rem 1rem;
+            }
+
+                #siteHeroAlt .heroFrame .heroText {
+                    -ms-flex: 1;
+                    -webkit-flex: 1;
+                    flex: 1;
+                    margin: 4rem 2rem;
+                }
+
+                #siteHeroAlt .heroFrame .heroImage {
+                    -ms-flex: 1;
+                    -webkit-flex: 1;
+                    flex: 1;
+                    display: none;
+                }
+        }
+    </style>                                  
+    <div class="mtb-backgroundImage">    </div>                                  
+    <div class="mtb-backgroundOverlay">    </div>                                  
+    <div class="mtb-row">                                                              
+        <div class="mtb-inner">                                                                                          
+            <div class="heroFrame">                                                                                                                      
+                <div class="heroText mtb-textShadow">                                                                                                                                                  
+                    <img src="/uploadedImages/Content/Home/hp-companion-logo.png" style="max-height:50px;"/>                                                                                                                                                  
+                    <h1 class="mtb-heroTitle mtb-light mbt-large mtb-noMargin">Discover Companion.</h1>                                                                                                                                                  
+                    <p class="mtb-large">Tools and reporting to ensure process and product excellence.</p>                                                                                                                                                  
+                    <a class="mtb-button mtb-medium mtb-themeOutlineWhite" href="/products/companion/">Find out more</a>                </div>                                                                                                                      
+                <div class="heroImage">                                                                                                                                                  
+                    <img src="/uploadedImages/Content/Home/cbm-hp-screenshots.png"/>                </div>            </div>        </div>    </div>
+</div>
+			</div>
+        
+        <span id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl00_WidgetHost_WidgetHost_widget_ActiveColumn_repColumns_ctl00_controlcolumn_ctl00_WidgetHost_WidgetHost_widget_errorLb"></span>
+    
+
+                    </div>
+                
+		</div>
+        </div>
+    
+                                    </li>
+                                
+                        </ul>
+                    </div>
+                
+        </div>
+    
+
+		
+
+</div>
+                    </div>
+                
+	</div>
+        </div>
+    
+                                            </li>
+                                        
+                                            <li class="PBItem">
+                                                
+        <div id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl01_WidgetHost_dropcontainer" class="widget">
+            <span id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl01_WidgetHost_lblErrorMessage"></span>
+            <div id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl01_WidgetHost_updatepanel">
+		
+                    
+                    <div id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl01_WidgetHost_dvContent" class="content">
+                        
+        <div id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl01_WidgetHost_WidgetHost_widget_CB">
+			
+		</div>
+        
+        <span id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl01_WidgetHost_WidgetHost_widget_errorLb"></span>
+    
+
+                    </div>
+                
+	</div>
+        </div>
+    
+                                            </li>
+                                        
+                                            <li class="PBItem">
+                                                
+        <div id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl02_WidgetHost_dropcontainer" class="widget">
+            <span id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl02_WidgetHost_lblErrorMessage"></span>
+            <div id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl02_WidgetHost_updatepanel">
+		
+                    
+                    <div id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl02_WidgetHost_dvContent" class="content">
+                        
+        <div id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl02_WidgetHost_WidgetHost_widget_CB">
+			<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet" type="text/css"/> 
+<style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=PT+Serif:400,700);
+        
+            #mainContent, #ctl00_mainContent {
+        padding-bottom: 0px;
+    }
+</style>
+<div class="mtb-container mtb-widePadding">                                                                                                                                                                        
+    <div class="mtb-row mtb-wideFrame mtb-center">                                                                                                                                                                                                                                                               
+                                                                                    
+        <div class="mtb-inner">                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                      
+                                                                          
+            <h2 class="mtb-panelTitle mtb-large">Minitab helps businesses <strong style="display: inline-block;">increase efficiency</strong> and <strong style="display: inline-block;">improve quality</strong> through smart data analysis.</h2>            </div>        </div>                                                                                                                                                                        
+    <div class="mtb-row mtb-center mtb-xx-wideMargin">                                                                                                                                                                                                                                                               
+                                                                                    
+        <div class="mtb-inner">                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                      
+                                                                          
+            <style type="text/css">
+                .mtb-smallTitle {
+                        font-size: .9rem;
+                        font-weight: 600;
+                        text-transform: uppercase;
+                        letter-spacing: .1rem;
+                        padding: .5rem 0;
+                        background-color: #eee;
+                    }
+
+                    .mtb-featureIcon {
+                        max-height: 40px;
+
+                    }
+            </style>                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                      
+                                                                          
+            <h2 class="mtb-smallTitle">Products</h2>                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                      
+                                                                          
+            <div class="mtb-featureSet">                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                                                                                       
+                                                                 
+                <div class="mtb-feature">                                                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                              
+                    <img class="mtb-featureIcon" src="/uploadedImages/Content/Products/Minitab_Statistical_Software/mss.png"/>                                                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                              
+                    <h4 class="mtb-featureTitle mtb-narrowTopMargin">Minitab 18</h4>                                                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                              
+                    <p class="mtb-small">Analyze your data and present your results with confidence.</p>                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                          
+                    <a class="mtb-small mtb-button mtb-themeOutlineBlack mtb-short mtb-narrow" href="/products/minitab/">Learn more</a>                    </div>                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                                                                                                                       
+                                                                                                                                   
+                <div class="mtb-feature">                                                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                              
+                    <img class="mtb-featureIcon" src="/uploadedImages/Content/Products/Quality_Companion/companion.png"/>                                                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                              
+                    <h4 class="mtb-featureTitle mtb-narrowTopMargin">Companion</h4>                                                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                              
+                    <p class="mtb-small">The tools and reporting you need to ensure product and process excellence.</p>                                                                                                                                                                           
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                   
+                    <a class="mtb-small mtb-button mtb-themeOutlineBlack mtb-short mtb-narrow" href="/products/companion/">Learn more</a>                    </div>                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                                                                                                                       
+                                                                                                                                   
+                <div class="mtb-feature">                                                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                              
+                    <img class="mtb-featureIcon" src="/uploadedImages/Content/Products/Quality_Trainer/trainer.png"/>                                                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                              
+                    <h4 class="mtb-featureTitle mtb-narrowTopMargin">Quality Trainer</h4>                                                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                              
+                    <p class="mtb-small">Master statistics and Minitab® anytime, anywhere.</p>                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                                      
+                                                                                 
+                    <a class="mtb-small mtb-button mtb-themeOutlineBlack mtb-short mtb-narrow" href="/products/quality-trainer/">Learn more</a>                    </div>                </div>            </div>        </div>                                                                                                                                                              
+                 
+    <div class="mtb-row mtb-center mtb-xx-wideMargin">                                                                                                                                                                                                                                                               
+                                                                                    
+        <div class="mtb-inner">                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                      
+                                                                          
+            <h2 class="mtb-smallTitle">Services</h2>                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                                                      
+                                                                          
+            <div class="mtb-featureSet">                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                                                                                       
+                                                                 
+                <div class="mtb-feature">                        <span class="material-icons">desktop_windows</span>                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                          
+                    <h4 class="mtb-featureTitle mtb-narrowTopMargin">Training</h4>                                                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                              
+                    <p class="mtb-small">Enhance your skills with instructor-led public or on-site training.</p>                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                          
+                    <a class="mtb-small mtb-button mtb-themeOutlineBlack mtb-short mtb-narrow" href="/services/training/">Learn more</a>                    </div>                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                                                                                                                       
+                                                                                                                                   
+                <div class="mtb-feature">                        <span class="material-icons">people</span>                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                          
+                    <h4 class="mtb-featureTitle mtb-narrowTopMargin">Statistical Consulting</h4>                                                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                                                                                                                                                                                                                                                              
+                    <p class="mtb-small">Drive results with the help of a statistician.</p>                                                                                                                                                                                                                     
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                                      
+                                                                                 
+                    <a class="mtb-small mtb-button mtb-themeOutlineBlack mtb-short mtb-narrow" href="/services/statistical-consulting/">Learn more</a>                    </div>                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+                                                                                                                                                                                                                                                                                                                                       
+                                                                                                             </div>            </div>        </div>    </div>
+		</div>
+        
+        <span id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl02_WidgetHost_WidgetHost_widget_errorLb"></span>
+    
+
+                    </div>
+                
+	</div>
+        </div>
+    
+                                            </li>
+                                        
+                                            <li class="PBItem">
+                                                
+        <div id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl03_WidgetHost_dropcontainer" class="widget">
+            <span id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl03_WidgetHost_lblErrorMessage"></span>
+            <div id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl03_WidgetHost_updatepanel">
+		
+                    
+                    <div id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl03_WidgetHost_dvContent" class="content">
+                        
+        <div id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl03_WidgetHost_WidgetHost_widget_CB">
+			
+		</div>
+        
+        <span id="ctl00_ContentPlaceHolder1_Bottom_columnDisplay_ctl00_controlcolumn_ctl03_WidgetHost_WidgetHost_widget_errorLb"></span>
+    
+
+                    </div>
+                
+	</div>
+        </div>
+    
+                                            </li>
+                                        
+                                </ul>
+                            </div>
+                        
+                </div>
+            
+</div>
+
+        
+    
+    <div class="container">
+        
+        
+
+        <div id="ctl00_ContentPlaceHolder1_Top_updatepanel" class="">
+	
+                <div id="ctl00_ContentPlaceHolder1_Top_dzcontainer" class="dropzone PBClear">
+                    
+                    
+                            <div id="ctl00_ContentPlaceHolder1_Top_columnDisplay_ctl00_zone" class="PBViewing">
+                                <ul id="ctl00_ContentPlaceHolder1_Top_columnDisplay_ctl00_column" class="columnwidgetlist">
+                                    
+                                    
+                                </ul>
+                            </div>
+                        
+                </div>
+            
+</div>
+
+        
+    
+    </div>
+
+            <div class="clearing"></div>
+        </div>
+
+        <footer>
+            <div class="utilityFooter">
+                <div class="frame">
+                    <div class="inner">
+                        <div class="utilityFooterFlex">
+                            <div class="footerLinks">
+                                <div>
+	<ul class="simpleList horizontal">                                         
+    <li>        
+        <a href="/company/">About Us</a>    </li>                                         
+    <li>        
+        <a href="http://store.minitab.com/781/purl-store">Store</a>    </li>                                         
+    <li>        
+        <a href="/legal/">Legal</a>    </li>                                         
+    <li>        
+        <a href="/legal/privacy-policy">Privacy Policy</a>    </li>      
+    <li>        
+        <a href="/legal/terms-of-use">Terms of Use</a>    </li>    
+    <li>        
+        <a href="/site-map.aspx">Site Map</a>    </li>                                         
+    <li>        
+        <a href="/contact-us/">Contact Us</a>    </li>                                </ul>
+</div>
+                            </div>
+                            <div class="socialIcons">
+                                <a target="_blank" href="http://www.facebook.com/minitab" class="images-icons-facebook-32x32"></a>
+                                <a target="_blank" href="http://www.twitter.com/minitab" class="images-icons-twitter-32x32"></a>
+                                <a target="_blank" id="linkedIn" href="http://www.linkedin.com/company/minitab/" class="images-icons-linkedin-32x32"></a>
+                            </div>
+                            <div class="copyright">
+                                <span>Copyright 2018 Minitab Inc. All rights Reserved</span>
+                            </div>
+                            <div class="language">
+                                <select name="ctl00$changeLang$lang" id="lang" class="lang">
+	<option value="2052">Chinese</option>
+	<option selected="selected" value="1033">English</option>
+	<option value="1036">French</option>
+	<option value="1031">German</option>
+	<option value="1041">Japanese</option>
+	<option value="1042">Korean</option>
+	<option value="1046">Portuguese</option>
+	<option value="2058">Spanish</option>
+
+</select>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="toasterSpacer" class="mtb-toasterSpacer mtb-toast"></div>
+        </footer>
+
+        <div id="cookieToaster" class="mtb-container mtb-themeAlertYellow mtb-noPadding mtb-toaster mtb-toast">
+            <div>
+	<div class="mtb-row">                                         
+    <div class="mtb-inner">                                                                 
+        <div class="mtb-ctaRow">                                                                                         
+            <div class="mtb-ctaCopy">                                                                                                                 
+                <p class="mtb-small">By using this site you agree to the use of cookies for analytics and personalized content in accordance with our <span class="mtb-keep"><a href="/legal/privacy-policy">Policy</a>.</span>                </p>                        </div>                                     
+                                                                                                   
+            <div class="mtb-ctaButton">                                                                                                                 
+                <a id="cookie" class="mtb-button mtb-small mtb-short mtb-wide mtb-themeBlue mtb-noMargin">OK</a>                        </div>                    </div>                </div>            </div>
+</div>
+        </div>
+    </form>
+
+    <script src="/js/minitab.com/mc.min.js"></script>
+    <script src="/js/minitab.ui.2.min.js"></script>
+    <script src="/js/v3/master-page.3.min.js"></script>
+    <script src="/js/thirdParty.min.js"></script>
+
+
+    
+    
+ 
+
+    <script type="text/javascript">
+        
+
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'gaTrack');
+
+        gaTrack('create', 'UA-15820689-5', 'auto');
+        gaTrack('require', 'linkid', 'linkid.js');
+        gaTrack('send', 'pageview');
+    </script>
+      
+   
+
+    
+    <script type="text/javascript"  >
+    $.getJSON('http://api.wipmania.com/jsonp?callback=?', function (data) {
+        if (data.address.country_code == 'CN') {
+            replaceGoogleCDN();
+        }
+    });
+
+    function replaceGoogleCDN() {
+        $('link').each(function () {
+            var $intial = $(this).attr('href'),
+                $replace = $intial.replace('//fonts.googleapis.com/', '//fonts.useso.com/');
+            $(this).attr('href', $replace);
+        });
+    }
+</script>
+
+<!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3447555.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+
+</body>
+</html>

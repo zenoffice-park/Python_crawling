@@ -1,0 +1,486 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh" lang="zh">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>www.aiinvest.com - 股票,外汇自动交易系统的专业社区</title>
+
+<meta name="verify-v1" content="lGUMiSnYI7U1YlyH1RMz3KCr+XMAbd1gOJc+91FiWE8=" />
+<meta http-equiv="x-ua-compatible" content="ie=7" />
+<meta name="description" content="这里聚集了一群对股票和外汇系统交易和自动交易系统开发感兴趣的投资者。在这里，您可以学习和交流股票，外汇等交易技巧，讨论关于自动交易系统的见解、开发方法以及提出相关的问题。我们也提供对交易系统开发平台，例如VB.net,C#,MT4或者MT5的技术支持。" />
+<meta name="keywords" content="股票,外汇,交易,模拟,系统,开发,STOCK,FX,MT4,MT5,Metatrader,VB.net,C/C++,C#,论坛,社区,SNS,ai,invest,aiinvest" />
+<meta name="ROBOTS" CONTENT="INDEX, FOLLOW">
+
+<script language="javascript" type="text/javascript" src="source/script_headtotal.js"></script>
+<style type="text/css">
+@import url(template/ue_skin/style.css);
+</style>
+<link rel="shortcut icon" href="image/favicon.ico" />
+<link rel="edituri" type="application/rsd+xml" title="rsd" href="xmlrpc.php?rsd=" />
+</head>
+
+<body>
+<div id="append_parent"></div>
+<div id="ajaxwaitid"></div>
+
+<div class="header_k">
+<div id="header">
+<div class="headerwarp">
+<div class="logo"><a href="index.php"><img src="image/logo.gif" alt="www.aiinvest.com - 股票,外汇自动交易系统的专业社" /></a></div>
+
+
+<div class="menuk">
+<ul class="menu">
+<li><a href="http://www.aiinvest.com">首页</a></li>
+<li><a href="http://www.aiinvest.com/network_mtag.html">讨论组</a></li>
+<li><a href="http://www.aiinvest.com/network_blog.html">最新日志</a></li>
+<li><a href="http://www.aiinvest.com/trade.html">模拟股市</a></li>
+<li><a href="http://www.aiinvest.com/help.html">关于我们</a></li>
+</ul>
+<div class="nav_account">
+<div class="login_thumb"><a href="http://www.aiinvest.com/do.php?ac=regai"><img src="http://aiinvest.com/uc/avatar.php?uid=0&size=small&type=virtual" width="20" height="20" /></a></div>
+<span class="loginName">欢迎您</span> 
+<a href="do.php?ac=logai">登录</a> | 
+<a href="do.php?ac=regai">注册</a>
+</div>
+  </div>		
+
+  </div>
+</div>
+</div>
+
+<div id="wrap">
+
+<div id="main">
+
+<div id="app_sidebar">
+
+
+<div class="bar_text">
+<form id="loginform" name="loginform" action="do.php?ac=logai&ref" method="post">
+<input type="hidden" name="formhash" value="4eb1bc3e" />
+<p class="title">登录站点</p>
+<p>用户名</p>
+<p><input type="text" name="username" id="username" class="t_input" size="15" value="" /></p>
+<p>密码</p>
+<p><input type="password" name="password" id="password" class="t_input" size="15" value="" /></p>
+<p><input type="checkbox" id="cookietime" name="cookietime" value="315360000" checked /><label for="cookietime">记住我</label></p>
+<p>
+<input type="submit" id="loginsubmit" name="loginsubmit" value="登录" class="submit"  />
+<a href="do.php?ac=regai" class="button">注册</a>
+</p>
+</form>
+</div>
+</div>
+
+<div id="mainarea">
+
+
+<h2 class="title"><img src="image/icon/network.gif">随便看看 - 话题</h2>
+<div class="tabs_header">
+<ul class="tabs">
+<li><a href="http://www.aiinvest.com/network.html"><span>全部</span></a></li>
+<li><a href="http://www.aiinvest.com/network_doing.html"><span>记录</span></a></li>
+<li><a href="http://www.aiinvest.com/network_blog.html"><span>日志</span></a></li>
+<li><a href="http://www.aiinvest.com/network_album.html"><span>相册</span></a></li>
+<li><a href="http://www.aiinvest.com/network_share.html"><span>分享</span></a></li>
+<li class="active"><a href="http://www.aiinvest.com/network_thread.html"><span>话题</span></a></li>
+<li><a href="http://www.aiinvest.com/network_mtag.html"><span>群组</span></a></li>
+<li><a href="http://www.aiinvest.com/network_space.html"><span>成员</span></a></li>
+</ul>
+</div>
+
+<div class="h_status">
+<div id="m_search">
+<form method="get" action="network.php">
+<input type="text" name="key" value="" size="26" />
+<input type="hidden" name="ac" value="thread" />
+<input type="hidden" name="searchmode" value="1" />
+<input type="submit" name="searchsubmit" value="搜索话题" class="submit" />
+<a href="javascript:;" onclick="document.getElementById('m_search').style.display='none';document.getElementById('adv_search').style.display='block'">高级搜索</a>
+</form>
+</div>
+<form method="get" action="network.php">
+<table cellspacing="0" cellpadding="0" class="formtable" id="adv_search" style="display:none;">
+<tr>
+<th>话题标题*</th>
+<td>
+<input type="text" name="key" value="" size="26" />
+</td>
+</tr>
+<tr>
+<th>话题作者</th>
+<td>
+<input type="text" name="username" value="" size="26" />
+</td>
+</tr>
+<tr>
+<th>群组ID</th>
+<td>
+<input type="text" name="tagid" value="" size="26" />
+</td>
+</tr>
+<tr>
+<th>时间范围</th>
+<td>
+<input type="text" name="starttime" value="" size="10"> ~ <input type="text" name="endtime" value="" size="10">
+格式为 YYYY-MM-DD
+</td>
+</tr>
+<tr>
+<th>&nbsp;</th>
+<td>
+<input type="hidden" name="ac" value="thread" />
+<input type="hidden" name="searchmode" value="1" />
+<input type="submit" name="searchsubmit" value="搜索" class="submit" />
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+
+<div class="topic_list">
+<table cellspacing="0" cellpadding="0">
+<thead>
+<tr>
+<td class="subject">主题</td>
+<td class="mtag">群组</td><td class="author">作者<em>(回复/阅读)</em></td>
+<td class="lastpost">最后更新</td>
+</tr>
+</thead>
+<tr>
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_934.html"><strong>高毅资产邱国鹭：众人夺路而逃时，不挡路、不跟随</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/236</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>07-04 23:25</td>
+</tr>
+<tr class="alt">
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_933.html"><strong>张维迎：未来世界的格局，取决于中国怎么做</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/204</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>06-28 23:08</td>
+</tr>
+<tr>
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_932.html"><strong>货币锚定 - 房地产、股市、金融与经济综论</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>1/171</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>06-25 13:44</td>
+</tr>
+<tr class="alt">
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_931.html"><strong>真格基金王强：选择读什么书，决定你能拥有什么样的人生 z</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/214</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>06-22 22:24</td>
+</tr>
+<tr>
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_930.html"><strong>98年香港血战索罗斯全揭秘！ z</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/590</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>05-20 21:18</td>
+</tr>
+<tr class="alt">
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_929.html"><strong>張兆聰﹕內地M1增速低於M2 不利股市</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/225</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>05-12 10:51</td>
+</tr>
+<tr>
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_928.html"><strong>4月居民按揭贷款回落，M1增速或已经接近底部</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/204</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>05-12 10:50</td>
+</tr>
+<tr class="alt">
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_927.html"><strong>Quantitative Finance 杂志关于量化交易领域排名前十的文章</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/372</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>04-30 18:39</td>
+</tr>
+<tr>
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_926.html"><strong>从某芯片大厂的独特视角，看中国为什么不受发达国家待见</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/614</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>04-01 12:37</td>
+</tr>
+<tr class="alt">
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_925.html"><strong>巴菲特 Fortune专文-沉重的贸易赤字等于在出卖美国 (2003)</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/385</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>03-25 21:18</td>
+</tr>
+<tr>
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_924.html"><strong>巴菲特与北大学子的4小时聊天干货：2018年的投资机会在哪</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/712</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>03-04 21:11</td>
+</tr>
+<tr class="alt">
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_923.html"><strong>“疯子”杨国强：碧桂园前CFO新书爆料杨氏家族内幕</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/277</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>03-01 19:27</td>
+</tr>
+<tr>
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_922.html"><strong>第53封巴菲特股东信：别人越大胆 我们越谨慎（全文）2</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>1/364</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>02-24 23:19</td>
+</tr>
+<tr class="alt">
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_921.html"><strong>第53封巴菲特股东信：别人越大胆 我们越谨慎（全文）</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/329</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>02-24 23:16</td>
+</tr>
+<tr>
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_920.html"><strong>10次大股灾告诉你：为啥炒股就是赌国运？</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/321</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>02-23 00:06</td>
+</tr>
+<tr class="alt">
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_919.html"><strong>九坤投资王琛：量化私募经历黑暗时刻 如何寻找致胜的阿尔法收益z</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/382</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>02-19 13:22</td>
+</tr>
+<tr>
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_918.html"><strong>人人都在谈的XIV， 这到底是什么鬼？</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/353</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>02-15 22:36</td>
+</tr>
+<tr class="alt">
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_917.html"><strong>东方红林鹏重磅演讲 真正的干货在这里！z</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/961</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>01-07 11:24</td>
+</tr>
+<tr>
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_916.html"><strong>为什么是他？解密中国最年轻的百亿宏观对冲基金 z</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/510</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>12-30 10:39</td>
+</tr>
+<tr class="alt">
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_915.html"><strong>瑞·达利欧（Ray Dalio）：原则</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/691</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>12-18 22:39</td>
+</tr>
+<tr>
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_914.html"><strong>桥水基金 “全天候交易策略” 深度解析（强烈推荐） z</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>1/1574</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>11-30 23:05</td>
+</tr>
+<tr class="alt">
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_913.html"><strong>房价跌多少，银行将崩溃？答案出乎炒房客的意料z</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/1379</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>10-02 11:52</td>
+</tr>
+<tr>
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_912.html"><strong>投资大师纽伯格的十条忠告</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/632</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>09-30 13:22</td>
+</tr>
+<tr class="alt">
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_911.html"><strong>做私募的，都必须熬过那些不为人知的苦难</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/946</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>09-23 09:54</td>
+</tr>
+<tr>
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_910.html"><strong>傲慢与偏见：指数投资的冰与火之歌 z</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/1831</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>08-26 10:09</td>
+</tr>
+<tr class="alt">
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_909.html"><strong>基金经理黎海威分享：量化投资如何获取Alpha z</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/829</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>08-22 23:14</td>
+</tr>
+<tr>
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_908.html"><strong>邱国鹭：避开这些价值陷阱和成长陷阱</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/807</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>08-19 11:36</td>
+</tr>
+<tr class="alt">
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_907.html"><strong>私募掌门人邱国鹭：坚持价值投资 不赚割韭菜的钱z</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/538</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>08-19 11:36</td>
+</tr>
+<tr>
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_906.html"><strong>张五常的学习方法为什么好？因为符合人类的认知原理 z</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/1955</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>07-09 08:13</td>
+</tr>
+<tr class="alt">
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_905.html"><strong>做了4家公司都成功，特斯拉马斯克用了99%的人都不会的独特思维…</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/796</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>06-28 14:03</td>
+</tr>
+<tr>
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_904.html"><strong>高毅投研内部培训：学习把最重要的事情做到极致</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>1/793</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>06-24 19:44</td>
+</tr>
+<tr class="alt">
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_903.html"><strong>徐小平：关于那些最终将影响人生格局的问题清单</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/740</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>06-20 08:09</td>
+</tr>
+<tr>
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_902.html"><strong>社保基金16年年均收益达8%：神奇逃顶 屡屡抄底 z</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/631</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>06-19 15:50</td>
+</tr>
+<tr class="alt">
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_901.html"><strong>职业投机客“持续掌握优势”的秘密 z</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/1192</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>06-03 14:06</td>
+</tr>
+<tr>
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_900.html"><strong>28年来首遭穆迪降级，中国经济真的到了关键点了吗？</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/1000</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>05-28 19:11</td>
+</tr>
+<tr class="alt">
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_899.html"><strong>一个辍学生的逆袭：扎克伯格在母校哈佛毕业典礼的演讲全文z</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/840</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>05-26 12:53</td>
+</tr>
+<tr>
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_898.html"><strong>MSCI指数拒绝A股的真实原因 z</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/872</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>05-24 11:50</td>
+</tr>
+<tr class="alt">
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_897.html"><strong>直击 | 巴菲特2017年股东大会 z</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/1412</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>05-07 15:22</td>
+</tr>
+<tr>
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_896.html"><strong>投资的最高境界——等戴维斯来敲门</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/3082</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>04-12 08:17</td>
+</tr>
+<tr class="alt">
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_895.html"><strong>浑水摸鱼者Carson Block | 完美人物志</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/884</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>04-10 23:51</td>
+</tr>
+<tr>
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_894.html"><strong>干货：一份顶尖私募的内部培训笔记（金融人士秒藏）</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/924</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>04-08 13:46</td>
+</tr>
+<tr class="alt">
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_893.html"><strong>马化腾李彦宏首次同台探讨AI：未来哪些商业应用将被颠覆？</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/1339</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>04-03 00:23</td>
+</tr>
+<tr>
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_892.html"><strong>美国大选浮现隐秘操盘手，人工智能“看透”2亿美国人</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/2075</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>03-08 08:31</td>
+</tr>
+<tr class="alt">
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_890.html"><strong>巴菲特今年致股东信里的投资箴言，及60年所有金句集锦</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/1426</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>02-27 12:24</td>
+</tr>
+<tr>
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_888.html"><strong>芒格2017年DJCO年会精彩问答</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/1240</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>02-20 20:09</td>
+</tr>
+<tr class="alt">
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_887.html"><strong>马云万字年终分享：未来3到5年经济形势会超乎想象艰难</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/2517</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>01-26 22:25</td>
+</tr>
+<tr>
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_886.html"><strong>柳传志：人活着要勤于复盘</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/934</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>01-26 19:13</td>
+</tr>
+<tr class="alt">
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_885.html"><strong>A股市场：我用十年时光和真金白银学到了什么？</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/997</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>01-25 22:33</td>
+</tr>
+<tr>
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_884.html"><strong>四步，教你建立数据分析的思维框架 z</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/1446</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>01-16 17:36</td>
+</tr>
+<tr class="alt">
+<td ><a href="http://www.aiinvest.com/space_2_do_thread_id_882.html"><strong>索罗斯罕见公开谈论特朗普 警告西方遭遇“民主危机”</strong></a></td>
+<td class="mtag"><a href="http://www.aiinvest.com/space_mtag_tagid_1.html">交易系统实现及开发</a></td>
+<td class="author"><a href="http://www.aiinvest.com/space_2.html">gats</a><br>0/1498</td>
+<td class="lastpost"><a href="http://www.aiinvest.com/space_2.html" title="gats">gats</a><br>12-29 22:09</td>
+</tr>
+</table>
+</div>
+<div class="page">
+<em>&nbsp;916&nbsp;</em><strong>1</strong><a href="http://www.aiinvest.com/network_thread_page_2.html">2</a><a href="http://www.aiinvest.com/network_thread_page_3.html">3</a><a href="http://www.aiinvest.com/network_thread_page_4.html">4</a><a href="http://www.aiinvest.com/network_thread_page_5.html">5</a><a href="http://www.aiinvest.com/network_thread_page_2.html" class="next">&rsaquo;&rsaquo;</a><a href="http://www.aiinvest.com/network_thread_page_19.html" class="last">... 19</a></div>
+
+
+﻿</div>
+
+<!--/mainarea-->
+<div id="bottom"></div>
+</div>
+<!--/main-->
+
+<div id="footer" title="">
+
+<p class="r_option">
+<a href="javascript:;" onclick="window.scrollTo(0,0);" id="a_top" title="TOP"><img src="image/top.gif" alt="" style="padding: 5px 6px 6px;" /></a>
+</p>
+
+
+<p>
+www.aiinvest.com &copy; 2008-2010 - 
+<a href="mailto:info@aiinvest.com">联系我们</a>		
+<a href="http://blog.aiinvest.com" target="_blank">原Blog</a>	
+</div>
+</div>
+<!--/wrap-->
+
+
+<script language="javascript"  type="text/javascript" src="do.php?ac=sendmail&rand=1531451093"></script>
+
+<!--START (aync)--> <script type="text/javascript">var _Hasync= _Hasync|| []; _Hasync.push(['Histats.start', '1,319697,4,0,0,0,00000000']); _Hasync.push(['Histats.fasi', '1']); _Hasync.push(['Histats.track_hits', '']); (function() { var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true; hs.src = ('http://s10.histats.com/js15_as.js'); (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs); })();</script> <noscript><a href="link.php?url=http://www.histats.com" target="_blank"><img src="http://sstatic1.histats.com/0.gif?319697&101" alt="myspace tracker" border="0"></a></noscript>	
+<script type="text/javascript">var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-19005867-1']);  _gaq.push(['_trackPageview']);  (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();</script> <!-- END --> 
+</body>
+</html>

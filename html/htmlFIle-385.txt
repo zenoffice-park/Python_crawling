@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Webからのお問い合わせ&nbsp;|&nbsp;大和不動産鑑定株式会社 - DAIWAKANTEI</title>
+
+<meta name="keywords" content="大和不動産鑑定株式会社,大和不動産鑑定,不動産鑑定業者,不動産鑑定評価,不動産鑑定業,不動産鑑定,鑑定評価,補償業務,固定資産評価" />
+<meta name="description" content="不動産の総合コンサルタント,DAIWA REAL ESTATE APPRAISAL" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<link href="/common/css/import.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/common/css/contents.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/common/css/contact.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/common/css/print.css" rel="stylesheet" type="text/css" media="print" />
+<link rel="stylesheet" href="/common/css/size_s.css" type="text/css" title="Default" />
+<link rel="alternate stylesheet" href="/common/css/size_m.css" type="text/css" title="Medium" />
+<link rel="alternate stylesheet" href="/common/css/size_l.css" type="text/css" title="Large" />
+<script type="text/javascript" src="/common/js/smartRollover.js" ></script>
+<script type="text/javascript" src="/common/js/styleswitcher.js"></script>
+
+</head>
+<body style="font-size:14px;">
+<a name="top"></a>
+<!-- container //-->
+<div>
+
+
+<!-- main //-->
+<div class="main" id="contents">
+	<div id="topicPath" class="s">
+	<ol>
+	<li><a href="http://www.daiwakantei.co.jp/index.html">トップページ</a>&nbsp;>&nbsp;</li>
+	Webからのお問い合わせ
+	</ol>
+	</div>
+
+	<h2>Webからのお問い合わせ</h2>
+
+
+<div id="contact">
+
+<p>当社へのお問い合わせは、下記フォームに必要事項を入力し、確認ボタンをクリックしてください。後日、当社担当者よりご連絡差し上げます。</p>
+
+<p><span>※</span>印のついた入力項目は必須です</p>
+
+<form action="">
+
+<table class="tb_contact">
+<tr>
+<th>お問い合わせ種類(<span>※</span>)</th>
+<td><select name="select">
+  <option selected="selected">お問い合わせ種類を選択してください。</option>
+  <option value="1">不動産鑑定評価に関するお問い合わせ</option>
+  <option value="2">証券化評価サービスに関するお問い合わせ</option>
+  <option value="3">不動産コンサルティングサービスに関するお問い合わせ</option>
+  <option value="4">建築エンジニアリングサービスに関するお問い合わせ</option>
+  <option value="5">固定資産システム評価サービスに関するお問い合わせ</option>
+  <option value="6">補償コンサルタントサービスに関するお問い合わせ</option>
+  <option value="7">採用に関するお問い合わせ</option>
+  <option value="8">ソフトウェア販売、出版物に関する問い合わせ</option>
+  <option value="9">不動産に係る税務申告の支援</option>
+  <option value="10">翻訳に関するお問い合わせ</option>
+  <option value="11">上記以外のお問い合わせ</option>
+</select>
+</td>
+</tr>
+<tr>
+<th>法人・個人(<span>※</span>)</th>
+<td>
+<input name="corp_personal" type="radio" value="1" id="corp" class="radio" /><label for="corp">企業(法人)</label><br />
+<input name="corp_personal" type="radio" value="2" id="gove" class="radio" /><label for="gove">公的機関</label><br />
+<input name="corp_personal" type="radio" value="3"id="per"  class="radio" /><label for="per">個人</label>
+</td>
+</tr>
+<tr>
+<th>会社・団体名</th>
+<td><input name="company_name" type="text" id="company_name" size="30" /></td>
+</tr>
+<tr>
+<th>部署名</th>
+<td><input name="division" type="text" id="division" size="30" /></td>
+</tr>
+<tr>
+<th>所在地</th>
+<td><input name="address" type="text" id="address" size="30" /></td>
+</tr>
+<tr>
+<th>お電話番号</th>
+<td><input type="text" id="tel1" name="tel1" size="5" />&nbsp;-&nbsp;<input type="text" id="tel2" name="tel2" size="8" />&nbsp;-&nbsp;<input type="text" id="tel3" name="tel3" size="8" /></td>
+</tr>
+<tr>
+<th>お名前(<span>※</span>)</th>
+<td><input name="name" type="text" id="name" size="30" /></td>
+</tr>
+<tr>
+<th>お名前(カナ)</th>
+<td><input name="name_kana" type="text" id="name_kana" /></td>
+</tr>
+<tr>
+<th>メールアドレス(<span>※</span>)</th>
+<td><input name="mail" type="text" id="mail" size="30" /></td>
+</tr>
+<tr>
+<th>お問い合わせ内容(<span>※</span>)</th>
+<td><textarea name="text" id="text" rows="10" cols="30" style="overflow:auto;"></textarea></td>
+</tr>
+<tr>
+<td colspan="2" class="privacy_text">
+<p>お問い合わせいただくにあたり、個人情報保護方針に同意いただく必要がございます。<br />
+個人情報保護方針はこちらからご覧いただけます。<br />
+※同意いただけない場合は、お問い合わせできません。</p>
+</td>
+</tr>
+<tr>
+<td colspan="2" class="privacy_check">
+<input name="privacy" type="checkbox" id="privacy" value="1" class="check" /><label for="privacy">同意する</label>
+</td>
+</tr>
+</table>
+
+<div id="btn_area" class="clearFix">
+<ul>
+<li><button type="submit"><img src="/images/contact/comfirm_btn.jpg"></button></li>
+<li><button type="reset"><img src="/images/contact/reset_btn.jpg"></button></li>
+</ul>
+</div>
+
+</form>
+
+<h5>ご注意</h5>
+<dl class="clearFix">
+<dt>1：</dt>
+<dd>特殊なフォーマットでエンコードされているお問い合わせに関しましては、お答えできない場合がございます。</dd>
+<dt>2：</dt>
+<dd>ご質問の内容によっては、回答に時間を要する場合がありますのでご了承ください。</dd>
+<dt>3：</dt>
+<dd>お問い合わせフォームからの当社への営業活動につきましては、ご遠慮ください。<br>
+また、営業活動と当社が判断した場合は返信し兼ねる場合がございますので、予めご了承ください。</dd>
+<dt>4：</dt>
+<dd>土曜日・日曜日・祝日・年末年始ほか、当社休業日にいただいたお問い合わせにつきましては、翌営業日以降の回答となりますのでご了承ください。</dd>
+</dl>
+
+
+<p><a href="comfirm.html">確認ページへ（テスト）</a></p>
+</div>
+
+<!-- pagetop //-->
+<div id="pagetop">
+	<a href="#top"><img src="/common/images/pagetop_off.gif" alt="ページトップへ" title="ページトップへ"></a>
+</div>
+<!-- pagetop //-->
+
+</div>
+<!-- /main //-->
+
+
+
+</div>
+<!-- container //-->
+
+
+</body>
+</html>

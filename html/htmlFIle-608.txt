@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PJW2Z6');</script>
+<!-- End Google Tag Manager -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+<meta name="msapplication-config" content="https://www.graffe.jp/content/themes/child-theme/browserconfig.xml" />
+<link rel="apple-touch-icon" sizes="57x57" href="https://www.graffe.jp/content/themes/child-theme/shared/img/favicon/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://www.graffe.jp/content/themes/child-theme/shared/img/favicon/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://www.graffe.jp/content/themes/child-theme/shared/img/favicon/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://www.graffe.jp/content/themes/child-theme/shared/img/favicon/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://www.graffe.jp/content/themes/child-theme/shared/img/favicon/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://www.graffe.jp/content/themes/child-theme/shared/img/favicon/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://www.graffe.jp/content/themes/child-theme/shared/img/favicon/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.graffe.jp/content/themes/child-theme/shared/img/favicon/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.graffe.jp/content/themes/child-theme/shared/img/favicon/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="https://www.graffe.jp/content/themes/child-theme/shared/img/favicon/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://www.graffe.jp/content/themes/child-theme/shared/img/favicon/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="https://www.graffe.jp/content/themes/child-theme/shared/img/favicon/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="https://www.graffe.jp/content/themes/child-theme/shared/img/favicon/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="https://www.graffe.jp/content/themes/child-theme/shared/img/favicon/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="https://www.graffe.jp/content/themes/child-theme/manifest.json">
+<meta name="msapplication-TileColor" content="#eb9b00">
+<meta name="msapplication-TileImage" content="https://www.graffe.jp/content/themes/child-theme/shared/img/favicon/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<link href="https://www.graffe.jp/content/themes/child-theme/shared/img/favicon/favicon.ico" rel="shortcut icon" />
+
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<meta name="mobile-web-app-capable" content="yes"><script data-ref="https://goo.gl/C1gw96" data-abtf='[]'>window.Abtf={};!function(e,d){function k(b){if((b=b.getAttribute("data-abtf"))&&"string"==typeof b)try{b=JSON.parse(b)}catch(p){}if(!(b&&b instanceof Array))throw Error("invalid config");for(var a=b.length,c=0;c<a;c++)void 0===e.Abtf[c]&&(e.Abtf[c]=-1===b[c]?void 0:b[c]);d[0](n,!0)}function n(b,a){function c(){f[2]?a[17](f[3],"webfont"):void 0!==b.WebFont&&b.WebFont.load(b.WebFontConfig)}var d=b.requestAnimationFrame||b.webkitRequestAnimationFrame||b.mozRequestAnimationFrame||b.msRequestAnimationFrame||function(a){b.setTimeout(a,
+1E3/60)};a[15]=function(){d.apply(b,arguments)};var e=!!b.requestIdleCallback&&b.requestIdleCallback;if(a[16]=!!e&&function(){e.apply(b,arguments)},a[7])var f=a[7];a[10]=function(){if(a[6]&&a[27](a[6]),a[1]&&!a[1][1]&&a[18](a[1][0]),a[7]){if(void 0===b.WebFontConfig&&(b.WebFontConfig={}),f[0]){b.WebFontConfig.google||(b.WebFontConfig.google={});b.WebFontConfig.google.families||(b.WebFontConfig.google.families=[]);for(var e=f[0].length,d=0;d<e;d++)b.WebFontConfig.google.families.push(f[0][d])}f[1]||
+c()}a[12]&&!a[4]&&a[12]()};a[11]=function(){a[12]&&a[4]&&a[12]();a[1]&&a[1][1]&&a[18](a[1][0]);a[7]&&f[1]&&c()};a[14](a[11]);a[17]=function(a,b){var c=document.createElement("script");c.src=a;b&&(c.id=b);c.async=!0;var d=document.getElementsByTagName("script")[0];d?d.parentNode.insertBefore(c,d):(document.head||document.getElementsByTagName("head")[0]).appendChild(c);!0}}d[14]=function(b,a,c){(a=document)[c="addEventListener"]?a[c]("DOMContentLoaded",b):e.attachEvent("onload",b)};var l,g=[];d[0]=
+function(b,a){if(l||a){if(b(e,e.Abtf,e.document,Object),!0===a){if(0<g.length)for(var c=g.shift();c;)d[0](c,1),c=g.shift();l=!0;m&&d[10]()}}else g.push(b)};if(document.currentScript&&document.currentScript.hasAttribute("data-abtf"))k(document.currentScript);else{var h=document.querySelector("script[data-abtf]");h?k(h):(e.console&&void 0!==console.error&&console.error("<script data-abtf> client missing"),d[14](function(){if(!(h=document.querySelector("script[data-abtf]")))throw Error("<script data-abtf> client missing");
+k(h)}))}var m;d[9]=function(){l?d[10]():m=!0}}(window,Abtf);Abtf[9]();</script><style type="text/css" id="AbtfCSS" data-abtf>
+/*!
+ * Page Speed Optimization 2.9.10
+ * 
+ * ------------------------------------
+ *    WARNING: CRITICAL CSS IS EMPTY     
+ * ------------------------------------
+ */
+</style>
+<!-- This site is optimized with the Yoast SEO plugin v4.4 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>CONTACT | 店舗改善/PDCA/コンサルティング/分析/graffe グラーフ</title>
+<meta name="description" content="大型商業施設から小規模店舗に至るまで、”POS”、”人流データ（お客様の行動）”、”作業ログ（スタッフの行動）”を統合し、多面的な分析を加えることにより、各社の状況に合わせた「PDCAサイクル」をご提案します。"/>
+<meta name="robots" content="noodp"/>
+<meta name="keywords" content="PDCA,店舗,コンサルティング,分析,POSデータ,人流計測,"/>
+<link rel="canonical" href="https://www.graffe.jp/contact/" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="CONTACT | 店舗改善/PDCA/コンサルティング/分析/graffe グラーフ" />
+<meta property="og:description" content="大型商業施設から小規模店舗に至るまで、”POS”、”人流データ（お客様の行動）”、”作業ログ（スタッフの行動）”を統合し、多面的な分析を加えることにより、各社の状況に合わせた「PDCAサイクル」をご提案します。" />
+<meta property="og:url" content="https://www.graffe.jp/contact/" />
+<meta property="og:site_name" content="データビジュアライズで経営を視える化する/graffe グラーフ" />
+<meta property="og:image" content="https://s3-ap-northeast-1.amazonaws.com/img.basestation.jp/prod-graffe/content/uploads/2015/03/graffe_eyecatch_default_kotei.png" />
+<meta property="og:image:width" content="780" />
+<meta property="og:image:height" content="410" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//www.google.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="データビジュアライズで経営を視える化する/graffe グラーフ &raquo; CONTACT のコメントのフィード" href="https://www.graffe.jp/contact/feed/" />
+<link rel='preload' as='style' class='async-css' id='bss-plugin-css-css'  href='https://www.graffe.jp/content/plugins/hvc-share-btn/assets/css/hvc_sns.css' type='text/css' media='all' onload='this.rel="stylesheet"'>
+<link rel='preload' as='style' class='async-css' id='base-css'  href='https://www.graffe.jp/content/themes/child-theme/shared/css/style.css' type='text/css' media='all' onload='this.rel="stylesheet"'>
+<link rel='preload' as='style' class='async-css' id='teaser-css'  href='https://www.graffe.jp/content/themes/child-theme/shared/css/teaser.css' type='text/css' media='all' onload='this.rel="stylesheet"'>
+<link rel='preload' as='style' class='async-css' id='post-css'  href='https://www.graffe.jp/content/themes/child-theme/shared/css/post.css' type='text/css' media='all' onload='this.rel="stylesheet"'>
+<link rel='preload' as='style' class='async-css' id='trust-form-front-css'  href='https://www.graffe.jp/content/plugins/trust-form/css/default-responsive.css' type='text/css' media='all' onload='this.rel="stylesheet"'>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.graffe.jp/wp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.graffe.jp/wp/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7.11" />
+<link rel='shortlink' href='https://www.graffe.jp/?p=5' />
+<link rel="icon" href="https://s3-ap-northeast-1.amazonaws.com/img.basestation.jp/prod-graffe/content/uploads/2017/06/17031356/cropped-graffe_icon-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://s3-ap-northeast-1.amazonaws.com/img.basestation.jp/prod-graffe/content/uploads/2017/06/17031356/cropped-graffe_icon-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://s3-ap-northeast-1.amazonaws.com/img.basestation.jp/prod-graffe/content/uploads/2017/06/17031356/cropped-graffe_icon-180x180.png" />
+<meta name="msapplication-TileImage" content="https://s3-ap-northeast-1.amazonaws.com/img.basestation.jp/prod-graffe/content/uploads/2017/06/17031356/cropped-graffe_icon-270x270.png" />
+</head>
+
+<body>
+    
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PJW2Z6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	<div id="graffe-teaser-wrap">
+    	
+        <header id="lp-header">
+        	<div class="logo"><a href="/"><img src="https://www.graffe.jp/content/themes/child-theme/shared/img/teaser/logo_head.svg" onerror="this.onerror=null; this.src='https://www.graffe.jp/content/themes/child-theme/shared/img/teaser/logo_head.png'" alt="graffe"></a></div>
+            <ul>
+                <li><a href="/download" class="download-lpgraffe-header"><span class="icon">></span>資料ダウンロード</a></li>
+                <li><a href="/contact" class="contact-lpgraffe-header"><span class="icon">></span>お問い合わせ</a></li>
+                <li><a href="http://www.gixo.jp/company" target="_blank"><span class="icon">></span>会社情報</a></li>
+            </ul>
+        </header>
+        
+<input type="hidden" id="trust_form_input_nonce_field" name="trust_form_input_nonce_field" value="386bc598e6" /><input type="hidden" name="_wp_http_referer" value="/contact/" /><div id="contact-form-wrap" class="entry">
+<div class="wrap-outer">
+
+<h2>お問い合わせ</h2>
+<h3>下記の項目を入力していただき、<br>入力が終わりましたら「入力内容を確認する」ボタンを押してください。</h3>
+<div class="form-area">
+<form action="./?page=confirm" method="post" >
+<dl class="clearfix">
+                <dt>
+                <span><img src="https://www.graffe.jp/content/themes/child-theme/shared/img/form/ast_icon.png" width="22" height="22"></span>貴社名
+                </dt>
+                <dd>
+                    <div>
+                        <input type="text" name="element-0"    value="" />
+                    </div>
+                    <div class="submessage"></div>
+                    
+                </dd>
+
+                <dt>
+                部署名 ⁄ 役職
+                </dt>
+                <dd>
+                    <div>
+                        <input type="text" name="element-1"    value="" />
+                    </div>
+                    <div class="submessage"></div>
+                    
+                </dd>
+
+                <dt>
+                <span><img src="https://www.graffe.jp/content/themes/child-theme/shared/img/form/ast_icon.png" width="22" height="22" alt="必須"></span>お名前
+                </dt>
+                <dd class="non-line">
+                <div class="limit">
+                <p>姓：</p>
+                <div><input type="text" name="element-2"    value="" /></div>
+                </div>
+                <div class="submessage"><span class="ex">ex.</span>山田</div>
+                
+                </dd>
+                <dd>
+                <div class="limit">
+                <p>名：</p>
+                <div><input type="text" name="element-3"    value="" /></div>
+                </div>
+                <div class="submessage"><span class="ex">ex.</span>太郎</div>
+                
+                </dd>
+                <dt>
+                <span><img src="https://www.graffe.jp/content/themes/child-theme/shared/img/form/ast_icon.png" width="22" height="22"></span>メールアドレス
+                </dt>
+                <dd>
+                    <div>
+                        <input type="text" name="element-4"    value="" />
+                    </div>
+                    <div class="submessage"><span class="ex">ex.</span>taro@graffe.jp</div>
+                    
+                </dd>
+
+                <dt>
+                お電話番号
+                </dt>
+                <dd>
+                    <div>
+                        <input type="text" name="element-5"    value="" />
+                    </div>
+                    <div class="submessage"><span class="ex">ex.</span>0312345678（ハイフンなし・数字のみ）</div>
+                    
+                </dd>
+
+                <dt>
+                <span><img src="https://www.graffe.jp/content/themes/child-theme/shared/img/form/ast_icon.png" width="22" height="22"></span>お問い合わせ詳細
+                </dt>
+                <dd>
+                    <div>
+                        <textarea name="element-6"   ></textarea>
+                    </div>
+                    <div class="submessage"><span>※</span>ご質問、ご相談の詳細をご記入ください。</div>
+                    
+                </dd>
+    <input type="hidden" id="trust_form_input_nonce_field" name="trust_form_input_nonce_field" value="386bc598e6" /><input type="hidden" name="_wp_http_referer" value="/contact/" />
+    </dl>
+		<div class="g-wrapper">
+				<div class="g-recaptcha" data-sitekey="6LelyEoUAAAAALlASq_UZLJsHmc-f0zY0VgGP1qR">
+				</div>
+				<div class="g-error"> </div>
+		</div>
+
+    <div class="btn-area">
+        <!--<p class="txt"><a href="#">プライバシーポリシー</a>をご確認のうえ、確認画面へお進みください。</p>-->
+        <p class="btn">	
+  <input type="submit" name="send-to-confirm" value="確認する">
+<span class="icon">2</span></p>
+    </div>
+    </form>
+    </div>
+
+    </div>
+    </div><!-- #contact-form-wrap -->
+
+        <footer id="lp-footer">
+        	<div class="logo"><a href="/"><img src="https://www.graffe.jp/content/themes/child-theme/shared/img/teaser/logo_foot.svg" onerror="this.onerror=null; this.src='https://www.graffe.jp/content/themes/child-theme/shared/img/teaser/logo_foot.png'" alt="graffe"></a></div>
+            <ul>
+                <li><a href="/contact"><span class="icon">2</span>お問い合わせ</a></li>
+                <li><a href="http://www.gixo.jp/company" target="_blank"><span class="icon">2</span>会社情報</a></li>
+                <li><address>&copy;&nbsp;GiXo&nbsp;Ltd.</address></li>
+            </ul>
+        </footer><!-- #footer -->
+
+	</div><!-- #graffe-teaser-wrap -->
+
+
+<!--[if (gte IE 6)&(lte IE 8)]>
+<script type="text/javascript" src="https://www.graffe.jp/content/themes/child-theme/shared/js/selectivizr.js"></script>
+<![endif]-->
+
+<script type='text/javascript'>
+                var css = document.getElementsByClassName("async-css");
+                for (var i = 0, l = css.length; i < l; i++) {
+                    css[i].rel = 'stylesheet';
+                }
+                </script><script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+<script src="https://www.graffe.jp/content/plugins/hvc-share-btn/assets/js/bss-social.js" defer></script>
+<script src="https://www.graffe.jp/wp/wp-includes/js/underscore.min.js" defer></script>
+<script src="https://www.graffe.jp/wp/wp-includes/js/backbone.min.js" defer></script>
+<script src="https://www.graffe.jp/content/themes/child-theme/shared/js/hogan-3.0.1.js" defer></script>
+<script src="https://www.graffe.jp/content/themes/child-theme/shared/js/IsManager.js" defer></script>
+<script src="https://www.graffe.jp/content/themes/child-theme/shared/js/jqueryAutoHeight.js" defer></script>
+<script src="https://www.graffe.jp/content/themes/child-theme/shared/js/jquery.sticky.js" defer></script>
+<script src="https://www.graffe.jp/content/themes/child-theme/shared/js/common.js" defer></script>
+<script src="https://www.graffe.jp/content/themes/child-theme/shared/js/smartphone.js" defer></script>
+<script type='text/javascript' src='https://www.graffe.jp/content/themes/child-theme/shared/js/teaser.js'></script>
+<script type='text/javascript' src='//www.google.com/recaptcha/api.js'></script>
+<script src="https://www.graffe.jp/content/themes/child-theme/shared/js/form.js" defer></script>
+<script src="https://www.graffe.jp/content/themes/child-theme/shared/js/sideFix.js" defer></script>
+
+
+</body>
+</html>

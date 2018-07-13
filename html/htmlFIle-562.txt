@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=2.0,user-scalable=yes" id="viewport">
+	<meta name="format-detection" content="telephone=no" />
+	<title>物件お問い合わせ｜目黒区・世田谷区の不動産なら【スミカ・クリエイト】</title>
+
+	<link rel="stylesheet" href="/css/reset.css">
+	<link rel="stylesheet" href="/css/common.css">
+	<link rel="stylesheet" href="/css/mmenu/jquery.mmenu.all.css">
+	<link rel="stylesheet" href="/common/css/regist.css" type="text/css">
+
+
+<!-- Google Tag Manager 20161028 -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TZ334G');</script>
+<!-- End Google Tag Manager 20161028 -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="/javascripts/mmenu/jquery.mmenu.js"></script>
+	<script type="text/javascript" src="/common/javascripts/inqvali.js"></script>
+</head>
+<body id="inqInput">
+
+<div id="wrapper">
+
+	<!--h1>お問い合わせ｜東急沿線を中心に不動産売買をサポートする不動産.tvの住宅情報サイト</h1-->
+
+
+<!-- ******************************************** -->
+	<header id="header">
+		<div class="wide">
+			<!-- smartphone only -->
+			<ul id="snsBtns">
+                <li><a href="/top/index_login" target="_blank">ログイン</a></li>
+				<li>
+					<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://www.c21-smica.com/">Tweet</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				</li>
+				<li>
+					<div class="fb-like" data-href="https://www.facebook.com/smicacreate" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false">
+					</div>
+				</li>
+			</ul>
+			<!-- smartphone only -->
+			<div id="headNav">
+                <div>                    <a href="/"><img src="/imgs/logo.png" alt="SUMICA CREATE"></a>
+                </div>				<nav>
+				  <ul>
+				    <li><a href="/office/">企業情報</a></li>
+				    <li style="display:none;"><a href="https://blog.c21-smica.com/contact/" target="_blank">お問い合わせ</a></li>
+				    <li><a href="/regist/" target="_blank">無料会員登録</a></li>
+				    <li><a href="/top/index_login" target="_blank">ログイン</a></li>
+                      <li><a href="https://www.facebook.com/smicacreate/" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a></li>
+                      <li><a href="https://twitter.com/press_smica" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+				  </ul>
+				</nav>
+				<p id="spBtn"><a href="#gNavSP"><img src="/imgs/mmenu.png" alt="menu"></a></p>
+			</div>
+		</div>
+	</header>
+<!-- ******************************************** -->
+<!--
+	<div id="header">
+		<div id="header_logo">
+			<a href="/">センチュリー21 スミカ・クリエイト</a>
+		</div>
+		<div id="header_tel">
+			<a href="tel:0120-219-621">0120-219-621</a>
+			<a href="/keep/">お問い合わせ候補</a>
+			<a href="/history/">最近見た物件</a>
+		</div>
+		<div id="login_greeting">
+			ようこそ、山田太郎様
+		</div>
+	</div>
+-->
+
+
+	<div class="wide">
+
+		<section>
+
+
+
+			<h2 class="ttl op22">お問い合わせ</h2>
+			<div id="grid01">
+
+<style type="text/css">
+<!--
+#inqform_indet01 form ul.inqformul01 li div:nth-of-type(2) label  {
+	display:block;
+}
+-->
+</style>
+		<div class="inqform_indetail" id="inqform_indet01" name="inqform_indet01">
+
+			<form method='POST' action='/contact/contact_conf' name="inqform_estates" onsubmit="return Check(this);">
+
+
+			<ul class="inqformul01">
+				<li>
+					<div>お問い合わせの物件</div>
+					<div>
+													物件が1件も選択されていません。
+											</div>
+				</li>
+				<li>
+					<div class="must_item">お問い合わせ内容</div>
+					<div>
+						<label><input type='checkbox' name='contact_value[]' id="cvchk01" value='物件について質問がある' >物件について質問がある</label>
+						<label><input type='checkbox' name='contact_value[]' id="cvchk02" value='詳しい資料がほしい' >詳しい資料がほしい</label>
+						<label><input type='checkbox' name='contact_value[]' id="cvchk03" value='担当者からの説明がほしい' >担当者からの説明がほしい</label>
+						<label><input type='checkbox' name='contact_value[]' id="cvchk04" value='現地を見学したい' >現地を見学したい</label>
+						<label><input type='checkbox' name='contact_value[]' id="cvchk05" value='資金計画を相談したい' >資金計画を相談したい</label>
+						<label><input type='checkbox' name='contact_value[]' id="cvchk06" value='その他' >その他</label>
+					</div>
+				</li>
+				<li>
+					<div>ご質問の内容や、ご希望のご連絡方法・ご見学/ご来訪日時・ご人数、などをお知らせください。</div>
+					<div><textarea name="c1" id="c1txt" rows="5"></textarea></div>
+				</li>
+			</ul>
+
+			<ul class="inqformul01">
+				<li>
+					<div class="must_item">お名前</div>
+					<div>
+						姓　<input type='text' name='uname_sei' value='' size='10'>　
+						名　<input type='text' name='uname_mei' value='' size='10'>
+					</div>
+				</li>
+				<li>
+					<div class="must_item">メールアドレス</div>
+					<div><input type='text' name='mail' value='' size='30'></div>
+				</li>
+				<li>
+					<div class="must_item">お電話番号</div>
+					<div>
+						<input type='text' name='tell' value='' size='20'>
+					</div>
+				</li>
+				<li>
+					<div class="must_item">ご住所</div>
+					<div>
+						〒<input type='text' name='zip' value='' size='10' maxlength='8'>
+						<select name='prefecture'>
+							<option value='' selected>選択してください</option>
+							<option value='01000'>北海道</option>
+							<option value='02000'>青森県</option>
+							<option value='03000'>岩手県</option>
+							<option value='04000'>宮城県</option>
+							<option value='05000'>秋田県</option>
+							<option value='06000'>山形県</option>
+							<option value='07000'>福島県</option>
+							<option value='08000'>茨城県</option>
+							<option value='09000'>栃木県</option>
+							<option value='10000'>群馬県</option>
+							<option value='11000'>埼玉県</option>
+							<option value='12000'>千葉県</option>
+							<option value='13000'>東京都</option>
+							<option value='14000'>神奈川県</option>
+							<option value='15000'>新潟県</option>
+							<option value='16000'>富山県</option>
+							<option value='17000'>石川県</option>
+							<option value='18000'>福井県</option>
+							<option value='19000'>山梨県</option>
+							<option value='20000'>長野県</option>
+							<option value='21000'>岐阜県</option>
+							<option value='22000'>静岡県</option>
+							<option value='23000'>愛知県</option>
+							<option value='24000'>三重県</option>
+							<option value='25000'>滋賀県</option>
+							<option value='26000'>京都府</option>
+							<option value='27000'>大阪府</option>
+							<option value='28000'>兵庫県</option>
+							<option value='29000'>奈良県</option>
+							<option value='30000'>和歌山県</option>
+							<option value='31000'>鳥取県</option>
+							<option value='32000'>島根県</option>
+							<option value='33000'>岡山県</option>
+							<option value='34000'>広島県</option>
+							<option value='35000'>山口県</option>
+							<option value='36000'>徳島県</option>
+							<option value='37000'>香川県</option>
+							<option value='38000'>愛媛県</option>
+							<option value='39000'>高知県</option>
+							<option value='40000'>福岡県</option>
+							<option value='41000'>佐賀県</option>
+							<option value='42000'>長崎県</option>
+							<option value='43000'>熊本県</option>
+							<option value='44000'>大分県</option>
+							<option value='45000'>宮崎県</option>
+							<option value='46000'>鹿児島県</option>
+							<option value='47000'>沖縄県</option>
+						</select><br>
+						<input type='text' name='address' value='' size='30'>
+					</div>
+				</li>
+			</ul>
+
+			<br>
+			<div class="formsubmit">
+				<p>
+					【個人情報の取り扱いについて】<br>
+					下記記載の『個人情報の取扱いについて』の内容をご確認頂いた後、同意された方のみ下記『同意する』にチェックして次へお進み下さい。
+				</p>
+				<span>※個人情報の提供は必須ではありません。ただしご提供頂けなかった場合、また必須項目にご入力頂けない場合には、お問い合わせ、ご相談に対応できないことをご了承下さい。</span>
+				<iframe src="/pp/douihyouji" scrolling="yes"></iframe>
+				<label for="pp1"><input type="radio" name="pp1" value="同意する" id="pp1">同意する</label>
+
+				<input type="submit" name="submit" value="内容を確認する">
+			</div>
+
+			</form>
+
+		</div>
+
+
+			</div>
+
+
+
+		</section>
+
+	</div>
+
+
+	<footer>
+		<div id="footSnsPagetop">
+			<nav class="wide clearfix">
+                <p><a href="#" class="pageTop"><img src="/imgs/pagetop.png"></a></p>
+				<ul>
+					<li title="このマークは、ウェブサイトを安心してご利用いただける安全の証です。">
+                        <script type="text/javascript" src="https://seal.websecurity.norton.com/getseal?host_name=www.c21-smica.com&amp;size=XS&amp;use_flash=NO&amp;use_transparent=YES&amp;lang=ja"></script><a href="http://www.symantec.com/ja/jp/ssl-certificates/" target="_blank"  style="color:#000000; text-decoration:none; font:bold 12px 'ＭＳ ゴシック',sans-serif; letter-spacing:.5px; text-align:center; margin:0px; padding:0px;">SSL/TLSとは？</a>
+                    </li>
+					<li><a href="https://privacymark.jp/" target="_blank"><img src="/imgs/mark_privacy.png" alt="プライバシーマーク認証取得" title="プライバシーマーク認証取得" width="46" height="47"></a> <a href="/pp/">個人情報保護方針</a></li>
+					<li><a href="/iso/#vaccine"><img src="/imgs/mark_jcv.png" alt="「世界の子どもにワクチンを　日本委員会」の活動を支援" title="「世界の子どもにワクチンを　日本委員会」の活動を支援" width="36" height="45"></a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="footSiteMap">
+			<div class="wide">
+
+				<nav class="clearfix">
+					<ul>
+						<li>
+							<div class="ttl">買う</div>
+							<ul>
+								<li><a href="/search/search_nb_a">新築一戸建てをエリアで探す</a></li>
+								<li><a href="/search/search_nb_r">新築一戸建てを沿線で探す</a></li>
+								<li><a href="/search/search_ud_a">中古一戸建てをエリアで探す</a></li>
+								<li><a href="/search/search_ud_r">中古一戸建てを沿線で探す</a></li>
+								<li><a href="/search/search_ld_a">土地をエリアで探す</a></li>
+								<li><a href="/search/search_ld_r">土地を沿線で探す</a></li>
+								<li><a href="/search/search_ms_a">マンションをエリアで探す</a></li>
+								<li><a href="/search/search_ms_r">マンションを沿線で探す</a></li>
+							</ul>
+						</li>
+						<li>
+							<div class="ttl"><a href="/baikyakulp/" target="_blank">売る</a></div>
+							<ul>
+								<li><a href="/baikyakulp/" target="_blank">ご売却無料査定</a></li>
+								<li><a href="/baikyakulp/" target="_blank">売却の流れ</a></li>
+								<li><a href="/baikyakulp/" target="_blank">売却Ｑ＆Ａ</a></li>
+								<li><a href="/baikyakulp/" target="_blank">売却査定予約</a></li>
+							</ul>
+						</li>
+						<li>
+							<div class="ttl">テーマから探す</div>
+							<ul>
+									<li><a href="/category/c_1" >直近5日間の先取り新着登録物件</a></li>
+										<li><a href="/category/c_3" >7/14(土)15(日)16(祝)現地販売会開催</a></li>
+										<li><a href="/category/c_14" >大規模リフォーム&リノベーション</a></li>
+										<li><a href="/category/c_8" >やっぱり住みたい!あこがれの東横線沿線</a></li>
+										<li><a href="/category/c_5" >やはり安心感がある新耐震基準マンション</a></li>
+										<li><a href="/category/c_15" >駅徒歩5分圏内 不動産格差も怖くない</a></li>
+										<li><a href="/category/c_4" >不動産の賢い買い方 中古物件購入のすすめ</a></li>
+										<li><a href="/category/c_16" >陽あたりにこだわり 南向き.南道路を選ぶ</a></li>
+										<li><a href="/category/c_6" >新生活が待ち遠しい 即入居可能物件</a></li>
+										<li><a href="/category/c_7" >最新状況がわかる弊社媒介物件</a></li>
+								</ul>
+						</li>
+						<li>
+							<ul>
+								<li><a href="/regist/" target="_blank">会員登録</a></li>
+								<li><a href="http://blog.c21-smica.com/category/voc/" target="_blank">お客様の声</a></li>
+								<li><a href="http://blog.c21-smica.com/category/staff/" target="_blank">スタッフ紹介</a></li>
+								<li><a href="/office/">企業情報</a></li>
+								<li><a href="/iso/">社会貢献</a></li>
+								<li><a href="/link/">お役立ち情報</a></li>
+								<li><a href="/moralcode/">行動規範</a></li>
+								<li><a href="http://www.smica.net/saiyou/" target="_blank">採用情報</a></li>
+								<li><a href="/pp/">プライバシーポリシー</a></li>
+								<li><a href="https://blog.c21-smica.com/contact/" target="_blank">お問い合わせ</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+
+				<div id="fSmContact">
+					<div>
+						<img src="/imgs/foot_logo.png" alt="">
+						センチュリー21<br>
+						株式会社スミカ・クリエイト
+					</div>
+					<p>
+                        中目黒店<br>
+                        〒153-0051<br>
+						東京都目黒区上目黒一丁目26番9号
+					</p>
+					<p>0120-21-9621</p>
+                    <p>
+                        広尾店<br>
+                        〒106-0047<br>
+                        東京都港区南麻布五丁目10番37号 ESQ広尾4F
+                    </p>
+                    <p>0120-21-8721</p>
+					<p>
+                        営業時間 10:00-20:00<br>
+                        東京都知事免許(4) 第76661号
+                    </p>
+				</div>
+
+			</div>
+		</div>
+		<p id="copy">
+			<small>Copyright &copy; CENTURY21 SMICA CREATE Inc. All Rights Reserved.</small>
+		</p>
+	</footer>
+	<script type="text/javascript" src="/javascripts/setting.js"></script>
+
+<!--▼ 20150728 AcCruiser-COMMON START -->
+<!-- start of ac cruiser tag S/N acct12492013
+ Copyright (c) 2005-2013 activecore Inc, All rights reserved. 
+ http://www.activecore.jp 
+--> 
+<script type="text/javascript" src="/javascripts/ppz_clip.js"></script>
+<script type="text/javascript">
+(function() {
+   var _item_param = '';
+   var _login_id=''; 
+   var _cid = 21038;
+   var _info = "";
+   var _entry_js = '//tracer21.a-cast.jp/entry.js?cid='; 
+   var _proto = 'http:';
+   if (window.location.protocol == 'https:') {
+       _proto = 'https:';
+   }
+   var _params =  new Array();
+   if(_item_param != ''){ _params.push('ac_item_no=' + _item_param); }
+   if(_login_id != '')  { _params.push('ac_login_id=' + _login_id);  }
+   if ( _params.length > 0 ) {
+      _info = '&info={' + _params.join("|") + '}';
+   }
+   _ac_item_clip(_item_param);
+   var _ac = document.createElement('script'); 
+   _ac.type = 'text/javascript'; 
+   _ac.async = true;
+   _ac.src = _proto + _entry_js + _cid + _info;
+   if (_proto == 'http:' || _proto == 'https:') { 
+      var _tag = document.getElementsByTagName('script')[0]; 
+      _tag.parentNode.insertBefore(_ac, _tag);
+   }  
+})();
+</script>
+<!-- end of ac cruiser tag -->
+<!--▲ 20150728 AcCruiser-COMMON END -->
+
+<!--▼▼Yahoo!ユニバーサルタグ(タグマネージャー)▼▼-->
+<script type="text/javascript">
+  (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=G1sRQRy";
+    s.parentNode.insertBefore(tagjs, s);
+  }());
+</script>
+<noscript>
+  <iframe src="//b.yjtag.jp/iframe?c=G1sRQRy" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+<!--▲▲Yahoo!ユニバーサルタグ(タグマネージャー)▲▲-->
+
+<!--▼ 20170725 pardot-COMMON START -->
+<script type="text/javascript">
+    piAId = '100482';
+    piCId = '8853';
+
+    (function() {
+        function async_load(){
+            var s = document.createElement('script'); s.type = 'text/javascript';
+            s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+            var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+        }
+        if(window.attachEvent) { window.attachEvent('onload', async_load); }
+        else { window.addEventListener('load', async_load, false); }
+    })();
+</script>
+<!--▲ 20170725 pardot-COMMON END -->
+
+<!--
+	<div id="current_url">
+		URL = /<br>
+		current_dir_com = 	</div>
+-->
+
+</div>
+
+</body>
+</html>

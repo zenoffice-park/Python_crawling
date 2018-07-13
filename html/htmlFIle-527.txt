@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="ja">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="ja">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="ja">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="ja">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport” content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no”/>
+
+	<meta name="description" content="クラッキング対策ソフト「CrackProof™」をはじめとするセキュリティソフト、および特許チェックソフト「パテチェッカー」など特許業務支援ソフトを開発・販売する株式会社DNPハイパーテック。" />
+	<meta name="keywords" content="CrackProof,クラッキング対策,セキュリティ,耐タンパ,チート対策,難読化,改ざん対策,解析阻止,不正ツール対策,パテチェッカー,PatentEditor,特許コンサルティング" />
+    
+<title>DNPハイパーテック | クラッキング対策セキュリティソフト、特許コンサルティング、特許業務支援ソフト</title>
+<link rel="stylesheet" type="text/css" media="all" href="https://www.hypertech.co.jp/wp-content/themes/main/style.css" />
+<link rel="stylesheet" type="text/css" media="all" href="https://www.hypertech.co.jp/wp-content/themes/main/css/meerkat.css" />
+<!--<link rel="stylesheet" type="text/css"  href="https://www.hypertech.co.jp/wp-content/plugins/contact-form-7/includes/css/contact-form7-confirm.css" />-->
+<!--<link rel="pingback" href="https://www.hypertech.co.jp/xmlrpc.php" />-->
+<link rel="shortcut icon" type="image/x-icon" href="https://www.hypertech.co.jp//wp-content/themes/main/favicon.ico" />
+<script src="https://www.hypertech.co.jp/wp-content/themes/main/js/jquery.js" type="text/javascript"></script>
+<script src="https://www.hypertech.co.jp/wp-content/themes/main/js/ui/jquery-ui.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://www.hypertech.co.jp/wp-content/themes/main/js/cookie/jquery.cookie.js"></script>
+<script src="https://www.hypertech.co.jp/wp-content/themes/main/js/jquery.inc.js" type="text/javascript"></script>
+<script src="https://www.hypertech.co.jp/wp-content/themes/main/js/des.js" type="text/javascript"></script>
+<script src="https://www.hypertech.co.jp/wp-content/themes/main/js/readmore.js" type="text/javascript"></script>
+<script src="https://www.hypertech.co.jp/wp-content/themes/main/js/contact.js" type="text/javascript"></script>
+<script src="https://www.hypertech.co.jp/wp-content/themes/main/js/jglycy-1.0.js" type="text/javascript"></script>
+<!--2013/4/15追加-->
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="https://www.hypertech.co.jp/wp-content/themes/main/js/meerkat.js" type="text/javascript"></script>
+<!--2013/4/15追加ここまで-->
+<!--[if lt IE 9]>
+<script src="https://www.hypertech.co.jp/wp-content/themes/twentyeleven/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+
+<!-- All in One SEO Pack 2.4.2 by Michael Torbert of Semper Fi Web Designob_start_detected [-1,-1] -->
+<link rel="canonical" href="https://www.hypertech.co.jp/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="DNPハイパーテック &raquo; フィード" href="https://www.hypertech.co.jp/feed/" />
+<link rel="alternate" type="application/rss+xml" title="DNPハイパーテック &raquo; コメントフィード" href="https://www.hypertech.co.jp/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.hypertech.co.jp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.7"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='dashicons-css'  href='https://www.hypertech.co.jp/wp-includes/css/dashicons.min.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='thickbox-css'  href='https://www.hypertech.co.jp/wp-includes/js/thickbox/thickbox.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://www.hypertech.co.jp/wp-content/plugins/download-manager/assets/font-awesome/css/font-awesome.min.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='wpdm-bootstrap-css'  href='https://www.hypertech.co.jp/wp-content/plugins/download-manager/assets/bootstrap/css/bootstrap.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='wpdm-front-css'  href='https://www.hypertech.co.jp/wp-content/plugins/download-manager/assets/css/front.css?ver=4.9.7' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.hypertech.co.jp/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://www.hypertech.co.jp/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://www.hypertech.co.jp/wp-content/plugins/download-manager/assets/bootstrap/js/bootstrap.min.js?ver=4.9.7'></script>
+<script type='text/javascript' src='https://www.hypertech.co.jp/wp-content/plugins/download-manager/assets/js/front.js?ver=4.9.7'></script>
+<script type='text/javascript' src='https://www.hypertech.co.jp/wp-content/plugins/download-manager/assets/js/chosen.jquery.min.js?ver=4.9.7'></script>
+<meta name="generator" content="WordPress Download Manager 2.9.58" />
+<link rel='https://api.w.org/' href='https://www.hypertech.co.jp/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.hypertech.co.jp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.hypertech.co.jp/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='https://www.hypertech.co.jp/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.hypertech.co.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.hypertech.co.jp%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.hypertech.co.jp/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.hypertech.co.jp%2F&#038;format=xml" />
+
+        <script>
+            var wpdm_site_url = 'https://www.hypertech.co.jp/';
+            var wpdm_home_url = 'https://www.hypertech.co.jp/';
+            var ajax_url = 'https://www.hypertech.co.jp/wp-admin/admin-ajax.php';
+            var wpdm_ajax_url = 'https://www.hypertech.co.jp/wp-admin/admin-ajax.php';
+            var wpdm_ajax_popup = '0';
+        </script>
+
+
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+
+		<style type="text/css">
+			header#branding hgroup+a {
+				display: none;
+			}
+		</style><script type="text/javascript">$(function(){
+	$('.meerkat').meerkat({
+		height: '280px',
+		width: '336px',
+		position: 'bottom',
+		animationIn: 'slide',
+		dontShowAgain: '.close-meerkat',
+		animationSpeed: 1000,
+		removeCookie: '.reset'
+	}).addClass('pos-bot');
+});</script>
+<script type="text/javascript">
+function initialize() {
+  var latlng = new google.maps.LatLng(34.995,135.740);
+  var myOptions = {
+    zoom:15,
+    center: latlng,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+  var map = new google.maps.Map(document.getElementById('map_canvas'), myOptions);
+  var markerOptions = {
+  position: latlng,
+  map: map,
+  title: '株式会社DNPハイパーテック',
+  animation: google.maps.Animation.DROP
+};
+var marker = new google.maps.Marker(markerOptions);
+}
+//20160721 tsurue
+$(function() {
+    var topBtn = $('#page-bnr');    
+    topBtn.hide();
+    //スクロールが100に達したらボタン表示
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            topBtn.fadeIn();
+        } else {
+            topBtn.fadeOut();
+        }
+    });
+    //スクロールしてトップ
+/*    topBtn.click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 500);
+        return false;
+    });*/
+});
+
+//20160721 tsurueここまで
+</script>
+<!--docodocojp--> 
+<script type="text/javascript" src="//api.docodoco.jp/v4/docodoco?key=hBa1acmwsgh2tO3nfiv3pTBw8AjH5LcQ99uMGTNynSaueBDvmBbfbOdgfny0sgIb"  charset="utf-8"></script> 
+<script type="text/javascript" src="//www.hypertech.co.jp/wp-content/themes/main/js/docodoco_ua_plugin.js" charset="utf-8"></script> 
+<!--Google Analytics-->
+<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ ga('create', 'UA-35495940-1', 'hypertech.co.jp');
+ ga('set', 'dimension1' , SURFPOINT.getOrgName()); //組織名 
+ ga('set', 'dimension2' , SURFPOINT.getOrgUrl()); //組織 URL 
+ ga('set', 'dimension3' , getIndL(SURFPOINT.getOrgIndustrialCategoryL())); //業種大分類 
+ ga('set', 'dimension4' , getEmp(SURFPOINT.getOrgEmployeesCode())); //従業員数 
+ ga('set', 'dimension5' , getTime()); //アクセス時刻 
+ ga('set', 'dimension6' , SURFPOINT.getIP()); //IP アドレス 
+ ga('set', 'dimension7' , getIpo(SURFPOINT.getOrgIpoType())); //上場区分 
+ ga('set', 'dimension8' , getCap(SURFPOINT.getOrgCapitalCode())); //資本金 
+ ga('set', 'dimension9' , getGross(SURFPOINT.getOrgGrossCode())); //売上高 
+ ga('set', 'dimension10' , SURFPOINT.getCountryJName()); //国名 
+ ga('set', 'dimension11' , SURFPOINT.getPrefJName()); //都道府県名 
+ ga('set', 'dimension12' , SURFPOINT.getLineJName()); //回線名 
+ ga('send', 'pageview');
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+    //コンテンツエリアのid名を指定
+    $('#info').readmore({
+        moreLink: '<a href="#">続きを読む…</a>',
+        maxHeight: 150
+    });
+});
+</script>
+
+</head>
+
+<body data-rsssl=1 class="home page-template page-template-toppage page-template-toppage-php page page-id-544 single-author singular one-column content" id="blogid1" onLoad="setupDes(); initialize();">
+
+<div id="page" class="hfeed">
+
+<!--<div id="fixedBox">-->
+<div id="headblock">
+	<header id="branding2" role="banner">
+			<hgroup>
+				<h1 id="site-title"><a href="https://www.hypertech.co.jp/" title="DNPハイパーテック" rel="home"><img src="https://www.hypertech.co.jp/wp-content/themes/main/images/logo.gif" alt="DNPハイパーテック:クラッキング対策セキュリティソフト、特許コンサルティング、特許業務支援ソフト" /></a></h1>
+			</hgroup>
+
+
+
+						
+
+
+	</header><!-- #branding -->
+
+
+<nav id="access" class="bt" role="navigation">
+
+
+<!--言語選択-->
+<div class="box-container bdnone float_right mp0" id="lang" style="padding:0; margin:0;">
+					<div class="box mp0"><img src="https://www.hypertech.co.jp/wp-content/themes/main/images/dotyaji_r.gif">&nbsp;</div><div class="mp0 box" style="padding-right:20px;"><a href="https://www.hypertech.co.jp/iv">金融・産業系のお客様</a></div><div class="box mp0"><img src="https://www.hypertech.co.jp/wp-content/themes/main/images/dotyaji_r.gif">&nbsp;</div><div class="mp0 box" style="padding-right:30px;"><a href="https://www.hypertech.co.jp/game/">ゲーム業界のお客様</a></div>
+			
+		<div class="box mp0"><img src="https://www.hypertech.co.jp/wp-content/themes/main/images/tmenu/ghead.gif" alt="言語選択" /></div>
+	<div class="box mp0"><a href="/" class="on"><!--<img src="https://www.hypertech.co.jp/wp-content/themes/main/images/tmenu/gja.gif" alt="日本語" />-->JP</a></div>
+    <div class="box mp0">&nbsp;／&nbsp;</div>
+	<div class="box mp0"  id="r_blank"><a href="/en/"><!--<img src="https://www.hypertech.co.jp/wp-content/themes/main/images/tmenu/geng.gif" alt="English" />-->EN</a></div>
+    <div class="box sbox">
+      <form method="get" action="https://www.hypertech.co.jp/" style="margin:0; padding:0;">
+      <input type="text" name="s" value="検索したい文字列を入力" class="search_box" align="top"/><input type="image" src="https://www.hypertech.co.jp/wp-content/themes/main/images/search.png" onMouseOver="this.src='https://www.hypertech.co.jp/wp-content/themes/main/images/search_ro.png'" onMouseOut="this.src='https://www.hypertech.co.jp/wp-content/themes/main/images/search.png'" width="26px" height="28px" style="padding:0; margin:0;" align="top"></form></div>
+</div>
+
+<div class="clear"></div>
+<!--</div>-->
+
+<!--トップメニュー-->
+
+<ul id="droplist">
+  <li class="glnav"><a href="https://www.hypertech.co.jp/">HOME</a></li>
+  <li class="glnav"><a class="menu" href="https://www.hypertech.co.jp/products/">製品・サービス</a>
+    <ul id="prmenu">
+    
+    
+		       
+      
+				        
+        
+        <li class="cat_name_1"><div>セキュリティ&nbsp;<span class="small">Security software &amp; services</span></div>				
+                
+        	</li>				 			
+				       		<ul>			            			<li class="prlist"><a href="?post_type=products&amp;p=113"> for Windows®</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=139">ゲームエディション</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=141"> for Android™ SO版</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=142">for Android&#x2122; DEX版</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=143">CrackProof&#x2122; for iOS</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=144">CrackProof&#x2122; for Linux®</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=1930"> for Unity Windows®版</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=1929"> for Unity Android™版</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=1355">アプリの安全性診断</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=2051">dexObfuscator</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=2143">金融・産業系のお客様</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=2146">ゲーム業界のお客様</a></li>
+			            </ul>
+			</li>			        		        
+        
+        <li class="cp_cat"><div>CrackProof™シリーズ</div>				
+                
+        				
+				       		<ul>			            			<li class="prlist"><a href="?post_type=products&amp;p=113"> for Windows®</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=139">ゲームエディション</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=141"> for Android™ SO版</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=142">for Android&#x2122; DEX版</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=143">CrackProof&#x2122; for iOS</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=144">CrackProof&#x2122; for Linux®</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=1930"> for Unity Windows®版</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=1929"> for Unity Android™版</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=2143">金融・産業系のお客様</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=2146">ゲーム業界のお客様</a></li>
+			            </ul>
+			</li>			        		        
+        
+        <li class="other_cat"><div>その他のセキュリティ</div>				
+                
+        				
+				       		<ul>			            			<li class="prlist"><a href="?post_type=products&amp;p=1355">アプリの安全性診断</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=2051">dexObfuscator</a></li>
+			            </ul>
+			</li>			        		        
+        
+        <li class="cat_name_4"><div>特許&nbsp;<span class="small">Patent software &amp; services</span></div>				
+                
+        				
+				       		<ul>			            			<li class="prlist"><a href="?post_type=products&amp;p=116">パテチェッカー</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=147">PatentEditor</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=148">特許調査・特許コンサル</a></li>
+			            </ul>
+			</li>			        		        
+        
+        <li class="cat_name_5"><div>その他&nbsp;<span class="small">Others</span></div>				
+                
+        				
+				       		<ul>			            			<li class="prlist"><a href="?post_type=products&amp;p=149">iOSアプリ開発</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=150">受託開発</a></li>
+			            </ul>
+			</li>			            </ul>
+  </li>
+  
+  <li class="glnav"><a href="https://www.hypertech.co.jp/supports/">サポート</a>
+    <ul>
+        	</ul>
+  </li>
+  <li class="glnav"><a class="menu" href="https://www.hypertech.co.jp/?page_id=12">会社案内</a>
+    <ul id="cpmenu">
+      
+	   <li><a href="?page_id=72">経営理念</a></li>
+       
+       
+	   <li><a href="?page_id=74">企業概要</a></li>
+       
+       
+	   <li><a href="?page_id=76">業務内容</a></li>
+       
+       
+	   <li><a href="?page_id=78">沿革</a></li>
+       
+       
+	   <li><a href="?page_id=80">アクセス</a></li>
+       
+       
+	   <li><a href="?page_id=82">環境への取り組み</a></li>
+       
+       
+	   <li><a href="?page_id=84">執筆活動</a></li>
+       
+       
+	   <li><a href="?page_id=86">採用情報</a></li>
+       
+       
+	   <li><a href="?page_id=88">新着情報</a></li>
+       
+              
+
+    </ul>
+  </li>
+  <li class="glnav"><a href="/technologyblog/">ブログ</a></li>  <li class="glnav"><a href="https://www.hypertech.co.jp/?page_id=99">お問い合わせ</a></li>
+</ul>
+
+</nav><!-- #access -->
+
+</div><!--headblock-->
+
+<!--</div>--><!--fixedbox-->
+<div id="catimg">
+
+
+<div id="dispblock">
+
+<div class="p1"><a href="https://www.hypertech.co.jp/?page_id=144"><img src="https://www.hypertech.co.jp/wp-content/uploads/2012/08/cp_lin_big.png" alt="CrackProof&#x2122; for Linux®" /></a></div><div class="p2"><a href="https://www.hypertech.co.jp/?page_id=113"><img src="https://www.hypertech.co.jp/wp-content/uploads/2012/08/cp_big-1.png" alt="CrackProof™ for Windows®" /></a></div><div class="p3"><a href="https://www.hypertech.co.jp/?page_id=1929"><img src="https://www.hypertech.co.jp/wp-content/uploads/2014/06/cp_unity_and_big-950x288.png" alt="CrackProof™ for Unity Android™版" /></a></div><div class="p4"><a href="https://www.hypertech.co.jp/?page_id=2143"><img src="https://www.hypertech.co.jp/wp-content/uploads/2017/01/cp_iv_big.png" alt="金融・産業系のお客様" /></a></div><!--<div class="p1"><img src="https://www.hypertech.co.jp/wp-content/themes/main/images/catimg/tphoto1.jpg" alt="製品・サービス" /></div>
+<div class="p2"><a href="/index.html"><img src="https://www.hypertech.co.jp/wp-content/themes/main/images/catimg/tphoto2.jpg" alt="製品・サービス" /></a></div>
+<div class="p3"><a href="/index.html"><img src="https://www.hypertech.co.jp/wp-content/themes/main/images/catimg/tphoto2.jpg" alt="製品・サービス" /></a></div>
+<div class="p4"><a href="/index.html"><img src="https://www.hypertech.co.jp/wp-content/themes/main/images/catimg/tphoto2.jpg" alt="製品・サービス" /></a></div>-->
+
+<img src="https://www.hypertech.co.jp/wp-content/themes/main/images/catimg/gradation_before.png" alt="" class="shadow1" />
+<img src="https://www.hypertech.co.jp/wp-content/themes/main/images/catimg/gradation_next.png" alt="" class="shadow2" />
+<nav id="slidecontroll">
+	<img src="https://www.hypertech.co.jp/wp-content/themes/main/images/catimg/btprev.png" alt="" class="imgc1" />
+	<img src="https://www.hypertech.co.jp/wp-content/themes/main/images/catimg/btnext.png" alt="" class="imgc2" />
+</nav>
+</div>
+<!--<nav id="thumbmenu" class="bt">
+<img src="" alt="CrackProof&#x2122; for Linux®に画像を切り替え" /><img src="" alt="CrackProof™ for Windows®に画像を切り替え" /><img src="" alt="CrackProof™ for Unity Android™版に画像を切り替え" /><img src="" alt="金融・産業系のお客様に画像を切り替え" /></nav>-->
+
+</div>
+
+</div>
+
+	<div id="main">
+<div id="breadcrumbs">
+</div>
+
+			<div id="content" style="margin-top:10px;" role="main">
+            
+            <!-- Webinarバナーロング配置場所-->
+            
+<!--             
+            <div class="bt"  style="margin-bottom:10px;">
+            	<a href="https://www.hypertech.co.jp/news/webinar20170208/"><img src="wp-content/themes/main/images/webinar_bnr_hptop0208.png" alt=""></a>
+            </div>
+            -->
+            
+            <!--ここまで-->
+
+<div id="topleft">
+
+<div id="disparea">
+<nav id="tabs">
+	<img src="https://www.hypertech.co.jp/wp-content/themes/main/images/home_support.gif" alt="support" class="home_support" />
+    <img src="https://www.hypertech.co.jp/wp-content/themes/main/images/home_news.gif" alt="News&Topics" class="home_news on" />
+</nav>
+
+	<div class="disparea home_news">
+	<h1>News &amp; Topics</h1>
+	<table>
+			<tr><th>2018/05/25</th><td><img src ="https://www.hypertech.co.jp/wp-content/themes/main/images/new.gif"><a href="?post_type=news&amp;p=2282">GTMF 2018 ＜大阪＞＜東京＞に参加します</a></td></tr>
+			<tr><th>2018/02/19</th><td><a href="?post_type=news&amp;p=2257">GDC2018に出展します</a></td></tr>
+			<tr><th>2017/12/04</th><td><a href="?post_type=news&amp;p=2247">冬季休業のお知らせ</a></td></tr>
+			<tr><th>2017/11/29</th><td><a href="?post_type=news&amp;p=2245">Cybertech Tokyoで弊社が講演します</a></td></tr>
+			<tr><th>2017/10/10</th><td><a href="?post_type=news&amp;p=2213">Unity道場京都スペシャル２にて講演します</a></td></tr>
+			<tr><th>2017/09/21</th><td><a href="?post_type=news&amp;p=2208">ビル停電に伴う、一部サービス停止のお知らせ</a></td></tr>
+			<tr><th>2017/09/08</th><td><a href="?post_type=news&amp;p=2201">10/12(木)開催　Webセミナーのご案内（㈱マクニカ共催）</a></td></tr>
+			<tr><th>2017/08/29</th><td><a href="?post_type=news&amp;p=2190">9/20(水) 15:00 チート対策オンラインセミナーを開催します</a></td></tr>
+			<tr><th>2017/08/04</th><td><a href="?post_type=news&amp;p=2188">夏季休業のお知らせ</a></td></tr>
+			<tr><th>2017/07/20</th><td><a href="?post_type=news&amp;p=2182">株式会社マクニカと販売店契約を締結</a></td></tr>
+			<tr><th>2017/07/11</th><td><a href="?post_type=news&amp;p=2180">CEDEC2017にブース出展します</a></td></tr>
+			<tr><th>2017/07/10</th><td><a href="?post_type=news&amp;p=2184">KRP Week2017で弊社が講演します</a></td></tr>
+		</table>
+	<p class="end_tp bt"><a href="https://www.hypertech.co.jp/?page_id=88"><img src="https://www.hypertech.co.jp/wp-content/themes/main/images/home_newslist.gif" alt="新着情報一覧" /></a></p>
+
+    <div class="bt"><a href="https://go.pardot.com/l/388952/2017-07-24/8d4lsg" target="_blank"><img class="bnr" src="/wp-content/uploads/2016/12/top_iv_bnr_int.png" width="301" height="81"></a>&nbsp;&nbsp;<a href="https://go.pardot.com/l/388952/2017-07-24/8d4vgb" target="_blank"><img class="bnr" src="/wp-content/uploads/2016/top_iv_bnr_pon.png" width="301" height="81"></a></div>
+
+	<div class="bt"><a href="/products/crackproofge#exiv"><img class="bnr" src="/wp-content/uploads/2015/10/top_iv_bnr_ex.png" width="301" height="81"></a>&nbsp;&nbsp;<a href="/products/crackproof#dciv"><img class="bnr" src="/wp-content/uploads/2015/10/top_iv_bnr_dc.png" width="301" height="81"></a></div>
+	<div class="bt"><a href="/products/safety_assessment#piv"><img class="bnr" src="/wp-content/uploads/2015/10/top_iv_bnr_p.png" width="301" height="81"></a></div>		<!--&nbsp;&nbsp;<a href="https://form.k3r.jp/hypertech/201604"><img class="bnr" src="/wp-content/uploads/2016/top_iv_bnr_pon.png" width="301" height="81"></a>  -->
+
+	</div>
+
+	<div class="disparea home_support">
+	<h1>Support</h1>
+	<table>
+			<tr><th>2017/08/25</th><td><a href="/supports/supports_category/crackproofanddex/#faq-2194">CrackProofを解約したいのですが・・・</a><br /><span class="termname">（CrackProof™ for Android DEX版）</span></td></tr>
+			<tr><th>2016/05/20</th><td><a href="/supports/supports_category/crackproofios/#faq-1951">CrackProof™ for iOSは64-bitに対応していますか？</a><br /><span class="termname">（CrackProof™ for iOS）</span></td></tr>
+			<tr><th>2016/05/20</th><td><a href="/supports/supports_category/crackproofandso/#faq-1950">CrackProof™ for Android™ SO版は64-bitに対応していますか？</a><br /><span class="termname">（CrackProof™ for Android SO版）</span></td></tr>
+			<tr><th>2016/05/20</th><td><a href="/supports/supports_category/crackprooflinux/#faq-1949">CrackProof™処理することにより、実行ファイルのサイズは増加しますか？</a><br /><span class="termname">（CrackProof™ for Linux）</span></td></tr>
+			<tr><th>2016/05/20</th><td><a href="/supports/supports_category/crackproofanddex/#faq-1946">他アプリとのコンフリクトにより、CrackProof™処理したスマートフォンアプリが起動しないことはありますか？</a><br /><span class="termname">（CrackProof™ for Android DEX版）</span></td></tr>
+			<tr><th>2016/05/20</th><td><a href="/supports/supports_category/crackproof/#faq-1945">CrackProof™ for Windows®は、組込みWindowsに対応していますか？</a><br /><span class="termname">（CrackProof™ for Windows）</span></td></tr>
+			<tr><th>2016/05/20</th><td><a href="/supports/supports_category/crackproofanddex/#faq-1944">海外からCrackProof™クラウドサーバを使用できますか？</a><br /><span class="termname">（CrackProof™ for Android DEX版）</span></td></tr>
+			<tr><th>2016/05/20</th><td><a href="/supports/supports_category/crackproof/#faq-1943">EXEだけでなくDLLにもセキュリティ処理可能ですか？</a><br /><span class="termname">（CrackProof™ for Windows）</span></td></tr>
+			<tr><th>2016/05/18</th><td><a href="/supports/supports_category/crackproof/#faq-1941">CrackProof™ for Windows®（クラウド）の、セキュリティ処理時間はどれくらいですか？</a><br /><span class="termname">（CrackProof™ for Windows）</span></td></tr>
+			<tr><th>2016/05/18</th><td><a href="/supports/supports_category/crackproofanddex/#faq-1940">巨大なサイズのapkファイルもCrackProof™ for Android™で処理できますか？</a><br /><span class="termname">（CrackProof™ for Android DEX版）</span></td></tr>
+		</table>
+	<p class="end_tp bt"><a href="https://www.hypertech.co.jp/supports/"><img src="https://www.hypertech.co.jp/wp-content/themes/main/images/home_supportlist.gif" alt="サポート情報一覧" /></a></p>
+        <div class="bt"><a href="https://go.pardot.com/l/388952/2017-07-24/8d4lsg" target="_blank"><img class="bnr" src="/wp-content/uploads/2016/12/top_iv_bnr_int.png" width="301" height="81"></a>&nbsp;&nbsp;<a href="https://go.pardot.com/l/388952/2017-07-24/8d4vgb" target="_blank"><img class="bnr" src="/wp-content/uploads/2016/top_iv_bnr_pon.png" width="301" height="81"></a></div>
+
+	<div class="bt"><a href="/products/crackproofge#exiv"><img class="bnr" src="/wp-content/uploads/2015/10/top_iv_bnr_ex.png" width="301" height="81"></a>&nbsp;&nbsp;<a href="/products/crackproof#dciv"><img class="bnr" src="/wp-content/uploads/2015/10/top_iv_bnr_dc.png" width="301" height="81"></a></div>
+	<div class="bt"><a href="/products/safety_assessment#piv"><img class="bnr" src="/wp-content/uploads/2015/10/top_iv_bnr_p.png" width="301" height="81"></a></div><!--&nbsp;&nbsp;<a href="https://form.k3r.jp/hypertech/201604"><img class="bnr" src="/wp-content/uploads/2016/top_iv_bnr_pon.png" width="301" height="81"></a>  -->
+	</div>
+</div>
+
+</div>
+
+
+
+<div id="topright">
+<div id="top_products">
+        <h2>セキュリティ&nbsp;<span class="small">Security software &amp; services</span></h2>                
+			                <div>CrackProof™シリーズ</div>                
+			       		<ul>                 
+			            			<li class="prlist"><a href="?post_type=products&amp;p=113"> for Windows®</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=139">ゲームエディション</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=141"> for Android™ SO版</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=142">for Android&#x2122; DEX版</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=143">CrackProof&#x2122; for iOS</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=144">CrackProof&#x2122; for Linux®</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=1930"> for Unity Windows®版</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=1929"> for Unity Android™版</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=2143">金融・産業系のお客様</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=2146">ゲーム業界のお客様</a></li>
+			            </ul>
+			</li>			                <div>その他のセキュリティ</div>                
+			       		<ul>                 
+			            			<li class="prlist"><a href="?post_type=products&amp;p=1355">アプリの安全性診断</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=2051">dexObfuscator</a></li>
+			            </ul>
+						                <h2>特許&nbsp;<span class="small">Patent software &amp; services</span></h2>                
+			       		<ul>                 
+			            			<li class="prlist"><a href="?post_type=products&amp;p=116">パテチェッカー</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=147">PatentEditor</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=148">特許調査・特許コンサル</a></li>
+			            </ul>
+			</li>			                <h2>その他&nbsp;<span class="small">Others</span></h2>                
+			       		<ul>                 
+			            			<li class="prlist"><a href="?post_type=products&amp;p=149">iOSアプリ開発</a></li>
+			            			<li class="prlist"><a href="?post_type=products&amp;p=150">受託開発</a></li>
+			            </ul>
+			</li>			                
+</div><div class="end_tp bt"><a href="https://www.hypertech.co.jp/products/"><img src="https://www.hypertech.co.jp/wp-content/themes/main/images/home_goproducts.gif" alt="製品・サービスの一覧を見る" / class="end_tp"></a></div>
+
+<div class="bt" id="top_inq"><a href="technologyblog"><img src="/wp-content/uploads/2016/09/TechNote.gif"></a><br><a href="https://www.youtube.com/channel/UCZB9Up0heLb6adxdkQzURwQ"><img src="/wp-content/themes/main/images/youtube.png"></a><br><a href="/game/"><img src="/wp-content/uploads/2015/10/game_home_bnr.png"></a>
+<!--
+
+<div class="bt" id="top_inq"><a href="?page_id=99"><img class="alignnone" src="https://www.hypertech.co.jp/wp-content/themes/main/images/home_gocontact.gif" alt="製品に関するお問い合わせ" width="295" height="50" /></a></div>
+-->
+
+</div>
+
+
+
+
+
+				
+
+
+			</div><!-- #content -->
+
+<!-- #primary -->
+
+
+	</div><!-- #main -->
+</div><!-- #page -->
+
+
+	<footer id="colophon" role="contentinfo">
+
+<div class="pagetop bt"><a href="#page"><img src="https://www.hypertech.co.jp/wp-content/themes/main/images/pagetop.gif" alt="ページの先頭へ戻る" /></a></div>
+
+<nav id="footmenu">
+<div class="blocks blocktop"><h1><a href="https://www.hypertech.co.jp/">HOME</a></h1>
+</div>
+<div class="blocks">
+<h1>製品・サービス</h1>
+
+		<div class="category">
+
+ 				 <h2>セキュリティ&nbsp;<span class="small">Security software &amp; services</span></h2>                
+			               </ul>
+		</div>
+		<div class="category">
+
+ 				 <div class="p_c_cp">CrackProof™シリーズ</div>                
+			       		<ul>                 
+			       			<li><a href="?post_type=products&amp;p=113">
+			 for Windows®</a></li>
+			       			<li><a href="?post_type=products&amp;p=139">
+			ゲームエディション</a></li>
+			       			<li><a href="?post_type=products&amp;p=141">
+			 for Android™ SO版</a></li>
+			       			<li><a href="?post_type=products&amp;p=142">
+			for Android&#x2122; DEX版</a></li>
+			       			<li><a href="?post_type=products&amp;p=143">
+			CrackProof&#x2122; for iOS</a></li>
+			       			<li><a href="?post_type=products&amp;p=144">
+			CrackProof&#x2122; for Linux®</a></li>
+			       			<li><a href="?post_type=products&amp;p=1930">
+			 for Unity Windows®版</a></li>
+			       			<li><a href="?post_type=products&amp;p=1929">
+			 for Unity Android™版</a></li>
+			       			<li><a href="?post_type=products&amp;p=2143">
+			金融・産業系のお客様</a></li>
+			       			<li><a href="?post_type=products&amp;p=2146">
+			ゲーム業界のお客様</a></li>
+			
+		               </ul>
+		</div>
+		<div class="category">
+
+ 				 <div class="p_c_other">その他のセキュリティ</div>                
+			       		<ul>                 
+			       			<li><a href="?post_type=products&amp;p=1355">
+			アプリの安全性診断</a></li>
+			       			<li><a href="?post_type=products&amp;p=2051">
+			dexObfuscator</a></li>
+			
+		               </ul>
+		</div>
+		<div class="category">
+
+ 				 <h2>特許&nbsp;<span class="small">Patent software &amp; services</span></h2>                
+			       		<ul>                 
+			       			<li><a href="?post_type=products&amp;p=116">
+			パテチェッカー</a></li>
+			       			<li><a href="?post_type=products&amp;p=147">
+			PatentEditor</a></li>
+			       			<li><a href="?post_type=products&amp;p=148">
+			特許調査・特許コンサル</a></li>
+			
+		               </ul>
+		</div>
+		<div class="category">
+
+ 				 <h2>その他&nbsp;<span class="small">Others</span></h2>                
+			       		<ul>                 
+			       			<li><a href="?post_type=products&amp;p=149">
+			iOSアプリ開発</a></li>
+			       			<li><a href="?post_type=products&amp;p=150">
+			受託開発</a></li>
+			
+		               </ul>
+		</div>
+</div>
+
+<div class="blocks">
+<h1>サポート情報</h1>
+
+<ul>
+				<li><a href="https://www.hypertech.co.jp/supports_category/crackproof/">CrackProof™ for Windows FAQ</a></li>
+				<li><a href="https://www.hypertech.co.jp/supports_category/crackproofanddex/">CrackProof™ for Android DEX版 FAQ</a></li>
+				<li><a href="https://www.hypertech.co.jp/supports_category/crackproofandso/">CrackProof™ for Android SO版 FAQ</a></li>
+				<li><a href="https://www.hypertech.co.jp/supports_category/crackproofios/">CrackProof™ for iOS FAQ</a></li>
+				<li><a href="https://www.hypertech.co.jp/supports_category/crackprooflinux/">CrackProof™ for Linux FAQ</a></li>
+				<li><a href="https://www.hypertech.co.jp/supports_category/crackproofge/">CrackProof™　ゲームエディション FAQ</a></li>
+				<li><a href="https://www.hypertech.co.jp/supports_category/patenteditor/">PatentEditor FAQ</a></li>
+				<li><a href="https://www.hypertech.co.jp/supports_category/patechecker/">パテチェッカー FAQ</a></li>
+				<li><a href="https://www.hypertech.co.jp/supports_category/cp_cancellation/">CrackProofのご解約について FAQ</a></li>
+			</ul>
+</div>
+
+<div class="blocks">
+<h1>会社案内</h1><ul>	<li><a href="?page_id=72">経営理念</a></li>
+	<li><a href="?page_id=74">企業概要</a></li>
+	<li><a href="?page_id=76">業務内容</a></li>
+	<li><a href="?page_id=78">沿革</a></li>
+	<li><a href="?page_id=80">アクセス</a></li>
+	<li><a href="?page_id=82">環境への取り組み</a></li>
+	<li><a href="?page_id=84">執筆活動</a></li>
+	<li><a href="?page_id=86">採用情報</a></li>
+	<li><a href="?page_id=88">新着情報</a></li>
+</ul>
+</div>
+
+<div class="blocks">
+<h1>お問い合わせ</h1><ul>	<li><a href="?page_id=99">フォームでのお問い合わせ</a></li>
+</ul>
+</div>
+
+<div class="blocks">
+<h1>インフォメーション</h1><ul>	<li><a href="?page_id=92">サイトポリシー</a></li>
+	<li><a href="?page_id=94">個人情報保護方針</a></li>
+	<li><a href="?page_id=96">アクセシビリティ</a></li>
+	<li><a href="?page_id=1984">商標について</a></li>
+</ul></div>
+</nav>
+<div id="siteadress_bg"><!--2012/9/24 tsurue-->
+<div id="siteaddress">
+
+<div id="swboc-2" class="widget-container SWBOC_Widget"><p><span style="font-weight:bold; font-size:15px" color:#fff>株式会社DNPハイパーテック</span><br />
+Copyright © DNP HyperTech Co., Ltd. All rights reserved.</p>
+</div>
+</div>
+<!-- 20161214 tsurue　バナー-->
+
+<!--<div id="page-bnr" class="bt"><a id="krpbnr" href="https://www.hypertech.co.jp/iv/webinar20170208.html"><img src="/wp-content/themes/main/images/Page_bnr.png" /></a></div>
+-->
+<!-- ここまで20160721 tsurue -->
+
+			
+			<div id="site-generator">
+<!--<img src="/wp-content/themes/main/images/footlogo.gif" alt="copyrighting main, All Rights Reserved." />
+								<a href="https://wordpress.org/" title="セマンティックなパブリッシングツール" rel="generator">Proudly powered by WordPress</a>-->
+			</div>
+
+<div id="cgis">
+<script type="text/javascript" src="https://www.hypertech.co.jp/wp-content/themes/main/js/jquery.wpcf7.confirm.js"></script>
+<script type="text/javascript">
+//document.write("<img src='https://www2.hypertech.co.jp/cgi-bin/acc/acclog.cgi?");
+//document.write("referrer="+document.referrer+"&");
+//document.write("width="+screen.width+"&");
+//document.write("height="+screen.height+"&");
+//document.write("color="+screen.colorDepth+"'>");
+</script></div>
+</div>
+</footer><!-- #colophon -->
+
+<div id="bs_footer"></div><script type='text/javascript'>
+/* <![CDATA[ */
+var thickboxL10n = {"next":"\u6b21\u3078 >","prev":"< \u524d\u3078","image":"\u753b\u50cf","of":"\/","close":"\u9589\u3058\u308b","noiframes":"\u3053\u306e\u6a5f\u80fd\u3067\u306f iframe \u304c\u5fc5\u8981\u3067\u3059\u3002\u73fe\u5728 iframe \u3092\u7121\u52b9\u5316\u3057\u3066\u3044\u308b\u304b\u3001\u5bfe\u5fdc\u3057\u3066\u3044\u306a\u3044\u30d6\u30e9\u30a6\u30b6\u30fc\u3092\u4f7f\u3063\u3066\u3044\u308b\u3088\u3046\u3067\u3059\u3002","loadingAnimation":"https:\/\/www.hypertech.co.jp\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.hypertech.co.jp/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105'></script>
+<script type='text/javascript' src='https://www.hypertech.co.jp/wp-includes/js/jquery/jquery.form.min.js?ver=4.2.1'></script>
+<script type='text/javascript' src='https://www.hypertech.co.jp/wp-includes/js/wp-embed.min.js?ver=4.9.7'></script>
+
+<!-- リマーケティング タグの Google コード -->
+<!--------------------------------------------------
+リマーケティング タグは、個人を特定できる情報と関連付けることも、デリケートなカテゴリに属するページに設置することも許可されません。タグの設定方法については、こちらのページをご覧ください。
+http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 966532940;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/966532940/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<script type="text/javascript">
+piAId = '389952';
+piCId = '39831';
+
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+</body>
+</html>

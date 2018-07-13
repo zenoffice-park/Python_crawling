@@ -1,0 +1,2328 @@
+<!DOCTYPE html>
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="ja" prefix="og: http://ogp.me/ns#" class="no-js">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+	    <meta name="theme-color" content="#ff4222"/>	<link rel="profile" href="https://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://www.adimec.com/xmlrpc.php" />
+            <script type="text/javascript">
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                var originalAddEventListener = EventTarget.prototype.addEventListener,
+                    oldWidth = window.innerWidth;
+
+                EventTarget.prototype.addEventListener = function (eventName, eventHandler, useCapture) {
+                    if (eventName === "resize") {
+                        originalAddEventListener.call(this, eventName, function (event) {
+                            if (oldWidth === window.innerWidth) {
+                                return;
+                            }
+                            else if (oldWidth !== window.innerWidth) {
+                                oldWidth = window.innerWidth;
+                            }
+                            if (eventHandler.handleEvent) {
+                                eventHandler.handleEvent.call(this, event);
+                            }
+                            else {
+                                eventHandler.call(this, event);
+                            };
+                        }, useCapture);
+                    }
+                    else {
+                        originalAddEventListener.call(this, eventName, eventHandler, useCapture);
+                    };
+                };
+            };
+        </script>
+		<title>Adimecの高信頼度産業用カメラ</title>
+<link rel="alternate" hreflang="en-us" href="https://www.adimec.com" />
+<link rel="alternate" hreflang="ja" href="https://www.adimec.com/ja/" />
+<link rel="alternate" hreflang="zh-cn" href="https://www.adimec.com/zh-hans/" />
+
+<!-- This site is optimized with the Yoast SEO plugin v7.8 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Adimecは、マシンビジョン、ヘルスケア、グローバルセキュリティ分野の世界的なお客様の要件の厳しいアプリケーションに適した、信頼性の高い産業用カメラを製造しています。"/>
+<link rel="canonical" href="https://www.adimec.com/ja/" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Adimecの高信頼度産業用カメラ" />
+<meta property="og:description" content="Adimecは、マシンビジョン、ヘルスケア、グローバルセキュリティ分野の世界的なお客様の要件の厳しいアプリケーションに適した、信頼性の高い産業用カメラを製造しています。" />
+<meta property="og:url" content="https://www.adimec.com/ja/" />
+<meta property="og:site_name" content="Adimec" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Adimecは、マシンビジョン、ヘルスケア、グローバルセキュリティ分野の世界的なお客様の要件の厳しいアプリケーションに適した、信頼性の高い産業用カメラを製造しています。" />
+<meta name="twitter:title" content="Adimecの高信頼度産業用カメラ" />
+<meta name="twitter:site" content="@adimec" />
+<meta name="twitter:image" content="https://www.adimec.com/wp-content/uploads/2017/09/icon_risk_reward.png" />
+<meta name="twitter:creator" content="@adimec" />
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/www.adimec.com\/ja\/","name":"Adimec","potentialAction":{"@type":"SearchAction","target":"https:\/\/www.adimec.com\/ja\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"Organization","url":"https:\/\/www.adimec.com\/ja\/","sameAs":["https:\/\/www.facebook.com\/AdimecAIS\/","https:\/\/www.linkedin.com\/company\/54013\/","https:\/\/www.youtube.com\/user\/adimec1","https:\/\/twitter.com\/adimec"],"@id":"https:\/\/www.adimec.com\/ja\/#organization","name":"Adimec Advanced Image Systems bv","logo":"http:\/\/www.adimec.com\/wp-content\/uploads\/2017\/09\/adimec_logo_tagline.gif"}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Adimec &raquo; フィード" href="https://www.adimec.com/ja/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Adimec &raquo; コメントフィード" href="https://www.adimec.com/ja/comments/feed/" />
+<!-- This site uses the Google Analytics by MonsterInsights plugin v7.0.9 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+<script type="text/javascript" data-cfasync="false">
+	var mi_track_user      = true;
+	var mi_no_track_reason = '';
+	
+	var disableStr = 'ga-disable-UA-4336876-1';
+
+	/* Function to detect opted out users */
+	function __gaTrackerIsOptedOut() {
+		return document.cookie.indexOf(disableStr + '=true') > -1;
+	}
+
+	/* Disable tracking if the opt-out cookie exists. */
+	if ( __gaTrackerIsOptedOut() ) {
+		window[disableStr] = true;
+	}
+
+	/* Opt-out function */
+	function __gaTrackerOptout() {
+	  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+	  window[disableStr] = true;
+	}
+	
+	if ( mi_track_user ) {
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+		__gaTracker('create', 'UA-4336876-1', 'auto');
+		__gaTracker('set', 'forceSSL', true);
+		__gaTracker('require', 'displayfeatures');
+		__gaTracker('require', 'linkid', 'linkid.js');
+		__gaTracker('send','pageview');
+	} else {
+		console.log( "" );
+		(function() {
+			/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+			var noopfn = function() {
+				return null;
+			};
+			var noopnullfn = function() {
+				return null;
+			};
+			var Tracker = function() {
+				return null;
+			};
+			var p = Tracker.prototype;
+			p.get = noopfn;
+			p.set = noopfn;
+			p.send = noopfn;
+			var __gaTracker = function() {
+				var len = arguments.length;
+				if ( len === 0 ) {
+					return;
+				}
+				var f = arguments[len-1];
+				if ( typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function' ) {
+					console.log( 'Not running function __gaTracker(' + arguments[0] + " ....) because you are not being tracked. " + mi_no_track_reason );
+					return;
+				}
+				try {
+					f.hitCallback();
+				} catch (ex) {
+
+				}
+			};
+			__gaTracker.create = function() {
+				return new Tracker();
+			};
+			__gaTracker.getByName = noopnullfn;
+			__gaTracker.getAll = function() {
+				return [];
+			};
+			__gaTracker.remove = noopfn;
+			window['__gaTracker'] = __gaTracker;
+					})();
+		}
+</script>
+<!-- / Google Analytics by MonsterInsights -->
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.adimec.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.7"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='cookie-notice-front-css'  href='https://www.adimec.com/wp-content/plugins/cookie-notice/css/front.min.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='https://www.adimec.com/wp-content/plugins/revslider/public/assets/css/settings.css?ver=5.4.7.4' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+#rs-demo-id {}
+</style>
+<link rel='stylesheet' id='chosen-css'  href='https://www.adimec.com/wp-content/plugins/scripts-n-styles/vendor/chosen/chosen.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-job-manager-frontend-css'  href='https://www.adimec.com/wp-content/plugins/wp-job-manager/assets/css/frontend.css?ver=1.31.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wpml-menu-item-0-css'  href='//www.adimec.com/wp-content/plugins/sitepress-multilingual-cms/templates/language-switchers/menu-item/style.css?ver=1' type='text/css' media='all' />
+<style id='wpml-menu-item-0-inline-css' type='text/css'>
+.wpml-ls-slot-293, .wpml-ls-slot-293 a, .wpml-ls-slot-293 a:visited{color:#000000;}.wpml-ls-slot-293:hover, .wpml-ls-slot-293:hover a, .wpml-ls-slot-293 a:hover{color:#ff4222;}.wpml-ls-slot-293.wpml-ls-current-language, .wpml-ls-slot-293.wpml-ls-current-language a, .wpml-ls-slot-293.wpml-ls-current-language a:visited{color:#000000;}.wpml-ls-slot-293.wpml-ls-current-language:hover, .wpml-ls-slot-293.wpml-ls-current-language:hover a, .wpml-ls-slot-293.wpml-ls-current-language a:hover{color:#ff4222;}.wpml-ls-slot-293.wpml-ls-current-language .wpml-ls-slot-293, .wpml-ls-slot-293.wpml-ls-current-language .wpml-ls-slot-293 a, .wpml-ls-slot-293.wpml-ls-current-language .wpml-ls-slot-293 a:visited{color:#000000;}.wpml-ls-slot-293.wpml-ls-current-language .wpml-ls-slot-293:hover, .wpml-ls-slot-293.wpml-ls-current-language .wpml-ls-slot-293:hover a, .wpml-ls-slot-293.wpml-ls-current-language .wpml-ls-slot-293 a:hover {color:#ff4222;}
+.wpml-ls-slot-111, .wpml-ls-slot-111 a, .wpml-ls-slot-111 a:visited{color:#000000;}.wpml-ls-slot-111:hover, .wpml-ls-slot-111:hover a, .wpml-ls-slot-111 a:hover{color:#ff4222;}.wpml-ls-slot-111.wpml-ls-current-language, .wpml-ls-slot-111.wpml-ls-current-language a, .wpml-ls-slot-111.wpml-ls-current-language a:visited{color:#000000;}.wpml-ls-slot-111.wpml-ls-current-language:hover, .wpml-ls-slot-111.wpml-ls-current-language:hover a, .wpml-ls-slot-111.wpml-ls-current-language a:hover{color:#ff4222;}.wpml-ls-slot-111.wpml-ls-current-language .wpml-ls-slot-111, .wpml-ls-slot-111.wpml-ls-current-language .wpml-ls-slot-111 a, .wpml-ls-slot-111.wpml-ls-current-language .wpml-ls-slot-111 a:visited{color:#000000;}.wpml-ls-slot-111.wpml-ls-current-language .wpml-ls-slot-111:hover, .wpml-ls-slot-111.wpml-ls-current-language .wpml-ls-slot-111:hover a, .wpml-ls-slot-111.wpml-ls-current-language .wpml-ls-slot-111 a:hover {color:#ff4222;}
+</style>
+<link rel='stylesheet' id='wp-job-manager-applications-frontend-css'  href='https://www.adimec.com/wp-content/plugins/wp-job-manager-applications/assets/css/frontend.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-responsive-tables-css'  href='https://www.adimec.com/wp-content/plugins/tablepress-responsive-tables/css/responsive.dataTables.min.css?ver=1.4' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://www.adimec.com/wp-content/tablepress-combined.min.css?ver=45' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css'  href='//www.adimec.com/wp-content/uploads/js_composer/js_composer_front_custom.css?ver=5.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_custom_css-css'  href='//www.adimec.com/wp-content/uploads/js_composer/custom.css?ver=5.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-web-fonts-css'  href='//fonts.googleapis.com/css?family=Noto+Sans%3A400%2C600%2C700%7CRoboto%3A400%2C500%2C600%2C700&#038;ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-main-css'  href='https://www.adimec.com/wp-content/themes/dt-the7/css/main.min.css?ver=6.6.3' type='text/css' media='all' />
+<style id='dt-main-inline-css' type='text/css'>
+body #load {
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  z-index: 9901;
+  opacity: 1;
+  visibility: visible;
+  -webkit-transition: all .35s ease-out;
+  transition: all .35s ease-out;
+}
+.load-wrap {
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.load-wrap > svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+#load {
+  background-color: #e2e2e2;
+}
+.uil-default rect:not(.bk) {
+  fill: rgba(255,66,34,0.3);
+}
+.uil-ring > path {
+  fill: rgba(255,66,34,0.3);
+}
+.ring-loader .circle {
+  fill: rgba(255,66,34,0.3);
+}
+.ring-loader .moving-circle {
+  fill: #ff4222;
+}
+.uil-hourglass .glass {
+  stroke: #ff4222;
+}
+.uil-hourglass .sand {
+  fill: rgba(255,66,34,0.3);
+}
+.spinner-loader .load-wrap {
+  background-image: url("data:image/svg+xml,%3Csvg width='75px' height='75px' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='xMidYMid' class='uil-default'%3E%3Crect x='0' y='0' width='100' height='100' fill='none' class='bk'%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%28255%2C66%2C34%2C0.3%29' transform='rotate(0 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%28255%2C66%2C34%2C0.3%29' transform='rotate(30 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.08333333333333333s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%28255%2C66%2C34%2C0.3%29' transform='rotate(60 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.16666666666666666s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%28255%2C66%2C34%2C0.3%29' transform='rotate(90 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.25s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%28255%2C66%2C34%2C0.3%29' transform='rotate(120 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.3333333333333333s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%28255%2C66%2C34%2C0.3%29' transform='rotate(150 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.4166666666666667s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%28255%2C66%2C34%2C0.3%29' transform='rotate(180 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.5s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%28255%2C66%2C34%2C0.3%29' transform='rotate(210 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.5833333333333334s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%28255%2C66%2C34%2C0.3%29' transform='rotate(240 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.6666666666666666s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%28255%2C66%2C34%2C0.3%29' transform='rotate(270 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.75s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%28255%2C66%2C34%2C0.3%29' transform='rotate(300 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.8333333333333334s' repeatCount='indefinite'/%3E%3C/rect%3E%3Crect  x='46.5' y='40' width='7' height='20' rx='5' ry='5' fill='rgba%28255%2C66%2C34%2C0.3%29' transform='rotate(330 50 50) translate(0 -30)'%3E  %3Canimate attributeName='opacity' from='1' to='0' dur='1s' begin='0.9166666666666666s' repeatCount='indefinite'/%3E%3C/rect%3E%3C/svg%3E");
+}
+.ring-loader .load-wrap {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='72' height='72' fill='rgba%28255%2C66%2C34%2C0.3%29'%3E   %3Cpath opacity='.25' d='M16 0 A16 16 0 0 0 16 32 A16 16 0 0 0 16 0 M16 4 A12 12 0 0 1 16 28 A12 12 0 0 1 16 4'/%3E   %3Cpath d='M16 0 A16 16 0 0 1 32 16 L28 16 A12 12 0 0 0 16 4z'%3E     %3CanimateTransform attributeName='transform' type='rotate' from='0 16 16' to='360 16 16' dur='0.8s' repeatCount='indefinite' /%3E   %3C/path%3E %3C/svg%3E");
+}
+.hourglass-loader .load-wrap {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='72' height='72' fill='rgba%28255%2C66%2C34%2C0.3%29'%3E   %3Cpath transform='translate(2)' d='M0 12 V20 H4 V12z'%3E      %3Canimate attributeName='d' values='M0 12 V20 H4 V12z; M0 4 V28 H4 V4z; M0 12 V20 H4 V12z; M0 12 V20 H4 V12z' dur='1.2s' repeatCount='indefinite' begin='0' keytimes='0;.2;.5;1' keySplines='0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.8 0.4 0.8' calcMode='spline'  /%3E   %3C/path%3E   %3Cpath transform='translate(8)' d='M0 12 V20 H4 V12z'%3E     %3Canimate attributeName='d' values='M0 12 V20 H4 V12z; M0 4 V28 H4 V4z; M0 12 V20 H4 V12z; M0 12 V20 H4 V12z' dur='1.2s' repeatCount='indefinite' begin='0.2' keytimes='0;.2;.5;1' keySplines='0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.8 0.4 0.8' calcMode='spline'  /%3E   %3C/path%3E   %3Cpath transform='translate(14)' d='M0 12 V20 H4 V12z'%3E     %3Canimate attributeName='d' values='M0 12 V20 H4 V12z; M0 4 V28 H4 V4z; M0 12 V20 H4 V12z; M0 12 V20 H4 V12z' dur='1.2s' repeatCount='indefinite' begin='0.4' keytimes='0;.2;.5;1' keySplines='0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.8 0.4 0.8' calcMode='spline' /%3E   %3C/path%3E   %3Cpath transform='translate(20)' d='M0 12 V20 H4 V12z'%3E     %3Canimate attributeName='d' values='M0 12 V20 H4 V12z; M0 4 V28 H4 V4z; M0 12 V20 H4 V12z; M0 12 V20 H4 V12z' dur='1.2s' repeatCount='indefinite' begin='0.6' keytimes='0;.2;.5;1' keySplines='0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.8 0.4 0.8' calcMode='spline' /%3E   %3C/path%3E   %3Cpath transform='translate(26)' d='M0 12 V20 H4 V12z'%3E     %3Canimate attributeName='d' values='M0 12 V20 H4 V12z; M0 4 V28 H4 V4z; M0 12 V20 H4 V12z; M0 12 V20 H4 V12z' dur='1.2s' repeatCount='indefinite' begin='0.8' keytimes='0;.2;.5;1' keySplines='0.2 0.2 0.4 0.8;0.2 0.6 0.4 0.8;0.2 0.8 0.4 0.8' calcMode='spline' /%3E   %3C/path%3E %3C/svg%3E");
+}
+
+</style>
+<link rel='stylesheet' id='dt-awsome-fonts-back-css'  href='https://www.adimec.com/wp-content/themes/dt-the7/fonts/FontAwesome/back-compat.min.css?ver=6.6.3' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-awsome-fonts-css'  href='https://www.adimec.com/wp-content/themes/dt-the7/fonts/FontAwesome/css/fontawesome-all.min.css?ver=6.6.3' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-fontello-css'  href='https://www.adimec.com/wp-content/themes/dt-the7/fonts/fontello/css/fontello.min.css?ver=6.6.3' type='text/css' media='all' />
+<link rel='stylesheet' id='the7pt-static-css'  href='https://www.adimec.com/wp-content/themes/dt-the7/css/post-type.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-custom-css'  href='https://www.adimec.com/wp-content/uploads/the7-css/custom.css?ver=ed6598d7539c' type='text/css' media='all' />
+<link rel='stylesheet' id='dt-media-css'  href='https://www.adimec.com/wp-content/uploads/the7-css/media.css?ver=ed6598d7539c' type='text/css' media='all' />
+<link rel='stylesheet' id='the7pt.less-css'  href='https://www.adimec.com/wp-content/uploads/the7-css/post-type-dynamic.css?ver=ed6598d7539c' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='https://www.adimec.com/wp-content/themes/dt-the7-child/style.css?ver=6.6.3' type='text/css' media='all' />
+<style id='style-inline-css' type='text/css'>
+.portfolio-categories, .blog-content .entry-meta {
+   display:none;
+}
+
+#page .masthead .mini-nav .sub-nav {
+    width: 130px;
+}
+h2 {
+    margin-bottom: 30px;
+}
+.wpb_accordion_wrapper .wpb_accordion_section:first-child .wpb_accordion_header {
+   background-color: #f7f7f7;
+   border-radius: 5px;
+   border: 1px solid #e2e2e2;
+}
+.dt-accordion-bg-on.wpb_content_element .wpb_accordion_wrapper .wpb_accordion_header {
+   background-color: #f7f7f7;
+   border-radius: 5px;
+   border: 1px solid #e2e2e2 !important;
+}
+.sidebar-right .sidebar {
+    display: none;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.content-bg-on.classic-layout-list article {
+  background: #ffffff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.dividers-on.classic-layout-list article {
+  margin-top: ;
+  padding-top: 0;
+  border-color: ;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.dividers-on.classic-layout-list article:first-of-type {
+  margin-top: 0;
+  padding-top: 0;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.classic-layout-list.mode-list .post-thumbnail-wrap {
+  width: ;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.classic-layout-list.mode-list .post-entry-content {
+  width: calc(100% - );
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.classic-layout-list.mode-list .no-img .post-entry-content {
+  width: 100%;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.side-overlap-layout-list .post-thumbnail-wrap {
+  width: ;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.side-overlap-layout-list .post-entry-content {
+  width: calc(100% -  + );
+  margin-top: 100px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.side-overlap-layout-list .no-img .post-entry-content {
+  width: 100%;
+  margin-top: 0;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.side-overlap-layout-list .project-odd .post-entry-content {
+  margin-left: -;
+}
+.rtl .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.side-overlap-layout-list .project-odd .post-entry-content {
+  margin-right: -;
+  margin-left: 0;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.side-overlap-layout-list .no-img.project-odd .post-entry-content {
+  margin-left: 0;
+}
+.rtl .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.side-overlap-layout-list .no-img.project-odd .post-entry-content {
+  margin-right: 0;
+  margin-left: 0;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.side-overlap-layout-list .project-even .post-entry-content {
+  margin-right: -;
+}
+.rtl .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.side-overlap-layout-list .project-even .post-entry-content {
+  margin-left: -;
+  margin-right: 0;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.side-overlap-layout-list .no-img.project-even .post-entry-content {
+  margin-right: 0;
+}
+.rtl .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.side-overlap-layout-list .no-img.project-even .post-entry-content {
+  margin-left: 0;
+  margin-right: 0;
+}
+@media screen and (max-width: ) {
+  #page .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.side-overlap-layout-list .project-odd .post-entry-content {
+    left: 0;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.side-overlap-layout-list .project-even .post-entry-content {
+    right: 0;
+  }
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.bottom-overlap-layout-list .post-entry-content {
+  margin-top: -100px;
+  width: 75%;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.bottom-overlap-layout-list:not(.mode-list) .no-img .post-entry-content {
+  margin-top: 0;
+  width: 100%;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.bottom-overlap-layout-list.mode-list .no-img .post-entry-content {
+  margin-top: 0;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.centered-layout-list article {
+  padding: 25px 30px 30px 30px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.content-bg-on.centered-layout-list article {
+  background: #ffffff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.dividers-on.centered-layout-list article {
+  padding-top: 25px;
+  margin-top: ;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.dividers-on.centered-layout-list article:first-of-type {
+  margin-top: 0;
+  padding-top: 25px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.centered-layout-list .post-entry-title-content {
+  width: 75%;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.centered-layout-list .post-entry-content {
+  width: 75%;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.centered-layout-list.dividers-on .post-entry-content:after {
+  width: calc(75% - 30px - 30px);
+  background: ;
+}
+#page .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.content-bg-on.gradient-overlap-layout-list .post-entry-content {
+  background: linear-gradient(to bottom,#ffffff,#ffffff) no-repeat 0px 150px;
+}
+#page .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.content-bg-on.gradient-overlap-layout-list .post-entry-content:before {
+  background: #ffffff;
+  background: -moz-linear-gradient(top,rgba(255,255,255,0) 0%,rgba(255,255,255,0.9) 64%,#ffffff 83%,#ffffff 100%);
+  background: -webkit-linear-gradient(top,rgba(255,255,255,0) 0%,rgba(255,255,255,0.9) 64%,#ffffff 83%,#ffffff 100%);
+  background: linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0.9) 64%,#ffffff 83%,#ffffff 100%);
+}
+#page .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.content-bg-on.gradient-overlap-layout-list .no-img .post-entry-content {
+  background: #ffffff;
+  padding: 30px 30px 30px 30px;
+}
+#page .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.content-bg-on.gradient-overlap-layout-list .no-img .post-entry-content:before {
+  display: none;
+}
+#page .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.gradient-overlay-layout-list .post-entry-content {
+  background: #ffffff;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.gradient-overlay-layout-list:not(.portfolio-shortcode) .post-entry-content {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.gradient-overlay-layout-list .post-head-wrapper,
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.gradient-overlay-layout-list .post-entry-wrapper {
+  right: 30px;
+  left: 30px;
+}
+#page .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.content-rollover-layout-list .post-entry-content {
+  background: none;
+  padding: 0;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.content-rollover-layout-list .post-entry-content:before {
+  background: #ffffff;
+  background: -moz-linear-gradient(top,rgba(255,255,255,0) 0%,#ffffff 65%,#ffffff 100%);
+  background: -webkit-linear-gradient(top,rgba(255,255,255,0) 0%,#ffffff 65%,#ffffff 100%);
+  background: linear-gradient(to bottom,rgba(255,255,255,0) 0%,#ffffff 65%,#ffffff 100%);
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.content-rollover-layout-list .post-entry-wrapper {
+  padding: 25px 30px 30px 30px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.content-rollover-layout-list .post-entry-wrapper {
+  bottom: -15px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.content-rollover-layout-list.meta-info-off .post-entry-wrapper {
+  bottom: -5px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.content-rollover-layout-list article:not(.description-off) .post-entry-wrapper {
+  bottom: -20px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.content-rollover-layout-list:not(.disable-layout-hover) article:hover .post-entry-wrapper {
+  bottom: 0;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .filter a,
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .filter a * {
+  color: ;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .paginator a,
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .paginator a * {
+  color: ;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .filter-bg-decoration .filter-categories a.act {
+  color: #fff;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497:not(.mode-masonry) article {
+  margin-top: ;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497:not(.mode-masonry) article:first-of-type,
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497:not(.mode-masonry) article.visible.first:not(.product) {
+  margin-top: 0;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.dividers-on:not(.mode-masonry) article {
+  margin-top: 0;
+  padding-top: ;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.dividers-on:not(.mode-masonry) article:first-of-type,
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.dividers-on:not(.mode-masonry) article.visible.first:not(.product) {
+  margin-top: 0;
+  padding-top: 0;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .post-thumbnail-wrap {
+  padding: 25px 30px 10px 30px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .entry-title,
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.owl-carousel .entry-title {
+  margin-bottom: 5px;
+  font-style: ;
+  font-weight: bold;
+  text-transform: ;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .entry-meta {
+  margin-bottom: 15px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .entry-meta * {
+  color: #bbbfc3;
+  font-style: ;
+  font-weight: ;
+  text-transform: ;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .portfolio-categories {
+  margin-bottom: 15px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .entry-meta > a:after,
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .entry-meta > span:after {
+  background: #bbbfc3;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .entry-excerpt {
+  margin-bottom: 5px;
+  font-style: ;
+  font-weight: ;
+  text-transform: ;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497:not(.centered-layout-list) .post-entry-content {
+  padding: 25px 30px 30px 30px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497:not(.centered-layout-list):not(.content-bg-on):not(.mode-list) .no-img .post-entry-content {
+  padding: 0;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.content-bg-on:not(.classic-layout-list):not(.centered-layout-list) .post-entry-content {
+  background: #ffffff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+@media screen and (max-width: ) {
+  .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 article {
+    -webkit-flex-flow: column nowrap;
+    -moz-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    margin-top: 20px;
+  }
+  .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.dividers-on article {
+    border: none;
+  }
+  .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.content-bg-on.centered-layout-list article {
+    padding: 0;
+  }
+  .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.blog-shortcode.dividers-on article,
+  .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.dividers-on.classic-layout-list article {
+    margin-top: 20px;
+    padding: 0;
+  }
+  .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.blog-shortcode.dividers-on article:first-of-type,
+  .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.dividers-on.classic-layout-list article:first-of-type {
+    padding: 0;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .post-thumbnail-wrap,
+  #page .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .post-entry-content {
+    width: 100%;
+    margin: 0;
+    top: 0;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .post-thumbnail-wrap {
+    padding: 0;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .post-entry-content:after {
+    display: none;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .project-even .post-thumbnail-wrap,
+  #page .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.centered-layout-list .post-thumbnail-wrap {
+    -webkit-order: 0;
+    -moz-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.centered-layout-list .post-entry-title-content {
+    -webkit-order: 1;
+    -moz-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    width: 100%;
+    padding: 20px 20px 0;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.centered-layout-list .post-entry-content {
+    -webkit-order: 2;
+    -moz-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+    padding-top: 0;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .fancy-categories {
+    top: 10px;
+    left: 10px;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .fancy-date a {
+    top: 10px;
+    right: 10px;
+    left: auto;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .post-entry-content {
+    padding: 20px;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .entry-title {
+    margin: 3px 0 5px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .entry-meta {
+    margin: 5px 0 5px;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .entry-excerpt {
+    margin: 15px 0 0;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .post-details {
+    margin: 5px 0 10px;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 .post-details.details-type-link {
+    margin-bottom: 2px;
+  }
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497:not(.resize-by-browser-width) .dt-css-grid {
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+  grid-template-columns: repeat(auto-fill,minmax(,1fr));
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497:not(.resize-by-browser-width) .dt-css-grid .double-width {
+  grid-column: span 2;
+}
+.cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497:not(.resize-by-browser-width) .dt-css-grid,
+.no-cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497:not(.resize-by-browser-width) .dt-css-grid {
+  display: flex;
+  flex-flow: row wrap;
+  margin: -15px;
+}
+.cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497:not(.resize-by-browser-width) .dt-css-grid .wf-cell,
+.no-cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497:not(.resize-by-browser-width) .dt-css-grid .wf-cell {
+  flex: 1 0 ;
+  min-width: ;
+  max-width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.resize-by-browser-width .dt-css-grid {
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.resize-by-browser-width .dt-css-grid .double-width {
+  grid-column: span 2;
+}
+.cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.resize-by-browser-width .dt-css-grid {
+  margin: -15px;
+}
+.cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.resize-by-browser-width .dt-css-grid .wf-cell {
+  width: 33.333333333333%;
+  padding: 15px;
+}
+.cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.resize-by-browser-width .dt-css-grid .wf-cell.double-width {
+  width: calc(33.333333333333%) * 2;
+}
+.blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.resize-by-browser-width:not(.centered-layout-list):not(.content-bg-on) .dt-css-grid {
+  grid-row-gap: 0px;
+}
+@media screen and (max-width: 1199px) {
+  .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.resize-by-browser-width .dt-css-grid {
+    grid-template-columns: repeat(3,1fr);
+  }
+  .cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.resize-by-browser-width .dt-css-grid .wf-cell,
+  .no-cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.resize-by-browser-width .dt-css-grid .wf-cell {
+    width: 33.333333333333%;
+  }
+  .cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.resize-by-browser-width .dt-css-grid .wf-cell.double-width,
+  .no-cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.resize-by-browser-width .dt-css-grid .wf-cell.double-width {
+    width: calc(33.333333333333%)*2;
+  }
+}
+@media screen and (max-width: 991px) {
+  .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.resize-by-browser-width .dt-css-grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+  .cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.resize-by-browser-width .dt-css-grid .wf-cell,
+  .no-cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.resize-by-browser-width .dt-css-grid .wf-cell {
+    width: 50%;
+  }
+  .cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.resize-by-browser-width .dt-css-grid .wf-cell.double-width,
+  .no-cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.resize-by-browser-width .dt-css-grid .wf-cell.double-width {
+    width: calc(50%)*2;
+  }
+}
+@media screen and (max-width: 767px) {
+  .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.resize-by-browser-width .dt-css-grid {
+    grid-template-columns: repeat(1,1fr);
+  }
+  .cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.resize-by-browser-width .dt-css-grid .wf-cell,
+  .no-cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.resize-by-browser-width .dt-css-grid .wf-cell {
+    width: 100%;
+  }
+  .cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.resize-by-browser-width .dt-css-grid .wf-cell.double-width,
+  .no-cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497.resize-by-browser-width .dt-css-grid .wf-cell.double-width {
+    width: calc(100%)*2;
+  }
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.content-bg-on.classic-layout-list article {
+  background: #ffffff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.dividers-on.classic-layout-list article {
+  margin-top: ;
+  padding-top: 0;
+  border-color: ;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.dividers-on.classic-layout-list article:first-of-type {
+  margin-top: 0;
+  padding-top: 0;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.classic-layout-list.mode-list .post-thumbnail-wrap {
+  width: ;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.classic-layout-list.mode-list .post-entry-content {
+  width: calc(100% - );
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.classic-layout-list.mode-list .no-img .post-entry-content {
+  width: 100%;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.side-overlap-layout-list .post-thumbnail-wrap {
+  width: ;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.side-overlap-layout-list .post-entry-content {
+  width: calc(100% -  + );
+  margin-top: 100px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.side-overlap-layout-list .no-img .post-entry-content {
+  width: 100%;
+  margin-top: 0;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.side-overlap-layout-list .project-odd .post-entry-content {
+  margin-left: -;
+}
+.rtl .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.side-overlap-layout-list .project-odd .post-entry-content {
+  margin-right: -;
+  margin-left: 0;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.side-overlap-layout-list .no-img.project-odd .post-entry-content {
+  margin-left: 0;
+}
+.rtl .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.side-overlap-layout-list .no-img.project-odd .post-entry-content {
+  margin-right: 0;
+  margin-left: 0;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.side-overlap-layout-list .project-even .post-entry-content {
+  margin-right: -;
+}
+.rtl .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.side-overlap-layout-list .project-even .post-entry-content {
+  margin-left: -;
+  margin-right: 0;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.side-overlap-layout-list .no-img.project-even .post-entry-content {
+  margin-right: 0;
+}
+.rtl .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.side-overlap-layout-list .no-img.project-even .post-entry-content {
+  margin-left: 0;
+  margin-right: 0;
+}
+@media screen and (max-width: ) {
+  #page .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.side-overlap-layout-list .project-odd .post-entry-content {
+    left: 0;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.side-overlap-layout-list .project-even .post-entry-content {
+    right: 0;
+  }
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.bottom-overlap-layout-list .post-entry-content {
+  margin-top: -100px;
+  width: 75%;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.bottom-overlap-layout-list:not(.mode-list) .no-img .post-entry-content {
+  margin-top: 0;
+  width: 100%;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.bottom-overlap-layout-list.mode-list .no-img .post-entry-content {
+  margin-top: 0;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.centered-layout-list article {
+  padding: 25px 30px 30px 30px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.content-bg-on.centered-layout-list article {
+  background: #ffffff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.dividers-on.centered-layout-list article {
+  padding-top: 25px;
+  margin-top: ;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.dividers-on.centered-layout-list article:first-of-type {
+  margin-top: 0;
+  padding-top: 25px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.centered-layout-list .post-entry-title-content {
+  width: 75%;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.centered-layout-list .post-entry-content {
+  width: 75%;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.centered-layout-list.dividers-on .post-entry-content:after {
+  width: calc(75% - 30px - 30px);
+  background: ;
+}
+#page .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.content-bg-on.gradient-overlap-layout-list .post-entry-content {
+  background: linear-gradient(to bottom,#ffffff,#ffffff) no-repeat 0px 150px;
+}
+#page .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.content-bg-on.gradient-overlap-layout-list .post-entry-content:before {
+  background: #ffffff;
+  background: -moz-linear-gradient(top,rgba(255,255,255,0) 0%,rgba(255,255,255,0.9) 64%,#ffffff 83%,#ffffff 100%);
+  background: -webkit-linear-gradient(top,rgba(255,255,255,0) 0%,rgba(255,255,255,0.9) 64%,#ffffff 83%,#ffffff 100%);
+  background: linear-gradient(to bottom,rgba(255,255,255,0) 0%,rgba(255,255,255,0.9) 64%,#ffffff 83%,#ffffff 100%);
+}
+#page .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.content-bg-on.gradient-overlap-layout-list .no-img .post-entry-content {
+  background: #ffffff;
+  padding: 30px 30px 30px 30px;
+}
+#page .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.content-bg-on.gradient-overlap-layout-list .no-img .post-entry-content:before {
+  display: none;
+}
+#page .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.gradient-overlay-layout-list .post-entry-content {
+  background: #ffffff;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.gradient-overlay-layout-list:not(.portfolio-shortcode) .post-entry-content {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.gradient-overlay-layout-list .post-head-wrapper,
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.gradient-overlay-layout-list .post-entry-wrapper {
+  right: 30px;
+  left: 30px;
+}
+#page .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.content-rollover-layout-list .post-entry-content {
+  background: none;
+  padding: 0;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.content-rollover-layout-list .post-entry-content:before {
+  background: #ffffff;
+  background: -moz-linear-gradient(top,rgba(255,255,255,0) 0%,#ffffff 65%,#ffffff 100%);
+  background: -webkit-linear-gradient(top,rgba(255,255,255,0) 0%,#ffffff 65%,#ffffff 100%);
+  background: linear-gradient(to bottom,rgba(255,255,255,0) 0%,#ffffff 65%,#ffffff 100%);
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.content-rollover-layout-list .post-entry-wrapper {
+  padding: 25px 30px 30px 30px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.content-rollover-layout-list .post-entry-wrapper {
+  bottom: -15px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.content-rollover-layout-list.meta-info-off .post-entry-wrapper {
+  bottom: -5px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.content-rollover-layout-list article:not(.description-off) .post-entry-wrapper {
+  bottom: -20px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.content-rollover-layout-list:not(.disable-layout-hover) article:hover .post-entry-wrapper {
+  bottom: 0;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .filter a,
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .filter a * {
+  color: ;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .paginator a,
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .paginator a * {
+  color: ;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .filter-bg-decoration .filter-categories a.act {
+  color: #fff;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6:not(.mode-masonry) article {
+  margin-top: ;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6:not(.mode-masonry) article:first-of-type,
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6:not(.mode-masonry) article.visible.first:not(.product) {
+  margin-top: 0;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.dividers-on:not(.mode-masonry) article {
+  margin-top: 0;
+  padding-top: ;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.dividers-on:not(.mode-masonry) article:first-of-type,
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.dividers-on:not(.mode-masonry) article.visible.first:not(.product) {
+  margin-top: 0;
+  padding-top: 0;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .post-thumbnail-wrap {
+  padding: 25px 30px 10px 30px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .entry-title,
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.owl-carousel .entry-title {
+  margin-bottom: 5px;
+  font-style: ;
+  font-weight: bold;
+  text-transform: ;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .entry-meta {
+  margin-bottom: 15px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .entry-meta * {
+  color: #bbbfc3;
+  font-style: ;
+  font-weight: ;
+  text-transform: ;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .portfolio-categories {
+  margin-bottom: 15px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .entry-meta > a:after,
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .entry-meta > span:after {
+  background: #bbbfc3;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .entry-excerpt {
+  margin-bottom: 5px;
+  font-style: ;
+  font-weight: ;
+  text-transform: ;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6:not(.centered-layout-list) .post-entry-content {
+  padding: 25px 30px 30px 30px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6:not(.centered-layout-list):not(.content-bg-on):not(.mode-list) .no-img .post-entry-content {
+  padding: 0;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.content-bg-on:not(.classic-layout-list):not(.centered-layout-list) .post-entry-content {
+  background: #ffffff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+@media screen and (max-width: ) {
+  .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 article {
+    -webkit-flex-flow: column nowrap;
+    -moz-flex-flow: column nowrap;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    margin-top: 20px;
+  }
+  .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.dividers-on article {
+    border: none;
+  }
+  .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.content-bg-on.centered-layout-list article {
+    padding: 0;
+  }
+  .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.blog-shortcode.dividers-on article,
+  .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.dividers-on.classic-layout-list article {
+    margin-top: 20px;
+    padding: 0;
+  }
+  .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.blog-shortcode.dividers-on article:first-of-type,
+  .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.dividers-on.classic-layout-list article:first-of-type {
+    padding: 0;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .post-thumbnail-wrap,
+  #page .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .post-entry-content {
+    width: 100%;
+    margin: 0;
+    top: 0;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .post-thumbnail-wrap {
+    padding: 0;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .post-entry-content:after {
+    display: none;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .project-even .post-thumbnail-wrap,
+  #page .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.centered-layout-list .post-thumbnail-wrap {
+    -webkit-order: 0;
+    -moz-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.centered-layout-list .post-entry-title-content {
+    -webkit-order: 1;
+    -moz-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    width: 100%;
+    padding: 20px 20px 0;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.centered-layout-list .post-entry-content {
+    -webkit-order: 2;
+    -moz-order: 2;
+    -ms-flex-order: 2;
+    order: 2;
+    padding-top: 0;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .fancy-categories {
+    top: 10px;
+    left: 10px;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .fancy-date a {
+    top: 10px;
+    right: 10px;
+    left: auto;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .post-entry-content {
+    padding: 20px;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .entry-title {
+    margin: 3px 0 5px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .entry-meta {
+    margin: 5px 0 5px;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .entry-excerpt {
+    margin: 15px 0 0;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .post-details {
+    margin: 5px 0 10px;
+  }
+  #page .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 .post-details.details-type-link {
+    margin-bottom: 2px;
+  }
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6:not(.resize-by-browser-width) .dt-css-grid {
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  grid-template-columns: repeat(auto-fill,minmax(,1fr));
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6:not(.resize-by-browser-width) .dt-css-grid .double-width {
+  grid-column: span 2;
+}
+.cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6:not(.resize-by-browser-width) .dt-css-grid,
+.no-cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6:not(.resize-by-browser-width) .dt-css-grid {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0px;
+}
+.cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6:not(.resize-by-browser-width) .dt-css-grid .wf-cell,
+.no-cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6:not(.resize-by-browser-width) .dt-css-grid .wf-cell {
+  flex: 1 0 ;
+  min-width: ;
+  max-width: 100%;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.resize-by-browser-width .dt-css-grid {
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.resize-by-browser-width .dt-css-grid .double-width {
+  grid-column: span 2;
+}
+.cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.resize-by-browser-width .dt-css-grid {
+  margin: 0px;
+}
+.cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.resize-by-browser-width .dt-css-grid .wf-cell {
+  width: 100%;
+  padding: 0px;
+}
+.cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.resize-by-browser-width .dt-css-grid .wf-cell.double-width {
+  width: calc(100%) * 2;
+}
+.blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.resize-by-browser-width:not(.centered-layout-list):not(.content-bg-on) .dt-css-grid {
+  grid-row-gap: -30px;
+}
+@media screen and (max-width: 1199px) {
+  .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.resize-by-browser-width .dt-css-grid {
+    grid-template-columns: repeat(1,1fr);
+  }
+  .cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.resize-by-browser-width .dt-css-grid .wf-cell,
+  .no-cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.resize-by-browser-width .dt-css-grid .wf-cell {
+    width: 100%;
+  }
+  .cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.resize-by-browser-width .dt-css-grid .wf-cell.double-width,
+  .no-cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.resize-by-browser-width .dt-css-grid .wf-cell.double-width {
+    width: calc(100%)*2;
+  }
+}
+@media screen and (max-width: 991px) {
+  .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.resize-by-browser-width .dt-css-grid {
+    grid-template-columns: repeat(1,1fr);
+  }
+  .cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.resize-by-browser-width .dt-css-grid .wf-cell,
+  .no-cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.resize-by-browser-width .dt-css-grid .wf-cell {
+    width: 100%;
+  }
+  .cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.resize-by-browser-width .dt-css-grid .wf-cell.double-width,
+  .no-cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.resize-by-browser-width .dt-css-grid .wf-cell.double-width {
+    width: calc(100%)*2;
+  }
+}
+@media screen and (max-width: 767px) {
+  .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.resize-by-browser-width .dt-css-grid {
+    grid-template-columns: repeat(1,1fr);
+  }
+  .cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.resize-by-browser-width .dt-css-grid .wf-cell,
+  .no-cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.resize-by-browser-width .dt-css-grid .wf-cell {
+    width: 100%;
+  }
+  .cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.resize-by-browser-width .dt-css-grid .wf-cell.double-width,
+  .no-cssgridlegacy.no-cssgrid .blog-shortcode.blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6.resize-by-browser-width .dt-css-grid .wf-cell.double-width {
+    width: calc(100%)*2;
+  }
+}
+
+</style>
+<link rel='stylesheet' id='bsf-Defaults-css'  href='https://www.adimec.com/wp-content/uploads/smile_fonts/Defaults/Defaults.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='ultimate-style-min-css'  href='https://www.adimec.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-css/ultimate.min.css?ver=3.16.24' type='text/css' media='all' />
+<!--[if !IE]><!-->
+<link rel='stylesheet' id='tablepress-responsive-tables-flip-css'  href='https://www.adimec.com/wp-content/plugins/tablepress-responsive-tables/css/tablepress-responsive-flip.min.css?ver=1.4' type='text/css' media='all' />
+<!--<![endif]-->
+<script type='text/javascript' src='https://www.adimec.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://www.adimec.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","is_debug_mode":"false","download_extensions":"doc,exe,js,pdf,ppt,tgz,zip,xls","inbound_paths":"","home_url":"https:\/\/www.adimec.com\/ja\/","track_download_as":"event","internal_label":"int","hash_tracking":"false"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.adimec.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend.min.js?ver=7.0.9'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var cnArgs = {"ajaxurl":"https:\/\/www.adimec.com\/wp-admin\/admin-ajax.php","hideEffect":"fade","onScroll":"no","onScrollOffset":"100","cookieName":"cookie_notice_accepted","cookieValue":"true","cookieTime":"2592000","cookiePath":"\/","cookieDomain":"","redirection":"1","cache":"","refuse":"no","revoke_cookies":"0","revoke_cookies_opt":"automatic","secure":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.adimec.com/wp-content/plugins/cookie-notice/js/front.min.js?ver=1.2.44'></script>
+<script type='text/javascript' src='https://www.adimec.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?ver=5.4.7.4'></script>
+<script type='text/javascript' src='https://www.adimec.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?ver=5.4.7.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var dtLocal = {"themeUrl":"https:\/\/www.adimec.com\/wp-content\/themes\/dt-the7","passText":"To view this protected post, enter the password below:","moreButtonText":{"loading":"Loading...","loadMore":"Load more"},"postID":"4123","ajaxurl":"https:\/\/www.adimec.com\/wp-admin\/admin-ajax.php","contactMessages":{"required":"One or more fields have an error. Please check and try again.","terms":"Please accept the privacy policy."},"ajaxNonce":"9238d5aa92","pageData":{"type":"page","template":"page","layout":null},"themeSettings":{"smoothScroll":"off","lazyLoading":false,"accentColor":{"mode":"solid","color":"#ff4222"},"desktopHeader":{"height":100},"floatingHeader":{"showAfter":94,"showMenu":true,"height":60,"logo":{"showLogo":true,"html":"<img class=\" preload-me\" src=\"https:\/\/www.adimec.com\/wp-content\/uploads\/2017\/10\/adimec_logo_sticky.png\" srcset=\"https:\/\/www.adimec.com\/wp-content\/uploads\/2017\/10\/adimec_logo_sticky.png 126w, https:\/\/www.adimec.com\/wp-content\/uploads\/2017\/10\/adimec_logo_sticky2X.png 252w\" width=\"126\" height=\"27\"   sizes=\"126px\" alt=\"Adimec\" \/>","url":"https:\/\/www.adimec.com\/ja\/"}},"mobileHeader":{"firstSwitchPoint":1280,"secondSwitchPoint":778,"firstSwitchPointHeight":90,"secondSwitchPointHeight":60},"stickyMobileHeaderFirstSwitch":{"logo":{"html":"<img class=\" preload-me\" src=\"https:\/\/www.adimec.com\/wp-content\/uploads\/2017\/10\/adimec_logo_sticky.png\" srcset=\"https:\/\/www.adimec.com\/wp-content\/uploads\/2017\/10\/adimec_logo_sticky.png 126w, https:\/\/www.adimec.com\/wp-content\/uploads\/2017\/10\/adimec_logo_sticky2X.png 252w\" width=\"126\" height=\"27\"   sizes=\"126px\" alt=\"Adimec\" \/>"}},"stickyMobileHeaderSecondSwitch":{"logo":{"html":"<img class=\" preload-me\" src=\"https:\/\/www.adimec.com\/wp-content\/uploads\/2017\/10\/adimec_logo_sticky.png\" srcset=\"https:\/\/www.adimec.com\/wp-content\/uploads\/2017\/10\/adimec_logo_sticky.png 126w, https:\/\/www.adimec.com\/wp-content\/uploads\/2017\/10\/adimec_logo_sticky2X.png 252w\" width=\"126\" height=\"27\"   sizes=\"126px\" alt=\"Adimec\" \/>"}},"content":{"textColor":"#000000","headerColor":"#ff4222"},"stripes":{"stripe1":{"textColor":"#787d85","headerColor":"#3b3f4a"},"stripe2":{"textColor":"#8b9199","headerColor":"#ffffff"},"stripe3":{"textColor":"#ffffff","headerColor":"#ffffff"}}},"VCMobileScreenWidth":"768"};
+var dtShare = {"shareButtonText":{"facebook":"Share on Facebook","twitter":"Tweet","pinterest":"Pin it","linkedin":"Share on Linkedin","whatsapp":"Share on Whatsapp","google":"Share on Google Plus","download":"Download image"},"overlayOpacity":"85"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.adimec.com/wp-content/themes/dt-the7/js/above-the-fold.min.js?ver=6.6.3'></script>
+<script type='text/javascript' src='https://www.adimec.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/jquery-ui.min.js?ver=3.16.24'></script>
+<script type='text/javascript' src='https://www.adimec.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='https://www.adimec.com/wp-content/plugins/Ultimate_VC_Addons/assets/min-js/ultimate.min.js?ver=3.16.24'></script>
+<link rel='https://api.w.org/' href='https://www.adimec.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.adimec.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.adimec.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.7" />
+<link rel='shortlink' href='https://www.adimec.com/ja/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.adimec.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.adimec.com%2Fja%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.adimec.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.adimec.com%2Fja%2F&#038;format=xml" />
+<meta name="generator" content="WPML ver:4.0.4 stt:60,1,28;" />
+<style type="text/css">
+	#category-posts-2-internal .cat-post-item img {max-width: initial; max-height: initial; margin: initial;}
+#category-posts-2-internal .cat-post-author {margin-bottom: 0;}
+#category-posts-2-internal .cat-post-thumbnail {margin: 5px 10px 5px 0;}
+#category-posts-2-internal .cat-post-item:before {content: ""; clear: both;}
+#category-posts-2-internal .cat-post-title {font-size: 15px;}
+#category-posts-2-internal .cat-post-current .cat-post-title {font-weight: bold; text-transform: uppercase;}
+#category-posts-2-internal .cat-post-date {font-size: 14px; line-height: 18px; font-style: italic; margin-bottom: 5px;}
+#category-posts-2-internal .cat-post-comment-num {font-size: 14px; line-height: 18px;}
+#category-posts-2-internal .cat-post-item {border-bottom: 1px solid #ccc;	list-style: none; list-style-type: none; margin: 3px 0;	padding: 3px 0;}
+#category-posts-2-internal .cat-post-item:last-child {border-bottom: none;}
+#category-posts-2-internal .cat-post-item:after {content: ""; display: table;	clear: both;}
+#category-posts-2-internal p {margin:5px 0 0 0}
+#category-posts-2-internal li > div {margin:5px 0 0 0; clear:both;}
+#category-posts-2-internal .dashicons {vertical-align:middle;}
+#category-posts-2-internal .cat-post-crop {overflow: hidden; display:inline-block}
+#category-posts-2-internal .cat-post-item img {margin: initial;}
+#category-posts-2-internal .cat-post-thumbnail {float:left;}
+#category-posts-4-internal .cat-post-item img {max-width: initial; max-height: initial; margin: initial;}
+#category-posts-4-internal .cat-post-author {margin-bottom: 0;}
+#category-posts-4-internal .cat-post-thumbnail {margin: 5px 10px 5px 0;}
+#category-posts-4-internal .cat-post-item:before {content: ""; clear: both;}
+#category-posts-4-internal .cat-post-title {font-size: 15px;}
+#category-posts-4-internal .cat-post-current .cat-post-title {font-weight: bold; text-transform: uppercase;}
+#category-posts-4-internal .cat-post-date {font-size: 14px; line-height: 18px; font-style: italic; margin-bottom: 5px;}
+#category-posts-4-internal .cat-post-comment-num {font-size: 14px; line-height: 18px;}
+#category-posts-4-internal .cat-post-item {border-bottom: 1px solid #ccc;	list-style: none; list-style-type: none; margin: 3px 0;	padding: 3px 0;}
+#category-posts-4-internal .cat-post-item:last-child {border-bottom: none;}
+#category-posts-4-internal .cat-post-item:after {content: ""; display: table;	clear: both;}
+#category-posts-4-internal p {margin:5px 0 0 0}
+#category-posts-4-internal li > div {margin:5px 0 0 0; clear:both;}
+#category-posts-4-internal .dashicons {vertical-align:middle;}
+#category-posts-4-internal .cat-post-crop {overflow: hidden; display:inline-block}
+#category-posts-4-internal .cat-post-item img {margin: initial;}
+#category-posts-4-internal .cat-post-thumbnail {float:left;}
+#category-posts-5-internal .cat-post-item img {max-width: initial; max-height: initial; margin: initial;}
+#category-posts-5-internal .cat-post-author {margin-bottom: 0;}
+#category-posts-5-internal .cat-post-thumbnail {margin: 5px 10px 5px 0;}
+#category-posts-5-internal .cat-post-item:before {content: ""; clear: both;}
+#category-posts-5-internal .cat-post-title {font-size: 15px;}
+#category-posts-5-internal .cat-post-current .cat-post-title {font-weight: bold; text-transform: uppercase;}
+#category-posts-5-internal .cat-post-date {font-size: 14px; line-height: 18px; font-style: italic; margin-bottom: 5px;}
+#category-posts-5-internal .cat-post-comment-num {font-size: 14px; line-height: 18px;}
+#category-posts-5-internal .cat-post-item {border-bottom: 1px solid #ccc;	list-style: none; list-style-type: none; margin: 3px 0;	padding: 3px 0;}
+#category-posts-5-internal .cat-post-item:last-child {border-bottom: none;}
+#category-posts-5-internal .cat-post-item:after {content: ""; display: table;	clear: both;}
+#category-posts-5-internal p {margin:5px 0 0 0}
+#category-posts-5-internal li > div {margin:5px 0 0 0; clear:both;}
+#category-posts-5-internal .dashicons {vertical-align:middle;}
+#category-posts-5-internal .cat-post-crop {overflow: hidden; display:inline-block}
+#category-posts-5-internal .cat-post-item img {margin: initial;}
+#category-posts-5-internal .cat-post-thumbnail {float:left;}
+</style>
+	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://www.adimec.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style><meta name="generator" content="Powered by Slider Revolution 5.4.7.4 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function(event) { 
+	var load = document.getElementById("load");
+	
+	var removeLoading = setTimeout(function() {
+		load.className += " loader-removed";
+	}, 500);
+});
+</script>
+<link rel="icon" href="https://www.adimec.com/wp-content/uploads/2017/09/favicon-16x16.png" type="image/png" sizes="16x16"/><link rel="icon" href="https://www.adimec.com/wp-content/uploads/2017/09/favicon-32x32.png" type="image/png" sizes="32x32"/><link rel="apple-touch-icon" href="https://www.adimec.com/wp-content/uploads/2017/09/apple-icon-60x60.png"><link rel="apple-touch-icon" sizes="76x76" href="https://www.adimec.com/wp-content/uploads/2017/09/apple-icon-76x76-1.png"><link rel="apple-touch-icon" sizes="120x120" href="https://www.adimec.com/wp-content/uploads/2017/09/apple-icon-120x120.png"><link rel="apple-touch-icon" sizes="152x152" href="https://www.adimec.com/wp-content/uploads/2017/09/apple-icon-152x152.png"><script type="text/javascript">function setREVStartSize(e){									
+						try{ e.c=jQuery(e.c);var i=jQuery(window).width(),t=9999,r=0,n=0,l=0,f=0,s=0,h=0;
+							if(e.responsiveLevels&&(jQuery.each(e.responsiveLevels,function(e,f){f>i&&(t=r=f,l=e),i>f&&f>r&&(r=f,n=e)}),t>r&&(l=n)),f=e.gridheight[l]||e.gridheight[0]||e.gridheight,s=e.gridwidth[l]||e.gridwidth[0]||e.gridwidth,h=i/s,h=h>1?1:h,f=Math.round(h*f),"fullscreen"==e.sliderLayout){var u=(e.c.width(),jQuery(window).height());if(void 0!=e.fullScreenOffsetContainer){var c=e.fullScreenOffsetContainer.split(",");if (c) jQuery.each(c,function(e,i){u=jQuery(i).length>0?u-jQuery(i).outerHeight(!0):u}),e.fullScreenOffset.split("%").length>1&&void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0?u-=jQuery(window).height()*parseInt(e.fullScreenOffset,0)/100:void 0!=e.fullScreenOffset&&e.fullScreenOffset.length>0&&(u-=parseInt(e.fullScreenOffset,0))}f=u}else void 0!=e.minHeight&&f<e.minHeight&&(f=e.minHeight);e.c.closest(".rev_slider_wrapper").css({height:f})					
+						}catch(d){console.log("Failure at Presize of Slider:"+d)}						
+					};</script>
+<style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1507911044799{margin-top: 30px !important;padding-top: 40px !important;padding-bottom: 40px !important;}.vc_custom_1510085414185{margin-top: 30px !important;}.vc_custom_1510085585824{margin-top: -45px !important;padding-top: 55px !important;padding-bottom: 40px !important;}.vc_custom_1507848257861{padding-top: 45px !important;padding-bottom: 45px !important;background-position: 0 0 !important;background-repeat: no-repeat !important;}.vc_custom_1507848151915{padding-top: 30px !important;}.vc_custom_1507848530129{margin-bottom: -30px !important;padding-top: 10px !important;padding-bottom: 50px !important;}.vc_custom_1507842328719{padding-top: 15px !important;padding-right: 15px !important;padding-bottom: 15px !important;padding-left: 15px !important;background-color: #ffffff !important;}.vc_custom_1507842367850{padding-top: 15px !important;padding-right: 15px !important;padding-bottom: 15px !important;padding-left: 15px !important;background-color: #ffffff !important;}.vc_custom_1507842378356{margin-top: 0px !important;margin-bottom: 0px !important;padding-top: 15px !important;padding-right: 15px !important;padding-bottom: 15px !important;padding-left: 15px !important;background-color: #ffffff !important;}.vc_custom_1507847413251{padding-top: 30px !important;padding-bottom: 40px !important;}.vc_custom_1507847060264{padding-top: 15px !important;padding-right: 15px !important;padding-bottom: 15px !important;padding-left: 15px !important;background-color: #ffffff !important;}.vc_custom_1507847156475{padding-top: 15px !important;padding-right: 15px !important;padding-bottom: 15px !important;padding-left: 15px !important;background-color: #ffffff !important;}.vc_custom_1508364370202{padding-top: 15px !important;padding-right: 15px !important;padding-bottom: 15px !important;padding-left: 15px !important;background-color: #ffffff !important;}.vc_custom_1508275890710{margin-top: -20px !important;}.vc_custom_1506205828493{margin-top: -20px !important;}.vc_custom_1506206806129{margin-top: -20px !important;}.vc_custom_1506034052802{padding-left: 80px !important;}.vc_custom_1513858172354{margin-top: 20px !important;}.vc_custom_1513858655937{margin-top: 15px !important;}.vc_custom_1507848291405{padding-top: 30px !important;padding-bottom: 30px !important;}</style><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112339923-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-112339923-1');
+</script>
+
+</head>
+<body class="home page-template-default page page-id-4123 cookies-not-set the7-core-ver-1.9.0.2 slideshow-on scale-on-hover large-hover-icons dt-responsive-on srcset-enabled btn-flat custom-btn-color custom-btn-hover-color bold-icons phantom-slide phantom-shadow-decoration phantom-custom-logo-on floating-mobile-menu-icon top-header first-switch-logo-left first-switch-menu-right second-switch-logo-left second-switch-menu-right right-mobile-menu layzr-loading-on popup-message-style dt-fa-compatibility the7-ver-6.6.3 adimecchild wpb-js-composer js-comp-ver-5.5.2 vc_responsive outlined-portfolio-icons album-minuatures-style-2">
+<!-- The7 6.6.3 -->
+<div id="load" class="hourglass-loader">
+	<div class="load-wrap"></div>
+</div>
+<div id="page">
+	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+<div class="masthead inline-header right widgets dividers shadow-decoration small-mobile-menu-icon mobile-menu-icon-bg-on dt-parent-menu-clickable show-device-logo show-mobile-logo" role="banner">
+
+			<div class="top-bar top-bar-line-hide">
+			<div class="top-bar-bg" ></div>
+			<div class="left-widgets mini-widgets"><div class="soc-ico show-on-desktop in-top-bar-left hide-on-second-switch custom-bg disabled-border border-off hover-accent-bg hover-disabled-border  hover-border-off"><a title="Facebook" href="https://www.facebook.com/AdimecAIS/" target="_blank" class="facebook"><span class="soc-font-icon"></span><span class="screen-reader-text">Facebook</span></a><a title="Google+" href="https://plus.google.com/113821956421112797129" target="_blank" class="google"><span class="soc-font-icon"></span><span class="screen-reader-text">Google+</span></a><a title="Linkedin" href="https://www.linkedin.com/company/54013/" target="_blank" class="linkedin"><span class="soc-font-icon"></span><span class="screen-reader-text">Linkedin</span></a><a title="Twitter" href="https://twitter.com/Adimec" target="_blank" class="twitter"><span class="soc-font-icon"></span><span class="screen-reader-text">Twitter</span></a><a title="YouTube" href="https://www.youtube.com/user/adimec1" target="_blank" class="you-tube"><span class="soc-font-icon"></span><span class="screen-reader-text">YouTube</span></a></div></div>			<div class="right-widgets mini-widgets"><div class="mini-nav show-on-desktop in-top-bar-right hide-on-second-switch list-type-menu select-type-menu-first-switch select-type-menu-second-switch"><ul id="top-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6756 first"><a href='https://www.adimec.com/ja/%e4%bc%9a%e7%a4%be%e6%a6%82%e8%a6%81/%e3%81%8a%e5%95%8f%e5%90%88%e3%81%9b-2/' data-level='1'><span class="menu-item-text"><span class="menu-text">お問合せ</span></span></a></li> <li class="menu-item wpml-ls-slot-293 wpml-ls-item wpml-ls-item-ja wpml-ls-current-language wpml-ls-menu-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-has-children menu-item-wpml-ls-293-ja has-children"><a href='https://www.adimec.com/ja/' title='日本語' data-level='1'><span class="menu-item-text"><span class="menu-text"><img class="wpml-ls-flag" src="https://www.adimec.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ja.png" alt="ja" title="日本語"><span class="wpml-ls-native">日本語</span></span></span></a><ul class="sub-nav level-arrows-on"><li class="menu-item wpml-ls-slot-293 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-293-en first"><a href='https://www.adimec.com' title='English' data-level='2'><span class="menu-item-text"><span class="menu-text"><img class="wpml-ls-flag" src="https://www.adimec.com/wp-content/uploads/flags/phpkwSrCW" alt="en" title="English"><span class="wpml-ls-native">English</span></span></span></a></li> <li class="menu-item wpml-ls-slot-293 wpml-ls-item wpml-ls-item-zh-hans wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-293-zh-hans"><a href='https://www.adimec.com/zh-hans/' title='简体中文' data-level='2'><span class="menu-item-text"><span class="menu-text"><img class="wpml-ls-flag" src="https://www.adimec.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/zh-hans.png" alt="zh-hans" title="简体中文"><span class="wpml-ls-native">简体中文</span></span></span></a></li> </ul></li> </ul><div class="menu-select"><span class="customSelect1"><span class="customSelectInner">Top menu right side jp</span></span></div></div></div>		</div>
+
+	<header class="header-bar">
+
+						<div class="branding">
+					<div id="site-title" class="assistive-text">Adimec</div>
+					<div id="site-description" class="assistive-text">Reliable Industrial Cameras</div>
+					<a href="https://www.adimec.com/ja/"><img class=" preload-me" src="https://www.adimec.com/wp-content/uploads/2017/09/adimec_logo_tagline.png" srcset="https://www.adimec.com/wp-content/uploads/2017/09/adimec_logo_tagline.png 210w, https://www.adimec.com/wp-content/uploads/2017/09/adimec_logo_tagline2x.png 419w" width="210" height="74"   sizes="210px" alt="Adimec" /><img class="mobile-logo preload-me" src="https://www.adimec.com/wp-content/uploads/2017/10/adimec_logo_sticky.png" srcset="https://www.adimec.com/wp-content/uploads/2017/10/adimec_logo_sticky.png 126w, https://www.adimec.com/wp-content/uploads/2017/10/adimec_logo_sticky2X.png 252w" width="126" height="27"   sizes="126px" alt="Adimec" /></a>				</div>
+		<ul id="primary-menu" class="main-nav underline-decoration from-centre-line level-arrows-on" role="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4123 current_page_item menu-item-5088 act first"><a href='https://www.adimec.com/ja/' data-level='1'><span class="menu-item-text"><span class="menu-text">ホーム</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5112"><a href='https://www.adimec.com/ja/%e4%bc%9a%e7%a4%be%e6%a6%82%e8%a6%81/adimec%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/' data-level='1'><span class="menu-item-text"><span class="menu-text">Adimecについて</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5089"><a href='https://www.adimec.com/ja/cameras/' data-level='1'><span class="menu-item-text"><span class="menu-text">カメラ</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5113"><a href='https://www.adimec.com/ja/%e4%bc%9a%e7%a4%be%e6%a6%82%e8%a6%81/%e6%ad%b4%e5%8f%b2%e3%81%a8%e3%82%bf%e3%82%a4%e3%83%a0%e3%83%a9%e3%82%a4%e3%83%b3/' data-level='1'><span class="menu-item-text"><span class="menu-text">沿革とタイムライン</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5114"><a href='https://www.adimec.com/ja/%e4%bc%9a%e7%a4%be%e6%a6%82%e8%a6%81/why-adimec/' data-level='1'><span class="menu-item-text"><span class="menu-text">Why Adimec</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5115"><a href='https://www.adimec.com/ja/%e4%bc%9a%e7%a4%be%e6%a6%82%e8%a6%81/%e7%b5%8c%e9%a8%93%e3%81%a8%e5%b0%82%e9%96%80%e7%9f%a5%e8%ad%98/' data-level='1'><span class="menu-item-text"><span class="menu-text">経験と専門技術</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5011"><a href='https://www.adimec.com/ja/%e3%83%9e%e3%83%bc%e3%82%b1%e3%83%83%e3%83%88/' data-level='1'><span class="menu-item-text"><span class="menu-text">マーケット</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5097"><a href='https://www.adimec.com/ja/%e4%bc%9a%e7%a4%be%e6%a6%82%e8%a6%81/' data-level='1'><span class="menu-item-text"><span class="menu-text">会社</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5095 has-children"><a href='https://www.adimec.com/ja/%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9/' data-level='1'><span class="menu-item-text"><span class="menu-text">リソース</span></span></a><ul class="sub-nav level-arrows-on"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5096 first"><a href='https://www.adimec.com/ja/%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9/%e3%83%93%e3%83%87%e3%82%aa/' data-level='2'><span class="menu-item-text"><span class="menu-text">ビデオ</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5109 has-children"><a href='https://www.adimec.com/ja/%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9/%e3%83%86%e3%82%af%e3%83%8e%e3%83%ad%e3%82%b8%e3%83%bc/' data-level='2'><span class="menu-item-text"><span class="menu-text">テクノロジー</span></span></a><ul class="sub-nav level-arrows-on"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5111 first"><a href='https://www.adimec.com/ja/%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9/%e3%83%86%e3%82%af%e3%83%8e%e3%83%ad%e3%82%b8%e3%83%bc/coaxpress/' data-level='3'><span class="menu-item-text"><span class="menu-text">CoaXPress</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5099"><a href='https://www.adimec.com/ja/%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9/%e3%83%86%e3%82%af%e3%83%8e%e3%83%ad%e3%82%b8%e3%83%bc/true-accurate-imaging/' data-level='3'><span class="menu-item-text"><span class="menu-text">True accurate imaging</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5110"><a href='https://www.adimec.com/ja/%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9/%e3%83%86%e3%82%af%e3%83%8e%e3%83%ad%e3%82%b8%e3%83%bc/%e3%83%90%e3%83%83%e3%83%95%e3%82%a1%e3%83%bc%e3%83%89%e3%83%bb%e3%82%a4%e3%83%a1%e3%83%bc%e3%82%b8%e3%83%bb%e3%83%91%e3%82%a4%e3%83%97%e3%83%a9%e3%82%a4%e3%83%b3/' data-level='3'><span class="menu-item-text"><span class="menu-text">バッファード・イメージ・パイプライン</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5100"><a href='https://www.adimec.com/ja/%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9/%e3%83%86%e3%82%af%e3%83%8e%e3%83%ad%e3%82%b8%e3%83%bc/%e3%82%a2%e3%82%af%e3%83%86%e3%82%a3%e3%83%96%e3%83%bb%e3%82%bb%e3%83%b3%e3%82%b5%e3%83%bb%e3%82%b3%e3%83%b3%e3%83%88%e3%83%ad%e3%83%bc%e3%83%ab/' data-level='3'><span class="menu-item-text"><span class="menu-text">アクティブ・センサ・コントロール</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5101"><a href='https://www.adimec.com/ja/%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9/%e3%83%86%e3%82%af%e3%83%8e%e3%83%ad%e3%82%b8%e3%83%bc/%e3%83%8f%e3%82%a4%e3%83%91%e3%83%bc%e3%82%b9%e3%83%9a%e3%82%af%e3%83%88%e3%83%ab%e3%83%bb%e3%82%a4%e3%83%a1%e3%83%bc%e3%82%b8%e3%83%b3%e3%82%b0/' data-level='3'><span class="menu-item-text"><span class="menu-text">ハイパースペクトル・イメージング</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5102"><a href='https://www.adimec.com/ja/%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9/%e3%83%86%e3%82%af%e3%83%8e%e3%83%ad%e3%82%b8%e3%83%bc/%e3%83%9b%e3%83%af%e3%82%a4%e3%83%88%e3%83%bb%e3%83%a9%e3%82%a4%e3%83%88%e3%83%bb%e3%83%a1%e3%83%88%e3%83%ad%e3%83%ad%e3%82%b8%e3%83%bc/' data-level='3'><span class="menu-item-text"><span class="menu-text">白色光測定</span></span></a></li> </ul></li> </ul></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5091 has-children"><a href='https://www.adimec.com/ja/%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%b9%e3%81%a8%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88/' data-level='1'><span class="menu-item-text"><span class="menu-text">ニュースとイベント</span></span></a><ul class="sub-nav level-arrows-on"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5092 first"><a href='https://www.adimec.com/ja/%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%b9%e3%81%a8%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88/%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%b9/' data-level='2'><span class="menu-item-text"><span class="menu-text">ニュース</span></span></a></li> </ul></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5776"><a data-level='1'><span class="menu-item-text"><span class="menu-text">#0 (タイトルなし)</span></span></a></li> <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4984"><a href='https://support.adimec.com/support/login' data-level='1'><span class="menu-item-text"><span class="menu-text">サポート</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5010"><a href='https://www.adimec.com/ja/%e3%83%96%e3%83%ad%e3%82%b0/adimec%e3%81%ae%e3%83%96%e3%83%ad%e3%82%b0%e8%8b%b1%e8%aa%9e/' data-level='1'><span class="menu-item-text"><span class="menu-text">Adimecのブログ英語</span></span></a></li> </ul>
+		<div class="mini-widgets"><div class="mini-search show-on-desktop near-logo-first-switch near-logo-second-switch">	<form class="searchform" role="search" method="get" action="https://www.adimec.com/ja/">
+
+	<label for="search" class="screen-reader-text">Search:</label>
+		<input type="text" class="field searchform-s" name="s" value="" placeholder="Type and hit enter &hellip;" />
+		<input type="hidden" name="lang" value="ja"/>		<input type="submit" class="assistive-text searchsubmit" value="Go!" />
+		<a href="#go" id="trigger-overlay" class="submit text-disable">&nbsp;</a>
+	</form></div></div>
+	</header>
+
+</div><div class='dt-close-mobile-menu-icon'><span></span></div>
+<div class='dt-mobile-header'>
+	<ul id="mobile-menu" class="mobile-main-nav" role="menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4123 current_page_item menu-item-5088 act first"><a href='https://www.adimec.com/ja/' data-level='1'><span class="menu-item-text"><span class="menu-text">ホーム</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5112"><a href='https://www.adimec.com/ja/%e4%bc%9a%e7%a4%be%e6%a6%82%e8%a6%81/adimec%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/' data-level='1'><span class="menu-item-text"><span class="menu-text">Adimecについて</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5089"><a href='https://www.adimec.com/ja/cameras/' data-level='1'><span class="menu-item-text"><span class="menu-text">カメラ</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5113"><a href='https://www.adimec.com/ja/%e4%bc%9a%e7%a4%be%e6%a6%82%e8%a6%81/%e6%ad%b4%e5%8f%b2%e3%81%a8%e3%82%bf%e3%82%a4%e3%83%a0%e3%83%a9%e3%82%a4%e3%83%b3/' data-level='1'><span class="menu-item-text"><span class="menu-text">沿革とタイムライン</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5114"><a href='https://www.adimec.com/ja/%e4%bc%9a%e7%a4%be%e6%a6%82%e8%a6%81/why-adimec/' data-level='1'><span class="menu-item-text"><span class="menu-text">Why Adimec</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5115"><a href='https://www.adimec.com/ja/%e4%bc%9a%e7%a4%be%e6%a6%82%e8%a6%81/%e7%b5%8c%e9%a8%93%e3%81%a8%e5%b0%82%e9%96%80%e7%9f%a5%e8%ad%98/' data-level='1'><span class="menu-item-text"><span class="menu-text">経験と専門技術</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5011"><a href='https://www.adimec.com/ja/%e3%83%9e%e3%83%bc%e3%82%b1%e3%83%83%e3%83%88/' data-level='1'><span class="menu-item-text"><span class="menu-text">マーケット</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5097"><a href='https://www.adimec.com/ja/%e4%bc%9a%e7%a4%be%e6%a6%82%e8%a6%81/' data-level='1'><span class="menu-item-text"><span class="menu-text">会社</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5095 has-children"><a href='https://www.adimec.com/ja/%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9/' data-level='1'><span class="menu-item-text"><span class="menu-text">リソース</span></span></a><ul class="sub-nav level-arrows-on"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5096 first"><a href='https://www.adimec.com/ja/%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9/%e3%83%93%e3%83%87%e3%82%aa/' data-level='2'><span class="menu-item-text"><span class="menu-text">ビデオ</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5109 has-children"><a href='https://www.adimec.com/ja/%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9/%e3%83%86%e3%82%af%e3%83%8e%e3%83%ad%e3%82%b8%e3%83%bc/' data-level='2'><span class="menu-item-text"><span class="menu-text">テクノロジー</span></span></a><ul class="sub-nav level-arrows-on"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5111 first"><a href='https://www.adimec.com/ja/%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9/%e3%83%86%e3%82%af%e3%83%8e%e3%83%ad%e3%82%b8%e3%83%bc/coaxpress/' data-level='3'><span class="menu-item-text"><span class="menu-text">CoaXPress</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5099"><a href='https://www.adimec.com/ja/%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9/%e3%83%86%e3%82%af%e3%83%8e%e3%83%ad%e3%82%b8%e3%83%bc/true-accurate-imaging/' data-level='3'><span class="menu-item-text"><span class="menu-text">True accurate imaging</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5110"><a href='https://www.adimec.com/ja/%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9/%e3%83%86%e3%82%af%e3%83%8e%e3%83%ad%e3%82%b8%e3%83%bc/%e3%83%90%e3%83%83%e3%83%95%e3%82%a1%e3%83%bc%e3%83%89%e3%83%bb%e3%82%a4%e3%83%a1%e3%83%bc%e3%82%b8%e3%83%bb%e3%83%91%e3%82%a4%e3%83%97%e3%83%a9%e3%82%a4%e3%83%b3/' data-level='3'><span class="menu-item-text"><span class="menu-text">バッファード・イメージ・パイプライン</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5100"><a href='https://www.adimec.com/ja/%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9/%e3%83%86%e3%82%af%e3%83%8e%e3%83%ad%e3%82%b8%e3%83%bc/%e3%82%a2%e3%82%af%e3%83%86%e3%82%a3%e3%83%96%e3%83%bb%e3%82%bb%e3%83%b3%e3%82%b5%e3%83%bb%e3%82%b3%e3%83%b3%e3%83%88%e3%83%ad%e3%83%bc%e3%83%ab/' data-level='3'><span class="menu-item-text"><span class="menu-text">アクティブ・センサ・コントロール</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5101"><a href='https://www.adimec.com/ja/%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9/%e3%83%86%e3%82%af%e3%83%8e%e3%83%ad%e3%82%b8%e3%83%bc/%e3%83%8f%e3%82%a4%e3%83%91%e3%83%bc%e3%82%b9%e3%83%9a%e3%82%af%e3%83%88%e3%83%ab%e3%83%bb%e3%82%a4%e3%83%a1%e3%83%bc%e3%82%b8%e3%83%b3%e3%82%b0/' data-level='3'><span class="menu-item-text"><span class="menu-text">ハイパースペクトル・イメージング</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5102"><a href='https://www.adimec.com/ja/%e3%83%aa%e3%82%bd%e3%83%bc%e3%82%b9/%e3%83%86%e3%82%af%e3%83%8e%e3%83%ad%e3%82%b8%e3%83%bc/%e3%83%9b%e3%83%af%e3%82%a4%e3%83%88%e3%83%bb%e3%83%a9%e3%82%a4%e3%83%88%e3%83%bb%e3%83%a1%e3%83%88%e3%83%ad%e3%83%ad%e3%82%b8%e3%83%bc/' data-level='3'><span class="menu-item-text"><span class="menu-text">白色光測定</span></span></a></li> </ul></li> </ul></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5091 has-children"><a href='https://www.adimec.com/ja/%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%b9%e3%81%a8%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88/' data-level='1'><span class="menu-item-text"><span class="menu-text">ニュースとイベント</span></span></a><ul class="sub-nav level-arrows-on"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5092 first"><a href='https://www.adimec.com/ja/%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%b9%e3%81%a8%e3%82%a4%e3%83%99%e3%83%b3%e3%83%88/%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%b9/' data-level='2'><span class="menu-item-text"><span class="menu-text">ニュース</span></span></a></li> </ul></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5776"><a data-level='1'><span class="menu-item-text"><span class="menu-text">#0 (タイトルなし)</span></span></a></li> <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4984"><a href='https://support.adimec.com/support/login' data-level='1'><span class="menu-item-text"><span class="menu-text">サポート</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5010"><a href='https://www.adimec.com/ja/%e3%83%96%e3%83%ad%e3%82%b0/adimec%e3%81%ae%e3%83%96%e3%83%ad%e3%82%b0%e8%8b%b1%e8%aa%9e/' data-level='1'><span class="menu-item-text"><span class="menu-text">Adimecのブログ英語</span></span></a></li> 	</ul>
+	<div class='mobile-mini-widgets-in-menu'></div>
+</div>
+<div id="main-slideshow"><link href="https://fonts.googleapis.com/css?family=Noto+Sans:700%2C400" rel="stylesheet" property="stylesheet" type="text/css" media="all">
+<div id="rev_slider_7_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" data-source="gallery" style="margin:0px auto;background:#bbbfc3;padding:0px;margin-top:0px;margin-bottom:0px;">
+<!-- START REVOLUTION SLIDER 5.4.7.4 auto mode -->
+	<div id="rev_slider_7_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.7.4">
+<ul>	<!-- SLIDE  -->
+	<li data-index="rs-23" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-thumb="https://tiecas-staging.com/2017160/wp-content/uploads/2017/10/adimec_slide1norite10122017.jpg"  data-rotate="0"  data-fstransition="notransition" data-fsmasterspeed="100" data-fsslotamount="1" data-saveperformance="off"  data-title="Machine Vision" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://www.adimec.com/wp-content/plugins/revslider/admin/assets/images/transparent.png"  alt="Adimec NORITE Series Cameras" title="Adimec NORITE Series Cameras"  width="2000" height="550" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+		<div id="rrzm_23" class="rev_row_zone rev_row_zone_middle" style="z-index: 7;">
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption  " 
+			 id="slide-23-layer-35" 
+			 data-x="" 
+			 data-y="center" data-voffset="-135" 
+						data-width="['auto']"
+			data-height="['auto']"
+ 
+			data-type="row" 
+			data-columnbreak="3" 
+			data-responsive_offset="on" 
+			data-responsive="off"
+			data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+			data-margintop="[0,0,0,0]"
+			data-marginright="[0,0,0,0]"
+			data-marginbottom="[0,0,0,0]"
+			data-marginleft="[0,0,0,0]"
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 7; white-space: normal; font-size: 20px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;">
+		<!-- LAYER NR. 2 -->
+		<div class="tp-caption  " 
+			 id="slide-23-layer-36" 
+			 data-x="" 
+			 data-y="" 
+						data-width="['auto','auto']"
+			data-height="['auto','auto']"
+ 
+			data-type="column" 
+			data-responsive_offset="on" 
+			data-responsive="off"
+			data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+ data-columnwidth="100%"
+ data-verticalalign="top"
+			data-margintop="[0,0,0,0]"
+			data-marginright="[0,0,0,0]"
+			data-marginbottom="[0,0,0,0]"
+			data-marginleft="[0,0,0,0]"
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 8; width: 100%;">
+		<!-- LAYER NR. 3 -->
+		<div class="tp-caption dreamtheme-beauty-studio-title  " 
+			 id="slide-23-layer-1" 
+			 data-x="" 
+			 data-y="" 
+						data-width="['536','500','364','550']"
+			data-height="['81','auto','133','auto']"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":"+990","speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":450,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+			data-margintop="[0,0,0,0]"
+			data-marginright="[0,0,0,0]"
+			data-marginbottom="[20,20,20,20]"
+			data-marginleft="[135,135,135,135]"
+			data-textAlign="['left','left','left','left']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 9; min-width: 536px; max-width: 536px; max-width: 81px; max-width: 81px; white-space: normal; font-size: 60px; font-weight: 700; letter-spacing: px; display: block;font-family:Noto Sans;background-color:rgba(0,0,0,0);">S-50A30 camera </div>
+
+		<!-- LAYER NR. 4 -->
+		<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" 
+			 id="slide-23-layer-33" 
+			 data-x="" 
+			 data-y="" 
+						data-width="['460','500','500']"
+			data-height="['6','6','6']"
+ 
+			data-type="shape" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":"+990","speed":1500,"frame":"0","from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":550,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+			data-margintop="[0,0,0,0]"
+			data-marginright="[0,0,0,0]"
+			data-marginbottom="[20,20,20,20]"
+			data-marginleft="[135,135,135,135]"
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 10; display: block;background-color:rgb(255,255,255);"> </div>
+
+		<!-- LAYER NR. 5 -->
+		<div class="tp-caption dreamtheme-beauty-studio-subtitle   tp-resizeme" 
+			 id="slide-23-layer-9" 
+			 data-x="" 
+			 data-y="" 
+						data-width="['449','500','364','500']"
+			data-height="['auto','auto','133','auto']"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":"+990","speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":550,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+			data-margintop="[0,0,0,0]"
+			data-marginright="[0,0,0,0]"
+			data-marginbottom="[20,20,20,20]"
+			data-marginleft="[135,135,135,135]"
+			data-textAlign="['left','left','left','left']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 11; min-width: 449px; max-width: 449px; white-space: normal; line-height: 30px; letter-spacing: px; display: block;font-family:Noto Sans;">
+50 MEGAPIXEL 30 FPS COAXPRESS </div>
+
+		<!-- LAYER NR. 6 -->
+		<a class="tp-caption rev-btn " 
+ href="https://www.adimec.com/cameras/machine-vision-cameras/s-50a30-coaxpress-50-megapixel-30-fps-coaxpress/" target="_self"			 id="slide-23-layer-18" 
+			 data-x="" 
+			 data-y="" 
+						data-width="['140','140']"
+			data-height="['auto','auto']"
+ 
+			data-type="button" 
+			data-actions=''
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":"+990","speed":1500,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":550,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"200","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(0,0,0);bg:rgb(226,226,226);"}]'
+			data-margintop="[0,0,0,0]"
+			data-marginright="[0,0,0,0]"
+			data-marginbottom="[0,0,0,0]"
+			data-marginleft="[135,135,135,135]"
+			data-textAlign="['center','center','center','center']"
+			data-paddingtop="[10,10,10,10]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[10,10,10,10]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 12; min-width: 140px; max-width: 140px; white-space: normal; font-size: 16px; line-height: 18px; font-weight: 700; color: #ffffff; letter-spacing: px; display: block;font-family:Noto Sans;background-color:rgba(73,213,252,0);border-color:rgb(255,255,255);border-style:solid;border-width:2px 2px 2px 2px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">VIEW DETAILS </a>
+				</div>
+			</div>
+		</div>
+
+		<!-- LAYER NR. 7 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-23-layer-60" 
+			 data-x="-400" 
+			 data-y="" 
+						data-width="['none','none','none','none']"
+			data-height="['none','none','none','none']"
+ 
+			data-type="image" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":10,"speed":1000,"frame":"0","from":"x:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 5;"><img src="https://www.adimec.com/wp-content/uploads/2018/02/S25CXP-slider.png" alt="" data-ww="2000px" data-hh="550px" width="2000" height="550" data-no-retina> </div>
+
+		<!-- LAYER NR. 8 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-23-layer-56" 
+			 data-x="" 
+			 data-y="" 
+						data-width="['none','none','none','none']"
+			data-height="['none','none','none','none']"
+ 
+			data-type="image" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 6;"><img src="https://www.adimec.com/wp-content/uploads/2017/09/MV_red_box.png" alt="Machine Vision" data-ww="710px" data-hh="550px" width="710" height="550" data-no-retina> </div>
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-28" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-thumb="https://tiecas-staging.com/2017160/wp-content/uploads/2017/09/adimec_slide2.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Healthcare" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://www.adimec.com/wp-content/plugins/revslider/admin/assets/images/transparent.png"  alt="" title="ホーム"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+		<div id="rrzm_28" class="rev_row_zone rev_row_zone_middle" style="z-index: 7;">
+
+		<!-- LAYER NR. 9 -->
+		<div class="tp-caption  " 
+			 id="slide-28-layer-35" 
+			 data-x="100" 
+			 data-y="center" data-voffset="" 
+						data-width="['auto']"
+			data-height="['auto']"
+ 
+			data-type="row" 
+			data-columnbreak="3" 
+			data-responsive_offset="on" 
+			data-responsive="off"
+			data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+			data-margintop="[0,0,0,0]"
+			data-marginright="[0,0,0,0]"
+			data-marginbottom="[0,0,0,0]"
+			data-marginleft="[0,0,0,0]"
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 7; white-space: normal; font-size: 20px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;">
+		<!-- LAYER NR. 10 -->
+		<div class="tp-caption  " 
+			 id="slide-28-layer-36" 
+			 data-x="" 
+			 data-y="" 
+						data-width="['auto','auto']"
+			data-height="['auto','auto']"
+ 
+			data-type="column" 
+			data-responsive_offset="on" 
+			data-responsive="off"
+			data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+ data-columnwidth="100%"
+ data-verticalalign="top"
+			data-margintop="[0,0,0,0]"
+			data-marginright="[0,0,0,0]"
+			data-marginbottom="[0,0,0,0]"
+			data-marginleft="[0,0,0,0]"
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 8; width: 100%;">
+		<!-- LAYER NR. 11 -->
+		<div class="tp-caption dreamtheme-beauty-studio-title  " 
+			 id="slide-28-layer-1" 
+			 data-x="" 
+			 data-y="" 
+						data-width="['550','500','364','550']"
+			data-height="['auto','auto','133','auto']"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":"+990","speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":450,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+			data-margintop="[0,0,0,0]"
+			data-marginright="[0,0,0,0]"
+			data-marginbottom="[20,20,20,20]"
+			data-marginleft="[145,145,145,145]"
+			data-textAlign="['left','left','left','left']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 9; min-width: 550px; max-width: 550px; white-space: normal; font-size: 65px; font-weight: 700; letter-spacing: px; display: block;font-family:Noto Sans;background-color:rgba(0,0,0,0);">RUBY CLA </div>
+
+		<!-- LAYER NR. 12 -->
+		<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" 
+			 id="slide-28-layer-33" 
+			 data-x="" 
+			 data-y="" 
+						data-width="['460','500','500']"
+			data-height="['6','6','6']"
+ 
+			data-type="shape" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":"+990","speed":1500,"frame":"0","from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":550,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+			data-margintop="[0,0,0,0]"
+			data-marginright="[0,0,0,0]"
+			data-marginbottom="[20,20,20,20]"
+			data-marginleft="[145,145,145,145]"
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 10; display: block;background-color:rgb(255,255,255);"> </div>
+
+		<!-- LAYER NR. 13 -->
+		<div class="tp-caption dreamtheme-beauty-studio-subtitle   tp-resizeme" 
+			 id="slide-28-layer-9" 
+			 data-x="" 
+			 data-y="" 
+						data-width="['449','500','364','500']"
+			data-height="['auto','auto','133','auto']"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":"+990","speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":550,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+			data-margintop="[0,0,0,0]"
+			data-marginright="[0,0,0,0]"
+			data-marginbottom="[20,20,20,20]"
+			data-marginleft="[145,145,145,145]"
+			data-textAlign="['left','left','left','left']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 11; min-width: 449px; max-width: 449px; white-space: normal; line-height: 30px; letter-spacing: px; display: block;font-family:Noto Sans;">1k2 imaging with breakthrough cost-effectiveness for fluoroscopy mobile C-arms. </div>
+
+		<!-- LAYER NR. 14 -->
+		<a class="tp-caption rev-btn " 
+ href="https://www.adimec.com/cameras/healthcare-cameras/" target="_self"			 id="slide-28-layer-18" 
+			 data-x="" 
+			 data-y="" 
+						data-width="['140','140']"
+			data-height="['auto','auto']"
+ 
+			data-type="button" 
+			data-actions=''
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":"+990","speed":1500,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":550,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"200","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(0,0,0);bg:rgb(226,226,226);"}]'
+			data-margintop="[0,0,0,0]"
+			data-marginright="[0,0,0,0]"
+			data-marginbottom="[0,0,0,0]"
+			data-marginleft="[145,145,145,145]"
+			data-textAlign="['center','center','center','center']"
+			data-paddingtop="[10,10,10,10]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[10,10,10,10]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 12; min-width: 140px; max-width: 140px; white-space: normal; font-size: 16px; line-height: 18px; font-weight: 700; color: #ffffff; letter-spacing: px; display: block;font-family:Noto Sans;background-color:rgba(73,213,252,0);border-color:rgb(255,255,255);border-style:solid;border-width:2px 2px 2px 2px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">VIEW DETAILS </a>
+				</div>
+			</div>
+		</div>
+
+		<!-- LAYER NR. 15 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-28-layer-54" 
+			 data-x="-400" 
+			 data-y="" 
+						data-width="['none','none','none','none']"
+			data-height="['none','none','none','none']"
+ 
+			data-type="image" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":10,"speed":1000,"frame":"0","from":"x:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 5;"><img src="https://www.adimec.com/wp-content/uploads/2017/10/adimec_slide210122017.jpg" alt="RUBY CLA from Adimec" data-ww="2000px" data-hh="550px" width="2000" height="550" data-no-retina> </div>
+
+		<!-- LAYER NR. 16 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-28-layer-49" 
+			 data-x="" 
+			 data-y="" 
+						data-width="['none','none','none','none']"
+			data-height="['none','none','none','none']"
+ 
+			data-type="image" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":1000,"speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 6;"><img src="https://www.adimec.com/wp-content/uploads/2017/09/HC_red_box.png" alt="Healthcare Cameras" data-ww="710px" data-hh="550px" width="710" height="550" data-no-retina> </div>
+	</li>
+	<!-- SLIDE  -->
+	<li data-index="rs-29" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-thumb="https://tiecas-staging.com/2017160/wp-content/uploads/2017/10/adimec_slide310122017.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Global Security" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+		<!-- MAIN IMAGE -->
+		<img src="https://www.adimec.com/wp-content/plugins/revslider/admin/assets/images/transparent.png"  alt="" title="ホーム"  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+		<!-- LAYERS -->
+		<div id="rrzm_29" class="rev_row_zone rev_row_zone_middle" style="z-index: 7;">
+
+		<!-- LAYER NR. 17 -->
+		<div class="tp-caption  " 
+			 id="slide-29-layer-35" 
+			 data-x="100" 
+			 data-y="center" data-voffset="" 
+						data-width="['auto']"
+			data-height="['auto']"
+ 
+			data-type="row" 
+			data-columnbreak="3" 
+			data-responsive_offset="on" 
+			data-responsive="off"
+			data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+			data-margintop="[0,0,0,0]"
+			data-marginright="[0,0,0,0]"
+			data-marginbottom="[0,0,0,0]"
+			data-marginleft="[0,0,0,0]"
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 7; white-space: normal; font-size: 20px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;">
+		<!-- LAYER NR. 18 -->
+		<div class="tp-caption  " 
+			 id="slide-29-layer-36" 
+			 data-x="" 
+			 data-y="" 
+						data-width="['auto','auto']"
+			data-height="['auto','auto']"
+ 
+			data-type="column" 
+			data-responsive_offset="on" 
+			data-responsive="off"
+			data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+ data-columnwidth="100%"
+ data-verticalalign="top"
+			data-margintop="[0,0,0,0]"
+			data-marginright="[0,0,0,0]"
+			data-marginbottom="[0,0,0,0]"
+			data-marginleft="[0,0,0,0]"
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 8; width: 100%;">
+		<!-- LAYER NR. 19 -->
+		<div class="tp-caption dreamtheme-beauty-studio-title  " 
+			 id="slide-29-layer-1" 
+			 data-x="" 
+			 data-y="" 
+						data-width="['550','500','364','550']"
+			data-height="['auto','auto','133','auto']"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":"+990","speed":1500,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":450,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+			data-margintop="[0,0,0,0]"
+			data-marginright="[0,0,0,0]"
+			data-marginbottom="[20,20,20,20]"
+			data-marginleft="[150,150,150,150]"
+			data-textAlign="['left','left','left','left']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 9; min-width: 550px; max-width: 550px; white-space: normal; font-size: 65px; font-weight: 700; letter-spacing: px; display: block;font-family:Noto Sans;background-color:rgba(0,0,0,0);">TMX series </div>
+
+		<!-- LAYER NR. 20 -->
+		<div class="tp-caption tp-shape tp-shapewrapper  tp-resizeme" 
+			 id="slide-29-layer-33" 
+			 data-x="" 
+			 data-y="" 
+						data-width="['460','500','500']"
+			data-height="['6','6','6']"
+ 
+			data-type="shape" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":"+990","speed":1500,"frame":"0","from":"x:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":550,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+			data-margintop="[0,0,0,0]"
+			data-marginright="[0,0,0,0]"
+			data-marginbottom="[20,20,20,20]"
+			data-marginleft="[150,150,150,150]"
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 10; display: block;background-color:rgb(255,255,255);"> </div>
+
+		<!-- LAYER NR. 21 -->
+		<div class="tp-caption dreamtheme-beauty-studio-subtitle   tp-resizeme" 
+			 id="slide-29-layer-9" 
+			 data-x="" 
+			 data-y="" 
+						data-width="['449','500','364','500']"
+			data-height="['auto','auto','133','auto']"
+ 
+			data-type="text" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":"+990","speed":1500,"frame":"0","from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":550,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+			data-margintop="[0,0,0,0]"
+			data-marginright="[0,0,0,0]"
+			data-marginbottom="[20,20,20,20]"
+			data-marginleft="[150,150,150,150]"
+			data-textAlign="['left','left','left','left']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 11; min-width: 449px; max-width: 449px; white-space: normal; line-height: 30px; letter-spacing: px; display: block;font-family:Noto Sans;">Rugged daylight camera for use in low light, small size, low weight and low power conditions. </div>
+
+		<!-- LAYER NR. 22 -->
+		<a class="tp-caption rev-btn " 
+ href="https://www.adimec.com/cameras/global-security-cameras/tmx-dhd-series/" target="_self"			 id="slide-29-layer-18" 
+			 data-x="" 
+			 data-y="" 
+						data-width="['140','140']"
+			data-height="['auto','auto']"
+ 
+			data-type="button" 
+			data-actions=''
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":"+990","speed":1500,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":550,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"200","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(0,0,0);bg:rgb(226,226,226);"}]'
+			data-margintop="[0,0,0,0]"
+			data-marginright="[0,0,0,0]"
+			data-marginbottom="[0,0,0,0]"
+			data-marginleft="[150,150,150,150]"
+			data-textAlign="['center','center','center','center']"
+			data-paddingtop="[10,10,10,10]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[10,10,10,10]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 12; min-width: 140px; max-width: 140px; white-space: normal; font-size: 16px; line-height: 18px; font-weight: 700; color: #ffffff; letter-spacing: px; display: block;font-family:Noto Sans;background-color:rgba(73,213,252,0);border-color:rgb(255,255,255);border-style:solid;border-width:2px 2px 2px 2px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">VIEW DETAILS </a>
+				</div>
+			</div>
+		</div>
+
+		<!-- LAYER NR. 23 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-29-layer-53" 
+			 data-x="-400" 
+			 data-y="" 
+						data-width="['none','none','none','none']"
+			data-height="['none','none','none','none']"
+ 
+			data-type="image" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":10,"speed":1000,"frame":"0","from":"x:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 5;"><img src="https://www.adimec.com/wp-content/uploads/2017/09/adimec_slide3.jpg" alt="Global Security Cameras from Adimec" data-ww="2000px" data-hh="550px" width="2000" height="550" data-no-retina> </div>
+
+		<!-- LAYER NR. 24 -->
+		<div class="tp-caption   tp-resizeme" 
+			 id="slide-29-layer-51" 
+			 data-x="" 
+			 data-y="" 
+						data-width="['none','none','none','none']"
+			data-height="['none','none','none','none']"
+ 
+			data-type="image" 
+			data-responsive_offset="on" 
+
+			data-frames='[{"delay":1000,"speed":1000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
+			data-textAlign="['inherit','inherit','inherit','inherit']"
+			data-paddingtop="[0,0,0,0]"
+			data-paddingright="[0,0,0,0]"
+			data-paddingbottom="[0,0,0,0]"
+			data-paddingleft="[0,0,0,0]"
+
+			style="z-index: 6;"><img src="https://www.adimec.com/wp-content/uploads/2017/09/GS_red_box.png" alt="Global Security" data-ww="710px" data-hh="550px" width="710" height="550" data-no-retina> </div>
+	</li>
+</ul>
+<script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss="";
+						if(htmlDiv) {
+							htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+						}else{
+							var htmlDiv = document.createElement("div");
+							htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+							document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+						}
+					</script>
+<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	</div>
+<script>var htmlDiv = document.getElementById("rs-plugin-settings-inline-css"); var htmlDivCss=".tp-caption.dreamtheme-beauty-studio-title,.dreamtheme-beauty-studio-title{color:#ffffff;font-size:80px;line-height:80px;font-weight:200;font-style:normal;font-family:Raleway;text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px}.tp-caption.dreamtheme-beauty-studio-subtitle,.dreamtheme-beauty-studio-subtitle{color:#ffffff;font-size:17px;line-height:28px;font-weight:400;font-style:normal;font-family:PT Sans;text-decoration:none;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0 0 0 0px}";
+				if(htmlDiv) {
+					htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+				}else{
+					var htmlDiv = document.createElement("div");
+					htmlDiv.innerHTML = "<style>" + htmlDivCss + "</style>";
+					document.getElementsByTagName("head")[0].appendChild(htmlDiv.childNodes[0]);
+				}
+			</script>
+		<script type="text/javascript">
+if (setREVStartSize!==undefined) setREVStartSize(
+	{c: '#rev_slider_7_1', gridwidth: [1300], gridheight: [550], sliderLayout: 'auto'});
+			
+var revapi7,
+	tpj;	
+(function() {			
+	if (!/loaded|interactive|complete/.test(document.readyState)) document.addEventListener("DOMContentLoaded",onLoad); else onLoad();	
+	function onLoad() {				
+		if (tpj===undefined) { tpj = jQuery; if("off" == "on") tpj.noConflict();}
+	if(tpj("#rev_slider_7_1").revolution == undefined){
+		revslider_showDoubleJqueryError("#rev_slider_7_1");
+	}else{
+		revapi7 = tpj("#rev_slider_7_1").show().revolution({
+			sliderType:"standard",
+			jsFileLocation:"//www.adimec.com/wp-content/plugins/revslider/public/assets/js/",
+			sliderLayout:"auto",
+			dottedOverlay:"none",
+			delay:7500,
+			navigation: {
+				keyboardNavigation:"off",
+				keyboard_direction: "horizontal",
+				mouseScrollNavigation:"off",
+ 							mouseScrollReverse:"default",
+				onHoverStop:"on",
+				touch:{
+					touchenabled:"on",
+					touchOnDesktop:"off",
+					swipe_threshold: 75,
+					swipe_min_touches: 1,
+					swipe_direction: "horizontal",
+					drag_block_vertical: false
+				}
+				,
+				arrows: {
+					style:"hephaistos",
+					enable:true,
+					hide_onmobile:false,
+					hide_onleave:true,
+					hide_delay:200,
+					hide_delay_mobile:1200,
+					tmp:'',
+					left: {
+						h_align:"left",
+						v_align:"center",
+						h_offset:20,
+						v_offset:0
+					},
+					right: {
+						h_align:"right",
+						v_align:"center",
+						h_offset:20,
+						v_offset:0
+					}
+				}
+			},
+			viewPort: {
+				enable:true,
+				outof:"pause",
+				visible_area:"50%",
+				presize:false
+			},
+			visibilityLevels:[1240,1024,778,480],
+			gridwidth:1300,
+			gridheight:550,
+			lazyType:"none",
+			shadow:0,
+			spinner:"spinner2",
+			stopLoop:"off",
+			stopAfterLoops:-1,
+			stopAtSlide:-1,
+			shuffle:"off",
+			autoHeight:"off",
+			disableProgressBar:"on",
+			hideThumbsOnMobile:"on",
+			hideSliderAtLimit:0,
+			hideCaptionAtLimit:0,
+			hideAllCaptionAtLilmit:0,
+			debugMode:false,
+			fallbacks: {
+				simplifyAll:"off",
+				nextSlideOnWindowFocus:"off",
+				disableFocusListener:false,
+			}
+		});
+	}; /* END OF revapi call */
+	
+ }; /* END OF ON LOAD FUNCTION */
+}()); /* END OF WRAPPING FUNCTION */
+</script>
+		<script>
+					var htmlDivCss = ' #rev_slider_7_1_wrapper .tp-loader.spinner2{ background-color: #ff4222 !important; } ';
+					var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+					if(htmlDiv) {
+						htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+					}
+					else{
+						var htmlDiv = document.createElement('div');
+						htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+						document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+					}
+					</script>
+					<script>
+					var htmlDivCss = unescape(".hephaistos.tparrows%20%7B%0A%09cursor%3Apointer%3B%0A%09background%3Argba%280%2C0%2C0%2C0.5%29%3B%0A%09width%3A40px%3B%0A%09height%3A40px%3B%0A%09position%3Aabsolute%3B%0A%09display%3Ablock%3B%0A%09z-index%3A100%3B%0A%20%20%20%20border-radius%3A50%25%3B%0A%7D%0A.hephaistos.tparrows%3Ahover%20%7B%0A%09background%3Argba%280%2C%200%2C%200%2C%201%29%3B%0A%7D%0A.hephaistos.tparrows%3Abefore%20%7B%0A%09font-family%3A%20%22revicons%22%3B%0A%09font-size%3A18px%3B%0A%09color%3Argb%28255%2C%20255%2C%20255%29%3B%0A%09display%3Ablock%3B%0A%09line-height%3A%2040px%3B%0A%09text-align%3A%20center%3B%0A%7D%0A.hephaistos.tparrows.tp-leftarrow%3Abefore%20%7B%0A%09content%3A%20%22%5Ce82c%22%3B%0A%20%20%20%20margin-left%3A-2px%3B%0A%20%20%0A%7D%0A.hephaistos.tparrows.tp-rightarrow%3Abefore%20%7B%0A%09content%3A%20%22%5Ce82d%22%3B%0A%20%20%20%20margin-right%3A-2px%3B%0A%7D%0A%0A%0A");
+					var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+					if(htmlDiv) {
+						htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+					}
+					else{
+						var htmlDiv = document.createElement('div');
+						htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+						document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+					}
+				  </script>
+				</div><!-- END REVOLUTION SLIDER --></div>
+
+<div id="main" class="sidebar-none sidebar-divider-vertical"  >
+
+	
+    <div class="main-gradient"></div>
+    <div class="wf-wrap">
+    <div class="wf-container-main">
+
+	
+
+
+    <div id="content" class="content" role="main">
+
+		<div id="hpIntro" class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div id="ultimate-heading-37695b4815662c6e1" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-37695b4815662c6e1 uvc-3339 hp_intro" data-hspacer="line_with_icon" data-hline_width="1000" data-hicon_type="custom" data-hborder_style="solid" data-hborder_height="1" data-hborder_color="#212830" data-icon_width="60" data-hfixer="10"  data-halign="center" style="text-align:center"><div class="uvc-main-heading ult-responsive"  data-ultimate-target='.uvc-heading.ultimate-heading-37695b4815662c6e1 h2'  data-responsive-json-new='{"font-size":"desktop:48px;","line-height":"desktop:52px;"}' ><h2 style="font-weight:normal;color:#212830;margin-bottom:15px;">パーフェクト・フィット</h2></div><div class="uvc-heading-spacer line_with_icon" style="margin-bottom:10px;"><div class="ult-just-icon-wrapper  "><div class="align-icon" style="text-align:center;">
+<div class="aio-icon-img " style="font-size:60px;display:inline-block;" >
+	<img class="img-icon" alt="industrial cameras" src="https://www.adimec.com/wp-content/uploads/2017/09/icon_photo_ballg2.png"/>
+</div></div></div></div><div class="uvc-sub-heading ult-responsive"  data-ultimate-target='.uvc-heading.ultimate-heading-37695b4815662c6e1 .uvc-sub-heading '  data-responsive-json-new='{"font-size":"","line-height":""}'  style="font-weight:bold;color:#ff4222;"></p>
+<h1>世界中のお客様からの厳しい要件のアプリケーションに対応するAdimecの信頼性の高い産業用カメラ</h1>
+<p></div></div></div></div></div></div><div id="marketSegments" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1507911044799 vc_column-gap-30 vc_row-o-equal-height vc_row-o-content-top vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill" id="mv"><div class="vc_column-inner vc_custom_1507842328719"><div class="wpb_wrapper"><div class="shortcode-single-image-wrap alignnone " style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; width:500px;"><div class="shortcode-single-image"><div class="fancy-media-wrap" style=""><a href="https://www.adimec.com/cameras/machine-vision-cameras/" class="layzr-bg rollover" style=""><img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20450%20299&#39;%2F%3E" data-src="https://www.adimec.com/wp-content/uploads/2017/09/wafer-fabrication-area-450x299.jpg" data-srcset="https://www.adimec.com/wp-content/uploads/2017/09/wafer-fabrication-area-450x299.jpg 450w" width="450" height="299"  data-dt-location="https://www.adimec.com/ja/home-2/wafer-fabrication-area/" alt="wafer fabrication area" /></a></div></div></div><div class="vc_empty_space"   style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
+
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h3 style="text-align: center;">マシンビジョンカメラ</h3>
+<p style="text-align: center;"><strong>お客様の装置の生産性を向上させる産業用カメラ</strong></p>
+<p>要件の厳しいアプリケーション：</p>
+<p><strong>ウエハ製造</strong> &#8211; クラス１のクリーンルーム内でのウエハ上のIC生産時の欠陥検査・計測</p>
+<p>主なシステム：</p>
+<ul>
+<li><a href="https://www.adimec.com/ja/%e3%83%9e%e3%83%bc%e3%82%b1%e3%83%83%e3%83%88/%e5%8d%8a%e5%b0%8e%e4%bd%93%e5%89%8d%e5%b7%a5%e7%a8%8b/">半導体前工程</a></li>
+<li><a href="https://www.adimec.com/ja/マーケット/半導体後工程/">半導体後工程</a></li>
+<li><a href="https://www.adimec.com/ja/マーケット/プリント基板製造/">プリント基板製造</a></li>
+</ul>
+
+		</div>
+	</div>
+<div class="vc_empty_space"   style="height: 30px" ><span class="vc_empty_space_inner"></span></div>
+<div class="btn-align-center"><a href="https://www.adimec.com/ja/cameras/machine-vision-cameras/" class="default-btn-shortcode dt-btn dt-btn-m ico-right-side " id="default-btn-048d34064059b8ba56c165b48a75350e" title="Explore Cameras"><span>カメラを探す</span><i class="fa fa-chevron-circle-right"></i></a></div><div class="vc_empty_space"   style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill" id="hc"><div class="vc_column-inner vc_custom_1507842367850"><div class="wpb_wrapper"><div class="shortcode-single-image-wrap alignnone " style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; width:500px;"><div class="shortcode-single-image"><div class="fancy-media-wrap" style=""><a href="https://www.adimec.com/cameras/healthcare-cameras/" class="layzr-bg rollover" style=""><img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20450%20299&#39;%2F%3E" data-src="https://www.adimec.com/wp-content/uploads/2017/09/x_ray-c-arm-450x299.jpg" data-srcset="https://www.adimec.com/wp-content/uploads/2017/09/x_ray-c-arm-450x299.jpg 450w" width="450" height="299"  data-dt-location="https://www.adimec.com/ja/home-2/x_ray-c-arm/" alt="X-Ray C-Arm" /></a></div></div></div><div class="vc_empty_space"   style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
+
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h3 style="text-align: center;">ヘルスケアカメラ</h3>
+<p style="text-align: center;"><strong>ヘルスケアに寄与する医療診断装置向けカメラ</strong></p>
+<p>要件の厳しいアプリケーション：</p>
+<p><strong>モバイルC-アーム</strong>　－　処置室で肥満成人の手術中に使用されるX線撮影</p>
+<p>主なシステム：</p>
+<ul>
+<li><a href="https://www.adimec.com/ja/%e3%83%9e%e3%83%bc%e3%82%b1%e3%83%83%e3%83%88/x%e7%b7%9a%e5%8c%bb%e7%94%a8%e3%82%a4%e3%83%a1%e3%83%bc%e3%82%b8%e3%83%b3%e3%82%b0/">X線メディカルイメージング</a></li>
+<li><a href="https://www.adimec.com/ja/%e3%83%9e%e3%83%bc%e3%82%b1%e3%83%83%e3%83%88/%e3%83%a9%e3%82%a4%e3%83%95%e3%82%b5%e3%82%a4%e3%82%a8%e3%83%b3%e3%82%b9%e3%82%a4%e3%83%a1%e3%83%bc%e3%82%b8%e3%83%b3%e3%82%b0/">ライフサイエンスイメージング</a></li>
+</ul>
+
+		</div>
+	</div>
+<div class="vc_empty_space"   style="height: 30px" ><span class="vc_empty_space_inner"></span></div>
+<div class="btn-align-center"><a href="https://www.adimec.com/ja/cameras/%e3%83%98%e3%83%ab%e3%82%b9%e3%82%b1%e3%82%a2%e3%82%ab%e3%83%a1%e3%83%a9/" class="default-btn-shortcode dt-btn dt-btn-m ico-right-side " id="default-btn-0449a0a1e6202aaeb443d4e7dfa1dc98" title="Explore Cameras"><span>カメラを探す</span><i class="fa fa-chevron-circle-right"></i></a></div><div class="vc_empty_space"   style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill" id="gs"><div class="vc_column-inner vc_custom_1507842378356"><div class="wpb_wrapper"><div class="shortcode-single-image-wrap alignnone " style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; width:500px;"><div class="shortcode-single-image"><div class="fancy-media-wrap" style=""><a href="https://www.adimec.com/cameras/global-security-cameras/" class="layzr-bg rollover" style=""><img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20450%20299&#39;%2F%3E" data-src="https://www.adimec.com/wp-content/uploads/2017/09/unmanned-aerial-vehicels3-450x299.jpg" data-srcset="https://www.adimec.com/wp-content/uploads/2017/09/unmanned-aerial-vehicels3-450x299.jpg 450w" width="450" height="299"  data-dt-location="https://www.adimec.com/ja/home-2/unmanned-aerial-vehicels3/" alt="unmanned aerial vehicels" /></a></div></div></div><div class="vc_empty_space"   style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
+
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h3 style="text-align: center;">グローバルセキュリティカメラ</h3>
+<p style="text-align: center;"><strong>安全性を高める堅牢なアウトドアカメラ</strong></p>
+<p>要件の厳しいアプリケーション：</p>
+<p><strong>無人航空機（UAV)向けノーズマウント監視・ターゲッティングシステム</strong>　－　治安状況における作動中の状況認識</p>
+<p>主なシステム：</p>
+<ul>
+<li><a href="https://www.adimec.com/ja/%e3%83%9e%e3%83%bc%e3%82%b1%e3%83%83%e3%83%88/%e3%82%a8%e3%82%a2%e3%83%9c%e3%83%bc%e3%83%b3%e3%83%bb%e3%83%9a%e3%82%a4%e3%83%ad%e3%83%bc%e3%83%89/">エアボーンペイロード</a></li>
+<li><a href="https://www.adimec.com/ja/%e3%83%9e%e3%83%bc%e3%82%b1%e3%83%83%e3%83%88/%e9%95%b7%e8%b7%9d%e9%9b%a2%e7%9b%a3%e8%a6%96%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0/">遠距離監視</a></li>
+</ul>
+
+		</div>
+	</div>
+<div class="vc_empty_space"   style="height: 30px" ><span class="vc_empty_space_inner"></span></div>
+<div class="btn-align-center"><a href="https://www.adimec.com/ja/cameras/global-security-cameras/" class="default-btn-shortcode dt-btn dt-btn-m ico-right-side " id="default-btn-c1adcfe0d0c2ac7b5447808a60008dc8" title="Explore Cameras"><span>カメラを探す</span><i class="fa fa-chevron-circle-right"></i></a></div><div class="vc_empty_space"   style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
+</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><!-- Row Backgrounds --><div class="upb_color" data-bg-override="0" data-bg-color="#f5f5f5" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false"  data-custom-vc-row=""  data-vc="5.5.2"  data-is_old_vc=""  data-theme-support=""   data-overlay="false" data-overlay-color="" data-overlay-pattern="" data-overlay-pattern-opacity="" data-overlay-pattern-size=""    ></div><div id="featured cameras headline" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1510085414185 vc_column-gap-30 vc_row-o-equal-height vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div id="ultimate-heading-9165b4815662e927" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-9165b4815662e927 uvc-3242 " data-hspacer="line_only"  data-halign="center" style="text-align:center"><div class="uvc-main-heading ult-responsive"  data-ultimate-target='.uvc-heading.ultimate-heading-9165b4815662e927 h2'  data-responsive-json-new='{"font-size":"","line-height":""}' ><h2 style="font-weight:bold;margin-bottom:10px;">注目のカメラ</h2></div><div class="uvc-heading-spacer line_only" style="topheight:3px;"><span class="uvc-headings-line" style="border-style:solid;border-bottom-width:3px;border-color:#212830;width:200px;"></span></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1507847413251 vc_column-gap-30 vc_row-o-equal-height vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill"><div class="vc_column-inner vc_custom_1507847060264"><div class="wpb_wrapper"><div class="shortcode-single-image-wrap alignnone " style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; width:306px;"><div class="shortcode-single-image"><div class="fancy-media-wrap" style=""><a href="https://www.adimec.com/cameras/machine-vision-cameras/sapphire-series/" class="layzr-bg rollover" style=""><img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20306%20306&#39;%2F%3E" data-src="https://www.adimec.com/wp-content/uploads/2017/09/S-50A30-CXP_fetured-306x306.jpg" data-srcset="https://www.adimec.com/wp-content/uploads/2017/09/S-50A30-CXP_fetured-306x306.jpg 306w, https://www.adimec.com/wp-content/uploads/2017/09/S-50A30-CXP_fetured-308x308.jpg 308w" width="306" height="306"  data-dt-location="https://www.adimec.com/ja/home-2/s-50a30-cxp_fetured/" alt="S-50A30 CXP" /></a></div></div></div><div class="vc_empty_space"   style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
+
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h3 style="text-align: center;">S-50A30 CXP <span style="font-size: 13px; color: #000000;">(Coming Soon)</span></h3>
+<p style="text-align: center;">50 メガピクセル、 30 fps、 CoaXPress</p>
+
+		</div>
+	</div>
+<div class="vc_empty_space"   style="height: 30px" ><span class="vc_empty_space_inner"></span></div>
+<div class="btn-align-center"><a href="https://www.adimec.com/ja/cameras/machine-vision-cameras/sapphire-series/" class="default-btn-shortcode dt-btn dt-btn-m ico-right-side " id="default-btn-181dd1ea8e5deba02117752884abd7ca" title="Read More"><span>詳細</span><i class="fa fa-chevron-circle-right"></i></a></div><div class="vc_empty_space"   style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill"><div class="vc_column-inner vc_custom_1507847156475"><div class="wpb_wrapper"><div class="shortcode-single-image-wrap alignnone " style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; width:306px;"><div class="shortcode-single-image"><div class="fancy-media-wrap" style=""><a href="https://www.adimec.com/cameras/healthcare-cameras/x-ray-cla-portfolio/" class="layzr-bg rollover" style=""><img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20306%20306&#39;%2F%3E" data-src="https://www.adimec.com/wp-content/uploads/2017/09/RUBY_featured-306x306.jpg" data-srcset="https://www.adimec.com/wp-content/uploads/2017/09/RUBY_featured-306x306.jpg 306w, https://www.adimec.com/wp-content/uploads/2017/09/RUBY_featured-308x308.jpg 308w" width="306" height="306"  data-dt-location="https://www.adimec.com/ja/home-2/ruby_featured/" alt="RUBY CLA" /></a></div></div></div><div class="vc_empty_space"   style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
+
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h3 style="text-align: center;">CLA X-RAY　<span style="font-size: 13px; color: #000000;">(新製品）</span></h3>
+<p style="text-align: center;">1k2、 30 fps、CMOS GigE</p>
+
+		</div>
+	</div>
+<div class="vc_empty_space"   style="height: 30px" ><span class="vc_empty_space_inner"></span></div>
+<div class="btn-align-center"><a href="https://www.adimec.com/ja/cameras/healthcare-cameras/" class="default-btn-shortcode dt-btn dt-btn-m ico-right-side " id="default-btn-dff44aa23dc52392c8d5b834bf7bfddc" title="Read More"><span>詳細</span><i class="fa fa-chevron-circle-right"></i></a></div><div class="vc_empty_space"   style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4 vc_col-has-fill"><div class="vc_column-inner vc_custom_1508364370202"><div class="wpb_wrapper"><div class="shortcode-single-image-wrap alignnone " style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; width:306px;"><div class="shortcode-single-image"><div class="fancy-media-wrap" style=""><a href="https://www.adimec.com/cameras/global-security-cameras/tmx-cmos/" class="layzr-bg rollover" style=""><img class="lazy-load preload-me" src="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20306%20306&#39;%2F%3E" data-src="https://www.adimec.com/wp-content/uploads/2017/09/TMX_Featured-306x306.jpg" data-srcset="https://www.adimec.com/wp-content/uploads/2017/09/TMX_Featured-306x306.jpg 306w, https://www.adimec.com/wp-content/uploads/2017/09/TMX_Featured-308x308.jpg 308w" width="306" height="306"  data-dt-location="https://www.adimec.com/ja/home-2/tmx_featured/" alt="TMX series" /></a></div></div></div><div class="vc_empty_space"   style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
+
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h3 style="text-align: center;">TMX シリーズ</h3>
+<p style="text-align: center;">COTS ラグドHDカメラ</p>
+
+		</div>
+	</div>
+<div class="vc_empty_space"   style="height: 30px" ><span class="vc_empty_space_inner"></span></div>
+<div class="btn-align-center"><a href="https://www.adimec.com/ja/cameras/%e3%82%b0%e3%83%ad%e3%83%bc%e3%83%90%e3%83%ab%e3%83%bb%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3/tmx-cmos-%e3%82%b7%e3%83%aa%e3%83%bc%e3%82%ba/" class="default-btn-shortcode dt-btn dt-btn-m ico-right-side " id="default-btn-657f49cfbd53cb6b3e88665d7290c033" title="Read More"><span>詳細</span><i class="fa fa-chevron-circle-right"></i></a></div><div class="vc_empty_space"   style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
+</div></div></div></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><!-- Row Backgrounds --><div class="upb_color" data-bg-override="0" data-bg-color="#ffffff" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false"  data-custom-vc-row=""  data-vc="5.5.2"  data-is_old_vc=""  data-theme-support=""   data-overlay="false" data-overlay-color="" data-overlay-pattern="" data-overlay-pattern-opacity="" data-overlay-pattern-size=""    ></div><div id="hpc2a" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1510085585824 vc_column-gap-30 vc_row-o-equal-height vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div 	class="vc_icon_element vc_icon_element-outer vc_custom_1508275890710 vc_icon_element-align-center vc_icon_element-have-style">
+	<div class="vc_icon_element-inner vc_icon_element-color-white vc_icon_element-have-style-inner vc_icon_element-size-lg vc_icon_element-style-rounded vc_icon_element-background vc_icon_element-background-color-custom" style="background-color:#212830">
+		<span class="vc_icon_element-icon vc-material vc-material-lightbulb_outline" ></span></div>
+</div>
+<div class="vc_empty_space"   style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
+
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h3 style="text-align: center;">カスタムソリューション</h3>
+<p>カスタマイズド　アプリケーション &#8211; お客様の要件を完全に満たす特別な最先端カメラソリューション。Adimecのプラットフォームは多様な選択肢を有するテクノロジーのコレクションです。信頼できるサプライヤーにより、どのような要件のカメラも作ることが可能になります。</p>
+
+		</div>
+	</div>
+<div class="vc_empty_space"   style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
+<div class="btn-align-center"><a href="https://www.adimec.com/ja/cameras/custom-cameras-solutions/" class="default-btn-shortcode dt-btn dt-btn-m ico-right-side " id="default-btn-fb9ac634c81bc08e5f188810fbb0a087" title="Learn More"><span>詳細</span><i class="fa fa-chevron-circle-right"></i></a></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div 	class="vc_icon_element vc_icon_element-outer vc_custom_1506205828493 vc_icon_element-align-center vc_icon_element-have-style">
+	<div class="vc_icon_element-inner vc_icon_element-color-white vc_icon_element-have-style-inner vc_icon_element-size-lg vc_icon_element-style-rounded vc_icon_element-background vc_icon_element-background-color-custom" style="background-color:#212830">
+		<span class="vc_icon_element-icon vc-material vc-material-youtube_searched_for" ></span></div>
+</div>
+<div class="vc_empty_space"   style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
+
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h3 style="text-align: center;">クイック カメラ ファインダー</h3>
+<p style="margin-bottom: -15px; text-align: center;"><span style="font-size: 13px;"><em>最適なカメラの選択には全ての項目への入力が必要です。</em></span></p>
+
+		</div>
+	</div>
+<div class="vc_empty_space"   style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
+
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p><em>[wpp_search_filter]</em></p>
+
+		</div>
+	</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner "><div class="wpb_wrapper"><div 	class="vc_icon_element vc_icon_element-outer vc_custom_1506206806129 vc_icon_element-align-center vc_icon_element-have-style">
+	<div class="vc_icon_element-inner vc_icon_element-color-white vc_icon_element-have-style-inner vc_icon_element-size-lg vc_icon_element-style-rounded vc_icon_element-background vc_icon_element-background-color-custom" style="background-color:#212830">
+		<span class="vc_icon_element-icon vc-material vc-material-cloud_download" ></span></div>
+</div>
+<div class="vc_empty_space"   style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
+
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h3 style="text-align: center;">カメラの比較方法</h3>
+<p>このePaperでは、カメラとイメージセンサの違いを詳しく説明しており、カメラを比べる際の参考にしていただけます。フリーePaperをダウンロード：<strong>　マシンビジョンイメージセンサとカメラ</strong></p>
+
+		</div>
+	</div>
+<div class="vc_empty_space"   style="height: 20px" ><span class="vc_empty_space_inner"></span></div>
+<div class="btn-align-center"><a href="https://www.adimec.com/machine-vision-camera-comparison-epaper-landing-page/" class="default-btn-shortcode dt-btn dt-btn-m ico-right-side " id="default-btn-b9c8afb9391ea560a30e50085f63c1c1" title="Download Now"><span>ダウンロード （英語のペエジ）</span><i class="fa fa-chevron-circle-right"></i></a></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><!-- Row Backgrounds --><div class="upb_color" data-bg-override="0" data-bg-color="#f5f5f5" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false"  data-custom-vc-row=""  data-vc="5.5.2"  data-is_old_vc=""  data-theme-support=""   data-overlay="false" data-overlay-color="" data-overlay-pattern="" data-overlay-pattern-opacity="" data-overlay-pattern-size=""    ></div><div id="AdimecDifference" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1507848257861 vc_row-has-fill vc_row-o-equal-height vc_row-o-content-middle vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h2>私たちは考え、異なる方法で仕事を進める。</h2>
+
+		</div>
+	</div>
+
+	<div class="wpb_text_column wpb_content_element  vc_custom_1513858172354 difference_text" >
+		<div class="wpb_wrapper">
+			<p>お客様が沢山あるサプライヤーから標準の産業用カメラを購入できるという事を承知しています。システムやソフトウエアの変更に何時間も費やした後に、そのカメラはアプリケーションで使えるようになるでしょう。全ての開発に関わる時間を計算した時、満足できる状態にするためのトータルコストは、カメラ本体のコストよりもずっと高いものになります。Adimecでは、マーケットリーダーのために高性能カメラシステムを開発・製造してきました。お客様の要件に合ったイメージを提供するために、私たちはお客様のイメージングの課題に取り組みます。</p>
+
+		</div>
+	</div>
+
+	<div class="wpb_text_column wpb_content_element  vc_custom_1513858655937 difference_quote" >
+		<div class="wpb_wrapper">
+			<p><em>私たちのお客様はりんごの検査をしていません、</em></p>
+<p><em>Applesの検査はしていますが。</em></p>
+
+		</div>
+	</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner vc_custom_1506034052802"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<p><iframe src="https://www.youtube.com/embed/_J-SbEiyFwo?rel=0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+
+		</div>
+	</div>
+</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><!-- Row Backgrounds --><div class="upb_bg_img" data-ultimate-bg="url(https://www.adimec.com/wp-content/uploads/2017/09/adimec_difference_row.jpg)" data-image-id="id^544|url^https://www.adimec.com/wp-content/uploads/2017/09/adimec_difference_row.jpg|caption^null|alt^Adimec difference|title^Adimec difference|description^null" data-ultimate-bg-style="vcpb-default" data-bg-img-repeat="no-repeat" data-bg-img-size="cover" data-bg-img-position="" data-parallx_sense="30" data-bg-override="0" data-bg_img_attach="scroll" data-upb-overlay-color="rgba(33,40,48,0.85)" data-upb-bg-animation="" data-fadeout="" data-bg-animation="left-animation" data-bg-animation-type="h" data-animation-repeat="repeat" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false"  data-custom-vc-row=""  data-vc="5.5.2"  data-is_old_vc=""  data-theme-support=""   data-overlay="true" data-overlay-color="rgba(33,40,48,0.85)" data-overlay-pattern="" data-overlay-pattern-opacity="0.8" data-overlay-pattern-size="" data-overlay-pattern-attachment="scroll"    ></div><div id="experience" class="vc_row wpb_row vc_row-fluid vc_custom_1507848151915"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div id="ultimate-heading-34395b481566321a4" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-34395b481566321a4 uvc-3548 " data-hspacer="line_only"  data-halign="center" style="text-align:center"><div class="uvc-main-heading ult-responsive"  data-ultimate-target='.uvc-heading.ultimate-heading-34395b481566321a4 h2'  data-responsive-json-new='{"font-size":"","line-height":""}' ><h2 style="font-weight:bold;margin-bottom:10px;">経験と専門性</h2></div><div class="uvc-heading-spacer line_only" style="topheight:3px;"><span class="uvc-headings-line" style="border-style:solid;border-bottom-width:3px;border-color:#212830;width:200px;"></span></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1507848291405 vc_row-o-equal-height vc_row-o-content-middle vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="info-wrapper ult-adjust-bottom-margin"><div id="info-circle-wrapper-5b481566324b2" data-uniqid="5b481566324b2" class="info-circle-wrapper  info-circle-responsive " data-half-percentage="70" data-circle-type="full-circle"><div class="info-c-full-br" style='border:5px solid #ff4222;width:100%;opacity:0;' data-start-degree="90" data-divert="" data-info-circle-angle="full" data-responsive-circle="on" data-responsive-breakpoint="400" data-launch="linear" data-launch-duration="1" data-launch-delay="0.2" data-slide-true="on" data-slide-duration="3" data-icon-size="60" data-icon-show="show" data-icon-show-size="60" data-highlight-style="info-circle-pop" data-focus-on="hover"><div  class="icon-circle-list"><div class="info-circle-icons  info-circle-icon-without-background " style="" ><img class="info-circle-img-icon" alt="Adimec&#039;s 25 years of camera design experience" src="https://www.adimec.com/wp-content/uploads/2017/09/experince_25.png"/></div><div class="info-details" data-icon-class="ult-info-circle-img"><div class="info-circle-def"><div  class="info-circle-sub-def"><img class="info-circle-img-icon" alt="Adimec&#039;s 25 years of camera design experience" src="https://www.adimec.com/wp-content/uploads/2017/09/experince_25.png"/><div class="responsive-font-class ult-responsive" ><h3  data-ultimate-target='#info-cirlce-wrap-2295 .responsive-font-class h3.new-cust-responsive-class'  data-responsive-json-new='{"font-size":"","line-height":""}'  class="info-circle-heading ult-responsive new-cust-responsive-class" style="font-weight:normal;">カメラ設計の25年</h3><div  class="info-circle-text " style="font-weight:normal;"></div></div></div></div></div><div class="info-circle-icons  info-circle-icon-without-background " style="" ><img class="info-circle-img-icon" alt="High speed &amp; Low power design" src="https://www.adimec.com/wp-content/uploads/2017/09/exp_hiS_lo_p.png"/></div><div class="info-details" data-icon-class="ult-info-circle-img"><div class="info-circle-def"><div  class="info-circle-sub-def"><img class="info-circle-img-icon" alt="High speed &amp; Low power design" src="https://www.adimec.com/wp-content/uploads/2017/09/exp_hiS_lo_p.png"/><div class="responsive-font-class ult-responsive" ><h3  data-ultimate-target='#info-cirlce-wrap-2295 .responsive-font-class h3.new-cust-responsive-class'  data-responsive-json-new='{"font-size":"","line-height":""}'  class="info-circle-heading ult-responsive new-cust-responsive-class" style="font-weight:normal;">高速・低電力設計</h3><div  class="info-circle-text " style="font-weight:normal;"></div></div></div></div></div><div class="info-circle-icons  info-circle-icon-without-background " style="" ><img class="info-circle-img-icon" alt="Rugged design" src="https://www.adimec.com/wp-content/uploads/2017/09/experience_rugged_design.png"/></div><div class="info-details" data-icon-class="ult-info-circle-img"><div class="info-circle-def"><div  class="info-circle-sub-def"><img class="info-circle-img-icon" alt="Rugged design" src="https://www.adimec.com/wp-content/uploads/2017/09/experience_rugged_design.png"/><div class="responsive-font-class ult-responsive" ><h3  data-ultimate-target='#info-cirlce-wrap-2295 .responsive-font-class h3.new-cust-responsive-class'  data-responsive-json-new='{"font-size":"","line-height":""}'  class="info-circle-heading ult-responsive new-cust-responsive-class" style="font-weight:normal;">過酷な環境に対応するラグド設計</h3><div  class="info-circle-text " style="font-weight:normal;"></div></div></div></div></div><div class="info-circle-icons  info-circle-icon-without-background " style="" ><img class="info-circle-img-icon" alt="optical design and alignment" src="https://www.adimec.com/wp-content/uploads/2017/09/exp_opt_design_align.png"/></div><div class="info-details" data-icon-class="ult-info-circle-img"><div class="info-circle-def"><div  class="info-circle-sub-def"><img class="info-circle-img-icon" alt="optical design and alignment" src="https://www.adimec.com/wp-content/uploads/2017/09/exp_opt_design_align.png"/><div class="responsive-font-class ult-responsive" ><h3  data-ultimate-target='#info-cirlce-wrap-2295 .responsive-font-class h3.new-cust-responsive-class'  data-responsive-json-new='{"font-size":"","line-height":""}'  class="info-circle-heading ult-responsive new-cust-responsive-class" style="font-weight:normal;">光学設計とアラインメント技術</h3><div  class="info-circle-text " style="font-weight:normal;"></div></div></div></div></div><div class="info-circle-icons  info-circle-icon-without-background " style="" ><img class="info-circle-img-icon" alt="industrialization and automated production" src="https://www.adimec.com/wp-content/uploads/2017/09/experince_production.png"/></div><div class="info-details" data-icon-class="ult-info-circle-img"><div class="info-circle-def"><div  class="info-circle-sub-def"><img class="info-circle-img-icon" alt="industrialization and automated production" src="https://www.adimec.com/wp-content/uploads/2017/09/experince_production.png"/><div class="responsive-font-class ult-responsive" ><h3  data-ultimate-target='#info-cirlce-wrap-2295 .responsive-font-class h3.new-cust-responsive-class'  data-responsive-json-new='{"font-size":"","line-height":""}'  class="info-circle-heading ult-responsive new-cust-responsive-class" style="font-weight:normal;">工業化自動化された生産</h3><div  class="info-circle-text " style="font-weight:normal;"></div></div></div></div></div></div><div id="info-cirlce-wrap-2295" class="info-c-full" style="background-color:#f5f5f5;color:#000000;width:80%;height:80%;margin:10%;"><div class="info-c-full-wrap"></div></div></div><div class="smile_icon_list_wrap " data-content_bg="#f5f5f5" data-content_color="#000000">
+							<ul id="info-cirlce-wrap-2295" class="smile_icon_list left circle with_bg"><li class="icon_list_item" style="font-size:180px;">
+									<div class="icon_list_icon" style="font-size:60px;width:60px;height:60px;line-height:1;">
+										<i class="smt-pencil"></i>
+									</div>
+									<div  class="icon_description" style="font-size:60px;">
+										<div class="responsive-font-class ult-responsive"  data-ultimate-target='#info-cirlce-wrap-2295 .responsive-font-class *'  data-responsive-json-new='{"font-size":"desktop:20px;","line-height":"desktop:30px;"}'  style="font-weight:normal;">
+											<h3  data-ultimate-target='#info-cirlce-wrap-2295 .responsive-font-class h3.new-cust-responsive-class'  data-responsive-json-new='{"font-size":"","line-height":""}'  class="ult-responsive new-cust-responsive-class" style="font-weight:normal;"></h3>
+											<p></p>
+										</div>
+									</div>
+									<div class="icon_list_connector" style=" border-style:solid;border-color:#ff4222; left:30px; top:60px;">
+									</div></li></ul>
+						</div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h3 style="margin-bottom: 20px;">価値を提供します</h3>
+<p><img class="alignleft size-full wp-image-802" src="https://www.adimec.com/wp-content/uploads/2017/09/icon_risk_reward.png" alt="risk &amp; reward" width="90" height="90" /></p>
+<p>信頼できる生産が要求される、最も課題の多い工業検査マーケットに製品を提供しています。三つのマーケットの全てで要件の厳しいアプリケーションに対応するカメラシステムの開発を担う&#8221;研究開発エンジニアリングチーム”が貢献します。</p>
+<p>最大規模のお客様でも社内にはカメラのエキスパートは一人か二人しかいません。私たちはお客様のニーズを伺い、お客様のエンジニアリングチームの一員のような存在になります。開発から生産までの工程の各ステップを共に進めることは、最適なソリューションを提供するためにとても重要です。</p>
+<p>私たちのカメラは、イメージセンサから引き出すことが可能なイメージクオリティで業界ベンチマークです。<strong>仕様は控えめですがカメラ性能は100%保証します。</strong></p>
+
+		</div>
+	</div>
+<div class="vc_empty_space"   style="height: 25px" ><span class="vc_empty_space_inner"></span></div>
+<div class="btn-align-left"><a href="https://www.adimec.com/ja/company/why-adimec/" class="default-btn-shortcode dt-btn dt-btn-m ico-right-side " id="default-btn-235936dc2ca288f0d9af90ead4e21fff" title="Learn More about Adimec"><span>詳細</span><i class="fa fa-chevron-circle-right"></i></a></div></div></div></div></div></div></div></div></div><div id="Blog_headlines" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1507848530129 vc_row-o-equal-height vc_row-o-content-top vc_row-flex"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-9"><div class="vc_column-inner "><div class="wpb_wrapper"><div id="ultimate-heading-69405b4815663363f" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-69405b4815663363f uvc-6975 " data-hspacer="line_only"  data-halign="center" style="text-align:center"><div class="uvc-main-heading ult-responsive"  data-ultimate-target='.uvc-heading.ultimate-heading-69405b4815663363f h2'  data-responsive-json-new='{"font-size":"","line-height":""}' ><h2 style="font-weight:bold;margin-top:25px;margin-bottom:10px;">最近のブログ記事</h2></div><div class="uvc-heading-spacer line_only" style="topheight:3px;"><span class="uvc-headings-line" style="border-style:solid;border-bottom-width:3px;border-color:#212830;width:200px;"></span></div></div><div class="vc_empty_space"   style="height: 50px" ><span class="vc_empty_space_inner"></span></div>
+<div class="blog-shortcode blog-masonry-shortcode-id-300287b73ecdd0b3a5d3874a040ec497 mode-masonry classic-layout-list content-bg-on jquery-filter enable-bg-rollover resize-by-browser-width loading-effect-none description-under-image " data-padding="15px" data-cur-page="1" data-post-limit="-1" data-pagination-mode="none" data-desktop-columns-num="3" data-v-tablet-columns-num="2" data-h-tablet-columns-num="3" data-phone-columns-num="1" data-width="0px" data-columns="0"><div class="iso-container" ></div><!-- iso-container|iso-grid --></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><div id="ultimate-heading-68695b48156634394" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-68695b48156634394 uvc-605 " data-hspacer="line_only"  data-halign="center" style="text-align:center"><div class="uvc-main-heading ult-responsive"  data-ultimate-target='.uvc-heading.ultimate-heading-68695b48156634394 h2'  data-responsive-json-new='{"font-size":"","line-height":""}' ><h2 style="font-weight:bold;margin-top:25px;margin-bottom:10px;">最近のニュース</h2></div><div class="uvc-heading-spacer line_only" style="topheight:3px;"><span class="uvc-headings-line" style="border-style:solid;border-bottom-width:3px;border-color:#212830;width:200px;"></span></div></div><div class="vc_empty_space"   style="height: 50px" ><span class="vc_empty_space_inner"></span></div>
+<div class="blog-shortcode blog-masonry-shortcode-id-b28395a5e779d0fbe11ebd20a946e8b6 mode-grid classic-layout-list content-bg-on jquery-filter dt-css-grid-wrap enable-bg-rollover resize-by-browser-width loading-effect-none description-under-image " data-padding="0px" data-cur-page="1" data-post-limit="-1" data-pagination-mode="none" data-desktop-columns-num="1" data-v-tablet-columns-num="1" data-h-tablet-columns-num="1" data-phone-columns-num="1" data-width="0px" data-columns="0"><div class="dt-css-grid" ><div class="visible wf-cell" data-post-id="5768" data-date="2018-02-06T10:51:37+00:00" data-name="Adimec 新 CoaXPress カメラ をVision China 2018で展示"><article class="post project-odd visible no-img post-5768 type-post status-publish format-standard hentry category-news-ja category-287 description-off" data-name="Adimec 新 CoaXPress カメラ をVision China 2018で展示" data-date="2018-02-06T10:51:37+00:00">
+
+<div class="post-entry-content">
+
+	<h3 class="entry-title">
+		<a href="https://www.adimec.com/ja/adimec-%e6%96%b0-coaxpress-%e3%82%ab%e3%83%a1%e3%83%a9-%e3%82%92vision-china-2018%e3%81%a7%e5%b1%95%e7%a4%ba-2/" title="Adimec 新 CoaXPress カメラ をVision China 2018で展示" rel="bookmark">Adimec 新 CoaXPress カメラ をVision China 2018で展示</a>
+	</h3>
+
+	<div class="entry-meta"><a href="https://www.adimec.com/ja/2018/02/06/" title="10:51 am" class="data-link" rel="bookmark"><time class="entry-date updated" datetime="2018-02-06T10:51:37+00:00">2月 6, 2018</time></a></div>
+	
+	<a href="https://www.adimec.com/ja/adimec-%e6%96%b0-coaxpress-%e3%82%ab%e3%83%a1%e3%83%a9-%e3%82%92vision-china-2018%e3%81%a7%e5%b1%95%e7%a4%ba-2/" class="post-details details-type-link" rel="nofollow">Read more<i class="fa fa-caret-right" aria-hidden="true"></i></a>
+</div></article></div></div><!-- iso-container|iso-grid --></div></div></div></div></div></div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><!-- Row Backgrounds --><div class="upb_color" data-bg-override="0" data-bg-color="#f5f5f5" data-fadeout="" data-fadeout-percentage="30" data-parallax-content="" data-parallax-content-sense="30" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" data-rtl="false"  data-custom-vc-row=""  data-vc="5.5.2"  data-is_old_vc=""  data-theme-support=""   data-overlay="false" data-overlay-color="" data-overlay-pattern="" data-overlay-pattern-opacity="" data-overlay-pattern-size=""    ></div>
+
+    </div><!-- #content -->
+
+	
+
+
+			</div><!-- .wf-container -->
+		</div><!-- .wf-wrap -->
+	</div><!-- #main -->
+
+	
+
+	
+	<!-- !Footer -->
+	<footer id="footer" class="footer solid-bg">
+
+		
+			<div class="wf-wrap">
+				<div class="wf-container-footer">
+					<div class="wf-container">
+						<section id="text_icl-2" class="widget widget_text_icl wf-cell wf-1-4"><div class="widget-title">Global Offices JP</div>		<div class="textwidget"><ul>
+ 	<li><a href="https://www.adimec.com/adimec-headquarters/">Headquarters: Eindhoven (NL)</a></li>
+ 	<li><a href="https://www.adimec.com/emea/">EMEA: Eindhoven (NL)</a></li>
+ 	<li><a href="https://www.adimec.com/asia-pacific/">Asia-Pacific: Singapore (SG)</a></li>
+ 	<li><a href="https://www.adimec.com/japan/">Japan: Tokyo (JP)</a></li>
+ 	<li><a href="https://www.adimec.com/company/contact-us/korea/">Korea: Yongin-si, Gyeonggi-do (KR)</a></li>
+ 	<li><a href="https://www.adimec.com/company/contact-us/americas/">Americas: Boston (US)</a></li>
+</ul></div>
+		</section>					</div><!-- .wf-container -->
+				</div><!-- .wf-container-footer -->
+			</div><!-- .wf-wrap -->
+
+		
+<!-- !Bottom-bar -->
+<div id="bottom-bar" class="full-width-line logo-left" role="contentinfo">
+	<div class="wf-wrap">
+		<div class="wf-container-bottom">
+
+				
+					<div class="wf-float-left">
+
+						&copy; Adimec Advanced Image Systems bv.&nbsp;&nbsp;All Rights Reserved.<span style="margin-left:15px">Site designed by: <a href="https://www.tiecas.com" target="_blank">Tiecas, Inc.</a>
+					</div>
+
+				
+				<div class="wf-float-right">
+
+					<div class="mini-nav"><ul id="bottom-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4917 first"><a href='https://www.adimec.com/ja/%e8%91%97%e4%bd%9c%e6%a8%a9/' data-level='1'><span class="menu-item-text"><span class="menu-text">著作権</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4915"><a href='https://www.adimec.com/ja/disclaimer-terms-conditions/' data-level='1'><span class="menu-item-text"><span class="menu-text">ご利用条件</span></span></a></li> <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4916"><a href='https://www.adimec.com/ja/%e3%82%b5%e3%82%a4%e3%83%88%e3%83%9e%e3%83%83%e3%83%97/' data-level='1'><span class="menu-item-text"><span class="menu-text">サイトマップ</span></span></a></li> </ul><div class="menu-select"><span class="customSelect1"><span class="customSelectInner">Bottom Bar RHS Menu　Ja</span></span></div></div>
+				
+
+								</div>
+
+		</div><!-- .wf-container-bottom -->
+	</div><!-- .wf-wrap -->
+</div><!-- #bottom-bar -->
+	</footer><!-- #footer -->
+
+
+	<a href="#" class="scroll-top"><span class="screen-reader-text">Go to Top</span></a>
+
+</div><!-- #page -->
+
+
+<!-- DO NOT COPY THIS SNIPPET! &mdash; HubSpot Identification Code -->
+<script type="text/javascript">
+(function(d,w) {
+w._hsq = w._hsq || [];
+w._hsq.push(["setContentType", "standard-page"]);
+})(document, window);
+</script>
+<!-- End of HubSpot Identification Code &mdash; DO NOT COPY THIS SNIPPET! -->
+
+<!-- Start of Async HubSpot Analytics Code for WordPress v1.2.1 -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/20421.js"></script>
+<!-- End of Async HubSpot Analytics Code -->
+			<script type="text/javascript">
+				function revslider_showDoubleJqueryError(sliderID) {
+					var errorMessage = "Revolution Slider Error: You have some jquery.js library include that comes after the revolution files js include.";
+					errorMessage += "<br> This includes make eliminates the revolution slider libraries, and make it not work.";
+					errorMessage += "<br><br> To fix it you can:<br>&nbsp;&nbsp;&nbsp; 1. In the Slider Settings -> Troubleshooting set option:  <strong><b>Put JS Includes To Body</b></strong> option to true.";
+					errorMessage += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jquery.js include and remove it.";
+					errorMessage = "<span style='font-size:16px;color:#BC0C06;'>" + errorMessage + "</span>";
+						jQuery(sliderID).show().html(errorMessage);
+				}
+			</script>
+			<link rel='stylesheet' id='vc_material-css'  href='https://www.adimec.com/wp-content/plugins/js_composer/assets/css/lib/vc-material/vc_material.min.css?ver=5.5.2' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.adimec.com/wp-content/themes/dt-the7/js/main.min.js?ver=6.6.3'></script>
+<script type='text/javascript' src='https://www.adimec.com/wp-content/plugins/page-links-to/js/new-tab.min.js?ver=2.11.1'></script>
+<script type='text/javascript' src='https://www.adimec.com/wp-content/themes/dt-the7/js/post-type.js?ver=1.0.0'></script>
+<script type='text/javascript' src='https://www.adimec.com/wp-includes/js/wp-embed.min.js?ver=4.9.7'></script>
+<script type='text/javascript' src='https://www.adimec.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.5.2'></script>
+
+			<div id="cookie-notice" role="banner" class="cn-bottom wp-default" style="color: #fff; background-color: #707070;"><div class="cookie-notice-container"><span id="cn-notice-text">We use cookies to offer you a better browsing experience, analyse site traffic, personalize content, and serve targeted advertisements. Read about how we use cookies in our Privacy Policy.</span><a href="#" id="cn-accept-cookie" data-cookie-set="accept" class="cn-set-cookie cn-button wp-default button">Accept and close</a><a href="https://www.adimec.com/ja/disclaimer-terms-conditions/" target="_blank" id="cn-more-info" class="cn-more-info cn-button wp-default button">Read more</a>
+				</div>
+				
+			</div>
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+ 
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+ 
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

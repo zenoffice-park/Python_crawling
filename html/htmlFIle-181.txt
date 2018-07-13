@@ -1,0 +1,351 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="author" content="">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title>メールによるお問合せ</title>
+
+
+<link rel="stylesheet" type="text/css" href="/stylesheet.jsp?id=20171">
+
+
+
+<script type="text/javascript" src="/scripts/jquery-1.8.1.min.js"></script>
+
+<!-- universal analytics Setting -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-255817-21', 'gelifesciences.co.jp');
+  ga('send', 'pageview');
+
+</script>
+<!-- // universal analytics Setting -->
+
+<!-- Google Tag Manager 関連 -->
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
+<!-- End Google Tag Manager関連 -->
+
+<script src="/script/jquery-1.4.2.min.js"></script>
+<script src="/scripts/jquery.ga_scroll2.js"></script>
+<script type="text/javascript">
+	$(function(){
+		 $.ga_scroll2();
+	})
+</script>
+
+<!-- Table_GrayCell Start -->
+<script src="/script/getable_bordered_graycell.js"></script>
+<!-- Table_GrayCell End -->
+	
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<link rev="made" title="GEヘルスケア・ジャパン株式会社" href="mailto:BioDirect-JP@ge.com">
+	<link rel="stylesheet" href="/apbio.css" type="text/css" media="all">
+	<link rel="stylesheet" href="/apbio_print.css" type="text/css" media="print">
+	<link rel="shortcut icon" href="/image/monogram16.ico">
+    <script type="text/javascript" charset="UTF-8" src="/scripts/recommend.js"></script>
+<script language="JavaScript" src="https://www.csctrustedsecure.com/trustlogo/javascript/trustlogo.js" type="text/javascript">
+</script>
+	<!-- #BeginEditable "titleContents" -->
+				
+			<!-- #EndEditable -->
+	<!-- #BeginEditable "headerContents" -->
+	<!-- #EndEditable -->
+<style type="text/css">
+ul.css3menu1,ul.css3menu1 ul{
+  margin:0;list-style:none;padding:0;background-color:#3b73b9;background-repeat:repeat;border-width:0px;border-style:solid;border-color:#999999;}
+ul.css3menu1 ul{
+  display:none;position:absolute;left:0;top:100%;background-color:#FFF;background-image:none;border-width:1px;border-style:solid;border-color:#d8d9da;padding:0 9px 9px;}
+ul.css3menu1 li:hover>*{
+  display:block;}
+ul.css3menu1 li{
+  position:relative;display:block;white-space:nowrap;font-size:0;float:left;}
+ul.css3menu1 li:hover{
+  z-index:1;}
+ul.css3menu1{
+  background-color:#eee;
+  font-size:0;z-index:9999;position:relative;display:inline-block;zoom:1;padding:1px 1px 1px 0;
+  *display:inline;}
+* html ul.css3menu1 li a, html ul.css3menu1 li .block{
+  display:inline-block;}
+ul.css3menu1>li{
+  margin:0 0 0 1px; }
+ul.css3menu1 ul>li{
+  margin:1px 0 0;}
+ul.css3menu1 a:active, ul.css3menu1 a:focus{
+  outline-style:none;}
+ul.css3menu1 a, ul.css3menu1 .block{
+  display:block;vertical-align:middle;text-align:left;text-decoration:none;font:bold 12px Arial;color:#ffffff;cursor:default;padding:5px 10px;background-color:#3b73b9;background-repeat:repeat;background-position:0 200px;border-width:0px;border-style:none;border-color:;}
+ul.css3menu1 ul li{
+  float:none;margin:9px 0 0;}
+ul.css3menu1 ul a, ul.css3menu1 ul .block{
+  text-align:left;padding:8px 0 0 0;background-color:#FFF;background-image:none;border-width:1px 0 0 0;border-style:solid;border-color:#D9D9D9;font:11px Arial;color:#333333;text-decoration:none;}
+ul.css3menu1 li:hover>a,ul.css3menu1 li a.pressed{
+  background-color:#9db9dd;border-style:none;color:#ffffff;background-position:0 100px;text-decoration:none;}
+ul.css3menu1 span{
+  display:block;overflow:visible;background-position:right center;background-repeat:no-repeat;padding-right:0px;}
+ul.css3menu1 ul li:hover>a,ul.css3menu1 ul li a.pressed{
+  background-color:#FFF;background-image:none;border-style:solid;border-color:#D9D9D9;color:#0088CC;text-decoration:none;}
+ul.css3menu1 _>li>a{
+  padding:0;}
+ul.css3menu1 li.subfirst>a{
+  border-width:0;border-style:none;padding:0;}
+ul.css3menu1 li.subfirst:hover>a,ul.css3menu1 li.subfirst a.pressed{
+  border-style:none;}
+</style>
+</head>
+<body>
+
+
+
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K3CBS9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K3CBS9');</script>
+<!-- End Google Tag Manager -->
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<div id="contents_area">
+<table class="contents_table">
+<tbody>
+<tr>
+	<th class="robots-nocontent" colspan="2" id="logocell"><a name="top_of_page" id="top_of_page"></a>
+<a href="/index.html" title="トップページに戻る"><img src="/image/monogram.gif" alt="トップページに戻る" class="linked_image_nb"></a>
+	</th>
+</tr>
+<tr>
+<td class="headercell robots-nocontent" colspan="2">
+<table id="headercell_InnerTable"><tbody>
+<tr>
+<td class="headercell_left">
+<form name="SS_searchForm" id="SS_searchForm" action="https://search.gelifesciences.co.jp/search" method="get" enctype="application/x-www-form-urlencoded">
+
+<p style="margin:0px; padding:0px; vertical-align:middle;">
+<input type="hidden" name="site" value="U0O03EK9">
+<input type="hidden" name="charset" value="UTF-8">
+<input type="hidden" name="design" value="1">
+<input type="text" name="query" value="" size="40" id="SS_searchQuery" maxlength="100" autocomplete="off">
+<button type="submit" id="searchbutton">検索</button>
+<a href="/contact/help.html" target="_blank">検索のヘルプ</a></p>
+</form>
+
+<script type="text/javascript">
+  var ssForm = document.getElementById("SS_searchForm");
+  if (location .protocol == "https:") {
+  ssForm.action = ssForm.action.replace("http://", "https://");
+  } else {
+  ssForm.action = ssForm.action.replace("https://", "http://");
+  }
+</script>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr><td class="robots-nocontent" id="locationBox" colspan="2">
+<p id="locationContent">Location：<a href="/" target="_top">ホーム</a> ＞ <a href="/contact/index.html" target="_top">Contact</a>
+</p>
+
+</td>
+</tr>
+<tr><td id="mainContentsBox"><div id="contentSubstance">
+<!-- #BeginEditable "Contents" -->
+<h1><img src="/contact/image/mail_inquiry_title.gif" alt="メールによるお問合せ" width="320" height="25"></h1>
+<div style="float:right">
+<script type="text/javascript">TrustLogo("https://www.csctrustedsecure.com/products/padlocksmall.gif", "CSCTL", "none");</script>
+</div>
+
+<p class="amershamBland_b">製品・実験手法に関するお問合せに2営業日以内でお答えいたします。</p>
+<p>製品の詳細、ご使用方法、トラブルシューティング、実験技法など、ご不明点・ご関心がございましたら、お気軽にお問合せください。</p>
+
+											<div style="width:45%; float:left; padding:10px; margin-right:4px; height:300px">
+												<h3><img src="/contact/image/inquiry_new.gif" alt="これからご登録の方" width="194" height="18" ></h3>
+<p>下記フォームからお問合せください。</p>
+
+												<p><img src="/image/ar_blue.gif" width="25" height="13" ><a href="https://f.msgs.jp/webapp/form/12472_sls_19/index.do">お問合せフォーム</a></p>
+												<p class="note"><span class="red">※</span><a href="/contact/w_members.html">WEB会員サービス</a>へのご登録と、初回のお問合せを同時に行っていただけます。お問合せなどの弊社宛の送信フォームは、プライバシー保護のため128ビットSSL暗号化通信を導入しています。</p>
+												<p><img src="/contact/image/wmem_concept.gif" alt="オンラインサポートコンセプト" width="250" height="72" border="0"></p>
+
+											</div>
+						<div style="width:45%; float:left; padding:10px; height:300px">
+												<h3><img src="/contact/image/inquiry_wmem.gif" alt="WEB会員の方" width="122" height="18" border="0"></h3>
+
+
+<!--<p class="red_bold">※ただ今WEB会員システムのメンテナンス中につきご利用いただけない状態となっております。もうしばらくお待ちいただけますようお願い申し上げます。</p>-->
+
+<p>下記よりログインして、お問合せください。</p>
+<form action="https://f.msgs.jp/webapp/form/12472_sls_9/c_certificate.do" method="post">
+<table class="getable">
+<tr>
+<th>メールアドレス</th></tr><tr>
+<td><input type="text" name="singleAnswer(ANSWER3896)" size="50"></td>
+</tr>
+<tr>
+<th>パスワード</th></tr><tr>
+<td><input type="password" name="singleAnswer(ANSWER3897)" size="20"></td>
+</tr>
+</table>
+<input type="submit" value="ログイン">
+</form>
+							<p><a href="/contact/w_confirm.html" target="_blank">パスワードを忘れた方はこちらをクリックしてください。</a></p>
+						</div>
+
+
+
+<div class="clear_left"><p class="illustraBland_b">※論文等に掲載していただく、GE Healthcare 本社の社名・住所は下記の通りになります。<br>
+GE Healthcare UK Ltd<br>
+Amersham Place, Little Chalfont, Buckinghamshire HP7 9NA, England</p>
+		  </div>
+						<!-- #EndEditable -->
+
+</div>
+<div class="clear_left"></div>
+<div class="clear_right"></div>
+<hr>
+<a name="q_form" id="q_form"></a>
+<form method="post" action="https://f.msgs.jp/webapp/form/12472_sls_55/c_setParameters.do?origin=/contact/index.html" accept-charset="Shift-JIS">
+<!-- HeartCore移行関連注釈：上記の$1をルート相対パスに置換してください -->
+<table id="simplifiedInquiry" class="getable_bordered">
+<caption class="bold">お問合せフォーム（2営業日以内にご連絡いたします。お急ぎの場合は、<a href="/tech_support/index.html#support_contact">お電話</a>でご連絡ください。）<br>
+※よくあるお問合せとご回答（FAQ）は「<a href="/tech_support/faq.html?utm_source=inquiryform">こちらで&raquo;</a>」ご覧いただけます。<br>
+※ファイルを添付してのお問合せは、お手数ですが「<a href="mailto:tech-jp@ge.com">Tech-JP＠ge.comまでメールにて</a>」お問合せください。
+</caption>
+<tbody>
+	<tr>
+		<th class="major">お問合せ内容<span class="red">[必須]</span></th>
+		<th class="minor">お名前<span class="red">[必須]</span></th>
+		<td><input type="text" class="required" size="10" name="singleAnswer(ANSWER1055-1)">　<input type="text" class="required" size="10" name="singleAnswer(ANSWER1055-2)"></td>
+	</tr>
+	<tr>
+		<td rowspan="3"><textarea name="singleAnswer(ANSWER1060)" rows="4" cols="48"></textarea></td>
+		<th class="minor">大学/企業名<span class="red">[必須]</span></th>
+		<td><input type="text" class="required" size="40" name="singleAnswer(ANSWER1056)"></td>
+	</tr>
+	<tr>
+		<th class="minor">E-mail<span class="red">[必須]</span></th>
+		<td><input type="text" class="required" size="40" name="singleAnswer(ANSWER1057)"></td>
+	</tr>
+	<tr>
+		<th class="minor">電話<span class="red">[必須]</span></th>
+		<td><input type="text" class="required" size="4" name="singleAnswer(ANSWER1058-1)"> - <input type="text" class="required" size="4" name="singleAnswer(ANSWER1058-2)"> - <input type="text" class="required" size="4" name="singleAnswer(ANSWER1058-3)">（内線<input type="text" size="8" name="singleAnswer(ANSWER1059)">）</td>
+	</tr>
+	<tr>
+	  <th class="minor" colspan="3">ご記入いただく個人情報は、当社製品・サービスの提供及び販売促進、当社製品に関する情報の収集・分析及 び提供、新製品・新サービスの研究開発等並びに市場調査のために利用します。当社は個人情報を業務委託 先に預ける場合がありますが、個人情報の取扱いに関する法令、国が定める指針その他の規範に従い、委託先 に対する必要かつ適切な監督を行います。個人情報に関するお問い合わせは個人情報相談窓口（042-5855111：平日午前10時～午後5時）にて承ります。 ＧＥヘルスケア・ジャパン株式会社 個人情報管理責任者<br>
+	    <b>&rarr;<a target="_blank" href="/company/sitepolicy/policy.html">個人情報保護に対する基本方針</a></b></th>
+	  </tr>
+<!--
+	<tr>
+	  <td colspan="3"><input type="radio" value="1" name="singleAnswer(ANSWER1979)">同意する</td>
+	  </tr>
+-->
+</tbody>
+</table>
+<p id="simplifiedInquirySubmit"><input type="hidden" value="dont_delete_inquiry@ge.com" name="singleAnswer(ANSWER1061)">
+<input type="hidden" value="https://www.gelifesciences.co.jp/contact/index.html" name="singleAnswer(ANSWER1092)">
+<!-- HeartCore移行関連注釈：上記の$2をページのURLに置換してください -->
+<input type="submit" onclick="document.charset='Shift-JIS';" id="submitButton" value="記入内容をチェック"></p>
+</form>
+</td>
+<td id="sidemenuWrapper"><div class="sideMenu robots-nocontent">
+<ul>
+<li class="menuCategory2"><a title="サポート" href="/tech_support/index.html?utm_source=side">サポート</a></li>
+<li><a title="バイオダイレクトWeb" href="/tech_support/index.html?utm_source=side"><img width="120" height="60" alt="バイオダイレクトWeb" src="/image/biodirect_web.jpg"></a></li>
+<li class="menuItem2"><a title="お問合せ" href="/tech_support/index.html?utm_source=side#call">お問合せ</a></li>
+<li class="menuItem2"><a title="製品マニュアル" href="/tech_support/manual/index.html?utm_source=side">製品マニュアル</a></li>
+<li class="menuItem2"><a title="FAQ（製品Q＆A）" href="/tech_support/faq.html?utm_source=side">FAQ（製品Q＆A）</a></li>
+<li class="menuItem2"><a title="メンテナンスサービス" href="/products/after_support/index.html?utm_source=side">メンテナンスサービス</a></li>
+<li class="menuItem2"><a title="MSDS" href="/tech_support/msds.html?utm_source=side">法令記号・MSDS</a></li>
+<li class="menuItem2"><a title="お客さまの声" href="/tech_support/customer/index.html?utm_source=side">お客さまの声</a></li>
+<li class="menuItem2"><a title="情報配信サービス" href="/newsletter/index.html?utm_source=side">情報配信サービス</a></li>
+<li class="menuItem2"><a title="BLOG" href="/blog/index.html?utm_source=side">BLOG</a></li>
+</ul>
+<ul>
+<li class="menuCategory2">製品</li>
+<li class="menuItem2"><a title="製品カタログ" href="/catalog/index.html?utm_source=side">製品カタログ</a></li>
+<li class="menuItem2"><a title="HyClone" href="/technologies/hyclone/index.html?utm_source=side">HyClone</a></li>
+<li class="menuItem2"><a title="Whatman" href="/whatman/index.html?utm_source=side">Whatman</a></li>
+<li class="menuItem2"><a title="実験手法別製品情報" href="/technologies/index.html?utm_source=side">実験手法別製品情報</a></li>
+<li class="menuItem2"><a title="新製品情報" href="/hot_news/new_products/index.html?utm_source=side">新製品情報</a></li>
+<li class="menuItem2"><a title="製品サンプル申込み" href="/hot_news/sample/index.html?utm_source=side">製品サンプル申込み</a></li>
+</ul>
+<ul>
+<li class="menuCategory2">オススメ</li>
+<!-- <li class="menuCatalogImage"><a href="/newsletter/201707_exosome.html?utm_source=side" title="Newsletter 2017年7月発行"><img width="118" height="152" alt="Newsletter 2017年7月発行" src="/image/Newsletter_201707_sidebnr.jpg"></a></li> -->
+<!-- -->
+
+
+<li class="menuCatalogImage"><a href="/newsletter/201707_exosome.html?utm_source=side" title="Newsletter 2017年7月発行"><img width="118" height="152" alt="Newsletter 2017年7月発行" src="/image/Newsletter_201707_sidebnr.jpg"></a></li>
+
+
+
+
+<li class="menuCatalogImage"><a href="/hot_news/sample/hyclone.html?utm_source=side" title="Hyclone血清ロットチェックサンプル"><img width="118" height="152" alt="血清ロットチェックサンプル" src="/image/lotcheck_sidebnr.jpg"></a></li>
+<li class="menuCatalogImage"><a href="/blog/index.html?utm_source=side" title="GEヘルスケア・ジャパン株式会社　ライフサイエンス統括本部　公式ブログ"><img width="118" height="152" alt="GEヘルスケア・ジャパン株式会社　ライフサイエンス統括本部　公式ブログ" src="/image/sidebnr_blog.jpg"></a></li>
+<!--<li class="menuCatalogImage"><a href="/technologies/ecl/kouryaku_guide.html?utm_source=side" title="ウェスタンブロッティング攻略ガイド"><img width="118" height="152" alt="ウェスタンブロッティング攻略ガイド" src="/image/sidebnr_WBguide.jpg"></a></li>-->
+</ul>
+<!-- Sidemenu：/top/sidemenu.htmlをincludeして表示 -->
+</div>
+</td>
+</tr>
+<tr>
+<td class="footercell robots-nocontent" colspan="2">
+<ul class="navCellList">
+  <li class="navCellListItemTop"><a href="/tech_support/index.html?utm_source=f#support_contact">お問合せ</a></li>
+  <li class="navCellListItem"><a href="/newsletter/index.html?utm_source=f">メールマガジン購読</a></li>
+  <li class="navCellListItem"><a href="/company/company_info/index.html?utm_source=f">会社案内</a></li>
+  <li class="navCellListItem"><a href="/sitemap.html?utm_source=f">サイトマップ</a></li>
+<!--  <li class="navCellListItem"><a href="/company/sitepolicy/index.html?utm_source=f">プライバシーポリシー</a></li>-->
+  <li class="navCellListItem"><a href="/company/sitepolicy/policy.html?utm_source=f">個人情報保護に対する基本方針</a></li>
+  <li class="navCellListItem"><a href="/company/sitepolicy/site.html?utm_source=f">サイト利用規程</a></li>
+    <li class="navCellListItem"><a href="/contact/dealer/data/index.html?utm_source=f">代理店の方はこちら</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+	<p id="copyright">&copy; 2018 General Electric Company, doing business as GE Healthcare</p>
+</div>
+
+<script type="text/javascript">
+	if (location .protocol == "https:") {
+	document.write('<scr'+'ipt type="text/javascript" src="https://ssl.syncsearch.jp/common/js/suggest.js"><\/scr'+'ipt>');
+	} else {
+	document.write('<scr'+'ipt type="text/javascript" src="http://pro.syncsearch.jp/common/js/suggest.js"><\/scr'+'ipt>');
+	}
+</script>
+
+<script type="text/javascript">
+	SYNCSEARCH_SITE="U0O03EK9";
+	SYNCSEARCH_SUGGEST_DEPTH=3;
+</script>
+</body>
+</html>
+
+

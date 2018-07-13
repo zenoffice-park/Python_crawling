@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>
+お問い合わせ・資料請求 - 株式会社アークシステム(infoARK)
+</title>
+<meta name="Description" content="アークシステムおよび当サイト(infoARK)へのお問い合わせ、資料ご請求、ご意見・ご感想の送信フォーム
+アークシステムおよび当サイト(infoARK)へのお問い合わせ、資料ご請求、ご意見・ご感想の送信フォーム" />
+<meta name="Keywords" content="お問い合わせ,資料ご請求,ご意見・ご感想
+お問い合わせ,資料ご請求,ご意見・ご感想" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<link rel="stylesheet" type="text/css" href="/common/css/import.css" media="all" />
+<link rel="stylesheet" type="text/css" href="/common/css/jquery-ui-1.8.6.custom.css" media="all" />
+<script type="text/javascript" src="/common/js/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="/common/js/jquery-ui-1.8.6.custom.min.js"></script>
+<script type="text/javascript" src="/common/js/contact_log/js/contact_log.js"></script>
+<script type="text/javascript" src="/common/js/mustache.js"></script>
+<script type="text/javascript" src="/common/js/purl.js"></script>
+<script type="text/javascript" src="/common/js/api_suggestPro.js"></script>
+<script type="text/javascript" src="/common/js/rollover.js"></script>
+<link rel="alternate" type="application/rss+xml" title="アークシステム - お知らせ 新着（Atom）" href="/topics/atom.xml"/>
+<link rel="alternate" type="application/rss+xml" title="アークシステム - 業務事例 新着（Atom）" href="/works/atom.xml"/>
+<link rel="alternate" type="application/rss+xml" title="アークシステム - Close-UP IT 技術レポート 新着（Atom）" href="/closeupit/atom.xml"/>
+<!-- Google Analytics Tracking Code -- 20161206 -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-20297725-1', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- Google Site Search Code -->
+<script>
+(function() {
+var cx = '014124111441454123243:tr9qzqbsnac';
+var gcse = document.createElement('script');
+gcse.type = 'text/javascript';
+gcse.async = true;
+gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+'//cse.google.com/cse.js?cx=' + cx;
+var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(gcse, s);
+})();
+</script>
+</head>
+<body id="contents" class="page_archive">
+<!-- container -->
+<div id="container" class="contact">
+<!-- header-out -->
+<div id="header-out">
+<!-- header -->
+<div id="header">
+<p id="logo"><a href="https://www.arksystems.co.jp/" id="top" name="top"><img src="/common/images/hdr_logo.gif" alt="アークシステム" width="249" height="59" /></a></p>
+<div id="skipNav" class="offscreen">
+<ul>
+<li><a href="#contentArea">本文へ</a></li>
+<li><a href="#footer">このサイトのコンテンツ一覧へ</a></li>
+</ul>
+</div>
+<ul id="header-links">
+<li class="topics"><a href="https://www.arksystems.co.jp/topics/">お知らせ</a></li>
+<li class="map"><a href="https://www.arksystems.co.jp/profile/access.html">アクセス</a></li>
+<li class="recruit"><a href="http://saiyo.arksystems.co.jp/">採用情報</a></li>
+</ul>
+<div id="header-section">
+<ul>
+<li><a href="https://www.arksystems.co.jp/sitemap.html"><img src="/common/images/hdr_sitemap.gif" width="80" height="11" alt="サイトマップ" class="imgover" /></a></li>
+<li><a href="https://www.arksystems.co.jp/contact/"><img src="/common/images/hdr_contact.gif" width="87" height="11" alt="お問い合わせ" class="imgover" /></a></li>
+</ul>
+<form id="js-search4header" action="https://www.arksystems.co.jp/search.html" method="get" class="search-form">
+<input type="hidden" name="cate" value="none" />
+<input type="search" name="keyword" autocomplete="off" />
+<!-- tmpl -->
+<div class="box-suggest-result js-suggest-result" style="display: none;">
+<ul class="js-suggest-list"></ul>
+<script type="text/x-handlebars-template" id="js-tmpl-suggest" style="display: none;">
+{{#list}}
+<li><a href="#" data-type="{{no}}">{{word}}</a></li>
+{{/list}}
+</script>
+</div>
+<!-- /tmpl -->
+<input class="button-search js-go-search" type="image" src="/common/images/ico_search_w.png" alt="検索" />
+</form>
+</div>
+</div>
+<!-- /header -->
+<!-- global-nav -->
+<div id="global-nav">
+<div id="global-nav2">
+<ul id="nav">
+<li class="home"><a href="https://www.arksystems.co.jp/"><img src="/common/images/hdr_nav_home.gif" width="71" height="67" alt="ホーム" class="imgover" /></a></li>
+<li class="services"><a href="https://www.arksystems.co.jp/services/"><img src="/common/images/hdr_nav_services.gif" width="539" height="32" alt="アークシステムのサービス" class="imgover" /></a>
+<ul>
+<li><a href="https://www.arksystems.co.jp/services/mainframe/"><img src="/common/images/services_tab_1.gif" width="130" height="35" alt="メインフレーム基盤ソリューション" class="imgover" /></a></li>
+<li><a href="https://www.arksystems.co.jp/services/open/"><img src="/common/images/services_tab_2.gif" width="130" height="35" alt="オープン基盤ソリューション" class="imgover" /></a></li>
+<li><a href="https://www.arksystems.co.jp/services/web/"><img src="/common/images/services_tab_3.gif" width="130" height="35" alt="Webシステムソリューション" class="imgover" /></a></li>
+<li><a href="https://www.arksystems.co.jp/services/it_mngmnt/"><img src="/common/images/services_tab_4.gif" width="130" height="35" alt="IT運用管理ソリューション" class="imgover" /></a></li>
+</ul>
+</li>
+<li class="works"><a href="https://www.arksystems.co.jp/works/"><img src="/common/images/hdr_nav_works.gif" width="106" height="67" alt="業務事例" class="imgover"/></a></li>
+<li class="closeup"><a href="https://www.arksystems.co.jp/closeupit/"><img src="/common/images/hdr_nav_closeupit.gif" width="106" height="67" alt="技術レポート" class="imgover" /></a></li>
+<li class="profile"><a href="https://www.arksystems.co.jp/profile/"><img src="/common/images/hdr_nav_profile.gif" width="138" height="67" alt="アークシステムについて" class="imgover" /></a></li>
+</ul>
+</div>
+</div>
+<!-- /global-nav -->
+</div>
+<!-- /header-out -->
+<!-- breadcrumb -->
+<div id="breadclumbArea">
+<ol id="breadcrumb">
+<li><a href="https://www.arksystems.co.jp/">アークシステムHOME</a></li>
+<li><span>お問い合わせ・資料請求</span></li>
+</ol>
+</div>
+<!-- /breadcrumb -->
+<!-- content -->
+<div id="contentArea">
+<div id="contentArea2">
+<div id="content" class="index">
+<h1><img src="/images/ttl_contact.jpg" width="948" height="88" alt="お問い合わせ・資料請求"/></h1>
+<div class="folder"><div class="folder-inner"><div class="folder-bottom">
+<p>
+アークシステムおよび当サイト (infoARK) へのお問い合わせ、資料ご請求、ご意見・ご感想などを承ります。</p>
+<p id="step">
+<img alt="ステップ1/3：入力" height="36" src="https://www.arksystems.co.jp/common/images/step01.gif" width="900" /></p>
+<div class="supplement">
+<ul>
+<li>
+ご入力上の注意
+<ul>
+<li>
+半角カタカナは文字化けの原因となりますので、ご使用にならないでください。</li>
+<li>
+<span class="required">[必須]</span> 印の項目は、必須項目となっています。</li>
+</ul>
+</li>
+<li>
+フォーム以外のご連絡方法
+<ul>
+<li>
+お電話をご利用の場合：　03-3666-8141</li>
+<li>
+メールをご利用の場合：　<a href="javascript:void(location.href='mailto:'+String.fromCharCode(105,110,102,111,97,114,107,45,102,101,101,100,98,97,99,107,64,97,114,107,115,121,115,116,101,109,115,46,99,111,46,106,112))">メールでのご連絡はこちら</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>
+<script type="text/javascript">
+<!--
+aform = new Object;
+aform.id = '1';
+aform.logger_url = 'https://www.arksystems.co.jp/contact/form/aform_logger.cgi';
+aform.checker_url = 'https://www.arksystems.co.jp/contact/form/aform_checker.cgi';
+aform.phrases = {"Input error:": "入力エラー:"};
+aform.static_uri = '/_mtadmin/mt-static/';
+//-->
+</script>
+<script src="/_mtadmin/mt-static/plugins/AForm/js/zenhanconv.js" type="text/javascript"></script>
+<script src="/_mtadmin/mt-static/plugins/AForm/js/jquery.js" type="text/javascript"></script>
+<script src="/_mtadmin/mt-static/plugins/AForm/js/jquery.validate.js" type="text/javascript"></script>
+<script src="/_mtadmin/mt-static/plugins/AForm/js/jquery.cookie.js" type="text/javascript"></script>
+<script src="/_mtadmin/mt-static/plugins/AForm/js/jquery.query.js" type="text/javascript"></script>
+<script src="/_mtadmin/mt-static/plugins/AForm/js/aform.js" type="text/javascript"></script>
+<script src="/_mtadmin/mt-static/plugins/AForm/js/jquery-ui-1.8.4.custom.min.js" type="text/javascript"></script>
+<script src="/_mtadmin/mt-static/plugins/AForm/js/jquery.ui.datepicker-ja.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="/_mtadmin/mt-static/plugins/AForm/style.css" />
+<div id="aform-1" class="aform ja">
+<div class="aform-checking" style="display:none;">フォームの状態を確認しています...</div>
+<div class="aform-content">
+<form enctype="multipart/form-data" name="aform-form-1" id="aform-form-1" method="post" action="https://www.arksystems.co.jp/contact/form/aform_engine.cgi"  novalidate="novalidate">
+<input type="hidden" name="blog_id" value="1" />
+<input type="hidden" name="id" value="1" />
+<input type="hidden" name="run_mode" value="confirm" />
+<input type="hidden" name="aform_url" value="https://www.arksystems.co.jp/contact/index.html" />
+<input type="hidden" name="aform_path" value="/contact/index.html" />
+<input type="hidden" name="entry_id" value="392" />
+<dl>
+<dt><label for="parts-46" class="aform-label parts-46">お問い合わせ内容</label>
+<span class="aform-validation parts-46">(<span class="max-length">400文字以内</span>)</span></dt>
+<dd><p class="aform-input-example parts-46">資料ご請求の場合は、どのような分野の資料がご必要か、具体的な課題などをご記入ください。</p>
+<p class="aform-error parts-46" id="parts-46-error"></p>
+<textarea
+id="parts-46"
+class="aform-input aform-textarea parts-46 validate-length"
+name="aform-field-46"
+cols="40"
+rows="6"
+title="お問い合わせ内容を400文字以内で入力してください"
+pattern=".{,400}"
+maxlength="400"></textarea></dd>
+</dl>
+<dl>
+<dt><span class="aform-label parts-2">資料送付希望</span>
+</dt>
+<dd>
+<p class="aform-error parts-2" id="parts-2-error"></p>
+<ul class="aform-checkbox-ul aform-field-2 parts-2"><li><input
+class="aform-input aform-checkbox parts-2"
+id="parts-2-1"
+name="aform-field-2-1"
+type="checkbox"
+onchange="aform$(this).valid()"
+value="1"
+title="選択してください" /><label for="parts-2-1">希望する</label></li></ul></dd>
+</dl>
+<dl>
+<dt><label for="parts-3" class="aform-label parts-3">ご氏名<span class="required">必須</span></label>
+<span class="aform-validation parts-3">(<span class="max-length">25文字以内</span>)</span></dt>
+<dd><p class="aform-input-example parts-3">入力例: 山田　太郎</p>
+<p class="aform-error parts-3" id="parts-3-error"></p>
+<input
+id="parts-3"
+class="aform-input aform-text parts-3 validate-length required"
+name="aform-field-3"
+type="text"
+value=""
+size="40"
+title="ご氏名を25文字以内で入力してください"
+required
+pattern=".{,25}"
+maxlength="25" /></dd>
+</dl>
+<dl>
+<dt><label for="parts-5" class="aform-label parts-5">ふりがな</label>
+<span class="aform-validation parts-5">(<span class="max-length">50文字以内</span>)</span></dt>
+<dd><p class="aform-input-example parts-5">入力例: やまだ　たろう</p>
+<p class="aform-error parts-5" id="parts-5-error"></p>
+<input
+id="parts-5"
+class="aform-input aform-text parts-5 validate-length"
+name="aform-field-5"
+type="text"
+value=""
+size="40"
+title="ふりがなを50文字以内で入力してください"
+pattern=".{,50}"
+maxlength="50" /></dd>
+</dl>
+<dl>
+<dt><label for="parts-7" class="aform-label parts-7">e-mail<span class="required">必須</span></label>
+<span class="aform-validation parts-7">(<span class="max-length">50文字以内</span>)</span></dt>
+<dd>
+<p class="aform-error parts-7" id="parts-7-error"></p>
+<input
+id="parts-7"
+class="aform-input aform-email parts-7 hankaku validate-email validate-length required"
+name="aform-field-7"
+type="email"
+value=""
+size="40"
+title="e-mail(英数記号のみ50文字以内)を入力してください 例）foo@example.com"
+required
+pattern=".{,50}"
+maxlength="50" /></dd>
+</dl>
+<dl>
+<dt><label for="parts-8" class="aform-label parts-8">貴社名<span class="required">必須</span></label>
+<span class="aform-validation parts-8">(<span class="max-length">50文字以内</span>)</span></dt>
+<dd>
+<p class="aform-error parts-8" id="parts-8-error"></p>
+<input
+id="parts-8"
+class="aform-input aform-text parts-8 validate-length required"
+name="aform-field-8"
+type="text"
+value=""
+size="40"
+title="貴社名を50文字以内で入力してください"
+required
+pattern=".{,50}"
+maxlength="50" /></dd>
+</dl>
+<dl>
+<dt><label for="parts-9" class="aform-label parts-9">部署名<span class="required">必須</span></label>
+<span class="aform-validation parts-9">(<span class="max-length">50文字以内</span>)</span></dt>
+<dd>
+<p class="aform-error parts-9" id="parts-9-error"></p>
+<input
+id="parts-9"
+class="aform-input aform-text parts-9 validate-length required"
+name="aform-field-9"
+type="text"
+value=""
+size="40"
+title="部署名を50文字以内で入力してください"
+required
+pattern=".{,50}"
+maxlength="50" /></dd>
+</dl>
+<dl>
+<dt><label for="parts-10" class="aform-label parts-10">役職名</label>
+<span class="aform-validation parts-10">(<span class="max-length">50文字以内</span>)</span></dt>
+<dd>
+<p class="aform-error parts-10" id="parts-10-error"></p>
+<input
+id="parts-10"
+class="aform-input aform-text parts-10 validate-length"
+name="aform-field-10"
+type="text"
+value=""
+size="40"
+title="役職名を50文字以内で入力してください"
+pattern=".{,50}"
+maxlength="50" /></dd>
+</dl>
+<dl>
+<dt><label for="parts-11" class="aform-label parts-11">郵便番号</label>
+</dt>
+<dd><p class="aform-input-example parts-11">入力例:123-4567</p>
+<p class="aform-error parts-11" id="parts-11-error"></p>
+<input
+id="parts-11"
+class="aform-input aform-zipcode parts-11 hankaku validate-zipcode"
+name="aform-field-11"
+type="text"
+value=""
+size="40"
+title="郵便番号(数字とハイフンのみ)を入力してください 例）123-4567"
+/></dd>
+</dl>
+<dl>
+<dt><label for="parts-12" class="aform-label parts-12">ご住所(都道府県)</label>
+</dt>
+<dd>
+<p class="aform-error parts-12" id="parts-12-error"></p>
+<select
+id="parts-12"
+class="aform-input aform-prefecture parts-12"
+name="aform-field-12"
+title="選択してください"><option value="">選択して下さい</option><option value="1">北海道</option><option value="2">青森県</option><option value="3">岩手県</option><option value="4">宮城県</option><option value="5">秋田県</option><option value="6">山形県</option><option value="7">福島県</option><option value="8">茨城県</option><option value="9">栃木県</option><option value="10">群馬県</option><option value="11">埼玉県</option><option value="12">千葉県</option><option value="13">東京都</option><option value="14">神奈川県</option><option value="15">新潟県</option><option value="16">富山県</option><option value="17">石川県</option><option value="18">福井県</option><option value="19">山梨県</option><option value="20">長野県</option><option value="21">岐阜県</option><option value="22">静岡県</option><option value="23">愛知県</option><option value="24">三重県</option><option value="25">滋賀県</option><option value="26">京都府</option><option value="27">大阪府</option><option value="28">兵庫県</option><option value="29">奈良県</option><option value="30">和歌山県</option><option value="31">鳥取県</option><option value="32">島根県</option><option value="33">岡山県</option><option value="34">広島県</option><option value="35">山口県</option><option value="36">徳島県</option><option value="37">香川県</option><option value="38">愛媛県</option><option value="39">高知県</option><option value="40">福岡県</option><option value="41">佐賀県</option><option value="42">長崎県</option><option value="43">熊本県</option><option value="44">大分県</option><option value="45">宮崎県</option><option value="46">鹿児島県</option><option value="47">沖縄県</option></select></dd>
+</dl>
+<dl>
+<dt><label for="parts-13" class="aform-label parts-13">ご住所(市区町村以降)</label>
+<span class="aform-validation parts-13">(<span class="max-length">200文字以内</span>)</span></dt>
+<dd>
+<p class="aform-error parts-13" id="parts-13-error"></p>
+<input
+id="parts-13"
+class="aform-input aform-text parts-13 validate-length"
+name="aform-field-13"
+type="text"
+value=""
+size="40"
+title="ご住所(市区町村以降)を200文字以内で入力してください"
+pattern=".{,200}"
+maxlength="200" /></dd>
+</dl>
+<dl>
+<dt><label for="parts-14" class="aform-label parts-14">お電話番号<span class="required">必須</span></label>
+<span class="aform-validation parts-14">(<span class="max-length">25文字以内</span>)</span></dt>
+<dd><p class="aform-input-example parts-14">入力例: 03-1234-5678</p>
+<p class="aform-error parts-14" id="parts-14-error"></p>
+<input
+id="parts-14"
+class="aform-input aform-tel parts-14 hankaku validate-tel validate-length required"
+name="aform-field-14"
+type="tel"
+value=""
+size="40"
+title="お電話番号(数字とハイフンのみ25文字以内)を入力してください 例）0312345678"
+required
+pattern=".{,25}"
+maxlength="25" /></dd>
+</dl>
+<dl>
+<dt><label for="parts-15" class="aform-label parts-15">FAX番号</label>
+<span class="aform-validation parts-15">(<span class="max-length">25文字以内</span>)</span></dt>
+<dd><p class="aform-input-example parts-15">入力例: 03-1234-5678</p>
+<p class="aform-error parts-15" id="parts-15-error"></p>
+<input
+id="parts-15"
+class="aform-input aform-tel parts-15 hankaku validate-tel validate-length"
+name="aform-field-15"
+type="tel"
+value=""
+size="40"
+title="FAX番号(数字とハイフンのみ25文字以内)を入力してください 例）0312345678"
+pattern=".{,25}"
+maxlength="25" /></dd>
+</dl>
+<dl>
+<dt><span class="aform-label parts-16">infoARK★NEWSメール配信</span>
+</dt>
+<dd><p class="aform-input-example parts-16">infoARKの最新記事やトピックスをメールにてお知らせしております (配信頻度 : 年数回程度、<a href="/contact/infoarknewsbacknumber.html" target="refwin">サンプル (別ウィンドウで開きます)</a>) 。 配信を希望される方はチェックをお入れください。</p>
+<p class="aform-error parts-16" id="parts-16-error"></p>
+<ul class="aform-checkbox-ul aform-field-16 parts-16"><li><input
+class="aform-input aform-checkbox parts-16"
+id="parts-16-1"
+name="aform-field-16-1"
+type="checkbox"
+onchange="aform$(this).valid()"
+value="1"
+title="選択してください" /><label for="parts-16-1">希望する</label></li></ul></dd>
+</dl>
+<dl>
+<dt><span class="aform-label parts-48">個人情報の取り扱いについて<span class="required">必須</span></span>
+</dt>
+<dd>
+<p class="aform-input-example">このフォームからの送信内容は、SSL暗号化通信によって保護されます。<br />ご記入いただいた個人情報は、お問い合わせ内容への回答、資料など物品の送付、メール配信を目的とする情報で、第三者に開示、提供するものではありません。<br />当社の個人情報の保護については「<a href="https://www.arksystems.co.jp/privacypolicy.html" target="refwin">個人情報保護方針 (別ウィンドウで開きます)</a>」ページをご覧ください。</p>
+<p class="aform-error parts-48" id="parts-48-error"></p>
+<ul class="aform-checkbox-ul aform-field-48 parts-48"><li><input
+class="aform-input aform-checkbox parts-48 validate-privacy"
+id="parts-48-1"
+name="aform-field-48-1"
+type="checkbox"
+onchange="aform$(this).valid()"
+value="1"
+title="個人情報の取り扱いについてに同意してください。規約にご同意いただける場合チェックを入れてください（ご同意いただけない場合は送信できません）" /><label for="parts-48-1">個人情報保護方針に同意する</label></li></ul></dd>
+</dl>
+<!--
+<div class="submit"><input id="aform_btn_confirm_1" type="submit" name="Submit" value="確認" /></div>-->
+<div class="submit">
+<input type="image" src="/common/images/btn_confirm.gif" name="Submit" alt="確認画面へ進む" />
+</div>
+</form>
+<script type="text/javascript">
+<!--
+aform$(document).ready(function() {
+postAFormAccessLog('1');
+postAFormChecker();
+addAFormValidate();
+aform$('#aform-form-1').validate({
+onkeyup: false,
+wrapper: "div",
+showErrors: aformValidate_showErrors,
+errorPlacement: aformValidate_errorPlacement
+});
+});
+//-->
+</script>
+</div>
+</div>
+</p>
+<div class="supplement">
+<dl>
+<dt>
+操作中にエラーになる場合</dt>
+<dd>
+システムのメンテナンスやトラブルなどで、送信ができない、または、届いていない可能性があります。</dd>
+<dd>
+恐れ入りますが、下記宛ての電子メールやお電話などにて、ご連絡くださいますようお願いいたします。</dd>
+<dd>
+株式会社アークシステム　マーケティング部　　TEL : 03-3666-8141　　FAX : 03-3666-8143　　<a href="javascript:void(location.href='mailto:'+String.fromCharCode(105,110,102,111,97,114,107,45,102,101,101,100,98,97,99,107,64,97,114,107,115,121,115,116,101,109,115,46,99,111,46,106,112))">メールでのご連絡</a></dd>
+</dl>
+</div>
+</div></div></div>
+</div>
+</div>
+</div>
+<!-- /content -->
+<p class="pagetop"><a href="#container"><img src="/common/images/pagetop.gif" width="111" height="12" alt="このページの先頭へ" class="imgover" /></a></p>
+<!-- footer -->
+<div id="footer">
+<div id="footer-section">
+<ul>
+<li><a href="https://www.arksystems.co.jp/sitemap.html"><img src="/common/images/ftr_sitemap.gif" width="80" height="11" alt="サイトマップ" class="imgover" /></a></li>
+<li><a href="https://www.arksystems.co.jp/contact/"><img src="/common/images/ftr_contact.gif" width="87" height="11" alt="お問い合わせ" class="imgover" /></a></li>
+</ul>
+<form id="js-search4footer" action="https://www.arksystems.co.jp/search.html" method="get" class="search-form">
+<input type="hidden" name="cate" value="none" />
+<input type="search" name="keyword" autocomplete="off" />
+<!-- tmpl -->
+<div class="box-suggest-result js-suggest-result" style="display: none;">
+<ul class="js-suggest-list"></ul>
+</div>
+<!-- /tmpl -->
+<input class="button-search js-go-search" type="image" src="/common/images/ico_search_w.png" alt="検索" />
+</form>
+</div>
+<!-- footer-section-bottom -->
+<div id="footer-section-bottom">
+<div id="footer-nav" class="footer-aside">
+<h2><a href="https://www.arksystems.co.jp/"><img src="/common/images/ftr_home.gif" width="163" height="13" alt="アークシステム　ホーム" class="imgover" /></a></h2>
+<ul>
+<li><a href="https://www.arksystems.co.jp/profile/">アークシステムについて</a></li>
+<li><a href="https://www.arksystems.co.jp/closeupit/">技術レポート Close-Up IT</a></li>
+<li><a href="http://saiyo.arksystems.co.jp/">採用情報</a></li>
+<li><a href="https://www.arksystems.co.jp/contact/infoarknews.html">メール配信登録</a></li>
+<li><a href="https://www.arksystems.co.jp/topics/">お知らせ</a></li>
+</ul>
+</div>
+<script type="text/javascript">
+jQuery(function(){
+jQuery('#footer-tabs').tabs();
+});
+</script>
+<div id="footer-tabs" class="footer-aside">
+<ul class="ui-tabs-nav">
+<li class="tab-1"><a href="#tabs-1"><span class="tab-1">サービス</span></a></li>
+<li class="tab-2"><a href="#tabs-2"><span class="tab-2">業務事例</span></a></li>
+</ul>
+<div id="tabs-1">
+<dl>
+<dt class="first"><a href="https://www.arksystems.co.jp/services/mainframe/">メインフレーム基盤ソリューション</a></dt>
+<dd><ul>
+<li><a href="https://www.arksystems.co.jp/services/mainframe/mf010/">システム・インフラ基盤の設計・構築</a></li>
+<li><a href="https://www.arksystems.co.jp/services/mainframe/mf020/">運用管理システム構築</a></li>
+<li><a href="https://www.arksystems.co.jp/services/mainframe/mf030/">システム評価改善</a></li>
+<li><a href="https://www.arksystems.co.jp/services/mainframe/mf040/">汎用機Q&amp;A支援</a></li>
+</ul></dd>
+<dt><a href="https://www.arksystems.co.jp/services/open/">オープン基盤ソリューション</a></dt>
+<dd><ul>
+<li><a href="https://www.arksystems.co.jp/services/open/op010/">アーキテクト支援</a></li>
+<li><a href="https://www.arksystems.co.jp/services/open/op020/">システム・インフラ基盤の設計・構築</a></li>
+<li><a href="https://www.arksystems.co.jp/services/open/op030/">ネットワークの再構築・改善・最適化</a></li>
+<li><a href="https://www.arksystems.co.jp/services/open/op040/">運用管理システム構築</a></li>
+<li><a href="https://www.arksystems.co.jp/services/open/op050/">システム評価改善</a></li>
+</ul></dd>
+<dt><a href="https://www.arksystems.co.jp/services/web/">Webシステムソリューション</a></dt>
+<dd><ul>
+<li><a href="https://www.arksystems.co.jp/services/web/ws010/">Webアプリケーションの設計・構築・保守</a></li>
+<li><a href="https://www.arksystems.co.jp/services/web/ws020/">開発技法 (ノウハウ) の提供</a></li>
+<li><a href="https://www.arksystems.co.jp/services/web/ws030/">オープンソース・ソリューション</a></li>
+</ul></dd>
+<dt><a href="https://www.arksystems.co.jp/services/it_mngmnt/">IT運用管理ソリューション</a></dt>
+<dd><ul>
+<li><a href="https://www.arksystems.co.jp/services/it_mngmnt/im010/">IT企画業務および運用改善コンサルテーション</a></li>
+<li><a href="https://www.arksystems.co.jp/services/it_mngmnt/im020/">センター運用業務の継続的実施</a></li>
+</ul></dd>
+</dl>
+</div>
+<div id="tabs-2">
+<dl>
+<dt class="first"><a href="https://www.arksystems.co.jp/works/mainframe/">メインフレーム基盤ソリューションの事例</a></dt>
+<dd><ul>
+<li><a href="https://www.arksystems.co.jp/works/mainframe/mf010/">システム・インフラ基盤の設計・構築</a></li>
+<li><a href="https://www.arksystems.co.jp/works/mainframe/mf020/">運用管理システム構築</a></li>
+<li><a href="https://www.arksystems.co.jp/works/mainframe/mf030/">システム評価改善</a></li>
+<li><a href="https://www.arksystems.co.jp/works/mainframe/mf040/">汎用機Q&amp;A支援</a></li>
+</ul></dd>
+<dt><a href="https://www.arksystems.co.jp/works/open/">オープン基盤ソリューションの事例</a></dt>
+<dd><ul>
+<li><a href="https://www.arksystems.co.jp/works/open/op010/">アーキテクト支援</a></li>
+<li><a href="https://www.arksystems.co.jp/works/open/op020/">システム・インフラ基盤の設計・構築</a></li>
+<li><a href="https://www.arksystems.co.jp/works/open/op030/">ネットワークの再構築・改善・最適化</a></li>
+<li><a href="https://www.arksystems.co.jp/works/open/op040/">運用管理システム構築</a></li>
+<li><a href="https://www.arksystems.co.jp/works/open/op050/">システム評価改善</a></li>
+</ul></dd>
+<dt><a href="https://www.arksystems.co.jp/works/web/">Webシステムソリューションの事例</a></dt>
+<dd><ul>
+<li><a href="https://www.arksystems.co.jp/works/web/ws010/">Webアプリケーションの設計・構築・保守</a></li>
+<li><a href="https://www.arksystems.co.jp/works/web/ws020/">開発技法 (ノウハウ) の提供</a></li>
+<li><a href="https://www.arksystems.co.jp/works/web/ws030/">オープンソース・ソリューション</a></li>
+</ul></dd>
+<dt><a href="https://www.arksystems.co.jp/works/it_mngmnt/">IT運用管理ソリューションの事例</a></dt>
+<dd><ul>
+<li><a href="https://www.arksystems.co.jp/works/it_mngmnt/im010/">IT企画業務および運用改善コンサルテーション</a></li>
+<li><a href="https://www.arksystems.co.jp/works/it_mngmnt/im020/">センター運用業務の継続的実施</a></li>
+</ul></dd>
+</dl>
+</div>
+</div>
+<div id="footer-banner" class="footer-aside">
+<ul class="bnr">
+<li><a href="https://www.arksystems.co.jp/contact/infoarknews.html"><img src="/common/images/ftr_banner_mailmagazine.gif" width="250" height="50" alt="メール配信登録" /></a></li>
+<li><a href="http://saiyo.arksystems.co.jp/"><img src="/common/images/ftr_banner_recruit.gif" width="250" height="50" alt="採用情報" /></a></li>
+<li><a href="https://www.arksystems.co.jp/profile/"><img src="/common/images/ftr_banner_whatsark.gif" width="250" height="50" alt="アークシステムについて" /></a></li>
+</ul>
+<ul class="info">
+<li class="ssl"><span id="ss_img_wrapper_100-50_image_ja"><a href="http://jp.globalsign.com/" target="_blank"><img alt="SSL　グローバルサインのサイトシール" border="0" id="ss_img" src="//seal.globalsign.com/SiteSeal/images/gs_noscript_100-50_ja.gif"/></a></span><script type="text/javascript" src="//seal.globalsign.com/SiteSeal/gs_image_100-50_ja.js" defer="defer"></script></li>
+<li class="privacy"><a href="https://privacymark.jp/" target="_blank"><img src="/common/images/ftr_privacy.gif" width="71" height="77" alt="プライバシーマーク 11820623(01)" /></a></li>
+</ul>
+</div>
+</div>
+<!-- /footer-section-bottom -->
+<dl id="footer-about">
+<dt><a href="https://www.arksystems.co.jp/"><img src="/common/images/ftr_logo.gif" width="224" height="44" alt="アークシステム" /></a></dt>
+<dd>東京都中央区日本橋箱崎町24番1号 日本橋箱崎ビル<a href="https://www.arksystems.co.jp/profile/access.html">アクセス</a></dd>
+<dd class="copyright">Copyright 1998 - 2018 ARK Systems Co.,Ltd. All Rights Reserved.</dd>
+</dl>
+<ul id="footer-links">
+<li><a href="https://www.arksystems.co.jp/english/">English</a></li>
+<li><a href="https://www.arksystems.co.jp/sitepolicy.html">サイトポリシー</a></li>
+<li><a href="https://www.arksystems.co.jp/privacypolicy.html">個人情報保護方針</a></li>
+<li><a href="https://www.arksystems.co.jp/mynumber.html">特定個人情報の適正な取扱いに関する基本方針</a></li>
+</ul>
+</div>
+<!-- /footer -->
+</div>
+<!-- /container -->
+<!-- Pardot Tracking Code -->
+<script type="text/javascript">
+piAId = '271822';
+piCId = '1040';
+(function() {
+function async_load(){
+var s = document.createElement('script'); s.type = 'text/javascript';
+s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+}
+if(window.attachEvent) { window.attachEvent('onload', async_load); }
+else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+<!-- /Pardot Tracking Code -->
+</body>
+</html>

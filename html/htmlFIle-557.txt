@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>MICHAELA PHARMATICA</title>
+<meta name="description" content="MICHAELA PHARMATICA 大人髪、豊かに輝く。" />
+<meta name="keywords" content="MICHAELA PHARMATICA,ミカエラファーマティカ" />
+<link rel="shortcut icon" href="/images/favicon.ico" />
+<link href="/css/reset.css" rel="stylesheet" type="text/css" />
+<link href="/css/layout.css" rel="stylesheet" type="text/css" />
+<link href="/css/index.css" rel="stylesheet" type="text/css" />
+<link href="/css/flexslider.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+<script language="javascript" src="/js/hover_img.js" type="text/javascript"></script>
+<script language="javascript" src="/js/gmap.js" type="text/javascript"></script>
+<script language="javascript" src="/js/smoothscroll.js" type="text/javascript"></script>
+<script language="javascript" src="/js/formcheck.js" type="text/javascript"></script>
+<script language="javascript" src="/js/jcarousellite_1.0.1.js" type="text/javascript"></script>
+<script language="javascript" src="/js/jquery.flexslider-min.js" type="text/javascript"></script>
+<script type="text/javascript" charset="utf-8">
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "fade",
+				directionNav: false,
+				animationSpeed: 1500,
+				slideshowSpeed: 5000,
+  });
+});
+</script>
+<script type="text/javascript" charset="utf-8">
+ $(function() {
+  $(".jCarouselLite").jCarouselLite({
+  btnNext: ".next",
+  btnPrev: ".prev",
+		visible: 6
+  });
+ });
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79839223-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+<a name="top" id="top"></a> 
+<!--header-->
+<div id="header_box">
+  <h1><a href="/"><img src="/images/logo_1.png" width="129" height="102" alt="MICHAELA PHARMATICA" /></a></h1>
+  <ul id="nav">
+    <li id="nav_01"><a href="/">HOME</a></li>
+    <li id="nav_02"><a href="/products/">PRODUCTS</a></li>
+    <li id="nav_03"><a href="/company/">COMPANY</a></li>
+    <li id="nav_04"><a href="/salon/">SALON SEARCH</a></li>
+    <li id="nav_05"><a href="http://www.michaela-ph.jp/inquiry/">CONTACT/REQUEST</a></li>
+  </ul>
+  <br clear="all" />
+</div>
+<!--//header--><div id="wrapper">
+
+<div class="contact_box">
+ <h2>Contact</h2>
+
+ <p class="contact_txt">弊社へのご意見、お問い合せなどございましたら、下記のお問い合わせフォームよりご連絡ください。<br />
+ お問い合わせの内容によっては、返信に時間がかかる場合もございますので、あらかじめご了承ください。</p>
+ <p class="nav_contact"><img src="/images/nav_contact_01.gif" width="950" height="60" alt="お問い合わせ入力" /></p>
+
+<form action="/contact/comf/" method="post">
+ <table>
+ <tr>
+  <th><img src="/images/ico_req.png" width="38" height="16" alt="必須" />お問い合わせ</th>
+  <td><label><input type="radio" name="contact_type" class="validate required" value="美容室様">美容室様</label><br />
+  <label><input type="radio" name="contact_type" class="validate required" value="クリニック・エステティックサロン様">クリニック・エステティックサロン様</label><br />
+  <label><input type="radio" name="contact_type" class="validate required" value="一般のお客様">一般のお客様</label></td>
+ </tr>
+ <tr>
+  <th><img src="/images/ico_req.png" width="38" height="16" alt="必須" />お問い合わせ内容</th>
+  <td><textarea name="f_contents" rows="8" cols="40" class="validate required"></textarea></td>
+ </tr>
+ <tr>
+  <th><img src="/images/ico_req.png" width="38" height="16" alt="必須" />トラブル</th>
+  <td class="validate checkboxRequired"><label><input type="checkbox" name="f_trouble[]" value="育毛（男性）">育毛（男性）</label><br />
+<label><input type="checkbox" name="f_trouble[]" value="育毛（女性）">育毛（女性）</label><br />
+<label><input type="checkbox" name="f_trouble[]" value="白髪">白髪</label><br />
+<label><input type="checkbox" name="f_trouble[]" value="ダメージヘア">ダメージヘア</label><br />
+<label><input type="checkbox" name="f_trouble[]" value="男性特有の髪悩み">男性特有の髪悩み</label><br />
+※最も解決したいトラブルをご選択ください。（複数選択可）</td>
+ </tr>
+
+ <tr>
+  <th>お客様年代（平均）</th>
+  <td><label><input type="checkbox" name="f_age[]" value="20歳～29歳">20歳～29歳</label><br />
+  <label><input type="checkbox" name="f_age[]" value="30歳～39歳">30歳～39歳</label><br />
+  <label><input type="checkbox" name="f_age[]" value="40歳～49歳">40歳～49歳</label><br />
+  <label><input type="checkbox" name="f_age[]" value="50歳以上">50歳以上</label><br />
+※美容室様、クリニック・エステティックサロン様の方は必ずご記入下さい。（複数選択可）</td>
+ </tr>
+
+ <tr>
+  <th>貴店名</th>
+  <td><input type="text" name="f_salon" class="w300"><br />
+  ※美容室様、クリニック・エステティックサロン様の方は必ずご記入下さい。</td>
+ </tr>
+ <tr>
+  <th><img src="/images/ico_req.png" width="38" height="16" alt="必須" />お名前</th>
+  <td><input type="text" name="f_name" class="validate required w300"></td>
+ </tr>
+ <tr>
+  <th><img src="/images/ico_req.png" width="38" height="16" alt="必須" />フリガナ</th>
+  <td><input type="text" name="f_kana" class="validate required w300"></td>
+ </tr>
+ <tr>
+  <th><img src="/images/ico_req.png" width="38" height="16" alt="必須" />メールアドレス</th>
+  <td><input type="text" name="f_mail" class="validate required mail w400"></td>
+ </tr>
+ <tr>
+  <th><img src="/images/ico_req.png" width="38" height="16" alt="必須" />メールアドレス確認用</th>
+  <td><input type="text" name="f_mail_c" class="validate required mail_check w400"></td>
+ </tr>
+ <tr>
+  <th><img src="/images/ico_req.png" width="38" height="16" alt="必須" />電話番号</th>
+  <td><input type="text" name="f_tel1" class="validate required w50" /> - <input type="text" name="f_tel2" class="validate required w80"> - <input type="text" name="f_tel3" class="validate required w80"></td>
+ </tr>
+ <tr>
+  <th><img src="/images/ico_req.png" width="38" height="16" alt="必須" />郵便番号</th>
+  <td><input type="text" name="f_postal1" class="validate required w50" /> - <input type="text" name="f_postal2" class="validate required w50"></td>
+ </tr>
+ <tr>
+  <th><img src="/images/ico_req.png" width="38" height="16" alt="必須" />都道府県</th>
+  <td><select class="validate required" name="f_pref">
+<option value="" selected="selected">▼ご選択ください▼</option>
+<option value="北海道">北海道</option>
+<option value="青森県">青森県</option>
+<option value="岩手県">岩手県</option>
+<option value="秋田県">秋田県</option>
+<option value="宮城県">宮城県</option>
+<option value="山形県">山形県</option>
+<option value="福島県">福島県</option>
+<option value="茨城県">茨城県</option>
+<option value="栃木県">栃木県</option>
+<option value="群馬県">群馬県</option>
+<option value="埼玉県">埼玉県</option>
+<option value="千葉県">千葉県</option>
+<option value="東京都">東京都</option>
+<option value="神奈川県">神奈川県</option>
+<option value="新潟県">新潟県</option>
+<option value="富山県">富山県</option>
+<option value="石川県">石川県</option>
+<option value="福井県">福井県</option>
+<option value="山梨県">山梨県</option>
+<option value="長野県">長野県</option>
+<option value="岐阜県">岐阜県</option>
+<option value="静岡県">静岡県</option>
+<option value="愛知県">愛知県</option>
+<option value="三重県">三重県</option>
+<option value="滋賀県">滋賀県</option>
+<option value="京都府">京都府</option>
+<option value="大阪府">大阪府</option>
+<option value="兵庫県">兵庫県</option>
+<option value="奈良県">奈良県</option>
+<option value="和歌山県">和歌山県</option>
+<option value="鳥取県">鳥取県</option>
+<option value="島根県">島根県</option>
+<option value="岡山県">岡山県</option>
+<option value="広島県">広島県</option>
+<option value="山口県">山口県</option>
+<option value="徳島県">徳島県</option>
+<option value="香川県">香川県</option>
+<option value="愛媛県">愛媛県</option>
+<option value="高知県">高知県</option>
+<option value="福岡県">福岡県</option>
+<option value="佐賀県">佐賀県</option>
+<option value="長崎県">長崎県</option>
+<option value="熊本県">熊本県</option>
+<option value="大分県">大分県</option>
+<option value="宮崎県">宮崎県</option>
+<option value="鹿児島県">鹿児島県</option>
+<option value="沖縄県">沖縄県</option>
+</select></td>
+ </tr>
+ <tr>
+  <th><img src="/images/ico_req.png" width="38" height="16" alt="必須" />住所1（市区町村）</th>
+  <td><input type="text" name="f_add1" class="validate required w400" /></td>
+ </tr>
+ <tr>
+  <th>住所2（町名以降）</th>
+  <td><input type="text" name="f_add2" class="w400" /></td>
+ </tr>
+ <tr>
+  <th>住所3（建物名）</th>
+  <td><input type="text" name="f_add3" class="required w400" /></td>
+ </tr>
+ </table>
+
+ <p class="bt_conf"><input type="image" src="/images/bt_conf.png" value="確認する" /></p>
+
+</form>
+
+</div>
+
+<!--footer-->
+<div id="footer_bg">
+  <div id="footer">
+    <p class="back_btn"><a href="#top">戻る</a></p>
+    <ul class="footer_cont">
+      <li><a href="/">■ ホーム</a></li>
+	<li><a target="_blank" href="http://www.michaela-ph.jp/en/">■ English</a></li>
+    </ul>
+    <ul class="footer_cont">
+      <li><a href="/products/">■ 商品一覧</a>
+        <ul>
+          <li class="footer_item"><a href="/products/#lusuerhair">・ラスターヘアライン</a></li>
+          <li class="footer_item"><a href="/products/#luxehair">・リュクスヘアライン</a></li>
+          <li class="footer_item"><a href="/products/#repairing">・リペアリングライン</a></li>
+          <li class="footer_item"><a href="/products/#onyxhair">・オニキスヘアライン</a></li>
+          <li class="footer_item"><a href="/products/#jewelhairoil">・ジュエルヘアオイル</a></li>
+        </ul>
+      </li>
+    </ul>
+    <ul class="footer_cont">
+      <li><a href="/company/">■ 会社概要</a></li>
+      <li><a href="/salon/">■ お取扱いサロン</a></li>
+      <li><a href="http://www.michaela-ph.jp/inquiry/">■ お問い合せ</a></li>
+	<li><a href="http://www.metatron-cosme.jp/" target="_blank">■ MTメタトロン</a></li>
+	<li><a href="http://sandalphon-body.jp/" target="_blank">■ サンダルフォン</a></li>
+    </ul>
+    <br clear="all" />
+    <p class="footer_logo"><a href="/"><img src="/images/logo.png" width="130" height="80" alt="MICHAELA PHARMATICA" /></a></p>
+    <br clear="all" />
+    <p class="footer_txt">Copyright &copy; MT cosmetics All rights reserved.</p>
+    <p class="footer_txt">掲載の情報・画像など、すべてのコンテンツの無断複写・転載を禁じます</p>
+  </div>
+</div>
+<!--//footer-->
+
+</div>
+<script type="text/javascript">
+piAId = '464182';
+piCId = '277153';
+piHostname = 'pi.pardot.com';
+
+(function() {
+ function async_load(){
+  var s = document.createElement('script'); s.type = 'text/javascript';
+  s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+  var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+ }
+ if(window.attachEvent) { window.attachEvent('onload', async_load); }
+ else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+</body>
+</html>

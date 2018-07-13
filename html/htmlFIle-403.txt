@@ -1,0 +1,1027 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>お問い合わせ｜GMOクラウド ALTUS（アルタス）</title>
+<meta name="description" content="ALTUS(アルタス)Basicシリーズ、Isolateシリーズについて、当社スタッフがお客さまの立場で親身にご相談いたします。">
+<meta name="keywords" content="無料トライアル,お問い合わせ,ご契約前,クラウド">
+<link rel="canonical" href="https://www.gmocloud.com/contact/">
+<link rel="stylesheet" href="/template/assets/css/foundation.min.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css">
+<link rel="stylesheet" href="/template/assets/css/base.css?20180529">
+<link rel="stylesheet" href="/template/css/common.css?20180622">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+window.jQuery || document.write("<script src='/template/assets/js/jquery.min.js'><\/script>")
+</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/js/foundation.min.js"></script>
+<script>
+window.Foundation || document.write("<script src='/template/assets/js/foundation.min.js'><\/script>")
+</script>
+<link rel="icon" href="/template/img/favicon.ico" type="image/x-icon">
+<!-- Google Analytics -->
+<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-27685349-1', 'auto');
+	ga('send', 'pageview');
+</script>
+<!-- /Google Analytics -->
+
+<!-- Google Tag Manager -->
+<script type="text/javascript">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MK8VNH');
+</script>
+<script type="text/javascript">
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KJSLNFP');</script>
+<!-- End Google Tag Manager -->
+<link rel="stylesheet" href="css/index.css">
+<style>
+@media screen and (max-width: 39.9375em) {
+	.nav-type{
+		height: 5rem;
+	}
+	#type .columns{
+		padding-right:0.8rem;
+		padding-left: 0.8rem;
+	}
+	#tab1-label, #tab2-label{
+		height: 4.5rem;
+	}
+	#type li.is-active a{
+		height: 5rem;
+	}
+	#type li a{
+		font-size: 16px;
+		line-height: 2rem;
+	}
+	#user .columns{
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+	}
+	
+	#user .nav-series a#objectSt{
+		line-height: 1.5rem;
+	}
+}
+</style>
+</head>
+<body>
+<div id="page">
+
+<!-- GTM -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MK8VNH" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KJSLNFP" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- /GTM -->
+
+<!-- Technical info -->
+<script type="text/javascript" src="//support.gmocloud.com/technews/public.js"></script>
+<!-- /Technical info -->
+
+<header class="global-header">
+	<div class="row global-header-top">
+		<div class="large-4 medium-3 small-12 columns header-logo">
+			<p><a href="/"><img src="/template/img/logo.svg" alt="パブリッククラウドならGMOクラウド ALTUS（アルタス）"></a></p>
+		</div>
+		<div class="large-2 columns text-right show-for-large">
+			<p class="tel"><strong><i class="fi-telephone"></i>0120-312-614</strong><small>（平日10:00〜18:00）</small></p>
+		</div>
+		<div class="large-3 medium-5 columns hide-for-small-only global-nav-sub">
+			<ul class="menu dropdown align-right" data-dropdown-menu>
+				<li><a>ログイン</a>
+					<ul class="menu">
+						<li><a href="https://pf.gmocloud.com/login" onclick="ga('send','event','LoginButton','click','altus');" target="_blank" class="blank">GMOクラウド ALTUS</a></li>
+						<li><a href="https://portal.gmocloud.com/login/signin" onclick="ga('send','event','LoginButton','click','public');" target="_blank" class="blank">GMOクラウド Public</a></li>
+						<li><a href="https://login.gmocloudpublic.com/login/signin" onclick="ga('send','event','LoginButton','click','public_z');" target="_blank" class="blank">Public Zシリーズ</a></li>
+						<li><a href="/login.html?navi=header">ログイン一覧</a></li>
+					</ul>
+				</li>
+				<li><a href="/estimate/?navi=header">お見積もり</a></li>
+				<li><a href="/contact/?navi=header">お問い合わせ</a></li>
+			</ul>
+		</div>
+		<div class="large-3 medium-4 columns text-right">
+			<div class="show-for-medium function-nav">
+				<a href="https://pf.gmocloud.com/order/index.html" onclick="ga('send','event','OrderButton','click','order from header');" target="_blank" class="button tiny alert blank">新規登録〈14日間無料〉</a>
+				<a class="button tiny search" id="search_open" data-toggle="search-box"><i class="fi-magnifying-glass"></i></a>
+
+				<div class="search-box" id="search-box" data-toggler=".active">
+					<form action="/result.html">
+						<input type="text" id="q2" name="q" value="" placeholder="サイト内をキーワード検索">
+						<button type="submit"><i class="fi-magnifying-glass"></i></button>
+					</form>
+					<a class="button tiny close" id="search_close" data-toggle="search-box"><i class="fi-x"></i></a>
+				<!-- / .search-box --></div>
+			</div>
+			<p class="sp-menu" data-responsive-toggle="gnav" data-hide-for="medium"><span class="menu-icon dark" data-toggle><span>MENU</span></span></p>
+		</div>
+	</div>
+	<div id="gnav" class="global-nav">
+		<div class="pc-nav show-for-medium">
+			<div class="row">
+				<div class="logo  show-for-large"><a href="/"><img src="/template/img/logo.svg" alt="GMOクラウド ALTUS（アルタス）"></a></div>
+				<div class="category dropdown ">
+					<a><span class="hide-fixed">シリーズ</span>仕様・料金</a>
+					<div class="submenu">
+						<div class="submenu-inside">
+							<div class="row medium-up-4">
+								<div class="columns nav-basic">
+									<a href="/basic/?navi=header" class="bnr"><img src="/template/img/logo_basic.svg" alt="Basic シリーズ"></a>
+									データ転送量無料<br>サーバーコスト最適化に
+									<ul class="link_arrow">
+										<li><a href="/basic/service/?navi=header">仕様・機能</a></li>
+										<li><a href="/basic/resource/?navi=header">リソースパックとは</a></li>
+										<li><a href="/basic/price/?navi=header">料金</a></li>
+										<li><a href="/basic/example/?navi=header">構成例</a></li>
+										<li><a href="/basic/?navi=header">特長</a></li>
+									</ul>
+								</div>
+								<div class="columns nav-isolate">
+									<a href="/isolate/?navi=header" class="bnr"><img src="/template/img/logo_isolate.svg" alt="Isolate シリーズ"></a>
+									VLAN環境を標準搭載<br>低コストで高セキュア環境
+									<ul class="link_arrow">
+										<li class="sub"><a href="/isolate/service/?navi=header">仕様・機能</a></li>
+										<li class="sub"><a href="/isolate/price/?navi=header">料金</a></li>
+										<li class="sub"><a href="/isolate/example/?navi=header">構成例</a></li>
+										<li class="sub"><a href="/isolate/?navi=header">特長</a></li>
+									</ul>
+								</div>
+								<div class="columns nav-fileserver">
+									<a href="https://fileserver.gmocloud.com" class="bnr"><img src="/template/img/logo_fileserver.svg" alt="ファイル執事"></a>
+									ファイルサーバー利用<br>導入はおまかせ
+									<ul class="link_arrow">
+										<li><a href="https://fileserver.gmocloud.com/scene/" target="_blank" class="blank">活用シーン</a></li>
+										<li><a href="https://fileserver.gmocloud.com/price/" target="_blank" class="blank">料金</a></li>
+										<li><a href="https://fileserver.gmocloud.com/faq/" target="_blank" class="blank">よくあるご質問</a></li>
+									</ul>
+								</div>
+								<div class="columns">
+									<ul class="link_arrow">
+										<li><a href="/altus/?navi=header">クラウドサーバーALTUSの特長</a></li>
+										<li><a href="/compare/?navi=header">シリーズ別比較</a></li>
+									</ul>
+									<hr>
+									[ オプション ]
+									<ul class="link_arrow">
+										<li><a href="/basic/service/ssl.html?navi=header">SSL証明書</a></li>
+										<li><a href="/basic/service/domain.html?navi=header">ドメイン</a></li>
+										<li><a href="/basic/service/plesk/?navi=header">Plesk</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="category dropdown "><a>関連サービス</a>
+					<div class="submenu">
+						<div class="submenu-inside">
+							<div class="row medium-up-4">
+								<div class="columns link_arrow">
+									<a href="/security/?navi=header">セキュリティ</a>
+									<ul>
+										<li><a href="/security/antivirus/?navi=header"">ウイルス対策</a></li>
+										<li><a href="/security/vulnerability/?navi=header"">セキュリティ診断</a></li>
+										<li><a href="/security/deep_security/?navi=header"">統合型サーバーセキュリティ</a></li>
+										<li><a href="/security/waf/?navi=header"">WAF</a></li>
+									</ul>
+								</div>
+								<div class="columns link_arrow">
+									<a href="/solution/network/?navi=header">VPN</a>
+									<ul style="margin-bottom: 1rem;">
+										<li><a href="/isolate/service/vpnplus.html??navi=header">リモートアクセスVPN -Plus-</a></li>
+										<li><a href="/isolate/service/vpn/?navi=header">拠点間VPN</a></li>
+									</ul>
+									[ CMS ]
+									<ul>
+										<li><a href="/solution/cms/?navi=header">CMSパッケージ</a></li>
+									</ul>
+								</div>
+								<div class="columns link_arrow">
+									<a href="/managed/?navi=header">マネージドサービス</a>
+									<ul>
+										<li><a href="/managed/integration/?navi=header">導入支援</a></li>
+										<li><a href="/managed/security.html?navi=header">セキュリティオプション</a></li>
+										<li><a href="/managed/watch.html?navi=header">監視・復旧サービス</a></li>
+										<li><a href="/managed/help.html?navi=header">ヘルプデスク</a></li>
+										<li><a href="/managed/setup/?navi=header">設定代行</a></li>
+									</ul>
+								</div>
+								<div class="columns link_arrow">
+									[ その他関連サービス ]
+									<ul>
+										<li><a href="https://www.gmocloud.com/special/hybrid/" target="_blank" class="blank">ハイブリッドクラウド</a></li>
+										<li><a href="/service/backup/?navi=header">遠隔地バックアップ</a></li>
+										<li><a href="/storage/?navi=header">オブジェクトストレージ</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="category dropdown "><a>導入事例</a>
+					<div class="submenu">
+						<div class="submenu-inside">
+							<div class="row">
+								<div class="columns medium-8">
+									<div class="row medium-collapse medium-up-3 bnr-list">
+										<div class="columns">
+											<a href="/case/#costcut" class="bnr dark">コストカット</a>
+											<a href="/case/#bcp" class="bnr dark">BCP対策</a>
+											<a href="/case/#plesk" class="bnr dark">Plesk</a>
+										</div>
+										<div class="columns">
+											<a href="/case/#time" class="bnr dark">作業時間の短縮</a>
+											<a href="/case/#move" class="bnr dark">サーバー移行</a>
+											<a href="/case/#vpn" class="bnr dark">VPN</a>
+										</div>
+										<div class="columns">
+											<a href="/case/#scaleup" class="bnr dark">スケールアップ</a>
+											<a href="/case/#cms" class="bnr dark">CMS</a>
+											<a href="/case/#business" class="bnr dark">ビジネス拡大</a>
+										</div>
+									</div>
+								</div>
+								<div class="columns medium-3 end">
+									<a href="/case/?navi=header" class="link_arrow">すべての事例を見る</a>
+									<a href="/iot/?navi=header" class="bnr iot">ALTUS for IoT</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="category dropdown "><a>サポート</a>
+					<div class="submenu">
+						<div class="submenu-inside">
+							<div class="row">
+								<div class="medium-10 medium-centered columns">
+									<div class="row medium-collapse medium-up-3 bnr-list">
+										<div class="columns">
+											<a href="http://support.gmocloud.com/pf/" target="_blank" class="bnr dark">サポートサイト <img src="/template/img/ico_blank_white.png" alt=""></a>
+										</div>
+										<div class="columns">
+											<a href="http://help.gmocloud.com/app/answers/list/st/5/p/2/" target="_blank" class="bnr dark">よくあるご質問 <img src="/template/img/ico_blank_white.png" alt=""></a>
+										</div>
+										<div class="columns end">
+											<a href="/support/?navi=header" class="bnr dark">ALTUSのサポート</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="category hide-fixed"><a href="https://partner.gmocloud.com/lp/business/" target="_blank" class="blank">パートナー制度</a></div>
+				<div class="category dropdown show-fixed"><a>お問い合わせ・お見積もり</a>
+					<div class="submenu">
+						<div class="submenu-inside">
+							<div class="row">
+								<div class="medium-6 medium-centered columns">
+									<div class="row medium-collapse medium-up-2 bnr-list">
+										<div class="columns">
+											<a href="/contact/?navi=header" class="bnr dark">お問い合わせ</a>
+										</div>
+										<div class="columns">
+											<a href="/estimate/?navi=header" class="bnr dark">お見積もり</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="category dropdown show-fixed"><a>ログイン</a>
+					<div class="submenu">
+						<div class="submenu-inside">
+							<div class="row">
+								<div class="medium-10 medium-centered columns">
+									<div class="row medium-collapse medium-up-4 bnr-list">
+										<div class="columns">
+											<a href="https://pf.gmocloud.com/login" target="_blank" class="bnr dark">GMOクラウド ALTUS <img src="/template/img/ico_blank_white.png" alt=""></a>
+										</div>
+										<div class="columns">
+											<a href="https://portal.gmocloud.com/login/signin" target="_blank" class="bnr dark">GMOクラウド Public <img src="/template/img/ico_blank_white.png" alt=""></a>
+										</div>
+										<div class="columns">
+											<a href="https://login.gmocloudpublic.com/login/signin" target="_blank" class="bnr dark">Public Zシリーズ <img src="/template/img/ico_blank_white.png" alt=""></a>
+										</div>
+										<div class="columns">
+											<a href="/login.html?navi=header" class="bnr dark">ログイン一覧</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p class="large-2 columns text-right order show-for-large show-fixed"><a href="https://pf.gmocloud.com/order/index.html" onclick="ga('send','event','OrderButton','click','order from header');" target="_blank" class="button tiny alert">新規登録</a></p>
+			</div>
+		</div>
+		<div class="show-for-small-only">
+			<ul class="menu vertical" id="sp-nav" data-accordion-menu data-multi-open="false">
+				<li class=""><a><span class="hide-fixed">シリーズ</span>仕様・料金</a>
+					<ul class="menu vertical w180">
+						<li><a href="/altus/?navi=header">ALTUSの特長</a></li>
+						<li><a href="/compare/?navi=header">シリーズ比較</a></li>
+						<li class="basic"><a>Basic シリーズ</a>
+							<ul class="menu vertical">
+								<li class="sub"><a href="/basic/service/?navi=header">仕様・機能</a></li>
+								<li class="sub"><a href="/basic/resource/?navi=header">リソースパックとは</a></li>
+								<li class="sub"><a href="/basic/price/?navi=header">料金</a></li>
+								<li class="sub"><a href="/basic/example/?navi=header">構成例</a></li>
+								<li class="sub"><a href="/basic/?navi=header">特長</a></li>
+							</ul>
+						</li>
+						<li class="isolate"><a>Isolate シリーズ</a>
+							<ul class="menu vertical">
+								<li class="sub"><a href="/isolate/service/?navi=header">仕様・機能</a></li>
+								<li class="sub"><a href="/isolate/price/?navi=header">料金</a></li>
+								<li class="sub"><a href="/isolate/example/?navi=header">構成例</a></li>
+								<li class="sub"><a href="/isolate/?navi=header">特長</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li class=""><a>関連サービス</a>
+					<ul class="menu vertical">
+						<li><a href="/security/?navi=header">セキュリティ</a></li>
+						<li><a href="/solution/network/?navi=header">VPN</a></li>
+						<li><a href="/solution/cms/?navi=header">CMS</a></li>
+						<li><a href="https://fileserver.gmocloud.com/" target="_blank" class="blank">ファイルサーバー</a></li>
+						<li><a href="/storage/">オブジェクトストレージ</a></li>
+						<li><a href="/managed/?navi=header">マネージドサービス</a></li>
+						<li><a href="https://www.gmocloud.com/special/hybrid/" target="_blank" class="blank">ハイブリッドクラウド</a></li>
+						<li><a href="/service/backup/?navi=header">遠隔地バックアップtorocca!</a></li>
+					</ul>
+				</li>
+				<li class=""><a href="/case/?navi=header">導入事例</a></li>
+				<li class=""><a>サポート</a>
+					<ul class="menu vertical">
+						<li><a href="http://support.gmocloud.com/pf/" target="_blank" class="blank">サポートサイト</a></li>
+						<li><a href="http://help.gmocloud.com/app/answers/list/st/5/p/2/" target="_blank" class="blank">よくあるご質問</a></li>
+						<li><a href="/support/?navi=header">ALTUSのサポート</a></li>
+					</ul>
+				</li>
+				<li class="hide-fixed"><a href="https://partner.gmocloud.com/lp/business/" target="_blank" class="blank">パートナー制度</a></li>
+				<li class="show-fixed"><a>ログイン</a>
+					<ul class="menu vertical">
+						<li><a href="https://pf.gmocloud.com/login" target="_blank" class="blank">GMOクラウド ALTUS</a></li>
+						<li><a href="https://portal.gmocloud.com/login/signin" target="_blank" class="blank">GMOクラウド Public</a></li>
+						<li><a href="https://login.gmocloudpublic.com/login/signin" target="_blank" class="blank">Public Zシリーズ</a></li>
+						<li><a href="/login.html?navi=header">ログイン一覧</a></li>
+					</ul>
+				</li>
+			</ul>
+			<p class="text-center"><a href="https://pf.gmocloud.com/order/index.html" onclick="ga('send','event','OrderButton','click','order from header');" target="_blank" class="button small alert blank">新規登録〈14日間無料〉</a></p>
+			<div class="search-box small-12 columns">
+				<form action="/result.html">
+					<input type="text" id="q2" name="q" value="" placeholder="サイト内をキーワード検索">
+					<button type="submit"><i class="fi-magnifying-glass"></i></button>
+				</form>
+			</div>
+		</div>
+	</div>
+</header><div id="contents">
+	<div class="row columns">
+		<nav>
+			<ul class="breadcrumbs">
+				<li><a href="/">GMOクラウド ALTUS（アルタス）</a></li>				<li>お問い合わせ</li>
+			</ul>
+		</nav>
+		<div class="bnr_campaign text-center">
+	<p class="show-for-medium"><a href="/campaign/start201805/?navi=banner" class="hover"><img src="/campaign/start201805/bnr_1000.png" alt="新規導入応援！ALTUS1万円分クーポンプレゼントキャンペーン" width="1000" height="100" /></a></p>
+	<p class="hide-for-medium"><a href="/campaign/start201805/?navi=banner" class="hover"><img src="/campaign/start201805/bnr_320.png" alt="新規導入応援！ALTUS1万円分クーポンプレゼントキャンペーン" width="320" /></a></p>
+</div>
+		<section class="text-center">
+			<h1 class="ttl-h2">お問い合わせ</h1>
+			<p class="ttl-h5">お見積もりやご相談、サービスの不明点など、お気軽にお問い合わせください。<br>内容を確認次第、担当者よりご連絡いたします。</p>
+		</section>
+	</div>
+	<nav class="nav-type">
+		<ul class="row" id="type" data-tabs>
+			<li class="medium-5 small-6 medium-offset-1 columns tabs-title"><a href="#new" class="no-scroll">サービスをご利用前のお客さま</a></li>
+			<li class="medium-5 small-6 end columns tabs-title"><a href="#user" class="no-scroll">サービスをご利用中のお客さま</a></li>
+		</ul>
+	</nav>
+	<div class="row columns">
+		<div data-tabs-content="type">
+			<div class="tabs-panel is-active" id="new">
+				<div class="row">
+					<div class="medium-6 large-4 large-offset-2 columns text-center">
+						<h2 class="ttl-h6">フォームからお問い合わせ</h2>
+						<p><a href="https://form.gmocloud.com/altus/contact/" target="_blank" onClick="ga('send','event','ContactButton','click','contact from pre');" class="button success blank">お問い合わせフォーム</a></p>
+					</div>
+					<div class="medium-6 large-4 end columns text-center">
+						<h2 class="ttl-h6">お電話でのお問い合わせ</h2>
+						<p class="text-phone ttl-h3"><i class="fi-telephone"></i>0120-312-614</p>
+						<p>（平日 10:00〜18:00）</p>
+					</div>
+
+					<div class="large-12 columns" style="margin-top: 4.2rem;">
+						<h2 class="ttl-h3 ttl-strike"><span>サービスについてよくあるご質問</span></h2>
+					</div>
+					<div class="large-10 large-centered columns">
+						<dl class="faq">
+							<dt>ALTUSとは何ですか？</dt>
+							<dd>GMOクラウドが提供しているIaaS（Infrastructure as a Service）のパブリッククラウドサービスです。<br>
+								リソース単位で使えるBasicシリーズ、仮想ルーターで専用セグメント（VLAN）環境が構築できるIsolateシリーズ、<br>
+								オブジェクトストレージ、の3つのシリーズがあります。</dd>
+							<dt>契約は各シリーズごとに必要ですか？</dt>
+							<dd>いいえ。1回のアカウント登録で全てのシリーズをご利用いただけます。</dd>
+							<dt>BasicシリーズとIsolateシリーズの違いを教えてください。</dt>
+							<dd>Basicシリーズは3種類（vCPUメモリ自由・月額500円固定・AWS互換API対応）の仮想サーバーが利用できます。また、サーバー管理ツールPleskに対応しています。仮想ルーターやVPNは利用できません。<br>
+								Isolateシリーズは予め決められた27サイズの仮想サーバーが利用できます。また、専用セグメント（VLAN）環境が構築できる仮想ルーターが利用でき、さらにリモートアクセスVPNや拠点間VPNに対応しています。<br>
+								<a href="/compare/" class="link_arrow">シリーズ比較について詳しく見る</a></dd>
+							<dt>GMOクラウドVPSとALTUSの違いを教えてください。</dt>
+							<dd>VPSは固定リソースの仮想サーバーを1台契約し、契約後にサーバーに対してリソース拡張・縮小することはできません。<br>
+								ALTUSは自由なリソースの仮想サーバーを1契約で複数台契約することができ、契約後も契約を解除することなく、必要なリソースに変更することができます。<br>
+								<a href="/suggest/vps/" class="link_arrow">VPSとクラウドの違いについて詳しく見る</a></dd>
+							<dt>GMOクラウドPublicからALTUSヘ移行したいのですが。</dt>
+							<dd>まずは<a href="https://form.gmocloud.com/altus/contact/" target="_blank">フォーム</a>、またはお電話（0120-312-614）にてご相談ください。<br>
+								ご要件をお聞きしたうえで、スタッフが最適なプランをご提案いたします。</dd>
+							<dt>最低利用期間はありますか？</dt>
+							<dd>最低利用期間はありません。</dd>
+							<dt>選択できるリージョンについて教えてください。</dt>
+							<dd>現在は東京リージョンのみ選択できます。</dd>
+							<dt>ドメインやSSLは利用できますか？</dt>
+							<dd>はい。利用できます。詳しくは下記をご覧ください。<br>
+								<a href="/basic/service/domain.html" class="link_arrow">ドメインについて詳しく見る</a><br>
+								<a href="/basic/service/ssl.html" class="link_arrow">SSLについて詳しく見る</a></dd>
+						</dl>
+
+						<p class="ttl-h6 text-center"><a href="https://help.gmocloud.com/app/answers/list/st/5/p/2/" target="_blank" class="link_arrow">よくあるご質問をもっと見る</a></p>
+						
+						<div class="integration">
+							<a href="/managed/integration/" class="button-border">
+								<div class="row">
+									<div class="medium-3 columns text-right small-text-center">
+										<img src="img/index/img_managed.png" alt="">
+									</div>
+									<div class="medium-9 columns">
+										<p class="ttl-h5">導入支援サービス</p>
+										<p>「導入の手間を省きたい」「導入方法に不安がある」<br>
+										そんな場合はこちらをご利用ください。クラウド導入をトータルで支援いたします。<br>
+										クラウドのメリットを活かした構成のご提案や、各種構築・データ移行に加え、<br>
+										運用開始後のさまざまな監視などサーバー運用にかかわる煩雑な作業をおまかせ。</p>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tabs-panel no-scroll" id="user">
+				<div class="row">
+					<div class="medium-6 large-5 large-offset-1 columns text-center">
+						<h2 class="ttl-h6">フォームからお問い合わせ</h2>
+						<div class="row">
+							<div class="medium-6 columns">
+								<form method="post" action="//help.gmocloud.com/app/ask" target="_blank">
+									<input type="hidden" name="Incident_CustomFields_c_url" value="https://form.gmocloud.com/altus/operation/index.html">
+									<input type="hidden" name="Incident_Product" value="2">
+									<input type="submit" class="button success blank" value="各種お手続きについて" onClick="ga('send','event','ContactButton','click','contact from operation');">
+								</form>
+							</div>
+							<div class="medium-6 columns">
+								<form method="post" action="//help.gmocloud.com/app/ask" target="_blank">
+									<input type="hidden" name="Incident_CustomFields_c_url" value="https://form.gmocloud.com/altus/tech/index.html">
+									<input type="hidden" name="Incident_Product" value="2">
+									<input type="submit" class="button success blank" value="技術的なことについて" onClick="ga('send','event','ContactButton','click','contact from tech');">
+								</form>
+							</div>
+						</div>
+						<p class="text-center" style="margin-top: 1rem;">（24時間365日無料）</p>
+					</div>
+					<div class="medium-6 large-5 end columns text-center">
+						<h2 class="ttl-h6">お電話でのお問い合わせ</h2>
+						<p class="text-phone ttl-h3"><i class="fi-telephone"></i>03-6415-7088</p>
+						<p>（各種お手続き：平日 10:00〜18:00）<br>（技術的な内容：平日 9:00〜19:00）</p>
+					</div>
+
+					<div class="medium-12 columns" style="margin-top: 4.2rem;">
+						<h2 class="ttl-h3 ttl-strike"><span>サポートコンテンツをご覧ください</span></h2>
+						<div class="support-area">
+							<p class="ttl-h5 text-center">サポートコンテンツを検索</p>
+							<div class="row">
+								<div class="medium-7 medium-centered columns">
+									<form method="post" action="/php/search.php" target="_blank">
+										<input type="text" name="kw" class="text_input" placeholder="例）仮想サーバーの作り方">
+										<input type="hidden" name="p" value="2">
+										<input type="hidden" name="faq_search" value="検索">
+										<!--
+										<input type="submit" value="検索" />
+										-->
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="medium-12 columns">
+						<div class="row medium-up-3 button-list text-center">
+							<div class="columns"><a href="https://help.gmocloud.com/app/answers/list/st/5/p/2/" class="button-border ico-01" target="_blank">よくあるご質問</a></div>
+							<div class="columns"><a href="https://help.gmocloud.com/app/answers/list/st/5/kw/%E8%AB%8B%E6%B1%82%E3%83%BB%E6%94%AF%E6%89%95%E3%81%84/p/2/page/1" class="button-border ico-02" target="_blank">ご請求・お支払い</a></div>
+							<div class="columns"><a href="https://support.gmocloud.com/pf/guide/order/charge.html" class="button-border ico-03" target="_blank">課金停止</a></div>
+						</div>
+					</div>
+				</div>
+
+				<nav class="nav-series">
+					<ul class="row" id="series" data-tabs>
+						<li class="medium-4 small-4 columns tabs-title is-active"><a href="#tab-basic" class="no-scroll" aria-selected="true">Basicシリーズ</a></li>
+						<li class="medium-4 small-4 columns tabs-title"><a href="#tab-isolate" class="no-scroll">Isolateシリーズ</a></li>
+						<li class="medium-4 small-4 columns tabs-title"><a href="#tab-storage" class="no-scroll" id="objectSt">オブジェクトストレージ</a></li>
+					</ul>
+				</nav>
+
+				<div data-tabs-content="series">
+					<div class="tabs-panel is-active" id="tab-basic">
+						<div class="row medium-up-4 button-list text-center">
+							<div class="columns"><a href="https://support.gmocloud.com/pf/guide/basic/portal/" class="button-border ico-04" target="_blank">ALTUSポータル</a></div>
+							<div class="columns"><a href="https://support.gmocloud.com/pf/guide/basic/console/" class="button-border ico-05" target="_blank">ALTUSコンソール</a></div>
+							<div class="columns"><a href="https://help.gmocloud.com/app/answers/detail/a_id/2977" class="button-border ico-06" target="_blank">Plesk</a></div>
+							<div class="columns"><a href="https://support.gmocloud.com/pf/guide/basic/api/" class="button-border ico-07" target="_blank">API</a></div>
+							<div class="columns"><a href="https://support.gmocloud.com/pf/guide/basic/option/" class="button-border ico-08" target="_blank">監視・復旧</a></div>
+							<div class="columns"><a href="https://support.gmocloud.com/pf/guide/domain/" class="button-border ico-09" target="_blank">ドメイン</a></div>
+							<div class="columns"><a href="https://support.gmocloud.com/pf/guide/mail_ftp/" class="button-border ico-10" target="_blank">メール・FTP</a></div>
+							<div class="columns"><a href="https://support.gmocloud.com/pf/guide/order/pdf/altus_order_ssl_quick.pdf" class="button-border ico-11" target="_blank">SSL</a></div>
+							<div class="columns"><a href="https://support.gmocloud.com/pf/guide/glossary.html" class="button-border ico-12" target="_blank">ALTUS用語集</a></div>
+							<div class="columns"><a href="https://support.gmocloud.com/pf/guide/basic/useful/" class="button-border ico-13" target="_blank">その他</a></div>
+						</div>
+					</div>
+					<div class="tabs-panel" id="tab-isolate">
+						<div class="row medium-up-4 button-list text-center">
+							<div class="columns"><a href="https://support.gmocloud.com/pf/guide/isolate/console/" class="button-border ico-05" target="_blank">ALTUSコンソール</a></div>
+							<div class="columns"><a href="https://support.gmocloud.com/pf/guide/isolate/api/" class="button-border ico-07" target="_blank">API</a></div>
+							<div class="columns"><a href="https://support.gmocloud.com/pf/guide/isolate/option/watch.html" class="button-border ico-08" target="_blank">監視・復旧</a></div>
+							<div class="columns"><a href="https://support.gmocloud.com/pf/guide/domain/" class="button-border ico-09" target="_blank">ドメイン</a></div>
+							<div class="columns"><a href="https://support.gmocloud.com/pf/guide/mail_ftp/" class="button-border ico-10" target="_blank">メール・FTP</a></div>
+							<div class="columns"><a href="https://support.gmocloud.com/pf/guide/order/pdf/altus_order_ssl_quick.pdf" class="button-border ico-11" target="_blank">SSL</a></div>
+							<div class="columns"><a href="https://support.gmocloud.com/pf/guide/glossary.html" class="button-border ico-12" target="_blank">ALTUS用語集</a></div>
+							<div class="columns"><a href="https://support.gmocloud.com/pf/guide/isolate/useful/" class="button-border ico-13" target="_blank">その他</a></div>
+						</div>
+					</div>
+					<div class="tabs-panel" id="tab-storage">
+						<div class="row medium-up-4 button-list text-center">
+							<div class="columns"><a href="https://support.gmocloud.com/pf/guide/firststep/storage.html" class="button-border ico-15" target="_blank">ご利用方法</a></div>
+							<div class="columns"><a href="https://support.gmocloud.com/pf/guide/storage/console/" class="button-border ico-05" target="_blank">ALTUSコンソール</a></div>
+							<div class="columns"><a href="https://support.gmocloud.com/pf/guide/storage/api/" class="button-border ico-07" target="_blank">API</a></div>
+							<div class="columns"><a href="https://support.gmocloud.com/pf/guide/glossary.html" class="button-border ico-12" target="_blank">ALTUS用語集</a></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row columns managed-area">
+					<h2 class="ttl-h3 ttl-strike"><span>マネージドサービス（有償サポート）をご希望ですか？</span></h2>
+					<div class="row medium-up-2 large-up-4 button-list text-center">
+						<div class="columns">
+							<a href="/managed/security.html" class="button-border ico-16">
+								セキュリティオプション
+								<span>・セキュリティ対策の代行<br>
+								・FWやiptablesなどの設定<br>
+								・SSL証明書のインストール</span>
+							</a>
+						</div>
+						<div class="columns">
+							<a href="/managed/watch.html" class="button-border ico-08">
+								監視・復旧サービス
+								<span>・24時間365日サーバー監視<br>
+								・万が一の障害時も迅速に対応</span>
+							</a>
+						</div>
+						<div class="columns">
+							<a href="/managed/help.html" class="button-border ico-17">
+								ヘルプデスク
+								<span>・24時間365日の電話サポート<br>
+								・コマンドを利用した設定代行<br>
+								・トラブル調査と解決サポート</span>
+							</a>
+						</div>
+						<div class="columns">
+							<a href="/managed/setup/" class="button-border ico-18">
+								設定代行
+								<span>・アカウント設定<br>
+								・ソフトウェアのインストール<br>
+								・万が一のトラブル対応 など</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<footer class="global-footer">
+	<div class="row show-for-medium medium-up-6 medium-collapse">
+		<div class="column">
+			<ul class="category link_arrow">
+				<li>Basicシリーズ</li>
+				<li><a href="/basic/service/">仕様・機能</a></li>
+				<li><a href="/basic/resource/">リソースパックとは</a></li>
+				<li><a href="/basic/price/">料金</a></li>
+				<li><a href="/basic/example/">構成例</a></li>
+				<li><a href="/basic/">特長</a></li>
+			</ul>
+			<ul class="category link_arrow">
+				<li>Isolateシリーズ</li>
+				<li><a href="/isolate/service/">仕様・機能</a></li>
+				<li><a href="/isolate/price/">料金</a></li>
+				<li><a href="/isolate/example/">構成例</a></li>
+				<li><a href="/isolate/">特長</a></li>
+			</ul>
+		</div>
+		<div class="column">
+			<ul class="category link_arrow">
+				<li>関連サービス</li>
+				<li><a href="/security/">セキュリティ</a></li>
+				<li><a href="/solution/network/">VPN</a></li>
+				<li><a href="/solution/cms/">CMS</a></li>
+				<li><a href="https://fileserver.gmocloud.com/" target="_blank" class="blank">ファイルサーバー</a></li>
+				<li><a href="/storage/">オブジェクトストレージ</a></li>
+				<li><a href="/managed/">マネージドサービス</a></li>
+				<li><a href="https://www.gmocloud.com/special/hybrid/" target="_blank" class="blank">ハイブリッドクラウド</a></li>
+			</ul>
+		</div>
+		<div class="column">
+			<ul class="category link_arrow">
+				<li>オプション</li>
+				<li><a href="/basic/service/ssl.html">SSL証明書</a></li>
+				<li><a href="/basic/service/domain.html">ドメイン</a></li>
+				<li><a href="/basic/service/plesk/">Plesk</a></li>
+			</ul>
+			<ul class="category link_arrow">
+				<li>お申し込み</li>
+				<li><a href="/order/">お申し込みの流れ</a></li>
+			</ul>
+			<ul class="category link_arrow">
+				<li><a href="https://form.gmocloud.com/altus/request/" target="_blank" class="blank">資料ダウンロード</a></li>
+			</ul>
+		</div>
+		<div class="column">
+			<ul class="category link_arrow">
+				<li>品質保証</li>
+				<li><a href="/sla/">SLA</a></li>
+			</ul>
+			<ul class="category link_arrow">
+				<li>サポート</li>
+				<li><a href="http://support.gmocloud.com/pf/" target="_blank" class="blank">サポートサイト</a></li>
+				<li><a href="http://support.gmocloud.com/pf/#guide" target="_blank" class="blank">アルとタスかるガイド</a></li>
+				<li><a href="/support/">24時間365日サポート</a></li>
+				<li><a href="https://help.gmocloud.com/app/answers/detail/a_id/2777" target="_blank" class="blank">脆弱性に関するお知らせ</a></li>
+			</ul>
+		</div>
+		<div class="column">
+			<ul class="category link_arrow">
+				<li>セミナー</li>
+				<li><a href="/info/?c=seminar">セミナーニュース</a></li>
+				<li><a href="/contact/consulting.html">クラウド導入相談会</a></li>
+			</ul>
+			<ul class="category link_arrow">
+				<li>旧サービス</li>
+				<li><a href="/rs/" target="_blank" class="blank">GMOクラウドPublic</a></li>
+			</ul>
+		</div>
+		<div class="column">
+			<ul class="category link_arrow">
+				<li>おすすめコンテンツ</li>
+				<li><a href="/suggest/start/">初めてクラウドを導入される方</a></li>
+				<li><a href="/suggest/si/">技術者向けの導入ガイド</a></li>
+				<li><a href="/suggest/partner/">GMOクラウドのパートナーさま</a></li>
+				<li><a href="/column/">コラム</a></li>
+			</ul>
+			<ul class="category link_arrow">
+				<li><a href="/affiliate/">アフィリエイト</a></li>
+			</ul>
+			<ul class="category link_arrow">
+				<li><a href="/introduce/">クラウド紹介制度</a></li>
+			</ul>
+			<ul class="category link_arrow">
+				<li><a href="/sitemap.html">サイトマップ</a></li>
+			</ul>
+			<p class="social"><a href="https://twitter.com/GMOcloud_JP" target="_blank"><i class="fi-social-twitter"></i></a>
+			<a href="https://www.facebook.com/GMOCLOUD.JP" target="_blank"><i class="fi-social-facebook"></i></a></p>
+		</div>
+	</div>
+
+	<!-- GMO CLOUD 共通フッター -->
+	<div class="ir row medium-collapse">
+		<div class="medium-3 columns show-for-medium">
+			<div class="media-object">
+				<div class="media-object-section">
+					<a href="http://ir.gmocloud.com/isms/" target="_blank"><img src="/template/img/bnr_isms2014.png" alt="ISMS(情報セキュリティマネジメントシステム)の国際規格取得" width="104" height="57" class="float-left"></a>
+				</div>
+				<div class="media-object-section">
+					ISMS（情報セキュリティマネジメントシステム）の国際規格を2006年11月に取得しました。
+				</div>
+			</div>
+		</div>
+		<div class="medium-2 columns show-for-medium text-center">
+			<span id="ss_gmo_img_wrapper_115-57_image_ja">
+			<a href="https://jp.globalsign.com/" target="_blank" rel="nofollow"><img alt="SSL　GMOグローバルサインのサイトシール" id="ss_img" src="//seal.globalsign.com/SiteSeal/images/gs_noscript_115-57_ja.gif" /></a>
+			</span>
+			<script type="text/javascript" src="//seal.globalsign.com/SiteSeal/gmogs_image_115-57_ja.js" defer="defer"></script>
+		</div>
+		<div class="medium-2 columns show-for-medium">
+			&nbsp;
+			<!--
+			<a href="#" onclick="window.open('https://www.sitelock.com/verify.php?site=www.gmocloud.com','SiteLock','width=600,height=600,left=160,top=170');" ><img class="img-responsive" alt="SiteLock" title="SiteLock" src="//shield.sitelock.com/shield/www.gmocloud.com" /></a>
+			-->
+			<!-- SiteLock -->
+		</div>
+		<div class="medium-3 columns link_arrow">
+			<ul>
+				<li><a href="http://ir.gmocloud.com/terms/" target="_blank" class="blank">サイトのご利用にあたって</a></li>
+				<li><a href="http://ir.gmocloud.com/privacy/" target="_blank" class="blank">プライバシーポリシー</a></li>
+				<li><a href="/law/">特定商取引法に基づく表記</a></li>
+			</ul>
+		</div>
+		<div class="medium-2 columns text-right">
+			<p><a href="http://ir.gmocloud.com"><img src="/template/img/bnr_ir2.png" alt="GMO CLOUD" width="165" height="46" /></a></p>
+			<p>&copy; 2018 GMO CLOUD K.K.</p>
+		</div>
+	</div>
+	
+	<div class="float-banner pos-r show-for-medium">
+				<div class="banner callout" id="footer-campaign" style="background-color: #ffeebf; border-color:#ffc524;">
+			<p class="text-center">新規導入応援！<br>
+			<strong class="ttl-h5">1万円分クーポン</strong><br>プレゼントキャンペーン</p>
+			<style>
+				.float-banner.pos-r .callout:before {border-top-color: #ffc524;}
+				.float-banner.pos-r .callout:after {border-top-color:#ffeebf;}
+				#footer-campaign .button{background-color:#ffc524;box-shadow:0 2px #d2a02a;}
+				#footer-campaign .button:hover{box-shadow:0 1px #d2a02a;}
+			</style>
+			<a href="/campaign/start201805/?navi=footer" class="button small expanded">詳しく見る</a>
+			<span class="close"><i class="fi-x" style="color:#ffc524;"></i></span>
+		</div>
+		<span class="open campaign"><img src="/template/img/ico_campaign.png" width="50" height="51" alt=""></span>
+				<!--
+		<p class="page-top"><a href="#page"><img src="/template/img/ico_pagetop.png" width="50" height="51" alt="PAGE TOP"></a></p>
+		-->
+	</div>
+</footer>
+
+<!-- JavaScript -->
+<script src="/template/assets/js/library_v2.min.js?20180529"></script>
+<script src="/template/js/common.js?20180622"></script></div>
+
+<!-- JavaScript/広告タグなど -->
+<div id="cloud_header" style="display:none;">
+	<ul>
+		<li class="cloud_header_sub"><a href="#">クラウド</a>
+			<div>
+				<div class="type-list">
+					<ul class="cloud">
+						<li><a href="https://www.gmocloud.com/?navi=public" class="ch_pf photo"><span>パブリッククラウド ALTUS</span>コスト削減に最適なBasicと、高セキュリティ環境のIsolateをご用意</a>
+						</li>
+						<li>
+							<ul class="arrow">
+								<li><a href="https://www.gmocloud.com/compare/?navi=public">シリーズ比較</a></li>
+								<li class="short"><a href="https://www.gmocloud.com/basic/?navi=public">Basicシリーズ</a></li>
+								<li class="short"><a href="https://www.gmocloud.com/isolate/?navi=public">Isolateシリーズ</a></li>
+								<li class="short"><a href="https://www.gmocloud.com/basic/?navi=public">特長</a></li>
+								<li class="short"><a href="https://www.gmocloud.com/isolate/?navi=public">特長</a></li>
+								<li class="short"><a href="https://www.gmocloud.com/basic/service/?navi=public">仕様</a></li>
+								<li class="short"><a href="https://www.gmocloud.com/isolate/service/?navi=public">仕様</a></li>
+								<li class="short"><a href="https://www.gmocloud.com/basic/price/?navi=public">料金</a></li>
+								<li class="short"><a href="https://www.gmocloud.com/isolate/price/?navi=public">料金</a></li>
+								<li><a href="https://www.gmocloud.com/case/?navi=public">導入事例</a></li>
+								<!--
+								<li><a href="https://www.gmocloud.com/estimate/?navi=public">お見積もりシミュレーション</a></li>
+								-->
+								<li><a href="https://www.gmocloud.com/contact/?navi=public">お問い合わせ</a></li>
+							</ul>
+						</li>
+					<!-- 	<li class="campaign"><a href="https://www.gmocloud.com/campaign/plesk-onyx/?navi=public" class="ch_pf_cam2 campaign"></a>
+						<a href="https://www.gmocloud.com/campaign/vpn/?navi=public" class="ch_pf_cam campaign"></a></li> -->
+						<!--
+						<li class="campaign"><a href="https://www.gmocloud.com/campaign/2016last/?navi=public" class="ch_pf_cam campaign"><span>キャンペーン</span>[GMOクラウド ALTUS]<br />年内ラスト！新規お申し込みキャンペーン実施中。今だけ5000円クーポンプレゼント。</a></li>
+						-->
+						<li>
+							<a href="https://private-c.gmocloud.com/?navi=enterprise" class="ch_privatec bnr"><span>GMOクラウド Private</span>自由に選べる回線とハウジング連携可能なプライベートクラウド</a><br />
+							<a href="https://www.gmocloud.com/special/hybrid/?navi=public" target="_blank" class="ch_hybrid bnr"><span>ハイブリッドクラウド</span>クラウドと物理サーバーの組み合わせでコスト・セキュリティを最適化</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</li>
+		<li class="cloud_header_sub"><a href="#">VPS</a>
+			<div>
+				<div class="type-list">
+					<ul class="vps">
+						<li><a href="https://vps.gmocloud.com/?navi=vps" class="ch_vps logo"><span>GMOクラウド VPS</span>かんたん構築。らくらく運用。<br />プラン変更にも対応した、<br />コストパフォーマンスの高いVPS。</a>
+						</li>
+						<li>
+							<ul class="arrow">
+								<li><a href="https://vps.gmocloud.com/order/?navi=vps">お申し込み（15日間無料）</a></li>
+								<li><a href="https://vps.gmocloud.com/feature/?navi=vps">特長</a></li>
+								<li><a href="https://vps.gmocloud.com/service/?navi=vps">料金</a></li>
+								<li><a href="https://vps.gmocloud.com/service/function.html?navi=vps">機能</a></li>
+								<li><a href="https://vps.gmocloud.com/service/plesk.html?navi=vps">Plesk</a></li>
+								<li><a href="https://vps.gmocloud.com/form/estimate/?navi=vps">お見積もり</a></li>
+								<li><a href="https://vps.gmocloud.com/contact/?navi=vps">お問い合わせ</a></li>
+							</ul>
+						</li>
+						<!--
+						<li class="campaign"><a href="https://vps.gmocloud.com/campaign/cashback161201.html?navi=vps" class="ch_vps_cam campaign"><span>キャンペーン</span>[GMOクラウド VPS]<br />うれしい！あんしん！ラクチン！<br />全力応援キャンペーン<br /></a></li>
+						-->
+						<li>
+							<a href="http://www.rapidsite.jp/?navi=rapidsite" target="_blank" class="ch_rapi bnr"><span>ラピッドサイト</span>IPアドレスが最大20個まで追加可能なビジネス向けVPS</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</li>
+		<li class="cloud_header_sub"><a href="#">レンタルサーバー</a>
+			<div>
+				<div class="type-list">
+					<ul class="shared">
+						<li><a href="https://shared.gmocloud.com/?navi=shared" class="ch_shared photo"><span>レンタルサーバー iCLUSTA+</span>安定性に優れ、豊富なセキュリティ対策のあるビジネス向け共用レンタルサーバー。WordPressも自動インストール。</a></li>
+						<li>
+							<ul class="arrow">
+							<li><a href="https://shared.gmocloud.com/iclusta/?navi=shared">特長</a></li>
+							<li><a href="https://shared.gmocloud.com/iclusta/price/?navi=shared">料金</a></li>
+							<li><a href="https://shared.gmocloud.com/iclusta/function/?navi=shared">機能</a></li>
+							<li><a href="https://shared.gmocloud.com/domain/?navi=shared">ドメイン名</a></li>
+							<li><a href="https://shared.gmocloud.com/order/?navi=shared">お申し込み</a></li>
+							<li><a href="https://shared.gmocloud.com/form/estimate/?navi=shared">お見積もり</a></li>
+							<li><a href="https://form.gmocloud.com/shared/request/?navi=shared" target="_blank" class="blank">資料請求</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="http://www.wadax.ne.jp/" target="_blank" class="ch_wadaxlogo bnr"><span>レンタルサーバー WADAX</span>万全のセキュリティと365日無料サポートを兼ね備えた共用サーバー</a></li>
+					</ul>
+				</div>
+			</div>
+		</li>
+		<li class="cloud_header_sub"><a href="#">専用サーバー</a>
+			<div>
+				<div class="type-logo">
+					<ul class="private">
+						<li><a href="https://private.gmocloud.com/?navi=private" class="ch_private photo">専用サーバー</a></li>
+						<li><a href="https://housing.gmocloud.com/?navi=housing" class="ch_housing photo">ハウジング</a></li>
+						<li><a href="http://www.wadax.ne.jp/service/private/" target="_blank" class="ch_wadax logo">専用サーバー WADAX</a></li>
+					</ul>
+				</div>
+			</div>
+		</li>
+		<li class="cloud_header_sub"><a href="#">SaaS</a>
+			<div>
+					<div class="type-icon">
+					<ul class="saas">
+						<li><a href="https://saas.gmocloud.com/?navi=appscloud" class="ch_saas banner"><span class="saas_ttl">GMOクラウドのSaaS</span>Webに関わる人の「業務効率化・コスト削減」ができるクラウドサービスを集めたSaaSポータルサイトです。</a></li>
+						<!--
+						<li><a href="#">新サービス <span class="ico_coming"></span></a></li>
+						-->
+						<li><a href="https://mail-saas.gmocloud.com/?navi=s-mail" class="ch_smail icon"><span>シンプルメール</span>自動添付ファイル暗号化</a></li>
+						<li><a href="https://saas.gmocloud.com/service/websecurity-series/?navi=sitelock" class="ch_sitelock icon"><span>SiteLock<!-- <span class="ico_new"></span> --></span>Webセキュリティ・CDN</a></li>
+						<li><a href="https://saas.gmocloud.com/service/backup/?navi=backup" class="ch_torocca icon"><span>torocca!</span>遠隔バックアップ</a></li>
+						<li><a href="https://saas.gmocloud.com/service/mailsecurity/?navi=mailsecurity" class="ch_mailsec icon"><span>ActSecure</span>クラウドメールセキュリティ</a></li>
+						<li><a href="https://saas.gmocloud.com/service/panorama-vr/?navi=panorama-vr" class="ch_pano icon"><span>panocloud VR</span>360度パノラマコンテンツ</a></li>
+						<li><a href="https://fileserver-saas.gmocloud.com/?navi=fileserver" class="ch_smover icon"><span>smover.</span>ファイルサーバー</a></li>
+						<!-- <li><a href="https://saas.gmocloud.com/service/efo/?navi=ftra" class="ch_ftra icon"><span>エフトラ EFO</span>フォーム最適化</a></li>
+						<li><a href="https://saas.gmocloud.com/service/cta/?navi=ftra" class="ch_ftra icon"><span>エフトラ CTA</span>Web接客ツール</a></li> -->
+						<li><a href="https://saas.gmocloud.com/service/ips-waf/?navi=solution" class="ch_waf icon"><span>攻撃遮断くん</span>クラウド型IPS-WAF</a></li>
+						<li><a href="https://www.gmo-agree.com/?navi=agree" target="_blank" class="ch_agree icon"><span>Agree</span>電子契約</a></li>
+						<li><a href="https://sku.id" target="_blank" class="ch_skuid2 icon"><span>SKUID</span>IDアクセス管理</a></li>
+						<!--
+						<li><a href="https://sku.id" target="_blank" class="ch_skuid2 icon"><span>SKUID <span class="ico_new"></span></span>IDアクセス管理</a></li>
+						-->
+					</ul>
+				</div>
+			</div>
+		</li>
+		<!--
+		<li class="cloud_header_sub"><a href="#">セキュリティ</a>
+			<div>
+				<div class="type-logo">
+					<ul class="security">
+						<li><a href="https://jp.globalsign.com" target="_blank" class="ch_gs logo">SSL証明書</a></li>
+						<li><a href="https://sku.id" target="_blank" class="ch_skuid logo">IDアクセス管理サービス</a></li>
+					</ul>
+				</div>
+			</div>
+		</li>
+		-->
+		<li class="cloud_header_sub"><a href="#">IoT</a>
+			<div>
+				<div class="type-list">
+					<ul class="iot">
+						<li><a href="http://www.iotnomadoguchi.com/?navi=iotnomadoguchi" class="ch_iot_mado logo"><span>IoTの窓口</span>IoTビジネス化のための構想段階から<br>企画開発、サービス化までをひとつの窓口で実現。</a></li>
+						<li class="narrow-arrow">
+							<ul class="arrow">
+							<li><a href="https://www.iotnomadoguchi.com/about/?navi=iotnomadoguchi">IoTの窓口とは</a></li>
+							<li><a href="https://www.iotnomadoguchi.com/flow/?navi=iotnomadoguchi">ご相談の流れ</a></li>
+							<li><a href="https://www.iotnomadoguchi.com/case/?navi=iotnomadoguchi">事例</a></li>
+							<li><a href="https://www.iotnomadoguchi.com/partner/?navi=iotnomadoguchi">提携パートナー</a></li>
+							<li><a href="https://www.iotnomadoguchi.com/download/?navi=iotnomadoguchi">資料ダウンロード</a></li>
+							<li><a href="https://www.iotnomadoguchi.com/form/contact/?navi=iotnomadoguchi">お問い合わせ</a></li>
+							</ul>
+						</li>
+						<li><a href="https://iot.gmocloud.com/?navi=iotplatform" target="_blank" class="ch_iotpla logo"><span>IoTプラットフォーム<span class="ico_new" style="display: inline-block;"></span></span>IoTデバイスをセキュアに一括管理し<br>ライフサイクルをマネジメント。</a></li>
+						<!-- <li><a href="http://energymonitor.jp/?navi=energymonitor" target="_blank" class="ch_em logo">エナジーモニター</a></li> -->
+						<li><a href="https://jp.globalsign.com/internet-of-things/" target="_blank" class="ch_iot bnr"><span>マネージドPKI for IoT</span>1秒間に3,000枚大量発行できる、IoTデバイスを認証するために必要な電子証明書。</a></li>
+					</ul>
+				</div>
+			</div>
+		</li>
+		<li class="cloud_header_sub"><a href="#">ゲーム開発</a>
+			<div>
+				<div class="type-logo">
+					<ul class="game">
+						<li><a href="https://www.photonengine.com/ja-JP/Photon/?navi=solution" target="_blank" class="ch_photon logo">photon</a></li>
+						<li><a href="https://playcanvas.com/?navi=solution" target="_blank" class="ch_playcanvas logo">PLAYCANVAS</a></li>
+						<li><a href="https://www.appsealing.com/jp/?navi=solution" target="_blank" class="ch_appsealing logo">AppSealing</a></li>
+						<li><a href="http://madewithmarmalade.jp/?navi=solution" target="_blank" class="ch_marmalade logo">Marmalade</a></li>
+					</ul>
+				</div>
+			</div>
+		</li>
+		<li class="cloud_header_sub"><a href="#">パートナー制度</a>
+			<div>
+				<div class="type-logo">
+					<ul class="partner">
+						<li><a href="https://partner.gmocloud.com/?navi=partner" class="ch_partner photo">パートナー制度</a></li>
+						<li><a href="https://partner.gmocloud.com/lp/oem/?navi=partner" target="_blank" class="ch_oem photo">OEM</a></li>
+						<li><a href="https://agent.gmocloud.com/?navi=partner" class="ch_agent photo">取次制度</a></li>
+					</ul>
+				</div>
+			</div>
+		</li>
+		<li class="cloud_header_sub"><a href="#">役立つサービス</a>
+			<div>
+				<div class="type-logo">
+					<ul class="useful">
+						<li><a href="https://www.gmocloud.com/products/a-s-dns/?navi=dns" class="ch_dns logo">自動切替DNS</a></li>
+						<li><a href="https://www.gmocloud.jp/?navi=lp_si" target="_blank" class="ch_si photo">クラウド・ホスティング選び</a></li>
+						<li><a href="https://order.gmocloud.com/domainorder2/products.aspx?arg=1" target="_blank" class="ch_domain photo">ドメイン</a></li>
+						<li><a href="https://www.gmocloud.com/domain/shop/?navi=shop" target="_blank" class="ch_shop logo">.shop</a></li>
+					</ul>
+				</div>
+			</div>
+		</li>
+		<li class="cloud_header_sub cloud_line"><a href="#">GMOクラウド</a>
+			<div>
+				<div class="type-logo">
+					<ul class="ir">
+						<li><a href="http://ir.gmocloud.com/?navi=ir" class="ch_ir logo">企業サイト・IR</a></li>
+						<li><a href="https://brand.gmocloud.com/?navi=ir" class="ch_brand logo">GMOクラウドの”やさしさ”</a></li>
+						<li><a href="https://academy.gmocloud.com/?navi=ir" class="ch_academy logo">ナレッジブログ</a></li>
+					</ul>
+				</div>
+			</div>
+		</li>
+	</ul>
+</div>
+<script type="text/javascript" src="//www.gmocloud.com/cloud_header/js/header_rc.js?var=20180615"></script><!-- GMOグループヘッダー -->
+<script type="text/javascript" charset="UTF-8" src="//cache.img.gmo.jp/common_header/script.js" async></script><!-- User Insight PCDF Code Start : gmocloud.com -->
+<script type="text/javascript">
+<!--
+var _uic = _uic ||{}; var _uih = _uih ||{};_uih['id'] = 31564;
+_uih['lg_id'] = '';
+_uih['fb_id'] = '';
+_uih['tw_id'] = '';
+_uih['uigr_1'] = ''; _uih['uigr_2'] = ''; _uih['uigr_3'] = ''; _uih['uigr_4'] = ''; _uih['uigr_5'] = '';
+_uih['uigr_6'] = ''; _uih['uigr_7'] = ''; _uih['uigr_8'] = ''; _uih['uigr_9'] = ''; _uih['uigr_10'] = '';
+
+/* DO NOT ALTER BELOW THIS LINE */
+/* WITH FIRST PARTY COOKIE */
+(function() {
+var bi = document.createElement('scri'+'pt');bi.type = 'text/javascript'; bi.async = true;
+bi.src = ('https:' == document.location.protocol ? 'https://bs' : 'http://c') + '.nakanohito.jp/b3/bi.js';
+var s = document.getElementsByTagName('scri'+'pt')[0];s.parentNode.insertBefore(bi, s);
+})();
+//-->
+</script>
+<!-- User Insight PCDF Code End : gmocloud.com -->
+
+<!-- YTM tag -->
+<script type="text/javascript">
+  (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=LPygX4F";
+    s.parentNode.insertBefore(tagjs, s);
+  }());
+</script>
+<noscript>
+  <iframe src="//b.yjtag.jp/iframe?c=LPygX4F" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+<!-- /YTM tag -->
+<script>
+$(function(){
+	var address = window.location.hash;
+	if(address){
+		$('#type a[href="'+address+'"]').click();
+	}else{
+		$('#type li:first-child a').click();
+	}
+});
+</script>
+</body>
+</html>

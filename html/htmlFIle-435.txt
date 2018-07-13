@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ja">
+<head>
+  <meta charset="utf-8">
+  <!-- v14273 -->
+  <title>リクエストを送信 &ndash; TypeBank Support</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="lbSDoXTsyebbJ20ABVEa4/8qt0YWXmbinfGxg4xqUOYDIv+Fvy2Yc7Aip9n/aJgQ72P6embyJq5tIeCyLFOYAw==" />
+  <link href="https://typebank.zendesk.com/hc/ja/requests/new" rel="canonical" />
+
+  <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+  <link rel="stylesheet" media="all" href="//static.zdassets.com/hc/assets/application-f6e93136ccc616d9d045d876d4064cb2.css" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="//p13.zdassets.com/hc/themes/671102/201997047/style-bd0d2d87d8299a3e50fccf5ed056e162.css?brand_id=76888&amp;locale=ja" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="//p13.zdassets.com/hc/settings_assets/671102/200060237/BMe9OJDG4pCxk27NYWIazw-TB_Logo_coler.jpg" />
+
+  <!--[if lt IE 9]>
+  <script>
+    //Enable HTML5 elements for <IE9
+    'abbr article aside audio bdi canvas data datalist details dialog \
+    figcaption figure footer header hgroup main mark meter nav output \
+    progress section summary template time video'.replace(/\w+/g,function(n){document.createElement(n)});
+  </script>
+<![endif]-->
+
+  <script src="//static.zdassets.com/hc/assets/jquery-b60ddb79ff2563b75442a6bac88b00b5.js"></script>
+  
+  
+  
+
+  <!-- add code here that should appear in the document head -->
+<script type="text/javascript" src="//typesquare.com/accessor/script/typesquare.js?Ypmr8a456sY%3D" charset="utf-8"></script>
+  <script type="text/javascript" src="//p13.zdassets.com/hc/themes/671102/201997047/script-bd0d2d87d8299a3e50fccf5ed056e162.js?brand_id=76888&amp;locale=ja"></script>
+</head>
+<body class="">
+  
+  
+
+
+  
+
+
+  <header class="header">
+
+  
+  <div class="header-inner">
+    <div class="logo"><a title="ホーム" href="/hc/ja">
+      <img src="//p13.zdassets.com/hc/settings_assets/671102/200060237/gBznW6xcg95VpnPUM7HuKQ-title_3.png" alt="ロゴ">
+    </a></div>
+
+    <nav class="user-nav">
+このページはTypeBankのサポートページです。<br>
+製品・サービスに関するサポート情報などを掲載しています。<br> 
+キーワードを検索してご活用ください。<br>
+
+    </nav>
+  </div>
+</header>
+
+  <main role="main">
+    <nav class="sub-nav">
+  <ol class="breadcrumbs">
+  
+    <li title="TypeBank Support">
+      
+        <a href="/hc/ja">TypeBank Support</a>
+      
+    </li>
+  
+    <li title="リクエストを送信">
+      
+        リクエストを送信
+      
+    </li>
+  
+</ol>
+
+  <form role="search" class="search" data-search="" action="/hc/ja/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="search" name="query" id="query" placeholder="検索" aria-label="検索" />
+<input type="submit" name="commit" value="検索" /></form>
+</nav>
+
+<h1 class="page-header">
+  リクエストを送信
+</h1>
+
+<div class="form">
+  
+  <form id="new_request" data-form="" class="request-form" action="/hc/ja/requests" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="7x7tWYKebVxn+WXD+xSkPDO0GPRupZSBpSzg5wn/0st5iJF9SV88yQz8rxoBLSbPI/1VyB4J1M1V/LHWqcYaLg==" />
+
+
+
+  
+
+  
+
+  <div class="form-field string required request_anonymous_requester_email"><label for="request_anonymous_requester_email">メールアドレス</label>
+<input type="text" name="request[anonymous_requester_email]" id="request_anonymous_requester_email" aria-required="true" />
+</div>
+
+  
+
+  
+    <div class="form-field string  required  request_custom_fields_24905507" >
+      <label for="request_custom_fields_24905507">お名前</label>
+      <input type="text" name="request[custom_fields][24905507]" id="request_custom_fields_24905507" aria-required="true" />
+      
+      
+    </div>
+
+    
+  
+    <div class="form-field string  optional  request_custom_fields_26378317" >
+      <label for="request_custom_fields_26378317">会社名</label>
+      <input type="text" name="request[custom_fields][26378317]" id="request_custom_fields_26378317" aria-required="false" aria-describedby="request_custom_fields_26378317_hint" />
+      
+      <p id="request_custom_fields_26378317_hint">法人のお客様は貴社名をご記入ください。</p>
+    </div>
+
+    
+  
+    <div class="form-field string  required  request_subject" >
+      <label for="request_subject">件名</label>
+      <input type="text" name="request[subject]" id="request_subject" maxlength="150" size="150" aria-required="true" aria-describedby="request_subject_hint" />
+      
+      <p id="request_subject_hint">お問い合わせ内容の件名をご記入ください。</p>
+    </div>
+
+    
+      <div class="suggestion-list" data-hc-class="searchbox" data-hc-suggestion-list="true"></div>
+    
+  
+    <div class="form-field text  required  request_description" >
+      <label for="request_description">説明</label>
+      <textarea name="request[description]" id="request_description" aria-required="true" aria-describedby="request_description_hint"></textarea>
+      
+      <p id="request_description_hint">具体的に詳細な内容をお知らせください。サポートスタッフのメンバーがすぐに対応いたします。</p>
+    </div>
+
+    
+  
+
+  <div class="form-field">
+  <label>添付ファイル</label>
+  <div id="upload-dropzone" class="upload-dropzone">
+  <input type="file" multiple="true" id="request-attachments"
+    data-fileupload="true"
+    data-dropzone="upload-dropzone"
+    data-error="upload-error"
+    data-create-url="/hc/ja/request_uploads"
+    data-name="request[attachments][]"
+    data-pool="request-attachments-pool"
+    data-delete-confirm-msg=""
+  />
+  <span>
+    <a>ファイルを追加</a>またはここにファイルをドロップ
+  </span>
+</div>
+
+<div id="upload-error" class="notification notification-error notification-inline">
+  <span data-upload-error-message></span>
+</div>
+
+
+  <ul id="request-attachments-pool" class="upload-pool" data-template="upload-template"></ul>
+
+<script type="text/html" id="upload-template">
+<li class="upload-item" data-upload-item>
+  <a class="upload-link" target="_blank" data-upload-link></a>
+  <p class="upload-path" data-upload-path></p>
+  <p class="upload-path" data-upload-size></p>
+  <p data-upload-issue class="notification notification-alert notification-inline" aria-hidden="true"></p>
+  <span class="upload-remove" data-upload-remove></span>
+  <div class="upload-progress" data-upload-progress></div>
+  <input type="hidden">
+</li>
+</script>
+
+
+</div>
+
+
+  
+  
+
+  
+
+  <footer><input type="submit" name="commit" value="送信" /></footer>
+
+</form>
+
+
+
+</div>
+
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <div id="flogo">
+      <a href="http://www.typebank.co.jp/" >
+      <img src="//p5.zdassets.com/hc/theme_assets/671102/200060237/TB_Logo_color4.png" alt="TypeBank"></a>
+         </div>
+ 
+    <!-- Footer content -->
+  </div>
+</footer>
+
+    <div class="powered-by-zendesk">
+  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" focusable="false" viewBox="0 0 26 26">
+    <path d="M12 8.2v14.5H0zM12 3c0 3.3-2.7 6-6 6S0 6.3 0 3h12zm2 19.7c0-3.3 2.7-6 6-6s6 2.7 6 6H14zm0-5.2V3h12z"/>
+  </svg>
+
+  <a href="https://www.zendesk.co.jp/help-center/?utm_source=helpcenter&utm_medium=poweredbyzendesk&utm_campaign=text&utm_content=Typebank%20Support" target="_blank" >Powered by Zendesk</a>
+</div>
+
+
+  <!-- / -->
+
+  <script type="text/javascript" src="//static.zdassets.com/hc/assets/locales/ja-b1f72f52f6d2e3f9349403622d5953d2.js"></script>
+  <script src="https://typebank.zendesk.com/auth/v2/host.js" data-brand-id="76888" data-return-to="https://typebank.zendesk.com/hc/ja/requests/new" data-theme="hc" data-locale="67" data-auth-origin="76888,false,true"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"typebank","environment":"production","name":"Typebank Support"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/default_avatar.png","organizations":[],"groups":[]};
+  HelpCenter.internal = {"asset_url":"//static.zdassets.com/hc/assets/","web_widget_asset_composer_url":"https://static.zdassets.com/ekr/snippet.js","current_session":{"locale":"ja","csrf_token":"cBDvtNOyKMChRnPKQeewspy3h6fNhgsbmRxD1ncekjzmhpOQGHN5VcpDuRO73jJBjP7Km70qS1dpzBLn1yda2Q==","shared_csrf_token":null},"settings":{"zopim_enabled":false,"spam_filter_enabled":true},"current_record_id":null,"current_record_url":null,"current_record_title":null,"search_results_count":null,"current_text_direction":"ltr","current_brand_url":"https://typebank.zendesk.com","current_host_mapping":null,"current_path":"/hc/ja/requests/new","authentication_domain":"https://typebank.zendesk.com","show_autocomplete_breadcrumbs":true,"rollbar_config":null,"user_info_changing_enabled":false,"has_user_profiles_enabled":false,"has_anonymous_kb_voting":false,"has_professional_upsell":false,"has_multi_language_help_center":false,"mobile_device":false,"mobile_site_enabled":true,"show_at_mentions":false,"has_copied_content":false,"embeddables_config":{"embeddables_web_widget":false,"embeddables_connect_ipms":false},"base_domain":"zendesk.com","answer_bot_subdomain":"static","plans_url":"https://typebank.zendesk.com/hc/admin/plan?locale=ja","manage_content_url":"https://typebank.zendesk.com/hc/ja","arrange_content_url":"https://typebank.zendesk.com/hc/admin/arrange_contents?locale=ja","general_settings_url":"https://typebank.zendesk.com/hc/admin/general_settings?locale=ja","user_segments_url":"https://typebank.zendesk.com/hc/admin/user_segments?locale=ja","import_articles_url":"https://typebank.zendesk.com/hc/admin/import_articles?locale=ja","has_community_enabled":false,"has_groups":true,"has_internal_sections":true,"has_organizations":true,"has_tag_restrictions":true,"has_answer_bot_enabled_in_classic":false,"has_answer_bot_web_form_enabled":false,"has_close_the_loop_enabled":false,"billing_url":"/access/return_to?return_to=https://typebank.zendesk.com/agent/admin/subscription","has_answer_bot":true,"has_guide_docs_importer":true,"has_guide_permission_groups":false,"answer_bot_management_url":"https://typebank.zendesk.com/hc/admin/answer_bot?locale=ja","is_account_owner":false,"has_theming_templates":false,"theming_center_url":"https://typebank.zendesk.com/theming","theming_cookie_key":"hc-da39a3ee5e6b4b0d3255bfef95601890afd80709-preview","is_preview":false,"permission_groups_url":"https://typebank.zendesk.com/knowledge/permissions?brand_id=76888","has_guide_user_segments_search":false,"has_alternate_templates":false};
+</script>
+
+  <script src="//static.zdassets.com/hc/assets/hc_enduser-936bd3ff7d011b46ab9a13c54697992e.js"></script>
+  
+
+  <script type="text/javascript">
+    (function() {
+  var Tracker = {};
+
+  Tracker.track = function(eventName, data) {
+    var url = "https://typebank.zendesk.com/hc/tracking/events?locale=ja";
+
+    var payload = {
+      "event": eventName,
+      "data": data,
+      "referrer": document.referrer
+    };
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("POST", url, true);
+    xhr.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+    xhr.send(JSON.stringify(payload));
+  };
+
+    Tracker.track("submit_request_form_viewed", "BAh7BzoVcGFyZW50X3RpY2tldF9pZDA6Cl9tZXRhews6D2FjY291bnRfaWRpA349CjoTaGVscF9jZW50ZXJfaWRpBE2t7As6DWJyYW5kX2lkaQNYLAE6DHVzZXJfaWQwOg51c2VyX3JvbGVJIg5hbm9ueW1vdXMGOgZFVDoLbG9jYWxlSSIHamEGOwxU--7ec6436e67908fa0c94557a1474c107768c139c3");
+})();
+
+  </script>
+</body>
+</html>

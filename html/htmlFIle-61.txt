@@ -1,0 +1,784 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" id="sixapart-standard">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>UTM、次世代ファイアウォールは FortiGate | フォーティネット</title>
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="keywords" content="UTM（統合脅威管理）,次世代ファイアウォール,アンチウィルス,アンチスパム,VPN,IPS,ウェブコンテンツフィルタリング" />
+<meta name="description" content="インターネットゲートウェイに必要なセキュリティ機能を実現するUTM（統合脅威管理）「フォーティゲート( FortiGate）」。それを効率的に活用する統合管理/監視ツールをフォーティネットがご提供します。" />
+<meta name="robots" content="index, follow" />
+<link rel="copyright" href="https://www.fortinet.co.jp/" />
+<link rev="made" href="https://www.fortinet.co.jp/" />
+<link rel="stylesheet" href="/styles.css" type="text/css" />
+<link rel="start" href="https://www.fortinet.co.jp/" title="ホーム" />
+<link rel="alternate" type="application/atom+xml" title="Recent Entries" href="/atom.xml" />
+<script type="text/javascript" src="/mt.js"></script>
+<script type="text/javascript" src="/common/jquery.min.js"></script>
+<script type="text/javascript" src="/common.js"></script>
+
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3564899-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script type="text/javascript">
+var _elqQ = _elqQ || [];
+_elqQ.push(['elqSetSiteId', '1953390366']);
+_elqQ.push(['elqTrackPageView']);
+ 
+(function () {
+function async_load() {
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+s.src = '//img03.en25.com/i/elqCfg.min.js';
+var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+}
+if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+else if (window.attachEvent) window.attachEvent('onload', async_load);
+})();
+</script>
+<!--http://html5shim.googlecode.com/svn/trunk/html5.js-->
+<!--[if lt IE 9]>
+<script src="/common/html5.js"></script>
+<![endif]-->
+<!--http://www.dillerdesign.com/experiment/DD_belatedPNG/-->
+<!--[if IE 6]>
+<script src="/common/DD_belatedPNG_0.0.8a-min.js"></script>
+<script>
+DD_belatedPNG.fix('img, h1, h2, .png_bg');
+</script>
+<style type="text/css">
+body { behavior: url("/common/csshover3.htc"); }
+</style>
+<![endif]-->
+</head>
+
+<body id="classic-blog" class="mt-main-index layout-twt">
+<div id="container">
+<div id="container-inner">
+<div id="header">
+<div id="header-inner">
+<div id="header-content">
+<div id="header-widgetset">
+<div class="widget_header_name widget">
+<div class="widget-header">
+<div id="header-name"><a href="/" accesskey="1">フォーティネット</a></div>
+</div>
+<div class="widget-content">
+<div id="header-description">インターネットゲートウェイに必要なセキュリティ機能を実現するUTM（統合脅威管理）「フォーティゲート( FortiGate）」。それを効率的に活用する統合管理/監視ツールをフォーティネットがご提供します。</div>
+</div>
+</div>
+
+
+<div class="widget_header_navigation widget">
+<div class="widget_inner">
+<ul class="inline_link">
+<li class="first"><a href="http://www.fortiguard.com/" class="blank">FortiGuard Labs(英語)</a></li>
+<li><a href="/aboutus/jobs.html">採用情報</a></li>
+<li><a href="/security_blog/">セキュリティブログ</a></li>
+</ul>
+</div>
+</div>
+<div class="widget_search widget">
+
+<div class="widget-content">
+<form id="header_search" name="header_search" method="GET" action="/cgi-bin/namazu-utf8.cgi">
+<label for="search" class="search_text">検索</label>
+<input type="text" id="search" name="search" maxlength="200" class="search_form" value="" />
+<input type="submit" class="submit" value="GO" />
+</form>
+</div>
+</div>
+
+
+
+
+
+</div>
+</div>
+</div>
+</div>
+
+<div id="content">
+<div id="content-inner" class="index">
+<div id="alpha">
+<div id="alpha-inner">
+
+
+
+
+
+
+
+<div id="top1" class="widget_topFlash widget">
+<h3 class="widget-header">トップページバナー</h3>
+<div class="widget-content">
+
+<script type="text/javascript">
+$(function(){
+	var SliderId = '#slider';
+	var ThumbId = '#slider_thumb';
+	var slideTime = 500;
+var delayTime = 6000; // 2017.11.10 iibuchi modified. prev value:8000;
+	var sliderWidth = $(SliderId).width();
+	var sliderHeight = $(SliderId).height();
+
+	var listLength = $(ThumbId + ' ul li').length;
+	var listWidth = parseInt($(ThumbId + ' ul li').css('width')) + parseInt($(ThumbId + ' ul li').css('margin-left'));
+	var ThumbLeftPos = (1000 - (listLength * listWidth) - 15) / 2;
+
+	$(ThumbId + ' ul').css({
+		left: (ThumbLeftPos)
+	});
+
+	$(ThumbId).fadeTo(0,0); //0.2
+	$(ThumbId + ' ul li').fadeTo(300,1.0);
+	$('#sliderWrap').bind({
+		'mouseenter':function() {
+			$(ThumbId).fadeTo(300,0.6);
+			clearInterval(setTimer);
+		},
+		'mouseleave':function() {
+			$(ThumbId).fadeTo(300,0.2);
+			timer();
+		}
+	});
+
+	$(SliderId).each(function(){
+		var sliderWidth = $(this).width();
+		var sliderHeight = $(this).height();
+
+		var listWidth = parseInt($(this).children('ul').children('li').css('width'));
+		var listCount = $(this).children('ul').children('li').length;
+		var ulWidth = (listWidth)*(listCount);
+
+		$(SliderId + ' ul').css({
+			width: (ulWidth),
+			height: (sliderHeight)
+		});
+
+		$(ThumbId + ' ul li:first').addClass('active');
+		$(ThumbId + ' ul li').css({opacity:'0.6'});
+
+		$(window).load(function () {
+
+			$(ThumbId).fadeTo(1000,0.2);
+			$(ThumbId + ' ul li').click(function(){
+				if(!$(SliderId + ' ul').is(':animated'))
+				{
+					var connectCont = $(ThumbId + ' ul li').index(this);
+					$(SliderId + ' ul').stop().animate({left:(-(sliderWidth)*(connectCont))},slideTime);
+					$(ThumbId + ' ul li').removeClass('active');
+					$(this).addClass('active');
+				}
+			});
+
+			timer();
+
+		});
+
+	});
+
+	function timer() {
+		setTimer = setInterval(function(){
+			$(SliderId + ' ul').each(function(){
+				var moveLeft = parseInt($(this).css('left'));
+				var listLengh = $(ThumbId + ' ul li').length;
+				var listWidth = parseInt($(SliderId + ' ul li').css('width'));
+				var listCount = $(SliderId).children('ul').children('li').length;
+				var ulWidth = (listWidth) * (listCount);
+
+				if(Math.abs(moveLeft) == (ulWidth - listWidth)){
+					if(!$(SliderId + ' ul').is(':animated'))
+					{
+						$(SliderId + ' ul').stop().animate({left:'0'},slideTime);
+						$('.active').each(function(){
+							$(this).removeClass('active');
+							$(ThumbId + ' ul li:first').addClass('active');
+						});
+					}
+
+				}else{
+					if(!$(SliderId + ' ul').is(':animated'))
+					{
+						$(SliderId + ' ul').stop().animate({left:'-=' + (sliderWidth)},slideTime);
+						$('.active').each(function(){
+							$(this).removeClass('active');
+							$(this).next().addClass('active');
+						});
+					}
+				}
+			});
+		},delayTime);
+	};
+
+});
+</script>
+<style type="text/css">
+#sliderWrap {
+	margin: 0 auto;
+	width: 1000px;
+	text-align: center;
+	position: relative;
+	z-index: 3;
+}
+
+/* slider */
+#slider {
+	width: 1000px;
+	height: 310px;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+#slider ul {
+	top: 0;
+	left: 0;
+	position: absolute;
+	overflow: hidden;
+	margin:0px;
+	padding:0px;
+}
+#slider ul li {
+	width: 1000px;
+	height: 310px;
+	float: left;
+	display: inline;
+	overflow: hidden;
+	margin:0px;
+	padding:0px;
+}
+
+/* slider_thumb */
+#slider_thumb {
+	width: 1000px;
+	height: 30px;
+	bottom: 0px;
+	position: absolute;
+	background-color:#000;
+	z-index: 2;
+}
+#slider_thumb ul {
+	position: absolute;
+	bottom: 5px;
+	margin: auto 0;
+	padding:0px;
+}
+#slider_thumb ul li {
+	width: 40px;
+	height: 20px;
+	float: left;
+	display: inline;
+	border: 1px solid #999;
+	margin:0px 0px 0px 15px;
+	padding:0px;
+}
+#slider_thumb ul li:hover {
+	border: 1px solid #fff;
+}
+#slider_thumb ul li.active {
+	border: 1px solid #c00;
+}
+
+/* ClearFixElements */
+#slider ul:after {
+	content: ".";
+	height: 0;
+	clear: both;
+	display: block;
+	visibility: hidden;
+}
+
+#slider ul {
+	display: inline-block;
+	overflow: hidden;
+}
+</style>
+<div id="sliderWrap">
+<div id="slider">
+<ul>
+<li><a href="/leads/login.php"><img src="/images/home/banner_secure_SD-LAN_setting_guide.jpg" width="1000" height="310" alt="セキュアSD-LAN 設定ガイド" /></a></li>
+<li><a href="https://www.fortinet-security-world.jp/?r=ftn011" class="noicon"><img src="/images/home/fortinet_security_world_2018_complete.jpg" width="1000" height="310" alt="FORTINET SECURITY WORLD 2018" /></a></li>
+<li><a href="/leads/login.php"><img src="/images/home/Threat-Landscape-Report-Q1-2018.jpg" width="1000" height="310" alt="フォーティネット脅威レポート 2018年第1四半期版" /></a></li>
+<li><a href="/aboutus/aboutus.html"><img src="/images/home/banner_about_fortinet.jpg" width="1000" height="310" alt="企業のビジョンはセキュリティに現れる。企業に活力をもたらすこと。それが、フォーティネットの使命です。" /></a></li>
+<li><a href="/doc/SB_FortiSIEM_Brochure.pdf" class="noicon"><img src="/images/home/banner_fortisiem_no_susume.jpg" width="1000" height="310" alt="FortiSIEMのすすめ" /></a></li>
+<li><a href="/solutions/cloud-app-network-security.html"><img src="/images/home/banner-cloudapp-nss.jpg" width="1000" height="310" alt="クラウドアプリケーション向け ネットワーク・セキュリティ ソリューション" /></a></li>
+<li><a href="/doc/SB_Workstyle.pdf" class="noicon"><img src="/images/home/banner_SB_Workstyle.png" width="1000" height="310" alt="働き方改革ソリューション" /></a></li>
+</ul>
+</div><!--/#slider-->
+<div id="slider_thumb">
+<ul>
+<li><img src="/images/home/banner_secure_SD-LAN_setting_guide_thumb.jpg" width="40" height="20" alt="セキュアSD-LAN 設定ガイド" /></li>
+<li><img src="/images/home/fortinet_security_world_2018_complete_thumb.png" width="40" height="20" alt="" /></li>
+<li><img src="/images/home/Threat-Landscape-Report-Q1-2018_thumb.jpg" width="40" height="20" alt="" /></li>
+<li><img src="/images/home/banner_about_fortinet_thumb.jpg" width="40" height="20" alt="" /></li>
+<li><img src="/images/home/banner_fortisiem_no_susume_thumb.png" width="40" height="20" alt="FortiSIEMのすすめ" /></li>
+<li><img src="/images/home/banner-cloudapp-nss_thumb.png" width="40" height="20" alt="クラウドアプリケーション向け ネットワーク・セキュリティ ソリューション" /></li>
+<li><img src="/images/home/banner_SB_Workstyle_thumb.png" width="40" height="20" alt="" /></li>
+</ul>
+</div><!--/#slider_thumb-->
+</div><!--/#sliderWrap-->
+</div>
+<!--/widget_topFlash--></div>
+
+<div id="top2" class="widget_feature_box widget" style="margin-bottom:1em;">
+
+
+
+<!-- Banner -->
+<p style="margin-top:0;"><a href="/security_blog/"><img src="/images/home/banner_SecurityBlog_small.png" width="230" height="79" alt="Security Blog" /></a></p>
+<p style="margin-top:5px; border-bottom:1px solid #e8e8e8; padding-bottom:2em; margin-bottom:2em;"><a href="/support-and-training/certified/"><img src="/images/home/banner_NSE-training.png" width="230" height="79" alt="NSEトレーニング 好評受付中！" /></a></p>
+
+
+<!-- fortinet club -->
+<div id="top2_fc" class="widget_freespace widget">
+<h3 class="widget-header">フォーティネット倶楽部</h3>
+<div class="widget-content">
+<p><a href="/leads/login.php">登録して会員限定の資料をダウンロード！</a></p>
+</div>
+</div>
+
+<!-- Fortinet Japan Partners -->
+<p style="margin-top:0px;"><a href="/partners/fpp.html"><img src="/theme_fn2/banner_fnjppartners.png" width="230" height="44" alt="フォーティネットジャパン パートナーズ" /></a></p>
+
+<!-- Twitter -->
+<div id="top2_bn" class="widget_freespace widget">
+<h3 class="widget-header">バナー</h3>
+<div class="widget_inner">
+<ul>
+<li><a href="http://twitter.com/FortinetJapan"><img src="/theme_fn2/followme.gif" width="230" height="79" alt="@FortinetJapan を
+Twitter でフォローしよう!" /></a></li>
+</ul>
+</div>
+</div>
+
+<!--/widget_feature_box--></div>
+
+
+<div id="top3" class="widget_recentCategoryEntries widget_top_press_releases widget">
+<h3 class="widget-header"><a href="/press_releases/press.html">プレスリリース</a><span> &gt;新着記事</span></h3>
+<div class="widget-content widget_inner">
+<ul>
+<li>6/19 <a href="/press_releases/180619.html" title="フォーティネット、インターポールとの脅威情報共有協定に署名">フォーティネット、インターポールとの脅威情報共有協定に署名</a></li>
+<li>6/14 <a href="/press_releases/180614.html" title="フォーティネット、FortiWeb Webアプリケーションファイアウォールに機械学習機能を導入し、振る舞いベースの高度な脅威検知を実現">フォーティネット、FortiWeb Webアプリケーションファイアウォールに機械学習機能を導入し、振...</a></li>
+<li>6/ 6 <a href="/press_releases/180606.html" title="フォーティネット、Bradford Networksを買収">フォーティネット、Bradford Networksを買収</a></li>
+</ul>
+</div>
+</div>
+
+
+<div id="top4" class="widget_recentCategoryEntries widget_top_security_blog widget">
+<h3 class="widget-header"><a href="/security_blog/">セキュリティブログ</a><span> &gt;新着記事</span></h3>
+<div class="widget-content widget_inner">
+<ul>
+<li>7/ 5 <a href="/security_blog/180612_you-can-t-protect-what-you-can-t-see--gaining-visibility-in-endp.html">見えないものは保護できない: エンドポイントセキュリティにおける可視性を得るには</a></li>
+<li>6/27 <a href="/security_blog/180503_yet-another-crypto-mining-botnet.html">クリプトマイニングで新たなボットネットが出現か？</a></li>
+<li>6/21 <a href="/security_blog/180607_non-russion-matryoshka-russian-service-centers-under-attack.html">ロシア製でないマトリョーシカ: ロシアのサービスセンターが攻撃を受ける</a></li>
+<li>6/14 <a href="/security_blog/180605_fortiweb-release-6-0--ai-based-machine-learning-for-advanced-thr.html">FortiWeb 6.0をリリース: 人工知能(AI)による高度な脅威検知を実現</a></li>
+</ul>
+</div>
+</div>
+<div id="top5" class="widget_recentCategoryEntries widget_top_events widget">
+<h3 class="widget-header"><a href="/aboutus/events.html">イベント・セミナー</a><span> &gt;新着記事</span></h3>
+<div class="widget-content widget_inner">
+<ul>
+	<li>7/12 <a href="/aboutus/events.html#eve_cc-link-seminar">次世代ものづくりを支えるCC-Link/CC-Link IEセミナー〈CC-Linkユーザー向けセミナー〉中国（広島）</a></li>
+	<li>7/19-20 <a href="/aboutus/events.html#eve_sbworld2018">SoftBank World 2018</a></li>
+	<li>7/24 <a href="/aboutus/events.html#eve_fortigate_maruwakari_seminar">FortiGate まるわかりセミナー 特別編 『簡単・安価にセキュリティレベルを向上させる 導入テクニックとその後の運用のポイントとは』</a></li>
+	<li>7/25 <a href="/aboutus/events.html#eve_sangyo_opennet_2018">産業オープンネット展2018（東京）</a></li>
+	<li>7/27 <a href="/aboutus/events.html#eve_sangyo_opennet_2018">産業オープンネット展2018（名古屋）</a></li>
+	<li>8/30 <a href="/aboutus/events.html#eve_cc-link-seminar">次世代ものづくりを支えるCC-Link/CC-Link IEセミナー〈CC-Linkユーザー向けセミナー〉九州（久留米）</a></li>
+	<li>9/13 <a href="/aboutus/events.html#eve_cc-link-seminar">次世代ものづくりを支えるCC-Link/CC-Link IEセミナー〈CC-Linkユーザー向けセミナー〉中部（名古屋）</a></li>
+	<!--li><span style="color:#455560;">現在予定しているイベント・セミナーはありません。</span></li-->
+</ul>
+
+</div>
+</div>
+
+
+<div id="top6" class="widget_recentCategoryEntries widget_top_resource_center widget">
+<h3 class="widget-header"><a href="/resource_center/">最新資料</a><span> &gt;新着記事</span></h3>
+<div class="widget-content widget_inner">
+
+<ul class="li_arrow">
+<li>7/10 <a href="/doc/FGT50ESeriesDS.pdf" class="blank_noicon">FortiGate/FortiWiFi 50Eシリーズ</a></li>
+<li>7/10 <a href="/doc/FGT80EDS.pdf" class="blank_noicon">FortiGate 80E</a></li>
+<li>7/9 <a href="/doc/FGT1000DDS.pdf" class="blank_noicon">FortiGate 1000D</a></li>
+<li>7/9 <a href="/doc/FGT30EDS.pdf" class="blank_noicon">FortiGate 30E / FortiWiFi 30E</a></li>
+<li>6/29 <a href="/doc/FGT90EDS.pdf" class="blank_noicon">FortiGate 90E</a></li>
+<li>6/29 <a href="/doc/FortiAP-S-ID_DS.pdf" class="blank_noicon">FortiAP S221E / S223E / S321C / S323C / S421E / S423E</a></li>
+<li>6/27 <a href="/doc/FNDN_DS.pdf" class="blank_noicon">Fortinet Developer Network (FNDN)</a></li>
+</ul>
+
+</div>
+</div>
+
+<div id="top7" class="widget_recentCategoryEntries widget_top_fortinetclub widget">
+<h3 class="widget-header"><a href="/leads/login.php">フォーティネット倶楽部<br />会員向け最新資料</a><span> &gt;新着記事</span></h3>
+<div class="widget-content widget_inner">
+
+<ul class="li_arrow">
+<li>7/12 <a href="/leads/login.php">セキュアSD-LAN 設定ガイド</a></li>
+<li>6/5 <a href="/leads/login.php">フォーティネット脅威レポート 2018年第1四半期版</a></li>
+<li>6/1 <a href="/leads/login.php">産業用制御システムセキュリティ対策</a></li>
+<li>5/15 <a href="/leads/login.php">Microsoft Office 365 用 FortiGate SD-WAN 設定ガイド</a></li>
+<li>3/14 <a href="/leads/login.php">フォーティネット脅威レポート 2017年第4四半期版</a></li>
+<li>12/20 <a href="/leads/login.php">フォーティネット脅威レポート 2017年第3四半期版</a></li>
+
+</ul>
+
+</div>
+</div>
+
+
+<div class="clear_both"><hr /></div>
+
+</div>
+                    </div>
+
+<div class="clear_both"><hr /></div>
+                </div>
+            </div>
+            <div id="footer">
+                <div id="footer-inner">
+                    <div id="footer-content">
+<div class="widget-linkbar widget">
+<h3 class="widget-header">複合リンクバー</h3>
+<div class="widget-content">
+<ul id="linkbar-top" class="dropmenu">
+<li><a href="/products/" class="top_nav">製品情報</a>
+<ul id="block_nav1" class="block_nav">
+<li class="border-right-none border-left-none">
+<div>
+<!--upper start-->
+<table summary="products menu" id="products_menu" class="nav_block">
+<tr style="height:50px;">
+<th style="width:60%;" abbr="title" scope="col" class="pngwide" colspan="3"><a href="/products/fortigate/" class="fortigate_wifi" style="width:auto;">FortiGate/FortiWiFi セキュリティ アプライアンス</a></th>
+<th style="width:20%;" abbr="title" scope="col" class="png" style="vertical-align:middle;"><a href="/products/fortigate/virtualappliances.html" class="fortigatevm">FortiGate<br />仮想アプライアンス</a></th>
+<th style="width:20%;" abbr="title" scope="col" class="png" style="vertical-align:middle;"><a href="/products/secure-web-gateway.html" class="fortiproxy">FortiGate SWG<br />セキュア Web ゲートウェイ</a></th>
+</tr>
+<tr style="height:50px;">
+<td rowspan="2">
+<strong>ハイエンドモデル</strong>
+<ul style="margin-bottom:1em;">
+<li><a href="/products/fortigate/7000series.html">FortiGate 7000シリーズ</a></li>
+<li><a href="/products/fortigate/6000series.html">FortiGate 6000シリーズ</a></li>
+<li><a href="/products/fortigate/5000series.html">FortiGate 5000シリーズ</a></li>
+<li><a href="/products/fortigate/3000series.html">FortiGate 3000シリーズ</a></li>
+<li><a href="/products/fortigate/2000series.html">FortiGate 2000シリーズ</a></li>
+<li><a href="/products/fortigate/1000series.html">FortiGate 1000シリーズ</a></li>
+</ul>
+</td>
+<td rowspan="2">
+<strong>ミッドレンジモデル</strong>
+<ul style="margin-bottom:1em;">
+<li><a href="/products/fortigate/800D.html">FortiGate 800D</a></li>
+<li><a href="/products/fortigate/600D.html">FortiGate 600D</a></li>
+<li><a href="/products/fortigate/300_500Series.html">FortiGate 300-500シリーズ</a></li>
+<li><a href="/products/fortigate/100_200Series.html">FortiGate 100-200シリーズ</a></li>
+</ul>
+</td>
+<td rowspan="2">
+<strong>デスクトップモデル</strong>
+<ul style="margin-bottom:1em;">
+<li><a href="/products/fortigate/fortigate-fortiwifi-d-series.html">FortiGate / FortiWiFi Dシリーズ</a></li>
+<li><a href="/products/fortigate/fortigate-fortiwifi-e-series.html">FortiGate / FortiWiFi Eシリーズ</a></li>
+</ul>
+</td>
+<th abbr="title" scope="col" class="png" style="vertical-align:middle;"><a href="/products/fortiap/" class="fortiap">FortiAP／FortiWLC<br />無線LANシステム</a></th>
+<th abbr="title" scope="col" class="png" style="vertical-align:middle;"><a href="/products/forticlient/" class="forticlient">FortiClient<br />エンドポイント<br />セキュリティ</a></th>
+</tr>
+<tr>
+<th abbr="title" scope="col" class="png" style="vertical-align:top;"><a href="/products/fortiswitch/" class="fortiswitch" style="margin-top:15px;">FortiSwitch<br />セキュアスイッチ</a></th>
+<th abbr="title" scope="col" class="png" style="vertical-align:top;"><a href="/products/forticloud/" class="forticloud" style="margin-top:15px;">FortiCloud<br />クラウド型<br />セキュリティサービス</a></th>
+</tr>
+<tr>
+<td style="width:100%;" colspan="3">
+<strong>産業系制御システム用モデル</strong>
+<ul>
+<li><a href="/solutions/scada-industrial-control-systems.html">FortiGate Rugged / FortiSwitch Ruggedシリーズ</a></li>
+</ul>
+</td>
+</tr>
+</table>
+<!--upper end-->
+<!--bottom start-->
+<ul id="bottomnav">
+<li class="pngbottom"><a href="/products/fortianalyzer/" class="fortianalyzer">FortiAnalyzer<br />集中セキュリティレポート</a></li>
+<li class="pngbottom"><a href="/products/fortimanager/" class="fortimanager">FortiManager<br />集中セキュリティ管理</a></li>
+<li class="pngbottom"><a href="/products/fortimail/" class="fortimail">FortiMail<br />統合セキュアメール<br />アプライアンス</a></li>
+<li class="pngbottom"><a href="/products/fortiweb/" class="fortiweb">FortiWeb<br />Webアプリケーション<br />ファイアウォール</a></li>
+<li class="pngbottom"><a href="/products/fortiauthenticator/" class="fortiauthenticator">FortiAuthenticator<br />認証サーバー</a></li>
+<li class="pngbottom"><a href="/products/fortitoken/" class="fortitoken">FortiToken<br />OTPトークン</a></li>
+<li class="pngbottom"><a href="/products/fortisandbox/" class="fortisandbox">FortiSandbox<br />多層型サンドボックス</a></li>
+<li class="pngbottom"><a href="/products/fortiddos/" class="fortiddos">FortiDDoS<br />DDoS攻撃ミティゲーション<br />アプライアンス</a></li>
+<li class="pngbottom"><a href="/products/fortiadc/" class="fortiadc">FortiADC<br />アプリケーション<br />デリバリコントローラ</a></li>
+<li class="pngbottom"><a href="/products/fortisiem/" class="fortisiem">FortiSIEM<br />セキュリティ情報<br />イベント管理ソリューション</a></li>
+<li class="pngbottom"><a href="/products/forticamera/" class="forticamera">FortiCamera/Recorder<br />ネットワーク<br />ビデオセキュリティ</a></li>
+<li class="pngbottom"><a href="/products/forticasb/" class="forticasb">FortiCASB<br />クラウドアクセス<br />セキュリティブローカー</a></li>
+<li class="pngbottom"><a href="/products/forticarrier/" class="forticarrier">FortiGate-CGN<br />キャリアグレードネットワーク<br />サービスアプライアンス</a></li>
+<li class="pngbottom"><a href="/products/management/fortinet-developer-network-fndn.html" class="management">Fortinet Developer Network (FNDN) <br />開発者コミュニティ</a></li>
+</ul><!--bottom end-->
+</div>
+
+<div class="fortiguard">
+<div class="security"><a href="/products/fortiguard/"><img src="/theme_fn2/fortiguard_logo.png">SECURED BY FORTIGUARD</a></div>
+<div class="security_dption"><a href="/products/fortiguard/">FortiGuard サブスクリプションサービス</a></div>
+</div>
+</li></ul></li>
+
+<!-- 脅威リサーチ -->
+<li>
+<a href="/threat-research/" class="top_nav">脅威リサーチ</a>
+<ul id="block_nav6" class="vertical_link">
+<li><a href="/threat-research/">脅威リサーチ</a></li>
+<li><a href="/threat-research/fortiguard-ai.html">FortiGuard AI</a></li>
+<li><a href="/threat-research/fortiguard-tool.html">FortiGuardツール</a></li>
+</ul>
+</li>
+
+<!-- ソリューション -->
+<li><a href="/solutions/" class="top_nav">ソリューション</a>
+<ul id="block_nav2" class="vertical_link block_nav" style="width:auto;">
+<li class="border-right-none border-left-none"><div style="padding:10px;">
+<table summary="solutions menu" id="solutions_menu" class="nav_block">
+	<tr >
+		<th ><strong style="color:#455560;">エンタープライズ</strong></th>
+		<th ><strong style="color:#455560;">SMB</strong></th>
+		<th ><strong style="color:#455560;">業種別</strong></th>
+	</tr>
+	<tr >
+		<td rowspan="3" style="vertical-align:top;"><a href="/solutions/enterprise.html">企業コア</a>
+			<a href="/solutions/cloud-security.html">クラウドセキュリティ</a>
+			<a href="/solutions/secure_mobile.html">セキュアモバイル</a>
+			<a href="/solutions/wlan.html">次世代無線LAN</a>
+			<a href="/solutions/atp.html">標的型攻撃対策</a>
+			<a href="/solutions/iot-security.html">IoTデバイスの保護</a></td>
+		<td style="vertical-align:top;"><a href="/solutions/connected-utm.html">セキュアSD-LAN / Connected UTM</a></td>
+		<td rowspan="3" style="vertical-align:top;">
+        <a href="/solutions/office365-network-security.html">Office365 ネットワーク・セキュリティ ソリューション</a>
+<!--        <a href="/solutions/cloud-app-network-security.html">クラウドアプリケーション向け<br /> ネットワーク・セキュリティ ソリューション</a> -->
+        <a href="/doc/SB-FML-Office365.pdf" class="pdf" style="background-position:100% 50%;">Office365 メールセキュリティソリューション</a>
+        <a href="/solutions/mail.html">メール無害化/自治体情報セキュリティ</a>
+			<a href="/solutions/edu_security.html">教育情報セキュリティソリューション</a>
+			<a href="/solutions/school-secure-wireless-lan.html">学校/災害避難所セキュア無線LAN</a>
+			<a href="/solutions/scada-industrial-control-systems.html">産業制御システム（ICS/SCADA）</a></td>
+	</tr>
+	<tr >
+		<th ><strong style="color:#455560;">サービスプロバイダ</strong></th>
+	</tr>
+	<tr >
+		<td style="vertical-align:top;"><a href="/solutions/mssp.html">MSSP</a>
+			<a href="/solutions/telcom_carriers.html">通信事業者</a></td>
+	</tr>
+	<tr >
+		<td colspan="3" style="vertical-align:top;">
+			<a href="/solutions/internal-network-segmentation-firewall.html">ISFW (内部セグメンテーションファイアウォール）</a></td>
+	</tr>
+</table>
+</div></li></ul></li>
+
+<!-- サポート -->
+<li>
+<a href="/support-and-training/index.html" class="top_nav">サポート &amp; トレーニング</a>
+<ul id="block_nav3" class="vertical_link block_nav" style="width:auto;">
+<li class="border-right-none border-left-none"><div style="padding:10px;">
+<table summary="support and training menu" id="support_menu" class="nav_block">
+	<tr >
+		<th ><strong style="color:#455560;">サポート</strong></th>
+		<th ><strong style="color:#455560;">プロフェッショナルサービス</strong></th>
+	</tr>
+	<tr >
+		<td style="vertical-align:top;">
+			<a href="/support-and-training/about_support.html">サポート窓口</a>
+			<a href="https://www.fortinet.com/support-and-training/support/login.html" class="blank">サポートポータル</a>
+		</td>
+		<td rowspan="3" style="vertical-align:top;">
+			<a href="/support-and-training/support-services/forticare-support.html">FortiCareサービス</a>
+			<a href="/support-and-training/support-services/premium-support.html" >エンタープライズ向けアドバンスサービス</a>
+			<a href="/support-and-training/support-services/advanced-services-providers.html" >サービスプロバイダ向けアドバンスサービス</a>
+			<a href="/support-and-training/support-services/professional-services.html" >プロフェッショナルサービス</a>
+			<a href="/support-and-training/support-services/security-analysis-services.html" >セキュリティ分析サービス</a>
+		</td>
+	</tr>
+	<tr >
+		<th ><strong style="color:#455560;">トレーニング</strong></th>
+	</tr>
+	<tr >
+		<td style="vertical-align:top;"><a href="/support-and-training/certified/index.html">Fortinet技術者認定プログラム(NSE)</a></td>
+	</tr>
+</table>
+</div></li></ul></li>
+
+<li>
+<a href="/partners/index.html" class="top_nav">パートナー</a>
+<ul id="block_nav4" class="vertical_link  quicktabs-wakeup">
+<li><a href="/partners/distributor.html">ディストリビュータ</a></li>
+<li><a href="/partners/reseller.html" class="nav_parent">リセラー</a>
+<ul>
+<li><a href="/partners/reseller.html?p=platinum">Platinumパートナー</a></li>
+<li><a href="/partners/reseller.html?p=gold">Goldパートナー</a></li>
+<!--li><a href="/partners/reseller.html?p=wifispgold">WiFiスペシャリストGoldパートナー</a></li-->
+<li><a href="/partners/reseller.html?p=silver">Silverパートナー</a></li>
+<li><a href="/partners/reseller.html?p=authorized">Authorizedパートナー</a></li>
+<li><a href="/partners/reseller.html?p=gap">グローバルアライアンスパートナー</a></li>
+</ul>
+</li>
+<li><a href="/partners/csp.html">サービスパートナー<br />認定プログラム</a></li>
+</ul>
+</li>
+
+<li>
+<a href="/aboutus/aboutus.html" class="top_nav">フォーティネットについて</a>
+<ul id="block_nav5" class="vertical_link">
+<li><a href="/aboutus/aboutus.html">フォーティネットについて</a></li>
+<li><a href="/aboutus/company.html">会社概要</a></li>
+<li><a href="/aboutus/certifications/">認定</a></li>
+<li><a href="/press_releases/press.html">プレスリリース</a></li>
+<li><a href="/security_blog/">セキュリティブログ</a></li>
+<li><a href="/aboutus/events.html">イベント・セミナー</a></li>
+<li><a href="/aboutus/jobs.html">採用情報</a></li>
+<li><a href="/contact/">お問い合わせ</a></li>
+<li><a href="/aboutus/security-fabric.html">フォーティネット セキュリティ ファブリック</a></li>
+</ul>
+</li>
+<li><a href="/solutions/cases.html" class="top_nav">導入事例</a></li>
+<li><a href="/resource_center/" class="top_nav">ダウンロード</a></li>
+<!--li><a href="/aboutus/jobs.html" class="top_nav">採用情報</a></li-->
+</ul>
+</div>
+<!--/widget-linkbar--></div>
+<div class="widget_footer_linkbar widget">
+<h3 class="widget-header">リンクバー</h3>
+<div class="widget-content">
+<ul class="horizontal_link">
+
+<li><strong ><a href="/products/">製品情報</a></strong>
+<ul class="vertical_link">
+<li><a href="/products/fortigate/">FortiGate</a></li>
+<li><a href="/products/fortigate/">FortiWiFi</a></li>
+<li><a href="/products/fortianalyzer/">FortiAnalyzer</a></li>
+<li><a href="/products/fortimanager/">FortiManager</a></li>
+<li><a href="/products/fortimail/">FortiMail</a></li>
+<li><a href="/products/fortiweb/">FortiWeb</a></li>
+<li><a href="/products/fortiddos/">FortiDDoS</a></li>
+<li><a href="/products/fortiadc/">FortiADC</a></li>
+<li><a href="/products/fortiauthenticator/">FortiAuthenticator</a></li>
+<li><a href="/products/fortisandbox/">FortiSandbox</a></li>
+<li><a href="/products/forticlient/">FortiClient</a></li>
+</ul></li>
+
+<li><strong><a href="/solutions/">ソリューション</a></strong>
+<ul class="vertical_link">
+<li><a href="/solutions/enterprise.html">企業コア</a></li>
+<li><a href="/solutions/cloud_data_center_security.html">データセンター</a></li>
+<li><a href="/solutions/distributed_enterprise.html">分散拠点</a></li>
+<li><a href="/solutions/smb_soho.html">中小企業</a></li>
+<li><a href="/solutions/mssp.html">MSSP</a></li>
+<li><a href="/solutions/telcom_carriers.html">通信事業者</a></li>
+<li class="idTabs-wakeup"><a href="/solutions/#all">全ソリューション</a></li>
+</ul></li>
+
+<li><strong ><a href="/support-and-training/index.html">サポート &amp; トレーニング</a></strong>
+<ul class="vertical_link">
+<li><a href="/support-and-training/about_support.html">サポート窓口</a></li>
+<li><a href="https://www.fortinet.com/support-and-training/support/login.html" class="blank">サポートポータル</a></li>
+<li><a href="/support-and-training/certified/">Fortinet技術者認定プログラム(NSE)</a></li>
+<li><a href="/support-and-training/support-services/forticare-support.html">FortiCareサービス</a></li>
+<li ><a href="/support-and-training/support-services/premium-support.html" >エンタープライズ向けアドバンスサービス</a></li>
+<li ><a href="/support-and-training/support-services/advanced-services-providers.html" >サービスプロバイダ向けアドバンスサービス</a></li>
+<li ><a href="/support-and-training/support-services/professional-services.html" >プロフェッショナルサービス</a></li>
+<li ><a href="/support-and-training/support-services/security-analysis-services.html" >セキュリティ分析サービス</a></li>
+<li><a href="/resource_center/">ダウンロードセンター</a></li>
+<li><a href="/leads/login.php">フォーティネット倶楽部</a></li>
+</ul></li>
+
+<li><strong><a href="/partners/">パートナー</a></strong>
+<ul class="vertical_link quicktabs-wakeup">
+<li><a href="/partners/distributor.html">ディストリビュータ</a></li>
+<li><a href="/partners/reseller.html">リセラー・<br />グローバルアライアンスパートナー</a></li>
+<li><a href="/partners/csp.html">サービスパートナー認定プログラム</a></li>
+</ul></li>
+
+<li><strong ><a href="/aboutus/aboutus.html">フォーティネットについて</a></strong>
+<ul class="vertical_link">
+<li><a href="/aboutus/company.html">会社概要</a></li>
+<li><a href="/aboutus/certifications/">製品認定</a></li>
+<li><a href="/press_releases/press.html">プレスリリース</a></li>
+<li><a href="/security_blog/">セキュリティブログ</a></li>
+<li><a href="/aboutus/events.html">イベント・セミナー</a></li>
+<li><a href="/aboutus/jobs.html">採用情報</a></li>
+<li><a href="/contact/">お問い合わせ</a></li>
+</ul></li>
+
+<li><strong ><a href="/resource_center/">ダウンロード</a></strong></li>
+
+</ul>
+
+<div class="fortiguard">
+<div class="security"><a href="/products/fortiguard/"><img src="/theme_fn2/fortiguard_logo.png">SECURED BY FORTIGUARD</a></div>
+<div class="security_dption"><a href="/products/fortiguard/">FortiGuard サブスクリプションサービス</a></div>
+</div>
+
+<!--/widget-content--></div>
+<!--/widget_footer_linkbar--></div>
+<div class="widget_copyright widget">
+<h3 class="widget-header">Copyright</h3>
+<div class="widget-content">
+<p>&copy;2018 Fortinet Japan K.K.  All Rights Reserved. | <a href="http://www.fortinet.com/aboutus/privacy.html" class="blank_noicon" style="color:white;">Privacy (英語版)</a> | <a href="/aboutus/privacy.html" style="color:white;">プライバシー (日本語版)</a> | <a href="https://www.fortinet.com/corporate/about-us/gdpr.html" class="blank_noicon" style="color:white;">GDPR (英語版)</a> | <a href="/aboutus/gdpr.html" style="color:white;">GDPR (日本語版)</a></p>
+</div>
+</div>
+
+<input type="hidden" id="editEntries" value="?__mode=dashboard&blog_id=2" />
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- リマーケティング タグの Google コード -->
+<!--------------------------------------------------
+リマーケティング タグは、個人を特定できる情報と関連付けることも、デリケートなカテゴリに属するページに設置することも許可されません。タグの設定方法については、こちらのページをご覧ください。
+http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 808313574;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/808313574/?guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<!-- Yahoo Code for your Target List -->
+<script type="text/javascript" language="javascript">
+/* <![CDATA[ */
+var yahoo_retargeting_id = '0J6WS7B4IK';
+var yahoo_retargeting_label = '';
+var yahoo_retargeting_page_type = '';
+var yahoo_retargeting_items = [{item_id: '', category_id: '', price: '', quantity: ''}];
+/* ]]> */
+</script>
+<script type="text/javascript" language="javascript" src="https://b92.yahoo.co.jp/js/s_retargeting.js"></script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="ie ie6" lang="ja" dir="ltr "> <![endif]-->
+<!--[if IE 7]>    <html class="ie ie7" lang="ja" dir="ltr "> <![endif]-->
+<!--[if IE 8]>    <html class="ie ie8" lang="ja" dir="ltr "> <![endif]-->
+<!--[if gt IE 8]> <!--> <html class="" lang="ja" dir="ltr "> <!--<![endif]-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+<link rel="dns-prefetch" href="//files.mscsoftware.com" />
+<link rel="dns-prefetch" href="//media.mscsoftware.com" />
+<link rel="dns-prefetch" href="//documents.mscsoftware.com" />
+<!--[if IE 9]>
+<link rel="prefetch" href="//files.mscsoftware.com" />
+<link rel="prefetch" href="//media.mscsoftware.com" />
+<link rel="prefetch" href="//documents.mscsoftware.com" />
+<![endif]-->
+<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+<link rel="shortcut icon" href="http://media.mscsoftware.com/cdn/farfuture/SVeBXnOfTh3W8HJjeTeEUC-PMBRgJoyXHBa0FREFy0s/mtime:1141081250/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="description" content="大規模アセンブリモデルの構造解析に適したMSC Apexはシミュレーションのプロセスを大幅に短縮させるソフトウェアです。" />
+<meta name="keywords" content="コンピューテーショナルパーツ, ダイレクトモデリング, メッシング" />
+<meta name="robots" content="follow, index" />
+<link rel="canonical" href="http://www.mscsoftware.com/ja/product/msc-apex" />
+<link rel="shortlink" href="http://www.mscsoftware.com/ja/node/2912" />
+<title>MSC Apex - 設計手法を変革する次世代CAE</title>
+<!-- Call bootstrap.css before $scripts to resolve @import conflict with respond.js -->
+<link rel="stylesheet" href="/sites/all/themes/Porto/vendor/bootstrap/css/bootstrap.css">
+<link type="text/css" rel="stylesheet" href="http://documents.mscsoftware.com/cdn/farfuture/p4a6FPNcOoX2Hd9gTBLasBjwU3S0Nzp1sFN89p1u6ME/mtime:1530164564/sites/default/files/cdn/css/http/css_yFj6V9SJ-P39-I5PHmEoBTDMCt8xzi1lPCiK9QbBhSQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://media.mscsoftware.com/cdn/farfuture/ovumk-lt128bgNcM_fgnnrVmwt7wMd5sfVS5TfaOd6E/mtime:1529893261/sites/default/files/cdn/css/http/css_OpQc1kzMZu5IlxCFXJt9wrY8JRo4Z2P6p7Xcej3xlL0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://media.mscsoftware.com/cdn/farfuture/U3YUrnnbgZW6sY9QNdB1WRhxmpRqH-KzdPGewL1p47o/mtime:1529669001/sites/default/files/cdn/css/http/css_Vd1uK-dTso0sbg8TvnyJTcT9dJDdgb3ya9cS90vMCk0.css" media="all" />
+<style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+#cboxLoadedContent iframe{overflow-x:hidden !important;}
+#cboxLoadedContent iframe html{overflow-x:hidden !important;}
+#cboxLoadedContent iframe{overflow-x:hidden !important;}
+#cboxLoadedContent iframe html{overflow-x:hidden !important;}
+
+/*]]>*/-->
+</style>
+<link type="text/css" rel="stylesheet" href="http://documents.mscsoftware.com/cdn/farfuture/vvw8HgLBiv0e5_XXfBjhQgSOmuhGhVOkal9gmpVeQ8U/mtime:1529893263/sites/default/files/cdn/css/http/css_CM_-ZNoC5MnWNgwgUpMTIw65gHAZnOuVEj0nEcXrBTU.css" media="all" />
+<style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+#sliding-popup.sliding-popup-bottom{background:#666666;}#sliding-popup .popup-content #popup-text h1,#sliding-popup .popup-content #popup-text h2,#sliding-popup .popup-content #popup-text h3,#sliding-popup .popup-content #popup-text p{color:#ffffff !important;}
+
+/*]]>*/-->
+</style>
+<link type="text/css" rel="stylesheet" href="http://media.mscsoftware.com/cdn/farfuture/VTjBlWiQF-ARTcnIQEIpC86YlJ_5Cyaqdu2ZqE6AGZ0/mtime:1529893261/sites/default/files/cdn/css/http/css_UOWUvKa6CrGwFzbvXWKaNim2-c309bJxtmYQJcN7RH8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://documents.mscsoftware.com/cdn/farfuture/CcedghbLG4zy6WYYSCekBCE4yZL-twXHOObJnF_SL4g/mtime:1530684477/sites/default/files/cdn/css/http/css_aIu_KzGYvp1iJ2UbEDM6Wvf8-bj5PoQh9-nB12g5mRo_skin.RjJNJrC9Xpg-4xVDkTnZIDwO1pU-Qbwe89H-SiyTbYA.css.css" media="all" />
+<script type="text/javascript" src="//code.jquery.com/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.7/jquery.min.js'>\x3C/script>")
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://documents.mscsoftware.com/cdn/farfuture/4T-P77THAteKQmDiZzhciZgNy-Z5QL52i0G3WbWNQuY/mtime:1530164565/sites/default/files/js/js_vSmhpx_T-AShyt_WMW5_TcwwxJP1imoVOa8jvwL_mxE.js"></script>
+<script type="text/javascript" src="http://media.mscsoftware.com/cdn/farfuture/3mEvvuMjqZI859xI8OjJdR9DC2_P3_Sjez9v_8I-x_w/mtime:1529893296/sites/default/files/js/js_H7q2xORKmR9AN8Qx5spKEIBp7R_wG2apAswJoCUZY7I.js"></script>
+<script type="text/javascript" src="http://media.mscsoftware.com/cdn/farfuture/g1phS0xAbovbJVW_1KQFQ9juYolYXCPrmgPHKR6mZp0/mtime:1531044664/sites/default/files/js/js_BokELwTbd-eskrI7OL7DbkbNz1zg3ba3OWgThQcMGBM.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+	(function() {
+  var didInit = false;
+  function initMunchkin() {
+    if(didInit === false) {
+      didInit = true;
+      Munchkin.init('109-LAC-296');
+    }
+  }
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '//munchkin.marketo.net/munchkin.js';
+  s.onreadystatechange = function() {
+    if (this.readyState == 'complete' || this.readyState == 'loaded') {
+      initMunchkin();
+    }
+  };
+  s.onload = initMunchkin;
+  document.getElementsByTagName('head')[0].appendChild(s);
+})();
+	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MLXNT52');
+	
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://documents.mscsoftware.com/cdn/farfuture/fhtcjBqhV_7SBO6cdiOLZ7YcvD7oxdTx7vMAKnsHMv0/mtime:1531438595/sites/default/files/js/js_8ftoNRdXCneiyMXDUHkp2t40axXKlbEH06XZFwU0AW4.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function() {if (window.location.search.indexOf('intro') > -1) {jQuery.colorbox({href:"//player.vimeo.com/video/103544271?title=0&amp;byline=0&amp;portrait=0&amp;color=ff0000&amp;autoplay=1", iframe:true,open:true, innerHeight:"450px", innerWidth:"800px"})}});
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://files.mscsoftware.com/cdn/farfuture/4px8C1hlVOZ708Rg-QPR3_KDN6qlOXzlFHHolsEV5Cc/mtime:1531044668/sites/default/files/js/js_6lIHmU9ouLUdP5-W0GnUldH2XDZc-NBbDMq4-ozLTOI.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+infourl="http://pages.mscsoftware.com/RequestMoreInformation.html";
+
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function() {jQuery("#request_quote").colorbox({className: "jquerypopupmargin",href:"http://pages.mscsoftware.com/JP_ProductQuote.html",height:"850px", width:"610px", iframe:true})});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function() {jQuery("#schedule_demo").colorbox({className: "jquerypopupmargin",href:infourl,height:"600px", width:"530px", iframe:true})});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function() {jQuery("#jaschedule_demo").colorbox({className: "jquerypopupmargin",href:"http://pages.mscsoftware.com/JP_RequestMoreInfo.html",height:"700px", width:"530px", iframe:true})});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function() {jQuery(".view-display-id-block_1234").wrap("<div class='toogle'><section id='prependme' class='toggle prependme'><div class='toggle-content'></div></div>");jQuery("#prependme").prepend("<label>ユーザー導入事例</label>");});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function() {jQuery(".view-display-id-block_12345").wrap("<div class='toogle'><section id='prependmebrochure' class='toggle prependme'><div class='toggle-content'></div></div>");jQuery("#prependmebrochure").prepend("<label>ブローシャー</label>");});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function() {jQuery(".view-display-id-block_3").wrap("<div class='toogle'><section id='prependmerelatedarticles' class='toggle prependme'><div class='toggle-content'></div></div>");jQuery("#prependmerelatedarticles").prepend("<label>Related Articles</label>");});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function() {jQuery("a[rel='related_video']").colorbox({innerHeight:"450px", innerWidth:"800px", iframe:true});jQuery("a[rel='customer_video']").colorbox({innerHeight:"450px", innerWidth:"800px", iframe:true});jQuery(".view-display-id-block_allvideos").wrap("<div class='toogle'><section id='prependmevideo' class='toggle prependme'><div class='toggle-content'></div></div>");jQuery("#prependmevideo").prepend("<label>ビデオ</label>");});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery(document).ready(function() {jQuery(".view-display-id-block_ondemandwebinars").wrap("<div class='toogle'><section id='prependmewebinars' class='toggle prependme'><div class='toggle-content'></div></div>");jQuery("#prependmewebinars").prepend("<label>オンデマンドウェビナー</label>");});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+	jQuery(function() {
+    if ( jQuery(".node-type-news .field-name-field-header-text").length === 0) {
+jQuery( ".node-type-news .field-name-title,.node-type-news .field-name-port-hr" ).css( "display", "none" );
+}
+else{
+jQuery( ".node-type-news .field-name-title" ).css( "display", "none" );
+jQuery( ".node-type-news .field-name-field-header-text .field-item" ).css( "margin-top", "0" );	
+}
+});
+	var webleads_site_ids = webleads_site_ids || [];
+webleads_site_ids.push(100797259);
+(function() {
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = ( document.location.protocol == 'https:' ? 'https://stats.webleads-tracker.com/js' : 'http://stats.webleads-tracker.com/js' );
+  ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://files.mscsoftware.com/cdn/farfuture/lb-hpYYMtNrMn8J1cEB_a0NDyvbF1JAVNuS-n8q94bg/mtime:1529893296/sites/default/files/js/js_k2aMEQpZep86jUwY9EtLw_uu662Kk4vRhFuKCnvRNV8.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"ja\/","ajaxPageState":{"theme":"porto_sub","theme_token":"cw_cHbX0hxWcb6QN09A6gOYC3Nf1EU3lJ9qDU5K3pPc","js":{"0":1,"sites\/all\/modules\/eu_cookie_compliance\/js\/eu_cookie_compliance.js":1,"1":1,"sites\/default\/files\/wm_autotrack_v10_path.js":1,"\/\/code.jquery.com\/jquery-1.7.2.min.js":1,"2":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"profiles\/openenterprise\/modules\/caption_filter\/js\/caption-filter.js":1,"3":1,"public:\/\/languages\/ja_JXPZ9_8QeQLuQsbpPd1N-V0V3oPdxSsDrBLY-kqF6_8.js":1,"sites\/all\/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_default_style.js":1,"sites\/all\/modules\/megamenu 2\/megamenu.js":1,"sites\/all\/modules\/video\/js\/video.js":1,"sites\/all\/modules\/custom_search\/js\/custom_search.js":1,"4":1,"sites\/all\/modules\/lang_dropdown\/lang_dropdown.js":1,"5":1,"6":1,"7":1,"8":1,"9":1,"10":1,"11":1,"12":1,"13":1,"14":1,"sites\/all\/themes\/Porto\/vendor\/modernizr.js":1,"sites\/all\/themes\/Porto\/vendor\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/themes\/Porto\/vendor\/jquery.easing.js":1,"sites\/all\/themes\/Porto\/vendor\/jquery.cookie.js":1,"sites\/all\/themes\/Porto\/vendor\/owl-carousel\/owl.carousel.js":1,"sites\/all\/themes\/Porto\/vendor\/circle-flip-slideshow\/js\/jquery.flipshow.js":1,"sites\/all\/themes\/Porto\/vendor\/isotope\/jquery.isotope.js":1,"sites\/all\/themes\/Porto\/vendor\/prettyPhoto\/js\/jquery.prettyPhoto.js":1,"sites\/all\/themes\/Porto\/vendor\/jflickrfeed\/jflickrfeed.js":1,"sites\/all\/themes\/Porto\/vendor\/jquery.mapmarker.js":1,"sites\/all\/themes\/Porto\/vendor\/jquery.stellar.js":1,"sites\/all\/themes\/Porto\/vendor\/jquery.gmap.js":1,"sites\/all\/themes\/Porto\/vendor\/jquery.knob.js":1,"sites\/all\/themes\/Porto\/vendor\/magnific-popup\/magnific-popup.js":1,"sites\/all\/themes\/Porto\/vendor\/mediaelement\/mediaelement-and-player.js":1,"sites\/all\/themes\/Porto\/vendor\/jquery.validate.js":1,"sites\/all\/themes\/Porto\/vendor\/jquery.appear.js":1,"sites\/all\/themes\/Porto\/js\/mobile-menu.js":1,"sites\/all\/themes\/Porto\/js\/theme.plugins.js":1,"sites\/all\/themes\/Porto\/js\/theme.js":1,"sites\/all\/themes\/Porto\/js\/views\/view.home.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"profiles\/openenterprise\/wysiwyg_align.css":1,"profiles\/openenterprise\/modules\/caption_filter\/caption-filter.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_default_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/megamenu 2\/megamenu.css":1,"sites\/all\/modules\/megamenu 2\/megamenu-skins.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/video\/css\/video.css":1,"sites\/all\/modules\/lang_dropdown\/lang_dropdown.css":1,"sites\/all\/modules\/custom_search\/custom_search.css":1,"0":1,"1":1,"2":1,"3":1,"sites\/all\/modules\/eu_cookie_compliance\/css\/eu_cookie_compliance.css":1,"4":1,"sites\/all\/themes\/Porto\/vendor\/owl-carousel\/owl.carousel.css":1,"sites\/all\/themes\/Porto\/vendor\/font-awesome\/css\/font-awesome.css":1,"sites\/all\/themes\/Porto\/vendor\/owl-carousel\/owl.theme.default.css":1,"sites\/all\/themes\/Porto\/vendor\/prettyPhoto\/css\/prettyPhoto.css":1,"sites\/all\/themes\/Porto\/vendor\/circle-flip-slideshow\/css\/component.css":1,"sites\/all\/themes\/Porto\/vendor\/magnific-popup\/magnific-popup.css":1,"sites\/all\/themes\/Porto\/vendor\/mediaelement\/mediaelementplayer.css":1,"sites\/all\/themes\/Porto\/vendor\/isotope\/jquery.isotope.css":1,"sites\/all\/themes\/Porto\/css\/theme-elements.css":1,"sites\/all\/themes\/Porto\/css\/theme-animate.css":1,"sites\/all\/themes\/Porto\/css\/theme-blog.css":1,"sites\/all\/themes\/Porto\/css\/theme.css":1,"sites\/all\/themes\/Porto\/css\/theme-responsive.css":1,"sites\/all\/themes\/Porto\/css\/drupal-styles.css":1,"sites\/all\/themes\/Porto_sub\/css\/custom.css":1,"sites\/all\/themes\/Porto\/css\/less\/skin.less":1}},"colorbox":{"transition":"elastic","speed":"350","opacity":"0.60","slideshow":false,"slideshowAuto":true,"slideshowSpeed":"2500","slideshowStart":"start slideshow","slideshowStop":"stop slideshow","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","overlayClose":true,"maxWidth":"100%","maxHeight":"90%","initialWidth":"300","initialHeight":"100","fixed":true,"scrolling":true},"megamenu":{"timeout":"500","sizewait":"250","hoverwait":"400"},"custom_search":{"form_target":"_self","solr":0},"urlIsAjaxTrusted":{"\/ja\/product\/msc-apex":true},"eu_cookie_compliance":{"popup_enabled":1,"popup_agreed_enabled":0,"popup_hide_agreed":1,"popup_clicking_confirmation":1,"popup_scrolling_confirmation":0,"popup_html_info":"\u003Cdiv\u003E\n  \u003Cdiv class =\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      This website uses cookies to improve the user experience. By continuing, we assume your permission to deploy cookies in accordance with our Cookie Policy.    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button\u0022\u003EACCEPT\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button\u0022\u003ELEARN MORE\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv\u003E\n  \u003Cdiv class =\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n          \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button\u0022\u003EACCEPT\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button\u0022\u003ELEARN MORE\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","mobile_breakpoint":"768","popup_html_agreed":"\u003Cdiv\u003E\n  \u003Cdiv class =\u0022popup-content agreed\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EThank you for accepting cookies\u003C\/h2\u003E\u003Cp\u003EYou can now hide this message or find out more about cookies.\u003C\/p\u003E    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022hide-popup-button\u0022\u003EHide\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button\u0022 \u003EMore info\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","popup_use_bare_css":false,"popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"\/ja\/node\/77","popup_link_new_window":0,"popup_position":null,"popup_language":"ja","better_support_for_screen_readers":0,"reload_page":0,"domain":"","popup_eu_only_js":0,"cookie_lifetime":"1000","disagree_do_not_show_popup":0}});
+//--><!]]>
+</script>
+
+<!-- IE Fix for HTML5 Tags -->
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!--[if IE]>
+  <link rel="stylesheet" href="/sites/all/themes/Porto/css/ie.css">
+<![endif]-->
+
+<!--[if lte IE 8]>
+  <script src="/sites/all/themes/Porto/vendor/respond.js"></script>
+<![endif]-->
+
+<!-- Web Fonts  -->
+<link href="//fonts.googleapis.com/css?family=Raleway:100,400,700|Shadows+Into+Light|Open+Sans:200,300,400,600,700,800|Work+Sans:400,300,700,900|Lato:400,300,700,900" rel="stylesheet" type="text/css">
+  
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-2912 node-type-products i18n-ja ">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MLXNT52"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div class="body">
+  <header id="header">
+    <div class="container">
+
+      	      	        
+            <div class="logo">
+	      <a href="/ja" title="ホーム" rel="home" id="logo">
+	        <img src="http://files.mscsoftware.com/cdn/farfuture/1furspp6Js7M9DVdQAQjtrXDzNoAOKeaZkLVnnWxaf8/mtime:1433525712/sites/default/files/MSC_Logo_porto.png" alt="ホーム" height="45" data-sticky-height="40" />
+	      </a>
+      </div>
+	    	    
+	          <div id="name-and-slogan" class="hidden">
+
+                  <h1 id="site-name" class="hidden">
+            <a href="/ja" title="ホーム" rel="home"><span>MSC Software Corporation</span></a>
+          </h1>
+        
+                  <div id="site-slogan" class="hidden">
+            Simulating Reality, Delivering Certainty          </div>
+        
+      </div> <!-- /#name-and-slogan -->
+	    	    
+	    	    <div class="search">
+	        
+<form class="search-form" onsubmit="if(this.search_block_form.value==&#039;Search&#039;){ alert(&#039;Please enter a search&#039;); return false; }" action="/ja/product/msc-apex" method="post" id="search-block-form" accept-charset="UTF-8"><div>
+<div class="input-group"> 
+  <input title="検索したいキーワードを入力してください。" class="form-control search form-text" placeholder="検索" onblur="if (this.value == &#039;&#039;) {this.value = &#039;Search&#039;;}" onfocus="if (this.value == &#039;Search&#039;) {this.value = &#039;&#039;;}" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="40" maxlength="128" /><span class="input-group-btn"><button class="btn btn-default" type="submit"><i class="icon icon-search"></i></button></span><input type="hidden" name="form_build_id" value="form-SFGqRkbpZ7nEH5FLURN3lx1_gn4JGVWKEqLQPLVJXMg" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>	    </div>
+	          
+      <!-- /branding --> 
+      <div id="header-top">
+          <div class="region region-header-top">
+    <div id="block-block-51" class="block block-block">
+
+    
+  <div class="content">
+    <nav>
+  <ul class="nav nav-pills nav-top">
+<li><a href='https://gateway.mscsoftware.com/'><i class='icon icon-angle-right'></i>Sign In</a></li><li><a href='mailto:mscj.market@mscsoftware.com'><i class='icon icon-angle-right'></i>お問い合わせ</a></li><li><form class="lang_dropdown_form language" id="lang_dropdown_form_language" action="/ja/product/msc-apex" method="post" accept-charset="UTF-8"><div><div class="form-item form-type-select form-item-lang-dropdown-select">
+ <select style="width:165px" class="lang-dropdown-select-element form-select" id="lang-dropdown-select-language" name="lang_dropdown_select"><option value="en">Americas</option><option value="en-asean">ASEAN/Australia</option><option value="bx">Benelux</option><option value="zh-hans">Greater China</option><option value="cs">Czech Republic</option><option value="fr">France</option><option value="de">Germany</option><option value="it">Italy</option><option value="en-in">India</option><option value="ja" selected="selected">Japan</option><option value="ko">Korea</option><option value="en-nd">Nordics</option><option value="ru">Russia</option><option value="es">Spain</option><option value="en-uk">UK/Ireland</option></select>
+</div>
+<input type="hidden" name="en" value="/product/msc-apex" />
+<input type="hidden" name="en-asean" value="/en-asean/product/msc-apex" />
+<input type="hidden" name="bx" value="http://www.mscsoftware.com/Benelux" />
+<input type="hidden" name="zh-hans" value="/zh-hans/product/msc-apex" />
+<input type="hidden" name="cs" value="/cs/product/msc-apex" />
+<input type="hidden" name="fr" value="/fr/product/msc-apex" />
+<input type="hidden" name="de" value="/de/product/msc-apex" />
+<input type="hidden" name="it" value="/it/product/msc-apex" />
+<input type="hidden" name="en-in" value="/en-in/product/msc-apex" />
+<input type="hidden" name="ja" value="/ja/product/msc-apex" />
+<input type="hidden" name="ko" value="/kr/product/msc-apex" />
+<input type="hidden" name="en-nd" value="/en-nd/product/msc-apex" />
+<input type="hidden" name="ru" value="http://www.mscsoftware.ru/" />
+<input type="hidden" name="es" value="/es/product/msc-apex" />
+<input type="hidden" name="en-uk" value="/en-uk/product/msc-apex" />
+<noscript><div>
+<input type="submit" id="edit-submit" name="op" value="Go" class="btn-primary btn form-submit" />
+</div></noscript><input type="hidden" name="form_build_id" value="form-2zwX-7dkBn-nEaG7iGmSNhlIQCeeGLXajWhp-VqvKcA" />
+<input type="hidden" name="form_id" value="lang_dropdown_form" />
+</div></form></li>
+  </ul>
+</nav>  </div>
+</div>
+  </div>
+      </div>
+      
+	    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse">
+				<i class="icon icon-bars"></i>
+			</button>
+      
+    </div>
+    
+    <div class="navbar-collapse nav-main-collapse collapse">
+		  <div class="container">  
+      
+                
+        <nav class="nav-main">
+          <div class="region region-header-menu">
+    <div id="block-menu-menu-main-menu-japan" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="nav nav-pills nav-main" id="mainMenu"><li class="dropdown 25940"><a class="dropdown-toggle extra" href="#"></a><a href="/ja/solutions" class="dropdown-toggle disabled">ソリューション</a><ul class="dropdown-menu"><li><a href="/ja/applications">解析分野別</a></li><li><a href="/ja/industries">業界別</a></li></ul></li><li><a href="/ja/products">プロダクト</a></li><li class="dropdown 16634"><a class="dropdown-toggle extra" href="#"></a><a class="dropdown-toggle disabled nolink">コンサルティング＆トレーニング</a><ul class="dropdown-menu"><li class="dropdown-submenu"><a href="/ja/services/engineering-services" title="">コンサルティングサービス</a><ul class="dropdown-menu"><li><a href="/ja/services/engineering-services">コンサルティングサービスについて</a></li><li><a href="/ja/page/customer-success-program">Customer Success Program</a></li><li><a href="/ja/services/turukitutosoriyusiyon">ツールキットソリューション</a></li></ul></li><li class="dropdown-submenu"><a href="/ja/page/msc_training" title="">トレーニング</a><ul class="dropdown-menu"><li><a href="/ja/page/msc_training" title="">トレーニングについて</a></li><li><a href="/ja/msc-learning-center" title="">MSC Learning Center</a></li></ul></li></ul></li><li class="dropdown 16644"><a class="dropdown-toggle extra" href="#"></a><a class="dropdown-toggle disabled nolink">パートナー</a><ul class="dropdown-menu"><li class="dropdown-submenu"><a href="/ja/page/tekunorozipatona" title="">テクノロジーパートナー</a><ul class="dropdown-menu"><li><a href="/ja/page/tekunorozipatona#Performance" title="">パフォーマンスパートナー</a></li><li><a href="/ja/page/tekunorozipatona#Software" title="">ソフトウェアコミュニティパートナー</a></li><li><a href="/ja/page/tekunorozipatona#Solution" title="">ソフトウェアソリューションパートナー</a></li></ul></li><li class="dropdown-submenu"><a href="/ja/page/fan-mai-dai-li-dian" title="">販売代理店</a><ul class="dropdown-menu"><li><a href="/ja/partners/americas" title="">Americas</a></li><li><a href="/ja/partners/europe" title="">Europe</a></li><li><a href="/ja/partners/middle-east-and-africa" title="">Middle East &amp; Africa</a></li><li><a href="/ja/partners/asia-pacific" title="">Asia-Pacific</a></li></ul></li></ul></li><li class="dropdown 16654"><a class="dropdown-toggle extra" href="#"></a><a class="dropdown-toggle disabled nolink">アカデミック</a><ul class="dropdown-menu"><li class="dropdown-submenu"><a href="/ja/student-editions" title="">学生センター</a><ul class="dropdown-menu"><li><a href="/ja/student-editions" title="">Student Editions</a></li><li><a href="/ja/formula-student" title="">学生競技会</a></li><li><a href="/ja/exercise-modules/simple-cantilever-beam" title="">練習問題</a></li></ul></li><li class="dropdown-submenu"><a title="" class="nolink">教育センター</a><ul class="dropdown-menu"><li><a href="/ja/page/jiao-yu-nimscwohuo-yong" title="">教育にMSCを活用</a></li><li><a href="/ja/exercise-modules/simple-cantilever-beam">練習問題</a></li></ul></li><li class="dropdown-submenu"><a title="" class="nolink">研究センター</a><ul class="dropdown-menu"><li><a href="/ja/page/yan-jiu-nimscwohuo-yong" title="">研究にMSCを活用</a></li><li><a href="/ja/Research-Assist-Program">Research Assist Program</a></li></ul></li><li class="dropdown-submenu"><a title="" class="nolink">特別プログラム</a><ul class="dropdown-menu"><li><a href="/ja/page/feamasutapuroguramu" title="">FEAマスタープログラム</a></li></ul></li></ul></li><li class="dropdown 16690"><a class="dropdown-toggle extra" href="#"></a><a href="/ja/page/hui-she-gai-yao" class="dropdown-toggle disabled">MSCについて</a><ul class="dropdown-menu"><li class="dropdown-submenu"><a href="/ja/page/cai-yong-qing-bao" title="">キャリア</a><ul class="dropdown-menu"><li><a href="/ja/page/meet-our-people" title="">社員インタビュー</a></li><li><a href="/ja/page/cai-yong-qing-bao" title="">採用情報</a></li></ul></li><li class="dropdown-submenu"><a href="/ja/page/hui-she-gai-yao" title="">会社情報</a><ul class="dropdown-menu"><li><a href="/ja/management-team" title="">マネジメントチーム</a></li><li><a href="/ja/locations" title="">ロケーション</a></li><li><a href="/ja/node/4526" title="">メディアセンター</a></li></ul></li><li class="dropdown-submenu"><a href="/ja/events" title="">イベント</a><ul class="dropdown-menu"><li><a href="/ja/events" title="">セミナー・展示会</a></li><li><a href="/ja/webinars" title="">ウェブセミナー</a></li></ul></li><li class="dropdown-submenu"><a title="" class="nolink">Simulating Reality</a><ul class="dropdown-menu"><li><a href="/ja/page/simulating-reality" title="">Simulating Reality ニュースレター</a></li><li><a href="/ja/page/simulating-reality-contest" title="">Simulating Reality コンテスト</a></li></ul></li></ul></li><li class="dropdown 16709"><a class="dropdown-toggle extra" href="#"></a><a href="http://simcompanion.mscsoftware.com/infocenter/index?page=home&amp;locale=ja_JP" class="dropdown-toggle disabled">テクニカルサポート</a><ul class="dropdown-menu"><li class="dropdown-submenu"><a href="/ja/page/tekunikarusapotonogorudosutandado" title="">テクニカルサポートの「ゴールドスタンダード」</a><ul class="dropdown-menu"><li><a href="http://simcompanion.mscsoftware.com/infocenter/index?page=home&amp;locale=ja_JP" title="">SimCompanion ナレッジポータル</a></li><li><a href="http://simcompanion.mscsoftware.com/infocenter/index?page=content&amp;channel=DOCUMENTATION&amp;locale=ja_JP" title="">Documentation</a></li><li><a href="http://simcompanion.mscsoftware.com/infocenter/index?page=content&amp;channel=TECHNICAL_ARTICLE&amp;locale=ja_JP" title="">Technical Articles</a></li><li><a href="http://simcompanion.mscsoftware.com/infocenter/index?page=content&amp;channel=PRODUCT_UPDATES&amp;locale=ja_JP" title="">Product Updates</a></li><li><a href="http://simcompanion.mscsoftware.com/infocenter/index?page=content&amp;channel=KNOWN_ISSUE&amp;locale=ja_JP" title="">Known Issues</a></li><li><a href="http://simcompanion.mscsoftware.com/infocenter/index?page=content&amp;channel=WEBINARS_AND_MULTIMEDIA&amp;locale=ja_JP" title="">Webinars and Multimedia</a></li><li><a href="/ja/basic-page-wide/sapotopuratutohuomu">Platform Support</a></li><li><a href="https://mscsoftware.subscribenet.com/control/mnsc/login?nextURL=%2Fcontrol%2Fmnsc%2Findex" title="">Solutions Download Center</a></li></ul></li></ul></li></ul>  </div>
+</div>
+  </div>
+        </nav>
+        
+		  </div> 
+    </div>  
+    
+	</header>
+	<!-- end header --> 
+	
+	<div role="main" class="main">
+	
+	  	  
+	    <div class="region region-before-content">
+    <div id="block-block-230" class="block block-block">
+
+    
+  <div class="content">
+    <section class="page-top custom-product" style="background-image:url('/sites/default/files/background_1920x550.png')">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<img alt="" class="responsive" src="http://documents.mscsoftware.com/cdn/farfuture/WXyRcn3gBvXfgStaubWcNN-01xMsrUAp8DtOb1_WDhM/mtime:1476822181/sites/default/files/Apex_1140x270.png" style="bottom:0" /></div>
+</div>
+</div>
+</section>
+  </div>
+</div>
+  </div>
+	  <div id="content" class="content full">
+	    <div class="container">
+	      <div class="row">
+	      			    			
+					<div class="col-md-9">
+					  
+			     				      			      		
+					    <div class="region region-content">
+    <div id="block-block-240" class="block block-block">
+
+    
+  <div class="content">
+    <div class="portotabs" style="margin-bottom:70px">
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#">About</a></li>
+         <li><a href="/ja/node/2916">MSC Apex Modeler</a></li>
+<li><a href="/ja/node/2917">MSC Apex Structures</a></li>
+<li><a href="/ja/node/6993">Elite Partners</a></li>
+        </ul>
+</div>  </div>
+</div>
+<div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="ds-1col node node-products view-mode-full clearfix ">
+
+  
+  <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2>MSC Apex</h2></div></div></div><div class="field field-name-field-tagline field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">コンピュテーショナルパーツベースCAEシステム</div></div></div><div class="field field-name-port-hr field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even"><div id="block-block-62" class="block block-block">
+
+    
+  <div class="content">
+    <img src="http://documents.mscsoftware.com/cdn/farfuture/LKlVfr9Fk7yXu5AfmOaPFxHzQOfhDyG7qy2HO0FSMZk/mtime:1444410352/sites/default/files/hr.png" style="margin:0 auto" alt="Horizontal spacer">  </div>
+</div>
+</div></div></div><div class="field field-name-field-php-code field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p style="margin-bottom:0"><img src="http://files.mscsoftware.com/cdn/farfuture/JYrDgzVnmtdLYSQN8hKW9fpXsQgdS1rFmUvmiLQHHzY/mtime:1494865014/sites/default/files/Apex-Awards.png"></p>
+<p style="margin-bottom:0"><img src="http://documents.mscsoftware.com/cdn/farfuture/LKlVfr9Fk7yXu5AfmOaPFxHzQOfhDyG7qy2HO0FSMZk/mtime:1444410352/sites/default/files/hr.png" style="margin:0 auto"></p>
+<h4 style="margin-bottom: 0">大規模アセンブリモデルの構造解析に適したMSC Apex</h4>
+<p style="margin: 0">&nbsp;</p>
+<div style="max-width:636px">
+  <div class="video-container" style="margin-bottom:10px">
+    <iframe src="https://www.youtube.com/embed/seqxmRHhbE4" frameborder="0" allowfullscreen></iframe>
+  </div>
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_linkedin"></a>
+</div>
+<script>
+var a2a_config = a2a_config || {};
+a2a_config.linkname = "MSC Apex for Large Fabricated Structures";
+a2a_config.linkurl = "https://www.youtube.com/watch?v=seqxmRHhbE4";
+</script>
+<script src="https://static.addtoany.com/menu/page.js"></script>
+</div><p>&nbsp;</p>
+ <h4 style="margin-bottom: 0">シミュレーションのプロセスを大幅に短縮</h4>
+<p>社長兼CEO, Dominic Gallello「MSC Apexプラットフォームのベースとなる革新的なテクノロジーが、エンジニアの製品設計、検証を加速させます。」</p>
+<div style="max-width:636px">
+  <div class="video-container" style="margin-bottom:10px">
+    <iframe src="http://player.vimeo.com/video/103544271?title=0&amp;byline=0&amp;portrait=0&amp;color=ff0000" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  </div>
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_linkedin"></a>
+</div>
+<script>
+a2a_config.linkname = "Rethinking the Simulation Process";
+a2a_config.linkurl = "https://vimeo.com/103544271";
+a2a.init("page");
+</script>
+</div><p>&nbsp;</p>
+  <h4 style="margin-bottom: 0">巨大マゼラン天体望遠鏡のMSC Apex事例</h4><p>マゼラン望遠鏡設計チームは、巨大な望遠鏡がチリの地震でも稼働できることを想定しながら、人類による宇宙の解明にMSC Apexを活用しています。</p>
+<div style="max-width:636px">
+  <div class="video-container" style="margin-bottom:10px">
+    <iframe src="http://player.vimeo.com/video/223817089?title=0&amp;byline=0&amp;portrait=0&amp;color=ff0000" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  </div>
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_linkedin"></a>
+</div>
+<script>
+a2a_config.linkname = "How Giant Magellan Telescope uses MSC Apex";
+a2a_config.linkurl = "https://vimeo.com/223817089";
+a2a.init("page");
+</script>
+</div><p>&nbsp;</p>
+<h4 style="margin-bottom: 0">MSC Apexは使いやすく覚えやすい</h4>
+<p>楽しく使いやすい環境を是非味わって下さい。エンジニアが楽しめるゲーム感覚を経験していただけます。</p>
+<div style="max-width:636px">
+  <div class="video-container" style="margin-bottom:10px">
+    <iframe src="http://player.vimeo.com/video/106843355?title=0&amp;byline=0&amp;portrait=0&amp;color=ff0000" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+  </div>
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_linkedin"></a>
+</div>
+<script>
+a2a_config.linkname = "MSC Apex is Easy to Use & Easy to Learn";
+a2a_config.linkurl = "https://vimeo.com/106843355";
+a2a.init("page");
+</script>
+</div>
+<p>&nbsp;</p>
+<p>MSC Apexの詳しい情報は、MSC Apex Modeler、MSC Apex Structuresページをご覧ください。 <a href="/node/2916/">MSC Apex Modeler</a> or <a href="/node/2917/">MSC Apex Structures</a> pages.</p>
+</div></div></div></div>  </div>
+</div>
+<div id="block-block-255" class="block block-block">
+
+    
+  <div class="content">
+    <p style="padding-top:30px">製品ごとや全体のサポート環境については、こちらの <a href="/ja/node/292/">Platform Support</a>　のサイトをご参照ください。</p>  </div>
+</div>
+  </div>
+			      
+					</div>
+			  
+				  				  <div class="col-md-3">
+				      <div class="region region-sidebar-right">
+    
+<div id="block-block-59" class="block block-block">
+
+    
+  <div class="content">
+    
+<a id="request_quote" href="#" class="btn btn-lg btn-primary" style="width:100%;max-width:262.5px;text-align:left">お見積り依頼</a>  </div>
+</div>
+<div id="block-block-60" class="block block-block">
+
+    
+  <div class="content">
+    
+<a id="jaschedule_demo" href="#" class="btn btn-lg btn-primary" style="width:100%;margin:10px 0;max-width:262.5px;text-align:left">お問合せ</a>  </div>
+</div>
+<div id="block-block-61" class="block block-block">
+
+    
+  <div class="content">
+    
+
+<a style="width:100%;margin-bottom:10px;max-width:262.5px;text-align:left" href="/ja/resources?type%5B%5D=resources_on_demand_webcast&field_noderef_products_nid%5B%5D=2912&field_noderef_products_nid%5B%5D=2916&field_noderef_products_nid%5B%5D=2917" class="btn btn-lg btn-primary">ウェビナーを見る（英語）</a>  </div>
+</div>
+<div id="block-block-245" class="block block-block">
+
+    
+  <div class="content">
+    <a href="/sites/default/files/MSC-Apex_Trial-jp.html" class="btn btn-lg btn-primary" style="width:100%;max-width:262.5px;text-align:left;margin-bottom:10px">フリートライアル</a>  </div>
+</div>
+<div id="block-block-239" class="block block-block">
+
+    
+  <div class="content">
+    <a href="/ja/node/6979"><img src="http://media.mscsoftware.com/cdn/farfuture/MwTPTaI16-YGsuoUv0wSK81V1uMIM8ZUZMptKOZKD9A/mtime:1486589434/sites/default/files/apex_ad.jpg" style="margin-bottom:10px"></a>  </div>
+</div>
+<div id="block-views-83884a3c8ffefd041157b85e3ef0cc2e" class="block block-views">
+
+    
+  <div class="content">
+    <div class="view view-resource-product-sidebar view-id-resource_product_sidebar view-display-id-block_1234 view-dom-id-151f1b2111c480a374717fdb742b2143">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://files.mscsoftware.com/cdn/farfuture/K257cWuJ8EM2fShKasTppIVmGMRR8hBmyLmknZHXlGc/mtime:1493416117/sites/default/files/cs_ten-tech-llc_apex_mscone_ltr_w.pdf">MSC One Provides TEN TECH LLC Access to MSC&#039;s Complete CAE Platform</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://documents.mscsoftware.com/cdn/farfuture/nFFtQmSlc6gRHTRHM0xCLFl1WEWK7fqL5YA8NS27QBI/mtime:1486150577/sites/default/files/cs_gmt_ltr_w.pdf">MSC Software Helps Giant Magellan Telescope Discover the Universe</a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://files.mscsoftware.com/cdn/farfuture/75_roNtKI5iPl2_Gj1xJ1_V3ziwY2vSpsSQwvBmR4JA/mtime:1438624445/sites/default/files/cs_dema-spa_ltr_w.pdf">MSC Apex reduces time required to analyze aircraft avionics door for damage scenarios by 60%</a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://documents.mscsoftware.com/cdn/farfuture/5s3ojCtSblE3lEJlcBDaEAtbMAEAeTgvfzkw7gOUeWo/mtime:1436471454/sites/default/files/cs_other_ltr_w.pdf">Static Simulation of Boiler Structure in Power Plant Using MSC Apex and MSC Nastran</a></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://documents.mscsoftware.com/cdn/farfuture/wxRgC-TV13IBxVW-B7xiSx60Ze-Cw8R7kHDQ3VoxNaM/mtime:1435701399/sites/default/files/cs_framework_construction_ltr_w.pdf">Static Simulation for Framework Construction in Power Plant Using MSC Apex</a></span>  </div>  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://documents.mscsoftware.com/cdn/farfuture/1DPIIk_9PofNNnuEQ8-BvuvAQvlNWI-f_Fyk4kunETU/mtime:1430790103/sites/default/files/cs_dynetics_ltr_w_0.pdf">MSC Apex Used to Reduce Geometry Cleanup of Fuel Pump Components from Two Days to One Hour</a></span>  </div>  </div>
+  <div class="views-row views-row-7 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://documents.mscsoftware.com/cdn/farfuture/soKT51302rIopWOb7Cf_KsJ-ywesS6GJW0aIVTn5XpU/mtime:1417456925/sites/default/files/cs_tlg_ltr_w_0.pdf">MSC Apex Helps Reduce Time Required to Clean Up and Mesh Geometry by 75%</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+<div id="block-views-adce59f9ed5c4b1935f6435fa5d5b823" class="block block-views">
+
+    
+  <div class="content">
+    <div class="view view-resource-product-sidebar view-id-resource_product_sidebar view-display-id-block_12345 view-dom-id-51286eccceedc36b38edb1802cc66030">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://media.mscsoftware.com/cdn/farfuture/a--8mcPM-2bE1ewm1Lyq5XJdJSI4I_Py3ReteMU-0fk/mtime:1519682164/sites/default/files/sb_msc-apex-structures_ltr_w.pdf" target="_blank">MSC Apex Structures Solution Brief</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://media.mscsoftware.com/cdn/farfuture/GB5wEBco-4boqifAUskXUA6Hfejj35c1MuKJ_lsAkAs/mtime:1441878152/sites/default/files/msc_software_company_overview.pdf" target="_blank">Company Overview Brochure</a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://files.mscsoftware.com/cdn/farfuture/NY1G-9PrC08IPtOtMd8Suyt6KE8VcXPsisyaD_F5TWg/mtime:1519248376/sites/default/files/sb_msc-apex_midsurface_ltr_w.pdf" target="_blank">MSC Apex Mid-Surfacing Solution Brief</a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://media.mscsoftware.com/cdn/farfuture/Vubb6kSGYK5IR1S4zLMzQUi3dqjBx4l7wx-dez7BRFA/mtime:1493228305/sites/default/files/sb_msc-apex-freq_response_analysis_ltr_w.pdf" target="_blank">MSC Apex Frequency Response Analysis Solution Brief</a></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://media.mscsoftware.com/cdn/farfuture/4KkF3GAcnc9GmhVXtdV7qInooe_E3uTPn36gp5kECWY/mtime:1519842586/sites/default/files/sb_msc-apex_modeler_ltr_w.pdf" target="_blank">MSC Apex Modeler Solution Brief</a></span>  </div>  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://media.mscsoftware.com/cdn/farfuture/Tj6781GH7YmMV5DJ42n1dnajmCOMIfu2KKzG77KBm5g/mtime:1519681390/sites/default/files/sb_apex_prepost-processors_ltr_w.pdf" target="_blank">MSC Apex to Patran Solution Brief</a></span>  </div>  </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://documents.mscsoftware.com/cdn/farfuture/4lDYFpkOZ3BdSgklc4Lg6YRoOEHDeVGQ9D4xnOFDa_4/mtime:1469114678/sites/default/files/whitepaper_how_to_create_a_good_fe_model.pdf" target="_blank">How to create a good FEA model</a></span>  </div>  </div>
+  <div class="views-row views-row-8 views-row-even views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://files.mscsoftware.com/cdn/farfuture/QxkvCNMyCIqXij8KZ4Bh5bKSjTpHALueumbPgeRW9LI/mtime:1513706237/sites/default/files/ds_academic-software-bundle-structures_ltr_w.pdf" target="_blank">Academic Software Structures Bundle Datasheet</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+<div id="block-views-ba599361374e74666129ef19f331fa0e" class="block block-views">
+
+    
+  <div class="content">
+    <div class="view view-resource-product-sidebar view-id-resource_product_sidebar view-display-id-block_3 view-dom-id-d37ef7a8d438a0c27a64de07388c4c21">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://monoist.atmarkit.co.jp/mn/articles/1804/03/news089.html">ITmedia MONOist掲載「複合材解析を分かりやすくするCAE「MSC Apex Harris Hawk」</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://tech.nikkeibp.co.jp/atcl/nxt/column/18/00001/00251/?P=1">日経 XTECH掲載「MSCの統合ツールApex、複合材シミュレーションの効率化狙う」</a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://monoist.atmarkit.co.jp/mn/articles/1801/22/news023_2.html">ITmedia MONOist掲載「大手CAEベンダー側は統合化と設計者向けGUI提供の動き」</a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="https://www.nikkan.co.jp/articles/view/00456500?isReadConfirmed=true">日刊工業新聞掲載「CAE基盤の解析機能統合 材料モデリングを搭載」</a></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://techon.nikkeibp.co.jp/atcl/news/16/070308199/">日経テクノロジーonline掲載「大規模アセンブリーの解析メッシュ、全部品を一度に整合」</a></span>  </div>  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://www.nikkan.co.jp/articles/view/00402342">日刊工業新聞に掲載されました。「CAEツール最新版−周波数応答解析機能を追加 」</a></span>  </div>  </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://techon.nikkeibp.co.jp/atcl/news/16/093004328/?ST=mono&rt=nocnt">ユーザーがモデルを修正するそばから周波数応答を更新 MSCソフト、構想設計向けのCAEツール「MSC Apex」の強化版</a></span>  </div>  </div>
+  <div class="views-row views-row-8 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://monoist.atmarkit.co.jp/mn/articles/1612/01/news045.html">「MSC Apex Fossa」の記事がMONOistに掲載されました。</a></span>  </div>  </div>
+  <div class="views-row views-row-9 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://monoist.atmarkit.co.jp/mn/articles/1602/12/news045.html">ITmedia MONOistに掲載されました。「巨大で複雑なアセンブリ作成を迅速かつ詳細に――「MSC Apex Eagle」」</a></span>  </div>  </div>
+  <div class="views-row views-row-10 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://techon.nikkeibp.co.jp/atcl/news/16/021200597/?d=1455496272291">日経テクノロジーonlineに掲載されました。「部品をばねで接続したアセンブリも解析 「MSC Apex」を改良、ビーム要素と質量要素も利用可能に」</a></span>  </div>  </div>
+  <div class="views-row views-row-11 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://monoist.atmarkit.co.jp/mn/articles/1504/20/news027.html">ITmedia MONOistに掲載されました。「3Dモデルを修正したらメッシュや条件を即自動修正」</a></span>  </div>  </div>
+  <div class="views-row views-row-12 views-row-even views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://techon.nikkeibp.co.jp/article/NEWS/20150330/411800/">日経テクノロジーonlineに掲載されました。「部品単位での解析結果をアセンブリで利用できるCAEの新版」</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+<div id="block-views-ffcc98c1144e1f9d7264bf3e4074ca5c" class="block block-views">
+
+    
+  <div class="content">
+    <div class="view view-resource-product-sidebar view-id-resource_product_sidebar view-display-id-block_allvideos view-dom-id-56d885cc8cc2d0886bb672d610c87af1">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a rel="related_video" href="https://www.youtube.com/embed/seqxmRHhbE4?feature=player_detailpage&autoplay=1&rel=0">MSC Apex for Large Fabricated Structures</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a rel="related_video" href="http://player.vimeo.com/video/103544271?autoplay=1&color=ff0000&title=0&byline=0&portrait=0">Rethinking the Simulation Process</a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a rel="related_video" href="http://player.vimeo.com/video/107215573?autoplay=1&color=ff0000&title=0&byline=0&portrait=0">MSC Apex provides engineers with a generative simulation workflow</a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a rel="related_video" href="http://player.vimeo.com/video/107538118?autoplay=1&color=ff0000&title=0&byline=0&portrait=0">MSC Apex is the World’s First Computational Parts Based CAE System</a></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a rel="related_video" href="http://player.vimeo.com/video/107215640?autoplay=1&color=ff0000&title=0&byline=0&portrait=0">MSC Apex CAE-Specific Direct Modeling and Meshing</a></span>  </div>  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a rel="related_video" href="http://player.vimeo.com/video/106876213?autoplay=1&color=ff0000&title=0&byline=0&portrait=0">MSC Apex Integrated Solver Methods</a></span>  </div>  </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a rel="related_video" href="http://player.vimeo.com/video/106843355?autoplay=1&color=ff0000&title=0&byline=0&portrait=0">MSC Apex is Easy to Use &amp; Easy to Learn</a></span>  </div>  </div>
+  <div class="views-row views-row-8 views-row-even views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a rel="related_video" href="http://player.vimeo.com/video/180096779">How Giant Magellan Telescope uses MSC Apex</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+<div id="block-views-21f239507fed0b5ff579c57e9c2dc9f4" class="block block-views">
+
+    
+  <div class="content">
+    <div class="view view-resource-product-sidebar view-id-resource_product_sidebar view-display-id-block_ondemandwebinars view-dom-id-d0ac5149faf32f1065f4e891f28f65ee">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2018_Webinars%2Fmsc-apex-101-for-aerospace-applications-model-connection-strategies.html&filename=msc-apex-101-for-aerospace-applications-model-connection-strategies">MSC Apex 101 for Aerospace Applications - Model Connection Strategies</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2018_Webinars%2Fmsc-apex-hawk-sp1-more-efficient-conceptual-modeling-for-aerospace-structural-analysis.html&filename=msc-apex-hawk-sp1-more-efficient-conceptual-modeling-for-aerospace-structural-analysis">MSC Apex Hawk SP1 – More Efficient Conceptual Modeling for Aerospace Structural Analysis</a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2018_Webinars%2Falta-produtividade-na-analise-estrutural-com-msc-apex-e-msc-nastran.html&filename=alta-produtividade-na-analise-estrutural-com-msc-apex-e-msc-nastran">Alta Produtividade na Analise Estrutural com MSC Apex e MSC Nastran (This webinar is in Portuguese)</a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2018_Webinars%2Fmsc-apex-for-offshore-structural-analysis.html&filename=msc-apex-for-offshore-structural-analysis">MSC Apex: Accelerate Your Offshore Structural Analysis by 10X</a></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2018_Webinars%2Flearn-finite-element-analysis-with-msc-apex.html&filename=learn-finite-element-analysis-with-msc-apex">Learn Finite Element Analysis with MSC Apex</a></span>  </div>  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2018_Webinars%2Funleash-your-engineering-productivity-with-the-next-generation-platform-for-simulation-composite-structures-for-aerospace.html&filename=unleash-your-engineering-productivity-with-the-next-generation-platform-for-simulation-composite-structures-for-aerospace">Unleash your Engineering Productivity with the Next Generation Platform for Simulation – Composite Structures for Aerospace</a></span>  </div>  </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2018_Webinars%2Fintroducing-msc-apex-hawk-accelerate-structural-analysis-for-aerospace-composites.html&filename=introducing-msc-apex-hawk-accelerate-structural-analysis-for-aerospace-composites">Introducing MSC Apex Hawk - Accelerate Structural Analysis for Aerospace Composites</a></span>  </div>  </div>
+  <div class="views-row views-row-8 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2017_Webinars%2Fenhance-your-cad-to-cae-workflow-productivity-up-to-10x-with-msc-apex-for-aerospace-applications.html&filename=enhance-your-cad-to-cae-workflow-productivity-up-to-10x-with-msc-apex-for-aerospace-applications">Enhance your CAD to CAE workflow productivity up to 10x with MSC Apex for Aerospace Applications</a></span>  </div>  </div>
+  <div class="views-row views-row-9 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2017_Webinars%2Fmsc-apex-democratizacion-de-las-soluciones-cae.html&filename=msc-apex-democratizacion-de-las-soluciones-cae">MSC Apex - Democratización de las soluciones CAE (This webinar is in Spanish)</a></span>  </div>  </div>
+  <div class="views-row views-row-10 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2017_Webinars%2Fmsc-apex-democratizando-e-simplificando-a-simulacao-virtual-de-produtos.html&filename=msc-apex-democratizando-e-simplificando-a-simulacao-virtual-de-produtos">MSC Apex - Democratizando e simplificando a simulação virtual de produtos (This webinar is in Portuguese)</a></span>  </div>  </div>
+  <div class="views-row views-row-11 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2017_Webinars%2Fintroducing-msc-apex-grizzly-enhanced-modeling-linear-analysis-and-large-model-handling.html&filename=introducing-msc-apex-grizzly-enhanced-modeling-linear-analysis-and-large-model-handling">Introducing MSC Apex Grizzly – Enhanced Modeling, Linear Analysis, and Large Model Handling</a></span>  </div>  </div>
+  <div class="views-row views-row-12 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2017_Webinars%2F1000-parts-get-simulation-results-in-minutes-with-msc-apex.html&filename=1000-parts-get-simulation-results-in-minutes-with-msc-apex">Have 1000+ parts? Get Simulation Results Quickly with MSC Apex</a></span>  </div>  </div>
+  <div class="views-row views-row-13 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2017_Product_Release%2Fintroducing-msc-apex-grizzly-enhanced-modeling-linear-analysis-and-large-model-handling.html&filename=introducing-msc-apex-grizzly-enhanced-modeling-linear-analysis-and-large-model-handling">Introducing MSC Apex Grizzly - Enhanced Modeling, Linear Analysis, and Large Model Handling</a></span>  </div>  </div>
+  <div class="views-row views-row-14 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2016-MSC-Apex%2F10x-faster-construction-of-midsurface-geometry-of-reinforced-plastics-for-strength-analysis-and-injection-molding.html&filename=10x-faster-construction-of-midsurface-geometry-of-reinforced-plastics-for-strength-analysis-and-injection-molding">10x Faster Construction of Midsurface Geometry of Reinforced Plastics for Strength Analysis and Injection Molding</a></span>  </div>  </div>
+  <div class="views-row views-row-15 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2016-MSC-Apex%2Freinventing-the-cae-process.html&filename=reinventing-the-cae-process">Reinventing the CAE Process</a></span>  </div>  </div>
+  <div class="views-row views-row-16 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2016-MSC-Apex%2Fwhats-new-in-msc-apex-fossa.html&filename=whats-new-in-msc-apex-fossa">What&#039;s New in MSC Apex Fossa</a></span>  </div>  </div>
+  <div class="views-row views-row-17 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2016-MSC-Apex%2Freduce-the-time-to-learn-cae-from-months-to-one-day-new-cae-technology-for-academia.html&filename=reduce-the-time-to-learn-cae-from-months-to-one-day-new-cae-technology-for-academia">Reduce the Time to Learn CAE from Months to One Day: New CAE Technology for Academia</a></span>  </div>  </div>
+  <div class="views-row views-row-18 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2016-MSC-Apex%2F10x-faster-midsurfacing-and-fem-creation-of-aircraft-interior-thin-structures.html&filename=10x-faster-midsurfacing-and-fem-creation-of-aircraft-interior-thin-structures">10X Faster Midsurfacing and FEM Creation of Aircraft Interior Thin Structures</a></span>  </div>  </div>
+  <div class="views-row views-row-19 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2016-MSC-Apex%2F10x-faster-geometry-repair-and-meshing-for-finite-element-analysis-fea.html&filename=10x-faster-geometry-repair-and-meshing-for-finite-element-analysis-fea">10x Faster Geometry Repair and Meshing for Finite Element Analysis (FEA)</a></span>  </div>  </div>
+  <div class="views-row views-row-20 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2016-MSC-Apex%2Fmsc-apex-eagle-release-highlights.html&filename=msc-apex-eagle-release-highlights">MSC Apex Eagle Release Highlights</a></span>  </div>  </div>
+  <div class="views-row views-row-21 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2016-MSC-Apex%2Fusing-msc-apex-to-expedite-repairing-editing-and-meshing-geometry-for-patran.html&filename=using-msc-apex-to-expedite-repairing-editing-and-meshing-geometry-for-patran">Using MSC Apex to expedite repairing, editing and meshing geometry for Patran</a></span>  </div>  </div>
+  <div class="views-row views-row-22 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2015-MSC-Apex%2Ffrom-days-to-hours-rapid-midsurface-meshing-methods-to-reduce-workflows.html&filename=from-days-to-hours-rapid-midsurface-meshing-methods-to-reduce-workflows">From Days to Hours – Rapid Midsurface Meshing Methods to Reduce Workflows</a></span>  </div>  </div>
+  <div class="views-row views-row-23 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2015-MSC-Apex%2F10x-faster-midsurface-modeling-and-meshing-for-automotive-trim-components.html&filename=10x-faster-midsurface-modeling-and-meshing-for-automotive-trim-components">10x Faster Midsurface Modeling and Meshing for Automotive Trim Components</a></span>  </div>  </div>
+  <div class="views-row views-row-24 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2015-MSC-Apex%2Fmidsurface-extraction-and-meshing-of-thin-structures-10x-faster-with-msc-apex.html&filename=midsurface-extraction-and-meshing-of-thin-structures-10x-faster-with-msc-apex">Midsurface Extraction and Meshing of Thin Structures – 10x faster with MSC Apex</a></span>  </div>  </div>
+  <div class="views-row views-row-25 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2015-MSC-Apex%2Frapid-midsurface-and-fem-modeling-techniques-for-automotive-trim-components.html&filename=rapid-midsurface-and-fem-modeling-techniques-for-automotive-trim-components">Rapid Midsurface and FEM Modeling Techniques for Automotive Trim Components</a></span>  </div>  </div>
+  <div class="views-row views-row-26 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2015-MSC-Apex%2Fsolving-post-processing-assemblies-using-msc-apex-structures.html&filename=solving-post-processing-assemblies-using-msc-apex-structures">Solving &amp; Post-Processing Assemblies Using MSC Apex Structures</a></span>  </div>  </div>
+  <div class="views-row views-row-27 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2015-MSC-Apex%2F10x-faster-midsurface-modeling-for-finite-element-analysis-of-injection-molded-plastics.html&filename=10x-faster-midsurface-modeling-for-finite-element-analysis-of-injection-molded-plastics">10x Faster Midsurface Modeling for Finite Element Analysis of Injection Molded Plastics</a></span>  </div>  </div>
+  <div class="views-row views-row-28 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2015-MSC-Apex%2Frelease-overview-msc-apex-diamond-python.html&filename=release-overview-msc-apex-diamond-python">Release Overview: MSC Apex Diamond Python</a></span>  </div>  </div>
+  <div class="views-row views-row-29 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2015-MSC-Apex%2Fnew-methods-to-update-finite-element-meshes-rapidly.html&filename=new-methods-to-update-finite-element-meshes-rapidly">New Methods to Update Finite Element Meshes Rapidly</a></span>  </div>  </div>
+  <div class="views-row views-row-30 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2015-MSC-Apex%2Fexpediting-the-process-of-tet-meshing-highly-complex-solid-geometry-for-fea.html&filename=expediting-the-process-of-tet-meshing-highly-complex-solid-geometry-for-fea">Expediting the process of TET meshing highly complex solid geometry for FEA</a></span>  </div>  </div>
+  <div class="views-row views-row-31 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2015-MSC-Apex%2Fmsc-apex-direct-modeling-and-meshing-tactics-tips.html&filename=msc-apex-direct-modeling-and-meshing-tactics-tips">MSC Apex Direct Modeling and Meshing Tactics &amp; Tips</a></span>  </div>  </div>
+  <div class="views-row views-row-32 views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2015-MSC-Apex%2Fmsc-apex-cheetah-release-highlights.html&filename=msc-apex-cheetah-release-highlights">MSC Apex Cheetah Release Highlights</a></span>  </div>  </div>
+  <div class="views-row views-row-33 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="http://pages.mscsoftware.com/On-Demand-Webinar-Request.html?webinar=8&url=http%3A%2F%2Fwww.mscsoftware.com%2Fevents_assets%2FWebcasts%2F2015-MSC-Apex%2Fexpediting-shell-meshing-for-fea-with-direct-modeling-and-meshing-technology-in-msc-apex.html&filename=expediting-shell-meshing-for-fea-with-direct-modeling-and-meshing-technology-in-msc-apex">Expediting Shell Meshing for FEA with Direct Modeling and Meshing Technology in MSC Apex</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>  </div>
+				  </div>
+				  			    
+			  </div>
+	    </div>  
+	  </div>  
+	  
+	</div>
+
+    
+  <footer id="footer">
+    	  <div class="container main-footer">
+	    <div class="row">
+	    
+	      				<div class="footer-ribbon">
+					<span><em class="placeholder">Get In Touch</em></span>
+				</div>
+	      			  
+			  		    <div class="col-md-4">
+				    <div class="region region-footer-1">
+      <div class="region region-footer-1">
+      <div class="region region-footer-1">
+    <div id="block-block-49" class="block block-block">
+
+    <h2>Contact Us</h2>
+  
+  <div class="content">
+    <ul class="contact">
+	<li><p><i class="icon icon-map-marker" style="margin-bottom:60px"></i> <strong>Address:</strong> エムエスシーソフトウェア株式会社<br />
+				〒１６０－００２３　東京都新宿区<br />
+				西新宿１－２３－７<br />
+				新宿ファーストウエスト８F</p></li>
+	<li><p><i class="icon icon-phone"></i> <strong>Phone:</strong> ０３－６９１１－１２００（代）</p></li>
+	<li><p><i class="icon icon-envelope"></i> <strong>Email:</strong> <a href="mailto:mscj.market@mscsoftware.com">mscj.market@mscsoftware.com</a></p></li>
+</ul>  </div>
+</div>
+  </div>
+  </div>
+  </div>
+		    </div>
+		    		    
+		   
+		    
+		    		    <div class="col-md-3">
+				    <div class="region region-footer-3">
+      <div class="region region-footer-3">
+    <div id="block-block-48" class="block block-block">
+
+    <h2>Simulating Reality Magazine</h2>
+  
+  <div class="content">
+    <p>Subscribe Now</p>
+
+<form action="/node/1749" method="get">
+	<div class="input-group">
+		<input class="form-control" placeholder="Email Address" name="C_EmailAddress" type="text">
+		<span class="input-group-btn">
+			<button class="btn btn-default" type="submit">Go!</button>
+		</span>
+	</div>
+</form>  </div>
+</div>
+  </div>
+  </div>
+		    </div>
+		    		    
+		    		    <div class="col-md-3 col-md-offset-2">
+				    <div class="region region-footer-4">
+      <div class="region region-footer-4">
+    <div id="block-block-50" class="block block-block">
+
+    <h2>Follow Us</h2>
+  
+  <div class="content">
+    <div class="social-icons">
+	<ul class="social-icons" style="padding-left:0">
+		<li class="facebook"><a href="http://www.facebook.com/pages/MSCSoftware/91251157889" target="_blank" data-placement="bottom" rel="tooltip" title="" data-original-title="Facebook">Facebook</a></li>
+		<li class="twitter"><a href="http://twitter.com/#!/MSCSoftware" target="_blank" data-placement="bottom" rel="tooltip" title="" data-original-title="Twitter">Twitter</a></li>
+<li class="instagram"><a href="https://www.instagram.com/msc_software/" target="_blank" data-placement="bottom" rel="tooltip" title="" data-original-title="Instagram">Instagram</a></li>
+		<li class="linkedin"><a href="http://us.linkedin.com/company/msc-software" target="_blank" data-placement="bottom" rel="tooltip" title="" data-original-title="Linkedin">Linkedin</a></li>
+<li class="youtube"><a href="http://www.youtube.com/user/simulatemore" target="_blank" data-placement="bottom" rel="tooltip" title="" data-original-title="YouTube">YouTube</a></li>
+<li class="wordpress"><a href="http://simulatemore.mscsoftware.com/" target="_blank" data-placement="bottom" rel="tooltip" title="" data-original-title="MSC Blog">MSC Blog</a></li>
+	</ul>
+</div>  </div>
+</div>
+  </div>
+  </div>
+		    </div>
+		    			    
+			</div>  
+	  </div>	
+	  	  
+	  <div class="footer-copyright">  
+	    <div class="container">
+	      <div class="row">
+			    <div class="col-md-6">
+			    
+					  					      <div class="region region-footer-bottom-left">
+    <div id="block-block-47" class="block block-block">
+
+    
+  <div class="content">
+    <p><a href="http://www.hexagonmi.com/en/" target="_blank"><img src="http://documents.mscsoftware.com/cdn/farfuture/gYjY_u8jFzw2NtO_qgdcMBeOuUuVN-E33vH66pEuzzI/mtime:1494006543/sites/default/files/HEX-primary_endorse_flag-black.png" alt="Hexagon branding"></a>&copy; Copyright 2018 MSC Software Corporation | Part of <strong><a href="http://www.hexagonmi.com/en/" target="_blank" style="color:#555!important">Hexagon</a></strong></p>  </div>
+</div>
+  </div>
+					  			  
+			    </div>
+			    <div class="col-md-6">
+			    
+					  					      <div class="region region-footer-bottom-right">
+    <div id="block-block-46" class="block block-block">
+
+    
+  <div class="content">
+    <nav id="sub-menu">
+	<ul>
+		<li><a href="/ja/node/68">Contact Us</a></li>
+		<li><a href="/ja/locations">Locations</a></li>
+		<li><a href="/ja/node/76">Legal</a></li>
+<li><a href="/ja/node/77">Privacy</a></li>
+<li><a href="/ja/node/80">Safe List</a></li>
+	</ul>
+</nav>
+  </div>
+</div>
+  </div>
+					  			  
+			    </div>
+	      </div>  
+	    </div>
+	  </div>  
+	</footer>
+	
+</div><script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var eu_cookie_compliance_cookie_name = "";
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://media.mscsoftware.com/cdn/farfuture/75PFVcV_wEkahRSpTuhsUtBzrGHRI9oSXtImxzrfANc/mtime:1529893296/sites/default/files/js/js_tqC0xSbhZO_YGs08n9CwrrPj091CkUFnc8Rnjlybb3I.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+var wiredminds = [];
+wiredminds.push(["setTrackParam", "wm_custnum", "f41d12ca43795202"]);
+wiredminds.push(["setTrackParam", "wm_campaign_key", "wmc"]);
+wiredminds.push(["registerHeatmapEvent", "mousedown"]);var wmDynamicConf = [];
+wmDynamicConf.push(["wm_page_url",".*application/computational-fluid-dynamics.*|.*product/sctetra.*|.*product/scstream.*|.*product/heatdesigner.*|.*product/scflow.*", ["setTrackParam", "wm_milestone", "CFD"]]);
+wmDynamicConf.push(["wm_page_url",".*application/acoustics.*|.*application/akustik.*|.*application/analisi-acustica.*", ["setTrackParam", "wm_milestone", "Acoustic"]]);
+wmDynamicConf.push(["wm_page_url",".*application/composites.*|.*application/materiali-compositi.*", ["setTrackParam", "wm_milestone", "Composites"]]);
+wmDynamicConf.push(["wm_page_url",".*application/crash-safety.*|.*application/crashsicherheit.*|.*application/crash-safety.*", ["setTrackParam", "wm_milestone", "Crash-safety"]]);
+wmDynamicConf.push(["wm_page_url",".*application/design-optimization.*|.*application/optimierung.*|.*application/ottimizzazione.*", ["setTrackParam", "wm_milestone", "Design-optimization"]]);
+wmDynamicConf.push(["wm_page_url",".*application/fatigue-and-durability.*|.*application/lebensdauer-betriebsfestigkeit.*|.*application/analisi-fatica-e-durabilita.*", ["setTrackParam", "wm_milestone", "Fatigue-and-durability"]]);
+wmDynamicConf.push(["wm_page_url",".*application/multidiscipline.*|.*application/multidisziplinaere-analysen.*|.*application/simulazione-multidisciplinare.*", ["setTrackParam", "wm_milestone", "Multidiscipline"]]);
+wmDynamicConf.push(["wm_page_url",".*application/multibody-dynamics.*|.*application/mehrkoerperdynamik.*|.*application/dinamica-multibody.*", ["setTrackParam", "wm_milestone", "Multibody-dynamics"]]);
+wmDynamicConf.push(["wm_page_url",".*application/noise-vibration.*|.* application/akustik-vibrationen.*|.*application/noise-vibration.*", ["setTrackParam", "wm_milestone", "Noise-vibration"]]);
+wmDynamicConf.push(["wm_page_url",".*application/nonlinear-analysis.*|.*application/nichtlineare-analysen.*|.*application/analisi-non-lineare.*", ["setTrackParam", "wm_milestone", "Nonlinear-analysis"]]);
+wmDynamicConf.push(["wm_page_url",".*application/process-automation.*|.*application/prozessautomation.*|.*application/automazione-di-processo.*", ["setTrackParam", "wm_milestone", "Process-automation"]]);
+wmDynamicConf.push(["wm_page_url",".*application/rotor-dynamics.*|.*application/rotordynamik.*|.*application/dinamica-dei-rotori.*", ["setTrackParam", "wm_milestone", "Rotor-dynamics"]]);
+wmDynamicConf.push(["wm_page_url",".*application/simulation-process-and-data-management.*|.*application/simulationsdaten-prozessmanagement.*", ["setTrackParam", "wm_milestone", "ELM"]]);
+wmDynamicConf.push(["wm_page_url",".*application/structural-analysis.*|.*application/strukturanalysen.*|.*application/analisi-strutturale.*", ["setTrackParam", "wm_milestone", "Structural-Analysis"]]);
+wmDynamicConf.push(["wm_page_url",".*application/systems-controls.*|.*application/regel-steuertechnik.*|.*application/sistemi-controlli.*", ["setTrackParam", "wm_milestone", "Systems-Controls"]]);
+wmDynamicConf.push(["wm_page_url",".*application/thermal-analysis.*|.*application/thermische-analysen.*|.*application/analisi-termica.*", ["setTrackParam", "wm_milestone", "Thermal-Analysis"]]);
+wmDynamicConf.push(["wm_page_url",".*product/msc-one.*", ["setTrackParam", "wm_milestone", "MSC One"]]);
+wmDynamicConf.push(["wm_page_url",".*product/actran.*", ["setTrackParam", "wm_milestone", "Actran"]]);
+wmDynamicConf.push(["wm_page_url",".*product/adams.*|.*product/flexible-multibody-systems-adams.*|.*node/207.*|.*node/3771.*|.*node/654.*|.*node/207.*", ["setTrackParam", "wm_milestone", "Adams"]]);
+wmDynamicConf.push(["wm_page_url",".*product/adams-machinery.*", ["setTrackParam", "wm_milestone", "Adams Machinery"]]);
+wmDynamicConf.push(["wm_page_url",".*product/digimat.*", ["setTrackParam", "wm_milestone", "Digimat"]]);
+wmDynamicConf.push(["wm_page_url",".*product/easy5.*", ["setTrackParam", "wm_milestone", "Easy 5"]]);
+wmDynamicConf.push(["wm_page_url",".*product/marc.*", ["setTrackParam", "wm_milestone", "Marc"]]);
+wmDynamicConf.push(["wm_page_url",".*product/simufact.*", ["setTrackParam", "wm_milestone", "Simufact"]]);
+wmDynamicConf.push(["wm_page_url",".*product/dytran.*", ["setTrackParam", "wm_milestone", "Dytran"]]);
+wmDynamicConf.push(["wm_page_url",".*product/msc-apex.*", ["setTrackParam", "wm_milestone", "MSC Apex"]]);
+wmDynamicConf.push(["wm_page_url",".*product/msc-fatigue.*|.*product/msc-nastran-embedded-fatigue.*", ["setTrackParam", "wm_milestone", "Fatigue"]]);
+wmDynamicConf.push(["wm_page_url",".*product/msc-nastran.*", ["setTrackParam", "wm_milestone", "Nastran"]]);
+wmDynamicConf.push(["wm_page_url",".*product/sinda.*", ["setTrackParam", "wm_milestone", "Sinda"]]);
+wmDynamicConf.push(["wm_page_url",".*product/patran.*", ["setTrackParam", "wm_milestone", "Patran"]]);
+wmDynamicConf.push(["wm_page_url",".*product/simxpert.*", ["setTrackParam", "wm_milestone", "SimXpert"]]);
+wmDynamicConf.push(["wm_page_url",".*product/simdesigner.*", ["setTrackParam", "wm_milestone", "SimDesigner"]]);
+wmDynamicConf.push(["wm_page_url",".*product/fea-afea-and-tfea.*", ["setTrackParam", "wm_milestone", "FEA-AFEA-TFEA"]]);
+wmDynamicConf.push(["wm_page_url",".*product/materialcenter.*", ["setTrackParam", "wm_milestone", "Material Center"]]);
+wmDynamicConf.push(["wm_page_url",".*product/simmanager.*", ["setTrackParam", "wm_milestone", "SimManager"]]);
+wmDynamicConf.push(["wm_page_url",".*services/engineering-services.*|.*services/cae-consulting-engineering-services.*", ["setTrackParam", "wm_milestone", "Services"]]);
+wmDynamicConf.push(["wm_page_url",".*page/expert-demand.*", ["setTrackParam", "wm_milestone", "Expert on Demand"]]);
+wmDynamicConf.push(["wm_page_url",".*services/toolkit.*", ["setTrackParam", "wm_milestone", "Toolkits"]]);
+wmDynamicConf.push(["wm_page_url",".*product/msc-nastran-desktop.*", ["setTrackParam", "wm_milestone", "Nastran-Desktop"]]);
+wiredminds.push(["setDynamicParams", wmDynamicConf]);
+wiredminds.push(["count"]);
+
+(function() {
+    function wm_async_load() {
+        var wm = document.createElement("script");
+        wm.type = "text/javascript";
+        wm.async = true;
+        wm.src = "https://wm2.wiredminds.de/track/count.js";
+        var el = document.getElementsByTagName('script')[0];
+        el.parentNode.insertBefore(wm, el);
+    }
+
+    if (window.addEventListener) {
+        window.addEventListener('load', wm_async_load, false);
+    } else if (window.attachEvent){
+        window.attachEvent('onload', wm_async_load);
+    }
+})();
+
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://documents.mscsoftware.com/cdn/farfuture/O85p2JNmIvdMq9qHRrAtmLgsXZ8xvQD8Y8Wg-5VXIxg/mtime:1531044663/sites/default/files/js/js_AqNiYy0HqCwq_P45rk2w__8P8INYGIRYAh-C3h4e_eg.js"></script>
+</body>
+
+</html>

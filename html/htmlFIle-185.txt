@@ -1,0 +1,1302 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<title>産業 IoT・計測制御・組み込み用コンピュータの総合メーカー | コンテック</title>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="CODE_LANGUAGE" content="C#" />
+<meta name="vs_defaultClientScript" content="JavaScript" />
+<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
+<meta name="viewport" content="width=device-width">
+<meta name="keywords" content="IoT,m2m,産業用コンピュータ,計測,制御,FAパソコン,無線LAN,CONTEC,コンテック">
+<meta name="description" content="お客様視点で電子機器と情報関連分野でグローバルに活動。産業 IoT、計測制御、組み込み用コンピュータ、無線LANの製造販売、環境計測ソリューション・SI事業を展開。">
+<meta name="format-detection" content="telephone=no">
+<!-- ======================== OGP Metadata START =================================== -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="産業 IoT・計測制御・組み込み用コンピュータの総合メーカー | コンテック">
+<meta property="og:description" content="お客様視点で電子機器と情報関連分野でグローバルに活動。産業 IoT、計測制御、組み込み用コンピュータ、無線LANの製造販売、環境計測ソリューション・SI事業を展開。">
+<meta property="og:url" content="https://www.contec.com/jp">
+<meta property="og:site_name" content="コンテック">
+<meta property="og:image" content="">
+<!-- ======================== OGP Metadata END =================================== -->
+<link rel="alternate" hreflang="en" href="/">
+<link rel="alternate" hreflang="ja" href="/jp">
+<link rel="alternate" hreflang="zh-cn" href="/cn">
+
+<link rel="shortcut icon" href="/layouts/Contec/common/images/favicon/favicon.ico">
+<link rel="icon" type="image/png" href="/layouts/Contec/common/images/favicon/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/layouts/Contec/common/images/favicon/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/layouts/Contec/common/images/favicon/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/layouts/Contec/common/images/favicon/favicon-16x16.png" sizes="16x16">
+<link rel="apple-touch-icon" href="/layouts/Contec/common/images/favicon/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/layouts/Contec/common/images/favicon/apple-touch-icon-57x57.png" sizes="57x57">
+<link rel="apple-touch-icon" href="/layouts/Contec/common/images/favicon/apple-touch-icon-60x60.png" sizes="60x60">
+<link rel="apple-touch-icon" href="/layouts/Contec/common/images/favicon/apple-touch-icon-72x72.png" sizes="72x72">
+<link rel="apple-touch-icon" href="/layouts/Contec/common/images/favicon/apple-touch-icon-76x76.png" sizes="76x76">
+<link rel="apple-touch-icon" href="/layouts/Contec/common/images/favicon/apple-touch-icon-114x114.png" sizes="114x114">
+<link rel="apple-touch-icon" href="/layouts/Contec/common/images/favicon/apple-touch-icon-120x120.png" sizes="120x120">
+<link rel="apple-touch-icon" href="/layouts/Contec/common/images/favicon/apple-touch-icon-144x144.png" sizes="144x144">
+<link rel="apple-touch-icon" href="/layouts/Contec/common/images/favicon/apple-touch-icon-152x152.png" sizes="152x152">
+<link rel="apple-touch-icon" href="/layouts/Contec/common/images/favicon/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="apple-touch-icon-precomposed" href="/layouts/Contec/common/images/favicon/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" href="/layouts/Contec/common/images/favicon/android-chrome-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/layouts/Contec/common/images/favicon/android-chrome-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/layouts/Contec/common/images/favicon/android-chrome-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/layouts/Contec/common/images/favicon/android-chrome-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/layouts/Contec/common/images/favicon/android-chrome-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/layouts/Contec/common/images/favicon/android-chrome-192x192.png" sizes="192x192">
+
+<link rel="stylesheet" href="/-/media/contec/common/css/master.css?v=800d21a8564f45609c97ceb822270459">
+<!-- ======================== Script START =================================== -->
+<script src="/-/media/contec/common/js/init.js?v=75289bc101464590a4cc53493ddb05d3"></script>
+<script src="/-/media/contec/common/js/jquery.js?v=79b452c694dc411c8a1e801ffd3cca68"></script>
+<!-- ======================== Script END ===================================== -->
+
+<meta name="VIcurrentDateTime" content="636670476473443872" />
+<script type="text/javascript" src="/layouts/system/VisitorIdentification.js"></script>
+
+</head>
+<body id="top">
+<form method="post" action="/jp/contec/" id="mainform">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="1vHK6Eb9YkfSWTCehX2k5axsCn4fjNXjzeUxHmg4xxxwOturbgnI4UExFk8+Jd3eS1fGgpqZrlN77O78uK1VHf6EnAYDedSjWtizzKFUgIx2dHpeso+3CFSD/H1GnPHu+tj8Go4OUPV7frzgEpe2LZhFxX9GDWL4M38wyP3sTl9XuseQFwesheOTE5S1qN33XvLsOYhK5PM64J+z3OASdFZKELU02Nhoy0i6IZWDwqw=" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="4A6C8BE1" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="fmWYdduN7zR6Kv6jl+H3quzjDpNmDd2Q9ePCXLslVnzEHARZEByboF926j2fjzF48lLI/SznYdXmCMnEdiZL6FF9A7PoV9X2hSjFFEjLbdcvPMPMPsBNKn8BUEKX+TcL58DWQL45v5efjdVTQbt1HF1aHIX0tklD5Wxa3zRkrsA=" />
+</div>
+<!-- ======================== Header START =================================== -->
+<header>
+
+
+<div class="header-content">
+<h1 class="logo"><a href="/jp"><img src="/-/media/contec/common/images/logo_01.svg" alt="CONTEC" class="" /></a></h1>
+
+<div class="header-menu js-toggle-header">
+<ul class="utility">
+
+<li class="_login js-dropdown">
+<a href="/jp" class="dropdown-hook">ログイン</a>
+<div class="dropdown-content">
+<div class="dropdown-inner">
+
+<ul class="list-mypage">
+<li>
+<div class="title">すでに会員の方</div>
+<div class="lyt-btn-01"><a class="btn-01" href="/jp/mycontec/login?returnUrl=%2fjp%2fcontec%2f" >ログイン</a></div>
+</li>
+<li>
+<div class="title">ログインIDをお持ちでない方</div>
+<div class="lyt-btn-01"><a class="btn-01" href="/jp/mycontec/new-mycontec?returnUrl=%2fjp%2fcontec%2f" >新規会員登録</a></div>
+</li>
+</ul>
+
+
+
+
+<style type="text/css">
+<!--
+p#leading {
+    text-align: center;
+}
+-->
+</style>
+
+<!-- /.dropdown-inner --></div>
+<!-- /.dropdown-content --></div>
+</li>
+
+<li class="_search js-dropdown">
+<a href="/jp" class="dropdown-hook">検索</a>
+<div class="dropdown-content">
+<div class="dropdown-inner">
+
+
+<dl class="list-search">
+<dt><label for="header-search">サイト内検索</label></dt>
+<dd>
+<div class="search-wrap">
+<input type="hidden" name="site" value="Y28Q1BWA">
+<input type="hidden" name="charset" value="UTF-8" />
+<input type="hidden" name="group" value="1" />
+<input type="hidden" name="design" value="1" />
+<input type="text" name="query" value="" placeholder="検索したいキーワードを入力してください。" id="SS_searchQuery" class="form-txt-01" autocomplete="off">
+<button><img src="/-/media/contec/common/images/icon_search_01.png" alt="検索する" class="" /></button>
+<!-- /.search-wrap --></div>
+</dd>
+</dl>
+
+<script type="text/javascript">
+    jQuery(".list-search").wrap("<form name='SS_searchForm' id='SS_searchForm' action='https://search.contec.com/search' method='get' enctype='application/x-www-form-urlencoded'>");
+</script>
+
+
+<!-- /.dropdown-inner --></div>
+<!-- /.dropdown-content --></div>
+</li>
+
+</ul>
+
+
+<div class="btn-menu"><button type="button" class="toggle-hook">Menu</button></div>
+<nav class="nav-global-wrap toggle-content">
+<ul class="nav-global">
+
+<li class="js-dropdown"><a href="/jp/solutions" class="dropdown-hook">ソリューション</a>
+<div class="dropdown-content">
+<div class="dropdown-inner">
+<ul class="nav-menu">
+<li>
+<div class="title _large"><a href="/jp/solutions/">ソリューション</a></div>
+<ul class="nav-menu-second">
+<li><div class="title">業種から探す</div>
+<ul class="list-link-01 _col-4">
+<li><a href="/jp/solutions/manufacturing/">製造業</a></li>
+<li><a href="/jp/solutions/automotive/">自動車産業</a></li>
+<li><a href="/jp/solutions/social-infrastructure/">社会インフラ</a></li>
+<li><a href="/jp/solutions/transportation/">運輸・交通</a></li>
+<li><a href="/jp/solutions/logistics/">物流・ロジスティクス</a></li>
+<li><a href="/jp/solutions/energy/">環境・エネルギー</a></li>
+<li><a href="/jp/solutions/buildings-offices/">建設・ビル</a></li>
+<li><a href="/jp/solutions/agriculture/">農業</a></li>
+</ul>
+</li>
+<li><div class="title">課題から探す</div>
+<ul class="list-link-01 _col-4">
+<li><a href="/jp/solutions/manufacturing/solutions/iot/">既設工作機械のIoT化</a></li>
+<li><a href="/jp/solutions/manufacturing/solutions/production-line/">生産ライン全体をIoT化</a></li>
+<li><a href="/jp/solutions/automotive/solutions/robot/">自動工場ロボット故障予兆監視</a></li>
+<li><a href="/jp/solutions/automotive/solutions/color-difference/">色差計測システム</a></li>
+<li><a href="/jp/solutions/social-infrastructure/solutions/iot/">水処理機械のIoT化</a></li>
+<li><a href="/jp/solutions/social-infrastructure/solutions/river-monitoring/">河川監視・水門監視システム</a></li>
+<li><a href="/jp/solutions/transportation/solutions/platform-doors/">可動式ホーム柵の遠隔監視</a></li>
+<li><a href="/jp/solutions/energy/solutions/power-storage/">蓄電システムのデマンド制御</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<!-- /.dropdown-inner --></div>
+<!-- /.dropdown-content--></div>
+</li>
+
+<li class="js-dropdown"><a href="/jp/products-services" class="dropdown-hook">製品・サービス</a>
+<div class="dropdown-content">
+<div class="dropdown-inner">
+<div class="title _large"><a href="/jp/products-services/">製品・サービス</a></div>
+<ul class="nav-menu-second _products-services">
+	<li>
+		<div class="title">計測制御・IoT/M2M</div>
+		<div class="lyt-col _col-2">
+		<div class="col">
+			<ul class="list-link-01 _has-child">
+				<li><a href="/jp/products-services/daq-control/iiot-conprosys/">CONPROSYS&reg; 産業 IoT</a>
+					<ul>
+<li><a href="/jp/products-services/daq-control/iiot-conprosys/m2m-controllers/">M2Mコントローラ</a></li>
+<li><a href="/jp/products-services/daq-control/iiot-conprosys/gateway/">M2M Gateway</a></li>
+<li><a href="/jp/products-services/daq-control/iiot-conprosys/pac/">PACシステム</a></li>
+<li><a href="https://www.contec.com/jp/products-services/search/?target=1&query=%20&eol=0&c3=02e646e5-6f9b-4fe8-84e4-bc92de87b305&count=10&start=0&lang=jp">リモートI/O - nano</a></li>
+<li><a href="/jp/products-services/daq-control/iiot-conprosys/m2m-controllers/io-module/">I/Oモジュール</a></li>
+<li><a href="/jp/products-services/daq-control/iiot-conprosys/software/">ソフトウェア</a></li>
+<li><a href="/jp/products-services/daq-control/iiot-conprosys/cloud/">クラウドサービス</a></li>
+					</ul>
+				</li>
+				<li><a href="/jp/products-services/daq-control/flexlan-iot/">FLEXLAN&reg; IoT ネットワーク機器</a>
+					<ul>
+<li><a href="/jp/products-services/search?c3=b5b77dfe-abfe-4796-b5e6-ce73df581197">組み込みボード・モジュール</a></li>
+					</ul>
+				</li>
+			</ul>
+		<!-- /.col --></div>
+		<div class="col">
+			<ul class="list-link-01 _has-child">
+				<li><a href="/jp/products-services/daq-control/pc-helper/">PC-HELPER パソコン計測制御</a>
+					<ul>
+<li><a href="/jp/products-services/search?c3=29d66c00-0ae6-4543-92a0-a0030a40f807">USBモジュール</a></li>
+<li><a href="/jp/products-services/search?c3=4edc346a-4c5a-4666-8076-1bdd1e1f4ea7">PCI Express ボード</a></li>
+<li><a href="/jp/products-services/search?c3=29a6ac05-b18b-471c-9023-92b720467122">PCIボード</a></li>
+<li><a href="/jp/products-services/search?c3=37981b3d-3cee-465b-9ecf-9962236e77bb">ワイヤレスI/Oモジュール</a></li>
+<li><a href="/jp/products-services/search?c3=98683fca-9d5a-4b40-8bc4-8287b16eeb2c">イーサネットI/Oモジュール</a></li>
+<li><a href="/jp/products-services/search/?target=1&query=&eol=0&c3=cbda560f-6278-49b8-a5ae-6fbcd54b2b13&count=10&start=0&lang=jp">サポートソフトウェア</a></li>
+					</ul>
+				</li>
+				<li><a href="/jp/products-services/daq-control/remote-io-fit/">F&amp;eIT&reg; 省配線リモートI/O</a>
+					<ul>
+<li><a href="/jp/products-services/search/?target=1&query=&eol=0&c3=93fea95f-eed4-4d05-9d43-7ff9e0455597&type=ffcf7082-5803-452e-b8f7-9fcc92a5c8a6&count=10&start=0&lang=jp">I/Oコントローラユニット スタックタイプ</a></li>
+<li><a href="/jp/products-services/search/?target=1&query=&eol=0&c3=3f23e199-9e71-42cb-b405-f8d3628a07c4&count=10&start=0&lang=jp">I/Oモジュール</a></li>
+<li><a href="/jp/products-services/search/?target=1&query=&eol=0&c3=93fea95f-eed4-4d05-9d43-7ff9e0455597&type=4b19e7e8-e18b-40a2-9cbd-755bf3453b1c&count=10&start=0&lang=jp">デジタル入出力ユニット</a></li>
+					</ul>
+				</li>
+			</ul>
+		<!-- /.col --></div>
+		<!-- /.lyt-col --></div>
+	</li>
+	<li>
+		<div class="title">エッジコンピューティング</div>
+			<ul class="list-link-01 _has-child">
+				<li><a href="/jp/products-services/edge-computing/embedded-computers/">組み込みコンピュータ</a>
+					<ul>
+<li><a href="/jp/products-services/search?c3=96c55cb8-036f-4ab3-bacc-591a480b3508">ボックスコンピュータ&reg;</a></li>
+<li><a href="/jp/products-services/search?c3=779368ff-89de-40a3-a076-739a6a2d304b">パネルコンピュータ</a></li>
+<li><a href="/jp/products-services/search?c3=be5661f2-60d0-42f7-8850-9d2123fd5092">フラットパネルディスプレイ</a></li>
+<li><a href="/jp/products-services/search/?c3=96581e89-2558-459f-8ea7-f374aef7d067">デジタルサイネージプレイヤー</a></li>
+					</ul>
+				</li>
+				<li><a href="/jp/products-services/edge-computing/industrial-computers/">産業用コンピュータ</a>
+					<ul>
+<li><a href="/jp/products-services/search/?c3=343f2ad6-c2b0-4e82-82e9-1a3d780df3f3">FAコンピュータ VPC</a></li>
+<li><a href="/jp/products-services/search/?c3=5d2fd35d-5a12-48af-ba2f-452d9a803475">カスタムPC Solution-ePC</a></li>
+					</ul>
+				</li>
+			</ul>
+	</li>
+	<li>
+		<div class="title">コンピュータ ネットワーキング</div>
+			<ul class="list-link-01 _has-child">
+				<li><a href="/jp/products-services/computer-networking/flexlan-fx/">FLEXLAN&reg; FX 分散型 無線LAN</a>
+					<ul>
+<li><a href="/jp/products-services/search/?c3=0f16a6d7-3ebf-4759-868a-0203038f9b99">アクセスポイント・ステーション</a></li>
+					</ul>
+				</li>
+				<li><a href="/jp/products-services/computer-networking/flexlan-zc/">FLEXLAN&reg; ZC 集中型 無線LAN</a>
+					<ul>
+<li><a href="/jp/products-services/search/?c3=bd6f41d1-89dd-491f-8d01-d9db937cc057">アクセスポイント・ステーション</a></li>
+					</ul>
+				</li>
+				<li><br /></li>
+			</ul>
+		<div class="title">イベント・セミナー</div>
+			<ul class="list-link-01 _has-child">
+				<li><a href="/jp/events-seminars/?type=1951dca0-01c4-4eae-9b76-885c09fc1e3d">セミナー情報</a></li>
+				<li><a href="/jp/events-seminars/?type=daa5dc68-dca4-47f6-8188-a8be4a468a50">展示会情報</a></li>
+			</ul>
+	</li>
+	<li>
+		<div class="title">環境計測パッケージ</div>
+			<ul class="list-link-01 _has-child _col-2">
+				<li><a href="/jp/products-services/environmental-monitoring/solarview/">SolarView&reg; 太陽光発電計測</a>
+					<!--<ul>
+<li><a href="dummy">システムパッケージ</a></li>
+					</ul>-->
+				</li>
+<li><a href="/jp/products-services/environmental-monitoring/fws/">F&amp;e Web Server 遠隔監視</a>
+					<!--<ul>
+<li><a href="dummy">システムパッケージ</a></li>
+					</ul>-->
+				</li>
+			</ul>
+	</li>
+	<li>
+		<div class="title">サービス</div>
+			<ul class="list-link-01 _has-child _col-2">
+<li><a href="/jp/products-services/services/warranty/">保証延長サービス</a></li>
+<li><a href="/jp/products-services/daq-control/iiot-conprosys/cloud/">クラウドデータサービス</a></li>
+<li><a href="https://www.anatano-anshin.com/?ref=tophd" target="_blank">あなたの安心&trade; 見守り支援サービス<img class="icon-01" src="/layouts/Contec/common/images/icon_window_01.png" alt="別ウィンドウが開きます"></a></li>
+			</ul>
+	</li>
+</ul>
+
+<!-- /.dropdown-inner --></div>
+<!-- /.dropdown-content--></div>
+</li>
+
+<li class="js-dropdown"><a href="/jp/download" class="dropdown-hook">ダウンロード</a>
+<div class="dropdown-content">
+<div class="dropdown-inner">
+<div class="title _large"><a href="/jp/download/search/">ダウンロード</a></div>
+
+
+<ul class="nav-menu-second">
+<li><div class="title">製品から探す</div>
+<ul class="list-link-01 _col-4">
+<li><a href="/jp/download/search?type=858a9226-3053-4418-80b9-a61e0b6ff8ac">ドライバ・ソフトウェア</a></li>
+<li><a href="/jp/download/search?type=15e3305a-d212-42b3-8cc8-1e399097b5e9">マニュアル・技術資料</a></li>
+<li><a href="/jp/download/search?type=66bc4bb4-70af-4251-8909-0f062cfbb95d">CADデータ</a></li>
+<li><a href="/jp/download/search?type=a1aa3e44-d78d-4f1b-95ae-f6db38bc8daf">カタログ</a></li>
+</ul>
+</li>
+<li><div class="title">一覧から探す</div>
+<ul class="list-link-01 _col-4">
+<li><a href="/jp/download/list/driver-software/">ドライバ・ソフトウェア</a></li>
+<li><a href="/jp/download/brochures-catalogs/">リーフレット・カタログ</a></li></ul>
+</li>
+</ul>
+
+
+<!-- /.dropdown-inner --></div>
+<!-- /.dropdown-content--></div>
+</li>
+
+<li class="js-dropdown"><a href="/jp/support" class="dropdown-hook">サポート</a>
+<div class="dropdown-content">
+<div class="dropdown-inner">
+<div class="title"><a href="/jp/support/">サポート</a></div>
+<ul class="list-link-01 _col-4">
+<li><a href="/jp/support/technical-support/">テクニカルサポート</a></li>
+<li><a href="https://contec.e-srvc.com/" target="_blank">よくあるご質問 FAQ</a></li>
+<li><a href="http://www.contec-kb.com/" target="_blank">コンテックナレッジベース</a></li>
+<li><a href="/jp/support/basic-knowledge/">基礎知識・用語解説</a></li>
+<li><a href="/jp/support/guides-tutorials/">導入ガイド・チュートリアル</a></li>
+<li><a href="/jp/support/comparison/">ケーブル・端子台 アクセサリ対応表</a></li>
+<li><a href="/jp/support/environment/">動作確認・移行ガイド</a></li>
+<li><a href="/jp/products-services/search/end-of-life/">生産終了製品</a></li>
+<li><a href="/jp/support/distributors/">ご購入・販売代理店のご案内</a></li>
+<li><a href="https://www.contec.co.jp/support/service/export/apply/">該非証明書発行申請</a></li>
+<li><a href="https://www.contec.co.jp/support/service/maintenance/service_re-formesp.html" target="_blank">保証延長サービス登録申請</a></li>
+<li><a href="/jp/support/repair/">故障修理のご依頼</a></li>
+<li><a href="/jp/support/analog-adjust/">アナログI/Oデバイス 精度調整</a></li>
+<li><a href="/jp/support/evaluation/">評価機貸出サービス</a></li>
+<li><a href="https://www.contec.co.jp/support/user/" target="_blank">製品ユーザー登録</a></li>
+</ul>
+<!-- /.dropdown-inner --></div>
+<!-- /.dropdown-content--></div>
+</li>
+
+<li class="js-dropdown"><a href="/jp/about-contec" class="dropdown-hook">会社情報</a>
+<div class="dropdown-content">
+<div class="dropdown-inner">
+<div class="title"><a href="/jp/about-contec/">会社情報</a></div>
+<ul class="list-link-01 _col-5 _has-child">
+<li><a href="/jp/about-contec/corporation/">企業情報</a>
+<ul>
+<li><a href="/jp/about-contec/corporation/president/">ごあいさつ</a></li>
+<li><a href="/jp/about-contec/corporation/vision/">企業理念</a></li>
+<li><a href="/jp/about-contec/corporation/profile/">企業プロフィール</a></li>
+<li><a href="/jp/about-contec/corporation/business/">コンテックの事業</a></li>
+<li><a href="/jp/about-contec/corporation/history/">沿革</a></li>
+<li><a href="/jp/about-contec/corporation/network/">拠点情報</a></li>
+<!--<li><a href="/jp/about-contec/corporation/partner/">パートナー一覧</a></li>-->
+</ul>
+</li>
+<li><a href="/jp/about-contec/csr/">CSR情報</a>
+<ul>
+<li><a href="/jp/about-contec/csr/quality/">品質への取り組み</a></li>
+<li><a href="/jp/about-contec/csr/environment/">環境への取り組み</a></li>
+<li><a href="/jp/about-contec/csr/rohsdir-act/">RoHS指令対応への取り組み</a></li>
+<li><a href="/jp/about-contec/csr/governance/">コーポレートガバナンス</a></li>
+<li><a href="/jp/about-contec/csr/rule/">企業行動規範</a></li>
+</ul>
+</li>
+<li><a href="/jp/about-contec/ir/">IR情報</a>
+<ul>
+<li><a href="/jp/about-contec/ir/message/">トップメッセージ</a></li>
+<li><a href="/jp/about-contec/ir/financial-highlights/">財務ハイライト</a></li>
+<li><a href="/jp/about-contec/ir/financing/">IRライブラリー</a></li>
+<li><a href="/jp/about-contec/ir/electronic-public-notice/">電子公告</a></li>
+<li><a href="/jp/about-contec/ir/stock-information/">株式情報</a></li>
+<li><a href="/jp/about-contec/ir/meeting/">株主総会情報</a></li>
+<li><a href="/jp/about-contec/ir/calendar/">IRカレンダー</a></li>
+<li><a href="/jp/about-contec/ir/faq/">よくあるご質問</a></li>
+</ul>
+</li>
+<li><a href="/jp/about-contec/recruit/">採用情報</a>
+<ul>
+<li><a href="/jp/about-contec/recruit/newgraduate/">新卒採用</a></li>
+<li><a href="/jp/about-contec/recruit/career/">キャリア採用</a></li>
+</ul>
+</li>
+<ul class="list-link-01 _has-child" style="margin:10px 0 0 10px;">
+<li><a href="/jp/events-seminars/">イベント・セミナー</a></li>
+<li><a href="/jp/news/">ニュースリリース</a></li>
+<li><a href="/jp/info/">お知らせ</a></li>
+</ul>
+</ul>
+<!-- /.dropdown-inner --></div>
+<!-- /.dropdown-content--></div>
+</li>
+
+</ul>
+</nav>
+
+
+<!-- /.header-menu --></div>
+
+<!-- /.header-content --></div>
+
+</header>
+<!-- ======================== Header END ===================================== -->
+<!-- ======================== Contents START ================================= -->
+<div class="contents">
+
+<main>
+
+<div class="js-carousel-01">
+
+<div class="carousel-item">
+<div class="image"><img src="/-/media/contec/jp/herobanner/hero_banner_anatanoanshin.png" alt="" class="" /></div>
+<div class="pickup">
+<h2 class="hdg">「大切な人」をそっと見守る安心<br>今なら機器込みで月額980円(税込)</h2>
+<p>IoTのコンテックが提供する高齢者見守りサービス</p>
+<p><a class="btn-01" href="https://www.anatano-anshin.com/?ref=tophb" target="_blank">詳しくはこちら</a></p>
+<!-- /.pickup --></div>
+<!-- /.carousel-item --></div>
+
+<div class="carousel-item">
+<div class="image"><img src="/-/media/contec/jp/herobanner/hero_banner_cds2.png" alt="" class="" /></div>
+<div class="pickup">
+<h2 class="hdg">低コストでIoTの仕組みを導入<br>月額\2,500(税別)から</h2>
+<p>CONPROSYS IoTデバイスのためのクラウドサービス</p>
+<p><a class="btn-01" href="/jp/products-services/daq-control/iiot-conprosys/cloud">さらに詳しく</a></p>
+<!-- /.pickup --></div>
+<!-- /.carousel-item --></div>
+
+<div class="carousel-item">
+<div class="image"><img src="/-/media/contec/jp/herobanner/hero_banner_conpeosys.png" alt="" class="" /></div>
+<div class="pickup">
+<h2 class="hdg">リアルな産業IoTのすべてがここに<br> CONPROSYSシリーズ</h2>
+<p>さぁ、計測制御・遠隔監視システムのイノベーションへ</p>
+<p><a class="btn-01" href="/jp/products-services/daq-control/iiot-conprosys">さらに詳しく</a></p>
+<!-- /.pickup --></div>
+<!-- /.carousel-item --></div>
+
+<!-- /.js-carousel-01 --></div>
+
+<div class="section">
+<div class="section-inner">
+<div class="js-tab">
+<ul class="list-tab-01">
+
+<li><a href="#tab-01"><span>ニュースリリース</span></a></li>
+
+<li><a href="#tab-02"><span>お知らせ</span></a></li>
+
+<li><a href="#tab-03"><span>イベント・セミナー</span></a></li>
+
+<li><a href="#tab-04"><span>IRニュース</span></a></li>
+
+</ul>
+
+<div class="tab-panels">
+
+<div class="tab-panel" id="tab-01">
+<ul class="list-info-01">
+
+<li>
+<div class="date">2018/06/19</div>
+
+<div class="title"><a href="/jp/news/2018/2018061900">10km以上の長距離間通信が可能に。産業IoTのCONPROSYS&reg;から LoRa変調方式920MHz無線通信モジュール 新発売</a></div>
+</li>
+
+<li>
+<div class="date">2018/05/22</div>
+
+<div class="title"><a href="/jp/news/2018/2018052200">コンテック初のBtoC商品、見守り支援サービス「あなたの安心&trade;」を発表 IoT(モノのインターネット)の総合技術で安心安全な暮らしづくりに貢献</a></div>
+</li>
+
+<li>
+<div class="date">2018/05/08</div>
+
+<div class="title"><a href="/jp/news/2018/2018050800">Core i7搭載 ファンレス組み込みコンピュータ BX-T1000 新発売 大容量ストレージ採用で組み込み用OS Windows 10 IoTをプレインストール</a></div>
+</li>
+
+<li>
+<div class="date">2018/04/24</div>
+
+<div class="title"><a href="/jp/news/2018/2018042400">PLC言語でプログラム可能なモジュール式リモートI/Oユニット 「CONPROSYS&reg; nanoシリーズ」 新発売</a></div>
+</li>
+
+<li>
+<div class="date">2018/03/20</div>
+
+<div class="title"><a href="/jp/news/2018/2018032000">ホワイトリスト型セキュリティ対策ソフトを標準搭載。IoTエッジコンピューティング向け 組み込みPC「ボックスコンピュータ&reg; BX-825シリーズ」新発売</a></div>
+</li>
+
+</ul>
+<p class="lyt-btn-01">
+<a href="/jp/news" class="btn-01 _size-a">ニュースリリース一覧へ</a>
+</p>
+<!-- /.tab-panel --></div>
+
+<div class="tab-panel" id="tab-02">
+<ul class="list-info-01">
+
+<li>
+<div class="date">2018/07/10</div>
+
+<div class="category"><div class="icon-txt-01 _ctg-d">企業</div></div>
+
+<div class="title"><a href="/jp/info/2018/2018071000">大雨の影響による輸送遅延について</a></div>
+</li>
+
+<li>
+<div class="date">2018/07/05</div>
+
+<div class="category"><div class="icon-txt-01 _ctg-b">サポート</div></div>
+
+<div class="title"><a href="/jp/info/2018/2018070500">myCONTEC会員さま向けサービス 一部リニューアルのお知らせ</a></div>
+</li>
+
+<li>
+<div class="date">2018/06/21</div>
+
+<div class="category"><div class="icon-txt-01 _ctg-d">企業</div></div>
+
+<div class="title"><a href="/jp/info/2018/2018062100">WEBシステムメンテナンスに伴うサービス停止のお知らせ</a></div>
+</li>
+
+<li>
+<div class="date">2018/06/19</div>
+
+<div class="category"><div class="icon-txt-01 _ctg-a">製品・サービス</div></div>
+
+<div class="title"><a href="/jp/info/2018/2018061900">新製品のお知らせ - 10km以上の長距離間通信が可能に。LoRa変調方式920MHz無線通信モジュール</a></div>
+</li>
+
+<li>
+<div class="date">2018/05/28</div>
+
+<div class="category"><div class="icon-txt-01 _ctg-d">企業</div></div>
+
+<div class="title"><a href="/jp/info/2018/2018052800">Contec Americas Inc.（米国)が本社を移転</a></div>
+</li>
+
+</ul>
+<p class="lyt-btn-01">
+<a href="/jp/info" class="btn-01 _size-a">お知らせ一覧へ</a>
+</p>
+<!-- /.tab-panel --></div>
+
+<div class="tab-panel" id="tab-03">
+<ul class="list-info-01">
+
+<li>
+<div class="date">2018/07/26</div>
+
+<div class="category"><div class="icon-txt-01 _ctg-g">展示会</div></div>
+
+<div class="title"><a href="/jp/events-seminars/2018/2018072600">マカフィー様主催「IoT セキュリティ OEMパートナーフォーラム」にコンテックIoT技術企画担当が登壇。</a></div>
+</li>
+
+</ul>
+<p class="lyt-btn-01">
+<a href="/jp/events-seminars" class="btn-01 _size-a">イベント・セミナー一覧へ</a>
+</p>
+<!-- /.tab-panel --></div>
+
+<div class="tab-panel" id="tab-04">
+<ul class="list-info-01">
+
+<li>
+<div class="date">2018/06/22</div>
+
+<div class="title"><a href="/jp/ir-news/2018/2018062200">平成30年3月期 有価証券報告書を掲載しました。</a></div>
+</li>
+
+<li>
+<div class="date">2018/06/22</div>
+
+<div class="title"><a href="/jp/ir-news/2018/2018062201">第43回定時株主総会議決権行使結果を掲載しました。</a></div>
+</li>
+
+<li>
+<div class="date">2018/06/22</div>
+
+<div class="title"><a href="/jp/ir-news/2018/2018062202">第43期株主通信を掲載しました。</a></div>
+</li>
+
+<li>
+<div class="date">2018/06/13</div>
+
+<div class="title"><a href="/jp/ir-news/2018/2018061300">支配株主等に関する事項についてを掲載しました。</a></div>
+</li>
+
+<li>
+<div class="date">2018/05/31</div>
+
+<div class="title"><a href="/jp/ir-news/2018/2018053100">第43回定時株主総会招集ご通知及びインターネット開示事項を掲載しました。</a></div>
+</li>
+
+</ul>
+<p class="lyt-btn-01">
+<a href="/jp/ir-news" class="btn-01 _size-a">IRニュース一覧へ</a>
+</p>
+<!-- /.tab-panel --></div>
+
+<!-- /.tab-panels --></div>
+<!-- /.js-tab --></div>
+<!-- /.section-inner --></div>
+<!-- /.section --></div>
+
+
+<script type="text/javascript">
+    var j = jQuery.noConflict();
+    j(document).ready(function ($) {
+        var newestDate = 'undefined';
+        var newestTab = 'undefined';
+
+        var skipTabs = "tab-03";
+        console.log(skipTabs);
+        $("[id^=tab-]").each(function(i, e) {
+            // skipTabsにタブが含まれる場合、スキップ
+            if( skipTabs.indexOf(e.id) != -1 )
+            {
+               return true;
+            }
+
+            $(this).find(".date").each(function(i2, e2) { 
+                var date = new Date(new Date($(this).text()));
+                if(newestDate === 'undefined' || newestDate < date) {
+                    newestDate = date;
+                    newestTab = e;
+                }
+            });
+        });
+        newestTab.classList.add('is-active');
+    });
+</script>
+
+
+<div class="section">
+<div class="section-inner">
+<h2 class="hdg-l2-02">ソリューション</h2>
+
+<div class="js-carousel-02">
+
+<div class="carousel-item">
+<ul class="list-link-03 _col-2">
+
+<li>
+<a href="/jp/solutions/manufacturing">
+<div class="image">
+<img src="/-/media/contec/solutions/img_solution_01.jpg" alt="" class="" />
+<!-- /.image --></div>
+<div class="item">
+<div class="title">製造業</div>
+<!-- /.item --></div>
+</a>
+</li>
+
+<li>
+<a href="/jp/solutions/automotive">
+<div class="image">
+<img src="/-/media/contec/jp/solutions/images/img_solution_10.jpg" alt="" class="" />
+<!-- /.image --></div>
+<div class="item">
+<div class="title">自動車産業</div>
+<!-- /.item --></div>
+</a>
+</li>
+
+</ul>
+<!-- /.carousel-item --></div>
+
+<div class="carousel-item">
+<ul class="list-link-03 _col-2">
+
+<li>
+<a href="/jp/solutions/transportation">
+<div class="image">
+<img src="/-/media/contec/jp/solutions/images/img_solution_02.jpg" alt="" class="" />
+<!-- /.image --></div>
+<div class="item">
+<div class="title">運輸・交通</div>
+<!-- /.item --></div>
+</a>
+</li>
+
+<li>
+<a href="/jp/solutions/logistics">
+<div class="image">
+<img src="/-/media/contec/jp/solutions/images/img_solution_06.jpg" alt="" class="" />
+<!-- /.image --></div>
+<div class="item">
+<div class="title">物流・ロジスティクス</div>
+<!-- /.item --></div>
+</a>
+</li>
+
+</ul>
+<!-- /.carousel-item --></div>
+
+<div class="carousel-item">
+<ul class="list-link-03 _col-2">
+
+<li>
+<a href="/jp/solutions/social-infrastructure">
+<div class="image">
+<img src="/-/media/contec/jp/solutions/images/img_solution_05.jpg" alt="" class="" />
+<!-- /.image --></div>
+<div class="item">
+<div class="title">社会インフラ・水処理</div>
+<!-- /.item --></div>
+</a>
+</li>
+
+<li>
+<a href="/jp/solutions/energy">
+<div class="image">
+<img src="/-/media/contec/jp/solutions/images/img_solution_07.jpg" alt="" class="" />
+<!-- /.image --></div>
+<div class="item">
+<div class="title">環境・エネルギー</div>
+<!-- /.item --></div>
+</a>
+</li>
+
+</ul>
+<!-- /.carousel-item --></div>
+
+<div class="carousel-item">
+<ul class="list-link-03 _col-2">
+
+<li>
+<a href="/jp/solutions/buildings-offices">
+<div class="image">
+<img src="/-/media/contec/jp/solutions/images/img_solution_08.jpg" alt="" class="" />
+<!-- /.image --></div>
+<div class="item">
+<div class="title">建設・ビル</div>
+<!-- /.item --></div>
+</a>
+</li>
+
+<li>
+<a href="/jp/solutions/agriculture">
+<div class="image">
+<img src="/-/media/contec/jp/solutions/images/img_solution_09.jpg" alt="" class="" />
+<!-- /.image --></div>
+<div class="item">
+<div class="title">農業</div>
+<!-- /.item --></div>
+</a>
+</li>
+
+</ul>
+<!-- /.carousel-item --></div>
+
+<!-- /.js-carousel-02 --></div>
+<p class="lyt-btn-01"><a class="btn-01" href="/jp/solutions">すべてのソリューションをみる</a></p>
+<!-- /.section-inner --></div>
+<!-- /.section --></div>
+
+<div class="section _has-bg-c">
+<div class="section-inner">
+<h2 class="hdg-l2-02">新製品</h2>
+
+<ul class="list-link-02 _col-2">
+
+<li>
+<a href="/jp/products-services/daq-control/iiot-conprosys/cps-io-module/cps-com-1ql" class="link-item-03">
+<div class="image">
+<img src="/-/media/contec/product/photo/x1/cpscom1ql_r_rgb_96dpi_500x500.jpg" alt="" class="" />
+<!-- /.image --></div>
+<div class="item">
+<p>M2Mコントローラ | I/Oモジュール　LoRa Stack Module</p>
+<div class="title">CPS-COM-1QL</div>
+<!-- /.item --></div>
+</a>
+</li>
+
+<li>
+<a href="/jp/products-services/daq-control/pc-helper/ethernet-io/dio-1616ln-eth" class="link-item-03">
+<div class="image">
+<img src="/-/media/contec/product/photo/x1/dio1616lneth_tr_rgb_96dpi_500x500.jpg" alt="" class="" />
+<!-- /.image --></div>
+<div class="item">
+<p>Ethernet I/Oユニット デジタル出力 16ch/16ch (絶縁 12 ~ 24VDC) - Nシリーズ</p>
+<div class="title">DIO-1616LN-ETH</div>
+<!-- /.item --></div>
+</a>
+</li>
+
+<li>
+<a href="/jp/products-services/daq-control/pc-helper/wireless-io/gw1-eth-wq" class="link-item-03">
+<div class="image">
+<img src="/-/media/contec/product/photo/x1/gw1ethwq_l_original_rgb_96dpi_500x500.jpg" alt="" class="" />
+<!-- /.image --></div>
+<div class="item">
+<p>920MHz無線イーサネットゲートウェイ</p>
+<div class="title">GW1-ETH-WQ</div>
+<!-- /.item --></div>
+</a>
+</li>
+
+<li>
+<a href="/jp/products-services/edge-computing/embedded-computers/box-pc/bx-825" class="link-item-03">
+<div class="image">
+<img src="/-/media/contec/product/photo/x2/bx825_l_rgb_96dpi_500x500.jpg" alt="" class="" />
+<!-- /.image --></div>
+<div class="item">
+<p>ボックスコンピュータ | Fanless, Atom E3845 1.91GHz, DVI-I, DisplayPort</p>
+<div class="title">BX-825</div>
+<!-- /.item --></div>
+</a>
+</li>
+
+</ul>
+<!-- /.section-inner --></div>
+<!-- /.section --></div>
+
+
+<div class="section _top-products">
+<div class="section-inner">
+<h2 class="hdg-l2-02">製品・サービス</h2>
+
+
+
+<div class="box-search-01">
+<dl class="list-desc-01">
+<dt><label for="search-01">製品名・型式・キーワードで探す</label></dt>
+<dd>
+<input name="contents_5$itemsearch_0$query" type="text" maxlength="1024" id="query" class="form-txt-01 _search" />
+<button onclick="__doPostBack('contents_5$itemsearch_0$ctl00','')" class="btn-search-01"><span></span></button>
+</dd>
+</dl>
+<p><label class="form-cb-01"><input id="include_eol" type="checkbox" name="contents_5$itemsearch_0$include_eol" /><span>生産終了品も含める</span></label></p>
+<!-- /.box-search-01 --></div>
+
+
+
+<br/>
+
+
+<ul class="list-link-03 _col-2 _idx-a">
+
+<li>
+<div class="image"></div>
+<div class="item">
+<h3 class="title">計測制御・IoT/M2M</h3>
+</div>
+<ul class="list-link-01">
+
+<li><a href="/jp/products-services/daq-control/iiot-conprosys">CONPROSYS - 産業IoTソリューション</a></li>
+
+<li><a href="/jp/products-services/daq-control/pc-helper">PC-HELPER - パソコン計測制御</a></li>
+
+<li><a href="/jp/products-services/daq-control/remote-io-fit">F&amp;eIT - 省配線リモートI/Oシステム</a></li>
+
+<li><a href="/jp/products-services/daq-control/flexlan-iot">FLEXLAN IoT - 産業用ネットワーク</a></li>
+
+</ul>
+</li>
+
+<li>
+<div class="image"></div>
+<div class="item">
+<h3 class="title">エッジコンピューティング</h3>
+</div>
+<ul class="list-link-01">
+
+<li><a href="/jp/products-services/edge-computing/embedded-computers">EPC - 組み込み用コンピュータ</a></li>
+
+<li><a href="/jp/products-services/edge-computing/industrial-computers">IPC - 産業用コンピュータ</a></li>
+
+</ul>
+</li>
+
+<li>
+<div class="image"></div>
+<div class="item">
+<h3 class="title">コンピュータネットワーキング</h3>
+</div>
+<ul class="list-link-01">
+
+<li><a href="/jp/products-services/computer-networking/flexlan-fx">FLEXLAN FX - 分散型 無線LAN</a></li>
+
+<li><a href="/jp/products-services/computer-networking/flexlan-zc">FLEXLAN ZC - 集中型 無線LAN</a></li>
+
+</ul>
+</li>
+
+<li>
+<div class="image"></div>
+<div class="item">
+<h3 class="title">環境計測ソリューション</h3>
+</div>
+<ul class="list-link-01">
+
+<li><a href="/jp/products-services/environmental-monitoring/solarview">SolarView - 太陽光発電計測表示システム</a></li>
+
+<li><a href="/jp/products-services/environmental-monitoring/fws">F&e Web Server - 遠隔監視システム</a></li>
+
+</ul>
+</li>
+
+<li>
+<div class="image"></div>
+<div class="item">
+<h3 class="title">サービス</h3>
+</div>
+<ul class="list-link-01">
+
+<li><a href="/jp/products-services/services/warranty">保証延長サービス</a></li>
+
+<li><a href="/jp/products-services/services/maintenance">オンサイト保守サービス</a></li>
+
+<li><a href="/jp/products-services/services/anatano-anshin">あなたの安心&trade; - 見守り支援サービス</a></li>
+
+</ul>
+</li>
+
+</ul>
+
+<!-- /.section-inner --></div>
+<!-- /.section --></div>
+
+<div class="section _has-bg-a">
+<div class="section-inner">
+<div class="lyt-col-01 _col-2 _has-border">
+<div class="col">
+<h2 class="hdg-l2-01">ダウンロード</h2>
+<p>製品をご購入済みのお客様がマニュアル、ドライバ、関連ソフトウェアなどをダウンロード可能です。</p>
+<p class="lyt-btn-01"><a href="/jp/download/search" class="btn-01">ダウンロード</a></p>
+<!-- /.col --></div>
+<div class="col">
+<h2 class="hdg-l2-01">サポート</h2>
+<p>各種サポート情報、FAQ、お問い合わせ先などを掲載しています。</p>
+<p class="lyt-btn-01"><a href="/jp/support" class="btn-01">サポート</a></p>
+<!-- /.col --></div>
+<!-- /.lyt-col-01 --></div>
+<!-- /.section-inner --></div>
+<!-- /.section --></div>
+<div class="section _top-about">
+<div class="section-inner">
+<h2 class="hdg-l2-02">コンテックについて</h2>
+<p class="lyt-btn-01"><a href="/jp/about-contec" class="btn-01">会社情報</a></p>
+<!-- /.section-inner --></div>
+<!-- /.section --></div>
+
+
+<div class="section _has-bg-b _top-topics">
+<div class="section-inner">
+<h2 class="hdg-l2-02">トピックス</h2>
+
+<ul class="lyt-col-01 _col-4">
+
+<li><a href="/jp/support/e-shop"><img src="/-/media/contec/topic/topic_jp_e-shop.jpg" alt="" class="" /></a></li>
+
+<li><a href="https://www.anatano-anshin.com/?ref=top" title="あなたの安心　見守り支援サービス" target="_blank"><img src="/-/media/contec/topic/topic_jp_anatano-anshin.jpg" alt="" class="" /></a></li>
+
+<li><a href="/jp/mycontec"><img src="/-/media/contec/topic/topic_jp_mycontec.jpg" alt="" class="" /></a></li>
+
+</ul>
+<!-- /.section-inner --></div>
+<!-- /.section --></div>
+
+
+<div class="modal-content">
+<div class="modal-inner" id="modal-92">
+<aside>
+
+<div class="aside-inner">
+<div class="box-01">
+<p>myCONTEC IDはお持ちですか？</p>
+<ul class="list-btn-02">
+<li><a class="btn-02" href="/jp/mycontec/login?returnUrl=%2fjp%2fcontec%2f" >ログイン</a></li>
+<li><a class="btn-02" href="/jp/mycontec/new-mycontec?returnUrl=%2fjp%2fcontec%2f" >新規会員登録</a></li>
+</ul>
+<br/>
+<div style="text-align: center;">
+<a href="javascript:void(0)" onclick="Inquiry();">会員登録しないで問い合わせる。</a>
+</div>
+<!-- /.box-01 --></div>
+<!-- /.aside-inner --></div>
+<script type="text/javascript">
+    function Inquiry() {
+        var j = jQuery.noConflict();
+        var form = j("#modal-92");
+        var href = form.attr("data-href");
+        var target = form.attr("data-target");
+        form.removeAttr("data-href");
+        form.removeAttr("data-target");
+        if (target) {
+            window.open(href, target);
+            j('#cboxClose').click();
+        } else {
+            location.href = href;
+        }
+    }
+</script>
+
+</aside>
+<!-- /.modal-inner --></div>
+<!-- /.modal-content --></div>
+
+
+
+<style type="text/css">
+<!--
+p#leading {
+    text-align: center;
+}
+-->
+</style>
+
+<script type="text/javascript">
+    var j = jQuery.noConflict();
+    j(document).ready(function ($) {
+        $("a[data-auth='modal-92']").each(function () {
+            $(this).click(function (e) {
+                e.preventDefault();
+                $("#modal-92").attr("data-href", $(this).attr("data-href"));
+                $("#modal-92").attr("data-target", $(this).attr("target"));
+            });
+            $(this).attr("data-href", $(this).attr("href"));
+            $(this).attr("data-esc-txt", "Escキーで閉じる");
+            $(this).attr("href", "#modal-92");
+            $(this).attr("class", $(this).attr("class") + " js-modal-inline cboxElement");
+        });
+    });
+</script>
+
+
+<div class="box-share-01 js-toggle-pc">
+<button type="button" class="btn-share-01 toggle-hook">シェアする</button>
+<ul class="list-share-01 toggle-content">
+
+
+<li class="facebook"><a href=""><img src="/-/media/contec/sns/icon_facebook_01.png" alt="" class="" /></a></li>
+
+
+<li class="gplus"><a href=""><img src="/-/media/contec/sns/icon_gplus_01.png" alt="" class="" /></a></li>
+
+
+<li class="line"><a href=""><img src="/-/media/contec/sns/icon_line_01.png" alt="" class="" /></a></li>
+
+
+<li class="linkedin"><a href=""><img src="/-/media/contec/sns/icon_linkedin_01.png" alt="" class="" /></a></li>
+
+
+<li class="twitter"><a href=""><img src="/-/media/contec/sns/icon_twitter_01.png" alt="" class="" /></a></li>
+
+</ul>
+<!-- /.box-share-01 --></div>
+
+
+</main>
+
+
+<p class="page-top"><a href="#top"></a></p>
+
+
+</div>
+<!-- ======================== Contents END =================================== -->
+<!-- ======================== Footer START =================================== -->
+<footer>
+<div class="footer-content">
+
+
+<div class="footer-menu">
+<div class="col">
+<ul class="footer-nav">
+<li><a href="/jp/solutions/">ソリューション</a>
+<ul>
+<li><a href="/jp/solutions/manufacturing/">製造業</a></li>
+<li><a href="/jp/solutions/automotive/">自動車産業</a></li>
+<li><a href="/jp/solutions/social-infrastructure/">社会インフラ・水処理</a></li>
+<li><a href="/jp/solutions/transportation/">運輸・交通</a></li>
+<li><a href="/jp/solutions/logistics/">物流・ロジスティクス</a></li>
+<li><a href="/jp/solutions/energy/">環境・エネルギー</a></li>
+<li><a href="/jp/solutions/buildings-offices/">建設・ビル</a></li>
+<li><a href="/jp/solutions/medical-healthcare/">メディカル・ヘルスケア</a></li>
+<li><a href="/jp/solutions/education/">教育・研究機関</a></li>
+<li><a href="/jp/solutions/agriculture/">農業</a></li>
+</ul>
+</li>
+<li><a href="/jp/case-studies/">導入事例</a></li>
+</ul>
+<!-- /.col --></div>
+<div class="col">
+<ul class="footer-nav">
+<li><a href="/jp/products-services/">製品・サービス</a>
+<ul>
+<li><a href="/jp/products-services/daq-control/iiot-conprosys/">産業 IoT</a></li>
+<li><a href="/jp/products-services/daq-control/pc-helper/">パソコン計測制御</a></li>
+<li><a href="/jp/products-services/daq-control/remote-io-fit/">省配線リモートI/O</a></li>
+<li><a href="/jp/products-services/daq-control/flexlan-iot/">IoTネットワーク</a></li>
+<li><a href="/jp/products-services/edge-computing/embedded-computers/">組み込みコンピュータ</a></li>
+<li><a href="/jp/products-services/edge-computing/industrial-computers/">産業用コンピュータ</a></li>
+<li><a href="/jp/products-services/computer-networking/flexlan-fx/">分散型 無線LANシステム</a></li>
+<li><a href="/jp/products-services/computer-networking/flexlan-zc/">集中型 無線LANシステム</a></li>
+<li><a href="/jp/products-services/environmental-monitoring/solarview/">太陽光発電計測システム</a></li>
+<li><a href="/jp/products-services/environmental-monitoring/fws/">遠隔監視システム</a></li>
+<li><a href="/jp/products-services/services/warranty/">保証延長サービス</a></li>
+<li><a href="/jp/products-services/daq-control/iiot-conprosys/cloud/">クラウドデータサービス</a></li>
+<li><a href="https://www.anatano-anshin.com/?ref=topft" target="_blank">見守り支援サービス <img class="icon-01" src="/layouts/Contec/common/images/icon_window_01.png" alt="別ウィンドウが開きます"></a></li>
+</ul>
+</li>
+</ul>
+<!-- /.col --></div>
+<div class="col">
+<ul class="footer-nav">
+<li><a href="/jp/download/">ダウンロード</a>
+<ul>
+<li><a href="/jp/download/search?type=858a9226-3053-4418-80b9-a61e0b6ff8ac">ドライバ・ソフトウェア</a></li>
+<li><a href="/jp/download/search?type=15e3305a-d212-42b3-8cc8-1e399097b5e9">マニュアル・技術資料</a></li>
+<li><a href="/jp/download/search?type=66bc4bb4-70af-4251-8909-0f062cfbb95d">CADデータ</a></li>
+<li><a href="/jp/download/search?type=a1aa3e44-d78d-4f1b-95ae-f6db38bc8daf">カタログ</a></li>
+</ul>
+</li>
+</ul>
+<!-- /.col --></div>
+<div class="col">
+<ul class="footer-nav">
+<li><a href="/jp/support/">サポート</a>
+<ul>
+<li><a href="/jp/support/technical-support/">テクニカルサポート</a></li>
+<li><a href="https://contec.e-srvc.com/" target="_blank">よくあるご質問 FAQ</a></li>
+<li><a href="http://www.contec-kb.com/" target="_blank">コンテックナレッジベース</a></li>
+<li><a href="/jp/support/basic-knowledge/">基礎知識・用語解説</a></li>
+<li><a href="/jp/support/guides-tutorials/">導入ガイド・チュートリアル</a></li>
+<li><a href="/jp/support/comparison/">ケーブル・端子台 アクセサリ対応表</a></li>
+<li><a href="/jp/support/environment/">動作確認・移行ガイド</a></li>
+<li><a href="/jp/products-services/search/end-of-life/">生産終了製品</a></li>
+<li><a href="/jp/support/distributors/">ご購入・販売代理店のご案内</a></li>
+<li><a href="/jp/support/export/">該非証明書発行申請</a></li>
+<li><a href="https://www.contec.co.jp/support/service/maintenance/service_re-formesp.html" target="_blank">保証延長サービス登録申請</a></li>
+<li><a href="/jp/support/analog-adjust/">アナログI/Oデバイス 精度調整</a></li>
+<li><a href="/jp/support/evaluation/">評価機貸出サービス</a></li>
+<li><a href="https://www.contec.co.jp/support/user/" target="_blank">製品ユーザー登録</a></li>
+</ul>
+</li>
+</ul>
+<!-- /.col --></div>
+<div class="col">
+<ul class="footer-nav">
+<li><a href="/jp/about-contec/">会社情報</a>
+<ul>
+<li><a href="/jp/about-contec/corporation/">企業情報</a></li>
+<li><a href="/jp/about-contec/csr/">CSR情報</a></li>
+<li><a href="/jp/about-contec/ir/">IR情報</a></li>
+<li><a href="/jp/about-contec/recruit/">採用情報</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li><a href="/jp/news/">ニュースリリース</a></li>
+<li><a href="/jp/info/">お知らせ</a></li>
+<li><a href="/jp/events-seminars/">イベント・セミナー</a></li>
+</ul>
+</li>
+</ul>
+<!-- /.col --></div>
+<!-- /.footer-menu --></div>
+
+
+
+
+<div class="utility-wrap">
+<ul class="utility">
+<li><a href="/jp/privacy"  >プライバシーポリシー</a></li>
+<li><a href="/jp/terms-of-use"  >サイトのご利用について</a></li>
+<li><a href="/jp/contact-us"  >お問い合わせ</a></li>
+<li><a href="/jp/sitemap"  >サイトマップ</a></li>
+
+</ul>
+<p class="notes">当サイトでは、お客様の利便性向上のために、Cookieを使用しています。<a href="/jp/privacy/#anc-01">詳細はこちら。</a></p>
+<!-- /.utility-wrap --></div>
+
+
+
+
+<p class="copyright" lang="jp"><small>Copyright &copy; 2018 The Contec Group. All Rights Reserved.</small></p>
+
+
+</div>
+
+
+<div class="footer-language js-toggle" lang="jp">
+<div class="btn">
+<button type="button" class="toggle-hook">言語切り替え</button>
+</div>
+<div class="toggle-content">
+<ul class="list">
+<li><a href="/jp"><span lang="ja">日本語（Japanese）</a></li>
+<li><a href="/">English</a></li>
+<li><a href="/cn"><span lang="zh-cn">简体中文（Chinese）</a></li>
+
+</ul>
+<!-- /.toggle-content --></div>
+<!-- /.footer-language --></div>
+
+</footer>
+<!-- ======================== Footer END ===================================== -->
+<!-- ======================== Hidden START =================================== -->
+<div id="hidden_contents" style="display: none;">
+
+</div>
+<!-- ======================== Hidden END ===================================== -->
+</form>
+<!-- ======================== Script START =================================== -->
+<script src="/-/media/contec/common/js/run.js?v=521093b5441b4f7a89b646d9d3529173"></script>
+<!-- ======================== Script END ===================================== -->
+<script type="text/javascript" src="//pro.syncsearch.jp/common/js/sync_suggest.js"></script>
+<script type="text/javascript">
+    SYNCSEARCH_SITE="Y28Q1BWA";
+    SYNCSEARCH_GROUP="1";
+</script>
+<script type="text/javascript">
+    
+    jQuery.noConflict();
+    jQuery("a,button").click(function () {
+        if (jQuery(this).attr("target") != "_blank"
+            && jQuery(this).attr("disabled") != "disabled"
+            && jQuery(this).attr("href") != "dummy"
+            && jQuery(this).attr("href") != "#top"
+            && "#modal-".indexOf(jQuery(this).attr("href"))>0
+            && jQuery(this).attr("id") != "GetAddressBtn"
+            && jQuery(this).attr("id") != "cancelBtn"
+            && jQuery(this).attr("id") != "closeBtn"
+            && jQuery(this).attr("id") != "loginHelp"
+            && jQuery(this).attr("id") != "sns"
+            && !jQuery(this).hasClass("toggle-hook")
+            && !jQuery(this).hasClass("scfSubmitButton")) {
+            if (jQuery(this).prop("tagName") == "A") {
+                jQuery(this).click(function(){
+                    return false;
+                });
+            } else {
+                jQuery(this).attr("disabled", true);
+            }
+        }
+    });
+
+    
+    jQuery(document).ready(function ($) {
+        $("a[href]").each(function () {
+            var href = $(this).attr("href");
+            if (href.match(/\.pdf|\.doc|\.docx|\.xls|\.xlsx|\.ppt|\.pptx|\.zip|\.txt|\.html|\.htm|\.exe/)) {
+                $(this).attr("href", "/jp/api/downloadlogger?download=" + href);
+            }
+        });
+    });
+
+    window.onbeforeunload = function () { }
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1960332-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script id="tagjs" type="text/javascript">
+  (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=FC6DcUH";
+    s.parentNode.insertBefore(tagjs, s);
+  }());
+</script>
+<noscript>
+  <iframe src="//b.yjtag.jp/iframe?c=FC6DcUH" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3870994.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+
+
+
+</body>
+</html>
+

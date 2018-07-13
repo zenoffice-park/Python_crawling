@@ -1,0 +1,414 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>
+お問い合わせ - 都心の一人暮らし賃貸 - クレアスレント</title>
+<meta http-equiv="imagetoolbar" content="no" />
+<meta http-equiv="content-language" content="ja" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-script-type" content="text/javascript" />
+<meta name="author" content="株式会社クレアスレント" />
+<meta name="description" content="お問い合わせ都心の一人暮らし賃貸マンションならクレアスレントへ！" />
+<meta name="keywords" content="お問い合わせ,一人暮らし,クレアスレント,賃貸,分譲賃貸" />
+<link rel="index" href="/" />
+<link rel="start" href="./" />
+<link rel="shortcut icon" href="/img/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="icon" href="/img/favicon.ico" type="image/vnd.microsoft.icon" />
+<!-- feeds -->
+<link rel="alternate" type="application/rss+xml" title="Atom 1.0" href="/news/feed.rss" />
+
+<!-- css -->
+
+	<link rel="stylesheet" type="text/css" href="/css/import.css" />
+
+	<link rel="stylesheet" type="text/css" href="/css/sub.css" />
+
+	<link rel="stylesheet" type="text/css" href="/css/front/contact.css" />
+
+	<link rel="stylesheet" type="text/css" href="/css/front/form.css" />
+
+	<link rel="stylesheet" type="text/css" href="/css/front/form_table.css" />
+<!-- js -->
+
+	<script type="text/javascript" src="//maps.google.com/maps/api/js?"></script>
+	<script type="text/javascript" src="/js/lib/jquery.js"></script>
+	<script type="text/javascript" src="/js/side_scroll_spy.js"></script>
+	<script type="text/javascript" src="/js/common.js"></script>
+
+	<script type="text/javascript" src="/js/lib/jquery.validate.js"></script>
+	<script type="text/javascript" src="/js/contact_form.js"></script>
+	<script type="text/javascript" src="/js/browser_close.js"></script>
+<!--[if lte IE 6 ]>
+<script type="text/javascript" src="/js/lib/DD_belatedPNG.js"></script>
+<script type="text/javascript" src="/js/ie6.js"></script>
+<![endif]-->
+<script type="text/javascript">
+//<![CDATA[
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-24404009-1', 'auto');
+ga('send', 'pageview');
+//]]>
+</script></head>
+<body id="diamondtail" class="contact contact_index">
+<div id="wrap">
+	<div id="header_wrap">
+		<div id="form_header">
+			<div id="header_inner">
+				<div id="logo"><img src="/img/front/common/logo.png" alt="クレアスレント" /></div>
+			</div>
+			<!-- /#header_inner -->
+		</div>
+		<!-- /#header -->	</div>
+	<!-- /#header_wrap -->
+	<div id="contents_wrap">
+		<div id="contents">
+			<div id="contents_inner">
+<div id="article" class="contact">
+	<div id="page_title" class="long"><span>お問い合わせ</span></div>
+	<div class="section adjust_margin clearfix" id="contact_top_msg">
+		<p class="msg">
+		お問い合せは、下記メールフォームより受け付けておりますのでお気軽にお問い合わせください。メールフォームより頂いたお問い合わせに関しましては、
+		後日弊社の担当者よりご入力いただいたお電話番号又はメールアドレス宛てにご連絡させていただきます。<br>
+		※当社に対する営業を目的とした利用はご遠慮ください。
+		</p>
+		<!--<p class="tel">
+		<span class="number">
+		03-6824-9530		</span>
+		<br /><span class="fs10">営業時間<span>10：00〜18：30		</p>-->
+	</div>
+	<div id="contact_info" class="section">
+<img alt="STEP1内容の入力" src="/img/front/common/from_step1.jpg">
+	</div>
+	<div id="contact_form" class="section">
+		<div class="adjust_margin">
+	<form action="/contact" class="validatorForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST" /><input type="hidden" name="data[_Token][key]" value="706b32a3c0ef9e4806a74ba7a2b29826270328ea" id="Token858347192" /></div><input type="hidden" name="data[Contact][token]" value="5b481b81-43e4-4eee-bbd2-44b999789efa" id="ContactToken" /><h2 class="form">問い合わせ内容<span class="require ml_05">必須</span></h2>
+<table width="100%" summary="資料請求・お問い合わせ" class="contact_table">
+	<tr>
+		<th width="20%">オーナー様</th>
+		<td>
+			<ul class="radio_hexa clearFix">
+				<li class="new_tab">
+					<a href="//pm.clearth-rent.co.jp/contact" target="_blank">貸したい方はこちらのページよりお問い合わせください</a>
+				</li>
+				<li class="new_tab">
+					<a href="//pm.clearth-rent.co.jp/contact" target="_blank">賃料査定をご希望の方はこちらのページよりお問い合わせください</a>
+				</li>
+				<li>
+				<div class="input radio"><input type="hidden" name="data[Contact][contact_type]" id="ContactContactType_" value="" /><input type="radio" name="data[Contact][contact_type]" id="ContactContactType1" class="mr_05" value="1"  /><label for="ContactContactType1">その他</label></div>				</li>
+			</ul>
+					</td>
+	</tr>
+	<tr>
+		<th width="20%">入居者様</th>
+		<td>
+			<ul class="radio_hexa clearFix">
+				<li class="new_tab">
+					<a href="//www.livero.co.jp/inet/entry/form_mover/?cid=dc89f7176e&lf=8aaf9e58b5&key=93c1bb814ce458ad2039">お引越し一括見積もりの方はこちらのページよりお問い合わせください</a>
+				</li>
+				<li class="new_tab">
+					<a href="//www.livero.co.jp/inet/form/form02/index.php?did=R0001">インターネット設備事前確認の方はこちらのページよりお問い合わせください</a>
+				</li>
+				<li class="new_tab">
+					<a href="//clearthlifegrp.ienonaka.jp/">家事代行サービスお問い合わせ・お申込みの方はこちらのページよりお問い合わせください</a>
+				</li>
+				<li>
+				<div class="input radio"><fieldset><legend>Contact Type</legend><input type="radio" name="data[Contact][contact_type]" id="ContactContactType2" class="mr_05" value="2"  /><label for="ContactContactType2">室内設備の故障問合せ</label></li><li><input type="radio" name="data[Contact][contact_type]" id="ContactContactType3" class="mr_05" value="3"  /><label for="ContactContactType3">契約更新の問合せ</label></li><li><input type="radio" name="data[Contact][contact_type]" id="ContactContactType4" class="mr_05" value="4"  /><label for="ContactContactType4">退去手続きの問合せ</label></li><li><input type="radio" name="data[Contact][contact_type]" id="ContactContactType5" class="mr_05" value="5"  /><label for="ContactContactType5">家賃支払の問合せ</label></li><li><input type="radio" name="data[Contact][contact_type]" id="ContactContactType6" class="mr_05" value="6"  /><label for="ContactContactType6">その他</label></fieldset></div>				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th width="20%">法人社宅担当の方</th>
+		<td>
+			<ul>
+				<li class="new_tab">
+					<a href="/corporation">法人社宅担当の方はこちらのページよりお問い合わせください</a>
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th width="20%">駐車場について</th>
+		<td>
+			<ul>
+				<li class="new_tab">
+					<a href="//www.clearth-community.co.jp/exc">駐車場についてはこちらのページよりお問い合わせください</a>
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th width="20%">お部屋を借りたい方</th>
+		<td>
+			<ul>
+				<li class="new_tab">
+					<a href="/contact_item/company/1,2,3">お部屋を借りたい方はこちらのページよりお問い合わせください</a>
+				</li>
+			</ul>
+		</td>
+	</tr>
+</table>
+<h2 class="form">ご連絡方法<span class="require ml_05">必須</span></h2>
+<div>
+	<div class="request_method mb_20">
+		<table width="100%" class="contact_table mb0">
+			<tr>
+				<th>ご希望の連絡方法</th>
+				<td width="80%">
+				<ul class="radio_hexa clearFix">
+								<li class="fl mr_15"><input type="hidden" name="data[Contact][request_contact_method][1]" id="ContactRequestContactMethod1_" value="0" /><input type="checkbox" name="data[Contact][request_contact_method][1]" value="1" class="mr_05 va mp" id="ContactRequestContactMethod1" /><label for="ContactRequestContactMethod1">メール</label></li>
+								<li class="fl mr_15"><input type="hidden" name="data[Contact][request_contact_method][2]" id="ContactRequestContactMethod2_" value="0" /><input type="checkbox" name="data[Contact][request_contact_method][2]" value="2" class="mr_05 va mp" id="ContactRequestContactMethod2" /><label for="ContactRequestContactMethod2">電話</label></li>
+								<li class="fl mr_15"><input type="hidden" name="data[Contact][request_contact_method][3]" id="ContactRequestContactMethod3_" value="0" /><input type="checkbox" name="data[Contact][request_contact_method][3]" value="3" class="mr_05 va mp" id="ContactRequestContactMethod3" /><label for="ContactRequestContactMethod3">郵送</label></li>
+								</ul>
+								</td>
+			</tr>
+		</table>
+		<div class="mail_request">
+			<table width="100%" class="contact_table mb0">
+				<col width="20%">
+				<col width="30%">
+				<col width="20%">
+				<col width="30%">
+				<tr>
+					<th>メールアドレス</th>
+					<td>
+					<input name="data[Contact][mail]" type="text" class="text_input elem_w180 ime_disable" maxlength="255" id="ContactMail" />										</td>
+					<th>メールアドレス<br>（再入力）</th>
+					<td>
+					<input name="data[Contact][mail_conf]" type="text" class="text_input elem_w180 ime_disable" maxlength="255" id="ContactMailConf" />					</td>
+				</tr>
+			</table>
+		</div>
+		<div class="tel_request">
+			<table width="100%" class="contact_table mb0">
+				<col width="20%">
+				<col width="30%">
+				<col width="20%">
+				<col width="30%">
+				<tr>
+					<th>電話番号</th>
+					<td>
+					<input name="data[Contact][telphone]" type="text" class="text_input elem_w180 ime_disable" maxlength="255" id="ContactTelphone" />										</td>
+					<th>携帯電話</th>
+					<td>
+					<input name="data[Contact][phone]" type="text" class="text_input elem_w180 ime_disable" maxlength="255" id="ContactPhone" />					</td>
+				</tr>
+				<tr>
+					<th width="20%">ご希望の連絡時間</th>
+					<td colspan="3">
+						<ul class="radio_hexa clearFix">
+							<li class="fl"><select name="data[Contact][request_contact_time_t][hour]" id="ContactRequestContactTimeTHour">
+<option value="">-</option>
+<option value="00">0</option>
+<option value="01">1</option>
+<option value="02">2</option>
+<option value="03">3</option>
+<option value="04">4</option>
+<option value="05">5</option>
+<option value="06">6</option>
+<option value="07">7</option>
+<option value="08">8</option>
+<option value="09">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+</select> 時 ～</li>
+							<li class="fl mr_15"><select name="data[Contact][request_contact_time_e][hour]" id="ContactRequestContactTimeEHour">
+<option value="">-</option>
+<option value="00">0</option>
+<option value="01">1</option>
+<option value="02">2</option>
+<option value="03">3</option>
+<option value="04">4</option>
+<option value="05">5</option>
+<option value="06">6</option>
+<option value="07">7</option>
+<option value="08">8</option>
+<option value="09">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+</select> 時</li>
+						</ul>
+												</td>
+					</tr>
+			</table>
+		</div>
+		<div class="mail_send">
+			<table width="100%" class="contact_table mb0">
+				<tr>
+					<th width="20%">郵送先</th>
+					<td width="80%">
+					<select name="data[Contact][prefecture]" id="ContactPrefecture">
+<option value="">都道府県</option>
+<option value="北海道">北海道</option>
+<option value="青森県">青森県</option>
+<option value="岩手県">岩手県</option>
+<option value="宮城県">宮城県</option>
+<option value="秋田県">秋田県</option>
+<option value="山形県">山形県</option>
+<option value="福島県">福島県</option>
+<option value="茨城県">茨城県</option>
+<option value="栃木県">栃木県</option>
+<option value="群馬県">群馬県</option>
+<option value="埼玉県">埼玉県</option>
+<option value="千葉県">千葉県</option>
+<option value="東京都">東京都</option>
+<option value="神奈川県">神奈川県</option>
+<option value="新潟県">新潟県</option>
+<option value="富山県">富山県</option>
+<option value="石川県">石川県</option>
+<option value="福井県">福井県</option>
+<option value="山梨県">山梨県</option>
+<option value="長野県">長野県</option>
+<option value="岐阜県">岐阜県</option>
+<option value="静岡県">静岡県</option>
+<option value="愛知県">愛知県</option>
+<option value="三重県">三重県</option>
+<option value="滋賀県">滋賀県</option>
+<option value="京都府">京都府</option>
+<option value="大阪府">大阪府</option>
+<option value="兵庫県">兵庫県</option>
+<option value="奈良県">奈良県</option>
+<option value="和歌山県">和歌山県</option>
+<option value="鳥取県">鳥取県</option>
+<option value="島根県">島根県</option>
+<option value="岡山県">岡山県</option>
+<option value="広島県">広島県</option>
+<option value="山口県">山口県</option>
+<option value="徳島県">徳島県</option>
+<option value="香川県">香川県</option>
+<option value="愛媛県">愛媛県</option>
+<option value="高知県">高知県</option>
+<option value="福岡県">福岡県</option>
+<option value="佐賀県">佐賀県</option>
+<option value="長崎県">長崎県</option>
+<option value="熊本県">熊本県</option>
+<option value="大分県">大分県</option>
+<option value="宮崎県">宮崎県</option>
+<option value="鹿児島県">鹿児島県</option>
+<option value="沖縄県">沖縄県</option>
+</select><input name="data[Contact][city]" type="text" class="text_input ml_10 elem_w250 shadow_text" maxlength="255" title="例) 港区新橋4-19-4 CONCIERIA新橋1F" id="ContactCity" />										</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
+<h2 class="form">お客様情報<span class="require ml_05">必須</span></h2>
+<table width="100%" summary="資料請求・お問い合わせ" class="contact_table">
+<tr>
+<th width="20%">お名前</th>
+<td width="80%"><input name="data[Contact][first_name]" type="text" class="text_input elem_w150 ml_05 mr_10 shadow_text" maxlength="255" title="姓" id="ContactFirstName" /><input name="data[Contact][last_name]" type="text" class="text_input elem_w150 ml_05 shadow_text" maxlength="255" title="名" id="ContactLastName" /></td>
+</tr>
+<tr>
+<th>フリガナ</th>
+<td><input name="data[Contact][first_name_kana]" type="text" class="text_input elem_w180 ml_05 mr_10 shadow_text" maxlength="255" title="セイ" id="ContactFirstNameKana" /><input name="data[Contact][last_name_kana]" type="text" class="text_input elem_w180 ml_05 shadow_text" maxlength="255" title="メイ" id="ContactLastNameKana" /></td>
+</tr>
+<tr>
+<th>物件名</th>
+<td><input name="data[Contact][build_name]" type="text" class="text_input elem_w150 ml_05 mr_10 shadow_text" maxlength="255" title="物件名" id="ContactBuildName" /></td>
+</tr>
+<tr>
+<th>部屋番号</th>
+<td><input name="data[Contact][room_number]" type="text" class="text_input elem_w150 ml_05 mr_10 shadow_text" maxlength="255" title="部屋番号" id="ContactRoomNumber" /></td>
+</tr>
+<tr>
+<th>備考</th>
+<td>
+<textarea name="data[Contact][message]" wrap="p" rows="10" cols="30" class="text_input elem_w450" id="ContactMessage" ></textarea></td>
+</tr>
+</table>
+<table width="100%" summary="プライバシーポリシーへの同意" class="contact_table contact_agreement">
+	<tr>
+		<td>
+			<p style="margin-bottom:15px;">
+				お問い合わせ前に、<a href="javascript:void(0);" onclick="javascript:displayPolicy();">プライバシーポリシー</a>をお読みいただき、同意の上確認画面へ進んでください。
+			</p>
+			<p>
+				<input type="checkbox" name="data[Contact][agree]" class="mp mr_05" value="1" id="ContactAgree" /><label for="ContactAgree">同意する</label>			</p>
+					</td>
+	</tr>
+</table>
+
+<p class="tac">
+<input type="image" src="/img/front/common/btn_member_confirm_off.jpg" alt="確認画面へ" /><!-- <input type="reset" name="Submit2" value="リセット" /> -->
+</p><div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="a299f568bd2e184ac35b48c28e780c165d38ed25%3AContact.token" id="TokenFields505949678" /></div></form>	</div>
+	</div>
+</div>				<!-- /#aside -->
+			</div>
+			<!-- /#contents_inner -->
+		</div>
+		<!-- /#contents -->
+	</div>
+	<div id="contents_foot">
+		<p class="page_top"><a href="#wrap"><img src="/img/front/common/btn_page_top_off.jpg" alt="ページトップへ"></a></p>
+	</div>
+	<!-- /#contents_wrap -->
+	<div id="footer_wrap">
+		<div id="footer_foot">
+						<p id="copyright">Copyright (C) 2016 K.K.CLEARTHRENT. Co.,Ltd. All rights reserved.</p>
+		</div>
+		<!-- /#footer_wrap -->
+	</div>
+</div>
+<!-- /wrapper -->
+<script type="text/javascript">
+piAId = '303421';
+piCId = '1525';
+
+(function() {
+ function async_load(){
+  var s = document.createElement('script'); s.type = 'text/javascript';
+  s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+  var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+ }
+ if(window.attachEvent) { window.attachEvent('onload', async_load); }
+ else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+<script type="text/javascript">
+//<![CDATA[
+// サイトのBODY内共通
+//]]>
+</script>
+
+
+<script id="tagjs" type="text/javascript">
+  (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=kjf5ry9";
+    s.parentNode.insertBefore(tagjs, s);
+  }());
+</script>
+<noscript>
+  <iframe src="//b.yjtag.jp/iframe?c=kjf5ry9" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+</body>
+</html>

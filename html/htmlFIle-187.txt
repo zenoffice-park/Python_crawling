@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<meta charset="utf-8">
+<title>お問い合わせ｜株式会社アルコ</title>
+<meta name="description" content="お問い合わせ｜株式会社アルコ">
+<link rel="stylesheet" type="text/css" href="../style.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" charset="utf-8"></script>
+<script src="../js/site.js"></script>
+<script type="text/javascript" src="//api.docodoco.jp/v5/docodoco?key=ojv7dUqicCaroufwobfdHoIOIZpVKVAU4P4fKYsGjZRb5o2JRvIlaH5mxEgAjgPT" charset="utf-8"></script>
+<script type="text/javascript" src="//api.docodoco.jp/docodoco_ua_plugin_2.js" charset="utf-8"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-7275767-1', 'auto');
+  ga('set', 'dimension1', SURFPOINT.getOrgName());
+  ga('set', 'dimension2', SURFPOINT.getOrgUrl());
+  ga('set', 'dimension3', getIndL(SURFPOINT.getOrgIndustrialCategoryL()));
+  ga('set', 'dimension4', getEmp(SURFPOINT.getOrgEmployeesCode()));
+  ga('set', 'dimension5', getTime());
+  ga('set', 'dimension6', getIpo(SURFPOINT.getOrgIpoType()));
+  ga('set', 'dimension7', getCap(SURFPOINT.getOrgCapitalCode()));
+  ga('set', 'dimension8', getGross(SURFPOINT.getOrgGrossCode()));
+  ga('set', 'dimension9', SURFPOINT.getCountryJName());
+  ga('set', 'dimension10', SURFPOINT.getPrefJName());
+  ga('set', 'dimension11', SURFPOINT.getLineJName());
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body id="top" class="column1">
+
+<div id="wrap">
+	<!-- header -->
+	<header>
+	<div class="inner clearfix">
+		<h1 class="logo"><a href="../."><img src="../images/logo.png" width="171" height="59" alt="アルコ" /></a></h1>
+		<div class="fr">
+			<ul class="header_list01 list01">
+				<li><a href="../contact/">▶ お問い合わせ</a></li>
+				<li><a href="../about/">▶ 会社概要</a></li>
+			</ul>
+			<ul class="header_list02">
+				<li><img src="../images/header01.png" width="172" height="42" alt="ご相談窓口" /></li>
+				<li><a href="../download/"><img src="../images/header02.png" width="105" height="42" alt="無料冊子" /></a></li>
+				<li><a href="../idea/"><img src="../images/header03.png" width="105" height="42" alt="改善の考え方" /></a></li>
+			</ul>
+		</div>
+	</div>
+	</header>
+	<!-- /header -->
+
+	<!-- gnav -->
+    <nav id="gnav">
+    <ul class="inner clearfix">
+    	<li><a href="../difference"><img src="../images/gnav01.png" alt="他社との違い" /></a></li>
+        <li><a href="../result"><img src="../images/gnav02.png" alt="成果改善実績" /></a></li>
+        <li><a href="../service"><img src="../images/gnav03.png" alt="サービス一覧" /></a></li>
+        <li><a href="https://blog.alco.co.jp/"><img src="../images/gnav04.png" alt="改善ノウハウブログ" /></a></li>
+        <li><a href="../download/"><img src="../images/gnav05.png" alt="ノウハウ資料" /></a></li>
+    </ul>
+    </nav>
+    <!-- /gnav -->
+
+	<!-- content -->
+	<div id="content" class="clearfix download">
+	<div class="inner">
+		<h2 class="mb25"><img src="images/main_title.png" width="980" height="110" alt="お問い合わせ" /></h2>
+
+		<div class="clearfix mb50">
+			<!-- main -->
+			<div id="main">
+<div id="form" class="box">
+<h3 class="title01"><img src="images/contact01.png" width="375" height="21" alt="お問い合わせ（サービスに関するご質問）" /></h3>
+<div class="txt tc">
+<p class="mb20">下記の内容をご記入いただき、「送信ボタン」を押してください。</p>
+
+<form action="./?cmd=confirm#form" method="post">
+<ul class="table01">
+<li><dl><dt>貴社名 <em>必須</em></dt><dd>
+<input size="40" type="text" name="company" value="" />
+</dd></dl></li>
+<li><dl><dt>お名前 <em>必須</em></dt><dd>
+<input size="40" type="text" name="name" value="" />
+</dd></dl></li>
+<li><dl><dt>メールアドレス <em>必須</em></dt><dd>
+<input size="40" type="text" name="mmm" value="" />
+</dd></dl></li>
+</ul>
+
+<p>弊社サービスに関してご不明な点や、ご質問などがございましたら、ご記入下さい。 </p>
+<p>
+<textarea rows="10" name="comment"></textarea>
+</p>
+<p class="tc mb20">本フォームからお問い合わせいただく前に、必ず弊社の「<a href="../privacy/">個人情報保護方針</a>」をご確認ください。</p>
+
+<p class="btn tc"><input type="image" src="images/btn_check.gif" alt="確認する"></p>
+<input type="text" name="hp" value="" style="display: none;">
+</form>
+</div>
+</div>
+</div>
+<!-- /main -->
+</div>
+<p class="totop"><a href="#top">▲ページの先頭に戻る</a></p>
+</div>
+</div>
+<!-- /content -->
+    <!-- footer -->
+    <footer>
+        <!-- footer_top -->
+        <div id="footer_top">
+        <div class="inner clearfix">
+            <div class="box01">
+                <div class="upper clearfix">
+                    <div class="fl">
+                        <img src="../images/ft_logo.png" alt="ALCOロゴ" />
+                    </div>
+                    <div class="fr ml20">
+                        <p>TEL：03-5428-3177</p>
+                        <p>
+                            〒150-0036<br />
+                            渋谷区南平台町2-17　日交渋谷南平台ビル5F
+                        </p>
+                    </div>
+                </div>
+                <div class="downer clearfix">
+                    <div class="fl">
+                        <img src="../images/PartnerBadge-Horizontal.png" alt="Google Partner" />
+                    </div>
+                    <div class="fl">
+                        <p>株式会社アルコは<br />google認定パートナーです。</p>
+                    </div>
+                </div>
+            </div>
+        	<ul class="box02">
+            	<li class="mark">お悩み別
+                	<ul>
+                    	<li>┗<a href="../service/service01.html">検索流入数を増やしたい</a></li>
+                        <li>┗<a href="../service/service02.html">成約率を改善したい</a></li>
+                        <li>┗<a href="../service/service03.html">WEB制作を依頼したい</a></li>
+                    </ul>              
+                </li>
+            	<li class="mark"><a href="../result/">実績</a></li>
+            </ul>
+        	<ul class="box03">
+            	<li class="mark"><a href="../difference/">他社との違い</a></li>
+                <li class="mark"><a href="https://blog.alco.co.jp/">お役立ちブログ</a></li>
+                <li class="mark"><a href="../contact/">お問い合わせ</a></li>
+                <li class="mark"><a href="../download/">ノウハウ冊子無料ダウンロード</a></li>
+                <li class="mark"><a href="../news/">お知らせの一覧</a></li>
+            </ul>
+        	<ul class="box04">
+                <li class="mark"><a href="../about/">会社概要</a>
+                	<ul>
+                    	<li>┗<a href="../about">会社概要</a></li>
+                        <li>┗<a href="../about/message.html">代表メッセージ</a></li>
+                        <li>┗<a href="../about/member.html">役員紹介</a></li>
+                    </ul>              
+                </li>
+                <li class="mark"><a href="../privacy/">プライバシーポリシー</a></li>
+            </ul>
+        </div>
+        </div>
+        <!-- /footer_top -->
+        
+        <!-- footer_bottom -->
+        <div id="footer_bottom">
+        <div class="inner">
+            <small>Copyright &copy; ALCO inc. All Rights Reserved.</small>
+        </div>
+        </div>
+        <!-- /footer_bottom -->
+	</footer>
+    <!-- /footer -->
+</div>
+<script type="text/javascript">
+  (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=6gWkcNu";
+    s.parentNode.insertBefore(tagjs, s);
+  }());
+</script>
+<noscript>
+  <iframe src="//b.yjtag.jp/iframe?c=6gWkcNu" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+<!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3042344.js"></script>
+<!-- End of HubSpot Embed Code -->
+</body>
+</html>

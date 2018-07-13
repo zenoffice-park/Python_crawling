@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>HomePage | Bio-Rad</title>
+<!--grid-layout-->
+<!--ls:begin[stylesheet]-->
+<style type="text/css">
+          
+          .iw_container
+          {
+            max-width:800px !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+          }
+          .iw_stretch
+          {
+            min-width: 100% !important;
+          }
+        </style>
+<link href="/iwov-resources/grid/bootstrap.css" type="text/css" rel="stylesheet">
+<!--ls:end[stylesheet]-->
+<!--ls:begin[meta-keywords]-->
+<meta name="keywords" content="">
+<!--ls:end[meta-keywords]-->
+<!--ls:begin[meta-description]-->
+<meta name="description" content="">
+<!--ls:end[meta-description]-->
+<!--ls:begin[custom-meta-data]-->
+<!--ls:end[custom-meta-data]-->
+<!--ls:begin[meta-vpath]-->
+<meta name="vpath" content="">
+<!--ls:end[meta-vpath]-->
+<!--ls:begin[meta-page-locale-name]-->
+<meta name="page-locale-name" content="">
+<!--ls:end[meta-page-locale-name]-->
+<!--ls:begin[favicon]-->
+<link type="image/x-icon" href="/evportal/framework/skins/evolution/images/favicon.ico" rel="shortcut icon">
+<!--ls:end[favicon]-->
+<!--ls:begin[stylesheet]-->
+<link type="text/css" href="/evportal/framework/skins/evolution/minified/home-main-min.css" rel="stylesheet" data-tg-desktop_or_tablet_or_phone="show">
+<!--ls:end[stylesheet]-->
+<!--ls:begin[head-injection]-->
+<meta name="DREKEY" content="http://www.bio-rad.com/?country=JP&lang=ja&force=true"/>
+<meta name="DCSext.BRCountry" content="JP"/>
+<meta name="DCSext.BRLanguage" content="ja"/>
+<meta name="DCSext.session_type" content="B2C"/>
+<meta name="DCSext.vertical" content="LSR"/>
+<meta name="WT.cg_n" content="Home"/><script type="text/javascript" src="/evportal/framework/skins/evolution/minified/main-min.js"></script>
+<link type='text/css' href='/webroot/web/css/home_global-min.css?version=r5.0' rel='stylesheet' data-tg-desktop_or_tablet_or_phone='show'>
+<script type="text/javascript" src="/webroot/web/js/jquery.bxslider-min.js"></script><script type="text/javascript" src="/webroot/web/js/jquery.fitvids-min.js"></script><script type="text/javascript" src="/webroot/web/js/home_us-min.js"></script>
+<link rel='Canonical' content='http://www.bio-rad.com/?country=JP&lang=ja&force=true'>
+<script language="javascript" type="text/javascript">
+var munchkinAccountID = '272-THL-329';
+</script><script type="text/javascript" src="/evportal/framework/skins/evolution/js/webtrends.js"></script><script type="text/javascript">
+  loadWebtrends();
+</script><script type="text/javascript">
+  // AppInternals is not enabled in envVariables
+</script><!--ls:end[head-injection]--><!--ls:begin[tracker-injection]--><!--ls:end[tracker-injection]--><!--ls:begin[script]--><!--ls:end[script]--><!--ls:begin[script]--><!--ls:end[script]--></head>
+<body>
+<!--ls:begin[body]--><div class="iw_viewport-wrapper"><div> 
+ <!--HEADER=--> 
+ <div class="iw_component" id="iw_comp1503938962058">
+   <div id="headerContent">
+   <div class="header">
+      <fieldset>
+         <div id="head">
+            <div id="headleft"><a href="/"><img width="100" height="27" border="0" alt="Bio-Rad logo" src="/evportal/framework/skins/evolution/images/biorad_logo.gif"></a><div id="headlangID">
+                  <p class="lang"><strong>日本</strong><br>日本語 | <a href="javascript:void(0);" class="langLink" id="EN">English</a></p>
+               </div>
+               <div id="b2bimages">
+                  <table class="b2bimageUI">
+                     <tbody>
+                        <tr>
+                           <td width="100"><img id="b2bimage"><br><span id="b2bmode"></span><a href="javascript:openAjaxOverlay('/webroot/web/html/general/global/english/b2b-help.html', 'Help');" class="questionmark"><img id="b2bhelp" src="/evportal/framework/skins/evolution/images/questionmark.png" width="16" height="16"></a></td>
+                           <td>&nbsp;</td>
+                           <td><span id="b2bmessage"></span></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </div>
+            <div id="headright">
+               <div id="headerLogin">
+                  <div class="headerNavitems">
+                     &nbsp;
+                     
+                     <span id="portalmessage"></span><a class="loginlink" id="portalloginlink"></a><span id="firstpipe">&nbsp;|&nbsp;</span><a class="cancellink" id="cancellink"></a><span id="cancelpipe"></span><a onclick="null" href="/ja-jp/my-bio-rad">マイ バイオ・ラッド</a>
+                     |
+                     <a onclick="null" href="/ja-jp/contact-us">お問合せ</a><div class="headcart">&nbsp;</div><br><form name="fpHeaderSearchForm" id="fpHeaderSearchForm" method="get" action="/ja-jp/SearchResults"><span class="searchItems"><input type="text" name="Text" class="searchBox" maxlength="500" size="30" id="headersearchfindprodinfotext" placeholder="キーワード、品名、またはカタログ番号"><input type="button" id="headersearchfindprodinfobutton" onclick="document.getElementById('fpHeaderSearchForm').submit()" href="javascript:void(0);" target="_top" class="searchIcon"></span></form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </fieldset>
+   </div>
+</div><script type="text/javascript">
+		var sterlingEnvironment = "/prd";
+		var sterlingLanguage = "ja";
+		var sterlingCountry = "JP";
+        var removeCartCookieURL = sterlingEnvironment+'/'+sterlingLanguage+'/'+sterlingCountry+'/adirect/biorad?ts=1&cmd=CartCookiePreferences&methodName=DeleteCookie'; 
+		var tstamp = (new Date()).getTime();
+		var loggedInGlobal = false;
+		function loadShoppingCart() {      
+			$('.headcart').load("/prd/ja/JP/adirect/biorad?ts=1&tstamp="+tstamp+"&cmd=BRHeaderCartModule&isPortalReq=Y");
+		}
+		
+       function showUserLoginData() {	
+		var action_sso ="/sessionUser?tstamp="+tstamp;
+		$.ajax({
+				type: "GET", 
+				url: action_sso,
+				dataType:"json",
+				success: function(json){																	
+				
+					var JsonObject = json;	
+       				
+					var successval = JsonObject.success;
+					var loggedInVal = JsonObject.loggedIn;
+       				loggedInGlobal = loggedInVal;
+									
+					if(successval && loggedInVal){		
+       					$("#portalmessage").text("ようこそ, " + JsonObject["webUserName"] + " 様  ");
+									
+						
+       					var B2BJsonObject = JsonObject.b2bUserStatus;
+      					if( B2BJsonObject ) {
+       					$('a[href="/"]').click(function() {
+                            window.location.href = '/ja-jp/my-bio-rad';
+                            return false;
+                        });
+						}else{
+							 $("#b2bhelp").remove();
+							 $("#portalloginlink").attr("href", "/ja-jp/ssologout")
+							$("#portalloginlink").text("ログアウト");
+      					}
+       				
+       					
+       					if(B2BJsonObject){  
+							$("#firstpipe").text("");
+       						$("#b2bimage").attr("src",B2BJsonObject["logo"]);   
+       						var punchoutModeStr = B2BJsonObject.punchoutMode;
+       						punchoutModeStr = toCamelCase(punchoutModeStr);   
+							var rb_keyname = punchoutModeStr+"_mode";
+							//Chech what should be key for WelcomeMessage from response
+														
+       						//Mode where is RB file?
+							
+							punchoutModeStrLower = punchoutModeStr.toLowerCase();
+							if(punchoutModeStrLower=="create"){
+								$("#b2bmode").text("["+"Create Mode"+"]");
+							} else if(punchoutModeStrLower=="edit"){
+								$("#b2bmode").text("["+"Edit Mode"+"]");
+							} else if(punchoutModeStrLower=="inspect"){
+								$("#b2bmode").text("["+"Inspect Mode"+"]");
+							}
+							
+							//$("#b2bmode").text("["+"evlabels20:"+rb_keyname+""+"]");							
+       						//$("#b2bmode").text("["+punchoutModeStr+" Mode]" );
+							
+							//Check Message Key
+							var welcomeMsgStr = B2BJsonObject.welcomeMessage;
+							$("#b2bmessage").text(welcomeMsgStr);
+							
+							var returnURL  = B2BJsonObject["returnURL"]; 							
+							//returnURL = "http://www.bio-rad.com"; 
+							
+							if(returnURL === undefined){
+								//console.log("Do not show Cancel with return URL.."+returnURL);
+							}else{
+								//Show Cancel Button cancellink 
+								$("#cancellink").attr("href", returnURL);
+								$("#cancellink").text("Cancel"); 
+								$("#cancelpipe").text(" | ");
+								//$("#cancellink").text("<a href="+returnURL+">"+" "+"</a>");
+							}
+							
+						}
+      					
+					}else{
+						$("#portalloginlink").attr("href", "/ja-jp/login-registration")
+						$("#portalloginlink").text("ログイン / 登録");
+						$("#b2bhelp").remove();
+					}
+					 
+					$(json).each(function(i,val){
+						$.each(val,function(k,v){					
+					});
+					});
+			
+				},
+				error: function (XMLHttpRequest, textStatus, errorThrown) {
+					$("#portalloginlink").attr("href", "/ja-jp/login-registration")
+					$("#portalloginlink").text("ログイン / 登録");
+					$("#b2bhelp").remove();
+				}	
+			});
+						
+      }
+       
+      function toCamelCase(str){
+  return str.split(' ').map(function(word,index){
+    // If it is the first word make sure to lowercase all the chars.
+    if(index == 0){
+      return word.toLowerCase();
+    }
+    // If it is not the first word only upper case the first char and lowercase the rest.
+    return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+  }).join('');
+}
+       
+       
+       function refreshParent(){
+				window.location.href=replace(window.location.href,"reloadParent=true","reloadParent=false");
+				closeOverlays();
+				isSaved="y";
+				parent.location.reload();
+				}
+       
+       function changeLanguage(action_uri, langSelected) {
+						
+						$.ajax({
+								type: "GET",
+								url: action_uri,
+							    dataType:"xml",
+								success: function(xml){
+								var jsonString = $(xml).find("json").text();
+								if (jsonString.length != 0) {
+									var obj = JSON.parse(jsonString);
+									if (obj["success"] == 'success'){
+										var redirectUrl =  window.location.href;
+										window.location.reload();
+										//refreshParent();
+									} else if(obj["failed"] == 'failed') {
+										console.log(xml);
+									}
+								}
+							},
+							error: function (XMLHttpRequest, textStatus, errorThrown) {
+								//console.log("errored");
+							}	
+						});
+						}
+       
+	  var header_uri='/bio-rad/Catalog/ProductDetail/1503938961557.ajax';
+	 $(document).ready(function() {
+       				loadShoppingCart();
+					showUserLoginData();
+					$(".langLink").live('click',function (e) {
+						if( e.button == 0 ) {
+						isSaved = 'y';
+						var langSelected = $(this).attr("id");	
+						var action_uri = header_uri+"?languageCode=" + langSelected + "&action_value=true";
+						var localizedUrl = "/prd/" + langSelected.toLowerCase() + "/JP/adirect/biorad?ts=1";
+						var queryString = "&cmd=BRPortalActionNotify&locale=" + langSelected.toLowerCase() + "_JP&operation=LocaleUpdate";
+						var sterlingLangUpdateUrl = localizedUrl + queryString;
+                       $.ajax({
+							   "type": "POST",
+							   "url": sterlingLangUpdateUrl,
+							   "complete": function(xhrRequest, textStatus){
+										changeLanguage(action_uri, langSelected);
+								}							
+							});
+							}
+                       });
+                    });
+       $(document).ready(function (){
+        $('a[href*="/support/tutorials?ID=KVY62KE8Z"]').attr('href', '/'+sterlingLanguage+'-'+sterlingCountry.toLowerCase()+'/life-science-research/support/tutorials?ID=KVY62KE8Z');
+        $('a[href*="/support/tutorials?ID=KVY6V68UU"]').attr('href', '/'+sterlingLanguage+'-'+sterlingCountry.toLowerCase()+'/process-separations/support/tutorials?ID=KVY6V68UU');
+        $('a[href*="/support/tutorials?ID=KVY70TCZF"]').attr('href', '/'+sterlingLanguage+'-'+sterlingCountry.toLowerCase()+'/education/support/tutorials?ID=KVY70TCZF');
+
+        $('a[href*="/support/webinars?ID=KVY63C4VY"]').attr('href', '/'+sterlingLanguage+'-'+sterlingCountry.toLowerCase()+'/life-science-research/support/webinars?ID=KVY63C4VY');
+        $('a[href*="/support/webinars?ID=KVY6W0MNI"]').attr('href', '/'+sterlingLanguage+'-'+sterlingCountry.toLowerCase()+'/process-separations/support/webinars?ID=KVY6W0MNI');
+        $('a[href*="/support/webinars?ID=KVY71A7OP"]').attr('href', '/'+sterlingLanguage+'-'+sterlingCountry.toLowerCase()+'/education/support/webinars?ID=KVY71A7OP');
+       });
+	 </script> 
+ </div> 
+ <div class="iw_component" id="iw_comp1504687625848">
+   <!--ls:begin[component-1504687625848]--><script type="text/javascript" src="/evportal/framework/skins/evolution/minified/js/countryoverlay-min.js"></script><script type="text/javascript">
+		$(document).ready(function() {
+			
+			var forceCountryselectorParam = getUrlParameter('forceCountryselector');
+      		//URL Param in case of a cookie-less user accessing country specific domain (like bio-rad.co.jp)
+      		var countryParam = getUrlParameter('country');
+      		var langParam = getUrlParameter('lang');
+      		var forceParam = getUrlParameter('force');
+			
+			var cValue = getCookie("evCntryLang");
+			
+			if (forceCountryselectorParam === "on") {
+				openElementOverlay1("homeWrapper");
+                $("#overlay-shadow").unbind("click");
+			} else if (countryParam && langParam && forceParam) {
+				//console.log("A cookie-less user is accessing country specific domain with countryParam-> " + countryParam + " langParam-> " + langParam + " forceParam-> " + forceParam + " No need to show countryselector..");
+			} else if (!cValue) {
+				openElementOverlay1("homeWrapper");
+                $("#overlay-shadow").unbind("click");
+			} else {
+      			//console.log("evCntryLang cookie already set " + cValue + " No need to show countryselector..");
+			}
+		});
+		
+		function getUrlParameter(name) {
+			name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+			var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+			var results = regex.exec(location.search);
+			return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+		};
+
+		
+		function setCookie(cname,cvalue,exdays) {
+			var d = new Date();
+			d.setTime(d.getTime() + (exdays*24*60*60*1000));
+			var expires = "expires=" + d.toGMTString();
+			document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+		}
+
+		function getCookie(cname) {
+			var name = cname + "=";
+			var decodedCookie = decodeURIComponent(document.cookie);
+			var ca = decodedCookie.split(';');
+			for(var i = 0; i < ca.length; i++) {
+				var c = ca[i];
+				while (c.charAt(0) == ' ') {
+					c = c.substring(1);
+				}
+				if (c.indexOf(name) == 0) {
+					return c.substring(name.length, c.length);
+				}
+			}
+			return "";
+		}
+
+	</script><div id="shadow" class="shadowlong closeall">&nbsp;</div>
+<div id="homeWrapper" style="display:none;"><script type="text/javascript">
+	
+		var cs_uri='/bio-rad/General/Home/1504687625848.ajax';
+		
+		function submitCountry(countryName, countryCode, languageName, languageCode, region){
+			if(region != "" && region=="other")
+			{
+				var selectedCountryCode = $("#otherSelect option:selected").val();
+				var selectedCountryName = $("#otherSelect option:selected").text() ;
+				if(selectedCountryCode == 'select Country') { 
+					return false;
+				}
+				var selectedCountryCode = $("#otherSelect option:selected").val();
+				var selectedCountryName = $("#otherSelect option:selected").text() ;
+				var selectedLanguageCode = "en";
+				var selectedLanguageName = "English";
+				if(selectedCountryCode) {
+					var vals = selectedCountryCode.split("_");
+					selectedCountryCode = vals[0];
+					selectedLanguageCode = vals[1];
+					selectedLanguageName = vals[2];
+				}
+				if(selectedCountryCode == 'select Country') { 
+					return false;
+				}
+				$("#countryName").val(selectedCountryName);
+				$("#countryCode").val(selectedCountryCode);
+				$("#languageName").val(selectedLanguageName);
+				$("#languageCode").val(selectedLanguageCode);
+			}else{
+				$("#countryName").val(countryName);
+				$("#countryCode").val(countryCode);
+				$("#languageName").val(languageName);
+				$("#languageCode").val(languageCode);
+			}
+			var countryName = document.getElementById("countryName").value;
+			var countryCode = document.getElementById("countryCode").value;
+			var languageName = document.getElementById("languageName").value;
+			var languageCode = document.getElementById("languageCode").value;
+			
+			var completeUrl = cs_uri+"?country_name="+countryName+"&country_code="+countryCode+"&language_name="+languageName+"&language_code="+languageCode+"&action_value=true";
+			
+			var selectorForm = $("#selectorForm");
+			var serializedForm = selectorForm.serialize();
+			var action = completeUrl;
+			$("#countrytable").fadeOut("fast");
+			$("#csContentLoading").show("fast");
+			
+      	 	var localizedUrl = "/prd/" + languageCode.toLowerCase() + "/" + countryCode + "/adirect/biorad?ts=1";
+			var queryString = "&cmd=BRPortalActionNotify&locale=" + languageCode.toLowerCase() + "_" + countryCode + "&operation=LocaleUpdate";
+			var sterlingLocaleUpdateUrl = localizedUrl + queryString;
+       
+		   $.ajax({
+				   "type": "POST",
+				   "url": sterlingLocaleUpdateUrl,
+				   "complete": function(xhrRequest, textStatus){
+							updateLocale(action);
+					}							
+				});
+       
+       		function updateLocale(action) {
+			$.ajax({
+					type: "GET",
+					url: action,
+					data: serializedForm,
+					dataType:"xml",
+					success: function(xml){
+						var jsonString = $(xml).find("json").text();
+						if (jsonString.length !=0) {
+							var obj = JSON.parse(jsonString);
+							if (obj["success"] == 'success'){
+								window.location.reload();
+							} else if(obj["success"] == 'failed') {
+							$("#CountrySelLoading").fadeOut("fast");
+							$("#countrytable").show("fast");
+							}
+						}
+					},
+					error: function (XMLHttpRequest, textStatus, errorThrown) {
+						$("#csContentLoading").fadeOut("fast");
+					}
+			 });
+			}
+		}	
+	
+	</script><script type="text/javascript">
+		window.onload = function () {
+		var loadTime = window.performance.timing.domContentLoadedEventEnd - window.performance.timing.navigationStart; 
+		}
+	</script><div id="wrapper">
+      <div class="country_select">
+         <div id="headleft"><img width="100" height="27" border="0" alt="Bio-Rad" src="/evportal/framework/skins/evolution/images/biorad_logo.gif"></div>
+      </div>
+      <div id="contentcountry">
+         <div id="contentcountrytop"></div>
+         <div id="contentcountrymid">
+            <div class="helpemail">Need help?&nbsp;
+               				<a href="mailto:lsg_websupport@bio-rad.com">Email us</a></div>
+            <div id="contentcountrymidmap">
+               <h2>Welcome to Bio-Rad.com</h2>
+               <p><script type="text/javascript">$(document).ready(function(){$('.countrylist td a:contains("Brazil")').text('Brasil');$('.countrylist td a:contains("Mexico")').text('México');$('.countrylist td a:contains("Austria")').text('Österreich');$('.countrylist td a:contains("Belgium")').text('België/Belgique/Belgien');$('.countrylist td a:contains("Denmark")').text('Danmark');$('.countrylist td a:contains("Finland")').text('Suomi');$('.countrylist td a:contains("Germany")').text('Deutschland');$('.countrylist td a:contains("Italy")').text('Italia');$('.countrylist td a:contains("Norway")').text('Norge');$('.countrylist td a:contains("Russian Federation")').text('Россия');$('.countrylist td a:contains("Spain")').text('España');$('.countrylist td a:contains("Sweden")').text('Sverige');$('.countrylist td a:contains("Switzerland")').text('Schweiz/Suisse');$('.countrylist td a:contains("The Netherlands")').text('Nederland');$('.countrylist td a:contains("Japan")').text('日本');$('.countrylist td a:contains("China")').text('中国');$('.countrylist td a:contains("Korea")').text('한국');});</script>Please select your country below to view the products, information, and services available in your location, including news, promotions, events, and more. </p><br clear="all"><div id="csContentLoading" align="center" valign="center" style="margin-top:100px;display:none"><img src="/evportal/framework/skins/evolution/images/loading.gif" alt="loading...">Bringing you a world of innovation...<br><br></div>
+               <div id="countrytable">
+                  <table class="countrylist">
+                     <tr class="countrylistheader">
+                        <td class="cornertopleft">
+                           <h3>The Americas</h3>
+                        </td>
+                        <td class="headermid">
+                           <h3>Europe, Middle East, Africa</h3>
+                        </td>
+                        <td class="cornertopright">
+                           <h3><script type="text/javascript">$(document).ready(function(){if ($.browser.msie) {$('.cornertopright').css({"background-position":"-475px -1616px"});} else { $('.cornertopright').css({"background-position":"-479px -1616px"});}});</script>Asia Pacific</h3>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td class="countrylistmidleft"><a href="javascript:void(0);" title="" onclick="submitCountry('Brazil','BR','Portuguese','PT');return false;">Brazil</a><br><a href="javascript:void(0);" title="" onclick="submitCountry('Canada','CA','English','EN');return false;">Canada</a><br><a href="javascript:void(0);" title="" onclick="submitCountry('Mexico','MX','Espanol','ES');return false;">Mexico</a><br><a href="javascript:void(0);" title="" onclick="submitCountry('USA','US','English','EN');return false;">USA</a><br></td>
+                        <td class="countrylistmid">
+                           <div class="countrycolum1"><a href="javascript:void(0);" title="" onclick="submitCountry('Austria','AT','Deutsch','DE');">Austria</a><br><a href="javascript:void(0);" title="" onclick="submitCountry('Belgium','BE','English','EN');">Belgium</a><br><a href="javascript:void(0);" title="" onclick="submitCountry('Denmark','DK','English','EN');">Denmark</a><br><a href="javascript:void(0);" title="" onclick="submitCountry('Finland','FI','English','EN');">Finland</a><br><a href="javascript:void(0);" title="" onclick="submitCountry('France','FR','Français','FR');">France</a><br><a href="javascript:void(0);" title="" onclick="submitCountry('Germany','DE','Deutsch','DE');">Germany</a><br><a href="javascript:void(0);" title="" onclick="submitCountry('Iceland','IS','English','EN');">Iceland</a><br><a href="javascript:void(0);" title="" onclick="submitCountry('Israel','IL','English','EN');">Israel</a><br><a href="javascript:void(0);" title="" onclick="submitCountry('Italy','IT','Italienisch','IT');">Italy</a><br></div>
+                           <div class="countrycolum2"><a href="javascript:void(0);" title="" onclick="submitCountry('Luxembourg','LU','English','EN');">Luxembourg</a><br><a href="javascript:void(0);" title="" onclick="submitCountry('Norway','NO','English','EN');">Norway</a><br><a href="javascript:void(0);" title="" onclick="submitCountry('Portugal','PT','English','EN');">Portugal</a><br><a href="javascript:void(0);" title="" onclick="submitCountry('Russian Federation','RU','русский','RU');">Russian Federation</a><br><a href="javascript:void(0);" title="" onclick="submitCountry('Spain','ES','Espanol','ES');">Spain</a><br><a href="javascript:void(0);" title="" onclick="submitCountry('Sweden','SE','English','EN');">Sweden</a><br><a href="javascript:void(0);" title="" onclick="submitCountry('Switzerland','CH','English','EN');">Switzerland</a><br><a href="javascript:void(0);" title="" onclick="submitCountry('The Netherlands','NL','English','EN');">The Netherlands</a><br><a href="javascript:void(0);" title="" onclick="submitCountry('United Kingdom','UK','English','EN');">United Kingdom</a><br></div>
+                        </td>
+                        <td class="countrylistmidright"><a href="javascript:void(0);" class="countryLink" title="" onclick="submitCountry('Australia','AU','English','EN');">Australia</a><br><a href="javascript:void(0);" class="countryLink" title="" onclick="submitCountry('China','CN','汉语','ZH');">China</a><br><a href="javascript:void(0);" class="countryLink" title="" onclick="submitCountry('India','IN','English','EN');">India</a><br><a href="javascript:void(0);" class="countryLink" title="" onclick="submitCountry('Japan','JP','日本語','JA');">Japan</a><br><a href="javascript:void(0);" class="countryLink" title="" onclick="submitCountry('Korea','KR','Korean','KO');">Korea</a><br><a href="javascript:void(0);" class="countryLink" title="" onclick="submitCountry('New Zealand','NZ','English','EN');">New Zealand</a><br><a href="javascript:void(0);" class="countryLink" title="" onclick="submitCountry('Singapore','SG','English','EN');">Singapore</a><br></td>
+                     </tr>
+                     <tr>
+                        <td colspan="3" class="selectCountryDropDown">
+                           <table class="selectCountryTableDropdown">
+                              <tr class="countrylistbottom">
+                                 <td class="cornerbotleft"></td>
+                                 <td class="bottom" align="center">
+                                    <form name="selectorForm" id="selectorForm" action="/bio-rad/General/Home.page?submit=true&amp;componentID=1504687625848" method="post"><input type="hidden" id="countryName" name="" value=""><input type="hidden" id="countryCode" name="" value=""><input type="hidden" id="languageCode" name="" value=""><input type="hidden" id="languageName" name="" value=""><strong>Other countries: </strong>&nbsp;&nbsp;
+                                       										<input type="hidden" name="wlw-select_key:OldValue" value="true"><select name="wlw-select_key:" id="otherSelect" onchange="submitCountry('','','','','other');">
+                                          <option value="select Country" selected>Select one</option>
+                                          <option value="AL_EN_English">Albania</option>
+                                          <option value="DZ_EN_English">Algeria</option>
+                                          <option value="AS_EN_English">American Samoa</option>
+                                          <option value="AI_EN_English">Anguilla</option>
+                                          <option value="AR_ES_Espanol">Argentina</option>
+                                          <option value="AM_EN_English">Armenia</option>
+                                          <option value="AW_EN_English">Aruba</option>
+                                          <option value="AZ_EN_English">Azerbaijan</option>
+                                          <option value="BH_EN_English">Bahrain</option>
+                                          <option value="BD_EN_English">Bangladesh</option>
+                                          <option value="BO_ES_Espanol">Bolivia</option>
+                                          <option value="BA_EN_English">Bosnia and Herzegovina</option>
+                                          <option value="BW_EN_English">Botswana</option>
+                                          <option value="BN_EN_English">Brunei Darussalam</option>
+                                          <option value="BG_EN_English">Bulgaria</option>
+                                          <option value="BF_EN_English">Burkina Faso</option>
+                                          <option value="KH_EN_English">Cambodia</option>
+                                          <option value="CM_EN_English">Cameroon</option>
+                                          <option value="CL_ES_Espanol">Chile</option>
+                                          <option value="CO_ES_Espanol">Colombia</option>
+                                          <option value="CR_ES_Espanol">Costa Rica</option>
+                                          <option value="HR_EN_English">Croatia (Hrvatska)</option>
+                                          <option value="CY_EN_English">Cyprus</option>
+                                          <option value="CZ_EN_English">Czech Republic</option>
+                                          <option value="DO_ES_Espanol">Dominican Republic</option>
+                                          <option value="EC_ES_Espanol">Ecuador</option>
+                                          <option value="EG_EN_English">Egypt</option>
+                                          <option value="SV_ES_Espanol">El Salvador</option>
+                                          <option value="EE_EN_English">Estonia</option>
+                                          <option value="ET_EN_English">Ethiopia</option>
+                                          <option value="FO_EN_English">Faeroe Islands</option>
+                                          <option value="GF_EN_English">French Guiana</option>
+                                          <option value="PF_EN_English">French Polynesia</option>
+                                          <option value="GA_EN_English">Gabon</option>
+                                          <option value="GE_EN_English">Georgia</option>
+                                          <option value="GH_EN_English">Ghana</option>
+                                          <option value="GR_EN_English">Greece</option>
+                                          <option value="GP_EN_English">Guadeloupe</option>
+                                          <option value="GU_EN_English">Guam</option>
+                                          <option value="GT_ES_Espanol">Guatemala</option>
+                                          <option value="HT_EN_English">Haiti</option>
+                                          <option value="HN_ES_Espanol">Honduras</option>
+                                          <option value="HK_EN_English">Hong Kong</option>
+                                          <option value="HU_EN_English">Hungary</option>
+                                          <option value="ID_EN_English">Indonesia</option>
+                                          <option value="IE_EN_English">Ireland</option>
+                                          <option value="JM_EN_English">Jamaica</option>
+                                          <option value="JO_EN_English">Jordan</option>
+                                          <option value="KZ_EN_English">Kazakhstan</option>
+                                          <option value="KE_EN_English">Kenya</option>
+                                          <option value="XK_EN_English">Kosovo</option>
+                                          <option value="KW_EN_English">Kuwait</option>
+                                          <option value="LV_EN_English">Latvia</option>
+                                          <option value="LB_EN_English">Lebanon</option>
+                                          <option value="LI_EN_English">Liechtenstein</option>
+                                          <option value="LT_EN_English">Lithuania</option>
+                                          <option value="MO_EN_English">Macau</option>
+                                          <option value="MK_EN_English">Macedonia (FYR)</option>
+                                          <option value="MG_EN_English">Madagascar</option>
+                                          <option value="MY_EN_English">Malaysia</option>
+                                          <option value="ML_EN_English">Mali</option>
+                                          <option value="MT_EN_English">Malta</option>
+                                          <option value="MQ_EN_English">Martinique</option>
+                                          <option value="MU_EN_English">Mauritius</option>
+                                          <option value="FM_EN_English">Micronesia (Federated States of)</option>
+                                          <option value="MD_EN_English">Moldova (Republic of)</option>
+                                          <option value="MS_EN_English">Montserrat</option>
+                                          <option value="MA_EN_English">Morocco</option>
+                                          <option value="NP_EN_English">Nepal</option>
+                                          <option value="NI_ES_Espanol">Nicaragua</option>
+                                          <option value="NG_EN_English">Nigeria</option>
+                                          <option value="OM_EN_English">Oman</option>
+                                          <option value="PK_EN_English">Pakistan</option>
+                                          <option value="PW_EN_English">Palau</option>
+                                          <option value="PS_EN_English">Palestinian Territory (Occupied)</option>
+                                          <option value="PA_ES_Espanol">Panama</option>
+                                          <option value="PG_EN_English">Papua New Guinea</option>
+                                          <option value="PY_ES_Espanol">Paraguay</option>
+                                          <option value="PE_ES_Espanol">Peru</option>
+                                          <option value="PH_EN_English">Philippines</option>
+                                          <option value="PL_EN_English">Poland</option>
+                                          <option value="PR_EN_English">Puerto Rico</option>
+                                          <option value="QA_EN_English">Qatar</option>
+                                          <option value="RO_EN_English">Romania</option>
+                                          <option value="ST_EN_English">Sao Tome and Principe</option>
+                                          <option value="SA_EN_English">Saudi Arabia</option>
+                                          <option value="SN_EN_English">Senegal</option>
+                                          <option value="RS_EN_English">Serbia</option>
+                                          <option value="SK_EN_English">Slovakia</option>
+                                          <option value="SI_EN_English">Slovenia</option>
+                                          <option value="SB_EN_English">Solomon Islands</option>
+                                          <option value="ZA_EN_English">South Africa</option>
+                                          <option value="LK_EN_English">Sri Lanka</option>
+                                          <option value="TW_EN_English">Taiwan</option>
+                                          <option value="TZ_EN_English">Tanzania (United Republic of )</option>
+                                          <option value="TH_EN_English">Thailand</option>
+                                          <option value="TG_EN_English">Togo</option>
+                                          <option value="TO_EN_English">Tonga</option>
+                                          <option value="TT_EN_English">Trinidad and Tobago</option>
+                                          <option value="TN_EN_English">Tunisia</option>
+                                          <option value="TR_EN_English">Turkey</option>
+                                          <option value="UG_EN_English">Uganda</option>
+                                          <option value="UA_EN_English">Ukraine</option>
+                                          <option value="AE_EN_English">United Arab Emirates</option>
+                                          <option value="UY_ES_Espanol">Uruguay</option>
+                                          <option value="UZ_EN_English">Uzbekistan</option>
+                                          <option value="VU_EN_English">Vanuatu</option>
+                                          <option value="VA_EN_English">Vatican City (Holy See)</option>
+                                          <option value="VE_ES_Espanol">Venezuela</option>
+                                          <option value="EH_EN_English">Western Sahara</option>
+                                          <option value="YE_EN_English">Yemen</option></select></form>
+                                 </td>
+                                 <td class="cornerbotright"></td>
+                              </tr>
+                           </table>
+                        </td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+         </div>
+         <div id="contentcountrybot"></div>
+      </div>
+      <div id="footer"><span>Copyright &copy; 2018 Bio-Rad Laboratories, Inc. All rights reserved.</span></div>
+   </div>
+</div><!--ls:end[component-1504687625848]--> 
+ </div> 
+ <!--TOP NAV=--> 
+ <div class="iw_component" id="iw_comp1503938962057">
+   <div id="topMenuContent">
+   <div id="topMenuContent">
+      <div id="topnav">
+         <div class="demo-container">
+            <div class="white">
+               <ul class="mega-menu" id="mega-menu-9"><input type="hidden" id="link_1" value="ライフサイエンス"><li class="leftAlignedLSR"><a class="dc-mega" onclick="null" href="/ja-jp/life-science-research?ID=1100" id="mega-menu-a-LSR"><span onmousedown="callwt(1)">ライフサイエンス</span></a><ul class="sub" style="display: none;"><input type="hidden" id="link_1" value="ライフサイエンス &gt; 製品"><li class="mega-unit mega-hdr"><a onclick="null" class="mega-hdr-a" style="height: 15px;" href="/ja-jp/life-science-research/products?ID=2"><span onmousedown="callwt(4)"><strong>製品</strong></span></a><ul class="mainProducts"><input type="hidden" id="link_3" value="ライフサイエンス &gt; 製品 &gt; 核酸増幅 | PCR"><li><a onclick="null" href="/ja-jp/category/pcr-amplification?ID=2d11dcf8-2dbe-47a5-a1de-8315abd3c17e"><span onmousedown="callwt(3)">核酸増幅 | PCR</span></a></li><input type="hidden" id="link_4" value="ライフサイエンス &gt; 製品 &gt; 抗体"><li><a onclick="null" href="/ja-jp/category/antibodies?ID=N8TRV715"><span onmousedown="callwt(4)">抗体</span></a></li><input type="hidden" id="link_5" value="ライフサイエンス &gt; 製品 &gt; フローサイトメトリー"><li><a onclick="null" href="/ja-jp/category/flow-cytometry?ID=MC3PCU15"><span onmousedown="callwt(5)">フローサイトメトリー</span></a></li><input type="hidden" id="link_6" value="ライフサイエンス &gt; 製品 &gt; トランスフェクション"><li><a onclick="null" href="/ja-jp/category/transfection?ID=20282dd4-fcb0-45fe-b84e-ffbbd6e2d186"><span onmousedown="callwt(6)">トランスフェクション</span></a></li><input type="hidden" id="link_7" value="ライフサイエンス &gt; 製品 &gt; 電気泳動およびブロッティング"><li><a onclick="null" href="/ja-jp/category/electrophoresis-blotting?ID=1616a788-c555-4b35-a33d-2735071ebd65"><span onmousedown="callwt(7)">電気泳動およびブロッティング</span></a></li><input type="hidden" id="link_8" value="ライフサイエンス &gt; 製品 &gt; イメージングシステムおよびソフトウェア"><li><a onclick="null" href="/ja-jp/category/imaging-systems-software?ID=f97d1fa1-16ff-4c73-9eae-ef74be3a3f95"><span onmousedown="callwt(8)">イメージングシステムおよびソフトウェア</span></a></li>
+                           </ul>
+                        </li>
+                        <li class="mega-unit mega-hdr">
+                           <ul>
+                              <li>&nbsp;</li>
+                              <li>&nbsp;</li><input type="hidden" id="link_9" value="ライフサイエンス &gt; 製品 &gt; Bio-Plex マルチプレックスシステム"><li><a onclick="null" href="/ja-jp/category/bio-plex-multiplex-immunoassay-system?ID=85824182-db2a-4c6e-ac82-4e07dd9ab904"><span onmousedown="callwt(9)">Bio-Plex マルチプレックスシステム</span></a></li><input type="hidden" id="link_10" value="ライフサイエンス &gt; 製品 &gt; マイクロプレートシステム"><li><a onclick="null" href="/ja-jp/category/microplate-systems?ID=cfe1c3c0-896d-4112-b3ec-bf6761ede70d"><span onmousedown="callwt(10)">マイクロプレートシステム</span></a></li><input type="hidden" id="link_11" value="ライフサイエンス &gt; 製品 &gt; セルイメージング"><li><a onclick="null" href="/ja-jp/category/cell-imaging?ID=N74CB015"><span onmousedown="callwt(11)">セルイメージング</span></a></li><input type="hidden" id="link_12" value="ライフサイエンス &gt; 製品 &gt; セルカウンティング"><li><a onclick="null" href="/ja-jp/category/cell-counting?ID=LZWULQ15"><span onmousedown="callwt(12)">セルカウンティング</span></a></li><input type="hidden" id="link_13" value="ライフサイエンス &gt; 製品 &gt; リキッドハンドリング＆ピペット関連"><li><a onclick="null" href="/ja-jp/category/liquid-handling-pipetting?ID=17469043-fcbe-4b1b-a799-21108ade60e7"><span onmousedown="callwt(13)">リキッドハンドリング＆ピペット関連</span></a></li><input type="hidden" id="link_14" value="ライフサイエンス &gt; 製品 &gt; クロマトグラフィー"><li><a onclick="null" href="/ja-jp/category/chromatography?ID=53455e4b-ca26-4cf4-96c7-827a9c6967ac"><span onmousedown="callwt(14)">クロマトグラフィー</span></a></li>
+                           </ul>
+                        </li>
+                        <li class="mega-unit mega-hdr">
+                           <ul>
+                              <li>&nbsp;</li>
+                              <li>&nbsp;</li><input type="hidden" id="link_15" value="ライフサイエンス &gt; 製品 &gt; 核酸サンプル調製および精製"><li><a onclick="null" href="/ja-jp/category/nucleic-acid-extraction-purification?ID=5dcc6533-68a3-44c3-9502-938fb84d9fc6"><span onmousedown="callwt(15)">核酸サンプル調製および精製</span></a></li><input type="hidden" id="link_16" value="ライフサイエンス &gt; 製品 &gt; タンパク質サンプル調製"><li><a onclick="null" href="/ja-jp/category/protein-sample-preparation?ID=9a9a7c87-68c1-41d3-9eaf-014f974001a1"><span onmousedown="callwt(16)">タンパク質サンプル調製</span></a></li><input type="hidden" id="link_17" value="ライフサイエンス &gt; 製品 &gt; 分子間相互作用分析"><li><a onclick="null" href="/ja-jp/category/protein-interaction-analysis?ID=cfcf89c2-a3c9-454d-857c-4bb2f156f924"><span onmousedown="callwt(17)">分子間相互作用分析</span></a></li><input type="hidden" id="link_18" value="ライフサイエンス &gt; 製品 &gt; サンプル定量"><li><a onclick="null" href="/ja-jp/category/sample-quantitation?ID=43e06ea5-f681-4d84-abb8-e81295ad2c28"><span onmousedown="callwt(18)">サンプル定量</span></a></li>
+                           </ul>
+                        </li>
+                        <li class="mega-unit mega-hdr last">
+                           <ul class="someDivider">
+                              <li><a onclick="null" href="/ja-jp/life-science-research/applications-technologies?ID=1120"><span onmousedown="callwt(21)"><strong>アプリケーション & テクノロジー</strong></span></a></li><input type="hidden" id="link_21" value="ライフサイエンス &gt; アプリケーション &amp; テクノロジー"><li><a onclick="null" href="/ja-jp/life-science-research/promotions?ID=1130"><span onmousedown="callwt(23)"><strong>プロモーション</strong></span></a></li><input type="hidden" id="link_23" value="ライフサイエンス &gt; プロモーション"><li><a onclick="null" href="/ja-jp/life-science-research/news-events?ID=1135"><span onmousedown="callwt(25)"><strong>ニュース＆イベント</strong></span></a></li><input type="hidden" id="link_25" value="ライフサイエンス &gt; ニュース＆イベント"><li><a onclick="null" href="/ja-jp/life-science-research/support?ID=1140"><span onmousedown="callwt(27)"><strong>サポート</strong></span></a><ul class="mainProducts1"><input type="hidden" id="link_28" value="ライフサイエンス &gt; サポート &gt; Purchasing and Service Programs"><li><a onclick="null" href="/ja-jp/life-science-research/support/purchasing-service-programs?ID=LUL9IQ4VY"><span onmousedown="callwt(28)">Purchasing and Service Programs</span></a></li><input type="hidden" id="link_29" value="ライフサイエンス &gt; サポート &gt; チュートリアル"><li><a onclick="null" href="/ja-jp/support/tutorials?ID=KVY62KE8Z"><span onmousedown="callwt(29)">チュートリアル</span></a></li><input type="hidden" id="link_30" value="ライフサイエンス &gt; サポート &gt; オンラインセミナー"><li><a onclick="null" href="/ja-jp/support/webinars?ID=KVY63C4VY"><span onmousedown="callwt(30)">オンラインセミナー</span></a></li><input type="hidden" id="link_31" value="ライフサイエンス &gt; サポート &gt; 試験成績書"><li><a onclick="null" href="/ja-jp/life-science-research/support/certificate-of-analysis?ID=KVY63TKG4"><span onmousedown="callwt(31)">試験成績書</span></a></li><input type="hidden" id="link_32" value="ライフサイエンス &gt; サポート &gt; Literature Library"><li><a onclick="null" href="/ja-jp/literature-library?ID=MDEBZT15"><span onmousedown="callwt(32)">Literature Library</span></a></li>
+                                 </ul>
+                              </li><input type="hidden" id="link_27" value="ライフサイエンス &gt; サポート"></ul>
+                        </li>
+                     </ul>
+                  </li><input type="hidden" id="link_33" value="診断薬"><li class="leftAlignedCDG"><a class="dc-mega" onclick="null" href="/ja-jp/clinical-diagnostics?ID=1200" id="mega-menu-a-CDG"><span onmousedown="callwt(33)">診断薬</span></a><ul class="sub" style="display: none;"><input type="hidden" id="link_33" value="診断薬 &gt; Products"><li class="mega-unit mega-hdr"><a onclick="null" class="mega-hdr-a" style="height: 15px;" href="/ja-jp/clinical-diagnostics/products?ID=1215"><span onmousedown="callwt(36)"><strong>Products</strong></span></a><ul class="mainProducts"><input type="hidden" id="link_30" value="診断薬 &gt; Products &gt; 自己免疫"><li><a onclick="null" href="/ja-jp/category/autoimmune?ID=1a1ffd2e-c4cf-4752-83a8-4b93663b4a15"><span onmousedown="callwt(30)">自己免疫</span></a></li><input type="hidden" id="link_31" value="診断薬 &gt; Products &gt; BioPlex<sup&gt;&amp;reg;</sup&gt; 2200 マルチプレックス検査"><li><a onclick="null" href="/ja-jp/category/bioplex-2200-multiplex-testing?ID=a82cd166-67ca-4696-91a8-a98a550936f2"><span onmousedown="callwt(31)">BioPlex<sup>&reg;</sup> 2200 マルチプレックス検査</span></a></li><input type="hidden" id="link_32" value="診断薬 &gt; Products &gt; 血液ウイルス"><li><a onclick="null" href="/ja-jp/category/blood-virus?ID=2f300872-be91-4e63-9f42-26525bdd5e4a"><span onmousedown="callwt(32)">血液ウイルス</span></a></li><input type="hidden" id="link_33" value="診断薬 &gt; Products &gt; 糖尿病検査"><li><a onclick="null" href="/ja-jp/category/diabetes-testing?ID=b26016d2-10a9-4020-bb12-e024c2c4fb17"><span onmousedown="callwt(33)">糖尿病検査</span></a></li><input type="hidden" id="link_34" value="診断薬 &gt; Products &gt; 異常ヘモグロビン"><li><a onclick="null" href="/ja-jp/category/hemoglobinopathies?ID=db0ccc31-1bd2-4539-b6c0-f5f08f4153c4"><span onmousedown="callwt(34)">異常ヘモグロビン</span></a></li><input type="hidden" id="link_35" value="診断薬 &gt; Products &gt; 免疫血液学"><li><a onclick="null" href="/ja-jp/category/immunohematology?ID=KVSPOY15"><span onmousedown="callwt(35)">免疫血液学</span></a></li>
+                           </ul>
+                        </li>
+                        <li class="mega-unit mega-hdr">
+                           <ul>
+                              <li>&nbsp;</li>
+                              <li>&nbsp;</li><input type="hidden" id="link_36" value="診断薬 &gt; Products &gt; 微生物学"><li><a onclick="null" href="/ja-jp/category/bacteriology-mycology?ID=f55b5439-ab8b-4e5f-962a-1fe6fbefd010"><span onmousedown="callwt(36)">微生物学</span></a></li><input type="hidden" id="link_37" value="診断薬 &gt; Products &gt; 精度管理用コントロール"><li><a onclick="null" href="/ja-jp/category/quality-control?ID=b11f022f-7ced-4bf0-aaaa-dcdc8affc787"><span onmousedown="callwt(37)">精度管理用コントロール</span></a></li><input type="hidden" id="link_38" value="診断薬 &gt; Products &gt; 特殊化学"><li><a onclick="null" href="/ja-jp/category/special-chemistry?ID=95cde388-768f-44d0-b94e-b22da247fd84"><span onmousedown="callwt(38)">特殊化学</span></a></li><input type="hidden" id="link_39" value="診断薬 &gt; Products &gt; 機器"><li><a onclick="null" href="/ja-jp/category/instrumentation?ID=8117f7dc-d739-42fe-8f67-d311bd001654"><span onmousedown="callwt(39)">機器</span></a></li><input type="hidden" id="link_40" value="診断薬 &gt; Products &gt; Remote Monitoring &amp; Support"><li><a onclick="null" href="/ja-jp/category/remote-monitoring-support?ID=MZQ28F15"><span onmousedown="callwt(40)">Remote Monitoring & Support</span></a></li>
+                           </ul>
+                        </li>
+                        <li class="mega-unit mega-hdr last">
+                           <ul class="someDivider">
+                              <li><a onclick="null" href="/ja-jp/clinical-diagnostics/news-events?ID=1235"><span onmousedown="callwt(48)"><strong>News & Events</strong></span></a></li><input type="hidden" id="link_48" value="診断薬 &gt; News &amp; Events"><li class="leafsupport"><a onclick="null" class="leafsupport" href="/ja-jp/clinical-diagnostics/support?ID=1240"><span onmousedown="callwt(50)"><strong>Support</strong></span></a><ul class="mainProducts1"><input type="hidden" id="link_51" value="診断薬 &gt; Support &gt; 試験成績書"><li><a onclick="null" href="/ja-jp/clinical-diagnostics/support/certificate-of-analysis?ID=KVY6R1ESH"><span onmousedown="callwt(51)">試験成績書</span></a></li><input type="hidden" id="link_52" value="診断薬 &gt; Support &gt; Literature Library"><li><a onclick="null" href="/ja-jp/literature-library?ID=MDECBGC4S"><span onmousedown="callwt(52)">Literature Library</span></a></li>
+                                 </ul>
+                              </li><input type="hidden" id="link_50" value="診断薬 &gt; Support"></ul>
+                        </li>
+                     </ul>
+                  </li><input type="hidden" id="link_53" value="スペクトロスコピー"><li class="leftAlignedINF"><a class="dc-mega" onclick="null" href="/ja-jp/spectroscopy?ID=1300" id="mega-menu-a-INF"><span onmousedown="callwt(53)">スペクトロスコピー</span></a><ul class="sub" style="display: none;"><input type="hidden" id="link_53" value="スペクトロスコピー &gt; 製品"><li class="mega-unit mega-hdr"><a onclick="null" class="mega-hdr-a" style="height: 15px;" href="/ja-jp/spectroscopy/products?ID=1315"><span onmousedown="callwt(56)"><strong>製品</strong></span></a><ul class="mainProducts"><input type="hidden" id="link_47" value="スペクトロスコピー &gt; 製品 &gt; スペクトルデータベース"><li><a onclick="null" href="/ja-jp/category/spectral-databases?ID=N0ZXK415"><span onmousedown="callwt(47)">スペクトルデータベース</span></a></li><input type="hidden" id="link_48" value="スペクトロスコピー &gt; 製品 &gt; スペクトル検索ソフトウェア"><li><a onclick="null" href="/ja-jp/category/spectroscopy-software?ID=N19OA0E8Z"><span onmousedown="callwt(48)">スペクトル検索ソフトウェア</span></a></li><input type="hidden" id="link_49" value="スペクトロスコピー &gt; 製品 &gt; ケミストリーソフトウェア"><li><a onclick="null" href="/ja-jp/category/chemistry-software?ID=P7E7WSTU86LJ"><span onmousedown="callwt(49)">ケミストリーソフトウェア</span></a></li><input type="hidden" id="link_50" value="スペクトロスコピー &gt; 製品 &gt; 教育機関向け製品"><li><a onclick="null" href="/ja-jp/category/spectroscopy-for-schools?ID=NH26GUKG4"><span onmousedown="callwt(50)">教育機関向け製品</span></a></li>
+                           </ul>
+                        </li>
+                        <li class="mega-unit mega-hdr last">
+                           <ul class="someDivider">
+                              <li><a onclick="null" href="/ja-jp/spectroscopy/news-events?ID=1335"><span onmousedown="callwt(61)"><strong>ニュース＆イベント</strong></span></a></li><input type="hidden" id="link_61" value="スペクトロスコピー &gt; ニュース＆イベント"><li><a onclick="null" href="/ja-jp/spectroscopy/support?ID=1340"><span onmousedown="callwt(63)"><strong>サポート</strong></span></a></li><input type="hidden" id="link_63" value="スペクトロスコピー &gt; サポート"></ul>
+                        </li>
+                     </ul>
+                  </li><input type="hidden" id="link_64" value="プロセスセパレーション"><li class="leftAlignedPSD"><a class="dc-mega" onclick="null" href="/ja-jp/process-separations?ID=1400" id="mega-menu-a-PSD"><span onmousedown="callwt(64)">プロセスセパレーション</span></a><ul class="sub" style="display: none;"><input type="hidden" id="link_64" value="プロセスセパレーション &gt; 製品"><li class="mega-unit mega-hdr"><a onclick="null" class="mega-hdr-a" style="height: 15px;" href="/ja-jp/process-separations/products?ID=1415"><span onmousedown="callwt(67)"><strong>製品</strong></span></a><ul class="mainProducts"><input type="hidden" id="link_55" value="プロセスセパレーション &gt; 製品 &gt; イオン交換担体"><li><a onclick="null" href="/ja-jp/category/ion-exchange-resins?ID=788e7571-32fc-4805-a251-cf67d931148a"><span onmousedown="callwt(55)">イオン交換担体</span></a></li><input type="hidden" id="link_56" value="プロセスセパレーション &gt; 製品 &gt; ミックスモード担体"><li><a onclick="null" href="/ja-jp/category/mixed-mode-resins?ID=256c09fd-5217-4d81-9356-0cd0fd13f336"><span onmousedown="callwt(56)">ミックスモード担体</span></a></li><input type="hidden" id="link_57" value="プロセスセパレーション &gt; 製品 &gt; アフィニティー担体"><li><a onclick="null" href="/ja-jp/category/affinity-resins?ID=b2799d7b-bef5-4e10-9266-22043ea43c7a"><span onmousedown="callwt(57)">アフィニティー担体</span></a></li><input type="hidden" id="link_58" value="プロセスセパレーション &gt; 製品 &gt; 疎水性相互作用クロマトグラフィー担体"><li><a onclick="null" href="/ja-jp/category/hydrophobic-interaction-chromatography-resins?ID=15377fd6-1142-4a14-8ce0-9ae70f6361c2"><span onmousedown="callwt(58)">疎水性相互作用クロマトグラフィー担体</span></a></li><input type="hidden" id="link_59" value="プロセスセパレーション &gt; 製品 &gt; ゲルろ過担体"><li><a onclick="null" href="/ja-jp/category/size-exclusion-resins?ID=fa709b0d-a42a-4645-8481-acfa8e6d7485"><span onmousedown="callwt(59)">ゲルろ過担体</span></a></li><input type="hidden" id="link_60" value="プロセスセパレーション &gt; 製品 &gt; クロマトグラフィー担体サンプリング"><li><a onclick="null" href="/ja-jp/category/chromatography-resin-screening-tools?ID=cae5bbc9-1f1f-446b-8805-a7e19438162e"><span onmousedown="callwt(60)">クロマトグラフィー担体サンプリング</span></a></li>
+                           </ul>
+                        </li>
+                        <li class="mega-unit mega-hdr">
+                           <ul>
+                              <li>&nbsp;</li>
+                              <li>&nbsp;</li><input type="hidden" id="link_61" value="プロセスセパレーション &gt; 製品 &gt; Process Chromatography Resources"><li><a onclick="null" href="/ja-jp/category/process-chromatography-resources?ID=NY30I415"><span onmousedown="callwt(61)">Process Chromatography Resources</span></a></li>
+                           </ul>
+                        </li>
+                        <li class="mega-unit mega-hdr last">
+                           <ul class="someDivider">
+                              <li><a onclick="null" href="/ja-jp/process-separations/news-events?ID=1435"><span onmousedown="callwt(75)"><strong>ニュース＆イベント</strong></span></a></li><input type="hidden" id="link_75" value="プロセスセパレーション &gt; ニュース＆イベント"><li><a onclick="null" href="/ja-jp/process-separations/support?ID=1440"><span onmousedown="callwt(77)"><strong>サポート</strong></span></a><ul class="mainProducts1"><input type="hidden" id="link_78" value="プロセスセパレーション &gt; サポート &gt; Tutorials"><li><a onclick="null" href="/ja-jp/support/tutorials?ID=KVY6V68UU"><span onmousedown="callwt(78)">Tutorials</span></a></li><input type="hidden" id="link_79" value="プロセスセパレーション &gt; サポート &gt; Webinars"><li><a onclick="null" href="/ja-jp/support/webinars?ID=KVY6W0MNI"><span onmousedown="callwt(79)">Webinars</span></a></li><input type="hidden" id="link_80" value="プロセスセパレーション &gt; サポート &gt; Certificate of Analysis"><li><a onclick="null" href="/ja-jp/process-separations/support/certificate-of-analysis?ID=KVY6UGC4S"><span onmousedown="callwt(80)">Certificate of Analysis</span></a></li><input type="hidden" id="link_81" value="プロセスセパレーション &gt; サポート &gt; Literature Library"><li><a onclick="null" href="/ja-jp/literature-library?ID=MDEC544VY"><span onmousedown="callwt(81)">Literature Library</span></a></li>
+                                 </ul>
+                              </li><input type="hidden" id="link_77" value="プロセスセパレーション &gt; サポート"></ul>
+                        </li>
+                     </ul>
+                  </li><input type="hidden" id="link_82" value="フードサイエンス"><li class="leftAlignedFSD"><a class="dc-mega" onclick="null" href="/ja-jp/food-science?ID=1475" id="mega-menu-a-FSD"><span onmousedown="callwt(82)">フードサイエンス</span></a><ul class="sub" style="display: none;"><input type="hidden" id="link_82" value="フードサイエンス &gt; 製品"><li class="mega-unit mega-hdr"><a onclick="null" class="mega-hdr-a" style="height: 15px;" href="/ja-jp/food-science/products?ID=1482"><span onmousedown="callwt(85)"><strong>製品</strong></span></a><ul class="mainProducts"><input type="hidden" id="link_70" value="フードサイエンス &gt; 製品 &gt; Food Safety Testing"><li><a onclick="null" href="/ja-jp/category/food-safety-testing?ID=5e56f0a6-84dd-4d74-be27-f4d1187a3381"><span onmousedown="callwt(70)">Food Safety Testing</span></a></li>
+                           </ul>
+                        </li>
+                        <li class="mega-unit mega-hdr last">
+                           <ul class="someDivider">
+                              <li><a onclick="null" href="/ja-jp/food-science/news-events?ID=1493"><span onmousedown="callwt(87)"><strong>ニュース＆イベント</strong></span></a></li><input type="hidden" id="link_87" value="フードサイエンス &gt; ニュース＆イベント"><li><a onclick="null" href="/ja-jp/food-science/support?ID=1495"><span onmousedown="callwt(89)"><strong>サポート</strong></span></a><ul class="mainProducts1"><input type="hidden" id="link_90" value="フードサイエンス &gt; サポート &gt; 試験成績書"><li><a onclick="null" href="/ja-jp/food-science/support/certificate-of-analysis?ID=KVY6YO4EH"><span onmousedown="callwt(90)">試験成績書</span></a></li><input type="hidden" id="link_91" value="フードサイエンス &gt; サポート &gt; Literature Library"><li><a onclick="null" href="/ja-jp/literature-library?ID=MDECABESH"><span onmousedown="callwt(91)">Literature Library</span></a></li>
+                                 </ul>
+                              </li><input type="hidden" id="link_89" value="フードサイエンス &gt; サポート"></ul>
+                        </li>
+                     </ul>
+                  </li><input type="hidden" id="link_92" value="バイオ教育キット"><li class="leftAlignedLSE"><a class="dc-mega" onclick="null" href="/ja-jp/education?ID=1450" id="mega-menu-a-LSE"><span onmousedown="callwt(92)">バイオ教育キット</span></a><ul class="sub" style="display: none;"><input type="hidden" id="link_92" value="バイオ教育キット &gt; 製品"><li class="mega-unit mega-hdr"><a onclick="null" class="mega-hdr-a" style="height: 15px;" href="/ja-jp/education/products?ID=1457"><span onmousedown="callwt(95)"><strong>製品</strong></span></a><ul class="mainProducts"><input type="hidden" id="link_77" value="バイオ教育キット &gt; 製品 &gt; DNA分析キット"><li><a onclick="null" href="/ja-jp/category/dna-analysis-kits-agarose-gel-electrophoresis-kits?ID=16873535-f79b-4612-91ee-1ad8d93d26e4"><span onmousedown="callwt(77)">DNA分析キット</span></a></li><input type="hidden" id="link_78" value="バイオ教育キット &gt; 製品 &gt; PCR 増幅キット"><li><a onclick="null" href="/ja-jp/category/pcr-amplification-kits?ID=46a0adc7-303b-43e4-8947-cc195f83c15e"><span onmousedown="callwt(78)">PCR 増幅キット</span></a></li><input type="hidden" id="link_79" value="バイオ教育キット &gt; 製品 &gt; pGLO/GFP キット"><li><a onclick="null" href="/ja-jp/category/pglo-plasmid-gfp-kits?ID=f75948d2-dc20-4a32-b4e5-b7e0fe4c21ed"><span onmousedown="callwt(79)">pGLO/GFP キット</span></a></li><input type="hidden" id="link_80" value="バイオ教育キット &gt; 製品 &gt; タンパク質分析キット"><li><a onclick="null" href="/ja-jp/category/protein-analysis-kits?ID=ff1e4131-4b49-40b2-9a34-56fd3db342f8"><span onmousedown="callwt(80)">タンパク質分析キット</span></a></li><input type="hidden" id="link_81" value="バイオ教育キット &gt; 製品 &gt; 器具と消耗品"><li><a onclick="null" href="/ja-jp/category/equipment-supplies?ID=cdc62e3e-d1da-4a16-9d40-4d9cc90adb48"><span onmousedown="callwt(81)">器具と消耗品</span></a></li>
+                           </ul>
+                        </li>
+                        <li class="mega-unit mega-hdr"><a onclick="null" class="mega-hdr-a" style="height: 15px;" href="/ja-jp/education/about-program?ID=3dec64ef-aa3a-4534-bc63-d33c13fc367c"><span onmousedown="callwt(102)"><strong>About the Program</strong></span></a><ul class="mainProducts"><input type="hidden" id="link_83" value="バイオ教育キット &gt; About the Program &gt; Classroom Kits"><li><a onclick="null" href="/ja-jp/education/classroom-kits?ID=MRFKVZE8Z"><span onmousedown="callwt(83)">Classroom Kits</span></a></li><input type="hidden" id="link_84" value="バイオ教育キット &gt; About the Program &gt; Education Discount Policy"><li><a onclick="null" href="/ja-jp/education/education-discount-policy?ID=MRFKWO4VY"><span onmousedown="callwt(84)">Education Discount Policy</span></a></li><input type="hidden" id="link_85" value="バイオ教育キット &gt; About the Program &gt; Teaching Resources"><li><a onclick="null" href="/ja-jp/education/teaching-resources?ID=MRFKYGC4S"><span onmousedown="callwt(85)">Teaching Resources</span></a></li><input type="hidden" id="link_86" value="バイオ教育キット &gt; About the Program &gt; Professional Development"><li><a onclick="null" href="/ja-jp/education/professional-development?ID=MRFKUU15"><span onmousedown="callwt(86)">Professional Development</span></a></li><input type="hidden" id="link_87" value="バイオ教育キット &gt; About the Program &gt; Partners in Education"><li><a onclick="null" href="/ja-jp/education/partners-education?ID=MRFKX9KG4"><span onmousedown="callwt(87)">Partners in Education</span></a></li><input type="hidden" id="link_88" value="バイオ教育キット &gt; About the Program &gt; Related Links"><li><a onclick="null" href="/ja-jp/education/related-links?ID=MRFKXVESH"><span onmousedown="callwt(88)">Related Links</span></a></li>
+                           </ul>
+                        </li>
+                        <li class="mega-unit mega-hdr last">
+                           <ul class="someDivider">
+                              <li><a onclick="null" href="/ja-jp/education/applications-technologies?ID=MXEEBH15"><span onmousedown="callwt(109)"><strong>Explorer Community</strong></span></a></li><input type="hidden" id="link_109" value="バイオ教育キット &gt; Explorer Community"><li><a onclick="null" href="/ja-jp/education/news-events?ID=1462"><span onmousedown="callwt(111)"><strong>News & Events</strong></span></a></li><input type="hidden" id="link_111" value="バイオ教育キット &gt; News &amp; Events"><li class="leafsupport"><a onclick="null" class="leafsupport" href="/ja-jp/education/support?ID=1463"><span onmousedown="callwt(113)"><strong>Support</strong></span></a><ul class="mainProducts1"><input type="hidden" id="link_114" value="バイオ教育キット &gt; Support &gt; Purchasing and Service Programs"><li><a onclick="null" href="/ja-jp/education/support/purchasing-service-programs?ID=KVY6ZLLPT"><span onmousedown="callwt(114)">Purchasing and Service Programs</span></a></li><input type="hidden" id="link_115" value="バイオ教育キット &gt; Support &gt; Tutorials"><li><a onclick="null" href="/ja-jp/support/tutorials?ID=KVY70TCZF"><span onmousedown="callwt(115)">Tutorials</span></a></li><input type="hidden" id="link_116" value="バイオ教育キット &gt; Support &gt; Webinars"><li><a onclick="null" href="/ja-jp/support/webinars?ID=KVY71A7OP"><span onmousedown="callwt(116)">Webinars</span></a></li><input type="hidden" id="link_117" value="バイオ教育キット &gt; Support &gt; Literature Library"><li><a onclick="null" href="/ja-jp/literature-library?ID=MDEC1UE8Z"><span onmousedown="callwt(117)">Literature Library</span></a></li>
+                                 </ul>
+                              </li><input type="hidden" id="link_113" value="バイオ教育キット &gt; Support"></ul>
+                        </li>
+                     </ul>
+                  </li><input type="hidden" id="link_118" value="企業情報"><li class="leftAlignedGNL"><a class="dc-mega" onclick="null" href="/ja-jp/corporate?ID=1002" id="mega-menu-a-GNL"><span onmousedown="callwt(118)">企業情報</span></a><ul class="sub" style="display: none;"><input type="hidden" id="link_118" value="企業情報 &gt; バイオ・ラッドについて"><li class="mega-unit mega-hdr"><a onclick="null" class="mega-hdr-a" style="height: 15px;" href="/ja-jp/corporate/about-bio-rad?ID=1003"><span onmousedown="callwt(121)"><strong>バイオ・ラッドについて</strong></span></a><ul class="mainProducts"><input type="hidden" id="link_98" value="企業情報 &gt; バイオ・ラッドについて &gt; 企業データ"><li><a onclick="null" href="/ja-jp/corporate/corporate-facts?ID=MR8IQU15"><span onmousedown="callwt(98)">企業データ</span></a></li><input type="hidden" id="link_99" value="企業情報 &gt; バイオ・ラッドについて &gt; 本社役員"><li><a onclick="null" href="/ja-jp/corporate/corporate-officers?ID=MR8IS7E8Z"><span onmousedown="callwt(99)">本社役員</span></a></li><input type="hidden" id="link_100" value="企業情報 &gt; バイオ・ラッドについて &gt; 沿革"><li><a onclick="null" href="/ja-jp/corporate/our-history?ID=MR8ISY4VY"><span onmousedown="callwt(100)">沿革</span></a></li><input type="hidden" id="link_101" value="企業情報 &gt; バイオ・ラッドについて &gt; 環境保護"><li><a onclick="null" href="/ja-jp/corporate/protecting-environment?ID=MR8IX6ESH"><span onmousedown="callwt(101)">環境保護</span></a></li><input type="hidden" id="link_102" value="企業情報 &gt; バイオ・ラッドについて &gt; 社会貢献"><li><a onclick="null" href="/ja-jp/corporate/community-outreach?ID=MR8IUCKG4"><span onmousedown="callwt(102)">社会貢献</span></a></li>
+                           </ul>
+                        </li>
+                        <li class="mega-unit mega-hdr last">
+                           <ul class="someDivider">
+                              <li><a onclick="null" href="/ja-jp/corporate/careers?ID=1004"><span onmousedown="callwt(127)"><strong>採用情報</strong></span></a></li><input type="hidden" id="link_127" value="企業情報 &gt; 採用情報"><li><a onclick="null" href="/ja-jp/corporate/investor-relations?ID=1007"><span onmousedown="callwt(129)"><strong>投資家の皆様へ</strong></span></a><ul class="mainProducts1"><input type="hidden" id="link_130" value="企業情報 &gt; 投資家の皆様へ &gt; SEC 報告書"><li><a onclick="null" href="/ja-jp/corporate/sec-filings?ID=MR8IXTC4S"><span onmousedown="callwt(130)">SEC 報告書</span></a></li><input type="hidden" id="link_131" value="企業情報 &gt; 投資家の皆様へ &gt; FAQs"><li><a onclick="null" href="/ja-jp/corporate/faqs?ID=MR8IZ38UU"><span onmousedown="callwt(131)">FAQs</span></a></li><input type="hidden" id="link_132" value="企業情報 &gt; 投資家の皆様へ &gt; 四半期決算報告書"><li><a onclick="null" href="/ja-jp/corporate/quarterly-results?ID=MR8IZSMNI"><span onmousedown="callwt(132)">四半期決算報告書</span></a></li><input type="hidden" id="link_133" value="企業情報 &gt; 投資家の皆様へ &gt; 年次報告書"><li><a onclick="null" href="/ja-jp/corporate/annual-reports-2016?ID=MR8J17KSY"><span onmousedown="callwt(133)">年次報告書</span></a></li><input type="hidden" id="link_134" value="企業情報 &gt; 投資家の皆様へ &gt; Corporate Governance"><li><a onclick="null" href="/ja-jp/corporate/corporate-governance?ID=NEUKYV15"><span onmousedown="callwt(134)">Corporate Governance</span></a></li>
+                                 </ul>
+                              </li><input type="hidden" id="link_129" value="企業情報 &gt; 投資家の皆様へ"><li><a onclick="null" href="/ja-jp/corporate/newsroom?ID=1006"><span onmousedown="callwt(136)"><strong>ニュースルーム</strong></span></a></li><input type="hidden" id="link_136" value="企業情報 &gt; ニュースルーム"></ul>
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+</div><script type="text/javascript">
+		jQuery( function($){
+			$('#mega-menu-9').hide();	
+			$(document).ready(function(){
+				$('#mega-menu-9').show();
+				$('#mega-menu-9').dcMegaMenu({
+					rowItems: '10',
+					speed: 'fast',
+					effect: 'fade',
+					fullWidth:true
+				});
+      			$('.sub .row li.mega-unit.mega-hdr').attr('style','height:100% !important');
+			});
+		});
+	</script> 
+ </div> 
+ <!--CONTENT---> 
+ <div class="iw_placeholder" id="iw_placeholder1503938962056"> 
+  <div class="iw_component" id="iw_comp1506350307518">
+     
+  </div> 
+  <div class="iw_component" id="iw_comp1504687625000">
+    <div class="new-home-page-banner">
+<div class="iframeBody">
+<div class="slider newSlider">
+<ul class="bxslider-new">
+<li class="digital-assays"><img class="bannerimagewidth" src="/webroot/web/images/hmp/pcr-assays-homepage.jpg" alt="Droplet Digital PCR Assays" width="960" height="355" />
+<div class="homepage-bnnr-textbox white-txt">
+<div class="homepage-bnnr-text">
+<h1>Droplet Digital<sup>&trade;</sup> PCR Assays</h1>
+<p class="beforeul">ラボ検証済の最適化されたプライマー/プローブ</p>
+<ul>
+<li>コピー数多型（CNV）解析</li>
+<li>遺伝子変異検出</li>
+</ul>
+<p class="afterul">FAM/HEX標識済みのプレデザインされたデジタルPCR用アッセイを提供</p>
+<div class="bttnblock"><a class="linkgeneration no-target-style bttn-css orangebttn-css" onmousedown="Webtrends.multiTrack({element:this, argsa:['WT.ti','Droplet Digital PCR Assays - 20160322 - 4','DCS.dcsuri','/Droplet Digital PCR Assays - 20160322 - 4','DCS.dcsqry','?home_page_hero=Droplet Digital PCR Assays - 20160322 - 4','WT.cg_n','Home Page: Hero Image','WT.dl','0'],delayTime:500});" href="/en-us/product/digital-pcr-assays?hplink=[Hero] [Droplet Digital PCR Assays - 20160322 - 4]">詳細はこちら</a></div>
+</div>
+</div>
+</li>
+<li class="plastics" style="float: left; list-style: none; position: relative; width: 1007px;"><img class="bannerimagewidth" src="/webroot/web/images/hmp/homepage-plastics.jpg" alt="PCR Plastics Consumables" width="960" height="355" />
+<div class="homepage-bnnr-textbox white-txt">
+<div class="homepage-bnnr-text">
+<h1>PCR プラスチック消耗品</h1>
+<p>PCR, qPCRに最適な高品質のプレート、<br />プレート用シール、アクセサリーをご用意しています。</p>
+<div class="bttnblock"><a class="linkgeneration no-target-style bttn-css orangebttn-css" onmousedown="Webtrends.multiTrack({element:this, argsa:['WT.ti','Plastics - 20160322 - 2','DCS.dcsuri','/Plastics - 20160322 - 2','DCS.dcsqry','?home_page_hero=Plastics - 20160322 - 2','WT.cg_n','Home Page: Hero Image','WT.dl','0'],delayTime:500});" href="/ja-jp/category/pcr-plastics-selector?hplink=[Hero] [Plastics - 20160322 - 2]">製品の検索はこちら</a></div>
+</div>
+</div>
+</li>
+<li class="starbright"><img class="bannerimagewidth" src="/webroot/web/images/hmp/fluorescent-western-blotting-hero.jpg" alt="Fluorescent Western Blotting" width="960" height="355" />
+<div class="homepage-bnnr-textbox">
+<div class="homepage-bnnr-text white-txt">
+<h1>蛍光ウェスタンブロッティング</h1>
+<p class="afterul-sub"><strong>より正確で定量性の高いタンパク質分析</strong></p>
+<ul>
+<li>新しい、さらに感度が向上した蛍光標識抗体</li>
+<li>一枚のメンブレンで最大3種類のターゲット検出</li>
+</ul>
+<div class="bttnblock"><a class="linkgeneration no-target-style bttn-css orangebttn-css" href="/_locale/category/fluorescent-western-blotting-antibodies?hplink=[Hero] [Fluorescent Western Blotting - 20160322 - 1]">詳細はこちら</a></div>
+</div>
+</div>
+</li>
+<li class="cdg-qsd"><img class="bannerimagewidth" src="/webroot/web/images/hmp/CDG-QSD-Homepage-Panel-nocopy.jpg" alt="CDG QSD" width="960" height="355" />
+<div class="homepage-bnnr-textbox white-txt">
+<div class="homepage-bnnr-text" style="padding-top: 2em;">
+<h1>Discover Amplichek&trade;<br /> Molecular Quality Controls<br /> for Infectious Disease</h1>
+<p class="subhead">Multi-analyte QC products for<br />nucleic acid testing procedures</p>
+<div class="bttnblock"><a class="linkgeneration no-target-style bttn-css orangebttn-css" onmousedown="Webtrends.multiTrack({element:this, argsa:['WT.ti','Clinical Diagnostics D-100 System - 20160322 - 3','DCS.dcsuri','/Clinical Diagnostics Multichek Molecular QC - 20160322 - 3','DCS.dcsqry','?home_page_hero=Clinical Diagnostics Multichek Molecular QC - 20160322 - 3','WT.cg_n','Home Page: Hero Image','WT.dl','0'],delayTime:500});" href="http://www.qcnet.com/molecular?hplink=[Hero] [Clinical Diagnostics Multichek Molecular QC - 20160322 - 3]" target="_parent">Learn more</a></div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="quick-tools-module-new">
+<div class="ll-qo-ah-table-new">
+<ul class="list-quick-tools-new">
+<li class="hoverIcon" style="margin-right: 20px;"><a class="mainLinks quickorderModule-new" href="javascript:void(0)"><span>クイック見積り</span></a>
+<div class="quick-order-module">
+<div id="quickorderoverlayFooter">
+<script type="text/javascript">// <![CDATA[
+var notOverlay ;
+$(document).ready(function() {
+	var date = new Date();
+	var timestamp = date.getTime();
+	var actionUrl = sterlingEnvironment+'/'+languageCode+'/'+countryCode.toUpperCase()+'/adirect/biorad?tstamp='+timestamp;
+	$('#quickorderForm').attr('action', actionUrl);
+});
+// ]]></script>
+<form id="quickorderForm" method="post"><input name="cmd" type="hidden" value="BRQuickOrderAdd" /> <input name="AddToCartProductID" type="hidden" /> <input name="quickorder" type="hidden" /> <input name="quantity" type="hidden" />
+<table id="quickOrderTable" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="padding-right: 2px;" width="228"><strong>カタログ番号:</strong></td>
+<td width="50"><strong>数量:</strong></td>
+<td style="padding-left: 17px; padding-right: 2px;" width="228"><strong>カタログ番号:</strong></td>
+<td width="50"><strong>数量:</strong></td>
+</tr>
+<tr>
+<td style="padding-right: 2px;"><input class="quickordercatno" name="portalProductId" type="text" /></td>
+<td><input class="quickorderquant" onkeypress="return isNumberKey(event)" maxlength="3" name="portalQuantity" type="text" /></td>
+<td style="padding-left: 17px; padding-right: 2px;"><input class="quickordercatno" name="portalProductId" type="text" /></td>
+<td><input class="quickorderquant" onkeypress="return isNumberKey(event)" maxlength="3" name="portalQuantity" type="text" /></td>
+</tr>
+<tr>
+<td style="padding-right: 2px;"><input class="quickordercatno" name="portalProductId" type="text" /></td>
+<td><input class="quickorderquant" onkeypress="return isNumberKey(event)" maxlength="3" name="portalQuantity" type="text" /></td>
+<td style="padding-left: 17px; padding-right: 2px;"><input class="quickordercatno" name="portalProductId" type="text" /></td>
+<td><input class="quickorderquant" onkeypress="return isNumberKey(event)" maxlength="3" name="portalQuantity" type="text" /></td>
+</tr>
+<tr>
+<td style="padding-right: 2px;"><input class="quickordercatno" name="portalProductId" type="text" /></td>
+<td><input class="quickorderquant" onkeypress="return isNumberKey(event)" maxlength="3" name="portalQuantity" type="text" /></td>
+<td style="padding-left: 17px; padding-right: 2px;"><input class="quickordercatno" name="portalProductId" type="text" /></td>
+<td><input class="quickorderquant" onkeypress="return isNumberKey(event)" maxlength="3" name="portalQuantity" type="text" /></td>
+</tr>
+<tr>
+<td style="padding-right: 2px;"><input class="quickordercatno" name="portalProductId" type="text" /></td>
+<td><input class="quickorderquant" onkeypress="return isNumberKey(event)" maxlength="3" name="portalQuantity" type="text" /></td>
+<td style="padding-left: 17px; padding-right: 2px;"><input class="quickordercatno" name="portalProductId" type="text" /></td>
+<td><input class="quickorderquant" onkeypress="return isNumberKey(event)" maxlength="3" name="portalQuantity" type="text" /></td>
+</tr>
+<tr>
+<td style="padding-right: 2px;"><input class="quickordercatno" name="portalProductId" type="text" /></td>
+<td><input class="quickorderquant" onkeypress="return isNumberKey(event)" maxlength="3" name="portalQuantity" type="text" /></td>
+<td style="padding-left: 17px; padding-right: 2px;"><input class="quickordercatno" name="portalProductId" type="text" /></td>
+<td><input class="quickorderquant" onkeypress="return isNumberKey(event)" maxlength="3" name="portalQuantity" type="text" /></td>
+</tr>
+</tbody>
+</table>
+<table border="0" width="100%">
+<tbody>
+<tr id="check">
+<td colspan="2"><a id="addItems" href="javascript:void(0)">入力欄を10行増やす</a></td>
+</tr>
+<tr>
+<td colspan="2">
+<div class="b2bbttns"><a id="quickquoteOrder" class="button greenbttn getquote" href="javascript:submitQuickQuote('quickorderForm','cmd','BRQuickQuoteAdd','AddToCartProductID','quantity','CartQuote','QT','Please enter a valid number for the quantity. Product','Home Page')"><span>見積り依頼</span></a> <!-- For PunchOut user's inspect mode  don't display Checkout button <a id="checkoutOrder" class="button greenbttn checkout" style="margin-right:8px;" mce_style="margin-right:8px;" href="javascript:submitCheckout('quickorderForm','cmd','BRQuickOrderAdd','AddToCartProductID','quantity','Please enter a valid number for the quantity. Product','Home Page')" mce_href="javascript:submitCheckout('quickorderForm','cmd','BRQuickOrderAdd','AddToCartProductID','quantity','Please enter a valid number for the quantity. Product','Home Page')"><span>Add to Cart</span></a>--></div>
+</td>
+</tr>
+</tbody>
+</table>
+</form></div>
+</div>
+</li>
+<li class="hoverIcon"><a href="javascript:void(0)" class="mainLinks litlibraryModule-new"><span>Literature Library</span></a>
+<script type="text/javascript">// <![CDATA[
+$(document).ready(function() {
+	var date = new Date();
+	var timestamp = date.getTime();
+	var actionUrl1 = '/'+languageCode+'-'+countryCode+'/SearchResultsLiteratureLibrary?tstamp='+timestamp;
+	$('#searchForm').attr('action', actionUrl1);
+	var actionUrl2 = '/'+languageCode+'-'+countryCode+'/life-science-research/support/certificate-of-analysis?tstamp='+timestamp;
+	$('#cofaRHMSearchForm').attr('action', actionUrl2);
+});
+function openCofaHelp() {
+closeOverlays();
+openElementOverlay("cofaHelpDiv");
+}
+
+function openCofaRequest() {
+closeOverlays();
+$("#cofaLinkCOFADiv").remove();
+$("#cofaRequestContentDiv").load("/bio-rad/Standalone/CofARequestFormController.page",function(){
+	openElementOverlay("cofaLinkCOFADiv");
+	$("#cofaLinkCOFADiv").show();
+});
+
+}
+$(document).ready(function() {
+	$("#cofaHelpDiv").load("/bio-rad/Standalone/GenericHTML.page?pageName=page_cofa_help");
+});
+$(function() {
+$("#cofaRHMSearchForm").submit(function() {
+  $(this).find(":input").filter(function(){ return !this.value; }).attr("disabled", "disabled");
+  return true; // ensure form still submits
+});
+});
+
+
+function submitData(){
+
+var form = document.getElementById("cofaRHMSearchForm");
+	
+document.getElementById('cofaRHMSearchForm').submit();
+return false;
+
+}
+// ]]></script>
+<div class="literature-library-module-home">
+<div id="finddocuments" class="opt-module-support">
+<div class="literature-library-module">
+<h2 class="search-docs-title">ドキュメントを検索</h2>
+<form id="searchForm" name="fpSearchForm1" method="get">
+<ul class="checkLiterature-support">
+<li><input type="checkbox" name="Filter" id="chk_Application_Notes" class="filterchecks" value="LITERATURETYPE:Other" /><span>その他</span></li>
+<li><input type="checkbox" name="Filter" id="chk_Application_Notes" class="filterchecks" value="LITERATURETYPE:Brochures and Specifications" /><span>パンフレット、仕様書</span></li>
+<li><input type="checkbox" name="Filter" id="chk_Application_Notes" class="filterchecks" value="LITERATURETYPE:Manuals and Quick Guides" /><span>マニュアル、クイックガイド</span></li>
+<li><input type="checkbox" name="Filter" id="chk_Application_Notes" class="filterchecks" value="LITERATURETYPE:Product Inserts" /><span>製品添付文書</span></li>
+<li><input type="checkbox" name="Filter" id="chk_Application_Notes" class="filterchecks" value="LITERATURETYPE:Application Notes" /><span>アプリケーションノート</span></li>
+<li><input type="checkbox" name="Filter" id="chk_Application_Notes" class="filterchecks" value="LITERATURETYPE:MSDS" /><span>SDS</span></li>
+<li><input type="checkbox" name="Filter" id="chk_Application_Notes" class="filterchecks" value="LITERATURETYPE:Articles and Whitepapers" /><span>記事、ホワイトペーパー</span></li>
+<li><input type="checkbox" name="Filter" id="chk_Application_Notes" class="filterchecks" value="LITERATURETYPE:Product Information Sheets" /><span>製品情報シート</span></li>
+<li><input type="checkbox" name="Filter" id="chk_Application_Notes" class="filterchecks" value="LITERATURETYPE:FAQ" /><span>FAQ</span></li>
+<li><input type="checkbox" name="Filter" id="chk_Application_Notes" class="filterchecks" value="LITERATURETYPE:Protocols" /><span>プロトコル</span></li>
+<li><input type="checkbox" name="Filter" id="chk_Application_Notes" class="filterchecks" value="LITERATURETYPE:Scientific Posters" /><span>サイエンティフィックポスター</span></li>
+<li><input type="checkbox" name="Filter" id="chk_Application_Notes" class="filterchecks" value="LITERATURETYPE:Catalogs" /><span>カタログ</span></li>
+<li><input type="checkbox" name="Filter" id="chk_Application_Notes" class="filterchecks" value="LITERATURETYPE:Newsletters and Magazines" /><span>ニュースレター、マガジン</span></li>
+<li><input type="checkbox" name="Filter" id="chk_Application_Notes" class="filterchecks" value="LITERATURETYPE:Product Insert" /><span>製品添付文書</span></li>
+</ul>
+<div class="homepage-lit-search-mod">
+<div class="search-docs-box">
+<table>
+<tbody>
+<tr>
+<td class="tdcolbox"><input type="text" name="Text" class="textbox" maxlength="500" onkeypress="return checkEnter(event,'submitLiteratureForm()');" /></td>
+<td><a class="greenbttn-mod greenbttn-support" id="supportliterature" onclick="document.getElementById('searchForm').submit()" href="javascript:void(0);"><span>ドキュメントを検索</span></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</form></div>
+<img class="vertdivider" src="/webroot/web/images/support/western-workflow-product-divider.jpg" height="275" width="11" />
+<div class="cofa-mod">
+<h2 class="search-docs-title">試験成績書の検索</h2>
+<p>試験成績書を検索するには、以下に有効なカタログ番号とロット(Control）番号を入力してください。<a href="javascript:void(0)" id="cofaHelpLink" class="anonymousHelpIcon" onclick="openCofaHelp();"></a></p>
+<form name="cofaRHMSearchForm" id="cofaRHMSearchForm" method="get"><fieldset class="cofa-ctrl"><span class="txt-label"> <input type="text" id="catalogNum0" placeholder="カタログ番号" name="catalogNumber0" maxlength="50" size="12" /> </span> <span class="txt-label"> <input type="text" placeholder="ロット(制御番号)" id="lotNumber0" name="lotNumber0" maxlength="50" size="12" /> </span> <a class="greenbttn-mod greenbttn-find-certificate" onclick="return submitData();" href="javascript:void(0);"><span style="color: white;">試験成績書の検索</span></a> <input type="submit" name="cofaRHMSubmitBtn" value="submit" style="width: 0px; height: 0px; position: absolute; left: -5000px; top: -5000px;" tabindex="-1" /></fieldset></form></div>
+</div>
+</div>
+<div id="cofaHelpDiv" name="cofaHelpDiv" style="display: none;" overlaytitle="Certificates of Analysis Help"></div>
+<div id="cofaRequestContentDiv" style="display: none;" overlaytitle="Certificate of Analysis Request Form"></div>
+</li>
+<li class="hoverIcon" style="margin-right: 20px;"><a class="mainLinks supportModule-new" href="javascript:void(0)"><span>サポート</span></a>
+<div class="support-module">
+<div class="findsupport-productarea">
+<h2>製品カテゴリー<br />をお選びください</h2>
+<ul class="rightarrowsearch supmod">
+<li><a class="linkgeneration" href="/_locale/life-science-research/support">ライフサイエンス</a></li>
+<li><a class="linkgeneration" href="/_locale/clinical-diagnostics/support">診断薬</a></li>
+<li><a class="linkgeneration" href="/_locale/spectroscopy/support">スペクトロスコピー</a></li>
+<li><a class="linkgeneration" href="/_locale/process-separations/support">プロセスセパレーション</a></li>
+<li><a class="linkgeneration" href="/_locale/food-science/support">フードサイエンス</a></li>
+<li><a class="linkgeneration" href="/_locale/education/support">バイオ教育キット</a></li>
+<li><a class="linkgeneration new-target-image" href="http://www.qcnet.com/Support/tabid/337/language/en-US/Default.aspx" target="_blank" rel="noopener noreferrer">Quality Control (QCNet)</a></li>
+</ul>
+</div>
+<img class="support-divider" src="/webroot/web/images/hmp/US-only/support-divider.png" alt="" />
+<div class="customer-care">
+<h2>テクニカルサポート</h2>
+<table class="customer-care-mod" border="0">
+<tbody>
+<tr class="support-form-top">
+<td><img class="iconForms" src="/webroot/web/images/hmp/US-only/support_request_forms.png" border="0" alt="" width="42" height="42" /></td>
+<td>
+<p class="support-req-forms">サポートリクエストフォーム</p>
+<ul class="rightarrowsearch">
+<li><a id="emailMSDSSupport" name="emailMSDSSupport" href="javascript:void(0)">MSDSリクエスト</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td><img class="iconForms" src="/webroot/web/images/hmp/US-only/contact-us.png" border="0" alt="" width="42" height="42" /></td>
+<td>
+<p class="support-req-forms">お問合せ</p>
+<p class="find-ph-num">その他お問合せは<br /><a class="mybr-link" href="/contact">こちら</a>からどうぞ</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</li>
+<li class="hoverIcon" style="margin-right: 20px;"><a class="mainLinks accounthistoryModule-new" href="javascript:void(0)"><span>アカウント履歴</span></a>
+<div class="account-history-module">
+<div class="acchistorytext">
+<p><a class="linkgeneration" href="/_locale/my-bio-rad">マイ バイオ・ラッド</a> にログインしてお客様のアカウント情報を管理することができます。</p>
+<h2>以下の情報/サービスにアクセス可能になります。</h2>
+<ul class="rightarrowsearch">
+<li>見積りのご依頼</li>
+<li>見積もり履歴の確認</li>
+<li>連絡先情報の編集</li>
+<!--
+<li>Orders and invoices</li>
+--></ul>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<!-- Food Science, Process Separations and Spectroscopy Modules --> <!-- Previously Viewed Module -->
+<div id="previously-module-id" class="pvm-homepage-module">
+<div id="pvim" class="pvm-module-inner">&nbsp;</div>
+</div>
+<div class="life-science-research-module rest-module-new">
+<div class="fs-ps-spect-modules">
+<div class="lsr-cdg-modules">
+<h1 class="header-txt-mod">Your partner in the life sciences and clinical diagnostics for more than 60 years.</h1>
+<h2 class="browse-products">すべての製品を見る</h2>
+<a class="linkgeneration" href="/_locale/life-science-research">
+<div class="lsrnew-mod"><img class="image-border" src="/webroot/web/images/hmp/US-only/lsr-new.jpg" alt="ライフサイエンス" />
+<div class="lsrnew-mod-text">
+<h1>ライフサイエンス</h1>
+<p>Complete solutions to <br />accelerate scientific discovery</p>
+</div>
+<!--<a class="linkgeneration" href="/en-us/life-science-research/news/bio-rad-receives-a-life-science-industry-award-for-best-technical-support?hplink=[Browse Products] [Life Science Research]"><img style="position: absolute; top: 126px; left: 340px;" src="/webroot/web/images/lsr/support/LSIA2016-Logo.png" alt="LSIA Logo" width="137" height="101" /></a>--></div>
+</a> <a class="linkgeneration" href="/_locale/clinical-diagnostics">
+<div class="cdgnew-mod"><img class="image-border" src="/webroot/web/images/hmp/US-only/cd-new.jpg" alt="診断薬" />
+<div class="lsrnew-mod-text">
+<h1>診断薬</h1>
+<p>The number one specialty<br /> diagnostics company in the world</p>
+</div>
+</div>
+</a></div>
+<div class="set-mod">
+<div class="photo"><a class="linkgeneration" href="/_locale/education"><img src="/webroot/web/images/hmp/US-only/lse-new.png" alt="バイオ教育キット" /></a></div>
+<div class="info">
+<h4><a class="linkgeneration" href="/_locale/education">バイオ教育キット</a></h4>
+<p class="product-info-subtext">実験を通して科学への興味をかきたてます。</p>
+</div>
+</div>
+<div class="set-mod">
+<div class="photo"><a class="linkgeneration" href="/_locale/food-science"><img src="/webroot/web/images/hmp/US-only/fs-new.png" alt="フードサイエンス" /></a></div>
+<div class="info">
+<h4><a class="linkgeneration" href="/_locale/food-science">フードサイエンス</a></h4>
+<p class="product-info-subtext">Reagents and equipment for food and beverage safety, animal husbandry, and public health laboratories</p>
+</div>
+</div>
+<div class="set-mod">
+<div class="photo"><a class="linkgeneration" href="/_locale/process-separations"><img src="/webroot/web/images/hmp/US-only/ps-new.png" alt="プロセスセパレーション" /></a></div>
+<div class="info">
+<h4><a class="linkgeneration" href="/_locale/process-separations">プロセスセパレーション</a></h4>
+<p class="product-info-subtext">Robust, high-capacity process chromatography media for commercial scale bioprocesses</p>
+</div>
+</div>
+<div class="set-mod">
+<div class="photo"><a class="linkgeneration" href="/_locale/spectroscopy"><img src="/webroot/web/images/hmp/US-only/is-new.jpg" alt="スペクトロスコピー" /></a></div>
+<div class="info">
+<h4><a class="linkgeneration" href="/_locale/spectroscopy">スペクトロスコピー</a></h4>
+<p class="product-info-subtext">世界中のスペクトロスコピーストをサポートするスペクトル検索ソフトウェアと世界最大級を誇るスペクトルデータベース</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>
+<script type="text/javascript">// <![CDATA[
+$(document).ready(function(){
+var requestMSDSUrl = '/bio-rad/Standalone/RequestMSDS.page';
+						$('#emailMSDSTechSupportDiv').load(requestMSDSUrl);
+						
+						$("#emailMSDSSupport").click(function(){
+						  closeOverlays();
+						  openElementOverlay("emailMSDSTechSupportDiv");
+						  $("#emailMSDSTechSupportDiv").show();
+						  $("#msdsContentLoading").hide();
+						  });	
+		setSterlingUrlsToHtmlHrefVariables();
+		$('a.linkgeneration').each(function(){
+			$(this).attr('href', $(this).attr('href').replace('_locale', languageCode + '-' + countryCode).replace('_verticalUrl', currentVerticalUrlTitle).replace('_defaultVerticalUrl', defaultVerticalUrlTitle).replace('_feedbackCMSID',feedbackCMSID));
+		});
+	});
+// ]]></script>
+</p>
+<div id="emailMSDSTechSupportDiv" name="emailMSDSTechSupportDiv" style="display: none;" noprint="true" overlaytitle="MSDS 請求"></div> 
+  </div> 
+ </div> 
+ <!--FOOTER---> 
+ <div class="iw_component" id="iw_comp1503938962054">
+   <!--ls:begin[component-1503938962054]--><div class="footer-main"><script type="text/javascript">
+				var countryCode = 'jp';
+				var languageCode = 'ja';
+				var currentVerticalUrlTitle = 'corporate';
+				var defaultVerticalUrlTitle = 'life-science-research';
+				var feedbackCMSID = '1140';        
+
+				var order_History_Url = '/prd/ja/JP/direct/biorad?ts=1&cmd=OrdersWorkspaceDisplay';
+				var quote_History_Url = '/prd/ja/JP/direct/biorad?ts=1&cmd=QuotesWorkspaceDisplay';
+				var invoice_History_Url = '/prd/ja/JP/direct/biorad?ts=1&cmd=InvoiceWorkspaceDisplay&_Tab=Invoice';
+
+				$(document).ready(function(){
+				setSterlingUrlsToHtmlHrefVariables();
+				$('a.linkgeneration').each(function(){
+				$(this).attr('href', $(this).attr('href').replace('_locale', languageCode + '-' + countryCode.toLowerCase()).replace('_verticalUrl', currentVerticalUrlTitle).replace('_defaultVerticalUrl', defaultVerticalUrlTitle).replace('_feedbackCMSID',feedbackCMSID));
+				});
+				});
+			</script><div class="links">
+<h4>サポート</h4>
+<ul>
+<li><a class="msdsLink wtclass" href="/ja-jp/literature-library">MSDS</a></li>
+<li><a class="cofaLink wtclass" href="/ja-jp/life-science-research/support/certificate-of-analysis">Certificate of Analysis</a></li>
+<li><a class="qcinsertsLink wtclass" href="http://myeinserts.qcnet.com/" target="_blank" rel="noopener noreferrer">QC Inserts</a></li>
+<li><a class="expertCSLink wtclass" href="/ja-jp/life-science-research/purchase-service-programs/expert-care-service">Expert Care Service</a></li>
+<li><a class="feedBackLink wtclass" href="javascript:openAjaxOverlay('/bio-rad/Standalone/FeedbackOverlay.page?standalonePage=true','Feedback')">フィードバック</a></li>
+<li><a class="contactUSLink wtclass" href="/ja-jp/contact-us">お問合せ</a></li>
+</ul>
+</div>
+<div class="links">
+<h4>問い合わせ一覧</h4>
+<ul>
+<li><a id="quickOrderLink" class="quickOrderLink wtclass" name="quickOrderLink" href="javascript:openAjaxOverlay('/evportal/portlets/ordering/quickOrderOverlayContent.jsp?quickorder_location=Footer')">クイック見積り</a></li>
+<li><a class="mybioradLink wtclass" href="/ja-jp/my-bio-rad">マイ バイオ・ラッド</a></li>
+<li><a id="footer_orderLink" class="orderhistoryLink wtclass" href="javascript:void(0);">Order History</a></li>
+<li><a id="footer_quoteLink" href="javascript:void(0);">見積り依頼履歴</a></li>
+<li><a class="returnpolicyLink wtclass linkgeneration" href="javascript:openAjaxOverlay('/webroot/web/html/returnPolicy-us.html','Return and Refund Policy');">Return and Refund Policy</a></li>
+</ul>
+</div>
+<div class="links">
+<h4>製品</h4>
+<ul>
+<li><a class="lsrLink wtclass" href="/ja-jp/life-science-research">ライフサイエンス</a></li>
+<li><a class="cdLink wtclass" href="/ja-jp/clinical-diagnostics">診断薬</a></li>
+<li><a class="infLink wtclass" href="/ja-jp/spectroscopy">スペクトロスコピー</a></li>
+<li><a class="psLink wtclass" href="/ja-jp/process-separations">プロセスセパレーション</a></li>
+<li><a class="fsLink wtclass" href="/ja-jp/food-science">フードサイエンス</a></li>
+<li><a class="lseLink wtclass" href="/ja-jp/education">バイオ教育キット</a></li>
+<li><a class="selectionguideLink wtclass" href="/featured/en/selection-guides-jp.html">Selection Guides</a></li>
+<li><a class="featuredproductsLink wtclass" href="/featured/en/featured-products.html">Featured Products</a></li>
+</ul>
+</div>
+<div class="links links2">
+<h4>企業情報</h4>
+<ul>
+<li><a class="aboutbioradLink wtclass" href="/ja-jp/corporate/about-bio-rad">バイオ・ラッドについて</a></li>
+<li><a class="careersLink wtclass" href="/ja-jp/corporate/careers">採用情報</a></li>
+<li><a class="irLink wtclass" href="/ja-jp/corporate/investor-relations">投資家の皆様へ</a></li>
+<li><a class="coLink wtclass" href="/ja-jp/corporate/community-outreach">Community Outreach</a></li>
+<li><a class="pteLink wtclass" href="/ja-jp/corporate/protecting-environment">Protecting the Environment</a></li>
+<li><a class="newsroomLink wtclass" href="/ja-jp/corporate/newsroom">ニュースルーム</a></li>
+</ul>
+</div>
+<p>
+<script type="text/javascript">// <![CDATA[
+$(document).ready(function(){
+		setSterlingUrlsToHtmlHrefVariables();
+	});
+// ]]></script>
+</p><script type="text/javascript"></script><p class="footer-nav"><a title="" target="_self" onclick="footerLinksWebtrendsInfo(homeLabel)" href="/">ホーム</a> |
+      					<a onclick="footerLinksWebtrendsInfo(trademarksLabel)" href="/ja-jp/trademarks">トレードマーク</a> |
+      					<a onclick="footerLinksWebtrendsInfo(siteTermsLabel)" href="/ja-jp/site-terms"><script type="text/javascript">$(document).ready(function () {$('#emailLink').remove();$('.feedBackLink').attr('href','javascript:openAjaxOverlay("/webroot/web/html/general/help/feedback-down.html","フィードバック")');});</script>サイト利用規程</a> |
+      					<a onclick="footerLinksWebtrendsInfo(privacyLabel)" href="/ja-jp/privacy">プライバシーポリシー</a><br><span>Copyright &copy; 2018 Bio-Rad Laboratories, Inc. All rights reserved.</span><br></p>
+   <div id="cookieController"></div>
+</div><script type="text/javascript">
+			$(document).ready(function(){
+			//loadNotificationDependentWidgets();
+			});
+		</script><script type="text/javascript" src="/evportal/framework/skins/evolution/htdocs/foresee/foresee-trigger.js"></script><script type="text/javascript">
+				$(document).ready(function() {
+					$('.JP-only').show();
+					$('*[class$="-exclude"]').each(function(index, value) {
+						if(!($(this).hasClass('JP-exclude'))){
+							$(this).show();
+						}
+					});
+				});
+			</script><script type="text/javascript">$.ajax({url: document.location.protocol + '//munchkin.marketo.net/munchkin.js',dataType: 'script',cache: true,success: function() {Munchkin.init('044-CBN-599');}});</script><script type="text/javascript">
+				var google_conversion_id = 1040988879;
+				var google_conversion_label = "LHsYCOu_wQMQz_Ww8AM";
+				var google_custom_params = window.google_tag_params;
+				var google_remarketing_only = true;
+			</script><script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script><noscript>
+   <div class="remarketGoogleclass"><img height="1" width="1" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1040988879/?value=0&amp;label=LHsYCOu_wQMQz_Ww8AM&amp;guid=ON&amp;script=0"></div>
+</noscript><!--ls:end[component-1503938962054]--> 
+ </div> 
+ <div class="iw_component" id="iw_comp1503938962055">
+   <!--ls:begin[component-1503938962055]--><script type="text/javascript">
+			$(document).ready(function() {
+				$('#mega-menu-a-').attr('class',"navItem dc-mega");
+			});
+		</script><!--ls:end[component-1503938962055]--> 
+ </div> 
+</div></div><!--ls:end[body]--><!--ls:begin[page_track]--><!--ls:end[page_track]--></body>
+</html>

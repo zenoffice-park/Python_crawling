@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<!--[if IE 7]> <html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="ja"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie10 lt-ie9" lang="ja"> <![endif]-->
+<!--[if IE 9]> <html class="no-js lt-ie10" lang="ja"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="ja"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+                    
+    
+
+
+    
+
+<title>Engineering a quiet future | Getzner Werkstoffe</title><meta name="description" content="ゲッツナーは45年以上の経験を有する振動・騒音対策エキスパート企業です。ポリウレタン弾性素材を用いて最適なソリューションを提供します。詳しくはこちらをクリックしてください。"/><meta name="keywords" content="ゲッツナー、素材、Sylomer（シロマー）、Sylodyn（シロディン）、防振・減振、騒音、振動"/><meta name="robots" content="index,follow"/><link rel="alternate" href="https://www.getzner.com/de" hreflang="de"/><link rel="alternate" href="https://www.getzner.com/en" hreflang="x-default"/><link rel="alternate" href="https://www.getzner.com/en" hreflang="en"/><link rel="alternate" href="https://www.getzner.com/fr" hreflang="fr"/><link rel="alternate" href="https://www.getzner.com/ja" hreflang="ja"/><link rel="alternate" href="https://www.getzner.com/zh" hreflang="zh"/><link rel="alternate" href="https://www.getzner.com/es" hreflang="es"/><link rel="alternate" href="https://www.getzner.com/pl" hreflang="pl"/><link rel="alternate" href="https://www.getzner.com/en-us" hreflang="en-us"/><link rel="canonical" href="https://www.getzner.com/ja"/>
+<meta name="image" content="https://www.getzner.com/uploads/media/800x/02/1992-standort_buers_gr.jpg?v=1">
+<meta name="language" content="ja">
+<meta name="publisher" content="MASSIVE ART WebServices GmbH">
+<meta name="author" content="Getzner Werkstoffe">
+<meta name="copyright" content="Getzner Werkstoffe">
+<meta name="DC.Title" content="Getzner Werkstoffe">
+<meta name="DC.Publisher" content="MASSIVE ART WebServices GmbH">
+<meta name="DC.Copyright" content="Getzner Werkstoffe">
+<meta name="distribution" content="all">
+<meta name="revisit-after" content="2 days">
+<meta name="audience" content="alle">
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="0">
+<meta http-equiv="cache-control" content="private">
+<meta name="format-detection" content="telephone=no">
+
+<meta property="og:site_name" content="Getzner Werkstoffe" />
+<meta property="og:url" content="https://www.getzner.com/ja" />
+<meta property="og:title" content="Engineering a quiet future" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://www.getzner.com/uploads/media/800x/02/1992-standort_buers_gr.jpg?v=1" />
+<meta property="og:description" content="ゲッツナーは45年以上の経験を有する振動・騒音対策エキスパート企業です。ポリウレタン弾性素材を用いて最適なソリューションを提供します。詳しくはこちらをクリックしてください。" />
+<meta property="og:locale" content="ja" />
+
+<meta itemprop="name" content="Engineering a quiet future">
+<meta itemprop="description" content="ゲッツナーは45年以上の経験を有する振動・騒音対策エキスパート企業です。ポリウレタン弾性素材を用いて最適なソリューションを提供します。詳しくはこちらをクリックしてください。">
+<meta itemprop="image" content="https://www.getzner.com/ja">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://www.getzner.com/ja">
+<meta name="twitter:title" content="Engineering a quiet future">
+<meta name="twitter:description" content="ゲッツナーは45年以上の経験を有する振動・騒音対策エキスパート企業です。ポリウレタン弾性素材を用いて最適なソリューションを提供します。詳しくはこちらをクリックしてください。">
+<meta name="twitter:image" content="https://www.getzner.com/uploads/media/800x/02/1992-standort_buers_gr.jpg?v=1" />
+<meta name="twitter:creator" content="MASSIVE ART WebServices GmbH">
+
+<meta name="application-name" content="Getzner Werkstoffe">
+<meta name="msapplication-TileImage" content="/bundles/clientwebsite/getzner/img/logos/logo-getzner.png">
+<meta name="msapplication-TileColor" content="#FFFFFF">        <link rel="shortcut icon" href="https://www.getzner.com/bundles/clientwebsite/getzner/img/favicons/favicon.ico?v=201804030811" type="image/x-icon">
+    <link rel="icon" sizes="192x192"  href="https://www.getzner.com/bundles/clientwebsite/getzner/img/favicons/android-chrome-192x192.png?v=201804030811" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://www.getzner.com/bundles/clientwebsite/getzner/img/favicons/apple-icon-76x76.png?v=201804030811" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://www.getzner.com/bundles/clientwebsite/getzner/img/favicons/apple-icon-120x120.png?v=201804030811" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://www.getzner.com/bundles/clientwebsite/getzner/img/favicons/apple-icon-152x152.png?v=201804030811" />
+    <link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://www.getzner.com/bundles/clientwebsite/getzner/img/favicons/apple-icon-180x180.png?v=201804030811">
+
+        <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/b2e46ddf-f8ef-4539-8184-92a17cb0fb5e.css"/>
+
+                    <link rel="stylesheet" type="text/css" href="/bundles/clientwebsite/getzner/dist/css/style.css">
+    
+    <link rel="stylesheet" type="text/css" href="https://www.getzner.com/bundles/clientwebsite/getzner/dist/css/ja-startpage.css?v=201804030811">
+
+        <!-- Facebook Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+        document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '487722844749633');
+    fbq('track', "PageView");
+</script>
+
+<noscript>
+    <img height="1"
+         width="1"
+         style="display:none"
+         src="https://www.facebook.com/tr?id=487722844749633&ev=PageView&noscript=1" />
+</noscript>
+<!-- End Facebook Pixel Code -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-52878187-1', 'auto');
+    ga('set', 'anonymizeIp', true);
+    ga('send', 'pageview');
+
+</script>
+</head>
+<body class=" startpage">
+<div class="sticky-footer">
+
+    <header class="header absolute" id="header">
+    <div class="main-menu">
+        <div class="header-logo">
+            <h1>
+            <a href="https://www.getzner.com/ja">
+                <img src="https://www.getzner.com/bundles/clientwebsite/getzner/img/logos/logo-getzner.png?v=201804030811" alt="Getzner Logo">
+            </a>
+            </h1>
+        </div>
+
+        <nav class="ja-navigation js-navigation navigation">
+                            <ul>
+                                                                    
+                                                     
+                                                                                                                                                
+                                                                                                                
+                                                    <li class="js-main-nav-item">
+                                <a href="https://www.getzner.com/ja/products">製品</a>
+
+                                                                    <div class="dropdown-wrapper js-dropdown">
+                                        <i class="icon-dropdown js-dropdown-icon"></i>
+                                    </div>
+
+                                    <div class="ja-sub-nav js-sub-nav">
+                                        <div class="ja-sub-nav-title-wrapper">
+                                            <span class="ja-sub-nav-title">製品</span>
+                                        </div>
+
+                                        <ul>
+                                                                                            <li>
+                                                    <a href="https://www.getzner.com/ja/products/sylomer">Sylomer®（シロマー）<i class="icon-angle-right"></i>
+                                                    </a>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="https://www.getzner.com/ja/products/sylodyn">Sylodyn®（シロディン）<i class="icon-angle-right"></i>
+                                                    </a>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="https://www.getzner.com/ja/products/sylodamp">Sylodamp® (シロダンプ)<i class="icon-angle-right"></i>
+                                                    </a>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="https://www.getzner.com/ja/products/isotop">Isotop® (アイソトップ)<i class="icon-angle-right"></i>
+                                                    </a>
+                                                </li>
+                                                                                    </ul>
+                                    </div>
+                                                            </li>
+                                                                                            
+                                                     
+                                                                                                                                                
+                                                    
+                                                    <li >
+                                <a href="https://www.getzner.com/ja/latest-news">最新情報</a>
+
+                                                            </li>
+                                                                                            
+                                                     
+                                                                                                                                                
+                                                                                                                
+                                                    <li class="js-main-nav-item">
+                                <a href="https://www.getzner.com/ja/service">サービス</a>
+
+                                                                    <div class="dropdown-wrapper js-dropdown">
+                                        <i class="icon-dropdown js-dropdown-icon"></i>
+                                    </div>
+
+                                    <div class="ja-sub-nav js-sub-nav">
+                                        <div class="ja-sub-nav-title-wrapper">
+                                            <span class="ja-sub-nav-title">サービス</span>
+                                        </div>
+
+                                        <ul>
+                                                                                            <li>
+                                                    <a href="https://www.getzner.com/ja/service/services">サービス<i class="icon-angle-right"></i>
+                                                    </a>
+                                                </li>
+                                                                                            <li>
+                                                    <a href="https://www.getzner.com/ja/service/the-new-getzner-app">ゲッツナーの新しいアプリ<i class="icon-angle-right"></i>
+                                                    </a>
+                                                </li>
+                                                                                    </ul>
+                                    </div>
+                                                            </li>
+                                            
+                    <li class="navigation-search js-navigation-search">
+                        <div class="navigation-inner js-navigation-inner">
+                            <div class="navigation-search-overlay">
+                                <form action="https://www.getzner.com/ja/search"
+                                      method="get"
+                                      class="search-form">
+                                    <input type="text"
+                                           name="q"
+                                           placeholder="検索"
+                                           value=""
+                                            />
+
+                                    <div class="navigation-search-close js-navigation-search-toggle">
+                                        <span class="navigation-search-close-icon">&gt;</span>
+                                    </div>
+
+                                    <div class="navigation-search-toggle js-navigation-search-toggle">
+                                        <i class="icon-search"></i>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            
+            <div class="mobile-top-navigation">
+                <ul>
+                                            <li><a href="https://www.getzner.com/ja/service/login">ログイン</a></li>
+                                    </ul>
+            </div>
+        </nav>
+
+        <div class="top-menu ja-startpage-language">
+                            <div class="ja-startpage-nav-right navigation">
+                                            <li><a href="https://www.getzner.com/ja/service/login">ログイン</a></li>
+                                    </div>
+            
+            <div class="country-language">
+                                    <div class="language">
+                        
+<form autocomplete="off">
+    <select name="language" class="js-language-chooser">
+                    
+                            <option 
+                        value="https://www.getzner.com/de">
+                    DE
+                </option>
+                                
+                            <option 
+                        value="https://www.getzner.com/en">
+                    EN
+                </option>
+                                
+                            <option 
+                        value="https://www.getzner.com/fr">
+                    FR
+                </option>
+                                
+                            <option selected
+                        value="https://www.getzner.com/ja">
+                    JA
+                </option>
+                                
+                            <option 
+                        value="https://www.getzner.com/zh">
+                    ZH
+                </option>
+                                
+                            <option 
+                        value="https://www.getzner.com/es">
+                    ES
+                </option>
+                                
+                            <option 
+                        value="https://www.getzner.com/pl">
+                    PL
+                </option>
+                                
+                            <option 
+                        value="https://www.getzner.com/en-us">
+                    US
+                </option>
+                        </select>
+</form>                    </div>
+                            </div>
+        </div>
+
+        <div class="mobile-controls">
+                            <div class="mobile-controls-block">
+                    
+<form autocomplete="off">
+    <select name="language" class="js-language-chooser">
+                    
+                            <option 
+                        value="https://www.getzner.com/de">
+                    DE
+                </option>
+                                
+                            <option 
+                        value="https://www.getzner.com/en">
+                    EN
+                </option>
+                                
+                            <option 
+                        value="https://www.getzner.com/fr">
+                    FR
+                </option>
+                                
+                            <option selected
+                        value="https://www.getzner.com/ja">
+                    JA
+                </option>
+                                
+                            <option 
+                        value="https://www.getzner.com/zh">
+                    ZH
+                </option>
+                                
+                            <option 
+                        value="https://www.getzner.com/es">
+                    ES
+                </option>
+                                
+                            <option 
+                        value="https://www.getzner.com/pl">
+                    PL
+                </option>
+                                
+                            <option 
+                        value="https://www.getzner.com/en-us">
+                    US
+                </option>
+                        </select>
+</form>                </div>
+            
+            <div class="mobile-controls-block">
+                <div class="mobile-toggle-menu js-toggle-menu">
+                    <span>&nbsp;</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <div class="header-placeholder"></div>
+
+<div class="lang-switch-overlay" id="lang-switch-overlay">
+    <div class="overlay-shadow" id="overlay-shadow"></div>
+    <div class="overlay-window">
+        <i class="icon-close overlay-close-button" id="overlay-close-button"></i>
+
+        <h2 class="headline-section w-underline orange overlay-header">
+            Information
+        </h2>
+
+        <p class="overlay-text">
+             You&#039;re now leaving the US-Version of Getzner.com and about to change to Getzner International Website
+        </p>
+
+        <a class="button" id="lang-switch-button" href="#">OK</a>
+    </div>
+</div>
+
+
+    <div id="content" vocab="http://schema.org/" typeof="Content" property="content">
+            
+    <div class="content" typeof="Content">
+            <div class="intro">
+        <div class="intro-inner">
+            <div class="va-outer">
+                <div class="va-middle">
+                    <div class="va-inner text-align-center">
+                        <img src="/bundles/clientwebsite/getzner/img/loader/45-jahre-loader.gif" alt="45 Years Loader">
+                        <span class="w-underline orange">45年の経験を持つ防振技術のエキスパート...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <section class="startpage-header-columns" property="header_columns">
+            <div class="js-ja-startpage-slider" property="headerSlider" typeof="collection">
+                                                        
+                                                                
+                    <div class="header-column ja-startpage-slide"
+                         rel="headerSlider"
+                         data-href="https://www.getzner.com/ja/applications/rail"
+                         typeof="block">
+                        <div class="ja-startpage-slide-inner" style="background-image: url('/uploads/media/1920x/02/522-Getzner-Bereich-Bahn.jpg?v=1-0')">
+                            <div class="ja-startpage-inner-wrapper">
+                                <span class="headline-section w-underline orange startpage-slider-headline">鉄道</span>
+                            </div>
+                        </div>
+
+                        <div class="header-column-hover">
+                            <div class="va-outer">
+                                <div class="va-middle">
+                                    <div class="va-inner">
+                                        <div class="header-column-hover-inner">
+                                            <span class="header-column-headline w-underline more-space">鉄道</span>
+
+                                                                                            <p>鉄道分野向け製品およびソリューション</p>
+
+                                            
+                                                                                            <a class="button"
+                                                   href="https://www.getzner.com/ja/applications/rail">詳細を知る</a>
+                                                                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                                        
+                                                                
+                    <div class="header-column ja-startpage-slide"
+                         rel="headerSlider"
+                         data-href="https://www.getzner.com/ja/applications/construction"
+                         typeof="block">
+                        <div class="ja-startpage-slide-inner" style="background-image: url('/uploads/media/1920x/00/490-Baudynamik.jpg?v=1-0')">
+                            <div class="ja-startpage-inner-wrapper">
+                                <span class="headline-section w-underline orange startpage-slider-headline">建築</span>
+                            </div>
+                        </div>
+
+                        <div class="header-column-hover">
+                            <div class="va-outer">
+                                <div class="va-middle">
+                                    <div class="va-inner">
+                                        <div class="header-column-hover-inner">
+                                            <span class="header-column-headline w-underline more-space">建築</span>
+
+                                                                                            <p>建築分野向け製品およびソリューション</p>
+
+                                            
+                                                                                            <a class="button"
+                                                   href="https://www.getzner.com/ja/applications/construction">詳細を知る</a>
+                                                                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                            </div>
+        </section>
+
+        <div class="grid max-width content-wrapper">
+            <div class="padding-box">
+                <div class="ja-quicklinks grid__item six-eighths maxPageWidth--one-whole">
+                    <div class="quicklinks-wrapper">
+                                                                                    
+                                <div class="quicklink-item">
+                                    <div class="quicklink-head">
+                                                                                    <picture>
+                                                <source media="(max-width: 480px)"
+                                                        srcset="/uploads/media/440x140/06/546-Getzner-Ueber-Uns.jpg?v=1-0">
+                                                <source media="(max-width: 770px)"
+                                                        srcset="/uploads/media/730x200/06/546-Getzner-Ueber-Uns.jpg?v=1-0">
+
+                                                <img src="/uploads/media/325x140/06/546-Getzner-Ueber-Uns.jpg?v=1-0"
+                                                     alt="Ueber Uns">
+                                            </picture>
+                                        
+                                                                                    <div class="ja-startpage-inner-wrapper">
+                                                <span class="quicklink-head-title" property="title">
+                                                    当社について
+                                                </span>
+                                            </div>
+                                                                            </div>
+
+                                                                            <div class="quicklink-content">
+                                            <ul property="link">
+                                                                                                    <li>
+                                                        <a href="https://www.getzner.com/ja/about-us">
+                                                            当社について
+                                                            <i class="icon-angle-right"></i>
+                                                        </a>
+                                                    </li>
+                                                                                            </ul>
+                                        </div>
+                                                                    </div>
+                                                            
+                                <div class="quicklink-item">
+                                    <div class="quicklink-head">
+                                                                                    <picture>
+                                                <source media="(max-width: 480px)"
+                                                        srcset="/uploads/media/440x140/03/523-Getzner-Bereich-Bau.jpg?v=1-0">
+                                                <source media="(max-width: 770px)"
+                                                        srcset="/uploads/media/730x200/03/523-Getzner-Bereich-Bau.jpg?v=1-0">
+
+                                                <img src="/uploads/media/325x140/03/523-Getzner-Bereich-Bau.jpg?v=1-0"
+                                                     alt="Bereich Bau">
+                                            </picture>
+                                        
+                                                                                    <div class="ja-startpage-inner-wrapper">
+                                                <span class="quicklink-head-title" property="title">
+                                                    建築
+                                                </span>
+                                            </div>
+                                                                            </div>
+
+                                                                            <div class="quicklink-content">
+                                            <ul property="link">
+                                                                                                    <li>
+                                                        <a href="https://www.getzner.com/ja/applications/construction/structural-dynamics">
+                                                            構造力学
+                                                            <i class="icon-angle-right"></i>
+                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="https://www.getzner.com/ja/applications/construction/building-acoustics">
+                                                            建築音響
+                                                            <i class="icon-angle-right"></i>
+                                                        </a>
+                                                    </li>
+                                                                                            </ul>
+                                        </div>
+                                                                    </div>
+                                                            
+                                <div class="quicklink-item">
+                                    <div class="quicklink-head">
+                                                                                    <picture>
+                                                <source media="(max-width: 480px)"
+                                                        srcset="/uploads/media/440x140/02/752-service.jpg?v=1-0">
+                                                <source media="(max-width: 770px)"
+                                                        srcset="/uploads/media/730x200/02/752-service.jpg?v=1-0">
+
+                                                <img src="/uploads/media/325x140/02/752-service.jpg?v=1-0"
+                                                     alt="Service">
+                                            </picture>
+                                        
+                                                                                    <div class="ja-startpage-inner-wrapper">
+                                                <span class="quicklink-head-title" property="title">
+                                                    鉄道
+                                                </span>
+                                            </div>
+                                                                            </div>
+
+                                                                            <div class="quicklink-content">
+                                            <ul property="link">
+                                                                                                    <li>
+                                                        <a href="https://www.getzner.com/ja/applications/rail/urban-transport-urban-railway-and-underground">
+                                                            都市交通機関（路面電車および地下鉄）
+                                                            <i class="icon-angle-right"></i>
+                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="https://www.getzner.com/ja/applications/rail/local-transit-urban-railway">
+                                                            近距離交通（市電）
+                                                            <i class="icon-angle-right"></i>
+                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="https://www.getzner.com/ja/applications/rail/standard-gauge-railway">
+                                                            本線（標準軌）
+                                                            <i class="icon-angle-right"></i>
+                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="https://www.getzner.com/ja/applications/rail/high-speed">
+                                                            高速鉄道
+                                                            <i class="icon-angle-right"></i>
+                                                        </a>
+                                                    </li>
+                                                                                                    <li>
+                                                        <a href="https://www.getzner.com/ja/applications/rail/heavy-freight">
+                                                            重量貨物列車
+                                                            <i class="icon-angle-right"></i>
+                                                        </a>
+                                                    </li>
+                                                                                            </ul>
+                                        </div>
+                                                                    </div>
+                                                                        </div>
+
+                                            <div class="ja-startpage-news">
+                            <span class="ja-startpage-news-title w-underline orange">最新情報</span>
+
+                            <div class="ja-startpage-news-wrapper">
+                                <ul>
+                                                                            <li data-href="https://www.getzner.com/ja/latest-news/news/new-case-study-impact-noise-protection-for-lightweight-stairs">
+                                                                                            <div class="ja-startpage-news-image">
+                                                    <img src="/uploads/media/70x50/05/3605-Reihenhausanlage%20Perlach%20M%C3%BCnchen%20Treppenlagerung-1.jpg?v=2-0">
+                                                </div>
+                                            
+                                            <div class="ja-startpage-news-content">
+                                                <span class="ja-startpage-news-date">
+                                                    ニュース
+                                                    &bull; 28. 4月 2017
+                                                </span>
+
+                                                <div class="ja-startpage-news-title-wrapper">
+                                                    <span class="ja-startpage-news-item-title">New Case Study: impact noise protection for lightweight stairs</span>
+                                                </div>
+
+                                                <i class="icon-angle-right"></i>
+                                            </div>
+                                        </li>
+                                                                    </ul>
+
+                                                            </div>
+                        </div>
+                                    </div>
+
+                <section class="ja-sidebar grid__item two-eighths maxPageWidth--one-whole">
+                    <div class="ja-sidebar-wrapper grid">
+                        <div class="ja-sidebar-container">
+                                                            <div class="sidebar-item grid__item maxPageWidth--one-third iphone--one-whole">
+                                                                            <span class="sidebar-title" property="caseStudiesTitle">ケーススタディ</span>
+                                    
+                                    <ul property="caseStudiesLink">
+                                                                                                                                    <img src="/uploads/media/220x120/09/269-header-Teststrecke-brasilien.jpg?v=1-0"/>
+                                            
+                                                                                                                                        <li>
+                                                    <a href="https://www.getzner.com/ja/case-studies/long-term-test-of-rail-pads-on-heavy-traffic-route" property="title">重量輸送区間におけるレールパッドの長期テスト<i class="icon-angle-right"></i>
+                                                    </a>
+                                                </li>
+                                                                                                                                
+                                                                                                                                        <li>
+                                                    <a href="https://www.getzner.com/ja/case-studies/elasticity-for-the-slab-track-in-the-gotthard-base-tunnel" property="title">ゴッタルド地下トンネルの振動対策<i class="icon-angle-right"></i>
+                                                    </a>
+                                                </li>
+                                                                                                                                
+                                                                                                                                        <li>
+                                                    <a href="https://www.getzner.com/ja/case-studies/hitachi" property="title">イギリス高速鉄道車両の浮床防振材<i class="icon-angle-right"></i>
+                                                    </a>
+                                                </li>
+                                                                                                                        </ul>
+
+                                                                            <div class="show-more-container">
+                                            <a href="https://www.getzner.com/ja/case-studies" property="linkMoreText">Show all</a>
+                                        </div>
+                                                                    </div>
+                            
+                                                            <div class="sidebar-item grid__item maxPageWidth--one-third iphone--one-whole">
+                                                                            <span class="sidebar-title" property="referencesTitle">リファレンス</span>
+                                    
+                                    <ul property="references">
+                                                                                                                                                                                <li>
+                                                    <a href="http://getzner.com/ja/references" property="title">スウェーデン、ゼーデルストレームトンネル<i class="icon-angle-right"></i>
+                                                    </a>
+                                                </li>
+                                                                                                                                                                                                                            <li>
+                                                    <a href="http://getzner.com/ja/references" property="title">フランス、ストラスブール市電<i class="icon-angle-right"></i>
+                                                    </a>
+                                                </li>
+                                                                                                                        </ul>
+
+                                                                            <div class="show-more-container">
+                                            <a href="https://www.getzner.com/ja/references" property="linkMoreText">Show all</a>
+                                        </div>
+                                                                    </div>
+                            
+                                                            <div class="sidebar-item grid__item maxPageWidth--one-third iphone--one-whole">
+                                                                            <span class="sidebar-title" property="eventsTitle">Events</span>
+                                    
+                                    <ul property="upcomingEvents">
+                                                                                    <li>
+                                                <a href="https://www.getzner.com/ja/events/360/2018-world-conference-on-timber-engineering" property="title">
+                                                    <i class="icon-angle-right"></i>2018 World Conference on Timber Engineering</a>
+
+                                                <span class="upcoming-event-date">
+                                                    20.08.18
+                                                    - 23.08.18
+                                                </span>
+                                            </li>
+                                                                                    <li>
+                                                <a href="https://www.getzner.com/ja/events/319/internoise-2018" property="title">
+                                                    <i class="icon-angle-right"></i>Internoise 2018  </a>
+
+                                                <span class="upcoming-event-date">
+                                                    26.08.18
+                                                    - 29.08.18
+                                                </span>
+                                            </li>
+                                                                                    <li>
+                                                <a href="https://www.getzner.com/ja/events/323/internoise" property="title">
+                                                    <i class="icon-angle-right"></i>Internoise</a>
+
+                                                <span class="upcoming-event-date">
+                                                    26.08.18
+                                                    - 29.08.18
+                                                </span>
+                                            </li>
+                                                                            </ul>
+
+                                                                            <div class="show-more-container">
+                                            <a href="https://www.getzner.com/ja/latest-news/events" property="linkMoreText">Show all</a>
+                                        </div>
+                                                                    </div>
+                                                    </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="footer-pusher"></div>
+</div>
+
+<div class="social-overlay-shadow" id="social-overlay-shadow"></div>
+<div class="social-overlay" id="social-overlay">
+    <div id="overlay-slides">
+            </div>
+
+    <div class="close-social-overlay js-close-overlay">
+        <span class="icon-close"></span>
+    </div>
+</div>
+<div class="close-social-overlay mobile-only js-close-overlay">
+    <span class="icon-close"></span>
+</div>
+
+
+    <footer class="footer background-grey js-footer">
+    <div class="footer-inner">
+        <div class="grid">
+            <div class="grid__item one-quarter iphone--one-whole">
+                <img src="https://www.getzner.com/bundles/clientwebsite/getzner/img/logos/logo-getzner.png?v=201804030811" alt="Getzner Logo">
+            </div>
+            <div class="grid__item one-quarter iphone--one-whole">
+                <ul class="footer-navigation">
+                                            <li><a href="https://www.getzner.com/ja/contact">お問い合わせ</a></li>
+                                            <li><a href="https://www.getzner.com/ja/about-us">当社について</a></li>
+                                            <li><a href="https://www.getzner.com/ja/legal-notice">情報開示・免責事項</a></li>
+                                            <li><a href="https://www.getzner.com/ja/sitemap">サイトマップ</a></li>
+                                            <li><a href="https://www.getzner.com/ja/sites">拠点地図</a></li>
+                                            <li><a href="https://www.getzner.com/ja/privacy-policy">データ保護ポリシー</a></li>
+                                    </ul>
+            </div>
+                            <div class="grid__item one-quarter ipadp--two-quarters iphone--one-whole footer-newsletter-block">
+                    <span class="headline-contact-block">ニュースレター</span>
+                    
+
+<form action="//getzner.us12.list-manage.com/subscribe/post?u=60033daf23390e98ffe10986c&amp;amp;id=645c89131d" method="post" target="_blank" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" novalidate>
+    <div class="input-group has-button">
+        <input name="EMAIL" id="mce-EMAIL" type="email" value="" placeholder="電子メールアドレス" class="input">
+        <button onclick="ga('send', 'event', 'Newsletter', 'Click - Button', 'Open: Subscribe');"
+                type="submit"
+                class="btn">
+            <span class="icon-angle-right"></span>
+        </button>
+    </div>
+</form>                </div>
+                    </div>
+    </div>
+    <ul class="footer-social">
+        <li><a target="_blank" href="http://www.facebook.com/getzner"><i class="icon-facebook2"></i></a></li>
+        <li><a target="_blank" href="https://twitter.com/getznertweet"><i class="icon-twitter"></i></a></li>
+        <li><a target="_blank" href="https://www.youtube.com/GetznerWerkstoffe"><i class="icon-youtube"></i></a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/company/getzner-werkstoffe-gmbh"><i class="icon-linkedin"></i></a></li>
+    </ul>
+</footer>    <div class="cookie-overlay bottom">
+    <div class="max-width">
+                    <p>
+                    コンテンツおよび広告の最適化、ソーシャルメディア向けの機能の提供、当サイトへのアクセス解析のために、クッキーを使用しています。さらに、当社のウェブサイト利用に関する情報を、ソーシャルメディア、広告、および解析向けに利用します。<a href="//www.getzner.com/ja/legal-notice">詳細を見る</a></p>
+                <span class="cookie-accept js-cookie-accept">&#10005;</span>
+    </div>
+</div>
+    <script type="text/javascript" src="https://www.getzner.com/bundles/clientwebsite/getzner/dist/js/jquery.min.js?v=201804030811"></script>
+    <script type="text/javascript" src="https://www.getzner.com/bundles/clientwebsite/getzner/dist/js/jquery-ui.min.js?v=201804030811"></script>
+    <script type="text/javascript" src="https://www.getzner.com/bundles/clientwebsite/getzner/dist/js/script.min.js?v=201804030811"></script>
+    <script type="text/javascript" src="https://www.getzner.com/bundles/clientwebsite/getzner/dist/js/ja-startpage.js?v=201804030811"></script>
+
+
+<script type="text/javascript">
+    window.language = 'ja';
+    window.chooseOrganisationTrans = "Choose organisation";
+
+    $(document).ready(function() {
+        Getzner.init();
+        new GetznerWeb.CropText();
+            new DownloadsSlider({
+        selector: '.downloads-slider'
+    });
+    new Teaser({
+        selector: '#teaser'
+    });
+    });
+
+    $(window).load(function(){
+        Getzner.load();
+            });
+
+    $(window).resize(function(){
+        Getzner.resize();
+            });
+</script>
+
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "WebSite",
+  "url": "https://www.getzner.com",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.getzner.com/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+</body>
+</html>

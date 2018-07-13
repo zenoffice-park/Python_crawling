@@ -1,0 +1,489 @@
+<!doctype html>
+
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>GeniusTravel</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="dist/styles/main.css">
+        <script src="dist/scripts/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="Scripts/angular.js"></script>
+
+        <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-51216817-6', 'auto');
+            ga('create', 'UA-57223251-1', 'auto', { 'name': 'globalTracker' });
+            ga('send', 'pageview');
+            ga('globalTracker.send', 'pageview');
+
+        </script>
+        <script>
+            /**
+            * Function that tracks a click on an outbound link in Google Analytics.
+            * This function takes a valid URL string as an argument, and uses that URL string
+            * as the event label.
+            */
+            var trackOutboundLink = function (url) {
+                ga('send', 'event', 'outbound', 'click', url, {
+                    'hitCallback':
+                      function () {
+                          //document.location = url;
+                      }
+                });
+            }
+        </script>
+
+    </head>
+    <body ng-app="app" ng-cloak ng-controller="searchController" onload="init();">
+
+        <!-- Google Tag Manager -->
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KBDMN3"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KBDMN3');</script>
+        <!-- End Google Tag Manager -->
+
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!--navigatie -->
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Menu</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="dist/images/logo-genius--travel.svg"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <a href="http://www.geniustravel.com/hotels" class="navbar--btn-icon" data-toggle="tooltip" data-placement="bottom" title="{{translation.HOTELS}}" id="hotels-tooltip"><i class="icon--hotels icon--radial">{{translation.HOTELS}}</i></a>
+                    <a href="http://www.geniustravel.com/cars" class="navbar--btn-icon" data-toggle="tooltip" data-placement="bottom" title="{{translation.CARRENTAL}}" id="cars-tooltip"><i class="icon--cars icon--radial">{{translation.CARRENTAL}}</i></a>
+                    <a href="http://www.geniustravel.com/flights" class="navbar--btn-icon" data-toggle="tooltip" data-placement="bottom" title="{{translation.FLIGHTS}}" id="flights-tooltip"><i class="icon--flights icon--radial">{{translation.FLIGHTS}}</i></a>
+                    <a href="http://www.geniustravel.com/apartments" class="navbar--btn-icon" data-toggle="tooltip" data-placement="bottom" title="{{translation.APARTMENTS}}" id="apartments-tooltip"><i class="icon--apartments icon--radial">{{translation.APARTMENTS}}</i></a>
+                    <!-- <a href="http://www.geniustravel.com/tiqets" class="navbar--btn-icon" data-toggle="tooltip" data-placement="bottom" title="{{translation.TIQETS}}" id="tiqets"><i class="icon--tiqets icon--radial">{{translation.TIQETS}}</i></a> -->
+                    <a href="#traveltips" class="navbar--btn-icon js--scroll-traveltips" data-toggle="tooltip" data-placement="bottom" title="{{translation.TRAVELTIPS}}" id="traveltips-tooltip"><i class="icon--traveltips icon--radial">{{translation.TRAVELTIPS}}</i></a>
+
+                    <div class="nav--language">
+                        <a class="nav--language-button" href="#">{{myLanguage.name}}</a>
+                        <div class="nav--language-container">
+                            <a ng-repeat="listLanguage in languages" ng-click="setNewLanguage(listLanguage)" ng-class="{active: listLanguage.id === myLanguage.id}">{{listLanguage.name}}</a>
+                        </div>
+                    </div>
+                </div><!--/.navbar-collapse -->
+            </div>
+        </nav>
+
+        <div class="header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="header--layer-darken">
+                        <h1 class="SloganContainer_{{myLanguage.id}}">{{translation.GENIUSSLOGANPARTONE}} {{translation.GENIUSSLOGANPARTTWO}}</h1>
+                        <h1 class="SloganContainer_{{myLanguage.id}}">{{translation.GENIUSSLOGANPARTTHREE}}</h1>
+                    </div>
+                    <div class="header--search-bar">
+                        <div class="container is--relative">
+                            <div class="row">
+                                <div id="header--sublogo" class="header--sublogo"><canvas id="uil-header" width="315" height="471"></canvas></div>
+                                <div class="col-xs-15 col-md-7 col-lg-5">
+                                    <h2>{{translation.IMSEARCHINGFOR}}<!--Ik ben op zoek naar--></h2>
+                                    <p>{{translation.OVER50K}}<!--Meer dan 200.000 reizigers gingen u voor--></p>
+                                </div>
+                                <div class="col-xs-15 col-md-7 col-md-push-1 col-lg-5 col-lg-push-0">
+                                    <div class="nav--product">
+                                        <a class="nav--product-button" href="#"><h3>{{translation.CHOOSEASITE}}<!--... een leuk avontuur!--></h3></a>
+                                        <div class="nav--product-container">
+                                            <a href="http://www.geniustravel.com/hotels"><i class="icon--hotels"></i><h3>{{translation.HOTELS}}<!--Hotels--></h3></a>
+                                            <a href="http://www.geniustravel.com/cars"><i class="icon--cars"></i><h3>{{translation.CARRENTAL}}<!--Autohuur--></h3></a>
+                                            <a href="http://www.geniustravel.com/flights"><i class="icon--flights"></i><h3>{{translation.FLIGHTS}}<!--Vluchten--></h3></a>
+                                            <a href="http://www.geniustravel.com/apartments"><i class="icon--apartments"></i><h3>{{translation.APARTMENTS}}<!--Appartementen--></h3></a>
+                                            <a href="#traveltips"><i class="icon--traveltips js--scroll-traveltips"></i><h3>{{translation.TRAVELTIPS}}</h3></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- BLOK producten -->
+            <div class="row">
+                <div class="col-sm-5 col-md-3 col-lg-3">
+                    <a href="http://www.geniustravel.com/hotels" class="btn--products btn--products-hotels hover--grow">
+                        <div class="btn--products-content hover--lineair">
+                            <h2>{{translation.HOTELS}}</h2>
+                            <i class="icon--hotels icon--diap icon--radial"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-5 col-md-3 col-md-push-0 col-lg-3">
+                    <a href="http://www.geniustravel.com/cars" class="btn--products btn--products-cars hover--grow">
+                        <div class="btn--products-content hover--lineair">
+                            <h2>{{translation.CARRENTAL}}</h2>
+                            <i class="icon--cars icon--diap icon--radial"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-5 col-md-3 col-lg-3">
+                    <a href="http://www.geniustravel.com/flights" class="btn--products btn--products-flights hover--grow">
+                        <div class="btn--products-content hover--lineair">
+                            <h2>{{translation.FLIGHTS}}</h2>
+                            <i class="icon--flights icon--diap icon--radial"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-5 col-md-3 col-md-push-0 col-lg-3">
+                    <a href="http://www.geniustravel.com/apartments" class="btn--products btn--products-apartments hover--grow">
+                        <div class="btn--products-content hover--lineair">
+                            <h2>{{translation.APARTMENTS}}</h2>
+                            <i class="icon--apartments icon--diap icon--radial"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-5 col-md-3 col-md-push-0 col-lg-3">
+                    <a href="#traveltips" class="btn--products btn--products-traveltips hover--grow js--scroll-traveltips">
+                        <div class="btn--products-content hover--lineair">
+                            <h2>{{translation.TRAVELTIPS}}</h2>
+                            <i class="icon--traveltips icon--diap icon--radial"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div> <!-- /container -->
+
+        <!-- iframes -->
+        <div class="container">
+            <div class="row">
+
+                <a id="iframe"></a>
+                <div ng-show="showCMSPage" id="myCMSPageDiv" class="CMSPageModalWindow col-xs-15">
+                    <div class="CMSPageWrapper">
+                        <div>
+                            <a href="#" class="closeCMSPageButton iframe--close" ng-click="toggleCMSPage('none')">close x</a>
+                            <iframe class="iframe" ng-src="{{translation.MYBOOKINGURL}}" ng-show="cmsPageType == 'Booking'"></iframe>
+                            <iframe class="iframe" ng-src="{{translation.PRIVACYANDCOOKIESURL}}" ng-show="cmsPageType == 'Privacy'"></iframe>
+                            <iframe class="iframe" ng-src="{{translation.WHOWEAREURL}}" ng-show="cmsPageType == 'Whoweare'"></iframe>
+                            <iframe class="iframe" ng-src="{{translation.TERMSANDCONDITIONSURL}}" ng-show="cmsPageType == 'Terms'"></iframe>
+                            <iframe class="iframe" ng-src="{{translation.CONTACTURL}}" ng-show="cmsPageType == 'Contact'"></iframe>
+                            <iframe class="iframe" ng-src="{{translation.PRESSURL}}" ng-show="cmsPageType == 'Press'"></iframe>
+                            <div width="100%" class="iframe" style="height:auto;" ng-show="cmsPageType == 'Mail'">
+
+                                <div style="text-align: center;">
+                                    <br />
+                                    <h3 class="appStoreText">{{translation.INFORM}}</h3>
+                                    <br />
+                                    <br />
+                                    <input type="text" id="txtSender" name="sender" ng-model="senderModel" class="labelInField" placeholder="{{translation.SENDER}}">
+                                    <br />
+                                    <br />
+                                    <input type="text" id="txtReceiver" name="receiver" ng-model="receiverModel" class="labelInField" placeholder="{{translation.RECIPIENTS}}">
+                                    <br />
+                                    <br />
+                                    <a class="button darkblue" style="" target="_blank" ng-click="setSenderReceiver();sendMail(senderModel,receiverModel);toggleCMSPage('Sent')">{{translation.SEND}}</a><br />
+                                    <br />
+                                </div>
+                            </div>
+                            <div class="iframe" style="height:auto;" ng-show="cmsPageType == 'Sent'">
+                                <div style="text-align: center;">
+                                    <br />
+                                    <h3 class="appStoreText">{{translation.INFORM}}</h3>
+                                    <br />
+                                    <br />
+                                    <h2 class="appStoreText">{{translation.THANKSFORMAIL}}</h2>
+                                    <br />
+                                    <br />
+                                    <img src="Content/images/geniuslogo.png" />
+                                    <br />
+                                    <br />
+                                    <br />
+                                </div>
+                            </div>
+                            <div class="iframe" style="height:auto;" ng-show="cmsPageType == 'Movie'">
+                                <div style="text-align: center;">
+                                    <iframe id="cmsMovie" width="560" height="315" ng-src="{{translation.MOVIEURL}}" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="container">
+
+                    <!-- BLOK places to go -->
+                    <div class="row" id="traveltips">
+                        <div class="places clearfix">
+                            <h1>GeniusTravel<sup>&reg;</sup> Tips</h1>
+                            <div class="col-xs-3" ng-if="myLanguage.id === 'nl'">
+                                <ul>
+                                    <li><a href="http://city.geniustravel.com/Amsterdam/" target="_blank">Amsterdam</a></li>
+                                    <li><a href="http://city.geniustravel.com/Bali/" target="_blank">Bali</a></li>
+                                    <li><a href="http://city.geniustravel.com/Bangalore/" target="_blank">Bangalore</a></li>
+                                    <li><a href="http://city.geniustravel.com/Bangkok/" target="_blank">Bangkok</a></li>
+                                    <li><a href="http://city.geniustravel.com/Barcelona/" target="_blank">Barcelona</a></li>
+                                    <li><a href="http://city.geniustravel.com/Belgrado/" target="_blank">Belgrado</a></li>
+                                    <li><a href="http://city.geniustravel.com/Berlijn/" target="_blank">Berlijn</a></li>
+                                    <li><a href="http://city.geniustravel.com/Bordeaux/" target="_blank">Bordeaux</a></li>
+                                    <li><a href="http://city.geniustravel.com/Brussel/" target="_blank">Brussel</a></li>
+                                    <li><a href="http://city.geniustravel.com/Delhi/" target="_blank">Delhi</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-3" ng-if="myLanguage.id === 'nl'">
+                                <ul>
+                                    <li><a href="http://city.geniustravel.com/Dubai/" target="_blank">Dubai</a></li>
+                                    <li><a href="http://city.geniustravel.com/Edinburgh/" target="_blank">Edinburgh</a></li>
+                                    <li><a href="http://city.geniustravel.com/Geneve/" target="_blank">Gen&egrave;ve</a></li>
+                                    <li><a href="http://city.geniustravel.com/Goa/" target="_blank">Goa</a></li>
+                                    <li><a href="http://city.geniustravel.com/Hongkong/" target="_blank">Hongkong</a></li>
+                                    <li><a href="http://city.geniustravel.com/Ibiza/" target="_blank">Ibiza</a></li>
+                                    <li><a href="http://city.geniustravel.com/Istanboel/" target="_blank">Istanboel</a></li>
+                                    <li><a href="http://city.geniustravel.com/Jeruzalem/" target="_blank">Jeruzalem</a></li>
+                                    <li><a href="http://city.geniustravel.com/Johannesburg/" target="_blank">Johannesburg</a></li>
+                                    <li><a href="http://city.geniustravel.com/Kopenhagen/" target="_blank">Kopenhagen</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-3" ng-if="myLanguage.id === 'nl'">
+                                <ul>
+                                    <li><a href="http://city.geniustravel.com/Kuala-Lumpur/" target="_blank">Kuala Lumpur</a></li>
+                                    <li><a href="http://city.geniustravel.com/Lissabon/" target="_blank">Lissabon</a></li>
+                                    <li><a href="http://city.geniustravel.com/Londen/" target="_blank">Londen</a></li>
+                                    <li><a href="http://city.geniustravel.com/Madeira/" target="_blank">Madeira</a></li>
+                                    <li><a href="http://city.geniustravel.com/Madrid/" target="_blank">Madrid</a></li>
+                                    <li><a href="http://city.geniustravel.com/Malta/" target="_blank">Malta</a></li>
+                                    <li><a href="http://city.geniustravel.com/Monaco/" target="_blank">Monaco</a></li>
+                                    <li><a href="http://city.geniustravel.com/Moskou/" target="_blank">Moskou</a></li>
+                                    <li><a href="http://city.geniustravel.com/Mumbai/" target="_blank">Mumbai</a></li>
+                                    <li><a href="http://city.geniustravel.com/New-York/" target="_blank">New York</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-3" ng-if="myLanguage.id === 'nl'">
+                                <ul>
+                                    <li><a href="http://city.geniustravel.com/Parijs/" target="_blank">Parijs</a></li>
+                                    <li><a href="http://city.geniustravel.com/Phuket/" target="_blank">Phuket</a></li>
+                                    <li><a href="http://city.geniustravel.com/Praag/" target="_blank">Praag</a></li>
+                                    <li><a href="http://city.geniustravel.com/Rajasthan/" target="_blank">Rajasthan</a></li>
+                                    <li><a href="http://city.geniustravel.com/Rome/" target="_blank">Rome</a></li>
+                                    <li><a href="http://city.geniustravel.com/San-Francisco/" target="_blank">San Francisco</a></li>
+                                    <li><a href="http://city.geniustravel.com/Singapore/" target="_blank">Singapore</a></li>
+                                    <li><a href="http://city.geniustravel.com/Sint-Petersburg/" target="_blank">Sint-Petersburg</a></li>
+                                    <li><a href="http://city.geniustravel.com/Stockholm/" target="_blank">Stockholm</a></li>
+                                    <li><a href="http://city.geniustravel.com/Venetie/" target="_blank">Veneti&euml;</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-3" ng-if="myLanguage.id === 'nl'">
+                                <ul>
+                                    <li><a href="http://city.geniustravel.com/Wenen/" target="_blank">Wenen</a></li>
+                                    <li><a href="http://city.geniustravel.com/Zurich/" target="_blank">Z&uuml;rich</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-xs-3" ng-if="myLanguage.id !== 'nl'">
+                                <ul>
+                                    <li><a href="http://city.geniustravel.com/en/Amsterdam/" target="_blank">Amsterdam</a></li>
+                                    <li><a href="http://city.geniustravel.com/en/Bali/" target="_blank">Bali</a></li>
+                                    <li><a href="http://city.geniustravel.com/en/Bangalore/" target="_blank">Bangalore</a></li>
+                                    <li><a href="http://city.geniustravel.com/en/Bangkok/" target="_blank">Bangkok</a></li>
+                                    <li><a href="http://city.geniustravel.com/en/Barcelona/" target="_blank">Barcelona</a></li>
+                                    <li><a href="http://city.geniustravel.com/en/Belgrade/" target="_blank">Belgrade</a></li>
+                                    <li>Berlijn</li>
+                                    <li><a href="http://city.geniustravel.com/en/Bordeaux/" target="_blank">Bordeaux</a></li>
+                                    <li><a href="http://city.geniustravel.com/en/Brussels/" target="_blank">Brussels</a></li>
+                                    <li><a href="http://city.geniustravel.com/en/Delhi/" target="_blank">Delhi</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-3" ng-if="myLanguage.id !== 'nl'">
+                                <ul>
+                                    <li><a href="http://city.geniustravel.com/en/Dubai/" target="_blank">Dubai</a></li>
+                                    <li><a href="http://city.geniustravel.com/en/Edinburgh/" target="_blank">Edinburgh</a></li>
+                                    <li><a href="http://city.geniustravel.com/en/Geneva/" target="_blank">Geneva</a></li>
+                                    <li><a href="http://city.geniustravel.com/en/Goa/" target="_blank">Goa</a></li>
+                                    <li>Hongkong</li>
+                                    <li>Ibiza</li>
+                                    <li>Istanbul</li>
+                                    <li><a href="http://city.geniustravel.com/en/Jerusalem/" target="_blank">Jerusalem</a></li>
+                                    <li>Johannesburg</a></li>
+                                    <li>Kopenhagen</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-3" ng-if="myLanguage.id !== 'nl'">
+                                <ul>
+                                    <li>Kuala Lumpur</li>
+                                    <li>Lissabon</li>
+                                    <li><a href="http://city.geniustravel.com/en/London/" target="_blank">London</a></li>
+                                    <li>Madeira</li>
+                                    <li>Madrid</li>
+                                    <li>Malta</li>
+                                    <li><a href="http://city.geniustravel.com/en/Monaco/" target="_blank">Monaco</a></li>
+                                    <li>Moskou</li>
+                                    <li><a href="http://city.geniustravel.com/en/Mumbai/" target="_blank">Mumbai</a></li>
+                                    <li><a href="http://city.geniustravel.com/en/New-York/" target="_blank">New York</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-3" ng-if="myLanguage.id !== 'nl'">
+                                <ul>
+                                    <li>Parijs</li>
+                                    <li><a href="http://city.geniustravel.com/en/Phuket/" target="_blank">Phuket</a></li>
+                                    <li>Praag</li>
+                                    <li><a href="http://city.geniustravel.com/en/Rajasthan/" target="_blank">Rajasthan</a></li>
+                                    <li><a href="http://city.geniustravel.com/en/Rome/" target="_blank">Rome</a></li>
+                                    <li><a href="http://city.geniustravel.com/en/San-Francisco/" target="_blank">San Francisco</a></li>
+                                    <li>Singapore</li>
+                                    <li>Sint-Petersburg</li>
+                                    <li>Stockholm</li>
+                                    <li><a href="http://city.geniustravel.com/en/Venice/" target="_blank">Venice</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-3" ng-if="myLanguage.id !== 'nl'">
+                                <ul>
+                                    <li>Wenen</li>
+                                    <li><a href="http://city.geniustravel.com/en/Zurich/" target="_blank">Z&uuml;rich</a></li>
+                                </ul>
+                            </div>
+                            <div class="places--payoff"><h3 class="script rotate">{{translation.PLACES_PAYOFF}}</h3></div>
+                            <div class="places--sublogo"><img src="dist/images/sublogo-genius.svg"></div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <h4>Top 5</h4>
+                            <div ng-if="myLanguage.id === 'nl'">
+                                <ul>
+                                    <li><a href="http://city.geniustravel.com/Delhi/" target="_blank">Delhi</a></li>
+                                    <li><a href="http://city.geniustravel.com/Barcelona/" target="_blank">Barcelona</a></li>
+                                    <li><a href="http://city.geniustravel.com/Dubai/" target="_blank">Dubai</a></li>
+                                    <li><a href="http://city.geniustravel.com/Rome/" target="_blank">Rome</a></li>
+                                    <li><a href="http://city.geniustravel.com/Amsterdam/" target="_blank">Amsterdam</a></li>
+                                </ul>
+                            </div>
+
+                            <div ng-if="myLanguage.id !== 'nl'">
+                                <ul>
+                                    <li><a href="http://city.geniustravel.com/en/Delhi/" target="_blank">Delhi</a></li>
+                                    <li><a href="http://city.geniustravel.com/en/Barcelona/" target="_blank">Barcelona</a></li>
+                                    <li><a href="http://city.geniustravel.com/en/Dubai/" target="_blank">Dubai</a></li>
+                                    <li><a href="http://city.geniustravel.com/en/Rome/" target="_blank">Rome</a></li>
+                                    <li><a href="http://city.geniustravel.com/en/Amsterdam/" target="_blank">Amsterdam</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <h4>GeniusTravel&reg;</h4>
+                            <ul>
+                                <li><a href="#iframe" ng-click="toggleCMSPage('Whoweare')">{{translation.WHOWEARE}}</a></li>
+                                <li><a href="http://www.geniustravel.com/press" class="footerLink_{{myLanguage.id}}" target="_blank">{{translation.PRESS}}</a></li>
+                                <li><a href="#iframe" ng-click="toggleCMSPage('Contact')">{{translation.CONTACT}}</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-sm-3">
+                            <h4>{{translation.FOOTER_PRODUCTS}}</h4>
+                            <ul>
+                                <li><a href="http://www.geniustravel.com/hotels">{{translation.HOTELS}}<!--Hotels--></a></li>
+                                <li><a href="http://www.geniustravel.com/cars">{{translation.CARRENTAL}}<!--Autohuur--></a></li>
+                                <li><a href="http://www.geniustravel.com/flights">{{translation.FLIGHTS}}<!--Vluchten--></a></li>
+                                <li><a href="http://www.geniustravel.com/apartments">{{translation.APARTMENTS}}<!--Appartementen--></a></li>
+                                <li><a href="#traveltips" class="js--scroll-traveltips">{{translation.TRAVELTIPS}}</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <span class="mailchimp mailchimp--wrapper">
+                                <!-- Begin MailChimp Signup Form -->
+                                <div id="mc_embed_signup">
+                                <form action="//geniustravel.us12.list-manage.com/subscribe/post?u=881807617c8981f7b8f703649&amp;id=a1567c05bc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                    <div id="mc_embed_signup_scroll">
+
+                                    <div class="mc-field-group">
+                                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="{{translation.MC_PLACEHOLDER}}">
+                                        <input type="submit" value="{{translation.MC_BUTTON}}" name="subscribe" id="mc-embedded-subscribe" class="button">
+                                    </div>
+                                        <div id="mce-responses" class="clear">
+                                            <div class="response" id="mce-error-response" style="display:none"></div>
+                                            <div class="response" id="mce-success-response" style="display:none"></div>
+                                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_881807617c8981f7b8f703649_a1567c05bc" tabindex="-1" value=""></div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <!--End mc_embed_signup-->
+                            </span>
+
+                            <h4>{{translation.FOOTER_SOCIAL}}</h4>
+                            <p>
+                                <i class="small icon--twitter icon--radial"><a href="https://twitter.com/geniustravel" target="_blank" ng-click="trackOutboundLink('https://twitter.com/geniustravel');">Twitter</a></i>
+                                <i class="small icon--facebook icon--radial"><a href="https://www.facebook.com/GeniusTravel.com" target="_blank" ng-click="trackOutboundLink('https://www.facebook.com/GeniusTravel.com');">Facebook</a></i>
+                                <i class="small icon--mail icon--radial"><a href="#iframe" ng-click="toggleCMSPage('Mail')">Mail</a></i>
+                                <i class="small icon--question icon--radial"><a href="#iframe" ng-click="toggleCMSPage('Movie')">{{translation.QUESTION}}</a></i>
+                            </p>
+                            <p>&copy;2016 GeniusTravel&reg;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="dist/scripts/jquery.js"></script>
+        <script src="dist/scripts/main.js"></script>
+
+        <script src="Scripts/lodash.compat.js"></script>
+        <script src="Scripts/angular-route.js"></script>
+        <script src="Scripts/angular-resource.js"> </script>
+        <script src="Scripts/angular-cookies.js"></script>
+        <script src="Scripts/angular-sanitize.min.js"></script>
+        <script src="Scripts/angulartics.js"></script>
+        <script src="Scripts/angulartics-ga.js"></script>
+
+        <script src="app/app.js"></script>
+        <script src="app/services/supportedService.js"></script>
+        <script src="app/services/translationService.js"></script>
+        <script src="app/services/translationController.js"></script>
+        <script src="app/services/cookieStoreService.js"></script>
+        <script src="app/search/searchController.js"></script>
+
+        <script src="http://code.createjs.com/easeljs-0.8.1.min.js"></script>
+        <script src="http://code.createjs.com/tweenjs-0.6.1.min.js"></script>
+        <script src="http://code.createjs.com/movieclip-0.8.1.min.js"></script>
+        <script src="dist/scripts/uil.js"></script>
+        <script>
+        var canvas, stage, exportRoot;
+
+        function init() {
+            canvas = document.getElementById("uil-header");
+            exportRoot = new lib.uil();
+
+            stage = new createjs.Stage(canvas);
+            stage.addChild(exportRoot);
+            stage.update();
+            stage.enableMouseOver();
+
+            createjs.Ticker.setFPS(lib.properties.fps);
+            createjs.Ticker.addEventListener("tick", stage);
+        }
+        </script>
+
+    </body>
+</html>

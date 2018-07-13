@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>お問い合わせ</title>
+	<link rel="stylesheet" href="http://www.re-business.jp/wp/wp-content/themes/funai/style.css">
+	<link href="http://www.re-business.jp/wp/wp-content/themes/funai/css/jquery.bxslider.css" rel="stylesheet" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://www.re-business.jp/wp/wp-content/themes/funai/js/jquery.bxslider.min.js"></script>
+	<script type="text/Javascript">
+	$(document).ready(function(){
+		var foo = $('.bxslider').bxSlider({
+			speed: 1200, /* エフェクトのスピード */
+			captions: true, /* キャプション表示 titleタグ */
+			auto: true, /* 自動再生 */
+			autoControls: false, /* スタート、ストップボタン */
+			pager: true, /* ページャー */
+			pause: 3500, /* 表示間隔 */
+		    controls: false,//prev/nextを非表示
+          onSlideAfter: function () { foo.startAuto(); }
+		});
+
+		/* ページトップ */
+		$(".gotop").hide();
+		$(window).on("scroll", function() {
+			if ($(this).scrollTop() >550) {
+				$('.gotop').fadeIn("fast");
+			} else {
+				$('.gotop').fadeOut("fast");
+			}
+			scrollHeight = $(document).height();
+			scrollPosition = $(window).height() + $(window).scrollTop();
+			footHeight = $("footer").innerHeight();
+			if(scrollHeight - scrollPosition  <= footHeight){
+				/*$(".gotop").css({
+				"position":"fixed",
+				"top": footHeight});*/
+			} else {
+				$(".gotop").css({
+				"position":"fixed",
+				"right": "0px",
+				"top": "40px"});
+			}
+		});
+
+		$(".fix").hide();
+		$(window).on("scroll", function() {
+			if ($(this).scrollTop() >100) {
+				$('.fix').fadeIn("fast");
+			} else {
+				$('.fix').fadeOut("fast");
+			}
+			scrollHeight = $(document).height();
+			scrollPosition = $(window).height() + $(window).scrollTop();
+			footHeight = $("footer").innerHeight();
+			if(scrollHeight - scrollPosition  <= footHeight){
+				$(".fix").css({
+				"position":"absolute",
+				"bottom": footHeight});
+			} else {
+				$(".fix").css({
+				"position":"fixed",
+				"bottom": "0"});
+			}
+		});
+
+		$(".fix02").hide();
+		$(window).on("scroll", function() {
+			if ($(this).scrollTop() >100) {
+				$('.fix02').fadeIn("fast");
+			} else {
+				$('.fix02').fadeOut("fast");
+			}
+			scrollHeight = $(document).height();
+			scrollPosition = $(window).height() + $(window).scrollTop();
+			footHeight = $("footer").innerHeight();
+			if(scrollHeight - scrollPosition  <= footHeight){
+				$(".fix02").css({
+				"position":"absolute",
+				"bottom": footHeight});
+			} else {
+				$(".fix02").css({
+				"position":"fixed",
+				"bottom": "0"});
+			}
+		});
+
+	});
+	</script>
+	
+<!-- All in One SEO Pack 2.3.12.5 by Michael Torbert of Semper Fi Web Design[69,101] -->
+<link rel="canonical" href="http://www.re-business.jp/contact" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.re-business.jp\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.4"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://www.re-business.jp/wp/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<link rel='stylesheet' id='mw-wp-form-css'  href='http://www.re-business.jp/wp/wp-content/plugins/mw-wp-form/classes/controllers/../../css/style.css?ver=4.7.4' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.re-business.jp/wp/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.re-business.jp/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://www.re-business.jp/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.re-business.jp/wp/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.re-business.jp/wp/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7.4" />
+<link rel='shortlink' href='http://www.re-business.jp/?p=48' />
+<link rel="alternate" type="application/json+oembed" href="http://www.re-business.jp/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.re-business.jp%2Fcontact" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.re-business.jp/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.re-business.jp%2Fcontact&#038;format=xml" />
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MCG77X"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MCG77X');</script>
+<!-- End Google Tag Manager -->
+
+	<header>
+		<div class="hd_inner clearfix">
+			<div class="hd_l">
+
+				<p class="hd_come">リサイクルショップ業績アップ・異業種からの参入をお考えの経営者様の為のサイト</p>
+
+				<div class="hd_logo_wp clearfix">
+					<h1 class="hd_logo">
+						<a href="http://www.re-business.jp/"><img src="http://www.re-business.jp/wp/wp-content/themes/funai/img/hd_logo.jpg" alt="船井総研リユース・リペア"></a>
+					</h1>
+
+					<div class="hd_txt_wp">
+						<p class="hd_txt01">株式会社 船井総合研究所</p>
+						<p class="hd_txt02">リサイクルビジネス業績アップ情報サイト</p>
+					</div>
+					<!-- /hd_txt_wp -->
+				</div>
+				<!-- /.hd_logo_wp -->
+			</div>
+			<!-- /.hd_l -->
+
+			<div class="hd_r">
+				<p class="hd_come">「リサイクルビジネス業績アップ情報サイトを見た」とお問い合わせ下さい</p>
+				<p class="hd_tel"><a href="tel:0120958270" onclick="ga('send', 'event', 'pcsite', 'phone-number-tap', 'main');"><img src="http://www.re-business.jp/wp/wp-content/themes/funai/img/tel.jpg" alt="0120-958-270"></a></p>
+				<div class="hd_btn_wp clearfix">
+					<p class="hd_btn02"><a href="https://www.funaisoken.ne.jp/mt/re-business2/inquiry.html">お問い合わせ</a></p>
+					<p class="hd_btn01"><a href="https://www.funaisoken.ne.jp/mt/re-business2/mailmagazine.html">メルマガ登録(無料)</a></p>
+				    <p class="hd_btn03"><a href="https://member.re-business.jp/users/sign_in" target="_blank">マイページ</a></p>
+				</div>
+				<!-- /.hd_btn_wp clearfix -->
+			</div>
+			<!-- /.hd_r -->
+		</div>
+		<!-- /.hd_inner .clearfix-->
+	</header>
+
+	<nav class="hd_nav">
+		<ul>
+			<li><a href="http://www.re-business.jp/">TOP</a></li>
+			<li><a href="http://www.re-business.jp/seminer/">最新セミナー情報</a></li>
+			<li><a href="http://www.re-business.jp/model/">最新のビジネスモデル</a></li>
+			<li><a href="http://www.re-business.jp/jirei/">代表成功事例</a></li>
+			<li><a href="http://www.re-business.jp/lp/webpack/" target="_blank">WEB導入事例紹介</a></li>
+			<li><a href="http://www.re-business.jp/cons/">コンサルタント紹介</a></li>
+			<li><a href="http://www.re-business.jp/kenkyukai/">リユース・リペア研究会</a></li>
+		</ul>
+	</nav>
+	<!-- /.hd_nav -->
+	<!-- <div class="gotop"><a href="http://www.re-business.jp/post-dl/"><img src="http://www.re-business.jp/wp/wp-content/themes/funai/img/fixed_bnr.jpg" alt="リユース・リサイクル業界最新レポート"></a></div> -->
+<!-- mailmagbnr -->
+<div style="position:fixed;top:345px;width:80px;height:260px;z-index:8765;cursor:pointer;background:#fff url(http://www.re-business.jp/images/bnr_mailmag.jpg);background-repeat:no-repeat;right:0; background-position:left top;">
+<a href="https://www.funaisoken.ne.jp/mt/re-business2/mailmagazine.html">
+<img src="http://www.re-business.jp/images/bnr_mailmag.jpg"></a></div>
+<!-- mailmagbnr -->
+
+<!-- mailmagbnr -->
+<div style="position:fixed;top:20px;width:160px;height:302px;z-index:8765;cursor:pointer;background:#fff url(http://www.re-business.jp/wp/wp-content/themes/funai/img/fixed_bnr.jpg);background-repeat:no-repeat;right:0; background-position:left top;">
+<a href="http://www.re-business.jp/post-dl/">
+<img src="http://www.re-business.jp/wp/wp-content/themes/funai/img/fixed_bnr.jpg"></a></div>
+<!-- mailmagbnr -->	<article id="contact">
+		<div class="con_inner">
+			<p class="dummy_pankuzu"><!-- Breadcrumb NavXT 5.7.0 -->
+<span property="itemListElement" typeof="ListItem"><a property="item" typeof="WebPage" title="Go to リサイクルビジネス業績アップ情報サイト." href="http://www.re-business.jp" class="home"><span property="name">HOME</span></a><meta property="position" content="1"></span> &gt; <span property="itemListElement" typeof="ListItem"><span property="name">お問い合わせ</span><meta property="position" content="2"></span></p>
+			<h2><img src="http://www.re-business.jp/wp/wp-content/themes/funai/img/contact_h2.jpg" alt=""></h2>
+
+			<div class="soudan">
+				<h3>無料経営相談とは</h3>
+				<div class="soudan_con">
+					<ul>
+						<li>新規出店の助言が欲しい</li>
+						<li>webを強化したい</li>
+						<li>既存店舗の活性化したい</li>
+						<li>リユース業に新規参入を考えている</li>
+					</ul>
+					<p>など、現在の課題や今後の展望について60分程度で<span class="red">無料</span>でご相談いただけるサービスです。</p>
+				</div>
+			</div>
+
+		</div>
+
+
+
+		<section class="contact_flow">
+			<div class="contact_flow_inner">
+				<h2>ご相談の流れ</h2>
+
+				<div class="flow_wp">
+					<div class="flow_con clearfix">
+						<figure><img src="http://www.re-business.jp/wp/wp-content/themes/funai/img/step01.jpg" alt=""></figure>
+						<h3>お申し込み</h3>
+						<p>このフォームかフリーダイヤルからお申込みいただきます。</p>
+						<div class="yajirushi"><img src="http://www.re-business.jp/wp/wp-content/themes/funai/img/yajirushi01.png" alt=""></div>
+					</div>
+					<div class="flow_con clearfix">
+						<figure><img src="http://www.re-business.jp/wp/wp-content/themes/funai/img/step02.jpg" alt=""></figure>
+						<h3>日程のご連絡</h3>
+						<p>担当者より、日程の調整などを含めたご連絡をさせていただきます。</p>
+						<div class="yajirushi"><img src="http://www.re-business.jp/wp/wp-content/themes/funai/img/yajirushi01.png" alt=""></div>
+					</div>
+					<div class="flow_con clearfix">
+						<figure><img src="http://www.re-business.jp/wp/wp-content/themes/funai/img/step03.jpg" alt=""></figure>
+						<h3>ご相談</h3>
+						<p>当日、相談されたいことについて、コンサルタントにお気軽にご相談いただきます。</p>
+					</div>
+				</div>
+				<p>
+					下記のフォームにご記入いただき、お申し込み下さい。<br>
+					また、当フォーム入力送信後、弊社より自動返信メールが届きます。そのメールの中にもダウンロードページのURLが表記されております。
+				</p>
+				<p>
+					※ お申し込み頂く前に、株式会社船井総合研究所の<a href="">プライバシーポリシー</a>をご覧頂き、ご同意頂きますようお願い申し上げます。<br>
+					※ このフォームからのデータ通信は、SSLにより保護されています。
+				</p>
+				<p>
+					※ お申し込みいただきました方には、メールマガジン「<a href="">リサイクルショップ業績アップの極意?</a>」（無料）を代理登録させていたきます。<br>
+					※ 登録完了次第、船井総研から登録完了メールが自動配信されますのでご了承ください。
+				</p>
+			</div>
+		</section>
+		<div id="contact_form">
+			<h2>無料経営相談メールフォーム</h2>
+			<div id="mw_wp_form_mw-wp-form-137" class="mw_wp_form mw_wp_form_input  ">
+					<form method="post" action="" enctype="multipart/form-data"><table class="form-list" cellspacing="0">
+<tr>
+<th>ご相談・お問合わせ内容</th>
+<td><textarea name="contents" cols="50" rows="5"></textarea></td>
+</tr>
+
+<tr>
+<th>貴社名</th>
+<td><input type="text" name="co-name" size="60" value="" placeholder="株式会社船井総合研究所" /></td>
+</tr>
+
+<tr>
+<th>貴社郵便番号</th>
+<td><span class="mwform-zip-field">〒<input type="text" name="zip[data][0]" size="4" maxlength="3" value="" data-conv-half-alphanumeric="true" /> - <input type="text" name="zip[data][1]" size="5" maxlength="4" value="" data-conv-half-alphanumeric="true" /><input type="hidden" name="zip[separator]" value="-" /></span></td>
+</tr>
+
+<tr>
+<th>貴社ご住所</th>
+<td><input type="text" name="add" size="60" value="" placeholder="東京都千代田区丸の内1丁目6番6号 日本生命丸の内ビル21階" /></td>
+</tr>
+
+<tr>
+<th class="nini">貴社サイトURL</th>
+<td><input type="url" name="co-url" size="60" value="" placeholder="http://www.fhrc.jp" data-conv-half-alphanumeric="true" /></td>
+</tr>
+
+<tr>
+<th>お役職</th>
+<td><input type="text" name="pos" size="60" value="なし" /><span class="small">お役職がない場合は「なし」と入力してください</span></td>
+</tr>
+
+<tr>
+<th>お名前</th>
+<td><input type="text" name="your-name" size="60" value="" placeholder="船井　太朗" /></td>
+</tr>
+
+<tr>
+<th>お電話番号</th>
+<td><span class="mwform-tel-field"><input type="text" name="tel[data][0]" size="6" maxlength="5" value="" data-conv-half-alphanumeric="true" /> - <input type="text" name="tel[data][1]" size="5" maxlength="4" value="" data-conv-half-alphanumeric="true" /> - <input type="text" name="tel[data][2]" size="5" maxlength="4" value="" data-conv-half-alphanumeric="true" /><input type="hidden" name="tel[separator]" value="-" /></span><span class="small">半角数字かハイフン(-)のみ入力してください</span></td>
+</tr>
+
+<tr>
+<th>メールアドレス</th>
+<td><input type="email" name="email" size="60" value="" placeholder="foo@example.com" data-conv-half-alphanumeric="true" /><span class="small">英数記号のみ入力してください</span></td>
+</tr>
+
+<tr>
+<th>
+<a href="">個人情報保護方針</a>
+</th>
+<td>
+<span class="mwform-checkbox-field horizontal-item"><label><input type="checkbox" name="check-privacy[data][]" value="同意する" /><span class="mwform-checkbox-field-text">同意する</span></label></span><input type="hidden" name="check-privacy[separator]" value="," /><input type="hidden" name="__children[check-privacy][]" value="{&quot;\u540c\u610f\u3059\u308b&quot;:&quot;\u540c\u610f\u3059\u308b&quot;}" />
+</td>
+</tr>
+
+<tr>
+<th class="nini">店舗数</th>
+<td><input type="text" name="store" size="60" value="" /></td>
+</tr>
+
+<tr>
+<th class="nini">年商</th>
+<td><input type="text" name="annual" size="60" value="" /></td>
+</tr>
+
+<tr>
+<th class="nini">従業員数</th>
+<td><input type="text" name="staff" size="60" value="" /></td>
+</tr>
+
+</table>
+<div class="merumaga_doui"><span class="mwform-checkbox-field horizontal-item"><label><input type="checkbox" name="check-send[data][]" value="確認画面は表示されません。上記の内容で問題なければチェックを入れてください。" /><span class="mwform-checkbox-field-text">確認画面は表示されません。上記の内容で問題なければチェックを入れてください。</span></label></span><input type="hidden" name="check-send[separator]" value="," /><input type="hidden" name="__children[check-send][]" value="{&quot;\u78ba\u8a8d\u753b\u9762\u306f\u8868\u793a\u3055\u308c\u307e\u305b\u3093\u3002\u4e0a\u8a18\u306e\u5185\u5bb9\u3067\u554f\u984c\u306a\u3051\u308c\u3070\u30c1\u30a7\u30c3\u30af\u3092\u5165\u308c\u3066\u304f\u3060\u3055\u3044\u3002&quot;:&quot;\u78ba\u8a8d\u753b\u9762\u306f\u8868\u793a\u3055\u308c\u307e\u305b\u3093\u3002\u4e0a\u8a18\u306e\u5185\u5bb9\u3067\u554f\u984c\u306a\u3051\u308c\u3070\u30c1\u30a7\u30c3\u30af\u3092\u5165\u308c\u3066\u304f\u3060\u3055\u3044\u3002&quot;}" /></div>
+<input type="hidden" name="referer" value="" />
+<ul class="form-foot">
+<li><input type="submit" name="send" value="送信する" /></li>
+</ul><input type="hidden" id="mw_wp_form_token" name="mw_wp_form_token" value="374e093e79" /><input type="hidden" name="_wp_http_referer" value="/contact" /></form>
+				<!-- end .mw_wp_form --></div>			<script>
+				$(function(){
+					$(window).on("load",function(){
+						$('input[name="referer"]').val("http://www.re-business.jp");
+						$('input[name="referer"]').hide();
+					});
+				})
+			</script>
+	</article>
+
+	<div class="fix02">
+		<div class="fix02_wp clearfix">
+			<p class="left">
+				<img src="http://www.re-business.jp/wp/wp-content/themes/funai/img/con_tel.png" alt="">
+			</p>
+			<p class="right">
+				<a href="https://www.funaisoken.ne.jp/mt/re-business2/inquiry.html">
+					<img src="http://www.re-business.jp/wp/wp-content/themes/funai/img/con_tel02.png" alt="">
+				</a>
+			</p>
+		</div>
+	</div>
+<footer>
+	<div class="ft_inner clearfix">
+		<div class="ft_nav">
+			<h3>リサイクルビジネス業績アップ情報サイト</h3>
+			<ul>
+<!--
+				<li><a href="http://www.re-business.jp/seminer/">最新セミナー情報</a></li>
+				<li><a href="http://www.re-business.jp/jirei/">代表成功事例紹介</a></li>
+				<li><a href="http://www.re-business.jp/kenkyukai/">リユース・リペア研究会</a></li>
+				<li><a href="http://www.funaisoken.co.jp/study/201591.html" target="_blank">リサイクルショップ向けスーパー店長アカデミーとは</a></li>
+				<li><a href="http://www.re-business.jp/post-dl/">リユース業界向け最新レポート</a></li>
+				<li><a href="http://www.re-business.jp/cons/">コンサルタント紹介</a></li>
+				<li><a href="http://www.re-business.jp/column/">コンサルタントコラム</a></li>
+				<li><a href="https://www.funaisoken.ne.jp/mt/re-business2/inquiry.html">無料経営相談依頼フォーム</a></li>
+				<li><a href="https://www.funaisoken.ne.jp/mt/re-business2/mailmagazine.html">メルマガ登録</a></li>
+				<li><a href="http://www.funaisoken.co.jp/pp.html" target="_blank">プライバシーポリシー</a></li>
+				<li><a href="http://www.re-business.jp/seminer/">各種セミナーページLP</a></li>
+				<li><a href="http://www.re-business.jp/model/">各種ビジネスモデル</a></li>
+				<li><a href="http://www.funaisoken.co.jp/site/study/mfts_1182239379.html" target="_blank">リユース研お試し参加申し込み</a></li>
+-->
+				<li><a href="http://www.re-business.jp/seminer/">最新セミナー情報</a></li>
+				<li><a href="https://www.funaisoken.ne.jp/mt/re-business2/inquiry.html">無料経営相談依頼フォーム</a></li>
+				<li><a href="http://www.re-business.jp/kenkyukai/">リユース・リペア研究会</a></li>
+				<li><a href="http://www.funaisoken.co.jp/pp.html" target="_blank">プライバシーポリシー</a></li>
+				<li><a href="http://www.re-business.jp/post-dl/">リユース業界向け最新レポート</a></li>
+				<li><a href="http://www.funaisoken.co.jp/faq/" target="_blank">FAQ</a></li>
+				<li><a href="http://www.re-business.jp/column/">コンサルタントコラム</a></li>
+				<li><a href="http://www.funaisoken.co.jp/info2.html" target="_blank">個人情報の保護に関する法律に基づく公表事項</a></li>
+				<li><a href="https://www.funaisoken.ne.jp/mt/re-business2/mailmagazine.html" target="_blank">メルマガ登録</a></li>
+				<li><a href="http://www.funaisoken.co.jp/socialpolicy.html" target="_blank">ソーシャルメディアポリシー</a></li>
+				<li><a href="http://www.re-business.jp/seminer/">各種セミナーページLP</a></li>
+				<li><a href="http://www.funaisoken.co.jp/adpolicy.html" target="_blank">運用型広告に関する利用規約</a></li>
+				<li><a href="http://www.funaisoken.co.jp/site/study/mfts_1182239379.html" target="_blank">リユース研お試し参加申し込み</a></li>
+				<li><a href="http://www.funaisoken.co.jp/dealing.html" target="_blank">特定商取引法に基づく表記</a></li>
+				<li><a href="http://www.re-business.jp/jirei/">代表成功事例紹介</a></li>
+				<li><a href="http://www.funaisoken.co.jp/company/outline.html" target="_blank">会社概要</a></li>
+				<li><a href="http://www.funaisoken.co.jp/study/201591.html" target="_blank">リサイクルショップ向けスーパー店長アカデミーとは</a></li>
+				<li><a href="http://www.re-business.jp/model/">各種ビジネスモデル</a></li>
+				<li><a href="http://www.re-business.jp/cons/">コンサルタント紹介</a></li>
+			</ul>
+		</div>
+
+		<!-- /.ft_nav -->
+
+		<!-- 			<div class="ft_nav02">
+				<h3>ビジネスラインナップ</h3>
+				<ul>
+					<li><a href="">新築不動産仲介＆リフォーム</a></li
+					><li><a href="">賃貸管理</a></li
+					><li><a href="">新築住宅</a></li
+					><li><a href="">高齢者・介護ビジネス</a></li
+					><li><a href="">リフォーム</a></li
+					><li><a href="">新電力ビジネス</a></li
+					><li><a href="">賃貸仲介</a></li>
+				</ul>
+			</div> -->
+		<!-- /.ft_nav -->
+
+		<div class="ft_logo">
+			<h2><a href=""><img src="http://www.re-business.jp/wp/wp-content/themes/funai/img/ft_logo.png" alt="Funai Souken"></a></h2>
+		</div>
+	</div>
+	<!-- /.ft_inner clearfix -->
+
+	<div class="copy"><small>Copyright（c）Funai Consulting Incorporated All rights reserved.</small></div>
+</footer>
+<script type='text/javascript' src='http://www.re-business.jp/wp/wp-content/plugins/mw-wp-form/classes/controllers/../../js/form.js?ver=4.7.4'></script>
+<script type='text/javascript' src='http://www.re-business.jp/wp/wp-includes/js/wp-embed.min.js?ver=4.7.4'></script>
+
+
+
+</body>
+
+</html>

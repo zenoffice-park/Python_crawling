@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=1044, user-scalable=yes">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no">
+
+<title>お問い合わせ | タツタ電線株式会社</title>
+<meta name="description" content="タツタ電線へのお問い合わせはこちらから。お問い合わせ先一覧をご案内します。" />
+<meta name="keywords" content="" />
+
+<!-- OGP -->
+<meta property="og:site_name" content="タツタ電線株式会社">
+<meta property="og:title" content="タツタ電線株式会社">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://www.tatsuta.co.jp/common/images/base/fb.jpg">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="タツタ電線株式会社" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:image" content="https://www.tatsuta.co.jp/common/images/base/twitter.png" />
+<!-- close.OGP -->
+
+<link rel="stylesheet" href="https://www.tatsuta.co.jp/common/css/reset.css" />
+<link rel="stylesheet" href="https://www.tatsuta.co.jp/common/css/print.css" />
+<link rel="stylesheet" href="https://www.tatsuta.co.jp/common/css/base.css" />
+<link rel="stylesheet" href="https://www.tatsuta.co.jp/common/css/common.css" />
+
+<script src="https://www.tatsuta.co.jp/common/js/jquery.min.js"></script>
+<script src="https://www.tatsuta.co.jp/common/js/common.js"></script>
+<!--[if lt IE 9]><script src="https://www.tatsuta.co.jp/common/js/html5.js"></script><![endif]-->
+<script src="https://www.tatsuta.co.jp/common/js/ga.js"></script>
+
+</head>
+<body id="contact">
+
+<header id="header__over_wrap">
+	<div id="header__wrap" class="base_wide">
+		<h1 id="header__logo"><a href="http://www.tatsuta.co.jp/"><img src="https://www.tatsuta.co.jp/common/images/base/img_head_logo.png" alt="タツタ電線株式会社" width="334" height="25"></a></h1>
+		<nav id="gnav__wrap">
+			<ul id="gnav" class="clearfix">
+				<li id="gnav__01"><a href="http://www.tatsuta.co.jp/products/"><img src="https://www.tatsuta.co.jp/common/images/base/nav_global_products.png" alt="事業案内" width="142" height="22"></a></li>
+				<li id="gnav__02"><a href="http://www.tatsuta.co.jp/investor/"><img src="https://www.tatsuta.co.jp/common/images/base/nav_global_ir.png" alt="株主・投資家情報" width="206" height="22"></a></li>
+				<li id="gnav__03"><a href="http://www.tatsuta.co.jp/company/message/"><img src="https://www.tatsuta.co.jp/common/images/base/nav_global_company.png" alt="会社情報" width="141" height="22"></a></li>
+				<li id="gnav__04"><a href="http://www.tatsuta.co.jp/csr/"><img src="https://www.tatsuta.co.jp/common/images/base/nav_global_csr.png" alt="CSR" width="116" height="22"></a></li>
+				<li id="gnav__05"><a href="http://www.tatsuta.co.jp/development/"><img src="https://www.tatsuta.co.jp/common/images/base/nav_global_development.png" alt="研究開発" width="141" height="22"></a></li>
+				<li id="gnav__06"><a href="http://www.tatsuta.co.jp/recruit/"><img src="https://www.tatsuta.co.jp/common/images/base/nav_global_recruit.png" alt="採用情報" width="143" height="22"></a></li>
+				<li id="gnav__07"><span class="search"><img src="https://www.tatsuta.co.jp/common/images/base/nav_global_search.png" alt="サイト内検索" width="91" height="22"></span></li>
+
+			</ul>
+		</nav>
+		<div id="gnav_sub__wrap">
+			<ul id="gnav_sub" class="clearfix">
+				<li class="language">
+					<span class="select_icon"><img src="https://www.tatsuta.co.jp//common/images/base/nav_language_icon.png" alt="global icon" width="18" height="18"></span>
+					<span class="select">
+						<a href="http://www.tatsuta.com/"><img src="https://www.tatsuta.co.jp/common/images/base/nav_language_en.png" alt="英語" width="43" height="14"></a>
+					</span>
+					<span class="select">
+						<a href="http://www.tatsuta.sh.cn/"><img src="https://www.tatsuta.co.jp/common/images/base/nav_language_cn.png" alt="簡体中文" width="52" height="14"></a>
+					</span>
+					<span class="select">
+						<a href="http://www.tatsuta.com/tw/"><img src="https://www.tatsuta.co.jp/common/images/base/nav_language_tw.png" alt="繁体中文" width="52" height="14"></a>
+					</span>
+					<span class="select">
+						<a href="http://www.tatsuta.com/kr/"><img src="https://www.tatsuta.co.jp/common/images/base/nav_language_kr.png" alt="韓国語" width="35" height="13"></a>
+					</span>
+				</li>
+				<li class="mail"><a href="../contact/">お問い合わせ</a></li>
+			</ul>
+		</div>
+	</div>
+
+<div class="search_box_wrap">
+
+	<!--検索窓-->
+	<div id="srchBox" class="search_box watermark">
+		<form action="http://www.tatsuta.co.jp/search/" method="get" id="srch" class="search_form">
+			<table>
+				<tr>
+					<td>
+						<p id="srchForm">
+						<input type="text" name="p" id="srchInput" class="gsc-input" placeholder="検索ワードを入力してください">
+						<input type="hidden" id="fr" name="fr" value="cse">
+						<input type="hidden" id="ei" name="ei" value="UTF-8">
+						<input type="hidden" id="csid" name="csid" value="WMt2DBN8OrnwqIOz4R9QycyavJb_wadexHJkuVjrCg--">
+						</p>
+						<input type="hidden" name="vs" value="www.tatsuta.co.jp" id="yjInsite">
+						<img src="https://custom.search.yahoo.co.jp/images/window/WMt2DBN8OrnwqIOz4R9QycyavJb_wadexHJkuVjrCg--.gif" alt="">
+					</td>
+					<td>
+						<input type="submit" value="検索" id="srchBtn" class="gsc-search-button" onclick="document.getElementById('srchInput').focus();">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	<!--/検索窓-->
+	<div class="sarch_box_close_top click_close" style="display: none"></div>
+	<div class="sarch_box_close click_close" style="display: none"></div>
+</div>
+
+
+</header>
+
+<div id="top_visual__over_wrap" class="top_visual__other">
+	<div id="top_visual__wrap" class="base_wide clearfix">
+		<h2 class="top_visual__headline"><img src="https://www.tatsuta.co.jp/common/images/base/ttl_top_visual_contact.png" alt="イベント・展覧会情報" width="291" height="36"></h2>
+	</div>
+</div>
+
+
+<div id="breadcrumb__wrap">
+	<ol class="breadcrumb base_wide clearfix" itemscope itemtype="https://schema.org/BreadcrumbList">
+		<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+			<a itemprop="item" href="https://www.tatsuta.co.jp/">
+				<span itemprop="name">トップページ</span>
+			</a>
+			<meta itemprop="position" content="1" />
+		</li>
+				<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+			<span itemprop="name">お問い合わせ</span>
+			<meta itemprop="position" content="2" />
+		</li>
+	</ol>
+</div>
+
+
+
+
+
+<section id="content__wrap">
+	<div id="content" class="content base_wide">
+		<div id="content__wide">
+
+
+
+	<!-- ▼▼main▼▼ -->
+	<!-- @mail@ -->
+	<div id="main-narrow">
+
+			<div class="headline__page">
+				<h3><span class="ttl">お問い合わせの前に</span></h3>
+			</div>
+
+			<p class="text_base mb36">タツタ電線では、各事業・サービスなど分野ごとにお問い合わせ先が細かく分かれています。<br>お問い合わせの事業・製品が既にお決まりの方は、以下の一覧から該当する事業・製品を選択してください。<br>それ以外の方は直下のお問い合わせフォームからお問い合わせください。</p>
+
+			<div class="headline__secondary">
+				<h4>お問い合わせ先一覧</h4>
+			</div>
+			<div class="contact_secondary__top">
+				<ul class="contact_link__btn clearfix">
+					<li><a href="http://www.tatsuta.com/jp/inquiry/communication/contact.html" onclick="window.open('http://www.tatsuta.com/jp/inquiry/communication/contact.html','popup','width=800,height=600,scrollbars=yes,resizable=yes,toolbar=yes,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">通信電線事業</a></li>
+					<li><a href="http://www.tatsuta.com/jp/inquiry/equipmentwire/contact.html" onclick="window.open('http://www.tatsuta.com/jp/inquiry/equipmentwire/contact.html','popup','width=800,height=600,scrollbars=yes,resizable=yes,toolbar=yes,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">機器用電線事業</a></li>
+					<li><a href="http://www.tatsuta.com/jp/inquiry/functionalfilm/contact.html" onclick="window.open('http://www.tatsuta.com/jp/inquiry/functionalfilm/contact.html','popup','width=800,height=600,scrollbars=yes,resizable=yes,toolbar=yes,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">機能性フィルム</a></li>
+					<li><a href="http://www.tatsuta.com/jp/inquiry/conductiveadhesives/contact.html" onclick="window.open('http://www.tatsuta.com/jp/inquiry/conductiveadhesives/contact.html','popup','width=800,height=600,scrollbars=yes,resizable=yes,toolbar=yes,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">導電性接着剤</a></li>
+					<li><a href="http://www.tatsuta.com/jp/inquiry/conductivepaste/contact.html" onclick="window.open('http://www.tatsuta.com/jp/inquiry/conductivepaste/contact.html','popup','width=800,height=600,scrollbars=yes,resizable=yes,toolbar=yes,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">導電性ペースト</a></li>
+					<li><a href="http://www.tatsuta.com/jp/inquiry/bondingwire/contact.html" onclick="window.open('http://www.tatsuta.com/jp/inquiry/bondingwire/contact.html','popup','width=800,height=600,scrollbars=yes,resizable=yes,toolbar=yes,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">ボンディングワイヤ</a></li>
+					<li><a href="http://www.tatsuta.com/jp/inquiry/sensor/contact.html" onclick="window.open('http://www.tatsuta.com/jp/inquiry/sensor/contact.html','popup','width=800,height=600,scrollbars=yes,resizable=yes,toolbar=yes,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">センサ関連</a></li>
+					<li><a href="http://www.tatsuta.com/jp/inquiry/medical/contact.html" onclick="window.open('http://www.tatsuta.com/jp/inquiry/medical/contact.html','popup','width=800,height=600,scrollbars=yes,resizable=yes,toolbar=yes,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">医療関連</a></li>
+					<li><a href="http://www.tatsuta.com/jp/inquiry/photoelectronics/contact.html" onclick="window.open('http://www.tatsuta.com/jp/inquiry/photoelectronics/contact.html','popup','width=800,height=600,scrollbars=yes,resizable=yes,toolbar=yes,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">光部品事業</a></li>
+					<li><a href="http://www.tatsuta.co.jp/bunseki/otoiawase/otoiawase.htm" target="_blank">環境分析事業</a></li>
+				</ul>
+			</div>
+
+
+			<div class="headline__secondary mb24">
+				<h4>お問い合わせフォーム</h4>
+			</div>
+
+	<div id="main-wrapper">
+
+		<div class="container">
+			<div class="mb24"><img src="https://www.tatsuta.co.jp/common/images/contact/contact_step_01.png" alt="STEP1 入力" width="930" height="50"></div>
+			<p class="text_base mb24">以下のフォームに必要事項を入力し「確認画面へ進む」ボタンを選択してください。<br>※ 「必須」の項目は、必ずご入力をお願いします。</p>
+		</div>
+
+	<form id="form1" name="form1" action="IncForm/index.php" method="post">
+
+		<div class="headline__detail mb24"><h4 class="clearfix"><span class="ttl">お問い合わせ内容の入力</span></h4></div>
+		<div class="container mb36">
+			<table class="contact-tbl px12">
+				<tr>
+				<th>お問い合わせ区分</th>
+				<td class="required"><span>必須</span></td>
+				<td><label for="kind"></label>
+				<select name="kind" class="input-bd324" id="kind">
+				<option value="null" selected="selected">選択してください</option>
+				<option value="資材調達について">資材調達について</option>
+				<option value="会社情報について">会社情報について</option>
+				<option value="株主・投資家情報について">株主・投資家情報について</option>
+				<option value="その他のお問い合わせ">その他のお問い合わせ</option>
+				</select></td>
+				</tr>
+				<tr>
+				<th>お問い合わせ内容</th>
+				<td class="required"><span>必須</span></td>
+				<td><label for="question_body"></label>
+				<textarea name="question_body" cols="45" rows="5" class="input-bd515" id="otoiawasenaiyou" placeholder="お問い合わせ内容をできるだけ具体的に入力してください。"></textarea></td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="headline__detail mb24"><h4 class="clearfix"><span class="ttl">ご連絡先の入力</span></h4></div>
+		<div class="container mb36">
+			<table class="contact-tbl px12">
+				<th>会社名</th>
+				<td class="required"><span>必須</span></td>
+				<td><label for="company_name"></label>
+				<input name="company_name" type="text" class="input-bd335" id="kaisyamei" size="50" maxlength="255" /></td>
+				<tr>
+				<th>部署名</th>
+				<td class="required"><span>必須</span></td>
+				<td><label for="depertment_name"></label>
+				<input name="depertment_name" type="text" class="input-bd335" id="busyomei" size="50" maxlength="255" /></td>
+				</tr>
+				<tr>
+				<th>お名前</th>
+				<td class="required"><span>必須</span></td>
+				<td>姓
+				<label for="first_name"></label>
+				<input name="first_name" type="text" class="input-bd160" id="sei" size="20" maxlength="20" />　名
+				<label for="second_name"></label>
+				<input name="second_name" type="text" class="input-bd160" id="mei" size="20" maxlength="20" /></td>
+				</tr>
+				<tr>
+				<th>メールアドレス</th>
+				<td class="required"><span>必須</span></td>
+				<td><label for="email"></label>
+				<input name="email" type="text" class="input-bd335" id="email" size="50" maxlength="255" /></td>
+				</tr>
+				<tr>
+				<th>お電話番号</th>
+				<td class="required"><span>必須</span></td>
+				<td><label for="tel1"></label>
+				<input name="tel1" type="text" class="input-bd60" id="tel1" size="10" maxlength="20" />
+				－
+				<input name="tel2" type="text" class="input-bd80" id="tel2" size="10" maxlength="20" />
+				－
+				<input name="tel3" type="text" class="input-bd80" id="tel3" size="10" maxlength="20" /></td>
+				</tr>
+				<tr>
+				<th>FAX番号</th>
+				<td class="none required"><span>任意</span></td>
+				<td><label for="fax1"></label>
+				<input name="fax1" type="text" class="input-bd60" id="fax1" size="10" maxlength="20" />
+				－
+				<input name="fax2" type="text" class="input-bd80" id="fax2" size="10" maxlength="20" />
+				－
+				<input name="fax3" type="text" class="input-bd80" id="fax3" size="10" maxlength="20" /></td>
+				</tr>
+				<tr>
+				<th>ご住所</th>
+				<td class="required"><span>必須</span></td>
+				<td>
+				<div class="mb20"><span class="set">郵便番号</span>
+					<input name="zipA" type="text" class="input-bd60" size="10" maxlength="8"> － <input name="zipB" type="text" class="input-bd80" onKeyUp="AjaxZip2.zip2addr('zipA','pref','city','zipB','strt','area');" size="10" maxlength="8">
+				</div>
+				<div class="mb20"><span class="set">都道府県</span>
+					<select name="pref" class="input-bd166">
+					<option value="null">選択してください</option>
+					<option value="北海道">北海道</option>
+					<option value="青森県">青森県</option>
+					<option value="岩手県">岩手県</option>
+					<option value="宮城県">宮城県</option>
+					<option value="秋田県">秋田県</option>
+					<option value="山形県">山形県</option>
+					<option value="福島県">福島県</option>
+					<option value="茨城県">茨城県</option>
+					<option value="栃木県">栃木県</option>
+					<option value="群馬県">群馬県</option>
+					<option value="埼玉県">埼玉県</option>
+					<option value="千葉県">千葉県</option>
+					<option value="東京都">東京都</option>
+					<option value="神奈川県">神奈川県</option>
+					<option value="新潟県">新潟県</option>
+					<option value="富山県">富山県</option>
+					<option value="石川県">石川県</option>
+					<option value="福井県">福井県</option>
+					<option value="山梨県">山梨県</option>
+					<option value="長野県">長野県</option>
+					<option value="岐阜県">岐阜県</option>
+					<option value="静岡県">静岡県</option>
+					<option value="愛知県">愛知県</option>
+					<option value="三重県">三重県</option>
+					<option value="滋賀県">滋賀県</option>
+					<option value="京都府">京都府</option>
+					<option value="大阪府">大阪府</option>
+					<option value="兵庫県">兵庫県</option>
+					<option value="奈良県">奈良県</option>
+					<option value="和歌山県">和歌山県</option>
+					<option value="鳥取県">鳥取県</option>
+					<option value="島根県">島根県</option>
+					<option value="岡山県">岡山県</option>
+					<option value="広島県">広島県</option>
+					<option value="山口県">山口県</option>
+					<option value="徳島県">徳島県</option>
+					<option value="香川県">香川県</option>
+					<option value="愛媛県">愛媛県</option>
+					<option value="高知県">高知県</option>
+					<option value="福岡県">福岡県</option>
+					<option value="佐賀県">佐賀県</option>
+					<option value="長崎県">長崎県</option>
+					<option value="熊本県">熊本県</option>
+					<option value="大分県">大分県</option>
+					<option value="宮崎県">宮崎県</option>
+					<option value="鹿児島県">鹿児島県</option>
+					<option value="沖縄県">沖縄県</option>
+					</select>
+				</div>
+				<div class="mb20">
+					<span class="set adj">市区郡以降</span><input name="city" type="text" class="input-bd588" size="40" maxlength="255">
+				</div>
+				<div>
+					<span class="set adj">建物名</span><input name="area" type="text" class="input-bd588" size="40" maxlength="255">
+					<span class="annotation">※建物名がある場合は必須</span>
+				</div>
+				</td>
+				</tr>
+			</table>
+		</div>
+
+
+		<div class="headline__detail mb24"><h4 class="clearfix"><span class="ttl">個人情報の取り扱いについて</span></h4></div>
+		<div class="container mb40">
+			<table class="contact-tbl px12">
+				<tr>
+					<td>
+						<div class="form_privacy_wrap">
+							<div class="form_privacy">
+
+								<h2 class="mb8">プライバシーポリシー</h2>
+								<p class="mb28">タツタ電線株式会社（以下「弊社」という）はプライバシーポリシーを以下のとおり定めて、個人情報の保護および適正な流通確保に努めます。</p>
+								<h3 class="mb8">個人情報の収集・利用・提供</h3>
+								<p class="mb32">弊社では、下記の目的の範囲内で取引先様の個人情報を収集し、その範囲内で収集した個人情報を利用します。<br>また、収集した取引先様の個人情報は、取引先様の承諾を得る等適正な事情がない限り、第三者には提供・開示しません。</p>
+								<dl class="form_privacy_dl mb28">
+								<dt class="mb8">【 目的 】</dt>
+								<dd>・ 取引先様との契約上の責任を果たすため</dd>
+								<dd>・ より良い製品およびサービスを開発するため</dd>
+								<dd>・ 取引先様へ有用な情報を伝達するため</dd>
+								<dd>・ その他の正当な目的のため</dd>
+								</dl>
+								<h3 class="mb8">個人情報の適正管理</h3>
+								<p class="mb28">取引先様の個人情報は、紛失、破壊、改ざん、漏えい、不正アクセスが生じないようにセキュリティ対策を講じて適正に管理します。</p>
+								<h3 class="mb8">個人情報に関する法令等の遵守</h3>
+								<p class="mb28">個人情報保護に関する法令等を遵守して、取引先様の個人情報を取り扱います。</p>
+								<h3 class="mb8">個人情報の預託</h3>
+								<p class="mb28">弊社は、上記利用目的を達成するために個人情報に関する取り扱いを外部に委託することがあります。委託する場合には、適正な取り扱いを確保するための契約締結、実施状況等の点検などを行います。</p>
+								<h3 class="mb8">個人情報の開示・訂正・削除</h3>
+								<p class="mb28">取引先様が取引先様の個人情報についての内容の照会、訂正、削除を求められる場合には、弊社窓口までご連絡ください。</p>
+								<h3 class="mb8">個人情報保護の維持・改善</h3>
+								<p class="mb28">弊社は、取引先様の個人情報の取り扱いが適正に行われるように従事者への教育を実施します。また、個人情報が適正に取扱われているかを点検し、必要に応じて個人情報保護の取り組みを見直し改善します。</p>
+
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr class="btm_checkbox">
+					<td colspan="2">
+						<input type="hidden" name="consent" value="null"/>
+						<label for="f_consent">
+						<input id="f_consent" type="checkbox" name="consent[]" value="個人情報の取り扱いに同意する（必須）"/>
+						個人情報の取り扱いに同意する</label><span>（必須）</span>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+
+		<ul id="contact-btn">
+			<li><span class="submit-btn_wrap"><input type="submit" value="確認画面へ進む" class="submit-btn" /></span></li>
+		</ul>
+	</form>
+
+	<script type="text/javascript">
+	// var params = getParams();
+
+	// function getParams() {
+	// 	var get = new Array();
+	// 		if(location.search.length > 1){
+	// 				var search = unescape(decodeURI(location.search));
+	// 				var requests = search.substr(1).split("&");
+	// 				for(var i = 0; i < requests.length; i++){
+	// 						var r = requests[i].split("=");
+	// 						get[r[0]] = r[1];
+	// 				}
+	// 		}
+	// 	document.form1.kind.selectedIndex = get['kind'];
+	// }
+	</script>
+
+	</div>
+	</div>
+	<!-- @mail@ -->
+	<!-- △△main△△ -->
+	</div>
+</div>
+<!-- △△content△△ -->
+	</section>
+
+<div id="js__topbtn" class="pagetop" style="display: block;">
+	<a href="#header__over_wrap"><img src="https://www.tatsuta.co.jp/common/images/base/btn_pagetop.png" width="62" height="62" alt="TOP"></a>
+</div>
+
+<footer id="footer__over_wrap">
+	<div id="footer__nav_warp">
+
+		<ul id="footer__nav" class="base_wide clearfix">
+			<li>
+				<dl class="footer__nav_group">
+					<dt class="footer__nav_category"><a href="https://www.tatsuta.co.jp/products/">事業案内</a></dt>
+					<dd><a href="https://www.tatsuta.co.jp/products/communication/electric/power/">通信電線事業</a></dd>
+					<dd><a href="https://www.tatsuta.co.jp/products/equipment/high-strength/">機器用電線事業</a></dd>
+					<dd><a href="https://www.tatsuta.co.jp/products/functional-material/fpc-film/">機能性材料事業</a></dd>
+					<dd><a href="https://www.tatsuta.co.jp/products/fine-wire/">ファインワイヤ事業</a></dd>
+					<dd><a href="https://www.tatsuta.co.jp/products/equipment-system/warter-leakage/">機器システム製品事業</a></dd>
+					<dd><a href="https://www.tatsuta.co.jp/products/optical/">光部品事業</a></dd>
+					<dd><a href="https://www.tatsuta.co.jp/products/analysis/">環境分析事業</a></dd>
+				</dl>
+			</li>
+			<li>
+				<dl class="footer__nav_group">
+					<dt class="footer__nav_category"><a href="https://www.tatsuta.co.jp/investor/">株主・投資家情報</a></dt>
+					<dd><a href="https://www.tatsuta.co.jp/investor/personal/about/">個人投資家の皆様へ</a></dd>
+					<dd><a href="https://www.tatsuta.co.jp/investor/highlight/consolidated/">財務ハイライト</a></dd>
+					<dd><a href="https://www.tatsuta.co.jp/investor/library/brief/">開示情報（IRライブラリー）</a></dd>
+					<dd><a href="https://www.tatsuta.co.jp/investor/information/situation/">株主・株式情報</a></dd>
+					<dd><a href="https://www.tatsuta.co.jp/investor/calendar/">IRカレンダー</a></dd>
+					<dd><a href="https://www.tatsuta.co.jp/investor/disclosure/">ディスクロージャー・ポリシー</a></dd>
+				</dl>
+			</li>
+			<li>
+				<dl class="footer__nav_group">
+					<dt class="footer__nav_category"><a href="http://www.tatsuta.co.jp/company/message/">会社情報</a></dt>
+					<dd><a href="http://www.tatsuta.co.jp/company/message/">トップメッセージ</a></dd>
+					<dd><a href="http://www.tatsuta.co.jp/company/standard/">経営理念・企業行動規範</a></dd>
+					<dd><a href="http://www.tatsuta.co.jp/company/outline/">会社概要</a></dd>
+					<dd><a href="http://www.tatsuta.co.jp/company/governance/">コーポレートガバナンス</a></dd>
+					<dd><a href="http://www.tatsuta.co.jp/company/history/">沿革</a></dd>
+					<dd><a href="http://www.tatsuta.co.jp/company/information/">本社・工場・関係会社への連絡先</a></dd>
+					<dd><a href="http://www.tatsuta.co.jp/company/quality/">品質への取り組み</a></dd>
+				</dl>
+			</li>
+			<li>
+				<dl class="footer__nav_group mb20">
+					<dt class="footer__nav_category"><a href="https://www.tatsuta.co.jp/csr/">CSR</a></dt>
+					<dd><a href="http://www.tatsuta.co.jp/csr/policy/">品質・環境方針</a></dd>
+					<dd><a href="http://www.tatsuta.co.jp/csr/environmental-report/">CSR報告書</a></dd>
+					<dd><a href="http://www.tatsuta.co.jp/csr/green-guideline/">グリーン調達ガイドライン</a></dd>
+					<dd><a href="http://www.tatsuta.co.jp/csr/social-contribution/">環境・社会貢献への取り組み</a></dd>
+					<dd><a href="http://www.tatsuta.co.jp/csr/business-continuity/">事業継続への取り組み</a></dd>
+				</dl>
+				<div class="footer__nav_category_single"><a href="http://www.tatsuta.co.jp/development/">研究開発</a></div>
+				<div class="footer__nav_category_single"><a href="http://www.tatsuta.co.jp/recruit/">採用情報</a></div>
+				<hr class="footer__nav_hr">
+				<div class="footer__nav_category_single small"><a href="http://www.tatsuta.co.jp/news/">ニュースリリース</a></div>
+				<div class="footer__nav_category_single small"><a href="http://www.tatsuta.co.jp/event/">イベント・展示会情報</a></div>
+				<div class="footer__nav_category_single small"><a href="https://www.tatsuta.co.jp/contact/">お問い合わせ</a></div>
+			</li>
+		</ul>
+
+	</div>
+	<div id="footer__address_warp">
+		<div id="footer__address" class="base_wide clearfix">
+			<div class="footer__log fl"><a href="http://www.tatsuta.co.jp/"><img src="https://www.tatsuta.co.jp/common/images/base/img_footer_log.png" alt="タツタ電線株式会社" width="114" height="15"></a></div>
+			<small class="footer__copy fl"><img src="https://www.tatsuta.co.jp/common/images/base/img_footer_copy.png" width="289" height="11" alt="&copy;2016 TATSUTA ELECTRIC WIRE & CABLE CO., LTD."></small>
+			<ul class="footer__subnav fr">
+				<li><a href="http://www.tatsuta.co.jp/relation/">関連サイト</a></li>
+				<li><a href="http://www.tatsuta.co.jp/sitemap/">サイトマップ</a></li>
+				<li><a href="http://www.tatsuta.co.jp/privacy/">個人情報のお取り扱い</a></li>
+				<li><a href="http://www.tatsuta.co.jp/siteuse/">当サイトのご利用について</a></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<script type="text/javascript">
+// Pardot Tracking code Japan
+piAId = '480511';
+piCId = '7304';
+piHostname = 'pi.pardot.com';
+
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+</body>
+</html>
+

@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]> <!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+<meta charset="utf-8">
+<!-- 
+	TYPO3 Distribution Package by Steffen Luff (info@hektisch.de)
+	    including HTML5 Boilerplate & jQuery (c) 2018 by Steffen Luff
+	    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2018 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+
+
+
+<meta name="generator" content="TYPO3 CMS">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+<link rel="canonical" href="https://www.virtuozzo.com/" />
+<title>Hyperconverged Infrastructure Software Provider</title>
+<meta name="description" content="Virtuozzo provides hyperconverged infrastructure software that enables integrated container, hypervisor and software-defined storage solutions & services." />
+<meta name="robots" content="index,follow" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Hyperconverged Infrastructure Software Provider" />
+<meta property="og:description" content="Virtuozzo provides hyperconverged infrastructure software that enables integrated container, hypervisor and software-defined storage solutions & services." />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Hyperconverged Infrastructure Software Provider" />
+<meta name="twitter:description" content="Virtuozzo provides hyperconverged infrastructure software that enables integrated container, hypervisor and software-defined storage solutions & services." />
+
+
+<link rel="stylesheet" type="text/css" href="/typo3temp/assets/compressed/8e2d06e732-eb1282ee1b604ff92dc282bf5dfa79d7.css" media="all">
+<link rel="stylesheet" type="text/css" href="/typo3temp/assets/compressed/grid12-8411c25037e3cb297ff3b77d1c279c81.css" media="all">
+<link rel="stylesheet" type="text/css" href="/typo3temp/assets/compressed/cookieconsent.min-4b181ec323c7317091b35834400ae786.css" media="all">
+
+
+
+
+<script src="/typo3temp/assets/compressed/b9ac716825-860fdc5628a9fe971a258c27cd44f3de.js" type="text/javascript"></script>
+
+
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge ,chrome=1">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/fileadmin/templates/img/touch/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/fileadmin/templates/img/touch/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/fileadmin/templates/img/touch/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/fileadmin/templates/img/touch/favicon-16x16.png">
+<link rel="manifest" href="/fileadmin/templates/img/touch/site.webmanifest">
+<link rel="mask-icon" href="/fileadmin/templates/img/touch/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/fileadmin/templates/img/touch/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i,700,700i|Open+Sans:300,300i,400,400i,600,600i" rel="stylesheet">
+
+<link rel="stylesheet" href="/fileadmin/templates/css/normalize.min.css">
+<link rel="stylesheet" href="/fileadmin/templates/css/main.min.css">
+<link rel="stylesheet" href="/fileadmin/templates/css/outdatedbrowser.min.css">
+<link rel="stylesheet" href="/fileadmin/templates/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/fileadmin/templates/css/flexslider.min.css">
+<link rel="stylesheet" href="/fileadmin/templates/css/magnific-popup.min.css">
+<link rel="stylesheet" href="/fileadmin/templates/css/layout.css">
+<link rel="stylesheet" href="/fileadmin/templates/css/rte.css">
+<link rel="stylesheet" href="/fileadmin/templates/css/responsive.css">
+
+<script src="/fileadmin/templates/js/vendor/modernizr-2.8.3.min.js"></script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W9PSVPL');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-74815301-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-74815301-1');
+</script>
+
+
+</head>
+<body id="p1" class="startseite l0">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W9PSVPL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<header id="header" class="header">
+  <div class="inner-header wrapper">
+    <div class="outer-menu">
+      <a class="mobile" id="mobile">
+        <div class="nav-icon nav-icon2">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </a>
+      <div id="logo" class="logo">
+        
+<div id="c6" class="frame frame-default frame-type-image frame-layout-0"><div class="ce-image ce-left ce-above"><div class="ce-gallery" data-ce-columns="1" data-ce-images="2"><div class="ce-row"><div class="ce-column"><figure class="image"><a href="/" title="Virtuozzo"><img class="image-embed-item" title="Virtuozzo" alt="Virtuozzo" src="/fileadmin/user_upload/shared/virtuozzo-logo.png" width="330" height="64" /></a></figure></div></div><div class="ce-row"><div class="ce-column"><figure class="image"><a href="/" title="Virtuozzo"><img class="image-embed-item" title="Virtuozzo" alt="Virtuozzo" src="/fileadmin/user_upload/shared/virtuozzo-logo-white2.png" width="330" height="64" /></a></figure></div></div></div></div></div>
+
+
+      </div>
+      <div class="buttons">
+        <span class="page-title"></span><a href="" target="_blank" class="mehr">Learn More</a><a href="" target="_blank" class="mehr red">Buy Now</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+<div class="outer-content">
+	<div class="ajax-content" id="ajax">
+		<section class="content custom51 custom92 "><div class="inner-content">
+<div id="c1288" class="frame frame-default frame-type-html frame-layout-0"><!--div class="RHbanner"><a href="https://virtuozzo.com/connect/details/blog/view/gdpr-and-service-providers-what-you-need-to-know.html" target="_blank"><img src="/fileadmin/user_upload/homepage/gdpr_small_banner.png" width="163" height="116" alt="" /></a></div--><div class="RHbanner"><a href="https://virtuozzo.com/aws/" target="_blank"><img src="/fileadmin/user_upload/landing_pages/aws/images/aws_small_banner.png" width="163" height="116" alt="" /></a></div><style type="text/css">
+/* Large desktop */
+@media (min-width : 1200px) {
+.RHbanner {
+  z-index:45;
+  position:absolute;
+  top:3%;
+  left:72%;
+  }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+.RHbanner {
+  z-index:45;
+  position:absolute;
+  top:11%;
+  right:10%;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+.RHbanner {
+  z-index:45;
+  position:absolute;
+  top:70%;
+  left:32%;
+  }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+.RHbanner {
+  z-index:45;
+  position:absolute;
+  top:97%;
+  left:29.5%;
+  }
+}
+
+@media
+only screen and (orientation:landscape) and (-webkit-min-device-pixel-ratio: 1.25),
+only screen and (orientation:landscape) and ( min--moz-device-pixel-ratio: 1.25),
+only screen and (orientation:landscape) and ( -o-min-device-pixel-ratio: 1.25/1),
+only screen and (orientation:landscape) and ( min-device-pixel-ratio: 1.25),
+only screen and (orientation:landscape) and ( min-resolution: 200dpi),
+only screen and (orientation:landscape) and ( min-resolution: 1.25dppx)
+{
+.RHbanner {
+  z-index:45;
+  position:absolute;
+  top:55%;
+  left:77%;
+  }
+}
+</style></div>
+
+
+		<div class="frame frame-default frame-type-text frame-layout-0 mask_hero solutions bright big-hero">
+			<div class="hero-ambience hero-outer-background">
+				<div class="hero-ambience hero-background" style="background-image: url(/fileadmin/user_upload/homepage/virtuozzo-hero-layer1.jpg);"></div>
+			</div>
+			<div class="ce-bodytext hero-bodytext">
+				<div class="ce-bodytext hero-animation-bodytext">
+					<div class="ce-bodytext hero-inner-bodytext">
+						<header>
+							
+								<h1 class="">Save. Scale. Secure.</h1>
+							
+							
+								<h2 class="">Lower your costs and deliver more value with hyperconverged infrastructure. </h2>
+							
+						</header>
+						<div class="hero-links">
+							
+								
+									<a href="https://go.pardot.com/l/148051/2016-07-18/gl2t9" class="mehr">Free Trial</a>
+								
+							
+							
+								
+									<a href="https://store.virtuozzo.com/1438/purl-pp_7starterkit" target="_blank" class="mehr red">Buy Now</a>
+								
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+				<div class="outer-hero-images">
+					<div class="ce-image ce-left ce-above hero-images hero-ambience hero-ambience-left">
+						<div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+							<div class="ce-row">
+								<div class="ce-column">
+									<figure class="image">
+										<img class="image-embed-item" src="/fileadmin/user_upload/homepage/virtuozzo-hero-layer2.png" width="850" height="508" alt="" />
+									</figure>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ce-image ce-left ce-above hero-images hero-ambience hero-ambience-right">
+						<div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+							<div class="ce-row">
+								<div class="ce-column">
+									<figure class="image">
+										<img class="image-embed-item" src="/fileadmin/user_upload/homepage/virtuozzo-hero-layer3.png" width="850" height="508" alt="" />
+									</figure>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="ce-image ce-left ce-above hero-images hero-image">
+						<div class="ce-gallery" data-ce-columns="1" data-ce-images="1">
+							<div class="ce-row">
+								<div class="ce-column">
+									<figure class="image">
+										<img class="image-embed-item" src="/fileadmin/user_upload/homepage/virtuozzo-hero-layer4.png" width="750" height="508" alt="" />
+									</figure>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+			
+				
+					
+<div id="c267" class="frame frame-default frame-type-shortcut frame-layout-0"><section class="content custom1 custom91 "><div class="inner-content"><div class="row"><div class="col-xs-6 col-sm-6 col-md-3  "><div class="frame frame-default frame-type-text frame-layout-0 mask_solutionbox"><div class="table"><div class="table-row"><div class="table-cell"><a href="/solutions/infrastructure-optimization.html"><header><h2 class="">Solution</h2><h1 class="">Infrastructure Optimization</h1></header></a></div></div></div></div></div><div class="col-xs-6 col-sm-6 col-md-3  "><div class="frame frame-default frame-type-text frame-layout-0 mask_solutionbox"><div class="table"><div class="table-row"><div class="table-cell"><a href="/solutions/storage-for-docker.html"><header><h2 class="">Solution</h2><h1 class="">Storage for Docker</h1></header></a></div></div></div></div></div><div class="col-xs-6 col-sm-6 col-md-3  "><div class="frame frame-default frame-type-text frame-layout-0 mask_solutionbox"><div class="table"><div class="table-row"><div class="table-cell"><a href="/solutions/storage-for-kubernetes.html"><header><h2 class="">Solution</h2><h1 class="">Storage for Kubernetes</h1></header></a></div></div></div></div></div><div class="col-xs-6 col-sm-6 col-md-3  "><div class="frame frame-default frame-type-text frame-layout-0 mask_solutionbox"><div class="table"><div class="table-row"><div class="table-cell"><a href="/solutions/software-defined-storage.html"><header><h2 class="">Solution</h2><h1 class="">Software-Defined&nbsp;Storage</h1></header></a></div></div></div></div></div></div></div></section></div>
+
+
+				
+			
+			
+				<a href="javascript:void(0);" class="scroll-down"><i class="fas fa-chevron-down"></i></a>
+				<div class="hero-end"></div>
+			
+		</div>
+	
+
+
+</div></section><section class="content custom51  "><div class="inner-content"><div class="row"><div class="  col-md-12  ">
+<div id="c233" class="frame frame-default frame-type-header frame-layout-0"><header><h1 class="ce-headline-center">
+				Products
+			</h1></header></div>
+
+</div></div><div class="row"><div class="col-xs-12 col-sm-4 col-md-4  "><div class="frame frame-default frame-type-text frame-layout-0 mask_imagebutton">
+	
+		<div class="imagebutton-image">
+			<div class="ce-image ce-left ce-above"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><a href="/products/vip.html"><img class="image-embed-item" src="/fileadmin/user_upload/products/hci/virtuozzo-hci.png" width="290" height="160" alt="" /></a></figure></div></div></div></div>
+		</div>
+	
+	
+		
+			<div class="imagebutton-description">
+				<header>
+					<h1 class="">VIP</h1>
+				</header>
+				<p>Become an early adopter of<br /> our VIP release candidate to get on<br /> a path to hyperconvergence in your data center.</p>
+<p><a href="/products/vip.html">Learn More</a></p>
+<hr />
+			</div>
+		
+	
+	
+	
+	
+		
+			<div class="imagebutton-button">
+				<a href="https://go.pardot.com/l/148051/2018-05-09/3sqp65" target="_blank" class="mehr red">Early Adopter Request</a>
+			</div>
+		
+	
+</div></div><div class="col-xs-12 col-sm-4 col-md-4  "><div class="frame frame-default frame-type-text frame-layout-0 mask_imagebutton">
+	
+		<div class="imagebutton-image">
+			<div class="ce-image ce-left ce-above"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><a href="/products/vz7.html"><img class="image-embed-item" src="/fileadmin/user_upload/products/hci/virtuozzo-containers.png" width="290" height="160" alt="" /></a></figure></div></div></div></div>
+		</div>
+	
+	
+		
+			<div class="imagebutton-description">
+				<header>
+					<h1 class="">Virtuozzo 7</h1>
+				</header>
+				<p>Lower your costs and deliver more value with software-defined storage and high-density virtualization in a single solution.</p>
+<p><a href="/products/vz7.html">Learn More</a></p>
+<hr />
+			</div>
+		
+	
+	
+		
+			<div class="imagebutton-button">
+				<a href="/fileadmin/user_upload/downloads/Data_Sheets/Virtuozzo7-DS-EN-Ltr.pdf" target="_blank" class="mehr">Data Sheet</a>
+			</div>
+		
+	
+	
+		
+			<div class="imagebutton-button">
+				<a href="https://go.pardot.com/l/148051/2016-07-18/gl2t9" target="_blank" class="mehr">30-Day Trial</a>
+			</div>
+		
+	
+	
+		
+			<div class="imagebutton-button">
+				<a href="https://store.virtuozzo.com/1438/purl-pp_7starterkit" target="_blank" class="mehr red">Buy Now</a>
+			</div>
+		
+	
+</div></div><div class="col-xs-12 col-sm-4 col-md-4  "><div class="frame frame-default frame-type-text frame-layout-0 mask_imagebutton">
+	
+		<div class="imagebutton-image">
+			<div class="ce-image ce-left ce-above"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><a href="/products/virtuozzo-storage.html"><img class="image-embed-item" src="/fileadmin/user_upload/products/hci/virtuozzo-storage.png" width="290" height="160" alt="" /></a></figure></div></div></div></div>
+		</div>
+	
+	
+		
+			<div class="imagebutton-description">
+				<header>
+					<h1 class="">Virtuozzo Storage</h1>
+				</header>
+				<p>Keep your data safe<br /> and your storage scalable.<br /> &nbsp;<br /> &nbsp;</p>
+<p><a href="/products/virtuozzo-storage.html">Learn More</a></p>
+<hr />
+			</div>
+		
+	
+	
+		
+			<div class="imagebutton-button">
+				<a href="/fileadmin/user_upload/downloads/Data_Sheets/Virtuozzo-Storage-DS-EN-Ltr.pdf" target="_blank" class="mehr">Data Sheet</a>
+			</div>
+		
+	
+	
+		
+			<div class="imagebutton-button">
+				<a href="https://go.pardot.com/l/148051/2017-03-21/2qd5h6" class="mehr">30-Day Trial</a>
+			</div>
+		
+	
+	
+		
+			<div class="imagebutton-button">
+				<a href="https://store.virtuozzo.com/1438/catalog/category.80993/?_ga=2.218094485.2032761817.1519829810-582935157.1518441738&amp;__hstc=4015663.ec5dc770970fab3a278a5a92a173d47a.1520035816554.1520263380648.1520278671342.14&amp;__hssc=4015663.69.1520278671342&amp;__hsfp=3971067" class="mehr red">Buy Now</a>
+			</div>
+		
+	
+</div></div></div></div></section><section class="content   "><div class="inner-content"><div class="row"><div class="  col-md-12  ">
+<div id="c242" class="frame frame-default frame-type-header frame-layout-0 frame-space-after-extra-small"><header><h1 class="ce-headline-center">
+				Key Benefits
+			</h1></header></div>
+
+</div></div><div class="row"><div class="col-xs-12 col-sm-6 col-md-4  "><div class="frame frame-default frame-type-text frame-layout-0 mask_iconimagedescription clearfix">
+	
+			<div class="iconimagedescription-image">
+				<div class="ce-image ce-left ce-above"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="image-embed-item" src="/fileadmin/user_upload/homepage/optimize-infrastructure_icon.png" width="55" height="46" alt="" /></figure></div></div></div></div>
+			</div>
+		
+	
+		<div class="iconimagedescription-description">
+			
+					<p>Optimize your costs with a hyperconverged solution that integrates containers, VMs and storage – and works with leading container and virtualization solutions</p>
+<p><a href="/fileadmin/user_upload/downloads/Case_Studies/Virtuozzo-Apptio-CS-EN-Ltr.pdf" class="mehr" target="_blank">Apptio Case Study</a></p>
+				
+		</div>
+	
+</div>
+</div><div class="col-xs-12 col-sm-6 col-md-4  "><div class="frame frame-default frame-type-text frame-layout-0 mask_iconimagedescription clearfix">
+	
+			<div class="iconimagedescription-image">
+				<div class="ce-image ce-left ce-above"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="image-embed-item" src="/fileadmin/user_upload/homepage/modernize-infrastructure_icon.png" width="55" height="46" alt="" /></figure></div></div></div></div>
+			</div>
+		
+	
+		<div class="iconimagedescription-description">
+			
+					<p>See why the world’s leading service providers use Virtuozzo to power their infrastructure to deliver the proﬁtable and value-adding cloud services to their customers</p>
+<p><a href="/fileadmin/user_upload/downloads/Case_Studies/Virtuozzo-Caravan-Aero-CS-EN-Ltr.pdf" class="mehr" target="_blank">Caravan Aero Case Study</a></p>
+				
+		</div>
+	
+</div>
+</div><div class="col-xs-12 col-sm-6 col-md-4  "><div class="frame frame-default frame-type-text frame-layout-0 mask_iconimagedescription clearfix">
+	
+			<div class="iconimagedescription-image">
+				<div class="ce-image ce-left ce-above"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="image-embed-item" src="/fileadmin/user_upload/homepage/launch-new-cloud-services_icon.png" width="55" height="46" alt="" /></figure></div></div></div></div>
+			</div>
+		
+	
+		<div class="iconimagedescription-description">
+			
+					<p>Expand into new markets and drive business growth to support new customer demands with hyperconverged infrastructure solutions<span class="red"></span></p>
+<p><a href="/fileadmin/user_upload/downloads/Case_Studies/Virtuozzo-Dogado-CS-EN-Ltr.pdf" class="mehr" target="_blank">Dogado Case Study</a></p>
+				
+		</div>
+	
+</div>
+</div></div></div></section><section class="content custom6 custom8 "><div class="inner-content"><div class="row"><div class="  col-md-12  ">
+<div id="c252" class="frame frame-default frame-type-header frame-layout-0"><header><h2 class="ce-headline-center">
+				Our Customers
+			</h2></header></div>
+
+</div></div><div class="row"><div class="  col-md-12  ">
+<div id="c258" class="frame frame-default frame-type-text frame-layout-0"><p class="text-center">More than 800 service providers, ISVs and enterprises use Virtuozzo to run their mission critical workloads.</p></div>
+
+</div></div><div class="row"><div class="  col-md-12  "><div class="frame frame-default frame-type-text frame-layout-0 mask_industrypartners">
+	
+		<div class="ce-image ce-left ce-above industrypartners-item"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="image-embed-item" src="/fileadmin/user_upload/homepage/icon-1%261.png" width="330" height="128" alt="" /></figure></div></div></div></div><div class="ce-image ce-left ce-above industrypartners-item"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="image-embed-item" src="/fileadmin/user_upload/homepage/icon-apptio.png" width="330" height="128" alt="" /></figure></div></div></div></div><div class="ce-image ce-left ce-above industrypartners-item"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="image-embed-item" src="/fileadmin/user_upload/homepage/icon-acens.png" width="330" height="128" alt="" /></figure></div></div></div></div><div class="ce-image ce-left ce-above industrypartners-item"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="image-embed-item" src="/fileadmin/user_upload/homepage/icon-strato.png" width="330" height="128" alt="" /></figure></div></div></div></div><div class="ce-image ce-left ce-above industrypartners-item"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="image-embed-item" src="/fileadmin/user_upload/homepage/icon-godaddy.png" width="330" height="128" alt="" /></figure></div></div></div></div><div class="ce-image ce-left ce-above industrypartners-item"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="image-embed-item" src="/fileadmin/user_upload/homepage/icon-conetix.png" width="330" height="128" alt="" /></figure></div></div></div></div><div class="ce-image ce-left ce-above industrypartners-item"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="image-embed-item" src="/fileadmin/user_upload/homepage/icon-servint.png" width="330" height="128" alt="" /></figure></div></div></div></div><div class="ce-image ce-left ce-above industrypartners-item"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="image-embed-item" src="/fileadmin/user_upload/homepage/icon-diadem.png" width="330" height="128" alt="" /></figure></div></div></div></div><div class="ce-image ce-left ce-above industrypartners-item"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="image-embed-item" src="/fileadmin/user_upload/homepage/icon-pachosting.png" width="330" height="128" alt="" /></figure></div></div></div></div><div class="ce-image ce-left ce-above industrypartners-item"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="image-embed-item" src="/fileadmin/user_upload/homepage/icon-ods.png" width="330" height="128" alt="" /></figure></div></div></div></div><div class="ce-image ce-left ce-above industrypartners-item"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="image-embed-item" src="/fileadmin/user_upload/homepage/icon-vinacis.png" width="330" height="128" alt="" /></figure></div></div></div></div>
+	
+</div>
+</div></div></div></section><section class="content custom51  "><div class="inner-content"><div class="row"><div class="  col-md-12  ">
+<div id="c679" class="frame frame-default frame-type-header frame-layout-0"><header><h2 class="ce-headline-center">
+				Contact Us
+			</h2></header></div>
+
+</div></div><div class="row"><div class="  col-md-12  ">
+<div id="c681" class="frame frame-default frame-type-text frame-layout-0"><p class="text-center"><a href="https://go.pardot.com/l/148051/2016-02-25/618i" target="_blank" class="mehr">Request Information</a><a href="/support/all-products.html" class="mehr">Get Support</a><a href="https://go.pardot.com/l/148051/2016-07-18/gl2t9" target="_blank" class="mehr">30-Day Trial</a></p></div>
+
+</div></div>
+<div id="c1221" class="frame frame-default frame-type-shortcut frame-layout-0"><div class="row"><div class=" col-sm-8 col-md-8  "><div id="c266" class="frame frame-default frame-type-html frame-layout-0"><iframe src="" data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.754853055897!2d-122.19542398376261!3d47.6114562791851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906c632880a5d5%3A0xec9d3c82baca2934!2s110+110th+Ave+NE+%23410%2C+Bellevue%2C+WA+98004%2C+USA!5e0!3m2!1sde!2sde!4v1520265818563" width="600" height="350" frameborder="0" style="border:0" allowfullscreen></iframe></div></div><div class=" col-sm-4 col-md-4  "><div id="c265" class="frame frame-default frame-type-text frame-layout-0 frame-space-before-large"><p><strong>Seattle, USA (HQ)</strong><br /> 110 110th Ave NE #410,<br /> Bellevue, WA 98004</p><p><a href="tel:+12065390730">+1 (206) 539 0730</a></p><p><a href="javascript:linkTo_UnCryptMailto('kygjrm8gldmYtgprsmxxm,amk');">Email Us</a></p></div></div></div></div>
+
+</div></section>
+	</div>
+</div>
+
+
+
+
+
+
+<footer id="footer" class="footer">
+  <section class="content custom6 custom8 "><div class="inner-content"><div class="row"><div class="  col-md-12  ">
+<div id="c71" class="frame frame-default frame-type-header frame-layout-0"><header><h2 class="ce-headline-center">
+				Strategic Industry Relationships
+			</h2></header></div>
+
+</div></div><div class="row"><div class="  col-md-12  "><div class="frame frame-default frame-type-text frame-layout-0 mask_industrypartners">
+	
+		<div class="ce-image ce-left ce-above industrypartners-item"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="image-embed-item" src="/fileadmin/user_upload/footer/icon-openstack.png" width="330" height="64" alt="" /></figure></div></div></div></div><div class="ce-image ce-left ce-above industrypartners-item"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="image-embed-item" src="/fileadmin/user_upload/footer/icon-cloudnative.png" width="330" height="64" alt="" /></figure></div></div></div></div><div class="ce-image ce-left ce-above industrypartners-item"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="image-embed-item" src="/fileadmin/user_upload/footer/icon-opencontainer.png" width="330" height="64" alt="" /></figure></div></div></div></div><div class="ce-image ce-left ce-above industrypartners-item"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="image-embed-item" src="/fileadmin/user_upload/footer/icon-linuxfoundation.png" width="330" height="64" alt="" /></figure></div></div></div></div><div class="ce-image ce-left ce-above industrypartners-item"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="image-embed-item" src="/fileadmin/user_upload/footer/icon-ingram.png" width="330" height="64" alt="" /></figure></div></div></div></div><div class="ce-image ce-left ce-above industrypartners-item"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="image-embed-item" src="/fileadmin/user_upload/footer/icon-packet.png" width="330" height="64" alt="" /></figure></div></div></div></div><div class="ce-image ce-left ce-above industrypartners-item"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><img class="image-embed-item" src="/fileadmin/user_upload/footer/icon-plesk.png" width="330" height="64" alt="" /></figure></div></div></div></div>
+	
+</div>
+</div></div></div></section>
+<div id="c1220" class="frame frame-default frame-type-shortcut frame-layout-0"><section class="content custom51  "><div class="inner-content"><div class="row"><div class="  col-md-12  "><div id="c673" class="frame frame-default frame-type-header frame-layout-0"><header><h2 class="ce-headline-center">
+				How Can We Help?
+			</h2></header></div></div></div><div class="row"><div class="  col-md-4  "><div class="frame frame-default frame-type-text frame-layout-0 mask_iconimagebutton " data-filter=",,"><div class="iconimagebutton-image"><i class="far fa-clock"></i></div><div class="iconimagebutton-description"><h2>Get a Free Trial<br />of Virtuozzo 7</h2><p>&nbsp;</p></div><div class="iconimagebutton-button"><a href="https://go.pardot.com/l/148051/2016-07-18/gl2t9" target="_blank" class="mehr">Free Trial</a></div></div></div><div class="  col-md-4  "><div class="frame frame-default frame-type-text frame-layout-0 mask_iconimagebutton " data-filter=",,"><div class="iconimagebutton-image"><i class="far fa-user"></i></div><div class="iconimagebutton-description"><h2>Get<br /> Support</h2><p>&nbsp;</p></div><div class="iconimagebutton-button"><a href="/support.html" class="mehr">Launch Support</a></div></div></div><div class="  col-md-4  "><div class="frame frame-default frame-type-text frame-layout-0 mask_iconimagebutton " data-filter=",,"><div class="iconimagebutton-image"><i class="far fa-comment-alt"></i></div><div class="iconimagebutton-description"><h2>Request<br /> Information</h2><p>&nbsp;</p></div><div class="iconimagebutton-button"><a href="https://go.pardot.com/l/148051/2016-02-25/618i" target="_blank" class="mehr">Get Info</a></div></div></div></div></div></section></div>
+
+<section class="content custom5 custom7 "><div class="inner-content"><div class="row"><div class="col-xs-6 col-sm-4 col-md-2  ">
+<div id="c60" class="frame frame-default frame-type-menu_pages frame-layout-0"><header><h4 class="">
+				Solutions
+			</h4></header><ul><li><a href="/solutions/infrastructure-optimization.html" title="Infrastructure Optimization"><span>Infrastructure Optimization</span></a></li><li><a href="/solutions/storage-for-docker.html" title="For Docker"><span>For Docker</span></a></li><li><a href="/solutions/storage-for-kubernetes.html" title="For Kubernetes"><span>For Kubernetes</span></a></li><li><a href="/products/virtuozzo-storage.html" title="Software-Defined Storage"><span>Software-Defined Storage</span></a></li><li><a href="/solutions/iaas-on-demand.html" title="IaaS On Demand"><span>IaaS On Demand</span></a></li></ul></div>
+
+</div><div class="col-xs-6 col-sm-4 col-md-2  ">
+<div id="c61" class="frame frame-default frame-type-menu_pages frame-layout-0"><header><h4 class="">
+				Products
+			</h4></header><ul><li><a href="/products/vip.html" title="VIP"><span>VIP</span></a></li><li><a href="/products/vz7.html" title="Virtuozzo 7"><span>Virtuozzo 7</span></a></li><li><a href="/products/virtuozzo-storage.html" title="Virtuozzo Storage"><span>Virtuozzo Storage</span></a></li></ul></div>
+
+</div><div class="col-xs-6 col-sm-4 col-md-2  ">
+<div id="c62" class="frame frame-default frame-type-menu_pages frame-layout-0"><header><h4 class="">
+				About
+			</h4></header><ul><li><a href="/about/careers.html" title="Careers"><span>Careers</span></a></li><li><a href="/about/partners.html" title="Partners"><span>Partners</span></a></li><li><a href="/about/contact.html" title="Contact"><span>Contact</span></a></li><li><a href="/connect/in-the-news.html" title="Press"><span>Press</span></a></li><li><a href="/connect/blog.html" title="Blog"><span>Blog</span></a></li><li><a href="/about/open-source.html" title="Open Source"><span>Open Source</span></a></li></ul></div>
+
+</div><div class="col-xs-6 col-sm-4 col-md-2  ">
+<div id="c63" class="frame frame-100 frame-type-menu_pages frame-layout-1"><header><h4 class="">
+				Resources
+			</h4></header><ul><li><a href="/resources/all-resources.html" title="All Resources"><span>All Resources</span></a></li><li><a href="/resources/all-resources.html" title="Analyst Report"><span>Analyst Report</span></a></li><li><a href="/resources/all-resources.html" title="Solution Briefs"><span>Solution Briefs</span></a></li><li><a href="/resources/all-resources.html" title="Videos"><span>Videos</span></a></li><li><a href="/resources/all-resources.html" title="Case Studies"><span>Case Studies</span></a></li><li><a href="/resources/all-resources.html" title="Data Sheets"><span>Data Sheets</span></a></li><li><a href="/resources/all-resources.html" title="White Papers"><span>White Papers</span></a></li><li><a href="/resources/all-resources.html" title="Webinars"><span>Webinars</span></a></li><li><a href="/resources/all-resources.html" title="Branding Materials"><span>Branding Materials</span></a></li><li><a href="https://docs.virtuozzo.com/master/index.html?_ga=2.46125735.2032761817.1519829810-582935157.1518441738" title="Product Guides"><span>Product Guides</span></a></li></ul></div>
+
+</div><div class="col-xs-6 col-sm-4 col-md-2  ">
+<div id="c64" class="frame frame-default frame-type-menu_pages frame-layout-0"><header><h4 class="">
+				Support
+			</h4></header><ul><li><a href="/support/all-products.html" title="All Products"><span>All Products</span></a></li><li><a href="http://docs.virtuozzo.com/master/index.html?_ga=2.39254688.2032761817.1519829810-582935157.1518441738" target="_blank" title="Documentation"><span>Documentation</span></a></li><li><a href="http://help.virtuozzo.com/?_ga=2.39254688.2032761817.1519829810-582935157.1518441738" target="_blank" title="Knowledge Base"><span>Knowledge Base</span></a></li><li><a href="https://cscontact.virtuozzo.com/?_ga=2.39255968.2032761817.1519829810-582935157.1518441738" target="_blank" title="Support Request"><span>Support Request</span></a></li><li><a href="/email-preferences.html" title="Email Preferences"><span>Email Preferences</span></a></li></ul></div>
+
+</div><div class="col-xs-6 col-sm-4 col-md-2  ">
+<div id="c65" class="frame frame-default frame-type-menu_pages frame-layout-0"><header><h4 class="">
+				Social
+			</h4></header><ul><li><a href="https://www.facebook.com/VirtuozzoInc/" target="_blank" title="Facebook"><span>Facebook</span></a></li><li><a href="https://twitter.com/virtuozzoinc" target="_blank" title="Twitter"><span>Twitter</span></a></li><li><a href="https://www.linkedin.com/company/virtuozzo" target="_blank" title="LinkedIn"><span>LinkedIn</span></a></li><li><a href="https://www.instagram.com/virtuozzo_ru/" target="_blank" title="Instagram"><span>Instagram</span></a></li></ul></div>
+
+</div></div></div></section><section class="content custom5 custom9 "><div class="inner-content"><div class="row"><div class="  col-md-2  ">
+<div id="c67" class="frame frame-default frame-type-image frame-layout-0"><div class="ce-image ce-left ce-above"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><a href="/" title="Virtuozzo"><img class="image-embed-item" title="Virtuozzo" alt="Virtuozzo" src="/fileadmin/user_upload/shared/virtuozzo-logo-white.png" width="330" height="64" /></a></figure></div></div></div></div></div>
+
+</div><div class="  col-md-1  ">
+<div id="c69" class="frame frame-default frame-type-menu_pages frame-layout-0"><ul><li><a href="/legal.html" title="Legal"><span>Legal</span></a></li></ul></div>
+
+</div><div class="  col-md-2  ">
+<div id="c70" class="frame frame-default frame-type-menu_pages frame-layout-0"></div>
+
+</div></div></div></section>
+</footer>
+
+<div class="outer-offmenu">
+  <nav id="offmenu" class="offmenu">
+    <div class="scroller" id="scroller">
+      <section class="content custom1 custom91 "><div class="inner-content"><div class="row"><div class="col-xs-6 col-sm-6 col-md-3  ">
+	<div class="frame frame-default frame-type-text frame-layout-0 mask_solutionbox">
+		<div class="table">
+			<div class="table-row">
+				<div class="table-cell">
+					<a href="/solutions/infrastructure-optimization.html">
+						<header>
+							<h2 class="">Solution</h2>
+							<h1 class="">Infrastructure Optimization</h1>
+						</header>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><div class="col-xs-6 col-sm-6 col-md-3  ">
+	<div class="frame frame-default frame-type-text frame-layout-0 mask_solutionbox">
+		<div class="table">
+			<div class="table-row">
+				<div class="table-cell">
+					<a href="/solutions/storage-for-docker.html">
+						<header>
+							<h2 class="">Solution</h2>
+							<h1 class="">Storage for Docker</h1>
+						</header>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><div class="col-xs-6 col-sm-6 col-md-3  ">
+	<div class="frame frame-default frame-type-text frame-layout-0 mask_solutionbox">
+		<div class="table">
+			<div class="table-row">
+				<div class="table-cell">
+					<a href="/solutions/storage-for-kubernetes.html">
+						<header>
+							<h2 class="">Solution</h2>
+							<h1 class="">Storage for Kubernetes</h1>
+						</header>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><div class="col-xs-6 col-sm-6 col-md-3  ">
+	<div class="frame frame-default frame-type-text frame-layout-0 mask_solutionbox">
+		<div class="table">
+			<div class="table-row">
+				<div class="table-cell">
+					<a href="/solutions/software-defined-storage.html">
+						<header>
+							<h2 class="">Solution</h2>
+							<h1 class="">Software-Defined&nbsp;Storage</h1>
+						</header>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div></div></div></section>
+      <section class="content custom91">
+        <div class="inner-content">
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="menu main"><li class="first element1 hassub"><a href="/solutions/infrastructure-optimization.html">Solutions</a><ul class="ebene2"><li class="first element2"><a href="/solutions/infrastructure-optimization.html">Infrastructure Optimization</a></li><li class="element2"><a href="/solutions/storage-for-docker.html">Storage for Docker</a></li><li class="element2"><a href="/solutions/storage-for-kubernetes.html">Storage for Kubernetes</a></li><li class="last element2"><a href="/products/virtuozzo-storage.html">Software-Defined Storage</a></li></ul><i class="fas fa-chevron-right"></i></li><li class="element1 hassub"><a href="/products/vip.html">Products</a><ul class="ebene2"><li class="first element2"><a href="/products/vip.html">VIP</a></li><li class="element2"><a href="/products/vz7.html">Virtuozzo 7</a></li><li class="last element2"><a href="/products/virtuozzo-storage.html">Virtuozzo Storage</a></li></ul><i class="fas fa-chevron-right"></i></li><li class="element1 hassub"><a href="/resources/all-resources.html">Resources</a><ul class="ebene2"><li class="first element2"><a href="/resources/all-resources.html">All Resources</a></li><li class="element2"><a href="/resources/all-resources.html">Analyst Report</a></li><li class="element2"><a href="/resources/all-resources.html">Solution Briefs</a></li><li class="element2"><a href="/resources/all-resources.html">Videos</a></li><li class="element2"><a href="/resources/all-resources.html">Case Studies</a></li><li class="element2"><a href="/resources/all-resources.html">Data Sheets</a></li><li class="element2"><a href="/resources/all-resources.html">White Papers</a></li><li class="element2"><a href="/resources/all-resources.html">Webinars</a></li><li class="element2"><a href="/resources/all-resources.html">Branding Materials</a></li><li class="last element2"><a href="https://docs.virtuozzo.com/master/index.html?_ga=2.46125735.2032761817.1519829810-582935157.1518441738">Product Guides</a></li></ul><i class="fas fa-chevron-right"></i></li><li class="element1 hassub"><a href="/support/all-products.html">Support</a><ul class="ebene2"><li class="first element2"><a href="/support/all-products.html">All Products</a></li><li class="element2"><a href="http://docs.virtuozzo.com/master/index.html?_ga=2.39254688.2032761817.1519829810-582935157.1518441738" target="_blank">Documentation</a></li><li class="last element2"><a href="http://help.virtuozzo.com/?_ga=2.39254688.2032761817.1519829810-582935157.1518441738" target="_blank">Knowledge Base</a></li></ul><i class="fas fa-chevron-right"></i></li><li class="element1 hassub"><a href="/connect/product-updates.html">Connect</a><ul class="ebene2"><li class="first element2"><a href="/connect/product-updates.html">Product Updates</a></li><li class="element2"><a href="/connect/in-the-news.html">In the News</a></li><li class="last element2"><a href="/connect/blog.html">Blog</a></li></ul><i class="fas fa-chevron-right"></i></li><li class="last element1 hassub"><a href="/about/careers.html">About</a><ul class="ebene2"><li class="first element2"><a href="/about/careers.html">Careers</a></li><li class="element2"><a href="/about/partners.html">Partners</a></li><li class="element2"><a href="/about/our-story.html">Our story</a></li><li class="element2"><a href="/about/contact.html">Contact</a></li><li class="last element2"><a href="/about/open-source.html">Open Source</a></li></ul><i class="fas fa-chevron-right"></i></li></ul>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="content custom91  "><div class="inner-content"><div class="row"><div class="  col-md-6  ">
+<div id="c54" class="frame frame-default frame-type-list frame-layout-0">
+
+<div class="tx-indexedsearch-searchbox">
+	<form method="post" id="tx_indexedsearch" action="/search.html?tx_indexedsearch_pi2%5Baction%5D=search&amp;tx_indexedsearch_pi2%5Bcontroller%5D=Search&amp;cHash=30663f9f662d5d06706e166ad6c765c4">
+<div>
+<input type="hidden" name="tx_indexedsearch_pi2[__referrer][@extension]" value="IndexedSearch" />
+<input type="hidden" name="tx_indexedsearch_pi2[__referrer][@vendor]" value="TYPO3\CMS" />
+<input type="hidden" name="tx_indexedsearch_pi2[__referrer][@controller]" value="Search" />
+<input type="hidden" name="tx_indexedsearch_pi2[__referrer][@action]" value="form" />
+<input type="hidden" name="tx_indexedsearch_pi2[__referrer][arguments]" value="YTowOnt9b6b4596c06d9e9ae9304f453f0aef5c28be355f1" />
+<input type="hidden" name="tx_indexedsearch_pi2[__referrer][@request]" value="a:4:{s:10:&quot;@extension&quot;;s:13:&quot;IndexedSearch&quot;;s:11:&quot;@controller&quot;;s:6:&quot;Search&quot;;s:7:&quot;@action&quot;;s:4:&quot;form&quot;;s:7:&quot;@vendor&quot;;s:9:&quot;TYPO3\CMS&quot;;}2f19e5c6fb2055a40f233c8395dc78156e9bedab" />
+<input type="hidden" name="tx_indexedsearch_pi2[__trustedProperties]" value="a:1:{s:6:&quot;search&quot;;a:14:{s:9:&quot;_sections&quot;;i:1;s:13:&quot;_freeIndexUid&quot;;i:1;s:7:&quot;pointer&quot;;i:1;s:3:&quot;ext&quot;;i:1;s:10:&quot;searchType&quot;;i:1;s:14:&quot;defaultOperand&quot;;i:1;s:9:&quot;mediaType&quot;;i:1;s:9:&quot;sortOrder&quot;;i:1;s:5:&quot;group&quot;;i:1;s:11:&quot;languageUid&quot;;i:1;s:4:&quot;desc&quot;;i:1;s:15:&quot;numberOfResults&quot;;i:1;s:14:&quot;extendedSearch&quot;;i:1;s:5:&quot;sword&quot;;i:1;}}bcf35c541e6545cde8ce9f0bba29777690bd5811" />
+</div>
+
+		<div class="tx-indexedsearch-hidden-fields">
+			<input type="hidden" name="tx_indexedsearch_pi2[search][_sections]" value="0" />
+			<input id="tx_indexedsearch_freeIndexUid" type="hidden" name="tx_indexedsearch_pi2[search][_freeIndexUid]" value="_" />
+			<input id="tx_indexedsearch_pointer" type="hidden" name="tx_indexedsearch_pi2[search][pointer]" value="0" />
+			<input type="hidden" name="tx_indexedsearch_pi2[search][ext]" value="" />
+			<input type="hidden" name="tx_indexedsearch_pi2[search][searchType]" value="1" />
+			<input type="hidden" name="tx_indexedsearch_pi2[search][defaultOperand]" value="0" />
+			<input type="hidden" name="tx_indexedsearch_pi2[search][mediaType]" value="-1" />
+			<input type="hidden" name="tx_indexedsearch_pi2[search][sortOrder]" value="rank_flag" />
+			<input type="hidden" name="tx_indexedsearch_pi2[search][group]" value="" />
+			<input type="hidden" name="tx_indexedsearch_pi2[search][languageUid]" value="-1" />
+			<input type="hidden" name="tx_indexedsearch_pi2[search][desc]" value="" />
+			<input type="hidden" name="tx_indexedsearch_pi2[search][numberOfResults]" value="10" />
+			<input type="hidden" name="tx_indexedsearch_pi2[search][extendedSearch]" value="" />
+		</div>
+		<fieldset>
+			<legend>Search form</legend>
+			<div class="tx-indexedsearch-form">
+				
+				<input placeholder="Search" class="tx-indexedsearch-searchbox-sword" id="tx-indexedsearch-searchbox-sword" type="text" name="tx_indexedsearch_pi2[search][sword]" value="" /><i class="fas fa-search"></i>
+			</div>
+			
+			
+		</fieldset>
+		
+	</form>
+</div>
+
+
+
+
+
+
+
+</div>
+
+</div></div></div></section>
+      <section class="content custom91">
+        <div class="inner-content">
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="menu meta"><li class="first element1"><a href="https://twitter.com/virtuozzoinc" target="_blank"><i class="fab fa-twitter-square"></i></a></li><li class="element1"><a href="https://www.facebook.com/VirtuozzoInc/" target="_blank"><i class="fab fa-facebook-square"></i></a></li><li class="element1"><a href="https://www.linkedin.com/company/virtuozzo" target="_blank"><i class="fab fa-linkedin"></i></a></li><li class="element1"><a href="https://www.instagram.com/virtuozzo_ru/" target="_blank"><i class="fab fa-instagram"></i></a></li><li class="last element1"><a href="https://www.youtube.com/channel/UCF1QeKAgIZ8ZQFaqUxPp87w" target="_blank"><i class="fab fa-youtube-square"></i></a></li></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </nav>
+</div>
+
+<div id="outdated"></div>
+
+
+
+<script type="text/javascript">
+    var palettes={honeybee:{popup:{background:"#000000"},button:{background:"#f1d600"}},blurple:{popup:{background:"#3937a3"},button:{background:"#e62576"}},mono:{popup:{background:"#237afc"},button:{background:"transparent",border:"#ffffff",text:"#ffffff"}},nuclear:{popup:{background:"#aa0000",text:"#ffdddd"},button:{background:"#ff0000"}},cosmo:{popup:{background:"#383b75"},button:{background:"#f1d600"}},neon:{popup:{background:"#1d8a8a"},button:{background:"#62ffaa"}},corporate:{popup:{background:"#edeff5",text:"#838391"},button:{background:"#4b81e8"}},custom:{popup:{background:"rgba(0,0,0,0.8)",text:"#ffffff",link:"#ffffff"},button:{background:"rgba(0,0,0,0.4)",border:"#808080",text:"#808080"},highlight:{background:"rgba(0,0,0,0.5)",border:"#ffffff",text:"#ffffff"}}},$optionEnabled="1",$optionRevokable="false",$expiryDays="",$optionsPalette="custom",$position="bottom",$theme="block",$type="custominfo",$optionMessageLink="";switch($optionsPalette){case"custom":var $palette=palettes.custom;break;case"honeybee":$palette=palettes.honeybee;break;case"blurple":$palette=palettes.blurple;break;case"mono":$palette=palettes.mono;break;case"nuclear":$palette=palettes.nuclear;break;case"cosmo":$palette=palettes.cosmo;break;case"neon":$palette=palettes.neon;break;case"corporate":$palette=palettes.corporate;break;default:$palette=palettes.custom}switch($optionEnabled){case"1":var $enabled=!0;break;case"0":$enabled=!1;break;default:$enabled=!0}switch($optionRevokable){case"true":var $revokable=!0;break;case"false":$revokable=!1;break;default:$revokable=!0}switch($optionMessageLink){case"":var $messagelink="";break;default:$messagelink='More Info'}if("pushdown"===$position){$position="top";var $static=!0}else $static=!1;var header='Cookies used on the website!',message='In order to optimize our website for you and to be able to continuously improve it, we use cookies. By continuing to use the website, you agree to the use of cookies.',dismiss='Got it!',allow='Allow cookies',deny='Decline',link='More Info',additionalButton='<a href="/privacy-policy.html" target="_self" class="cc-btn" tabindex="0">Data Protection</a>';
+    window.addEventListener("load", function() {
+        window.cookieconsent.initialise({
+            enabled: $enabled, palette: $palette, cookie: {name: 'cookie_hint_status', expiryDays: $expiryDays}, content: {header: header, message: message, dismiss: dismiss, allow: allow, deny: deny, link: link}, elements: { messagelink: '<span id="cookieconsent:desc" class="cc-message">{{message}} ' + $messagelink + '</span>', link: link, additionalButton: additionalButton}, revokable: $revokable, revokeBtn: '<div class="cc-revoke {{classes}}">Changed your Mind?</div>', compliance: {'custominfo': '<div class="cc-compliance">{{additionalButton}}{{dismiss}}</div>'}, type: $type, position: $position, theme: $theme, static: $static
+        })
+    });
+</script>
+<script src="/typo3temp/assets/compressed/jquery-3.1.1.min-7b9afce506825b4f190f6a514d90b0d0.js" type="text/javascript"></script>
+<script src="/typo3temp/assets/compressed/plugins-66faedd02012cfb68e089cb9ff7d4855.js" type="text/javascript"></script>
+
+<script src="/typo3temp/assets/compressed/cookieconsent.min-4b8e018cb9f66ccd9ca79ce0184a8f95.js" type="text/javascript"></script>
+<script src="/typo3temp/assets/compressed/outdatedbrowser.min-fdc90db88f281e351ced32da84e1d16d.js" type="text/javascript"></script>
+<script src="/typo3temp/assets/compressed/jquery.flexslider.min-4c6be2933f892fa23a0d22da53bfea10.js" type="text/javascript"></script>
+<script src="/typo3temp/assets/compressed/jquery.idle.min-b1c44f7f270e0836d0abc692761d4ff5.js" type="text/javascript"></script>
+<script src="/typo3temp/assets/compressed/jquery.magnific-popup.min-b3a6aa4870b610106adafa954e5b0794.js" type="text/javascript"></script>
+<script src="/typo3temp/assets/compressed/nanobar-bfb883d9f478a093f592bfce95d2fac7.js" type="text/javascript"></script>
+<script src="/typo3temp/assets/compressed/main-9fb814c02a039e6db67723ce793f1515.js" type="text/javascript"></script>
+<script src="/typo3temp/assets/compressed/dec9f691a6-34ef9f141e967ccbb08450b7ef8c1d49.js" type="text/javascript"></script>
+
+
+
+  <!-- Start Pardot -->
+  <script type="text/javascript" src="https://pi.pardot.com/analytics?ver=3&amp;visitor_id=33856791&amp;pi_opt_in=&amp;campaign_id=1073&amp;account_id=149051&amp;title=Hyperconverged%20Infrastructure%20Software%20Provider&amp;url=https%3A%2F%2Fvirtuozzo.com%2F&amp;referrer="></script>
+
+  <script type="text/javascript">
+    piAId = '149051';
+    piCId = '1073';
+    piHostname = 'pi.pardot.com';
+
+    (function() {
+    function async_load(){
+    var s = document.createElement('script'); s.type = 'text/javascript';
+    s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+    var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+    }
+    if(window.attachEvent) { window.attachEvent('onload', async_load); }
+    else { window.addEventListener('load', async_load, false); }
+    })();
+  </script>
+  <!-- End Pardot -->
+
+
+</body>
+</html>
+<!-- cached statically on: 12-07-18 16:14 -->
+<!-- expires on: 01-01-70 00:00 -->

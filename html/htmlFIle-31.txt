@@ -1,0 +1,2556 @@
+<!DOCTYPE html>
+    <!--[if IEMobile 7 ]> <html dir="ltr" lang="ja" class="no-js iem7"> <![endif]-->
+    <!--[if lt IE 7 ]> <html dir="ltr" lang="ja" class="no-js ie6 oldie"> <![endif]-->
+    <!--[if IE 7 ]>    <html dir="ltr" lang="ja" class="no-js ie7 oldie"> <![endif]-->
+    <!--[if IE 8 ]>    <html dir="ltr" lang="ja" class="no-js ie8 oldie"> <![endif]-->
+    <!--[if (gte IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html dir="ltr" lang="ja" class="no-js"><!--<![endif]-->
+    <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>TE Connectivity: 過酷な環境に対応するコネクタとセンサ</title>
+
+    <meta name="description" content="TE のコネクタおよびセンサは、過酷な環境でもデータ伝送・パワー伝送・センシング・コネクティビティが必要とされるあらゆる種類のデバイスに組み込まれています。" />
+
+<meta name="keywords" content="センサ,,Tyco Electronics,TE Connectivity,過酷な環境,高度な設計,電子コンポーネント,コネクタ" />
+<meta name="twitter:card" content="" />
+	<meta property="og:updated_time" content="2018/07/02 13:42:54" />
+	
+	<meta property="og:url" content="http://www.te.com/jpn-ja/home.html" />
+	    <meta name="twitter:url" content= "http://www.te.com/jpn-ja/home.html" />
+	<meta property="og:site_name" content="TE Connectivity: 過酷な環境に対応するコネクタとセンサ"/>
+	    	<meta name="twitter:site" content= "TE Connectivity: 過酷な環境に対応するコネクタとセンサ" />
+	    <meta property="og:title" content="TE Connectivity: 過酷な環境に対応するコネクタとセンサ" />
+	    <meta name="twitter:title" content="TE Connectivity: 過酷な環境に対応するコネクタとセンサ" />
+	<meta property="og:description" content="TE のコネクタおよびセンサは、過酷な環境でもデータ伝送・パワー伝送・センシング・コネクティビティが必要とされるあらゆる種類のデバイスに組み込まれています。" />
+	    <meta name="twitter:description" content="TE のコネクタおよびセンサは、過酷な環境でもデータ伝送・パワー伝送・センシング・コネクティビティが必要とされるあらゆる種類のデバイスに組み込まれています。" />
+	<meta property="og:type" content="Website" />
+	    <meta property="og:image" content="http://origin-www.te.com/content/dam/te-com/custom/images/te-interactive/timeline/te-logo.jpg"/>
+			    <meta name="twitter:image" content="http://origin-www.te.com/content/dam/te-com/custom/images/te-interactive/timeline/te-logo.jpg" />
+			<meta name="teListingTitle" content="TE Connectivity: 過酷な環境に対応するコネクタとセンサ" />
+<meta name="teListingDescription" content="TE のコネクタおよびセンサは、過酷な環境でもデータ伝送・パワー伝送・センシング・コネクティビティが必要とされるあらゆる種類のデバイスに組み込まれています。" />
+<meta name="teListingThumbnail"  content="/content/dam/te-com/custom/images/te-interactive/timeline/te-logo.jpg"/>
+<meta name="teAltText" content="TE Connectivity: 過酷な環境に対応するコネクタとセンサ" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+        <script type="text/javascript" src="/dtagent_ICA23STVbdgjpqrsvx_7000000201016.js" data-dtconfig="agentUri=/dtagent_ICA23STVbdgjpqrsvx_7000000201016.js|rid=RID_1969698315|rpid=227819964|domain=te.com|bandwidth=900|lastModification=1526462740477|lab=1|tp=5000,50,3,1|reportUrl=/dynaTraceMonitor|app=www2.te.com"></script><script>
+            (function() {
+                var w = window,
+                      d = document,
+                      e = d.documentElement,
+                      g = d.getElementsByTagName('body')[0],
+                      x = (w.innerWidth && e.clientWidth) ? (Math.min(w.innerWidth, e.clientWidth)) : (w.innerWidth || e.clientWidth || g.clientWidth);
+      				
+                if(x > 1439){
+                    var allMetaElements = document.getElementsByTagName("meta");
+                    for (var i=0; i<allMetaElements.length; i++) { 
+                      if (allMetaElements[i].getAttribute("name") == "viewport") { 
+                        allMetaElements[i].setAttribute('content', "width=1440");
+                        break;
+                      } 
+                    } 
+                }
+                else if(x > 719){
+                    var allMetaElements = document.getElementsByTagName("meta");
+                    for (var i=0; i<allMetaElements.length; i++) { 
+                      if (allMetaElements[i].getAttribute("name") == "viewport") { 
+                        allMetaElements[i].setAttribute('content', "width=1024");
+                        break;
+                      } 
+                    } 
+                }
+                else{
+                    try{
+        	            window.onpageshow = function(event) {
+        	                if (event.persisted) {
+        	                    window.location.reload() 
+        	                }
+        	            };
+        	        }catch(ex){}
+                }
+            })();
+        </script>
+    <meta name="msvalidate.01" content="DFB8F8BF6404DB9D4A57FEBBAFC3A5CF" />
+
+<link rel="icon" href="/_TEincludes/ver/1498/v2/images/favicon.ico" type="image/x-icon">
+            <link rel="shortcut icon" href="/_TEincludes/ver/1498/v2/images/favicon.ico">
+        <meta property="analytics:business_unit" content="Corporate-Marketing" />
+    <meta property="analytics:application" content="AEM">
+    <meta property="analytics:application_source" content="te-com">
+    <meta property="analytics:page_type" content="/apps/te/templates/unique/home-page">
+		<meta property="analytics:publish_date" content="2018/07/02 13:42:54">
+    
+<link rel="stylesheet" type="text/css" href="/_TEincludes/ver/1498/v2/generated-src/css/te-global-ja.css" title="default" media="all">
+<!--[if IE 7]>
+<link href="/_TEincludes/ver/1498/v2/generated-src/css/ie/base-7.css" media="screen" rel="stylesheet" type="text/css">
+<script src="/_TEincludes/ver/1498/v2/js/vendor/json2/json2.js"></script>
+<![endif]-->
+<!--[if IE 8]>
+<link href="/_TEincludes/ver/1498/v2/generated-src/css/ie/base-8.css" media="screen" rel="stylesheet" type="text/css">
+<![endif]-->
+<script src="//assets.adobedtm.com/a868df5fd82b7d3cdb6c7e08558b6dad36f2b9ab/satelliteLib-8af595cb0a5a164cf41fbe049f06894afb57ea02.js"></script>
+
+<script src="/_TEincludes/ver/1498/v2/generated-src/js/vendor/modernizr-custom.js"></script>
+    <script>
+    var teV2 = window.teV2 || {};
+    teV2.ns = function() {
+        var obj = window.teV2;
+        for (var x = 0, len = arguments.length; x < len; x++) {
+            var ns = arguments[x];
+            obj[ns] = obj[ns] || {};
+            obj = obj[ns];
+        }
+        return obj;
+    };
+</script>
+<link rel="canonical" href="http://www.te.com/jpn-ja/home.html" />
+	        <link rel="alternate" href="http://www.te.com/global-en/home.html" hreflang="x-default" />
+<link rel="alternate" href="http://www.te.com/usa-en/home.html" hreflang="en-us" />
+<link rel="alternate" href="http://www.te.com/deu-de/home.html" hreflang="de-de" />
+<link rel="alternate" href="http://www.te.com.cn/chn-zh/home.html" hreflang="zh-cn" />
+<link rel="alternate" href="http://www.te.com/jpn-ja/home.html" hreflang="ja-jp" /><script type="application/ld+json">
+		{
+  			"@context": "http://schema.org",
+  			"@type": "Corporation",
+  			"name": "TE Connectivity",
+  			"url": "http://origin-www.te.com:4503/jpn-ja/home.html",
+  			"sameAs": ["http://www.facebook.com/teconnectivity",
+   			"http://twitter.com/teconnectivity",
+   			"http://www.linkedin.com/company/te-connectivity",
+   			"http://www.youtube.com/teconnectivity",
+   			"http://instagram.com/teconnectivity",
+   			"http://plus.google.com/+teconnectivity/posts"],
+			"logo": "http://www.te.com/etc/designs/te/images/te-connectivity-logo.png",
+            "description": "TE のコネクタおよびセンサは、過酷な環境でもデータ伝送・パワー伝送・センシング・コネクティビティが必要とされるあらゆる種類のデバイスに組み込まれています。"
+        }	
+</script>
+<script src="https://players.brightcove.net/1330301241001/H1KarKWEW_default/index.min.js"></script>
+</head>
+<body class="responsive wide-screen-support">
+    <div class="te-page " id="te-page">
+        
+<div class="top-nav"><div id="te-header" role="banner">
+
+    <div class="eu-browser-banner">
+    <div class="banner-content">
+        <p>ご利用のブラウザでは、当サイトの一部の機能がご利用いただけません。<br>
+最新バージョンのブラウザへのアップグレードをお勧めします。<br>
+</p></div>
+     <a class="btn-block-1 btn-clr-4 btn-close">
+	<i class="icon icon-close icon-medium" role="presentation">
+	</i>
+    </a>
+</div>
+
+<div class="top-nav-banner-wrapper hidediv" id="top-nav-global-message"
+            data-top-nav-banner-switch="Off" data-top-nav-banner-desc="すぐにサポートが必要な場合は、下記のお問合せからEメールフォームをご利用ください。"
+            data-is-top-nav-page="false" data-top-nav-banner-title="いつもご利用ありがとうございます。現在、弊社WebサイトTE.comにおいていくつかの機能が停止しております。"
+            data-top-nav-banner-linkText="お問合せ (Eメール・電話)" data-top-nav-banner-linkUrl="/jpn-ja/customer-support/email-us">
+            <div class="top-nav-banner-container">
+                <div class="welcome-container">
+                    <span class="top-nav-banner-header">いつもご利用ありがとうございます。現在、弊社WebサイトTE.comにおいていくつかの機能が停止しております。&nbsp;</span>すぐにサポートが必要な場合は、下記のお問合せからEメールフォームをご利用ください。</div>
+                <a href="/jpn-ja/customer-support/email-us.html" class="btn-clr-13 top-nav-banner-cta-link">お問合せ (Eメール・電話)</a>
+                <i id="top-nav-banner-x" class="icon icon-close top-nav-banner-close" role="presentation"></i>
+                </div>
+        </div>
+    <div class="te-header-wrap">
+        <p id="te-skip-navigation"><a href="#te-body">スキップ ナビゲーション</a></p>
+
+        <nav role="navigation" class="wrapper">
+            <div class="logo">
+                <a href="/jpn-ja/home.html" id="te-logo" data-close-menus="true">TE Connectivity</a>
+            </div>
+            
+            <div class="search" role="search">
+                <form action="/content/handle/search" type="GET">
+                    <div class="search-resizing-container submenu " data-aria-wrapper="true" aria-level="1">
+                        <input class="search-resizing-input" id="search-input" name="q" type="text" placeholder="製品番号またはキーワード" value=""  data-close-menus="true" data-arrow-entry-point="true" aria-controls="search-suggestions" autocomplete="off" maxlength="2000" />
+                        <input name="source" type="hidden" value="header"/>
+                        <input name="s" type="hidden" value="/content/te-com/jpn/ja"/>
+                        <input name="l" type="hidden" value="ja"/>
+                        <input name="c" type="hidden" value="jpn"/>
+                        <i class="fas fa-search" role="presentation"></i>
+                        <input type="submit" value="製品番号またはキーワード" tabindex="0"/>
+                        <button type="button" class="btn-block-1 btn-clr-4 btn-close"><i class="icon icon-close icon-medium" role="presentation"></i></button>
+                        <div class="search-suggestions" id="search-suggestions" data-arrow-container="true">
+                        </div>
+                        <div id="type-ahead-wrapper"  data-arrow-container='true'></div>
+                </div>
+                </form>
+            </div>
+            
+            <ul class="sections" data-aria-wrapper="true">
+        <li aria-level="1">
+            <a href="#menu-top-1" class="nav-tab link-simple" id="link-menu-top-1" data-arrow-entry-point="true" aria-controls="menu-top-1">
+                <span class="tabtext">製品</span><span class="extension"></span>
+            </a>
+            <script>
+                var target = document.getElementById('link-menu-top-1');
+                target.onclick = function(event) {
+                    if(event && event.preventDefault) {
+                        event.preventDefault();
+                    } else {
+                        return false;
+                    }
+                    this.setAttribute("data-premature-click" , true);
+                };
+            </script>
+            <div class="menu menu-full products-menu" id="menu-top-1" aria-labelledby="link-menu-top-1" tabindex="-1" data-arrow-container="true">
+                <div class="menu-full-wrapper">
+                    <ul class="menu-list" role="group">
+                        <li  aria-level="2" id="products-li-1">
+                                <a href="/jpn-ja/products/application-tooling.html" tabindex="-1">
+                                    <div class="img-wrap">
+                                        <img class="menu-item-image" src="/content/dam/te-com/navigation-images/products/141198-application-tooling.png" alt="アプリケーションツーリング<br>(適用工具)">
+                                        </div>
+                                    <div class="menu-item-label-wrapper">
+                                        <div class="menu-item-label">アプリケーションツーリング<br>(適用工具)</div>
+                                        </div>                                            
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="products-li-2">
+                                <a href="/jpn-ja/products/antennas.html" tabindex="-1">
+                                    <div class="img-wrap">
+                                        <img class="menu-item-image" src="/content/dam/te-com/navigation-images/products/140290-antennas.png" alt="アンテナ">
+                                        </div>
+                                    <div class="menu-item-label-wrapper">
+                                        <div class="menu-item-label">アンテナ</div>
+                                        </div>                                            
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="products-li-3">
+                                <a href="/jpn-ja/products/emi-filters.html" tabindex="-1">
+                                    <div class="img-wrap">
+                                        <img class="menu-item-image" src="/content/dam/te-com/navigation-images/products/141219-emi-filters.png" alt="EMIフィルタ">
+                                        </div>
+                                    <div class="menu-item-label-wrapper">
+                                        <div class="menu-item-label">EMIフィルタ</div>
+                                        </div>                                            
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="products-li-4">
+                                <a href="/jpn-ja/products/subsea-communications.html" tabindex="-1">
+                                    <div class="img-wrap">
+                                        <img class="menu-item-image" src="/content/dam/te-com/navigation-images/products/140385-subsea-communications.png" alt="海底通信">
+                                        </div>
+                                    <div class="menu-item-label-wrapper">
+                                        <div class="menu-item-label">海底通信</div>
+                                        </div>                                            
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="products-li-5">
+                                <a href="/jpn-ja/products/cable-assemblies.html" tabindex="-1">
+                                    <div class="img-wrap">
+                                        <img class="menu-item-image" src="/content/dam/te-com/navigation-images/products/141087-cable-assemblies.png" alt="ケーブルアセンブリ">
+                                        </div>
+                                    <div class="menu-item-label-wrapper">
+                                        <div class="menu-item-label">ケーブルアセンブリ</div>
+                                        </div>                                            
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="products-li-6">
+                                <a href="/jpn-ja/products/connectors.html" tabindex="-1">
+                                    <div class="img-wrap">
+                                        <img class="menu-item-image" src="/content/dam/te-com/navigation-images/products/140534-connectors.png" alt="コネクタ">
+                                        </div>
+                                    <div class="menu-item-label-wrapper">
+                                        <div class="menu-item-label">コネクタ</div>
+                                        </div>                                            
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="products-li-7">
+                                <a href="/jpn-ja/products/passive-components.html" tabindex="-1">
+                                    <div class="img-wrap">
+                                        <img class="menu-item-image" src="/content/dam/te-com/navigation-images/products/141175-passive-components.png" alt="受動部品">
+                                        </div>
+                                    <div class="menu-item-label-wrapper">
+                                        <div class="menu-item-label">受動部品</div>
+                                        </div>                                            
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="products-li-8">
+                                <a href="/jpn-ja/products/sensors.html" tabindex="-1">
+                                    <div class="img-wrap">
+                                        <img class="menu-item-image" src="/content/dam/te-com/navigation-images/products/140271-sensors.png" alt="センサ">
+                                        </div>
+                                    <div class="menu-item-label-wrapper">
+                                        <div class="menu-item-label">センサ</div>
+                                        </div>                                            
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="products-li-9">
+                                <a href="/jpn-ja/products/terminals-splices.html" tabindex="-1">
+                                    <div class="img-wrap">
+                                        <img class="menu-item-image" src="/content/dam/te-com/navigation-images/products/140433-terminals-splices.png" alt="ターミナル & スプライス">
+                                        </div>
+                                    <div class="menu-item-label-wrapper">
+                                        <div class="menu-item-label">ターミナル & スプライス</div>
+                                        </div>                                            
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="products-li-10">
+                                <a href="/jpn-ja/products/heat-shrink-tubing.html" tabindex="-1">
+                                    <div class="img-wrap">
+                                        <img class="menu-item-image" src="/content/dam/te-com/navigation-images/products/140419-heat-shrink-tubing.png" alt="熱収縮チューブ">
+                                        </div>
+                                    <div class="menu-item-label-wrapper">
+                                        <div class="menu-item-label">熱収縮チューブ</div>
+                                        </div>                                            
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="products-li-11">
+                                <a href="/jpn-ja/products/harnessing.html" tabindex="-1">
+                                    <div class="img-wrap">
+                                        <img class="menu-item-image" src="/content/dam/te-com/navigation-images/products/140386-harnessing.png" alt="ハーネス用製品">
+                                        </div>
+                                    <div class="menu-item-label-wrapper">
+                                        <div class="menu-item-label">ハーネス用製品</div>
+                                        </div>                                            
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="products-li-12">
+                                <a href="/jpn-ja/products/power-systems.html" tabindex="-1">
+                                    <div class="img-wrap">
+                                        <img class="menu-item-image" src="/content/dam/te-com/navigation-images/products/140291-power-systems.png" alt="パワーシステム">
+                                        </div>
+                                    <div class="menu-item-label-wrapper">
+                                        <div class="menu-item-label">パワーシステム</div>
+                                        </div>                                            
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="products-li-13">
+                                <a href="/jpn-ja/products/fiber-optics.html" tabindex="-1">
+                                    <div class="img-wrap">
+                                        <img class="menu-item-image" src="/content/dam/te-com/navigation-images/products/140929-fiber-optics.png" alt="光ファイバ">
+                                        </div>
+                                    <div class="menu-item-label-wrapper">
+                                        <div class="menu-item-label">光ファイバ</div>
+                                        </div>                                            
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="products-li-14">
+                                <a href="/jpn-ja/products/identification-labeling.html" tabindex="-1">
+                                    <div class="img-wrap">
+                                        <img class="menu-item-image" src="/content/dam/te-com/navigation-images/products/141231-identification-labeling.png" alt="マークチューブ & ラベル">
+                                        </div>
+                                    <div class="menu-item-label-wrapper">
+                                        <div class="menu-item-label">マークチューブ & ラベル</div>
+                                        </div>                                            
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="products-li-15">
+                                <a href="/jpn-ja/products/relays-contactors-switches.html" tabindex="-1">
+                                    <div class="img-wrap">
+                                        <img class="menu-item-image" src="/content/dam/te-com/navigation-images/products/140467-relays-contactors-switches.png" alt="リレー、コンタクタ &<br>スイッチ">
+                                        </div>
+                                    <div class="menu-item-label-wrapper">
+                                        <div class="menu-item-label">リレー、コンタクタ &<br>スイッチ</div>
+                                        </div>                                            
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="products-li-16">
+                                <a href="/jpn-ja/products/wire-cable.html" tabindex="-1">
+                                    <div class="img-wrap">
+                                        <img class="menu-item-image" src="/content/dam/te-com/navigation-images/products/140989-wire-cable.png" alt="ワイヤ & ケーブル">
+                                        </div>
+                                    <div class="menu-item-label-wrapper">
+                                        <div class="menu-item-label">ワイヤ & ケーブル</div>
+                                        </div>                                            
+                                </a>
+                            </li>
+                            </ul>
+                    
+                    
+                    <div class="brands"  id="" aria-labelledby="" role="group">
+                            <p class="brand-heading">製品ブランド</p>
+                            <ul class="brand-list">
+                                <li aria-level="2" id="products-brands-li-1">
+                                        <a href="/jpn-ja/products/brands/agastat.html" tabindex="-1">
+                                            <span>Agastat</span>
+                                        </a>
+                                    </li>
+                                    <li aria-level="2" id="products-brands-li-2">
+                                        <a href="/jpn-ja/products/brands/alcoswitch.html" tabindex="-1">
+                                            <span>Alcoswitch</span>
+                                        </a>
+                                    </li>
+                                    <li aria-level="2" id="products-brands-li-3">
+                                        <a href="/jpn-ja/products/brands/amp.html" tabindex="-1">
+                                            <span>AMP</span>
+                                        </a>
+                                    </li>
+                                    <li aria-level="2" id="products-brands-li-4">
+                                        <a href="/jpn-ja/products/brands/axicom.html" tabindex="-1">
+                                            <span>Axicom</span>
+                                        </a>
+                                    </li>
+                                    <li aria-level="2" id="products-brands-li-5">
+                                        <a href="/jpn-ja/products/brands/buchanan.html" tabindex="-1">
+                                            <span>Buchanan</span>
+                                        </a>
+                                    </li>
+                                    <li aria-level="2" id="products-brands-li-6">
+                                        <a href="/jpn-ja/products/brands/cgs.html" tabindex="-1">
+                                            <span>CGS</span>
+                                        </a>
+                                    </li>
+                                    <li aria-level="2" id="products-brands-li-7">
+                                        <a href="/jpn-ja/products/brands/cii.html" tabindex="-1">
+                                            <span>CII</span>
+                                        </a>
+                                    </li>
+                                    <li aria-level="2" id="products-brands-li-8">
+                                        <a href="/jpn-ja/products/brands/corcom.html" tabindex="-1">
+                                            <span>Corcom</span>
+                                        </a>
+                                    </li>
+                                    <li aria-level="2" id="products-brands-li-9">
+                                        <a href="/jpn-ja/products/brands/deutsch.html" tabindex="-1">
+                                            <span>DEUTSCH</span>
+                                        </a>
+                                    </li>
+                                    <li aria-level="2" id="products-brands-li-10">
+                                        <a href="/jpn-ja/plp/elcon/Zn9G.html" tabindex="-1">
+                                            <span>Elcon</span>
+                                        </a>
+                                    </li>
+                                    <li aria-level="2" id="products-brands-li-11">
+                                        <a href="/jpn-ja/products/brands/hartman.html" tabindex="-1">
+                                            <span>Hartman</span>
+                                        </a>
+                                    </li>
+                                    <li aria-level="2" id="products-brands-li-12">
+                                        <a href="/jpn-ja/products/brands/kilovac.html" tabindex="-1">
+                                            <span>Kilovac</span>
+                                        </a>
+                                    </li>
+                                    <li aria-level="2" id="products-brands-li-13">
+                                        <a href="/jpn-de/plp/madison-cable/ZndD.html" tabindex="-1">
+                                            <span>Madison Cable</span>
+                                        </a>
+                                    </li>
+                                    <li aria-level="2" id="products-brands-li-14">
+                                        <a href="/jpn-ja/products/brands/microdot.html" tabindex="-1">
+                                            <span>Microdot</span>
+                                        </a>
+                                    </li>
+                                    <li aria-level="2" id="products-brands-li-15">
+                                        <a href="/jpn-ja/products/brands/oeg.html" tabindex="-1">
+                                            <span>OEG リレー</span>
+                                        </a>
+                                    </li>
+                                    <li aria-level="2" id="products-brands-li-16">
+                                        <a href="/jpn-ja/products/brands/potter-brumfield.html" tabindex="-1">
+                                            <span>Potter & Brumfield</span>
+                                        </a>
+                                    </li>
+                                    <li aria-level="2" id="products-brands-li-17">
+                                        <a href="/jpn-ja/products/brands/raychem.html" tabindex="-1">
+                                            <span>Raychem</span>
+                                        </a>
+                                    </li>
+                                    <li aria-level="2" id="products-brands-li-18">
+                                        <a href="/jpn-ja/products/brands/schrack.html" tabindex="-1">
+                                            <span>Schrack</span>
+                                        </a>
+                                    </li>
+                                    </ul>
+                            <a class="view-all-brands" href="/jpn-en/products/brands/index.html" tabindex="-1">
+                                    <span>すべてのブランドを表示</span>
+                                    <i class="fas fa-caret-right" role="presentation"></i>
+                                </a>
+                            </div>
+                    </div>
+            </div>
+        </li>
+    <li aria-level="1">
+            <a href="#menu-top-2" class="nav-tab link-simple" id="link-menu-top-2" data-arrow-entry-point="true" aria-controls="menu-top-2">
+                <span class="tabtext">産業およびソ リューション</span><span class="extension"></span>
+            </a>
+            <script>
+                var target = document.getElementById('link-menu-top-2');
+                target.onclick = function(event) {
+                    if(event && event.preventDefault) {
+                        event.preventDefault();
+                    } else {
+                        return false;
+                    }
+                    this.setAttribute("data-premature-click" , true);
+                };
+            </script>
+            <div class="menu menu-full industries-menu" id="menu-top-2" aria-labelledby="link-menu-top-2" tabindex="-1" data-arrow-container="true">
+                <div class="menu-full-wrapper">
+                    <ul class="menu-list " role="group">
+                        <li  aria-level="2" id="industries-li-1">
+                                <a href="/jpn-ja/industries/intelligent-buildings.html" tabindex="-1">
+                                    <span>インテリジェント ビル</span>
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="industries-li-2">
+                                <a href="/jpn-ja/industries/energy-utilities.html" tabindex="-1">
+                                    <span>エナジーおよび<br>インフラ</span>
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="industries-li-3">
+                                <a href="/jpn-ja/industries/autosport.html" tabindex="-1">
+                                    <span>オートスポーツ</span>
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="industries-li-4">
+                                <a href="/jpn-ja/industries/automation-control.html" tabindex="-1">
+                                    <span>オートメーション& コントロール</span>
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="industries-li-5">
+                                <a href="/jpn-ja/industries/subsea-communications.html" tabindex="-1">
+                                    <span>海底通信</span>
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="industries-li-6">
+                                <a href="/jpn-ja/industries/aerospace.html" tabindex="-1">
+                                    <span>航空宇宙</span>
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="industries-li-7">
+                                <a href="/jpn-ja/industries/consumer-solutions.html" tabindex="-1">
+                                    <span>コンシューマ<br>ソリューション</span>
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="industries-li-8">
+                                <a href="/jpn-ja/industries/industrial-machinery.html" tabindex="-1">
+                                    <span>産業機器</span>
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="industries-li-9">
+                                <a href="/jpn-ja/industries/automotive.html" tabindex="-1">
+                                    <span>自動車</span>
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="industries-li-10">
+                                <a href="/jpn-ja/industries/connected-home.html" tabindex="-1">
+                                    <span>スマートホーム</span>
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="industries-li-11">
+                                <a href="/jpn-ja/industries/appliances.html" tabindex="-1">
+                                    <span>生活家電</span>
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="industries-li-12">
+                                <a href="/jpn-ja/industries/oil-gas-marine.html" tabindex="-1">
+                                    <span>石油およびガス/海洋</span>
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="industries-li-13">
+                                <a href="/jpn-ja/industries/sensor-solutions.html" tabindex="-1">
+                                    <span>センサ ソリューション</span>
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="industries-li-14">
+                                <a href="/jpn-ja/industries/data-center.html" tabindex="-1">
+                                    <span>データセンタ</span>
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="industries-li-15">
+                                <a href="/jpn-ja/industries/rail.html" tabindex="-1">
+                                    <span>鉄道産業</span>
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="industries-li-16">
+                                <a href="/jpn-ja/industries/truck-bus-off-road-vehicles.html" tabindex="-1">
+                                    <span>トラック、バス<br>農機・建機</span>
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="industries-li-17">
+                                <a href="/jpn-ja/industries/hybrid-electric-mobility.html" tabindex="-1">
+                                    <span>ハイブリッドおよび eモビリティ</span>
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="industries-li-18">
+                                <a href="/jpn-ja/industries/defense-military.html" tabindex="-1">
+                                    <span>防衛およびミリタリー</span>
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="industries-li-19">
+                                <a href="/jpn-ja/industries/communications-wireless-equipment.html" tabindex="-1">
+                                    <span>通信および無線機器</span>
+                                </a>
+                            </li>
+                            <li  aria-level="2" id="industries-li-20">
+                                <a href="/jpn-ja/industries/medical-healthcare.html" tabindex="-1">
+                                    <span>メディカル&ヘルスケア</span>
+                                </a>
+                            </li>
+                            </ul>
+                    
+                    <div class="trends"  id="" aria-labelledby="" role="group">
+                            <p class="trends-heading">トレンド</p>
+                            <ul class="trends-list">
+                                <li aria-level="2" id="industries-trends-li-1">
+                                        <a href="/jpn-ja/trends/iot/connected-life-digital-health/internet-of-things-at-te.html" tabindex="-1">
+                                            <span>IoTのコネクティビティイノベーション</span>
+                                        </a>
+                                    </li>
+                                    <li aria-level="2" id="industries-trends-li-2">
+                                        <a href="/jpn-ja/trends/iot/industry-4-digital-factory-production/integrating-m2m-communications-across-industries.html" tabindex="-1">
+                                            <span>複数の産業分野間での マシン・ツー・マシン通信の統合</span>
+                                        </a>
+                                    </li>
+                                    <li aria-level="2" id="industries-trends-li-3">
+                                        <a href="/jpn-ja/trends/iot/smart-homes-intelligent-buildings/safer-more-convenient-with-sensors.html" tabindex="-1">
+                                            <span>センサーでより安全で便利な生活を</span>
+                                        </a>
+                                    </li>
+                                    <li aria-level="2" id="industries-trends-li-4">
+                                        <a href="/jpn-ja/about-te/our-company/innovation/printed-electronics-for-safer-smarter-greener-connected-world.html" tabindex="-1">
+                                            <span>プリンテッド エレクトロニクスで、イノベーションを推進する</span>
+                                        </a>
+                                    </li>
+                                    </ul>
+                            </div>
+                    </div>
+             </div>
+        </li>
+        
+    <li aria-level="1">
+            <a href="#menu-top-3" class="nav-tab link-simple link-resource" id="link-menu-top-3" data-arrow-entry-point="true" aria-controls="menu-top-3">
+                <span class="tabtext">リソース</span><span class="extension"></span>
+             </a>
+             <script>
+                var target = document.getElementById('link-menu-top-3');
+                target.onclick = function(event) {
+                    if(event && event.preventDefault) {
+                        event.preventDefault();
+                    } else {
+                        return false;
+                    }
+                    this.setAttribute("data-premature-click" , true);
+                };
+            </script>
+            <div class="menu menu-full resources-menu" id="menu-top-3" aria-labelledby="link-menu-top-3" tabindex="-1" data-arrow-container="true">
+                <div class="menu-full-wrapper">
+                    <div class="menu-list">
+                        <ul class="menu-items-featured"role="group">
+                            <li  data-appcode="NOCODE" aria-level="2">
+                                    <a href="https://www.te.com/commerce/sam/dk/sso.do?Lang=ja" tabindex="-1">
+                                        <div class="feature-label">サンプル</div>
+                                        <div class="feature-description">TE製品のサンプル依頼</div>
+                                    </a>
+                                </li>
+                            <li  data-appcode="NOCODE" aria-level="2">
+                                    <a href="http://www.te.com/jpn-ja/plp/products-compare.html" tabindex="-1">
+                                        <div class="feature-label">製品比較</div>
+                                        <div class="feature-description">評価 (最大10製品)</div>
+                                    </a>
+                                </li>
+                            <li  data-appcode="NOCODE" aria-level="2">
+                                    <a href="http://www.te.com/jpn-ja/my-parts-list.html" tabindex="-1">
+                                        <div class="feature-label">My List</div>
+                                        <div class="feature-description">エクスポートおよびシェア可能なご希望の製品情報を保存</div>
+                                    </a>
+                                </li>
+                            <li  data-appcode="NOCODE" aria-level="2">
+                                    <a href="http://www.te.com/jpn-ja/customer-support/email-us.html" tabindex="-1">
+                                        <div class="feature-label">Eメールまたはお電話</div>
+                                        <div class="feature-description">専門スタッフにお問合せ</div>
+                                    </a>
+                                </li>
+                            </ul>
+                        <ul class="menu-items-simple">
+                                <li  data-appcode="NOCODE" aria-level="2">
+                                        <a href="http://www.te.com/commerce/DocumentDelivery/DDEController" tabindex="-1">
+                                            <span>書類 & 図面</span>
+                                        </a>
+                                    </li>
+                                <li  data-appcode="NOCODE" aria-level="2">
+                                        <a href="http://www.te.com/commerce/sck/cdi.do" tabindex="-1">
+                                            <span>代理店の在庫状況</span>
+                                        </a>
+                                    </li>
+                                <li  data-appcode="NOCODE" aria-level="2">
+                                        <a href="http://www.te.com/commerce/pcr/" tabindex="-1">
+                                            <span>製品クロスリファレンス</span>
+                                        </a>
+                                    </li>
+                                <li  data-appcode="NOCODE" aria-level="2">
+                                        <a href="http://www.te.com/jpn-ja/utilities/product-compliance.html" tabindex="-1">
+                                            <span>製品コンプライアンス</span>
+                                        </a>
+                                    </li>
+                                <li  data-appcode="NOCODE" aria-level="2">
+                                        <a href="http://www.te.com/jpn-ja/utilities/electrical-models.html" tabindex="-1">
+                                            <span>電気モデル</span>
+                                        </a>
+                                    </li>
+                                <li  data-appcode="NOCODE" aria-level="2">
+                                        <a href="http://www.te.com/jpn-ja/utilities/management-system-certifications.html" tabindex="-1">
+                                            <span>規格・証明書一覧</span>
+                                        </a>
+                                    </li>
+                                <li  data-appcode="NOCODE" aria-level="2">
+                                        <a href="http://www.te.com/commerce/nafta/PreNaftaHome.do" tabindex="-1">
+                                            <span>NAFTA</span>
+                                        </a>
+                                    </li>
+                                <li class="view-all-resources" aria-level="3">
+                                        <a class="view-all-resources-link" href="http://www.te.com/commerce/uso/yourResources.do" tabindex="-1">
+                                            <span>すべてのリソースを表示</span>
+                                            <i class="fas fa-caret-right" role="presentation"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                        </div>
+                    <div class="my-tools"  id="" aria-labelledby="" role="group">
+                            <p class="my-tools-heading">ツール</p>
+                            <ul class="my-tools-list">
+                                <li data-appcode="NOCODE" aria-level="3">
+                                        <a href="https://www.te.com/commerce/mpl/showCatContentForm.do" tabindex="-1">
+                                            <span>データエクスポート</span>
+                                        </a>
+                                    </li>
+                                <li data-appcode="NOCODE" aria-level="3">
+                                        <a href="https://www.te.com/commerce/myd/show_my_downloads.do" tabindex="-1">
+                                            <span>ダウンロード</span>
+                                        </a>
+                                    </li>
+                                <li data-appcode="OIN5" aria-level="3">
+                                        <a href="https://www.te.com/commerce/oin/check_order_status.do" tabindex="-1">
+                                            <span>ご注文の確認</span>
+                                        </a>
+                                    </li>
+                                <li data-appcode="PIN" aria-level="3">
+                                        <a href="https://www.te.com/commerce/gpi/PrePartInquiry.do" tabindex="-1">
+                                            <span>価格 & 納期 </span>
+                                        </a>
+                                    </li>
+                                <li data-appcode="RAQ" aria-level="3">
+                                        <a href="https://www.te.com/commerce/quote/rfq2/inquiry.do" tabindex="-1">
+                                            <span>見積依頼</span>
+                                        </a>
+                                    </li>
+                                <li data-appcode="TELC" aria-level="3">
+                                        <a href="https://www.te.com/commerce/uso/te-learning-connection/sso2.do" tabindex="-1">
+                                            <span>TEラーニングコネクション</span>
+                                        </a>
+                                    </li>
+                                <li data-appcode="TELCM" aria-level="3">
+                                        <a href="https://www.te.com/commerce/uso/te-learning-connection/sso2.do" tabindex="-1">
+                                            <span>TE Learning Connection 管理者</span>
+                                        </a>
+                                    </li>
+                                <li data-appcode="TELCMR" aria-level="3">
+                                        <a href="https://www.te.com/commerce/uso/te-learning-connection/sso2.do" tabindex="-1">
+                                            <span>TE Learning Connection 製造担当者</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+             </div>
+         </li>
+    </ul>
+<script>
+    teV2.ns('urls').suggestionsSearch = '/teccatv2/service/search/suggestions';
+    teV2.ns('urls').categorySuggestionsSearch = '/teccatv2/service/feature/child-features';
+    teV2.ns('localization').results = '結果';
+    teV2.ns('localization').searchTitleLabel = '検索';
+    teV2.ns('localization').resultsFor = '検索語句に';
+    teV2.ns('localization').recentSearchTitle = '最近の検索';
+    teV2.ns('localization').clearRecentSearchHistory = '検索履歴のクリア';
+    </script>
+
+<div class="top-nav-links">
+    <div class="personalization">
+            <div class="no-account">
+            <ul class="sections" role="tree" data-aria-wrapper="true">
+                <li id="account-menu-sign-in" role="treeitem" aria-level="1">
+                    <a href="#" class="nav-tab sign-in" data-arrow-entry-point="true" id="link-menu-account" aria-controls="account-menu">
+                   
+                    <span class="tabtext ">サインイン</span><span class="extension"></span></a>
+                 </li>
+            </ul>
+            </div>    
+            <div class="account">
+            <ul class="sections" role="tree" data-aria-wrapper="true">
+
+                <li id="account-menu-your-account" role="treeitem" aria-level="1">
+                    <a href="#account-menu" class="nav-tab no-sign-in" data-arrow-entry-point="true" id="link-menu-account" aria-controls="account-menu">
+
+                    <span class="tabtext ">Hi, <span id="main-nav-user-name">GivenName</span> </span><span class="user-name-arrow"><i class="fas fa-caret-down" role="presentation"></i></span></a>
+                    <div class="user-menu-dropdown">
+                        <a href="#account-menu" class="nav-tab sign-in" data-arrow-entry-point="true" id="link-menu-account" aria-controls="account-menu" style="display:none"><span class="tabtext "><span>お客様のアカウント</span></a>
+                        <div class="menu menu-inline menu-1-across" id="account-menu" aria-describedby="link-menu-account" data-arrow-container="true" tabindex="-1">
+                            <div class="submenus">
+                                <ul class="submenu">
+                                    <li id="account-menu-sign-out" role="treeitem" aria-level="2" data-keynav-direction="up-down" class="last"><a x-cq-linkchecker="skip" href="#" tabindex="-1" data-trigger-on-click="true"><span>サインアウト</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="products">
+        <a x-cq-linkchecker="skip" href="/jpn-ja/my-parts-list.html" data-close-menus="true"><i class="fa fa-th-list fa-lg" role="presentation"></i><span class="visually-hidden">製品ライン</span></a>
+    </div>
+    <div class="cart">
+        <a x-cq-linkchecker="skip" id="digikeyLink" href="#"><i class="fa fa-shopping-cart fa-lg" role="presentation"></i><span class="visually-hidden">カート</span> <span class="counter" id="samples-cart-count"></span></a>
+    </div>
+</div>
+
+
+<div id="hamburger-menu">
+    <div class="panel-slider-container">
+        <div class="panel-sliders">
+            <div class="panel-slide-1-content">
+                <div class="hamburger-menu-no-account">
+                    <ul class="items-top" role="tree" data-aria-wrapper="true">
+                        <li id="hamburger-products" role="treeitem" aria-level="1" class="te-header__products-hamburger panel-slide-1-item"><a href="#"><span>製品</span><i class="fas fa-angle-right fa-lg fa-2x" role="presentation"></i></a></li>
+                        <li id="hamburger-industries-solutions" role="treeitem" aria-level="1" class="te-header__industries-solutions-hamburger panel-slide-1-item"><a href="#"><span>産業およびソ リューション</span><i class="fas fa-angle-right fa-lg fa-2x" role="presentation"></i></a></li>
+                        <li id="hamburger-resource" role="treeitem" aria-level="1" class="te-header__resource-hamburger panel-slide-1-item"><a href="#"><span>リソース</span><i class="fas fa-angle-right fa-lg fa-2x" role="presentation"></i></a></li>
+                        
+                        <li class="hamburger-cart" role="treeitem" aria-level="1">
+                            <a id="hamburger-cart-link" href="#"><span>カート&nbsp;(</span><span class="hamburger-samples-cart-count">0</span><span>)</span></a>
+                        </li>
+                     </ul>
+                     <ul class="items-bottom" role="tree" data-aria-wrapper="true">
+                        <li id="hamburger-sign-in" role="treeitem" aria-level="1">
+                            <a href="#" class="nav-tab sign-in" id="hamburger-sign-in-link" aria-controls="hamburger-track-order">
+                               <span class="tabtext ">サインイン</span>
+                            </a>
+                        </li>
+                        <!-- order status, order history and sample link will be dynamically inserted here -->
+                        <li id="hamburger-livechat" role="treeitem" aria-level="1"><a x-cq-linkchecker="skip" href="#" tabindex="-1"><span>ライブ チャット</span></a></li>
+                        <li  role="treeitem" aria-level="1" data-highlight-item="true" style="display: none;"><a x-cq-linkchecker="skip" href="#" tabindex="-1"><span class="mobile-footer-description footer-description"></span></a></li>
+                    </ul>
+                </div>
+                <div class="hamburger-menu-account">
+                    <ul class="items-top" role="tree" data-aria-wrapper="true">
+                        <li id="hamburger-products-account" role="treeitem" aria-level="1" class="te-header__products-hamburger"><a href="#"><span>製品</span><i class="fas fa-angle-right fa-lg fa-2x" role="presentation"></i></a></li>
+                        <li id="hamburger-industries-solutions-account" role="treeitem" aria-level="1" class="te-header__industries-solutions-hamburger"><a href="#"><span>産業およびソ リューション</span><i class="fas fa-angle-right fa-lg fa-2x" role="presentation"></i></a></li>
+                        <li id="hamburger-resource" role="treeitem" aria-level="1" class="te-header__resource-hamburger"><a href="#"><span>リソース</span><i class="fas fa-angle-right fa-lg fa-2x" role="presentation"></i></a></li>
+                        
+                        <li class="hamburger-cart" role="treeitem" aria-level="1">
+                            <a id="hamburger-cart-link-account" href="#"><span>カート&nbsp;(</span><span class="hamburger-samples-cart-count">0</span><span>)</span></a>
+                        </li>
+                      </ul>
+                      <ul class="items-bottom" role="tree" data-aria-wrapper="true"> 
+                        <li id="hamburger-sign-out" role="treeitem" aria-level="1">
+                            <a id="hamburger-greeting-sign-out-link" href="#" aria-controls="hamburger-your-account">
+                                <span class="tabtext ">Hi,&nbsp;<span id="hamburger-menu-user-name">GivenName</span>&nbsp;<span>(サインアウト)</span></span>
+                            </a>
+                        </li>
+                        <li id="hamburger-your-account" role="treeitem" aria-level="1">
+                            <a x-cq-linkchecker="skip" href="https://www.te.com/commerce/esr/int/update_profile.do" tabindex="-1"><span>お客様のアカウント</span></a>
+                        </li>
+                        <!--  sample link will be dynamically inserted here -->
+                        <li id="hamburger-livechat-account" role="treeitem" aria-level="1"><a x-cq-linkchecker="skip" href="#" tabindex="-1"><span>ライブ チャット</span></a></li>
+                       
+                       <li role="treeitem" aria-level="1" data-highlight-item="true" style="display: none;"><span><a x-cq-linkchecker="skip" href="#" tabindex="-1" data-target-link="true"></a></span></li>
+            
+                    </ul>
+                </div>
+            </div>
+            <div class="panel-slide-2-content">
+                <div class="panel-slide-2-item hamburger-products-slide-2">
+                    <div class="slide-item-wrapper">
+                        <div class="slide-item-head"">
+                            <div class="slide-back"">
+                                <a href="#"><i class="fas fa-angle-left" role="presentation"></i></a>
+                            </div>
+                            <div class="slide-item-tabs"">
+                                <div class="tab active truncate" data-tab-name="hamburger-products-tab">製品</div>
+                                <div class="tab truncate" data-tab-name="hamburger-brands-tab">ブランド</div>
+                                </div>
+                        </div>
+                        <div class="slide-item-body tab-panels">
+                            <div class="tab-panel hamburger-products-tab-panel active"></div>
+                            <div class="tab-panel hamburger-brands-tab-panel"></div>
+                            </div>
+                    </div>
+                </div>
+                <div class="panel-slide-2-item hamburger-industries-slide-2">
+                    <div class="slide-item-wrapper">
+                        <div class="slide-item-head">
+                            <div class="slide-back">
+                                <a href="#"><i class="fas fa-angle-left" role="presentation"></i></a>
+                            </div>
+                            <div class="slide-item-tabs">
+                                <div class="tab active truncate" data-tab-name="hamburger-industries-tab">産業およびソ リューション</div>
+                                <div class="tab truncate" data-tab-name="hamburger-trends-tab">トレンド</div>
+                                </div>
+                        </div>
+                        <div class="slide-item-body tab-panels">
+                            <div class="tab-panel hamburger-industries-tab-panel active"></div>
+                            <div class="tab-panel hamburger-trends-tab-panel"></div>
+                            </div>
+                    </div>
+                </div>
+                <div class="panel-slide-2-item hamburger-resources-slide-2">
+                    <div class="slide-item-wrapper">
+                        <div class="slide-item-head">
+                            <div class="slide-back">
+                                <a href="#"><i class="fas fa-angle-left" role="presentation"></i></a>
+                            </div>
+                            <div class="slide-item-tabs">
+                                <div class="tab active truncate" data-tab-name="hamburger-resources-tab">リソース</div>
+                                <div class="tab hide truncate" data-tab-name="hamburger-mytools-tab">ツール</div>
+                                </div>
+                        </div>
+                        <div class="slide-item-body tab-panels">
+                            <div class="tab-panel hamburger-resources-tab-panel active"></div>
+                            <div class="tab-panel hamburger-mytools-tab-panel hide"></div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><div class="te-header__block">
+                <button type="button" class="te-header__hamburger-btn">
+                    <i class="fa fa-bars" role="presentation"></i>
+                </button>
+                <button type="button" class="te-header__products-vanity-btn mobilecart">
+                <a x-cq-linkchecker="skip" id="digikeyLinkmobile" href="">              
+                <i class="fa fa-shopping-cart fa-lg" role="presentation"></i><span class="visually-hidden">Cart</span>
+                 <span class="counter" id="samples-cart-count"></span></a> </button>
+                <button type="button" class="te-header__search-vanity-btn">
+                    <i class="fas fa-search" role="presentation"></i>
+                </button>
+            </div>
+        </nav>
+    </div>
+</div>
+</div>
+<div id="te-body" role="main">
+    <!-- News Alert module -->
+    <div class="hero-news news-alert"><!--display headline only when Headline is entered  -->
+</div>
+<div class="content-well content-homepage">
+        <div class="wrapper">
+            <!--Hero container ..Limit to one homepage hero component-->
+            <div class="hero-container editorial-parsys"><div class="hero-homepage section"><div class="te-homepage-hero mobile desktop" data-module-component="hero-homepage">
+        <div class="container">
+            <img class="hero-full-mobile-graphic mobile" src="/content/dam/te-com/images/corporate/digital-strategy-and-solutions/global/author-driven/innovation-automation-night-scene-two-way-highway-homepage-1024-600.jpg" alt="">
+            <div class="content-box">
+                <div class="actual-content-box">
+                    <div class="wrapper has-not-cta">
+                        <div class="hero-copy">
+                            <div class="copy">
+                                <p class="resource-eyebrow">高度なコネクティビティのための卓越したソリューション</p>
+                                <h1>お客様の設計の<br>信頼性向上に貢献します</h1>
+                                <p>TE の製品は、お客様の設計・開発しているテクノロジで<br>データや電力・信号の大容量伝送を実現するお手伝いをします。</p>
+                            </div>
+
+                            <a href="#target-container" data-tn-scroll-to-btn=""><i class="icon icon-diamond-down-arrow icon-large" role="presentation"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="clear:both"></div></div>
+</div>
+    </div>
+    
+    <div class="content-well">
+        <div class="wrapper">
+            <!--  Including content module container -->
+            <div class="content-module-container editorial-parsys"><div class="compact-bio-grid section"><div class="te-compact-bio-grid  " data-module-component="compact-bio">
+                    <div class="bio-grid-small">
+                        <a href="/jpn-ja/utilities/te-digital-resources/how-to-create-a-list.html">
+                        <div class="bio-large-card">
+                                <div class="bio-image">
+                                    <img src="/content/dam/te-com/images/corporate/digital-strategy-and-solutions/global/author-driven/resources-site-search-magnifying-glass-icon.png" alt="製品を探す方法"/></div>
+                                <dl>
+                                    <dt><h3 class="bio-grid-name">製品を探す</h3></dt>
+                                    <dd class="bio-grid-title">  </dd>
+                                    <dd class="bio-grid-description"><p>すぐに情報をご希望ですか?こちらのページをご利用ください。製品情報を簡単に見つけ、情報を一括管理できるリストを簡単に作成できます。</p>
+</dd>
+                                </dl>
+                            </div>
+
+                            </a>
+                        </div>
+                </div>
+            <div class="te-compact-bio-grid  " data-module-component="compact-bio">
+                    <div class="bio-grid-small">
+                        <a href="/jpn-ja/utilities/te-digital-resources/how-to-order-samples.html">
+                        <div class="bio-large-card">
+                                <div class="bio-image">
+                                    <img src="/content/dam/te-com/images/corporate/digital-strategy-and-solutions/global/author-driven/resources-order-samples-cube-icon.png" alt="サンプル依頼方法"/></div>
+                                <dl>
+                                    <dt><h3 class="bio-grid-name">サンプル依頼</h3></dt>
+                                    <dd class="bio-grid-title">  </dd>
+                                    <dd class="bio-grid-description"><p>無償サンプルをご希望ですか?設計のテストに必要な TE の 製品を入手する方法をご覧いただけます。</p>
+</dd>
+                                </dl>
+                            </div>
+
+                            </a>
+                        </div>
+                </div>
+            <div class="te-compact-bio-grid  " data-module-component="compact-bio">
+                    <div class="bio-grid-small">
+                        <a href="/jpn-ja/utilities/te-digital-resources/find-compatible-parts.html">
+                        <div class="bio-large-card">
+                                <div class="bio-image">
+                                    <img src="/content/dam/te-com/images/corporate/digital-strategy-and-solutions/global/author-driven/resources-mate-parts-tools-gears-icon.png" alt="部品と工具適合方法"/></div>
+                                <dl>
+                                    <dt><h3 class="bio-grid-name">適合する部品や工具</h3></dt>
+                                    <dd class="bio-grid-title">  </dd>
+                                    <dd class="bio-grid-description"><p>対応型番、同じシリーズの型番、よく一緒に購入されている製品の見つけ方をご紹介します。</p>
+</dd>
+                                </dl>
+                            </div>
+
+                            </a>
+                        </div>
+                </div>
+            <div class="te-compact-bio-grid  " data-module-component="compact-bio">
+                    <div class="bio-grid-small">
+                        <a href="/jpn-ja/utilities/te-digital-resources/how-to-compare-products.html">
+                        <div class="bio-large-card">
+                                <div class="bio-image">
+                                    <img src="/content/dam/te-com/images/corporate/digital-strategy-and-solutions/global/author-driven/resources-compare-products-arrow-icon.png" alt="製品比較方法"/></div>
+                                <dl>
+                                    <dt><h3 class="bio-grid-name">製品の比較</h3></dt>
+                                    <dd class="bio-grid-title">   </dd>
+                                    <dd class="bio-grid-description"><p>最大 10 個の TE 製品の機能と特性を比較する方法をご覧いただけます。</p>
+</dd>
+                                </dl>
+                            </div>
+
+                            </a>
+                        </div>
+                </div>
+            </div>
+<div class="chapter-heading section"><h2 id="chapter-1-dl"
+            class="chapter-header"
+            data-module-component="chapter-heading"><b>注目製品</b></h2>
+    </div>
+<div class="compact-product-promo-container section"><div class="bio-grid-container">
+    <div class="te-promo-grid compact-promo" data-module-component="compact-promo-grid">
+        <div class="te-promo-grid-head">
+            <div class="promo-grid-title">
+                <span class="te-promo-grid-no-title"></span>  
+                  </div>
+            <div class="te-flexrule-wrap">
+                <span class="te-flexrule"></span>
+            </div>
+        </div>
+        <div class="product-grid-content editorial-parsys"><div class="compact-product-promo section"><div class="product-promos">
+    <div class="te-bio-grid" data-module-component="pnp-pic-navigation-component">
+        <div class="bio-grid-small">
+            <div class="bio-large-card">
+                <a href="/jpn-ja/products/connectors/d-shaped-connectors/d-sub-connectors.html">
+                            <div class="bio-image">
+                                <img src="/content/dam/te-com/images/datacomm/global/product-hero-rendition/amplimite-family.jpg/jcr:content/renditions/compact-promo-grid.jpg"/></div>
+                            <div class="truncate">
+                                <p class="bio-grid-name">D-Sub コネクタ</p>
+                            </div>
+                        </a>
+                    </div>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+<div class="compact-product-promo section"><div class="product-promos">
+    <div class="te-bio-grid" data-module-component="pnp-pic-navigation-component">
+        <div class="bio-grid-small">
+            <div class="bio-large-card">
+                <a href="/jpn-ja/products/connectors/pcb-connectors/wire-to-board-connectors/ffc-fpc-ribbon-connectors/intersection/amp-latch-ribbon-connectors.html">
+                            <div class="bio-image">
+                                <img src="/content/dam/te-com/images/consumer-devices/global/product-hero-rendition/amp-latch-group-470x445.jpg/jcr:content/renditions/compact-promo-grid.jpg"/></div>
+                            <div class="truncate">
+                                <p class="bio-grid-name">AMP-LATCH リボン コネクタ</p>
+                            </div>
+                        </a>
+                    </div>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+<div class="compact-product-promo section"><div class="product-promos">
+    <div class="te-bio-grid" data-module-component="pnp-pic-navigation-component">
+        <div class="bio-grid-small">
+            <div class="bio-large-card">
+                <a href="/jpn-ja/products/connectors/intersection/circular-plastic-connectors.html">
+                            <div class="bio-image">
+                                <img src="/content/dam/te-com/images/industrial-automation-and-control/global/products/home-circular-plastic-connector-cpc-470-445.jpg"/></div>
+                            <div class="truncate">
+                                <p class="bio-grid-name">
+                                    丸型プラスチック コネクタ (CPC)</p>
+                            </div>
+                        </a>
+                    </div>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+<div class="compact-product-promo section"><div class="product-promos">
+    <div class="te-bio-grid" data-module-component="pnp-pic-navigation-component">
+        <div class="bio-grid-small">
+            <div class="bio-large-card">
+                <a href="/jpn-ja/products/connectors/pcb-connectors/intersection/mta-100-mta-156-connectors.html">
+                            <div class="bio-image">
+                                <img src="/content/dam/te-com/images/appliances/global/product-hero-rendition/mta-connectors.jpg/jcr:content/renditions/compact-promo-grid.jpg"/></div>
+                            <div class="truncate">
+                                <p class="bio-grid-name">MTA 100 および MTA 156 コネクタ</p>
+                            </div>
+                        </a>
+                    </div>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+<div class="compact-product-promo section"><div class="product-promos">
+    <div class="te-bio-grid" data-module-component="pnp-pic-navigation-component">
+        <div class="bio-grid-small">
+            <div class="bio-large-card">
+                <a href="/jpn-ja/products/terminals-splices/intersection/pidg-terminals-splices.html">
+                            <div class="bio-image">
+                                <img src="/content/dam/te-com/images/industrial-automation-and-control/global/product-hero-rendition/terminals-splices-pidg-470x445.jpg/jcr:content/renditions/compact-promo-grid.jpg"/></div>
+                            <div class="truncate">
+                                <p class="bio-grid-name">PIDG 端子およびスプライス</p>
+                            </div>
+                        </a>
+                    </div>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+<div class="compact-product-promo section"><div class="product-promos">
+    <div class="te-bio-grid" data-module-component="pnp-pic-navigation-component">
+        <div class="bio-grid-small">
+            <div class="bio-large-card">
+                <a href="/jpn-ja/products/connectors/pcb-connectors/intersection/AMPMODU.html">
+                            <div class="bio-image">
+                                <img src="/content/dam/te-com/images/corporate/marketing/global/author-driven/in-ac-ampmodu-group-hero-470-455.jpg"/></div>
+                            <div class="truncate">
+                                <p class="bio-grid-name">
+                                    AMPMODU 相互接続システム</p>
+                            </div>
+                        </a>
+                    </div>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+<div class="compact-product-promo section"><div class="product-promos">
+    <div class="te-bio-grid" data-module-component="pnp-pic-navigation-component">
+        <div class="bio-grid-small">
+            <div class="bio-large-card">
+                <a href="/jpn-ja/products/brands/buchanan.html">
+                            <div class="bio-image">
+                                <img src="/content/dam/te-com/images/industrial-intelligent-buildings/global/product-hero-rendition/terminal-blocks-146500.jpg/jcr:content/renditions/compact-promo-grid.jpg"/></div>
+                            <div class="truncate">
+                                <p class="bio-grid-name">
+                                    ターミナル ブロック</p>
+                            </div>
+                        </a>
+                    </div>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+<div class="compact-product-promo section"><div class="product-promos">
+    <div class="te-bio-grid" data-module-component="pnp-pic-navigation-component">
+        <div class="bio-grid-small">
+            <div class="bio-large-card">
+                <a href="/jpn-ja/products/application-tooling/intersection/certi-crimp-hand-tools.html">
+                            <div class="bio-image">
+                                <img src="/content/dam/te-com/images/application-tooling/global/product-hero-rendition/daht-color-handles-470x445.jpg/jcr:content/renditions/compact-promo-grid.jpg"/></div>
+                            <div class="truncate">
+                                <p class="bio-grid-name">
+                                    CERTI-CRIMP ハンドツール</p>
+                            </div>
+                        </a>
+                    </div>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+<div class="compact-product-promo section"><div class="product-promos">
+    <div class="te-bio-grid" data-module-component="pnp-pic-navigation-component">
+        <div class="bio-grid-small">
+            <div class="bio-large-card">
+                <a href="/jpn-ja/products/antennas.html">
+                            <div class="bio-image">
+                                <img src="/content/dam/te-com/images/consumer-devices/global/product-hero-rendition/pgp-antenna-sam.jpg/jcr:content/renditions/compact-promo-grid.jpg"/></div>
+                            <div class="truncate">
+                                <p class="bio-grid-name">カスタム アンテナおよびスタンダード アンテナ</p>
+                            </div>
+                        </a>
+                    </div>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
+<div style="clear:both"></div></div>
+</div>
+</div></div>
+<div class="chapter-heading section"><h2 id="chapter-2-dl"
+            class="chapter-header"
+            data-module-component="chapter-heading"><b>新製品</b></h2>
+    </div>
+<div class="compact-bio-grid section"><div class="te-compact-bio-grid  " data-module-component="compact-bio">
+                    <div class="bio-grid-small">
+                        <a href="/jpn-ja/about-te/news-center/amp-charging-cables-and-inlets-next-gen-npi.html">
+                        <div class="bio-large-card">
+                                <div class="bio-image">
+                                    <img src="/content/dam/te-com/images/corporate/marketing/global/product-hero-rendition/hems-charging-cable-inlet-next-gen-470x445.jpg" alt="次世代 AMP+ 充電ケーブルおよびインレット"/></div>
+                                <dl>
+                                    <dt><h3 class="bio-grid-name">次世代 AMP+ 充電ケーブルおよびインレット</h3></dt>
+                                    <dd class="bio-grid-title">  </dd>
+                                    <dd class="bio-grid-description"><p>DIN EN 61851 規格を満たすよう設計されたTEのコンポーネントは、より高速な EV 充電を実現します。<br>
+</p>
+</dd>
+                                </dl>
+                            </div>
+
+                            </a>
+                        </div>
+                </div>
+            <div class="te-compact-bio-grid  " data-module-component="compact-bio">
+                    <div class="bio-grid-small">
+                        <a href="/jpn-ja/about-te/news-center/t9g-relay-npi.html">
+                        <div class="bio-large-card">
+                                <div class="bio-image">
+                                    <img src="/content/dam/te-com/images/corporate/marketing/global/product-hero-rendition/in-ib-t9g-relay3-470x455-homepage.jpg" alt="Potter & Brumfield リレー T9G シリーズ"/></div>
+                                <dl>
+                                    <dt><h3 class="bio-grid-name">Potter & Brumfield リレー T9G シリーズ</h3></dt>
+                                    <dd class="bio-grid-title">  </dd>
+                                    <dd class="bio-grid-description"><p>この汎用リレーは、30％ 小さいパッケージ サイズで基板の実装面積を 13％ 削減した、クラス最小のリレーです。</p>
+</dd>
+                                </dl>
+                            </div>
+
+                            </a>
+                        </div>
+                </div>
+            <div class="te-compact-bio-grid  " data-module-component="compact-bio">
+                    <div class="bio-grid-small">
+                        <a href="/jpn-ja/about-te/news-center/deutsch-dmc-md-shielded-cable-clamp.html">
+                        <div class="bio-large-card">
+                                <div class="bio-image">
+                                    <img src="/content/dam/te-com/images/corporate/marketing/global/product-hero-rendition/deutsch-dmcmd-optimized-homepage.jpg" alt="DEUTSCH DMC-MD シールド ケーブル クランプ"/></div>
+                                <dl>
+                                    <dt><h3 class="bio-grid-name">DEUTSCH DMC-MDシールドケーブルクランプ</h3></dt>
+                                    <dd class="bio-grid-title">   </dd>
+                                    <dd class="bio-grid-description"><p>2 ピース、シングル モジュールの雌雄同型設計により、グリップ部が改善され簡単に嵌合できます。</p>
+</dd>
+                                </dl>
+                            </div>
+
+                            </a>
+                        </div>
+                </div>
+            <div class="te-compact-bio-grid  " data-module-component="compact-bio">
+                    <div class="bio-grid-small">
+                        <a href="/jpn-ja/about-te/news-center/lumawise-z45-led-holder.html">
+                        <div class="bio-large-card">
+                                <div class="bio-image">
+                                    <img src="/content/dam/te-com/images/corporate/marketing/global/product-hero-rendition/lumawise-led-z45-homepage.jpg" alt="LUMAWISE LED ホルダ タイプ 2.0 Z45"/></div>
+                                <dl>
+                                    <dt><h3 class="bio-grid-name">LUMAWISE LED ホルダ タイプ 2.0 Z45</h3></dt>
+                                    <dd class="bio-grid-title">  </dd>
+                                    <dd class="bio-grid-description"><p>Poke-In 端子と接着結合を使用して、素早く簡単にCOB-LED アレイへはんだフリーによる接続を実現します。</p>
+</dd>
+                                </dl>
+                            </div>
+
+                            </a>
+                        </div>
+                </div>
+            </div>
+<div class="promo-mosaic section"><!-- read dialog properties -->
+<!--updating alignment rules by layout dropdown-->
+<div class="te-promo-content wrapper" data-module-component="promo-mosaic">
+    <!-- column A -->
+    <div class="promo-column column-a left" data-module-reference="/jpn-ja/trends/iot/connected-life-digital-health/medical-sensor-technology-and-applications">
+        <div class="te-promo te-tall-promo top">
+            <div class="container">
+        <a href="/jpn-ja/trends/iot/connected-life-digital-health/medical-sensor-technology-and-applications.html">
+        <div class="promo-media">
+            				<div class="image-wrap">
+                        <img src="/content/dam/te-com/images/sensors/global/product-hero-rendition/medical-sensors-promo.jpg/jcr:content/renditions/promo-tall.jpg" alt=""/></div>
+       			 	  </div>
+                    <div class="promo-content">
+            <div class="truncate content-wrapper">
+            <p class="promo-content-title">医療用センサ技術</p>
+            <p>TE Connectivity (TE) がセンサと医療の専門知識を応用して、より健全な未来のために、当社の技術をどのようにお客様の設計に役立てるかをご覧ください。</p>
+            </div>
+           <div class="follow-link">
+                <span><i class="fa fa-angle-right" role="presentation"></i></span>
+            </div>
+            </div>
+    </a>
+    </div>
+</div>
+    </div>
+
+    <!-- column B -->
+    <div class="promo-column column-b middle" data-module-reference="/jpn-ja/campaigns/transportation-solutions/failure-is-not-an-option">
+        <div class="te-promo te-tall-promo bottom">
+            <div class="container">
+        <a href="/jpn-ja/campaigns/transportation-solutions/failure-is-not-an-option.html">
+        <div class="promo-media">
+            				<div class="image-wrap">
+                        <img src="/content/dam/te-com/images/industrial-and-commercial-transportation/global/story-hero-rendition/emergency-vehicle-landing-page-image-1024x400.jpg/jcr:content/renditions/promo-tall.jpg" alt="緊急車両のコネクティビティ ソリューション"/></div>
+       			 	  </div>
+                    <div class="promo-content">
+            <div class="truncate content-wrapper">
+            <p class="content-type">トレンド</p>
+            <p class="promo-content-title">失敗は許されません</p>
+            <p>排出ガスと電気自動車には、適切なパートナーから慎重に選ばれたコネクタが必要です。当社のコネクティビティ ソリューションは、次世代の大型トラック、フォークリフト、緊急車両の設計に取り組むエンジニアを支援します。</p>
+            </div>
+           <div class="follow-link">
+                <span><i class="fa fa-angle-right" role="presentation"></i></span>
+            </div>
+            </div>
+    </a>
+    </div>
+</div>
+    </div>
+
+    <!-- column C -->
+    <div class="promo-column column-c right">
+        <div class="te-promo te-small-promo-top" data-module-reference="/jpn-ja/about-te/ecc">
+            <div class="container">
+        <a href="/jpn-ja/about-te/ecc.html">
+        <div class="promo-content">
+            <div class="truncate content-wrapper">
+            <p class="promo-content-title">今日の不可能が、明日の偉業となる</p>
+            <p>TE のエンジニアは、不可能としか思えないことでも実現できるよう、お客様を支援しています。よりスマートかつ安全で、環境に優しく、もっとつながる世界を TE が実現している様子をご紹介します。</p>
+            </div>
+           <div class="follow-link">
+                <span><i class="fa fa-angle-right" role="presentation"></i></span>
+            </div>
+            </div>
+    </a>
+    </div>
+</div>
+        <div class="te-promo te-small-promo-bottom" data-module-reference="/jpn-ja/industries/appliances/applications/small-home-appliances">
+            <div class="container">
+        <a href="/jpn-ja/industries/appliances/applications/small-home-appliances.html">
+        <div class="promo-media">
+            		<div class="image-wrap">
+                    </div>
+        		</div>            
+                <div class="promo-content">
+            <div class="truncate content-wrapper">
+            <p class="content-type">用途</p>
+            <p class="promo-content-title">小型家電製品</p>
+            <p>TE 製品によって、小型家電製品用途においてどのような最適化が可能であるかをご紹介します。</p>
+            </div>
+           <div class="follow-link">
+                <span><i class="fa fa-angle-right" role="presentation"></i></span>
+            </div>
+            </div>
+    </a>
+    </div>
+</div>
+    </div>
+</div>
+</div>
+<div class="promo-grid section"><div class="te-promo-grid" data-module-component="promo-grid">
+    <div class="te-promo-grid-head">
+        </div>
+
+    <div class="te-promo-content wrapper">
+        <div class="promo-grid-content editorial-parsys"><div class="floating-wrapper large"><div class="promo-crafted section"><div class="te-promo te-promo-crafted large" data-module-component="promo-crafted">
+    <div class="container">
+        <a href="/jpn-ja/about-te/news-center/aut-data-link-system.html">
+        <div class="promo-media">
+            <div class="image-wrap">
+                <img src="/content/dam/te-com/images/automotive/global/story-hero-rendition/connected-car.jpg/jcr:content/renditions/promo-large.jpg" alt="世界初「車載10Gb/sデータリンクシステム」基幹技術 アダマンド並木精密宝石と共同開発"/></div>
+        </div>
+    <div class="promo-content">
+            <div class="content-wrapper truncate">
+                <p class="promo-content-title">世界初「車載10Gb/sデータリンクシステム」基幹技術</p>
+                <p>自動車への適用としては世界初となるさまざまな車載機器をつなげるための基幹技術「10Gb/sデータリンクシステム」をアダマンド並木精密宝石株式会社と共同開発。これにより、急増する車内のデータ伝送量を高速で通信できるだけでなく、軽量化やノイズ軽減を可能にします。</p>
+            </div>
+
+            <!-- <div class="follow-link">
+                    <span><i class="icon icon-large icon-caret" role="presentation"></i><span class="visually-hidden">世界初「車載10Gb/sデータリンクシステム」基幹技術</span></span>
+                </div>
+              -->
+        </div>
+        </a>
+        <ul class="link-fields">
+            </ul>
+    </div>
+</div>
+</div>
+</div><div style="clear:both"></div></div>
+</div>
+</div>
+</div>
+<div class="promo-mosaic section"><!-- read dialog properties -->
+<!--updating alignment rules by layout dropdown-->
+<div class="te-promo-content wrapper" data-module-component="promo-mosaic">
+    <!-- column A -->
+    <div class="promo-column column-a left" data-module-reference="/jpn-ja/about-te/events/car-tech-japan2018">
+        <div class="te-promo te-tall-promo top">
+            <div class="container">
+        <a href="/jpn-ja/about-te/events/car-tech-japan2018.html">
+        <div class="promo-media">
+            				<div class="image-wrap">
+                        <img src="/content/dam/te-com/images/corporate/marketing/jpn/event-hero-rendition/hero_img_event_HitoKuruma2018.png/jcr:content/renditions/promo-tall.jpg" alt="人とくるまのテクノロジー展2018 名古屋 に出展いたします"/></div>
+       			 	  </div>
+                    <div class="promo-content">
+            <div class="truncate content-wrapper">
+            <p class="content-type">イベント</p>
+            <p class="promo-content-title">人とくるまの テクノロジー展2018 名古屋 に出展いたします</p>
+            <p>Charger Cable / Inlet を搭載したEV/ HEV急速充電のデモンストレーションカーモデルを展示。コネクタ嵌合システムをリアルに再現し、充電システムをご体感いただけます。また、世界各地域の規格に対応した幅広いラインナップについてご紹介いたします。</p>
+            </div>
+           <div class="follow-link">
+                <span><i class="fa fa-angle-right" role="presentation"></i></span>
+            </div>
+            </div>
+    </a>
+    </div>
+</div>
+    </div>
+
+    <!-- column B -->
+    <div class="promo-column column-b right" data-module-reference="/jpn-ja/campaigns/japan/awesome-innovation-for-the-future">
+        <div class="te-promo te-tall-promo bottom">
+            <div class="container">
+        <a href="/jpn-ja/campaigns/japan/awesome-innovation-for-the-future.html">
+        <div class="promo-media">
+            				<div class="image-wrap">
+                        <img src="/content/dam/te-com/images/corporate/digital-strategy-and-solutions/jpn/Marketing-Hero-Rendition-1024x400/2018JapanCampaign_rLoop_1024x400.png/jcr:content/renditions/promo-tall.jpg" alt="TEのイノベーションによる未来のトランスポーテーション"/></div>
+       			 	  </div>
+                    <div class="promo-content">
+            <div class="truncate content-wrapper">
+            <p class="content-type">トレンド</p>
+            <p class="promo-content-title">TEのイノベーションが支える未来のトランスポーテーション</p>
+            <p>TEはrLoop チームにセンサ、コネクタ、テクノロジーを提供することで、時速約1,200kmで疾走する未来のトランスポーテーションのイノベーションに貢献しています</p>
+            </div>
+           <div class="follow-link">
+                <span><i class="fa fa-angle-right" role="presentation"></i></span>
+            </div>
+            </div>
+    </a>
+    </div>
+</div>
+    </div>
+
+    <!-- column C -->
+    <div class="promo-column column-c middle">
+        <div class="te-promo te-small-promo-top" data-module-reference="/jpn-ja/about-te/news-center/vr-cable-assemblies">
+            <div class="container">
+        <a href="/jpn-ja/about-te/news-center/vr-cable-assemblies.html">
+        <div class="promo-content">
+            <div class="truncate content-wrapper">
+            <p class="content-type">TE 新製品</p>
+            <p class="promo-content-title"> VR ケーブルコンポーネント製品</p>
+            <p>TEのケーブルコンポーネントはVR スタートアップ企業の設計工数を削減し製品開発をより加速する</p>
+            </div>
+           <div class="follow-link">
+                <span><i class="fa fa-angle-right" role="presentation"></i></span>
+            </div>
+            </div>
+    </a>
+    </div>
+</div>
+        <div class="te-promo te-small-promo-bottom" data-module-reference="/jpn-ja/industries/automotive">
+            <div class="container">
+        <a href="/jpn-ja/industries/automotive.html">
+        <div class="promo-content">
+            <div class="truncate content-wrapper">
+            <p class="content-type">業界 & ソリューション</p>
+            <p class="promo-content-title">Automotive Solutions</p>
+            <p>TE Connectivityは、車載用データ接続とセンサ ソリューションの開発をリードしています。エコロジー、安全、快適、グローバル化をサポートする電子部品の可能性を追求し、信頼ある製品を提供し続けます。</p>
+            </div>
+           <div class="follow-link">
+                <span><i class="fa fa-angle-right" role="presentation"></i></span>
+            </div>
+            </div>
+    </a>
+    </div>
+</div>
+    </div>
+</div>
+</div>
+<div style="clear:both"></div></div>
+</div>
+    </div>
+
+</div>
+
+<div id="te-disclaimer">
+      <div class="te-highlights-container">
+        <div class="content-well">
+            <div class="disclaimer-container editorial-parsys"><div class="copy-module-body copy-module section" data-module-component="copy-module-body"><div class="container mobile desktop">
+    <div class="heading-area">
+        <div class="wrapper">
+            <h4>今すぐお答えします</h4></div>
+    </div>
+    <div class="content-area rte-output">
+        <div class="wrapper one-column">
+            <p><b>機能性向上のためにお客様のテクノロジではどのような設計を行っていますか?</b><br>
+TE の製品スペシャリストが、お客様に適切なコネクティビティとセンサ ソリューションを見つけるお手伝いをします。&nbsp;&nbsp;</p>
+<ul>
+<li>直通のお電話（日本語）は、9：00－17：00 受付　044 844 8052 から</li>
+<li>直通のお電話（英語）は、24時間受付可能　1-800-522-6752 から</li>
+<li>チャットなら下の「ライブ チャット リンク」から&nbsp;</li>
+<li><a href="/jpn-ja/customer-support/email-us.html"><b>TE の製品チームへお問い合せメールでも</b></a></li>
+</ul>
+</div>
+    </div>
+</div></div>
+<div style="clear:both"></div></div>
+</div>
+      </div>
+  </div>
+<div class="footer-wrapper"><script>
+	teV2.ns('pageData').chatpopup = {};</script>
+    
+<footer id="te-footer">
+    <div class="footer-content-container fixed collapsed">
+        <nav class="wrapper" role="navigation" data-aria-wrapper="true">
+            <div class="footer-menu-responsive mobile">
+                <div class="footer-toggle-message">
+                    <span class="mobile-footer-callus">
+                    <a id="call-us-mobile" href="/jpn-ja/customer-support/connect-with-us/japan.contacts.html?wcmmode=disabled&sslredir=n" class="call-us" data-customer-support-url="/content/te-com/jpn/ja/pages/customer-support/connect-with-us?wcmmode=disabled&sslredir=n" data-ajax-type="contacts" data-modal-header="電話" data-target-link="true">
+                                <p>電話</p>
+                            </a>
+                        </span>
+                    <span class="mobile-footer-livechat">
+                        <a id="livechat-global-link-mobile" data-modal-header="ライブ チャット" x-cq-linkchecker="skip" href="https://crm.te.com/livechat" class="live-chat"
+                        data-target-link="true"><p>ライブ チャット</p></a>
+                    </span>
+                    <!--  
+                    <span class="mobile-footer-contactus">
+                    	 <a href="/jpn-ja/customer-support/connect-with-us/usa.contacts.html?wcmmode=disabled&sslredir=n" class="contact-us" data-customer-support-url="/content/te-com/jpn/ja/pages/customer-support/connect-with-us?wcmmode=disabled&sslredir=n" data-ajax-type="contacts" data-modal-header="お問合せ" data-target-link="true">
+                                <p>お問合せ</p>
+                            </a>
+                        </span>
+                    -->
+                       <span class="mobile-footer-description footer-description" id="qualtrics-footer-link">
+                        </span>
+                </div>
+                
+            </div>
+            <ul class="footer-menu wrapper">
+                <li class="about-column accordion-item" data-keynav-direction="left-right">
+                    <h3 id="link-menu-会社概要-te-connectivity" class="accordion-head" aria-level="1"><a class="label-when-expanded" data-arrow-entry-point="true" data-toggle="true" aria-controls="menu-会社概要-te-connectivity" href="#menu-会社概要-te-connectivity">会社概要 TE Connectivity</a></h3>
+                    <script>
+                        var f1Target = document.getElementById('link-menu-会社概要-te-connectivity');
+                        f1Target.onclick = function(event) {
+                            if(event && event.preventDefault) {
+                                event.preventDefault();
+                            } else {
+                                return false;
+                            }
+                            this.setAttribute("data-premature-click" , true);
+                        };
+                    </script>
+                    <div class="footer-content submenu accordion-content" id="menu-会社概要-te-connectivity" aria-labelledby="link-menu-会社概要-te-connectivity">
+                        <ul>
+                            <li data-keynav-direction="up-down" aria-level="2">
+                                        <a tabindex="-1" href="/jpn-ja/about-te/our-company.html">TEについて</a>
+                                    </li>
+                                <li data-keynav-direction="up-down" aria-level="2">
+                                        <a tabindex="-1" href="/jpn-ja/about-te/events.html">イベント</a>
+                                    </li>
+                                <li data-keynav-direction="up-down" aria-level="2">
+                                        <a tabindex="-1" href="/jpn-ja/about-te/news-center.html">TE ニュース センター</a>
+                                    </li>
+                                <li data-keynav-direction="up-down" aria-level="2">
+                                        <a tabindex="-1" href="/jpn-ja/about-te/careers.html">採用情報</a>
+                                    </li>
+                                <li data-keynav-direction="up-down" aria-level="2">
+                                        <a tabindex="-1" href="http://investors.te.com">投資家向け情報</a>
+                                    </li>
+                                <li data-keynav-direction="up-down" aria-level="2">
+                                        <a tabindex="-1" href="/jpn-ja/about-te/corporate-responsibility.html">企業責任</a>
+                                    </li>
+                                <li data-keynav-direction="up-down" aria-level="2">
+                                        <a tabindex="-1" href="/jpn-ja/policies-agreements/terms-of-use-te-com/terms-conditions-sale.html">販売契約条件</a>
+                                    </li>
+                                </ul>
+                    </div>
+                </li>
+                <li data-keynav-direction="left-right" class="accordion-item">
+                    <h3 id="link-menu-パートナー専用" aria-level="1" class="accordion-head"><a class="label-when-expanded" data-arrow-entry-point="true" data-toggle="true" aria-controls="menu-パートナー専用" href="#menu-パートナー専用">パートナー専用</a></h3>
+                    <script>
+                        var f2arget = document.getElementById('link-menu-パートナー専用');
+                        f2arget.onclick = function(event) {
+                            if(event && event.preventDefault) {
+                                event.preventDefault();
+                            } else {
+                                return false;
+                            }
+                            this.setAttribute("data-premature-click" , true);
+                        };
+                    </script>
+                    <div class="footer-content submenu accordion-content" id="menu-パートナー専用" aria-labelledby="link-menu-パートナー専用">
+                        <ul>
+                            <li data-keynav-direction="up-down" aria-level="2">
+                                        <a tabindex="-1" href="/jpn-ja/partners/distributors.html">代理店専用</a>
+                                    </li>
+                                <li data-keynav-direction="up-down" aria-level="2">
+                                        <a tabindex="-1" href="https://supplier.te.com">サプライヤ専用</a>
+                                    </li>
+                                </ul>
+                    </div>
+                </li>
+                <li class="support-column accordion-item" data-keynav-direction="left-right">
+                    <h3 id="link-menu-カスタマー-サポート" aria-level="1" class="accordion-head">
+                    <a class="label-when-expanded" data-arrow-entry-point="true" data-toggle="true" aria-controls="menu-カスタマー-サポート" href="#menu-カスタマー-サポート">カスタマー サポート</a></h3>
+                    <script>
+                        var f3arget = document.getElementById('link-menu-カスタマー-サポート');
+                        f3arget.onclick = function(event) {
+                            if(event && event.preventDefault) {
+                                event.preventDefault();
+                            } else {
+                                return false;
+                            }
+                            this.setAttribute("data-premature-click" , true);
+                        };
+                    </script>
+                    <div class="footer-content submenu fill-3 accordion-content" id="menu-カスタマー-サポート" aria-labelledby="link-menu-カスタマー-サポート">
+                    <ul class="has-icon">
+                            <li data-keynav-direction="up-down" aria-level="2">
+                                                <a tabindex="-1"  href="/jpn-ja/customer-support/email-us.html">
+                                                    <i class="icon icon-medium icon-email" role="presentation"></i>
+                                                    <p>お問合せ (Eメール・電話)</p>
+                                                </a>
+                                            </li>
+                                        <li data-keynav-direction="up-down" aria-level="2">
+                                                <a tabindex="-1" href="/jpn-ja/customer-support/authorized-distributors.html">
+                                                    <i class="icon icon-medium icon-search" role="presentation"></i>
+                                                    <p>日本の認定代理店リスト</p>
+                                                </a>
+                                            </li>
+                                        <li data-keynav-direction="up-down" aria-level="2">
+                                                <a tabindex="-1" href="/jpn-ja/faqs.html">
+                                                    <i class="icon icon-medium icon-faq" role="presentation"></i>
+                                                    <p>製品に関するFAQ</p>
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                    </div>
+                </li>
+                <li class="contact-button contact-button-hidden" data-keynav-direction="left-right">
+                    <a id="call-us-desktop" href="/jpn-ja/customer-support/connect-with-us/japan.contacts.html?wcmmode=disabled&sslredir=n" class="btn-block-1 btn-clr-2 call-us" data-customer-support-url="/content/te-com/jpn/ja/pages/customer-support/connect-with-us?wcmmode=disabled&sslredir=n" data-ajax-type="contacts" data-modal-header="電話" data-target-link="true"><span><p>電話</p></span></a>
+                        </li>
+                <li class="contact-button contact-button-hidden" data-keynav-direction="left-right">
+                    <a id="livechat-global-link-desktop" x-cq-linkchecker="skip" href="https://crm.te.com/livechat" class="btn-block-1 btn-clr-2 live-chat" data-target-link="true"><span><p>ライブ チャット</p></span></a>
+                </li>
+                
+                <li class="contact-button contact-us-button contact-button-hidden" data-keynav-direction="left-right">
+                    <a href="/jpn-ja/customer-support/connect-with-us/usa.contacts.html?wcmmode=disabled&sslredir=n" class="btn-block-1 btn-clr-2 contact-us" data-customer-support-url="/content/te-com/jpn/ja/pages/customer-support/connect-with-us?wcmmode=disabled&sslredir=n" data-ajax-type="contacts" data-modal-header="お問合せ" data-target-link="true"><span><p>お問合せ</p></span></a>
+                        </li>
+                        
+                <li class="country-selector" data-keynav-direction="left-right">
+                    <h3 data-not-listen="true">
+                        <p class="mobile">国と言語の変更</p>
+						<a data-china-label="中国"
+							class="label-when-expanded link-select-country"
+							data-arrow-entry-point="true" data-not-listen="true"
+							data-toggle="true" aria-controls=""
+							href="#">日本&nbsp;(日本語)</a>
+							<i class="icon icon-plus mobile" role="presentation"></i>
+							<i class="icon icon-minus mobile" role="presentation"></i>
+					</h3>
+					<div class="footer-content submenu fill-6 country-selector-wrapper te-country-selector" id="menu-カスタマー-サポート" aria-labelledby="link-menu-カスタマー-サポート" >
+                         <ul class="localized-countries ">
+                             <li class="country-label desktop">国と言語の選択</li>
+                             <li class="country-selector" data-keynav-direction="left-right">
+                                        <a href="http://www.te.com/usa-en/home.html">米国 (EN)</a>
+                                    </li>
+                                <li class="country-selector" data-keynav-direction="left-right">
+                                        <a href="http://www.te.com/deu-de/home.html">ドイツ (DE)</a>
+                                    </li>
+                                <li class="country-selector" data-keynav-direction="left-right">
+                                        <a href="http://www.te.com.cn/chn-zh/home.html">中国 (CH)</a>
+                                    </li>
+                                <li class="country-selector" data-keynav-direction="left-right">
+                                        <a href="http://www.te.com/jpn-ja/home.html">日本 (JA)<i class="fas fa-check-circle fa-sm" role="presentation"></i></a>
+                                    </li>
+                                </ul>
+                         <div class="country-dropdown">
+                             <select class="te-drop-down country-selector-dropdown">
+                                 <option data-isocode="" value="国/地域の選択">国/地域の選択</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=cze"
+                                         >Czech Republic (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=isl"
+                                         >アイスランド (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=irl"
+                                         >アイルランド (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=aze"
+                                         >アゼルバイジャン (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=afg"
+                                         >アフガニスタン (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=are"
+                                         >アラブ首長国連邦 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=dza"
+                                         >アルジェリア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=arg"
+                                         >アルゼンチン (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=abw"
+                                         >アルバ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=alb"
+                                         >アルバニア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=arm"
+                                         >アルメニア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=aia"
+                                         >アンギラ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=ago"
+                                         >アンゴラ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=atg"
+                                         >アンティグア バーブーダ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=and"
+                                         >アンドラ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=yem"
+                                         >イエメン (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=isr"
+                                         >イスラエル (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=ita"
+                                         >イタリア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=irq"
+                                         >イラク (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=ind"
+                                         >インド (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=idn"
+                                         >インドネシア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=uga"
+                                         >ウガンダ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=ukr"
+                                         >ウクライナ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=uzb"
+                                         >ウズベキスタン (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=ury"
+                                         >ウルグアイ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=ecu"
+                                         >エクアドル (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=egy"
+                                         >エジプト (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=est"
+                                         >エストニア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=eri"
+                                         >エリトリア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=slv"
+                                         >エルサルバドル (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=omn"
+                                         >オマーン (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=nld"
+                                         >オランダ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=aus"
+                                         >オーストラリア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=aut"
+                                         >オーストリア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=kaz"
+                                         >カザフスタン (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=qat"
+                                         >カタール (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=can"
+                                         >カナダ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=cmr"
+                                         >カメルーン (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=khm"
+                                         >カンボジア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=cpv"
+                                         >カーボベルデ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=guy"
+                                         >ガイアナ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=gab"
+                                         >ガボン (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=gmb"
+                                         >ガンビア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=gha"
+                                         >ガーナ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=gba"
+                                         >ガーンジー島およびオルダニー島 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=cyp"
+                                         >キプロス (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=cuw"
+                                         >キュラソー (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=kir"
+                                         >キリバス (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=kgz"
+                                         >キルギス (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=gin"
+                                         >ギニア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=gnb"
+                                         >ギニアビサウ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=grc"
+                                         >ギリシャ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=kwt"
+                                         >クウェート (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=hrv"
+                                         >クロアチア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=gtm"
+                                         >グアテマラ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=glp"
+                                         >グアドループ諸島 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=gum"
+                                         >グアム島 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=grl"
+                                         >グリーンランド (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=geo"
+                                         >グルジア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=grd"
+                                         >グレナダ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=cym"
+                                         >ケイマン諸島 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=ken"
+                                         >ケニア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=cri"
+                                         >コスタリカ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=xk"
+                                         >コソボ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=com"
+                                         >コモロ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=col"
+                                         >コロンビア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=cog"
+                                         >コンゴ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=cod"
+                                         >コンゴ民主共和国 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=civ"
+                                         >コートジボアール (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=sau"
+                                         >サウジアラビア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=wsm"
+                                         >サモア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=blm"
+                                         >サン バルテルミー島 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=stp"
+                                         >サントメ・プリンシペ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=smr"
+                                         >サンマリノ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=maf"
+                                         >サン・マルタン (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=zmb"
+                                         >ザンビア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=sle"
+                                         >シエラレオネ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=sgp"
+                                         >シンガポール (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=sxm"
+                                         >シント・マールテン (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=dji"
+                                         >ジブチ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=gib"
+                                         >ジブラルタル (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=jam"
+                                         >ジャマイカ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=jey"
+                                         >ジャージー島 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=zwe"
+                                         >ジンバブエ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=che"
+                                         >スイス (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=swe"
+                                         >スウェーデン (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=sjm"
+                                         >スバールバル諸島およびヤンマイエン島 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=esp"
+                                         >スペイン (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=sur"
+                                         >スリナム (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=lka"
+                                         >スリランカ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=svk"
+                                         >スロバキア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=svn"
+                                         >スロベニア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=swz"
+                                         >スワジランド (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=syc"
+                                         >セイシェル (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=sen"
+                                         >セネガル (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=srb"
+                                         >セルビア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=kna"
+                                         >セントクリストファー ネイビス (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=vct"
+                                         >セントビンセントおよびグレナディーン諸島 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=shn"
+                                         >セントヘレナ島、アセンション島、トリスタンダクーニャ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=lca"
+                                         >セントルシア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=som"
+                                         >ソマリア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=slb"
+                                         >ソロモン諸島 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=tha"
+                                         >タイ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=tjk"
+                                         >タジキスタン (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=tza"
+                                         >タンザニア連合共和国 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=tca"
+                                         >タークス カイコス諸島 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=tcd"
+                                         >チャド (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=tun"
+                                         >チュニジア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=chl"
+                                         >チリ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=dnk"
+                                         >デンマーク (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=tto"
+                                         >トリニダード トバゴ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=tkm"
+                                         >トルクメニスタン (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=tur"
+                                         >トルコ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=ton"
+                                         >トンガ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=tgo"
+                                         >トーゴ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/deu-de/home.html?iso=deu"
+                                         >ドイツ (DE)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=dom"
+                                         >ドミニカ共和国 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=dma"
+                                         >ドミニカ国 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=nga"
+                                         >ナイジェリア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=nam"
+                                         >ナミビア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=nic"
+                                         >ニカラグア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=ner"
+                                         >ニジェール (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=ncl"
+                                         >ニューカレドニア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=nzl"
+                                         >ニュージーランド (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=npl"
+                                         >ネパール (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=nor"
+                                         >ノルウェー (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=hti"
+                                         >ハイチ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=hun"
+                                         >ハンガリー (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=vat"
+                                         >バチカン市国 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=vut"
+                                         >バヌアツ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=bhs"
+                                         >バハマ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=bmu"
+                                         >バミューダ諸島 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=brb"
+                                         >バルバドス (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=bgd"
+                                         >バングラデシュ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=bhr"
+                                         >バーレーン (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=pak"
+                                         >パキスタン (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=pan"
+                                         >パナマ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=png"
+                                         >パプアニューギニア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=pry"
+                                         >パラグアイ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=pse"
+                                         >パレスチナ自治政府 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=fji"
+                                         >フィジー (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=phl"
+                                         >フィリピン (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=fin"
+                                         >フィンランド (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=fro"
+                                         >フェロー諸島 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=flk"
+                                         >フォークランド諸島 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=fra"
+                                         >フランス (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=guf"
+                                         >フランス領ギアナ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=pyf"
+                                         >フランス領ポリネシア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=bra"
+                                         >ブラジル (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=bgr"
+                                         >ブルガリア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=bfa"
+                                         >ブルキナファソ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=brn"
+                                         >ブルネイ・ダルサラーム国 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=bdi"
+                                         >ブルンジ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=btn"
+                                         >ブータン (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=pri"
+                                         >プエルトリコ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=vnm"
+                                         >ベトナム (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=ben"
+                                         >ベナン (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=ven"
+                                         >ベネズエラ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=blr"
+                                         >ベラルーシ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=blz"
+                                         >ベリーズ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=bel"
+                                         >ベルギー (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=per"
+                                         >ペルー (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=hnd"
+                                         >ホンジュラス (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=bih"
+                                         >ボスニア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=bwa"
+                                         >ボツワナ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=bes"
+                                         >ボネール島 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=bol"
+                                         >ボリビア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=prt"
+                                         >ポルトガル (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=pol"
+                                         >ポーランド (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=mkd"
+                                         >マケドニア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=mdg"
+                                         >マダガスカル (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=myt"
+                                         >マヨット島 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=mwi"
+                                         >マラウイ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=mli"
+                                         >マリ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=mlt"
+                                         >マルタ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=mtq"
+                                         >マルチニーク島 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=mys"
+                                         >マレーシア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=imn"
+                                         >マン島 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=mhl"
+                                         >マーシャル諸島 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=fsm"
+                                         >ミクロネシア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=mmr"
+                                         >ミャンマー (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=mex"
+                                         >メキシコ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=moz"
+                                         >モザンビーク (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=mco"
+                                         >モナコ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=mdv"
+                                         >モルディブ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=mda"
+                                         >モルドバ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=mar"
+                                         >モロッコ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=mng"
+                                         >モンゴル国 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=msr"
+                                         >モンセラット (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=mne"
+                                         >モンテネグロ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=mus"
+                                         >モーリシャス (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=jor"
+                                         >ヨルダン (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=lao"
+                                         >ラオス (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=lva"
+                                         >ラトビア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=ltu"
+                                         >リトアニア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=lie"
+                                         >リヒテンシュタイン (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=lby"
+                                         >リビア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=lbr"
+                                         >リベリア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=lux"
+                                         >ルクセンブルク (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=rwa"
+                                         >ルワンダ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=rou"
+                                         >ルーマニア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=lso"
+                                         >レソト (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=lbn"
+                                         >レバノン (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=reu"
+                                         >レユニオン (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=rus"
+                                         >ロシア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com.cn/chn-zh/home.html?iso=chn"
+                                         >中国 (ZH)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=mac"
+                                         >中国(マカオ) (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=hkg"
+                                         >中国(香港) (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=caf"
+                                         >中央アフリカ共和国 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=zaf"
+                                         >南アフリカ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=twn"
+                                         >台湾 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/jpn-ja/home.html?iso=jpn"
+                                         >日本 (JA)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=tls"
+                                         >東ティモール (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/usa-en/home.html?iso=usa"
+                                         >米国 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=asm"
+                                         >米領サモア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=vir"
+                                         >米領バージン諸島 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=gbr"
+                                         >英国 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=vgb"
+                                         >英領バージン諸島 (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=esh"
+                                         >西サハラ (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=gnq"
+                                         >赤道ギニア (EN)</option>
+                                 <option data-isocode="" value="http://www.te.com/global-en/home.html?iso=kor"
+                                         >韓国 (EN)</option>
+                                 </select>
+                            <noscript>
+                                <ul>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=cze?iso=">Czech Republic (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=isl?iso=">アイスランド (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=irl?iso=">アイルランド (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=aze?iso=">アゼルバイジャン (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=afg?iso=">アフガニスタン (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=are?iso=">アラブ首長国連邦 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=dza?iso=">アルジェリア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=arg?iso=">アルゼンチン (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=abw?iso=">アルバ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=alb?iso=">アルバニア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=arm?iso=">アルメニア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=aia?iso=">アンギラ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=ago?iso=">アンゴラ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=atg?iso=">アンティグア バーブーダ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=and?iso=">アンドラ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=yem?iso=">イエメン (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=isr?iso=">イスラエル (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=ita?iso=">イタリア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=irq?iso=">イラク (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=ind?iso=">インド (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=idn?iso=">インドネシア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=uga?iso=">ウガンダ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=ukr?iso=">ウクライナ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=uzb?iso=">ウズベキスタン (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=ury?iso=">ウルグアイ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=ecu?iso=">エクアドル (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=egy?iso=">エジプト (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=est?iso=">エストニア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=eri?iso=">エリトリア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=slv?iso=">エルサルバドル (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=omn?iso=">オマーン (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=nld?iso=">オランダ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=aus?iso=">オーストラリア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=aut?iso=">オーストリア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=kaz?iso=">カザフスタン (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=qat?iso=">カタール (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=can?iso=">カナダ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=cmr?iso=">カメルーン (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=khm?iso=">カンボジア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=cpv?iso=">カーボベルデ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=guy?iso=">ガイアナ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=gab?iso=">ガボン (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=gmb?iso=">ガンビア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=gha?iso=">ガーナ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=gba?iso=">ガーンジー島およびオルダニー島 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=cyp?iso=">キプロス (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=cuw?iso=">キュラソー (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=kir?iso=">キリバス (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=kgz?iso=">キルギス (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=gin?iso=">ギニア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=gnb?iso=">ギニアビサウ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=grc?iso=">ギリシャ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=kwt?iso=">クウェート (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=hrv?iso=">クロアチア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=gtm?iso=">グアテマラ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=glp?iso=">グアドループ諸島 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=gum?iso=">グアム島 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=grl?iso=">グリーンランド (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=geo?iso=">グルジア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=grd?iso=">グレナダ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=cym?iso=">ケイマン諸島 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=ken?iso=">ケニア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=cri?iso=">コスタリカ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=xk?iso=">コソボ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=com?iso=">コモロ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=col?iso=">コロンビア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=cog?iso=">コンゴ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=cod?iso=">コンゴ民主共和国 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=civ?iso=">コートジボアール (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=sau?iso=">サウジアラビア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=wsm?iso=">サモア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=blm?iso=">サン バルテルミー島 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=stp?iso=">サントメ・プリンシペ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=smr?iso=">サンマリノ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=maf?iso=">サン・マルタン (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=zmb?iso=">ザンビア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=sle?iso=">シエラレオネ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=sgp?iso=">シンガポール (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=sxm?iso=">シント・マールテン (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=dji?iso=">ジブチ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=gib?iso=">ジブラルタル (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=jam?iso=">ジャマイカ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=jey?iso=">ジャージー島 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=zwe?iso=">ジンバブエ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=che?iso=">スイス (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=swe?iso=">スウェーデン (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=sjm?iso=">スバールバル諸島およびヤンマイエン島 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=esp?iso=">スペイン (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=sur?iso=">スリナム (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=lka?iso=">スリランカ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=svk?iso=">スロバキア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=svn?iso=">スロベニア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=swz?iso=">スワジランド (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=syc?iso=">セイシェル (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=sen?iso=">セネガル (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=srb?iso=">セルビア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=kna?iso=">セントクリストファー ネイビス (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=vct?iso=">セントビンセントおよびグレナディーン諸島 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=shn?iso=">セントヘレナ島、アセンション島、トリスタンダクーニャ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=lca?iso=">セントルシア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=som?iso=">ソマリア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=slb?iso=">ソロモン諸島 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=tha?iso=">タイ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=tjk?iso=">タジキスタン (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=tza?iso=">タンザニア連合共和国 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=tca?iso=">タークス カイコス諸島 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=tcd?iso=">チャド (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=tun?iso=">チュニジア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=chl?iso=">チリ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=dnk?iso=">デンマーク (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=tto?iso=">トリニダード トバゴ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=tkm?iso=">トルクメニスタン (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=tur?iso=">トルコ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=ton?iso=">トンガ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=tgo?iso=">トーゴ (EN)</a></li>
+                                    <li><a href="http://www.te.com/deu-de/home.html?iso=deu?iso=">ドイツ (DE)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=dom?iso=">ドミニカ共和国 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=dma?iso=">ドミニカ国 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=nga?iso=">ナイジェリア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=nam?iso=">ナミビア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=nic?iso=">ニカラグア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=ner?iso=">ニジェール (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=ncl?iso=">ニューカレドニア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=nzl?iso=">ニュージーランド (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=npl?iso=">ネパール (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=nor?iso=">ノルウェー (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=hti?iso=">ハイチ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=hun?iso=">ハンガリー (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=vat?iso=">バチカン市国 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=vut?iso=">バヌアツ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=bhs?iso=">バハマ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=bmu?iso=">バミューダ諸島 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=brb?iso=">バルバドス (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=bgd?iso=">バングラデシュ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=bhr?iso=">バーレーン (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=pak?iso=">パキスタン (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=pan?iso=">パナマ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=png?iso=">パプアニューギニア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=pry?iso=">パラグアイ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=pse?iso=">パレスチナ自治政府 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=fji?iso=">フィジー (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=phl?iso=">フィリピン (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=fin?iso=">フィンランド (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=fro?iso=">フェロー諸島 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=flk?iso=">フォークランド諸島 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=fra?iso=">フランス (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=guf?iso=">フランス領ギアナ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=pyf?iso=">フランス領ポリネシア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=bra?iso=">ブラジル (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=bgr?iso=">ブルガリア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=bfa?iso=">ブルキナファソ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=brn?iso=">ブルネイ・ダルサラーム国 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=bdi?iso=">ブルンジ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=btn?iso=">ブータン (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=pri?iso=">プエルトリコ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=vnm?iso=">ベトナム (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=ben?iso=">ベナン (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=ven?iso=">ベネズエラ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=blr?iso=">ベラルーシ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=blz?iso=">ベリーズ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=bel?iso=">ベルギー (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=per?iso=">ペルー (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=hnd?iso=">ホンジュラス (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=bih?iso=">ボスニア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=bwa?iso=">ボツワナ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=bes?iso=">ボネール島 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=bol?iso=">ボリビア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=prt?iso=">ポルトガル (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=pol?iso=">ポーランド (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=mkd?iso=">マケドニア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=mdg?iso=">マダガスカル (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=myt?iso=">マヨット島 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=mwi?iso=">マラウイ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=mli?iso=">マリ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=mlt?iso=">マルタ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=mtq?iso=">マルチニーク島 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=mys?iso=">マレーシア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=imn?iso=">マン島 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=mhl?iso=">マーシャル諸島 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=fsm?iso=">ミクロネシア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=mmr?iso=">ミャンマー (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=mex?iso=">メキシコ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=moz?iso=">モザンビーク (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=mco?iso=">モナコ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=mdv?iso=">モルディブ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=mda?iso=">モルドバ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=mar?iso=">モロッコ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=mng?iso=">モンゴル国 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=msr?iso=">モンセラット (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=mne?iso=">モンテネグロ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=mus?iso=">モーリシャス (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=jor?iso=">ヨルダン (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=lao?iso=">ラオス (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=lva?iso=">ラトビア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=ltu?iso=">リトアニア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=lie?iso=">リヒテンシュタイン (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=lby?iso=">リビア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=lbr?iso=">リベリア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=lux?iso=">ルクセンブルク (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=rwa?iso=">ルワンダ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=rou?iso=">ルーマニア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=lso?iso=">レソト (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=lbn?iso=">レバノン (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=reu?iso=">レユニオン (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=rus?iso=">ロシア (EN)</a></li>
+                                    <li><a href="http://www.te.com.cn/chn-zh/home.html?iso=chn?iso=">中国 (ZH)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=mac?iso=">中国(マカオ) (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=hkg?iso=">中国(香港) (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=caf?iso=">中央アフリカ共和国 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=zaf?iso=">南アフリカ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=twn?iso=">台湾 (EN)</a></li>
+                                    <li><a href="http://www.te.com/jpn-ja/home.html?iso=jpn?iso=">日本 (JA)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=tls?iso=">東ティモール (EN)</a></li>
+                                    <li><a href="http://www.te.com/usa-en/home.html?iso=usa?iso=">米国 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=asm?iso=">米領サモア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=vir?iso=">米領バージン諸島 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=gbr?iso=">英国 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=vgb?iso=">英領バージン諸島 (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=esh?iso=">西サハラ (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=gnq?iso=">赤道ギニア (EN)</a></li>
+                                    <li><a href="http://www.te.com/global-en/home.html?iso=kor?iso=">韓国 (EN)</a></li>
+                                    </ul>
+                            </noscript>
+                         </div>
+                     </div>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="footer-bottom" role="contentinfo">
+            <div class="wrapper">
+               
+                <nav class="utility-links">
+                    <ul>
+                        <li><a tabindex="-1" href="/jpn-ja/policies-agreements/terms-of-use-te-com.html">利用規約</a></li>
+                        <li><a tabindex="-1" href="/jpn-ja/policies-agreements/privacy-policy.html">プライバシー</a></li>
+                        <li><a tabindex="-1" href="/jpn-ja/policies-agreements/privacy-policy/cookie-usage.html">Cookie</a></li>
+                        <li><a tabindex="-1" href="/jpn-ja/policies-agreements/accessibility.html">アクセシビリティ</a></li>
+                        <li><a tabindex="-1" href="/jpn-ja/policies-agreements/site-map.html">サイト マップ</a></li>
+                        <li class="footer-legal desktop"><p>© 2018 TE Connectivity. All Rights Reserved.</p></li>
+                    </ul>
+                </nav>
+                <ul class="social-networks desktop" data-keynav-direction="up-down">
+                    <h3></h3>
+                    <li data-keynav-direction="up-down" aria-level="2">
+                                <a tabindex="-1" target="_blank" title="Facebook" href="http://www.facebook.com/teconnectivity">
+                                    <i class="icon icon-medium icon-facebook" role="presentation"></i>
+                                    <span class="visually-hidden">Facebook</span>
+                                </a>
+                            </li>
+                        <li data-keynav-direction="up-down" aria-level="2">
+                                <a tabindex="-1" target="_blank" title="Twitter" href="http://twitter.com/teconnectivity">
+                                    <i class="icon icon-medium icon-twitter" role="presentation"></i>
+                                    <span class="visually-hidden">Twitter</span>
+                                </a>
+                            </li>
+                        <li data-keynav-direction="up-down" aria-level="2">
+                                <a tabindex="-1" target="_blank" title="LinkedIn" href="http://www.linkedin.com/company/te-connectivity">
+                                    <i class="icon icon-medium icon-linkedin" role="presentation"></i>
+                                    <span class="visually-hidden">LinkedIn</span>
+                                </a>
+                            </li>
+                        <li data-keynav-direction="up-down" aria-level="2">
+                                <a tabindex="-1" target="_blank" title="YouTube" href="http://www.youtube.com/teconnectivity">
+                                    <i class="icon icon-medium icon-youtube" role="presentation"></i>
+                                    <span class="visually-hidden">YouTube</span>
+                                </a>
+                            </li>
+                        <li data-keynav-direction="up-down" aria-level="2">
+                                <a tabindex="-1" target="_blank" title="Instagram" href="http://instagram.com/teconnectivity">
+                                    <i class="icon icon-medium icon-instagram" role="presentation"></i>
+                                    <span class="visually-hidden">Instagram</span>
+                                </a>
+                            </li>
+                        <li data-keynav-direction="up-down" aria-level="2">
+                                <a tabindex="-1" target="_blank" title="Google+" href="http://plus.google.com/+teconnectivity/posts">
+                                    <i class="icon icon-medium icon-google-plus" role="presentation"></i>
+                                    <span class="visually-hidden">Google+</span>
+                                </a>
+                            </li>
+                        </ul>
+                 <div class="social-network-container mobile-visible">       
+                 <ul class="social-networks mobile" data-keynav-direction="up-down">
+                    <h3></h3>
+                    <li data-keynav-direction="up-down" aria-level="2">
+                                <a tabindex="-1" target="_blank" title="Facebook" href="http://www.facebook.com/teconnectivity">
+                                    <i class="icon icon-small icon-facebook" role="presentation"></i>
+                                    <span class="visually-hidden">Facebook</span>
+                                </a>
+                            </li>
+                        <li data-keynav-direction="up-down" aria-level="2">
+                                <a tabindex="-1" target="_blank" title="Twitter" href="http://twitter.com/teconnectivity">
+                                    <i class="icon icon-small icon-twitter" role="presentation"></i>
+                                    <span class="visually-hidden">Twitter</span>
+                                </a>
+                            </li>
+                        <li data-keynav-direction="up-down" aria-level="2">
+                                <a tabindex="-1" target="_blank" title="LinkedIn" href="http://www.linkedin.com/company/te-connectivity">
+                                    <i class="icon icon-small icon-linkedin" role="presentation"></i>
+                                    <span class="visually-hidden">LinkedIn</span>
+                                </a>
+                            </li>
+                        <li data-keynav-direction="up-down" aria-level="2">
+                                <a tabindex="-1" target="_blank" title="YouTube" href="http://www.youtube.com/teconnectivity">
+                                    <i class="icon icon-small icon-youtube" role="presentation"></i>
+                                    <span class="visually-hidden">YouTube</span>
+                                </a>
+                            </li>
+                        <li data-keynav-direction="up-down" aria-level="2">
+                                <a tabindex="-1" target="_blank" title="Instagram" href="http://instagram.com/teconnectivity">
+                                    <i class="icon icon-small icon-instagram" role="presentation"></i>
+                                    <span class="visually-hidden">Instagram</span>
+                                </a>
+                            </li>
+                        <li data-keynav-direction="up-down" aria-level="2">
+                                <a tabindex="-1" target="_blank" title="Google+" href="http://plus.google.com/+teconnectivity/posts">
+                                    <i class="icon icon-small icon-google-plus" role="presentation"></i>
+                                    <span class="visually-hidden">Google+</span>
+                                </a>
+                            </li>
+                        </ul>
+                </div>
+                <div class="footer-legal mobile">
+                    <p>© 2018 TE Connectivity. All Rights Reserved.</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="wrapper footer-menu-responsive-wrapper">
+            <div class="footer-menu-responsive">
+                 <div class="footer-toggle-message">
+                     <span class="desktop-footer-description footer-description">
+                         <p><a href="#">TE モバイル サイト</a>で表示</p>
+</span>
+                 </div>
+             </div>
+        </div>
+    </div>
+</footer>
+<script>
+        teV2.ns('linksOpenTabMode').linksInformation = {
+            linksRegBegin : '^http(s?):\/\/(www\\.)?',
+            linksRegUserInput : '(^www\\.)|((^http(s?):\/\/(www\\.)?))',
+            linksNewOpentab : '/content/dam/te-com/documents/*,		/commerce/DocumentDelivery/*,		/custom/*',
+            linksSameOpentab : ''
+        };
+</script>
+</div>
+<script>
+    var teV2 = window.teV2 || {};
+
+    teV2.deps = teV2.deps || [];
+    teV2.isAngularPage = true;
+    (function() {
+        document.querySelectorAll('.content-module-container')[0].setAttribute("id", "target-container");
+    })();
+</script><script>
+    teV2.settings = {"plEpdHost":"https://www.te.com","eloquaFormActionUrl":"https://s2070786569.t.eloqua.com/e/f2","optimizeAssets":true,"plDevMode":false,"plLogLevel":"ERROR","plAEMSourceOverride":false,"enableDivestiture":true,"enableCpdDivestiture":true};
+    teV2.ns('settings').logLevel = 'ERROR';
+    teV2.ns('settings').createTECewtCookies = true;
+    teV2.ns('settings').country = 'jpn';
+    teV2.ns('settings').lang = 'ja';
+    teV2.ns('settings').sitePath = '/content/te-com/jpn/ja';
+    teV2.ns('settings').isEditMode = false;
+    teV2.ns('settings').isDesignMode = false;
+    teV2.ns('settings').isPreviewMode = false;
+    teV2.ns('settings').isWCMDisabled = true;
+
+    teV2.cmsSettings = {"defaultLanguage":"en","defaultCountry":"usa","defaultEnvironment":"PROD"};teV2.supportURLSettings = {"liveChatURL":"https://crm.te.com/livechat","liveChatEPDTimeoutMilli":2000,"teHost":"www.te.com","teCNHost":"www.te.com.cn","proxyServices":false};</script>
+<script data-main="/_TEincludes/ver/1498/v2/generated-src/js/main" src="/_TEincludes/ver/1498/v2/generated-src/vendor/js/requirejs/require.js"></script>
+
+
+
+
+<script type="text/javascript">
+var include_Elqtrack = 'true';
+    var _elqQ = _elqQ || [];
+    _elqQ.push(['elqSetSiteId', '2070786569']);
+	if (include_Elqtrack) {
+		// only include Eloqua tracking code in Publish instance
+		// or if request is for EWT fragments
+		_elqQ.push([ 'elqTrackPageView' ]);
+	}
+
+    window.onload = function() {
+        var d=document,
+        h=d.getElementsByTagName('head')[0],
+        s=d.createElement('script');
+        s.type='text/javascript';
+        s.async=true;
+        s.src='/_TEincludes/ver/1498/v2/generated-src/js/vendor/elqCfg.min.js';
+        h.appendChild(s);
+    };
+
+</script>
+
+<script>
+    _satellite.pageBottom();
+</script><link rel="stylesheet" type="text/css" href="/_TEincludes/ver/1498/v2/generated-src/fontawesome/css/fontawesome-pro-core.css" title="default" media="all">
+<link rel="stylesheet" type="text/css" href="/_TEincludes/ver/1498/v2/generated-src/fontawesome/css/fontawesome-pro-solid.css" title="default" media="all">
+<link rel="stylesheet" type="text/css" href="/_TEincludes/ver/1498/v2/generated-src/fontawesome/css/fontawesome-pro-regular.css" title="default" media="all"></div>
+</body>
+
+</html>

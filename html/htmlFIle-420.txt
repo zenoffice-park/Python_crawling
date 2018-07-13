@@ -1,0 +1,632 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML+RDFa 1.1//EN"
+"http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<!--[if IE 8 ]><html lang="ja" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:schema="http://schema.org/" class="no-js ie8"><![endif]-->
+<!--[if IE 9 ]><html lang="ja" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:schema="http://schema.org/" class="no-js ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="ja" dir="ltr" version="HTML+RDFa 1.1"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xmlns:schema="http://schema.org/" class="no-js"><!--<![endif]-->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="https://www.metasonic.de/sites/all/themes/theme825_1/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" type="application/rss+xml" title="Metasonic RSS" href="https://www.metasonic.de/ja/rss.xml" />
+<meta name="description" content="弊社の敏捷性に優れたソフトウェアプラットフォームは、ユーザーの視点で操作できることに重点が置かれているため、何度でもすぐに変更できるフレキシブルなビジネスアプリケーションを誰でも簡単に作成できます。また、開発や変更作業に伴うコストの大幅な削減にも役立ちます。操作は直観的に遊び感覚で行えますので、誰でも自分のソリューションをほぼ自分ひとりで、すばやく構築したり変更することができます。IT部門のスタッフは必要となるインフラを準備しておけば後は脇役となり、IT統合の際などに必要に応じてアドバイスをしたりサポートするだけとなります。このような環境では事業部門スタッフの関与が強まるとともに、IT部門の貴重なリソースも節約できます。" />
+<link rel="canonical" href="https://www.metasonic.de/ja" />
+<meta property="og:site_name" content="Metasonic" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://www.metasonic.de/ja" />
+<meta property="og:title" content="Metasonic | Next Generation Business Software" />
+<meta property="og:description" content="弊社の敏捷性に優れたソフトウェアプラットフォームは、ユーザーの視点で操作できることに重点が置かれているため、何度でもすぐに変更できるフレキシブルなビジネスアプリケーションを誰でも簡単に作成できます。また、開発や変更作業に伴うコストの大幅な削減にも役立ちます。操作は直観的に遊び感覚で行えますので、誰でも自分のソリューションをほぼ自分ひとりで、すばやく構築したり変更することができます。IT部門のスタッフは必要となるインフラを準備しておけば後は脇役となり、IT統合の際などに必要に応じてアドバイスをしたりサポートするだけとなります。このような環境では事業部門スタッフの関与が強まるとともに、IT部門の貴重なリソースも節約できます。" />
+<meta property="og:image" content="https://www.metasonic.de/sites/all/themes/theme825_1/images/20150617_social-media_default_1024x512.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1024" />
+<meta property="og:image:height" content="512" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@metasonictweets" />
+<meta name="twitter:url" content="https://www.metasonic.de/ja" />
+<meta name="twitter:title" content="Metasonic | Next Generation Business Software" />
+<meta name="twitter:description" content="弊社の敏捷性に優れたソフトウェアプラットフォームは、ユーザーの視点で操作できることに重点が置かれているため、何度でもすぐに変更できるフレキシブルなビジネスアプリケーションを誰でも簡単に作成できます。また、開発や変更作業に伴うコストの大幅な削減にも役立ちます。操作は直観的に遊び感覚で行えますので、誰でも自分のソリューションをほぼ自分ひとりで、すばやく構築したり変更することができます。IT部門のスタッ" />
+  
+  <title>Metasonic | Next Generation Business Software</title>
+
+  
+  <link href="https://www.metasonic.de/en" rel="alternate" hreflang="en">
+
+  
+  <link href="https://www.metasonic.de" rel="alternate" hreflang="de">
+
+  
+  <link href="https://www.metasonic.de/ja" rel="alternate" hreflang="ja">
+
+  
+  <link href="https://www.metasonic.de/es" rel="alternate" hreflang="es">
+
+    
+  <!--[if LT IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  
+  <!--[if lte IE 8]>
+	<style type="text/css">
+    	.poll .bar, .poll .bar .foreground { behavior:url(/sites/all/themes/theme825_1/js/PIE.php); zoom:1}
+
+      body {min-width: 1152px !important;}
+	</style>
+<![endif]-->
+
+  <link type="text/css" rel="stylesheet" href="https://www.metasonic.de/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.metasonic.de/files/css/css_10W4W1GFzkVfDwFGwGrgd5ODyj3L6AYo8kLhxmglHwM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.metasonic.de/files/css/css_dWBHPbSQWh-19e3Bc29cTHIsefj--RoEVftmVdOAMn4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.metasonic.de/files/css/css_ZCvaigCw_AjqNUEF3DvDaeQCIrS6g7AdPu9LicBTlBc.css" media="all" />
+<style type="text/css" media="all">
+<!--/*--><![CDATA[/*><!--*/
+#sliding-popup.sliding-popup-top{background:#f4f4f4;}#sliding-popup .popup-content #popup-text h1,#sliding-popup .popup-content #popup-text h2,#sliding-popup .popup-content #popup-text h3,#sliding-popup .popup-content #popup-text p{color:#808080 !important;}
+
+/*]]>*/-->
+</style>
+<link type="text/css" rel="stylesheet" href="https://www.metasonic.de/files/css/css_F60CX31wQJcWHxxoDqXYYApgPAW-Jb-ZyGFXNMYektY.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="https://www.metasonic.de/files/css/css_taOMsYoYxFoBmtuImgQBcMUVpL8w_qPOsktBS4mP4nI.css" media="screen and (min-width : 996px) and (max-width : 1231px)" />
+<link type="text/css" rel="stylesheet" href="https://www.metasonic.de/files/css/css_Fb8UW0_obkwLPiOsPCsFVoyNmQwqfR1ImMsBO5wIH-o.css" media="screen and (min-width : 768px) and (max-width : 995px)" />
+<link type="text/css" rel="stylesheet" href="https://www.metasonic.de/files/css/css_cP5ialvzD8v4OLWwIkkJLIr9tXBOpPryUNdzmF3rQZw.css" media="screen and (max-width : 767px)" />
+<link type="text/css" rel="stylesheet" href="https://www.metasonic.de/files/css/css_VG8k4Hdl5HC_hjg1iIPCTemY7_UM47k63lwodSOxIVA.css" media="screen and (max-width : 479px)" />
+  <script type="text/javascript" src="https://www.metasonic.de/files/js/js_OZNF4qYMNJNBu3SmFk-qGRaJ6GUa_41jc9ZG1TfaJgI.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.migrateMute=true;jQuery.migrateTrace=false;
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.metasonic.de/files/js/js_46e7bADdrcvOy3vVyQyerRrbMI2BisAq9r91iOlSv7A.js"></script>
+<script type="text/javascript" src="https://www.metasonic.de/files/js/js_ABnUy3xVmUriooRtyOSaXzMUHyMttnctTQJqz5eEpgA.js"></script>
+<script type="text/javascript" src="https://www.metasonic.de/files/js/js_ReIVBMVDWvEXZn3W0E-NX0n_BHl4NCpY7cibFhA-8jc.js"></script>
+<script type="text/javascript" src="https://www.metasonic.de/files/js/js_WodaVpAkpkYNXPa6fG19SpcR2XJvAtF1m4-nCWgzfPk.js"></script>
+<script type="text/javascript" src="https://www.metasonic.de/files/js/js_rvXZ5EsLq51Zzd9RjkSbWjyq9nUlF93fsVp15Wn5zqE.js"></script>
+<script type="text/javascript" src="https://www.metasonic.de/files/js/js_3P4aKF48NR6eWeKaAoTyPzEEe96rCbvh-G8OtXAwFWQ.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"ja\/","ajaxPageState":{"theme":"theme825_1","theme_token":"6RJFJC3qK4FRZ7VB9YZweH4Z1Ru-QmQQIh444iKlPCU","js":{"0":1,"sites\/all\/modules\/eu_cookie_compliance\/js\/eu_cookie_compliance.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"1":1,"sites\/all\/modules\/jquery_update\/replace\/jquery-migrate\/1\/jquery-migrate.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/marketo_ma\/js\/marketo_ma.js":1,"public:\/\/languages\/ja_x2dLsQ33MAgpsg0Em1-bG82lLF9PwtO8wcRfTMGAFfo.js":1,"sites\/all\/modules\/apachesolr_autocomplete\/apachesolr_autocomplete.js":1,"sites\/all\/modules\/apachesolr_autocomplete\/jquery-autocomplete\/jquery.autocomplete.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/libraries\/chosen\/chosen.jquery.min.js":1,"sites\/all\/libraries\/easing\/jquery.easing.js":1,"sites\/all\/libraries\/flexslider\/jquery.flexslider-min.js":1,"sites\/all\/modules\/flexslider_views_slideshow\/js\/flexslider_views_slideshow.js":1,"sites\/all\/modules\/lang_dropdown\/lang_dropdown.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/sfsmallscreen.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1,"sites\/all\/themes\/theme825\/js\/theme825.core.js":1,"sites\/all\/themes\/theme825\/js\/jquery.loader.js":1,"sites\/all\/themes\/theme825\/js\/jquery.debouncedresize.js":1,"sites\/all\/themes\/theme825\/js\/jquery.mobilemenu.js":1,"sites\/all\/themes\/theme825_1\/scripts\/jquery-scrolltofixed-min.js":1,"sites\/all\/themes\/theme825_1\/scripts\/metasonic.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/chosen\/chosen.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/apachesolr_autocomplete\/apachesolr_autocomplete.css":1,"sites\/all\/modules\/apachesolr_autocomplete\/jquery-autocomplete\/jquery.autocomplete.css":1,"sites\/all\/libraries\/colorbox\/example2\/colorbox.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/rate\/rate.css":1,"files\/sl_sprites.css":1,"sites\/all\/modules\/flexslider\/assets\/css\/flexslider_img.css":1,"sites\/all\/libraries\/flexslider\/flexslider.css":1,"sites\/all\/modules\/eu_cookie_compliance\/css\/eu_cookie_compliance.css":1,"sites\/all\/modules\/lang_dropdown\/lang_dropdown.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-smallscreen.css":1,"0":1,"sites\/all\/themes\/theme825\/css\/boilerplate.css":1,"sites\/all\/themes\/theme825\/css\/style.css":1,"sites\/all\/themes\/theme825\/css\/maintenance-page.css":1,"sites\/all\/themes\/theme825\/css\/skeleton.css":1,"sites\/all\/themes\/theme825_1\/css\/main.css":1,"sites\/all\/themes\/theme825_1\/css\/main-menu.css":1,"sites\/all\/themes\/theme825_1\/css\/front.css":1,"sites\/all\/themes\/theme825_1\/css\/custom.css":1,"sites\/all\/themes\/theme825_1\/css\/1024.css":1,"sites\/all\/themes\/theme825_1\/css\/768.css":1,"sites\/all\/themes\/theme825_1\/css\/480.css":1,"sites\/all\/themes\/theme825_1\/css\/320.css":1}},"apachesolr_autocomplete":{"path":"\/ja\/apachesolr_autocomplete","forms":{"search-block-form":{"id":"search-block-form","path":"\/ja\/apachesolr_autocomplete_callback\/apachesolr_search_page%3Acore_search"}}},"colorbox":{"opacity":"0.85","current":"{current} \/ {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"\u9589\u3058\u308b","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"lang_dropdown":{"language_content":{"jsWidget":{"widget":"chosen","disable_search":1,"no_results_text":"No language match"}}},"viewsSlideshow":{"slideshow-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","flexsliderViewsSlideshow"],"pause":["viewsSlideshowControls","flexsliderViewsSlideshow"],"play":["viewsSlideshowControls","flexsliderViewsSlideshow"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","flexsliderViewsSlideshow"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0},"testimonials-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","flexsliderViewsSlideshow"],"pause":["viewsSlideshowControls","flexsliderViewsSlideshow"],"play":["viewsSlideshowControls","flexsliderViewsSlideshow"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","flexsliderViewsSlideshow"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0}},"flexslider_views_slideshow":{"#flexslider_views_slideshow_main_slideshow-block_1":{"num_divs":4,"id_prefix":"#flexslider_views_slideshow_main_","vss_id":"slideshow-block_1","namespace":"flex-","selector":".slides \u003E li","easing":"swing","direction":"horizontal","reverse":false,"smoothHeight":false,"startAt":0,"animationSpeed":600,"initDelay":0,"useCSS":true,"touch":true,"video":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"controlsContainer":".flex-control-nav-container","sync":"","asNavFor":"","itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"animation":"fade","slideshow":true,"slideshowSpeed":7000,"directionNav":true,"controlNav":true,"prevText":"\u524d\u3078","nextText":"\u6b21\u3078","pausePlay":false,"pauseText":"Pause","playText":"Play","randomize":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"animationLoop":true,"pauseOnAction":true,"pauseOnHover":false,"manualControls":""},"#flexslider_views_slideshow_main_testimonials-block_1":{"num_divs":8,"id_prefix":"#flexslider_views_slideshow_main_","vss_id":"testimonials-block_1","namespace":"flex-","selector":".slides \u003E li","easing":"swing","direction":"horizontal","reverse":false,"smoothHeight":false,"startAt":0,"animationSpeed":600,"initDelay":0,"useCSS":true,"touch":true,"video":false,"keyboard":true,"multipleKeyboard":false,"mousewheel":false,"controlsContainer":".flex-control-nav-container","sync":"","asNavFor":"","itemWidth":0,"itemMargin":0,"minItems":0,"maxItems":0,"move":0,"animation":"fade","slideshow":true,"slideshowSpeed":7000,"directionNav":true,"controlNav":1,"prevText":"\u524d\u3078","nextText":"\u6b21\u3078","pausePlay":false,"pauseText":"Pause","playText":"Play","randomize":false,"thumbCaptions":false,"thumbCaptionsBoth":false,"animationLoop":true,"pauseOnAction":true,"pauseOnHover":false,"manualControls":""}},"eu_cookie_compliance":{"popup_enabled":1,"popup_agreed_enabled":0,"popup_hide_agreed":0,"popup_clicking_confirmation":0,"popup_scrolling_confirmation":0,"popup_html_info":"\u003Cdiv\u003E\n  \u003Cdiv class =\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EThis website is using cookies.\u003C\/h2\u003E\n\u003Cp\u003EWith being on our website you have agreed to use cookies. Cookies are small text files, which are sent from this website to your browser. They are saved on the harddrive of your computer. Your webbrowser sends these cookies with the information of your last visit with all coming visits back to our website.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button\u0022\u003EOK\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button\u0022\u003E\u8a73\u7d30\u3092\u8aad\u3080\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv\u003E\n  \u003Cdiv class =\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n          \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button\u0022\u003EOK\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button\u0022\u003E\u8a73\u7d30\u3092\u8aad\u3080\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","mobile_breakpoint":"768","popup_html_agreed":"\u003Cdiv\u003E\n  \u003Cdiv class =\u0022popup-content agreed\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EThank you for accepting cookies\u003C\/h2\u003E\n\u003Cp\u003EYou can now hide this message or find out more about cookies.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022hide-popup-button\u0022\u003E\u975e\u8868\u793a\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button\u0022 \u003EMore info\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","popup_use_bare_css":false,"popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"\/ja\/data-policy","popup_link_new_window":1,"popup_position":true,"popup_language":"ja","better_support_for_screen_readers":0,"reload_page":0,"domain":"","popup_eu_only_js":0,"cookie_lifetime":"100","disagree_do_not_show_popup":0},"marketo_ma":{"track":true,"key":"777-SPW-470","library":"\/\/munchkin.marketo.net\/munchkin.js","initParams":[]},"urlIsAjaxTrusted":{"\/ja":true},"superfish":{"1":{"id":"1","sf":{"delay":"2000","animation":{"opacity":"show"},"speed":"slow","autoArrows":false,"dropShadows":false},"plugins":{"smallscreen":{"mode":"window_width","breakpointUnit":"px","expandText":"\u5c55\u958b","collapseText":"\u6298\u308a\u305f\u305f\u3080","title":"Hauptmen\u00fc"},"supposition":true,"supersubs":true}}}});
+//--><!]]>
+</script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+  <link rel="apple-touch-icon" href="/sites/all/themes/theme825_1/icons/touch-icons/touch-icon-iphone.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/sites/all/themes/theme825_1/icons/touch-icons/touch-icon-ipad.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/sites/all/themes/theme825_1/icons/touch-icons/touch-icon-iphone@2x.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/sites/all/themes/theme825_1/icons/touch-icons/touch-icon-ipad@2x.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/sites/all/themes/theme825_1/icons/touch-icons/touch-icon-iphone@3x.png">
+
+</head>
+<body id="body" class="html front not-logged-in no-sidebars page-node i18n-ja with-navigation with-subnav" >
+
+    
+<div id="page-wrapper">
+
+    <div id="page">
+
+        <header id="header" role="banner" class="clearfix">
+
+          <div class="header-fon"></div>
+
+            <div class="section-1 clearfix">
+                <div class="container-12">
+                    <div class="grid-12">
+                        <div class="col1 logo-wrapper">
+                            <a href="/ja" title="ホーム" rel="home" id="logo"></a>
+
+                                                    </div>
+
+                                                  <div class="col2">
+                              <div class="region region-header-top">
+    <div id="block-boxes-aits-logo" class="block block-boxes aits-logo block-boxes-multilingual block-odd">
+
+      
+  <div class="content">
+    <div id='boxes-box-aits_logo' class='boxes-box'><div class="boxes-box-content"><p><img alt="" src="/files/aits-bu-en.png" style="width: 574px; height: 26px;" /></p>
+</div></div>  </div><!-- /.content -->
+
+</div><!-- /.block --><section id="block-system-user-menu" class="block block-system block-menu block-even">
+
+        <h2>User menu</h2>
+    
+  <div class="content">
+    <ul class="menu clearfix"><li class="first last leaf login mid-444"><a href="/ja/user/login" title="">Login</a></li>
+</ul>  </div><!-- /.content -->
+
+</section><!-- /.block --><div id="block-lang-dropdown-language-content" class="block block-lang-dropdown block-odd">
+
+      
+  <div class="content">
+    <form class="lang_dropdown_form language_content" id="lang_dropdown_form_language_content" action="/ja" method="post" accept-charset="UTF-8"><div><div class="form-item form-type-select form-item-lang-dropdown-select">
+ <select class="lang-dropdown-select-element form-select" id="lang-dropdown-select-language_content" style="width:165px" name="lang_dropdown_select"><option value="en">English</option><option value="de">Deutsch</option><option value="ja" selected="selected">日本語</option><option value="es">Español</option></select>
+</div>
+<input type="hidden" name="en" value="/en" />
+<input type="hidden" name="de" value="/" />
+<input type="hidden" name="ja" value="/ja" />
+<input type="hidden" name="es" value="/es" />
+<noscript><div>
+<input type="submit" id="edit-submit" name="op" value="Go" class="form-submit" />
+</div></noscript><input type="hidden" name="form_build_id" value="form-0k6DwGNcGJRexcgWyflFU1EQyYWvYLZ5qCsuPtiVbIA" />
+<input type="hidden" name="form_id" value="lang_dropdown_form" />
+</div></form>  </div><!-- /.content -->
+
+</div><!-- /.block --><div id="block-search-form" class="block block-search block-even">
+
+      
+  <div class="content">
+    <form action="/ja" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">検索フォーム</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">検索 </label>
+ <input title="検索したいキーワードを入力してください。" class="apachesolr-autocomplete form-text" data-apachesolr-autocomplete-id="search-block-form" type="search" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="検索" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-0rkfA70l-5qHxMRd-HOzS6aINzuXWv4busGLUOqMqwQ" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div><!-- /.content -->
+
+</div><!-- /.block -->  </div>
+                          </div>
+                        
+                                                  <div class="menu-region">
+                                <div class="region region-menu">
+    <div id="block-superfish-1" class="block block-superfish block-odd">
+
+      
+  <div class="content">
+    <ul  id="superfish-1" class="menu sf-menu sf-main-menu sf-horizontal sf-style-none sf-total-items-7 sf-parent-items-6 sf-single-items-1"><li id="menu-662-1" class="first odd sf-item-1 sf-depth-1 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><a href="/ja/mission-vision" title="" class="sf-depth-1 menuparent">弊社のアプローチ</a><ul class="sf-megamenu"><li class="sf-megamenu-wrapper first odd sf-item-1 sf-depth-1 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><ol><li id="menu-663-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/ja/mission-vision" class="sf-depth-2">ミッションとビジョン</a></li><li id="menu-664-1" class="last even sf-item-2 sf-depth-2 sf-no-children"><a href="/ja/value-proposition" class="sf-depth-2">価値のある提案</a></li></ol></li></ul></li><li id="menu-1253-1" class="middle even sf-item-2 sf-depth-1 sf-total-children-4 sf-parent-children-1 sf-single-children-3 menuparent"><a href="/ja/engage" title="" class="sf-depth-1 menuparent">弊社のソリューション</a><ul class="sf-megamenu"><li class="sf-megamenu-wrapper middle even sf-item-2 sf-depth-1 sf-total-children-4 sf-parent-children-1 sf-single-children-3 menuparent"><ol><li id="menu-1376-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/ja/engage" class="sf-depth-2">Engage</a></li><li id="menu-1381-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/ja/liberate" class="sf-depth-2">Liberate</a></li><li id="menu-1386-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/ja/perform" class="sf-depth-2">Perform</a></li><li id="menu-1401-1" class="last even sf-item-4 sf-depth-2"><div class="sf-megamenu-column"><a href="/ja/s-bpm" class="sf-depth-2">S-BPMメソッド</a></div></li></ol></li></ul></li><li id="menu-515-1" class="middle odd sf-item-3 sf-depth-1 sf-total-children-3 sf-parent-children-3 sf-single-children-0 menuparent"><a href="/ja/products" class="sf-depth-1 menuparent">製品＆サービス</a><ul class="sf-megamenu"><li class="sf-megamenu-wrapper middle odd sf-item-3 sf-depth-1 sf-total-children-3 sf-parent-children-3 sf-single-children-0 menuparent"><ol><li id="menu-576-1" class="first odd sf-item-1 sf-depth-2"><div class="sf-megamenu-column"><a href="/ja/metasonic-suite" class="sf-depth-2">Metasonic® Suite</a></div></li><li id="menu-564-1" class="middle even sf-item-2 sf-depth-2"><div class="sf-megamenu-column"><a href="/ja/touch" class="sf-depth-2">Metasonic® Touch</a></div></li><li id="menu-582-1" class="last odd sf-item-3 sf-depth-2"><div class="sf-megamenu-column"><a href="/ja/research" class="sf-depth-2">研究の成果</a></div></li></ol></li></ul></li><li id="menu-1249-1" class="middle even sf-item-4 sf-depth-1 sf-total-children-3 sf-parent-children-0 sf-single-children-3 menuparent"><a href="/ja/documents" class="sf-depth-1 menuparent">リソース</a><ul class="sf-megamenu"><li class="sf-megamenu-wrapper middle even sf-item-4 sf-depth-1 sf-total-children-3 sf-parent-children-0 sf-single-children-3 menuparent"><ol><li id="menu-1706-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/ja/documents" title="" class="sf-depth-2">文書</a></li><li id="menu-1250-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/ja/videos" title="" class="sf-depth-2">動画</a></li><li id="menu-1252-1" class="last odd sf-item-3 sf-depth-2 sf-no-children"><a href="/ja/books" title="" class="sf-depth-2">書籍</a></li></ol></li></ul></li><li id="menu-1241-1" class="middle odd sf-item-5 sf-depth-1 sf-no-children"><a href="/ja/customers" title="" class="sf-depth-1">主要取引先</a></li><li id="menu-617-1" class="middle even sf-item-6 sf-depth-1 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><a href="/ja/partner" class="sf-depth-1 menuparent">パートナー</a><ul class="sf-megamenu"><li class="sf-megamenu-wrapper middle even sf-item-6 sf-depth-1 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><ol><li id="menu-1246-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/ja/partner" class="sf-depth-2">日本のパートナー</a></li><li id="menu-1237-1" class="last even sf-item-2 sf-depth-2 sf-no-children"><a href="/ja/scientific-partners" title="" class="sf-depth-2">学術パートナー</a></li></ol></li></ul></li><li id="menu-523-1" class="last odd sf-item-7 sf-depth-1 sf-total-children-5 sf-parent-children-0 sf-single-children-5 menuparent"><a href="/ja/company" class="sf-depth-1 menuparent">会社</a><ul class="sf-megamenu"><li class="sf-megamenu-wrapper last odd sf-item-7 sf-depth-1 sf-total-children-5 sf-parent-children-0 sf-single-children-5 menuparent"><ol><li id="menu-1229-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/ja/company" title="" class="sf-depth-2">会社案内</a></li><li id="menu-1228-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/ja/career" class="sf-depth-2">採用情報</a></li><li id="menu-1230-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/ja/events" title="" class="sf-depth-2">「イベント」（英語）</a></li><li id="menu-572-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/ja/press" title="" class="sf-depth-2">プレス</a></li><li id="menu-756-1" class="last odd sf-item-5 sf-depth-2 sf-no-children"><a href="/ja/social-media" class="sf-depth-2">ソーシャルメディア</a></li></ol></li></ul></li></ul>  </div><!-- /.content -->
+
+</div><!-- /.block -->  </div>
+                          </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            
+
+        </header><!-- /#header -->
+
+                    <div class="slideshow clearfix">
+                  <div class="region region-slideshow">
+    <div id="block-views-slideshow-block" class="block block-views block-even">
+
+      
+  <div class="content">
+    <div class="view view-slideshow view-id-slideshow view-display-id-block view-dom-id-0af9c58847b25407fd173525eb4129d8">
+        
+  
+  
+      <div class="view-content">
+      
+  <div class="skin-default">
+    
+    <div id="flexslider_views_slideshow_main_slideshow-block_1" class="flexslider_views_slideshow_main views_slideshow_main"><div class="flex-nav-container">
+  <div class="flexslider">
+    <ul id="flexslider_views_slideshow_slideshow-block_1" class="flexslider-views-slideshow-main-frame slides">
+        <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-1 views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="container-12">
+<div class="grid-12">
+<div class="views-field views-field-title">
+  <a href="https://www.metasonic.de/ja/value-proposition">Business. In Tune.</a>
+</div>
+<div class="views-field views-field-field-slideshow-description">
+  Time to play
+</div>
+</div>
+</div></span>  </div>  
+  <div class="views-field views-field-field-slideshow-image">        <div class="field-content"><img typeof="foaf:Image" src="https://www.metasonic.de/files/slider/1417012420/business-in-tune.jpg" width="2173" height="862" alt="" /></div>  </div>  </li>
+  <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="container-12">
+<div class="grid-12">
+<div class="views-field views-field-title">
+  <a href="https://www.metasonic.de/ja/engage">Engage</a>
+</div>
+<div class="views-field views-field-field-slideshow-description">
+  Empower your people
+</div>
+</div>
+</div></span>  </div>  
+  <div class="views-field views-field-field-slideshow-image">        <div class="field-content"><img typeof="foaf:Image" src="https://www.metasonic.de/files/slider/1404135708/engage.jpg" width="2173" height="862" alt="" /></div>  </div>  </li>
+  <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-3 views_slideshow_cycle_hidden views-row-odd">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="container-12">
+<div class="grid-12">
+<div class="views-field views-field-title">
+  <a href="https://www.metasonic.de/ja/liberate">Liberate</a>
+</div>
+<div class="views-field views-field-field-slideshow-description">
+  Eliminate restrictions
+</div>
+</div>
+</div></span>  </div>  
+  <div class="views-field views-field-field-slideshow-image">        <div class="field-content"><img typeof="foaf:Image" src="https://www.metasonic.de/files/slider/1404135667/liberate.jpg" width="2173" height="862" alt="" /></div>  </div>  </li>
+  <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-4 views_slideshow_cycle_hidden views-row-even">
+      
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="container-12">
+<div class="grid-12">
+<div class="views-field views-field-title">
+  <a href="https://www.metasonic.de/ja/perform">Perform</a>
+</div>
+<div class="views-field views-field-field-slideshow-description">
+  Evolve your business
+</div>
+</div>
+</div></span>  </div>  
+  <div class="views-field views-field-field-slideshow-image">        <div class="field-content"><img typeof="foaf:Image" src="https://www.metasonic.de/files/slider/1404135760/perform.jpg" width="2173" height="862" alt="" /></div>  </div>  </li>
+    </ul>
+  </div>
+</div></div>
+      </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div><!-- /.content -->
+
+</div><!-- /.block -->  </div>
+            </div>
+        
+        <div id="main-wrapper">
+
+            
+            <div class="container-12">
+                <div class="grid-12">
+                                              <div class="region region-content-top">
+    <section id="block-boxes-engage" class="block block-boxes block-boxes-multilingual block-odd">
+
+        <h2>Engage</h2>
+    
+  <div class="content">
+    <div id='boxes-box-engage' class='boxes-box'><div class="boxes-box-content"><div class="box subtitle"><img alt="" src="/files/editor/assets/icons/engage-box.jpg" /><span>ビジネス</span>の観点</div>
+<p>Metasonicを使えば、事業部門のスタッフがビジネスソリューションを自分で構築することができます。業務の流れは簡単に遊び感覚で設定でき、設定した後はすぐに実行に移せます。必要に応じてそのつど変更を加えたり新しい業務を追加するのも簡単で、通常の業務を中断することなく短時間で行えます。このような環境では社員がそれぞれのソリューションを自発的に改良するようになるため、どんなビジネスチャンスも逃すことはありません。</p>
+<p><a href="/ja/engage">&gt; How we Engage</a></p>
+</div></div>  </div><!-- /.content -->
+
+</section><!-- /.block --><section id="block-boxes-liberate" class="block block-boxes block-boxes-multilingual block-even">
+
+        <h2>Liberate</h2>
+    
+  <div class="content">
+    <div id='boxes-box-liberate' class='boxes-box'><div class="boxes-box-content"><div class="box subtitle"><img alt="" src="/files/editor/assets/icons/liberate-box.jpg" /><span>IT</span>の観点</div>
+<p>Metasonicを使うことで、事業部門のスタッフは俊敏性と柔軟性を兼ね備えたITサポートの恩恵を受けることができます。そのため、スピーディーな対応が求められる局面でもパニックに陥ることはありません。Metasonicによって標準ソフトウェアの持つメリットを保持しながら、複数の独立したソリューションを完全統合できるインフラ環境が整います。さらに、このアプローチは貴重なITリソースの節約にもつながります。</p>
+<p><a href="/ja/liberate">&gt; How we Liberate</a></p>
+</div></div>  </div><!-- /.content -->
+
+</section><!-- /.block --><section id="block-boxes-perform" class="block block-boxes block-boxes-multilingual block-odd">
+
+        <h2>Perform</h2>
+    
+  <div class="content">
+    <div id='boxes-box-perform' class='boxes-box'><div class="boxes-box-content"><div class="box subtitle"><img alt="" src="/files/editor/assets/icons/perform-box.jpg" /><span>MGMT</span>の観点</div>
+<p>Metasonicを使うことで、新しいアイディアを驚くほど短期間で製品にして市場に出すことができるだけでなく、通常業務を中断することなくソリューションを繰り返し変更したり調整することもできます。つまり、商品化にかかる時間が大幅に短縮されるだけでなく、経験から得られたデータを今後のビジネスモデルの継続的な改善に役立てることができるのです。このようにして、組織的な変更の速度と市場の変化の速度の差を埋めることが可能になります。</p>
+<p><a href="/ja/perform">&gt; How we Perform</a></p>
+</div></div>  </div><!-- /.content -->
+
+</section><!-- /.block -->  </div>
+                    
+
+                    <div id="main" class="clearfix">
+
+                        
+                        
+                                                  <aside id="sidebar-second-wide" class="column column_right grid-5 omega" role="complementary">
+                            <div class="section">
+                                <div class="region region-sidebar-second-wide">
+    <section id="block-views-news-block" class="block block-views block-even">
+
+        <h2>News</h2>
+    
+  <div class="content">
+    <div class="view view-news view-id-news view-display-id-block view-dom-id-6ec0f48865fd0bacd5c982eb9fc5442c">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first float-left">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.metasonic.de/ja/metasonic-suite/5.2">Metasonic® Suite 5.2 リリース</a></span>  </div>  
+  <div class="views-field views-field-field-news-image">        <div class="field-content"><a href="https://www.metasonic.de/ja/metasonic-suite/5.2"><img typeof="foaf:Image" src="https://www.metasonic.de/files/uploads/news/2015/03/metasonic-suite-5_2.jpg" width="150" height="89" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-field-news-description">        <div class="field-content"><a href="https://www.metasonic.de/ja/metasonic-suite/5.2"><p>"より快適に、よりシンプルに" - これが今回のMetasonic® Suiteリリース5.2の最大の新機能です。新バージョンではscanview® ECM システムへの容易な統合オプションをご提供します。</p>
+</a></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="clearfix"></div></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even views-row-last float-left">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://www.metasonic.de/ja/case-studies/swisscom/service-inspector">スイスコムが頼りにするMetasonicのサポート</a></span>  </div>  
+  <div class="views-field views-field-field-news-image">        <div class="field-content"><a href="https://www.metasonic.de/ja/case-studies/swisscom/service-inspector"><img typeof="foaf:Image" src="https://www.metasonic.de/files/uploads/news/2014/05/news-service-inspector.png" width="150" height="122" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-field-news-description">        <div class="field-content"><a href="https://www.metasonic.de/ja/case-studies/swisscom/service-inspector"><p>スイスコム社はMetasonic® Suiteによって顧客の満足度をアップすることに成功しました。今回のプロジェクトでは、コンサルティング会社ConsSys ITとの連携で「スイスコム・サービス・インスペクター」アプリが開発されました。</p>
+</a></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><div class="clearfix"></div></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div><!-- /.content -->
+
+</section><!-- /.block -->  </div>
+                            </div>
+                          </aside>
+                        
+                        
+                        <div id="content" class="column" role="main">
+                            <div class="section">
+
+                                
+                                
+                                
+                                
+                                
+                                                                  <div class="tabs"></div>
+                                
+                                
+                                
+                                  <div class="region region-content">
+    <section id="block-boxes-welcome-front" class="block block-boxes block-boxes-multilingual block-odd">
+
+        <h2>Next Generation Business Software</h2>
+    
+  <div class="content">
+    <div id='boxes-box-welcome_front' class='boxes-box'><div class="boxes-box-content"><p>弊社の敏捷性に優れたソフトウェアプラットフォームは、ユーザーの視点で操作できることに重点が置かれているため、何度でもすぐに変更できるフレキシブルなビジネスアプリケーションを誰でも簡単に作成できます。また、開発や変更作業に伴うコストの大幅な削減にも役立ちます。</p>
+<p>操作は直観的に遊び感覚で行えますので、誰でも自分のソリューションをほぼ自分ひとりで、すばやく構築したり変更することができます。IT部門のスタッフは必要となるインフラを準備しておけば後は脇役となり、IT統合の際などに必要に応じてアドバイスをしたりサポートするだけとなります。このような環境では事業部門スタッフの関与が強まるとともに、IT部門の貴重なリソースも節約できます。</p>
+<p>あらゆるタイプの既存のアプリケーションやコンポーネントも簡単に統合できますので、各部門の様々な要件に対応したオールラウンドな企業ITが実現します。</p>
+<p>また、Metasonicでは標準ソフトウェアと個別開発のいずれかの選択を迫られることがなく、両方のアプローチのメリットを同時に得ることができるというユニークな強みもあります。つまり、個別の状況に合わせてカスタマイズされたソリューションによって高水準のユーザーアクセプタンスが得られる一方で、成果測定やリスク管理のための各種データも取得できるのです。</p>
+<p>作成されたアプリケーションの導入もIT部門によってスムーズに実施でき、メンテナンスも手軽です。Metasonicは、デジタルビジネスモデルへの移行を理想的にサポートするツールであると言えるでしょう。</p>
+<p>このように、Metasonicを使用して長期的な経営戦略や駆け引きの機敏な決断を速やかに実行することができるだけなく、その継続的に調整可能な特性を活かして、何か重要な変化が起きた際にも組織全体が歩調を合わせ、一体となった状態を保つことができます。</p>
+<p>METASONIC - BUSINESS. IN TUNE.</p>
+</div></div>  </div><!-- /.content -->
+
+</section><!-- /.block --><div id="block-boxes-front-products" class="block block-boxes block-boxes-multilingual block-even">
+
+      
+  <div class="content">
+    <div id='boxes-box-front_products' class='boxes-box'><div class="boxes-box-content"><div class="product-wrapper">
+<h3>Metasonic® Suite</h3>
+<div class="image-wrapper"><img alt="Metasonic® Suite Retail Box" src="/files/editor/pages/front/metasonic-suite-retail-box.png" /></div>
+<p>弊社で提供しているMetasonic® Suiteは次世代型のビジネスソフトウェアです。このソフトウェアを使えば、驚くほど簡単にアプリケーションを作成したり変更することができます。社内IT部門のキャパシティをいたずらに酷使するのはもう止めて、事業部門のスタッフ自らが自分の視点で業務の流れを設定できる環境を整えてみませんか。</p>
+<p class="views-field-view-node"><a href="node/46">詳細を読む</a></p>
+</div>
+<div class="product-wrapper touch">
+<h3>Metasonic® Touch</h3>
+<div class="image-wrapper"><img alt="Metasonic® Touch" src="/files/editor/pages/front/metasonic-touch.jpg" /></div>
+<p>Metasonic® Touchは、実際に手で触れることができるビジネスソフトウェアです。関係スタッフ全員をモデリングテーブルの周囲に集め、様々な要件を照らし合わせて話し合いながら手を使ってブロックを動かすことで、最善の業務の流れを遊び感覚で構築していきます。アプリケーションを作成したり繰り返し変更する作業もスムーズに行えます。</p>
+<p class="views-field-view-node"><a href="/ja/touch">詳細を読む</a></p>
+</div>
+</div></div>  </div><!-- /.content -->
+
+</div><!-- /.block --><div id="block-views-testimonials-block" class="block block-views block-odd">
+
+      
+  <div class="content">
+    <div class="view view-testimonials view-id-testimonials view-display-id-block view-dom-id-4b4c2273de41b8cf5f554dae63997ea8">
+        
+  
+  
+      <div class="view-content">
+      
+  <div class="skin-default">
+    
+    <div id="flexslider_views_slideshow_main_testimonials-block_1" class="flexslider_views_slideshow_main views_slideshow_main"><div class="flex-nav-container">
+  <div class="flexslider">
+    <ul id="flexslider_views_slideshow_testimonials-block_1" class="flexslider-views-slideshow-main-frame slides">
+        <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-1 views-row-odd">
+      
+  <div class="views-field views-field-field-testimonial">        <div class="field-content">Metasonicの革新的で直観的な ソフトウェアソリューションが無 ければ、このプロジェクトのコストは何倍にもなったと思う。</div>  </div>  
+  <div class="views-field views-field-field-customer-logo">        <div class="field-content views-field-field-testimonial-logo"><img typeof="foaf:Image" src="https://www.metasonic.de/files/uploads/logos/customers/referenz_swisscom.png" width="196" height="196" alt="" /></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Markus Witschi</span>  </div>  
+  <div class="views-field views-field-field-testimonial-position">        <div class="field-content">Operations Manager of SME at Swisscom (Switzerland) AG</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/ja/case-studies/swisscom/iphone5">Case study</a></span>  </div>  </li>
+  <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-2 views_slideshow_cycle_hidden views-row-even">
+      
+  <div class="views-field views-field-field-testimonial">        <div class="field-content">おかげで当社の社員がコミュニケーション志向のプロセスマネジメントを日常業務のサポート的存在とみなすようになり、常にモチベーションに溢れ、プロセス品質改善に対して建設的な姿勢を見せてくれるようになりました。簡単な操作方法で構造もしっかりとしており、すぐに大幅なコスト削減が可能だというのも大きな利点です。このプロジェクトの結果には大満足です。</div>  </div>  
+  <div class="views-field views-field-field-customer-logo">        <div class="field-content views-field-field-testimonial-logo"><img typeof="foaf:Image" src="https://www.metasonic.de/files/uploads/logos/customers/referenz_fiducia_0.png" width="196" height="196" alt="" /></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Lothar Hübner</span>  </div>  
+  <div class="views-field views-field-field-testimonial-position">        <div class="field-content">Director Company Organization at FIDUCIA IT AG</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/ja/case-studies/fiducia">Case study</a></span>  </div>  </li>
+  <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-3 views_slideshow_cycle_hidden views-row-odd">
+      
+  <div class="views-field views-field-field-testimonial">        <div class="field-content">今日、社員の自発性、創造性、 そして情熱だけが競争優位を生み 出し、それがお客様の意思決定に 決定的な影響を与えるのです。  このモチベーションはサブジェク ト指向BPMによって大きく育成、
+強化されるようになりました</div>  </div>  
+  <div class="views-field views-field-field-customer-logo">        <div class="field-content views-field-field-testimonial-logo"><img typeof="foaf:Image" src="https://www.metasonic.de/files/uploads/logos/customers/referenz_fi-ts.png" width="196" height="196" alt="" /></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Manfred Heckmeier</span>  </div>  
+  <div class="views-field views-field-field-testimonial-position">        <div class="field-content">CEO, FI-TS</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/ja/case-studies/fi-ts">Case study</a></span>  </div>  </li>
+  <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-4 views_slideshow_cycle_hidden views-row-even">
+      
+  <div class="views-field views-field-field-testimonial">        <div class="field-content">当社ではMetasonic社のサブ ジェクト指向ビジネスプロセ ス管理(S-BPM)ソリューシ ョン、そしてその手法をベー スとしたMetasonic® Suiteを 利用していますが、プロセス やワークフローの効率的な開 発・導入に非常に役立ってい ます。その効果は今回の「サ ービス・インスペクター」プ ロジェクトでも再び証明され ました。Metasonic社の迅速 な対応には今回も非常に満足 しており、今では迅速かつ効 率良く、お客様から問合せの ある前に障害情報を通知する ことができるようになりまし た。</div>  </div>  
+  <div class="views-field views-field-field-customer-logo">        <div class="field-content views-field-field-testimonial-logo"><img typeof="foaf:Image" src="https://www.metasonic.de/files/uploads/logos/customers/referenz_swisscom.png" width="196" height="196" alt="" /></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Markus Witschi</span>  </div>  
+  <div class="views-field views-field-field-testimonial-position">        <div class="field-content">スイスコム(スイス)中小企業向け業務責任者</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/ja/case-studies/swisscom/service-inspector">Case study</a></span>  </div>  </li>
+  <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-5 views_slideshow_cycle_hidden views-row-odd">
+      
+  <div class="views-field views-field-field-testimonial">        <div class="field-content">Metasonic® Suiteのおかげで社員がより構造的で 効率よく作業を進めるようになりました。今日ではMetasonic® Flowを使用することにより、社員ごとに割り当てられる契約数がアップしており、プロセスの改善がはっきりと結果として現れています。</div>  </div>  
+  <div class="views-field views-field-field-customer-logo">        <div class="field-content views-field-field-testimonial-logo"><img typeof="foaf:Image" src="https://www.metasonic.de/files/uploads/logos/customers/referenz_fi-ts.png" width="196" height="196" alt="" /></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Gabriele Konjack</span>  </div>  
+  <div class="views-field views-field-field-testimonial-position">        <div class="field-content">Department Head, FI-TS</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/ja/case-studies/fi-ts">Case study</a></span>  </div>  </li>
+  <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-6 views_slideshow_cycle_hidden views-row-even">
+      
+  <div class="views-field views-field-field-testimonial">        <div class="field-content">今回の迅速で効率的なソリュー ション導入には極めて満足してい る。 将来のプロモーションやキ ャンペーンにもこのアプローチを 適用したい。</div>  </div>  
+  <div class="views-field views-field-field-customer-logo">        <div class="field-content views-field-field-testimonial-logo"><img typeof="foaf:Image" src="https://www.metasonic.de/files/uploads/logos/customers/referenz_swisscom.png" width="196" height="196" alt="" /></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Dr. Thomas Walke</span>  </div>  
+  <div class="views-field views-field-field-testimonial-position">        <div class="field-content">Head of Strategy &amp; Business Planning in Customer Care SME at Swiss- com (Switzerland) Ltd.</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/ja/case-studies/swisscom/iphone5">Case study</a></span>  </div>  </li>
+  <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-7 views_slideshow_cycle_hidden views-row-odd">
+      
+  <div class="views-field views-field-field-testimonial">        <div class="field-content">結果は我々の期待を大きく超え ていました。 Metasonic Suiteは 更なる改善の可能性を示してくれ ていますし、他の領域に適 用して何が可能かも示してくれて います。 我々は当初目的にして いた目標を越える課題への挑戦も 視野に入れていますし、 スタート時点では注目もしなかっ た課題へも挑戦しようとしていま す。</div>  </div>  
+  <div class="views-field views-field-field-customer-logo">        <div class="field-content views-field-field-testimonial-logo"><img typeof="foaf:Image" src="https://www.metasonic.de/files/uploads/logos/customers/referenz_tesat.png" width="196" height="196" alt="" /></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Dr.-Ing. Jan Späth</span>  </div>  
+  <div class="views-field views-field-field-testimonial-position">        <div class="field-content">Eingineerring doctor, Project Manager</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/ja/case-studies/tesat">Case study</a></span>  </div>  </li>
+  <li class="flexslider-views-slideshow-main-frame-row flexslider_views_slideshow_slide views-row-8 views_slideshow_cycle_hidden views-row-even">
+      
+  <div class="views-field views-field-field-testimonial">        <div class="field-content">From the beginning we accompanied Swisscom with the analysis of the problem, the gathering of ideas and the conception of solutions through to implementation. The flexible and quick adaptability was shown in the fact that in the first six months after the go-live, we published 3 new versions of the app and carried out 8 process changes.</div>  </div>  
+  <div class="views-field views-field-field-customer-logo">        <div class="field-content views-field-field-testimonial-logo"></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Martin Reiner</span>  </div>  
+  <div class="views-field views-field-field-testimonial-position">        <div class="field-content">Managing Director of ConsSys IT AG</div>  </div>  
+  <div class="views-field views-field-view-node">        <span class="field-content"><a href="/ja/case-studies/swisscom/service-inspector">Case study</a></span>  </div>  </li>
+    </ul>
+  </div>
+</div></div>
+      </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div><!-- /.content -->
+
+</div><!-- /.block -->  </div>
+
+                            </div>
+                        </div>
+
+                    </div><!-- /#main -->
+
+                                    </div>
+            </div>
+
+        </div>
+
+                    <div class="special-feature">
+              <div class="container-12">
+                <div class="grid-12">
+                    <div class="region region-special-feature">
+    <div id="block-menu-menu-call-to-action-links" class="block block-menu block-menu-block float-left block-even">
+
+      
+  <div class="content">
+    <ul class="menu clearfix"><li class="first leaf id- mid-1361"><a href="/ja/contact" title="">お問い合わせ</a></li>
+<li class="last leaf id- mid-1371"><a href="/ja/livedemo" title="">デモの要請</a></li>
+</ul>  </div><!-- /.content -->
+
+</div><!-- /.block --><div id="block-boxes-block-follow-site" class="block block-boxes float-right clearfix block-boxes-multilingual block-odd">
+
+      
+  <div class="content">
+    <div id='boxes-box-block_follow_site' class='boxes-box'><div class="boxes-box-content"><div id="metasonic_follow-us"><a href="https://www.twitter.com/metasonictweets" id="twitter" rel="me nofollow" target="_blank"> </a> <a href="https://www.youtube.com/MetasonicAG" id="youtube" rel="me nofollow" target="_blank"> </a> <a href="https://www.linkedin.com/company/metasonic-ag" id="linkedin" rel="me nofollow" target="_blank"> </a> <a href="/ja/rss.xml" id="rss" rel="me nofollow" target="_blank"> </a></div>
+</div></div>  </div><!-- /.content -->
+
+</div><!-- /.block --><div id="block-boxes-floating-coolvendor-button" class="block block-boxes block-boxes-multilingual block-even">
+
+      
+  <div class="content">
+    <div id='boxes-box-floating_coolvendor_button' class='boxes-box'><div class="boxes-box-content"><p><a href="/en/coolvendor" target="_blank"><img alt="" src="/files/editor/assets/buttons/cool-vendor-2014.png" style="width: 128px; height: 78px;" /></a></p>
+</div></div>  </div><!-- /.content -->
+
+</div><!-- /.block -->  </div>
+                </div>
+              </div>
+            </div>
+        
+        <footer id="footer" role="contentinfo">
+            <div class="container-12">
+                <div class="grid-12">
+                    <div class="footer-top-wrapper clearfix">
+                                                      <div class="region region-footer-top">
+    <div id="block-menu-menu-call-to-action-links--2" class="block block-menu block-menu-block float-left block-odd">
+
+      
+  <div class="content">
+    <ul class="menu clearfix"><li class="first leaf id- mid-1361"><a href="/ja/contact" title="">お問い合わせ</a></li>
+<li class="last leaf id- mid-1371"><a href="/ja/livedemo" title="">デモの要請</a></li>
+</ul>  </div><!-- /.content -->
+
+</div><!-- /.block -->  </div>
+                                            </div>
+
+                    <div class="footer-wrapper clearfix">
+                                                  <div class="region region-footer-right">
+    <section id="block-boxes-metasonic-gmbh" class="block block-boxes block-boxes-multilingual block-even">
+
+        <h2>Allgeier IT Solutions GmbH</h2>
+    
+  <div class="content">
+    <div id='boxes-box-metasonic_gmbh' class='boxes-box'><div class="boxes-box-content"><h2 style="margin-top:-15px;">Business Unit Pfaffenhofen</h2>
+<p>Muenchner Str. 29 - Hettenshausen</p>
+<p>85276 Pfaffenhofen / Germany</p>
+<p>Tel: +49 (0)8441-278 10-0</p>
+<p>Fax: +49 (0)8441-278 10-999</p>
+<p>E-Mail: <a href="mailto:info@metasonic.de">info@metasonic.de</a></p>
+<p style="margin-top:30px;"><img alt="" src="/files/13_01_AITS_Logo.png" style="height: 55px;" /></p>
+</div></div>  </div><!-- /.content -->
+
+</section><!-- /.block -->  </div>
+                          <div class="region region-footer">
+    <div id="block-menu-menu-legal-links" class="block block-menu clear-both block-odd">
+
+      
+  <div class="content">
+    <ul class="menu clearfix"><li class="first leaf id- mid-1334"><a href="/ja/terms-of-use" title="">利用規約</a></li>
+<li class="leaf id- mid-1335"><a href="/ja/data-policy" title="">個人情報保護方針</a></li>
+<li class="last leaf id- mid-14476"><a href="https://www.metasonic.de/ja/imprint" title="">企業情報</a></li>
+</ul>  </div><!-- /.content -->
+
+</div><!-- /.block -->  </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div><!-- /#page -->
+</div><!-- /#page-wrapper -->  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var eu_cookie_compliance_cookie_name = "";
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.metasonic.de/files/js/js_tqC0xSbhZO_YGs08n9CwrrPj091CkUFnc8Rnjlybb3I.js"></script>
+ 
+</body>
+</html>

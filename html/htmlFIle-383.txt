@@ -1,0 +1,832 @@
+<!doctype html>
+<html class="no-js" lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+	<title>Contact Upload - Internal - Vision Critical</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <script type='text/javascript' data-cfasync='false' src='//tribl.io/h.js?orgId=knRZ8wLOqkfwaO8p1Rwm'></script>
+<script type='text/javascript' src='//tribl.io/firm_tracking.js?orgId=knRZ8wLOqkfwaO8p1Rwm' data-cfasync="false"></script>
+ <script src="//play.vidyard.com/v0/api.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-11162425-1', 'auto');
+ ga('require', 'GTM-5NNCFM3');
+ ga('send', 'pageview');
+ ga('set', 'anonymizeIp', true);
+
+</script>    <meta name="robots" content="noindex, nofollow" />
+3
+4
+5
+6
+7
+8
+9
+10
+11
+<script>
+//add a callback to the first ready form on the page
+MktoForms2.whenReady( function(form){ 
+	//add the tracking field to be submitted
+        form.addHiddenFields({"_mkt_trk":""});
+        //clear the value during the onSubmit event to prevent tracking association
+	form.onSubmit( function(form){
+		form.vals({"_mkt_trk":""}); 
+	})
+})
+</script>	<title>Contact Upload - Internal - Vision Critical</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v5.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://www.visioncritical.com/contact-upload-internal/" />
+<link rel="publisher" href="https://plus.google.com/b/108779923952149879975/+VisionCritical/posts"/>
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Contact Upload - Internal - Vision Critical" />
+<meta property="og:url" content="https://www.visioncritical.com/contact-upload-internal/" />
+<meta property="og:site_name" content="Vision Critical" />
+<meta property="article:publisher" content="https://www.facebook.com/visioncritical" />
+<meta property="og:image" content="https://www.visioncritical.com/wp-content/uploads/2017/02/Sparq3-the-customer-intelligence-platform.jpg" />
+<meta property="og:image:secure_url" content="https://www.visioncritical.com/wp-content/uploads/2017/02/Sparq3-the-customer-intelligence-platform.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Contact Upload - Internal - Vision Critical" />
+<meta name="twitter:site" content="@visioncritical" />
+<meta name="twitter:image" content="https://www.visioncritical.com/wp-content/uploads/2017/02/Sparq3-the-customer-intelligence-platform.jpg" />
+<meta name="twitter:creator" content="@visioncritical" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//www.visioncritical.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//app-abk.marketo.com' />
+<link rel='dns-prefetch' href='//vjs.zencdn.net' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.visioncritical.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.7"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='simple-payments-css'  href='https://www.visioncritical.com/wp-content/plugins/jetpack/modules/simple-payments/simple-payments.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='https://www.visioncritical.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='videojs-plugin-css'  href='https://www.visioncritical.com/wp-content/plugins/videojs-html5-video-player-for-wordpress/plugin-styles.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='videojs-css'  href='//vjs.zencdn.net/4.5/video-js.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css'  href='https://www.visioncritical.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=5.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='https://www.visioncritical.com/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.14' type='text/css' media='all' />
+<link rel='stylesheet' id='ivan_vc_grid-css'  href='https://www.visioncritical.com/wp-content/plugins/elite-addons-vc/assets/libs/bootstrap/ivan_grid.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='ivan_vc_modules-css'  href='https://www.visioncritical.com/wp-content/plugins/elite-addons-vc/assets/modules.min.css?ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='ivan-font-awesome-css'  href='https://www.visioncritical.com/wp-content/plugins/elite-addons-vc/assets/libs/font-awesome-css/font-awesome.min.css?ver=4.1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='ivan-elegant-icons-css'  href='https://www.visioncritical.com/wp-content/plugins/elite-addons-vc/assets/libs/elegant-icons/elegant-icons.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-css'  href='https://www.visioncritical.com/wp-content/plugins/elite-addons-vc/assets/libs/magnific-popup/magnific-popup.min.css?ver=0.9.9' type='text/css' media='all' />
+<link rel='stylesheet' id='sage/css-css'  href='https://www.visioncritical.com/wp-content/themes/visioncritical/dist/styles/main.css' type='text/css' media='all' />
+<!--[if IE 11]>
+<link rel='stylesheet' id='vc-ie-css'  href='https://www.visioncritical.com/wp-content/themes/visioncritical/ie.css?ver=4.9.7' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='open-sans-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext&#038;ver=4.9.7' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='https://www.visioncritical.com/wp-content/plugins/jetpack/css/jetpack.css?ver=5.2' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.visioncritical.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://www.visioncritical.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://www.visioncritical.com/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.0-b-modified-1531414941'></script>
+<script type='text/javascript' src='https://www.visioncritical.com/wp-content/plugins/respondjs/js/respond.min.js?ver=1.4.2-b-modified-1531414942'></script>
+<script type='text/javascript' src='//app-abk.marketo.com/js/forms2/js/forms2.js'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.visioncritical.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.visioncritical.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.7" />
+<link rel='shortlink' href='https://www.visioncritical.com/?p=54853' />
+<link rel="alternate" type="application/json+oembed" href="https://www.visioncritical.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.visioncritical.com%2Fcontact-upload-internal%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.visioncritical.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.visioncritical.com%2Fcontact-upload-internal%2F&#038;format=xml" />
+
+<script type="text/javascript">
+var a2a_config=a2a_config||{};a2a_config.callbacks=a2a_config.callbacks||[];a2a_config.templates=a2a_config.templates||{};
+a2a_config.onclick=1;
+a2a_config.track_links = 'ga';
+//a2a_config.track_links = 'bitly';
+//a2a_config.track_links_key = 'visioncritical|R_719df1c27e8316119d74d07c5634a481'; // username|API key delimited by |
+a2a_config.templates = {
+    twitter: "${title} ${link} via @VisionCritical"
+};
+</script>
+<script type="text/javascript" src="https://static.addtoany.com/menu/page.js" async="async"></script>
+
+		<script type="text/javascript"> document.createElement("video");document.createElement("audio");document.createElement("track"); </script>
+		<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://www.visioncritical.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->			<link rel="stylesheet" type="text/css" id="wp-custom-css" href="https://www.visioncritical.com/?custom-css=7d2f6e3124" />
+		<noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>			<!-- <script type="text/javascript">
+		document.write(unescape("%3Cscript src='//munchkin.marketo.net/munchkin.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script>Munchkin.init('725-BMJ-063');</script> -->
+    <script type="text/javascript"> 
+(function() { 
+var didInit = false; 
+function initMunchkin() { 
+if(didInit === false) { 
+didInit = true; 
+Munchkin.init('725-BMJ-063'); 
+} 
+} 
+var s = document.createElement('script'); 
+s.type = 'text/javascript'; 
+s.async = true; 
+s.src = '//munchkin.marketo.net/munchkin.js'; 
+s.onreadystatechange = function() { 
+if (this.readyState == 'complete' || this.readyState == 'loaded') { 
+initMunchkin(); 
+} 
+}; 
+s.onload = initMunchkin; 
+document.getElementsByTagName('head')[0].appendChild(s); 
+})(); 
+</script> 
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css"/>
+	<style>
+@media(max-width: 1199px){
+.customer-filter button{
+font-size: 1em}
+}
+</style>
+</head>
+<body class="page-template-default page page-id-54853 custom-background ivan-vc-enabled sidebar-primary wpb-js-composer js-comp-ver-5.0.1 vc_responsive" id="top">
+<!--[if lt IE 8]>
+<div class="alert alert-warning">
+	You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5GH4CS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5GH4CS');</script>
+<!-- End Google Tag Manager -->
+<script type='text/javascript' data-cfasync='false' src='//tribl.io/footer.js?orgId=knRZ8wLOqkfwaO8p1Rwm'></script><div class="secondary-nav">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-3">
+                &nbsp;
+            </div>
+            <div class="col-xs-6 text-center">
+                <div class="secondary-nav-content" style="white-space: nowrap">
+                    <a
+                       href="https://www.customersummit.com/"
+                       target="_parent"
+                    >
+                        See storytelling expert, Kindra Hall at this year’s Customer Intelligence Summit.                     </a>
+                </div>
+            </div>
+            <div class="col-xs-3 text-right">
+                <ul id="menu-secondary-navigation" class="secondary-main-nav"><li class="dropdown menu-en"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#" class="dropdown-toggle" data-target="#" title="languagemenu" href="#">EN <b class="lnr lnr-chevron-down"></b></a>
+<ul class="dropdown-menu">
+	<li class="sl_norewrite menu-en"><a href="https://www.visioncritical.com/">EN</a></li>
+	<li class="menu-fr"><a href="https://www.visioncritical.fr">FR</a></li>
+	<li class="menu-de"><a href="https://www.visioncritical.de">DE</a></li>
+</ul>
+</li>
+<li class="togglesearch menu-"><a href="#"><span class="lnr lnr-magnifier"></span></a></li>
+</ul>            </div>
+        </div>
+    </div>
+</div><div style="position: relative">
+    <div class="modal fade searchbox">
+        <div class="container">
+            <div class="search-wrapper text-right">
+                <form role="search" method="get" class="search-form" action="https://www.visioncritical.com/">
+                    <label class="sr-only">Search for:</label>
+                    <div class="search-field-wrapper">
+                        <input type="search" value="" name="s"
+                               class="search-field form-control input-lg"
+                               placeholder="Search Vision Critical">
+                        <a data-dismiss="modal" href="#" class="search-close"><span class="lnr lnr-cross"></span></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>    <div class="primary-nav-wrapper navbar navbar-default navbar-static-top">
+                    <div class="full-nav-wrapper">
+    <div id="scroll-nav-wrapper">
+        <div id="scroll-nav" class="nav-holder at-the-top">
+            <div class="nav-holder-inner">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar left top-bar"></span>
+                            <span class="icon-bar middle middle-bar"></span>
+                            <span class="icon-bar right bottom-bar"></span>
+                        </button>
+                        <div class="mobile-search-trigger pull-right visible-xs visible-sm">
+                            <a href="#mobile-search" data-toggle="collapse">
+                                <span class="lnr lnr-magnifier"></span>
+                            </a>
+                        </div>
+                        <div class="navbar-brand">
+                            <a class="main-logo" href="https://www.visioncritical.com/">
+                                <div class="hidden-xs hidden-sm">
+                                    <svg width="222" height="38" viewBox="0 0 220 23" xmlns="http://www.w3.org/2000/svg">
+    <g fill="#000" fill-rule="evenodd">
+        <path d="M21.786 22.525h3.1V.612h-3.1M45.892 22.525h3.096V.612h-3.096M69.906 11.516c0 2.525-.778 4.683-2.018 6.2-1.24 1.515-2.927 2.396-4.824 2.398h-.044c-1.85-.002-3.483-.877-4.687-2.378-1.2-1.5-1.947-3.63-1.947-6.095-.003-2.115.547-4.285 1.664-5.886 1.126-1.598 2.766-2.653 5.138-2.663 2.44.01 4.05 1.176 5.146 2.827 1.083 1.65 1.574 3.807 1.572 5.6zM63.23.2c-2.602 0-5.1 1.04-6.942 3.024-1.84 1.98-3.003 4.89-3.003 8.553 0 3.353 1.035 6.165 2.772 8.137C57.79 21.884 60.225 23 62.933 23h.05c2.322 0 4.824-.875 6.76-2.775 1.937-1.9 3.27-4.826 3.265-8.797 0-3.283-.968-6.094-2.692-8.087C68.596 1.347 66.118.2 63.23.2zM111.18 18.31c-1.176 1.146-2.648 1.804-4.28 1.804h-.04c-1.853-.002-3.486-.877-4.69-2.378-1.2-1.5-1.95-3.63-1.948-6.095-.003-2.115.548-4.285 1.666-5.886 1.126-1.598 2.762-2.653 5.137-2.663 1.652.003 2.91.547 3.9 1.396l.432.37 1.917-2.43-.476-.36C111.228.862 109.266.2 107.066.2c-2.603 0-5.1 1.04-6.94 3.024-1.84 1.98-3.004 4.89-3.004 8.553 0 3.353 1.034 6.165 2.772 8.137 1.735 1.97 4.168 3.086 6.877 3.086h.049c2.254 0 4.67-.826 6.58-2.61l.49-.456-2.358-1.97-.352.345M89.824 1.2l.005 15.207L80.27.617h-2.735v21.915l2.977-.01V6.907l9.563 15.617 2.737.008V.618h-2.988v.58M120.78 3.244c.45-.067 1.12-.13 1.998-.13 1.094-.005 2.265.178 3.092.697.82.532 1.366 1.3 1.383 2.838-.004 1.125-.395 1.98-1.093 2.605-.7.618-1.748.998-3.09.998h-2.29V3.244zm9.787 18.2v-.004l.29-.156c-.322-.635-.708-2.055-1.384-5.31-.362-1.788-1.058-3.208-2.085-4.11 1.867-1.17 2.932-3.11 2.916-5.452 0-1.64-.58-3.215-1.617-4.265C127.353.79 125.43.203 122.81.207c-1.51 0-3.186.164-4.425.438l-.66.146v21.753h3.054V13.16h2.2c1.12.062 1.848.343 2.396.888.55.546.963 1.443 1.252 2.832.272 1.325.507 2.435.725 3.304.217.872.395 1.485.614 1.91l.076.146.158.303h3.28l-.62-1.257-.293.157zM135.595 22.525h3.1V.612h-3.1M142.535.612v2.91h3.345v12.474c.006 2.17.323 4.063 1.38 5.34.88 1.11 2.27 1.602 3.813 1.602h.01c1.255 0 2.224-.21 2.95-.492l.42-.16-.398-2.868-.634.223c-.415.148-1.11.274-2.1.273-.936-.013-1.417-.29-1.78-.816-.36-.54-.562-1.454-.557-2.71V3.52h5.663V.613h-12.11M159.015 22.525h3.1V.612h-3.1M208.524 19.296V.674h-3.1v21.85h8.75v-3.228h-5.65M41.025 15.842l.552-.072c-.326-2.65-2.19-4.413-4.144-5.544-1.046-.607-2.103-1.104-3.054-1.697-.823-.508-1.544-1.065-1.838-1.863-.12-.32-.174-.638-.174-.947.005-1.364 1.07-2.635 2.853-2.68.02 0 .035-.003.05-.003 1.065-.004 2.1.717 2.588 1.773l.042.093.248.537 2.664-1.427-.333-.615c-.263-.515-.61-.978-.995-1.38C38.355.81 36.823.2 35.28.2c-.825 0-1.657.173-2.438.53-1.898.86-3.303 2.802-3.313 5.03 0 .192.01.38.03.576.156 1.414.775 2.52 1.596 3.37.823.853 1.836 1.47 2.85 2.025 1.034.563 2.26 1.155 3.033 1.84.76.665 1.408 1.454 1.598 2.313.052.232.08.473.08.716v.005c.003 1.217-.7 2.448-1.762 3.05-.497.282-1.046.42-1.594.42-.986 0-1.96-.44-2.61-1.247-.258-.317-.464-.692-.602-1.084-.05-.143-.085-.267-.108-.35l-.023-.1-.007-.024-.008-.048-.09-.466h-2.92l.07.67c.397 3.34 3.106 5.572 6.158 5.572h.029c.22 0 .443-.013.67-.037 3.172-.332 5.696-3.056 5.702-6.394 0-.26-.015-.526-.047-.793l-.552.07M180.33 18.31c-1.174 1.146-2.65 1.804-4.28 1.804h-.043c-1.852-.002-3.487-.877-4.688-2.378-1.2-1.5-1.95-3.63-1.946-6.095-.006-2.115.545-4.285 1.66-5.886 1.128-1.598 2.766-2.653 5.142-2.663 1.65.005 2.91.547 3.9 1.396l.43.37 1.917-2.43-.474-.36C180.38.862 178.416.2 176.214.2c-2.6 0-5.1 1.04-6.94 3.024-1.84 1.98-3.005 4.89-3.002 8.553-.003 3.353 1.03 6.165 2.772 8.137 1.732 1.97 4.166 3.086 6.872 3.086H175.97c2.25 0 4.67-.826 6.578-2.61l.49-.456-2.36-1.97-.35.345M14.377.98L8.92 17.06 3.27.593H0L7.532 22.52h2.766L17.814.593H14.51l-.133.386M192.472.593l-7.535 21.927h3.273l5.648-16.467 5.588 16.467h3.308L195.238.593h-2.766M216.892 3.113h.268c.313 0 .567-.11.567-.373 0-.233-.165-.387-.522-.387-.15 0-.253.015-.313.03v.73zm-.015 1.43h-.567V1.995c.223-.032.536-.077.94-.077.46 0 .67.077.835.2.148.11.252.297.252.545 0 .31-.222.513-.505.606v.03c.238.077.357.28.432.622.073.388.132.53.177.62h-.595c-.073-.09-.118-.31-.193-.62-.044-.264-.194-.39-.507-.39h-.268v1.01zM215.37 3.22c0 1.136.82 2.038 1.91 2.038 1.057.016 1.864-.902 1.864-2.02 0-1.134-.807-2.052-1.894-2.052-1.06 0-1.88.918-1.88 2.035zm4.4 0c0 1.432-1.104 2.567-2.506 2.567-1.4 0-2.52-1.135-2.52-2.566 0-1.427 1.12-2.546 2.535-2.546 1.386 0 2.49 1.12 2.49 2.547z"/>
+    </g>
+</svg>                                </div>
+                                <div class="visible-xs visible-sm">
+                                    <svg width="222" height="38" viewBox="0 0 220 23" xmlns="http://www.w3.org/2000/svg">
+    <g fill="#000" fill-rule="evenodd">
+        <path d="M21.786 22.525h3.1V.612h-3.1M45.892 22.525h3.096V.612h-3.096M69.906 11.516c0 2.525-.778 4.683-2.018 6.2-1.24 1.515-2.927 2.396-4.824 2.398h-.044c-1.85-.002-3.483-.877-4.687-2.378-1.2-1.5-1.947-3.63-1.947-6.095-.003-2.115.547-4.285 1.664-5.886 1.126-1.598 2.766-2.653 5.138-2.663 2.44.01 4.05 1.176 5.146 2.827 1.083 1.65 1.574 3.807 1.572 5.6zM63.23.2c-2.602 0-5.1 1.04-6.942 3.024-1.84 1.98-3.003 4.89-3.003 8.553 0 3.353 1.035 6.165 2.772 8.137C57.79 21.884 60.225 23 62.933 23h.05c2.322 0 4.824-.875 6.76-2.775 1.937-1.9 3.27-4.826 3.265-8.797 0-3.283-.968-6.094-2.692-8.087C68.596 1.347 66.118.2 63.23.2zM111.18 18.31c-1.176 1.146-2.648 1.804-4.28 1.804h-.04c-1.853-.002-3.486-.877-4.69-2.378-1.2-1.5-1.95-3.63-1.948-6.095-.003-2.115.548-4.285 1.666-5.886 1.126-1.598 2.762-2.653 5.137-2.663 1.652.003 2.91.547 3.9 1.396l.432.37 1.917-2.43-.476-.36C111.228.862 109.266.2 107.066.2c-2.603 0-5.1 1.04-6.94 3.024-1.84 1.98-3.004 4.89-3.004 8.553 0 3.353 1.034 6.165 2.772 8.137 1.735 1.97 4.168 3.086 6.877 3.086h.049c2.254 0 4.67-.826 6.58-2.61l.49-.456-2.358-1.97-.352.345M89.824 1.2l.005 15.207L80.27.617h-2.735v21.915l2.977-.01V6.907l9.563 15.617 2.737.008V.618h-2.988v.58M120.78 3.244c.45-.067 1.12-.13 1.998-.13 1.094-.005 2.265.178 3.092.697.82.532 1.366 1.3 1.383 2.838-.004 1.125-.395 1.98-1.093 2.605-.7.618-1.748.998-3.09.998h-2.29V3.244zm9.787 18.2v-.004l.29-.156c-.322-.635-.708-2.055-1.384-5.31-.362-1.788-1.058-3.208-2.085-4.11 1.867-1.17 2.932-3.11 2.916-5.452 0-1.64-.58-3.215-1.617-4.265C127.353.79 125.43.203 122.81.207c-1.51 0-3.186.164-4.425.438l-.66.146v21.753h3.054V13.16h2.2c1.12.062 1.848.343 2.396.888.55.546.963 1.443 1.252 2.832.272 1.325.507 2.435.725 3.304.217.872.395 1.485.614 1.91l.076.146.158.303h3.28l-.62-1.257-.293.157zM135.595 22.525h3.1V.612h-3.1M142.535.612v2.91h3.345v12.474c.006 2.17.323 4.063 1.38 5.34.88 1.11 2.27 1.602 3.813 1.602h.01c1.255 0 2.224-.21 2.95-.492l.42-.16-.398-2.868-.634.223c-.415.148-1.11.274-2.1.273-.936-.013-1.417-.29-1.78-.816-.36-.54-.562-1.454-.557-2.71V3.52h5.663V.613h-12.11M159.015 22.525h3.1V.612h-3.1M208.524 19.296V.674h-3.1v21.85h8.75v-3.228h-5.65M41.025 15.842l.552-.072c-.326-2.65-2.19-4.413-4.144-5.544-1.046-.607-2.103-1.104-3.054-1.697-.823-.508-1.544-1.065-1.838-1.863-.12-.32-.174-.638-.174-.947.005-1.364 1.07-2.635 2.853-2.68.02 0 .035-.003.05-.003 1.065-.004 2.1.717 2.588 1.773l.042.093.248.537 2.664-1.427-.333-.615c-.263-.515-.61-.978-.995-1.38C38.355.81 36.823.2 35.28.2c-.825 0-1.657.173-2.438.53-1.898.86-3.303 2.802-3.313 5.03 0 .192.01.38.03.576.156 1.414.775 2.52 1.596 3.37.823.853 1.836 1.47 2.85 2.025 1.034.563 2.26 1.155 3.033 1.84.76.665 1.408 1.454 1.598 2.313.052.232.08.473.08.716v.005c.003 1.217-.7 2.448-1.762 3.05-.497.282-1.046.42-1.594.42-.986 0-1.96-.44-2.61-1.247-.258-.317-.464-.692-.602-1.084-.05-.143-.085-.267-.108-.35l-.023-.1-.007-.024-.008-.048-.09-.466h-2.92l.07.67c.397 3.34 3.106 5.572 6.158 5.572h.029c.22 0 .443-.013.67-.037 3.172-.332 5.696-3.056 5.702-6.394 0-.26-.015-.526-.047-.793l-.552.07M180.33 18.31c-1.174 1.146-2.65 1.804-4.28 1.804h-.043c-1.852-.002-3.487-.877-4.688-2.378-1.2-1.5-1.95-3.63-1.946-6.095-.006-2.115.545-4.285 1.66-5.886 1.128-1.598 2.766-2.653 5.142-2.663 1.65.005 2.91.547 3.9 1.396l.43.37 1.917-2.43-.474-.36C180.38.862 178.416.2 176.214.2c-2.6 0-5.1 1.04-6.94 3.024-1.84 1.98-3.005 4.89-3.002 8.553-.003 3.353 1.03 6.165 2.772 8.137 1.732 1.97 4.166 3.086 6.872 3.086H175.97c2.25 0 4.67-.826 6.578-2.61l.49-.456-2.36-1.97-.35.345M14.377.98L8.92 17.06 3.27.593H0L7.532 22.52h2.766L17.814.593H14.51l-.133.386M192.472.593l-7.535 21.927h3.273l5.648-16.467 5.588 16.467h3.308L195.238.593h-2.766M216.892 3.113h.268c.313 0 .567-.11.567-.373 0-.233-.165-.387-.522-.387-.15 0-.253.015-.313.03v.73zm-.015 1.43h-.567V1.995c.223-.032.536-.077.94-.077.46 0 .67.077.835.2.148.11.252.297.252.545 0 .31-.222.513-.505.606v.03c.238.077.357.28.432.622.073.388.132.53.177.62h-.595c-.073-.09-.118-.31-.193-.62-.044-.264-.194-.39-.507-.39h-.268v1.01zM215.37 3.22c0 1.136.82 2.038 1.91 2.038 1.057.016 1.864-.902 1.864-2.02 0-1.134-.807-2.052-1.894-2.052-1.06 0-1.88.918-1.88 2.035zm4.4 0c0 1.432-1.104 2.567-2.506 2.567-1.4 0-2.52-1.135-2.52-2.566 0-1.427 1.12-2.546 2.535-2.546 1.386 0 2.49 1.12 2.49 2.547z"/>
+    </g>
+</svg>                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <nav class="collapse navbar-collapse" role="navigation">
+                        <div class="nav_wrap">
+                            <ul id="menu-primary-navigation" class="primary-main-nav nav navbar-nav"><li class="dropdown menu-our-software"><a class="dropdown-toggle" data-target="#" href="https://www.visioncritical.com/customer-intelligence-platform/">Our Software</a>
+<ul class="dropdown-menu">
+	<li class="menu-overview"><a href="https://www.visioncritical.com/customer-intelligence-platform/">Overview</a></li>
+	<li class="menu-enterprise-package"><a href="https://www.visioncritical.com/enterprise-package/">Enterprise Package</a></li>
+	<li class="menu-solutions-by-role"><a href="https://www.visioncritical.com/solutions-by-role/">Solutions by role</a></li>
+	<li class="menu-solutions-by-industry"><a href="https://www.visioncritical.com/solutions/">Solutions by industry</a></li>
+	<li class="menu-insight-communities"><a href="https://www.visioncritical.com/what-is-an-insight-community/">Insight communities</a></li>
+	<li class="menu-how-to-buy"><a href="https://www.visioncritical.com/how-to-buy-customer-intelligence-software/">How to Buy</a></li>
+	<li class="menu-software-demo"><a href="https://www.visioncritical.com/resources/customer-intelligence-platform-demo/">Software demo</a></li>
+</ul>
+</li>
+<li class="menu-customers"><a href="https://www.visioncritical.com/customer-stories/">Customers</a></li>
+<li class="menu-resources"><a href="https://www.visioncritical.com/resources/">Resources</a></li>
+<li class="menu-blog"><a href="https://www.visioncritical.com/blog/">Blog</a></li>
+<li class="menu-partners"><a href="https://www.visioncritical.com/technology-partners">Partners</a></li>
+<li class="dropdown menu-about-us"><a class="dropdown-toggle" data-target="#" href="https://www.visioncritical.com/about-us/">About us</a>
+<ul class="dropdown-menu">
+	<li class="menu-news"><a href="/news-categories/in-the-news/">News</a></li>
+	<li class="menu-events"><a href="/news-categories/events/">Events</a></li>
+	<li class="menu-vc-academy"><a href="https://www.visioncritical.com/resources/vision-critical-academy/">VC Academy</a></li>
+	<li class="menu-services"><a href="https://www.visioncritical.com/services/">Services</a></li>
+	<li class="menu-careers"><a href="https://www.visioncritical.com/careers/">Careers</a></li>
+	<li class="menu-support"><a href="https://www.visioncritical.com/trust/">Support</a></li>
+</ul>
+</li>
+<li class="menu-contact"><a href="https://www.visioncritical.com/contact-us/">Contact</a></li>
+</ul>                        </div>
+                    </nav>
+                </div>
+                <div class="collapse" id="mobile-search">
+                    <div class="mobile-search-wrapper">
+    <form role="search" method="get" class="search-form" action="https://www.visioncritical.com/">
+        <label class="sr-only">Search for:</label>
+        <div class="search-field-wrapper">
+            <input type="search" value="" name="s"
+                   class="search-field form-control input-lg"
+                   placeholder="Search Vision Critical">
+        </div>
+    </form>
+</div>
+<div class="mobile-quicklinks-wrapper">
+    <h2>Quick Links</h2>
+    <ul id="menu-primary-navigation-1" class="mobile-quicklinks list-unstyled"><li class="dropdown menu-our-software"><a class="dropdown-toggle" data-target="#" href="https://www.visioncritical.com/customer-intelligence-platform/">Our Software</a>
+<ul class="dropdown-menu">
+	<li class="menu-overview"><a href="https://www.visioncritical.com/customer-intelligence-platform/">Overview</a></li>
+	<li class="menu-enterprise-package"><a href="https://www.visioncritical.com/enterprise-package/">Enterprise Package</a></li>
+	<li class="menu-solutions-by-role"><a href="https://www.visioncritical.com/solutions-by-role/">Solutions by role</a></li>
+	<li class="menu-solutions-by-industry"><a href="https://www.visioncritical.com/solutions/">Solutions by industry</a></li>
+	<li class="menu-insight-communities"><a href="https://www.visioncritical.com/what-is-an-insight-community/">Insight communities</a></li>
+	<li class="menu-how-to-buy"><a href="https://www.visioncritical.com/how-to-buy-customer-intelligence-software/">How to Buy</a></li>
+	<li class="menu-software-demo"><a href="https://www.visioncritical.com/resources/customer-intelligence-platform-demo/">Software demo</a></li>
+</ul>
+</li>
+<li class="menu-customers"><a href="https://www.visioncritical.com/customer-stories/">Customers</a></li>
+<li class="menu-resources"><a href="https://www.visioncritical.com/resources/">Resources</a></li>
+<li class="menu-blog"><a href="https://www.visioncritical.com/blog/">Blog</a></li>
+<li class="menu-partners"><a href="https://www.visioncritical.com/technology-partners">Partners</a></li>
+<li class="dropdown menu-about-us"><a class="dropdown-toggle" data-target="#" href="https://www.visioncritical.com/about-us/">About us</a>
+<ul class="dropdown-menu">
+	<li class="menu-news"><a href="/news-categories/in-the-news/">News</a></li>
+	<li class="menu-events"><a href="/news-categories/events/">Events</a></li>
+	<li class="menu-vc-academy"><a href="https://www.visioncritical.com/resources/vision-critical-academy/">VC Academy</a></li>
+	<li class="menu-services"><a href="https://www.visioncritical.com/services/">Services</a></li>
+	<li class="menu-careers"><a href="https://www.visioncritical.com/careers/">Careers</a></li>
+	<li class="menu-support"><a href="https://www.visioncritical.com/trust/">Support</a></li>
+</ul>
+</li>
+<li class="menu-contact"><a href="https://www.visioncritical.com/contact-us/">Contact</a></li>
+</ul></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>            </div>
+        <header class="banner " role="banner"
+            style="background-image: url()"    >
+                <div class="overlay" >
+                                                
+                                    
+                    </div>
+    </header>
+
+	<div class="wrap container" role="document">
+		<div class="content row">
+			<main class="main" role="main">
+					<div class="page-header">
+  <h1>
+    Contact Upload &#8211; Internal  </h1>
+</div>
+	<div  class="ivan-custom-wrapper theme_default "  style=""><div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner "><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<h2>How to use this form:</h2>
+<p>Before submitting this form, make sure to <a style="background-color: #ffffff;" href="https://app-abk.marketo.com/#SC38840C3" target="_blank" rel="noopener">add Salesforce campaign in step 11 in FLOW.</a></p>
+<p>The rest happens automatically.</p>
+
+		</div>
+	</div>
+<style>.marketo_shortcode small a, .marketo_shortcode small, .marketo_shortcode .marketo_headline, .marketo_shortcode .mktoLabel{color: #333333 !important;}.marketo_shortcode.vertical {max-width: 300px; margin: 0 auto;} .marketo_headline {margin-bottom: 50px;}</style><div class="marketo_shortcode " id="">
+<form id="mktoForm_7217"></form><p class="privacy" style="line-height: 1em"><small><small>Learn how we use your personal data in our <a href="https://www.visioncritical.com/trust/policies/" target="_blank">privacy policy</a> and about our <a href="https://www.visioncritical.com/trust/countries-and-regions " target="_blank">country/region options</a>.</small></small></p>
+		<script>
+
+var $jQ = jQuery.noConflict();
+
+MktoForms2.loadForm("//app-abk.marketo.com", "725-BMJ-063", 7217, function(form){
+		/* from here we have access to the form object and can call its methods.
+		Add an onSuccess handler
+		No need to close the script tag - this is where the function(form) function is defined.*/
+		form.onSuccess(function(values, followUpUrl){
+		    /* add cookie to save email id */
+	//	var emailCookie = "email =" + document.getElementById("email");
+	//	document.cookie = emailCookie;
+	// Commented out on 18March15 location.href = "https://dev-vc-2015.pantheon.io/resources/customer-intelligence-platform-demo/?thanks=1";
+	// Commented out on 18March15 return false;
+
+
+	   /* add cookie to save email id */
+	   var emailCookie = "email =" + document.getElementById("email");
+	   document.cookie = emailCookie;
+
+
+
+		// variable to store form field values
+		var mktoPreFillFields = {};
+
+		// define the fields for pre-fill, sample fields below, but not being used
+		//var fields = new Array("FirstName", "LastName”);
+
+		// right now the pre-fill option is set for all fields
+		// if you want to modify then you can add the name of the fields in the below array, like above
+		var fields = new Array("FirstName", "LastName", "Email", "Phone", "Company", "NumberofEmployees_Range__c", "Role__c", "Primary_Industry__c", "Country");
+
+		// if the fields array is not empty, then set the value in fields as per the array
+		if(fields.length > 0){
+			$jQ.each(fields, function(key, value) {
+			  $jQ.each(values, function(i, val) {
+				if(i==value){
+					mktoPreFillFields[i] = parseInt(val) ? val : decodeURIComponent(val);
+				}
+			  });
+			});
+		}else{
+			$jQ.each(values, function(i, val) {
+				mktoPreFillFields[i] = parseInt(val) ? val : decodeURIComponent(val);
+			 });
+		}
+
+		// creation of the pre-fill cookie at user system with all the values
+
+		// creation of the pre-fill cookie at user system with all the values
+		var cookieValue = JSON.stringify(mktoPreFillFields);
+		var customDate = new Date();
+		customDate.setMonth(customDate.getMonth() + 36);
+		document.cookie = "mktoPreFillFields=" + cookieValue + ";expires=" + customDate + ";domain="+window.location.host+";path=/";
+		location.href = "https://www.visioncritical.com/contact-upload-internal/?thanks=1"; 	return false;
+	});
+
+	MktoForms2.whenReady(function (form){
+
+	// reading of the pre-fill cookie to set the value
+	var mktoPreFillFields = getCookie("mktoPreFillFields");
+
+		// if there are pre-fill values, then fill the values in the form
+		if(mktoPreFillFields){
+			form.setValuesCoerced(JSON.parse(mktoPreFillFields));
+		}
+
+	});
+
+	//get cookie value
+	function getCookie(cname) {
+	    var name = cname + "=";
+	    var ca = document.cookie.split(";");
+	    for(var i=0; i<ca.length; i++) {
+	        var c = ca[i];
+	        while (c.charAt(0)==" ") c = c.substring(1);
+	        if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+	    }
+	    return "";
+	}
+});
+
+</script></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div></div></div>
+			</main><!-- /.main -->
+							<aside class="sidebar" role="complementary">
+					<div class="sidebar_inner">
+						<section class="widget search-3 widget_search">
+<form role="search" method="get" class="search-form" action="https://www.visioncritical.com/">
+	<label class="sr-only">Search for:</label>
+	<div class="form-group">
+		<input type="search" name="s" class="search-field form-control input-lg" placeholder="Search Vision Critical">
+		<input type="hidden" name="post_type" value="">
+	</div>
+</form></section><section class="widget text-5 widget_text"><h3>Subscribe for Updates</h3>			<div class="textwidget"><a href="http://www.visioncritical.com/blog-subscribe" class="btn btn-primary">Subscribe</a><hr></div>
+		</section><section class="widget text-8 widget_text"><h3>Resources</h3>			<div class="textwidget"><p><a href="https://www.visioncritical.com/resources/rise-of-the-chief-customer-officer/"><b>The Rise of the Chief Customer Officer [Webinar]</b></a>
+<br>Join Jeanne Bliss, the leading authority on customer experience and learn how improve your end-to-end customer journey.
+<hr>
+
+<p><a href="https://www.visioncritical.com/resources/webinar-product-innovation/"><b>The Human Side of Product Innovation [Webinar]</b></a>
+<br>Learn how authentic, ongoing customer insight helps DEWALT and Chico's create and sell better products.
+<hr>
+
+<p><a href="https://www.visioncritical.com/resources/authenticity-handbook/"><b>The Authenticity Handbook [Ebook]</b></a>
+<br>Discover the four basic principles that boost customer loyalty, trust and your bottom line.
+<hr>
+
+<p><a href="https://www.visioncritical.com/resources/guide-to-marketing-technology/"><b>The Enterprise Guide to Marketing Technology [Ebook]</b></a>
+<br>Everything you need to know about the technologies used by successful marketers.
+<hr>
+
+<p><a href="https://www.visioncritical.com/resources/webinar-small-data-vs-big-data/"><b>Finding the Signal in the Noise</b></a>
+<br>Renowned brand strategist Martin Lindstrom reveals how the world's leading brands use small data to uncover why customers make the choices they do.
+<hr>
+
+<p><a href="https://www.visioncritical.com/resources/no-spam-surveys/"><b>#NoSpamSurveys [eBook]</b></a>
+<br>Your customers’ distaste for ad-hoc surveys is only growing, presenting a big challenge to companies that rely on surveys to gather customer feedback and insight.
+<hr>
+
+<p><a href="https://www.visioncritical.com/resources/big-data/"><b>Big Data and Beyond: How to Find Insight in Big Data [Ebook]</b></a>
+<br>Learn how big businesses like Netflix, 7-11 and LinkedIn are overcoming Big Data’s biggest problems.
+<hr>
+
+<p><a href="https://www.visioncritical.com/resources/keeping-customers-happy/" target="_blank"><b>Keeping Customers Happy [Report]</a></b>
+<br>Learn about the data-backed tactics that you can implement to increase customer satisfaction and reduce customer churn.
+<hr>
+
+<p><a href="https://www.visioncritical.com/resources/guide-to-customer-intelligence/" target="_blank"><b>The Enterprise Guide to Customer Intelligence [Ebook]</a></b>
+<br>Explore the strengths and weaknesses of the primary sources of customer intelligence today and learn how engagement with your customers can be a potent competitive advantage.
+<hr>
+
+<a href="http://www.customerexperienceupdate.com/&source=vision-critical"><img src="//widget.aggregage.com/images/customerexperienceupdate/badge-clear.gif" alt="Customer Experience Update" title="Customer Experience Update" width="0px" height="0px" style="display: none;" border="0"/></a>
+
+<script type='text/javascript'>
+function loadScript(url){
+  var e = document.createElement("script")
+  e.src = url
+  e.type="text/javascript"
+  document.getElementsByTagName("head")[0].appendChild(e)
+}
+  loadScript("//widget.aggregage.com/bi/&keyword-LI=n&blog-group=customerexperienceupdate&keyword-selected-blog-id=5392&overwrite-keywords=true&nw=false&widget-form-javascript=true&hide=true&time=" + new Date().getTime() + "&ref=" + document.referrer);
+</script></div>
+		</section>	
+			<section class="widget wpt_widget-2 widget_wpt">	
+			<div class="wpt_widget_content" id="wpt_widget-2_content" data-widget-number="2">	
+				<ul class="wpt-tabs has-2-tabs">
+	                	                    	                        <li class="tab_title"><a href="#" id="popular-tab">Popular</a></li>	
+	                    	                	                    	                        <li class="tab_title"><a href="#" id="recent-tab">Recent</a></li>	
+	                    	                	                    	                	                    	                 
+				</ul> <!--end .tabs-->	
+				<div class="clear"></div>  
+				<div class="inside">        
+						
+						<div id="popular-tab-content" class="tab-content">				
+						</div> <!--end #popular-tab-content-->       
+					       
+						
+						<div id="recent-tab-content" class="tab-content"> 		 
+						</div> <!--end #recent-tab-content-->		
+					                     
+					            
+										<div class="clear"></div>
+				</div> <!--end .inside -->
+								<div class="clear"></div>
+			</div><!--end #tabber -->
+			  
+			<script type="text/javascript">  
+				jQuery(function($) {    
+					$('#wpt_widget-2_content').data('args', {"allow_pagination":"1","post_num":"5","title_length":"15","comment_num":"5","show_thumb":null,"thumb_size":"small","show_date":null,"show_excerpt":null,"excerpt_length":"15","show_comment_num":null,"show_avatar":"1"});  
+				});  
+			</script>  
+			</section>			<section class="widget text-6 widget_text">			<div class="textwidget"><hr><a class="twitter-timeline" data-dnt="true" href="https://twitter.com/visioncritical" data-widget-id="398245740830408704">Tweets by @visioncritical</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+		</section>					</div>
+				</aside><!-- /.sidebar -->
+					</div><!-- /.content -->
+	</div><!-- /.wrap -->
+    <div class="upper-footer">
+	<div class="container">
+		<h2 style="text-align: center;">CUSTOMER STORIES</h2>
+<p class="lead" style="text-align: center;">Companies worldwide have used our software to achieve better business outcomes</p>
+		<hr>
+		<div class="row">
+			<div class="col-sm-6 col-md-4 col-md-6 mix cat-consumer-goods  post-1000 customer type-customer status-publish has-post-thumbnail hentry sectors-consumer-goods job-roles-market-research job-roles-product-developers-innovators challenges-create-better-products challenges-increase-sales-velocity even">
+	<div class="result fixedthumb">
+		<header>
+			<div class="subheader">Consumer goods</div>
+			<h3><a href="https://www.visioncritical.com/customer-stories/kimberly-clark-australia/">How Kimberly-Clark Australia makes customer-centric product development decisions</a></h3>
+		</header>
+					<div class="thumb-holder">
+				<a href="https://www.visioncritical.com/customer-stories/kimberly-clark-australia/">
+					<img src="https://www.visioncritical.com/wp-content/uploads/2016/11/kimberly-clark-resources.jpg" alt="How Kimberly-Clark Australia makes customer-centric product development decisions" class="result_thumb">
+				</a>
+			</div>
+			</div>
+</div><div class="col-sm-6 col-md-4 col-md-6 mix cat-consumer-goods  post-1003 customer type-customer status-publish has-post-thumbnail hentry sectors-consumer-goods job-roles-business-leaders job-roles-marketing job-roles-market-research job-roles-product-developers-innovators challenges-create-better-products challenges-launch-effective-campaigns odd">
+	<div class="result fixedthumb">
+		<header>
+			<div class="subheader">Consumer goods</div>
+			<h3><a href="https://www.visioncritical.com/customer-stories/molson-coors/">How Molson Coors uses customer intelligence to influence product innovation</a></h3>
+		</header>
+					<div class="thumb-holder">
+				<a href="https://www.visioncritical.com/customer-stories/molson-coors/">
+					<img src="https://www.visioncritical.com/wp-content/uploads/2016/01/customer-innovation-software-molson-coors.jpg" alt="How Molson Coors uses customer intelligence to influence product innovation" class="result_thumb">
+				</a>
+			</div>
+			</div>
+</div><div class="col-sm-6 col-md-4 col-md-6 mix cat-&nbsp; post-343 customer type-customer status-publish has-post-thumbnail hentry even">
+	<div class="result fixedthumb">
+		<header>
+			<div class="subheader">&nbsp;</div>
+			<h3><a href="https://www.visioncritical.com/customer-stories/yahoo/">How Yahoo provides greater value to its advertisers by engaging with customers</a></h3>
+		</header>
+					<div class="thumb-holder">
+				<a href="https://www.visioncritical.com/customer-stories/yahoo/">
+					<img src="https://www.visioncritical.com/wp-content/uploads/2016/01/customer-feedback-software-yahoo.jpg" alt="How Yahoo provides greater value to its advertisers by engaging with customers" class="result_thumb">
+				</a>
+			</div>
+			</div>
+</div>		</div>
+
+		<h2 style="text-align: center;">KNOWLEDGE BASE</h2>
+		<hr>
+		<div class="row">
+			<div class="col-md-4 col-md-6 mix post-12052 page type-page status-publish hentry odd">
+	<div class="result bordertop fixedheight">
+		<header><h3><a href="https://www.visioncritical.com/solutions/" title="Solutions by industry">Solutions by industry</a></h3></header>
+		<div class="inner">
+			<p>Create better products, better campaigns and better end-to-end customer experiences with solutions optimized for the unique challenges of your industry. Consumer goods Learn more Retail Learn more Media<a class="read-more" href="https://www.visioncritical.com/contact-upload-internal/">&nbsp;&nbsp;  Read more</a></p>
+		</div>
+	</div>
+</div><div class="col-md-4 col-md-6 mix post-1383 resources type-resources status-publish format-standard has-post-thumbnail hentry resource_sectors-marketing-and-communications resource_sectors-customer-experience resource_sectors-market-research resource_sectors-product-development resource_sectors-human-resources resource_challenges-launch-effective-campaigns resource_challenges-improve-customer-experience resource_challenges-create-better-products resource_challenges-improve-employee-engagement even">
+	<div class="result bordertop fixedheight">
+		<header><h3><a href="https://www.visioncritical.com/resources/customer-intelligence-platform-demo-right/" title="Customer Intelligence Platform Demo">Customer Intelligence Platform Demo</a></h3></header>
+		<div class="inner">
+			<p><p>Watch a 4-minute demo and see first-hand how Vision Critical’s customer intelligence platform, Sparq, can help your company get the ongoing, rapid feedback you need to make smarter decisions.<br />
+ &hellip; <a href="https://www.visioncritical.com/resources/customer-intelligence-platform-demo-right/">Read more</a></p>
+</p>
+		</div>
+	</div>
+</div><div class="col-md-4 col-md-6 mix post-20645 page type-page status-publish hentry odd">
+	<div class="result bordertop fixedheight">
+		<header><h3><a href="https://www.visioncritical.com/customer-intelligence-platform-features/" title="Platform features">Platform features</a></h3></header>
+		<div class="inner">
+			<p>With Vision Critical's customer intelligence software, you have all of the features you need to engage your customers in ongoing, meaningful conversations to inform your business. 1. Build<a class="read-more" href="https://www.visioncritical.com/customer-intelligence-platform-features/">&nbsp;&nbsp;  Read more</a></p>
+		</div>
+	</div>
+</div>		</div>
+		<h2 style="text-align: center;">Downloads</h2>
+				</div>
+</div>        <div class="footer-full">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-md-push-3 hidden-xs hidden-sm">
+                    <section class="widget text-14 widget_text">			<div class="textwidget"><h3><a href="/customer-intelligence-platform/">Our software</a></h3></div>
+		</section><section class="widget nav_menu-3 widget_nav_menu"><ul id="menu-footer-software" class="menu"><li class="menu-solutions-by-industry"><a href="https://www.visioncritical.com/solutions/">Solutions by industry</a></li>
+<li class="menu-solutions-by-role"><a href="https://www.visioncritical.com/solutions-by-role/">Solutions by role</a></li>
+<li class="menu-what-is-an-insight-community"><a href="https://www.visioncritical.com/what-is-an-insight-community/">What is an insight community?</a></li>
+<li class="menu-how-to-buy"><a href="https://www.visioncritical.com/how-to-buy-customer-intelligence-software/">How to Buy</a></li>
+</ul></section><section class="widget text-15 widget_text">			<div class="textwidget"><h3>Tours & Demos</h3></div>
+		</section><section class="widget nav_menu-4 widget_nav_menu"><ul id="menu-footer-tours" class="menu"><li class="menu-software-tour"><a href="https://www.visioncritical.com/resources/customer-intelligence-platform-tour/">Software tour</a></li>
+<li class="menu-software-demo"><a href="https://www.visioncritical.com/resources/customer-intelligence-platform-demo/">Software demo</a></li>
+<li class="menu-request-a-demo"><a href="https://www.visioncritical.com/resources/request-a-demo/">Request a demo</a></li>
+</ul></section>                </div>
+                <div class="col-md-3 col-md-push-3 hidden-xs hidden-sm">
+                    <section class="widget text-16 widget_text">			<div class="textwidget"><h3><a href="/why-us/">Why us</a></h3></div>
+		</section><section class="widget nav_menu-5 widget_nav_menu"><ul id="menu-footer-why" class="menu"><li class="menu-launch-effective-marketing-campaigns"><a href="https://www.visioncritical.com/launch-effective-marketing-campaigns/">Launch effective marketing campaigns</a></li>
+<li class="menu-improve-customer-experience"><a href="https://www.visioncritical.com/improve-customer-experience/">Improve customer experience</a></li>
+<li class="menu-build-successful-products"><a href="https://www.visioncritical.com/build-successful-products/">Build successful products</a></li>
+<li class="menu-increase-sales-channel-effectiveness"><a href="https://www.visioncritical.com/increase-sales-channel-effectiveness/">Increase sales channel effectiveness</a></li>
+<li class="menu-improve-employee-satisfaction"><a href="https://www.visioncritical.com/improve-employee-satisfaction/">Improve employee satisfaction</a></li>
+</ul></section><section class="widget text-17 widget_text">			<div class="textwidget"><h3><a href="/customer-stories/">Customer Stories</a></h3></div>
+		</section><section class="widget text-18 widget_text">			<div class="textwidget"><h3><a href="/resources/">Resources</a></h3></div>
+		</section><section class="widget text-19 widget_text">			<div class="textwidget"><h3><a href="/blog/">Blog</a></h3></div>
+		</section>                </div>
+                <div class="col-md-3 col-md-push-3 hidden-xs hidden-sm">
+                    <section class="widget text-20 widget_text">			<div class="textwidget"><h3><a href="/about-us/">About Us</a></h3></div>
+		</section><section class="widget nav_menu-6 widget_nav_menu"><ul id="menu-footer-about" class="menu"><li class="menu-news"><a href="/news-categories/in-the-news/">News</a></li>
+<li class="menu-events"><a href="/news-categories/events/">Events</a></li>
+<li class="menu-partners"><a href="https://www.visioncritical.com/partners/">Partners</a></li>
+<li class="menu-vc-academy"><a href="/resources/vision-critical-academy/">VC Academy</a></li>
+<li class="menu-services"><a href="https://www.visioncritical.com/services/">Services</a></li>
+<li class="menu-support"><a href="https://www.visioncritical.com/trust/">Support</a></li>
+<li class="menu-careers"><a href="https://www.visioncritical.com/careers/">Careers</a></li>
+<li class="menu-contact-us"><a href="https://www.visioncritical.com/contact-us/">Contact us</a></li>
+<li class="menu-customer-intelligence-summit"><a href="https://www.customersummit.com/">Customer Intelligence Summit</a></li>
+</ul></section>                </div>
+                <div class="visible-xs visible-sm">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <section class="widget text-21 widget_text">			<div class="textwidget"><h3><a href="/customer-intelligence-platform/">Our software</a></h3>
+<h3><a href="/why-us/">Why us</a></h3>
+<h3><a href="/customer-stories/">Customer stories</a></h3>
+<h3><a href="/resources/">Resources</a></h3></div>
+		</section>                            </div>
+                            <div class="col-xs-6">
+                                <section class="widget text-22 widget_text">			<div class="textwidget"><h3><a href="/blog/">Blog</a></h3>
+<h3><a href="/about-us/">About us</a></h3>
+<h3><a href="/contact-us/">Contact us</a></h3>
+<h3><a href="/careers/">Careers</a></h3></div>
+		</section>                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-md-pull-9">
+                    <div class="hidden-xs hidden-sm">
+                        <section class="widget text-23 widget_text"><h3>Contact us</h3>			<div class="textwidget">Vision Critical HQ
+200 Granville Street
+Mezzanine Floor
+Vancouver, BC V6C 1S4
+Canada</div>
+		</section>                    </div>
+                    <hr style="clear: both"/>
+                    <h3>Follow Us</h3>
+                    <div class="social_icons">
+                                                
+                            <a href="https://www.facebook.com/visioncritical" target="_blank" title="Facebook">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+							</span>
+                            </a>
+
+                        
+                            <a href="https://twitter.com/visioncritical" target="_blank" title="Twitter">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+							</span>
+                            </a>
+
+                        
+                            <a href="http://www.linkedin.com/company/vision-critical" target="_blank" title="LinkedIn">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+							</span>
+                            </a>
+
+                        
+                            <a href="https://plus.google.com/108779923952149879975" target="_blank" title="Google+">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+							</span>
+                            </a>
+
+                        
+                            <a href="http://www.youtube.com/user/visioncritical" target="_blank" title="YouTube">
+							<span class="fa-stack fa-lg">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+							</span>
+                            </a>
+
+                                            </div>
+                    <hr/>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row visible-xs visible-sm">
+                    <ul id="menu-footer-nav" class="footer-menu footer-pad list-inline"><li class="SL_swap menu-privacy-policy"><a target="_blank" href="https://www.visioncritical.com/trust/policies/">Privacy Policy</a></li>
+<li class="SL_swap menu-terms-of-use"><a href="https://www.visioncritical.com/terms-use/">Terms of Use</a></li>
+<li class="menu-attributions"><a href="https://www.visioncritical.com/attributions/">Attributions</a></li>
+<li class="menu-accessibility"><a href="https://www.visioncritical.com/trust/accessibility-plan/">Accessibility</a></li>
+<li class="menu-transparency-statement"><a target="_blank" href="https://www.visioncritical.com/wp-content/uploads/2017/12/VC-Modern-Slavery-Act-Transparency-Statement.pdf">Transparency Statement</a></li>
+</ul>                    <hr/>
+                    <div class="footer-pad">2018 Vision Critical Communications Inc. and its <a href="https://www.visioncritical.com/subsidiaries/">subsidiaries</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="content-info" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-md-push-3 hidden-xs hidden-sm">
+                    <div class="footer-pad">2018 Vision Critical Communications Inc. and its <a href="https://www.visioncritical.com/subsidiaries/">subsidiaries</a></div>
+                </div>
+                <div class="col-md-4 col-md-push-3 hidden-sm hidden-xs">
+                    <ul id="menu-footer-nav-1" class="footer-menu footer-pad list-inline"><li class="SL_swap menu-privacy-policy"><a target="_blank" href="https://www.visioncritical.com/trust/policies/">Privacy Policy</a></li>
+<li class="SL_swap menu-terms-of-use"><a href="https://www.visioncritical.com/terms-use/">Terms of Use</a></li>
+<li class="menu-attributions"><a href="https://www.visioncritical.com/attributions/">Attributions</a></li>
+<li class="menu-accessibility"><a href="https://www.visioncritical.com/trust/accessibility-plan/">Accessibility</a></li>
+<li class="menu-transparency-statement"><a target="_blank" href="https://www.visioncritical.com/wp-content/uploads/2017/12/VC-Modern-Slavery-Act-Transparency-Statement.pdf">Transparency Statement</a></li>
+</ul>                </div>
+                <div class="col-md-3 col-md-pull-9">
+                    <a href="https://www.visioncritical.com/" class="footer-logo  hidden-xs hidden-sm">
+                        <img
+                                src="https://www.visioncritical.com/wp-content/themes/visioncritical/dist/images/logo-black-simple.svg"/>
+                    </a>
+                    <a href="https://www.visioncritical.com/"
+                       class="footer-logo text-center visible-xs visible-sm">
+                        <img
+                                src="https://www.visioncritical.com/wp-content/themes/visioncritical/dist/images/logo-black.svg"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <style type="text/css"></style><link rel='stylesheet' id='wpt_widget-css'  href='https://www.visioncritical.com/wp-content/plugins/wp-tab-widget/css/wp-tab-widget.css?ver=-b-modified-1531414942' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/www.visioncritical.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.visioncritical.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.8.1-b-modified-1531414941'></script>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201828'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ivan_vc = {"isAdmin":"","container":"window"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.visioncritical.com/wp-content/plugins/elite-addons-vc/assets/modules.min.js?ver=1.1-b-modified-1531414941'></script>
+<script type='text/javascript' src='https://www.visioncritical.com/wp-content/themes/visioncritical/dist/scripts/main.js?ver=-b-modified-1531414942'></script>
+<script type='text/javascript' src='https://www.visioncritical.com/wp-includes/js/wp-embed.min.js?ver=4.9.7'></script>
+<script type='text/javascript' src='https://www.visioncritical.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.0.1-b-modified-1531414941'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpt = {"ajax_url":"https:\/\/www.visioncritical.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.visioncritical.com/wp-content/plugins/wp-tab-widget/js/wp-tab-widget.js?ver=-b-modified-1531414942'></script>
+<script type='text/javascript' src='//vjs.zencdn.net/4.5/video.js?ver=4.9.7'></script>
+<script type='text/javascript' src='https://www.visioncritical.com/wp-content/plugins/videojs-html5-video-player-for-wordpress/videojs/vjs.youtube.js?ver=-b-modified-1531414942'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"visioncritical"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.visioncritical.com/wp-content/plugins/disqus-comment-system/media/js/count.js?ver=4.9.7'></script>
+<script>
+    (function ($) {
+
+        var player_width = 640;
+        var player_height = 360;
+
+        var responsiveVideo = function () {
+
+//see note below
+            var player_window_buffer = 0;
+            var window_width = $(window).width();
+            var aspect_ratio = player_width / player_height;
+            var player_span = $('.vidyard-responsive span.vidyard_player > span');
+            var player_iframe = $('.vidyard-responsive iframe.vidyard_iframe');
+
+            if (window_width >= player_width) {
+                $(player_span).width(player_width)
+                $(player_span).height(player_height).css('line-height', player_height + 'px');
+                $(player_iframe).width(player_width);
+                $(player_iframe).height(player_height);
+            } else {
+                $(player_span).width(window_width - player_window_buffer);
+                var new_wrapper_height = $(player_span).width() / aspect_ratio;
+                $(player_span).height(new_wrapper_height).css('line-height', new_wrapper_height + 'px');
+                $(player_iframe).width(window_width - player_window_buffer);
+                $(player_iframe).height(($(player_span).width() / aspect_ratio));
+            }
+        }
+
+        $(document).ready(function () {
+            responsiveVideo();
+        });
+        $(window).resize(function () {
+            responsiveVideo();
+        });
+
+    })(jQuery);
+
+</script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"583e888009","applicationID":"7310083","transactionName":"NVFWN0dWVkVVVUFRWQwbYRFcGBdfWlJQQBgSXEQ=","queueTime":0,"applicationTime":697,"atts":"GRZVQQ9MRUs=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

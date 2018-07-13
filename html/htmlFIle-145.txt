@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]--> 
+
+    <head>
+    	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10">
+                <meta charset="utf-8">
+                <meta http-equiv="content-language" content="jp">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <link rel="shortcut icon" href="/peak.ico" />
+
+        	<title>お問い合わせフォーム | Peak Scientific</title>
+		<meta name="description" content="Peak Scientificは、当社の製品と現場サポートに関して、お客様に最高のカスタマーエクスペリエンスをご提供できるよう日々邁進しています。" />
+		<meta name="keywords" content="水素ガス発生, 窒素発生装置, 窒素お, 水素" />
+
+		<meta name="robots" content="index,follow">
+
+
+        <link rel="stylesheet" href="/Themes/999/Stylesheets/css-auto-loader.php?exclude=peak-industrial.css" type="text/css" />
+                        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <script type="text/javascript" src="/Themes/999/Scripts/01.modernizr-2.0.6-min.js"></script>
+        <script type="text/javascript" src="/Themes/999/Scripts/02.jquery-1.9.1-min.js"></script> 
+        
+        <script type="text/javascript"> var ROOT = 'http://www.peakscientific.jp/'; </script>
+
+        
+                <!-- Google Analytics -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-409353-14', {'name':'rollupProperty'});
+          ga('create', 'UA-409353-9', 'auto');
+          ga('send', 'pageview');
+          ga ('rollupProperty.send','pageview');
+        </script>
+        <!-- / Google Analytics --> 
+        <!-- Start of HubSpot Embed --> 
+        <script type="text/javascript" src="//js.hs-scripts.com/2642318.js" id="LeadinEmbed-2642318" crossorigin="use-credentials" async defer></script>
+        <!-- End of HubSpot Embed -->
+        
+                <!-- Typekit -->
+			<script>
+                (function(d) {
+                  var tkTimeout=3000;
+                  if(window.sessionStorage){if(sessionStorage.getItem('useTypekit')==='false'){tkTimeout=0;}}
+                  var config = {
+                    kitId: 'fan3uae',
+                    scriptTimeout: tkTimeout
+                  },
+                  h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+"wf-inactive";if(window.sessionStorage){sessionStorage.setItem("useTypekit","false")}},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+="wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+                })(document);
+            </script>
+        <!-- / Typekit -->
+                           
+	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+	<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+	<script>
+	window.addEventListener("load", function(){
+	window.cookieconsent.initialise({
+	  "palette": {
+		"popup": {
+		  "background": "#efefef",
+		  "text": "#404040"
+		},
+		"button": {
+		  "background": "#77ac3d",
+		  "text": "#ffffff"
+		}
+	  },
+	  "position": "top",
+	  "content": {
+		"message": "This website uses cookies to ensure you get the best experience on our website.",
+		"dismiss": "Accept",
+		"link": "Learn More"
+	  }
+	})});
+	</script>
+	
+	<meta name="yandex-verification" content="daedd55d758d6459" />
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "url": "http://www.peakscientific.jp",
+  "logo": "http://www.peakscientific.jp/Media/peak_scientific_logo_fc-0a0d8.png",
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+81 3-6864-0468",
+    "contactType": "customer service",
+    "areaServed": "JP"
+  }]
+}
+</script>
+
+<style>
+@media all and (max-width:500px){
+   .Response table{
+        width:100%;
+    }
+    
+   .Responce td{
+        display:block;
+        width:100%;
+    }
+    
+     .Responce tr{
+        display:block;
+        margin-bottom:30px;
+    }
+}
+</style>	
+    </head>
+    
+    <body id="contact">
+
+    <div id="outer-wrap">
+    <div id="inner-wrap">
+        
+        <div id="top">
+            <div class="container">
+                <ul>
+                    <!-- <li class="login"><a href="http://extranet.peakscientific.com/" target="_blank"><i class="fa fa-sign-in"></i> Peak extranet</a></li> -->
+                                        <li class="login"><a href="http://resources.peakscientific.com/pages/home.php" target="_blank"><i class="fa fa-cloud-download"></i> リソース</a></li>
+                                        <li class="login">&nbsp;</li>
+                    <li class="language"><span>言語を選択する</span> <i class="fa fa-sort-desc"></i>
+                        <ul>
+                            <li><a class="flag-webicon united-kingdom small_custom" href="http://www.peakscientific.com"> English</a></li>
+                            <li><a class="flag-webicon peoples-republic-of-china small_custom" href="http://www.peakscientific.cn/"> 中文</a></li>
+                            <li><a class="flag-webicon japan small_custom" href="http://www.peakscientific.jp">日本の</a></li>
+                            <li><a class="flag-webicon brazil small_custom" href="http://www.peakscientific.com.br">Brasileño</a></li> 
+                            <li><a class="flag-webicon germany small_custom" href="http://www.peakscientific.de">Deutsche</a></li>                    
+                            <li><a class="flag-webicon spain small_custom" href="http://www.peakscientific.es">Español</a></li>
+                            <li><a class="flag-webicon france small_custom" href="http://www.peakscientific.fr">Français</a></li>                     
+                            <li><a class="flag-webicon russia small_custom" href="http://www.peakscientific.ru">Pусский</a></li> 
+                        </ul>
+                    </li>
+                    <li class="search">
+                        <form id="site_search" action="http://www.peakscientific.jp/search/">
+                            <div class="form_element">
+                                <label for="q">Search this site</label>
+                                <input name="q" value="" type="text" placeholder="Search this site...">
+                                <button type="submit" class="button search-button">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div><!--form-element-->
+                        </form>    
+                    </li>
+                </ul>
+            </div><!--container-->
+        </div><!--top-->
+                <div id="geolocate"><div class="container"><div class="country-link"></div><a class="right" href="#">x</a></div></div>
+                
+            <header>
+                <div class="container">
+                    <a href="http://www.peakscientific.jp/" id="logo">
+                        <img src="http://www.peakscientific.jp/Themes/999/Images/peak-scientific-logo.svg" alt="Peak Scientific" width="210" height="66" />
+                    </a><!--logo-->
+                    
+                                        
+                    <h2>Your local <span>gas generation</span> partner</h2>
+
+                    <div class="mobile-search search">
+                        <form id="site_search" action="http://www.peakscientific.jp/search/">
+                            <div class="form_element">
+                                <label for="q">Search this site</label>
+                                <input name="q" value="" type="text" placeholder="Search this site...">
+                                <button type="submit" class="button search-button">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div><!--form-element-->
+                        </form>    
+                    </div>
+                </div><!--container-->
+            </header><!--header-->
+            
+          
+            <!--<nav id="nav">
+                 <a class="close-btn" id="nav-close-btn" href="#top">Return to Content</a>
+                <ul class="menu-list top-level"><li class="menu-list-item   pos-first "><a href="http://www.peakscientific.jp/"  title="Home"><span>Home</span></a></li><li class="menu-list-item   pos-2 "><a href="http://www.peakscientific.jp/about/"  title=""><span>About Us</span></a><ul class="menu-list sub-level"><li class="menu-list-item   pos-first "><a href="http://www.peakscientific.jp/about/"  title=""><span>The Peak Way</span></a></li><li class="menu-list-item   pos-2 "><a href="http://jobs.peakscientific.com/"  title="Careers"><span>Our Careers</span></a></li><li class="menu-list-item   pos-3 "><a href="http://www.peakscientific.jp/about/our-story/"  title="Our Story"><span>Our Story</span></a></li><li class="menu-list-item   pos-4 "><a href="http://www.peakscientific.jp/about/our-history/"  title=""><span>Our History</span></a></li><li class="menu-list-item   pos-5 "><a href="http://www.peakscientific.jp/about/our-vision/"  title="Our Awards"><span>Our Values & Mission</span></a></li><li class="menu-list-item   pos-6 "><a href="http://www.peakscientific.jp/about/manufacturing-excellence/"  title=""><span>Manufacturing Excellence</span></a></li><li class="menu-list-item   pos-last "><a href="http://www.peakscientific.jp/about/accreditations/"  title="Our Awards"><span>Accreditations & Awards</span></a></li></ul></li><li class="menu-list-item   pos-3 "><a href="http://www.peakscientific.jp/products/"  title="Products"><span>Products</span></a><ul class="menu-list sub-level"><li class="menu-list-item   pos-first "><a href="http://www.peakscientific.jp/products/"  title=""><span>View All (by gas type)</span></a></li><li class="menu-list-item   pos-2 "><a href="/products/?model_query=LC-MS"  title=""><span>LCMS</span></a></li><li class="menu-list-item   pos-3 "><a href="/products/?model_query=Precision"  title=""><span>GC</span></a></li><li class="menu-list-item   pos-4 "><a href="/products/?model_query=ELSD"  title=""><span>ELSD & CAD</span></a></li><li class="menu-list-item   pos-5 "><a href="/products/?model_query=Total Organic Carbon"  title=""><span>TOC</span></a></li><li class="menu-list-item   pos-6 "><a href="/products/?model_query=Purge Gas"  title=""><span>Purge Gas</span></a></li><li class="menu-list-item   pos-7 "><a href="/products/?model_query=Sample Preparation"  title=""><span>Sample Preparation</span></a></li><li class="menu-list-item   pos-8 "><a href="/products/?model_query=i-Flowlab"  title=""><span>Total laboratory solution</span></a></li><li class="menu-list-item   pos-9 "><a href="/Media/gas-calculator.html"  target="_blank"  title=""><span>GC Gas Calculator</span></a></li><li class="menu-list-item   pos-last "><a href="http://www.peakscientific.jp/buy-nitrogen-gas-with-flexflow/"  title="Rental"><span>Buy Gas</span></a></li></ul></li><li class="menu-list-item   pos-4 "><a href="http://www.peakscientific.jp/support/"  title="Service & Support"><span>Support</span></a><ul class="menu-list sub-level"><li class="menu-list-item   pos-first "><a href="http://www.peakscientific.jp/support/"  title=""><span>About Support</span></a></li><li class="menu-list-item   pos-2 "><a href="http://www.peakscientific.jp/support/technical-and-support-contact/"  title=""><span>Technical Support</span></a></li><li class="menu-list-item   pos-3 "><a href="http://www.peakscientific.jp/support/replacement-parts/"  title=""><span>Replacement Parts</span></a></li><li class="menu-list-item   pos-last "><a href="http://www.peakscientific.jp/downloads/"  title=""><span>Downloads</span></a></li></ul></li><li class="menu-list-item   pos-5 "><a href="http://www.peakscientific.jp/protected/"  title=""><span>Services</span></a><ul class="menu-list sub-level"><li class="menu-list-item   pos-first "><a href="http://www.peakscientific.jp/protected/"  title=""><span>Get Protected</span></a></li><li class="menu-list-item   pos-2 "><a href="http://www.peakscientific.jp/protected/where-we-protect/"  title=""><span>Where We Protect</span></a></li><li class="menu-list-item   pos-3 "><a href="http://www.peakscientific.jp/protected/24hr-premium-protected/"  title=""><span>Premium Protected</span></a></li><li class="menu-list-item   pos-4 "><a href="http://www.peakscientific.jp/about-protected/complete-protected-plan/"  title=""><span>Complete Protected</span></a></li><li class="menu-list-item   pos-5 "><a href="http://www.peakscientific.jp/protected/fixed-price-preventative-maintenance/"  title="Fixed Price Preventative Maintenance"><span>Fixed Price PM</span></a></li><li class="menu-list-item   pos-6 "><a href="http://www.peakscientific.jp/protected/supported-maintenance/"  title=""><span>Supported Maintenance</span></a></li><li class="menu-list-item   pos-7 "><a href="http://www.peakscientific.jp/protected/replacement-parts-and-paid-visits/"  title=""><span>Parts & Paid Repair</span></a></li><li class="menu-list-item   pos-8 "><a href="http://www.peakscientific.jp/protected/iqoq/"  title=""><span>IQ/OQ</span></a></li><li class="menu-list-item   pos-last "><a href="http://www.peakscientific.jp/protected/product-installation/"  title=""><span>Installation </span></a></li></ul></li><li class="menu-list-item   pos-6 "><a href="http://www.peakscientific.jp/warranty/"  title="Your Warranty"><span>Warranty </span></a><ul class="menu-list sub-level"><li class="menu-list-item   pos-first "><a href="http://www.peakscientific.jp/warranty/world-class-warranty/"  title=""><span>World-class Warranty</span></a></li><li class="menu-list-item   pos-2 "><a href="http://www.peakscientific.jp/warranty/"  title=""><span>Warranty Register</span></a></li><li class="menu-list-item   pos-3 "><a href="http://www.peakscientific.jp/warranty/warranty-initiative/"  title=""><span>Warranty Initiative </span></a></li><li class="menu-list-item   pos-last "><a href="http://www.peakscientific.jp/activate/"  title=""><span>Genius XE Register</span></a></li></ul></li><li class="menu-list-item   pos-7 "><a href="http://www.peakscientific.jp/news-and-events/"  title="News & Events"><span>News & Blog</span></a><ul class="menu-list sub-level"><li class="menu-list-item   pos-first "><a href="http://www.peakscientific.jp/news/"  title="News"><span>News</span></a></li><li class="menu-list-item   pos-2 "><a href="http://www.peakscientific.jp/events/"  title="Our Latest Event"><span>Events</span></a></li><li class="menu-list-item   pos-3 "><a href="http://www.peakscientific.jp/news-and-events/newsletter-sign-up/"  title="News Letter Sign up"><span>Newsletter Sign-up</span></a></li><li class="menu-list-item   pos-last "><a href="http://www.peakscientific.jp/blog/"  title=""><span>Blog</span></a></li></ul></li><li class="menu-list-item   pos-8 "><a href="http://www.peakscientific.jp/learn/"  title=""><span>Learn</span></a><ul class="menu-list sub-level"><li class="menu-list-item   pos-first "><a href="http://www.peakscientific.jp/learn/"  title=""><span>Knowledge Base</span></a></li><li class="menu-list-item   pos-2 "><a href="http://www.peakscientific.jp/articles/"  title=""><span>Articles and Applications</span></a></li><li class="menu-list-item   pos-3 "><a href="http://www.peakscientific.jp/user-stories/"  title=""><span>User Stories</span></a></li><li class="menu-list-item   pos-4 "><a href="http://www.peakscientific.jp/learn/testimonials/"  title=""><span>Testimonials</span></a></li><li class="menu-list-item   pos-5 "><a href="http://www.peakscientific.jp/why-a-gas-generator/"  title=""><span>Why a Gas Generator?</span></a></li><li class="menu-list-item   pos-6 "><a href="http://www.peakscientific.jp/learn/nitrogen-and-on-site-gas-generators/"  title=""><span>About Nitrogen Generators</span></a></li><li class="menu-list-item   pos-7 "><a href="http://www.peakscientific.jp/learn/hydrogen-and-on-site-gas-generators/"  title=""><span>About Hydrogen Generators</span></a></li><li class="menu-list-item   pos-last "><a href="http://www.peakscientific.jp/oil-and-gas/"  title="Oil and Gas"><span>Oil and Gas</span></a></li></ul></li><li class="menu-list-item   pos-last  active"><a href="http://www.peakscientific.jp/contact/"  title="Contact"><span>Contact </span></a><ul class="menu-list sub-level"><li class="menu-list-item   pos-first contact 1"><a href="http://www.peakscientific.jp/contact/"  title=""><span>Contact Us</span></a></li><li class="menu-list-item   pos-2 "><a href="http://www.peakscientific.jp/quote-request/"  title=""><span>Request a Quote</span></a></li><li class="menu-list-item   pos-3 "><a href="http://www.peakscientific.jp/support/technical-and-support-contact/"  title=""><span>Technical Support</span></a></li><li class="menu-list-item   pos-4 "><a href="http://www.peakscientific.jp/customer-feedback-form/"  title=""><span>Customer Feedback</span></a></li><li class="menu-list-item   pos-last "><a href="http://www.peakscientific.jp/offices/"  title="Our Locations"><span>Office Locations</span></a></li></ul></li></ul>            </nav>-->
+
+            
+            <a class="nav-btn nav-trigger" id="nav-open-btn" href="#nav"><i class="fa fa-bars"></i> メニュー</a>
+               
+
+            <nav id="nav" role="navigation">
+                <div class="block">
+                   
+                        <ul class="menu-list top-level"><li class="menu-list-item   pos-first  active current"><a href="http://www.peakscientific.jp/"  title="Home"><span>ホーム </span></a></li><li class="menu-list-item   pos-2 "><a href="http://www.peakscientific.jp/about/"  title=""><span>会社概要</span></a><ul class="menu-list sub-level"><li class="menu-list-item   pos-first "><a href="http://www.peakscientific.jp/about/"  title=""><span>Peak Way </span></a></li><li class="menu-list-item   pos-2 "><a href="http://jobs.peakscientific.com/"  title="Careers"><span>求人</span></a></li><li class="menu-list-item   pos-3 "><a href="http://www.peakscientific.jp/about/our-story/"  title="Our Story"><span>当社の理念</span></a></li><li class="menu-list-item   pos-4 "><a href="http://www.peakscientific.jp/about/our-history/"  title=""><span>当社の沿革</span></a></li><li class="menu-list-item   pos-5 "><a href="http://www.peakscientific.jp/about/our-vision/"  title="Our Awards"><span>o	当社の価値感＆ミッション</span></a></li><li class="menu-list-item   pos-6 "><a href="http://www.peakscientific.jp/about/manufacturing-excellence/"  title=""><span>製造の卓越性 </span></a></li><li class="menu-list-item   pos-last "><a href="http://www.peakscientific.jp/about/accreditations/"  title="Our Awards"><span>認定＆受賞歴 </span></a></li></ul></li><li class="menu-list-item   pos-3 "><a href="http://www.peakscientific.jp/products/"  title="Products"><span>製品 </span></a><ul class="menu-list sub-level"><li class="menu-list-item   pos-first "><a href="http://www.peakscientific.jp/products/"  title=""><span>すべてを表示（ガスの種類別）</span></a></li><li class="menu-list-item   pos-2 "><a href="/products/?model_query=LC-MS"  title=""><span>LCMS</span></a></li><li class="menu-list-item   pos-3 "><a href="/products/?model_query=Precision"  title=""><span>GC</span></a></li><li class="menu-list-item   pos-4 "><a href="/products/?model_query=ELSD"  title=""><span>ELSD & CAD</span></a></li><li class="menu-list-item   pos-5 "><a href="/products/?model_query=Total Organic Carbon"  title=""><span>TOC</span></a></li><li class="menu-list-item   pos-6 "><a href="/products/?model_query=Purge Gas"  title=""><span>パージガス </span></a></li><li class="menu-list-item   pos-7 "><a href="/products/?model_query=Sample Preparation"  title=""><span>サンプル調製</span></a></li><li class="menu-list-item   pos-8 "><a href="/products/?model_query=i-Flowlab"  title=""><span>ラボ用トータルソリューション </span></a></li><li class="menu-list-item   pos-last "><a href="/Media/gas-calculator.html"  title=""><span>GCガス計算機</span></a></li></ul></li><li class="menu-list-item   pos-4 "><a href="http://www.peakscientific.jp/support/"  title="Service & Support"><span>サポート</span></a><ul class="menu-list sub-level"><li class="menu-list-item   pos-first "><a href="http://www.peakscientific.jp/support/"  title=""><span>サポートについて </span></a></li><li class="menu-list-item   pos-2 "><a href="http://www.peakscientific.jp/support/technical-and-support-contact/"  title=""><span>テクニカルサポート </span></a></li><li class="menu-list-item   pos-3 "><a href="http://www.peakscientific.jp/support/replacement-parts/"  title=""><span>部品交換のサポート  </span></a></li><li class="menu-list-item   pos-last "><a href="http://www.peakscientific.jp/downloads/"  title=""><span>ダウンロード  </span></a></li></ul></li><li class="menu-list-item   pos-5 "><a href="http://www.peakscientific.jp/protected/"  title=""><span>Peak Protected</span></a><ul class="menu-list sub-level"><li class="menu-list-item   pos-first "><a href="http://www.peakscientific.jp/protected/"  title=""><span>Peak Protectedについて</span></a></li><li class="menu-list-item   pos-2 "><a href="http://www.peakscientific.jp/世界トップクラスのpeak-scientificサポート/where-we-protect/"  title=""><span>保証対象地域</span></a></li><li class="menu-list-item   pos-3 "><a href="http://www.peakscientific.jp/世界トップクラスのpeak-scientificサポート/product-installation/"  title=""><span>製品の設置</span></a></li><li class="menu-list-item   pos-4 "><a href="http://www.peakscientific.jp/世界トップクラスのpeak-scientificサポート/24hr-premium-protected/"  title=""><span>24時間プレミアム保証プラン</span></a></li><li class="menu-list-item   pos-5 "><a href="http://www.peakscientific.jp/protected/complete-protected-plan/"  title=""><span>完全保証プラン</span></a></li><li class="menu-list-item   pos-6 "><a href="http://www.peakscientific.jp/protected/supported-maintenance/"  title=""><span>サポート対象メンテナンスプラン </span></a></li><li class="menu-list-item   pos-7 "><a href="http://www.peakscientific.jp/protected/replacement-parts-and-paid-visits/"  title=""><span>部品交換＆有料の施設訪問 </span></a></li><li class="menu-list-item   pos-8 "><a href="http://www.peakscientific.jp/protected/iqoq/"  title=""><span>IQ/OQ</span></a></li><li class="menu-list-item   pos-last "><a href="http://www.peakscientific.jp/protected/get-protected/"  title=""><span>保証に加入</span></a></li></ul></li><li class="menu-list-item   pos-6 "><a href="http://www.peakscientific.jp/warranty/"  title="Your Warranty"><span>保証</span></a><ul class="menu-list sub-level"><li class="menu-list-item   pos-first "><a href="http://www.peakscientific.jp/warranty/"  title=""><span>保証の登録  </span></a></li><li class="menu-list-item   pos-2 "><a href="http://www.peakscientific.jp/warranty/warranty-initiative/"  title=""><span>保証イニシアチブ   </span></a></li><li class="menu-list-item   pos-last "><a href="http://www.peakscientific.jp/activate/"  title=""><span>Genius XE 登録</span></a></li></ul></li><li class="menu-list-item   pos-7 "><a href="http://www.peakscientific.jp/news-and-events/"  title="News & Events"><span>ニュース＆ブログ</span></a><ul class="menu-list sub-level"><li class="menu-list-item   pos-first "><a href="http://www.peakscientific.jp/news/"  title="News"><span>ニュース＆ブログ   </span></a></li><li class="menu-list-item   pos-2 "><a href="http://www.peakscientific.jp/events/"  title="Our Latest Event"><span>イベント</span></a></li><li class="menu-list-item   pos-3 "><a href="http://www.peakscientific.jp/news-and-events/newsletter-sign-up/"  title="News Letter Sign up"><span>ニュースレターのサインアップ</span></a></li><li class="menu-list-item   pos-last "><a href="http://www.peakscientific.jp/blog/"  title=""><span>ブログ </span></a></li></ul></li><li class="menu-list-item   pos-8 "><a href="http://www.peakscientific.jp/learn/"  title=""><span>ナレッジ </span></a><ul class="menu-list sub-level"><li class="menu-list-item   pos-first "><a href="http://www.peakscientific.jp/learn/"  title=""><span>ナレッジ ベース   </span></a></li><li class="menu-list-item   pos-2 "><a href="http://www.peakscientific.jp/articles/"  title=""><span>記事＆アプリケーション   </span></a></li><li class="menu-list-item   pos-3 "><a href="http://www.peakscientific.jp/user-stories/"  title=""><span>ユーザーの事例 </span></a></li><li class="menu-list-item   pos-4 "><a href="http://www.peakscientific.jp/ナレッジ/testimonials/"  title=""><span>お客様の声 </span></a></li><li class="menu-list-item   pos-5 "><a href="http://www.peakscientific.jp/copenhagen-university-user-story-jp/"  title=""><span>コペンハーゲン大学のGC-MS</span></a></li><li class="menu-list-item   pos-6 "><a href="http://www.peakscientific.jp/why-a-gas-generator/"  title=""><span>ガス発生装置を選択する理由</span></a></li><li class="menu-list-item   pos-7 "><a href="http://www.peakscientific.jp/learn/nitrogen-and-on-site-gas-generators/"  title=""><span>窒素発生装置について</span></a></li><li class="menu-list-item   pos-last "><a href="http://www.peakscientific.jp/learn/hydrogen-and-on-site-gas-generators/"  title=""><span>水素発生装置について </span></a></li></ul></li><li class="menu-list-item   pos-last  active "><a href="http://www.peakscientific.jp/contact/"  title="Contact"><span>お問い合わせ </span></a><ul class="menu-list sub-level"><li class="menu-list-item   pos-first  active "><a href="http://www.peakscientific.jp/contact/"  title=""><span>お問い合わせ</span></a></li><li class="menu-list-item   pos-2 "><a href="http://www.peakscientific.jp/quote-request/"  title=""><span>購入手段    </span></a></li><li class="menu-list-item   pos-3 "><a href="http://www.peakscientific.jp/support/technical-and-support-contact/"  title=""><span>カスタマーサポート</span></a></li><li class="menu-list-item   pos-4 "><a href="http://www.peakscientific.jp/customer-feedback-form/"  title=""><span>お客様のフィードバック </span></a></li><li class="menu-list-item   pos-last "><a href="http://www.peakscientific.jp/offices/"  title="Our Locations"><span>事務所所在地 </span></a></li></ul></li></ul>                    
+                    <a class="nav-btn" id="nav-close-btn" href="#top"><i class="fa fa-times"></i> 閉じる</a>
+                </div>
+            </nav>
+        
+
+<div id="daddy">
+
+        <div id="main">
+        	            <div id="layout-2column-banner" class="page-content">
+	<div class="h100">
+		<div class="col-group">
+			<div id="banner" class="w100" data-type="content-section" data-area="Fixed Banner">		
+			<div class="module-animated-banners module-item" data-id="12">		        		<script type="text/javascript" defer="defer" src="http://www.peakscientific.jp/EasyCMS/Modules/AnimatedBanner/JS/jquery.bxslider.min.js"></script>
+        <script type="text/javascript" defer="defer">
+        <!--
+        $(function() {
+            //init carousel
+            $('.bxslider.banner-12').bxSlider({ 
+				mode: 'fade',
+				auto: false,
+				pause: 4000,
+				speed: 500				
+			});
+         
+        });
+        -->
+        </script>
+        <div class="banner-viewport">
+            <ul class="bxslider banner-12">
+                                <li>
+                <img alt="" src="http://www.peakscientific.jp/Media/Contact_Page_Map_Banner-3241c.jpg" /><div class="slide-inner dark-bg-left"> </div>                </li>
+                            </ul>
+        </div>
+                
+</div></div>
+		</div>
+		<div class="col-group container">
+			<div id="side-col" class="w33 left" data-type="content-section" data-area="Side Column">		
+			<nav class="inline-menu お問い合わせ"><div class="menu-label"><h2>お問い合わせ</h2></div><ul class="menu-list top-level"><li class="menu-list-item   pos-first  active "><a href="http://www.peakscientific.jp/contact/"  title="Contact us"><span>お問い合わせ</span></a></li><li class="menu-list-item   pos-2 "><a href="http://www.peakscientific.jp/quote-request/"  title=""><span>見積もり依頼</span></a></li><li class="menu-list-item   pos-3 "><a href="http://www.peakscientific.jp/support/"  title=""><span>サポート問い合わせ先</span></a></li><li class="menu-list-item   pos-4 "><a href="http://www.peakscientific.jp/customer-feedback-form/"  title="Customer Feedback Form"><span>お客様の声</span></a></li><li class="menu-list-item   pos-last "><a href="http://www.peakscientific.jp/offices/"  title="Office Locations"><span>オフィスの場所</span></a></li></ul></nav></div>
+
+			<div id="main-col" class="w66 right" data-type="content-section" data-area="Content">
+			<div class="module-form-builder module-item" data-id="98"> 	<div class="form-98 form-holder">
+        <a name="form-98"></a>
+        <div class="form-intro">
+            <p class="MsoNormal" style="text-align: justify; text-justify: inter-ideograph;"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%;">Peak Scientific<span lang="JA">は、当社の製品と現場サポートに関して、お客様に最高のカスタマーエクスペリエンスをご提供できるよう日々邁進しています。当社はカスタマーサービスを重要な最優先事項として捉え、お客様のニーズとフィードバックに耳を傾けています。この姿勢が、世界中の</span>Peak Scientific<span lang="JA">の支柱となっています。</span></span></p>
+<p class="MsoNormal" style="text-align: justify; text-justify: inter-ideograph;"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%;">&nbsp;</span></p>
+<p class="MsoNormal" style="text-align: justify; text-justify: inter-ideograph;"><span lang="JA" style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%; font-family: 'MS Gothic';">フィードバックをご提供いただく場合、または何かご不満がある場合は、この<a href="customer-feedback-form/" target="_blank">「お客様のフィードバック」フォーム</a>をご利用ください。製品の価格または製品・サービスに関する詳細をお探しの場合は、この<a href="quote-request/" target="_blank">「見積もりの依頼」フォーム</a>をご利用ください。</span></p>
+<p class="MsoNormal" style="text-align: justify; text-justify: inter-ideograph;"><span style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%;">&nbsp;</span></p>
+<p><span lang="JA" style="font-size: 10.0pt; mso-bidi-font-size: 11.0pt; line-height: 107%;">一般的なお問い合わせの場合は、下のフォームをご利用ください。そうすれば、当社のオンラインカスタマーサービスチームから、できるだけ早くご連絡させていただきます。</span></p>        </div>
+        
+        <div class="validation-errors">
+    		    	</div>
+        	
+        <form name="_form-98" data-id="98" action="?_action=submit#form-98" method="post">
+            <input type="hidden" name="csrf_test" value="ea64e16007d012cd318b93396425936e" />    
+                                    <div class="form-field text">
+                
+                <p>	
+                    <label >名:</label>
+                                                                <input type="text" name="First_Name" value="" data-required="1" data-error="名前を入力してください " data-validation="text" placeholder="" />
+                        
+                </p>
+            </div>
+                                    <div class="form-field text">
+                
+                <p>	
+                    <label >姓:</label>
+                                                                <input type="text" name="Surname" value="" data-required="1" data-error="苗字を入力してください " data-validation="text" placeholder="" />
+                        
+                </p>
+            </div>
+                                    <div class="form-field text">
+                
+                <p>	
+                    <label >電子メールアドレス:</label>
+                                                                <input type="text" name="Email_Address" value="" data-required="1" data-error="電子メールアドレスを入力してください" data-validation="email" placeholder="" />
+                        
+                </p>
+            </div>
+                                    <div class="form-field text">
+                
+                <p>	
+                    <label >電話番号:</label>
+                                                                <input type="text" name="Telephone_Number" value="" data-required="1" data-error="電話番号を入力してください" data-validation="text" placeholder="" />
+                        
+                </p>
+            </div>
+                                    <div class="form-field text">
+                
+                <p>	
+                    <label >会社名:</label>
+                                                                <input type="text" name="Company_Name" value="" data-required="0" data-error="会社名を入力してください " data-validation="text" placeholder="" />
+                        
+                </p>
+            </div>
+                                    <div class="form-field country-select">
+                
+                <p>	
+                    <label >国 :</label>
+                                                                <select class="country-dropdown" name="Country" data-required="1" data-error="国入力してください " data-validation="text">
+                            <option value="">国</option>
+                            <option value="United Kingdom">United Kingdom</option><option value="United States">United States</option><option value="France">France</option><option value="Germany">Germany</option><option value="Spain">Spain</option><option value="Japan">Japan</option><option value="China">China</option><option value="" disabled="true">--</option><option value="Afghanistan">Afghanistan</option><option value="Åland Islands">Åland Islands</option><option value="Albania">Albania</option><option value="Algeria">Algeria</option><option value="American Samoa">American Samoa</option><option value="Andorra">Andorra</option><option value="Angola">Angola</option><option value="Anguilla">Anguilla</option><option value="Antarctica">Antarctica</option><option value="Antigua And Barbuda">Antigua And Barbuda</option><option value="Argentina">Argentina</option><option value="Armenia">Armenia</option><option value="Aruba">Aruba</option><option value="Australia">Australia</option><option value="Austria">Austria</option><option value="Azerbaijan">Azerbaijan</option><option value="Bahamas">Bahamas</option><option value="Bahrain">Bahrain</option><option value="Bangladesh">Bangladesh</option><option value="Barbados">Barbados</option><option value="Belarus">Belarus</option><option value="Belgium">Belgium</option><option value="Belize">Belize</option><option value="Benin">Benin</option><option value="Bermuda">Bermuda</option><option value="Bhutan">Bhutan</option><option value="Bolivia">Bolivia</option><option value="Bosnia And Herzegovina">Bosnia And Herzegovina</option><option value="Botswana">Botswana</option><option value="Bouvet Island">Bouvet Island</option><option value="Brazil">Brazil</option><option value="British Indian Ocean Territory">British Indian Ocean Territory</option><option value="Brunei Darussalam">Brunei Darussalam</option><option value="Bulgaria">Bulgaria</option><option value="Burkina Faso">Burkina Faso</option><option value="Burundi">Burundi</option><option value="Cambodia">Cambodia</option><option value="Cameroon">Cameroon</option><option value="Canada">Canada</option><option value="Cape Verde">Cape Verde</option><option value="Cayman Islands">Cayman Islands</option><option value="Central African Republic">Central African Republic</option><option value="Chad">Chad</option><option value="Chile">Chile</option><option value="Christmas Island">Christmas Island</option><option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option><option value="Colombia">Colombia</option><option value="Comoros">Comoros</option><option value="Congo">Congo</option><option value="Congo, The Democratic Republic Of The">Congo, The Democratic Republic Of The</option><option value="Cook Islands">Cook Islands</option><option value="Costa Rica">Costa Rica</option><option value="Cote D'ivoire">Cote D'ivoire</option><option value="Croatia">Croatia</option><option value="Cuba">Cuba</option><option value="Cyprus">Cyprus</option><option value="Czech Republic">Czech Republic</option><option value="Denmark">Denmark</option><option value="Djibouti">Djibouti</option><option value="Dominica">Dominica</option><option value="Dominican Republic">Dominican Republic</option><option value="Ecuador">Ecuador</option><option value="Egypt">Egypt</option><option value="El Salvador">El Salvador</option><option value="Equatorial Guinea">Equatorial Guinea</option><option value="Eritrea">Eritrea</option><option value="Estonia">Estonia</option><option value="Ethiopia">Ethiopia</option><option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option><option value="Faroe Islands">Faroe Islands</option><option value="Fiji">Fiji</option><option value="Finland">Finland</option><option value="French Guiana">French Guiana</option><option value="French Polynesia">French Polynesia</option><option value="French Southern Territories">French Southern Territories</option><option value="Gabon">Gabon</option><option value="Gambia">Gambia</option><option value="Georgia">Georgia</option><option value="Ghana">Ghana</option><option value="Gibraltar">Gibraltar</option><option value="Greece">Greece</option><option value="Greenland">Greenland</option><option value="Grenada">Grenada</option><option value="Guadeloupe">Guadeloupe</option><option value="Guam">Guam</option><option value="Guatemala">Guatemala</option><option value="Guernsey">Guernsey</option><option value="Guinea">Guinea</option><option value="Guinea-bissau">Guinea-bissau</option><option value="Guyana">Guyana</option><option value="Haiti">Haiti</option><option value="Heard Island And Mcdonald Islands">Heard Island And Mcdonald Islands</option><option value="Holy See (Vatican City State)">Holy See (Vatican City State)</option><option value="Honduras">Honduras</option><option value="Hong Kong">Hong Kong</option><option value="Hungary">Hungary</option><option value="Iceland">Iceland</option><option value="India">India</option><option value="Indonesia">Indonesia</option><option value="Iran, Islamic Republic Of">Iran, Islamic Republic Of</option><option value="Iraq">Iraq</option><option value="Ireland">Ireland</option><option value="Isle Of Man">Isle Of Man</option><option value="Israel">Israel</option><option value="Italy">Italy</option><option value="Jamaica">Jamaica</option><option value="Jersey">Jersey</option><option value="Jordan">Jordan</option><option value="Kazakhstan">Kazakhstan</option><option value="Kenya">Kenya</option><option value="Kiribati">Kiribati</option><option value="Korea, Democratic People's Republic Of">Korea, Democratic People's Republic Of</option><option value="Korea, Republic Of">Korea, Republic Of</option><option value="Kuwait">Kuwait</option><option value="Kyrgyzstan">Kyrgyzstan</option><option value="Lao People's Democratic Republic">Lao People's Democratic Republic</option><option value="Latvia">Latvia</option><option value="Lebanon">Lebanon</option><option value="Lesotho">Lesotho</option><option value="Liberia">Liberia</option><option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option><option value="Liechtenstein">Liechtenstein</option><option value="Lithuania">Lithuania</option><option value="Luxembourg">Luxembourg</option><option value="Macao">Macao</option><option value="Macedonia, The Former Yugoslav Republic Of">Macedonia, The Former Yugoslav Republic Of</option><option value="Madagascar">Madagascar</option><option value="Malawi">Malawi</option><option value="Malaysia">Malaysia</option><option value="Maldives">Maldives</option><option value="Mali">Mali</option><option value="Malta">Malta</option><option value="Marshall Islands">Marshall Islands</option><option value="Martinique">Martinique</option><option value="Mauritania">Mauritania</option><option value="Mauritius">Mauritius</option><option value="Mayotte">Mayotte</option><option value="Mexico">Mexico</option><option value="Micronesia, Federated States Of">Micronesia, Federated States Of</option><option value="Moldova, Republic Of">Moldova, Republic Of</option><option value="Monaco">Monaco</option><option value="Mongolia">Mongolia</option><option value="Montenegro">Montenegro</option><option value="Montserrat">Montserrat</option><option value="Morocco">Morocco</option><option value="Mozambique">Mozambique</option><option value="Myanmar">Myanmar</option><option value="Namibia">Namibia</option><option value="Nauru">Nauru</option><option value="Nepal">Nepal</option><option value="Netherlands">Netherlands</option><option value="Netherlands Antilles">Netherlands Antilles</option><option value="New Caledonia">New Caledonia</option><option value="New Zealand">New Zealand</option><option value="Nicaragua">Nicaragua</option><option value="Niger">Niger</option><option value="Nigeria">Nigeria</option><option value="Niue">Niue</option><option value="Norfolk Island">Norfolk Island</option><option value="Northern Mariana Islands">Northern Mariana Islands</option><option value="Norway">Norway</option><option value="Oman">Oman</option><option value="Pakistan">Pakistan</option><option value="Palau">Palau</option><option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option><option value="Panama">Panama</option><option value="Papua New Guinea">Papua New Guinea</option><option value="Paraguay">Paraguay</option><option value="Peru">Peru</option><option value="Philippines">Philippines</option><option value="Pitcairn">Pitcairn</option><option value="Poland">Poland</option><option value="Portugal">Portugal</option><option value="Puerto Rico">Puerto Rico</option><option value="Qatar">Qatar</option><option value="Reunion">Reunion</option><option value="Romania">Romania</option><option value="Russian Federation">Russian Federation</option><option value="Rwanda">Rwanda</option><option value="Saint Helena">Saint Helena</option><option value="Saint Kitts And Nevis">Saint Kitts And Nevis</option><option value="Saint Lucia">Saint Lucia</option><option value="Saint Pierre And Miquelon">Saint Pierre And Miquelon</option><option value="Saint Vincent And The Grenadines">Saint Vincent And The Grenadines</option><option value="Samoa">Samoa</option><option value="San Marino">San Marino</option><option value="Sao Tome And Principe">Sao Tome And Principe</option><option value="Saudi Arabia">Saudi Arabia</option><option value="Senegal">Senegal</option><option value="Serbia">Serbia</option><option value="Seychelles">Seychelles</option><option value="Sierra Leone">Sierra Leone</option><option value="Singapore">Singapore</option><option value="Slovakia">Slovakia</option><option value="Slovenia">Slovenia</option><option value="Solomon Islands">Solomon Islands</option><option value="Somalia">Somalia</option><option value="South Africa">South Africa</option><option value="South Georgia And The South Sandwich Islands">South Georgia And The South Sandwich Islands</option><option value="Sri Lanka">Sri Lanka</option><option value="Sudan">Sudan</option><option value="Suriname">Suriname</option><option value="Svalbard And Jan Mayen">Svalbard And Jan Mayen</option><option value="Swaziland">Swaziland</option><option value="Sweden">Sweden</option><option value="Switzerland">Switzerland</option><option value="Syrian Arab Republic">Syrian Arab Republic</option><option value="Taiwan">Taiwan</option><option value="Tajikistan">Tajikistan</option><option value="Tanzania, United Republic Of">Tanzania, United Republic Of</option><option value="Thailand">Thailand</option><option value="Timor-leste">Timor-leste</option><option value="Togo">Togo</option><option value="Tokelau">Tokelau</option><option value="Tonga">Tonga</option><option value="Trinidad And Tobago">Trinidad And Tobago</option><option value="Tunisia">Tunisia</option><option value="Turkey">Turkey</option><option value="Turkmenistan">Turkmenistan</option><option value="Turks And Caicos Islands">Turks And Caicos Islands</option><option value="Tuvalu">Tuvalu</option><option value="Uganda">Uganda</option><option value="Ukraine">Ukraine</option><option value="United Arab Emirates">United Arab Emirates</option><option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option><option value="Uruguay">Uruguay</option><option value="Uzbekistan">Uzbekistan</option><option value="Vanuatu">Vanuatu</option><option value="Venezuela">Venezuela</option><option value="Viet Nam">Viet Nam</option><option value="Virgin Islands, British">Virgin Islands, British</option><option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option><option value="Wallis And Futuna">Wallis And Futuna</option><option value="Western Sahara">Western Sahara</option><option value="Yemen">Yemen</option><option value="Zambia">Zambia</option><option value="Zimbabwe">Zimbabwe</option>                        </select>
+                        <label >State</label>
+                        <select class="state-dropdown"  name="Country-state" data-required="1" data-error="国入力してください " data-validation="text">
+                            <option value="">State</option>
+                            <option value="Alabama">Alabama</option><option value="Alaska">Alaska</option><option value="Arizona">Arizona</option><option value="Arkansas">Arkansas</option><option value="California">California</option><option value="Colorado">Colorado</option><option value="Connecticut">Connecticut</option><option value="Delaware">Delaware</option><option value="District of Columbia">District of Columbia</option><option value="Florida">Florida</option><option value="Georgia">Georgia</option><option value="Hawaii">Hawaii</option><option value="Idaho">Idaho</option><option value="Illinois">Illinois</option><option value="Indiana">Indiana</option><option value="Iowa">Iowa</option><option value="Kansas">Kansas</option><option value="Kentucky">Kentucky</option><option value="Louisiana">Louisiana</option><option value="Maine">Maine</option><option value="Maryland">Maryland</option><option value="Massachusetts">Massachusetts</option><option value="Michigan">Michigan</option><option value="Minnesota">Minnesota</option><option value="Mississippi">Mississippi</option><option value="Missouri">Missouri</option><option value="Montana">Montana</option><option value="Nebraska">Nebraska</option><option value="Nevada">Nevada</option><option value="New Hampshire">New Hampshire</option><option value="New Jersey">New Jersey</option><option value="New Mexico">New Mexico</option><option value="New York">New York</option><option value="North Carolina">North Carolina</option><option value="North Dakota">North Dakota</option><option value="Ohio">Ohio</option><option value="Oklahoma">Oklahoma</option><option value="Oregon">Oregon</option><option value="Pennsylvania">Pennsylvania</option><option value="Rhode Island">Rhode Island</option><option value="South Carolina">South Carolina</option><option value="South Dakota">South Dakota</option><option value="Tennessee">Tennessee</option><option value="Texas">Texas</option><option value="Utah">Utah</option><option value="Vermont">Vermont</option><option value="Virginia">Virginia</option><option value="Washington">Washington</option><option value="West Virginia">West Virginia</option><option value="Wisconsin">Wisconsin</option><option value="Wyoming">Wyoming</option>                        </select>
+                        
+                </p>
+            </div>
+                                                <div class="form-field textarea">
+                
+                <p>	
+                    <label >お問い合わせの理由をお聞かせください</label>
+                                                                <textarea name="Tell_us_why_you_are_contacting_us" rows="" cols="" data-required="1" data-error="" data-validation="text" placeholder=""></textarea>
+                        
+                </p>
+            </div>
+                                    <div class="form-field checkbox">
+                
+                <p>	
+                    <label >Peak Scientificからのメールによるお知らせの受信をご希望の場合は、下のボックスにチェックを入れてください。</label>
+                                         
+                                <span class="checkbox-option">
+                                    <input type="checkbox" name="Subscribe[]" value="購読"  data-required="0" data-error="" data-validation="text" placeholder="" />
+                                    <span>購読</span>
+                                </span>
+                                
+                </p>
+            </div>
+                        
+            
+            <div class="captcha">
+                <p >Please enter the code as shown:</p>
+                <p><img src="data:image/x-icon;base64,/9j/4AAQSkZJRgABAQAAAQABAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2NjIpLCBxdWFsaXR5ID0gODAK/9sAQwAGBAUGBQQGBgUGBwcGCAoQCgoJCQoUDg8MEBcUGBgXFBYWGh0lHxobIxwWFiAsICMmJykqKRkfLTAtKDAlKCko/9sAQwEHBwcKCAoTCgoTKBoWGigoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgo/8AAEQgAGQBBAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A+VKK7v4L6pp2keN0udTtZZGFrN9mvY7f7SdLmCFlvfI6SiIKzlT0ALDlRXuvw30PSPG+l+C7rxVfReML218Rz6e2oTxy4khFjLdLCWkCyTRrIFb96owS6AFOWAPk+ivcNRGv+P8AwuZ7PWovG8ljrtubuDUbU2zwSXDeUi28pkUm0mkIUoPKZfLRtkfJHVeNbuDW7X4m6Hp15LrVzplrFMNCu0EVjpCW4CTyWThVLGAnYBtg3KSSJ+hAPmWivdfC3jXxV4E0q18WeLfEut3t/eQs2iaBd38si3KspX7XcqzfLAMkoOGkYAqQq7jofD/xDZSt8NtN03VJfD+nSutnqXh+SyeVNZeWUQyXG4r5c8cvKMJGHk+UwjDEAEA+eqK6D4hafa6R4/8AEum6fF5NlZ6nc28Ee4tsjSVlUZJJOAByTmufoAKKKKANDQNZ1Hw9rNpq2i3ctnqNq/mQzRnlT0PB4IIJBByCCQQQTWhrHjHXdWm0uS5vvJ/srJsI7KGO0jtWL7y0aQqqqxbksBkkDJ4GOfooA6bxR458QeJ7UWusXsT2xunvXit7WG2SW4cANNIIkUPIQMbmyeTzycy658QfE+uaVcafqep+db3Pk/anW3ijmu/JXbF58qqJJto6b2bkA9QDXKUUAa3inxDqnirXbrWdeuvtepXO3zZvLWPdtUIvyqAB8qgcDtWrofxB8T6HpUGn6Zqfk29t532V2t4pJrTzl2y+RKymSHcOuxl5JPUk1ylFABRRRQAUUUUAf//Z"><br>
+                <input type="text" name="_vcode" value="" ></p>
+            </div>
+
+                        
+            <button type="submit" class="form-submit">送信</button>     
+                 
+    	</form>
+    </div>
+<style>
+	.ui-datepicker{
+		width: auto !important;
+		border: #dedede 1px solid !important;
+	}
+	
+	.ui-datepicker-trigger{
+		position: absolute;
+		margin-left: -56px;
+		padding-top: 11px !important;
+		padding-bottom: 11px !important;
+	}
+	
+	.ui-datepicker-trigger i{
+		color:white;
+	}
+	
+	.ui-datepicker-month{
+		margin-right: 5px;
+	}
+	
+	.ui-datepicker-header{
+		background: #7FB741;
+		
+	}
+	
+	.ui-datepicker-next, .ui-datepicker-prev{
+		top:12px !important;
+	}
+	
+	.ui-state-default{
+		background: #f2f2f2 !important;
+		border:none !important;
+		color: black !important;
+		padding: 12px !important;
+		-moz-transition: none;
+		-webkit-transition: none;
+		-o-transition: color 0 ease-in;
+		transition: none;
+	}
+	
+	.ui-state-default:hover, .ui-state-default:focus, .ui-state-active{
+		background: #7FB741 !important;
+		color: white !important;
+	}
+	
+</style>
+        <script type="text/javascript">
+
+        function checkCountryDropdown(){
+            if($(".country-dropdown").size()){
+                // Hide state drop down
+                $(".state-dropdown").hide().attr("disabled",true);
+                $(".state-dropdown").prev().hide();
+                // On doc load show state option if US selected
+                if($(".country-dropdown").val()=="United States"){
+                    $(".state-dropdown").show().attr("disabled",false);
+                    $(".state-dropdown").prev().show();
+                }
+                $(".country-dropdown").change(function(){
+                    if($(this).val()=="United States"){
+                        $(".state-dropdown").show().attr("disabled",false);
+                        $(".state-dropdown").prev().show();
+                    } else {
+                        // Hide state drop down
+                        $(".state-dropdown").hide().attr("disabled",true);
+                        $(".state-dropdown").prev().hide();
+                    }
+                });
+            }
+        }
+		
+		
+		function initDatepickers(){
+			var dateFields = $('*[data-validation="date"]').each(function(){
+				
+				var currentDate = new Date();
+				$(this).datepicker({
+					dateFormat: 'dd/mm/yy',
+					showOn: "both",
+					buttonText: "<i class='datepicker__button fa fa-lg fa-calendar'></i>",
+					changeYear: true
+				});
+				
+				$(this).datepicker("setDate", currentDate);
+				$(this).prop('readonly', true);
+			});
+        }
+		
+        $(function(){
+
+            checkCountryDropdown();
+			
+
+            var $inner = "";
+            var $response = "";
+
+            $("body").on("click",".form-submit",function(e){
+                e.preventDefault();
+                $inner = "";
+                $response = "";
+                $.ajax({
+                    url: ROOT+"forms/?_action=submit&_ajax=true&_wrap=false&_formid=98",
+                    type: "POST",
+                    data: $("form[name='_form-98']").serialize(),
+                    dataType: "json",
+                    async: true,
+                    success: function(data){
+                        
+                                                ga('send', 'event', "Contact", "Sent_Form", "Main_Contact", "1" );
+                        ga('rollupProperty.send', 'event', "Contact", "Sent_Form", "Main_Contact", "1" );
+                                                //console.log("success");
+                        $response = data.msg;
+
+                    }, 
+                    error: function(response){
+                        
+                        //console.log("error");
+                        $response = response.responseText;
+
+                    },
+                    complete: function(response){
+
+                        $inner = "";
+                        $(".ajax-loader").html($response);
+                        if($(".ajax-loader .form-holder").size()){
+                            $inner = $(".ajax-loader .form-holder").html();
+                        } else {
+                            $inner = $(".ajax-loader").html();
+                        }
+                        $(".ajax-loader").html("");
+                        $(".form-holder").fadeOut(function(){
+                            
+                            $(".form-holder").html($inner);
+                            checkCountryDropdown()
+                            $(".form-holder").fadeIn(function(){
+                                 $('html, body').animate({
+                                    scrollTop: $(".form-holder").position().top - 50
+                                }, 500);
+                            });
+
+                           
+                        });
+
+                    }
+                });
+            });
+
+        });
+		
+		$(window).load(function(){
+			initDatepickers(); //if earlier then there;s a race condition
+		}); 
+
+    </script>
+    <div class="ajax-loader hide"></div>
+        </div><div class="content-zen-desk-help-button content-item" data-id="9989"><p></p>
+<!-- Start of peakscientific Zendesk Widget script -->
+<script>// <![CDATA[
+window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(c){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var o=this.createElement("script");n&&(this.domain=n),o.id="js-iframe-async",o.src=e,this.t=+new Date,this.zendeskHost=t,this.zEQueue=a,this.body.appendChild(o)},o.write('<body onload="document._l();">'),o.close()}("https://assets.zendesk.com/embeddable_framework/main.js","peakscientific.zendesk.com");
+// ]]></script>
+<!-- End of peakscientific Zendesk Widget script --></div></div>
+		</div>
+	</div><!--container-->
+</div>
+                    </div><!--main-->        
+        
+        <footer>
+            <div class="container">
+                <div class="footer-widgets">
+                    <a href="http://www.peakscientific.jp/" class="logo"><img src="http://www.peakscientific.jp/Themes/999/Images/peak-scientific-logo-white.svg" alt="Peak Scientific" width="193" height="61" /></a>
+                    
+                    <div class="newsletter">
+                        
+                        <form action="http://peakscientificltd.createsend.com/t/t/s/dlira/" method="post">
+                            <label for="fieldEmail">ニュースレターに登録する</label>
+                            <input id="fieldEmail" name="cm-dlira-dlira" type="email" placeholder="メールアドレスを入力" required />
+                            <button type="submit">申し込む</button>
+                        </form>
+
+                    </div><!--newsletter -->
+                </div><!--footer widgets-->
+
+                <div class="footer-menu">
+                    <div>
+                        <h3>会社</h3>
+                        <ul class="menu-list top-level"><li class="menu-list-item   pos-first "><a href="http://www.peakscientific.jp/offices/"  title=""><span>事務所所在地 </span></a></li><li class="menu-list-item   pos-2 "><a href="http://www.peakscientific.jp/contact/find-a-distributor/"  title="Find a Distributor"><span>購入手段    </span></a></li><li class="menu-list-item   pos-3 "><a href="http://jobs.peakscientific.com/"  title=""><span>求人</span></a></li><li class="menu-list-item   pos-last  active "><a href="http://www.peakscientific.jp/contact/"  title=""><span>お問い合わせ</span></a></li></ul>                    </div>
+                    <div>
+                        <h3>もっと詳しく知る</h3>
+                        <ul class="menu-list top-level"><li class="menu-list-item   pos-first "><a href="http://www.peakscientific.jp/about/"  title=""><span>会社概要</span></a></li><li class="menu-list-item   pos-2 "><a href="http://www.peakscientific.jp/support/"  title=""><span>サービスとサポート</span></a></li><li class="menu-list-item   pos-3 "><a href="http://peakindustrial.com/"  title=""><span>Peak 工業用</span></a></li><li class="menu-list-item   pos-4 "><a href="http://resources.peakscientific.com/"  title=""><span>リソース</span></a></li><li class="menu-list-item   pos-5 "><a href="http://www.peakscientific.jp/email-archive/"  title=""><span>メールアーカイブ</span></a></li><li class="menu-list-item   pos-last "><a href="http://resources.peakscientific.com/?c=205023&k=682ff279de"  title="Discontinuation Notice"><span>廃止のお知らせ</span></a></li></ul>                    </div>
+                    <div>
+                                            <h3>私たちとつながる</h3>
+                        <ul class="social-media">
+                            <li><a target="_blank" href="http://www.twitter.com/peakscientific"><i class="fa fa-lg fa-twitter"></i> &nbsp; Twitter</a></li>
+                            <li><a target="_blank" href="http://www.facebook.com/peakscientific"><i class="fa fa-lg fa-facebook-square"></i> &nbsp; Facebook</a></li>
+                            <li><a target="_blank" href="http://www.linkedin.com/company/peak-scientific-instruments-ltd"><i class="fa fa-lg fa-linkedin"></i> &nbsp; LinkedIn</a></li>
+                            <li><a target="_blank" href="http://www.youtube.com/peakscientific"><i class="fa fa-lg fa-youtube"></i> &nbsp; Youtube</a></li>
+                        </ul>
+                                        </div>
+                </div><!--footer-meu-->
+
+                <div class="footer-info">
+                    <p>著作権 &copy; Peak Scientific Instruments Ltd 2018</p>
+                    <ul class="menu-list top-level"><li class="menu-list-item   pos-first "><a href="http://www.peakscientific.jp/accessibility/"  title="Accessibility"><span>アクセシビリティ</span></a></li><li class="menu-list-item   pos-2 "><a href="http://www.peakscientific.jp/sitemap/"  title="Site Directory"><span>サイトディレクトリ</span></a></li><li class="menu-list-item   pos-3 "><a href="http://www.peakscientific.jp/privacy-policy/"  title=""><span>個人情報保護方針</span></a></li><li class="menu-list-item   pos-4 "><a href="http://www.peakscientific.jp/legal/"  title=""><span>法的</span></a></li><li class="menu-list-item   pos-last "><a href="http://www.peakscientific.jp/warranty-statement/"  title=""><span>保証</span></a></li></ul>                </div><!--footer-info-->
+            </div><!--container-->
+        </footer><!--footer-->
+
+        <a id="to-top" class="jsScrollMe" href="#top"><i class="fa fa-angle-up"></i> <span>To Top</span></a>
+
+        </div><!--/#inner-wrap-->
+    </div><!--/#outer-wrap-->
+
+    
+
+</div><!--daddy-->
+
+<div id="mobile-nav">
+    <ul class="menu-list top-level"><li class="menu-list-item   pos-first  active current"><a href="http://www.peakscientific.jp/"  title="Home"><span>ホーム </span></a></li><li class="menu-list-item   pos-2 "><a href="http://www.peakscientific.jp/about/"  title=""><span>会社概要</span></a><ul class="menu-list sub-level"><li class="menu-list-item   pos-first "><a href="http://www.peakscientific.jp/about/"  title=""><span>Peak Way </span></a></li><li class="menu-list-item   pos-2 "><a href="http://jobs.peakscientific.com/"  title="Careers"><span>求人</span></a></li><li class="menu-list-item   pos-3 "><a href="http://www.peakscientific.jp/about/our-story/"  title="Our Story"><span>当社の理念</span></a></li><li class="menu-list-item   pos-4 "><a href="http://www.peakscientific.jp/about/our-history/"  title=""><span>当社の沿革</span></a></li><li class="menu-list-item   pos-5 "><a href="http://www.peakscientific.jp/about/our-vision/"  title="Our Awards"><span>o	当社の価値感＆ミッション</span></a></li><li class="menu-list-item   pos-6 "><a href="http://www.peakscientific.jp/about/manufacturing-excellence/"  title=""><span>製造の卓越性 </span></a></li><li class="menu-list-item   pos-last "><a href="http://www.peakscientific.jp/about/accreditations/"  title="Our Awards"><span>認定＆受賞歴 </span></a></li></ul></li><li class="menu-list-item   pos-3 "><a href="http://www.peakscientific.jp/products/"  title="Products"><span>製品 </span></a><ul class="menu-list sub-level"><li class="menu-list-item   pos-first "><a href="http://www.peakscientific.jp/products/"  title=""><span>すべてを表示（ガスの種類別）</span></a></li><li class="menu-list-item   pos-2 "><a href="/products/?model_query=LC-MS"  title=""><span>LCMS</span></a></li><li class="menu-list-item   pos-3 "><a href="/products/?model_query=Precision"  title=""><span>GC</span></a></li><li class="menu-list-item   pos-4 "><a href="/products/?model_query=ELSD"  title=""><span>ELSD & CAD</span></a></li><li class="menu-list-item   pos-5 "><a href="/products/?model_query=Total Organic Carbon"  title=""><span>TOC</span></a></li><li class="menu-list-item   pos-6 "><a href="/products/?model_query=Purge Gas"  title=""><span>パージガス </span></a></li><li class="menu-list-item   pos-7 "><a href="/products/?model_query=Sample Preparation"  title=""><span>サンプル調製</span></a></li><li class="menu-list-item   pos-8 "><a href="/products/?model_query=i-Flowlab"  title=""><span>ラボ用トータルソリューション </span></a></li><li class="menu-list-item   pos-last "><a href="/Media/gas-calculator.html"  title=""><span>GCガス計算機</span></a></li></ul></li><li class="menu-list-item   pos-4 "><a href="http://www.peakscientific.jp/support/"  title="Service & Support"><span>サポート</span></a><ul class="menu-list sub-level"><li class="menu-list-item   pos-first "><a href="http://www.peakscientific.jp/support/"  title=""><span>サポートについて </span></a></li><li class="menu-list-item   pos-2 "><a href="http://www.peakscientific.jp/support/technical-and-support-contact/"  title=""><span>テクニカルサポート </span></a></li><li class="menu-list-item   pos-3 "><a href="http://www.peakscientific.jp/support/replacement-parts/"  title=""><span>部品交換のサポート  </span></a></li><li class="menu-list-item   pos-last "><a href="http://www.peakscientific.jp/downloads/"  title=""><span>ダウンロード  </span></a></li></ul></li><li class="menu-list-item   pos-5 "><a href="http://www.peakscientific.jp/protected/"  title=""><span>Peak Protected</span></a><ul class="menu-list sub-level"><li class="menu-list-item   pos-first "><a href="http://www.peakscientific.jp/protected/"  title=""><span>Peak Protectedについて</span></a></li><li class="menu-list-item   pos-2 "><a href="http://www.peakscientific.jp/世界トップクラスのpeak-scientificサポート/where-we-protect/"  title=""><span>保証対象地域</span></a></li><li class="menu-list-item   pos-3 "><a href="http://www.peakscientific.jp/世界トップクラスのpeak-scientificサポート/product-installation/"  title=""><span>製品の設置</span></a></li><li class="menu-list-item   pos-4 "><a href="http://www.peakscientific.jp/世界トップクラスのpeak-scientificサポート/24hr-premium-protected/"  title=""><span>24時間プレミアム保証プラン</span></a></li><li class="menu-list-item   pos-5 "><a href="http://www.peakscientific.jp/protected/complete-protected-plan/"  title=""><span>完全保証プラン</span></a></li><li class="menu-list-item   pos-6 "><a href="http://www.peakscientific.jp/protected/supported-maintenance/"  title=""><span>サポート対象メンテナンスプラン </span></a></li><li class="menu-list-item   pos-7 "><a href="http://www.peakscientific.jp/protected/replacement-parts-and-paid-visits/"  title=""><span>部品交換＆有料の施設訪問 </span></a></li><li class="menu-list-item   pos-8 "><a href="http://www.peakscientific.jp/protected/iqoq/"  title=""><span>IQ/OQ</span></a></li><li class="menu-list-item   pos-last "><a href="http://www.peakscientific.jp/protected/get-protected/"  title=""><span>保証に加入</span></a></li></ul></li><li class="menu-list-item   pos-6 "><a href="http://www.peakscientific.jp/warranty/"  title="Your Warranty"><span>保証</span></a><ul class="menu-list sub-level"><li class="menu-list-item   pos-first "><a href="http://www.peakscientific.jp/warranty/"  title=""><span>保証の登録  </span></a></li><li class="menu-list-item   pos-2 "><a href="http://www.peakscientific.jp/warranty/warranty-initiative/"  title=""><span>保証イニシアチブ   </span></a></li><li class="menu-list-item   pos-last "><a href="http://www.peakscientific.jp/activate/"  title=""><span>Genius XE 登録</span></a></li></ul></li><li class="menu-list-item   pos-7 "><a href="http://www.peakscientific.jp/news-and-events/"  title="News & Events"><span>ニュース＆ブログ</span></a><ul class="menu-list sub-level"><li class="menu-list-item   pos-first "><a href="http://www.peakscientific.jp/news/"  title="News"><span>ニュース＆ブログ   </span></a></li><li class="menu-list-item   pos-2 "><a href="http://www.peakscientific.jp/events/"  title="Our Latest Event"><span>イベント</span></a></li><li class="menu-list-item   pos-3 "><a href="http://www.peakscientific.jp/news-and-events/newsletter-sign-up/"  title="News Letter Sign up"><span>ニュースレターのサインアップ</span></a></li><li class="menu-list-item   pos-last "><a href="http://www.peakscientific.jp/blog/"  title=""><span>ブログ </span></a></li></ul></li><li class="menu-list-item   pos-8 "><a href="http://www.peakscientific.jp/learn/"  title=""><span>ナレッジ </span></a><ul class="menu-list sub-level"><li class="menu-list-item   pos-first "><a href="http://www.peakscientific.jp/learn/"  title=""><span>ナレッジ ベース   </span></a></li><li class="menu-list-item   pos-2 "><a href="http://www.peakscientific.jp/articles/"  title=""><span>記事＆アプリケーション   </span></a></li><li class="menu-list-item   pos-3 "><a href="http://www.peakscientific.jp/user-stories/"  title=""><span>ユーザーの事例 </span></a></li><li class="menu-list-item   pos-4 "><a href="http://www.peakscientific.jp/ナレッジ/testimonials/"  title=""><span>お客様の声 </span></a></li><li class="menu-list-item   pos-5 "><a href="http://www.peakscientific.jp/copenhagen-university-user-story-jp/"  title=""><span>コペンハーゲン大学のGC-MS</span></a></li><li class="menu-list-item   pos-6 "><a href="http://www.peakscientific.jp/why-a-gas-generator/"  title=""><span>ガス発生装置を選択する理由</span></a></li><li class="menu-list-item   pos-7 "><a href="http://www.peakscientific.jp/learn/nitrogen-and-on-site-gas-generators/"  title=""><span>窒素発生装置について</span></a></li><li class="menu-list-item   pos-last "><a href="http://www.peakscientific.jp/learn/hydrogen-and-on-site-gas-generators/"  title=""><span>水素発生装置について </span></a></li></ul></li><li class="menu-list-item   pos-last  active "><a href="http://www.peakscientific.jp/contact/"  title="Contact"><span>お問い合わせ </span></a><ul class="menu-list sub-level"><li class="menu-list-item   pos-first  active "><a href="http://www.peakscientific.jp/contact/"  title=""><span>お問い合わせ</span></a></li><li class="menu-list-item   pos-2 "><a href="http://www.peakscientific.jp/quote-request/"  title=""><span>購入手段    </span></a></li><li class="menu-list-item   pos-3 "><a href="http://www.peakscientific.jp/support/technical-and-support-contact/"  title=""><span>カスタマーサポート</span></a></li><li class="menu-list-item   pos-4 "><a href="http://www.peakscientific.jp/customer-feedback-form/"  title=""><span>お客様のフィードバック </span></a></li><li class="menu-list-item   pos-last "><a href="http://www.peakscientific.jp/offices/"  title="Our Locations"><span>事務所所在地 </span></a></li></ul></li></ul>    <a href="#top" id="nav-close-btn" class="nav-btn close-mobile-nav"><i class="fa fa-times"></i> Close</a>
+</div>
+
+    <!-- LOADER -->
+    <div class="jsLoading">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+        <div class="rect6"></div>
+    </div>
+
+    <script type="text/javascript" src="http://www.peakscientific.jp/Themes/999/Scripts/respond.min.js"></script>       
+    <script type="text/javascript" src="http://www.peakscientific.jp/Themes/999/Scripts/slideout-min.js"></script> 
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
+    <script src="http://www.peakscientific.jp/Themes/999/Scripts/03.jquery.prettyPhoto.js"></script>
+    <script src="http://www.peakscientific.jp/Themes/999/Scripts/04.plugins-min.js"></script>
+   	<script src="http://www.peakscientific.jp/Themes/999/Scripts/05.main-min.js"></script>
+    <!--<script src="http://www.peakscientific.jp/Themes/999/Scripts/nav-min.js"></script>-->
+    <script src="http://www.peakscientific.jp/Themes/999/Scripts/jquery.history.js"></script>
+    <script src="http://www.peakscientific.jp/Themes/999/Scripts/jquery.responsiveTabs.min.js"></script>
+	<script src="http://www.peakscientific.jp/Themes/999/Scripts/jquery-ui-datepickeronly.min.js"></script>
+    </body>
+</html>

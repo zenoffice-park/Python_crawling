@@ -1,0 +1,833 @@
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html prefix="og: http://ogp.me/ns#" lang="en" id="top" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html prefix="og: http://ogp.me/ns#" lang="en" id="top" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html prefix="og: http://ogp.me/ns#" lang="en" id="top" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html prefix="og: http://ogp.me/ns#" lang="en" id="top" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html prefix="og: http://ogp.me/ns#" lang="en" id="top" class="no-js"> <!--<![endif]-->
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+<meta property="og:title" content="Maria Nila">
+<meta property="og:type"  content="website">
+<meta property="og:url"   content="https://marianila.com/">
+<meta property="og:image" content="https://marianila.com/skin/frontend/marianila/default/images/maria-nila-logo-large.png">
+<meta property="og:description" content="Welcome to Maria Nila! Shop and view the latest haircare och styling products from the official Maria nila website.">
+
+<meta name="description" content="Welcome to Maria Nila! Shop and view the latest haircare och styling products from the official Maria nila website.">
+<meta name="keywords" content="">
+<meta name="robots" content="INDEX,FOLLOW">
+
+<title>Maria Nila</title>
+<link rel="icon" href="https://marianila.com/skin/frontend/marianila/default/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="https://marianila.com/skin/frontend/marianila/default/images/favicon.ico" type="image/x-icon">
+
+<link rel='alternate' hreflang='en' href='http://marianila.com/en/'><link rel='alternate' hreflang='en' href='http://marianila.com/se_en/'><link rel='alternate' hreflang='en' href='http://marianila.com/us/'><link rel='alternate' hreflang='sv' href='http://marianila.com/se/'><link rel='alternate' hreflang='de' href='http://marianila.com/de/'><link rel='alternate' hreflang='cs' href='http://marianila.com/cz/'>
+
+<script>
+var magentoSettings = JSON.parse('{\"page\":\"home\"}');
+</script>
+
+<script type="text/javascript">
+    var BLANK_URL = 'https://marianila.com/js/blank.html';
+    var BLANK_IMG = 'https://marianila.com/js/spacer.gif';
+    var BASE_URL = 'http://marianila.com/se_en/cms/';
+    var SKIN_URL = 'https://marianila.com/skin/frontend/marianila/hawkeye/';
+    var FORM_KEY = '';
+    var CURRENCY = 'SEK';
+    var LAYOUT_HANDLE = ["default","cms_page","STORE_se_en","THEME_frontend_marianila_hawkeye","cms_index_index","marianilaFront","customer_logged_out"];
+</script>
+
+<link rel="stylesheet" type="text/css" href="https://marianila.com/skin/frontend/base/default/css/vaimo/klarna/global.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://marianila.com/skin/frontend/marianila/hawkeye/css/build/deploy_1531225002348.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://marianila.com/skin/frontend/marianila/default/css/ie.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://marianila.com/skin/frontend/marianila/hawkeye/css/print.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://marianila.com/skin/frontend/marianila/hawkeye/css/vendor/lybe_livecart/livecart.css" media="all" />
+<script type="text/javascript" src="https://marianila.com/js/prototype/prototype.js"></script>
+<script type="text/javascript" src="https://marianila.com/js/lib/jquery/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://marianila.com/js/lib/jquery/noconflict.js"></script>
+<script type="text/javascript" src="https://marianila.com/js/lib/ccard.js"></script>
+<script type="text/javascript" src="https://marianila.com/js/prototype/validation.js"></script>
+<script type="text/javascript" src="https://marianila.com/js/scriptaculous/builder.js"></script>
+<script type="text/javascript" src="https://marianila.com/js/scriptaculous/effects.js"></script>
+<script type="text/javascript" src="https://marianila.com/js/scriptaculous/dragdrop.js"></script>
+<script type="text/javascript" src="https://marianila.com/js/scriptaculous/controls.js"></script>
+<script type="text/javascript" src="https://marianila.com/js/scriptaculous/slider.js"></script>
+<script type="text/javascript" src="https://marianila.com/js/varien/js.js"></script>
+<script type="text/javascript" src="https://marianila.com/js/varien/form.js"></script>
+<script type="text/javascript" src="https://marianila.com/js/mage/translate.js"></script>
+<script type="text/javascript" src="https://marianila.com/js/mage/cookies.js"></script>
+<script type="text/javascript" src="https://marianila.com/js/et/currencymanager/et_currencymanager_round.js"></script>
+<script type="text/javascript" src="https://marianila.com/skin/frontend/rwd/default/js/lib/selectivizr.js"></script>
+<script type="text/javascript" src="https://marianila.com/skin/frontend/rwd/default/js/lib/matchMedia.js"></script>
+<script type="text/javascript" src="https://marianila.com/skin/frontend/rwd/default/js/lib/matchMedia.addListener.js"></script>
+<script type="text/javascript" src="https://marianila.com/skin/frontend/rwd/default/js/lib/enquire.js"></script>
+<script type="text/javascript" src="https://marianila.com/skin/frontend/rwd/default/js/lib/imagesloaded.js"></script>
+<script type="text/javascript" src="https://marianila.com/skin/frontend/marianila/hawkeye/js/build/deploy_1531225002225.js"></script>
+<script type="text/javascript" src="https://marianila.com/skin/frontend/marianila/default/js/min/libs-min.js"></script>
+<script type="text/javascript" src="https://marianila.com/skin/frontend/base/default/js/lybe/jquery.number.js" name="lybe_livecart-001"></script>
+<script type="text/javascript" src="https://marianila.com/skin/frontend/base/default/js/lybe/offlinecart.js" name="lybe_livecart-002"></script>
+<script type="text/javascript" src="https://marianila.com/skin/frontend/marianila/hawkeye/js/script.js" name="marianila-scripts-001"></script>
+<!--[if (gte IE 9) | (IEMobile)]><!-->
+<link rel="stylesheet" type="text/css" href="https://marianila.com/skin/frontend/marianila/hawkeye/css/styles.css" media="all" />
+<!--<![endif]-->
+
+
+
+<script type="text/javascript">
+    //Fieldset.addToPrefix();
+</script>
+
+<script type="text/javascript">//<![CDATA[
+        var Translator = new Translate([]);
+        //]]></script>
+<script type="text/javascript">
+//<![CDATA[
+Mage.Cookies.path     = '/';
+Mage.Cookies.domain   = '.marianila.com';
+//]]>
+</script>
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<script type="text/javascript">
+    etCurrencyManagerJsConfig ={"precision":2,"position":32,"display":2,"zerotext":"","excludecheckout":"1","cutzerodecimal":"0","cutzerodecimal_suffix":"","min_decimal_count":"2"};
+    try {
+        extendProductConfigformatPrice();
+    } catch (e) {
+
+    }
+</script>            <!-- BEGIN GOOGLE ANALYTICS CODE -->
+        <script type="text/javascript">
+        //<![CDATA[
+            var _gaq = _gaq || [];
+            
+_gaq.push(['_setAccount', 'UA-56884929-1']);
+
+_gaq.push(['_trackPageview']);
+            
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+        //]]>
+        </script>
+        <!-- END GOOGLE ANALYTICS CODE -->
+    
+<!-- Facebook Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window,document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '1706101789463964'); 
+    fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" src="https://www.facebook.com/tr?id=1706101789463964&ev=PageView&noscript=1"/></noscript>
+<!-- End Facebook Pixel Code -->
+</head>
+
+<body class=" cms-index-index se-en se-en cms-home">
+    <div class="loading-screen">
+	
+	<div class="loading-screen-inner loading-screen-spinner">
+		<div class="mn-icon-logo loading-icon mn-spinner"></div>
+		<p class="loading-text">Loading</p>
+	</div>
+
+	<div class="loading-screen-inner loading-screen-browser-notice">
+    	<img src="https://marianila.com/skin/frontend/marianila/default/images/maria-nila-logo.png" alt="Maria Nila" class="large">
+        <p>Your browser is too old! Please upgrade to a more recent version of <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">Internet Explorer</a>, or get <a href="http://www.google.com/chrome/">Chrome</a> or <a href="http://www.firefox.com">Firefox</a>, before using this site.</p>
+    </div>
+
+</div>            <div class="page">
+        
+<header class="main-header js-header">
+    
+            <section class="newsletter-popup">
+            <a href="#" class="js-close mn-icon-close close"></a>
+            <p>Sign up to receive news about Maria Nila products, news and sales.</p>
+            <form action="//marianila.us9.list-manage.com/subscribe/post?u=605f38e66ee07434f87680846&amp;id=6e30fe158c" method="post" id="mc-embedded-subscribe-form-popup" name="mc-embedded-subscribe-form-popup" class="validate login-fields" target="_blank" novalidate>
+                <div id="mce-responses-popup">
+                    <div class="response" id="mce-error-response-popup" style="display:none"></div>
+                    <div class="response" id="mce-success-response-popup" style="display:none"></div>
+                </div>
+                <label for="mce-EMAIL-POPUP">Email address*</label>
+                <input type="email" value="" name="EMAIL" class="required email popup-subscribe-input" id="mce-EMAIL-POPUP" placeholder="Enter your email">
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;"><input type="text" name="b_605f38e66ee07434f87680846_6e30fe158c" tabindex="-1" value=""></div>
+                
+                <div class="newsletter-submit"><input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe-popup" class="button popup-subscribe-submit"></div>
+            </form>
+        </section>
+            
+    <div class="inner-header js-inner-header">
+        <div class="mobile-top-menu">
+            <div class="mobile-logo">
+                <a href="http://marianila.com/se_en/">
+                    <img srcset="https://marianila.com/skin/frontend/marianila/hawkeye/images/logo-mobile@2x.png 2x" src="https://marianila.com/skin/frontend/marianila/hawkeye/images/logo-mobile.png" alt="Maria Nila" class="small">
+                </a>
+            </div>
+            <div class="mobile-menu-items js-mobile-menu">
+                <a href="#" class="mobile-menu-item mn-icon-hamburger" data-menu="main-menu"></a>
+                <a href="#" class="mobile-menu-item mn-icon-find" data-menu="categories"></a>
+                <a href="#" class="mobile-menu-item mn-icon-cart mobile-menu-cart" data-menu="links">
+                    <span class="count-wrapper"><span class="count"></span></span>
+                </a>
+            </div>
+        </div>
+
+        <nav class="header-links mobile-submenu js-mobile-submenu mobile-submenu-links">
+            <ul>
+                <li class="language-switcher-wrapper">
+                                                            <form style="display: inline;" id="language-switcher-form" action="https://marianila.com/" method="post" accept-charset="utf-8">
+                        <script type="text/javascript" charset="utf-8">
+                        (function($){
+                            $('#language-switcher-form').on('change', function(){
+                                $(this).submit();
+                            });
+                        }(jQuery));
+                        </script>
+                        <select id="language-switcher" name="language-switcher" size="1" value="se_en">
+                            <option value="se_en">English</option>
+                                                                                                                                                        <option value="se">Svenska</option>
+                                                                                    </select>
+                    </form>
+                    <!-- END: @TODO render this from... (separate module template) -->
+
+                </li>
+
+                <li class="top-link-cart-wrapper">
+                    <a href="#" 
+                        title="Cart" 
+                        class="top-link-cart">
+                        <span class="label" data-alter-label="*** data-alter-label ***">Cart</span>
+                        <span class="count-wrapper">(<span class="count"></span>)</span>
+                    </a>
+                    
+<div class="mini-cart-wrapper">
+    <div class="mini-cart">
+
+        
+        <form id="livecart-submit-to-checkout-form" action="https://marianila.com/se_en/livecart/index/checkout" method="POST">
+
+            <input type="hidden"
+                   value=""
+                   name="lybe_livecart_data"
+                   id="livecart-data">
+
+            <button type="submit"
+                    value="1"
+                    name="submit_to_checkout"
+                    class="livecart-checkout">Proceed to Payment</button>
+
+        </form>
+
+                            <button id="clear-cart">reset cart</button>
+                    
+
+        <div class="rows">
+        
+
+    
+        </div>
+                                
+        
+        <div class="livecart-total" data-total="0">
+            <span class="info">Shipping costs: <strong class="cost"></strong></span>
+            <span class="total">
+                To be paid <strong class="livecart-total-price">SEK 0.00</strong>
+            </span>
+        </div>
+    </div>
+</div>
+                </li>
+                
+                
+                <!-- <li class="mobile-checkout"><a href=""></a></li> -->
+            </ul>
+        </nav>
+
+        <nav class="main-menu mobile-submenu js-mobile-submenu mobile-submenu-main-menu">
+            <ul>
+                <li class="menu-item shop level1 dropdown"><a href="http://marianila.com/se_en/shop" class="trigger">Shop</a><div class="content"><ul class="level1 menu-items"><li class=""><h3>Hair Care<i class="mn-icon-plus mobile-only"></i></h3><ul class="level2"><a href="http://marianila.com/se_en/shop/hair-care">All Hair Care</a><li class=""><a href="http://marianila.com/se_en/shop/hair-care/head-and-hair-heal" >Head &amp; Hair Heal</a></li><li class=""><a href="http://marianila.com/se_en/shop/hair-care/true-soft" >True Soft</a></li><li class=""><a href="http://marianila.com/se_en/shop/hair-care/pure-volume" >Pure Volume</a></li><li class=""><a href="http://marianila.com/se_en/shop/hair-care/structure-repair" >Structure Repair</a></li><li class=""><a href="http://marianila.com/se_en/shop/hair-care/luminous-colour" >Luminous Colour</a></li><li class=""><a href="http://marianila.com/se_en/shop/hair-care/sheer-silver" >Sheer Silver</a></li></ul></li><li class=""><h3>Colour<i class="mn-icon-plus mobile-only"></i></h3><ul class="level2"><a href="http://marianila.com/se_en/shop/colour">All Colour</a><li class=""><a href="http://marianila.com/se_en/shop/colour/colour-refresh" >Colour Refresh</a></li></ul></li><li class=""><h3>Styling<i class="mn-icon-plus mobile-only"></i></h3><ul class="level2"><a href="http://marianila.com/se_en/shop/styling">All Styling</a><li class=""><a href="http://marianila.com/se_en/shop/styling/style-finish" >Style &amp; Finish</a></li></ul></li><li class=""><h3>Wax<i class="mn-icon-plus mobile-only"></i></h3><ul class="level2"><a href="http://marianila.com/se_en/shop/wax">All Wax</a><li class=""><a href="http://marianila.com/se_en/shop/wax/minerals" >Minerals</a></li></ul></li><li class=""><h3>Soaps<i class="mn-icon-plus mobile-only"></i></h3><ul class="level2"><a href="http://marianila.com/se_en/shop/soaps">All Soaps</a><li class=""><a href="http://marianila.com/se_en/shop/soaps/maria-nila-soap" >Maria Nila Soaps</a></li></ul></li></ul><div class="menu-info">
+    <h2 class="title">I CHOOSE FRIENDLY!</h2>
+    <div class="summary">100% vegan haircare, <br />developed & produced in Sweden</div>
+    <img srcset="https://marianila.com/media/wysiwyg/trustmarks/certifications_2x.png 2x" src="https://marianila.com/media/wysiwyg/trustmarks/certifications.png" />
+    <div class="details">
+        <h4>Registered with</h4>
+        <span>LEAPING BUNNY | PETA | VEGAN SOCIETY</span>
+    </div>
+</div></li><li class="menu-item">
+    <a href="http://marianila.com/se_en/bli-aterforsaljare/">
+        <span>Retailer</span>
+    </a>
+</li>
+<li class="menu-item">
+    <a href="http://marianila.com/se_en/contact/">
+        <span>Contact</span>
+    </a>
+</li>
+<li class="menu-item">
+    <a href="http://marianila.com/se_en/about/">
+        <span>About</span>
+    </a>
+</li>                <li class="logo-wrapper">
+                    <a class="" href="http://marianila.com/se_en/">
+                        <h1>
+                            <img srcset="https://marianila.com/skin/frontend/marianila/hawkeye/images/logo-desktop@2x.png 2x" src="https://marianila.com/skin/frontend/marianila/hawkeye/images/logo-desktop@2x.png" alt="Maria Nila" class="large">
+                        </h1>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="mobile-submenu js-mobile-submenu mobile-submenu-categories">
+            
+<div class="header-search">
+    <form id="search_mini_form" action="https://marianila.com/se_en/catalogsearch/result/" method="get">
+        <input id="search" type="search" name="q" value="" class="input-text required-entry" maxlength="128" placeholder="What are you looking for?" data-placeholder-mobile="What are you looking for?" data-placeholder-desktop="Search">
+        <span class="search-icon">d</span>
+        <div id="search_autocomplete" class="search-autocomplete"></div>
+
+        <script type="text/javascript">
+        //<![CDATA[
+            var searchForm = new Varien.searchForm('search_mini_form', 'search', '');
+            searchForm.initAutocomplete('https://marianila.com/se_en/catalogsearch/ajax/suggest/', 'search_autocomplete');
+        //]]>
+        </script>
+    </form>
+</div>        </div>
+    </div>
+</header>
+
+        <div class="main-container col1-layout">
+            <div class="main">
+                                <div class="col-main">
+
+                    
+<figure class="hero">
+    <picture>
+        <source
+            media="(min-width: 680px)"
+            srcset="https://marianila.com/media/wysiwyg/hero/hero-desktop.png 1x, https://marianila.com/media/wysiwyg/hero/hero-desktop_2x.png 2x" />
+                <source
+            srcset="https://marianila.com/media/wysiwyg/hero/hero-mobile.png 1x, https://marianila.com/media/wysiwyg/hero/hero-mobile_2x.png 2x" />
+                <img src="https://marianila.com/media/wysiwyg/hero/hero-desktop.png">
+    </picture>
+    <figcaption></figcaption>
+</figure>
+
+                    <div class="banners"><div><figure class="banner center-caption"><a href="http://marianila.com/se_en/shop/hair-care/">
+    <img srcset="https://marianila.com/media/wysiwyg/banners/banner_b_2x.png 2x" src="https://marianila.com/media/wysiwyg/banners/banner_b.png" alt="" />
+    <figcaption class="caption-top">
+        DISCOVER
+        <span class="subcaption">CARE & STYLE</span>
+    </figcaption>
+</a></figure>
+</div>
+<div class="desktop-only"><figure class="banner center-caption"><a href="http://marianila.com/se_en/shop/colour/colour-refresh/">
+    <img srcset="https://marianila.com/media/wysiwyg/banners/banner_c_2x.png 2x" src="https://marianila.com/media/wysiwyg/banners/banner_c.png" alt="" />
+    <figcaption class="caption-top">
+        DISCOVER
+        <span class="subcaption">COLOUR REFRESH</span>
+    </figcaption>
+</a></figure>
+</div>
+<div><figure class="banner center-caption"><a href="http://marianila.com/se_en/shop/styling/style-finish/">
+  <img srcset="https://marianila.com/media/wysiwyg/banners/banner_d_2x.png 2x" src="https://marianila.com/media/wysiwyg/banners/banner_d.png" alt="" />
+  <figcaption class="caption-top">
+      DISCOVER
+      <span class="subcaption">STYLE & FINISH</span>
+  </figcaption>
+</a></figure>
+</div>
+<div><figure class="banner center-caption"><a href="http://marianila.com/se_en/shop/wax/minerals/">
+  <img srcset="https://marianila.com/media/wysiwyg/banners/banner_e.jpg 2x" src="https://marianila.com/media/wysiwyg/banners/banner_e.jpg" alt="" />
+  <figcaption class="caption-top">
+      DISCOVER
+      <span class="subcaption">MINERALS</span>
+  </figcaption>
+</a></figure>
+</div></div>
+
+                    <div class="wrapper">
+                        <div class="std"><div class="new-products products-grid">
+        <h2 class="title">Bestsellers</h2>
+
+        <ul class="products">
+                    <li class="item">
+
+                <a href="http://marianila.com/se_en/ocean-spray" 
+                    title="Style &amp; Finish: Ocean Spray" 
+                    class="product-image">
+                        <img class="lazy lazy-min-height" data-original-set="//marianila.com/media/catalog/product/cache/5/small_image/610x866/9df78eab33525d08d6e5fb8d27136e95/s/_/s_f_3855.png 2x" data-original="//marianila.com/media/catalog/product/cache/5/small_image/305x433/9df78eab33525d08d6e5fb8d27136e95/s/_/s_f_3855.png" alt="Style & Finish: Ocean Spray" title="Style & Finish: Ocean Spray" />                </a>
+                
+                <h3 class="product-name">
+                    <a href="http://marianila.com/se_en/ocean-spray" 
+                        title="Style &amp; Finish: Ocean Spray)">
+                        
+                        Style &amp; Finish: Ocean Spray                    </a>
+                </h3>
+
+                
+                
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-209-widget-new-grid">
+                                            <span class="price">SEK 229.00</span>                                    </span>
+                        
+        </div>
+
+                
+                
+            </li>
+                    <li class="item">
+
+                <a href="http://marianila.com/se_en/invisidry-shampoo" 
+                    title="Style &amp; Finish: Invisidry Shampoo" 
+                    class="product-image">
+                        <img class="lazy lazy-min-height" data-original-set="//marianila.com/media/catalog/product/cache/5/small_image/610x866/9df78eab33525d08d6e5fb8d27136e95/s/_/s_f_3830.png 2x" data-original="//marianila.com/media/catalog/product/cache/5/small_image/305x433/9df78eab33525d08d6e5fb8d27136e95/s/_/s_f_3830.png" alt="Style & Finish: Invisidry Shampoo" title="Style & Finish: Invisidry Shampoo" />                </a>
+                
+                <h3 class="product-name">
+                    <a href="http://marianila.com/se_en/invisidry-shampoo" 
+                        title="Style &amp; Finish: Invisidry Shampoo)">
+                        
+                        Style &amp; Finish: Invisidry Shampoo                    </a>
+                </h3>
+
+                
+                
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-207-widget-new-grid">
+                                            <span class="price">SEK 229.00</span>                                    </span>
+                        
+        </div>
+
+                
+                
+            </li>
+                    <li class="item">
+
+                <a href="http://marianila.com/se_en/pearl-silver" 
+                    title="Pearl Silver 0.20" 
+                    class="product-image">
+                        <img class="lazy lazy-min-height" data-original-set="//marianila.com/media/catalog/product/cache/5/small_image/610x866/9df78eab33525d08d6e5fb8d27136e95/c/_/c_r_3706_pearl_silver_300_ml_1.jpg 2x" data-original="//marianila.com/media/catalog/product/cache/5/small_image/305x433/9df78eab33525d08d6e5fb8d27136e95/c/_/c_r_3706_pearl_silver_300_ml_1.jpg" alt="Pearl Silver 0.20" title="Pearl Silver 0.20" />                </a>
+                
+                <h3 class="product-name">
+                    <a href="http://marianila.com/se_en/pearl-silver" 
+                        title="Pearl Silver 0.20)">
+                        
+                        Pearl Silver 0.20                    </a>
+                </h3>
+
+                
+                
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-82-widget-new-grid">
+                                            <span class="price">SEK 259.00</span>                                    </span>
+                        
+        </div>
+
+                
+                
+            </li>
+                    <li class="item">
+
+                <a href="http://marianila.com/se_en/heal-shampoo-350-ml" 
+                    title="Head &amp; Hair Heal: Shampoo" 
+                    class="product-image">
+                        <img class="lazy lazy-min-height" data-original-set="//marianila.com/media/catalog/product/cache/5/small_image/610x866/9df78eab33525d08d6e5fb8d27136e95/c/_/c_s_3650_heal_shampoo_350_ml.jpg 2x" data-original="//marianila.com/media/catalog/product/cache/5/small_image/305x433/9df78eab33525d08d6e5fb8d27136e95/c/_/c_s_3650_heal_shampoo_350_ml.jpg" alt="Head & Hair Heal: Shampoo" title="Head & Hair Heal: Shampoo" />                </a>
+                
+                <h3 class="product-name">
+                    <a href="http://marianila.com/se_en/heal-shampoo-350-ml" 
+                        title="Head &amp; Hair Heal: Shampoo)">
+                        
+                        Head &amp; Hair Heal: Shampoo                    </a>
+                </h3>
+
+                
+                
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-161-widget-new-grid">
+                                            <span class="price">SEK 269.00</span>                                    </span>
+                        
+        </div>
+
+                
+                
+            </li>
+                </ul>
+
+    </div></div>                    </div>
+                    
+                    <div class="instagram"><h2 class="title">Shop The Look</h2>
+<div class="instagram-blocks">
+<figure class="instagram-block center-caption"><a href="http://marianila.com/se_en/shop-the-look-1/">
+    <img srcset="https://marianila.com/media/wysiwyg/instagram/instagram-1_2x.png 2x" src="https://marianila.com/media/wysiwyg/instagram/instagram-1.png" alt="" />
+</a></figure>
+
+<figure class="instagram-block center-caption"><a href="http://marianila.com/se_en/shop-the-look-2/">
+    <img srcset="https://marianila.com/media/wysiwyg/instagram/instagram-2_2x.png 2x" src="https://marianila.com/media/wysiwyg/instagram/instagram-2.png" alt="" />
+</a></figure>
+
+<figure class="instagram-block center-caption"><a href="http://marianila.com/se_en/pink-pop-300-ml/">
+    <img srcset="https://marianila.com/media/wysiwyg/instagram/instagram-3_2x.png 2x" src="https://marianila.com/media/wysiwyg/instagram/instagram-3.png" alt="" />
+</a></figure>
+
+<figure class="instagram-block center-caption"><a href="http://marianila.com/se_en/shop-the-look-4/">
+    <img srcset="https://marianila.com/media/wysiwyg/instagram/instagram-4_2x.png 2x" src="https://marianila.com/media/wysiwyg/instagram/instagram-4.png" alt="" />
+</a></figure>
+
+<figure class="instagram-block center-caption"><a href="http://marianila.com/se_en/shop-the-look-5/">
+    <img srcset="https://marianila.com/media/wysiwyg/instagram/instagram-5_2x.png 2x" src="https://marianila.com/media/wysiwyg/instagram/instagram-5.png" alt="" />
+</a></figure>
+
+<figure class="instagram-block center-caption"><a href="http://marianila.com/se_en/shop-the-look-6/">
+    <img srcset="https://marianila.com/media/wysiwyg/instagram/instagram-6_2x.png 2x" src="https://marianila.com/media/wysiwyg/instagram/instagram-6.png" alt="" />
+</a></figure>
+
+<figure class="instagram-block center-caption"><a href="http://marianila.com/se_en/shop-the-look-7/">
+    <img srcset="https://marianila.com/media/wysiwyg/instagram/instagram-7_2x.png 2x" src="https://marianila.com/media/wysiwyg/instagram/instagram-7.png" alt="" />
+</a></figure>
+
+<figure class="instagram-block center-caption"><a href="http://marianila.com/se_en/shop-the-look-8/">
+    <img srcset="https://marianila.com/media/wysiwyg/instagram/instagram-8_2x.png 2x" src="https://marianila.com/media/wysiwyg/instagram/instagram-8.png" alt="" />
+</a></figure>
+
+</div></div>
+
+                    
+                </div>
+            </div>
+        </div>
+                <div class="footer-container">
+    <footer class="main-footer">
+    	<div class="wrapper">
+			<div class="col">
+				<nav class="footer-menu cat">
+					<h3 class="footer-heading">All categories</h3>
+					<ul><li><a href='http://marianila.com/se_en/shop/hair-care/head-and-hair-heal'>Head & Hair Heal</a></li><li><a href='http://marianila.com/se_en/shop/hair-care/true-soft'>True Soft</a></li><li><a href='http://marianila.com/se_en/shop/hair-care/pure-volume'>Pure Volume</a></li><li><a href='http://marianila.com/se_en/shop/hair-care/structure-repair'>Structure Repair</a></li><li><a href='http://marianila.com/se_en/shop/hair-care/luminous-colour'>Luminous Colour</a></li></ul>				</nav>
+			</div>
+			<div class="col">
+				<nav class="footer-menu cat">
+					<ul><li><a href='http://marianila.com/se_en/shop/hair-care/sheer-silver'>Sheer Silver</a></li><li><a href='http://marianila.com/se_en/shop/colour/colour-refresh'>Colour Refresh</a></li><li><a href='http://marianila.com/se_en/shop/styling/style-finish'>Style & Finish</a></li><li><a href='http://marianila.com/se_en/shop/wax/minerals'>Minerals</a></li><li><a href='http://marianila.com/se_en/shop/soaps/maria-nila-soap'>Maria Nila Soaps</a></li></ul>				</nav>
+			</div>
+			<div class="col">
+				<nav class="footer-menu main">
+					<h3 class="footer-heading">Menu</h3>
+					<ul>
+<li><a href="http://marianila.com/se_en/about">About</a></li>
+<li><a href="http://marianila.com/se_en/for-salons">For salons</a></li>
+<li><a href="http://marianila.com/se_en/press">Press</a></li>
+<li><a href="http://marianila.com/se_en/contact">Contact</a></li>
+<li><a href="http://marianila.com/se_en/faq">F.A.Q</a></li>
+<li><a href="http://marianila.com/se_en/shipping-information">Shipping Information</a></li>
+<li><a href="http://marianila.com/se_en/terms-conditions">Terms &amp; Conditions</a></li>
+<li><a href="http://marianila.com/se_en/privacy-policy">Privacy Policy</a></li>
+</ul>				</nav>
+			</div>
+			<div class="col">
+
+				<div class="social">
+					<h3 class="footer-heading">Follow us</h3>
+
+					<ul>
+						<li>
+							<a class="follow" href="https://www.facebook.com/marianilastockholm" target="_blank" title="Facebook">
+								<span class="screen-reader-hidden">Facebook</span>
+								<div class="hover-icon mn-icon-facebook"></div>
+								<div class="hover-icon mn-icon-facebook-opq"></div>
+							</a>
+						</li>
+						<li>
+							<a class="follow" href="#" target="_blank" title="Twitter">
+								<span class="screen-reader-hidden">Twitter</span>
+								<div class="hover-icon mn-icon-twitter"></div>
+								<div class="hover-icon mn-icon-twitter-opq"></div>
+							</a>
+						</li>
+						<li>
+							<a class="follow" href="http://instagram.com/marianilastockholm" target="_blank" title="Instagram">
+								<span class="screen-reader-hidden">Instagram</span>
+								<div class="hover-icon mn-icon-instagram"></div>
+								<div class="hover-icon mn-icon-instagram-opq"></div>
+							</a>
+						</li>
+					</ul>
+
+				</div>
+
+				<div class="block-subscribe">
+					<form action="//marianila.us9.list-manage.com/subscribe/post?u=605f38e66ee07434f87680846&amp;id=b8d998449c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						<h3 class="footer-heading subscribe-heading">Subscribe to our newsletter</h3>
+
+						<div id="mce-responses">
+							<div class="response" id="mce-error-response" style="display:none"></div>
+							<div class="response" id="mce-success-response" style="display:none"></div>
+						</div>
+						<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+						<div style="position: absolute; left: -5000px;"><input type="text" name="b_605f38e66ee07434f87680846_b8d998449c" tabindex="-1" value=""></div>
+						<div class="inputs-wrap" style="white-space:nowrap;">
+							<input type="email" value="" name="EMAIL" class="required email footer-subscribe-input" id="mce-EMAIL" placeholder="Enter your email">
+							<input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button inverted footer-subscribe-submit">
+						</div>
+					</form>
+				</div>
+
+				<hr>
+				<div class="payment-logos">
+					<a href="https://www.visa.com" title="Visa" class="payment-visa" target="_blank">
+						<span class="screen-reader-hidden">Visa</span>
+						<img src="https://marianila.com/skin/frontend/marianila/default/images/visa.png" alt="Visa">
+					</a>
+					<a href="https://klarna.com/" title="Klarna" class="payment-klarna" target="_blank">
+						<span class="screen-reader-hidden">Klarna</span>
+						<img src="https://marianila.com/skin/frontend/marianila/default/images/klarna.png" alt="Klarna">
+					</a>
+					<a href="https://www.paypal.com" title="PayPal" class="payment-paypal" target="_blank">
+						<span class="screen-reader-hidden">PayPal</span>
+						<img src="https://marianila.com/skin/frontend/marianila/default/images/paypal.png" alt="PayPal">
+					</a>
+				</div>
+			</div>
+		</div>
+
+    </footer>
+
+    <footer class="copyright-footer">
+    	<span class="made-by"><a href="http://lybe.se" title="Made by Lybe" target="_blank"></a></span>
+		<span class="copy">© 2018 MARIA NILA AB 556298-9540</span> 		<span class="mail"><a href="mailto:contact@marianila.com" title="">contact@marianila.com</a></span>
+	</footer>
+</div>
+        
+<script>
+    var BASE_URL='https://marianila.com/se_en/';
+</script>
+
+<input type="hidden"
+    id="lybe-currency"
+    value="SEK " />
+
+
+<script>
+// ====================
+// = Live Cart Config =
+// ====================
+
+// Refer to https://gist.github.com/remy/350433
+try {
+    // Test webstorage existence.
+//    if (!window.localStorage || !window.sessionStorage) throw "exception";
+    if (!window.localStorage) throw "exception";
+    // Test webstorage accessibility - Needed for Safari private browsing.
+    localStorage.setItem('storage_test', 1);
+    localStorage.removeItem('storage_test');
+} catch(e) {
+
+    if (window.console) {
+        console.log(e);
+    }
+
+    console.log('Storage polyfill engage!');
+
+    (function () {
+        var Storage = function (type) {
+            function createCookie(name, value, days) {
+                var date, expires;
+
+                if (days) {
+                    date = new Date();
+                    date.setTime(date.getTime()+(days*24*60*60*1000));
+                    expires = "; expires="+date.toGMTString();
+                } else {
+                    expires = "";
+                }
+                document.cookie = name+"="+value+expires+"; path=/";
+            }
+
+            function readCookie(name) {
+                var nameEQ = name + "=",
+                    ca = document.cookie.split(';'),
+                    i, c;
+
+                for (i=0; i < ca.length; i++) {
+                    c = ca[i];
+                    while (c.charAt(0)==' ') {
+                        c = c.substring(1,c.length);
+                    }
+
+                    if (c.indexOf(nameEQ) == 0) {
+                        return c.substring(nameEQ.length,c.length);
+                    }
+                }
+                return null;
+            }
+
+            function setData(data) {
+                // Convert data into JSON and encode to accommodate for special characters.
+                data = encodeURIComponent(JSON.stringify(data));
+                // Create cookie.
+                if (type == 'session') {
+                    createCookie(getSessionName(), data, 365);
+                } else {
+                    createCookie('localStorage', data, 365);
+                }
+            }
+
+            function clearData() {
+                if (type == 'session') {
+                    createCookie(getSessionName(), '', 365);
+                } else {
+                    createCookie('localStorage', '', 365);
+                }
+            }
+
+            function getData() {
+                // Get cookie data.
+                var data = type == 'session' ? readCookie(getSessionName()) : readCookie('localStorage');
+                // If we have some data decode, parse and return it.
+                return data ? JSON.parse(decodeURIComponent(data)) : {};
+            }
+
+            function getSessionName() {
+                // If there is no name for this window, set one.
+                // To ensure it's unquie use the current timestamp.
+                if(!window.name) {
+                    window.name = new Date().getTime();
+                }
+                return 'sessionStorage' + window.name;
+            }
+
+            // Initialise if there's already data.
+            var data = getData();
+
+            return {
+                length: 0,
+                clear: function () {
+                    data = {};
+                    this.length = 0;
+                    clearData();
+                },
+                getItem: function (key) {
+                    return data[key] === undefined ? null : data[key];
+                },
+                key: function (i) {
+                    // not perfect, but works
+                    var ctr = 0;
+                    for (var k in data) {
+                        if (ctr == i) return k;
+                        else ctr++;
+                    }
+                    return null;
+                },
+                removeItem: function (key) {
+                    delete data[key];
+                    this.length--;
+                    setData(data);
+                },
+                setItem: function (key, value) {
+                    data[key] = value+''; // forces the value to a string
+                    this.length++;
+                    setData(data);
+                }
+            };
+        };
+
+        // Replace window.localStorage and window.sessionStorage with out custom
+        // implementation.
+        var localStorage = new Storage('local');
+//        var sessionStorage = new Storage('session');
+        window.localStorage = localStorage;
+//        window.sessionStorage = sessionStorage;
+        // For Safari private browsing need to also set the proto value.
+        window.localStorage.__proto__ = localStorage;
+//        window.sessionStorage.__proto__ = sessionStorage;
+    })();
+}
+
+var liveCartConfig = {
+    storage: localStorage, //ajaxStorage,
+    logger: {
+        log: function (message) {
+            console.log(message);
+
+//            new Ajax.Request(BASE_URL + 'livecart/index/ajaxlog', {
+//                method: 'post',
+//                body: message,
+//                onSuccess: function (data) {
+//
+//                },
+//                onFailure: function () {
+//
+//                }
+//            });
+        },
+        info: function (message) {
+            console.info(message);
+        },
+        warn: function (message) {
+            console.warn(message);
+        },
+        error: function (message) {
+            console.error(message);
+        }
+    },
+//    formatter: new Product.OptionsPrice({"priceFormat":{"pattern":"SEK %s","precision":0,"requiredPrecision":0,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":1},"includeTax":"true","showIncludeTax":true,"showBothPrices":false,"idSuffix":"_clone","oldPlusDisposition":0,"plusDisposition":0,"plusDispositionTax":0,"oldMinusDisposition":0,"minusDisposition":0}),
+    cartName: 'livecart-marianila-1-se_en',
+    lastDeployTime: 1531450545,
+    beforeInit: function (cart) {
+        return cart;
+    },
+    afterInit: function (cart) {
+        // Check if we've deployed by checking the time
+        // If we've deployed, or we've clicked a button or something in backend, clear cart?
+        var data = cart.getData();
+
+        if (!data) {
+            return cart;
+        }
+
+        if (typeof data.lastDeployTime === 'undefined'
+            || !data.lastDeployTime
+            || data.lastDeployTime < cart.config.lastDeployTime) {
+
+            //return cart.reset();
+        }
+
+        return cart;
+    }
+};
+
+var priceConfigJson = {"priceFormat":{"pattern":"SEK %s","precision":0,"requiredPrecision":0,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":1},"includeTax":"true","showIncludeTax":true,"showBothPrices":false,"idSuffix":"_clone","oldPlusDisposition":0,"plusDisposition":0,"plusDispositionTax":0,"oldMinusDisposition":0,"minusDisposition":0};
+
+if (typeof Product !== 'undefined') {
+    liveCartConfig.formatter = new Product.OptionsPrice(priceConfigJson);
+} else {
+    liveCartConfig.formatter = {
+        formatPrice: function(price) {
+            return formatCurrency(price, priceConfigJson.priceFormat);
+        }
+    };
+}
+</script>
+    </div>
+<!--4b2e979fb2a727badf8866c2239957c2-->
+</body>
+</html>

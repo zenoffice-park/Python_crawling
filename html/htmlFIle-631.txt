@@ -1,0 +1,346 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>お問い合わせ｜CHALLEATH チャレアス</title>
+<meta name="description" content="お問い合わせです。CHALLEATH（チャレアス）は障がい者スポーツ＝チャレンジド・スポーツのニュースをはじめ、生活に役立つ情報を発信し、最新情報の他、参加方法や観覧方法をご案内する情報メディアです。">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script src="/js/jquery.js"></script>
+<script src="/js/rollover.js"></script>
+<script src="/js/scroll.js"></script>
+<script src="/js/jquery.ah-placeholder.js"></script>
+<script src="/js/def.js"></script>
+<link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="/css/default.css" rel="stylesheet" type="text/css">
+<link href="/css/style.css" rel="stylesheet" type="text/css">
+<link href="/css/navi.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+<script src="/js/html5shiv.js"></script>
+<script src="/js/IE9.js"></script>
+<link href="/css/ie8.css" rel="stylesheet" type="text/css">
+<![endif]-->
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://www.challeath.com/">
+<meta property="og:title" content="CHALLEATH チャレアス-障害者スポーツの情報メディア-">
+<meta property="og:description" content="CHALLEATH（チャレアス）は障がい者スポーツ＝チャレンジド・スポーツのニュースをはじめ、生活に役立つ情報を発信し、最新情報の他、参加方法や観覧方法をご案内する情報メディアです。選手＆ファンの増加を担う、メディア・プラットフォームを目指します。">
+<meta property="og:image" content="http://www.challeath.com/image/ogp.png">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<meta name="theme-color" content="#ffffff">
+
+
+<script type="text/javascript">
+<!--
+$(function() {
+  $('form').bind('submit', function(){
+    var fwords = $('#fwords');
+    var val = fwords.val();
+    var placeholder = fwords.attr('placeholder');
+    if(val == placeholder) {
+    	fwords.val('');
+    }
+  })
+});
+// -->
+</script>
+<script>
+<!-- headmenu -->
+$(function() { 
+            $('.switch').on('click', function() {
+                $(this).next().slideToggle(300);
+                $(this).toggleClass('active');
+            });
+});
+
+<!--  placeholder for IE9 and IE8 -->
+$(function()
+{
+    $('.jq-placeholder').ahPlaceholder({
+        placeholderColor : 'silver',
+        placeholderAttr  : 'title',
+        likeApple        : false
+    });
+});
+
+</script>
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-62186788-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+
+<body id="contact">
+    <header>
+  <div id="headm-cov">
+    <dl id="nav_off_menu">
+      <dd id="off01">&emsp;</dd>
+      <dd id="off02">
+        <h1><a href="/"><img class="tlogo" src="/image/logo.gif" alt="CHALLEATHEチャレアス"></a></h1>
+        <div id="btn-sp-loupe" class="sp"><img src="/image/icon_search_sp.png" width="30"></div>
+      </dd>
+      <dd id="off03">
+        <div id="search">
+          <form action="/search.php" method="post">
+            <input type="text" name="fwords" id="fwords" value="" class="kwords jq-placeholder" placeholder="Search" title="Search" />
+            <input type="image" src="/image/icon_search.jpg" class="loupe" alt="検索" />
+          </form>
+        </div>
+      </dd>
+    </dl>
+    <div id="headm">
+      <div class="switch"></div>
+      <div class="nav">
+        <dl id="nav_on_menu">
+          <dd id="on01">&emsp;</dd>
+          <dd id="on02"><a href="/"><img class="tlogo" src="/image/logo_on.png" alt="CHALLEATHEチャレアス"></a>
+         </dd>
+          <dd id="on03"><span class="link03-txt"><a href="http://www.capjt.com/about/" target="_blank" class="link-about"><img src="/image/txt_head01.png" alt="チャレンジド・アスリート・プロジェクトについて"></a><br>
+          <a href="/list.php?m=5" class="link-about"><img src="/image/txt_head02.png" alt="稲森寿世チャレアス応援活動記"></a>
+          </span>
+          
+          <a href="https://www.facebook.com/challeath" target="_blank" class="btn-sns opa"><img src="/image/icon_sns01.gif" alt="Facebookページ"></a><a href="https://twitter.com/CHALLEATH" target="_blank" class="btn-sns opa"><img src="/image/icon_sns02.gif" alt="Twitter"></a></dd>
+        </dl>
+        <ul id="gnav">
+          <li id="g01"><a href="/sports/">競技紹介</a></li>
+          <li id="g02"><a href="/search.php?mid=1">特集記事一覧</a></li>
+          <li id="g03"><a href="/search.php?mid=4">現地レポート一覧</a></li>
+          <li id="g04"><a href="/search.php?cid=50">お知らせ一覧</a></li>
+          <li id="g05"><a href="/search.php?mid=3">ライフ情報一覧</a></li>
+          <li id="g06"><a href="/calendar/">競技カレンダー</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+<section id="navi-sec">
+      <nav id="tnav">
+    <ul>
+      <li id="t01">
+		<a href="/sports/"><p>競技紹介<span>ATHLETIC EVENT</span></p></a>
+      </li>
+      <li id="t02">
+      	<a href="/search.php?mid=1"><p>特集<span>SPECIAL PROGRAM</span></p></a>
+      	</li>
+      <li id="t03">
+      	<a href="/search.php?mid=4"><p>現地レポート<span>LOCAL REPORT</span></p></a>
+      	</li>
+      <li id="t04">
+      	<a href="/search.php?cid=50"><p>お知らせ<span>INFORMATION</span></p></a>
+      	</li>
+      <li id="t05">
+      	<a href="/search.php?mid=3"><p>ライフ<span>LIFE TOPICS</span></p></a>
+      	</li>
+      <li id="t06">
+      	<a href="/calendar/"><p>競技カレンダー<span>GAMEE CALENDAR</span></p></a>
+      	</li>
+    </ul>
+  </nav>  
+</section>
+<div id="crumb-cov">
+	<div id="topic-path"><p class="box-cov"><a href="/">TOP</a> ＞ お問い合わせ</p></div>
+</div>
+
+<div id="contents">
+<section>
+
+<div class="ttl">
+<div class="wrapper">
+<h2>お問い合わせ</h2>
+<h3>CONTACT</h3>
+</div>
+</div>
+
+
+<ul id="form-flow-3" class="step1">
+	<li class="current">お客様情報の入力</li>
+	<li>入力内容の確認</li>
+	<li>送信完了</li>
+</ul>
+
+
+<div class="step">
+<dl>
+	<dt>お客様情報の入力</dt>	
+	<dd>入力内容の確認</dd>
+	<dd>送信完了</dd>	
+</dl>
+<img src="/image/fig_step_sp01.png" alt="" width="100%">
+
+</div>
+
+<div class="form-area">
+
+<p class="mb30">CHALLEATH（チャレアス）へお問い合わせ、誠にありがとうございます。<br>
+  下記フォームに必要事項をご記入の上、「入力内容を確認する」をクリックしてください。</p>
+
+
+	
+<form name="form1" id="form1" action="" method="post">
+<table class="mb60">
+  <tr>
+    <th>お問い合わせの種類<span class="req">必須</span></th>
+    <td>
+    <input type="radio" name="contact_type" value="1" class="radio" id="contact_type1"><label for="contact_type1"> CHALLEATH（チャレアス）について</label><br>
+    <input type="radio" name="contact_type" value="2" class="radio" id="contact_type2"><label for="contact_type2"> 記事内容について</label><br>
+    <input type="radio" name="contact_type" value="3" class="radio" id="contact_type3"><label for="contact_type3"> 取材依頼、記事掲載について</label><br>
+    <input type="radio" name="contact_type" value="4" class="radio" id="contact_type4"><label for="contact_type4"> 広告掲載のお問い合わせ</label><br>
+    <input type="radio" name="contact_type" value="5" class="radio" id="contact_type5"><label for="contact_type5"> その他</label>
+    </td>
+    </tr>
+  <tr>
+    <th>お名前（漢字）<span class="req">必須</span></th>
+    <td>
+    姓　
+    <input type="text" name="user_name_1" id="user_name_1" value="" class="width30 vam" maxlength="32">
+	  　名　
+	  <input type="text" name="user_name_2" id="user_name_2" value="" class="width30" maxlength="32">
+	  </td>
+  </tr>
+  <tr>
+    <th>お名前（かな）<span class="req">必須</span></th>
+    <td>
+    せい
+    <input type="text" name="user_name_kana_1" id="user_name_kana_1" value="" class="width30 vam" maxlength="32">
+		　めい
+    <input type="text" name="user_name_kana_2" id="user_name_kana_2" value="" class="width30" maxlength="32">
+	  </td>
+	</tr>
+  <tr>
+    <th>メールアドレス<span class="req">必須</span></th>
+    <td><input class="width80" name="mail_add" id="mail_add" value="" maxlength="128" type="email"></td>
+  </tr>
+  <tr>
+    <th>メールアドレス確認<span class="req">必須</span></th>
+    <td><input class="width80" name="mail_add_chk" id="mail_add_chk" value="" maxlength="128" type="email"></td>
+  </tr>
+  <tr>
+    <th>電話番号</th>
+    <td>
+    <input kl_virtual_keyboard_secure_input="on" class="width80" type="text" name="tel" id="tel" maxlength="12" value="">
+    <p class="small mt10">ハイフン「‐」は使用せずに入力してください。電話番号は、お仕事を依頼する際のみで利用いたします。</p>
+		</td>
+  </tr>
+  <tr>
+    <th>お問い合わせ内容<span class="req">必須</span></th>
+    <td><textarea name="comment" id="comment" rows="5" class="width80"></textarea></td>
+  </tr>
+</table>
+
+
+<p class="center mb20">個人情報の取り扱いについて、<a href="http://www.capjt.com/privacy/" target="_blank">個人情報保護方針</a>をご確認いただき、ご同意の上で送信ください。</p>
+<p class="center mb20"><input name="agree" type="checkbox" value="yes" id="agree"><label for="agree"> 当社の個人情報の取り扱いについて同意いたします。</label>
+</p>
+<p class="center"><input type="button" onclick="act_sub('form1', 'index_conf.php');" value="入力内容を確認する" class="button"></p>
+
+</form>
+</div><!--form-area-->
+
+
+</section>
+</div><!--contents-->
+
+
+<footer class="clearfix">
+  <nav>
+    <div id="tpt"><a href="#">ページの先頭へ戻る</a></div>
+    <p class="txt">※当プロジェクトでは、障がい者スポーツをチャレンジド・スポーツと呼んでおります。</p>
+    <!-- 1 -->
+    <div class="nav-1">
+      
+      <ul>
+        <li class="first"><a href="/sports/">チャレンジド・スポーツ 競技紹介</a></li>
+        <li><a href="/sports/athletics/">陸上（車いす競技含む）</a></li>
+        <li><a href="/sports/deaf-athletics/">聴覚障害（デフ）陸上</a></li>
+        <li><a href="/sports/wheelchair-basketball/">車いすバスケットボール</a></li>
+        <li><a href="/sports/wheelchair-tennis/">車いすテニス</a></li>
+        <li><a href="/sports/swimming/">水泳（身体・聴覚）</a></li>
+        <li><a href="/sports/judo/">視覚障害者柔道</a></li>
+        <li><a href="/sports/alpine-skiing_cross-country-skiing/">アルペンスキー／クロスカントリースキー</a></li>
+        <li><a href="/sports/paratriathlon/">パラトライアスロン</a></li>
+        <!--<li><a href="/sports/blind-soccer/">ブラインドサッカー</a></li>-->
+        <li><a href="/sports/football-7-a-side/">脳性まひ7人制サッカー</a></li>
+        <!--<li><a href="/sports/boccia/">ボッチャ</a></li>-->
+        <li><a href="/sports/ice-sledge-hockey/">アイススレッジホッケー</a></li>
+        <li><a href="/sports/amputee-football/">アンプティサッカー</a></li>
+        <li><a href="/sports/powerlifting/">パワーリフティング</a></li>
+        <li><a href="/sports/lawn-bowls/">ローンボウルズ</a></li>
+        <li><a href="/sports/deaf-table-tennis/">ろうあ者卓球</a></li>
+        <li><a href="/sports/deaf-orienteering/">デフオリエンテーリング</a></li>
+        <li><a href="/sports/badminton/">障がい者バドミントン</a></li>
+      </ul>
+     </div>
+    <!-- 2 -->
+    <div class="nav-2">
+           <ul>
+        <li class="first"><a href="/search.php?mid=1">特集記事一覧</a></li>
+              <li class="first"><a href="/search.php?mid=3">ライフ情報一覧</a></li>
+      </ul>
+      <ul>
+        <li class="first"><a href="/friendships/">フレンドシップ企業一覧</a></li>
+      </ul>
+      <ul>
+        <li class="first"><a href="/search.php?cid=50">運営事務局からのお知らせ</a></li>
+      </ul>
+    </div>
+    <!-- 3 -->
+    <div class="nav-3">
+      <ul>
+        <li class="first"><a href="/contact/">お問い合わせ</a></li>
+      </ul>
+      <ul>
+        <li class="first"><a href="/sitemap/">サイトマップ</a></li>
+        <li class="first"><a href="/privacy/">プライバシーポリシー</a></li>
+        <li class="first"><a href="https://elancia.co.jp/" target="_blank">運営者（株式会社エランシア）</a></li>
+      </ul>
+      <div>
+                <dl>
+          <dt class="center">TOKYOパラスポーツチャンネル<span class="subsc">配信元：公益社団法人 東京都障害者スポーツ協会</span></dt>
+          <dd><div class="center mb5"><a href="https://freshlive.tv/tokyo-parasports" target="_blank" class="opa"><img src="../../image/logo_tkopara.png" alt="TOKYOパラスポーツチャンネル"></a></div>
+            障がい者スポーツ（パラスポーツ）大会を実況・解説付きでライブ中継しています。是非、ご覧ください。</dd>
+          <dd class="more-foot"><a href="https://freshlive.tv/tokyo-parasports" target="_blank" class="opa"><img src="/image/txt_foot01.jpg" alt="詳細はこちら"></a></dd>
+        </dl>
+      </div>
+    </div>
+   </nav>
+  <div>
+    <div id="foot-bottom" class="center"><a href="http://twitter.com/share?text=%e3%83%81%e3%83%a3%e3%83%ac%e3%83%b3%e3%82%b8%e3%83%89%e3%83%bb%e3%82%b9%e3%83%9d%e3%83%bc%e3%83%84%e6%83%85%e5%a0%b1%e3%83%a1%e3%83%87%e3%82%a3%e3%82%a2%20CHALLEATH%ef%bc%88%e3%83%81%e3%83%a3%e3%83%ac%e3%82%a2%e3%82%b9%ef%bc%89&url=http%3a%2f%2fwww%2echalleath%2ejp%2f&via=CHALLEATH" target="_blank" class="opa"><img src="/image/icon_sns03.png" alt="Tweet"></a>&emsp;<a href="http://www.facebook.com/sharer.php?u=http://www.challeath.com/&amp;t=CHALLEATHチャレアス -障がい者スポーツの情報メディア-"
+onClick="window.open(encodeURI(decodeURI(this.href)),'sharewindow','width=570, height=450, personalbar=0, toolbar=0, scrollbars=1, resizable=!'); return false;" class="opa"><img src="/image/icon_sns04.png" alt="Facebookシェア"></a>
+      <p class="cr">Copyright &copy; CHALLENGED ATHLETE PROJECT All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- pardotTag capjt -->
+<script type="text/javascript">
+piAId = '121382';
+piCId = '86052';
+
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+
+</body>
+</html>

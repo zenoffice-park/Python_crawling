@@ -1,0 +1,657 @@
+
+
+
+<!doctype html>
+<!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=Edge"><![endif]-->
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> 
+<html class="no-js" lang="en"> <!--<![endif]-->
+
+<head id="Head1"><title>
+	PCoIP Solutions | Virtual Desktop | Teradici PCoIP Solutions
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="https://www.teradici.com/img/favico.ico" type="image/x-icon" /><link rel="apple-touch-icon" href="https://www.teradici.com/img/apple-touch-icon.png" /><meta name="apple-mobile-web-app-title" content="Teradici" /><link href="/css/core.css?123456789" rel="stylesheet" type="text/css" media="all" /><link href="/css/main.css" rel="stylesheet" type="text/css" media="screen and (min-width:640px)" /><link href="/css/content.css" rel="stylesheet" type="text/css" media="screen and (min-width:640px)" /><link href="/css/mobile.css" rel="stylesheet" type="text/css" media="screen and (max-width:640px)" /><link href="/css/print.css" rel="stylesheet" type="text/css" media="print" /><meta name="viewport" content="width=device-width" />	 
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <link href="/css/main.css" rel="stylesheet" type="text/css" /><link href="/css/content.css" rel="stylesheet" type="text/css" />
+	<![endif]-->       
+    <!--<link href="/css/mobile.css" rel="stylesheet" media="screen and (max-width: 610px)" /><link href="/css/tablet.css" rel="stylesheet" media="screen and (min-width:611px) and (max-width: 969px)" />--><link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" type="text/css" />
+    <!--[if (gte IE 6)&(lte IE 8)]>
+      <script src="https://s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+    <![endif]-->
+   	<!-- jQuery at the bottom please -->
+     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+      
+    <script>        window.jQuery || document.write("<script src='/js/jquery-1.8.2.min.js'>\x3C/script>")</script>
+    <link rel="stylesheet" type="text/css" href="/js/fancybox/jquery.fancybox.css" />
+
+    
+
+<!-- GOOGLE ANALYTICS -->
+
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-1960371-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
+
+<script src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+
+
+<link href="../App_Themes/home/Global/home.css" type="text/css" rel="stylesheet" /><meta name="Generator" content="Sitefinity 9.2.6211.0 SE" /><link rel="canonical" href="https://www.teradici.com/ja/home" /><link href="/Telerik.Web.UI.WebResource.axd?d=c_2ku_e0hAiOeOd1Cr8ItLUMUaE9TnvBo0XS1cKgomjIoBTpJL1kkuoOEY2CD_OyIL5jbDsgxxr4unzzX_1Sygntlsw3dw6X_zh6q8c822yShtJIKq5AbHt12HDg6K4vHoMFduQ05Ca6kC6d-7IVcA2&amp;t=635242829254820342&amp;compress=0&amp;_TSM_CombinedScripts_=%3b%3bTelerik.Sitefinity.Resources%2c+Version%3d9.2.6211.0%2c+Culture%3dneutral%2c+PublicKeyToken%3db28c218413bdf563%3aja%3aeecfe725-334b-4499-92ca-02d315beec90%3a7a90d6a" type="text/css" rel="stylesheet" /><style type="text/css" media="all">.home-panel3 { display: none; border-bottom: none;}
+.home-panel2 { border-bottom: none;}</style></head>
+<body id="Body" class="ja">
+
+    <form method="post" action="./home" id="form1">
+<input type="hidden" name="ctl18_TSM" id="ctl18_TSM" value="" />
+<input type="hidden" name="ctl19_TSSM" id="ctl19_TSSM" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTc4MDMxMjg4NGQYBwVEY3RsMDAkY3RsMDAkY3BoX01haW4kY3BoX0NvbnRlbnQkQzAxNyRjdGwwMCRjdGwwMCRjdGwwMCRsaXN0c0NvbnRyb2wPFCsABWQUKwADDwUGXyFEU0lDZg8FC18hSXRlbUNvdW50Zg8FCF8hUENvdW50ZGQWAh4CX2NmZGQFRGN0bDAwJGN0bDAwJGNwaF9NYWluJGNwaF9Db250ZW50JEMwMTUkY3RsMDAkY3RsMDAkY3RsMDAkbGlzdHNDb250cm9sDxQrAAVkFCsAAw8FBl8hRFNJQwIBDwULXyFJdGVtQ291bnQCAQ8FCF8hUENvdW50ZGQWAh8AZmRkBVtjdGwwMCRjdGwwMCRjcGhfTWFpbiRjcGhfQ29udGVudCRDMDE1JGN0bDAwJGN0bDAwJGN0bDAwJGxpc3RzQ29udHJvbCRjdHJsMCRsaXN0SXRlbXNDb250cm9sDxQrAAVkFCsAAw8FBl8hRFNJQwICDwULXyFJdGVtQ291bnQCAg8FCF8hUENvdW50ZGQWAh8AZmRkBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WBgVEY3RsMDAkY3RsMDAkY3BoX01haW4kY3BoX0NvbnRlbnQkQzAxNSRjdGwwMCRjdGwwMCRjdGwwMCRsaXN0c0NvbnRyb2wFW2N0bDAwJGN0bDAwJGNwaF9NYWluJGNwaF9Db250ZW50JEMwMTUkY3RsMDAkY3RsMDAkY3RsMDAkbGlzdHNDb250cm9sJGN0cmwwJGxpc3RJdGVtc0NvbnRyb2wFRGN0bDAwJGN0bDAwJGNwaF9NYWluJGNwaF9Db250ZW50JEMwMTYkY3RsMDAkY3RsMDAkY3RsMDAkbGlzdHNDb250cm9sBVtjdGwwMCRjdGwwMCRjcGhfTWFpbiRjcGhfQ29udGVudCRDMDE2JGN0bDAwJGN0bDAwJGN0bDAwJGxpc3RzQ29udHJvbCRjdHJsMCRsaXN0SXRlbXNDb250cm9sBUljdGwwMCRjdGwwMCRjcGhfTWFpbiRjcGhfQ29udGVudCRjdGwwNyRjdGwwMCRjdGwwMCRkeW5hbWljQ29udGVudExpc3RWaWV3BURjdGwwMCRjdGwwMCRjcGhfTWFpbiRjcGhfQ29udGVudCRDMDE3JGN0bDAwJGN0bDAwJGN0bDAwJGxpc3RzQ29udHJvbAVEY3RsMDAkY3RsMDAkY3BoX01haW4kY3BoX0NvbnRlbnQkQzAxNiRjdGwwMCRjdGwwMCRjdGwwMCRsaXN0c0NvbnRyb2wPFCsABWQUKwADDwUGXyFEU0lDAgEPBQtfIUl0ZW1Db3VudAIBDwUIXyFQQ291bnRkZBYCHwBmZGQFSWN0bDAwJGN0bDAwJGNwaF9NYWluJGNwaF9Db250ZW50JGN0bDA3JGN0bDAwJGN0bDAwJGR5bmFtaWNDb250ZW50TGlzdFZpZXcPFCsABWQUKwADDwUGXyFEU0lDAgEPBQtfIUl0ZW1Db3VudAIBDwUIXyFQQ291bnRkZBYCHwBmZGQFW2N0bDAwJGN0bDAwJGNwaF9NYWluJGNwaF9Db250ZW50JEMwMTYkY3RsMDAkY3RsMDAkY3RsMDAkbGlzdHNDb250cm9sJGN0cmwwJGxpc3RJdGVtc0NvbnRyb2wPFCsABWQUKwADDwUGXyFEU0lDAgIPBQtfIUl0ZW1Db3VudAICDwUIXyFQQ291bnRkZBYCHwBmZGT4vidogQOsEGC90ZLWAZWiGbM+55cuUyx1jn4wjCLfGA==" />
+
+
+<script type="text/javascript">
+//<![CDATA[
+var __cultureInfo = {"name":"ja","numberFormat":{"CurrencyDecimalDigits":0,"CurrencyDecimalSeparator":".","IsReadOnly":true,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":",","CurrencySymbol":"¥","NaNSymbol":"NaN (非数値)","CurrencyNegativePattern":1,"NumberNegativePattern":1,"PercentPositivePattern":1,"PercentNegativePattern":1,"NegativeInfinitySymbol":"-∞","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":".","NumberGroupSeparator":",","CurrencyPositivePattern":0,"PositiveInfinitySymbol":"+∞","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":".","PercentGroupSeparator":",","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"午前","Calendar":{"MinSupportedDateTime":"\/Date(-62135578800000)\/","MaxSupportedDateTime":"\/Date(253402300799999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":true},"DateSeparator":"/","FirstDayOfWeek":0,"CalendarWeekRule":0,"FullDateTimePattern":"yyyy\u0027年\u0027M\u0027月\u0027d\u0027日\u0027 H:mm:ss","LongDatePattern":"yyyy\u0027年\u0027M\u0027月\u0027d\u0027日\u0027","LongTimePattern":"H:mm:ss","MonthDayPattern":"M\u0027月\u0027d\u0027日\u0027","PMDesignator":"午後","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"yyyy/MM/dd","ShortTimePattern":"H:mm","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"yyyy\u0027年\u0027M\u0027月\u0027","AbbreviatedDayNames":["日","月","火","水","木","金","土"],"ShortestDayNames":["日","月","火","水","木","金","土"],"DayNames":["日曜日","月曜日","火曜日","水曜日","木曜日","金曜日","土曜日"],"AbbreviatedMonthNames":["1","2","3","4","5","6","7","8","9","10","11","12",""],"MonthNames":["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月",""],"IsReadOnly":true,"NativeCalendarName":"西暦 (日本語)","AbbreviatedMonthGenitiveNames":["1","2","3","4","5","6","7","8","9","10","11","12",""],"MonthGenitiveNames":["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月",""]},"eras":[1,"西暦",null,0]};//]]>
+</script>
+
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ctl18_TSM&amp;compress=0&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aja%3a93a6b8ed-f453-4cc5-9080-8017894b33b0%3aea597d4b" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=FYuid89SYqg6pDAbAYt7Db65Py8we8RgFOAdOlvhtA_cmcZC6UFRCpfIdg1a-BdO4DvU7Gk5PfRlTG02p2BqYGPSiBqsbmXbRw1b2Arh5Ng3800KcoGkTP_mGTzI5bKvcy44BTLXQv2WTybosOe3HZNGL-eIMuPY2RYOrS2xA6FF6XAqHZfU1FvtLA9aOaZUUjLyxDg1nHRTqq-K4AE7fg2&amp;t=ffffffff89e42469" type="text/javascript"></script>
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ctl18_TSM&amp;compress=0&amp;_TSM_CombinedScripts_=%3b%3bTelerik.Sitefinity.Resources%3aja%3aeecfe725-334b-4499-92ca-02d315beec90%3ab162b7a1%3ad4b35ef7%3a7ee0bb1f%3a83eb063b" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=5R2XP6U3RZV-TJlud6Sfdfz6ttiEeZ667uyrmzVcDI9HsUhpGSG5O3g6gDdJvjQoOhwO7RkkAIAAZtaqKoQVj-DAizDP8vEp5jyNW1GcrSGFPkpyQx5O1bsH0FEvKrgFvuUdBKp9BApj4hvDtxxA7OqD3b8gTS0ebuNq02AFp9IWsTP-nnthdVe6cy9NEG7N0&amp;t=ffffffff89e42469" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=7-BQ4LQp0UvnXc74OcK7XWdj70y_U_yF3bGJCtFbx1MrkZpQV0MJpGYJdUTBc_BAQs70Ekn644Sq0KGinSqQcgT_ERPt19mhnYveXSWLm9ODKa9Lwg7pekVLNBTslLcKftkBSOJkaDoWi-Rv0bafRoVoEM5KOiiHUWI5hppKIUNb78dI3VtV70wd59oMhsspKjlZzp7c3alA8xzt1dWNvQ2&amp;t=ffffffff89e42469" type="text/javascript"></script>
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ctl18_TSM&amp;compress=0&amp;_TSM_CombinedScripts_=%3b%3bTelerik.Sitefinity%3aja%3a55596447-8e2b-42d9-832b-e3c6ae7953a9%3a993d8e92%3a5b182b17%3a3b9a1b05%3bTelerik.Sitefinity.Search.Impl%2c+Version%3d9.2.6211.0%2c+Culture%3dneutral%2c+PublicKeyToken%3db28c218413bdf563%3aja%3a9aabb16a-4803-4828-b29e-aac4f30ff183%3a7561727d%3bTelerik.Sitefinity%2c+Version%3d9.2.6211.0%2c+Culture%3dneutral%2c+PublicKeyToken%3db28c218413bdf563%3aja%3a55596447-8e2b-42d9-832b-e3c6ae7953a9%3a721addc%3bTelerik.Web.UI%2c+Version%3d2016.2.607.40%2c+Culture%3dneutral%2c+PublicKeyToken%3d121fae78165ba3d4%3aja%3a90ccb20b-e3b0-4838-9db0-b95c75702ee1%3a16e4e7cd%3af7645509%3addbfcb67%3bTelerik.Sitefinity%2c+Version%3d9.2.6211.0%2c+Culture%3dneutral%2c+PublicKeyToken%3db28c218413bdf563%3aja%3a55596447-8e2b-42d9-832b-e3c6ae7953a9%3a41f6c3a7%3af77740f1%3a26cfb6dc%3a6e04508f%3a447a22b8%3bTelerik.Sitefinity.Resources%3aja%3aeecfe725-334b-4499-92ca-02d315beec90%3ac4ef6dcd%3a6f03d72a%3bTelerik.Sitefinity%2c+Version%3d9.2.6211.0%2c+Culture%3dneutral%2c+PublicKeyToken%3db28c218413bdf563%3aja%3a55596447-8e2b-42d9-832b-e3c6ae7953a9%3ac1fc658e" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B94E768E" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAP5/ajsmyADlM5sTUodrJwQ7l/ftsa4JC9Tj3NVrc/UFrl4RoBrEzKx5Jpfa1BAz1PUJki79mPs22Hfr7na84R1YeafufPBmcPBfBHHCXUnyg==" /><input type="hidden" name="ctl00$ctl00$ctl18" id="ctl18" />
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.setServerId("ctl18", "ctl00$ctl00$ctl18");
+Sys.Application._enableHistoryInScriptManager();
+//]]>
+</script>
+
+      <div id="wrapper"><div class="w-w1"><div class="w-w2">
+      <div id="header" class="page-section"><div class="h-w1"><div class="h-w2">
+            
+
+  <div id="mainnav" class="nav">
+         <ul id="CPH_PSHeader_Mainnav1_MainNavCollectionJP">
+					    <li id="CPH_PSHeader_Mainnav1_Li1" class="pcoip-technology"><a href="pcoip-technology" id="CPH_PSHeader_Mainnav1_A1">PCoIPテクノロジー</a></li>
+					    <li id="CPH_PSHeader_Mainnav1_Li2" class="products-solutions"><a href="products-and-solutions" id="CPH_PSHeader_Mainnav1_A2">製品 &amp; サービス</a></li>
+					    <li id="CPH_PSHeader_Mainnav1_Li3" class="resource-center"><a href="../resource-center" id="CPH_PSHeader_Mainnav1_A3" target="_blank">リソースセンター</a></li>
+                        <li id="CPH_PSHeader_Mainnav1_Li4" class="product-finder"><a href="../product-finder" id="CPH_PSHeader_Mainnav1_A4" target="_blank">製品の検索</a></li>
+                        <li id="CPH_PSHeader_Mainnav1_Li5" class="partners"><a href="/ja/partners" id="CPH_PSHeader_Mainnav1_A5"><span>パートナー</span></a><div class="nodeID-07"></div></li>
+                         
+                     
+				</ul>
+             
+
+			</div>
+                    
+            <div id="header-banner">
+	            <div class="h-w3 section-inner">
+            		<span> 
+
+
+</span>
+                </div>
+            </div>
+            
+            
+            <div class="h-w3 section-inner">
+                <a href="/ja/home---ja" id="logo">Teradici</a>  
+                
+                <div id="util">
+                   	
+                    
+<div class='sfContentBlock'><ul> <li class="support_login"><a href="http://techsupport.teradici.com/ics/support/default.asp?deptID=15164&amp;_referrer=http://www.teradici.com/" target="_blank">サポートログイン</a> <div class="login"> <span class="label">ユーザー名:<span class="required">*</span></span> <input type="text" /> <span class="label">パスワード:<span class="required">*</span></span> <input type="password" /> <a href="#" class="forgot-password">パスワードを忘れましたか？</a> <input type="checkbox" /><span class="label_remember">パスワードを記憶する</span> <input type="submit" value="ログイン" /> </div> <span class="login_cover"></span> </li> <li><a href="https://teradicicommunity.force.com/partner/login" target="_blank">パートナーログイン</a> <div class="login"> <span class="label">ユーザー名:<span class="required">*</span></span> <input type="text" /> <span class="label">パスワード:<span class="required">*</span></span> <input type="password" /> <a href="#" class="forgot-password">パスワードを忘れましたか？</a> <input type="checkbox" /><span class="label_remember">パスワードを記憶する</span> <input type="submit" value="ログイン" /> </div> <span class="login_cover"></span> </li> <li><a href="http://connect.teradici.com/contact-us" target="_blank">お問い合わせ</a></li> <li><a href="/ja/about-us">会社概要</a></li> </ul>
+
+
+</div>
+                    <span id="border-cover1"></span>
+                    <span id="border-cover2"></span>
+                </div>
+                
+                <a href="http://connect.teradici.com/contact-us?__hstc=221309447.af7f590a3451566355145fa6c31eb5e6.1390350782612.1390350782612.1391123086045.2&__hssc=221309447.1.1391123086045&__hsfp=1014028875" id="m-contact">Contact Us</a>
+                <a href="#" id="m-menu-button">Menu<span class="cover"></span></a>
+                
+                <div id="search">
+                   
+                    
+<div id="CPH_PSHeader_chp_search_T08604F15002">
+	
+
+<fieldset id="CPH_PSHeader_chp_search_T08604F15002_ctl00_ctl00_main" class="sfsearchBox">
+    <input name="ctl00$ctl00$CPH_PSHeader$chp_search$T08604F15002$ctl00$ctl00$searchTextBox" type="text" id="CPH_PSHeader_chp_search_T08604F15002_ctl00_ctl00_searchTextBox" class="sfsearchTxt" />
+    <input type="submit" name="ctl00$ctl00$CPH_PSHeader$chp_search$T08604F15002$ctl00$ctl00$searchButton" value="Search" onclick="return false;" id="CPH_PSHeader_chp_search_T08604F15002_ctl00_ctl00_searchButton" class="sfsearchSubmit" />
+</fieldset>
+
+</div>
+                </div>
+            </div>
+            
+
+
+      </div></div></div>
+	  <div id="main" class="page-section"><div class="m-w1"><div class="m-w2 section-inner">
+            
+
+	<div id="content"><div class="c-w1">
+
+    
+<div class="sf_cols home-banner home-panel-slider">
+    <div style="width: 100%;" class="sf_colsOut sf_1col_1_100">
+        <div id="cph_Main_cph_Content_T62C49F79002_Col00" class="sf_colsIn sf_1col_1in_100"><div>
+	<!-- 2016.2.607.40 -->
+        <div >
+            
+  
+        
+                <ul >
+                    
+                <li >
+                    <span data-sfref="[images|OpenAccessDataProvider]e6e87e19-64a0-69f0-a533-ff0000f45ce7" class="sfImageWrapper"><img src="http://www.teradici.com/images/default-source/home-banner/cloud-access-software-1280x450-banner.png?Status=Temp&amp;sfvrsn=2" title="pervasive-computing-platform-1280x450" style="border-width: 0px; border-style: solid;" alt="teradici cloud access software" displaymode="Original" /></span> <div class="banner-content"> <span class="banner-title2">The Promise of the Cloud&hellip; Delivered</span> <div class="banner-text2">新発売...<br /> <span style="color: #00aeef;">Teradici Cloud Access Software</span></div> <a style="margin-top: 15px; color: #ffffff;" class="banner-link" href="http://teradici.com/cloudaccess" target="_blank">続きを読む</a></div>
+
+                    
+                </li>
+            
+                <li >
+                    <span class="sfImageWrapper" data-sfref="[images|OpenAccessDataProvider]206a7f19-64a0-69f0-a533-ff0000f45ce7"><img originalpath="/images/default-source/home-banner/1280x450_mc_final.jpg?sfvrsn=0" originalattribute="src" displaymode="Original" alt="pcoip management console" style="border-width: 0px; border-style: solid;" title="1280x450_mc_final" src="/images/default-source/home-banner/1280x450_mc_final.jpg?sfvrsn=0" /></span> <div class="banner-content"> <span class="banner-title"><strong>数千台のPCoIPゼロクライアントの管理を&hellip;</strong> 今ご使用のブラウザーから</span> <div class="banner-text">&nbsp;</div> <span style="margin-top: 10px;"> <a originalpath="http://www.teradici.com/ja/products-and-solutions/pcoip-products/management-console" originalattribute="href" style="margin-top: 10px;" href="http://www.teradici.com/ja/products-and-solutions/pcoip-products/management-console" target="_blank">続きを読む</a></span></div>
+                    
+                </li>
+            
+                </ul>
+              <div class="pager"></div>
+            <input id="ctl00_ctl00_cph_Main_cph_Content_C015_ctl00_ctl00_ctl00_listsControl_ctrl0_listItemsControl_ClientState" name="ctl00_ctl00_cph_Main_cph_Content_C015_ctl00_ctl00_ctl00_listsControl_ctrl0_listItemsControl_ClientState" type="hidden" /><span id="ctl00_ctl00_cph_Main_cph_Content_C015_ctl00_ctl00_ctl00_listsControl_ctrl0_listItemsControl" style="display:none;"></span>
+    
+        </div>
+    <input id="ctl00_ctl00_cph_Main_cph_Content_C015_ctl00_ctl00_ctl00_listsControl_ClientState" name="ctl00_ctl00_cph_Main_cph_Content_C015_ctl00_ctl00_ctl00_listsControl_ClientState" type="hidden" /><span id="ctl00_ctl00_cph_Main_cph_Content_C015_ctl00_ctl00_ctl00_listsControl" style="display:none;"></span>
+<span></span>
+</div>
+            
+        </div>
+    </div>
+</div><div class="sf_cols home-panel1 home-panel-slider">
+    <div style="width: 100%;" class="sf_colsOut sf_1col_1_100">
+        <div id="cph_Main_cph_Content_T62C49F79003_Col00" class="sf_colsIn sf_1col_1in_100"><div>
+	
+        <div >
+            
+  
+        
+                <ul>
+                    
+                <li>
+                    <img class="banner1-image" src="/images/default-source/home-panel-1/banner-panel2.jpg?sfvrsn=4" title="banner-panel2" /> <div class="panel-content"> <div class="panel-title">仮想ワークスペースの強化</div> <p>PCoIP技術を使用すると、以下のことを根本的に実現しながら、オンプレミスまたはクラウドで、リモートデスクトップインフラストラクチャーを運用するために必要なコンポーネントをすべて機能させることができます。<br /> <br />
+- コンピューティングサービスのプロビジョニングと管理を簡潔に<br />
+- 次世代のローカル、リモート、モバイルのワークスタイルを支援<br />
+- 安全で適切なサイズのコンピューティング環境をすべてのユーザーに提供</p> <a href="32167619-64a0-69f0-a533-ff0000f45ce7" class="read-more">PCoIPソリューションの詳細</a> </div>
+                   
+                </li>
+            
+                <li>
+                    <img src="/images/default-source/home-panel-1/banner-panel1.jpg?sfvrsn=0" title="banner-panel1" /> <div class="panel-content"> <div class="panel-title">TeradiciのPCoIP技術は、仮想ワークスペースのファブリックです。</div> <p>ローカル、リモート、モバイル、共同作業と広範な作業形式を強力にサポートし、エンドユーザーコンピューティングのプロビジョニング、管理、使用の方法を根本的に簡易化します。TeradiciのPCoIP技術は、仮想環境やクラウド環境、ゼロクライアント、ハードウェアアクセラレーター、スタンドアローンワークステーション、モバイルデバイスなどに幅広く導入されています。PCoIP技術はシンプルで環境に優しいばかりでなく、コスト効率も高く、安全で高解像度のコンピューティング体験を提供します。</p> <a href="32167619-64a0-69f0-a533-ff0000f45ce7" class="read-more">続きを読む</a> </div> <a href="http://www.youtube.com/embed/y2YjlXNWQ74?autoplay=1" class="play-video">PCoIPのビデオを見る</a>
+                   
+                </li>
+            
+                </ul>
+              <div class="pager"><div></div></div>
+            <input id="ctl00_ctl00_cph_Main_cph_Content_C016_ctl00_ctl00_ctl00_listsControl_ctrl0_listItemsControl_ClientState" name="ctl00_ctl00_cph_Main_cph_Content_C016_ctl00_ctl00_ctl00_listsControl_ctrl0_listItemsControl_ClientState" type="hidden" /><span id="ctl00_ctl00_cph_Main_cph_Content_C016_ctl00_ctl00_ctl00_listsControl_ctrl0_listItemsControl" style="display:none;"></span>
+    
+        </div>
+    <input id="ctl00_ctl00_cph_Main_cph_Content_C016_ctl00_ctl00_ctl00_listsControl_ClientState" name="ctl00_ctl00_cph_Main_cph_Content_C016_ctl00_ctl00_ctl00_listsControl_ClientState" type="hidden" /><span id="ctl00_ctl00_cph_Main_cph_Content_C016_ctl00_ctl00_ctl00_listsControl" style="display:none;"></span>
+<span></span>
+</div>
+            
+        </div>
+    </div>
+</div><div class="sf_cols home-panel2 home-panel-slider">
+    <div style="width: 100%;" class="sf_colsOut sf_1col_1_100">
+        <div id="cph_Main_cph_Content_T62C49F79004_Col00" class="sf_colsIn sf_1col_1in_100"><div>
+	
+        <ul>
+            
+        <li >
+            <div>
+		
+    
+    
+    
+    
+    
+
+    <div class="sfimageWrp">
+			        
+<img id="ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl00_ctl00_ctl00_imageControl_ctl00_ctl00_imageItem" title="banner-panel2" src="/images/default-source/home-panel-2/banner-panel2.jpg?sfvrsn=0" alt="" />
+
+
+		</div>
+        
+	</div>
+          <div class="panel-content">
+            <div class="panel-title">PCoIPハードウェアアクセラレーター</div>
+            <div class="case-study">
+            <div id="ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl01">
+		        
+            
+            
+            <div id="ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl01_ctl00_ctl00_textLabel_read" class="sfTxtContent">
+			<h2>「サーバーを過度にプロビジョニングすることなく、負荷のピーク時でも必ずユーザーに高いパフォーマンスを提供できるようになりました」</h2> <h4>フロリダアトランティック大学エンジニアリング＆コンピューターサイエンス学部<br />
+情報テクノロジー部長 <br />
+Mahesh Neelakanta</h4> <a href="/ja/resource-center/case-studies">ケーススタディを読む</a>
+		</div>
+            
+            <div id="ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl01_ctl00_ctl00_characterCounter_read">
+			
+		</div>
+        
+<div id="ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl01_ctl00_ConditionalTemplates" style="display:none;">
+			<div id="ClientTemplatePanel_">
+	
+            <div>
+                <span id="titleLabel_write_" class="sfTxtLbl sfInlineBlock"></span>
+                <span id="tooltip_write_">
+
+<div class="sfDetailsPopupWrp sfInlineBlock">
+    <a onclick="return false;" id="tooltip_write__ctl00_ctl00_btnToolTipTarget_"><span class="sfTooltip">(?)</span></a>
+    <div id="tooltip_write__ctl00_ctl00_wrpToolTip_" class="sfDetailsPopup" style="display: none;">
+        <span id="tooltip_write__ctl00_ctl00_lblTitle_"></span>
+        
+    </div>
+</div>
+</span>
+            </div>
+            <a onclick="return false;" id="expandButton_write_" class="sfOptionalExpander"></a>
+            <div id="expandableTarget_write_" class="sfFieldWrp">
+		
+                <input name="textBox_write_" type="text" id="textBox_write_" class="sfTxt" />
+                <div id="characterCounter_write_" class="sfFlRight sfMRight5">
+			
+		</div>
+                <div id="descriptionLabel_write_" class="sfDescription">
+			
+		</div>
+                <div id="exampleLabel_write_" class="sfExample">
+			
+		</div>
+                <p id="characterCounterDescription_write_" class="sfExample"></p>
+            
+	</div>
+        
+</div>
+		</div>
+	</div>
+             
+            </div>
+            <div class="panel-content-wrapper">
+              <div id="ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl02">
+		        
+            
+            
+            <div id="ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl02_ctl00_ctl00_textLabel_read" class="sfTxtContent">
+			<h2>PCoIPハードウェアアクセラレーターカードは、エンコーディングタスクを知的にオフロードし、リソースを最も必要とするところで使えるようにします。</h2> <h3>スムーズなCPUスパイク</h3>
+ハードウェアアクセラレーターはCPU使用のピークを軽減します。アクセラレーターは、仮想CPUヘッドルームを作成することにより、CPU集約型のアプリケーションが継続してスムーズに実行できるようにします。<br /> <br /> <h3>VDIコンソリデーション率を向上</h3>
+ホスト1台当たりに稼働する仮想マシン数が多いほど、ユーザー1人当たりのコストを削減できます。システム管理者は追加のCPUヘッドルームを利用して、コンソリューションデ―ション率を、通常のオフィスの作業負荷 (ビデオ: 5%、オフィス: 95%) に対して最高1.2倍まで高めることができます。
+		</div>
+            
+            <div id="ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl02_ctl00_ctl00_characterCounter_read">
+			
+		</div>
+        
+<div id="ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl02_ctl00_ConditionalTemplates" style="display:none;">
+			<div id="ClientTemplatePanel_">
+	
+            <div>
+                <span id="titleLabel_write_" class="sfTxtLbl sfInlineBlock"></span>
+                <span id="tooltip_write_">
+
+<div class="sfDetailsPopupWrp sfInlineBlock">
+    <a onclick="return false;" id="tooltip_write__ctl00_ctl00_btnToolTipTarget_"><span class="sfTooltip">(?)</span></a>
+    <div id="tooltip_write__ctl00_ctl00_wrpToolTip_" class="sfDetailsPopup" style="display: none;">
+        <span id="tooltip_write__ctl00_ctl00_lblTitle_"></span>
+        
+    </div>
+</div>
+</span>
+            </div>
+            <a onclick="return false;" id="expandButton_write_" class="sfOptionalExpander"></a>
+            <div id="expandableTarget_write_" class="sfFieldWrp">
+		
+                <input name="textBox_write_" type="text" id="textBox_write_" class="sfTxt" />
+                <div id="characterCounter_write_" class="sfFlRight sfMRight5">
+			
+		</div>
+                <div id="descriptionLabel_write_" class="sfDescription">
+			
+		</div>
+                <div id="exampleLabel_write_" class="sfExample">
+			
+		</div>
+                <p id="characterCounterDescription_write_" class="sfExample"></p>
+            
+	</div>
+        
+</div>
+		</div>
+	</div>
+            </div>
+            
+          </div>
+          <div id="ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl03" class="watch-video-ja">
+		        
+            
+            
+            <div id="ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl03_ctl00_ctl00_textLabel_read" class="sfTxtContent">
+			<a href="http://www.teradici.com/products-and-solutions/pcoip-products/hardware-accelerator">続きを読む &gt;&gt;</a>
+		</div>
+            
+            <div id="ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl03_ctl00_ctl00_characterCounter_read">
+			
+		</div>
+        
+<div id="ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl03_ctl00_ConditionalTemplates" style="display:none;">
+			<div id="ClientTemplatePanel_">
+	
+            <div>
+                <span id="titleLabel_write_" class="sfTxtLbl sfInlineBlock"></span>
+                <span id="tooltip_write_">
+
+<div class="sfDetailsPopupWrp sfInlineBlock">
+    <a onclick="return false;" id="tooltip_write__ctl00_ctl00_btnToolTipTarget_"><span class="sfTooltip">(?)</span></a>
+    <div id="tooltip_write__ctl00_ctl00_wrpToolTip_" class="sfDetailsPopup" style="display: none;">
+        <span id="tooltip_write__ctl00_ctl00_lblTitle_"></span>
+        
+    </div>
+</div>
+</span>
+            </div>
+            <a onclick="return false;" id="expandButton_write_" class="sfOptionalExpander"></a>
+            <div id="expandableTarget_write_" class="sfFieldWrp">
+		
+                <input name="textBox_write_" type="text" id="textBox_write_" class="sfTxt" />
+                <div id="characterCounter_write_" class="sfFlRight sfMRight5">
+			
+		</div>
+                <div id="descriptionLabel_write_" class="sfDescription">
+			
+		</div>
+                <div id="exampleLabel_write_" class="sfExample">
+			
+		</div>
+                <p id="characterCounterDescription_write_" class="sfExample"></p>
+            
+	</div>
+        
+</div>
+		</div>
+	</div>
+            
+        </li>
+    
+        </ul>
+        <div class="pager"><div></div></div>
+    <input id="ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ClientState" name="ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ClientState" type="hidden" /><span id="ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView" style="display:none;"></span>
+
+
+</div><div>
+	
+        <div class="sfsimpleListWrp">
+            
+        </div>
+    <input id="ctl00_ctl00_cph_Main_cph_Content_C017_ctl00_ctl00_ctl00_listsControl_ClientState" name="ctl00_ctl00_cph_Main_cph_Content_C017_ctl00_ctl00_ctl00_listsControl_ClientState" type="hidden" /><span id="ctl00_ctl00_cph_Main_cph_Content_C017_ctl00_ctl00_ctl00_listsControl" style="display:none;"></span>
+<span></span>
+</div>
+            
+        </div>
+    </div>
+</div><div class="sf_cols home-panel3">
+    <div style="width: 100%;" class="sf_colsOut sf_1col_1_100">
+        <div id="cph_Main_cph_Content_T62C49F79001_Col00" class="sf_colsIn sf_1col_1in_100"><div class="sf_cols">
+    <div class="sf_colsOut sf_4cols_1_25">
+        <div id="cph_Main_cph_Content_T62C49F79005_Col00" class="sf_colsIn sf_4cols_1in_25">
+            
+        </div>
+    </div>
+    <div class="sf_colsOut sf_4cols_2_25">
+        <div id="cph_Main_cph_Content_T62C49F79005_Col01" class="sf_colsIn sf_4cols_2in_25">
+            
+        </div>
+    </div>
+    <div class="sf_colsOut sf_4cols_3_25">
+        <div id="cph_Main_cph_Content_T62C49F79005_Col02" class="sf_colsIn sf_4cols_3in_25">
+            
+        </div>
+    </div>
+    <div class="sf_colsOut sf_4cols_4_25">
+        <div id="cph_Main_cph_Content_T62C49F79005_Col03" class="sf_colsIn sf_4cols_4in_25">
+            
+        </div>
+    </div>
+</div>
+            
+        </div>
+    </div>
+</div>
+				
+                
+
+			</div></div>
+
+			<div id="subnav" class="nav aside">
+            
+            	<h3 class="m-subnav-title">また、このセクションで</h3>
+               
+                    <div><span class="category-title">Home JA</span><ul class="nav L2 active"></ul></div>
+
+			</div>
+            
+			<div id="ctas" class="aside">
+				
+                
+
+                <div class="clearfix"></div>  
+			</div>
+
+
+      </div></div></div>
+     
+       
+
+
+      		<div id="footernav">
+            	
+                
+<div class='sfContentBlock'><br />
+<br />
+<ul>
+    <li><span>Teradici社</span>
+    <ul>
+        <li><a href="/ja/会社概要">会社概要</a></li>
+        <li><a href="http://connect.teradici.com/contact-us" target="_blank">お問い合わせ</a></li>
+        <li><a href="/ja/careers">採用情報</a></li>
+        <li><a href="/ja/管理チーム">経営陣</a> </li>
+        <li><a href="/ja/取締役会">取締役会</a></li>
+        <li><a href="/ja/投資家">投資家</a></li>
+    </ul>
+    </li>
+    <li><span>PC<em>o</em>IP 製品</span>
+    <ul>
+        <li><a href="http://www.teradici.com/ja/products-and-solutions/pcoip-products/cloud-access-software">Cloud Access Software</a></li>
+        <li><a href="/ja/products-and-solutions/pcoip-products/zero-clients">ゼロクライアント</a></li>
+        <li><a href="/ja/products-and-solutions/pcoip-products/optimized-thin-clients">オプティマイズド シンクライアント</a></li>
+        <li><a href="/ja/products-and-solutions/pcoip-products/management-console">管理コンソール</a></li>
+        <li><a href="/ja/products-and-solutions/pcoip-products/hardware-accelerator">ハードウェアアクセラレーター</a></li>
+        <li><a href="/ja/products-and-solutions/pcoip-products/remote-workstation-card">リモートワークステーションカード</a></li>
+    </ul>
+    </li>
+    <li> <span>&nbsp;</span> <br />
+    <br />
+    <br />
+    <br />
+    <ul class="social">
+        <li class="facebook"><a href="https://www.facebook.com/teradici" target="_blank">フェイスブック</a></li>
+        <li class="twitter"><a href="https://twitter.com/teradici" target="_blank">ツイッター</a></li>
+        <li class="linkedin"><a href="http://www.linkedin.com/company/teradici" target="_blank">LinkedInの</a></li>
+    </ul>
+    </li>
+</ul>
+
+
+</div>
+                <div class="clearfix"></div>  
+            </div>
+        
+		
+			<div id="m-footer-util1">
+            	 
+<div class='sfContentBlock'><ul> <li><a href="#">採用情報</a></li> <li><a href="#">ニュース &amp; イベント</a></li> <li><a href="#">Teradici社ブログ</a></li> </ul>
+
+
+</div>
+                
+                <div class="clearfix"></div>   
+            </div>
+            
+            <div id="m-login">
+            	
+                 
+<div class='sfContentBlock'><ul> <li> <a href="http://techsupport.teradici.com/ics/support/default.asp?deptID=15164&amp;_referrer=http://www.teradici.com/" target="_blank">サポートログイン</a> </li> <li> <a href="https://teradicicommunity.force.com/partner/login" target="_blank">パートナーログイン</a> </li> </ul>
+
+
+</div>
+                <div class="clearfix"></div> 
+            </div>
+            
+            <div id="m-footer-util2">
+            	<div class="newsletter">
+                	
+                     
+<div class='sfContentBlock'><span class="title">Teradici社 <em>eニュース</em> 登録</span> <input type="text" value="今すぐサインアップ" onfocus="if(this.value=='今すぐサインアップ')this.value=''" onblur="if(this.value=='')this.value='今すぐサインアップ'" /> <input type="submit" value="提出する" />
+
+
+</div>
+
+                    <div class="clearfix"></div>
+                </div>
+                
+                <div class="social">
+                	
+                     
+<div class='sfContentBlock'><ul> <li class="facebook"><a target="_blank" href="https://www.facebook.com/teradici">フェイスブック</a></li> <li class="twitter"><a target="_blank" href="https://twitter.com/teradici">ツイッター</a></li> <li class="linkedin"><a target="_blank" href="http://www.linkedin.com/company/teradici">LinkedInの</a></li> </ul>
+
+
+</div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            
+            <div id="m-footernav">
+				
+                 
+<div class='sfContentBlock'><ul> <li><a href="/ja/home">ホーム</a></li> <li><a href="/ja/products-and-solutions/pcoip-products">PCoIPテクノロジー</a></li> <li><a href="/ja/products-and-solutions">製品 &amp; ソリューション </a></li> <li><a href="/ja/about-us">Teradici社について</a></li> <li><a href="/ja/careers">採用情報</a></li> <a href="/ja/board-of-directors"> </a> <li><a href="/ja/management-team">経営陣</a></li> <a href="/ja/board-of-directors"> </a> <li><a href="/ja/board-of-directors">取締役会</a></li> <li><a href="/ja/investors">投資家</a></li> <li><a href="/ja/partners">Teradici社のパートナー</a></li> </ul>
+
+
+</div>   
+            </div>
+			
+            <div class="f-w3">
+            	<div class="f-w4 section-inner">
+                    <div id="bottomlinks" class="nav">
+                        
+                         
+<div class='sfContentBlock'><ul> <li><a href="/ja/sitemap">サイトマップ</a></li> <li><a href="/ja/terms-of-use">利用規約</a></li> <li><a href="/ja/privacy-policy">個人情報保護方針</a></li> </ul>
+
+
+</div>
+                        <div class="clearfix"></div>
+                    </div>
+                    
+                    <div id="copyright">
+                      
+                       
+<div class='sfContentBlock'>&copy; 2016 Copyright Teradici Corporation. All rights reserved.
+
+
+</div>
+                    </div>
+                    
+                        
+            	</div>
+           	</div>
+
+
+
+   
+   </div></div></div>
+
+
+    
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+   <link href="/vendor/bootstrap/css/bootstrap-grid.only.css" rel="stylesheet" type="text/css" media="screen" />
+       <script src="/js/modernizr-2.6.2.min.js" type="text/javascript"></script>
+       <script type="text/javascript" src="/js/jquery.als-1.2.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.debouncedresize.js"></script>
+    <script type="text/javascript" src="/js/jquery.cycle.min.js"></script>
+    <script type="text/javascript" src="/js/fancybox/jquery.fancybox.js"></script>
+
+    <script type="text/javascript" src="/js/site-functions.js"></script>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+jQuery('.nodeID-07').replaceWith('<ul class="nav L2"><li class="first-child L2 inactive"><a class="L2" href="/ja/partners/channel-partner-program"><span>チャネルパートナー プログラム</span></a></li><li class="L2 inactive"><a class="L2" href="/ja/partners/partner-ecosystem"><span>パートナー エコシステム</span></a></li></ul>'); ;(function() {
+                        function loadHandler() {
+                            var hf = $get('ctl19_TSSM');
+                            if (!hf._RSSM_init) { hf._RSSM_init = true; hf.value = ''; }
+                            hf.value += ';Telerik.Sitefinity.Resources, Version=9.2.6211.0, Culture=neutral, PublicKeyToken=b28c218413bdf563:ja:eecfe725-334b-4499-92ca-02d315beec90:7a90d6a';
+                            Sys.Application.remove_load(loadHandler);
+                        };
+                        Sys.Application.add_load(loadHandler);
+                    })();Sys.Application.add_init(function() {
+    $create(Telerik.Sitefinity.Services.Search.Web.UI.Public.SearchBox, {"disableSuggestions":false,"indexCatalogue":"site-search","language":"ja","minSuggestLength":3,"resultsUrl":"/ja/product-finder/search-result---ja","searchButton":$get("CPH_PSHeader_chp_search_T08604F15002_ctl00_ctl00_searchButton"),"searchTextBox":$get("CPH_PSHeader_chp_search_T08604F15002_ctl00_ctl00_searchTextBox"),"suggestionFields":"Title,Content","suggestionsRoute":"/restapi/search/suggestions","wordsMode":0}, null, null, $get("CPH_PSHeader_chp_search_T08604F15002"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadListView, {"UniqueID":"ctl00$ctl00$cph_Main$cph_Content$C015$ctl00$ctl00$ctl00$listsControl$ctrl0$listItemsControl","_clientSettings":{"DataBinding":{"ItemPlaceHolderID":"ctl00_ctl00_cph_Main_cph_Content_C015_ctl00_ctl00_ctl00_listsControl_ctrl0_listItemsControl_ItemsContainer","DataService":{}}},"_virtualItemCount":2,"clientStateFieldID":"ctl00_ctl00_cph_Main_cph_Content_C015_ctl00_ctl00_ctl00_listsControl_ctrl0_listItemsControl_ClientState","renderMode":1}, null, null, $get("ctl00_ctl00_cph_Main_cph_Content_C015_ctl00_ctl00_ctl00_listsControl_ctrl0_listItemsControl"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadListView, {"UniqueID":"ctl00$ctl00$cph_Main$cph_Content$C015$ctl00$ctl00$ctl00$listsControl","_clientSettings":{"DataBinding":{"ItemPlaceHolderID":"ctl00_ctl00_cph_Main_cph_Content_C015_ctl00_ctl00_ctl00_listsControl_ListContainer","DataService":{}}},"_virtualItemCount":1,"clientStateFieldID":"ctl00_ctl00_cph_Main_cph_Content_C015_ctl00_ctl00_ctl00_listsControl_ClientState","renderMode":1}, null, null, $get("ctl00_ctl00_cph_Main_cph_Content_C015_ctl00_ctl00_ctl00_listsControl"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Sitefinity.Web.UI.UserPreferences, {"_timeOffset":"-21600000","_userBrowserSettingsForCalculatingDates":true,"timeZoneDisplayName":"(UTC-08:00) Pacific Time (US \u0026 Canada)","timeZoneId":"Pacific Standard Time"}, null, null);
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadListView, {"UniqueID":"ctl00$ctl00$cph_Main$cph_Content$C016$ctl00$ctl00$ctl00$listsControl$ctrl0$listItemsControl","_clientSettings":{"DataBinding":{"ItemPlaceHolderID":"ctl00_ctl00_cph_Main_cph_Content_C016_ctl00_ctl00_ctl00_listsControl_ctrl0_listItemsControl_ItemsContainer","DataService":{}}},"_virtualItemCount":2,"clientStateFieldID":"ctl00_ctl00_cph_Main_cph_Content_C016_ctl00_ctl00_ctl00_listsControl_ctrl0_listItemsControl_ClientState","renderMode":1}, null, null, $get("ctl00_ctl00_cph_Main_cph_Content_C016_ctl00_ctl00_ctl00_listsControl_ctrl0_listItemsControl"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadListView, {"UniqueID":"ctl00$ctl00$cph_Main$cph_Content$C016$ctl00$ctl00$ctl00$listsControl","_clientSettings":{"DataBinding":{"ItemPlaceHolderID":"ctl00_ctl00_cph_Main_cph_Content_C016_ctl00_ctl00_ctl00_listsControl_ListContainer","DataService":{}}},"_virtualItemCount":1,"clientStateFieldID":"ctl00_ctl00_cph_Main_cph_Content_C016_ctl00_ctl00_ctl00_listsControl_ClientState","renderMode":1}, null, null, $get("ctl00_ctl00_cph_Main_cph_Content_C016_ctl00_ctl00_ctl00_listsControl"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Sitefinity.Web.UI.Fields.TextField, {"_allowNulls":false,"_conditionalTemplatesContainerId":"ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl01_ctl00_ConditionalTemplates","_currentCondition":"displaymode-equal-read","_maxChars":0,"_textBoxId":"textBox_write","_textLabelId":"textLabel_read","_trimSpaces":false,"_unit":null,"conditionDictionary":{"displaymode-equal-read":"ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl01_ctl00_ctl00_conditionalTemplate","displaymode-equal-write":"ClientTemplatePanel_"},"controlErrorCssClass":null,"dataFieldName":null,"dataFormatString":null,"defaultValue":"\u003ch2\u003e「サーバーを過度にプロビジョニングすることなく、負荷のピーク時でも必ずユーザーに高いパフォーマンスを提供できるようになりました」\u003c/h2\u003e \u003ch4\u003eフロリダアトランティック大学エンジニアリング＆コンピューターサイエンス学部\u003cbr /\u003e\n情報テクノロジー部長 \u003cbr /\u003e\nMahesh Neelakanta\u003c/h4\u003e \u003ca href=\"/ja/resource-center/case-studies\"\u003eケーススタディを読む\u003c/a\u003e","description":null,"descriptionElement":$get("ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl01_ctl00_ctl00_descriptionLabel_read"),"displayMode":0,"example":null,"fieldName":null,"labelElement":$get("ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl01_ctl00_ctl00_textLabel_read"),"suffix":"_ctl01","title":null,"titleElement":$get("ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl01_ctl00_ctl00_titleLabel_read"),"validatorDefinition":"{\"AlphaNumericViolationMessage\":\"Non alphanumeric characters are not allowed.\",\"ComparingValidatorDefinitions\":[],\"CurrencyViolationMessage\":\"You have entered an invalid currency.\",\"EmailAddressViolationMessage\":\"You have entered an invalid email address.\",\"ExpectedFormat\":0,\"IntegerViolationMessage\":\"You have entered an invalid integer.\",\"InternetUrlViolationMessage\":\"You have entered an invalid URL.\",\"MaxLength\":0,\"MaxLengthViolationMessage\":\"Too long\",\"MaxValue\":null,\"MaxValueViolationMessage\":\"Too big\",\"MessageCssClass\":null,\"MessageTagName\":\"div\",\"MinLength\":0,\"MinLengthViolationMessage\":\"Too short.\",\"MinValue\":null,\"MinValueViolationMessage\":\"Too small.\",\"NonAlphaNumericViolationMessage\":\"Alphanumeric characters are not allowed.\",\"NumericViolationMessage\":\"You have entered an invalid number.\",\"PercentageViolationMessage\":\"You have entered an invalid percentage.\",\"RegularExpression\":null,\"RegularExpressionSeparator\":null,\"RegularExpressionViolationMessage\":\"Invalid format\",\"Required\":null,\"RequiredViolationMessage\":\"Required field.\",\"ResourceClassId\":\"\",\"USSocialSecurityNumberViolationMessage\":\"You have entered an invalid US social security number.\",\"USZipCodeViolationMessage\":\"You have entered an invalid US ZIP code.\",\"ValidateIfInvisible\":true}","value":"\u003ch2\u003e「サーバーを過度にプロビジョニングすることなく、負荷のピーク時でも必ずユーザーに高いパフォーマンスを提供できるようになりました」\u003c/h2\u003e \u003ch4\u003eフロリダアトランティック大学エンジニアリング＆コンピューターサイエンス学部\u003cbr /\u003e\n情報テクノロジー部長 \u003cbr /\u003e\nMahesh Neelakanta\u003c/h4\u003e \u003ca href=\"/ja/resource-center/case-studies\"\u003eケーススタディを読む\u003c/a\u003e"}, null, null, $get("ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl01"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Sitefinity.Web.UI.Fields.TextField, {"_allowNulls":false,"_conditionalTemplatesContainerId":"ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl02_ctl00_ConditionalTemplates","_currentCondition":"displaymode-equal-read","_maxChars":0,"_textBoxId":"textBox_write","_textLabelId":"textLabel_read","_trimSpaces":false,"_unit":null,"conditionDictionary":{"displaymode-equal-read":"ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl02_ctl00_ctl00_conditionalTemplate","displaymode-equal-write":"ClientTemplatePanel_"},"controlErrorCssClass":null,"dataFieldName":null,"dataFormatString":null,"defaultValue":"\u003ch2\u003ePCoIPハードウェアアクセラレーターカードは、エンコーディングタスクを知的にオフロードし、リソースを最も必要とするところで使えるようにします。\u003c/h2\u003e \u003ch3\u003eスムーズなCPUスパイク\u003c/h3\u003e\nハードウェアアクセラレーターはCPU使用のピークを軽減します。アクセラレーターは、仮想CPUヘッドルームを作成することにより、CPU集約型のアプリケーションが継続してスムーズに実行できるようにします。\u003cbr /\u003e \u003cbr /\u003e \u003ch3\u003eVDIコンソリデーション率を向上\u003c/h3\u003e\nホスト1台当たりに稼働する仮想マシン数が多いほど、ユーザー1人当たりのコストを削減できます。システム管理者は追加のCPUヘッドルームを利用して、コンソリューションデ―ション率を、通常のオフィスの作業負荷 (ビデオ: 5%、オフィス: 95%) に対して最高1.2倍まで高めることができます。","description":null,"descriptionElement":$get("ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl02_ctl00_ctl00_descriptionLabel_read"),"displayMode":0,"example":null,"fieldName":null,"labelElement":$get("ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl02_ctl00_ctl00_textLabel_read"),"suffix":"_ctl02","title":null,"titleElement":$get("ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl02_ctl00_ctl00_titleLabel_read"),"validatorDefinition":"{\"AlphaNumericViolationMessage\":\"Non alphanumeric characters are not allowed.\",\"ComparingValidatorDefinitions\":[],\"CurrencyViolationMessage\":\"You have entered an invalid currency.\",\"EmailAddressViolationMessage\":\"You have entered an invalid email address.\",\"ExpectedFormat\":0,\"IntegerViolationMessage\":\"You have entered an invalid integer.\",\"InternetUrlViolationMessage\":\"You have entered an invalid URL.\",\"MaxLength\":0,\"MaxLengthViolationMessage\":\"Too long\",\"MaxValue\":null,\"MaxValueViolationMessage\":\"Too big\",\"MessageCssClass\":null,\"MessageTagName\":\"div\",\"MinLength\":0,\"MinLengthViolationMessage\":\"Too short.\",\"MinValue\":null,\"MinValueViolationMessage\":\"Too small.\",\"NonAlphaNumericViolationMessage\":\"Alphanumeric characters are not allowed.\",\"NumericViolationMessage\":\"You have entered an invalid number.\",\"PercentageViolationMessage\":\"You have entered an invalid percentage.\",\"RegularExpression\":null,\"RegularExpressionSeparator\":null,\"RegularExpressionViolationMessage\":\"Invalid format\",\"Required\":null,\"RequiredViolationMessage\":\"Required field.\",\"ResourceClassId\":\"\",\"USSocialSecurityNumberViolationMessage\":\"You have entered an invalid US social security number.\",\"USZipCodeViolationMessage\":\"You have entered an invalid US ZIP code.\",\"ValidateIfInvisible\":true}","value":"\u003ch2\u003ePCoIPハードウェアアクセラレーターカードは、エンコーディングタスクを知的にオフロードし、リソースを最も必要とするところで使えるようにします。\u003c/h2\u003e \u003ch3\u003eスムーズなCPUスパイク\u003c/h3\u003e\nハードウェアアクセラレーターはCPU使用のピークを軽減します。アクセラレーターは、仮想CPUヘッドルームを作成することにより、CPU集約型のアプリケーションが継続してスムーズに実行できるようにします。\u003cbr /\u003e \u003cbr /\u003e \u003ch3\u003eVDIコンソリデーション率を向上\u003c/h3\u003e\nホスト1台当たりに稼働する仮想マシン数が多いほど、ユーザー1人当たりのコストを削減できます。システム管理者は追加のCPUヘッドルームを利用して、コンソリューションデ―ション率を、通常のオフィスの作業負荷 (ビデオ: 5%、オフィス: 95%) に対して最高1.2倍まで高めることができます。"}, null, null, $get("ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl02"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Sitefinity.Web.UI.Fields.TextField, {"_allowNulls":false,"_conditionalTemplatesContainerId":"ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl03_ctl00_ConditionalTemplates","_currentCondition":"displaymode-equal-read","_maxChars":0,"_textBoxId":"textBox_write","_textLabelId":"textLabel_read","_trimSpaces":false,"_unit":null,"conditionDictionary":{"displaymode-equal-read":"ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl03_ctl00_ctl00_conditionalTemplate","displaymode-equal-write":"ClientTemplatePanel_"},"controlErrorCssClass":null,"dataFieldName":null,"dataFormatString":null,"defaultValue":"\u003ca href=\"http://www.teradici.com/products-and-solutions/pcoip-products/hardware-accelerator\"\u003e続きを読む \u0026gt;\u0026gt;\u003c/a\u003e","description":null,"descriptionElement":$get("ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl03_ctl00_ctl00_descriptionLabel_read"),"displayMode":0,"example":null,"fieldName":null,"labelElement":$get("ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl03_ctl00_ctl00_textLabel_read"),"suffix":"_ctl03","title":null,"titleElement":$get("ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl03_ctl00_ctl00_titleLabel_read"),"validatorDefinition":"{\"AlphaNumericViolationMessage\":\"Non alphanumeric characters are not allowed.\",\"ComparingValidatorDefinitions\":[],\"CurrencyViolationMessage\":\"You have entered an invalid currency.\",\"EmailAddressViolationMessage\":\"You have entered an invalid email address.\",\"ExpectedFormat\":0,\"IntegerViolationMessage\":\"You have entered an invalid integer.\",\"InternetUrlViolationMessage\":\"You have entered an invalid URL.\",\"MaxLength\":0,\"MaxLengthViolationMessage\":\"Too long\",\"MaxValue\":null,\"MaxValueViolationMessage\":\"Too big\",\"MessageCssClass\":null,\"MessageTagName\":\"div\",\"MinLength\":0,\"MinLengthViolationMessage\":\"Too short.\",\"MinValue\":null,\"MinValueViolationMessage\":\"Too small.\",\"NonAlphaNumericViolationMessage\":\"Alphanumeric characters are not allowed.\",\"NumericViolationMessage\":\"You have entered an invalid number.\",\"PercentageViolationMessage\":\"You have entered an invalid percentage.\",\"RegularExpression\":null,\"RegularExpressionSeparator\":null,\"RegularExpressionViolationMessage\":\"Invalid format\",\"Required\":null,\"RequiredViolationMessage\":\"Required field.\",\"ResourceClassId\":\"\",\"USSocialSecurityNumberViolationMessage\":\"You have entered an invalid US social security number.\",\"USZipCodeViolationMessage\":\"You have entered an invalid US ZIP code.\",\"ValidateIfInvisible\":true}","value":"\u003ca href=\"http://www.teradici.com/products-and-solutions/pcoip-products/hardware-accelerator\"\u003e続きを読む \u0026gt;\u0026gt;\u003c/a\u003e"}, null, null, $get("ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ctrl0_ctl03"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadListView, {"UniqueID":"ctl00$ctl00$cph_Main$cph_Content$ctl07$ctl00$ctl00$dynamicContentListView","_clientSettings":{"DataBinding":{"ItemPlaceHolderID":"ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ItemsContainer","DataService":{}}},"_virtualItemCount":1,"clientStateFieldID":"ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView_ClientState","renderMode":1}, null, null, $get("ctl00_ctl00_cph_Main_cph_Content_ctl07_ctl00_ctl00_dynamicContentListView"));
+});
+Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadListView, {"UniqueID":"ctl00$ctl00$cph_Main$cph_Content$C017$ctl00$ctl00$ctl00$listsControl","_clientSettings":{"DataBinding":{"ItemPlaceHolderID":"ctl00_ctl00_cph_Main_cph_Content_C017_ctl00_ctl00_ctl00_listsControl_ListContainer","DataService":{}}},"clientStateFieldID":"ctl00_ctl00_cph_Main_cph_Content_C017_ctl00_ctl00_ctl00_listsControl_ClientState","renderMode":1}, null, null, $get("ctl00_ctl00_cph_Main_cph_Content_C017_ctl00_ctl00_ctl00_listsControl"));
+});
+//]]>
+</script>
+</form>
+
+    <!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/257876.js"></script>
+
+</body>
+</html>

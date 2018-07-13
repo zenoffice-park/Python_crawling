@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script type="text/javascript">var pimcore = pimcore || {};pimcore["targeting"] = {};pimcore["targeting"]["dataPush"] = {"personas":[],"method":"get","document":8};pimcore["targeting"]["targetingRules"] = [];pimcore["targeting"]["personas"] = [{"id":2,"name":"Visitor 1","description":"","threshold":"1","active":true,"conditions":[{"searchengine":"google","type":"searchengine","operator":"and","bracketLeft":false,"bracketRight":false},{"country":"SE","type":"country","operator":"and","bracketLeft":false,"bracketRight":false}]}];</script><script type="text/javascript" src="/pimcore/static6/js/frontend/targeting.js"></script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-KM9TG4B');</script>
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "legalName": "Lammhults Möbel AB",
+            "name": "Lammhults",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Växjövägen 41",
+                "postOfficeBoxNumber": "26",
+                "addressLocality": "Lammhult",
+                "postalCode": "SE-360 30",
+                "addressCountry": "Sweden"
+            },
+            "email": "info@lammhults.se",
+            "telephone": "+46 (0)472 26 95 00",
+            "url": "https://www.lammhults.se",
+            "logo": "https://www.lammhults.se/website/static/images/lammhults.svg",
+            "memberOf": {
+                "@type": "Organization",
+                "legalName": "Lammhults Design Group AB",
+                "name": "Lammhults Design Group",
+                "url": "http://www.lammhultsdesigngroup.com"
+            },
+            "sameAs": [
+                "https://www.facebook.com/lammhults",
+                "https://twitter.com/lammhults",
+                "https://www.instagram.com/lammhults",
+                "https://www.pinterest.com/lammhults",
+                "https://www.linkedin.com/company/lammhults-m-bel-ab"
+            ],
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://www.lammhults.se/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        }
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lammhults</title>
+    <meta name="description" content="For 70 years Lammhults has delivered its signature Scandinavian style to public spaces, homes and offices, creating a world of elegant modern interiors." >
+
+
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/website/static/images/favicon-144.png">
+    <link rel="apple-touch-icon-precomposed" href="/website/static/images/favicon-152.png">
+    <link rel="shortcut icon" sizes="196x196" href="/website/static/images/favicon-196.png">
+
+    <link rel="stylesheet" href="https://use.typekit.net/rsm4ubf.css">
+    <link href="/cache-buster-1526541479/website/static/css/main.min.css" media="screen" rel="stylesheet" type="text/css" >
+
+</head>
+<body>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KM9TG4B"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <header class="Header">
+        <div class="Header-logo">
+            <a href="/">
+                <svg aria-hidden="true" width="35" height="301" viewBox="0 0 35 301" xmlns="http://www.w3.org/2000/svg"><g fill="#000" fill-rule="evenodd"><path d="M.538 301.192V288.9H23.51v-10.32h10.86v22.612H.537M34.37 264.883v13.012L.537 266.14v-13.595l33.83-12.07v13.012l-4.217 1.122v9.286l4.22.987zm-12.25-8.287l-10.142 2.664 10.142 2.564v-5.228zM.538 234.213V221.56l16.967-4.776-16.967-4.87v-12.518l33.83-5.564v11.89l-17.614 1.884 17.615 5.7v7.177l-17.756 5.224 17.755 2.09v11.89L.537 234.213M.538 187.565v-12.653l17.17-4.84-17.17-4.806v-12.518l33.83-5.564v11.89l-17.703 1.935 17.704 5.647v7.178l-17.642 5.262 17.64 2.052v11.89L.54 187.564M.538 144.664V132.82h11.397v-7.54H.538v-11.844h33.83v11.845H22.615v7.54H34.37v11.844H.537M.538 78.28h20.01c9.872 0 14.36 6.19 14.36 15.658 0 9.467-4.488 15.66-14.36 15.66H.54V97.302h18.845c2.647 0 4.98-.09 4.98-3.365 0-3.276-2.333-3.365-4.98-3.365H.538V78.28M.538 74.34V62.05H23.51v-10.32h10.86V74.34H.537M22.254 25.04l.494-.628c1.705-2.2 3.096-4.845 3.096-7.672 0-1.212-.494-3.14-2.02-3.14-1.525 0-1.66 1.614-1.883 2.736l-.448 2.467c-.853 4.8-3.68 8.84-8.974 8.84C4.488 27.643 0 20.33 0 12.97 0 9.113.942 5.57 2.962 2.248l8.66 3.32c-1.437 2.11-2.56 4.487-2.56 7.135 0 1.077.405 2.647 1.796 2.647 1.256 0 1.436-1.527 1.66-2.468l.628-2.783c1.167-5.205 3.95-8.975 9.692-8.975 8.076 0 12.07 7.36 12.07 14.672 0 4.263-1.168 9.198-3.097 13.012l-9.556-3.77M.515 54.668V28.81h10.993V35.6h22.83v12.284h-22.83v6.786H.515"></path></g></svg>
+            </a>
+        </div>
+        <div class="Header-navButton">
+            <a href="#navigation"><svg aria-hidden="true" width="31" height="25" viewBox="0 0 31 25" xmlns="http://www.w3.org/2000/svg"><g stroke="#000" fill="none" fill-rule="evenodd" stroke-linecap="square"><path d="M.5 2.5h30M.5 12.5h30M.5 22.5h30"/></g></svg> <span>Menu</span></a>
+        </div>
+
+        <nav class="Navigation " id="navigation">
+    <div class="Navigation-closeButton">
+        <a href="#close-navigation">
+            <svg aria-hidden="true" width="31" height="25" viewBox="0 0 31 25" xmlns="http://www.w3.org/2000/svg"><g stroke="#000" fill="none" fill-rule="evenodd" stroke-linecap="square"><path d="M4.893 23.107L26.107 1.893M25.698 22.698L4.485 1.485"/></g></svg>
+        </a>
+    </div>
+
+    <div class="Navigation-content">
+        <div class="Navigation-columns">
+            <div class="Navigation-products">
+
+                                    <div class="Navigation-productsTypes">
+                        <h1 class="Navigation-heading"><a href="/products">Products</a></h1>
+                        <ul>
+                                                            <li><a href="/products#news">News</a></li>
+                                                            <li><a href="/products#chairs-armchairs">Chairs & Armchairs</a></li>
+                                                            <li><a href="/products#easy-chairs-sofas">Easy Chairs & Sofas</a></li>
+                                                            <li><a href="/products#barstools-stools">Barstools & Stools</a></li>
+                                                            <li><a href="/products#tables-trolleys">Tables & Trolleys</a></li>
+                                                            <li><a href="/products#bar-tables">Bar tables</a></li>
+                                                            <li><a href="/products#accessories">Accessories</a></li>
+                                                            <li><a href="/products#modular-seating">Modular Seating</a></li>
+                                                    </ul>
+                    </div>
+                
+                                    <div class="Navigation-productsFamilies">
+                        <h1 class="Navigation-heading"><a href="/products-families">Product families </a></h1>
+                        <ul>
+                                                            <li><a href="/products-families#millibar">Millibar</a></li>
+                                                            <li><a href="/products-families#add">Add</a></li>
+                                                            <li><a href="/products-families#addit">Addit</a></li>
+                                                            <li><a href="/products-families#archal">Archal</a></li>
+                                                            <li><a href="/products-families#area">Area</a></li>
+                                                            <li><a href="/products-families#attach">Attach</a></li>
+                                                            <li><a href="/products-families#cajal">Cajal</a></li>
+                                                            <li><a href="/products-families#campus">Campus</a></li>
+                                                            <li><a href="/products-families#cinema">Cinema</a></li>
+                                                            <li><a href="/products-families#comet">Comet</a></li>
+                                                            <li><a href="/products-families#deco">Deco</a></li>
+                                                            <li><a href="/products-families#funk">Funk</a></li>
+                                                            <li><a href="/products-families#s70">S70</a></li>
+                                                            <li><a href="/products-families#sahara">Sahara</a></li>
+                                                    </ul>
+                    </div>
+                            </div>
+
+            <div class="Navigation-news">
+                <h1 class="Navigation-heading"><a href="/news">News & Stories</a></h1>
+                                    <ul>
+                                                    <li>
+                                <a href="/news/s70---50-years~n670">
+                                    <h2>S70 – 50 YEARS</h2>
+                                    <p>A colorful design classic celebrating 50 year....</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/summer-is-here-~n668">
+                                    <h2>Summer is here!</h2>
+                                    <p>Our opening hours during the summer....</p>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/design-district-2018~n666">
+                                    <h2>Design District 2018</h2>
+                                    <p>Welcome to visit us at Design District in Rotterdam..</p>
+                                </a>
+                            </li>
+                                                <a href="/news" class="Button">View all news</a>
+                    </ul>
+                
+                                    <h1 class="Navigation-heading"><a href="/news">Events</a></h1>
+                        <ul class="EventsList">
+                    <li itemscope itemtype="http://schema.org/Event">
+                                    <time itemprop="startDate" datetime="2018-09-20">
+                        20.09.18                    </time>
+                
+                                    <time itemprop="endDate" datetime="2018-09-23">
+                        23.09.18                    </time>
+                                <div>
+                    <p itemprop="name">
+                                                    <a href="https://www.thedesignjunction.co.uk/en/home.html" itemprop="url">designjunction</a>
+                                            </p>
+                    <p itemprop="description">
+                        London, September 20-23                    </p>
+                </div>
+            </li>
+                    <li itemscope itemtype="http://schema.org/Event">
+                                    <time itemprop="startDate" datetime="2018-10-20">
+                        20.10.18                    </time>
+                
+                                    <time itemprop="endDate" datetime="2018-10-27">
+                        27.10.18                    </time>
+                                <div>
+                    <p itemprop="name">
+                                                    <a href="http://www.orgatec.com/ORGATEC/index-2.php" itemprop="url">Orgatec</a>
+                                            </p>
+                    <p itemprop="description">
+                        Cologne, October 23-27. Hall 10.2, Stand K-038                    </p>
+                </div>
+            </li>
+            </ul>
+                            </div>
+
+            <div class="Navigation-designers">
+                <h1 class="Navigation-heading"><a href="/designers">Designers</a></h1>
+
+                                    <ul>
+                                                    <li>
+                                <a href="/designers/anya-sebton~d62">
+                                                                            <img width="50" height="50" alt="" src="/website/var/tmp/image-thumbnails/0/2958/thumb__designer-mini/anya-sebton-4_copy.jpeg" srcset="/website/var/tmp/image-thumbnails/0/2958/thumb__designer-mini/anya-sebton-4_copy.jpeg 1x, /website/var/tmp/image-thumbnails/0/2958/thumb__designer-mini/anya-sebton-4_copy%402x.jpeg 2x" />                                                                        Anya Sebton                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/designers/borge-lindau-bo-lindekrantz~d60">
+                                                                            <img width="50" height="50" alt="" src="/website/var/tmp/image-thumbnails/0/2961/thumb__designer-mini/bosse_och_borge_copy.jpeg" srcset="/website/var/tmp/image-thumbnails/0/2961/thumb__designer-mini/bosse_och_borge_copy.jpeg 1x, /website/var/tmp/image-thumbnails/0/2961/thumb__designer-mini/bosse_och_borge_copy%402x.jpeg 2x" />                                                                        Börge Lindau & Bo Lindekrantz                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/designers/edvin-stahl~d59">
+                                                                            <img width="50" height="50" alt="" src="/website/var/tmp/image-thumbnails/0/2963/thumb__designer-mini/edvinstahl_copy.jpeg" srcset="/website/var/tmp/image-thumbnails/0/2963/thumb__designer-mini/edvinstahl_copy.jpeg 1x, /website/var/tmp/image-thumbnails/0/2963/thumb__designer-mini/edvinstahl_copy%402x.jpeg 2x" />                                                                        Edvin Ståhl                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/designers/gunilla-allard~d64">
+                                                                            <img width="50" height="50" alt="" src="/website/var/tmp/image-thumbnails/0/2962/thumb__designer-mini/allard_preview.jpeg" srcset="/website/var/tmp/image-thumbnails/0/2962/thumb__designer-mini/allard_preview.jpeg 1x, /website/var/tmp/image-thumbnails/0/2962/thumb__designer-mini/allard_preview%402x.jpeg 2x" />                                                                        Gunilla Allard                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/designers/johannes-foersom-peter-hiort-lorenzen~d63">
+                                                                            <img width="50" height="50" alt="" src="/website/var/tmp/image-thumbnails/0/906/thumb__designer-mini/peter_johannes.jpeg" srcset="/website/var/tmp/image-thumbnails/0/906/thumb__designer-mini/peter_johannes.jpeg 1x, /website/var/tmp/image-thumbnails/0/906/thumb__designer-mini/peter_johannes%402x.jpeg 2x" />                                                                        Johannes Foersom & Peter Hiort-Lorenzen                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/designers/julia-laufer-marcus-keichel~d57">
+                                                                            <img width="50" height="50" alt="" src="/website/var/tmp/image-thumbnails/0/899/thumb__designer-mini/lk_portrait_black_xl.jpeg" srcset="/website/var/tmp/image-thumbnails/0/899/thumb__designer-mini/lk_portrait_black_xl.jpeg 1x, /website/var/tmp/image-thumbnails/0/899/thumb__designer-mini/lk_portrait_black_xl%402x.jpeg 2x" />                                                                        Julia Läufer & Marcus Keichel                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/designers/julia-prytz~d569">
+                                                                            <img width="50" height="50" alt="" src="/website/var/tmp/image-thumbnails/0/5451/thumb__designer-mini/julia_prytz_portrait.jpeg" srcset="/website/var/tmp/image-thumbnails/0/5451/thumb__designer-mini/julia_prytz_portrait.jpeg 1x, /website/var/tmp/image-thumbnails/0/5451/thumb__designer-mini/julia_prytz_portrait%402x.jpeg 2x" />                                                                        Julia Prytz                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/designers/troels-grum-schwensen~d58">
+                                                                            <img width="50" height="50" alt="" src="/website/var/tmp/image-thumbnails/0/901/thumb__designer-mini/troels-svartvit.jpeg" srcset="/website/var/tmp/image-thumbnails/0/901/thumb__designer-mini/troels-svartvit.jpeg 1x, /website/var/tmp/image-thumbnails/0/901/thumb__designer-mini/troels-svartvit%402x.jpeg 2x" />                                                                        Troels Grum-Schwensen                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/designers/tuva-rivedal-tjugen~d614">
+                                                                            <img width="50" height="50" alt="" src="/website/var/tmp/image-thumbnails/0/5976/thumb__designer-mini/TuvaRivedalTjugen1SV_3.jpeg" srcset="/website/var/tmp/image-thumbnails/0/5976/thumb__designer-mini/TuvaRivedalTjugen1SV_3.jpeg 1x, /website/var/tmp/image-thumbnails/0/5976/thumb__designer-mini/TuvaRivedalTjugen1SV_3%402x.jpeg 2x" />                                                                        Tuva Rivedal Tjugen                                </a>
+                            </li>
+                                            </ul>
+                            </div>
+
+            <div class="Navigation-links">
+                <nav>
+                    <h1 class="Navigation-heading">Five perspectives</h1>
+                    <ul>
+                                                    <li><a href="/products" >Products</a></li>
+                                                    <li><a href="/sustainability" >Sustainability</a></li>
+                                                    <li><a href="/projects" >Projects</a></li>
+                                                    <li><a href="/designers" >Designers</a></li>
+                                                    <li><a href="/news" >News &amp; Stories</a></li>
+                                            </ul>
+                </nav>
+                <nav>
+                    <h1 class="Navigation-heading">Corporate</h1>
+                    <ul>
+                                                    <li><a href="/contact" >Contact</a></li>
+                                                    <li><a href="/contact#showrooms" >Showrooms</a></li>
+                                                    <li><a href="/downloads" >Downloads</a></li>
+                                                    <li><a href="/downloads#press" >Press</a></li>
+                                                    <li><a href="/about" >About</a></li>
+                                                    <li><a href="https://www.lammhults.se/career" >CAREER</a></li>
+                                                    <li><a href="https://www.lammhults.se/privacy-policy" >Privacy Policy</a></li>
+                                                    <li><a href="/" >Startpage</a></li>
+                                            </ul>
+                </nav>
+                <nav>
+                    <h1 class="Navigation-heading">Social</h1>
+                    <ul>
+                                                    <li><a href="https://www.facebook.com/lammhults" >Facebook</a></li>
+                                                    <li><a href="https://twitter.com/lammhults" >Twitter</a></li>
+                                                    <li><a href="https://www.instagram.com/lammhults" >Instagram</a></li>
+                                                    <li><a href="https://www.pinterest.com/lammhults" >Pinterest</a></li>
+                                                    <li><a href="https://www.linkedin.com/company/lammhults-m-bel-ab" >LinkedIn</a></li>
+                                            </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="Navigation-columns">
+            <div class="Navigation-search">
+                <form action="/search">
+                    <label for="q" class="Navigation-heading">Search</label>
+                    <input type="text" id="q" name="q" placeholder="Type something...">
+                </form>
+            </div>
+			<!--
+            <div class="Navigation-newsletter">
+                <form action="https://lammhults.us5.list-manage.com/subscribe">
+                    <label for="newsletter-email" class="Navigation-heading">Join our newsletter</label>
+                    <input type="email" id="newsletter-email" name="MERGE0" placeholder="Your email address...">
+                    <input type="hidden" name="u" value="8f87fb7788c2a760e47830b6d">
+                    <input type="hidden" name="id" value="854edad415">
+                </form>
+            </div>
+			-->
+            <div class="Navigation-contact">
+                <h1 class="Navigation-heading"><a href="/contact">Contact us</a></h1>
+               	<p>
+               	    Phone: <a href="tel:+46(0)472269500">+46 (0)472 26 95 00</a><br>
+                    Email: <a href="mailto:info@lammhults.se">info@lammhults.se</a>
+                <p>
+            </div>
+        </div>
+
+        <div class="Navigation-footer">
+            <p>Lammhults Möbel AB<br>Lammhults Möbel AB, Box 26, SE-363 03 Lammhult, Sweden<p>
+            <p><small>Part of <a href="http://www.lammhultsdesigngroup.com/">Lammhults Design Group</a></small></p>
+        </div>
+    </div>
+</nav>    </header>
+    
+    <div class="Splash" style="background-image: url(/pages/start/LAMMHULTS_Carousel_Attach_S70-3_5905_1.jpg)">
+    <div class="Splash-content">
+        <h1 class="Splash-preTitle">Lammhults</h1>
+        <h2 class="Splash-title">Five perspectives</h2>
+        <nav class="Splash-nav">
+    <ul class="Splash-navLevel1">
+                                                            <li>
+                    <a href="/products">Products</a>
+                    <ul class="Splash-navLevel2">
+                                                                                <li>
+                                <a href="/products#news">News</a>
+                            </li>
+                                                                                <li>
+                                <a href="/products#chairs-armchairs">Chairs & Armchairs</a>
+                            </li>
+                                                                                <li>
+                                <a href="/products#easy-chairs-sofas">Easy Chairs & Sofas</a>
+                            </li>
+                                                                                <li>
+                                <a href="/products#barstools-stools">Barstools & Stools</a>
+                            </li>
+                                                                                <li>
+                                <a href="/products#tables-trolleys">Tables & Trolleys</a>
+                            </li>
+                                                                                <li>
+                                <a href="/products#bar-tables">Bar tables</a>
+                            </li>
+                                                                                <li>
+                                <a href="/products#accessories">Accessories</a>
+                            </li>
+                                                                                <li>
+                                <a href="/products#modular-seating">Modular Seating</a>
+                            </li>
+                                            </ul>
+                </li>
+                                                                                    <li>
+                    <a href="/sustainability">sustainability</a>
+                </li>
+                                                                        <li>
+                    <a href="/projects">Projects</a>
+                </li>
+                                                                        <li>
+                    <a href="/designers">Designers</a>
+                </li>
+                                                                        <li>
+                    <a href="/news">News & Stories</a>
+                </li>
+                                                                                                                                    </ul>
+</nav>    </div>
+    <div class="Splash-animation Splash-animation--alt2">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    </div>
+
+    
+        
+        <div class="NewsTicker">
+            <div class="NewsTicker-content">
+                <div class="NewsTicker-closeButton">
+                    <a href="#!"><svg aria-hidden="true" width="31" height="25" viewBox="0 0 31 25" xmlns="http://www.w3.org/2000/svg"><g stroke="#000" fill="none" fill-rule="evenodd" stroke-linecap="square"><path d="M4.893 23.107L26.107 1.893M25.698 22.698L4.485 1.485"/></g></svg></a>
+                </div>
+                <p class="NewsTicker-meta">
+                    <span>Press</span>
+                    <span>June 05</span>
+                </p>
+                <div class="NewsTicker-titleWrap">
+                    <h2 class="NewsTicker-title">
+                        <a href="/news/s70---50-years~n670">S70 – 50 YEARS</a>
+                    </h2>
+                    <p class="NewsTicker-readMore">
+                        <a href="/news/s70---50-years~n670">Read more</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+    
+        <script type="text/javascript" src="/cache-buster-1493796815/website/static/js/main.min.js"></script></body>
+</html>

@@ -1,0 +1,1070 @@
+<!doctype html> <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]--> <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]--> <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]--> <!--[if gt IE 8]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+	<meta name="google-site-verification" content="iCbmWLHVERlALobnaMAo4UNNMXKPOP2lIg1nvaUkXio"/>
+
+	<title>Home | NetIQ</title>
+
+	<meta name="description" content="現代の企業に適した実績のあるITシステム管理、セキュリティ管理、パフォーマンス管理のソフトウェアを提供しています。">
+	<meta name="keywords" content="NetIQ Corporation, eビジネスインフラ管理"> <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width">
+
+<link rel="stylesheet" href="/common/inc/css/main.css?v=17">
+
+<!-- Load JQuery in the header so in-page JS works -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/common/inc/js/libs/jquery-1.7.1.min.js'><\/script>")</script>
+
+<!-- <script src="/common/inc/js/libs/modernizr-2.5.2.min.js"></script> -->
+<script src="/common/inc/js/core.js?v=7"></script>
+
+<!-- Typekit -->
+<script src="https://use.typekit.com/abb1dbs.js"></script>
+<script>try{Typekit.load();}catch(e){}</script>
+
+<script>
+	document.write("<script src='/common/util/geophone.php?co="+user_country_code+"'>\x3C/script>");
+</script>
+
+<!--[if lte IE 8]>
+<script src="/common/inc/js/html5.js"></script>
+<![endif]-->
+
+<script src="//api.demandbase.com/autocomplete/widget.js"></script>
+<script src="/common/inc/js/demandbaseFormStd.js"></script>
+
+<style>
+#demandbase-autocomplete {
+	display: block;
+	position: fixed;
+	left: -400px;
+}
+</style>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-86RG');</script>
+<!-- End Google Tag Manager -->
+
+<script>
+	var ga_code = (window.location.href.indexOf("wwwstage") > -1 || window.location.href.indexOf("wwwtest") > -1) ? "UA-3266549-10" : "UA-3266549-1"; /*-2 is stage, -1 is prod*/
+//	var gaevent_code = (window.location.href.indexOf("wwwstage") > -1 || window.location.href.indexOf("wwwtest") > -1) ? "UA-25245362-2" : "UA-25245362-1"; /*-2 is stage, -1 is prod*/
+	
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', ga_code, 'auto');
+	
+	
+	var trackPageViewOnLoad = (typeof trackPageViewOnLoad != "undefined" && trackPageViewOnLoad === false) ? false : true;
+	if(trackPageViewOnLoad) {
+		if(typeof is404Page == "undefined" || is404Page !== true) {
+            // add eloqua email value to custom dimension
+            var emailValue = readCookie('elid');
+            if ( emailValue ) {
+                ga('set', 'dimension13', emailValue);
+            }
+            // add timestamp to custom dimension
+            var timestamp = Math.floor(Date.now() / 1000);
+            ga('set', 'dimension15', timestamp);
+
+            // set bing custom dimension
+            var referrer = document.referrer;
+            if ( referrer !== undefined && referrer.indexOf('bing.com') > -1 && referrer.indexOf('q=') > -1 ) {
+                var query = referrer.replace(/.*q=/, '').replace(/&.*/, '').replace(/\+/, ' ');
+                if ( query !== '' ) {
+                    ga('set', 'dimension16', query);
+                }
+            }
+
+            ga('require', 'displayfeatures'); 
+			ga('send', 'pageview');
+		}
+	}
+
+
+/////////////////////////////////////////
+//	Demandbase/GA Integration
+// Start Demandbase / Google Analytics Integration -->
+(function(d,b,a,s,e){ var t = b.createElement(a),
+    fs = b.getElementsByTagName(a)[0]; t.async=1; t.id=e;
+    t.src=('https:'==document.location.protocol ? 'https://' : 'http://') + s;
+    fs.parentNode.insertBefore(t, fs); })
+(window,document,'script','scripts.demandbase.com/QfAwkCBK.min.js','demandbase_js_lib');
+    /* End Demandbase integration */
+// End Demandbase / Google Analytics -->
+
+
+</script>
+
+<!-- Decibel Insight - www.netiq.com -->
+<script>
+	// <![CDATA[
+	(function(d,e,c,i,b,el,it) {
+		d._da_=d._da_||[];_da_.oldErr=d.onerror;_da_.err=[];
+		d.onerror=function(er){_da_.err.push(er);_da_.oldErr&&_da_.oldErr(er);};
+		d.DecibelInsight=b;d[b]=d[b]||function(){(d[b].q=d[b].q||[]).push(arguments);};
+		el=e.createElement(c),it=e.getElementsByTagName(c)[0];el.async=1;el.src=i;it.parentNode.insertBefore(el,it);
+	})(window,document,'script','//decibelinsight.net/i/17543/di.js','decibelInsight');
+	// ]]>
+</script>
+
+<script src="/common/inc/js/trial_download.js"></script>
+
+<script>
+	var demandbase_data_promise = jQuery.ajax({
+		type: 'get',
+		url: '/common/util/demandbase_data.php',
+		data: {},
+		success: function(data) {},
+		complete: function() {},
+		error: function() {},
+		dataType: 'json'
+	});
+</script>
+
+
+	
+	<link rel="stylesheet" type="text/css" href="/home/home.css?s1=hpe">
+
+	<script type="text/javascript" src="/common/flash/jwplayer/mediaplayer-5.8-licensed/jwplayer.js"></script>
+
+</head>
+<body class="nopadding"> <!-- Google Tag Manager (noscript) -->
+<noscript>
+	<iframe src="//www.googletagmanager.com/ns.html?id=GTM-86RG" height="0" width="0" style="display:none;visibility:hidden;"></iframe>
+</noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-86RG');</script>
+<!-- End Google Tag Manager (noscript) -->
+<!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+<header class="main">
+	<div class="header_bottom">
+		<div class="wrap">
+			<div class="logo"><a href="/" onclick="ga('send', 'event', 'header', 'logo', 'main');" id="hdr_logo">NetIQ | Micro Focus</a></div>
+			<nav>
+				<ul>
+					<li id="nav_solutions" class="large desk"><a href="javascript:return false;" data-href="/ja-jp/solutions-industries/" data-ga="solutions" id="hdr_solutions_main"><strong>ソリューション 製品</strong><i class="downarrow">&nbsp;</i></a>
+						<div>
+							<div id="solution_identity" class="nav_solution">
+	<p><a href="/solutions/identity-access-management/"><i>&nbsp;</i>アイデンティティおよび <br>アクセス管理</a></p>
+	<div class="nav_solution_content">
+		<div class="nav_solution_details">
+          	<div class="solution_title_container">
+				  <i class="solution_icon"></i>
+				  <span>アイデンティティおよび <br>アクセス管理</span>
+				<i class="arrow"></i>
+             </div>
+			<p>統合アイデンティティ情報をベースにアイデンティティを作成および管理し、企業リソースへのアクセスを制御しましょう。アイデンティティとアクセスの管理、シングルサインオン、アクセスガバナンスなどを実現します。<br><br>
+			<a href="/solutions/identity-access-management/">アイデンティティ管理とアクセス管理の詳細</a></p>
+			<span>We help you...</span>
+            <ul>
+				<li><a href="/ja-jp/solutions/identity-access-management/secure-access.html">必要なリソースへの迅速かつセキュアなアクセスを提供</a></li>
+				<li><a href="/ja-jp/solutions/identity-access-management/single-sign-on.html">パスワードをセキュアかつシンプルに管理</a></li>
+				<li><a href="/ja-jp/solutions/identity-access-management/user-access-control.html">ITリソースへのアクセス制御を簡単に</a></li>
+				<li><a href="/ja-jp/solutions/identity-access-management/it-regulatory-compliance.html">ITコンプライアンスを強化するアクセス制御</a></li>
+				<li><a href="/ja-jp/solutions/identity-access-management/monitor-privileged-users.html">特権ユーザの制御と監視</a></li>
+			</ul>
+		</div>
+        <div class="nav_solution_products">
+          	<span>Products</span>
+        	<ul>
+            	<li><a href="/products/access-manager/" onclick="ga('send', 'event', 'header', 'products', 'accessmanager');" id="hdr_products_accessmanager">Access Manager</a></li>
+                <li><a href="/products/advanced-authentication/" onclick="ga('send', 'event', 'header', 'products', 'aa');" id="hdr_products_aaframework">Advanced Authentication</a></li>
+                <li><a href="/products/cloudaccess/" onclick="ga('send', 'event', 'header', 'products', 'cloudaccess');" id="hdr_products_cloudaccess">CloudAccess</a></li>
+                <li><a href="/products/directory-resource-administrator/" onclick="ga('send', 'event', 'header', 'products', 'dradmin');" id="hdr_products_dradmin">Directory and Resource Administrator</a></li>
+                <li><a href="/products/identity-governance/" onclick="ga('send', 'event', 'header', 'products', 'identitygovernance');" id="hdr_products_identitygovernance">Identity Governance</a></li>
+                <li><a href="/products/identity-manager/advanced/" onclick="ga('send', 'event', 'header', 'products', 'identitymanager');" id="hdr_products_identitymanager">Identity Manager</a></li>
+                <li><a href="/products/identity-tracking/" onclick="ga('send', 'event', 'header', 'products', 'identitytracking');" id="hdr_products_identitytracking">Identity Tracking for Identity Manager</a></li>
+                <li><a href="/products/privileged-account-manager/" onclick="ga('send', 'event', 'header', 'products', 'privusermanager');" id="hdr_products_privusermanager">Privileged Account Manager</a></li>
+                <li><a href="/products/securelogin/" onclick="ga('send', 'event', 'header', 'products', 'securelogin');" id="hdr_products_securelogin">SecureLogin</a></li>
+                <li><a href="/products/self-service-password-reset/" onclick="ga('send', 'event', 'header', 'products', 'passwordreset');" id="hdr_products_passwordreset">Self Service Password Reset</a></li>
+                <!-- <li><a href="/products/socialaccess/" onclick="ga('send', 'event', 'header', 'products', 'socialaccess');" id="hdr_products_socialaccess">SocialAccess</a></li> -->
+            	<li><br></li>
+                <li><a href="/products/" onclick="ga('send', 'event', 'header', 'products', 'main');">All Products A-Z</a></li>
+            </ul>
+            <div class="videos">
+             	<ul>
+					<!-- <li><a href="/promo/identity-and-access-management/forrester-wave-identity-and-access-management-suites.html?utm_campaign=ForresterWaveReportIAM_Q32013&amp;utm_source=IAM&amp;utm_medium=Nav"><img src="/common/img/home/oseats/forrester-pdf-no-hands.png" alt="NetIQがForrester Waveでトップランクを獲得: アイデンティティ/アクセス管理スイートのレポート"><span> NetIQがForrester Waveでトップランクを獲得: アイデンティティ/アクセス管理スイートのレポート<br>
+					        <b>記事を表示</b></span></a></li> -->
+            	</ul>
+            </div>
+        </div>
+	</div>
+</div>
+<div id="solution_security" class="nav_solution">
+	<p><a href="/solutions/security-management/"><i>&nbsp;</i>セキュリティ 管理</a></p>
+	<div class="nav_solution_content">
+		<div class="nav_solution_details">
+          	<div class="solution_title_container">
+				<i class="solution_icon"></i><span>セキュリティ 管理</span><i class="arrow"></i>
+            </div>
+          	<p>潜在的な脅威をすべて迅速に検出し、断固たる対策を講じる必要があります。ユーザアクティビティ、セキュリティイベント、重要なシステムの監視といった実行性の高いセキュリティインテリジェンスを提供して、データ侵害のリスクを軽減します。<br><br>
+			<a href="/solutions/security-management/">セキュリティ管理の詳細</a></p>
+			<span>We help you...</span>
+            <ul>
+				<li><a href="/ja-jp/solutions/security-management/data-breach-threat-detection.html">セキュリティの脅威の迅速な検出と阻止</a></li>
+				<li><a href="/ja-jp/solutions/security-management/it-compliance.html">コンプライアンスを確立して維持</a></li>
+				<li><a href="/ja-jp/solutions/security-management/system-configuration.html">脅威に備えたシステムの設定</a></li>
+				<li><a href="/ja-jp/solutions/security-management/data-protection.html">機密データを保護</a></li>
+				<li><a href="/ja-jp/solutions/identity-access-management/monitor-privileged-users.html">特権ユーザのアクティビティを監視</a></li>
+			</ul>
+		</div>
+        <div class="nav_solution_products">
+          	<span>Products</span>
+        	<ul>
+				<li><a href="/products/change-guardian/" onclick="ga('send', 'event', 'header', 'products', 'changeguardian');" id="hdr_products_changeguardian">Change Guardian</a></li>
+				<li><a href="/products/directory-resource-administrator/" onclick="ga('send', 'event', 'header', 'products', 'securityDRadmin');" id="hdr_products_securityDRadmin">Directory and Resource Administrator</a></li>
+				<li><a href="/products/group-policy-administrator/" onclick="ga('send', 'event', 'header', 'products', 'gpadmin');" id="hdr_products_gpadmin">Group Policy Administrator</a></li>
+				<li><a href="/products/privileged-account-manager/" onclick="ga('send', 'event', 'header', 'products', 'securitypum');" id="hdr_products_securitypum">Privileged Account Manager</a></li>
+                <li><a href="/products/secure-configuration-manager/" onclick="ga('send', 'event', 'header', 'products', 'secureconfigmanager');" id="hdr_products_secureconfigmanage">Secure Configuration Manager</a></li>
+				<li><a href="/products/ibmi/" onclick="ga('send', 'event', 'header', 'products', 'ibmi');" id="hdr_products_ibmi">Security Solutions for IBM i</a></li>
+				<li><a href="/products/sentinel/" onclick="ga('send', 'event', 'header', 'products', 'sentinel');" id="hdr_products_sentinel">Sentinel</a></li>
+			    <li><br></li>
+                <li><a href="/products/" onclick="ga('send', 'event', 'header', 'products', 'main');">All Products A-Z</a></li>
+            </ul>
+            <div class="videos">
+              	<span>Resources</span>
+               	<ul>
+					<li><a href="/f/form/whitepaperrequest.asp?origin=website_cms&amp;ctsource=website_cms&amp;id=3206"><img src="/solutions/security-management/img/pdf/homepage_asset1.png" alt="持続可能なコンプライアンス: コンプライアンス、セキュリティ、ビジネス目標を連携させる方法に関するホワイトペーパー"><span>持続可能なコンプライアンス: コンプライアンス、セキュリティ、ビジネス目標を連携させる方法に関するホワイトペーパー<br>
+						<b>記事を表示</b></span></a></li>
+					<li><a href="/promo/security/the-complete-guide-to-log-and-event-management.html?utm_campaign=Solutions&amp;utm_source=Security&amp;utm_medium=Nav"><img src="/solutions/security-management/img/pdf/homepage_asset2.png" alt="『The Complete Guide to Log and Event Management (ログおよびイベント管理の完全ガイド)』"><span>『The Complete Guide to Log and Event Management (ログおよびイベント管理の完全ガイド)』<br>
+						<b>記事を表示</b></span></a></li>
+              	</ul>
+                <p>
+                   <a>View More Resources</a>
+                </p>
+            </div>
+        </div>
+	</div>
+</div>
+<div id="solution_datacenter" class="nav_solution">
+	<p><a href="/solutions/it-operations-management/"><i>&nbsp;</i>IT運用 管理</a></p>
+	<div class="nav_solution_content">
+		<div class="nav_solution_details">
+          	<div class="solution_title_container">
+				<i class="solution_icon"></i><span>IIT運用 管理</span><i class="arrow"></i>
+            </div>
+			<p>IT環境とビジネスサービスの全体像を把握しましょう。NetIQソリューションは、サービス管理、アプリケーション管理、システム管理を統合することで、パフォーマンスや可用性を向上させます。<br><br>
+        	<a href="/solutions/it-operations-management/" >IT運用管理の詳細</a></p>
+			<span>We help you...</span>
+            <ul>
+				<li><a href="/ja-jp/solutions/it-operations-management/manage-it-services.html">ITイベントがビジネスに与える影響の把握</a></li>
+				<li><a href="/ja-jp/solutions/it-operations-management/it-services-monitoring.html">IT問題の迅速なトラブルシューティングと解決</a></li>
+				<li><a href="/ja-jp/solutions/it-operations-management/automated-it-services.html">日常的に繰り返される業務からIT担当者を解放</a></li>
+				<li><a href="/ja-jp/solutions/it-operations-management/it-services-management.html">ITツールの統合と一元管理</a></li>
+				<li><a href="/ja-jp/solutions/it-operations-management/it-data-management.html">IT問題によるサービス中断を防止</a></li>
+			</ul>
+		</div>
+        <div class="nav_solution_products">
+          	<span>Products</span>
+            <ul>
+				<li><a href="/products/aegis/" onclick="ga('send', 'event', 'header', 'products', 'aegis');" id="hdr_products_aegis">Aegis</a></li>
+				<li><a href="/products/appmanager/" onclick="ga('send', 'event', 'header', 'products', 'appmanager');" id="hdr_products_appmanager">AppManager</a></li>
+				<li><a href="/products/operations-center/" onclick="ga('send', 'event', 'header', 'products', 'opscenter');" id="hdr_products_opscenter">Operations Center</a></li>
+                <li><br></li>
+                <li><a href="/products/" onclick="ga('send', 'event', 'header', 'products', 'main');">All Products A-Z</a></li>
+            </ul>
+            <div class="videos">
+              	<span>Resources</span>
+              	<ul>
+					<li><a href="/promo/optimization-and-monitoring/appmanager-and-operations-center-powerful-combination.html"><img src="/solutions/it-operations-management/img/creatin-end-to-end-it-service-monitoring-and-business-service%20management-with-netiq.png" alt="『Creating End&ndash;to&ndash;End IT Service Monitoring and Business Service Management (BSM) with NetIQ (エンドツーエンドのITサービスモニタリングとビジネスサービス管理(BSM)をNetIQと実現する)』"><span>『Creating End&ndash;to&ndash;end IT Service Monitoring and Business Service Management (BSM) with NetIQ (エンドツーエンドのITサービスモニタリングとビジネスサービス管理(BSM)をNetIQと実現する)』<br>
+						<b>記事を表示</b></span></a></li>
+					<li><a href="/promo/systems-and-application-management/app-manager-and-operations-center.html"><img src="/solutions/it-operations-management/img/always-on.png" alt="AppManager Meets Operations Center: Delivering Always On IT Services (AppManagerとOperations Center:常時稼働しているITサービスの実現)"><em>&gt;</em><span>AppManager Meets Operations Center: Delivering "always on" IT Services (AppManagerとOperations Center:常時稼働しているITサービスの実現)<br>
+						<b>視聴</b></span></a></li>
+              	</ul>
+                <p>
+                   <a>View More Resources</a>
+                </p>
+            </div>
+        </div>
+	</div>
+</div>
+<div id="solution_disaster" class="nav_solution">
+	<p><a href="/solutions/disaster-recovery/"><i>&nbsp;</i>ディザスタ リカバリ</a></p>
+	<div class="nav_solution_content">
+		<div class="nav_solution_details">
+			<div class="solution_title_container">
+				<i class="solution_icon"></i><span>ディザスタ リカバリ</span><i class="arrow"></i>
+            </div>
+          	<p>低コストで高パフォーマンスのディザスタリカバリを実現しましょう。ワークロードを保護し、RTOとRPOを1時間未満に抑えます。ミラーリングに匹敵するパフォーマンスを、テープバックアップに近い価格で提供します。<br><br>
+        	<a href="/solutions/disaster-recovery/">ディザスタリカバリの詳細</a></p>
+			<span>We help you...</span>
+            <ul>
+				<li><a href="/ja-jp/solutions/disaster-recovery/workload-recovery.html">サービス停止からの確実なワークロード復旧</a></li>
+				<li><a href="/ja-jp/solutions/disaster-recovery/network-recovery.html">サービス停止後のビジネス復旧</a></li>
+				<li><a href="/ja-jp/solutions/disaster-recovery/server-failure.html">サイト全体のサービス停止を回避</a></li>
+				<li><a href="/ja-jp/solutions/disaster-recovery/server-backup.html">物理サーバと仮想サーバの保護</a></li>
+			</ul>
+		</div>
+        <div class="nav_solution_products">
+          	<span>Products</span>
+            <ul>
+				<li><a href="https://www.microfocus.com/products/platespin/forge/" onclick="ga('send', 'event', 'header', 'products', 'PSforge');" id="hdr_products_PSforge">PlateSpin Forge</a></li>
+				<li><a href="https://www.microfocus.com/products/platespin/protect/" onclick="ga('send', 'event', 'header', 'products', 'PSprotect');" id="hdr_products_PSprotect">PlateSpin Protect</a></li>
+                <li><br></li>
+                <li><a href="/products/" onclick="ga('send', 'event', 'header', 'products', 'main');">All Products A-Z</a></li>
+            </ul>
+            <div class="videos">
+              	<span>Resources</span>
+               	<ul>
+					<li><a href="#" class="media_gallery" data-media="high-performance-disaster-recovery-rpo-rto"> <img src="/solutions/disaster-recovery/img/high_performance_disaster_recovery_beat_your_prorto_for_less.png" alt="High Performance Disaster Recovery: Beat Your RPO/RTO for Less (高パフォーマンスのディザスタリカバリ: より低いコストで目標のRPO/RTOを達成)"><em>&gt;</em><span>High Performance Disaster Recovery: Beat your RPO/RTO targets for less (高パフォーマンスのディザスタリカバリ: より低いコストで目標のRPO/RTOを達成)<br>
+						<b>視聴</b></span></a></li>
+					<li><a href="#" class="media_gallery" data-media="real-world-solutions-to-everyday-challenges"> <img src="/solutions/disaster-recovery/img/server-consolidation-and-disaster-recovery.png" alt="Server Consolidation and Disaster Recovery in the Trenches: Real-World Solutions to Everyday Challenges (現場で実践されているサーバ統合とディザスタリカバリ: 日々の課題に対する実際的なソリューション)"><em>&gt;</em><span>Server Consolidation and Disaster Recovery in the Trenches: Real-World Solutions to Everyday Challenges (現場で実践されているサーバ統合とディザスタリカバリ: 日々の課題に対する実際的なソリューション)<br>
+						<b>視聴</b></span></a></li>
+				</ul>
+                <p>
+                   <a>View More Resources</a>
+                </p>
+            </div>
+		</div>
+	</div>
+</div>
+<div id="solution_workload" class="nav_solution">
+	<p><a href="/solutions/workload-migration/"><i>&nbsp;</i>ワークロード マイグレーション</a></p>
+	<div class="nav_solution_content">
+		<div class="nav_solution_details">
+          	<div class="solution_title_container">
+				<i class="solution_icon"></i><span>工作負載 移轉</span><i class="arrow"></i>
+            </div>
+			<p>ワークロードのマイグレートとサーバ統合をすばやく実行します。事前分析および計画のほか、物理サーバから仮想サーバへ(P2V)の自動化された高速マイグレーション、または移行元と移行先を問わないワークロードマイグレーションを提供します。<br><br>
+			<a href="/solutions/workload-migration/">ワークロードマイグレーションの詳細</a></p>
+			<span>We help you...</span>
+            <ul>
+				<li><a href="/ja-jp/solutions/workload-migration/migrate-workloads.html">新しいサーバハードウェアへのワークロードのマイグレート</a></li>
+				<li><a href="/ja-jp/solutions/workload-migration/server-migration.html">サーバの仮想化と移行</a></li>
+				<li><a href="/ja-jp/solutions/workload-migration/data-center-migration.html">稼働中のデータセンターの移行</a></li>
+				<li><a href="/ja-jp/solutions/workload-migration/server-consolidation.html">効率的なサーバ統合プロジェクトの計画</a></li>
+			</ul>
+		</div>
+        <div class="nav_solution_products">
+          	<span>Products</span>
+            <ul>
+                <li><a href="https://www.microfocus.com/products/platespin/migrate/" onclick="ga('send', 'event', 'header', 'products', 'WLM-PSmigrate');" id="hdr_products_WLM-PSmigrate">PlateSpin Migrate</a></li>
+				<li><a href="https://www.microfocus.com/products/platespin/transformation-manager/" onclick="ga('send', 'event', 'header', 'products', 'WLM-PStransformation');" id="hdr_products_WLM-PStransformation">PlateSpin Transformation Manager</a></li>
+				<li><br></li>
+                <li><a href="/products/" onclick="ga('send', 'event', 'header', 'products', 'main');">All Products A-Z</a></li>
+            </ul>
+            <div class="videos">
+              	<span>Resources</span>
+             	<ul>
+					<li><a href="#" class="media_gallery" data-media="new-platespin-migrate-8.1-overview"> <img src="/solutions/workload-migration/img/platespin_migrate_overview_flash_demo.png" alt="PlateSpin Migrateの概要"><em>&gt;</em><span>PlateSpin Migrateの概要<br>
+						<b>視聴</b></span></a></li>
+					<li><a href="http://www.novell.com/docrep/2010/10/the_importance_of_choosing_the_right_workload_migration_tools.pdf"> <img src="/solutions/workload-migration/img/importance_of_choosing_the_right_workload_migration_tools.png" alt="『The Importance of Choosing the Right Workload Migration Tools(最適なワークロードマイグレーションツールを選択することの重要性)』"><span>『The Importance of Choosing the Right Workload Migration Tools(最適なワークロードマイグレーションツールを選択することの重要性)』<br>
+						<b>記事を表示</b></span></a></li>
+            	</ul>
+                <p>
+                   <a>View More Resources</a>
+                </p>
+            </div>
+    	</div>
+	</div>
+</div>
+<div id="solution_communication" class="nav_solution">
+	<p><a href="/solutions/unified-communications-voip/"><i>&nbsp;</i>統合コミュニケーション<br> / VoIP</a></p>
+	<div class="nav_solution_content">
+		<div class="nav_solution_details">
+			<div class="solution_title_container">
+				<i class="solution_icon"></i><span>統合コミュニケーション<br> / VoIP</span><i class="arrow"></i>
+            </div>
+			<p>統合コミュニケーションとVoIPに対して、高いサービス品質を保証しましょう。導入前の評価、UCコンポーネントのモニタリング、問題の自動診断、一貫した結果を得るための分析を実行します。<br><br>  
+			<a href="/solutions/unified-communications-voip/">Unified Communications and VoIP Managementの詳細</a></p>
+			<span>We help you...</span>
+            <ul>
+				<li><a href="/ja-jp/solutions/unified-communications-voip/deploy-expand-voip.html">VoIPを導入または拡張</a></li>
+				<li><a href="/ja-jp/solutions/unified-communications-voip/voip-quality.html">VoIPのサービス品質を向上</a></li>
+				<li><a href="/ja-jp/solutions/unified-communications-voip/voip-bandwidth-capacity.html">VoIPのキャパシティを維持</a></li>
+				<li><a href="/ja-jp/solutions/unified-communications-voip/mixed-unified-communications-management.html">マルチプラットフォームの統合コミュニケーション(UC)を管理</a></li>
+			</ul>
+		</div>
+       	<div class="nav_solution_products">
+          	<span>Products</span>
+            <ul>
+				<li><a href="/products/unified-communications-and-voip-management/features/appmanager_modules_voip.html" onclick="ga('send', 'event', 'header', 'products', 'UCappmanager');" id="hdr_products_UCappmanager">AppManager</a></li>
+				<li><a href="/products/operations-center/" onclick="ga('send', 'event', 'header', 'products', 'UCopscenter');" id="hdr_products_UCopscenter">Operations Center</a></li>
+				<li><a href="/products/unified-communications-and-voip-management/features/vivinet-assessor.html" onclick="ga('send', 'event', 'header', 'products', 'vivinetassessor');" id="hdr_products_vivinetassessor">Vivinet Assessor</a></li>
+				<li><a href="/products/unified-communications-and-voip-management/features/vivinet-diagnostics.html" onclick="ga('send', 'event', 'header', 'products', 'vivinetdiag');" id="hdr_products_vivinetdiag">Vivinet Diagnostics</a></li>
+              	<li><br></li>
+                <li><a href="/products/" onclick="ga('send', 'event', 'header', 'products', 'main');">All Products A-Z</a></li>
+            </ul>
+            <div class="videos">
+              	<span>Resources</span>
+             	<ul>
+					<li><a href="http://www.novell.com/docrep/2012/06/netiq_pb_unified_comm_voip_solutions.pdf"><img src="/solutions/unified-communications-voip/img/netiq_unifiedcommand_voip_mgmt_solutions.png" alt="NetIQ Unified Communications and VoIP Managementソリューション"><span>NetIQ Unified Communications and VoIP Managementソリューション<br>
+						<b>PDFはこちら</b></span></a></li>
+					<li><a href="https://www.youtube.com/watch?v=DAQye75aGdQ" class="prettyPhoto"><img src="/solutions/unified-communications-voip/img/bt_delivers_critical_services.png" alt="BT delivers mission&ndash;critical voice and data services with help from NetIQ (NetIQの支援を受けて、ミッションクリティカルなボイスサービスやデータサービスを提供するBT社)"><em>&gt;</em><span>BT delivers mission&ndash;critical voice and data services with help from NetIQ (NetIQの支援を受けて、ミッションクリティカルなボイスサービスやデータサービスを提供するBT社)<br>
+						<b>視聴</b></span></a></li>
+           		</ul>
+                <p>
+                   <a>View More Resources</a>
+                </p> 
+            </div>
+        </div>
+	</div>
+</div>
+<div id="solution_industries" class="nav_solution">
+	<p><a href="/solutions-industries/#industries" onclick="ga('send', 'event', 'header', 'industries', 'main');" id="hdr_industries_main"><i>&nbsp;</i>対象分野</a></p>
+	<div class="nav_solution_content">
+		<div class="nav_solution_links">
+			<span>対象分野</span>
+			<ul>
+				<li><a href="/industries/federal/">米国連邦政府</a></li>
+				<li><a href="/industries/healthcare/">ヘルスケア</a></li>
+				<li><a href="/industries/cloud-services-provider/">クラウドサービスプロバイダプログラム</a></li>
+				<!--<li><a href="/industry/banking/">金融/銀行</a></li>
+				<li><a href="/industry/commerce/">商業</a></li>
+				<li><a href="/industry/education/">教育</a></li>
+				<li><a href="/industry/compliance/">規制および基準のコンプライアンス</a></li>-->
+			</ul>
+		</div>
+	</div>
+</div>
+<span class="clearfix"></span>
+<p class="nav_close"><a href="/products/">Close<i class="arrow"></i></a></p>
+
+						</div>
+					</li>
+					<li id="nav_products_mobile" class="mobi"><a href="javascript:return false;" data-href="/ja-jp/products/" data-ga="products" id="hdr_products_mobile"><strong>製品</strong></a>
+					<li id="nav_solutions_mobile" class="mobi"><a href="javascript:return false;" data-href="/ja-jp/solutions-industries/" data-ga="solutions" id="hdr_solutions_mobile"><strong>ソリューション</strong></a>
+					<li id="nav_service"><a href="javascript:return false;" data-href="/ja-jp/services/" data-ga="support" id="hdr_support_main"><strong>サポート</strong><i class="downarrow">&nbsp;</i></a>
+						<div>
+							<ul>
+	<!--<li><a href="/support/premium/" onclick="ga('send', 'event', 'header', 'support', 'premium_JA');" id="hdr_support_premium">Premium Support</a></li>-->
+	<li><a href="/support/" onclick="ga('send', 'event', 'header', 'support', 'technical_JA');" id="hdr_support_technical">サポート</a></li>
+	<li><a href="/ja-jp/support/jp/service.htm">NetIQサービス</a></li>
+	<li><a href="/consulting/" onclick="ga('send', 'event', 'header', 'support', 'consulting_JA');" id="hdr_support_consulting">Novellコンサルティング</a></li>
+	<li><a href="/ja-jp/training/" onclick="ga('send', 'event', 'header', 'support', 'training_JA');" id="hdr_support_training">トレーニング</a></li>
+	<!--<li><a href="https://www.microfocus.com/support-and-services/maintenance-and-support-plans" onclick="ga('send', 'event', 'header', 'support', 'maintenance_JA');" id="hdr_support_maintenance">Maintenance</a></li>-->
+	<li><a href="https://www.netiq.com/documentation/" onclick="ga('send', 'event', 'header', 'support', 'documentation_JA');" id="hdr_support_documentation">ドキュメント</a></li>
+	<li><a href="https://www.microfocus.com/lifecycle/" onclick="ga('send', 'event', 'header', 'support', 'lifecycle_JA');" id="hdr_support_lifecycle">製品サポートライフサイクル</a></li>
+</ul>
+						</div>
+					</li>
+					<li id="nav_about"><a href="javascript:return false;" data-href="/ja-jp/company/" data-ga="about" id="hdr_about_main"><strong>会社情報</strong><i class="downarrow">&nbsp;</i></a>
+						<div>
+							<ul>
+	<li><a href="/ja-jp/company/">会社概要</a></li>
+	<li><a href="http://www.microfocus.com/about/at-a-glance/management/index.aspx">リーダーシップ</a></li>
+	<li><a href="/ja-jp/company/recognition/">業界での評価</a></li>
+	<li><a href="/ja-jp/company/news/">プレスリリース</a></li>
+	<li><a href="/ja-jp/events/">イベント＆セミナー</a></li>
+	<li><a href="/ja-jp/success/">導入事例</a></li>
+	<li><a href="/ContactsOffices/contacts_offices.jsp">お問い合わせ先</a></li>
+</ul>
+
+						</div>
+					</li>
+					<li id="nav_partners"><a href="javascript:return false;" data-href="https://www.microfocus.com/partners" data-ga="partners" id="hdr_partners_main">パートナー様</a></li>
+					<li id="nav_qmunity"><a href="javascript:return false;" data-href="/communities/" data-ga="communities" id="hdr_communities_main">コミュニティ</a></li>
+				</ul>
+				<span class="clearfix"></span>
+			</nav>
+			<div class="header_search">
+				<a href="https://www.microfocus.com/search/" target="_blank">探す</a>
+			</div>
+		</div>
+	</div>
+	<div class="header_top">
+		<div class="wrap">
+			<ul id="meta">
+				<li id="hdr_letstalk"><a href="/company/contact/" class="prevent-click" onclick="ga('send', 'event', 'header', 'letstalk', 'main');" id="hdr_letstalk_main"><strong>お問い合わせ</strong><i class="downarrow">&nbsp;</i></a></li>
+			</ul>
+		</div>
+	</div>
+</header>
+
+	<section id="masthead">  <!-- on each banner_wrap div, specify whether the inactive navigation links should be light or dark text by adding the class "light" or "dark" to it -->
+<div class="banner_wrapper" id="banner_identity_powered_security">
+	<div class="banner_wrap light">
+		<div class="banner">
+			<div class="graphics">
+				<div class="graphic"></div>
+				<div class="graphic icon"></div>
+			</div>
+			<div class="text">
+				<h2>アイデンティティベースのセキュリティ</h2>
+				<h3>弊社のソリューションは、ユーザに機密情報への適切なアクセス権を付与します</h3>
+				<p><a href="/solutions/security-management/" onclick="ga('send', 'event', 'home-main', 'banners', 'identity_powered_security');">詳細情報</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="banner_wrapper" id="banner_privileged_identity_management">
+	<div class="banner_wrap light">
+		<div class="banner">
+			<div class="graphics">
+				<div class="graphic"></div>
+				<div class="graphic icon"></div>
+			</div>
+			<div class="text">
+				<h2>特権アイデンティティ管理</h2>
+				<h3>特権ユーザの可視化および制御を行うことができます</h3>
+				<p><a href="/products/privileged-account-manager/" onclick="ga('send', 'event', 'home-main', 'banners', 'privileged_identity_management');">詳細はこちら</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="banner_wrapper" id="banner_govern_and_manage_rights">
+	<div class="banner_wrap light">
+		<div class="banner">
+			<div class="graphics">
+				<div class="graphic globe"></div>
+				<div class="graphic icon"></div>
+			</div>
+			<div class="text">
+				<h2>権利の規定と管理</h2>
+				<h3>セルフサービスアクセスの要求と認証</h3>
+				<p><a href="/products/self-service-password-reset/" onclick="ga('send', 'event', 'home-main', 'banners', 'govern_and_manage_rights');">詳細はこちら</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="banner_wrapper" id="banner_facilitate_and_control_access">
+	<div class="banner_wrap light">
+		<div class="banner">
+			<div class="graphics">
+				<div class="graphic"></div>
+				<div class="graphic icon"></div>
+			</div>
+			<div class="text">
+				<h2>アクセスの簡素化と制御</h2>
+				<h3>リスクに基づいたステップアップ認証</h3>
+				<p><a href="/products/access-manager/features/" onclick="ga('send', 'event', 'home-main', 'banners', 'facilitate_and_control_access');">リスクの管理</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="banner_wrapper" id="banner_monitor_user_activity">
+	<div class="banner_wrap light">
+		<div class="banner">
+			<div class="graphics">
+				<div class="graphic"></div>
+				<div class="graphic icon"></div>
+			</div>
+			<div class="text">
+				<h2>ユーザアクティビティの監視</h2>
+				<h3>セキュリティモニタリングを補完します</h3>
+				<p><a href="/products/sentinel/" onclick="ga('send', 'event', 'home-main', 'banners', 'monitor_user_activity');">詳細はこちら</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+		<ul class="banner_nav_links">
+			<li class="left"><a href="#">前へ</a></li>
+			<li class="right"><a href="#">次へ</a></li>
+		</ul>
+
+		<div class="banner_nav"></div>
+	</section>
+
+	<div class="revealcontent">
+		<a href="#">下にスクロール</a>
+	</div>
+
+	<section class="keyhighlights">
+		<h3>注目の記事</h3>
+		<div class="container">
+			<div class="panel">
+				<div class="highlight federalgov">
+					<p><strong>Fire &amp; Rescue NSW</strong>「NetIQのIdentity Managerでは、少数の専任スタッフだけで多数のユーザを管理できます」</p>
+
+					<p><a href="/success/stories/fire-rescue-nsw-enhances-its-emergency-response-capabilities-with-netiq.html" onClick="ga('send', 'event', 'home-main', 'highlights', 'firetruck');">詳細はこちら&nbsp;&#8250;</a>
+				</div>
+				<div class="highlight privileged_access_management">
+					<p><strong>特権アカウントのセキュリティ保護、管理、および監視</strong> Gartner社の『Market Guide for Privileged Access Management (特権アクセス管理のための市場ガイド)』</p>
+
+					<p><a href="/promo/identity-and-access-management/marketing-guide-for-privileged-access-management.html" onClick="ga('send', 'event', 'home-main', 'highlights', 'privileged-access-management');">今すぐ読む&nbsp;&#8250;</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="trends">
+		<div class="container">
+			<h3>進化するIT環境で現在のビジネス上の課題に対応する</h3>
+			<ul>
+				<li class="cloud">
+					<a href="/company/industry-trends/intelligent-solutions-for-todays-hybrid-clouds.html" onClick="ga('send', 'event', 'home-main', 'todays-challenges', 'cloud');"><img class="main" src="/common/img/home/tech3.png" alt=""><img class="hover" src="/common/img/home/tech3_hover.png" alt=""><strong>クラウド</strong> クラウドの管理と保護&nbsp;&#8250;</a>
+				</li>
+				<li class="mobility">
+					<a href="/company/industry-trends/intelligent-solutions-for-todays-mobile-enterprise.html" onClick="ga('send', 'event', 'home-main', 'todays-challenges', 'mobility');"><img class="main" src="/common/img/home/tech1.png" alt=""><img class="hover" src="/common/img/home/tech1_hover.png" alt=""><strong>モビリティ</strong> モバイルユーザのアクセスを保護&nbsp;&#8250;</a>
+				</li>
+				<li class="hybrids">
+					<a href="/company/industry-trends/internet-of-things.html" onClick="ga('send', 'event', 'home-main', 'todays-challenges', 'internet');"><img class="main" src="/common/img/home/tech2.png" alt=""><img class="hover" src="/common/img/home/tech2_hover.png" alt=""><strong>モノのインターネット</strong> つながった世界のためのソリューション&nbsp;&#8250;</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section class="videos">
+		<div class="container">
+			<div class="panel">
+				<h3>講義: 概要</h3>
+				<div class="media_video">
+					<div id="media_video_container" class="media_video_container">
+						<div id="media">
+							<div id="media_embed"> <!--Media Container-->
+							</div>
+							<div id="captions">
+								<div id="captiontext"> <!--captions-->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<p class="more"><a href="/media/">ビデオをすべて表示&nbsp;&#8250;</a></p><script src="/common/inc/js/media.js" type="text/javascript"></script><script type="text/javascript">
+					initMedia('media_embed', 'http://cdn.novell.com/cached/video/2013/netiq/netiq-cio-overview-720p.mp4','978','540','','/common/img/home/video-capture.jpg');
+				</script>
+			</div>
+		</div>
+	</section>
+	<section class="newsandevents">
+		<div class="container">
+			<div class="news">
+				<h3>ニュース</h3>
+				<div class="news-items">
+					<ul>
+						<li><a href="/ja-jp/company/news/press/2017/novell-collaborated-with-aoimori-cloud-base-to-provide-cloud-migration-solution-html.html" onClick="ga('send', 'event', 'home-main', 'news-events', 'total-clicks');"><strong>2017年4月19日</strong> ノベル、青い森クラウドベースと協業し、クラウドへの移行ソリューションを提供 &nbsp;<br>
+<em>詳細はこちら&nbsp;&#8250;</em></a></li>
+						<li><a href="/ja-jp/company/news/press/2017/novell-released-the-newest-tool-platespin-migrate12-2-and-platespin-transformation-manager1-1.html" onClick="ga('send', 'event', 'home-main', 'news-events', 'total-clicks');"><strong>2017年3月9日</strong> ノベル、クラウド・データセンターマイグレーションツールの最新版「PlateSpin Migrate 12.2」と、移行プロジェクト管理ツール「PlateSpin Transformation Manager 1.1」を発表  &nbsp;<br>
+						<em>詳細はこちら&nbsp;&#8250;</em></a></li>
+						<li><a href="/company/news/" onClick="ga('send', 'event', 'home-main', 'news-events', 'total-clicks');"><em>すべてのNetIQニュース&nbsp;&#8250;</em></a></li>
+					</ul> <!-- <p class="more"><a href="/company/news/" onclick="ga('send', 'event', 'home-main', 'news-events', 'total-clicks');">All NetIQ news&nbsp;&#8250;</a></p> -->
+				</div>
+			</div>
+			<div class="events">
+				<h3>イベント</h3>
+				<div class="events-items">
+					<ul class="featured-events">
+						<li>
+							<div class="top">
+								<strong>イベント</strong>
+								<img src="/common/img/home/event-image.jpg" alt="">
+							</div>
+							<div class="bottom">
+								<a href="/events/" onClick="ga('send', 'event', 'home-main', 'news-events', 'total-clicks');"><span class="description">弊社は、さまざまな会議、経営者サミット、業界をリードするフォーラムの主催と後援を行って、同業者とのネットワーク作りや、企業の将来を形作る最先端の技術に遅れないためのチャンスを提供しています。&nbsp;&nbsp;<em>イベントを表示&nbsp;&#8250;</em></span></a>
+							</div>
+						</li>
+					</ul>
+
+					<ul class="other-events">
+						<!--<li>
+							<strong>現在予定されているイベントはありません</strong>
+						</li>-->
+
+						<li>
+							<a href="/ja-jp/events/platespin-migrate-azure/" onClick="ga('send', 'event', 'home-main', 'news-events', 'total-clicks');">
+								<time datetime="2017-06-21">2017年6月21日</time> <strong>AWS、Azureの利用を検討しているお客様へ！<br>パブリッククラウド高速・安全移行セミナー</strong><em>イベントの詳細&nbsp;&#8250;</em>
+							
+							</a>
+						</li>
+
+					</ul>
+				</div> <!-- <p class="more"><a href="/events/">All NetIQ events&nbsp;&#8250;</a></p> -->
+			</div>
+		</div>
+	</section>
+	<section class="blogs">
+		<div class="container">
+			<h3>ブログに寄せられた意見</h3>
+			<div class="social">
+				<strong>フォロー:</strong>
+				<ul class="social_follow">
+					<li class="facebook"><a href="http://facebook.com/netiq">Facebook</a></li>
+					<li class="linkedin"><a href="http://www.linkedin.com/company/netiq">LinkedIn</a></li>
+					<li class="google"><a href="https://plus.google.com/u/0/104155365122160260564">Google +</a></li>
+					<li class="twitter"><a href="http://twitter.com/netiq">Twitter</a></li>
+					<li class="youtube"><a href="http://www.youtube.com/user/netiqTV">YouTube</a></li>
+					<li class="slideshare"><a href="http://www.slideshare.net/NetIQ/">SlideShare</a></li>
+				</ul>
+			</div>
+			<div class="communityfeed clearall">
+				<ul>
+					<li style="background-image:url('/common/img/home/blog/back-to-school-learning-about-compliance.jpg');">
+						<p><a href="https://www.netiq.com/communities/cool-solutions/netiq-views/back-to-school-learning-about-compliance-from-college-football-recruiting/" onClick="ga('send', 'event', 'home-main', 'blog', 'total-clicks');">
+							<span class="post">
+								<strong>新学期: 大学フットボールの勧誘からコンプライアンスについて学ぶ</strong>
+								<span class="desc">勧誘は、大学アメリカンフットボールにおいて生命線です。「コンプライアンス」という言葉は、最初は大学フットボールと結び付かないかもしれませんが...</span>
+								<time datetime="2015-8-13">2015年8月13日</time>
+								<em>今すぐ読む&nbsp;&#8250;</em>
+							
+							</span>
+						
+						</a></p>
+					</li>
+					<li style="background-image:url('/common/img/home/blog/end-of-privacy.jpg');">
+						<p><a href="https://www.netiq.com/communities/cool-solutions/netiq-views/does-the-internet-of-things-mean-the-end-of-privacy/" onClick="ga('send', 'event', 'home-main', 'blog', 'total-clicks');">
+							<span class="post">
+								<strong>モノのインターネットはプライバシーの終わりを意味するのか?</strong>
+								<span class="desc">政治家がプライバシー保護のために協力していることは喜ばしいですが、プライバシーの終わりには、ご存じのとおり、別の原因が考えられます...</span>
+								<time datetime="2015-8-4">2015年8月4日</time>
+								<em>今すぐ読む&nbsp;&#8250;</em>
+							
+							</span>
+						
+						</a></p>
+					</li>
+					<li style="background-image:url('/common/img/home/blog/identity-and-the-internet-of-things.jpg');">
+						<p><a href="https://www.netiq.com/communities/cool-solutions/netiq-views/identity-and-the-internet-of-things/" onClick="ga('send', 'event', 'home-main', 'blog', 'total-clicks');">
+							<span class="post">
+								<strong>アイデンティティ、そしてモノのインターネット</strong>
+								<span class="desc">Gartner社は、2020年までに260億個のデバイスがインターネットに接続している状況になるであろうと予測しています...</span>
+								<time datetime="2015-7-30">2015年7月30日</time>
+								<em>今すぐ読む&nbsp;&#8250;</em>
+							
+							</span>
+						
+						</a></p>
+					</li>
+					<li style="background-image:url('/common/img/home/blog/IT-security-spending.jpg');">
+						<p><a href="https://www.netiq.com/communities/cool-solutions/netiq-views/it-security-spending-enough-to-fund-an-americas-cup-team/" onClick="ga('send', 'event', 'home-main', 'blog', 'total-clicks');">
+							<span class="post">
+								<strong>ITセキュリティはアメリカズカップチームに十分な資金を提供しているか?</strong>
+								<span class="desc">ラリー・エリソン氏は、Oracleの創設者で現CTOとして知られています。しかし、ヨットにも情熱的です。いや、「情熱的」という言葉は控え目な表現かもしれません...</span>
+								<time datetime="2015-7-28">2015年7月28日</time>
+								<em>今すぐ読む&nbsp;&#8250;</em>
+							
+							</span>
+						
+						</a></p>
+					</li>
+					<li style="background-image:url('/common/img/home/blog/online-voting.jpg');">
+						<p><a href="https://www.netiq.com/communities/cool-solutions/netiq-views/the-role-of-identity-in-online-voting/" onClick="ga('send', 'event', 'home-main', 'blog', 'total-clicks');">
+							<span class="post">
+								<strong>オンライン投票におけるアイデンティティの役割</strong>
+								<span class="desc">長い行列に並ぶことは、多くの人にとって、何かをするのをやめるのに十分な理由になるでしょう。たとえ、投票のように重要なことでも...</span>
+								<time datetime="2015-7-21">2015年7月21日</time>
+								<em>今すぐ読む&nbsp;&#8250;</em>
+							
+							</span>
+						
+						</a></p>
+					</li>
+					<li style="background-image:url('/common/img/home/blog/balancing-it-complexity-with-user-interface.jpg');" class="last">
+						<p><a href="https://www.netiq.com/communities/cool-solutions/netiq-views/balancing-it-complexity-with-user-experience/" onClick="ga('send', 'event', 'home-main', 'blog', 'total-clicks');">
+							<span class="post">
+								<strong>ITの複雑性とユーザーエクスペリエンスのバランスを取る</strong>
+								<span class="desc">多くのシステム管理者は、同じような思いを持っていることでしょう...</span>
+								<time datetime="2015-7-1">2015年7月1日</time>
+								<em>今すぐ読む&nbsp;&#8250;</em>
+							
+							</span>
+						
+						</a></p>
+					</li>
+				</ul>
+			</div>
+
+			<p class="more"><a href="/communities/">コミュニティを表示&nbsp;&#8250;</a></p>
+		</div>
+	</section>
+	<section class="contactus">
+		<div class="container">
+			<h3>お問い合わせ</h3>
+			<div class="col col1">
+				<img src="/common/img/howtobuy.png" alt="">
+			</div>
+			<div class="col col2">
+				<p>ご不明な点は、 当社のセールス部門にお問い合わせください。</p>
+
+				<p class="letstalk_call button"><a href="/request-call/">お問い合わせ</a></p>
+			</div>
+			<div class="col col3">
+				<ul>
+					<li><strong>セールス:</strong> <span class="phone_sales">1-888-323-6768</span></li>
+					<li><strong>サポート:</strong> <a href="/support">テクニカルサポート&nbsp;&#8250;</a></li>
+				</ul>
+
+				<p data-id="VVi-bZNJnWU" class="livechat_button chat button highlight"><a href="http://www.livechatinc.com/?partner=lc_3379932&amp;utm_source=chat_button">ライブチャットソフトウェア</a></p>
+			</div>
+		</div>
+	</section>  <footer class="row social">
+	<div class="container">
+		<div class="col">
+			<p><strong>ソーシャルメディアで会話に参加してください。</strong></p>
+			<ul>
+				<li><a href="http://www.facebook.com/NetIQ" class="icon facebook-icon">Facebook</a></li>
+				<li><a href="http://www.linkedin.com/company/netiq" class="icon linkedin-icon">LinkedIn</a></li>
+				<li><a href="https://plus.google.com/u/0/104155365122160260564" class="icon google-icon">Google+</a></li>
+				<li><a href="https://twitter.com/NetIQ" class="icon twitter-icon">Twitter</a></li>
+				<li><a href="http://www.youtube.com/user/netiqTV" class="icon youtube-icon">YouTube</a></li>
+				<li><a href="http://www.slideshare.net/NetIQ/" class="icon robot-icon">SlideShare</a></li>
+			</ul>
+		</div>
+		<div class="col">
+			<p><strong>テクニカルニュースレターの購読</strong></p>
+			<form action="https://s1065104700.t.eloqua.com/e/f2" method="post" id="ftrSubscribeForm" class="subscribe">
+				<fieldset>
+					<input type="hidden" value="SUBManageSubscriptions-GATE" name="elqFormName">
+					<input type="hidden" value="1065104700" name="elqSiteID">
+					<input type="hidden" value="NETIQ" name="BU">
+					<input type="hidden" value="" id="Gate_Subject_Line" name="Gate_Subject_Line">
+					<input type="hidden" value="" name="elqCustomerGUID">
+					<input type="hidden" value="0" name="elqCookieWrite">
+					<input type="hidden" value="http://www.netiq.com/company/subscribe/success.php" name="retURL">
+					<input type="text" name="email_address" id="ftrSocialEmail" value="" placeholder="eメールアドレスの入力">
+					<input type="image" name="submit" id="ftrSocialSubmit" src="/common/img/submit_social.png" alt="送信">
+
+					<script type="text/javascript">
+						if(typeof user_lang != "undefined") {
+							jQuery("#ftrSubscribeForm fieldset").append('<input type="hidden" value="'+user_lang+'" name="Language">');
+						}
+						if(typeof user_country != "undefined") {
+							jQuery("#ftrSubscribeForm fieldset").append('<input type="hidden" value="'+user_country+'" name="country">');
+						}
+					</script>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</footer>
+<footer class="small">
+	<div class="wrap"> 
+<div class="letstalk">
+	<p>お問い合わせ</p>
+	<ul>
+		<li class="letstalk_call"><a href="#">お問い合わせ</a></li> <!-- <li class="letstalk_chat"><a href="#">Live Chat</a></li> -->
+		<li>セールス: <span class="phone_sales">(888) 323-6768</span></li>
+		<li>サポート: <span class="phone_support">(713) 418-5555</span></li>
+	</ul>
+</div>
+
+<p class="copyright">&copy; 2018 Micro Focus
+	<a href="/company/legal/">ご利用条件</a>
+	<a href="/company/legal/privacy/">プライバシー</a>
+</p>
+<p id="scrolltotop"><a href="#">ページトップへ</a></p>
+	</div>
+</footer> 
+<script src="/common/inc/js/plugins.js?v=7"></script>
+<script src="/common/inc/js/main.js?v=10"></script>
+
+<script>
+	var _elqQ = _elqQ || [];
+	_elqQ.push(['elqSetSiteId', '1065104700']);
+	_elqQ.push(['elqTrackPageViewOptinByCountry']);
+
+	(function () {
+		function async_load() {
+			var s = document.createElement('script');
+			s.type = 'text/javascript';
+			s.async = true;
+			s.src = '//img.en25.com/i/elqCfg.min.js';
+			var x = document.getElementsByTagName('script')[0];
+			x.parentNode.insertBefore(s, x);
+		}
+		if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+		else if (window.attachEvent) window.attachEvent('onload', async_load);
+	})();
+</script>
+
+<!--VISISTAT SNIPPET//-->
+<script>
+<!--//
+var DID=77362;
+var MyID='';
+var pcheck=(window.location.protocol == "https:") ? "https://sniff.visistat.com/live.js":"http://stats.visistat.com/live.js";
+document.writeln('<scr'+'ipt src="'+pcheck+'" type="text\/javascript"><\/scr'+'ipt>');
+//-->
+</script>
+<!--VISISTAT SNIPPET//-->
+
+<script>
+var __lc = {};
+__lc.license = 3379932;  
+if (typeof String.prototype.startsWith != 'function') {
+	String.prototype.startsWith = function (str){
+	return this.indexOf(str) == 0;
+	};
+}
+var groups  = {
+	'de-de': 5, // german --
+	'es-es': 4, // spanish --
+	'fr-fr': 8, // french --
+	'pt-br': 3, // portugese --
+	'it-it': 6, // italian --
+	'nl-nl': 9, // dutch --
+	'pl-pl': 10, // polish --
+	'sv-se': 7 // swedish --
+};
+
+// Australia, New Zealand, Singapore, Malaysia, Indonesia, Philippines, Vietnam, India, Hong Kong
+var APJcountries = ['AU','NZ','SG','MY','ID','PH','VN','IN','HK'];
+
+var identity_access_security_group = {
+'/products/access-governance-suite': '',
+'/products/access-manager': '',
+'/products/access-review': '',
+'/products/advanced-authentication-framework': '',
+'/products/cloudaccess': '',
+'/products/directory-resource-administrator': '',
+'/products/identity-manager/advanced': '',
+'/products/identity-tracking': '',
+'/products/privileged-account-manager': '',
+'/products/securelogin': '',
+'/products/self-service-password-reset': '',
+'/products/socialaccess': '',
+'/products/change-guardian': '',
+'/products/group-policy-administrator': '',
+'/products/secure-configuration-manager': '',
+'/products/sentinel': '',
+'/products/edirectory': '',
+'/products/exchange-administrator': '',
+'/products/ldap-proxy': '',
+'/products/validator': '',
+'/solutions/identity-access-management': '',
+'/solutions/security-management/': ''
+};
+var platespin_voip_operations_group = {
+'/products/forge': '',
+'/products/appmanager': '',
+'/products/cloud-manager': '',
+'/products/operations-center': '',
+'/products/protect': '',
+'/products/recon': '',
+'/products/migrate': '',
+'/products/unified-communications-and-voip-management/features': '',
+'/products/aegis': '',
+'/solutions/it-operations-management': '',
+'/solutions/disaster-recovery': '',
+'/solutions/workload-migration': '',
+'/solutions/unified-communications-voip': ''
+};
+
+// block live chat pages
+var block_live_chat_pages = {
+	'/services': '',
+	'/support': '',
+	'/consulting': ''
+};
+
+jQuery(document).ready(function() {
+	var pathname = window.top.location.pathname;
+	var hostname = window.top.location.hostname;
+	var in_identity_access_security_group = false;
+	for (var i in identity_access_security_group) {
+		if (pathname.indexOf(i) > -1) {
+			in_identity_access_security_group = true;
+			break;
+		}
+	}
+	var in_platespin_voip_operations_group = false;
+	for (var x in platespin_voip_operations_group) {
+		if (pathname.indexOf(x) > -1) {
+			in_platespin_voip_operations_group = true;
+			break;
+		}
+	}
+	var in_block_live_chat_pages = false;
+	for (var q in block_live_chat_pages) {
+		if (pathname.indexOf(q) > -1) {
+			in_block_live_chat_pages = true;
+			break;
+		}
+	}
+	if (hostname.indexOf('training') != -1) {
+		in_block_live_chat_pages = true;
+	}
+	
+	
+	if ( typeof demandbase_data_promise == 'object' ) {
+		jQuery.when(demandbase_data_promise).done(function(demandbase_ip_data) {
+			var have_country_code = typeof demandbase_ip_data.country == 'string' || typeof demandbase_ip_data.registry_country_code == 'string';
+			
+			var country_code = '';
+			if (have_country_code) {
+				if (typeof demandbase_ip_data.country == 'string') {
+					country_code = demandbase_ip_data.country;
+				}
+				if (typeof demandbase_ip_data.registry_country_code == 'string') {
+					country_code = demandbase_ip_data.registry_country_code;
+				}
+			}
+			
+			// If there is nothing returned by demandbase, show en-us
+			if (typeof demandbase_ip_data != 'object' || demandbase_ip_data == null || !have_country_code) {
+				jQuery('.livechat_button').hide();
+				jQuery('.livechat_button.north_a_english').show();
+				__lc.group = 13; // english north america
+
+				(function() {
+					var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+					lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+				})();
+				
+			// else if demandbase returns something that isn't north america
+			} else if (country_code != '' && country_code != 'US' && country_code != 'CA') {
+				
+				//If this is a non-english supported lanugage (as defined by var groups above)
+				if (typeof groups[user_lang] == 'number') {
+					__lc.group = groups[user_lang];
+					jQuery('.livechat_button.en-us').hide();
+					jQuery('.livechat_button.' + user_lang).show();
+					
+				// Non-north america english and non-NA non-supported lanuages.
+				} else { // just do below if want to be only emea english
+					// IF demandbase reported country is in the APJcountries array and language is Enlglish, show the APJ english. Otherwise, show EMEA.
+					if (APJcountries.indexOf(country_code) > -1 && user_lang == 'en-us') {
+						//Show APJ stuff
+						jQuery('.livechat_button.en-us').hide();
+						jQuery('.livechat_button.apj_english').show();
+						__lc.group = 18; //APJ English group
+					} else {
+						jQuery('.livechat_button.en-us').hide();
+						jQuery('.livechat_button.emea_english').show();
+						__lc.group = 14; // default to english (outside US english)
+					}
+				}
+
+				(function() {
+					var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+					lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+				})();
+				
+			// Show north america, baby
+			} else {
+				if (in_block_live_chat_pages == false) {
+					/////////////////////////////////////////
+					// going groupless for now for US
+					jQuery('.livechat_button').hide();
+					////////////////////////////////////////
+					// non groupless code
+					if (in_identity_access_security_group) {
+						jQuery('.livechat_button.identity-access-security').show();
+						__lc.group = 11;
+					} else if (in_platespin_voip_operations_group) {
+						jQuery('.livechat_button.platespin-voip-operations').show();
+						__lc.group = 12;
+					} else {
+						jQuery('.livechat_button.north_a_english').show();
+						__lc.group = 13; // english north america
+					}
+
+
+					(function() {
+						var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+						lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+						var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+					})();
+				} else {
+					jQuery('.cta_chat').hide();
+				}
+			}
+		});
+	}
+});
+</script><script type="text/javascript" src="/home/home.js?v=6"></script>
+
+</body>
+</html>

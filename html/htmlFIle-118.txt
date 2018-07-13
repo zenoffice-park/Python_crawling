@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<!--[if lte IE 7]><html class="so-sorry"> <![endif]-->
+<!--[if IE 8]><html class="no-js ie ie8" lang="ja" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if IE 9]><html class="no-js ie ie9" lang="ja" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if gt IE 9]><html class="no-js" lang="ja" prefix="og: http://ogp.me/ns#"> <![endif]-->
+<!--[if !IE]><!--><html class="no-js ja" lang="ja" prefix="og: http://ogp.me/ns#"> <!--<![endif]-->
+<head>
+<meta charset="UTF-8"/><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwYHWVZXGwIAVVBaDgMC"};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta name="google-site-verification" content="_6ZsBWICBTfRg6gM0xvf6ewsmTPGud_BcHXUJop2OxU" />
+<title>Steelcase - オフィス、教育施設、医療施設用家具</title>
+<script type="text/javascript" src="https://fast.fonts.net/jsapi/0124d03c-d4fd-442d-a293-07bafed3eeaf.js"></script>
+
+		<script>
+			var tribe = window.tribe || {}; tribe.retina = {};
+			tribe.retina.pixelRatio = ((window.devicePixelRatio === undefined) ? 1 : window.devicePixelRatio);
+			tribe.retina.date = new Date();
+			tribe.retina.date.setTime( tribe.retina.date.getTime() + (365 * 24 * 60 * 60 * 1000) );
+			tribe.retina.expires = "" + tribe.retina.date.toGMTString();
+			document.cookie = 'devicePixelRatio' + '=' + tribe.retina.pixelRatio + '; expires=' + tribe.retina.expires + '; path=/';
+		</script>
+		
+<!-- This site is optimized with the Yoast SEO Premium plugin - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="オフィス、教育、医療用家具をリードする世界的製造メーカー。すべての家具はスペースデザインにおける綿密なる調査に基づいて設計されています。"/>
+<link rel="canonical" href="https://www.steelcase.com/asia-ja/" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Steelcase - オフィス、教育施設、医療施設用家具" />
+<meta property="og:description" content="オフィス、教育、医療用家具をリードする世界的製造メーカー。すべての家具はスペースデザインにおける綿密なる調査に基づいて設計されています。" />
+<meta property="og:url" content="https://www.steelcase.com/asia-ja/" />
+<meta property="og:site_name" content="Steelcase" />
+<meta property="og:image" content="https://images.steelcase.com/image/upload/v1417820449/www.steelcase.com/steelcase-logo.png" />
+<meta property="og:image:secure_url" content="https://images.steelcase.com/image/upload/v1417820449/www.steelcase.com/steelcase-logo.png" />
+<meta property="og:image" content="https://images.steelcase.com/image/upload/c_fill,dpr_auto,q_70,h_600,w_1200/v1414671600/www.steelcase.com/GESTURE2.jpg" />
+<meta property="og:image:secure_url" content="https://images.steelcase.com/image/upload/c_fill,dpr_auto,q_70,h_600,w_1200/v1414671600/www.steelcase.com/GESTURE2.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="600" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="オフィス、教育、医療用家具をリードする世界的製造メーカー。すべての家具はスペースデザインにおける綿密なる調査に基づいて設計されています。" />
+<meta name="twitter:title" content="Steelcase - オフィス、教育施設、医療施設用家具" />
+<meta name="twitter:site" content="@steelcaseap" />
+<meta name="twitter:image" content="https://images.steelcase.com/image/upload/v1417820449/www.steelcase.com/steelcase-logo.png" />
+<meta name="twitter:creator" content="@steelcaseap" />
+<meta name="google-site-verification" content="eG4rcf09UloqCgODqjI5D-E6DwIjMyIPBrMeJJueebY" />
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//dumy1g3ng547g.cloudfront.net' />
+<link rel='dns-prefetch' href='//www.steelcase.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='steelcase-global-css'  href='https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/css/style.min.css?ver=5f66496b9d6709c6ce996d78c82d13783498cffc' type='text/css' media='all' />
+<link rel='stylesheet' id='steelcase-print-css'  href='https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/css/print.min.css?ver=5f66496b9d6709c6ce996d78c82d13783498cffc' type='text/css' media='print' />
+<link rel='stylesheet' id='rjqc-jqplot-css'  href='https://dumy1g3ng547g.cloudfront.net/content/plugins/rj-quickcharts/css/jquery.jqplot.min.css?ver=1.0.6' type='text/css' media='all' />
+<script type='text/javascript' src='https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/js/modernizr.min.js?ver=5f66496b9d6709c6ce996d78c82d13783498cffc'></script>
+<script type='text/javascript' src='https://dumy1g3ng547g.cloudfront.net/asia-ja/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://dumy1g3ng547g.cloudfront.net/asia-ja/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/js/slick.min.js?ver=5f66496b9d6709c6ce996d78c82d13783498cffc'></script>
+<script type='text/javascript' src='https://dumy1g3ng547g.cloudfront.net/content/plugins/rj-quickcharts/js/min/rjqc-full.min.js?ver=1.0.6'></script>
+<link rel='https://api.w.org/' href='https://www.steelcase.com/asia-ja/restapi/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.steelcase.com/asia-ja/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.steelcase.com/asia-ja/wp-includes/wlwmanifest.xml" /> 
+<link rel='shortlink' href='https://www.steelcase.com/asia-ja/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.steelcase.com/asia-ja/restapi/oembed/1.0/embed?url=https%3A%2F%2Fwww.steelcase.com%2Fasia-ja%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.steelcase.com/asia-ja/restapi/oembed/1.0/embed?url=https%3A%2F%2Fwww.steelcase.com%2Fasia-ja%2F&#038;format=xml" />
+<!--[if lt IE 8]><link rel="stylesheet" href="https://www.steelcase.com/content/plugins/tribe-gallery/resources/ie7.css" type="text/css" media="screen"><![endif]-->
+<!--[if IE 8]><link rel="stylesheet" href="https://www.steelcase.com/content/plugins/tribe-gallery/resources/ie8.css" type="text/css" media="screen"><![endif]-->
+<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://www.steelcase.com/asia-ja"><link rel="https://theeventscalendar.com/" href="https://www.steelcase.com/asia-ja/restapi/tribe/events/v1/" /><link rel="shortcut icon" href="https://www.steelcase.com/content/plugins/tribe-branding/assets/branding_icon_favicon.ico"><link rel="apple-touch-icon-precomposed" href="https://www.steelcase.com/content/plugins/tribe-branding/assets/branding_icon_favicon.ico"><meta name="msapplication-TileImage" content="https://www.steelcase.com/content/plugins/tribe-branding/assets/branding_icon_favicon.ico"><script type="text/javascript">
+    var digitalData = {"plugInVersion":"9.9","generatedDate":"2018-07-13","page":{"pageInfo":{"pageName":"Steelcase","breadCrumbs":"","destinationURL":"https:\/\/","geoCountry":"JP","geoRegion":"\u30a2\u30b8\u30a2\u30d1\u30b7\u30d5\u30a3\u30c3\u30af","language":"ja","pageID":"4228","siteBrand":"steelcase","sysEnv":"production"},"category":{"pageType":"single-page","primaryCategory":"","subCategory1":""}},"user":{"profile":[{"profileInfo":{"profileID":"","returningStatus":"new","type":"guest","userFirstName":"","userLastName":"","email":"","bestDescribesMe":""}}]}};
+    </script><script src="//assets.adobedtm.com/ba885a6e52873c6a3d989e3f782945f1c9393334/satelliteLib-c837d2a2c155dfad3fce9ba252e26f2192e22093.js"></script><script>var $ = jQuery.noConflict();</script>
+<!--
+	generated 245 seconds ago
+	generated in 2.300 seconds
+	served from batcache in 0.004 seconds
+	expires in 355 seconds
+-->
+</head>
+
+<body class="home page-template-default page page-id-4228 tribe-no-js page-home" data-resourceurl="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/">
+		<script>
+		/* Output a bit of configuration for Lazy Sizes Lib to prevent conflicts with the existing lazyload lib */
+		window.lazySizesConfig = window.lazySizesConfig || {};
+		window.lazySizesConfig.lazyClass = 'lslazyload';
+	</script>
+	<script>
+		var steelcase_deepscroll = false;
+		if (
+			location.hash.length &&
+			location.hash.slice(0, 10) !== "#location/" &&
+			location.hash.slice(0, 8) !== "#comment" &&
+			location.hash.slice(0, 8) !== "#respond"
+			&& location.hash.slice(0, 6) !== "#gsc_q"		) {
+			steelcase_deepscroll = true;
+			document.write('<div class="sc-loading-mask deepscroll-spinner"><div class="sc-loading-spinner"><i class="sq-1"></i><i class="sq-2"></i><i class="sq-3"></i></div></div>');
+		}
+	</script>
+	<div id="page" class="hfeed site">
+		
+<nav id="mobile-nav-bar" class="menu-slide">
+	<a id="mobile-trigger-left" href="#" class="icon icon-mobile-menu"></a>
+	<a class="mobile-logo-trigger" href="https://www.steelcase.com/asia-ja"><img class="mobile-logo" src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg" alt="Steelcase" /></a>
+	<a id="mobile-trigger-right" href="#" class="icon icon-profile"></a>
+</nav>
+
+<div class="mobile-menu-shadow shadow-left menu-slide"></div>
+<div class="mobile-menu-shadow shadow-right menu-slide"></div>
+
+<nav id="mobile-user-menu" class="menu-level-1" data-id="main-right">
+	<ul>
+				<li class="user-login-link">
+							<a href="#" class="user-menu-trigger trigger-signup login-link">
+					ログイン/登録する					<i class="icon icon-arrow-right"></i>
+				</a>
+					</li>
+				<li class="language-chooser-link">
+			<a class="user-menu-trigger sub-menu-trigger" href="#" data-target="region">
+				<span class="menu-link-grey">アジアパシフィック</span> <span class="lang-label">(日本語)</span>
+				<i class="icon icon-arrow-right"></i>
+			</a>
+		</li>
+
+		
+				<li class="saved-items-link">
+			<a
+				class="user-menu-trigger trigger-signup"
+				href="#">保存項目				<b class="mobile-notification notification-bubble saved-item-count"></b>
+				<i class="icon icon-arrow-right"></i>
+			</a>
+		</li>
+					</ul>
+</nav>
+
+<nav id="mobile-region" class="menu-sub menu-level-2" data-id="region">
+	<ul>
+		<li class="mobile-level-header">
+			<a class="menu-sub-back" href="#" data-target="main-right">
+				<i class="icon icon-arrow-left"></i>
+				戻る			</a>
+		</li>
+		<li class="region-group-heading">アメリカ</li>
+					<li>
+				<a  class="language-selection"  data-lcode="en_US" href="https://www.steelcase.com">English<i class="icon icon-arrow-right"></i></a>			</li>			
+					<li class="region-group-heading">ヨーロッパ、中近東、アフリカ</li>
+					<li>
+				<a  class="language-selection"  data-lcode="de_DE" href="https://www.steelcase.com/eu-de">Deutsch<i class="icon icon-arrow-right"></i></a>			</li>			
+						<li>
+				<a  class="language-selection"  data-lcode="en_GB" href="https://www.steelcase.com/eu-en">English<i class="icon icon-arrow-right"></i></a>			</li>			
+						<li>
+				<a  class="language-selection"  data-lcode="es_ES" href="https://www.steelcase.com/eu-es">Español<i class="icon icon-arrow-right"></i></a>			</li>			
+						<li>
+				<a  class="language-selection"  data-lcode="fr_FR" href="https://www.steelcase.com/eu-fr">Français<i class="icon icon-arrow-right"></i></a>			</li>			
+					<li class="region-group-heading">アジアパシフィック</li>
+					<li>
+				<a  class="language-selection"  data-lcode="en_AU" href="https://www.steelcase.com/asia-en">English<i class="icon icon-arrow-right"></i></a>			</li>			
+						<li>
+				<a  class="language-selection"  data-lcode="zh_CN" href="https://www.steelcase.com/asia-zh">中文<i class="icon icon-arrow-right"></i></a>			</li>			
+						<li>
+				<a  class="language-selection active" data-lcode="ja" href="https://www.steelcase.com/asia-ja">日本語<i class="icon icon-arrow-right"></i></a>			</li>			
+					<li class="region-group-heading">国</li>
+		<li>
+			<a class="user-menu-trigger" href="https://www.steelcase.com/countries/">
+				すべての国を見る				<i class="icon icon-arrow-right"></i>
+			</a>
+		</li>
+	</ul>
+</nav>
+
+				<section class="top">
+			
+<div id="user-nav">
+	<nav
+		role="navigation"
+		aria-label="User Navigation"
+		itemscope itemtype="http://schema.org/SiteNavigationElement"
+		class="clearfix"
+	>
+		<header id="masthead" class="site-header" role="banner">
+			<h1 class="site-title">
+				<a href="https://www.steelcase.com/asia-ja">
+					<img
+							id="branding"
+							class="swap-svg" src="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo.svg"
+							data-png="https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/img/logo-150.png"
+							alt="Steelcase" />
+				</a>
+			</h1>
+		</header>
+		<h3 class="visuallyhidden">ユーザーメニュー</h3>
+		
+		<a class="button-contact button-blue" href="/asia-ja/contact-us/">お問い合わせ</a>
+		<ol class="user-navigation">
+			<li id="country-select-menu">
+				<a href="#" id="country-select">
+					<i class="icon icon-global"></i>
+					<span class="nav-pipe"></span>
+					アジアパシフィック <span class="lang-label">(日本語)</span>
+				</a>
+				<div class="desktop-region-selector">
+					<i class="region-arrow-border"></i>
+					<i class="region-arrow"></i>
+					<div class="region-selector-header">地域/言語を選択してください</div>
+					<ul class="region-selector-groups group">
+						<li class="region-selector-group">
+							<ul>
+								<li class="region-group-heading">アメリカ</li>
+											<li>
+				<a  class="language-selection"  data-lcode="en_US" href="https://www.steelcase.com">English</a>			</li>			
+										</ul>
+						</li>
+						<li class="region-selector-group">
+							<ul>
+								<li class="region-group-heading">ヨーロッパ、中近東、アフリカ</li>
+											<li>
+				<a  class="language-selection"  data-lcode="de_DE" href="https://www.steelcase.com/eu-de">Deutsch</a>			</li>			
+						<li>
+				<a  class="language-selection"  data-lcode="en_GB" href="https://www.steelcase.com/eu-en">English</a>			</li>			
+						<li>
+				<a  class="language-selection"  data-lcode="es_ES" href="https://www.steelcase.com/eu-es">Español</a>			</li>			
+						<li>
+				<a  class="language-selection"  data-lcode="fr_FR" href="https://www.steelcase.com/eu-fr">Français</a>			</li>			
+										</ul>
+						</li>
+						<li class="region-selector-group">
+							<ul>
+								<li class="region-group-heading">アジアパシフィック</li>
+											<li>
+				<a  class="language-selection"  data-lcode="en_AU" href="https://www.steelcase.com/asia-en">English</a>			</li>			
+						<li>
+				<a  class="language-selection"  data-lcode="zh_CN" href="https://www.steelcase.com/asia-zh">中文</a>			</li>			
+						<li>
+				<a  class="language-selection active" data-lcode="ja" href="https://www.steelcase.com/asia-ja">日本語</a>			</li>			
+										</ul>
+						</li>
+					</ul>
+					<a class="country-page-link" href="https://www.steelcase.com/countries/?region_message=ja">サポートされている国のリストを見るにはここをクリックしてください</a>
+				</div>
+			</li>
+							<li class="saved-items-link-wrapper" data-feature="11">
+					<a id="saved-items-link" class="trigger-signup" href="#">
+						保存項目						<b class="notification-bubble saved-item-count"></b>
+					</a>
+				</li>
+				<li data-feature="10">
+					<a href="javascript:void(0)" class="trigger-signup login-link">
+						ログイン/登録する					</a>
+				</li>
+									<li id="desktop-search">
+				<button class="icon icon-search dn-top-search-trigger">
+					<span class="u-visual-hide">
+						検索					</span>
+				</button>
+				<div class="dn-top-search-wrapper">
+					<form role="search" data-js="site-search__form" class="site-search__form es-search-input" method="get" action="https://www.steelcase.com/asia-ja/検索%20/"><input type="search" aria-label="このサイトを検索する " data-js="site-search__input" class="site-search__input" name="gsc_q" value="" placeholder="検索" /><button type="button" aria-label="サイトの検索入力を消去する " data-js="site-search__clear" class="site-search__clear icon"><span class="site-search__clear-label visuallyhidden">消去する </span></button><button type="submit" aria-label="サイト検索を送信する " data-js="site-search__submit" class="site-search__submit button-dark"><span class="site-search__submit-label">検索</span></button></form>				</div>
+			</li>
+		</ol>
+	</nav>
+</div><!-- #usernav -->			<div id="main-nav">
+				<nav id="desktop-nav" class="menu-main-menu-container"><ul id="menu-main-menu" class="desktop-nav-wrap group"><li id="menu-item-150" class="menu-item menu-item-type-steelcase-custom menu-item-object-product menu-item-has-children menu-item-150 desktop-nav-item"><a href="https://www.steelcase.com/asia-ja/products/" class=" desktop-nav-trigger">製品<i class="nav-arrow arrow-down"></i></a></li>
+<li id="menu-item-159" class="resources menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-159 desktop-nav-item"><a href="#" class=" desktop-nav-trigger">デザイン資料<i class="nav-arrow arrow-down"></i></a></li>
+<li id="menu-item-132" class="insights menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-132 desktop-nav-item"><a href="#" class=" desktop-nav-trigger">360研究レポート<i class="nav-arrow arrow-down"></i></a></li>
+<li id="menu-item-151" class="services menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-151 desktop-nav-item"><a href="#" class=" desktop-nav-trigger">サービス<i class="nav-arrow arrow-down"></i></a></li>
+<li id="menu-item-107" class="discover menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-107 desktop-nav-item"><a href="#" class=" desktop-nav-trigger">企業情報<i class="nav-arrow arrow-down"></i></a></li>
+<li id="menu-item-165" class="find menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-165 desktop-nav-item"><a href="#" class=" desktop-nav-trigger">所在地<i class="nav-arrow arrow-down"></i></a></li>
+</ul><div class="dn-sticky-search"><button class="icon icon-search sticky-trigger dn-search-trigger"></button><ul id="sticky-search"></ul></div></nav>			</div>
+		</section>
+		<div class="c-wrap">
+<section class="page-heading menu-slide home-heading">
+
+</section>
+
+<main id="content" class="site-content menu-slide" role="main" data-url-key="content-top">
+
+	<div  class="static-content-slider-wrap slider-hero overlay  content-wrap" ><img class="print-only" src="https://steelcase-res.cloudinary.com/image/upload/c_fill,dpr_auto,q_70,h_656,w_1166/v1494494109/www.steelcase.com/asia-ja/2017/05/11/B_free_rev-1.jpg" /><div id="slider-5b4813c96ea75"  class="slick-slider image-slider static-content-slider header-module not-initialized overlay " data-type="header-module"><div class="has-ppp first-slide  top-left"><div class="slide__img-wrap"><img class="slide__image" alt="「素材」の重要性" src="https://steelcase-res.cloudinary.com/image/upload/c_fill,dpr_auto,q_70,h_656,w_1166/v1494494109/www.steelcase.com/asia-ja/2017/05/11/B_free_rev-1.jpg" sizes="(min-width: 1260px) 1260px, 100vw" srcset="https://steelcase-res.cloudinary.com/image/upload/c_fill,dpr_auto,q_70,h_1350,w_2400/v1494494109/www.steelcase.com/asia-ja/2017/05/11/B_free_rev-1.jpg 2400w 1350h, 
+https://steelcase-res.cloudinary.com/image/upload/c_fill,dpr_auto,q_70,h_900,w_1600/v1494494109/www.steelcase.com/asia-ja/2017/05/11/B_free_rev-1.jpg 1600w 900h, 
+https://steelcase-res.cloudinary.com/image/upload/c_fill,dpr_auto,q_70,h_656,w_1166/v1494494109/www.steelcase.com/asia-ja/2017/05/11/B_free_rev-1.jpg 1166w 656h, 
+https://steelcase-res.cloudinary.com/image/upload/c_fill,dpr_auto,q_70,h_450,w_800/v1494494109/www.steelcase.com/asia-ja/2017/05/11/B_free_rev-1.jpg 800w 450h, 
+https://steelcase-res.cloudinary.com/image/upload/c_fill,dpr_auto,q_70,h_270,w_480/v1494494109/www.steelcase.com/asia-ja/2017/05/11/B_free_rev-1.jpg 480w 270h" /><a data-saved-state='0' data-item-id='8552' data-type='attachment' class="can-save ppp-link icon icon-ppp" data-src="https://www.steelcase.com/download/?url=https://steelcase-res.cloudinary.com/image/upload/v1494494109/www.steelcase.com/asia-ja/2017/05/11/B_free_rev-1.jpg"  data-social-url="https://www.steelcase.com/asia-ja/" data-social-media="https://steelcase-res.cloudinary.com/image/upload/v1494494109/www.steelcase.com/asia-ja/2017/05/11/B_free_rev-1.jpg" data-social-title="Home" href="#"><b></b></a></div><!-- .slide__img-wrap -->		<div class="slider-content-middle-wrap">
+							<a class="slide-link" href="https://www.steelcase.com/asia-ja/resources/surface-materials/" title="詳細を見る"></a>
+							<div class="slider-content-middle">
+				<div class="slider-static-content-wrap">
+					<div class="slider-static-content">
+		<h3>「素材」の重要性</h3><p>2017年春のLOOKBOOK冊子では「素材」が生み出すパワーについて紹介しています。「素材」である仕上げや張り地が人間の感性を呼び覚まし、人と空間を繋いでいく様々な方法をご覧いただけます。</p>
+		<a class="button-dark button-icon-right" href="https://www.steelcase.com/asia-ja/resources/surface-materials/">
+			詳細を見る<i class="icon icon-triangle-right"></i>
+		</a>
+							</div>
+				</div>
+			</div>
+		</div>
+		</div><!-- .slide --></div><!-- .static-content-slider --></div><!-- .static-content-slider-wrap -->	<script>
+		(function (window, $) {
+			var sliderOpts = {
+				fade            : false,
+				speed           : 600,
+				autoplaySpeed   : 7000,
+				autoplay        : true,
+				adaptiveHeight  : false,
+				pauseOnHover    : true,
+				pauseOnDotsHover: true,
+				setInitial      : false,
+				sliderType      : 'header-module',
+				infinite        : true,
+				slidesToShow    : 1,
+				slidesToScroll  : 1,
+				easing          : 'easeInOutExpo',
+				dots            : true,
+				arrows          : true,
+				matchHeights    : true,
+				swipe           : true,
+				touchMove       : true,
+				customPaging    : function( slider, i ) {
+					return '<button type="button" class="slick-dot" data-role="none">' + (i + 1) + '</button>';
+				},
+				responsive      : []
+			};
+
+			function _setup_slider_nav( slider ) {
+
+				if ( slider.$dots && ! slider.$dots.find( '.slick-arrow' ).length ) {
+
+					slider
+						.$prevArrow
+						.addClass( 'slick-arrow' )
+						.text( '' )
+						.prependTo( slider.$dots.find( 'li' ).first() );
+
+					slider
+						.$nextArrow
+						.addClass( 'slick-arrow' )
+						.text( '' )
+						.appendTo( slider.$dots.find( 'li' ).last() );
+				}
+			}
+
+			$( '#slider-5b4813c96ea75' )
+				.on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+					$(slick.$slides[currentSlide]).addClass('unloading');
+					$(slick.$slides[nextSlide]).addClass('loading');
+				})
+				.on('afterChange', function(event, slick, currentSlide) {
+					$(slick.$slides).removeClass('unloading');
+					$(slick.$slides[currentSlide]).removeClass('loading');
+				})
+				.on( 'init setPosition', function( event, slick ) {
+					_setup_slider_nav( slick );
+				})
+				.removeClass( 'not-initialized' )
+				.slick( sliderOpts );
+		})(window, jQuery);
+	</script>
+<div class="panel-collection">
+	<section  class="panel content-wrap panel-type-dynamic panel-odd" data-depth="0"><div class="panel-content" data-url-key="%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%b9" data-nav-title="ニュース" data-link-container="%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%b9">
+
+			<h2 class="panel-title content-well"><span>ニュース</span></h2>
+		
+		<div class="feature-slider-wrap multi-features multi-features-layout-3up ">
+
+		
+		<div class="slick-slider panel-layout-3up group-slider match-height light-slider not-initialized" data-type="3up">
+
+
+				<!-- This is the start of our loop. -->
+			   				  <div class="feature feature-post-type-press-release">
+					  						  						  <figure class="feature-image extend-image has-ppp"
+							  >
+							  <a href="https://www.steelcase.com/asia-ja/press-releases/steelcase-introduces-silq-innovation-seating-design/" >
+								  <img width="382" height="287" src="https://steelcase-res.cloudinary.com/image/upload/c_fill,dpr_auto,q_70,h_287,w_382/v1517015155/www.steelcase.com/2018/01/27/17-0087884-1.jpg" class="attachment-steelcase-story-image size-steelcase-story-image wp-post-image" alt="" />							  </a>
+							  <a data-saved-state='0' data-item-id='9636' data-type='attachment' class="can-save ppp-link icon icon-ppp" data-src="https://www.steelcase.com/download/?url=https://steelcase-res.cloudinary.com/image/upload/v1517015155/www.steelcase.com/2018/01/27/17-0087884-1.jpg"  data-social-url="https://www.steelcase.com/asia-ja/press-releases/steelcase-introduces-silq-innovation-seating-design/" data-social-media="https://steelcase-res.cloudinary.com/image/upload/v1517015155/www.steelcase.com/2018/01/27/17-0087884-1.jpg" data-social-title="Steelcase、SILQ新発売：チェア設計の常識を超える革新性" href="#"><b></b></a>						  </figure>
+					  
+					  <div class="feature-content has-sticky content-well match-height">
+						  							  <h4>Steelcase、SILQ新発売：チェア設計の常識を超える革新性</h4>							  <p>材料科学におけるチームのイノベーションが、チェアの構造メカを使用せずに人体の動きに直感的に反応するという、今までの常識を超えたチェア設計につながったとJames Ludwig氏は述べています。</p>
+						  
+
+						  							  <p>
+								  <a href="https://www.steelcase.com/asia-ja/press-releases/steelcase-introduces-silq-innovation-seating-design/" class="link-highlight">詳細を見る</a>							  </p>
+						  					  </div>
+				  </div>
+
+				  				  <div class="feature feature-post-type-press-release">
+					  						  						  <figure class="feature-image extend-image has-ppp"
+							  >
+							  <a href="https://www.steelcase.com/asia-ja/press-releases/steelcase-welcomes-ideo-ceo-tim-brown-board-directors/" >
+								  <img width="382" height="287" src="https://steelcase-res.cloudinary.com/image/upload/c_fill,dpr_auto,q_70,h_287,w_382/v1492761649/www.steelcase.com/asia-ja/2017/04/21/timbrown_photo.jpg" class="attachment-steelcase-story-image size-steelcase-story-image wp-post-image" alt="" />							  </a>
+							  <a data-saved-state='0' data-item-id='8455' data-type='attachment' class="can-save ppp-link icon icon-ppp" data-src="https://www.steelcase.com/download/?url=https://steelcase-res.cloudinary.com/image/upload/v1492761649/www.steelcase.com/asia-ja/2017/04/21/timbrown_photo.jpg"  data-social-url="https://www.steelcase.com/asia-ja/press-releases/steelcase-welcomes-ideo-ceo-tim-brown-board-directors/" data-social-media="https://steelcase-res.cloudinary.com/image/upload/v1492761649/www.steelcase.com/asia-ja/2017/04/21/timbrown_photo.jpg" data-social-title="スチールケース、IDEOのCEOであるティム・ブラウン氏を取締役に任命" href="#"><b></b></a>						  </figure>
+					  
+					  <div class="feature-content has-sticky content-well match-height">
+						  							  <h4>スチールケース、IDEOのCEOであるティム・ブラウン氏を取締役に任命</h4>							  <p>Tim Brown, CEO and president of the global design consultancy IDEO, will join the Steelcase Inc. Board of Directors, effective today. </p>
+						  
+
+						  							  <p>
+								  <a href="https://www.steelcase.com/asia-ja/press-releases/steelcase-welcomes-ideo-ceo-tim-brown-board-directors/" class="link-highlight">詳細を見る</a>							  </p>
+						  					  </div>
+				  </div>
+
+				  				  <div class="feature feature-post-type-press-release">
+					  						  						  <figure class="feature-image extend-image has-ppp"
+							  >
+							  <a href="https://www.steelcase.com/asia-ja/press-releases/steelcase-microsoft-announce-development-technology-enabled-spaces-designed-boost-creative-work/" >
+								  <img width="382" height="287" src="https://steelcase-res.cloudinary.com/image/upload/c_fill,dpr_auto,q_70,h_287,w_382/v1488361194/www.steelcase.com/eu-en/2017/03/01/Creative_Spaces_Partnership.jpg" class="attachment-steelcase-story-image size-steelcase-story-image wp-post-image" alt="Creative Spaces Partnership" />							  </a>
+							  <a data-saved-state='0' data-item-id='7905' data-type='attachment' class="can-save ppp-link icon icon-ppp" data-src="https://www.steelcase.com/download/?url=https://steelcase-res.cloudinary.com/image/upload/v1488361194/www.steelcase.com/eu-en/2017/03/01/Creative_Spaces_Partnership.jpg"  data-social-url="https://www.steelcase.com/asia-ja/press-releases/steelcase-microsoft-announce-development-technology-enabled-spaces-designed-boost-creative-work/" data-social-media="https://steelcase-res.cloudinary.com/image/upload/v1488361194/www.steelcase.com/eu-en/2017/03/01/Creative_Spaces_Partnership.jpg" data-social-title="スチールケース、テクノロジーベースの創造型ワークスペース開発で マイクロソフトとパートナーシップ提携を発表" href="#"><b></b></a>						  </figure>
+					  
+					  <div class="feature-content has-sticky content-well match-height">
+						  							  <h4>スチールケース、テクノロジーベースの創造型ワークスペース開発で マイクロソフトとパートナーシップ提携を発表</h4>							  <p>「クリエイティブ・スペース」開発と共同研</p>
+						  
+
+						  							  <p>
+								  <a href="https://www.steelcase.com/asia-ja/press-releases/steelcase-microsoft-announce-development-technology-enabled-spaces-designed-boost-creative-work/" class="link-highlight">詳細を見る</a>							  </p>
+						  					  </div>
+				  </div>
+
+				  				  <div class="feature feature-post-type-press-release">
+					  						  						  <figure class="feature-image extend-image has-ppp"
+							  >
+							  <a href="https://www.steelcase.com/asia-ja/press-releases/steelcase-melbourne-x-hub-australia/" >
+								  <img width="382" height="287" src="https://steelcase-res.cloudinary.com/image/upload/c_fill,dpr_auto,q_70,h_287,w_382/v1478600942/www.steelcase.com/asia-en/2016/11/08/dsc_5922_29852907640_o.jpg" class="attachment-steelcase-story-image size-steelcase-story-image wp-post-image" alt="" />							  </a>
+							  <a data-saved-state='0' data-item-id='7759' data-type='attachment' class="can-save ppp-link icon icon-ppp" data-src="https://www.steelcase.com/download/?url=https://steelcase-res.cloudinary.com/image/upload/v1478600942/www.steelcase.com/asia-en/2016/11/08/dsc_5922_29852907640_o.jpg"  data-social-url="https://www.steelcase.com/asia-ja/press-releases/steelcase-melbourne-x-hub-australia/" data-social-media="https://steelcase-res.cloudinary.com/image/upload/v1478600942/www.steelcase.com/asia-en/2016/11/08/dsc_5922_29852907640_o.jpg" data-social-title="Steelcaseメルボルン支社、Hubオーストラリアと コ・ワーキングスペースでコラボ" href="#"><b></b></a>						  </figure>
+					  
+					  <div class="feature-content has-sticky content-well match-height">
+						  							  <h4>Steelcaseメルボルン支社、Hubオーストラリアと コ・ワーキングスペースでコラボ</h4>							  <p>2016年10月24日、Steelcas</p>
+						  
+
+						  							  <p>
+								  <a href="https://www.steelcase.com/asia-ja/press-releases/steelcase-melbourne-x-hub-australia/" class="link-highlight">詳細を見る</a>							  </p>
+						  					  </div>
+				  </div>
+
+				  				  <div class="feature feature-post-type-press-release">
+					  						  						  <figure class="feature-image extend-image has-ppp"
+							   data-ppp-json='{"product":[{"title":"Gesture","link":"https:\/\/www.steelcase.com\/asia-ja\/products\/office-chairs\/gesture\/"},{"title":"Think","link":"https:\/\/www.steelcase.com\/asia-ja\/products\/office-chairs\/think\/"}]}'>
+							  <a href="https://www.steelcase.com/asia-ja/press-releases/%e3%80%8cgesture%e3%80%8d%e3%83%9e%e3%83%ab%e3%83%81%e3%83%87%e3%83%90%e3%82%a4%e3%82%b9%e5%af%be%e5%bf%9c%e3%81%ae%e4%b8%96%e7%95%8c%e5%88%9d%e3%81%ae%e3%82%aa%e3%83%95%e3%82%a3%e3%82%b9%e3%83%81/" >
+								  <img width="382" height="287" src="https://images.steelcase.com/image/upload/c_fill,dpr_auto,q_70,h_287,w_382/v1415739054/www.steelcase.com/gesture-chair-tablet-13-0004200.jpg" class="attachment-steelcase-story-image size-steelcase-story-image wp-post-image" alt="End of Use" />							  </a>
+							  <a data-saved-state='0' data-item-id='413' data-type='attachment' class="can-save ppp-link icon icon-ppp" data-src="https://www.steelcase.com/download/?url=https://images.steelcase.com/image/upload/v1415739054/www.steelcase.com/gesture-chair-tablet-13-0004200.jpg"  data-social-url="https://www.steelcase.com/asia-ja/press-releases/%e3%80%8cgesture%e3%80%8d%e3%83%9e%e3%83%ab%e3%83%81%e3%83%87%e3%83%90%e3%82%a4%e3%82%b9%e5%af%be%e5%bf%9c%e3%81%ae%e4%b8%96%e7%95%8c%e5%88%9d%e3%81%ae%e3%82%aa%e3%83%95%e3%82%a3%e3%82%b9%e3%83%81/" data-social-media="https://images.steelcase.com/image/upload/v1415739054/www.steelcase.com/gesture-chair-tablet-13-0004200.jpg" data-social-title="「Gesture」マルチデバイス対応の世界初のオフィスチェア" href="#"><b></b></a>						  </figure>
+					  
+					  <div class="feature-content has-sticky content-well match-height">
+						  							  <h4>「Gesture」マルチデバイス対応の世界初のオフィスチェア</h4>							  <p>世界最大のオフィス家具メーカー、スチールケース・インク（本社：米国ミシガン州、アジア太 平洋地域社長：ウリ・グウィナー）の日本法人、日本スチールケース株式会社（本社：東京都港区、 代表取締役：大野 計一）は、オフィスにおける姿勢の変化に関する最新の調査研究結果を基に開発 したオフィスチェアの新製品「Gesture（ジェスチャー）」を発表しました。</p>
+						  
+
+						  							  <p>
+								  <a href="https://www.steelcase.com/asia-ja/press-releases/%e3%80%8cgesture%e3%80%8d%e3%83%9e%e3%83%ab%e3%83%81%e3%83%87%e3%83%90%e3%82%a4%e3%82%b9%e5%af%be%e5%bf%9c%e3%81%ae%e4%b8%96%e7%95%8c%e5%88%9d%e3%81%ae%e3%82%aa%e3%83%95%e3%82%a3%e3%82%b9%e3%83%81/" class="link-highlight">詳細を見る</a>							  </p>
+						  					  </div>
+				  </div>
+
+				  				  <div class="feature feature-post-type-press-release">
+					  						  						  <figure class="feature-image extend-image has-ppp"
+							   data-ppp-json='{"product":[{"title":"Think","link":"https:\/\/www.steelcase.com\/asia-ja\/products\/office-chairs\/think\/"}]}'>
+							  <a href="https://www.steelcase.com/asia-ja/press-releases/%e4%b8%96%e7%95%8c%e7%9a%84%e3%83%99%e3%82%b9%e3%83%88%e3%82%bb%e3%83%a9%e3%83%bc%e3%81%ae%e3%82%aa%e3%83%95%e3%82%a3%e3%82%b9%e7%94%a8%e3%83%81%e3%82%a7%e3%82%a2%e3%80%8cthink%e3%80%8d/" >
+								  <img width="382" height="287" src="https://images.steelcase.com/image/upload/c_fill,dpr_auto,q_70,h_287,w_382/v1417613349/www.steelcase.com/13-0003262.jpg" class="attachment-steelcase-story-image size-steelcase-story-image wp-post-image" alt="Think" />							  </a>
+							  <a data-saved-state='0' data-item-id='497' data-type='attachment' class="can-save ppp-link icon icon-ppp" data-src="https://www.steelcase.com/download/?url=https://images.steelcase.com/image/upload/v1417613349/www.steelcase.com/13-0003262.jpg"  data-social-url="https://www.steelcase.com/asia-ja/press-releases/%e4%b8%96%e7%95%8c%e7%9a%84%e3%83%99%e3%82%b9%e3%83%88%e3%82%bb%e3%83%a9%e3%83%bc%e3%81%ae%e3%82%aa%e3%83%95%e3%82%a3%e3%82%b9%e7%94%a8%e3%83%81%e3%82%a7%e3%82%a2%e3%80%8cthink%e3%80%8d/" data-social-media="https://images.steelcase.com/image/upload/v1417613349/www.steelcase.com/13-0003262.jpg" data-social-title="世界的ベストセラーのオフィス用チェア「Think™」を一新 日本国内での販売を開始" href="#"><b></b></a>						  </figure>
+					  
+					  <div class="feature-content has-sticky content-well match-height">
+						  							  <h4>世界的ベストセラーのオフィス用チェア「Think™」を一新 日本国内での販売を開始</h4>							  <p>オフィス用チェアの「Think」は、2004 年に誕生して以来、その環境配慮設計とシンプルな操作性で オフィスワーカーから絶大な支持を受け、世界的ベストセラー商品として成長しました。</p>
+						  
+
+						  							  <p>
+								  <a href="https://www.steelcase.com/asia-ja/press-releases/%e4%b8%96%e7%95%8c%e7%9a%84%e3%83%99%e3%82%b9%e3%83%88%e3%82%bb%e3%83%a9%e3%83%bc%e3%81%ae%e3%82%aa%e3%83%95%e3%82%a3%e3%82%b9%e7%94%a8%e3%83%81%e3%82%a7%e3%82%a2%e3%80%8cthink%e3%80%8d/" class="link-highlight">詳細を見る</a>							  </p>
+						  					  </div>
+				  </div>
+
+				  				  <div class="feature feature-post-type-press-release">
+					  						  						  <figure class="feature-image extend-image has-ppp"
+							   data-ppp-json='{"product":[{"title":"media:scape Lounge","link":"https:\/\/www.steelcase.com\/asia-ja\/products\/lounge-seating\/mediascape-lounge\/"}]}'>
+							  <a href="https://www.steelcase.com/asia-ja/press-releases/mediascape-lounge-hood-%e6%9b%b4%e5%a5%bd%e7%9a%84%e7%a7%81%e5%af%86%e5%8a%9e%e5%85%ac%e4%ba%ab%e5%8f%97/" >
+								  <img width="382" height="287" src="https://images.steelcase.com/image/upload/c_fill,dpr_auto,q_70,h_287,w_382/v1426133997/www.steelcase.com/asia-zh/MG_4182a.jpg" class="attachment-steelcase-story-image size-steelcase-story-image wp-post-image" alt="media:scape Lounge with Hood" />							  </a>
+							  <a data-saved-state='0' data-item-id='4901' data-type='attachment' class="can-save ppp-link icon icon-ppp" data-src="https://www.steelcase.com/download/?url=https://images.steelcase.com/image/upload/v1426133997/www.steelcase.com/asia-zh/MG_4182a.jpg"  data-social-url="https://www.steelcase.com/asia-ja/press-releases/mediascape-lounge-hood-%e6%9b%b4%e5%a5%bd%e7%9a%84%e7%a7%81%e5%af%86%e5%8a%9e%e5%85%ac%e4%ba%ab%e5%8f%97/" data-social-media="https://images.steelcase.com/image/upload/v1426133997/www.steelcase.com/asia-zh/MG_4182a.jpg" data-social-title="「media:scape Lounge with Hood」を発表" href="#"><b></b></a>						  </figure>
+					  
+					  <div class="feature-content has-sticky content-well match-height">
+						  							  <h4>「media:scape Lounge with Hood」を発表</h4>							  <p>今回新しく発表する「media:scape Lounge with Hood」 はフードで覆うというユニークなデザインで間仕切り機能を 実現したラウンジチェアです。視覚的、物理的プライバシー が確保され、一対一のミーティングや一人で集中しなくては いけない作業、電話をかけたり、休息したりと、その用途は 多彩です。オープンレイアウトの仕事場において、ユニーク でプライベートなリラックス空間を提供します。</p>
+						  
+
+						  							  <p>
+								  <a href="https://www.steelcase.com/asia-ja/press-releases/mediascape-lounge-hood-%e6%9b%b4%e5%a5%bd%e7%9a%84%e7%a7%81%e5%af%86%e5%8a%9e%e5%85%ac%e4%ba%ab%e5%8f%97/" class="link-highlight">詳細を見る</a>							  </p>
+						  					  </div>
+				  </div>
+
+				  				  <div class="feature feature-post-type-press-release">
+					  						  						  <figure class="feature-image extend-image has-ppp"
+							  >
+							  <a href="https://www.steelcase.com/asia-ja/press-releases/steelcase-commitment-to-renewable-energy-equivalent-to-100-of-companys-global-electricity-use-2/" >
+								  <img width="382" height="287" src="https://images.steelcase.com/image/upload/c_fill,dpr_auto,q_70,h_287,w_382/v1424077177/www.steelcase.com/asia-ja/135372410.jpg" class="attachment-steelcase-story-image size-steelcase-story-image wp-post-image" alt="Sustainability" />							  </a>
+							  <a data-saved-state='0' data-item-id='4135' data-type='attachment' class="can-save ppp-link icon icon-ppp" data-src="https://www.steelcase.com/download/?url=https://images.steelcase.com/image/upload/v1424077177/www.steelcase.com/asia-ja/135372410.jpg"  data-social-url="https://www.steelcase.com/asia-ja/press-releases/steelcase-commitment-to-renewable-energy-equivalent-to-100-of-companys-global-electricity-use-2/" data-social-media="https://images.steelcase.com/image/upload/v1424077177/www.steelcase.com/asia-ja/135372410.jpg" data-social-title="米スチールケース社、グローバル事業の全エネルギー消費量相当の再生可能エネルギーへの投資を発表" href="#"><b></b></a>						  </figure>
+					  
+					  <div class="feature-content has-sticky content-well match-height">
+						  							  <h4>米スチールケース社、グローバル事業の全エネルギー消費量相当の再生可能エネルギーへの投資を発表</h4>							  <p>This commitment reflects the company’s larger energy strategy which has, to date, resulted in a 60% reduction in energy use since the company began tracking its consumption in 2001.</p>
+						  
+
+						  							  <p>
+								  <a href="https://www.steelcase.com/asia-ja/press-releases/steelcase-commitment-to-renewable-energy-equivalent-to-100-of-companys-global-electricity-use-2/" class="link-highlight">詳細を見る</a>							  </p>
+						  					  </div>
+				  </div>
+
+				  				  <div class="feature feature-post-type-press-release">
+					  						  						  <figure class="feature-image extend-image has-ppp"
+							   data-ppp-json='{"product":[{"title":"media:scape Lounge","link":"https:\/\/www.steelcase.com\/asia-ja\/products\/lounge-seating\/mediascape-lounge\/"}]}'>
+							  <a href="https://www.steelcase.com/asia-ja/press-releases/fortune-magazine-names-steelcase-inc-one-worlds-admired-companies/" >
+								  <img width="382" height="287" src="https://images.steelcase.com/image/upload/c_fill,dpr_auto,q_70,h_287,w_382/v1426155337/www.steelcase.com/asia-ja/15-0006214.jpg" class="attachment-steelcase-story-image size-steelcase-story-image wp-post-image" alt="media:scape Lounge" />							  </a>
+							  <a data-saved-state='0' data-item-id='4919' data-type='attachment' class="can-save ppp-link icon icon-ppp" data-src="https://www.steelcase.com/download/?url=https://images.steelcase.com/image/upload/v1426155337/www.steelcase.com/asia-ja/15-0006214.jpg"  data-social-url="https://www.steelcase.com/asia-ja/press-releases/fortune-magazine-names-steelcase-inc-one-worlds-admired-companies/" data-social-media="https://images.steelcase.com/image/upload/v1426155337/www.steelcase.com/asia-ja/15-0006214.jpg" data-social-title="米スチールケース社、フォーチュン誌主催「世界で最も賞讃される企業」に選出" href="#"><b></b></a>						  </figure>
+					  
+					  <div class="feature-content has-sticky content-well match-height">
+						  							  <h4>米スチールケース社、フォーチュン誌主催「世界で最も賞讃される企業」に選出</h4>							  <p>Fortune Magazine has recognized Steelcase Inc. (NYSE:SCS) as one of its 2015 &#8220;World’s Most Admired Companies&#8221; in the Home Equipment and Furnishings industry sector. Steelcase stands alongside numerous notable companies this year, including Tupperware Brands, Leggett &amp; Platt and Whirlpool.</p>
+						  
+
+						  							  <p>
+								  <a href="https://www.steelcase.com/asia-ja/press-releases/fortune-magazine-names-steelcase-inc-one-worlds-admired-companies/" class="link-highlight">詳細を見る</a>							  </p>
+						  					  </div>
+				  </div>
+
+				  			</div>
+		</div>
+		</div></section><section  class="panel content-wrap panel-type-slider panel-odd" data-depth="0"><div class="panel-content" data-url-key="%e6%96%b0%e3%82%a4%e3%83%b3%e3%82%b5%e3%82%a4%e3%83%88" data-nav-title="新インサイト" data-link-container="%e6%96%b0%e3%82%a4%e3%83%b3%e3%82%b5%e3%82%a4%e3%83%88">
+
+			<h2 class="panel-title content-well"><span>新インサイト</span></h2>
+		<div class="slick-slider light-slider not-initialized slick-desktop" data-type="module">
+					<div class="first-slide">
+				<div class="panel-content" >
+
+		<div class="content module module-multi-feature">
+		<div class="multi-features">
+			<div class="feature">
+									<figure class="feature-image has-ppp"
+						>
+													<a href="https://info.steelcase.com/global-employee-engagement-workplace-report-jp#engagement"><img width="382" height="287" src="https://images.steelcase.com/image/upload/c_fill,dpr_auto,q_70,h_287,w_382/v1457078217/www.steelcase.com/asia-ja/2016/03/04/Cover-japanese.jpg" class="attachment-steelcase-story-image size-steelcase-story-image" alt="" /></a>
+												<a data-saved-state='0' data-item-id='7089' data-type='attachment' class="can-save ppp-link icon icon-ppp" data-src="https://www.steelcase.com/download/?url=https://images.steelcase.com/image/upload/v1457078217/www.steelcase.com/asia-ja/2016/03/04/Cover-japanese.jpg"  data-social-media="https://images.steelcase.com/image/upload/v1457078217/www.steelcase.com/asia-ja/2016/03/04/Cover-japanese.jpg" data-social-title="Home" href="#"><b></b></a>					</figure>
+													<div class="content-well">
+													<h3><a href="https://info.steelcase.com/global-employee-engagement-workplace-report-jp#engagement">最近の调査で世界17カ国の3分の1以上のワーカーのエンゲージメントが低いことが明らかになりました。つまり、会社に対して自発的贡献意欲がないということです。</a></h3>
+																			<p>Steelcaseグローバルレポートはエンゲージメントと職場環境の相関関係を探った初の世界的調査です。本レポートは従業員エンゲージメントを高めるさまざまなヒントを提供しています。</p>
+																			<a class="link-highlight" href="https://info.steelcase.com/global-employee-engagement-workplace-report-jp#engagement" target="">レポートをダウンロードする</a>
+											</div>
+							</div>
+			<div class="feature large-feature">
+									<figure class="feature-image has-ppp"
+						>
+													<a href="https://www.steelcase.com/asia-ja/insights/articles/the-growth-dilemma/"><img width="774" height="435" src="https://images.steelcase.com/image/upload/c_fill,dpr_auto,q_70,h_435,w_774/v1433530446/www.steelcase.com/15-0008348.jpg" class="attachment-steelcase-large-story-image size-steelcase-large-story-image" alt="" /></a>
+												<a data-saved-state='0' data-item-id='6330' data-type='attachment' class="can-save ppp-link icon icon-ppp" data-src="https://www.steelcase.com/download/?url=https://images.steelcase.com/image/upload/v1433530446/www.steelcase.com/15-0008348.jpg"  data-social-media="https://images.steelcase.com/image/upload/v1433530446/www.steelcase.com/15-0008348.jpg" data-social-title="Home" href="#"><b></b></a>					</figure>
+													<div class="content-well">
+													<h3><a href="https://www.steelcase.com/asia-ja/insights/articles/the-growth-dilemma/">成長のジレンマ</a></h3>
+																			<p>インドや中国のような成長市場では、企業がバ リューチェーン（価値連鎖）を向上させたことで 仕事の質が変化している。人材不足や継続的な 変化という課題を抱える中、有能な人材を保持 するために従業員のウェルビーングを向上させ る柔軟性が高く、復興力のあるワークスペース づくりが不可欠になる。</p>
+																			<a class="link-highlight" href="https://www.steelcase.com/asia-ja/insights/articles/the-growth-dilemma/" target="https://www.steelcase.com/asia-ja/insights/articles/the-growth-dilemma/">詳細を見る</a>
+											</div>
+							</div>
+		</div>
+	</div>
+</div>			</div>
+					<div>
+				<div class="panel-content" >
+
+		<div class="content module module-multi-feature">
+		<div class="multi-features">
+			<div class="feature">
+									<figure class="feature-image has-ppp"
+						>
+													<a href="https://www.steelcase.com/asia-en/insights/articles/class-can-i-have-your-attention/"><img width="382" height="287" src="https://images.steelcase.com/image/upload/c_fill,dpr_auto,q_70,h_287,w_382/v1433526123/www.steelcase.com/14-0000563.jpg" class="attachment-steelcase-story-image size-steelcase-story-image" alt="" /></a>
+												<a data-saved-state='0' data-item-id='6411' data-type='attachment' class="can-save ppp-link icon icon-ppp" data-src="https://www.steelcase.com/download/?url=https://images.steelcase.com/image/upload/v1433526123/www.steelcase.com/14-0000563.jpg"  data-social-media="https://images.steelcase.com/image/upload/v1433526123/www.steelcase.com/14-0000563.jpg" data-social-title="Home" href="#"><b></b></a>					</figure>
+													<div class="content-well">
+													<h3><a href="https://www.steelcase.com/asia-en/insights/articles/class-can-i-have-your-attention/">教室での学生の「注意力」を向上させる</a></h3>
+																			<p>21世紀の社会人の基礎力とスキルを身につけ させるために今の大学に必要なのは学生が学 習に集中できる環境である。最新の研究からそ の対策を探る。</p>
+																			<a class="link-highlight" href="https://www.steelcase.com/asia-en/insights/articles/class-can-i-have-your-attention/" target="">詳細を見る</a>
+											</div>
+							</div>
+			<div class="feature large-feature">
+									<figure class="feature-image has-ppp"
+						>
+													<a href="https://www.steelcase.com/asia-ja/insights/articles/class-can-i-have-your-attention/"><img width="774" height="435" src="https://images.steelcase.com/image/upload/c_fill,dpr_auto,q_70,h_435,w_774/v1433526201/www.steelcase.com/15-0008279.jpg" class="attachment-steelcase-large-story-image size-steelcase-large-story-image" alt="" /></a>
+												<a data-saved-state='0' data-item-id='6435' data-type='attachment' class="can-save ppp-link icon icon-ppp" data-src="https://www.steelcase.com/download/?url=https://images.steelcase.com/image/upload/v1433526201/www.steelcase.com/15-0008279.jpg"  data-social-media="https://images.steelcase.com/image/upload/v1433526201/www.steelcase.com/15-0008279.jpg" data-social-title="Home" href="#"><b></b></a>					</figure>
+													<div class="content-well">
+													<h3><a href="https://www.steelcase.com/asia-ja/insights/articles/class-can-i-have-your-attention/">「起業文化」に火をつける</a></h3>
+																			<p>スタートアップ企業はその情熱と企業としての透 明性がある特殊な「起業文化」というものを築き 上げている。「起業文化」を起こし、企業として再生 することは果たして可能なのだろうか？</p>
+																			<a class="link-highlight" href="https://www.steelcase.com/asia-ja/insights/articles/class-can-i-have-your-attention/" target="https://www.steelcase.com/asia-ja/insights/articles/class-can-i-have-your-attention/">詳細を見る</a>
+											</div>
+							</div>
+		</div>
+	</div>
+</div>			</div>
+					<div>
+				<div class="panel-content" >
+
+		<div class="content module module-multi-feature">
+		<div class="multi-features">
+			<div class="feature">
+									<figure class="feature-image has-ppp"
+						>
+													<a href="https://www.steelcase.com/asia-ja/insights/articles/the-human-side-of-modern-craft/"><img width="382" height="287" src="https://images.steelcase.com/image/upload/c_fill,dpr_auto,q_70,h_287,w_382/v1442816955/www.steelcase.com/asia-ja/2015/09/21/15-00083251.jpg" class="attachment-steelcase-story-image size-steelcase-story-image" alt="" /></a>
+												<a data-saved-state='0' data-item-id='6463' data-type='attachment' class="can-save ppp-link icon icon-ppp" data-src="https://www.steelcase.com/download/?url=https://images.steelcase.com/image/upload/v1442816955/www.steelcase.com/asia-ja/2015/09/21/15-00083251.jpg"  data-social-media="https://images.steelcase.com/image/upload/v1442816955/www.steelcase.com/asia-ja/2015/09/21/15-00083251.jpg" data-social-title="Home" href="#"><b></b></a>					</figure>
+													<div class="content-well">
+													<h3><a href="https://www.steelcase.com/asia-ja/insights/articles/the-human-side-of-modern-craft/">感性を鍛える現代クラフトアート</a></h3>
+																			<p>クラフトアートがポップカルチャーの中で脚光を 浴び始めている。しかし、今日のワークスペースで クラフトアートが使われることは稀である。メー<br />
+カー・ムーブメントに触発されたCoalesseは新素 材やハンドメイド手法を駆使し、ワークプレイスに 発想豊かな体験を吹き込んでいる。</p>
+																			<a class="link-highlight" href="https://www.steelcase.com/asia-ja/insights/articles/the-human-side-of-modern-craft/" target="_blank">詳細を見る</a>
+											</div>
+							</div>
+			<div class="feature large-feature">
+									<figure class="feature-image has-ppp"
+						>
+													<a href="https://www.steelcase.com/asia-ja/insights/articles/connecting-people-purpose/"><img width="774" height="435" src="https://images.steelcase.com/image/upload/c_fill,dpr_auto,q_70,h_435,w_774/v1433527313/www.steelcase.com/Purpose-2.jpg" class="attachment-steelcase-large-story-image size-steelcase-large-story-image" alt="" /></a>
+												<a data-saved-state='0' data-item-id='6246' data-type='attachment' class="can-save ppp-link icon icon-ppp" data-src="https://www.steelcase.com/download/?url=https://images.steelcase.com/image/upload/v1433527313/www.steelcase.com/Purpose-2.jpg"  data-social-media="https://images.steelcase.com/image/upload/v1433527313/www.steelcase.com/Purpose-2.jpg" data-social-title="Home" href="#"><b></b></a>					</figure>
+													<div class="content-well">
+													<h3><a href="https://www.steelcase.com/asia-ja/insights/articles/connecting-people-purpose/">注意力散漫」対策としてのデザイン</a></h3>
+																			<p>従業員の労働意欲は企業の礎石である。しかし、働く現場が組織の目的に合致しないがゆえに従業員の労働意欲につながらないという。Steelcase のARC部門は企業のスペース、ワークプロセス、テクノロジーを統合し、企業の目的を日々のワーク体験に組み入れる戦略を提案している。</p>
+																			<a class="link-highlight" href="https://www.steelcase.com/asia-ja/insights/articles/connecting-people-purpose/" target="https://www.steelcase.com/asia-ja/insights/articles/connecting-people-purpose/">詳細を見る</a>
+											</div>
+							</div>
+		</div>
+	</div>
+</div>			</div>
+			</div>
+</div>
+</section><section  class="panel content-wrap panel-type-slider panel-odd" data-depth="0"><div class="panel-content" data-url-key="%e6%96%b0%e8%a3%bd%e5%93%81" data-nav-title="新製品" data-link-container="%e6%96%b0%e8%a3%bd%e5%93%81">
+
+			<h2 class="panel-title content-well"><span>新製品</span></h2>
+		<div class="slick-slider light-slider not-initialized slick-desktop" data-type="module">
+					<div class="first-slide">
+				<div class="panel-content" >
+
+		<div class="content module module-multi-feature">
+		<div class="multi-features">
+			<div class="feature">
+									<figure class="feature-image has-ppp"
+						 data-ppp-json='{"product":[{"title":"Navi TeamIsland","link":"https:\/\/www.steelcase.com\/asia-ja\/products\/desks\/navi-teamisland\/"}]}'>
+													<a href="https://www.steelcase.com/asia-ja/products/desks/navi-teamisland/"><img width="382" height="287" src="https://steelcase-res.cloudinary.com/image/upload/c_fill,dpr_auto,q_70,h_287,w_382/v1473040993/www.steelcase.com/asia-en/2016/09/05/16-0069778.jpg" class="attachment-steelcase-story-image size-steelcase-story-image" alt="Navi TeamIsland" /></a>
+												<a data-saved-state='0' data-item-id='7489' data-type='attachment' class="can-save ppp-link icon icon-ppp" data-src="https://www.steelcase.com/download/?url=https://steelcase-res.cloudinary.com/image/upload/v1473040993/www.steelcase.com/asia-en/2016/09/05/16-0069778.jpg"  data-social-media="https://steelcase-res.cloudinary.com/image/upload/v1473040993/www.steelcase.com/asia-en/2016/09/05/16-0069778.jpg" data-social-title="Home" href="#"><b></b></a>					</figure>
+													<div class="content-well">
+													<h3><a href="https://www.steelcase.com/asia-ja/products/desks/navi-teamisland/">Navi TeamIsland</a></h3>
+																			<p>Navi TeamIsland（ナビ・チームアイランド）は、個やチームのウェルビーングやパフォーマンスを高めるシステム家具です。随所に詰め込まれた工夫とその効率重視で柔軟性のあるデザインは、限られた不動産スペースの中での組織の継続的な進化と発展を加速していきます。</p>
+																			<a class="link-highlight" href="https://www.steelcase.com/asia-ja/products/desks/navi-teamisland/" target="">Navi TeamIsland</a>
+											</div>
+							</div>
+			<div class="feature large-feature">
+									<figure class="feature-image has-ppp"
+						>
+													<a href="https://www.steelcase.com/asia-ja/products/lounge-seating/brody/"><img width="774" height="435" src="https://images.steelcase.com/image/upload/c_fill,dpr_auto,q_70,h_435,w_774/v1429409235/www.steelcase.com/15-0007412.jpg" class="attachment-steelcase-large-story-image size-steelcase-large-story-image" alt="Brody WorkLounge" /></a>
+												<a data-saved-state='0' data-item-id='6890' data-type='attachment' class="can-save ppp-link icon icon-ppp" data-src="https://www.steelcase.com/download/?url=https://images.steelcase.com/image/upload/v1429409235/www.steelcase.com/15-0007412.jpg"  data-social-media="https://images.steelcase.com/image/upload/v1429409235/www.steelcase.com/15-0007412.jpg" data-social-title="Home" href="#"><b></b></a>					</figure>
+													<div class="content-well">
+													<h3><a href="https://www.steelcase.com/asia-ja/products/lounge-seating/brody/">Brody</a></h3>
+																			<p>人間の「脳」と「身体」を支えるBrody WorkLounge（ブロディ・ワークラウンジ）がいよいよ日本でも発売されます。</p>
+																			<a class="link-highlight" href="https://www.steelcase.com/asia-ja/products/lounge-seating/brody/" target="https://www.steelcase.com/asia-ja/products/lounge-seating/brody/">Brody</a>
+											</div>
+							</div>
+		</div>
+	</div>
+</div>			</div>
+					<div>
+				<div class="panel-content" >
+
+		<div class="content module module-multi-feature">
+		<div class="multi-features">
+			<div class="feature">
+									<figure class="feature-image has-ppp"
+						 data-ppp-json='{"product":[{"title":"media:scape","link":"https:\/\/www.steelcase.com\/asia-ja\/products\/collaboration\/mediascape\/"}]}'>
+													<a href="https://www.steelcase.com/asia-ja/products/collaboration/mediascape/"><img width="382" height="287" src="https://images.steelcase.com/image/upload/c_fill,dpr_auto,q_70,h_287,w_382/v1415376898/www.steelcase.com/12-0005719.jpg" class="attachment-steelcase-story-image size-steelcase-story-image" alt="media:scape" /></a>
+												<a data-saved-state='0' data-item-id='1413' data-type='attachment' class="can-save ppp-link icon icon-ppp" data-src="https://www.steelcase.com/download/?url=https://images.steelcase.com/image/upload/v1415376898/www.steelcase.com/12-0005719.jpg"  data-social-media="https://images.steelcase.com/image/upload/v1415376898/www.steelcase.com/12-0005719.jpg" data-social-title="Home" href="#"><b></b></a>					</figure>
+													<div class="content-well">
+													<h3><a href="https://www.steelcase.com/asia-ja/products/collaboration/mediascape/">media:scape</a></h3>
+																			<p>media:scape（メディア：スケープ）はテクノロジーと家具を統合し、人、スペース、情報をつなぎ、今までにないダイナミックなコラボレーションと高いパフォーマンスを実現します。</p>
+																			<a class="link-highlight" href="https://www.steelcase.com/asia-ja/products/collaboration/mediascape/" target="">media:scape</a>
+											</div>
+							</div>
+			<div class="feature large-feature">
+									<figure class="feature-image has-ppp"
+						 data-ppp-json='{"product":[{"title":"Think","link":"https:\/\/www.steelcase.com\/asia-ja\/products\/office-chairs\/think\/"}]}'>
+													<a href="https://www.steelcase.com/asia-ja/products/office-chairs/think/"><img width="774" height="435" src="https://images.steelcase.com/image/upload/c_fill,dpr_auto,q_70,h_435,w_774/v1434358788/www.steelcase.com/asia-ja/14-0002851.jpg" class="attachment-steelcase-large-story-image size-steelcase-large-story-image" alt="Think" /></a>
+												<a data-saved-state='0' data-item-id='5800' data-type='attachment' class="can-save ppp-link icon icon-ppp" data-src="https://www.steelcase.com/download/?url=https://images.steelcase.com/image/upload/v1434358788/www.steelcase.com/asia-ja/14-0002851.jpg"  data-social-media="https://images.steelcase.com/image/upload/v1434358788/www.steelcase.com/asia-ja/14-0002851.jpg" data-social-title="Home" href="#"><b></b></a>					</figure>
+													<div class="content-well">
+													<h3><a href="https://www.steelcase.com/asia-ja/products/office-chairs/think/">Think</a></h3>
+																			<p>Think（シンク）は人間の身体の動きに直感的に応えることで快適さを実現しました。今回、デザインも設計方法も刷新され、よりスマートで、よりシンプル、そしてよりサステナブルなプロダクトとして生まれ変わりました。</p>
+																			<a class="link-highlight" href="https://www.steelcase.com/asia-ja/products/office-chairs/think/" target="https://www.steelcase.com/asia-ja/products/office-chairs/think/">Think</a>
+											</div>
+							</div>
+		</div>
+	</div>
+</div>			</div>
+					<div>
+				<div class="panel-content" >
+
+		<div class="content module module-multi-feature">
+		<div class="multi-features">
+			<div class="feature">
+									<figure class="feature-image has-ppp"
+						 data-ppp-json='{"product":[{"title":"turnstone Buoy","link":"https:\/\/www.steelcase.com\/asia-ja\/products\/collaborative-chairs\/turnstone-buoy\/"}]}'>
+													<a href="https://www.steelcase.com/asia-ja/products/collaborative-chairs/turnstone-buoy/"><img width="382" height="287" src="https://images.steelcase.com/image/upload/c_fill,dpr_auto,q_70,h_287,w_382/v1421996068/www.steelcase.com/asia-en/buoy1.jpg" class="attachment-steelcase-story-image size-steelcase-story-image" alt="turnstone Buoy" /></a>
+												<a data-saved-state='0' data-item-id='2128' data-type='attachment' class="can-save ppp-link icon icon-ppp" data-src="https://www.steelcase.com/download/?url=https://images.steelcase.com/image/upload/v1421996068/www.steelcase.com/asia-en/buoy1.jpg"  data-social-media="https://images.steelcase.com/image/upload/v1421996068/www.steelcase.com/asia-en/buoy1.jpg" data-social-title="Home" href="#"><b></b></a>					</figure>
+													<div class="content-well">
+													<h3><a href="https://www.steelcase.com/asia-ja/products/collaborative-chairs/turnstone-buoy/">turnstone Buoy</a></h3>
+																			<p>Buoy（ブイ）は座っている時の人間の自由な動きを可能にするイス。際立つ6色のシェルカラーとキャップのカラーの組み合わせでデザインのチョイスも広がります。</p>
+																			<a class="link-highlight" href="https://www.steelcase.com/asia-ja/products/collaborative-chairs/turnstone-buoy/" target="">turnstone Buoy</a>
+											</div>
+							</div>
+			<div class="feature large-feature">
+									<figure class="feature-image has-ppp"
+						 data-ppp-json='{"product":[{"title":"turnstone Campfire","link":"https:\/\/www.steelcase.com\/asia-ja\/products\/lounge-seating\/turnstone-campfire\/"}]}'>
+													<a href="https://www.steelcase.com/asia-ja/products/lounge-seating/turnstone-campfire/"><img width="774" height="435" src="https://images.steelcase.com/image/upload/c_fill,dpr_auto,q_70,h_435,w_774/v1422631618/www.steelcase.com/asia-en/campfire-insights-escape.jpg" class="attachment-steelcase-large-story-image size-steelcase-large-story-image" alt="turnstone Campfire" /></a>
+												<a data-saved-state='0' data-item-id='2260' data-type='attachment' class="can-save ppp-link icon icon-ppp" data-src="https://www.steelcase.com/download/?url=https://images.steelcase.com/image/upload/v1422631618/www.steelcase.com/asia-en/campfire-insights-escape.jpg"  data-social-media="https://images.steelcase.com/image/upload/v1422631618/www.steelcase.com/asia-en/campfire-insights-escape.jpg" data-social-title="Home" href="#"><b></b></a>					</figure>
+													<div class="content-well">
+													<h3><a href="https://www.steelcase.com/asia-ja/products/lounge-seating/turnstone-campfire/">turnstone Campfire</a></h3>
+																			<p>Campfire Collection(キャンプファイヤー・コレクション）はパーソナルでカジュアルな空間を創造でき、その高い柔軟性で魅力的なコラボレーションスペースにもなるラウンジコレクションです。</p>
+																			<a class="link-highlight" href="https://www.steelcase.com/asia-ja/products/lounge-seating/turnstone-campfire/" target="https://www.steelcase.com/asia-ja/products/lounge-seating/turnstone-campfire/">turnstone Campfire</a>
+											</div>
+							</div>
+		</div>
+	</div>
+</div>			</div>
+			</div>
+</div>
+</section></div></main>
+
+
+
+	<footer id="colophon" class="site-footer" role="contentinfo">
+
+		<section class="footer-nav-area">
+	<div class="footer-nav-groups">
+		<nav class="footer-nav-group">
+			<ul class="footer-primary-nav footer-nav">
+				<li id="menu-item-87" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-87"><a>企業情報</a>
+<ul class="sub-menu">
+	<li id="menu-item-4734" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4734"><a href="https://www.steelcase.com/asia-ja/corporate-information/#about-steelcase">Steelcaseについて</a></li>
+	<li id="menu-item-4567" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4567"><a href="https://www.steelcase.com/asia-ja/discover/steelcase/careers/">採用情報</a></li>
+	<li id="menu-item-4566" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4566"><a href="https://www.steelcase.com/asia-ja/discover/information/media/">メディア</a></li>
+	<li id="menu-item-90" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-90"><a href="http://ir.steelcase.com/">投資家情報</a></li>
+</ul>
+</li>
+<li id="menu-item-95" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-95"><a>カスタマーケア</a>
+<ul class="sub-menu">
+	<li id="menu-item-6129" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6129"><a href="https://www.steelcase.com/asia-ja/frequently-asked-questions/">よくある質問(FAQ)</a></li>
+	<li id="menu-item-97" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-97"><a href="https://www.steelcase.com/asia-ja/resources/documents/?taxdoctype=user-guide">ユーザーマニュアル</a></li>
+	<li id="menu-item-4629" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4629"><a href="https://www.steelcase.com/asia-ja/warranty/">製品保証</a></li>
+	<li id="menu-item-4736" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4736"><a href="http://techsupport.steelcase.com/">技術サポート</a></li>
+</ul>
+</li>
+<li id="menu-item-101" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-101"><a>ご利用規約</a>
+<ul class="sub-menu">
+	<li id="menu-item-102" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-102"><a href="https://www.steelcase.com/asia-ja/terms-of-use/">使用条件</a></li>
+	<li id="menu-item-103" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-103"><a href="https://www.steelcase.com/asia-ja/privacy-policy/">プライバシーポリシー</a></li>
+</ul>
+</li>
+			</ul>
+		</nav>
+		<nav class="footer-nav-group social-links">
+			<ul class="footer-social-nav footer-nav" itemscope itemtype="http://schema.org/Organization">
+				<link itemprop="url" href="https://www.steelcase.com/asia-ja">
+				<li id="menu-item-77" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-77"><a href="https://www.steelcase.com/asia-ja/">フォローする</a>
+<ul class="sub-menu">
+	<li id="menu-item-75" class="facebook menu-item menu-item-type-custom menu-item-object-custom menu-item-75"><a target="_blank" href="https://www.facebook.com/Steelcase" itemprop="sameAs">Facebook</a></li>
+	<li id="menu-item-79" class="twitter menu-item menu-item-type-custom menu-item-object-custom menu-item-79"><a target="_blank" href="https://twitter.com/Steelcaseap/" itemprop="sameAs">Twitter</a></li>
+	<li id="menu-item-76" class="linkedin menu-item menu-item-type-custom menu-item-object-custom menu-item-76"><a target="_blank" href="https://www.linkedin.com/company/steelcase" itemprop="sameAs">LinkedIn</a></li>
+	<li id="menu-item-78" class="pinterest menu-item menu-item-type-custom menu-item-object-custom menu-item-78"><a target="_blank" href="http://www.pinterest.com/steelcase/" itemprop="sameAs">Pinterest</a></li>
+	<li id="menu-item-80" class="youtube menu-item menu-item-type-custom menu-item-object-custom menu-item-80"><a target="_blank" href="https://www.youtube.com/user/STEELCASETV" itemprop="sameAs">Youtube</a></li>
+	<li id="menu-item-81" class="instagram menu-item menu-item-type-custom menu-item-object-custom menu-item-81"><a target="_blank" href="http://instagram.com/steelcase/" itemprop="sameAs">Instagram</a></li>
+</ul>
+</li>
+<li id="menu-item-6870" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6870"><a href="https://www.steelcase.com/asia-ja/contact-us/">お問い合わせ</a></li>
+				<li class="menu-item menu-item-type-post_type menu-item-object-page contact-desktop">
+					<p>商品、販売店、採用情報、投資関連、企業情報、その他のご質問は「お問い合わせ」で受け付けております。</p>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</section>
+		<section class="site-info">
+			<div class="site-info-groups">
+
+				<nav class="menu-branding-container"><ul id="menu-branding" class="footer-branding"><li id="menu-item-7667" class="logo-steelcase menu-item menu-item-type-post_type menu-item-object-page menu-item-home page_item page-item-4228 current_page_item menu-item-7667"><div class="footer-logo-contain"><a href="https://www.steelcase.com/asia-ja/"><span class="accessibility">Steelcaseのオフィス家具</span><span class="logo-rest"></span><span class="logo-hover"></span></a></div></li>
+<li id="menu-item-7668" class="logo-steelcase-education menu-item menu-item-type-post_type menu-item-object-page menu-item-7668"><div class="footer-logo-contain"><a href="https://www.steelcase.com/asia-ja/discover/information/education-professionals/"><span class="accessibility">Steelcaseの教育用家具</span><span class="logo-rest"></span><span class="logo-hover"></span></a></div></li>
+<li id="menu-item-7661" class="logo-steelcase-health menu-item menu-item-type-custom menu-item-object-custom menu-item-7661"><div class="footer-logo-contain"><a href="https://www.steelcase.com/asia-en/discover/information/healthcare-professionals/"><span class="accessibility">Steelcaseの医療用家具</span><span class="logo-rest"></span><span class="logo-hover"></span></a></div></li>
+<li id="menu-item-7662" class="logo-turnstone menu-item menu-item-type-custom menu-item-object-custom menu-item-7662"><div class="footer-logo-contain"><a href="http://myturnstone.com/"><span class="accessibility">Turnstoneのモダンオフィス家具</span><span class="logo-rest"></span><span class="logo-hover"></span></a></div></li>
+<li id="menu-item-7663" class="logo-coalesse menu-item menu-item-type-custom menu-item-object-custom menu-item-7663"><div class="footer-logo-contain"><a href="http://www.coalesse.com/"><span class="accessibility">Coalesseのプレミアムオフィス家具</span><span class="logo-rest"></span><span class="logo-hover"></span></a></div></li>
+<li id="menu-item-7664" class="logo-designtex menu-item menu-item-type-custom menu-item-object-custom menu-item-7664"><div class="footer-logo-contain"><a href="http://www.designtex.com/"><span class="accessibility">Designtexのテキスタイル&#038;ウォールカバリング</span><span class="logo-rest"></span><span class="logo-hover"></span></a></div></li>
+<li id="menu-item-7665" class="logo-polyvision menu-item menu-item-type-custom menu-item-object-custom menu-item-7665"><div class="footer-logo-contain"><a href="http://polyvision.com/"><span class="accessibility">PolyVisionのサーフェス素材</span><span class="logo-rest"></span><span class="logo-hover"></span></a></div></li>
+</ul></nav>
+				<div class="site-info-group">
+	<div class="company-info">
+		<p class="copyright">&copy; 1996 - 2018 Steelcaseは世界をリードするオフィス家具メーカーです。人が働く空間デザインにおける画期的な研究調査をベースに、オフィスや医療・教育施設向けの家具、インテリアアーキテクチャー、スペースソリューションを開発、製造、販売しています。</p>
+	</div>
+</div>
+			</div>
+		</section><!-- .site-info -->
+	</footer><!-- #colophon -->
+	</div>
+  </div>
+
+<script type="application/ld+json">{
+    "@context": "https:\/\/schema.org",
+    "@type": "Organization",
+    "name": "Steelcase",
+    "logo": "https:\/\/dumy1g3ng547g.cloudfront.net\/content\/themes\/steelcase\/img\/logo-700.png",
+    "url": "https:\/\/www.steelcase.com\/asia-ja",
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https:\/\/www.steelcase.com\/asia-ja\/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+    }
+}</script><script type="application/ld+json">{
+    "@context": "https:\/\/schema.org",
+    "@type": "WebPage",
+    "datePublished": "2015-02-17 21:04:58",
+    "description": "",
+    "name": "Home",
+    "text": "<h2>\u30cb\u30e5\u30fc\u30b9<h2\/>\n\n<h2>\u65b0\u30a4\u30f3\u30b5\u30a4\u30c8<h2\/>\n<h4>\u6700\u8fd1\u306e\u8c03\u67fb\u3067\u4e16\u754c17\u30ab\u56fd\u306e3\u5206\u306e1\u4ee5\u4e0a\u306e\u30ef\u30fc\u30ab\u30fc\u306e\u30a8\u30f3\u30b2\u30fc\u30b8\u30e1\u30f3\u30c8\u304c\u4f4e\u3044\u3053\u3068\u304c\u660e\u3089\u304b\u306b\u306a\u308a\u307e\u3057\u305f\u3002\u3064\u307e\u308a\u3001\u4f1a\u793e\u306b\u5bfe\u3057\u3066\u81ea\u767a\u7684\u8d21\u732e\u610f\u6b32\u304c\u306a\u3044\u3068\u3044\u3046\u3053\u3068\u3067\u3059\u3002<h4\/>\n<p>Steelcase\u30b0\u30ed\u30fc\u30d0\u30eb\u30ec\u30dd\u30fc\u30c8\u306f\u30a8\u30f3\u30b2\u30fc\u30b8\u30e1\u30f3\u30c8\u3068\u8077\u5834\u74b0\u5883\u306e\u76f8\u95a2\u95a2\u4fc2\u3092\u63a2\u3063\u305f\u521d\u306e\u4e16\u754c\u7684\u8abf\u67fb\u3067\u3059\u3002\u672c\u30ec\u30dd\u30fc\u30c8\u306f\u5f93\u696d\u54e1\u30a8\u30f3\u30b2\u30fc\u30b8\u30e1\u30f3\u30c8\u3092\u9ad8\u3081\u308b\u3055\u307e\u3056\u307e\u306a\u30d2\u30f3\u30c8\u3092\u63d0\u4f9b\u3057\u3066\u3044\u307e\u3059\u3002<\/p>\n\n<h4>\u6210\u9577\u306e\u30b8\u30ec\u30f3\u30de<h4\/>\n<p>\u30a4\u30f3\u30c9\u3084\u4e2d\u56fd\u306e\u3088\u3046\u306a\u6210\u9577\u5e02\u5834\u3067\u306f\u3001\u4f01\u696d\u304c\u30d0 \u30ea\u30e5\u30fc\u30c1\u30a7\u30fc\u30f3\uff08\u4fa1\u5024\u9023\u9396\uff09\u3092\u5411\u4e0a\u3055\u305b\u305f\u3053\u3068\u3067 \u4ed5\u4e8b\u306e\u8cea\u304c\u5909\u5316\u3057\u3066\u3044\u308b\u3002\u4eba\u6750\u4e0d\u8db3\u3084\u7d99\u7d9a\u7684\u306a \u5909\u5316\u3068\u3044\u3046\u8ab2\u984c\u3092\u62b1\u3048\u308b\u4e2d\u3001\u6709\u80fd\u306a\u4eba\u6750\u3092\u4fdd\u6301 \u3059\u308b\u305f\u3081\u306b\u5f93\u696d\u54e1\u306e\u30a6\u30a7\u30eb\u30d3\u30fc\u30f3\u30b0\u3092\u5411\u4e0a\u3055\u305b \u308b\u67d4\u8edf\u6027\u304c\u9ad8\u304f\u3001\u5fa9\u8208\u529b\u306e\u3042\u308b\u30ef\u30fc\u30af\u30b9\u30da\u30fc\u30b9 \u3065\u304f\u308a\u304c\u4e0d\u53ef\u6b20\u306b\u306a\u308b\u3002<\/p>\n\n<h4>\u6559\u5ba4\u3067\u306e\u5b66\u751f\u306e\u300c\u6ce8\u610f\u529b\u300d\u3092\u5411\u4e0a\u3055\u305b\u308b<h4\/>\n<p>21\u4e16\u7d00\u306e\u793e\u4f1a\u4eba\u306e\u57fa\u790e\u529b\u3068\u30b9\u30ad\u30eb\u3092\u8eab\u306b\u3064\u3051 \u3055\u305b\u308b\u305f\u3081\u306b\u4eca\u306e\u5927\u5b66\u306b\u5fc5\u8981\u306a\u306e\u306f\u5b66\u751f\u304c\u5b66 \u7fd2\u306b\u96c6\u4e2d\u3067\u304d\u308b\u74b0\u5883\u3067\u3042\u308b\u3002\u6700\u65b0\u306e\u7814\u7a76\u304b\u3089\u305d \u306e\u5bfe\u7b56\u3092\u63a2\u308b\u3002<\/p>\n\n<h4>\u300c\u8d77\u696d\u6587\u5316\u300d\u306b\u706b\u3092\u3064\u3051\u308b<h4\/>\n<p>\u30b9\u30bf\u30fc\u30c8\u30a2\u30c3\u30d7\u4f01\u696d\u306f\u305d\u306e\u60c5\u71b1\u3068\u4f01\u696d\u3068\u3057\u3066\u306e\u900f \u660e\u6027\u304c\u3042\u308b\u7279\u6b8a\u306a\u300c\u8d77\u696d\u6587\u5316\u300d\u3068\u3044\u3046\u3082\u306e\u3092\u7bc9\u304d \u4e0a\u3052\u3066\u3044\u308b\u3002\u300c\u8d77\u696d\u6587\u5316\u300d\u3092\u8d77\u3053\u3057\u3001\u4f01\u696d\u3068\u3057\u3066\u518d\u751f \u3059\u308b\u3053\u3068\u306f\u679c\u305f\u3057\u3066\u53ef\u80fd\u306a\u306e\u3060\u308d\u3046\u304b\uff1f<\/p>\n\n<h4>\u611f\u6027\u3092\u935b\u3048\u308b\u73fe\u4ee3\u30af\u30e9\u30d5\u30c8\u30a2\u30fc\u30c8<h4\/>\n<p>\u30af\u30e9\u30d5\u30c8\u30a2\u30fc\u30c8\u304c\u30dd\u30c3\u30d7\u30ab\u30eb\u30c1\u30e3\u30fc\u306e\u4e2d\u3067\u811a\u5149\u3092 \u6d74\u3073\u59cb\u3081\u3066\u3044\u308b\u3002\u3057\u304b\u3057\u3001\u4eca\u65e5\u306e\u30ef\u30fc\u30af\u30b9\u30da\u30fc\u30b9\u3067 \u30af\u30e9\u30d5\u30c8\u30a2\u30fc\u30c8\u304c\u4f7f\u308f\u308c\u308b\u3053\u3068\u306f\u7a00\u3067\u3042\u308b\u3002\u30e1\u30fc<br \/>\n\u30ab\u30fc\u30fb\u30e0\u30fc\u30d6\u30e1\u30f3\u30c8\u306b\u89e6\u767a\u3055\u308c\u305fCoalesse\u306f\u65b0\u7d20 \u6750\u3084\u30cf\u30f3\u30c9\u30e1\u30a4\u30c9\u624b\u6cd5\u3092\u99c6\u4f7f\u3057\u3001\u30ef\u30fc\u30af\u30d7\u30ec\u30a4\u30b9\u306b \u767a\u60f3\u8c4a\u304b\u306a\u4f53\u9a13\u3092\u5439\u304d\u8fbc\u3093\u3067\u3044\u308b\u3002<\/p>\n\n<h4>\u6ce8\u610f\u529b\u6563\u6f2b\u300d\u5bfe\u7b56\u3068\u3057\u3066\u306e\u30c7\u30b6\u30a4\u30f3<h4\/>\n<p>\u5f93\u696d\u54e1\u306e\u52b4\u50cd\u610f\u6b32\u306f\u4f01\u696d\u306e\u790e\u77f3\u3067\u3042\u308b\u3002\u3057\u304b\u3057\u3001\u50cd\u304f\u73fe\u5834\u304c\u7d44\u7e54\u306e\u76ee\u7684\u306b\u5408\u81f4\u3057\u306a\u3044\u304c\u3086\u3048\u306b\u5f93\u696d\u54e1\u306e\u52b4\u50cd\u610f\u6b32\u306b\u3064\u306a\u304c\u3089\u306a\u3044\u3068\u3044\u3046\u3002Steelcase \u306eARC\u90e8\u9580\u306f\u4f01\u696d\u306e\u30b9\u30da\u30fc\u30b9\u3001\u30ef\u30fc\u30af\u30d7\u30ed\u30bb\u30b9\u3001\u30c6\u30af\u30ce\u30ed\u30b8\u30fc\u3092\u7d71\u5408\u3057\u3001\u4f01\u696d\u306e\u76ee\u7684\u3092\u65e5\u3005\u306e\u30ef\u30fc\u30af\u4f53\u9a13\u306b\u7d44\u307f\u5165\u308c\u308b\u6226\u7565\u3092\u63d0\u6848\u3057\u3066\u3044\u308b\u3002<\/p>\n\n<h2>\u65b0\u88fd\u54c1<h2\/>\n",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https:\/\/images.steelcase.com\/image\/upload\/v1414671600\/www.steelcase.com\/GESTURE2.jpg",
+        "width": 4833,
+        "height": 3585
+    },
+    "thumbnailUrl": {
+        "@type": "ImageObject",
+        "url": "https:\/\/images.steelcase.com\/image\/upload\/v1414671600\/www.steelcase.com\/GESTURE2.jpg",
+        "width": 4833,
+        "height": 3585
+    },
+    "url": "https:\/\/www.steelcase.com\/asia-ja\/"
+}</script>		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+					<!-- Start of Async HubSpot Analytics Code -->
+			<script type="text/javascript">
+				var _hsq = _hsq || [];
+				// Pass along the correct content-type
+									_hsq.push( ["setContentType", "standard-page"] );
+					
+				(function( d, s, i, r ){
+					if( !d.getElementById( i ) ){
+						var n = d.createElement( s ), e = document.getElementsByTagName( s )[0];
+						n.id = i;
+						n.src = '//js.hs-analytics.net/analytics/' + (Math.ceil(new Date()/r)*r) + '/1822507.js';
+
+						e.parentNode.insertBefore( n, e );
+					}
+				})( document, "script", "hs-analytics", 300000 );
+			</script>
+			<!-- End of Async HubSpot Analytics Code -->
+			<script type='text/javascript'> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"\u3059\u3079\u3066","next":"Next","previous":"\u524d\u306e"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["\u65e5\u66dc\u65e5","\u6708\u66dc\u65e5","\u706b\u66dc\u65e5","\u6c34\u66dc\u65e5","\u6728\u66dc\u65e5","\u91d1\u66dc\u65e5","\u571f\u66dc\u65e5"],"dayNamesShort":["\u65e5","\u6708","\u706b","\u6c34","\u6728","\u91d1","\u571f"],"dayNamesMin":["S","M","T","W","T","F","S"],"monthNames":["1\u6708","2\u6708","3\u6708","4\u6708","5\u6708","6\u6708","7\u6708","8\u6708","9\u6708","10\u6708","11\u6708","12\u6708"],"monthNamesShort":["1\u6708","2\u6708","3\u6708","4\u6708","5\u6708","6\u6708","7\u6708","8\u6708","9\u6708","10\u6708","11\u6708","12\u6708"],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done"}};/* ]]> */ </script>		<script type="text/javascript">
+			(function($) {
+				$(document).ready( function($) {
+					$.post({
+						url: 'https://www.steelcase.com/data/1/view.php',
+						data: {"blog_id":14,"object_type":"page","object_id":4228,"object_name":"home","url":"https:\/\/www.steelcase.com\/asia-ja\/"}					});
+				});
+			})(jQuery);
+		</script>
+		<script type='text/javascript'>
+/* <![CDATA[ */
+var steelcase_i18n = {"auth":{"saving":"\u4fdd\u5b58\u4e2d"},"compare":{"msg_limit":"\u4e00\u5ea6\u306b5\u3064\u306e\u88fd\u54c1\u307e\u3067\u6bd4\u8f03\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002"},"dialogs":{"login":{"title":"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\u3057\u3001\u6b21\u306b\u9032\u3093\u3067\u304f\u3060\u3055\u3044\u3002","title_complete":"\u30ed\u30b0\u30a4\u30f3\u3059\u308b\u306b\u306f\u3042\u306a\u305f\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002","title_forgot":"\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u30ea\u30bb\u30c3\u30c8\u3059\u308b\u306b\u306f\u3042\u306a\u305f\u306e\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002","plhldr_email":"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002","plhldr_password":"\u3042\u306a\u305f\u306e\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002","link_forgot":"\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u5fd8\u308c\u307e\u3057\u305f\u304b?","button_secondary":"\u30ad\u30e3\u30f3\u30bb\u30eb\u3059\u308b","button_prev":"\u524d\u3078","button_next":"\u6b21\u306e","button_primary":"\u9001\u4fe1\u3059\u308b"},"planning_ideas_help":{"title":"\u30d5\u30a1\u30a4\u30eb\u3092\u898b\u308b\u306e\u306b\u30d8\u30eb\u30d7\u304c\u5fc5\u8981\u3067\u3059\u304b?","heading1":"\u8aad\u307f\u8fbc\u3080\u5fc5\u8981\u304c\u3042\u308a\u307e\u3059\uff1a","link1":"2D Autocad\u30d5\u30a1\u30a4\u30eb","description1":"??","heading2":"Mac\u7248","link2":"2D Autocad\u30b7\u30f3\u30dc\u30eb","description2":"??","heading3":"PC\u7248","link3":"2D Autocad\u30b7\u30f3\u30dc\u30eb","description3":"??"},"register":{"title":"\u767b\u9332\u3059\u308b","subheading":"Steelcase.com\u3092\u6700\u5927\u9650\u306b\u6d3b\u7528\u3057\u307e\u3057\u3087\u3046","message":"Steelcase.com\u306b\u767b\u9332\u3059\u308b\u3068\u30a6\u30a7\u30d6\u30b5\u30a4\u30c8\u306e\u3059\u3079\u3066\u306e\u6a5f\u80fd\u3092\u6700\u5927\u9650\u306b\u6d3b\u7528\u3067\u304d\u307e\u3059\u3002","label_email":"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9","plhldr_email":"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044\u3002","label_firstname":"\u59d3","plhldr_firstname":"\u3042\u306a\u305f\u306e\u59d3\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044","label_lastname":"\u540d\u5b57","plhldr_lastname":"\u3042\u306a\u305f\u306e\u540d\u5b57\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044","label_password":"\u30d1\u30b9\u30ef\u30fc\u30c9","label_confirm_password":"\u30d1\u30b9\u30ef\u30fc\u30c9\u3092\u78ba\u8a8d\u3059\u308b","already_account":"\u3059\u3067\u306b\u30a2\u30ab\u30a6\u30f3\u30c8\u3092\u304a\u6301\u3061\u3067\u3059\u304b?","sign_in_text":"\u30b5\u30a4\u30f3\u30a4\u30f3","privacy_policy":"\u30d7\u30e9\u30a4\u30d0\u30b7\u30fc\u30dd\u30ea\u30b7\u30fc\u3092\u898b\u308b","button_secondary":"\u30ad\u30e3\u30f3\u30bb\u30eb\u3059\u308b","button_primary":"\u767b\u9332\u3059\u308b"},"standard":{"button_primary":"\u9589\u3058\u308b"},"signin":{"title":"\u3059\u3067\u306bSteelcase\u30a2\u30ab\u30a6\u30f3\u30c8\u3092\u304a\u6301\u3061\u3067\u3059\u304b?","message":"\u753b\u50cf\u3001\u8cc7\u6599\u3001\u30c7\u30b6\u30a4\u30f3\u30d5\u30a1\u30a4\u30eb\u3092\u4fdd\u5b58\u3059\u308b\u306b\u306fSteelcase.com\u307e\u305f\u306fSteelcase OneLogin\u30a2\u30ab\u30a6\u30f3\u30c8\u306b\u30ed\u30b0\u30a4\u30f3\u3057\u3066\u304f\u3060\u3055\u3044","call":"\u30ed\u30b0\u30a4\u30f3","prompt_title":"\u767b\u9332\u3059\u308b","prompt":"\u307e\u3060\u767b\u9332\u3057\u3066\u3044\u307e\u305b\u3093\u304b? \u30a2\u30ab\u30a6\u30f3\u30c8\u3092\u4f5c\u6210\u3057\u3001\u4e0b\u8a18\u306e\u30b5\u30fc\u30d3\u30b9\u3092\u6d3b\u7528\u3057\u3066\u304f\u3060\u3055\u3044\uff1a","prompt_mobile":"\u307e\u3060\u767b\u9332\u3057\u3066\u3044\u307e\u305b\u3093\u304b? \u30a2\u30ab\u30a6\u30f3\u30c8\u3092\u4f5c\u6210\u3059\u308b\u3068\u30d1\u30fc\u30bd\u30ca\u30eb\u30e9\u30a4\u30d6\u30e9\u30ea\u30fc\u306b\u4fdd\u5b58\u3067\u304d\u305f\u308a\u3001Steelcase\u30cb\u30e5\u30fc\u30b9\u3092\u898b\u308b\u305f\u3081\u306b\u30b5\u30a4\u30f3\u30a2\u30c3\u30d7\u3059\u308b\u969b\u306b\u30aa\u30f3\u30fb\u30b6\u30fb\u30b9\u30dd\u30c3\u30c8\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u6a5f\u80fd\u306e\u3088\u3046\u306a\u7279\u5225\u306a\u30b5\u30fc\u30d3\u30b9\u3092\u5229\u7528\u3067\u304d\u307e\u3059\u3002","heading_save_items":"\u9805\u76ee\u3092\u4fdd\u5b58\u3059\u308b","body_save_items":"\u3053\u306e\u30a2\u30a4\u30b3\u30f3\u3092\u30af\u30ea\u30c3\u30af\u3059\u308b\u3060\u3051\u3067\u3001\u753b\u50cf\u3001\u66f8\u985e\u3001\u30c7\u30b6\u30a4\u30f3\u30d5\u30a1\u30a4\u30eb\u3092\u3042\u306a\u305f\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u306b\u8ffd\u52a0\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002\u7279\u5b9a\u306e\u6848\u4ef6\u306e\u8abf\u3079\u3082\u306e\u3092\u3057\u305f\u308a\u3001\u30ea\u30b5\u30fc\u30c1\u3084\u30a4\u30f3\u30b5\u30a4\u30c8\u3092\u6d3b\u7528\u3057\u3066\u3044\u308b\u5834\u5408\u306b\u3001\u30d1\u30fc\u30bd\u30ca\u30eb\u30e9\u30a4\u30d6\u30e9\u30ea\u30fc\u3092\u4f5c\u6210\u3059\u308b\u3053\u3068\u3067\u6700\u3082\u95a2\u9023\u306e\u3042\u308b\u9805\u76ee\u3092\u3059\u3050\u306b\u63a2\u3057\u3060\u3059\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002","heading_touch":"\u9023\u7d61\u3057\u3066\u304f\u3060\u3055\u3044","body_touch":"\u30a2\u30ab\u30a6\u30f3\u30c8\u3092\u4f5c\u6210\u3059\u308b\u969b\u306b\u3042\u306a\u305f\u304c\u6700\u3082\u77e5\u308a\u305f\u3044\u3053\u3068\u3092\u6559\u3048\u3066\u304f\u3060\u3055\u3044\u3002\u305d\u308c\u306b\u57fa\u3065\u3044\u3066Steelcase\u306e\u88fd\u54c1\u3001\u30ea\u30b5\u30fc\u30c1\u3001\u30a4\u30d9\u30f3\u30c8\u30cb\u30e5\u30fc\u30b9\u306a\u3069\u3092\u968f\u6642\u304a\u77e5\u3089\u305b\u3044\u305f\u3057\u307e\u3059\u3002","button_secondary":"\u9589\u3058\u308b","button_primary":"\u767b\u9332\u3059\u308b"},"signup_complete":{"button_secondary":"\u4eca\u306f\u30b9\u30ad\u30c3\u30d7\u3059\u308b","button_primary":"\u7d42\u4e86\u3059\u308b"},"image":{"button_download":"\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9","button_bookmark":"\u753b\u50cf\u3092\u4fdd\u5b58\u3059\u308b","button_remove_bookmark":"\u4fdd\u5b58\u9805\u76ee\u304b\u3089\u753b\u50cf\u3092\u5916\u3059"},"video":{"button_primary":"\u9589\u3058\u308b"}},"filters":{"sort_by":"\u30bd\u30fc\u30c8\u3059\u308b","suggestions":"\u63d0\u6848","no_results":"\u304a\u63a2\u3057\u306e\u30da\u30fc\u30b8\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f\u3002","check_spelling":"\u30b9\u30da\u30eb\u304c\u9593\u9055\u3063\u3066\u3044\u306a\u3044\u304b\u78ba\u8a8d\u3059\u308b\u3002","use_single_words":"\u4f8b\u3048\u3070\u3001\"\u30c1\u30a7\u30a2\"\u307e\u305f\u306f\"\u30b5\u30b9\u30c6\u30ca\u30d3\u30ea\u30c6\u30a3\"\u306e\u3088\u3046\u306b\u3072\u3068\u3064\u306e\u5358\u8a9e\u3067\u8a66\u307f\u308b","try_more_general_terms":"\u4e00\u822c\u7684\u306a\u7528\u8a9e\u3092\u4f7f\u7528\u3059\u308b\u3002","load_error":"\u7d50\u679c\u3092\u8aad\u307f\u8fbc\u3080\u969b\u306b\u4f55\u304b\u554f\u984c\u304c\u767a\u751f\u3057\u307e\u3057\u305f\u3002\u518d\u5ea6\u8a66\u3057\u3066\u304f\u3060\u3055\u3044\u3002","three_d_models_cad":"3D\u30e2\u30c7\u30eb\/CAD"},"ppp":{"add_to_saved":"\u753b\u50cf\u3092\u4fdd\u5b58\u3059\u308b","pin_image":"\u2022\t\u753b\u50cf\u3092\u30d4\u30f3\u3059\u308b","download_image":"\u753b\u50cf\u3092\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3059\u308b","in_this_photo":"\u3053\u306e\u5199\u771f\u306e\u88fd\u54c1","related_prods_title":"\u3053\u306e\u753b\u50cf\u5185\u306e\u88fd\u54c1\uff1a","related_pis_title":"\u30d7\u30e9\u30f3\u30cb\u30f3\u30b0\u30a2\u30a4\u30c7\u30a2\u3092\u898b\u308b","related_posts_title":"\u3055\u3089\u306b\u8a73\u3057\u304f\u898b\u308b","remove_from_saved":"\u4fdd\u5b58\u3055\u308c\u305f\u9805\u76ee\u304b\u3089\u753b\u50cf\u3092\u53d6\u308a\u9664\u3044\u3066\u304f\u3060\u3055\u3044\u3002","title_text":"\u95a2\u9023\u88fd\u54c1\u3092\u307f\u308b\u304b\u3053\u308c\u3092\u4fdd\u5b58\u9805\u76ee\u306b\u8ffd\u52a0\u3059\u308b"},"retailers":{"country":"\u56fd"},"saved_items":{"no_recent_items":"\u73fe\u5728\u3001\u4fdd\u5b58\u3055\u308c\u3066\u3044\u308b\u9805\u76ee\u306f\u3042\u308a\u307e\u305b\u3093\u3002","no_resource_items":"\u73fe\u5728\u3001\u4fdd\u5b58\u3057\u3066\u3044\u308b%1$s\u306f\u3042\u308a\u307e\u305b\u3093\u3002\u30c7\u30b6\u30a4\u30f3\u95a2\u9023\u8cc7\u6599\u306e%1$s\u306e\u30bb\u30af\u30b7\u30e7\u30f3\u306b\u30a2\u30af\u30bb\u30b9\u304f\u3060\u3055\u3044\u3002","no_bookmark_items":"You currently have no saved bookmarks","filter_year":"\u5e74","filter_month":"\u6708","remove_bookmark":"\u30d6\u30c3\u30af\u30de\u30fc\u30af\u3092\u53d6\u308a\u5916\u3059","bookmark":"\u30d6\u30c3\u30af\u30de\u30fc\u30af"},"tooltips":{"login_page1":{"title":"\u3042\u306a\u305f\u306e\u4fdd\u5b58\u9805\u76ee\u306b\u4fdd\u5b58\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002","message":"\u3042\u306a\u305f\u306e\u4fdd\u5b58\u9805\u76ee\u306b\u4fdd\u5b58\u3059\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002\u4f55\u304b\u4fdd\u5b58\u3059\u308b\u3082\u306e\u304c\u3042\u308b\u5834\u5408\u306b\u306f<i class=\"icon icon-ppp\"><\/i>\u30b7\u30f3\u30dc\u30eb\u3092\u30af\u30ea\u30c3\u30af\u3057\u3066\u304f\u3060\u3055\u3044\u3002","button_next":"\u6b21\u306e","button_skip":"\u30b9\u30ad\u30c3\u30d7"},"login_page2":{"title":"\u3042\u306a\u305f\u306b\u306f\u8cc7\u6599\u30bb\u30f3\u30bf\u30fc\u3078\u306e\u5168\u30a2\u30af\u30bb\u30b9\u6a29\u304c\u3042\u308a\u307e\u3059\u3002","message":"\u767b\u9332\u30e6\u30fc\u30b6\u30fc\u306e\u307f\u304c\u30c7\u30b6\u30a4\u30f3\u30bb\u30f3\u30bf\u30fc\u304b\u3089\u30d5\u30a1\u30a4\u30eb\u3092\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3067\u304d\u307e\u3059\u3002","button_back":"\u623b\u308b","button_finish":"\u7d42\u4e86\u3059\u308b"},"purchase":{"document":"\u8cfc\u8cb7\u6587\u66f8"},"downloads":{"document":"\u8cc7\u6599\u3092\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3059\u308b","revit":"\u30ea\u30d3\u30c3\u30c8\u30e2\u30c7\u30eb\u3092\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3059\u308b","model":"3D\u30e2\u30c7\u30eb\/CAD\u3092\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3059\u308b","planning_idea":"\u30d7\u30e9\u30f3\u30cb\u30f3\u30b0\u30a2\u30a4\u30c7\u30a3\u30a2\u3092\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3059\u308b","image":"\u753b\u50cf\u3092\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3059\u308b","tooltip":"\u3053\u306e\u30d5\u30a1\u30a4\u30eb\u3092\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3059\u308b","two_d_title":"2D DWG","three_d_title":"3D DWG","max_title":"MAX","sketchup_title":"\u30b9\u30b1\u30c3\u30c1\u30a2\u30c3\u30d7","three_ds_title":"3DS","revit_title":"\u30ea\u30d3\u30c3\u30c8","multi_tooltip":"\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9","unavailable_single_tooltip":"\u3053\u306e\u30a2\u30d7\u30ea\u30b1\u30fc\u30b7\u30e7\u30f3\u306f\u3042\u308a\u307e\u305b\u3093","unavailable_multi_tooltip":"\u9078\u629e\u3055\u308c\u305f\u30a2\u30d7\u30ea\u30b1\u30fc\u30b7\u30e7\u30f3\u306f\u3042\u308a\u307e\u305b\u3093"},"revit":{"project":"\u30d7\u30ed\u30b8\u30a7\u30af\u30c8","families":"\u30d5\u30a1\u30df\u30ea","preview":"\u30d7\u30ec\u30d3\u30e5\u30fc","how_to_use":"\u4f7f\u3044\u65b9"},"saved_items":{"document":"\u8cc7\u6599\u3092\u4fdd\u5b58\u3059\u308b","revit":"\u30ea\u30d3\u30c3\u30c8\u30e2\u30c7\u30eb\u3092\u4fdd\u5b58\u3059\u308b","model":"3D\u30e2\u30c7\u30eb\/CAD\u3092\u4fdd\u5b58\u3059\u308b","planning_idea":"\u30d7\u30e9\u30f3\u30cb\u30f3\u30b0\u30a2\u30a4\u30c7\u30a3\u30a2\u3092\u4fdd\u5b58\u3059\u308b","image":"\u753b\u50cf\u3092\u4fdd\u5b58\u3059\u308b","default":"\u30a2\u30a4\u30c6\u30e0\u3092\u4fdd\u5b58\u3059\u308b","remove":"\u4fdd\u5b58\u30a2\u30a4\u30c6\u30e0\u304b\u3089\u524a\u9664\u3059\u308b"},"select_button":{"document":"\u8cc7\u6599\u3092\u9078\u629e\u3059\u308b","revit":"\u30ea\u30d3\u30c3\u30c8\u30e2\u30c7\u30eb\u3092\u9078\u629e\u3059\u308b","model":"3D\u30e2\u30c7\u30eb\/CAD\u3092\u9078\u629e\u3059\u308b","planning_idea":"\u30d7\u30e9\u30f3\u30cb\u30f3\u30b0\u30a2\u30a4\u30c7\u30a3\u30a2\u3092\u9078\u629e\u3059\u308b","image":"\u753b\u50cf\u3092\u9078\u629e\u3059\u308b","default":"\u30d7\u30e9\u30f3\u30cb\u30f3\u30b0\u30a2\u30a4\u30c7\u30a3\u30a2\u3092\u9078\u629e\u3059\u308b"}},"dealer_locator":{"no_results":"\u8a72\u5f53\u3059\u308b\u8ca9\u58f2\u4ee3\u7406\u5e97\u304c\u898b\u5f53\u305f\u308a\u307e\u305b\u3093\u3002\u691c\u7d22\u65b9\u6cd5\u3092\u5909\u3048\u308b\u304b\u3001<a href=\\\"\/asia-ja\/contact-us\/\\\">\u304a\u554f\u3044\u5408\u308f\u305b<\/a>\u304b\u3089\u3054\u9023\u7d61\u304f\u3060\u3055\u3044\u3002","loading_results":"\u8aad\u307f\u8fbc\u307f\u7d50\u679c\u3002\u3002\u3002","phone":"\u96fb\u8a71\u756a\u53f7","fax":"\u30d5\u30a1\u30c3\u30af\u30b9","website":"\u30a6\u30a7\u30d6\u30b5\u30a4\u30c8","email":"E\u30e1\u30fc\u30eb","miles":"\u30de\u30a4\u30eb","km":"\u30ad\u30ed","map_this":"\u9053\u9806\u3092\u77e5\u308b","no_html5_geolocation":"\u7533\u3057\u8a33\u3054\u3056\u3044\u307e\u305b\u3093\u3002\u3042\u306a\u305f\u306e\u30d6\u30e9\u30a6\u30b6\u30fc\u306f\u3053\u306e\u9805\u76ee\u3092\u30b5\u30dd\u30fc\u30c8\u3057\u3066\u3044\u307e\u305b\u3093\u3002","geolocation_not_avail":"\u3054\u5e0c\u671b\u306e\u30dd\u30b8\u30b7\u30e7\u30f3\u306f\u73fe\u5728\u52df\u96c6\u3092\u884c\u3063\u3066\u3044\u307e\u305b\u3093\u3002\u307e\u305f\u3001\u3054\u9023\u7d61\u304f\u3060\u3055\u3044\u3002","geolocation_timeout":"\u3042\u306a\u305f\u306e\u30ea\u30af\u30a8\u30b9\u30c8\u304c\u30bf\u30a4\u30e0\u30a2\u30a6\u30c8\u306b\u306a\u308a\u307e\u3057\u305f\u3002\u518d\u5ea6\u8a66\u307f\u3066\u304f\u3060\u3055\u3044\u3002","geolocation_default_err":"\u4f55\u304b\u554f\u984c\u304c\u767a\u751f\u3057\u307e\u3057\u305f\u3002\u518d\u5ea6\u8a66\u307f\u3066\u304f\u3060\u3055\u3044\u3002","get_location":"\u79c1\u306e\u73fe\u5728\u5730\u3092\u7279\u5b9a\u3059\u308b","location_input_placeholder":"\u3042\u306a\u305f\u306e\u8fd1\u304f\u306e\u30c7\u30a3\u30fc\u30e9\u30fc\u3092\u691c\u7d22\u3059\u308b"},"search":{"no_results_go_to_search":"\u30d2\u30f3\u30c8\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002steelcase.com\u306e\u3059\u3079\u3066\u3067\u691c\u7d22\u3057\u3066\u304f\u3060\u3055\u3044\u3002","no_results":"\u63d0\u6848\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093","load_error":"\u4f55\u304b\u554f\u984c\u304c\u767a\u751f\u3057\u307e\u3057\u305f\u3002\u691c\u7d22\u30da\u30fc\u30b8\u306b\u884c\u3063\u3066\u304f\u3060\u3055\u3044\u3002","search_results":"\u691c\u7d22\u7d50\u679c","products":"\u88fd\u54c1","see_all_results":"\u3059\u3079\u3066\u306e\u7d50\u679c\u3092\u898b\u308b"},"messages":{"we_use_cookies":"\u3053\u306e\u30b5\u30a4\u30c8\u306f\u30a6\u30a7\u30d6\u4f53\u9a13\u3092\u6700\u5927\u9650\u306b\u9ad8\u3081\u308b\u305f\u3081\u306b\u30af\u30c3\u30ad\u30fc\u3092\u4f7f\u7528\u3057\u3066\u3044\u307e\u3059\u3002\u3042\u306a\u305f\u304c\u30d6\u30e9\u30a6\u30b6\u30fc\u8a2d\u5b9a\u3067\u30af\u30c3\u30ad\u30fc\u3092\u7121\u52b9\u306b\u3057\u3066\u3044\u306a\u3044\u9650\u308a\u3001\u3053\u306e\u30e1\u30c3\u30bb\u30fc\u30b8\u3092\u9589\u3058\u308b\u3068\u3053\u306e\u30c7\u30d0\u30a4\u30b9\u306e\u30af\u30c3\u30ad\u30fc\u30dd\u30ea\u30b7\u30fc\u306b\u540c\u610f\u3057\u305f\u3082\u306e\u3068\u307f\u306a\u3055\u308c\u307e\u3059\u3002\u8a73\u7d30\u306b\u3064\u3044\u3066\u306f<a href=\"https:\/\/www.steelcase.com\/asia-ja\/privacy-policy\/\">Privacy Policy.<\/a>\u3092\u3054\u89a7\u304f\u3060\u3055\u3044","growl":{"en_GB":"You are now on the Americas site. <a href=\"https:\/\/www.steelcase.com\/eu-en\">Click here to go back to the EMEA English site.<\/a>","en_AU":"You are now on the Americas site. <a href=\"https:\/\/www.steelcase.com\/asia-en\">Click here to go back to the APAC English site.<\/a>","fr_FR":"Vous \u00eates dans la r\u00e9gion \"Am\u00e9riques\". <a href=\"https:\/\/www.steelcase.com\/eu-fr\">Cliquez ici pour acc\u00e9der au site EMEA en fran\u00e7ais.<\/a>","de_DE":"Sie befinden sich aktuell auf der nordamerikanischen Website. <a href=\"https:\/\/www.steelcase.com\/eu-de\">Klicken Sie hier, um zur\u00fcck auf die deutsche Website zu gelangen.<\/a>","es_ES":"Est\u00e1 usted en la web de Am\u00e9rica. <a href=\"https:\/\/www.steelcase.com\/eu-es\">Para acceder a la informaci\u00f3n de Espa\u00f1a haga click aqu\u00ed.<\/a>","zh_CN":"\u60a8\u6b63\u6d4f\u89c8\u7f8e\u56fd\u5730\u533a\u5b98\u7f51\uff0c<a href=\"https:\/\/www.steelcase.com\/asia-zh\">\u8bf7\u70b9\u51fb\u8fd4\u56de\u4e9a\u592a\u533a\u4e2d\u6587\u5b98\u7f51\u3002<\/a>","ja":"\u3042\u306a\u305f\u304c\u4eca\u3001\u95b2\u89a7\u3057\u3066\u3044\u308b\u306e\u306f\u7c73\u56fd\u306e\u30a6\u30a7\u30d6\u30b5\u30a4\u30c8\u3067\u3059\u3002<a href=\"https:\/\/www.steelcase.com\/asia-ja\"> \u65e5\u672c\u306e\u30b5\u30a4\u30c8\u306b\u623b\u308b\u306b\u306f\u3053\u3053\u3092\u30af\u30ea\u30c3\u30af\u3057\u3066\u304f\u3060\u3055\u3044\u3002<\/a>"}},"site_search":{"search_text":"\u691c\u7d22\u3059\u308b ","search_aria":"\u3053\u306e\u30b5\u30a4\u30c8\u3092\u691c\u7d22\u3059\u308b ","clear_text":"\u6d88\u53bb\u3059\u308b ","clear_aria":"\u30b5\u30a4\u30c8\u306e\u691c\u7d22\u5165\u529b\u3092\u6d88\u53bb\u3059\u308b ","submit_aria":"\u30b5\u30a4\u30c8\u691c\u7d22\u3092\u9001\u4fe1\u3059\u308b ","result_count_plural":"%s\u7d50\u679c\u306b\u3064\u3044\u3066 ","result_count_singular":"%s\u7d50\u679c ","search_query_time":"(%s\u79d2) ","result_file_format":"\u30d5\u30a1\u30a4\u30eb\u306e\u30d5\u30a9\u30fc\u30de\u30c3\u30c8 "},"nav":{"jump_nav_top":"\u6982\u8981"},"resources":{"multiple":"\u8907\u6570\u3042\u308a"},"region_popup":{"select":"\u9078\u629e\u3059\u308b"},"features":{"2":{"id":"feature-filters","pos":"right","offsetx":"0px","offsety":"-45px","title":"\u7d50\u679c\u3092\u30d5\u30a3\u30eb\u30bf\u30fc\u3059\u308b","content":"\u30d5\u30a3\u30eb\u30bf\u30fc\u3092\u6d3b\u7528\u3057\u691c\u7d22\u3092\u7d5e\u308b\u3002\u3059\u3050\u306b\u8a66\u3057\u3066\u307f\u308b\u3002"},"3":{"id":"feature-search_results","pos":"left","offsetx":"0px","offsety":"-46px","title":"\u691c\u7d22\u7d50\u679c","content":"\u691c\u7d22\u7d50\u679c\u306f\u4e3b\u306a\u30ab\u30c6\u30b4\u30ea\u30fc\u3054\u3068\u306b\u6574\u7406\u3055\u308c\u3066\u3044\u307e\u3059\u3002\u30b9\u30af\u30ed\u30fc\u30eb\u30c0\u30a6\u30f3\u3057\u3066\u898b\u308b\u3002"},"4":{"id":"feature-resource_center","pos":"right","offsetx":"-20px","offsety":"5px","title":"\u30c7\u30b6\u30a4\u30f3\u95a2\u9023\u8cc7\u6599\u30ea\u30f3\u30af","content":"\u30ef\u30f3\u30af\u30ea\u30c3\u30af\u3067\u4e3b\u306a\u88fd\u54c1\u30b3\u30f3\u30c6\u30f3\u30c4\u306b\u30b8\u30e3\u30f3\u30d7\u3059\u308b\u3002"},"5":{"id":"feature-download","pos":"left","offsetx":"-12px","offsety":"-46px","title":"\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9","content":"\u753b\u50cf\u3001\u8cc7\u6599\u3001\u5bb6\u5177\u30b7\u30f3\u30dc\u30eb\u306a\u3069\u3042\u3089\u3086\u308b\u30b3\u30f3\u30c6\u30f3\u30c4\u3092\u81ea\u52d5\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3059\u308b\u3002"},"6":{"id":"feature-save","pos":"left","offsetx":"-3px","offsety":"-47px","title":"\u4fdd\u5b58\u3059\u308b","content":"\u753b\u50cf\u3001\u8cc7\u6599\u3001\u5bb6\u5177\u30b7\u30f3\u30dc\u30eb\u306a\u3069\u3042\u3089\u3086\u308b\u30b3\u30f3\u30c6\u30f3\u30c4\u3092\u3042\u306a\u305f\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u306b\u81ea\u52d5\u4fdd\u5b58\u3059\u308b\u3002"},"7":{"id":"feature-download_or_save","pos":"right","offsetx":"12px","offsety":"-62px","scroll_offset":-110,"title":"\u753b\u50cf\u30bf\u30a4\u30e0\u30bb\u30fc\u30d0\u30fc","content":"\u7279\u5b9a\u306e\u753b\u50cf\u3092\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3057\u3001\u4fdd\u5b58\u3059\u308b\uff08\u8981\u30ed\u30b0\u30a4\u30f3\uff09\/\u3069\u306e\u88fd\u54c1\u304c\u5165\u3063\u3066\u3044\u308b\u304b\u3092\u63a2\u3057\u3001\u88fd\u54c1\u60c5\u5831\u30da\u30fc\u30b8\u3092\u898b\u308b\u3002"},"8":{"id":"feature-select_all","pos":"bottom-right","offsetx":"0px","offsety":"5px","title":"\u9078\u629e\u9805\u76ee\u3092\u5168\u3066\u89e3\u9664\u3059\u308b","content":"\u30ef\u30f3\u30af\u30ea\u30c3\u30af\u3067\u30da\u30fc\u30b8\u306e\u3059\u3079\u3066\u306e\u30b3\u30f3\u30c6\u30f3\u30c4\u3092\u9078\u629e\u3057\u3001\u81ea\u52d5\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3059\u308b\u3002"},"9":{"id":"feature-jump_links","pos":"bottom","offsetx":"0px","offsety":"5px","title":"\u8a73\u7d30\u30da\u30fc\u30b8\u3078\u306e\u30ea\u30f3\u30af","content":"\u30da\u30fc\u30b8\u306e\u4e3b\u306a\u30b3\u30f3\u30c6\u30f3\u30c4\u3092\u898b\u308b"},"10":{"id":"feature-login","pos":"bottom","offsetx":"0px","offsety":"-22px","title":"\u30ed\u30b0\u30a4\u30f3\u307e\u305f\u306f\u767b\u9332\u3059\u308b","content":"\u3042\u306a\u305f\u306e\u30a2\u30ab\u30a6\u30f3\u30c8\u306b\u30b3\u30f3\u30c6\u30f3\u30c4\u3092\u4fdd\u5b58\u3067\u304d\u3001\u7279\u5b9a\u306e\u30b3\u30f3\u30c6\u30f3\u30c4\u3084\u60c5\u5831\u306e\u5b9a\u671f\u914d\u4fe1\u3082\u53ef\u80fd\u3067\u3059\u3002"},"11":{"id":"feature-saved_items","pos":"bottom","offsetx":"0px","offsety":"-22px","title":"\u4fdd\u5b58\u9805\u76ee","content":"\u4fdd\u5b58\u3057\u305f\u753b\u50cf\u3001\u8cc7\u6599\u3001\u5bb6\u5177\u30b7\u30f3\u30dc\u30eb\u306a\u3069\u306e\u30d1\u30fc\u30bd\u30ca\u30eb\u30e9\u30a4\u30d6\u30e9\u30ea\u30fc\u3002\u5fc5\u8981\u306e\u969b\u306b\u306f\u77ac\u6642\u306b\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u304c\u53ef\u80fd\u3067\u3059\u3002"}},"scroll_feature_prompt":"\u30b9\u30af\u30ed\u30fc\u30eb\u30c0\u30a6\u30f3\u3057\u3066\u65b0\u305f\u306b\u63b2\u8f09\u3055\u308c\u305f\u9805\u76ee\u3092\u898b\u308b","scroll_feature_close":"\u9589\u3058\u308b","tour":{"btn_done":"\u7d42\u4e86","btn_prev":"\u524d\u3078","btn_next":"\u6b21\u3078","link_all":".\t\u30c4\u30a2\u30fc\u3092\u3055\u3089\u306b\u898b\u308b","span_count":"\u306e"}};
+var steelcase_config = {"elasticsearch":{"api":"https:\/\/www.steelcase.com\/data\/1\/","index":"apac_ja"},"site_url":"https:\/\/www.steelcase.com\/asia-ja","images_url":"https:\/\/dumy1g3ng547g.cloudfront.net\/content\/themes\/steelcase\/img\/","post_type":"page","is_fsl":"","template_url":"https:\/\/dumy1g3ng547g.cloudfront.net\/content\/themes\/steelcase\/","download_url":"https:\/\/www.steelcase.com\/download\/?url=","products_archive_url":"https:\/\/www.steelcase.com\/asia-ja\/products\/","ajax_url":"\/asia-ja\/wp-admin\/admin-ajax.php?_wpnonce=1fed65d596","registration_link":"https:\/\/register.steelcase.com\/#\/public?lang=ja&return=https%3A%2F%2Fwww.steelcase.com%2Fasia-ja%2Fwp-login.php%3Fredirect_to%3Dhttps%253A%252F%252Fwww.steelcase.com%252Fasia-ja","login_link":"https:\/\/www.steelcase.com\/asia-ja\/wp-login.php?redirect_to=https%3A%2F%2Fwww.steelcase.com%2Fasia-ja","is_user_logged_in":"","soundcloud_clientid":"bddde44955cd7acf1d4fbe683ce9242a","ip_addresses":[""],"notifications_overview_link":"","post_types":{"image":"attachment","document":"document","product":"product","revit":"revit","model":"fsl","planning_idea":"planning-idea","support_download":"support_download"},"regions":{"Americas":{"slug":"americas","name":"Americas","abbreviation":"NA","countries":["AG","AR","AW","BS","BB","BZ","BM","BO","BR","CA","KY","CL","CO","CR","DO","EC","SV","GF","PF","GL","GP","GT","HT","HN","JM","MQ","MX","NI","PA","PE","PR","MF","PM","SR","TT","US","UY","VE","VG","VI"],"languages":[{"name":"English","id":"1","url":"https:\/\/www.steelcase.com"}]},"Europe, Middle East, and Africa":{"slug":"europe-middle-east-and-africa","name":"Europe, Middle East, and Africa","abbreviation":"EMEA","countries":["AF","AL","DZ","AD","AO","AM","AT","AZ","BH","BY","BE","BJ","BA","BW","BG","BF","BI","CM","CV","CF","TD","KM","HR","CY","CZ","CD","DK","DJ","EG","GQ","ER","EE","ET","FO","FI","FR","GA","GM","GE","DE","GN","GI","GR","GN","GW","HU","IS","IQ","IE","IL","IT","CI","JO","KZ","KE","KW","LV","LB","LS","LR","LY","LI","LT","LU","MK","MG","MW","ML","MT","MR","MU","YT","MD","ME","MA","MZ","NA","NL","NC","NE","NG","NO","OM","PS","PL","PT","QA","CG","RE","RO","RU","RW","SM","ST","SA","SN","RS","SC","SL","SK","SI","SO","ZA","ES","SZ","SE","CH","TZ","TG","TN","TR","UG","UA","AE","UK","YE","ZM","ZW"],"languages":[{"name":"Deutsch","id":"2","url":"https:\/\/www.steelcase.com\/eu-de\/start\/"},{"name":"English","id":"10","url":"https:\/\/www.steelcase.com\/eu-en\/home\/"},{"name":"Fran\u00e7ais","id":"11","url":"https:\/\/www.steelcase.com\/eu-fr\/accueil\/"},{"name":"Espa\u00f1ol","id":"12","url":"https:\/\/www.steelcase.com\/eu-es\/home\/"}]},"Asia Pacific":{"slug":"asia-pacific","name":"Asia Pacific","abbreviation":"APAC","countries":["AU","BD","BN","KH","CN","GU","HK","IN","ID","KG","MO","MY","MN","NP","NZ","PK","PH","SG","KR","LK","TW","TJ","TH","TM","UZ","VN","WF"],"languages":[{"name":"\u4e2d\u6587","id":"13","url":"https:\/\/www.steelcase.com\/asia-zh\/%e4%b8%bb%e9%a1%b5\/"},{"name":"\u65e5\u672c\u8a9e","id":"14","url":"https:\/\/www.steelcase.com\/asia-ja\/home\/"},{"name":"English","id":"15","url":"https:\/\/www.steelcase.com\/asia-en\/home\/"}]}},"current_region":"APAC","current_language":"ja","document_sort":{"sort_key":"sort","sort_types":["taxonomy.doctype.name.lc","title.lc","product_title.lc"]},"feature_tours":{"search":1,"filters":2,"search_results":3,"resource_center":4,"download":5,"save":6,"download_or_save":7,"select_all":8,"jump_links":9,"login":10,"saved_items":11},"planning_ideas_files":[{"title":"2D DWG \u30c0\u30a6\u30f3\u30ed\u30fc\u30c9","download_link":"http:\/\/resources.steelcase.com\/apac\/planning-ideas\/2D-DWG\/%ID%.dwg","download_type":"2DDWG"},{"title":"\u30b9\u30b1\u30c3\u30c1\u30a2\u30c3\u30d7 \u30c0\u30a6\u30f3\u30ed\u30fc\u30c9","download_link":"http:\/\/resources.steelcase.com\/apac\/planning-ideas\/SketchUp\/%ID%.skp","download_type":""},{"title":"pCon DWG \u30c0\u30a6\u30f3\u30ed\u30fc\u30c9","download_link":"http:\/\/resources.steelcase.com\/apac\/planning-ideas\/pCon-DWG\/%ID%.dwg","download_type":"pConDWG"},{"title":"2D\u56f3\u9762 \u30c0\u30a6\u30f3\u30ed\u30fc\u30c9","download_link":"http:\/\/resources.steelcase.com\/apac\/planning-ideas\/2D-Dimensioned-PDF\/%ID%.pdf","download_type":"2D"},{"title":"\u30b9\u30da\u30c3\u30af \u30c0\u30a6\u30f3\u30ed\u30fc\u30c9","download_link":"http:\/\/resources.steelcase.com\/apac\/planning-ideas\/Spec\/%ID%.xls","download_type":""}],"newsletter_signup_action":"steelcase_newsletter_signup","newsletter_remove_action":"steelcase_newsletter_remove","newsletter_login_then_signup_cookie_key":"login_then_signup","item_login_then_save_cookie_key":"login_then_save_item","item_login_then_download_cookie_key":"login_then_download_item","save_item_action":"steelcase_add_saved_item","remove_item_action":"steelcase_remove_saved_item","zip_file_data":{"zip_key":"d7d324afed","urls":[]},"zip_endpoint":"https:\/\/www.steelcase.com\/asia-ja\/api\/zip","dealer_api":{"max_distance":497,"max_dealers":0,"api_key":"AIzaSyCABgfHLIL2AVuHSoyArxo-muIENe5L0XM","lat":"35.6833","long":"139.6833","country_code":"JP","query":"Tokyo, Japan","base_path":"\/asia-ja\/find-us\/where-to-buy\/dealers\/","marker":"https:\/\/dumy1g3ng547g.cloudfront.net\/content\/themes\/steelcase\/apps\/dealer-locator\/img\/marker-small.png","units":"metric"},"current_product_category":"","cachebust":"5f66496b9d6709c6ce996d78c82d13783498cffc","tech_support":{"base_url":"https:\/\/www.steelcase.com\/asia-ja\/techsupport\/"},"confidential":{"education":null},"google_search":{"site_id":"006608900535055990872:3kxehsdy6qw","api_key":"AIzaSyCABgfHLIL2AVuHSoyArxo-muIENe5L0XM","gsc_param":"gsc_q","search_url":"https:\/\/www.steelcase.com\/asia-ja\/\u691c\u7d22 \/"}};
+var steelcase_tour_data = {"2":{"target":"#menu-main-menu .menu-item.discover","pos":"top","offsetx":"0px","offsety":"5px","scroll_offset":-200,"title":"\u4f01\u696d\u60c5\u5831","content":"Steelcase\u306e\u4f01\u696d\u60c5\u5831\u3001\u30d6\u30e9\u30f3\u30c9\u3001\u30e6\u30fc\u30b6\u30fc\/\u696d\u7a2e\u5225\u306e\u30e9\u30f3\u30c7\u30a3\u30f3\u30b0\u30da\u30fc\u30b8\u306e\u60c5\u5831\u3092\u63a2\u3059\u3002"},"3":{"target":"#menu-main-menu .menu-item.insights","pos":"top","offsetx":"0px","offsety":"5px","scroll_offset":-200,"title":"\u7814\u7a76\u30ec\u30dd\u30fc\u30c8","content":"360\u30de\u30ac\u30b8\u30f3\u3001\u30db\u30ef\u30a4\u30c8\u30da\u30fc\u30d1\u30fc\u3001\u30b1\u30fc\u30b9\u30b9\u30bf\u30c7\u30a3\u306b\u30a2\u30af\u30bb\u30b9\u3059\u308b\u3002"},"4":{"target":"#menu-main-menu .menu-item.resources","pos":"top","offsetx":"0px","offsety":"5px","scroll_offset":-200,"title":"\t\u30c7\u30b6\u30a4\u30f3\u95a2\u9023\u8cc7\u6599","content":"\u753b\u50cf\u3001\u8cc7\u6599\u3001\u5bb6\u5177\u30b7\u30f3\u30dc\u30eb\u3001\u30d7\u30e9\u30f3\u30cb\u30f3\u30b0\u30a2\u30a4\u30c7\u30a2\u306a\u3069\u306e\u30b3\u30f3\u30c6\u30f3\u30c4\u306b\u30a2\u30af\u30bb\u30b9\u3059\u308b\u3002"},"5":{"target":"#menu-main-menu .menu-item.find","pos":"top","offsetx":"0px","offsety":"5px","scroll_offset":-200,"title":"\u63a2\u3059","content":"Steelcase\u306e\u6240\u5728\u5730\u3001\u5730\u57df\u306e\u8ca9\u58f2\u4ee3\u7406\u5e97\u3001\u30aa\u30f3\u30e9\u30a4\u30f3\u30b7\u30e7\u30c3\u30d7\u3001\u30bd\u30fc\u30b7\u30e3\u30eb\u30e1\u30c7\u30a3\u30a2\u3001\u30a4\u30d9\u30f3\u30c8"},"6":{"target":"[data-feature=\"10\"]","pos":"top","offsetx":"0px","offsety":"-22px","scroll_offset":-120,"title":"\u30ed\u30b0\u30a4\u30f3\/\u767b\u9332\u3059\u308b","content":"Steelcase.com\u306b\u30ed\u30b0\u30a4\u30f3\/\u767b\u9332\u3057\u3001\u30d1\u30fc\u30bd\u30ca\u30eb\u30a2\u30ab\u30a6\u30f3\u30c8\u306b\u30b3\u30f3\u30c6\u30f3\u30c4\u3092\u4fdd\u5b58\u3001\u307e\u305f\u3001\u88fd\u54c1\u3001\u30ea\u30b5\u30fc\u30c1\u3001\u30a4\u30d9\u30f3\u30c8\u306a\u3069\u306e\u6700\u65b0\u30cb\u30e5\u30fc\u30b9\u3092\u53d7\u4fe1\u3059\u308b\u3002"},"7":{"target":".saved-items-link-wrapper","pos":"top","offsetx":"0px","offsety":"-22px","scroll_offset":-200,"title":"\u4fdd\u5b58\u9805\u76ee","content":"\u4fdd\u5b58\u3057\u305f\u753b\u50cf\u3001\u8cc7\u6599\u3001\u5bb6\u5177\u30b7\u30f3\u30dc\u30eb\u306a\u3069\u306e\u30d1\u30fc\u30bd\u30ca\u30eb\u30e9\u30a4\u30d6\u30e9\u30ea\u30fc\u3002\u5fc5\u8981\u306e\u969b\u306b\u306f\u77ac\u6642\u306b\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u304c\u53ef\u80fd\u3067\u3059\u3002"},"8":{"target":".panel-content .slick-active .has-ppp .ppp-link b","pos":"right","offsetx":"12px","offsety":"-73px","scroll_offset":-110,"title":"\u753b\u50cf\u30bf\u30a4\u30e0\u30bb\u30fc\u30d0\u30fc","content":"\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3059\u308b\u307e\u305f\u306f\u753b\u50cf\u3092\u4fdd\u5b58\u3059\u308b\/\u753b\u50cf\u5185\u306e\u88fd\u54c1\u3092\u7279\u5b9a\u3059\u308b\u3002"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://dumy1g3ng547g.cloudfront.net/content/themes/steelcase/js/dist/scripts.js?ver=5f66496b9d6709c6ce996d78c82d13783498cffc'></script>
+<script type='text/javascript' src='https://dumy1g3ng547g.cloudfront.net/asia-ja/wp-includes/js/wp-embed.min.js?ver=4.9.4'></script>
+<script type="text/javascript">_satellite.pageBottom();</script>
+<!-- Hand crafted by Modern Tribe, Inc. (http://tri.be) -->
+
+    <script type="text/javascript">
+        (function(d){
+            var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');
+            p.type = 'text/javascript';
+            p.async = true;
+            p.src = '//assets.pinterest.com/js/pinit.js';
+            f.parentNode.insertBefore(p, f);
+        }(document));
+    </script>
+    
+<script type="text/javascript">
+	var addthis_config = addthis_config||{};
+	addthis_config.pubid = 'ra-53ed28507d4859e4';
+</script>
+<script type="text/javascript">
+	function steelcase_load_add_this(){
+		addthis.init();
+	}
+</script>
+
+	<script id="saved_item_data" type="application/json"></script>
+
+	<script id="content_ppp" type="application/json">{"content_ppp":[]}</script>
+
+
+	<script id="nav_data" type="application/json">{"menu_items":[{"label":"\u88fd\u54c1","classes":" menu-item menu-item-type-steelcase-custom menu-item-object-product menu-item-has-children menu-item-150","url":"https:\/\/www.steelcase.com\/asia-ja\/products\/","confidential":false,"menu_items":[{"label":"\u30c1\u30a7\u30a2","id":"menu-item-128","summary_link_label":"\u3059\u3079\u3066\u306e\u30c1\u30a7\u30a2","url":"https:\/\/www.steelcase.com\/asia-ja\/products\/seating\/","confidential":false,"menu_id":"product_category-128","classes":"menu-item-128","has_children":true,"menu_items":[{"label":"\u30aa\u30d5\u30a3\u30b9\u30c1\u30a7\u30a2","url":"https:\/\/www.steelcase.com\/asia-ja\/products\/office-chairs\/","confidential":false,"menu_id":"product_category-103","classes":"menu-item-103","has_children":false},{"label":"\u30b2\u30b9\u30c8\u30c1\u30a7\u30a2","id":"menu-item-88","url":"https:\/\/www.steelcase.com\/asia-ja\/products\/guest-chairs\/","confidential":false,"menu_id":"product_category-88","classes":"menu-item-88","has_children":false},{"label":"\u30df\u30fc\u30c6\u30a3\u30f3\u30b0\u30c1\u30a7\u30a2","id":"menu-item-82","url":"https:\/\/www.steelcase.com\/asia-ja\/products\/collaborative-chairs\/","confidential":false,"menu_id":"product_category-82","classes":"menu-item-82","has_children":false},{"label":"\u30e9\u30a6\u30f3\u30b8\u30c1\u30a7\u30a2","id":"menu-item-83","url":"https:\/\/www.steelcase.com\/asia-ja\/products\/lounge-seating\/","confidential":false,"menu_id":"product_category-83","classes":"menu-item-83","has_children":false}]},{"label":"\u30c7\u30b9\u30af + \u30c6\u30fc\u30d6\u30eb","id":"menu-item-129","summary_link_label":"\u3059\u3079\u3066\u306e\u30c7\u30b9\u30af + \u30c6\u30fc\u30d6\u30eb","url":"https:\/\/www.steelcase.com\/asia-ja\/products\/desks-tables\/","confidential":false,"menu_id":"product_category-129","classes":"menu-item-129","has_children":true,"menu_items":[{"label":"\u30c7\u30b9\u30af","id":"menu-item-62","url":"https:\/\/www.steelcase.com\/asia-ja\/products\/desks\/","confidential":false,"menu_id":"product_category-62","classes":"menu-item-62","has_children":false},{"label":"\u30df\u30fc\u30c6\u30a3\u30f3\u30b0\u30c6\u30fc\u30d6\u30eb","id":"menu-item-106","url":"https:\/\/www.steelcase.com\/asia-ja\/products\/meeting-tables\/","confidential":false,"menu_id":"product_category-106","classes":"menu-item-106","has_children":false},{"label":"\u30d9\u30f3\u30c1\u30c7\u30b9\u30af","id":"menu-item-130","url":"https:\/\/www.steelcase.com\/asia-ja\/products\/benching\/","confidential":false,"menu_id":"product_category-130","classes":"menu-item-130","has_children":false}]},{"label":"\u53ce\u7d0d","id":"menu-item-131","summary_link_label":"\u3059\u3079\u3066\u306e\u53ce\u7d0d","url":"https:\/\/www.steelcase.com\/asia-ja\/products\/storage\/","confidential":false,"menu_id":"product_category-131","classes":"menu-item-131","has_children":true,"menu_items":[{"label":"\u30ad\u30e3\u30d3\u30cd\u30c3\u30c8&amp;\u30d5\u30a1\u30a4\u30eb\u30ad\u30e3\u30d3\u30cd\u30c3\u30c8","id":"menu-item-133","url":"https:\/\/www.steelcase.com\/asia-ja\/products\/lateral-files-pedestals\/","confidential":false,"menu_id":"product_category-133","classes":"menu-item-133","has_children":false},{"label":"\u30ad\u30e3\u30d3\u30cd\u30c3\u30c8&amp;\u672c\u68da","url":"https:\/\/www.steelcase.com\/asia-ja\/products\/bookcases-cabinets\/","confidential":false,"menu_id":"product_category-132","classes":"menu-item-132","has_children":false}]},{"label":"\u30c6\u30af\u30ce\u30ed\u30b8\u30fc\u30d7\u30ed\u30c0\u30af\u30c8","id":"menu-item-232","summary_link_label":"\u3059\u3079\u3066\u306e\u30c6\u30af\u30ce\u30ed\u30b8\u30fc\u30d7\u30ed\u30c0\u30af\u30c8","url":"https:\/\/www.steelcase.com\/asia-ja\/products\/technology\/","confidential":false,"menu_id":"product_category-232","classes":"menu-item-232","has_children":true,"menu_items":[{"label":"\u30df\u30fc\u30c6\u30a3\u30f3\u30b0\u6a5f\u5668","id":"menu-item-233","url":"https:\/\/www.steelcase.com\/asia-ja\/products\/collaboration\/","confidential":false,"menu_id":"product_category-233","classes":"menu-item-233","has_children":false},{"label":"\u4f1a\u8b70\u5ba4\u4e88\u7d04\u30b7\u30b9\u30c6\u30e0","id":"menu-item-135","url":"https:\/\/www.steelcase.com\/asia-ja\/products\/scheduling-systems\/","confidential":false,"menu_id":"product_category-135","classes":"menu-item-135","has_children":false}]},{"label":"\u30d1\u30fc\u30c6\u30fc\u30b7\u30e7\u30f3","id":"menu-item-136","summary_link_label":"\u3059\u3079\u3066\u306e\u30d1\u30fc\u30c6\u30fc\u30b7\u30e7\u30f3","url":"https:\/\/www.steelcase.com\/asia-ja\/products\/space-division\/","confidential":false,"menu_id":"product_category-136","classes":"menu-item-136","has_children":true,"menu_items":[{"label":"\u30d1\u30fc\u30c6\u30fc\u30b7\u30e7\u30f3","id":"menu-item-137","url":"https:\/\/www.steelcase.com\/asia-ja\/products\/panels\/","confidential":false,"menu_id":"product_category-137","classes":"menu-item-137","has_children":false},{"label":"\u5353\u4e0a\u30d1\u30fc\u30c6\u30b7\u30e7\u30f3","id":"menu-item-9","url":"https:\/\/www.steelcase.com\/asia-ja\/products\/screens\/","confidential":false,"menu_id":"product_category-9","classes":"menu-item-9","has_children":false}]},{"label":"\u30aa\u30d5\u30a3\u30b9\u5468\u8fba\u6a5f\u5668&amp;\u30a2\u30af\u30bb\u30b5\u30ea\u30fc","id":"menu-item-138","summary_link_label":"\u3059\u3079\u3066\u306e\u30aa\u30d5\u30a3\u30b9\u5468\u8fba\u6a5f\u5668&amp;\u30a2\u30af\u30bb\u30b5\u30ea\u30fc","url":"https:\/\/www.steelcase.com\/asia-ja\/products\/accessories\/","confidential":false,"menu_id":"product_category-138","classes":"menu-item-138","has_children":true,"menu_items":[{"label":"\u30d1\u30bd\u30b3\u30f3\u30a2\u30af\u30bb\u30b5\u30ea\u30fc","id":"menu-item-140","url":"https:\/\/www.steelcase.com\/asia-ja\/products\/computer-support\/","confidential":false,"menu_id":"product_category-140","classes":"menu-item-140","has_children":false},{"label":"\u5353\u4e0a\u53ce\u7d0d","url":"https:\/\/www.steelcase.com\/asia-ja\/products\/organization-tools\/","confidential":false,"menu_id":"product_category-79","classes":"menu-item-79","has_children":false},{"label":"\u7167\u660e","id":"menu-item-94","url":"https:\/\/www.steelcase.com\/asia-ja\/products\/lighting\/","confidential":false,"menu_id":"product_category-94","classes":"menu-item-94","has_children":false},{"label":"\u4fbf\u5229\u30a2\u30a4\u30c6\u30e0","id":"menu-item-142","url":"https:\/\/www.steelcase.com\/asia-ja\/products\/personal-comfort\/","confidential":false,"menu_id":"product_category-142","classes":"menu-item-142","has_children":false},{"label":"\u30db\u30ef\u30a4\u30c8\u30dc\u30fc\u30c9","id":"menu-item-63","url":"https:\/\/www.steelcase.com\/asia-ja\/products\/white-boards\/","confidential":false,"menu_id":"product_category-63","classes":"menu-item-63","has_children":false}]},{"label":"\u4f01\u696d\u5411\u3051","id":"menu-item-8247","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-8247","url":"http:\/\/www.steelcase.com\/asia-ja\/blog\/category\/corporate\/","confidential":false,"menu_id":8247,"has_children":false}],"menu_id":150,"has_children":true},{"label":"\u30c7\u30b6\u30a4\u30f3\u8cc7\u6599","classes":"resources resources menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-159","url":"#","confidential":false,"menu_id":159,"has_children":true,"menu_items":[{"label":"\u30d7\u30e9\u30f3\u30cb\u30f3\u30b0\u30a2\u30a4\u30c7\u30a3\u30a2","id":"menu-item-160","excerpt":"\u5f53\u793e\u306e\u591a\u5f69\u306a\u30b9\u30da\u30fc\u30b9\u30d7\u30e9\u30f3\u306e\u30a2\u30a4\u30c7\u30a3\u30a2\u3084\u30ec\u30a4\u30a2\u30a6\u30c8\u4f8b\u3092\u662f\u975e\u3054\u53c2\u8003\u304f\u3060\u3055\u3044\u3002\u691c\u7d22\u3001\u4fdd\u5b58\u3001\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u304c\u53ef\u80fd\u3067\u3059\u3002","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-160","url":"https:\/\/www.steelcase.com\/asia-ja\/resources\/space-planning-ideas\/industry\/workplace\/","confidential":false,"menu_id":160,"has_children":false},{"label":"3D\u30e2\u30c7\u30eb\/CAD","id":"menu-item-5863","excerpt":"\u5f53\u793e\u306e\u591a\u5f69\u306a\u30b9\u30da\u30fc\u30b9\u30d7\u30e9\u30f3\u306e\u30a2\u30a4\u30c7\u30a3\u30a2\u3084\u30ec\u30a4\u30a2\u30a6\u30c8\u4f8b\u3092\u662f\u975e\u3054\u53c2\u8003\u304f\u3060\u3055\u3044\u3002\u691c\u7d22\u3001\u4fdd\u5b58\u3001\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u304c\u53ef\u80fd\u3067\u3059\u3002","classes":" menu-item menu-item-type-post_type menu-item-object-page menu-item-5863","url":"https:\/\/www.steelcase.com\/asia-ja\/resources\/3d-models-cad\/","confidential":false,"menu_id":5863,"has_children":false},{"label":"\u753b\u50cf","id":"menu-item-162","excerpt":"\u30d7\u30ec\u30bc\u30f3\u8cc7\u6599\u3084\u30dc\u30fc\u30c9\u3067\u4f7f\u7528\u3059\u308b\u753b\u50cf\u3092\u691c\u7d22\u3001\u4fdd\u5b58\u3001\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3059\u308b","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-162","url":"https:\/\/www.steelcase.com\/asia-ja\/resources\/furniture-images\/","confidential":false,"menu_id":162,"has_children":false},{"label":"\u8cc7\u6599","id":"menu-item-163","excerpt":"\u30b9\u30da\u30c3\u30af\u30ac\u30a4\u30c9\u3001\u8a8d\u8a3c\u66f8\u3001\u30ab\u30bf\u30ed\u30b0\u3001\u30ec\u30dd\u30fc\u30c8\u3001\u30db\u30ef\u30a4\u30c8\u30da\u30fc\u30d1\u30fc\u3001\u30b1\u30fc\u30b9\u30b9\u30bf\u30c7\u30a3\u3001\u63b2\u8f09\u8a18\u4e8b\u306a\u3069\u3092\u691c\u7d22\u3001\u4fdd\u5b58\u3001\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3059\u308b","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-163","url":"https:\/\/www.steelcase.com\/asia-ja\/resources\/documents\/","confidential":false,"menu_id":163,"has_children":false},{"label":"\u4ed5\u4e0a\u3052\u30fb\u5f35\u308a\u5730","id":"menu-item-164","excerpt":"Steelcase\u88fd\u54c1\u306e\u8c4a\u5bcc\u306a\u4ed5\u4e0a\u3052\u3084\u5f35\u308a\u5730\u306e\u8a73\u7d30\u3092\u898b\u308b","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-164","url":"https:\/\/www.steelcase.com\/asia-ja\/resources\/surface-materials\/","confidential":false,"menu_id":164,"has_children":false}]},{"label":"360\u7814\u7a76\u30ec\u30dd\u30fc\u30c8","classes":"insights insights menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-132","url":"#","confidential":false,"menu_id":132,"has_children":true,"menu_items":[{"label":"\u5168\u3066\u306e\u7814\u7a76\u30ec\u30dd\u30fc\u30c8","id":"menu-item-8628","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8628","url":"https:\/\/www.steelcase.com\/asia-ja\/research\/","confidential":false,"menu_id":8628,"has_children":true,"menu_items":[{"label":"\u5275\u9020\u6027","id":"menu-item-8630","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-8630","url":"https:\/\/www.steelcase.com\/asia-ja\/research\/topics\/creativity\/","confidential":false,"menu_id":8630,"has_children":false},{"label":"\u30a6\u30a7\u30eb\u30d3\u30fc\u30f3\u30b0","id":"menu-item-8633","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-8633","url":"https:\/\/www.steelcase.com\/asia-ja\/research\/topics\/wellbeing\/","confidential":false,"menu_id":8633,"has_children":false},{"label":"\u30b3\u30e9\u30dc\u30ec\u30fc\u30b7\u30e7\u30f3 + \u30d7\u30e9\u30a4\u30d0\u30b7\u30fc","id":"menu-item-8637","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-8637","url":"https:\/\/www.steelcase.com\/asia-ja\/research\/topics\/collaboration-privacy","confidential":false,"menu_id":8637,"has_children":false},{"label":"\u30c6\u30af\u30ce\u30ed\u30b8\u30fc","id":"menu-item-8639","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-8639","url":"https:\/\/www.steelcase.com\/asia-ja\/research\/topics\/technology\/","confidential":false,"menu_id":8639,"has_children":false},{"label":"\u30ea\u30fc\u30c0\u30fc\u30b7\u30c3\u30d7 +  \u6587\u5316","id":"menu-item-8641","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-8641","url":"https:\/\/www.steelcase.com\/asia-ja\/research\/topics\/leadership","confidential":false,"menu_id":8641,"has_children":false}]},{"label":"\u6700\u65b0\u30b3\u30f3\u30c6\u30f3\u30c4","id":"menu-item-8661","classes":" menu-item menu-item-type-steelcase-custom menu-item-object-post menu-item-8661","url":"https:\/\/www.steelcase.com\/asia-ja\/research\/articles\/","confidential":false,"menu_items":[{"label":"\u4e16\u754c\u7684\u30c8\u30ec\u30f3\u30c9\u304c\u751f\u307f\u51fa\u3057\u305f7\u3064\u306e\u65b0\u8272\u30b3\u30ec\u30af\u30b7\u30e7\u30f3","id":"menu-item-10030","url":"https:\/\/www.steelcase.com\/asia-ja\/research\/articles\/topics\/surface-materials\/global-trends-influence-seven-new-colors\/","confidential":false,"menu_id":"post-0","classes":"menu-item-10030","has_children":false},{"label":"\u65b0\u30fb\u50cd\u304d\u65b9\u3067\u30aa\u30d5\u30a3\u30b9\u306b\u591a\u5f69\u306a\u30ab\u30e9\u30fc\u304c\u51fa\u73fe","id":"menu-item-9985","url":"https:\/\/www.steelcase.com\/asia-ja\/research\/articles\/topics\/creativity\/new-ways-of-working-drive-more-color-choices\/","confidential":false,"menu_id":"post-0","classes":"menu-item-9985","has_children":false},{"label":"\u300c\u30b9\u30de\u30fc\u30c8 + \u30b3\u30cd\u30af\u30c8\u300d\u3068\u306f\uff1f","id":"menu-item-9961","url":"https:\/\/www.steelcase.com\/asia-ja\/research\/articles\/topics\/collaboration-privacy\/what-does-it-mean-to-be-smart-connected\/","confidential":false,"menu_id":"post-0","classes":"menu-item-9961","has_children":false},{"label":"\u8077\u5834\u3067\u8eab\u4f53\u3092\u52d5\u304b\u3059","id":"menu-item-9925","url":"https:\/\/www.steelcase.com\/asia-ja\/research\/articles\/topics\/ergonomics\/movement-in-the-workplace\/","confidential":false,"menu_id":"post-0","classes":"menu-item-9925","has_children":false}],"menu_id":8661,"has_children":false},{"label":"\u696d\u754c\u5225","id":"menu-item-8646","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8646","confidential":false,"menu_id":8646,"has_children":true,"menu_items":[{"label":"\u8077\u5834\u74b0\u5883","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-140","url":"https:\/\/www.steelcase.com\/asia-ja\/research\/topics\/workplace","confidential":false,"menu_id":140,"has_children":false},{"label":"\u6559\u80b2","id":"menu-item-139","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-139","url":"https:\/\/www.steelcase.com\/asia-ja\/research\/topics\/education","confidential":false,"menu_id":139,"has_children":false}]},{"label":"\u60c5\u5831\u8a8c","id":"menu-item-8648","classes":" menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-has-children menu-item-8648","url":"https:\/\/www.steelcase.com\/asia-ja\/#","confidential":false,"menu_id":8648,"has_children":true,"menu_items":[{"label":"360\u30de\u30ac\u30b8\u30f3","id":"menu-item-8655","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-8655","url":"https:\/\/www.steelcase.com\/asia-ja\/research\/360-magazine\/","confidential":false,"menu_id":8655,"has_children":false},{"label":"\u9867\u5ba2\u4e8b\u4f8b","id":"menu-item-8741","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-8741","url":"https:\/\/www.steelcase.com\/asia-ja\/research\/topics\/customer-stories","confidential":false,"menu_id":8741,"has_children":false}]}]},{"label":"\u30b5\u30fc\u30d3\u30b9","classes":"services services menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-151","url":"#","confidential":false,"menu_id":151,"has_children":true,"menu_items":[{"label":"\u30b3\u30f3\u30b5\u30eb\u30c6\u30a3\u30f3\u30b0","id":"menu-item-152","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-152","url":"https:\/\/www.steelcase.com\/asia-ja\/consulting\/","confidential":false,"menu_id":152,"has_children":true,"menu_items":[{"label":"ARC\u30b3\u30f3\u30b5\u30eb\u30c6\u30a3\u30f3\u30b0","id":"menu-item-4291","excerpt":"\u304a\u5ba2\u69d8\u306e\u4f01\u696d\u304c\u91cd\u8981\u306a\u5c40\u9762\u3092\u8fce\u3048\u3066\u3044\u308b\u969b\u306b\u3001\u5171\u306b\u305d\u306e\u30cb\u30fc\u30ba\u3084\u554f\u984c\u70b9\u3092\u6df1\u304f\u63a2\u308a\u3001\u6700\u3082\u52b9\u679c\u7684\u306a\u30bd\u30ea\u30e5\u30fc\u30b7\u30e7\u30f3\u3092\u63d0\u6848\u3057\u307e\u3059\u3002","classes":"additional-services-links additional-services-links menu-item menu-item-type-post_type menu-item-object-page menu-item-4291","url":"https:\/\/www.steelcase.com\/asia-ja\/consulting\/","confidential":false,"menu_id":4291,"has_children":false}]},{"label":"\u305d\u306e\u4ed6\u306e\u30b5\u30fc\u30d3\u30b9","id":"menu-item-153","classes":"additional-services-links additional-services-links menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-153","url":"https:\/\/www.steelcase.com\/asia-ja\/services\/","confidential":false,"menu_id":153,"has_children":true,"menu_items":[{"label":"\u30ef\u30fc\u30af\u30d7\u30ec\u30a4\u30b9\u8abf\u67fb","id":"menu-item-154","excerpt":"\u5f53\u793e\u306f\u4eba\u3005\u306e\u771f\u306e\u50cd\u304d\u65b9\u3092\u6df1\u304f\u63a2\u308b\u305f\u3081\u306b\u3001\u7814\u7a76\u30ea\u30b5\u30fc\u30c1\u3068\u77e5\u8b58\u306b\u57fa\u3065\u3044\u305f\u5e83\u7bc4\u56f2\u306b\u308f\u305f\u308b\u30a2\u30f3\u30b1\u30fc\u30c8\u8abf\u67fb\u3092\u30b0\u30ed\u30fc\u30d0\u30eb\u30ec\u30d9\u30eb\u3067\u5b9f\u65bd\u3057\u3066\u3044\u307e\u3059\u3002","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-154","url":"https:\/\/www.steelcase.com\/asia-ja\/services\/#%e3%83%af%e3%83%bc%e3%82%af%e3%83%97%e3%83%ac%e3%82%a4%e3%82%b9%e8%aa%bf%e6%9f%bb","confidential":false,"menu_id":154,"has_children":false},{"label":"\u521d\u671f\u6bb5\u968e\u3067\u306e\u53c2\u52a0","id":"menu-item-155","excerpt":"\u5f53\u793e\u304c\u6848\u4ef6\u306e\u521d\u671f\u6bb5\u968e\u304b\u3089\u53c2\u52a0\u3059\u308b\u3053\u3068\u3067\u3001\u305d\u306e\u5f37\u307f\u3067\u3042\u308b\u30ce\u30a6\u30cf\u30a6\u3067\u500b\u3005\u306e\u304a\u5ba2\u69d8\u306e\u30cb\u30fc\u30ba\u306b\u9069\u3057\u305f\u753b\u671f\u7684\u306a\u30b9\u30da\u30fc\u30b9\u63d0\u6848\u304c\u53ef\u80fd\u306b\u306a\u308a\u307e\u3059\u3002","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-155","url":"https:\/\/www.steelcase.com\/asia-ja\/services\/#%e5%88%9d%e6%9c%9f%e6%ae%b5%e9%9a%8e%e3%81%a7%e3%81%ae%e5%8f%82%e5%8a%a0","confidential":false,"menu_id":155,"has_children":false}]}]},{"label":"\u4f01\u696d\u60c5\u5831","classes":"discover discover menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-107","url":"#","confidential":false,"menu_id":107,"has_children":true,"menu_items":[{"label":"Steelcase","id":"menu-item-108","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-108","confidential":false,"menu_id":108,"has_children":true,"menu_items":[{"label":"\u30b5\u30b9\u30c6\u30ca\u30d3\u30ea\u30c6\u30a3","id":"menu-item-4279","classes":" menu-item menu-item-type-post_type menu-item-object-page menu-item-4279","url":"https:\/\/www.steelcase.com\/asia-ja\/discover\/steelcase\/sustainability\/","confidential":false,"menu_id":4279,"has_children":false},{"label":"\u8ca9\u58f2\u4ee3\u7406\u5e97","id":"menu-item-4763","classes":" menu-item menu-item-type-post_type menu-item-object-page menu-item-4763","url":"https:\/\/www.steelcase.com\/asia-ja\/discover\/steelcase\/dealers\/","confidential":false,"menu_id":4763,"has_children":false},{"label":"\u63a1\u7528\u60c5\u5831","id":"menu-item-4772","classes":" menu-item menu-item-type-post_type menu-item-object-page menu-item-4772","url":"https:\/\/www.steelcase.com\/asia-ja\/discover\/steelcase\/careers\/","confidential":false,"menu_id":4772,"has_children":false},{"label":"\u4f01\u696d\u60c5\u5831","id":"menu-item-6892","classes":" menu-item menu-item-type-post_type menu-item-object-page menu-item-6892","url":"https:\/\/www.steelcase.com\/asia-ja\/corporate-information\/","confidential":false,"menu_id":6892,"has_children":false}]},{"label":"\u30d6\u30e9\u30f3\u30c9","id":"menu-item-114","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-114","confidential":false,"menu_id":114,"has_children":true,"menu_items":[{"label":"Steelcase\u30b0\u30ed\u30fc\u30d0\u30eb\u672c\u793e","id":"menu-item-4285","classes":" menu-item menu-item-type-post_type menu-item-object-page menu-item-4285","url":"https:\/\/www.steelcase.com\/asia-ja\/discover\/brands\/steelcase\/","confidential":false,"menu_id":4285,"has_children":false},{"label":"turnstone","id":"menu-item-4286","classes":" menu-item menu-item-type-post_type menu-item-object-page menu-item-4286","url":"https:\/\/www.steelcase.com\/asia-ja\/discover\/brands\/turnstone\/","confidential":false,"menu_id":4286,"has_children":false},{"label":"Coalesse","id":"menu-item-4282","classes":" menu-item menu-item-type-post_type menu-item-object-page menu-item-4282","url":"https:\/\/www.steelcase.com\/asia-ja\/discover\/brands\/coalesse\/","confidential":false,"menu_id":4282,"has_children":false},{"label":"Designtex","id":"menu-item-4283","classes":" menu-item menu-item-type-post_type menu-item-object-page menu-item-4283","url":"https:\/\/www.steelcase.com\/asia-ja\/discover\/brands\/designtex\/","confidential":false,"menu_id":4283,"has_children":false},{"label":"PolyVision","id":"menu-item-4284","classes":" menu-item menu-item-type-post_type menu-item-object-page menu-item-4284","url":"https:\/\/www.steelcase.com\/asia-ja\/discover\/brands\/polyvision\/","confidential":false,"menu_id":4284,"has_children":false}]},{"label":"\u95a2\u9023\u60c5\u5831","id":"menu-item-122","classes":"information-links information-links menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-122","confidential":false,"menu_id":122,"has_children":true,"menu_items":[{"label":"\u6559\u80b2\u95a2\u9023","id":"menu-item-4289","classes":" menu-item menu-item-type-post_type menu-item-object-page menu-item-4289","url":"https:\/\/www.steelcase.com\/asia-ja\/discover\/information\/education-professionals\/","confidential":false,"menu_id":4289,"has_children":false},{"label":"\u30e1\u30c7\u30a3\u30a2","id":"menu-item-4568","classes":" menu-item menu-item-type-post_type menu-item-object-page menu-item-4568","url":"https:\/\/www.steelcase.com\/asia-ja\/discover\/information\/media\/","confidential":false,"menu_id":4568,"has_children":false},{"label":"\u5efa\u7bc9\u5bb6\u3001\u8a2d\u8a08\u30c7\u30b6\u30a4\u30ca\u30fc + \u4e0d\u52d5\u7523\u95a2\u4fc2\u8005","id":"menu-item-4288","classes":" menu-item menu-item-type-post_type menu-item-object-page menu-item-4288","url":"https:\/\/www.steelcase.com\/asia-ja\/discover\/information\/architects-and-designers\/","confidential":false,"menu_id":4288,"has_children":false}]}]},{"label":"\u6240\u5728\u5730","classes":"find find menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-165","url":"#","confidential":false,"menu_id":165,"has_children":true,"menu_items":[{"label":"\u6240\u5728\u5730","id":"menu-item-166","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-166","confidential":false,"menu_id":166,"has_children":true,"menu_items":[{"label":"\u30a2\u30b8\u30a2","id":"menu-item-183","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-183","url":"https:\/\/www.steelcase.com\/asia-ja\/find-us\/locations\/asiapacific\/","confidential":false,"menu_id":183,"has_children":false},{"label":"\u5357\u5317\u30a2\u30e1\u30ea\u30ab","id":"menu-item-168","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-168","url":"https:\/\/www.steelcase.com\/asia-ja\/find-us\/locations\/americas\/","confidential":false,"menu_id":168,"has_children":false},{"label":"\u30e8\u30fc\u30ed\u30c3\u30d1\u3001\u4e2d\u8fd1\u6771\u3001\u30a2\u30d5\u30ea\u30ab","id":"menu-item-169","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-169","url":"https:\/\/www.steelcase.com\/asia-ja\/find-us\/locations\/europe-middle-east-and-africa\/","confidential":false,"menu_id":169,"has_children":false}]},{"label":"\u8cfc\u5165\u65b9\u6cd5","id":"menu-item-170","classes":" menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-170","confidential":false,"menu_id":170,"has_children":true,"menu_items":[{"label":"\u8ca9\u58f2\u4ee3\u7406\u5e97","id":"menu-item-6031","classes":" menu-item menu-item-type-post_type menu-item-object-page menu-item-6031","url":"https:\/\/www.steelcase.com\/asia-ja\/find-us\/where-to-buy\/dealers\/","confidential":false,"menu_id":6031,"has_children":false}]},{"label":"\u30bd\u30fc\u30b7\u30e3\u30eb\u30e1\u30c7\u30a3\u30a2","id":"menu-item-174","classes":"social-media-links social-media-links menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-174","confidential":false,"menu_id":174,"has_children":true,"menu_items":[{"label":"Facebook","id":"menu-item-175","classes":"icon icon-facebook icon icon-facebook menu-item menu-item-type-custom menu-item-object-custom menu-item-175","target":"_blank","url":"https:\/\/www.facebook.com\/Steelcase","confidential":false,"menu_id":175,"has_children":false},{"label":"Twitter","id":"menu-item-178","classes":"icon icon-twitter icon icon-twitter menu-item menu-item-type-custom menu-item-object-custom menu-item-178","target":"_blank","url":"https:\/\/twitter.com\/steelcaseap\/","confidential":false,"menu_id":178,"has_children":false},{"label":"Instagram","id":"menu-item-180","classes":"icon icon-instagram icon icon-instagram menu-item menu-item-type-custom menu-item-object-custom menu-item-180","target":"_blank","url":"http:\/\/instagram.com\/steelcase\/","confidential":false,"menu_id":180,"has_children":false},{"label":"LinkedIn","id":"menu-item-176","classes":"icon icon-linkedin icon icon-linkedin menu-item menu-item-type-custom menu-item-object-custom menu-item-176","target":"_blank","url":"https:\/\/www.linkedin.com\/company\/steelcase","confidential":false,"menu_id":176,"has_children":false},{"label":"Pinterest","id":"menu-item-177","classes":"icon icon-pinterest icon icon-pinterest menu-item menu-item-type-custom menu-item-object-custom menu-item-177","target":"_blank","url":"http:\/\/www.pinterest.com\/steelcase\/","confidential":false,"menu_id":177,"has_children":false},{"label":"YouTube","id":"menu-item-179","classes":"icon icon-youtube icon icon-youtube menu-item menu-item-type-custom menu-item-object-custom menu-item-179","target":"_blank","url":"https:\/\/www.youtube.com\/user\/STEELCASETV","confidential":false,"menu_id":179,"has_children":false}]}]}]}</script>
+
+<!-- 172.19.1.26 -->
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f31c9219a5","applicationID":"10118925","transactionName":"M1VaN0UACEBSUUUNXgofbRFeTg9dV1dJSkEMQA==","queueTime":0,"applicationTime":8,"atts":"HxJZQQ0aG04=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

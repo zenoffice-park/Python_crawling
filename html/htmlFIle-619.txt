@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>お問い合わせ一覧・資料請求 | 青山メインランド</title>
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="auther" content="株式会社青山メインランド" />
+<meta name="robots" content="index,follow" />
+<link rel="stylesheet" type="text/css" href="/common/css/import.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script type="text/javascript" src="/common/js/jquery.cookie.js"></script>
+<script type="text/javascript" src="/common/js/common.js"></script>
+<script type="text/javascript" src="/common/js/index.js"></script>
+
+
+<!-- All in One SEO Pack 2.0.3.1 by Michael Torbert of Semper Fi Web Design[-1,-1] -->
+<meta name="description" content="お問い合わせ・資料請求ページです。青山メインランドは資産運用型マンションのプロフェッショナルです。マンション投資やマンション経営を通して、お客様のゆとりある人生設計のお手伝いをいたします。" />
+
+<meta name="keywords" content="お問合せ,資料請求,マンション投資,マンション経営,都内マンション,不動産投資,資産形成,青山メインランド" />
+
+<link rel="canonical" href="http://www.aml.co.jp/contact/" />
+<!-- /all in one seo pack -->
+
+</head>
+<body class="Second fontsize_m">
+<a id="pagetop" name="pagetop"></a>
+<div id="wrap"> 
+<!-- header -->
+<div id="header">
+<h1 class="f10">資産運用型マンション販売、分譲ファミリーマンション販売、賃貸物件のご紹介、賃貸物件の管理、社宅のご紹介までサポートする、青山メインランドのお問い合わせ・資料請求ページです。</h1>
+<p class="logo"><a href="/"><img src="/common/images/header/header_logo.png" alt="青山メインランド" width="206" height="37" /></a></p>
+<p class="btn_01"><a href="/online-stage/"><img class="bt" src="/common/images/header/header_btn_01.png" alt="会報誌ONLINESTAGE" width="98" height="30" /></a></p>
+<p class="btn_02"><a href="/company/policy/information/"><img class="bt" src="/common/images/header/header_btn_02.png" alt="当社より御連絡をさし上げたお客様へ" width="111" height="30" /></a></p>
+<p class="btn_03"><a href="/contact/"><img class="bt" src="/common/images/header/header_btn_03.png" alt="お問合せ一覧/資料請求" width="132" height="36" /></a></p>
+<ul class="link">
+<li><a href="/company/policy/"><img class="bt" src="/common/images/header/header_link_01.png" alt="当社の営業ポリシー" width="109" height="14" /></a></li>
+<li><a href="/investment/faq/"><img class="bt" src="/common/images/header/header_link_02.png" alt="よくあるご質問" width="86" height="14" /></a></li>
+<li><a href="http://www.aml.co.jp/glossary/"><img class="bt" src="/common/images/header/header_link_03.png" alt="用語集" width="48" height="14" /></a></li>
+<li><a href="/sitemap/"><img class="bt" src="/common/images/header/header_link_04.png" alt="サイトマップ" width="74" height="14" /></a></li>
+</ul>
+<p class="txt_01"><img src="/common/images/header/header_txt_01.png" alt="文字サイズの変更" width="71" height="9" /></p>
+<ul class="words">
+<li class="fontsize_s">小</li>
+<li class="fontsize_m">中</li>
+<li class="fontsize_l">大</li>
+</ul>
+<form class="search" action="http://www.aml.co.jp/search/" method="GET">
+<input type="text" name="q" placeholder="サイト内検索" class="f12" />
+<p><input type="image" class="bt" src="/common/images/header/header_btn_search.png" alt="検索" width="20" height="20" /></p>
+</form>
+</div>
+<!-- /header --> <!-- navigation -->
+<div id="navigation2">
+<ul class="navi_01">
+<li><a href="/investment/"><img src="/common/images/navigation/navigation2_btn_01.png" alt="資産運用型マンション" width="108" height="44" class="bt" /></a></li>
+<li><a href="/condominium/"><img src="/common/images/navigation/navigation2_btn_02.png" alt="分譲ファミリーマンション" width="108" height="44" class="bt" /></a></li>
+<li><a href="/owner/"><img src="/common/images/navigation/navigation2_btn_03.png" alt="当社物件のオーナー様" width="108" height="44" class="bt" /></a></li>
+<li><a href="/resident/"><img src="/common/images/navigation/navigation2_btn_04.png" alt="当社賃貸マンションご入居者様" width="108" height="44" class="bt" /></a></li>
+<li><a href="/manage/"><img src="/common/images/navigation/navigation2_btn_05.png" alt="賃貸管理の委託先をお探しのオーナー様" width="108" height="44" class="bt" /></a></li>
+</ul>
+<ul class="navi_02">
+<li><a href="/company-housing/"><img src="/common/images/navigation/navigation2_btn_06.png" alt="社宅をお探しの企業様" width="108" height="44" class="bt" /></a></li>
+<li><a href="/agency/"><img src="/common/images/navigation/navigation2_btn_07.png" alt="仲介業者の皆様" width="108" height="44" class="bt" /></a></li>
+</ul>
+<ul class="navi_03 mr0">
+<li><a href="/company/"><img src="/common/images/navigation/navigation2_btn_08.png" alt="会社情報" width="108" height="63" class="bt" /></a></li>
+<li class="mr0"><a href="/recruit/"><img src="/common/images/navigation/navigation2_btn_09.png" alt="採用情報" width="108" height="63" class="bt" /></a></li>
+</ul>
+<!-- /navigation --><div id="pankuzu" class="clearfix">
+<ul>
+<li class="f10"><a href="/">ホーム</a></li>
+<li class="f10">お問い合わせ一覧・資料請求</li>
+</ul>
+</div>
+</div>
+<div id="main" class="clearfix"> 
+<!-- left -->
+<div id="left">
+<div class="box">
+<p class="ttl f16">お問い合わせ一覧・資料請求</p>
+<div class="box_in">
+<ul class="lv1">
+<li><a href="/contact/index.php" class="f12">お問い合わせ一覧・資料請求<br />トップページ</a></li>
+</ul>
+</div>
+<ul>
+<li class="pre"><a href="javascript:history.back();" class="f12">前のページへ戻る</a></li>
+</ul>
+</div>
+</div>
+<!-- /left --> 
+<!-- center -->
+<div id="center">
+<link href="/common/css/contact/index.css" rel="stylesheet" type="text/css" />
+<div id="contact">
+<div class="box">
+<h2 class="ttl f16">お問い合わせ一覧・資料請求</h2>
+<!-- container -->
+<div class="pt15 pb15 pl15 pr15 clearfix">
+<p class="mb20">青山メインランドでは、お客様の疑問や質問に迅速に対応できるよう、各種ご相談窓口をご用
+意しております。（ご用件によってお問合せ先の電話番号が異なりますのでご注意ください。）</p>
+<ul class="clearfix mb20">
+<li class="f_left mr2"><a href="#anker01"><img src="/common/images/contact/contact_btn_anker_01.gif" alt="資料請求について" width="100" height="28" class="bt" /></a></li>
+<li class="f_left mr2"><a href="#anker03"><img src="/common/images/contact/contact_btn_anker_02.gif" alt="賃貸管理について" width="100" height="28" class="bt" /></a></li>
+<li class="f_left mr2"><a href="#anker04"><img src="/common/images/contact/contact_btn_anker_03.gif" alt="お客様相談室について" width="100" height="28" class="bt" /></a></li>
+<li class="f_left mr2"><a href="#anker05"><img src="/common/images/contact/contact_btn_anker_04.gif" alt="用地募集について" width="100" height="28" class="bt" /></a></li>
+<li class="f_left"><a href="#anker06"><img src="/common/images/contact/contact_btn_anker_05.gif" alt="採用について" width="100" height="28" class="bt" /></a></li>
+</ul>
+<a name="anker01" id="anker01"></a>
+<h3 class="f14 mb10 ttl_01">資産運用型マンション営業部へのお問い合わせ</h3>
+
+<p class="mb10">資産運用型マンションに関するお問い合せ・資料請求はこちらから</p>
+
+<div class="clearfix mb30">
+<p class="f_right"><a href="https://www.aml.co.jp/form/investment/" class="trackGA"><img src="/common/images/contact/contact_btn_01.gif" alt="フォームからのお問い合せ・資料請求" width="234" height="34" class="bt" /></a></p>
+<p class="f_left"><img src="/common/images/contact/contact_img_tel_01.gif" alt="フリーダイヤル：0120-937-060　受付時間：10：00～19：00（土日及び祝祭日を除く）" width="233" height="46" /></p>
+</div>
+
+<a name="anker02" id="anker02"></a>
+<h3 class="f14 mb10 ttl_01">分譲ファミリーマンション営業部へのお問い合わせ</h3>
+
+<p class="mb10">分譲ファミリーマンションに関するお問い合せ・資料請求はこちらから</p>
+
+<div class="clearfix mb30">
+<p class="f_right"><a href="https://www.aml.co.jp/contact/condominium/"><img src="/common/images/contact/contact_btn_01.gif" alt="フォームからのお問い合せ・資料請求" width="234" height="34" class="bt" /></a></p>
+<p class="f_left"><img src="/common/images/contact/contact_img_tel_02.gif" alt="フリーダイヤル：0120-921-605　受付時間：10：00～19：00" width="230" height="46" /></p>
+</div>
+
+<a name="anker03" id="anker03"></a>
+<h3 class="f14 mb10 ttl_01">賃貸管理部へのお問い合わせ</h3>
+
+<div class="clearfix mb10">
+<p class="f_right w230"><img src="/common/images/contact/contact_img_tel_03.gif" alt="フリーダイヤル：0120-977-865　受付時間：10：00～19：00" width="229" height="46" /></p>
+<p class="mb10">賃貸管理部への電話でのお問合せはこちら</p>
+</div>
+
+<div class="mb30">
+<div class="arrow_box">
+<p><strong>ご入居者様からのお問い合せ</strong><br />
+ご入居者様のお困りごとやご質問・ご意見はこちらから</p>
+<p class="btn_form"><a href="https://www.aml.co.jp/contact/resident/"><img src="/common/images/contact/contact_btn_02.gif" alt="フォームからのお問い合せ" width="164" height="34" class="bt" /></a></p>
+</div>
+
+<div class="arrow_box">
+<p><strong>オーナー様から賃貸管理に関するお問い合せ</strong><br />
+サブリースなど賃貸契約や口座変更などはこちらから</p>
+<p class="btn_form"><a href="https://www.aml.co.jp/contact/owner/"><img src="/common/images/contact/contact_btn_02.gif" alt="フォームからのお問い合せ" width="164" height="34" class="bt" /></a></p>
+</div>
+
+<div class="arrow_box">
+<p><strong>管理委託に関するお問い合せ</strong><br />
+当社への管理委託をお考えのお客様はこちらから</p>
+<p class="btn_form"><a href="https://www.aml.co.jp/contact/management/"><img src="/common/images/contact/contact_btn_02.gif" alt="フォームからのお問い合せ" width="164" height="34" class="bt" /></a></p>
+</div>
+
+<div class="arrow_box">
+<p><strong>社宅に関するお問い合せ</strong><br />
+社宅をお探しの法人様はこちらから</p>
+<p class="btn_form"><a href="https://www.aml.co.jp/contact/company-housing/"><img src="/common/images/contact/contact_btn_02.gif" alt="フォームからのお問い合せ" width="164" height="34" class="bt" /></a></p>
+</div>
+
+
+</div>
+
+<a name="anker04" id="anker04"></a>
+<h3 class="f14 mb10 ttl_01">お客様相談室へのお問い合わせ</h3>
+
+<div class="clearfix mb10">
+<p class="f_right w230"><img src="/common/images/contact/contact_img_tel_04.gif" alt="フリーダイヤル：0120-977-273　受付時間：10：00～17：00（土日及び祝祭日を除く）" width="232" height="46" /></p>
+<p class="mb10">お客様相談室への電話でのお問い合わせはこちら</p>
+</div>
+<div class="mb30">
+<div class="arrow_box">
+<p><strong>当社へのお問い合せ</strong><br />
+当社に対するご意見・ご要望などはこちらから</p>
+<p class="btn_form"><a href="https://www.aml.co.jp/contact/inquiry/"><img src="/common/images/contact/contact_btn_02.gif" alt="フォームからのお問い合せ" width="164" height="34" class="bt" /></a></p>
+</div>
+
+<div class="arrow_box">
+<p><strong>ご登録住所等を変更された場合のお問い合せ</strong><br />
+ご住所やご連絡先を変更される方はこちらから</p>
+<p class="btn_form"><a href="https://www.aml.co.jp/contact/address/"><img src="/common/images/contact/contact_btn_03.gif" alt="フォームからのお手続き" width="164" height="34" class="bt" /></a></p>
+</div>
+</div>
+
+<a name="anker05" id="anker05"></a>
+<h3 class="f14 mb10 ttl_01">開発・流通事業部へのお問い合わせ</h3>
+
+<p class="mb10">開発・流通事業部への電話・FAXでのお問い合わせはこちら</p>
+<div class="clearfix mb10">
+<p class="f_left"><img src="/common/images/contact/contact_img_tel_05.gif" alt="直通電話：03-5281-4915　受付時間：10：00～18：00（土日及び祝祭日を除く）" width="233" height="46" /></p>
+<p class="f_right w230"><img src="/common/images/contact/contact_img_tel_06.gif" alt="FAX：03-5281-4941" width="221" height="24" /></p>
+</div>
+<div class="mb30">
+<div class="arrow_box">
+<p><strong>マンション用地等の募集について</strong><br />
+マンション用地・一棟中古などの売却をお考えの法人様はこちらから</p>
+<p class="btn_form"><a href="https://www.aml.co.jp/contact/development/"><img src="/common/images/contact/contact_btn_02.gif" alt="フォームからのお問い合せ" width="164" height="34" class="bt" /></a></p>
+</div>
+
+</div>
+
+<a name="anker06" id="anker06"></a>
+<h3 class="f14 mb10 ttl_01">採用に関するお問い合わせ</h3>
+
+<div class="clearfix mb10">
+<p class="f_right w230"><img src="/common/images/contact/contact_img_tel_07.gif" alt="フリーダイヤル：0120-20-0435　受付時間：10：00～18：00（土日及び祝祭日を除く）" width="233" height="46" /></p>
+<p class="mb10">採用に関する電話でのお問い合わせはこちら</p>
+</div>
+
+<div class="mb30">
+<div class="arrow_box">
+<p><strong>採用に関するお問い合せ</strong><br />
+新卒採用・中途採用に関するお問合せはこちらから</p>
+<p class="btn_form"><a href="https://www.aml.co.jp/contact/recruit/"><img src="/common/images/contact/contact_btn_02.gif" alt="フォームからのお問い合せ" width="164" height="34" class="bt" /></a></p>
+</div>
+
+
+<div class="arrow_box">
+<p class="mt5 mb5"><strong>会社説明会（新卒採用）への申し込み</strong></p>
+<p class="btn_form"><a href="https://www.aml.co.jp/contact/new-graduates/"><img src="/common/images/contact/contact_btn_04.gif" alt="フォームからのお申込" width="164" height="34" class="bt" /></a></p>
+</div>
+<div class="arrow_box">
+<p class="mt5 mb5"><strong>中途採用の選考申し込み</strong></p>
+<p class="btn_form"><a href="https://www.aml.co.jp/contact/careers/"><img src="/common/images/contact/contact_btn_04.gif" alt="フォームからのお申込" width="164" height="34" class="bt" /></a></p>
+</div>
+</div>
+
+</div>
+<!-- container --> 
+
+</div>
+<!-- /condominium -->
+
+</div></div>
+<!-- /center --> 
+<!-- right -->
+<div id="right">
+<div class="box_04">
+<p class="ttl f16">関連情報</p>
+<ul class="tab ttl_bg clearfix">
+</ul>
+<ul class="recent_list">
+<li class="type_01"><img src="/common/images/index_box_04_icon_01.gif" width="106" height="13" /><span class="f10">2016.10.07</span>
+        <a class="f12" href="http://www.aml.co.jp/company/about/news/%e3%83%9e%e3%82%a4%e3%83%8a%e3%83%b3%e3%83%90%e3%83%bc%e6%b3%95%e3%81%ab%e5%9f%ba%e3%81%a5%e3%81%8f%e7%89%b9%e5%ae%9a%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e5%8f%8a%e3%81%b3%e5%80%8b%e4%ba%ba%e7%95%aa/">マイナンバー法に基づく特定個人情報及び個人番号の取扱いに関する基本方針について</a>
+</li>
+          <li>
+          <img src="/common/images/index_box_04_icon_03.gif" />
+		  <span class="f10">2018.07.05</span>
+        <a class="f12" href="http://www.aml.co.jp/company/csr/culture/sponsor/%E3%83%9C%E3%83%BC%E3%82%A4%E3%82%BA%E3%83%AA%E3%83%BC%E3%82%B0%E5%8D%94%E8%B3%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/?" href="http://www.aml.co.jp/company/csr/culture/sponsor/%E3%83%9C%E3%83%BC%E3%82%A4%E3%82%BA%E3%83%AA%E3%83%BC%E3%82%B0%E5%8D%94%E8%B3%9B%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/?" target="_self">2018 カル・リプケン12歳以下世界少年野球大会</a>
+          </li>
+          <li>
+          <img src="/common/images/index_box_04_icon_03.gif" />
+		  <span class="f10">2018.07.04</span>
+        <a class="f12" href="http://www.aml.co.jp/company/csr/culture/sponsor/%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%AB%E3%83%AB%E3%80%8C%E3%83%94%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%91%E3%83%B3%E3%80%8D-2/?" href="http://www.aml.co.jp/company/csr/culture/sponsor/%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%AB%E3%83%AB%E3%80%8C%E3%83%94%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%91%E3%83%B3%E3%80%8D-2/?" target="_self">ミュージカル「ピーターパン」</a>
+          </li>
+          <li>
+          <img src="/common/images/index_box_04_icon_02.gif" />
+		  <span class="f10">2018.06.19</span>
+        <a class="f12" href="http://www.aml.co.jp/investment/preview/%E3%83%A1%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B8%E5%8C%97%E5%8D%83%E4%BD%8F%E2%85%A5/" href="http://www.aml.co.jp/investment/preview/%E3%83%A1%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B8%E5%8C%97%E5%8D%83%E4%BD%8F%E2%85%A5/" target="_self">メインステージ北千住Ⅵ　物件情報公開</a>
+          </li>
+          <li>
+          <img src="/common/images/index_box_04_icon_02.gif" />
+		  <span class="f10">2018.05.23</span>
+        <a class="f12" href="http://www.aml.co.jp/investment/preview/%e3%83%a1%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%86%e3%83%bc%e3%82%b8%e9%8c%a6%e7%b3%b8%e7%94%ba%e2%85%a7/" href="http://www.aml.co.jp/investment/preview/%e3%83%a1%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%86%e3%83%bc%e3%82%b8%e9%8c%a6%e7%b3%b8%e7%94%ba%e2%85%a7/" target="_self">メインステージ錦糸町Ⅷ　物件情報公開</a>
+          </li>
+          <li>
+          <img src="/common/images/index_box_04_icon_02.gif" />
+		  <span class="f10">2018.03.06</span>
+        <a class="f12" href="http://www.aml.co.jp/investment/preview/%e3%83%a1%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%86%e3%83%bc%e3%82%b8%e5%8c%97%e5%8d%83%e4%bd%8f%e2%85%a4/" href="http://www.aml.co.jp/investment/preview/%e3%83%a1%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%86%e3%83%bc%e3%82%b8%e5%8c%97%e5%8d%83%e4%bd%8f%e2%85%a4/" target="_self">メインステージ北千住Ⅴ　物件情報公開</a>
+          </li>
+          <li>
+          <img src="/common/images/index_box_04_icon_03.gif" />
+		  <span class="f10">2018.03.05</span>
+        <a class="f12 point_02" href="http://lojim.jp/extracurricular_lesson/1003" href="http://lojim.jp/extracurricular_lesson/1003" target="_blank">3月5日、山下芳輝先生と堀潤先生をお迎えして夢の課外授業を行いました。</a>
+          </li>
+          <li>
+          <img src="/common/images/index_box_04_icon_03.gif" />
+		  <span class="f10">2018.02.17</span>
+        <a class="f12" href="http://www.aml.co.jp/company/csr/culture/sponsor/%e3%82%a8%e3%82%b3%e3%82%ad%e3%83%a3%e3%83%83%e3%83%97%e6%b4%bb%e5%8b%95/" href="http://www.aml.co.jp/company/csr/culture/sponsor/%e3%82%a8%e3%82%b3%e3%82%ad%e3%83%a3%e3%83%83%e3%83%97%e6%b4%bb%e5%8b%95/" target="_self">エコキャップ活動の報告</a>
+          </li>
+          <li>
+          <img src="/common/images/index_box_04_icon_02.gif" />
+		  <span class="f10">2018.02.13</span>
+        <a class="f12" href="http://www.aml.co.jp/investment/preview/%e3%83%a1%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%86%e3%83%bc%e3%82%b8%e6%a8%aa%e6%b5%9c%e9%bb%84%e9%87%91%e7%94%ba/" href="http://www.aml.co.jp/investment/preview/%e3%83%a1%e3%82%a4%e3%83%b3%e3%82%b9%e3%83%86%e3%83%bc%e3%82%b8%e6%a8%aa%e6%b5%9c%e9%bb%84%e9%87%91%e7%94%ba/" target="_self">メインステージ横濱黄金町　物件情報公開</a>
+          </li>
+          <li>
+          <img src="/common/images/index_box_04_icon_03.gif" />
+		  <span class="f10">2018.02.06</span>
+        <a class="f12" href="http://www.aml.co.jp/company/csr/culture/sponsor/cs%e6%97%a5%e3%83%86%e3%83%acg%e7%95%aa%e7%b5%84%e5%86%85%e3%81%ab%e3%81%a6cm%e6%94%be%e9%80%81%e3%81%8c%e9%96%8b%e5%a7%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f/" href="http://www.aml.co.jp/company/csr/culture/sponsor/cs%e6%97%a5%e3%83%86%e3%83%acg%e7%95%aa%e7%b5%84%e5%86%85%e3%81%ab%e3%81%a6cm%e6%94%be%e9%80%81%e3%81%8c%e9%96%8b%e5%a7%8b%e3%81%95%e3%82%8c%e3%81%be%e3%81%97%e3%81%9f/" target="_self">新ＣＭのお知らせ</a>
+          </li>
+</ul>
+<div class="clearfix link_box">
+<p class="link link_01"><a href="http://www.aml.co.jp/company/about/news/" class="f11">最新情報一覧</a></p>
+</div>
+</div>
+<!-- add20140328 -->
+<div class="banner_box" style="min-height:100px!important;">
+<!-- /add20140328 -->
+
+<p class="ttl f16 ttl_bg mb10">お勧め情報</p>
+
+<!-- add20140328 -->
+<p class="banner mb10"><a href="/investment/seminar/"><img src="/common/images/banner/banner_seminer.jpg" alt="資産形成ノウハウセミナー開催中！" width="200" height="60" /></a></p>
+
+<p class="banner mb10"><a href="/investment/consultation/"><img src="/common/images/banner/banner_contact_alltime.jpg" alt="お客様のお好きな時間に個別相談受付中" width="200" height="60" /></a></p>
+
+<p class="banner pb10 w200"><a href="/mail-magazine/"><img src="/common/images/banner/banner_mailmagazine.jpg" alt="お得な情報をメールマガジンでお届け！" width="200" height="60" /></a></p>
+
+<p class="banner mb10"><a href="/online-stage/"><img src="/common/images/banner/banner_onlinestage.gif" alt="ONLINE STAGE" width="200" height="60" /></a></p>
+<p class="banner mb20"><a href="/development/"><img src="/common/images/banner/banner_development.jpg" alt="マンション用地・中古物件 情報募集中" width="200" height="60" /></a></p>
+<!-- /add20140328 -->
+
+</div>
+
+<!-- add20140328 -->
+
+<div class="banner_box" style="min-height:100px!important;">
+<p class="ttl f15 ttl_bg mb10">青山メインランドの取り組み</p>
+<p class="banner mb10"><a href="/company/csr/"><img src="/common/images/banner/banner_csr.jpg" alt="CSRの取り組み" width="200" height="60" /></a></p>
+<p class="banner mb20"><a href="/company/opinion/"><img src="/common/images/banner/banner_opinion_3.gif" alt="業界・当社への良薬苦口" width="200" height="60" /></a></p>
+<!--
+<p class="banner mb20"><a href="#"><img src="/common/images/2nd/dammy_banner_01.png" width="200" height="60" /></a></p>
+-->
+</div>
+
+<!-- /add20140328 --></div>
+<!-- /right --> 
+</div>
+</div>
+<!-- footer -->
+<div id="footer_bar">
+<div id="footer_bar_in">
+<p class="contact_btn"><a href="/contact/"><img src="/common/images/2nd/2nd_footer_bar_btn_contact.png" alt="お問合せ資料請求" width="192" height="37" /></a></p>
+<form class="search" action="http://www.aml.co.jp/search/" method="GET">
+<input type="text" name="q" placeholder="サイト内検索" class="f12" />
+<p><input type="image" class="bt" src="/common/images/header/header_btn_search.png" alt="検索" width="20" height="20" /></p>
+</form>
+<p class="pagetop"><a href="#pagetop"><img src="/common/images/2nd/2nd_footer_bar_btn_pagetop.gif" alt="ページの先頭へ" width="160" height="33" /></a></p>
+</div>
+</div>
+<div id="footer">
+<div id="footer_inbox">
+<ul class="link clearfix">
+<li class="f10"><a href="/investment/" class="f10">資産運用型マンション</a></li>
+<li class="f10"><a href="/condominium/" class="f10">分譲ファミリーマンション</a></li>
+<li class="f10"><a href="/owner/" class="f10">当社物件のオーナー様</a></li>
+<li class="f10"><a href="/resident/" class="f10">当社賃貸マンションご入居者様</a></li>
+<li class="f10"><a href="/manage/" class="f10">賃貸管理の委託先をお探しのオーナー様</a></li>
+</ul>
+<ul class="link clearfix">
+<li class="f10"><a href="/company-housing/" class="f10">社宅をお探しの企業様</a></li>
+<li class="f10"><a href="/agency/" class="f10">仲介業者の皆様</a></li>
+<li class="f10"><a href="/company/" class="f10">会社情報</a></li>
+<li class="f10"><a href="/recruit/" class="f10">採用情報</a></li>
+</ul>
+<ul class="link clearfix">
+<li class="f10"><a href="/company/policy/" class="f10">当社の営業ポリシー</a></li>
+<li class="f10"><a href="/investment/faq/" class="f10">よくあるご質問</a></li>
+<li class="f10"><a href="/glossary/" class="f10">用語集</a></li>
+<li class="f10"><a href="/sitemap/" class="f10">サイトマップ</a></li>
+<li class="f10"><a href="/online-stage/" class="f10">会報誌ONLINE STAGE</a></li>
+<li class="f10"><a href="/company/policy/information/" class="f10">当社よりご連絡を差し上げたお客様へ</a></li>
+<li class="f10"><a href="/contact/" class="f10">お問合せ一覧・資料請求</a></li>
+</ul>
+<p class="copy"><img src="/common/images/footer/footer_copyright.gif" alt="Copyright © 2013 Aoyama Mainland. All Rights Reserved." width="296" height="11" /></p>
+<ul class="link_01">
+<li class="f10"><a href="/terms/" class="f10"><img class="bt" src="/common/images/footer/footer_link_02.gif" alt="WEBサイトのご利用について" width="151" height="11" /></a></li>
+<li class="f10"><a href="/company/policy/privacy/" class="f10"><img class="bt" src="/common/images/footer/footer_link_01.gif" alt="プライバシーポリシー" width="116" height="11" /></a></li>
+</ul>
+
+</div>
+</div>
+<!-- 20170630 pardot追加 -->
+<script type="text/javascript">
+piAId = '317431';
+piCId = '1693';
+
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+<!-- 20170630 pardot追加 END -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-10872759-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script type="text/javascript" charset="utf-8" src="https://tracker.smartseminar.jp/static/js/cam2.js"></script>
+<script type="text/javascript">
+<!--
+__CAMCID = 'usYSfXxxlo-298';
+_cam.track_controller(__CAMCID);
+domain_groups[0] ='www.aml.co.jp';
+domain_groups[1] ='aml-s.com';
+domain_groups[2] ='aml.jpn.com';
+domain_groups[3] ='recruit.aml.co.jp';
+domain_groups[4] ='aml.smktg.jp';
+domain_groups[5] ='www.ms-mita.com';
+//-->
+</script>
+
+<script type="text/javascript">
+$('a.trackGA').click(function() {
+  if ( window._cam ) {
+      this.href = window._cam.link(this.href);
+  }
+
+  if ( window._gat ) {
+      this.href = _gat._getTrackers()[0]._getLinkerUrl([this.href]);
+  }
+
+  return true;
+});
+</script>
+<script type="text/javascript">
+$('a.track_event').each(function() {
+  var $this = $(this);
+  $this.click(function() {
+    _cam.tracking_regist($this.attr('href'),$this.attr('title'));
+  });
+});
+</script>
+<!-- /footer -->
+<script type='text/javascript' src='http://www.aml.co.jp/wp-content/themes/aml/js/sidebar.js'></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 981021627;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript"  
+src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt=""  
+src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/981021627/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<!-- Google Code for RM_&#26412;&#12469;&#12452;&#12488; -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 872106084;
+var google_conversion_label = "K-YCCIPirmoQ5JDtnwM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/872106084/?value=1.00&amp;currency_code=JPY&amp;label=K-YCCIPirmoQ5JDtnwM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<!-- Yahoo Code for your Target List -->
+<script type="text/javascript" language="javascript">
+/* <![CDATA[ */
+var yahoo_retargeting_id = 'S9WWJNB7O8';
+var yahoo_retargeting_label = '';
+var yahoo_retargeting_page_type = '';
+var yahoo_retargeting_items = [{item_id: '', category_id: '', price: '', quantity: ''}];
+/* ]]> */
+</script>
+<script type="text/javascript" language="javascript" src="//b92.yahoo.co.jp/js/s_retargeting.js"></script>
+<script type="text/javascript" language="javascript">
+var yahoo_retargeting_id = 'OAW1WFCOPJ';
+var yahoo_retargeting_label = '';
+</script>
+<script type="text/javascript" language="javascript" src="//b92.yahoo.co.jp/js/s_retargeting.js"></script>
+<!-- Yahoo Code for your Target List -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var yahoo_ss_retargeting_id = 1000325905;
+var yahoo_sstag_custom_params = window.yahoo_sstag_params;
+var yahoo_ss_retargeting = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//s.yimg.jp/images/listing/tool/cv/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//b97.yahoo.co.jp/pagead/conversion/1000325905/?guid=ON&script=0&disvt=false"/>
+</div>
+</noscript>
+
+<script src="//lib-3pas.admatrix.jp/3pas/js/AdMatrixAnalyze.min.js"></script>
+<script type="text/javascript">
+(function(){
+    var p = (("https:" == document.location.protocol) ? "https://" : "http://"), r=Math.round(Math.random() * 10000000), rf = window.top.location.href, prf = window.top.document.referrer, i = AdMatrix.CookieUtil.sharedId();
+    document.write(unescape('%3C')+'img src="'+ p + 'acq-3pas.admatrix.jp/if/5/01/97d5af946131a1e96941267b0c0b000e.fs?cb=' + encodeURIComponent(r) + '&rf=' + encodeURIComponent(rf) +'&prf=' + encodeURIComponent(prf) + '&i=' + encodeURIComponent(i) + '" alt=""  width="1" height="1" '+unescape('%2F%3E'));
+})();
+</script>
+<noscript><img src="//acq-3pas.admatrix.jp/if/6/01/97d5af946131a1e96941267b0c0b000e.fs" alt="" width="1" height="1" /></noscript>
+<script>AdMatrix.analyze('97d5af946131a1e96941267b0c0b000e');</script>
+<script>AdMatrix.croRequest('97d5af946131a1e96941267b0c0b000e');</script>
+</body>
+</html>

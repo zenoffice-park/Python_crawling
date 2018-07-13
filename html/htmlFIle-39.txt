@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<title>エイジゲート | サッポロビール</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link rel="index contents home" href="/index.html" title="ホーム" />
+<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
+<link rel="stylesheet" type="text/css" href="../css/shared/common_function.css" media="screen,tv,projection,print" />
+<link rel="stylesheet" type="text/css" href="../css/shared/common.css" media="screen,tv,projection,print" />
+<script type="text/javascript" src="../js/shared/import.js"></script>
+<script type="text/javascript" src="../js/shared/smartphone.js"></script>
+
+<!-- local code START -->
+<link rel="stylesheet" type="text/css" href="../css/shared/agegate.css" media="screen,tv,projection,print" />
+<link rel="stylesheet" type="text/css" href="css/index.css" media="screen,tv,projection,print" />
+<!-- local code END -->
+<script type="text/javascript">
+    function getdata(){
+        if(location.search){
+            /* url */
+            var url=location.search.substring(1,location.search.length);
+			url = url.substring(7,url.length);
+			url = decodeURIComponent(url);
+            /* set to href */
+			if(url.length > 0){
+	            $("#yes a").attr("href",url);
+			}
+			var url_top = url.substring(0,url.indexOf(":")+3) + location.host + "/";
+			if(url.indexOf("ps:")<0){
+				url_top= url_top + "index.html";
+			}
+			$("#no a").attr("href",url_top);
+        }
+    }
+    window.onload=getdata;
+	function yes_click(){
+		var exp_dt="";
+		if($("#redisplay").attr('checked')){
+			// expire = 180days
+			exp_dt = 180;
+		}else{
+			// expire this session
+		}
+		var cookie_nm="";
+		var domain_nm="";
+		if(location.host.indexOf("ienaka-beer")>=0){
+                        cookie_nm = "age_auth_ib";
+                        domain_nm = "ienaka-beer.jp";
+		}else{
+			cookie_nm = "age_auth_sb";
+                        domain_nm = "sapporobeer.jp";
+		}
+		$.cookie(cookie_nm, "20", { expires: exp_dt, path: "/", domain: domain_nm });
+
+	}
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5RXGFJR');</script>
+<!-- End Google Tag Manager -->
+
+</head>
+
+<body class="campaign function login">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5RXGFJR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="sapporo-header-area">
+<div class="header">
+<div class="corporate-name"><a onclick="sc_click('agegate')" onkeypress="sc_click('agegate')" href="http://www.sapporobeer.jp/index.html" rel="home"><img src="../img/shared/base/txt_corporate-name_01.gif" width="160" height="23" alt="サッポロビール株式会社" /></a></div>
+<!-- /header --></div>
+<!-- /sapporo-header-area --></div>
+
+<div id="structure">
+
+<div class="panel-group">
+<div class="panelFull">
+<div class="panelFull-content">
+<div class="corporate-identity"><img src="img/icn_corporate-identity_01.png" width="95" height="117" alt="★SAPPORO" /></div>
+<div class="sapporo-age-authentication-block">
+<div class="sapporo-age-authentication-block__body">
+<p><img src="img/txt_01.png" width="697" height="49" alt="このサイトはアルコール関連のページであり、20歳以上の方を対象としています。あなたは20歳以上ですか？" /></p>
+<!-- /sapporo-age-authentication-block__body --></div>
+<div class="sapporo-age-authentication-block__action">
+<ul class="button-listA01">
+<li id="yes"><a href="#" class="rollover-button" onclick="yes_click()"><img src="img/btn_01.png" width="182" height="40" alt="はい"></a></li>
+<li id="no"><a href="#" class="rollover-button"><img src="img/btn_02.png" width="182" height="40" alt="いいえ（TOPページへ）"></a></li>
+</ul>
+<div class="sapporo-login-redisplay-block">
+<form>
+<label><input type="checkbox" name="redisplay" id="redisplay" value="1">20歳以上なので、次回以降このページを表示しない</label>
+</form>
+<p>このデバイスをご自身でご利用の場合はチェックを入れてください。</p>
+<!-- /sapporo-login-redisplay-block --></div>
+<!-- /sapporo-age-authentication-block__action --></div>
+<!-- /sapporo-age-authentication-block --></div>
+<!-- /panelFull-content --></div>
+<!-- /panelFull --></div>
+<!-- /panel-group --></div>
+
+<!-- /structure --></div>
+
+<div id="sapporo-footer-area">
+
+<div class="note-and-publisher">
+<div class="note-and-publisher-content">
+<div class="note">
+<p class="products-notice"><img src="../img/shared/base/icn_notice_01.gif" width="422" height="43" alt="飲酒は20歳になってから。飲酒運転は法律で禁止されています。妊娠中や授乳期の飲酒は胎児・乳児の発育に悪影響を与えるおそれがあります。お酒は楽しく適量で。飲んだあとはリサイクル。" /></p>
+<!-- /note --></div>
+<div class="publisher">
+<div class="publisher-name"><img src="../img/shared/base/txt_corporate-name_01.gif" width="160" height="23" alt="サッポロビール株式会社" /></div>
+<div class="copyright"><img src="../img/shared/base/txt_copyright_01.gif" width="227" height="11" alt="&copy;SAPPORO BREWRIES LTD. All rights reserved." /></div>
+<!-- /publisher --></div>
+<!-- /note-and-publisher-content --></div>
+<!-- /note-and-publisher --></div>
+
+<!-- /sapporo-footer-area --></div>
+
+<div id="sapporo-analysis-area">
+<script type="text/javascript">
+<!--
+if (location.protocol == 'https:') {
+	document.write('<'+'script type="text/javascript" src="https://ssl1.sapporobeer.jp/js/shared/atitag-min.js"><'+'/script>');
+} else {
+	document.write('<'+'script type="text/javascript" src="http://www.sapporobeer.jp/js/shared/atitag-min.js"><'+'/script>');
+}
+//-->
+</script>
+<noscript>
+<img width="1" height="1" alt="" src="https://logs1190.xiti.com/hit.xiti?s=470351&s2=&p=&di=&an=&ac=" />
+</noscript>
+
+
+
+<!-- User Insight PCDF Code Start : sapporobeer.jp -->
+<script type="text/javascript">
+<!--
+var uilid  = '';
+var uigr_1   = ''; var uigr_2 = ''; var uigr_3 = ''; var uigr_4 = ''; var uigr_5 = '';
+var uigr_6   = ''; var uigr_7 = ''; var uigr_8 = ''; var uigr_9 = ''; var uigr_10 = '';
+
+// DO NOT ALTER BELOW THIS LINE
+// WITHOUT F.P.C.
+
+var uiinit   = uiinit || Math.floor(Math.random() * 9000000) + 1000000;
+var uihost   = uihost || (("https:" == document.location.protocol) ? "https://bs." : "http://b02.")+"nakanohito.jp/b1/";
+document.write("<img id='id_shellfish' style='position: absolute' src='"+uihost+"?uisv=2&id=31522&mode=default&h=8345&rand="+uiinit+"&url="+encodeURIComponent(parent.document.URL)+"&ref="+encodeURIComponent(parent.document.referrer)+"&uigr_1="+encodeURIComponent(uigr_1)+"&uigr_2="+encodeURIComponent(uigr_2)+"&uigr_3="+encodeURIComponent(uigr_3)+"&uigr_4="+encodeURIComponent(uigr_4)+"&uigr_5="+encodeURIComponent(uigr_5)+"&uigr_6="+encodeURIComponent(uigr_6)+"&uigr_7="+encodeURIComponent(uigr_7)+"&uigr_8="+encodeURIComponent(uigr_8)+"&uigr_9="+encodeURIComponent(uigr_9)+"&uigr_10="+encodeURIComponent(uigr_10)+"&lv="+uilid+"&sb="+encodeURIComponent(document.title)+"&guid=ON&eflg=1' border='0' width='1' height='1' alt='' />");
+if (typeof document.documentElement.style.maxHeight != "undefined") {
+document.write('<span  style="position: absolute" id="id_bivalves"></span>'); document.write(decodeURI("%3Cscr"+"ipt src='"+uihost+"bivalves.js' charset='utf-8' type='text/javascript'%3E%3C/script%3E")); var uiLimit = 3000, uiInterval = 50, uiTime = 0; var uiLoadedId = setInterval(function(){ if ((typeof(Vesicomyid) != "undefined") && (typeof(Vesicomyid.Bivalves) != "undefined") && (typeof(Vesicomyid.Bivalves.Loaded) == "function") ) { clearInterval(uiLoadedId); try { var lb = new Vesicomyid.Bivalves(31522, uiinit); lb.host = uihost; lb.uisv = 2; lb.init(); } catch (err) { } } else if ((uiTime += uiInterval) > uiLimit) { clearInterval(uiLoadedId); } }, uiInterval);
+}
+
+//-->
+</script>
+<!-- User Insight PCDF Code End : sapporobeer.jp -->
+
+<!-- /sapporo-analysis-area --></div>
+
+</body>
+</html>

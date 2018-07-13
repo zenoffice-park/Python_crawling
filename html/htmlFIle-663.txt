@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no">
+<title>お問い合わせ| 医院の経営・開業支援サイト【自費研online】</title>
+<meta name="description" content="お問い合わせ | 集う、学ぶ、実践する。医科・歯科医師のための自由診療や医院経営のセミナー情報がみつかる自費研.jp。">
+<meta name="keywords" content="お問い合わせ,自費診療,自由診療,医院経営,セミナー,自費研">
+<meta property="og:site_name" content="">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="デフォルトのog:imageを設定">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:description" content="">
+<meta name="twitter:title" content="">
+<meta name="twitter:site" content="">
+<meta name="twitter:card" content="summary">
+<link rel="apple-touch-icon" href="../assets/img/common/apple-touch-icon.png">
+<link rel="icon" href="../assets/img/common/favicon.ico">
+<link rel="stylesheet" href="../assets/css/base.css">
+<link rel="stylesheet" href="../assets/css/layout.css">
+<link rel="stylesheet" href="../assets/css/module.css">
+<link rel="stylesheet" href="../assets/css/utility.css">
+
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WL9HW5');</script>
+<!-- End Google Tag Manager -->
+
+
+</head>
+<body class="contact">
+<!-- Facebook JavaScript SDK -->
+<div id="fb-root"></div>
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId        : '144548506267864',
+            xfbml        : true,
+            version      : 'v2.11',
+            redirect_uri : window.location.href
+        });
+        FB.AppEvents.logPageView();
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/ja_JP/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+<!-- // Facebook JavaScript SDK -->
+
+<div class="l_wrapper">
+    <!-- 入力フォーム系 class l_header__form 付与 -->
+    <header class="l_header js_gnav_wrapper l_header__form">
+        <div class="l_header_colset">
+            <div class="m_btn_hamburger u_for_sp">
+                <button type="button" name="btn_nav" class="js_gnav_btn">メニュー</button>
+            </div>
+
+            <div class="m_form_search js_search_form">
+                <form role="search" method="get" id="searchform" action="/?s=">
+                    <input type="text" value="" name="s" class="s js_search_side_txt" placeholder="記事を検索する">
+                    <input type="submit" class="searchsubmit js_search_side_submit" value="検索">
+                </form>
+            </div>
+            <!-- // .m_form__search -->
+
+            <h1 class="l_header_logo">
+                <a href="../">
+                    <img src="../assets/img/logo_jihiken01_pc.png" alt="自費診療で経営を強くする 自費研online" class="u_for_pc">
+                    <img src="../assets/img/logo_jihiken01_sp.png" alt="自費診療で経営を強くする 自費研online" class="u_for_sp">
+                </a>
+            </h1>
+
+
+                            <ul class="l_header_user js_header_modal_btns">
+                    
+                <li class="l_header_user_btn__logged_in">
+                    <button type="button" class="l_header_user_btn l_header_user_btn__login js_header_login_btn"><span>ログイン</span></button>
+                </li>
+                <li class="l_header_user_btn__logged_in u_for_pc">
+                    <button type="button" class="l_header_user_btn l_header_user_btn__regist js_header_regist_btn"><span>新規登録</span></button>
+                </li>
+                <li class="l_header_user_inner">
+                    <button type="button" class="l_header_user_btn l_header_user_btn__acount js_header_user_btn">
+                        <span class="l_header_user_btn_thumb" style="background-image: url();"></span>
+                        <span class="l_header_user_btn_name"> 様</span>
+                    </button>
+
+                    <div class="l_header_user_nav js_header_user_nav">
+                        <ul class="m_list_balloon">
+                            <li>
+                                <a href="/mypage/clip">マイクリップ</a>
+                            </li>
+                            <li>
+                                <a href="/mypage/profile">登録情報の変更</a>
+                            </li>
+                            <li class="u_for_sp2">
+                                <a href="/mypage/profile">メールアドレスの変更</a>
+                            </li>
+                            <li class="u_for_sp2">
+                                <a href="/mypage/profile">パスワードの変更</a>
+                            </li>
+                            <li>
+                                <a href="/mypage/events">セミナー申込一覧</a>
+                            </li>
+                            <li>
+                                <a href="/mypage/catalog">カタログ請求一覧</a>
+                            </li>
+                            <li>
+                                <a href="/mypage/contact">お問い合わせ</a>
+                            </li>
+                            <li>
+                                <a href="/user/logout">ログアウト</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- // .l_header_colset -->
+
+        <div class="l_header_nav_wrapper">
+            <nav class="l_header_nav js_gnav_list">
+                <ul class="l_header_nav_list">
+                    <li class="">
+                        <a href="../">
+                            <span class="u_for_pc"><img src="../assets/img/ic_home01.png" alt="トップ"></span>
+                            <span class="u_for_sp">ホーム</span>
+                        </a>
+                    </li>
+                    <li class="">
+                        <a href="../news/"><span>ニュース</span></a>
+                    </li>
+                    <li class="">
+                        <a href="../cure/"><span>治療</span></a>
+                    </li>
+                    <li class="">
+                        <a href="../management/"><span>経営</span></a>
+                    </li>
+                    <li class="">
+                        <a href="../catalog/"><span>カタログ</span></a>
+                    </li>
+                    <li class="">
+                        <a href="../equipment/"><span>海外機器・薬剤</span></a>
+                    </li>
+                    <li class="">
+                        <a href="../event/"><span>セミナー・イベント</span></a>
+                    </li>
+                    <li class="">
+                        <a href="../jobs/"><span>求人</span></a>
+                    </li>
+                </ul>
+
+                <ul class="l_header_nav_list u_for_sp">
+                                        <li>
+                        <a href="../faq/"><span>よくある質問</span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <!-- // .l_header -->
+
+
+<div class="l_content">
+    <div class="l_content_inner">
+        <section class="m_sec_form">
+            <h1 class="m_ttl8">お問い合わせ</h1>
+            <form action="/contact-compleate" method="post" id="requestForm" class="m_form js_form js_autoConfirm">
+                <p class="m_sec_form_confirm js_autoConfirm_confirm_item" style="display: none;">ご入力頂いた内容にお間違い無いようでしたら送信ボタンを押して下さい。</p>
+
+                <p class="m_sec_form_txt js_autoConfirm_input_item">
+                    お問い合わせ、ご質問、フィードバックなど、お気軽にご連絡ください。<br>
+                    また、お問い合わせの多いご質問に関しては、よくあるご質問にまとめられています。お問い合わせの前に今一度ご確認ください。
+                </p>
+
+                <div class="m_form_inner">
+                    <dl class="m_form_item is_required">
+                        <dt>お名前</dt>
+                        <dd class="js_form_item_wrapper">
+                            <input type="text" id="user_name" name="user_name" value="" maxlength="12" placeholder="全角12文字以内" autocomplete="">
+                        </dd>
+                    </dl>
+
+
+                    <dl class="m_form_item is_required">
+                        <dt>メールアドレス</dt>
+                        <dd class="js_form_item_wrapper">
+                            <input type="email" id="email" name="email" value="" placeholder="メールアドレス" autocomplete="" required="">
+                        </dd>
+                    </dl>
+
+
+                    <dl class="m_form_item is_required">
+                        <dt>お問い合わせ内容の種類</dt>
+                        <dd class="js_form_item_wrapper">
+                            <div class="m_form_selectbox">
+                                <select id="comment_type" name="comment_type" required>
+                                    <option value="">お選びください</option>
+                                    <option value="自費研メンバーズについて">自費研メンバーズについて</option>
+                                    <option value="掲載記事について">掲載記事について</option>
+                                    <option value="セミナー・イベントについて">セミナー・イベントについて</option>
+                                    <option value="カタログについて">カタログについて</option>
+                                    <option value="求人について">求人について</option>
+                                    <option value="自費研顧問Ｓについて">自費研顧問Ｓについて</option>
+                                    <option value="その他">その他</option>
+                                </select>
+                            </div>
+                        </dd>
+                    </dl>
+
+                    <dl class="m_form_item is_required">
+                        <dt>お問い合わせ内容</dt>
+                        <dd class="js_form_item_wrapper"><textarea id="comment" name="comment" required></textarea></dd>
+                    </dl>
+                </div>
+                <!-- // .m_form_inner -->
+
+                <div class="m_form_submit">
+                    <p class="m_btn"><input type="submit" name="" value="確認画面へ"></p>
+                    <p class="m_btn m_btn__sub"><input type="button" value="修正する" class="autoConfirmBack" style="display:none;"></p>
+                </div>
+            </form>
+        </section>
+    </div>
+    <!-- // .l_content_inner -->
+</div>
+<!-- // .l_content -->
+
+    <p class="m_btn_pagetop js_pagetop_btn">
+        <button type="button" name="button"><img src="../assets/img/ic_arrow01.png" alt="ページトップへ"></button>
+    </p>
+<footer class="l_footer_form">
+    <p class="l_footer_copyright2">Copyright(c) SS-Facilities Co., Ltd. All Rights Reserved.</p>
+</footer>
+<!-- // .l_footer -->
+
+
+<div class="m_sec_modal js_modal_window">
+    <div class="m_sec_modal_overlay js_modal_overlay"></div>
+
+    <div class="m_sec_modal_inner">
+        <button type="button" class="m_sec_modal_close js_modal_close"></button>
+
+        <!-- ログイン -->
+        <div class="m_sec_modal_inner2 js_modal_login">
+            <h2 class="m_sec_modal_ttl">ログイン</h2>
+            <p class="m_sec_modal_sub">アカウントをお持ちでない方は<span class="m_form_modal_btn2"><button type="button" class="js_modal_regist_btn">新規登録</button></span></p>
+
+            <!-- Facebook認証 -->
+            <p class="m_form_modal_fb">
+                <a href="/user/facebooklogin">
+                    <span class="m_form_modal_fb_ic"><img src="../assets/img/ic_fb_logo.png" alt="Facebookでログイン"></span>
+                    <span class="m_form_modal_fb_txt">Facebookでログイン</span>
+                </a>
+            </p>
+            <!-- // Facebook認証 -->
+
+            <form id="loginForm" class="m_form_modal js_form js_form_login" method="post" action="/user/login">
+                <dl class="m_form_modal_item">
+                    <dt>メールアドレスでログイン</dt>
+                    <dd class="js_form_item_wrapper"><input type="email" name="email" value="" placeholder="登録したメールアドレス" maxlength="128" autocomplete required></dd>
+                    <dd class="js_form_item_wrapper"><input type="password" name="password" value="" placeholder="パスワード" minlength="8" maxlength="20" autocomplete required></dd>
+                                                        </dl>
+                <p class="m_form_modal_btn">
+                    <input type="submit" name="" value="ログイン" class="js_form_btn_submit">
+                </p>
+                <p class="m_form_modal_btn2">
+                    <button type="button" class="js_modal_reset_btn">パスワードをお忘れの方はこちら</button>
+                </p>
+            </form>
+        </div>
+        <!-- // ログイン -->
+
+        <!-- 新規登録 -->
+        <div class="m_sec_modal_inner2 js_modal_regist">
+            <h2 class="m_sec_modal_ttl">自費研メンバーで(無料)登録</h2>
+            <p class="m_form_modal_btn3"><button type="button" class="js_modal_login_btn">既存ユーザーはこちら</button></p>
+
+            <dl class="m_list_icon">
+                <dt>メンバーズ特典</dt>
+                <dd>記事の無料購読とクリップ</dd>
+                <dd>セミナーが無料又は優待価格</dd>
+                <dd>自費診療カタログの一括資料請求</dd>
+            </dl>
+
+            <!-- Facebook認証 -->
+            <p class="m_form_modal_fb">
+                <a href="/user/facebookregist">
+                    <span class="m_form_modal_fb_ic"><img src="../assets/img/ic_fb_logo.png" alt="Facebookで新規登録"></span>
+                    <span class="m_form_modal_fb_txt">Facebookで新規登録</span>
+                </a>
+            </p>
+            <!-- // Facebook認証 -->
+
+            <form id="registForm" class="m_form_modal js_form js_form_regist" method="POST" action="/user/register">
+                <dl class="m_form_modal_item">
+                    <dt>メールアドレスで登録</dt>
+                    <dd class="js_form_item_wrapper"><input type="email" name="email" value="" placeholder="登録するメールアドレス" maxlength="128" autocomplete required></dd>
+                    <dd class="js_form_item_wrapper"><input type="password" name="password" value="" placeholder="パスワード(8文字以上20文字以内)" minlength="8" maxlength="20" autocomplete required></dd>
+                </dl>
+                <p class="m_form_modal_btn">
+                    <input type="submit" name="" value="はじめる" class="js_form_btn_submit">
+                </p>
+            </form>
+        </div>
+        <!-- // 新規登録 -->
+
+        <!-- パスワード再設定 -->
+        <div class="m_sec_modal_inner2 js_modal_reset">
+            <h2 class="m_sec_modal_ttl">パスワードをお忘れの方</h2>
+
+            <form id="resetForm" class="m_form_modal js_form js_form_reset" method="POST" action="/user/reset-pass">
+                <dl class="m_form_modal_item">
+                    <dt>メールアドレス</dt>
+                    <dd class="js_form_item_wrapper"><input type="email" name="email" value="" placeholder="登録したメールアドレス" maxlength="128" autocomplete required></dd>
+                </dl>
+                <p class="m_form_modal_txt">ご登録したメールアドレスを入力ください。パスワードを再設定するためのURLをお送りいたします。</p>
+                <p class="m_form_modal_btn">
+                    <input type="submit" name="" value="送信する" class="js_form_btn_submit">
+                </p>
+            </form>
+        </div>
+        <!-- // パスワード再設定 -->
+
+        <!-- パスワード再設定 送信完了 -->
+        <div class="m_sec_modal_inner2 js_modal_sent">
+            <h2 class="m_sec_modal_ttl">パスワードをお忘れの方</h2>
+
+            <div id="sentForm" class="m_form_modal js_form_sent">
+                <p class="m_form_modal_txt2">パスワードを再設定するためのURLをお送りしました。24時間以内にパスワードの再設定を行って下さい。</p>
+            </div>
+        </div>
+        <!-- // パスワード再設定 -->
+
+        <!-- Clip -->
+        <div class="m_sec_modal_inner2 js_modal_comment_edit">
+            <h2 class="m_sec_modal_ttl">Clipを上書きしてもよろしいですか？</h2>
+
+            <form class="m_form_modal js_comment_stored_form" method="post" action="">
+                <p class="m_form_modal_txt m_form_modal_txt__center">すでにPickしたことがあるニュースです。<br>再度Pickするとコメントが上書きされます。</p>
+                <div class="m_form_modal_stored js_clip_edit_stored">
+                    <input type="hidden" name="" class="js_comment_stored_item_txt">
+                </div>
+                <p class="m_form_modal_btn">
+                    <input type="submit" name="" value="上書きしてClipする" class="js_form_btn_submit js_comment_share_fb">
+                </p>
+            </form>
+        </div>
+        <!-- // Clip -->
+
+        <!-- Clip -->
+        <div class="m_sec_modal_inner2 js_modal_comment_del">
+            <h2 class="m_sec_modal_ttl">Clipを削除してもよろしいですか？</h2>
+
+            <form class="m_form_modal js_comment_stored_form" method="post" action="">
+                <p class="m_form_modal_txt m_form_modal_txt__center">Clipを削除すると元に戻すことは出来ません。</p>
+                <div class="m_form_modal_stored js_clip_edit_stored">
+                    <input type="hidden" name="">
+                </div>
+                <p class="m_form_modal_btn">
+                    <input type="submit" name="" value="Clipを削除する" class="js_form_btn_submit">
+                </p>
+            </form>
+        </div>
+        <!-- // Clip -->
+
+    </div>
+    <!-- // .m_sec_modal_inner -->
+
+</div>
+<!-- // .m_sec_modal -->
+
+
+</div>
+<!-- // .l_wrap -->
+
+<script src="../assets/js/libs/jquery-1.8.3.min.js"></script>
+
+<script src="../assets/js/libs/jquery.ba-hashchange.min.js"></script>
+<script src="../assets/js/libs/autoConfirm.js"></script>
+
+<script src="../assets/js/libs/jquery.jpostal.js"></script>
+
+<script src="../assets/js/libs/validate/jquery.validate.min.js"></script>
+<script src="../assets/js/libs/validate/additional-methods.min.js"></script>
+<script src="../assets/js/libs/validate/localization/messages_ja.js"></script>
+<script src="../assets/js/libs/exif.js"></script>
+<script src="../assets/js/common.js?20180226"></script>
+
+<script type="text/javascript">
+    (function () {
+        $(window).on('load',function(){
+            $('#product').click();
+        });
+    })();
+</script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WL9HW5"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- YTM 2014.3.19 -->
+<script type="text/javascript">
+    (function () {
+        var tagjs = document.createElement("script");
+        var s = document.getElementsByTagName("script")[0];
+        tagjs.async = true;
+        tagjs.src = "//s.yjtag.jp/tag.js#site=8a8NzME";
+        s.parentNode.insertBefore(tagjs, s);
+    }());
+</script>
+<noscript>
+    <iframe src="//b.yjtag.jp/iframe?c=8a8NzME" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+<!-- /2014.3.19 -->
+
+
+</body>
+</html>

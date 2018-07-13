@@ -1,0 +1,765 @@
+<!doctype html>
+<html lang="ja-jp" dir="ltr" itemscope itemtype="http://schema.org/Article">
+<head>
+  <meta charset="utf-8" />
+  <base href="https://www.arista.com/jp/contact" />
+  <meta http-equiv="x-ua-compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="handheldfriendly" content="true" />
+  <meta name="apple-mobile-web-app-capable" content="YES" />
+  <meta name="rating" content="General" />
+  <meta name="classification" content="General" />
+  <meta name="distribution" content="Global" />
+  <meta name="audience" content="All" />
+  <meta name="revisit-after" content="1 days" />
+  <meta name="author" content="Arista Networks" />
+  <meta name="publisher" content="Arista Networks" />
+  <meta name="robots" content="All" />
+  <meta name="description" content="Arista Networks was founded to pioneer and deliver software-driven cloud networking solutions for large data center storage and computing environments. Arista’s award-winning platforms, ranging in Ethernet speeds from 10 to 100 gigabits per second," />
+  <title> Software Driven Cloud Networking - Arista</title>
+  <link href="https://www.arista.com/jp/" rel="canonical" />
+  <link href="/templates/arista_v2/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/templates/arista_v2/css/bs337.min.css?v=1524283288" />
+  <link rel="stylesheet" href="/templates/arista_v2/css/anH5Set.css?v=1524283288" />
+  <link rel="stylesheet" href="/templates/arista_v2/css/anLayout.css?v=1530096477" />
+  <link rel="stylesheet" href="/templates/arista_v2/css/anStyle.css?v=1529304248" />
+  <link rel="stylesheet" href="/templates/arista_v2/css/anRespo.css??v=1529306175" />
+  <link rel="stylesheet" href="/custom_ui/css/jqueryUi-1.10.4.css?v=1522948259" />
+  <script src="/media/system/js/mootools-core.js"></script>
+  <script src="/media/system/js/core.js"></script>
+  <script src="/media/jui/js/jquery.min.js"></script>
+  <script src="/media/jui/js/jquery-noconflict.js"></script>
+  <script src="/media/jui/js/jquery-migrate.min.js"></script>
+  <script src="/templates/arista_v2/js/jq331.min.js?v=1524283288"></script>
+  <script src="/templates/arista_v2/js/bs337.min.js?v=1524283288"></script>
+  <script src="/templates/arista_v2/js/cb164.min.js?v=1524283288"></script>
+  <script src="/templates/arista_v2/js/anScript.js?v=1524283288"></script>
+  <script src="/templates/arista_v2/js/anLangPrefix.js?v=1524283288"></script>
+  <script src="/templates/arista_v2/js/anBrowserCheck.js?v=1524283288"></script>
+  <script src="/custom_ui/js/jqueryUi-1.10.4.min.js?v=1520261210"></script>
+  <script src="/templates/arista_v2/js/anBannerSlider.js?v=1530096487"></script>
+  <meta property="og:type" content="article"/>
+  <meta property="og:url" content="https://www.arista.com/jp/contact"/>
+  <meta property="og:site_name" content="Arista Networks"/>
+  <meta property="og:title" content="Software Driven Cloud Networking - Arista" />
+  <meta property="og:description" content="Arista Networks was founded to pioneer and deliver software-driven cloud networking solutions for large data center storage and computing environments. Arista’s award-winning platforms, ranging in Ethernet speeds from 10 to 100 gigabits per second,"/>
+  <meta property="og:image" content="https://www.arista.com/assets/images/logo/arista_logo_blue_bg_500x280.jpg"/>
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="https://www.arista.com/jp/contact">
+  <meta name="twitter:site" content="@AristaNetworks">
+  <meta name="twitter:title" content="Software Driven Cloud Networking - Arista">
+  <meta name="twitter:description" content="Arista Networks was founded to pioneer and deliver software-driven cloud networking solutions for large data center storage and computing environments. Arista’s award-winning platforms, ranging in Ethernet speeds from 10 to 100 gigabits per second,">
+  <meta name="twitter:image" content="https://www.arista.com/assets/images/logo/arista_logo_blue_bg_500x280.jpg">
+  <meta itemprop="headline" content="Software Driven Cloud Networking - Arista">
+  <meta itemprop="description" content="Arista Networks was founded to pioneer and deliver software-driven cloud networking solutions for large data center storage and computing environments. Arista’s award-winning platforms, ranging in Ethernet speeds from 10 to 100 gigabits per second,">
+  <meta itemprop="image" content="https://www.arista.com/assets/images/logo/arista_logo_blue_bg_500x280.jpg"> 
+  <meta itemprop="datePublished" content="2018-07-12 07:07:51">
+
+<!--[if lt IE 9]><script src="/media/jui/js/html5.js"></script><![endif]-->
+<script>
+    jq = jQuery.noConflict();
+    jq(document).ready(function(){
+        setLangFile('ja-JP');
+        browserSupport();
+
+                googleEventTrack('Home');
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-11521293-2', 'auto');
+        ga('require', 'linkid', 'linkid.js');
+        ga('send', 'pageview');
+            });
+</script>
+</head>
+
+<body id="pgHome" class="com-frontpage-manager view-frontpage-managers">
+<div id="bodyContainer">
+    <header id="headerContainer">
+        <div id="toolbarArea">
+            <div id="toolbarWrap">
+                <div class="toolbar">
+                                        <div class="toolbar-item ">
+  
+<div id="searchArea">
+    <a href="javascript:void(0);" role="button"> <i id="searchBtn" class="icon24-search"></i></a>
+    <div class="search-box" style="display:none; ">
+        <form id="cludo-japanese-search">
+            <input name="cludosearch" class="inputbox" placeholder="Search" value="" type="search">
+        </form>
+    </div>
+    <!-- /search-box -->
+</div>
+<!-- /searchArea -->
+
+<script>
+jQuery(document).ready(function() {
+    jQuery(".search-box .inputbox").val('');
+    jQuery('.search-results').bind("DOMSubtreeModified",function() {
+        jQuery(".search-box .inputbox").val('');
+    });
+
+});
+</script>
+
+</div>
+
+                                        <!-- /position-0 -->
+                    
+                                        <div id="userNav" class="toolbar-item">
+                                                <a href="/login"><i class="icon24-login"></i></a>
+                        <div class="mob-off">
+                        	
+<ul class="nav menu">
+      <li class="login"><a  href="/jp/login"><span>Login</span></a></li>
+</ul>
+<!-- /nav -->
+                         </div>
+                                            </div>
+                                        <!-- /userNav -->
+                    
+                    <div class="toolbar-item">
+                        <a href="https://eos.arista.com" title="EOS Central" data-toggle="tooltip"><i class="icon24-blog"></i><span  class="mob-off">EOS Central</span></a>
+                    </div>
+                                        <div class="toolbar-item ">
+  
+<div class="dropdown" id="langFilterBox"> 
+		<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> 
+		<i id="langFlag" class="icon24-ja"></i> <span class="mob-off">日本語</span>
+	</a>
+	<ul class="dropdown-menu dropdown-menu-right">
+				<li  >
+        	<a href="/en/"><i class="icon24-us"></i> English</a>
+        </li>
+				<li class="active" >
+        	<a href="/jp/"><i class="icon24-ja"></i> 日本語</a>
+        </li>
+				<li  >
+        	<a href="/zh/"><i class="icon24-zh"></i> 中文</a>
+        </li>
+				<li  >
+        	<a href="/ko/"><i class="icon24-ko"></i> 한국어</a>
+        </li>
+			</ul>
+</div>
+<!-- /langFilterBox --> 
+
+
+</div>
+
+                                    </div>
+                <!-- /toolbar --> 
+            </div>
+            <!-- /toolbarWrap --> 
+        </div>
+        <!-- /toolbarArea -->
+        
+        <div id="headerWrap">
+            <div id="siteLogo">
+                <a href="/" title="Arista"><img src="/templates/arista_v2/img/logo_arista.png" alt="Arista"></a>
+            </div>
+                        <nav id="globalNav" role="navigation" class="navbar navbar-default">
+                <div class="navbar-header">  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+    <span class="sr-only">Toggle Navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+</div>
+<div id="navbar" class="navbar-collapse collapse">
+  
+<ul class="nav menu">
+      <li class="tml-head-solutions deeper parent nav-heading">
+<a href="javascript:void(0);"><span>ソリューション</span></a>
+  <ul class="navChild">
+  <li class="tml-cloud-networking-solutions"><a  href="/jp/solutions/cloud-networking"><span>クラウド・ネットワーキング</span></a></li>
+  <li class="tml-routing"><a  href="/jp/solutions/cloud-scale-routing"><span>Cloud-Grade Routing</span></a></li>
+  <li class="tml-high-frequency-trading"><a  href="/jp/solutions/high-frequency-trading"><span>高頻度トレーディング</span></a></li>
+  <li class="tml-hybrid-cloud"><a  href="/jp/solutions/hybrid-cloud"><span>Hybrid Cloud</span></a></li>
+  <li class="tml-big-data"><a  href="/jp/solutions/big-data"><span>IPストレージとビッグ・データ</span></a></li>
+  <li class="tml-media-entertainment"><a  href="/jp/solutions/media-entertainment"><span>メディアとエンターテイメント</span></a></li>
+  <li class="tml-security"><a  href="/jp/solutions/security"><span>セキュリティ</span></a></li>
+  <li class="tml-tap-aggregation"><a  href="/jp/solutions/tap-aggregation"><span>TAPアグリゲーション</span></a></li>
+  <li class="tml-telemetry-analytics"><a  href="/jp/solutions/telemetry-analytics"><span>テレメトリと分析</span></a></li>
+</ul>
+</li>
+  <li class="tml-head-products deeper parent nav-heading">
+<a href="javascript:void(0);"><span>製品</span></a>
+  <ul class="navChild">
+  <li class="tml-product-overview"><a  href="/jp/products"><span>製品の概要</span></a></li>
+  <li class="tml-eos-sdn"><a  href="/jp/products/eos"><span>EOS</span></a></li>
+  <li class="tml-eos-cloudvision"><a  href="/jp/products/eos/eos-cloudvision"><span>CloudVision</span></a></li>
+  <li class="tml-switches deeper parent"><a  href="/jp/products/platforms"><span>プラットフォーム</span></a>
+  <ul class="navChild">
+  <li class="tml-7500-series"><a  href="/jp/products/7500r-series"><span>7500 シリーズ</span></a></li>
+  <li class="tml-7300-series"><a  href="/jp/products/7300-series"><span>7300 シリーズ</span></a></li>
+  <li class="tml-7280e-series"><a  href="/jp/products/7280r-series"><span>7280 シリーズ</span></a></li>
+  <li class="tml-7250x-series"><a  href="/jp/products/7250x-series"><span>7250X シリーズ</span></a></li>
+  <li class="tml-7170-series"><a  href="/jp/products/7170-series"><span>7170 シリーズ  </span></a></li>
+  <li class="tml-7160-series"><a  href="/jp/products/7160-series"><span>7160 シリーズ</span></a></li>
+  <li class="tml-7150-series"><a  href="/jp/products/7150-series"><span>7150 シリーズ</span></a></li>
+  <li class="tml-7060x-series"><a  href="/jp/products/7060x-series"><span>7060X シリーズ</span></a></li>
+  <li class="tml-7050-series"><a  href="/jp/products/7050x3-series"><span>7050X シリーズ </span></a></li>
+  <li class="tml-7020r-series"><a  href="/jp/products/7020r-series"><span>7020R シリーズ</span></a></li>
+  <li class="tml-7010-series"><a  href="/jp/products/7010-series"><span>7010 シリーズ</span></a></li>
+</ul>
+</li>
+  <li class="tml-transceivers-cables"><a  href="/jp/products/transceivers-cables"><span>トランシーバー&amp;ケーブル</span></a></li>
+</ul>
+</li>
+  <li class="tml-head-partner deeper parent nav-heading">
+<a href="javascript:void(0);"><span>パートナー</span></a>
+  <ul class="navChild">
+  <li class="tml-partner-program"><a  href="/jp/partner/partner-program"><span>パートナー・プログラム</span></a></li>
+  <li class="tml-partner-registration"><a  href="/jp/partner/partner-registration"><span>パートナー登録</span></a></li>
+  <li class="tml-partner-portal"><a  href="/jp/partner/partner-portal"><span>チャネル・パートナー・ポータル</span></a></li>
+  <li class="tml-technology-partners"><a  href="/jp/partner/technology-partners"><span>技術パートナー</span></a></li>
+</ul>
+</li>
+  <li class="tml-head-support deeper parent nav-heading">
+<a href="javascript:void(0);"><span>サポート</span></a>
+  <ul class="navChild">
+  <li class="tml-support-overview"><a  href="/jp/support"><span>サポートの概要</span></a></li>
+  <li class="tml-customer-support"><a  href="/jp/support/customer-support"><span>お客さまサポート</span></a></li>
+  <li class="tml-product-documentation"><a  href="/jp/support/product-documentation"><span>製品資料</span></a></li>
+  <li class="tml-advisories-notices"><a  href="/jp/support/advisories-notices"><span>報告とお知らせ</span></a></li>
+  <li class="tml-software-download"><a  href="/jp/support/software-download"><span>ソフトウェア・ダウンロー</span></a></li>
+  <li class="tml-customer-portal"><a  href="/jp/support/customer-portal"><span>お客さまポータル</span></a></li>
+  <li class="tml-hands-on-training"><a  href="/jp/support/hands-on-training"><span>トレーニング</span></a></li>
+  <li class="tml-software-bug-portal"><a  href="/jp/support/software-bug-portal"><span>ソフトウェア・バグ・ポータル</span></a></li>
+</ul>
+</li>
+  <li class="tml-head-company deeper parent nav-heading">
+<a href="javascript:void(0);"><span>会社</span></a>
+  <ul class="navChild">
+  <li class="tml-overview"><a  href="/jp/company/company-overview"><span>概要</span></a></li>
+  <li class="tml-management-team"><a  href="/jp/company/management-team"><span>経営チーム</span></a></li>
+  <li class="fml-blogs nav-url"><a  href="/blogs" target="_blank"><span>ブログ</span></a></li>
+  <li class="tml-investor-relations-2 nav-url"><a  href="http://investors.arista.com/"><span>投資家向け広報</span></a></li>
+  <li class="tml-events"><a  href="/jp/company/news/events"><span>イベント</span></a></li>
+  <li class="tml-video-library"><a  href="/jp/company/news/video-library"><span>動画ライブラリー</span></a></li>
+  <li class="tml-testimonials"><a  href="/jp/company/customer-testimonials"><span>実績</span></a></li>
+  <li class="tml-careers"><a  href="/jp/careers"><span>採用情報</span></a></li>
+  <li class="tml-news"><a  href="/jp/company/news"><span>ニュース</span></a></li>
+  <li class="tml-contact-us"><a  href="/jp/company/contact-us"><span>お問い合わせ</span></a></li>
+</ul>
+</li>
+</ul>
+<!-- /nav -->
+</div>
+
+            </nav>
+            <!-- /globalNav -->
+                    </div>
+        <!-- /headerWrap --> 
+    </header>
+    <!-- /headerContainer -->
+    
+    <div  id="bannerContainer">
+        <div id="bannerSlider">
+                        <!-- /topSubMenu -->
+            
+                        
+<ul class="bannerWrap autoplay sliderWrap">
+        <li  class="selected"  style="background-image: url('/assets/images/banner/home/7170-Platform-Banner.jpg');" >
+        <div class="slider-item txt-white">
+            <div class="slider-hw">
+                                <h1 class="main-head">Introducing the 7170 Series</h1>
+                                                <h2 class="sub-head">Programmable Multi-function Platform for Cloud Networking</h2>
+                                                <div class="ctaBox">
+                                        <a href="https://www.arista.com/en/company/news/press-release/5148-pr-20180605" class="  btn-an"  target="_parent" >Read Release</a>
+                                        <a href="https://www.arista.com/en/products/7170-series" class=" btn-cta btn-an"  target="_parent" >Learn More</a>
+                                    </div>
+                            </div>
+                        <div class="slider-hw slider-mob-off"> <img src="/assets/images/banner/home/7170-Top-Stack.png" alt=""> </div>
+                    </div>
+        <!-- /slider-item --> 
+    </li>
+        <li  style="background-image: url('/assets/images/banner/home/Cognitive-Cloud-Banner1.jpg');" >
+        <div class="slider-item txt-white">
+            <div class="slider-hw">
+                                <h1 class="main-head">Cognitive Cloud Networking </h1>
+                                                <h2 class="sub-head">for the Enterprise Campus</h2>
+                                                <div class="ctaBox">
+                                        <a href="https://www.arista.com/en/company/news/press-release/4608-pr-20180507" class="  btn-an"  target="_parent" >View Release</a>
+                                        <a href="https://www.arista.com/en/solutions/cognitive-campus" class=" btn-cta btn-an"  target="_parent" >Learn More</a>
+                                    </div>
+                            </div>
+                        <div class="slider-hw slider-mob-off"> <img src="/assets/images/banner/home/CognitiveCloud-Half.png" alt=""> </div>
+                    </div>
+        <!-- /slider-item --> 
+    </li>
+        <li  style="background-image: url('/assets/images/banner/home/20180328/Forrester-Hompage-Banner.jpg');" >
+        <div class="slider-item txt-blue">
+            <div class="slider-hw">
+                                <h1 class="main-head">Arista Recognized As A Leader</h1>
+                                                <h2 class="sub-head">The Forrester Wave™: Hardware Platforms For SDN</h2>
+                                                <div class="ctaBox">
+                                        <a href="https://reprints.forrester.com/#/assets/2/327/RES136622/reports" class="  btn-an"  target="_blank" >Download Report</a>
+                                    </div>
+                            </div>
+                        <div class="slider-hw slider-mob-off"> <img src="/assets/images/banner/home/Forrester-Homepage-HalfBanner2.png" alt=""> </div>
+                    </div>
+        <!-- /slider-item --> 
+    </li>
+        <li  style="background-image: url('/assets/images/banner/home/20180328/Glassdoor-Homepage-Banner.jpg');" >
+        <div class="slider-item txt-white">
+            <div class="slider-hw">
+                                <h1 class="main-head">An Award Winning Place To Work</h1>
+                                                <h2 class="sub-head">Industry Recognition</h2>
+                                                <div class="ctaBox">
+                                        <a href="/en/careers" class="  btn-an"  target="_parent" >Careers at Arista</a>
+                                        <a href="/en/company/company-overview" class=" btn-cta btn-an"  target="_parent" >About Arista</a>
+                                    </div>
+                            </div>
+                        <div class="slider-hw slider-mob-off"> <img src="/assets/images/banner/home/Awards-Homepage-HalfBanner1.png" alt=""> </div>
+                    </div>
+        <!-- /slider-item --> 
+    </li>
+        <li  style="background-image: url('/assets/images/banner/home/ProductMatrix_Banner_June2018.jpg');" >
+        <div class="slider-item txt-white">
+            <div class="slider-fw">
+                                                                <div class="ctaBox">
+                                    </div>
+                            </div>
+                    </div>
+        <!-- /slider-item --> 
+    </li>
+    </ul>
+<!-- /sliderWrap -->
+<div id="sliderNav">
+    <nav>
+        <ul>
+            <li  class="selected" ><a href="#">1</a></li><li ><a href="#">2</a></li><li ><a href="#">3</a></li><li ><a href="#">4</a></li><li ><a href="#">5</a></li>        </ul>
+    </nav>
+</div>
+<!-- /sliderNav --> 
+
+                    </div>
+        <!-- /bannerSlider -->
+        
+                <!-- /rightSubMenu --> 
+    </div>
+    <!-- /bannerContainer -->
+    
+    <div id="dataContainer">
+        <div id="dataContainerBg">&nbsp;</div>
+        <div id="dataArea">
+            <div class="dataTabBg">&nbsp;</div>
+            <div  id="dataWrap">
+                <div class="dataTabBg">&nbsp;</div>
+                                <!-- /position-left -->
+                
+                <main id="contentWrap" role="main">
+                    
+<div id="system-message-container">
+<div id="system-message">
+</div>
+</div>
+                    
+                    
+<div id="frontPageData">
+    <div id="dataTopRow" class="clearfix">
+        <div class="colmL">
+                        <div id="spotlightBox">
+                                <h3>スポットライト</h3>
+                <h4>Arista 7170 Series Programmable Platform Hugh Holbrook and Nick McKeown</h4>
+                <div class="leading-item spot-box">
+                    <div class="leading-pic">
+                        <a  target="_blank" rel="lightBox"  href="https://www.youtube.com/embed/Yzw1xyA9cts?rel=0&wmode=transparent" title="Arista 7170 Series Programmable Platform Hugh Holbrook and Nick McKeown" class= "youtube">
+                            <img src="/assets/images/home/7170-Homepage-Video.jpg" alt="Arista 7170 Series Programmable Platform Hugh Holbrook and Nick McKeown">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- /spotlightBox -->
+
+                        <div id="newsBox" class="spot-box sopt-list">
+                <h3 class="hr-line"><span>新着情報</span><hr></h3>
+                                <div class="sopt-item">
+                    <div class="sopt-pic">
+                        <img src="/assets/images/home/X3-Release-Homepage.jpg" alt="アリスタネットワークス、クラウド・ネットワーキング向けの新たな多機能プラットフォームを発表">
+                    </div>
+                    <div class="sopt-desc">
+                        <p>アリスタネットワークス、クラウド・ネットワーキング向けの新たな多機能プラットフォームを発表</p>
+                        <label class="read-more">
+                            <a  target="_parent"  href="/jp/company/news/press-release/5428-jp-pr-20180605" title="アリスタネットワークス、クラウド・ネットワーキング向けの新たな多機能プラットフォームを発表">
+                                続きを読む                            </a>
+                        </label>
+                    </div>
+                </div>
+                                <div class="sopt-item">
+                    <div class="sopt-pic">
+                        <img src="/assets/images/home/Cognitive-Cloud-PR.jpg" alt="アリスタネットワークス、キャンパス向けコグニティブ・クラウド・ネットワーキングを発表">
+                    </div>
+                    <div class="sopt-desc">
+                        <p>アリスタネットワークス、キャンパス向けコグニティブ・クラウド・ネットワーキングを発表</p>
+                        <label class="read-more">
+                            <a  target="_parent"  href="/jp/company/news/press-release/5128-jp-pr-20180507" title="アリスタネットワークス、キャンパス向けコグニティブ・クラウド・ネットワーキングを発表">
+                                続きを読む                            </a>
+                        </label>
+                    </div>
+                </div>
+                                <div class="sopt-item">
+                    <div class="sopt-pic">
+                        <img src="/assets/images/home/Financial-PR-Homepage.jpg" alt="アリスタネットワークス、2018年第1四半期の業績を発表">
+                    </div>
+                    <div class="sopt-desc">
+                        <p>アリスタネットワークス、2018年第1四半期の業績を発表</p>
+                        <label class="read-more">
+                            <a  target="_parent"  href="/jp/company/news/press-release/5127-jp-pr-20180503" title="アリスタネットワークス、2018年第1四半期の業績を発表">
+                                続きを読む                            </a>
+                        </label>
+                    </div>
+                </div>
+                            </div>
+            <!-- /newsBox -->
+        </div>
+        <!-- /colmL -->
+         
+        <div class="colmR">
+                        <div id="featureBox" class="spot-box sopt-list">
+                <h3 class="hr-line"><span>お知らせ</span><hr></h3>
+                <div class="leading-item">
+                    <div class="leading-pic">
+                        <img src="/assets/images/home/7170-Blog-Homepage.jpg" alt="Jayshree's Blog: Universal Cloud Networking with Arista 7170">
+                    </div>
+                    <div class="leading-desc">
+                        <p>Jayshree's Blog: Universal Cloud Networking with Arista 7170</p>
+                        <label class="read-more">
+                            <a  target="_parent"  href="https://blogs.arista.com/blog/universal-cloud-networking-7170" title="Jayshree's Blog: Universal Cloud Networking with Arista 7170">
+                                続きを読む                            </a>
+                        </label>
+                    </div>
+                </div>
+                <!-- /leading-item -->
+            
+                                                <div class="sopt-item">
+                    <div class="sopt-pic">
+                        <img src="/assets/images/home/Cognitive-Blog-KD.jpg" alt="Ken Duda's Blog: CloudVision: A Cognitive Management Plane">
+                    </div>
+                    <div class="sopt-desc">
+                        <p>Ken Duda's Blog: CloudVision: A Cognitive Management Plane</p>
+                        <label class="read-more">
+                            <a  target="_parent"  href="https://blogs.arista.com/blog/cloudvision-cognitive-management-plane" title="Ken Duda's Blog: CloudVision: A Cognitive Management Plane">
+                                続きを読む                            </a>
+                        </label>
+                    </div>
+                </div>
+                                <div class="sopt-item">
+                    <div class="sopt-pic">
+                        <img src="/assets/images/home/AristaAdvantage-WP-Homepage.jpg" alt="The Arista Advantage">
+                    </div>
+                    <div class="sopt-desc">
+                        <p>The Arista Advantage</p>
+                        <label class="read-more">
+                            <a  target="_parent"  href="/assets/data/pdf/Whitepapers/Arista_Advantage.pdf" title="The Arista Advantage">
+                                続きを読む                            </a>
+                        </label>
+                    </div>
+                </div>
+                                <div class="sopt-item">
+                    <div class="sopt-pic">
+                        <img src="/assets/images/home/ForresterWave-News-Homepage.jpg" alt="Arista cited as a leader in The Forrester Wave">
+                    </div>
+                    <div class="sopt-desc">
+                        <p>Arista cited as a leader in The Forrester Wave</p>
+                        <label class="read-more">
+                            <a  target="_parent"  href="https://reprints.forrester.com/#/assets/2/327/RES136622/reports" title="Arista cited as a leader in The Forrester Wave">
+                                続きを読む                            </a>
+                        </label>
+                    </div>
+                </div>
+                                <div class="sopt-item">
+                    <div class="sopt-pic">
+                        <img src="/assets/images/home/QRG-Homepage.jpg" alt="Arista Products Quick Reference Guide">
+                    </div>
+                    <div class="sopt-desc">
+                        <p>Arista Products Quick Reference Guide</p>
+                        <label class="read-more">
+                            <a  target="_parent"  href="https://www.arista.com/assets/data/pdf/AristaProductQuickReferenceGuide.pdf" title="Arista Products Quick Reference Guide">
+                                続きを読む                            </a>
+                        </label>
+                    </div>
+                </div>
+                            </div>
+            <!-- /featureBox -->
+            
+            <div id="spotExpand"><a href="#">Expand</a></div>
+        </div>
+        <!-- /colmR -->
+    </div>
+    <!-- /dataTopRow -->
+    
+    <div id="dataMidRow" class="clearfix colmF spot-box" style="display:none">
+        <div class="colmL">
+            <div class="sopt-list">
+                                <div class="featured-video leading-item">
+                    <div class="leading-pic">
+                    	<a  target="_blank" rel="lightBox"  href="https://www.youtube.com/embed/YXVVkdHZ6KI?rel=0&wmode=transparent" title="Arista Networks Introducing the Cognitive Campus" class= "youtube">
+                        	<img src="/assets/images/home/Cognitive-Campus-Network-Homepage-2.jpg" alt="Arista Networks Introducing the Cognitive Campus">
+                        </a>
+                    </div>
+                    <div class="leading-desc">
+                        <p>Arista Networks Introducing the Cognitive Campus</p>
+                                                <label class="read-more">
+                            <a  target="_blank" rel="lightBox"  href="https://www.youtube.com/embed/YXVVkdHZ6KI?rel=0&wmode=transparent" title="Arista Networks Introducing the Cognitive Campus" class= "youtube">
+                            時計</a>
+                        </label>
+                    </div>
+                </div>
+                <!-- /leading-item -->
+            
+                                <div class="sopt-item">
+                    <div class="sopt-pic">
+                        <img src="/assets/images/home/Events-Homepage.jpg" alt="Events and Trade Shows 2018">
+                    </div>
+                    <div class="sopt-desc">
+                        <p>Events and Trade Shows 2018</p>
+                        <label class="read-more">
+                            <a  target="_parent"  href="https://www.arista.com/en/company/news/events" title="Events and Trade Shows 2018">
+                                続きを読む                            </a>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /colmL -->
+    
+        <div class="colmR">
+            <div class="sopt-list">
+                                                <div class="sopt-item">
+                    <div class="sopt-pic">
+                        <img src="/assets/images/home/TechTalk-NetOps-Webinar-Homepage.jpg" alt="Tech Talk: Simplifying NetOps with Arista EOS and CloudVision">
+                    </div>
+                    <div class="sopt-desc">
+                        <p>Tech Talk: Simplifying NetOps with Arista EOS and CloudVision</p>
+                        <label class="read-more">
+                            <a  target="_parent"  href="https://www.arista.com/en/5435-tech-talk-netops-with-eos-cloudvision" title="Tech Talk: Simplifying NetOps with Arista EOS and CloudVision">
+                                続きを読む                            </a>
+                        </label>
+                    </div>
+                </div>
+                                <div class="sopt-item">
+                    <div class="sopt-pic">
+                        <img src="/assets/images/home/Legal-Update-Homepage.jpg" alt="Arista Legal Update - June 27, 2018">
+                    </div>
+                    <div class="sopt-desc">
+                        <p>Arista Legal Update - June 27, 2018</p>
+                        <label class="read-more">
+                            <a  target="_parent"  href="https://investors.arista.com/legal-proceedings/default.aspx" title="Arista Legal Update - June 27, 2018">
+                                続きを読む                            </a>
+                        </label>
+                    </div>
+                </div>
+                                <div class="sopt-item">
+                    <div class="sopt-pic">
+                        <img src="/assets/images/home/ESG-TestReport-Homepage.jpg" alt="ESG Test Report">
+                    </div>
+                    <div class="sopt-desc">
+                        <p>ESG Test Report</p>
+                        <label class="read-more">
+                            <a  target="_parent"  href="https://www.arista.com/assets/data/pdf/ESGLabReview_AristaNetworks%20_March2016.pdf" title="ESG Test Report">
+                                続きを読む                            </a>
+                        </label>
+                    </div>
+                </div>
+                                <div class="sopt-item">
+                    <div class="sopt-pic">
+                        <img src="/assets/images/home/CloudVision-WP-Homepage.jpg" alt="Arista EOS CloudVision — Cloud Automation for Everyone">
+                    </div>
+                    <div class="sopt-desc">
+                        <p>Arista EOS CloudVision — Cloud Automation for Everyone</p>
+                        <label class="read-more">
+                            <a  target="_parent"  href="https://www.arista.com/en/products/arista-eos-cloud-vision" title="Arista EOS CloudVision — Cloud Automation for Everyone">
+                                続きを読む                            </a>
+                        </label>
+                    </div>
+                </div>
+                            </div>
+        </div>
+        <!-- /colmR -->
+    </div>
+    <!-- /dataMidRow -->
+    
+    <div id="dataFootRow" class="clearfix">
+                        <div class="colmL highlight-box" style="background-image: url('/assets/images/home/bg_solutions_box.jpg');">
+            <div class="hl-item">
+                <div class="hl-pic">
+                    <img src="/assets/images/home/img_solution.png" alt="Cognitive Campus">
+                </div>
+                <h4 class="hr-line"><span>Cognitive Campus</span><hr></h4>
+            </div>
+            <div class="hl-desc">
+                <p>Arista Cognitive Cloud Networking for the Campus takes a simplified approach to addressing campus network challenges compared to the siloed complexity of legacy solutions.</p>
+                <label>
+                    <a  target="_parent"  href="/solutions/cognitive-campus" title="Cognitive Campus" class="btn-an btn-cta">
+                        Learn More                    </a>
+                </label>
+            </div>
+        </div>
+                <div class="colmR highlight-box" style="background-image: url('/assets/images/home/bg_product_box.jpg');">
+            <div class="hl-item">
+                <div class="hl-pic">
+                    <img src="/assets/images/home/img_product.png" alt="Products">
+                </div>
+                <h4 class="hr-line"><span>Products</span><hr></h4>
+            </div>
+            <div class="hl-desc">
+                <p>Arista Networks is the leader in building scalable high-performance and ultra-low-latency networks for today's data center and cloud computing environments.</p>
+                <label>
+                    <a  target="_parent"  href="/products/platforms" title="Products" class="btn-an btn-cta">
+                        View Platforms                    </a>
+                </label>
+            </div>
+        </div>
+            </div>
+    <!-- /dataFootRow -->
+</div>
+<!-- /frontPageData -->
+
+                    <div class="clearfix"></div>
+                    
+                </main>
+                <!-- /contentWrap --> 
+            </div>
+            <!-- /dataWrap -->
+            
+        </div>
+        <!-- /dataArea --> 
+    </div>
+    <!-- /dataContainer -->
+    
+    <footer id="footerContainer">
+        <div id="footBarArea">
+            <label>Get In Touch Today</label>
+            <a href="/en/company/contact-us" class="btn-an btn-cta">Contact Us</a> 
+        </div>
+        <!-- /footBarArea -->
+        <div id="footerWrap">
+                        <div id="footSocial">
+                <div class="site-logo"><img src="/templates/arista_v2/img/logo_arista_blue.png" alt="Arista"></div>
+                
+
+<div class="custom"  >
+	<div class="social-icon"><a class="icon24-fb" href="https://www.facebook.com/AristaNW" target="_blank">Facebook</a> <a class="icon24-tw" href="https://twitter.com/@AristaNetworks" target="_blank">Twitter</a> <a class="icon24-in" href="http://www.linkedin.com/company/arista-networks-inc" target="_blank">LinkedIn</a></div></div>
+
+            </div>
+            <!-- /footSocial -->
+                        <nav id="footNav" role="navigation">
+                
+<ul class="nav menu">
+      <li class="fml-head-support deeper parent nav-heading">
+<a href="javascript:void(0);"><span>Support</span></a>
+  <ul class="navChild">
+  <li class="fml-service-offerings"><a  href="/jp/support/customer-support"><span>Support &amp; Services</span></a></li>
+  <li class="fml-training"><a  href="/jp/partner/partner-portal/training"><span>Training</span></a></li>
+  <li class="fml-documentation"><a  href="/jp/support/product-documentation"><span>Product Documentation </span></a></li>
+  <li class="fml-downloads"><a  href="/jp/support/software-download"><span>Software Downloads </span></a></li>
+</ul>
+</li>
+  <li class="fml-head-contacts deeper parent nav-heading">
+<a href="javascript:void(0);"><span>Contacts &amp; Help</span></a>
+  <ul class="navChild">
+  <li class="fml-contact-arista"><a  href="/jp/company/contact-us"><span>Contact Arista</span></a></li>
+  <li class="fml-contact-technical-support"><a  href="/jp/support/customer-support"><span>Contact Technical Support</span></a></li>
+  <li class="fml-order-status nav-url"><a  href="http://orders.arista.com" target="_blank"><span>Order Status</span></a></li>
+</ul>
+</li>
+  <li class="fml-head-news deeper parent nav-heading">
+<a href="javascript:void(0);"><span>News</span></a>
+  <ul class="navChild">
+  <li class="fml-news-room"><a  href="/jp/company/news/in-the-news"><span>News Room</span></a></li>
+  <li class="fml-events"><a  href="/jp/company/news/events"><span>Events</span></a></li>
+  <li class="fml-blogs nav-url"><a  href="/blogs" target="_blank"><span>Blogs</span></a></li>
+</ul>
+</li>
+  <li class="fml-head-about-arista deeper parent nav-heading">
+<a href="javascript:void(0);"><span>About Arista</span></a>
+  <ul class="navChild">
+  <li class="fml-company"><a  href="/jp/company/company-overview"><span>Company</span></a></li>
+  <li class="fml-management-team"><a  href="/jp/company/management-team"><span>Management Team</span></a></li>
+  <li class="fml-careers"><a  href="/jp/careers"><span>Careers</span></a></li>
+  <li class="fml-investor-relations nav-url"><a  href="http://investors.arista.com/"><span>Investor Relations</span></a></li>
+</ul>
+</li>
+</ul>
+<!-- /nav -->
+            </nav>
+            <!-- /footNav -->
+                        <!-- /position-8 -->
+                        <div class="clearfix"></div>
+            <div id="copyRight">
+                <label>&copy; 2018 Arista Networks, Inc. All rights reserved.</label>
+                
+<ul class="nav menu">
+      <li class="terms-of-use nav-component"><a  href="/jp/terms-of-use"><span>Terms of Use</span></a></li>
+  <li class="privacy-policy nav-component"><a  href="/jp/privacy-policy"><span>Privacy Policy</span></a></li>
+  <li class="sitemap nav-component"><a  href="/jp/sitemap"><span>Sitemap</span></a></li>
+</ul>
+<!-- /nav -->
+            </div>
+        </div>
+        <!-- /footerWrap --> 
+    </footer>
+    <!-- /footerContainer --> 
+</div>
+<!-- /bodyContainer -->
+
+<script>
+	jq = jQuery.noConflict();
+	jq(document).ready(function() {
+		jq('#cookiePolicyBox').fadeIn('slow');
+		jq('#bodyContainer').css('margin-bottom', jq('#cookiePolicyBox').height()+10);
+	});
+</script>
+<div id="cookiePolicyBox" style="display:none">
+    <a id="cookiePolicyAgree" href="#">X</a> 
+    <p>Arista Networks, Inc. uses cookies to ensure that we give you the best experience on our website.</p>
+    <p>For details about Arista's use of cookies and how to disable them should you wish, review our <a href="/privacy-policy/#Cookie_Policy" target="_blank">policy</a></p>
+</div>
+<!-- /cookiePolicyBox -->
+
+<div id="noSupportMsg" style="display:none;">
+    <p>You are using an unsupported version of <span id="browserName">&nbsp;</span>. Unsupported browsers can put your security at risk, are slow and don't work with newer features.</p>
+    <p>To get the newer features, you'll need to upgrade to a <a href="http://www.whatbrowser.org/" target="_blank">Modern Browser</a>.</p>
+</div>
+<!-- /noSupportMsg -->
+
+<!-- Start of Async HubSpot Analytics Code -->
+  <script type="text/javascript">
+    (function(d,s,i,r) {
+      if (d.getElementById(i)){return;}
+      var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+      n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/691113.js';
+      e.parentNode.insertBefore(n, e);
+    })(document,"script","hs-analytics",300000);
+  </script>
+<!-- End of Async HubSpot Analytics Code -->
+
+
+
+<!-- Custom Search --> 
+<script type="text/javascript" src="//customer.cludo.com/scripts/bundles/search-script.min.js"></script>
+<script>
+    var CludoSearch;
+    (function () {
+        var cludoSettings = {
+            customerId: 2013,
+            engineId: '9731',
+            searchUrl: 'https://www.arista.com/jp/component/itpgooglesearch/',
+            language: 'jp',
+            searchInputs: ['cludo-japanese-search'],
+            type: 'inline',
+            disableAutocomplete: true,
+            hideSearchFilters: true,        
+            searchApiUrl: 'https://api-eu1.cludo.com/api/v3'
+        };
+    CludoSearch= new Cludo(cludoSettings);
+    CludoSearch.init();
+    })();
+</script>
+</body>
+</html>

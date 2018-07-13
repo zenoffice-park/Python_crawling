@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MTQV2H');</script>
+<!-- End Google Tag Manager -->
+	
+		<base href="http://go.pardot.com" >
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="description" content=""/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title></title>
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet">
+        <link rel="stylesheet" href="http://storage.pardot.com/83942/9514/Skeleton_1_Normalize.css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="shortcut icon" type="image" href="http://storage.pardot.com/83942/131085/favicon.ico">
+		<style>
+       
+            #pardot-form {
+                width:100%;
+            }
+            .row > .col-md-6{
+                padding:5px 0;
+            }
+            .col-md-6 .col-md-6{
+                width:100%;
+            }
+            .row > .col-md-6:nth-last-child(2) {
+    width: 100%;
+    padding: 10px 0 0 0;
+}
+            #pardot-form input {
+                width: 100%;
+                display:block;
+                height: 20px;
+                font-size: 12px;
+                border-radius:4px;
+                border: 1px solid #bebebe;
+                padding:0px 5px;
+                box-sizing:border-box;
+            }
+            #pardot-form select {
+                height: 20px;
+                width: 100%;
+                display:block;
+                font-size: 12px;
+                padding: 0px 5px;
+                border-radius:4px;
+                border: 1px solid #bebebe;
+                margin:0;
+            }
+         
+            #pardot-form label {
+                width: 100%;
+                display:block;
+                font-size:10px;
+                font-family:arial,helvetica,sans-serif;
+                color:#595959;
+                margin-bottom:0px;
+                padding-bottom:3px;
+                clear:both;
+                line-height:16px;
+            }
+            #pardot-form input[type="submit"] {
+                clear: both;
+                width: 100%;
+                height: auto;
+                margin-top: 15px;
+                margin-bottom:10px;
+                float:center; 
+                text-align:center;
+                background: #008da9;
+                border-radius:8px;
+                color:#ffffff;
+                font-size:18px;
+                padding:12px 0px;
+                text-transform:none;
+            }
+            #pardot-form p.required label, #pardot-form span.required label {
+                background: url("/images/required.gif") no-repeat scroll left top transparent ;
+                padding-left:15px;
+                margin: 0px;
+            }
+          
+            #pardot-form .value input[type="radio"]  {
+                display:inline;
+                width:20px;
+                vertical-align:middle;
+                background-image: none;                
+            }
+            #pardot-form span.value label  {
+                display:inline;
+                width:50px;
+                margin-right:20px;
+                margin-left:5px;
+                padding:0px;
+                vertical-align:middle;
+                background-image:none;
+
+            }
+            #pardot-form textarea.standard  {
+                height:100px;
+                width:100%;
+                display:block;
+                overflow:auto;
+            }
+            /* #pardot-form .Product_Family span.value input[type=checkbox] {
+                display: block;
+                width: 5%;
+                float: left;
+                margin: 5px 0 0 0;
+                clear: none;
+                line-height: 30px;
+                font-weight: normal;
+            }
+            #pardot-form .Product_Family span.value span:nth-child(3n+1) input[type=checkbox] 
+            {
+                clear: left;
+            }
+            #pardot-form .Product_Family span.value label {
+                display: block;
+                width: 23%;
+                float: left;
+                clear: none;
+                margin-right: 0 25px 5px 0;
+                padding-left:5px;
+                line-height:20px;                
+            }
+            #pardot-form .Primary_Application span.value input[type=checkbox] {
+                display: block;
+                width: 5%;
+                float: left;
+                margin: 5px 0 0 0;
+                clear: none;
+                line-height: 30px;
+                font-weight: normal;
+            }
+            #pardot-form .Primary_Application span.value span:nth-child(3n+1) input[type=checkbox] 
+            {
+                clear: left;
+            }
+            #pardot-form .Primary_Application span.value label {
+                display: block;
+                width: 23%;
+                float: left;
+                clear: none;
+                margin: 0 25px 15px 0;
+                padding-left:5px;
+            }
+            #pardot-form .Custom_Solutions_Opportunity span.value input[type=checkbox] {
+                display: block;
+                width: 5%;
+                float: left;
+                margin: 5px 0 0 0;
+                clear: none;
+                line-height: 30px;
+                font-weight: normal;
+            }
+            #pardot-form .Custom_Solutions_Opportunity span.value span:nth-child(3n+1) input[type=checkbox] 
+            {
+                clear: left;
+            }
+            #pardot-form .Custom_Solutions_Opportunity span.value label {
+                display: block;
+                width: 23%;
+                float: left;
+                clear: none;
+                margin: 0 25px 15px 0;
+                padding-left:5px;
+            } */
+            #pardot-form span.value input[type=checkbox] {
+                display: block;
+                width: 5%;
+                max-width:15px;
+                float: left;
+                margin: 5px 0 0 0;
+                clear: none;
+                line-height: 30px;
+                font-weight: normal;
+            }
+            #pardot-form span.value span:nth-child(3n+1) input[type=checkbox] 
+            {
+                clear: left;
+            }
+            #pardot-form input[type=checkbox] + label.inline{
+                display: inline-block;
+                width: 23%;
+                float: left;
+                clear: none;
+                margin: 0 25px 15px 0;
+                padding-left:5px;
+                padding-top:3px;
+            }
+            .clearfix:before, .clearfix:after {
+              display: table;
+              content: " ";
+            }
+            .clearfix:after {
+              clear: both;
+            }
+            #pardot-form .Marketing_Opt_In label{
+                display: inline-block;
+                width: 90%;
+                padding-left:10px;
+            }
+            #pardot-form .no-label {
+                clear: left;
+                display: block;
+                width:100%;
+                margin: 0px;
+                color:red;
+                font-size:12px;
+                padding-left:15px;
+                position:absolute;
+                bottom:-3px;
+            }          
+            #pardot-form table, #pardot-form td {
+                border:none;
+            }
+            /* Begin styling recaptcha */
+            .g-recaptcha {
+                clear:both;
+            }
+            .g-recaptcha>div {
+                padding-left:15px;
+            }
+            /* End styling recaptcha */
+            /* Begin styling calendar */
+            div#ui-datepicker-div {
+                background: #fff;
+                padding: 5px;
+                border: 1px solid #008DA9;
+            }
+            
+            div#ui-datepicker-div a {
+                cursor: pointer;
+            }
+            
+            a.ui-datepicker-next.ui-corner-all {
+                float: right;
+            }
+            
+            .ui-datepicker-title {
+                text-align: center;
+            }
+            
+            select.ui-datepicker-month {
+                margin-right: 10px;
+            }
+            
+            table.ui-datepicker-calendar th {
+                padding: 5px;
+                text-align: center;
+            }
+            
+            table.ui-datepicker-calendar td {
+                text-align: center;
+            }
+            /* End styling calendar */
+        </style>
+	<script type="text/javascript" src="http://form-cdn.pardot.com/js/piUtils.js?ver=20180621"></script><script type="text/javascript">
+piAId = '84942';
+piCId = '10079';
+piHostname = 'pi.pardot.com';
+if(!window['pi']) { window['pi'] = {}; } pi = window['pi']; if(!pi['tracker']) { pi['tracker'] = {}; } pi.tracker.pi_form = true;
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
+</script></head>
+	<body style="font-family:arial,helvetica,sans-serif; background-image:none;">
+
+	<!-- Main Wrapper DIV -->
+	<div class="main-wrapper" style="margin:0 auto; height:auto; padding:0px; width:100%; max-width:600px; border: 1px solid #DDDDDD; background-color: #FFFFFF; border-collapse:collapse; box-sizing:border-box; overflow:hidden;">
+		<!-- Header -->
+		<header class="main-header wrapper--large" pardot-region="main-header" style="margin:0px auto 10px; width:100%; max-width:600px; border:0; box-sizing:border-box; ">
+			<img src="http://go.moleculardevices.com/l/83942/2018-01-30/9mg91f/83942/122660/eNewsletter_Header5.png" alt="Molecular Devices" style="margin:0 auto;" width="100%" max-width="600" height="auto">
+        </header>
+		<!-- End Header -->
+		
+			<!-- Form DIV -->		
+			<div id="obj-7" style="display:inline; float:left; width:100%; max-width:600px; padding:10px;">
+			    
+
+<form accept-charset="UTF-8" method="post" action="http://go.moleculardevices.com/l/83942/2016-12-19/6r2qtf" class="form" id="pardot-form" onsubmit="return copyProductDetail()">
+
+<style type="text/css">
+form.form p label { color: #000000; }
+</style>
+
+
+<div class="wrapper" style="padding: 0px 15px;">
+	<h2 style="text-align: center;"><font color="rgb(255,165,0)">お問い合わせ</font></h2>
+
+<hr />
+<p>下記をご確認の上、必要事項をご入力の後、送信ボタンをクリックしてください。</p>
+
+<p>&nbsp;</p>
+
+<hr />
+<p><span style="font-size:12px"><span style="color:#FFA500">* </span>は入力必須です。</span></p>
+
+		
+		
+		<div class="row">
+		
+			<div>
+			<p class="form-field col-md-6 last_name pd-text required    ">
+				
+					<label class="field-label" for="83942_104750pi_83942_104750">姓（必須）</label>
+				
+				
+				<input type="text" name="83942_104750pi_83942_104750" id="83942_104750pi_83942_104750" value="" class="text" size="30" maxlength="80" onchange="" />
+				
+			</p>
+			<div id="error_for_83942_104750pi_83942_104750" style="display:none"></div>
+			
+			</div>
+		
+			<div>
+			<p class="form-field col-md-6 first_name pd-text required    ">
+				
+					<label class="field-label" for="83942_104752pi_83942_104752">名（必須）</label>
+				
+				
+				<input type="text" name="83942_104752pi_83942_104752" id="83942_104752pi_83942_104752" value="" class="text" size="30" maxlength="40" onchange="" />
+				
+			</p>
+			<div id="error_for_83942_104752pi_83942_104752" style="display:none"></div>
+			
+			</div>
+		
+			<div>
+			<p class="form-field col-md-6 email pd-text required    ">
+				
+					<label class="field-label" for="83942_104754pi_83942_104754">Email（必須）</label>
+				
+				
+				<input type="text" name="83942_104754pi_83942_104754" id="83942_104754pi_83942_104754" value="" class="text" size="30" maxlength="255" onchange="piAjax.auditEmailField(this, 83942, 104754, 139366632);" />
+				
+			</p>
+			<div id="error_for_83942_104754pi_83942_104754" style="display:none"></div>
+			
+			</div>
+		
+			<div>
+			<p class="form-field col-md-6 phone pd-text required    ">
+				
+					<label class="field-label" for="83942_104756pi_83942_104756">電話番号（必須）ハイフン不要</label>
+				
+				
+				<input type="text" name="83942_104756pi_83942_104756" id="83942_104756pi_83942_104756" value="" class="text" size="30" maxlength="40" onchange="" />
+				
+			</p>
+			<div id="error_for_83942_104756pi_83942_104756" style="display:none"></div>
+			
+			</div>
+		
+			<div>
+			<p class="form-field col-md-6 company pd-text required    ">
+				
+					<label class="field-label" for="83942_104758pi_83942_104758">ご所属先（会社・大学）</label>
+				
+				
+				<input type="text" name="83942_104758pi_83942_104758" id="83942_104758pi_83942_104758" value="" class="text" size="30" maxlength="255" onchange="" />
+				
+			</p>
+			<div id="error_for_83942_104758pi_83942_104758" style="display:none"></div>
+			
+			</div>
+		
+			<div>
+			<p class="form-field col-md-6 department pd-text     ">
+				
+					<label class="field-label" for="83942_104760pi_83942_104760">ご所属先（部署）</label>
+				
+				
+				<input type="text" name="83942_104760pi_83942_104760" id="83942_104760pi_83942_104760" value="" class="text" size="30" maxlength="100" onchange="" />
+				
+			</p>
+			<div id="error_for_83942_104760pi_83942_104760" style="display:none"></div>
+			
+			</div>
+		
+			<div>
+			<p class="form-field col-md-6 job_title pd-text     ">
+				
+					<label class="field-label" for="83942_104762pi_83942_104762">役職名</label>
+				
+				
+				<input type="text" name="83942_104762pi_83942_104762" id="83942_104762pi_83942_104762" value="" class="text" size="30" maxlength="128" onchange="" />
+				
+			</p>
+			<div id="error_for_83942_104762pi_83942_104762" style="display:none"></div>
+			
+			</div>
+		
+			<div>
+			<p class="form-field col-md-6 address_one pd-text required    ">
+				
+					<label class="field-label" for="83942_104772pi_83942_104772">住所（必須）</label>
+				
+				
+				<input type="text" name="83942_104772pi_83942_104772" id="83942_104772pi_83942_104772" value="" class="text" size="30" maxlength="255" onchange="" />
+				
+			</p>
+			<div id="error_for_83942_104772pi_83942_104772" style="display:none"></div>
+			
+			</div>
+		
+			<div>
+			<p class="form-field col-md-6 RFQ_Reason pd-select required    ">
+				
+					<label class="field-label" for="83942_125019pi_83942_125019">どのような情報をご希望ですか？（必須）</label>
+				
+				
+				<select name="83942_125019pi_83942_125019" id="83942_125019pi_83942_125019" class="select" onchange=""><option value="" selected="selected"></option>
+<option value="1635145">製品担当者からの連絡</option>
+<option value="1635147">製品のお見積もり</option>
+<option value="1635149">デモのご依頼</option>
+<option value="1635151">アフターサポート・修理のご依頼</option>
+<option value="1635153">その他</option>
+</select>
+				
+			</p>
+			<div id="error_for_83942_125019pi_83942_125019" style="display:none"></div>
+			
+			</div>
+		
+			<div>
+			<p class="form-field col-md-12 clearfix Contact_Description pd-textarea required    ">
+				
+					<label class="field-label" for="83942_104776pi_83942_104776">お問い合わせ内容（必須）</label>
+				
+				
+				<textarea name="83942_104776pi_83942_104776" id="83942_104776pi_83942_104776" onchange="" cols="40" rows="10" class="standard"></textarea>
+				
+			</p>
+			<div id="error_for_83942_104776pi_83942_104776" style="display:none"></div>
+			
+			</div>
+		
+			<div>
+			<p class="form-field col-md-12 Marketing_Opt_In pd-checkbox     ">
+				
+					<label class="field-label" for="83942_104784pi_83942_104784">アプリケーション、製品、サービス情報の配信をご希望の方はチェックを入れて下さい。配信停止依頼はいつでも可能です。</label>
+				
+				
+				<span class="value"><span><input type="checkbox" name="83942_104784pi_83942_104784_1381232" id="83942_104784pi_83942_104784" value="1381232" onchange="" /></span></span>
+				
+			</p>
+			<div id="error_for_83942_104784pi_83942_104784" style="display:none"></div>
+			
+			</div>
+		
+			<div>
+			<p class="form-field  cmp pd-hidden  hidden   ">
+				
+				
+				<input type="hidden" name="83942_139202pi_83942_139202" id="83942_139202pi_83942_139202" value="7010g000001YNry" />
+				
+			</p>
+			<div id="error_for_83942_139202pi_83942_139202" style="display:none"></div>
+			
+			</div>
+		
+		</div>
+		
+		
+	<p style="position:absolute; width:190px; left:-9999px; top: -9999px;visibility:hidden;">
+		<label for="pi_extra_field">Comments</label>
+		<input type="text" name="pi_extra_field" id="pi_extra_field"/>
+	</p>
+		
+		
+		<!-- forces IE5-8 to correctly submit UTF8 content  -->
+		<input name="_utf8" type="hidden" value="&#9731;" />
+		
+		<div class="row">
+		<p class="submit col-md-12" style="margin:0px auto 5px; display:block;">
+			<input type="submit" accesskey="s" value="Submit" />
+		</p>
+		</div>
+		
+		<div class="row">
+		<p class="col-md-12 clearfix" style="font-size:10px; margin:0px auto; padding-top:0px;">By submitting your details, you confirm that you have reviewed and agree with the Molecular Devices <a href="http://www.moleculardevices.com/Privacy.html">Privacy Policy</a>, and that you understand your privacy choices as they pertain to your personal data as provided in the <a href="http://www.moleculardevices.com/Privacy.html">Privacy Policy</a> under “Your Privacy Choices”.</p>
+		</div>
+		
+<div style="padding: 10px 0;"></div>
+</div>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+	var anchors = document.getElementsByTagName("a");
+	for (var i=0; i<anchors.length; i++) {
+		var anchor = anchors[i];
+		if(anchor.getAttribute("href")&&!anchor.getAttribute("target")) {
+			anchor.target = "_top";
+		}
+	}
+		
+//]]>
+</script>
+<input type="hidden" name="hiddenDependentFields" id="hiddenDependentFields" value="" /></form>
+<script type="text/javascript">(function(){ pardot.$(document).ready(function(){ (function() {
+	var $ = window.pardot.$;
+	window.pardot.FormDependencyMap = [];
+
+	$('.form-field-master input, .form-field-master select').each(function(index, input) {
+		$(input).on('change', window.piAjax.checkForDependentField);
+		window.piAjax.checkForDependentField.call(input);
+	});
+})(); });})();</script>
+			</div>
+			<!-- End Form DIV -->
+	</div>
+	<!-- End Main Wrapper DIV -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+		        var cmp = $('.cmp input')[0];
+		        if( typeof cmp !== 'undefined' && (typeof cmp.value === 'undefined' || cmp.value === '')){
+		            cmp.value = 'null'
+		        }
+		    });
+        </script>
+        <script type="text/javascript">
+            function copyProductDetail() {
+                /*var resultData = '';
+
+                var listLabels = document.querySelectorAll('.Product_Detail .inline');
+                var listInputs = document.querySelectorAll('.Product_Detail input');
+                for( var i=0; i<listInputs.length; i++){
+                    label = listLabels[i];
+                    checkbox = listInputs[i];
+                    if( checkbox.checked ){
+                        resultData += label.innerHTML + ';';
+                    }
+                }
+                document.querySelectorAll('.ZZ_Form_Multi_Product_Family input')[0].value = resultData;
+                return true;*/
+                var resultData = '';
+            
+                var listLabels = document.querySelectorAll('.multi_source .inline');
+                var listInputs = document.querySelectorAll('.multi_source input');
+                for( var i=0; i<listInputs.length; i++){
+                    label = listLabels[i];
+                    checkbox = listInputs[i];
+                    if( checkbox.checked ){
+                        resultData += label.innerHTML + ';';
+                    }
+                }
+                document.querySelectorAll('.multi_target input')[0].value = resultData;
+                return true;
+        }
+        </script>   	
+    <!-- Google Tag Manager -->
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-MTQV2H"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    
+    <!-- End Google Tag Manager -->        
+	</body>
+</html>

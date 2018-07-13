@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<meta name="generator" content="SuitPress">
+	<meta name="aurhor" content="suitpress.com">
+	<link rel="shortcut icon" href="http://www.untenmenkyo.co.jp/wp-content/uploads/2016/04/favicon.png">
+	<meta name="keywords" content="合宿免許">
+	<title>お問い合わせ &#8211; 合宿免許・教習所選びなら！パルの合宿免許</title>
+
+<!-- All in One SEO Pack 2.4.4.1 by Michael Torbert of Semper Fi Web Design[-1,-1] -->
+<link rel="canonical" href="http://www.untenmenkyo.co.jp/contact/" />
+			<script type="text/javascript" >
+				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+				ga('create', 'UA-79164636-1', 'auto');
+				// Plugins
+				ga('require', 'displayfeatures');
+				ga('send', 'pageview');
+			</script>
+			<script async src="https://www.google-analytics.com/analytics.js"></script>
+			<!-- /all in one seo pack -->
+<link rel="stylesheet" href="/wp-content/plugins/contact-form-7/includes/css/styles.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="/wp-content/themes/suitpress/assets/css/bootstrap-addon.css">
+<link rel="stylesheet" href="/wp-content/themes/suitpress/assets/css/bootstrap-theme.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/fontawesome/latest/css/font-awesome.min.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css">
+<link rel="stylesheet" href="/wp-content/themes/suitpress/assets/css/framework.css">
+<script src="/wp-includes/js/jquery/jquery.js"></script>
+<script src="/wp-includes/js/jquery/jquery-migrate.min.js"></script>
+<link rel='https://api.w.org/' href='http://www.untenmenkyo.co.jp/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="http://www.untenmenkyo.co.jp/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.untenmenkyo.co.jp%2Fcontact%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.untenmenkyo.co.jp/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.untenmenkyo.co.jp%2Fcontact%2F&#038;format=xml" />
+	<link rel="canonical" href="http://www.untenmenkyo.co.jp/contact/">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PXTBFR3');</script>
+<!-- End Google Tag Manager -->
+    <style>
+    #line_cam p{
+ margin-bottom:30px ;
+}
+/*-------キャンペーンページ共通---------*/
+.normalize body,p,a,h1,h2,h3,h4,h5,h6,img,ul,li{
+       margin:0;
+       padding:0;
+}
+
+#cam li{
+list-style-type: none;
+}
+.plice_itiran{
+margin-top:80px;
+}
+
+#scool_syosai_h2{
+	background-color: #000;
+}
+
+#cam p{
+ margin:1%;
+max-width:700px;
+}
+
+.kyo_shosai{
+margin-bottom:60px;
+}
+
+/*btn見た目*/
+.cam_btn {
+	background-color: #fff;
+	border: 1px solid #333;
+	color: #333;
+	line-height: 50px;
+	display: inline-block;
+        max-width:450px;
+	width: 70%;
+	height: 54px;
+	text-align: center;
+}
+.cam_btn:hover {
+	background-color: #fff;
+	border-color: #333;
+	color:#333;
+}
+.deba_shokai{
+margin-bottom:30px;
+font-size:12px;
+
+}
+.bike-plan{
+font-size:18px;
+font-weight:bold;
+color:#666;
+padding:0;
+margin:20px 0;
+}
+.cam_hotel p{
+font-size:11px;
+line-height:15px;
+}
+
+/*見出し*/
+#cam h2,h5{
+	padding: .50em .75em;
+	background-color: #f6f6f6;
+	border-bottom: 3px solid #ccc;
+        width:100%;
+        max-width:750px;
+}
+
+#cam h5{
+       font-size:24px;
+}
+
+#cam h2,h5{
+ margin:30px 0 5px 0;
+}
+
+#cam h4{
+       margin:20px 0 20px 0;
+        width:80%;
+        max-width:750px;
+	position: relative;
+	padding: .5em .75em;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+}
+#cam h4::before,
+#cam h4::after {
+	position: absolute;
+	top: 100%;
+	left: 30px;
+	content: '';
+	height: 0;
+	width: 0;
+	border: 10px solid transparent;
+}
+#cam h4::before {
+	border-top: 15px solid #ccc;
+}
+#cam h4::after {
+	margin-top: -2px;
+	border-top: 15px solid #fff;
+}
+
+/*料金表*/
+.cam_plice{
+margin-top:40px;
+margin-bottom:40px;
+
+}
+
+.cam_table{
+width:100%;
+border-collapse: collapse;
+text-align: center;
+}
+
+.cam_table th{
+width: 10%;
+padding: 6px;
+text-align: center;
+vertical-align: center;
+color: #333;
+background-color: #eee;
+border: 1px solid #b9b9b9;
+}
+.cam_table td{
+width: 40%;
+padding: 6px;
+background-color: #fff;
+border: 1px solid #b9b9b9;
+color: #e84466;
+}
+
+.cam_table td small {
+color: #999;
+}
+
+/*横並び*/
+.boxContents_moro{
+width:100%;
+display: -webkit-box;　/* Safari,Google Chrome用 */
+display: -moz-box;　/* Firefox用 */
+margin-top:1%;
+}
+.boxContents_moro img{
+width:25%;
+margin-top:1%;
+margin-right: 1%;
+vertical-align:bottom;
+text-align:end;
+}
+
+/*資・申リンクボタン*/
+.link_btn{
+margin:30px 0 30px 0;
+max-width:450px;
+width: 100%;
+}
+.link_btn a{
+　　font-size:30px;
+	height: 40px;
+	line-height:40px;
+	margin-right: 20px;
+margin-top: 1%;
+color: #fff;
+}
+.mou{
+	background-color: #00b450;
+	border: 2px solid #00b450;
+}
+.shi{
+	background-color: #ffb200;
+	border: 2px solid #ffb200;
+}
+
+/*教・料・宿ジャンプボタン*/
+.junp_btn{
+
+       margin-top:60px;
+}
+
+.junp_btn a{
+        font-size:20px;
+max-width:450px;
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+color: #fff;
+}
+
+.kyo{
+	background-color:#ee596d;
+	border: 2px solid #ee596d;
+}
+.ryo{
+	background-color: #f2bf5a;
+	border: 2px solid #f2bf5a;
+}
+
+.shu{
+	background-color: #dcdf20;
+	border: 2px solid #dcdf20;
+}
+
+/*キャンペーンまとめページ*/
+#cam.cam_matome h4{
+width:380px;
+font-size:24px;
+}
+/*はいなんキャンペーンページ */
+.hainan_sanshoku_plice{
+margin-bottom:40px;
+}
+
+.hainan_cam p{
+ margin:5px;
+}
+
+#hainan_cam td,th{
+width:30px;
+}
+/*出羽キャンペーンページ */
+
+.dewa_maeoki_moro{
+line-height:10px;
+font-weight:bold;
+margin-bottom:30px;
+}
+
+.dewa_cam p{
+ margin:5px;
+}
+/*特集 */
+.free-img{
+margin-bottom:10px;
+}
+.free-meal-school{
+font-size:20px;
+font-weight:bold;
+color:#666;
+padding-top:20px;
+margin:0;
+border-top:1px solid #ddd;
+}
+.section-price .table-price table>tbody>tr>td{
+text-align:center;
+vertical-align:middle;
+color:#e84466;
+font-weight:bold;
+}
+.section-price .table-price table>tbody>tr>td small{
+color:#999;
+font-weight:normal;
+}
+.free-meal-btn{
+text-align:center;
+margin:20px 0 40px 0;
+}
+.bike-plan{
+font-size:18px;
+font-weight:bold;
+color:#666;
+padding:0;
+margin:20px 0;
+}
+
+/*食事フリー */
+.free-meal{
+width:100px;
+hegiht:5px;
+lingh-height:5px;
+color:#fff;
+text-align:center;
+background-color:#ffb121;
+border:1px solid #ffb121;
+border-radius:3px;
+padding:0;
+}
+
+/*カップルプラン */
+.couple-meal{
+width:100px;
+hegiht:5px;
+lingh-height:5px;
+color:#fff;
+text-align:center;
+background-color:#f68eb3;
+border:1px solid #f68eb3;
+border-radius:3px;
+padding:0;
+}
+
+/*ウインタープラン */
+.winter{
+max-width:400px;
+hegiht:5px;
+lingh-height:5px;
+color:#fff;
+text-align:center;
+background-color:#8ec1f6;
+border:1px solid #8ec1f6;
+border-radius:3px;
+padding:0;
+}
+
+/*他車種の合宿プラン */
+.tasyasyu{
+padding-bottom:10px;
+}
+.tasyasyu-img{
+width:100%;
+padding-top:15px;
+border-top:1px dotted #ddd;
+}
+.tasyasyu-img>a>img{
+width:200px;
+}
+
+/*利用規約 */
+.rule{
+font-size:20px;
+font-weight:bold;
+color:#666;
+margin:20px 0;
+}
+.rule-2{
+font-size:16px;
+font-weight:normal;
+color:#666;
+text-align:center;
+background-color:#f5f5f5;
+padding:5px;
+margin:20px 0;
+}
+.rule-3{
+margin-top:2em;
+}
+.rule-4{
+font-size:15px;
+font-weight:bold;
+color:#666;
+}
+.rule-5{
+font-weight:bold;
+}
+.rule-6{
+text-align:right;
+}
+
+/* ご利用ガイド*/
+h4.riyou-guide{
+font-weight:bold;
+color:#f68eb3;
+margin-top:1.5em;
+}
+.catalog_img{
+border:5px solid #f48fb3;
+border-radius:20px;
+padding:25px;
+overflow:hidden;
+}
+.catalog_img>img{
+max-width:100%;
+float:left;
+padding-right:15px;
+margin:0 auto 10px;
+}
+.school-list{
+float:left;
+padding-right:50px;
+}
+.school-list_02{
+float:left;
+margin-bottom:50px;
+}
+
+.school-list table {
+min-width:252px}
+
+.school-list_02 table {
+min-width:252px}
+
+/*モデルスケジュール */
+h4.model-schedule{
+font-weight:bold;
+color:#f48fb3;
+margin-top:1em;
+}
+
+/* 申し込みから卒業までの流れ*/
+@media screen and (min-width: 769px){
+.flow-img{
+max-width: 70%;
+margin:0 auto;
+}
+}
+.flow-img>img{
+max-width:100%;
+margin:0 auto;
+}
+.flow-title{
+color:#e84466;
+font-size:23px;
+font-weight:bold;
+text-shadow:5px 5px 5px rgba(0,0,0,0.2);
+margin:35px 0;
+}
+.flow-course_01{
+width:240px;
+height:35px;
+line-height:35px;
+color:#fff;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+background-color:#e84466;
+border:1px solid #e84466;
+border-radius:15px;
+}
+.flow-course_02{
+width:240px;
+height:35px;
+line-height:35px;
+color:#fff;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+background-color:#f68eb3;
+border:1px solid #f68eb3;
+border-radius:15px;
+margin-top:40px;
+}
+.flow-course_03{
+width:240px;
+height:35px;
+line-height:35px;
+color:#e84466;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+background-color:#fff;
+border:1px solid #e84466;
+border-radius:15px;
+margin-top:40px;
+}
+.pay_01{
+width:300px;
+height:35px;
+line-height:35px;
+color:#fff;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+background-color:#80cef3;
+margin:30px 0 15px 0;
+}
+.pay_02{
+width:300px;
+height:35px;
+line-height:35px;
+color:#fff;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+background-color:#f9909a;
+margin:30px 0 15px 0;
+}
+.pay_03{
+width:300px;
+height:35px;
+line-height:35px;
+color:#fff;
+font-size:17px;
+font-weight:bold;
+text-align:center;
+background-color:#f9ca66;
+margin:30px 0 15px 0;
+}
+
+/* お支払方法について*/
+.t-point>img{
+width:200px;
+float:left;
+margin:20px 20px 30px 0;
+}
+.loan_campaign>a>img{
+height:200px;
+margin:20px 0 30px 0;
+}
+@media screen and (max-width: 600px){
+.loan_campaign>a>img{
+margin-top:0;
+}
+}
+.loan_campaign>a:hover{
+opacity:0.9;
+}
+.creditcard-img>img{
+margin:30px 0;
+}
+.pay_04{
+background-color:#f5f5f5;
+margin:20px 0;
+padding:5px;
+}
+.pay_05{
+color:#80cef3;
+}
+
+/* アプラスキャンペーン*/
+h4.aplus-campaign{
+font-size:18pa;
+font-weight:bold;
+color:#666;
+margin:30px 0;
+}
+.aplus>td{
+text-align: center;
+vertical-align: middle;
+font-weight:bold;
+}
+.aplus_0{
+color:#e84466;
+}
+
+.section-features h4{
+font-weight:bold;
+color:#e94163
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+.anolist a {
+ color:#ffb121;
+ font-weight:bold;
+ }
+
+.line {
+    margin: 10px 0;
+    text-align: center;}
+
+.line p {
+    font-weight: bold;
+    color: orange;
+    font-size: 110%}
+
+/*-------LINE@固定ページ---------*/
+.line_cam p{
+     margin-top:20px;
+}
+
+.mb40 {margin-bottom:40px!important;}
+
+/*　アクセス　*/
+.spot{
+	background-color: #f68eb3;
+	border: 2px solid #f68eb3;
+	font-weight:bold;
+	padding:3px;
+	width:100px;
+	color:#fff;
+	text-align:center;
+}
+
+/*　ここがオススメ　*/
+
+.section-content{margin-bottom:16px;}
+
+.section-content h3 {
+	padding: 5px 0;
+	border-bottom: 2px solid #e94163;
+	color: #e94163;
+	font-weight:bold}
+
+.table-bordered th {min-width:10%; white-space: nowrap;}
+
+.table-bordered td {width:auto}
+
+
+/*　特集用おすすめ自動車学校　*/
+
+.blog {
+padding: 0.5em;
+color: #e94163;
+background: #f5f5f5;
+border-left: solid 5px #e94163;
+font-size: 25px;}
+
+/*　パルならまだある　*/
+p.red {color: #FF0000; }
+  </style>
+  </head>
+<body id="ja">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXTBFR3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	<div id="wrap" class="page page-id-202 page-parent contact unknown">
+		<div class="header-description hidden">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						おすすめの合宿免許教習所をランキングで紹介！					</div><!-- /.col -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</div>
+		<header id="header">
+      <div class="site-header">
+				<div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              おすすめの合宿免許教習所をランキングで紹介！            </div>
+            <div class="col-sm-6">
+              <nav class="navbar-sub">
+                <ul id="menu-%e3%83%98%e3%83%83%e3%83%80%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e5%8f%b3" class="list-unstyled list-inline"><li id="menu-item-206" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-206"><a title="会社概要" href="http://www.untenmenkyo.co.jp/company/">会社概要</a></li>
+<li id="menu-item-204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-204"><a title="利用規約" href="http://www.untenmenkyo.co.jp/terms-of-service/">利用規約</a></li>
+<li id="menu-item-3014" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3014"><a title="特定商取引法に基づく表示" href="http://www.untenmenkyo.co.jp/info/">特定商取引法に基づく表示</a></li>
+<li id="menu-item-3147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3147"><a title="個人情報保護方針" href="http://www.untenmenkyo.co.jp/%e5%80%8b%e4%ba%ba%e6%83%85%e5%a0%b1%e4%bf%9d%e8%ad%b7%e6%96%b9%e9%87%9d/">個人情報保護方針</a></li>
+</ul>              </nav>
+            </div>
+          </div>
+        </div>
+      </div><!-- /.container -->
+			<nav class="navbar navbar-default navbar-static-top navbar-lnb">
+				<div class="container">
+					<div class="navbar-header">
+						<ul class="navbar-right navbar-header-btn list-inline">
+              <li><a href="http://www.untenmenkyo.co.jp/request?school=※※学校名を入力して下さい※※" class="btn btn-secondary"><i class="fa fa-file-text-o"></i>無料資料請求</a></li>
+              <li><a href="http://www.untenmenkyo.co.jp/offer?school=※※学校名を入力して下さい※※" class="btn btn-primary"><i class="fa fa-pencil"></i>合宿免許申込</a></li>
+            </ul>
+						<a class="navbar-brand" href="http://www.untenmenkyo.co.jp/" title="合宿免許・教習所選びなら！パルの合宿免許">
+							<img src="http://www.untenmenkyo.co.jp/wp-content/uploads/2016/06/logo-pal.png" alt="合宿免許・教習所選びなら！パルの合宿免許" />
+						</a>
+						<div class="navbar-description">
+              <h1><a href="http://www.untenmenkyo.co.jp/" title="合宿免許・教習所選びなら！パルの合宿免許">合宿免許のことなら！</a></h1>
+            </div>
+						<div class="navbar-right navbar-phone">
+              <div class="navbar-phone">
+                <div class="operation-phone">
+                  <img src="/wp-content/themes/suitpress/assets/images/common/freedial.png" class="freedial">
+                  <span>0120-692-310</span>                </div>
+                <div class="operation-hours">通話料無料！受付時間  10:00～20:00</div>              </div>
+						</div>
+						<ul class="navbar-right navbar-btn list-inline">
+              <li><a href="http://www.untenmenkyo.co.jp/request?school=※※学校名を入力して下さい※※" class="btn btn-secondary"><i class="fa fa-file-text-o"></i> 無料資料請求</a></li>
+              <li><a href="http://www.untenmenkyo.co.jp/offer?school=※※学校名を入力して下さい※※" class="btn btn-primary"><i class="fa fa-pencil"></i> 空き枠確認・仮予約</a></li>
+            </ul>
+					</div>
+				</div><!-- /.container -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <img src="/wp-content/themes/suitpress/assets/images/common/sp/menu-title.png" alt="メニュー" class="img-responsive">
+        </button>
+				<div class="collapse navbar-collapse" id="navbar">
+					<div class="container">
+						<ul id="menu-%e3%83%98%e3%83%83%e3%83%80%e3%83%bc%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3" class="nav navbar-nav"><li id="menu-item-970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"><a title="トップ" href="http://www.untenmenkyo.co.jp/">トップ</a></li>
+<li id="menu-item-191" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-191"><a title="ご利用ガイド" href="http://www.untenmenkyo.co.jp/guide/">ご利用ガイド</a></li>
+<li id="menu-item-192" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-192"><a title="モデルスケジュール" href="http://www.untenmenkyo.co.jp/model-schedule/">モデルスケジュール</a></li>
+<li id="menu-item-193" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-193"><a title="申し込みから卒業までの流れ" href="http://www.untenmenkyo.co.jp/flow/">申し込みから卒業までの流れ</a></li>
+<li id="menu-item-190" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-190"><a title="お支払方法について" href="http://www.untenmenkyo.co.jp/payment/">お支払方法について</a></li>
+<li id="menu-item-3013" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3013"><a title="よくある質問" href="http://www.untenmenkyo.co.jp/faq/">よくある質問</a></li>
+<li id="menu-item-3012" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-202 current_page_item menu-item-3012 active"><a title="お問い合わせ" href="http://www.untenmenkyo.co.jp/contact/">お問い合わせ</a></li>
+</ul>					</div><!-- /.container -->
+				</div><!-- /.navbar-collapse -->
+			</nav>
+		</header><!-- /#header -->
+<div id="content" role="main">
+			<section class="breadcrumbs" xmlns:v="http://rdf.data-vocabulary.org/#">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						<ol class="breadcrumb">
+              <!-- Breadcrumb NavXT 5.7.1 -->
+<li><a title="合宿免許・教習所選びなら！パルの合宿免許" href="http://www.untenmenkyo.co.jp" itemprop="url"><span itemprop="title">合宿免許・教習所選びなら！パルの合宿免許</span></a></li><span class="sep">/</span><li><span itemprop="title">お問い合わせ</span></li>            </ol>
+					</div><!-- /.col -->
+				</div><!-- /.row -->
+			</div><!-- /.container -->
+		</section><!-- /.breadcrumbs -->
+		<section class="content-article">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-8 col-md-9 col-lg-9 col-sm-push-4 col-md-push-3 col-lg-push-3">
+					<section class="content-article">
+			<article role="article" id="post_202" class="article-wrap post-202 page type-page status-publish hentry">
+			<div class="section-heading">
+				<h1>お問い合わせ</h1>			</div>
+			<div class="section-content">
+        <div class="section-body simple-page">
+                                <div role="form" class="wpcf7" id="wpcf7-f1015-p202-o1" lang="ja" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="/contact/#wpcf7-f1015-p202-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="1015" />
+<input type="hidden" name="_wpcf7_version" value="4.4.2" />
+<input type="hidden" name="_wpcf7_locale" value="ja" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1015-p202-o1" />
+<input type="hidden" name="_wpnonce" value="a80b604607" />
+</div>
+<div class="form-horizontal">
+<h3>基本情報</h3>
+<div class="form-group">
+		<label for="name" class="col-sm-2 control-label">氏名 <small class="label label-danger">必須</small></label></p>
+<div class="col-sm-10"><span class="wpcf7-form-control-wrap name"><input type="text" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="鈴木　一郎" /></span></p>
+<p class="help-block">(苗字と名前の間にスペースを空けてください　例：鈴木　一郎)</p>
+</div></div>
+<div class="form-group">
+		<label for="name" class="col-sm-2 control-label">フリガナ</label></p>
+<div class="col-sm-10"><span class="wpcf7-form-control-wrap namekana"><input type="text" name="namekana" value="" size="40" class="wpcf7-form-control wpcf7-text form-control" aria-invalid="false" placeholder="スズキ　イチロウ" /></span></p>
+<p class="help-block">(全角カタカナ　例：スズキ　イチロウ)</p>
+</div></div>
+<div class="form-group">
+		<label for="name" class="col-sm-2 control-label">メール <small class="label label-danger">必須</small></label></p>
+<div class="col-sm-10"><span class="wpcf7-form-control-wrap email"><input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false" placeholder="pal@untenmenkyo.co.jp" /></span></p>
+<p class="help-block">(半角　例：pal@untenmenkyo.co.jp)</p>
+</div></div>
+<div class="form-group">
+		<label for="name" class="col-sm-2 control-label">電話番号 <small class="label label-danger">必須</small></label></p>
+<div class="col-sm-10"><span class="wpcf7-form-control-wrap phone"><input type="text" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="0333508881" /></span></p>
+<p class="help-block">(半角・-抜きで　例：0333508881)</p>
+</div></div>
+<div class="form-group">
+		<label for="email" class="col-sm-2 control-label">郵便番号</label></p>
+<div class="col-sm-10"><span class="wpcf7-form-control-wrap zip"><input type="text" name="zip" value="" size="40" class="wpcf7-form-control wpcf7-text form-control" aria-invalid="false" placeholder="1600022" /></span></p>
+<p class="help-block">(半角7ケタ　例：1600022)</p>
+</div></div>
+<div class="form-group">
+		<label for="subject" class="col-sm-2 control-label">都道府県 <small class="label label-danger">必須</small></label></p>
+<div class="col-sm-10"><span class="wpcf7-form-control-wrap prefectures"><select name="prefectures" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false"><option value="北海道">北海道</option><option value="青森県">青森県</option><option value="岩手県">岩手県</option><option value="宮城県">宮城県</option><option value="秋田県">秋田県</option><option value="山形県">山形県</option><option value="福島県">福島県</option><option value="茨城県">茨城県</option><option value="栃木県">栃木県</option><option value="群馬県">群馬県</option><option value="埼玉県">埼玉県</option><option value="千葉県">千葉県</option><option value="東京都">東京都</option><option value="神奈川県">神奈川県</option><option value="新潟県">新潟県</option><option value="富山県">富山県</option><option value="石川県">石川県</option><option value="福井県">福井県</option><option value="山梨県">山梨県</option><option value="長野県">長野県</option><option value="岐阜県">岐阜県</option><option value="静岡県">静岡県</option><option value="愛知県">愛知県</option><option value="三重県">三重県</option><option value="滋賀県">滋賀県</option><option value="京都府">京都府</option><option value="大阪府">大阪府</option><option value="兵庫県">兵庫県</option><option value="奈良県">奈良県</option><option value="和歌山県">和歌山県</option><option value="鳥取県">鳥取県</option><option value="島根県">島根県</option><option value="岡山県">岡山県</option><option value="広島県">広島県</option><option value="山口県">山口県</option><option value="徳島県">徳島県</option><option value="香川県">香川県</option><option value="愛媛県">愛媛県</option><option value="高知県">高知県</option><option value="福岡県">福岡県</option><option value="佐賀県">佐賀県</option><option value="長崎県">長崎県</option><option value="熊本県">熊本県</option><option value="大分県">大分県</option><option value="宮崎県">宮崎県</option><option value="鹿児島県">鹿児島県</option><option value="沖縄県">沖縄県</option></select></span></div>
+</p></div>
+<div class="form-group">
+		<label for="subject" class="col-sm-2 control-label">住所 <small class="label label-danger">必須</small></label></p>
+<div class="col-sm-10"><span class="wpcf7-form-control-wrap address"><input type="text" name="address" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="(半角　例：新宿区新宿5-16-11 新宿光ビル5F)" /></span></p>
+<p class="help-block">(半角　例：新宿区新宿5-16-11 新宿光ビル5F)</p>
+</div></div>
+<div class="form-group">
+		<label for="subject" class="col-sm-2 control-label">生年月日 <small class="label label-danger">必須</small></label></p>
+<div class="col-sm-3">
+<div class="input-group"><span class="wpcf7-form-control-wrap barth-year"><input type="text" name="barth-year" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="1980" /></span><span class="input-group-addon">年</span></div>
+</div>
+<div class="col-sm-3">
+<div class="input-group"><span class="wpcf7-form-control-wrap barth-month"><input type="text" name="barth-month" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="1" /></span><span class="input-group-addon">月</span></div>
+</div>
+<div class="col-sm-3">
+<div class="input-group"><span class="wpcf7-form-control-wrap barth-day"><input type="text" name="barth-day" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="12" /></span><span class="input-group-addon">日</span></div>
+</div></div>
+<div class="form-group">
+		<label for="name" class="col-sm-2 control-label">学校名</label></p>
+<div class="col-sm-10"><span class="wpcf7-form-control-wrap school"><input type="text" name="school" value="" size="40" class="wpcf7-form-control wpcf7-text form-control" aria-invalid="false" /></span></p>
+<p class="help-block">(全角　例：○○自動車学校)</p>
+</div></div>
+<div class="form-group">
+		<label for="subject" class="col-sm-2 control-label">自由記入</label></p>
+<div class="col-sm-10"><span class="wpcf7-form-control-wrap message"><textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea form-control" aria-invalid="false"></textarea></span></p>
+<p class="help-block">お問い合わせ内容をご記入ください。</p>
+</div></div>
+<h3>希望する教習所・免許の種類について</h3>
+<div class="form-group">
+    <label for="name" class="col-sm-2 control-label">入校希望日 <small class="label label-danger">必須</small></label></p>
+<div class="col-sm-10"><span class="wpcf7-form-control-wrap date"><input type="date" name="date" value="" class="wpcf7-form-control wpcf7-date wpcf7-validates-as-required wpcf7-validates-as-date form-control" aria-required="true" aria-invalid="false" /></span></p>
+<p class="help-block">日付を入力して下さい。（例：2016-08-18）</p>
+</div></div>
+<div class="form-group">
+    <label for="name" class="col-sm-2 control-label">免許の種類 <small class="label label-danger">必須</small></label></p>
+<div class="col-sm-10"><span class="wpcf7-form-control-wrap licence-type"><select name="licence-type" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false"><option value="普通車MT">普通車MT</option><option value="普通車AT">普通車AT</option><option value="小型二輪MT">小型二輪MT</option><option value="小型二輪AT">小型二輪AT</option><option value="普通二輪MT">普通二輪MT</option><option value="普通二輪AT">普通二輪AT</option><option value="大型二輪MT">大型二輪MT</option><option value="大型二輪AT">大型二輪AT</option><option value="普通車MT+普通二輪MT">普通車MT+普通二輪MT</option><option value="普通車MT+普通二輪AT">普通車MT+普通二輪AT</option><option value="普通車AT+普通二輪MT">普通車AT+普通二輪MT</option><option value="普通車AT+普通二輪AT">普通車AT+普通二輪AT</option><option value="普通車MT+小型二輪MT">普通車MT+小型二輪MT</option><option value="普通車MT+小型二輪AT">普通車MT+小型二輪AT</option><option value="普通車AT+小型二輪MT">普通車AT+小型二輪MT</option><option value="普通車AT+小型二輪AT">普通車AT+小型二輪AT</option><option value="普通車MT+大型二輪MT">普通車MT+大型二輪MT</option><option value="普通車MT+大型二輪AT">普通車MT+大型二輪AT</option><option value="普通車AT+大型二輪MT">普通車AT+大型二輪MT</option><option value="普通車AT+大型二輪AT">普通車AT+大型二輪AT</option><option value="大型車">大型車</option><option value="けん引">けん引</option><option value="大型特殊">大型特殊</option><option value="大型車+けん引">大型車+けん引</option><option value="大型車+大型特殊">大型車+大型特殊</option><option value="けん引+大型特殊">けん引+大型特殊</option><option value="大型車+けん引+大型特殊">大型車+けん引+大型特殊</option><option value="大型二種">大型二種</option><option value="仮免所持">仮免所持</option><option value="中型車">中型車</option><option value="中型車＋けん引">中型車＋けん引</option><option value="中型車＋大型特殊">中型車＋大型特殊</option><option value="中型車+けん引+大型特殊">中型車+けん引+大型特殊</option><option value="中型二種">中型二種</option><option value="普通二種MT">普通二種MT</option><option value="普通二種AT">普通二種AT</option></select></span></div>
+</p></div>
+<div class="form-group">
+    <label for="name" class="col-sm-2 control-label">教習所の種類 <small class="label label-danger">必須</small></label></p>
+<div class="col-sm-10"><span class="wpcf7-form-control-wrap licence-type-2"><span class="wpcf7-form-control wpcf7-radio"><span class="wpcf7-list-item first"><label><input type="radio" name="licence-type-2" value="合宿" checked="checked" />&nbsp;<span class="wpcf7-list-item-label">合宿</span></label></span><span class="wpcf7-list-item last"><label><input type="radio" name="licence-type-2" value="通学" />&nbsp;<span class="wpcf7-list-item-label">通学</span></label></span></span></span></div>
+</p></div>
+<div class="form-group">
+<div class="col-sm-10 col-sm-offset-2"><input type="submit" value="送信" class="wpcf7-form-control wpcf7-submit btn btn-default" /></div>
+</p></div>
+</div>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
+                  </div>
+			</div>
+					</article>
+	</section><!-- /.content-article -->				</div>
+				<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3 col-sm-pull-8 col-md-pull-9 col-lg-pull-9" id="sidebar" role="navigation">
+					<div class="sidebar-wrap">
+	<aside class="sidebar">
+            <div class="section-sidebar-ranking">
+      <div class="section-heading">
+        <h3><img src="/wp-content/themes/suitpress/assets/images/common/ranking-title.png" alt="自動車学校ランキング" class="img-responsive"></h3>
+      </div>
+              <div class="sidebar-ranking-item">
+          <div class="section-heading">
+            <h4>高校生に人気の免許合宿ランキング</h4>
+          </div>
+          <div class="section-footer">
+            <a href="/ranking/ranking-highschool/" class="">一覧を見る</a>
+          </div>
+          <div class="section-content">
+                                                    <div class="section-block">
+                <div class="item-wrap">
+                  <div class="item-image">
+                    <div class="section-thumbnail">
+                      <a href="/licence-stay/%e3%83%9e%e3%82%b8%e3%82%aa%e3%83%89%e3%83%a9%e3%82%a4%e3%83%90%e3%83%bc%e3%82%ba%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e8%97%a4%e6%9e%9d%e6%a0%a1/" title="マジオドライバーズスクール藤枝校（静岡県）"><img width="1000" height="750" src="http://www.untenmenkyo.co.jp/wp-content/uploads/2017/10/87171a1ccd6b496e84b31586a8d851f2.jpg" class="img-responsive wp-post-image" alt="藤枝_集合NEW2" srcset="http://www.untenmenkyo.co.jp/wp-content/uploads/2017/10/87171a1ccd6b496e84b31586a8d851f2.jpg 1000w, http://www.untenmenkyo.co.jp/wp-content/uploads/2017/10/87171a1ccd6b496e84b31586a8d851f2-350x263.jpg 350w, http://www.untenmenkyo.co.jp/wp-content/uploads/2017/10/87171a1ccd6b496e84b31586a8d851f2-768x576.jpg 768w, http://www.untenmenkyo.co.jp/wp-content/uploads/2017/10/87171a1ccd6b496e84b31586a8d851f2-700x525.jpg 700w" sizes="(max-width: 1000px) 100vw, 1000px"></a>
+                    </div>
+                  </div>
+                  <div class="item-text">
+                    <div class="icon-ranking"><img src="/wp-content/themes/suitpress/assets/images/common/icon-ranking-1.png" alt="ランキング1"></div>
+                    <div class="section-title"><h4><a href="/licence-stay/%e3%83%9e%e3%82%b8%e3%82%aa%e3%83%89%e3%83%a9%e3%82%a4%e3%83%90%e3%83%bc%e3%82%ba%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e8%97%a4%e6%9e%9d%e6%a0%a1/" title="マジオドライバーズスクール藤枝校（静岡県）">マジオドライバーズスクール藤枝校（静岡県）</a></h4></div>
+                    <div class="section-content hidden"><span style="color:#e94163">普通車AT 235,000円(税抜217,593円)～</span><br />
+東京駅から約1時間20分<br />
+名古屋駅から約1時間30分</div>
+                  </div>
+                </div>
+              </div>
+                                                  </div>
+        </div>
+              <div class="sidebar-ranking-item">
+          <div class="section-heading">
+            <h4>大学生に人気の免許合宿ランキング</h4>
+          </div>
+          <div class="section-footer">
+            <a href="/ranking/ranking-university/" class="">一覧を見る</a>
+          </div>
+          <div class="section-content">
+                                                    <div class="section-block">
+                <div class="item-wrap">
+                  <div class="item-image">
+                    <div class="section-thumbnail">
+                      <a href="/licence-stay/%e3%83%9e%e3%82%b8%e3%82%aa%e3%83%89%e3%83%a9%e3%82%a4%e3%83%90%e3%83%bc%e3%82%ba%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e8%97%a4%e6%9e%9d%e6%a0%a1/" title="マジオドライバーズスクール藤枝校（静岡県）"><img width="1000" height="750" src="http://www.untenmenkyo.co.jp/wp-content/uploads/2017/10/87171a1ccd6b496e84b31586a8d851f2.jpg" class="img-responsive wp-post-image" alt="藤枝_集合NEW2" srcset="http://www.untenmenkyo.co.jp/wp-content/uploads/2017/10/87171a1ccd6b496e84b31586a8d851f2.jpg 1000w, http://www.untenmenkyo.co.jp/wp-content/uploads/2017/10/87171a1ccd6b496e84b31586a8d851f2-350x263.jpg 350w, http://www.untenmenkyo.co.jp/wp-content/uploads/2017/10/87171a1ccd6b496e84b31586a8d851f2-768x576.jpg 768w, http://www.untenmenkyo.co.jp/wp-content/uploads/2017/10/87171a1ccd6b496e84b31586a8d851f2-700x525.jpg 700w" sizes="(max-width: 1000px) 100vw, 1000px"></a>
+                    </div>
+                  </div>
+                  <div class="item-text">
+                    <div class="icon-ranking"><img src="/wp-content/themes/suitpress/assets/images/common/icon-ranking-1.png" alt="ランキング1"></div>
+                    <div class="section-title"><h4><a href="/licence-stay/%e3%83%9e%e3%82%b8%e3%82%aa%e3%83%89%e3%83%a9%e3%82%a4%e3%83%90%e3%83%bc%e3%82%ba%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e8%97%a4%e6%9e%9d%e6%a0%a1/" title="マジオドライバーズスクール藤枝校（静岡県）">マジオドライバーズスクール藤枝校（静岡県）</a></h4></div>
+                    <div class="section-content hidden"><span style="color:#e94163">普通車AT 235,000円(税抜217,593円)～</span><br />
+東京駅から約1時間20分<br />
+名古屋駅から約1時間30分</div>
+                  </div>
+                </div>
+              </div>
+                                                  </div>
+        </div>
+              <div class="sidebar-ranking-item">
+          <div class="section-heading">
+            <h4>社会人に人気の免許合宿ランキング</h4>
+          </div>
+          <div class="section-footer">
+            <a href="/ranking/ranking-adult/" class="">一覧を見る</a>
+          </div>
+          <div class="section-content">
+                                                    <div class="section-block">
+                <div class="item-wrap">
+                  <div class="item-image">
+                    <div class="section-thumbnail">
+                      <a href="/licence-stay/%e5%b7%bb%e4%b8%ad%e5%a4%ae%e8%87%aa%e5%8b%95%e8%bb%8a%e5%ad%a6%e6%a0%a1/" title="巻中央自動車学校（新潟県）"><img width="1000" height="707" src="http://www.untenmenkyo.co.jp/wp-content/uploads/2016/06/b17b34185aa51520d71fd2cfb862bfa6-1.jpg" class="img-responsive wp-post-image" alt="巻中央_メイン" srcset="http://www.untenmenkyo.co.jp/wp-content/uploads/2016/06/b17b34185aa51520d71fd2cfb862bfa6-1.jpg 1000w, http://www.untenmenkyo.co.jp/wp-content/uploads/2016/06/b17b34185aa51520d71fd2cfb862bfa6-1-350x247.jpg 350w, http://www.untenmenkyo.co.jp/wp-content/uploads/2016/06/b17b34185aa51520d71fd2cfb862bfa6-1-768x543.jpg 768w, http://www.untenmenkyo.co.jp/wp-content/uploads/2016/06/b17b34185aa51520d71fd2cfb862bfa6-1-700x495.jpg 700w" sizes="(max-width: 1000px) 100vw, 1000px"></a>
+                    </div>
+                  </div>
+                  <div class="item-text">
+                    <div class="icon-ranking"><img src="/wp-content/themes/suitpress/assets/images/common/icon-ranking-1.png" alt="ランキング1"></div>
+                    <div class="section-title"><h4><a href="/licence-stay/%e5%b7%bb%e4%b8%ad%e5%a4%ae%e8%87%aa%e5%8b%95%e8%bb%8a%e5%ad%a6%e6%a0%a1/" title="巻中央自動車学校（新潟県）">巻中央自動車学校（新潟県）</a></h4></div>
+                    <div class="section-content hidden"><span style="color:#e94163">普通車AT 183,600円（税抜170,000円）～</span><br />
+東京駅から約2時間</div>
+                  </div>
+                </div>
+              </div>
+                                                  </div>
+        </div>
+          </div>
+    
+              <h3 class="widget-title feature"><img src="/wp-content/themes/suitpress/assets/images/common/feature-title.png" alt="特集から探す" class="img-responsive"></h3>
+              <div class="item-wrap">
+          <div class="item-image">
+            <a href="/feature/recommend-wakayama/" title="8月おすすめ！マジオ和歌山校へ免許合宿へ行こう！"><img width="341" height="251" src="http://www.untenmenkyo.co.jp/wp-content/uploads/2018/06/3f4bbb514162a5bb75bee4bb28b3000b.jpg" class="img-responsive wp-post-image" alt="和歌山_03"></a>
+          </div>
+          <div class="item-text">
+            <div class="section-title"><h4><a href="/feature/recommend-wakayama/" title="8月おすすめ！マジオ和歌山校へ免許合宿へ行こう！">8月おすすめ！マジオ和歌山校へ免許合宿へ行こう！</a></h4></div>
+            <div class="section-content">そとそろ夏休みの期間も分かってきたタイミング。
+友だちと一...</div>
+          </div>
+        </div>
+              <div class="item-wrap">
+          <div class="item-image">
+            <a href="/feature/%e3%83%9e%e3%82%b8%e3%82%aa%e3%83%89%e3%83%a9%e3%82%a4%e3%83%90%e3%83%bc%e3%82%ba%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e8%97%a4%e6%9e%9d%e6%a0%a1%e3%81%a3%e3%81%a6%e3%81%a9%e3%82%93%e3%81%aa%e3%81%a8/" title="夏休みオススメ！マジオ藤枝校の合宿免許ってどう？指導員は怖くない？"><img width="340" height="250" src="http://www.untenmenkyo.co.jp/wp-content/uploads/2018/05/a11b4bb3ba448d1fa402ac3dc62cc91f.jpg" class="img-responsive wp-post-image" alt="アイキャッチ"></a>
+          </div>
+          <div class="item-text">
+            <div class="section-title"><h4><a href="/feature/%e3%83%9e%e3%82%b8%e3%82%aa%e3%83%89%e3%83%a9%e3%82%a4%e3%83%90%e3%83%bc%e3%82%ba%e3%82%b9%e3%82%af%e3%83%bc%e3%83%ab%e8%97%a4%e6%9e%9d%e6%a0%a1%e3%81%a3%e3%81%a6%e3%81%a9%e3%82%93%e3%81%aa%e3%81%a8/" title="夏休みオススメ！マジオ藤枝校の合宿免許ってどう？指導員は怖くない？">夏休みオススメ！マジオ藤枝校の合宿免許ってどう？指導員は怖くない？</a></h4></div>
+            <div class="section-content">夏休みの合宿免許…いろんな教習所があって迷っちゃう…！
+そ...</div>
+          </div>
+        </div>
+              <div class="item-wrap">
+          <div class="item-image">
+            <a href="/feature/%e3%83%81%e3%83%a3%e3%83%83%e3%83%88%e3%81%a7%e6%b0%97%e8%bb%bd%e3%81%ab%e8%b3%aa%e5%95%8f%e3%83%91%e3%83%ab%e3%81%ab%e3%82%83%e3%82%93%e3%83%81%e3%83%a3%e3%83%83%e3%83%88%ef%bc%81/" title="“チャットで気軽に質問”パルにゃんチャット！！"><img width="340" height="250" src="http://www.untenmenkyo.co.jp/wp-content/uploads/2018/04/chat-s.png" class="img-responsive wp-post-image" alt="chat-s"></a>
+          </div>
+          <div class="item-text">
+            <div class="section-title"><h4><a href="/feature/%e3%83%81%e3%83%a3%e3%83%83%e3%83%88%e3%81%a7%e6%b0%97%e8%bb%bd%e3%81%ab%e8%b3%aa%e5%95%8f%e3%83%91%e3%83%ab%e3%81%ab%e3%82%83%e3%82%93%e3%83%81%e3%83%a3%e3%83%83%e3%83%88%ef%bc%81/" title="“チャットで気軽に質問”パルにゃんチャット！！">“チャットで気軽に質問”パルにゃんチャット！！</a></h4></div>
+            <div class="section-content">
+
+分からない事があったら、気軽にパルにゃんに相談しちゃ...</div>
+          </div>
+        </div>
+            <div class="more"><a href="http://www.untenmenkyo.co.jp/feature-category/stay">一覧を見る</a></div>
+    
+              <h3 class="widget-title campaign"><img src="/wp-content/themes/suitpress/assets/images/common/campaign-title.png" alt="キャンペーンから探す" class="img-responsive"></h3>
+              <div class="item-wrap">
+          <div class="item-image">
+            <a href="/feature/2000%e5%86%86%e5%88%86jcb%e3%82%ae%e3%83%95%e3%83%88%e3%82%ab%e3%83%bc%e3%83%89%e3%83%97%e3%83%ac%e3%82%bc%e3%83%b3%e3%83%88/" title="2,000円分JCBギフトカードプレゼント!!"><img width="849" height="620" src="http://www.untenmenkyo.co.jp/wp-content/uploads/2018/05/bdced7ab61d33b69cc55d9485b03d73d-1.jpg" class="img-responsive wp-post-image" alt="JCBギフトカードを2,000円分プレゼント！" srcset="http://www.untenmenkyo.co.jp/wp-content/uploads/2018/05/bdced7ab61d33b69cc55d9485b03d73d-1.jpg 849w, http://www.untenmenkyo.co.jp/wp-content/uploads/2018/05/bdced7ab61d33b69cc55d9485b03d73d-1-350x256.jpg 350w, http://www.untenmenkyo.co.jp/wp-content/uploads/2018/05/bdced7ab61d33b69cc55d9485b03d73d-1-768x561.jpg 768w, http://www.untenmenkyo.co.jp/wp-content/uploads/2018/05/bdced7ab61d33b69cc55d9485b03d73d-1-700x511.jpg 700w" sizes="(max-width: 849px) 100vw, 849px"></a>
+          </div>
+          <div class="item-text">
+            <div class="section-title"><h4><a href="/feature/2000%e5%86%86%e5%88%86jcb%e3%82%ae%e3%83%95%e3%83%88%e3%82%ab%e3%83%bc%e3%83%89%e3%83%97%e3%83%ac%e3%82%bc%e3%83%b3%e3%83%88/" title="2,000円分JCBギフトカードプレゼント!!">2,000円分JCBギフトカードプレゼント!!</a></h4></div>
+            <div class="section-content">
+
+いまなら合宿免許のお申し込みで
+
+運転免許クレジ...</div>
+          </div>
+        </div>
+              <div class="item-wrap">
+          <div class="item-image">
+            <a href="/feature/line%ef%bc%a0%e3%82%ad%e3%83%a3%e3%83%b3%e3%83%9a%e3%83%bc%e3%83%b3%ef%bc%81/" title="LINE＠キャンペーン！"><img width="340" height="250" src="http://www.untenmenkyo.co.jp/wp-content/uploads/2017/07/loan_campaign.jpg" class="img-responsive wp-post-image" alt="loan_campaign"></a>
+          </div>
+          <div class="item-text">
+            <div class="section-title"><h4><a href="/feature/line%ef%bc%a0%e3%82%ad%e3%83%a3%e3%83%b3%e3%83%9a%e3%83%bc%e3%83%b3%ef%bc%81/" title="LINE＠キャンペーン！">LINE＠キャンペーン！</a></h4></div>
+            <div class="section-content">amazonギフト券がもれなくもらえる！
+今パルの運転免許...</div>
+          </div>
+        </div>
+              <div class="item-wrap">
+          <div class="item-image">
+            <a href="/feature/%e3%82%af%e3%83%ac%e3%82%b8%e3%83%83%e3%83%88%e3%82%ab%e3%83%bc%e3%83%89%e4%bd%bf%e3%81%88%e3%81%be%e3%81%99%ef%bc%81/" title="クレジットカード使えます！"><img width="340" height="250" src="http://www.untenmenkyo.co.jp/wp-content/uploads/2016/08/creditcard-1.png" class="img-responsive wp-post-image" alt="creditcard"></a>
+          </div>
+          <div class="item-text">
+            <div class="section-title"><h4><a href="/feature/%e3%82%af%e3%83%ac%e3%82%b8%e3%83%83%e3%83%88%e3%82%ab%e3%83%bc%e3%83%89%e4%bd%bf%e3%81%88%e3%81%be%e3%81%99%ef%bc%81/" title="クレジットカード使えます！">クレジットカード使えます！</a></h4></div>
+            <div class="section-content">パルの運転免許はクレジットカード払いに対応しております！
+...</div>
+          </div>
+        </div>
+            <div class="more"><a href="http://www.untenmenkyo.co.jp/feature-category/campaign">一覧を見る</a></div>
+    
+              <h3 class="widget-title information"><img src="/wp-content/themes/suitpress/assets/images/common/information-title.png" alt="インフォメーション" class="img-responsive"></h3>
+              <div class="item-wrap">
+          <div class="item-image">
+            <a href="/%e5%a4%8f%e4%bc%91%e3%81%bf%e5%90%88%e5%ae%bf%e5%85%8d%e8%a8%b1%e2%97%86%e3%83%91%e3%83%ab%e3%81%aa%e3%82%89%e4%ba%88%e7%b4%84%e3%81%a7%e3%81%8d%e3%82%8b%e6%95%99%e7%bf%92%e6%89%80/" title="夏休み合宿免許◆パルなら予約できる教習所!!"><img width="207" height="127" src="http://www.untenmenkyo.co.jp/wp-content/uploads/2018/06/50bfa31157f11f7f0aa379d0326d0490-1.jpg" class="img-responsive wp-post-image" alt="パルならまだあるバナー02"></a>
+          </div>
+          <div class="item-text">
+            <div class="section-title"><h4><a href="/%e5%a4%8f%e4%bc%91%e3%81%bf%e5%90%88%e5%ae%bf%e5%85%8d%e8%a8%b1%e2%97%86%e3%83%91%e3%83%ab%e3%81%aa%e3%82%89%e4%ba%88%e7%b4%84%e3%81%a7%e3%81%8d%e3%82%8b%e6%95%99%e7%bf%92%e6%89%80/" title="夏休み合宿免許◆パルなら予約できる教習所!!">夏休み合宿免許◆パルなら予約できる教習所!!</a></h4></div>
+            <div class="section-content">
+人気の自動車学校はもう満員！！2018年8月空き状況！！...</div>
+          </div>
+        </div>
+              <div class="item-wrap">
+          <div class="item-image">
+            <a href="/%e3%81%8a%e5%8f%8b%e3%81%a0%e3%81%a1%e7%b4%b9%e4%bb%8b%e3%82%ad%e3%83%a3%e3%83%b3%e3%83%9a%e3%83%bc%e3%83%b3%e3%81%a73000%e5%86%86%e3%82%ae%e3%83%95%e3%83%88%e5%88%b8%e3%83%97%e3%83%ac%e3%82%bc/" title="お友だち紹介キャンペーンで3,000円ギフト券プレゼント！"><img width="207" height="127" src="http://www.untenmenkyo.co.jp/wp-content/uploads/2018/04/bb9f029feebf7b267dc27676cd5d20f4.jpg" class="img-responsive wp-post-image" alt="キャンペーン用0410_03"></a>
+          </div>
+          <div class="item-text">
+            <div class="section-title"><h4><a href="/%e3%81%8a%e5%8f%8b%e3%81%a0%e3%81%a1%e7%b4%b9%e4%bb%8b%e3%82%ad%e3%83%a3%e3%83%b3%e3%83%9a%e3%83%bc%e3%83%b3%e3%81%a73000%e5%86%86%e3%82%ae%e3%83%95%e3%83%88%e5%88%b8%e3%83%97%e3%83%ac%e3%82%bc/" title="お友だち紹介キャンペーンで3,000円ギフト券プレゼント！">お友だち紹介キャンペーンで3,000円ギフト券プレゼント！</a></h4></div>
+            <div class="section-content">
+合宿免許に行こうかな～と考えてるお知り合いの方をご紹介下...</div>
+          </div>
+        </div>
+              <div class="item-wrap">
+          <div class="item-image">
+            <a href="/%e5%a4%8f%e4%bc%91%e3%81%bf%e5%90%88%e5%ae%bf%e5%85%8d%e8%a8%b1%e2%98%85%e5%8f%97%e4%bb%98%e9%96%8b%e5%a7%8b%ef%bc%81/" title="夏休み合宿免許★受付開始！"><img width="207" height="127" src="http://www.untenmenkyo.co.jp/wp-content/uploads/2018/04/d25e612c723af7ed698c5ee0d86d07d9.jpg" class="img-responsive wp-post-image" alt="0405キャンペーン用_03"></a>
+          </div>
+          <div class="item-text">
+            <div class="section-title"><h4><a href="/%e5%a4%8f%e4%bc%91%e3%81%bf%e5%90%88%e5%ae%bf%e5%85%8d%e8%a8%b1%e2%98%85%e5%8f%97%e4%bb%98%e9%96%8b%e5%a7%8b%ef%bc%81/" title="夏休み合宿免許★受付開始！">夏休み合宿免許★受付開始！</a></h4></div>
+            <div class="section-content">
+夏休みに免許合宿を考えているならご予約は早めに！直前にな...</div>
+          </div>
+        </div>
+            <div class="more"><a href="http://www.untenmenkyo.co.jp/category/news">一覧を見る</a></div>
+    
+    <ul class="list-sidebar-btn list-unstyled">
+      <li><a href="http://www.untenmenkyo.co.jp/request" class="btn btn-secondary btn-block"><i class="fa fa-file-text-o fa-fw"></i>無料資料請求</a></li>
+      <li><a href="http://www.untenmenkyo.co.jp/offer" class="btn btn-primary btn-block"><i class="fa fa-pencil fa-fw"></i>合宿免許申込</a></li>
+    </ul>
+
+    	</aside>
+</div>				</div>
+			</div><!-- /.row -->
+		</div><!-- /.container -->
+	</section><!-- /.content-article -->
+</div><!-- /#content -->
+
+		<footer id="footer">
+			<section class="section-copyright">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<span class="copyright">
+																									Copyright © 2018 パルの合宿免許. All Rights Reserved.<span class="hidden">Created by <a href="//itfunpeople.com" target="_blank">IT FUN PEOPLE Corp.</a> Powered by <a href="//suitpress.com" target="_blank">SuitPress</a>.</span>
+															</span>
+						</div><!-- /.col -->
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+			</section><!-- /.section-copyright -->
+      <div class="footer-fixed-btn">
+        <div class="btn-wrap">
+          <div class="phone-wrap">
+            <div class="catch">
+              <strong>お気軽にお問い合わせください！</strong>
+            </div>
+            <div class="operation-phone">
+              <a href="http://www.untenmenkyo.co.jp/offer/?school=%E2%80%BB%E2%80%BB%E5%AD%A6%E6%A0%A1%E5%90%8D%E3%82%92%E5%85%A5%E5%8A%9B%E3%81%97%E3%81%A6%E4%B8%8B%E3%81%95%E3%81%84%E2%80%BB%E2%80%BB">
+                <img src="/wp-content/themes/suitpress/assets/images/common/calendar.png" class="line">空き枠確認・仮予約</a>
+<!--<span><a href="tel:0120-692-310">                <img src="/wp-content/themes/suitpress/assets/images/common/freedial-white.png" class="freedial">
+                0120-692-310</a></span>-->
+            </div>
+          </div>
+
+          <div class="line-wrap">
+            <div class="catch">
+              <strong>LINEでもお問い合わせ可能です！</strong>
+            </div>
+            <div class="operation-phone">
+              <a href="https://line.me/R/ti/p/%40sqe7687f">
+                <img src="/wp-content/themes/suitpress/assets/images/common/line-white.png" class="line">LINEで相談
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+			<a id="pagetop" class="page-scroll" href="#wrap"><i class="fa fa-chevron-up"></i></a>
+		</footer><!-- /#footer -->
+		<!-- sf chat start -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type='text/javascript' src='https://c.la10.salesforceliveagent.com/content/g/js/37.0/deployment.js'></script>
+<script type='text/javascript'>
+liveagent.init('https://d.la10.salesforceliveagent.com/chat', '5722800000005I8', '00D28000001i0FU');
+</script>
+
+<style type="text/css">
+<!-- 
+
+
+div#sfchatfl {
+position: fixed;
+/*top: 24px;*/
+/*left: 0px;*/
+right: 16px;
+bottom:80px;
+/*bottom:96px;*/
+/*background: rgba(246,142,179,0.8);*/
+/*border: 1px solid #ccc;*/
+border-radius:0.8em;
+z-index: 9999;
+margin: 0px;
+padding: 4px 0px 2px 0px;
+color:#fff;
+text-align:center;
+/*box-shadow:2px 2px 4px 2px #ccc;*/
+width: 12%;
+height: auto;
+
+}
+div#sfchatfl div{
+font-size: 0.9em;
+line-height:1.6em;
+margin:-4px 0 1% 0;
+padding:0;
+}
+div#sfchatfl img {
+width: 100%;
+height: auto;}
+
+div#sfchatfl div.sfcap{
+display:none;
+}
+
+div#sfchatfl a:link { color: #fff; text-decoration: none;}
+div#sfchatfl a:visited { color: #fff; }
+div#sfchatfl a:hover { color: #e94163; text-decoration: underline;}
+div#sfchatfl a:active { color: #009 text-decoration: none;}
+
+@media screen and (max-width: 767px)
+{
+	div#sfchatfl {
+/*	bottom:52px;*/
+	bottom:73px;
+	right: 0px;
+	width: 80px;
+	height: 80px;
+	box-shadow:none;
+display: -webkit-flex;
+display: flex;
+-webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
+align-items: center; /* 縦方向中央揃え */
+-webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
+justify-content: center; /* 横方向中央揃え */
+	}
+	div#sfchatfl div.sfcap{
+	display:none;
+	}
+}
+
+ -->
+</style>
+
+<div id="sfchatfl">
+
+<a id="liveagent_button_online_5732800000005lN" href="javascript://Chat" style="display: none;"onclick="liveagent.startChat('5732800000005lN')">
+<img border="0" src="http://www.untenmenkyo.co.jp/wp-content/uploads/2017/05/sfchat_online.png" width="225" height="150" alt="オンライン">
+<div class="sfcap">オンライン</div>
+</a>
+
+<div id="liveagent_button_offline_5732800000005lN" style="display: none;">
+<img border="0" src="http://www.untenmenkyo.co.jp/wp-content/uploads/2017/05/sfchat_offline.png" alt="オフライン">
+<div class="sfcap">オフライン</div>
+</div>
+
+</div><!-- sfchatfl -->
+
+<script type="text/javascript">
+if (!window._laq) {
+window._laq = [];
+}
+window._laq.push(function () {
+liveagent.showWhenOnline('5732800000005lN', document.getElementById('liveagent_button_online_5732800000005lN'));
+liveagent.showWhenOffline('5732800000005lN', document.getElementById('liveagent_button_offline_5732800000005lN'));
+});</script>
+<!-- sf chat end --><script type="text/javascript">
+piAId = '230862';
+piCId = '1530';
+
+(function() {
+ function async_load(){
+  var s = document.createElement('script'); s.type = 'text/javascript';
+  s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+  var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+ }
+ if(window.attachEvent) { window.attachEvent('onload', async_load); }
+ else { window.addEventListener('load', async_load, false); }
+})();
+</script><script>
+    jQuery(document).ready(function () {
+		jQuery.post('http://www.untenmenkyo.co.jp?ga_action=googleanalytics_get_script', {action: 'googleanalytics_get_script'}, function(response) {
+			var F = new Function ( response );
+			return( F() );
+		});
+    });
+</script><script src="/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.untenmenkyo.co.jp\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"\u3042\u306a\u305f\u304c\u30ed\u30dc\u30c3\u30c8\u3067\u306f\u306a\u3044\u3053\u3068\u3092\u8a3c\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002","sending":"\u9001\u4fe1\u4e2d ..."};
+/* ]]> */
+</script>
+<script src="/wp-content/plugins/contact-form-7/includes/js/scripts.js"></script>
+<script src="//cdn.jsdelivr.net/selectivizr/latest/selectivizr.min.js"></script>
+<script src="//cdn.jsdelivr.net/respond/latest/respond.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="//maps.googleapis.com/maps/api/js?v=3.exp&#038;sensor=false"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/1.5.5/jquery.smooth-scroll.min.js"></script>
+<script src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+<script src="/wp-content/themes/suitpress/assets/js/acf.js"></script>
+<script src="/wp-content/themes/suitpress/assets/js/framework.js"></script>
+<script src="/wp-includes/js/wp-embed.min.js"></script>
+	</div><!-- /#wrap -->
+<!-- /#yahoo tag manager -->
+<script type="text/javascript">
+  (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=8pe7Rth";
+    s.parentNode.insertBefore(tagjs, s);
+  }());
+  </script>
+<noscript>
+  <iframe src="//b.yjtag.jp/iframe?c=8pe7Rth" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+<!-- /#DSP -->
+<!-- Segment Pixel - RT_全ページ - DO NOT MODIFY -->
+<script src='http://i.socdm.com/s/so_sg.js?sgid=39476&t=1' type='text/javascript'></script>
+<!-- End of Segment Pixel -->
+</body>
+</html>

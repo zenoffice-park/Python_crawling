@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ja"
+	itemscope 
+	itemtype="http://schema.org/WebSite" 
+	prefix="og: http://ogp.me/ns#" >
+<head>
+<meta charset="UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="keywords" content="スマートフォン,スマホ,アプリ,モバイル,実績,事例,案件,販促,デジタルマーケティング">
+<!-- ogp -->
+<!-- 
+<meta name="twitter:creator" content="@ツイッターアカウント">
+<meta name="twitter:image:src" content="イメージデータURL">
+ -->
+<!-- //ogp -->
+
+<title>お問い合わせ | ピーシーフェーズ</title>
+
+<!-- All in One SEO Pack 2.2.7 by Michael Torbert of Semper Fi Web Design[425,453] -->
+<meta name="description" itemprop="description" content="ピーシーフェーズのデジタルマーケティング、システム開発、取扱い製品やサービスに関するお問い合わせはこちらのフォームより送信してください。" />
+
+<link rel="canonical" href="https://www.pcp.co.jp/contact/form" />
+<!-- /all in one seo pack -->
+<link rel='stylesheet' id='contact-form-7-css'  href='https://www.pcp.co.jp/wp-content/plugins/contact-form-7/includes/css/styles.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.pcp.co.jp/wp-includes/js/jquery/jquery.js'></script>
+<script type='text/javascript' src='https://www.pcp.co.jp/wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<link rel='shortlink' href='https://www.pcp.co.jp/?p=236' />
+
+<!-- ビューポート設定 -->
+<!-- PC用＆レスポンシブ -->
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<!-- 電話番号自動認識機能 -->
+<meta name="format-detection" content="telephone=no">
+
+<!-- IE8以下にhtml5を対応させる（PCのみ） -->
+<!--[if lt IE 9]><script src="/js/IE9.js"></script><![endif]-->
+
+<!-- バージョンベクタ（IE8/IE9） -->
+<!--[if IE 9 ]><html class="ie9"><![endif]--> 
+<!--[if IE 8 ]><html class="ie8"><![endif]--> 
+
+<!-- ファビコン -->
+<link rel="shortcut icon" type="image/png" href="/favicon.ico">
+
+<!-- CSS -->
+<link rel="stylesheet" href="/css/reset.css" type="text/css"><!-- リセット -->
+<link rel="stylesheet" href="/css/common.css" type="text/css"><!-- メインのCSS -->
+<link rel="stylesheet" href="/css/personal.css" type="text/css"><!-- イレギュラーなCSS -->
+<link rel="stylesheet" href="/css/asset.css" type="text/css"><!-- 共通パーツ -->
+<link rel="stylesheet" href="/css/responsive.css" type="text/css"><!-- グリッドシステム -->
+
+<!-- JSファイルインポート -->
+<script src="/js/require.js" type="text/javascript"></script>
+
+</head>
+<!-- ↑↑↑ head要素ここまで ↑↑↑ -->
+<body id="contact">
+
+    <!---- ↓↓↓ ヘッダーここから ↓↓↓ ---->
+	<header id="headerContact">
+		<div class="logo"><a href="/"><img src="/img/logo_sp.png" alt="ピーシーフェーズ"></a></div>
+		<div class="home"><a href="/" class="contact--homebtn">&gt;&nbspピーシーフェーズ HOME</a></div>
+    </header>
+    <!---- ↑↑↑ ヘッダーここまで ↑↑↑ ---->
+
+    <!---- ↓↓↓ コンテンツここから ↓↓↓ ---->
+    <div id="contents" class="clearFix">
+
+<h1 class="c-httl">お問い合わせ</h1>
+<div class="wrapper">
+
+		<div class="contact__markbox">
+			<p class="c-p4"><img src="/img/csr/pmark.png" width="100" alt="PrivacyMark"></p>
+			<a href="/csr/privacy/" target="blank">個人情報保護方針</a>
+		</div>
+
+<div class="c-paddingset">
+
+<ul class="contact__nav clearfix">
+	<li class="is-on"><a href="/contact/form/">お問い合わせ</a></li>
+	<!-- <li><a href="/contact/form-mashery/">Masheryのお問い合わせ</a></li> -->
+	<li><a href="/contact/recruit-form/">採用応募フォーム</a></li>
+</ul>
+
+	<div role="form" class="wpcf7" id="wpcf7-f235-p236-o1" lang="ja" dir="ltr">
+<div class="screen-reader-response"></div>
+<form name="" action="/contact/form#wpcf7-f235-p236-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="235" />
+<input type="hidden" name="_wpcf7_version" value="4.2.1" />
+<input type="hidden" name="_wpcf7_locale" value="ja" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f235-p236-o1" />
+<input type="hidden" name="_wpnonce" value="f2f106cd62" />
+</div>
+<p class="c-mt24 form-part">※半角カナ、機種依存文字はご使用にならないでください。</p>
+<div class="form-part">
+<div class="form-caption required">お問い合わせ内容</div>
+<div class="form-input"><span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" maxlength="10000" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></textarea></span></div>
+<div class="form-caption required">お名前</div>
+<div class="form-input"><span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" maxlength="70" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span></div>
+<div class="form-caption">ふりがな</div>
+<div class="form-input"><span class="wpcf7-form-control-wrap text-furigana"><input type="text" name="text-furigana" value="" size="40" maxlength="70" class="wpcf7-form-control wpcf7-text" aria-invalid="false" /></span></div>
+<div class="form-caption required">メールアドレス</div>
+<div class="form-input"><span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" maxlength="70" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" /></span></div>
+<div class="form-caption">電話番号</div>
+<div class="form-input"><span class="wpcf7-form-control-wrap tel-1"><input type="tel" name="tel-1" value="" size="40" maxlength="70" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel" aria-invalid="false" /></span></div>
+<div class="form-caption">企業／団体名</div>
+<div class="form-input"><span class="wpcf7-form-control-wrap text-kaisya"><input type="text" name="text-kaisya" value="" size="40" maxlength="70" class="wpcf7-form-control wpcf7-text" aria-invalid="false" /></span></div>
+<div class="confirm-text">お問い合わせを頂く前に、「<a href="/csr/privacy" target="_blank">個人情報保護方針</a>」および「<a href="/csr/privacy-management" target="_blank">個人情報の取扱いについて</a>」をお読み頂き、記載されている内容に関して同意して頂ける場合は「個人情報の取扱いに同意して送信する」ボタンをクリックして送信してください。<br />
+ご同意頂けない場合は、「同意しない」ボタンをクリックして表示されるお電話でのお問い合わせ窓口をご利用ください。</div>
+<p class="contact__btn"><input type="submit" value="個人情報の取扱いに同意して送信する" class="wpcf7-form-control wpcf7-submit" /><input type="button" value="同意しない" onclick="location.href='/contact/nagree'"></p>
+</div>
+<p><!-- /form-part --></p>
+<div class="thankyou">
+<p class="c-mt24 c-fs18">メッセージを送信いたしました。</p>
+<p class="c-mt24">ご入力いただいたメールアドレス宛てに自動返信メールをお送りしましたので、ご確認ください。<br><br />
+	後日、担当者よりご連絡いたします。</p>
+<p class="c-mt24">お問い合わせありがとうございました。</p>
+<p>	<a href="https://www.pcp.co.jp/" class="contact--homebtn c-mt32">&gt;&nbspピーシーフェーズ HOME</a>
+</div>
+<p><!-- /thankyou --></p>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
+</div>
+	</div>
+	<!---- ↑↑↑コンテンツここまで↑↑↑ ---->
+</div>
+
+
+<div class="copyright">Copyright &copy; 2018 PCPhase Corporation, All Rights Reserved.</div>
+
+<!-- Yahoo! JAPANユニバーサルタグ -->
+<script type="text/javascript">
+  (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=o6wVqUY";
+    s.parentNode.insertBefore(tagjs, s);
+  }());
+</script>
+<noscript>
+  <iframe src="//b.yjtag.jp/iframe?c=o6wVqUY" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+<!-- Yahoo! JAPANユニバーサルタグ -->
+</body>
+</html>

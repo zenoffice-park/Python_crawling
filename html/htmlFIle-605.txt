@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="content-language" content="ja">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="csrf-token" content="MTRMaqUjChHeAqpjjBFB7yTpgsJAWMoTnVpMG2Wn" />
+<title>【日本最大級の相場情報】中古マンション相場、物件情報なら『ふじたろう』</title>
+
+<meta name="keyword" content="ふじたろう,マンション相場,中古マンション相場,中古マンション">
+<meta name="discription" content="【ビッグデータ技術により3秒でスピード査定！】中古マンション相場、物件情報を調べるならふじたろう。日本最大級の中古マンション相場が検索できます。人工知能を用いた価格算出で売り時がすぐにわかります！">
+<link rel="canonical" href="https://www.fujitaro.com">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="/3.0/asset/css/reset.css">
+
+
+
+<link rel="stylesheet" href="/3.0/asset/css/common.css">
+<link rel="stylesheet" href="/3.0/asset/css/page.css">
+
+<link rel="stylesheet" href="/3.0/lib/slick/slick.css">
+<link rel="stylesheet" href="/3.0/lib/iziModal/iziModal.css">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TSVGTQK');</script>
+<!-- End Google Tag Manager -->
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/themes/redmond/jquery-ui.css">
+
+<script type="text/javascript" src="/3.0/lib/jquery/jquery.matchHeight-min.js"></script>
+<script type="text/javascript" src="/3.0/lib/slick/slick.min.js"></script>
+<script type="text/javascript" src="/3.0/lib/iziModal/iziModal.min.js"></script>
+
+<script type="text/javascript" src="/3.0/asset/js/common.js"></script>
+
+
+
+
+<link rel="stylesheet" href="/3.0/asset/css/top.css">
+
+<script>
+$.ajaxSetup({
+  headers: {
+    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+  },
+  error : function(jqXHR, textStatus, errorThrown) {
+    console.log("Error: " + textStatus + ": " + errorThrown);
+    if (jqXHR.status == 403) {
+      window.location.reload();
+    }
+  }
+});
+</script>
+</head>
+
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TSVGTQK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header>
+    <div class="inner">
+      <div class="clearfix">
+        <h1><a href="/"><img src="/3.0/asset/img/logo.png" alt="ふじたろう"></a></h1>
+        <div class="btn_header">
+          <ul class="link">
+            <li><a href="/beginner/" class="beginner">初めての方へ</a></li>
+            <li><a href="/qa/" class="qa">よくある質問</a></li>
+          </ul>
+          <ul>
+                             <li><a href="/user/login" class="btn_login">ログイン</a></li>
+                <li><a href="/user/signup" class="btn_entry">会員登録</a></li>
+                      </ul>
+        </div>
+      </div>
+    </div>
+        <div class="top_search">
+      <div class="inner">
+        <p><img src="/3.0/asset/img/top/main_visual01.png" alt="国内のマンション情報が集まる「買う」「借りる」「売る」「知る」を自由気ままに。"></p>
+        <div class="form_area">
+          <form method="get" action="/mansion/list">
+            <input type="text" name="q" value="" class="search_text" placeholder="マンション名・駅名・市区町村名を入力">
+            <div class="form_btn">
+              <span><button>検索</button></span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+</header>
+<div id="btn_sp">
+    <div class="btn_sp_menu"> <a href="#" class="menu-trigger"> <span></span> <span></span> <span></span> </a> </div>
+    <nav>
+      <ul>
+        <!--
+        <li><a href="#">メニュー1</a></li>
+        <li><a href="#">メニュー1</a></li>
+        <li><a href="#">メニュー1</a></li>
+        <li><a href="#">メニュー1</a></li>
+        <li><a href="#">メニュー1</a></li>
+      -->
+                             <li><a href="/user/login" class="btn_login">ログイン</a></li>
+                <li><a href="/user/signup" class="btn_entry">会員登録</a></li>
+                            <li><a href="/beginner/">初めての方へ</a></li>
+                <li><a href="/qa/">よくある質問</a></li>
+      </ul>
+    </nav>
+</div>
+<main>
+          </div>
+
+      <input type="hidden" name="center" value="[133.2667,35.3833]" />
+
+  <div class="top_content01">
+    <div class="inner clearfix">
+      <div class="top_left">
+        <section class="top_area_search">
+          <h1>エリアや駅からマンションを<br>
+            検索する・相場を見る</h1>
+          <ul>
+                            <li>
+                <h2>【北海道・東北】</h2>
+                  <ul>
+                                            <li><a href="http://www.fujitaro.com/pref-hokkaido">北海道</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-aomori">青森県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-akita">秋田県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-iwate">岩手県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-miyagi">宮城県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-yamagata">山形県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-fukushima">福島県</a></li>
+                                      </ul>
+                </li>
+                            <li>
+                <h2>【関東】</h2>
+                  <ul>
+                                            <li><a href="http://www.fujitaro.com/pref-tokyo">東京都</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-kanagawa">神奈川県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-saitama">埼玉県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-chiba">千葉県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-gumma">群馬県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-tochigi">栃木県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-ibaraki">茨城県</a></li>
+                                      </ul>
+                </li>
+                            <li>
+                <h2>【北陸・甲信越】</h2>
+                  <ul>
+                                            <li><a href="http://www.fujitaro.com/pref-niigata">新潟県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-toyama">富山県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-ishikawa">石川県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-fukui">福井県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-yamanashi">山梨県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-nagano">長野県</a></li>
+                                      </ul>
+                </li>
+                            <li>
+                <h2>【東海】</h2>
+                  <ul>
+                                            <li><a href="http://www.fujitaro.com/pref-aichi">愛知県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-gifu">岐阜県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-shizuoka">静岡県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-mie">三重県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-shiga">滋賀県</a></li>
+                                      </ul>
+                </li>
+                            <li>
+                <h2>【関西】</h2>
+                  <ul>
+                                            <li><a href="http://www.fujitaro.com/pref-osaka">大阪府</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-hyogo">兵庫県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-kyoto">京都府</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-nara">奈良県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-wakayama">和歌山県</a></li>
+                                      </ul>
+                </li>
+                            <li>
+                <h2>【中国・四国】</h2>
+                  <ul>
+                                            <li><a href="http://www.fujitaro.com/pref-tottori">鳥取県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-shimane">島根県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-okayama">岡山県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-hiroshima">広島県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-yamaguchi">山口県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-tokushima">徳島県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-kagawa">香川県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-ehime">愛媛県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-kochi">高知県</a></li>
+                                      </ul>
+                </li>
+                            <li>
+                <h2>【九州・沖縄】</h2>
+                  <ul>
+                                            <li><a href="http://www.fujitaro.com/pref-fukuoka">福岡県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-saga">佐賀県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-nagasaki">長崎県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-kumamoto">熊本県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-oita">大分県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-miyazaki">宮崎県</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-kagoshima">鹿児島</a></li>
+                                            <li><a href="http://www.fujitaro.com/pref-okinawa">沖縄県</a></li>
+                                      </ul>
+                </li>
+                      </ul>
+        </section>
+        <section class="top_my_mansion">
+          <h1>お気に入りマンション</h1>
+          <div class="my_mansion">
+            <div class="box_wrap">
+                                                <div class="box"><img src="/3.0/asset/img/top/img_nodata.png" alt="NO IMAGE"></div>
+                                                                <div class="box"><img src="/3.0/asset/img/top/img_nodata.png" alt="NO IMAGE"></div>
+                                                                <div class="box"><img src="/3.0/asset/img/top/img_nodata.png" alt="NO IMAGE"></div>
+                                          </div>
+          </div>
+        </section>
+      </div>
+      <div class="top_right">
+        <section class="top_update">
+          <h1>情報アップデート物件</h1>
+          <div class="updates">
+                          <div class="box">
+                <a href="http://www.fujitaro.com/detail-55ff8a8c86cf319fa1004c8f">
+                <div class="clearfix">
+                                    <div class="thumb"> <span style="background-image:url(https://d4g95bmsfck6z.cloudfront.net/mansion_img/55ff8a8c86cf319fa1004c8f/1.jpg)"></span> </div>
+                
+
+                  <!-- <div class="thumb"> <span style="background-image:url(https://d4g95bmsfck6z.cloudfront.net/mansion_img/55ff8a8c86cf319fa1004c8f/1.jpg)"></span> </div> -->
+                  <div class="txt">
+                    <h2>ベルメゾン六本木タワーズ</h2>
+                    <p>東京都港区<br>
+                      東京メトロ日比谷線/六本木駅　徒步4分 </p>
+                  </div>
+                </div>
+                <dl>
+                  <dt>売買相場</dt>
+                  <dd><span>2,500〜8,950</span>万円</dd>
+                  <dt>家賃相場</dt>
+                  <dd><span>9〜31</span>万円</dd>
+                  <dt>投資情報</dt>
+                  <dd>表面利回り:<span>4.2</span>%</dd>
+                </dl>
+                </a>
+              </div>
+                          <div class="box">
+                <a href="http://www.fujitaro.com/detail-55ff8a8c86cf319fa1004c94">
+                <div class="clearfix">
+                                    <div class="thumb"> <span style="background-image:url(https://d4g95bmsfck6z.cloudfront.net/mansion_img/55ff8a8c86cf319fa1004c94/1.jpg)"></span> </div>
+                
+
+                  <!-- <div class="thumb"> <span style="background-image:url(https://d4g95bmsfck6z.cloudfront.net/mansion_img/55ff8a8c86cf319fa1004c94/1.jpg)"></span> </div> -->
+                  <div class="txt">
+                    <h2>六本木グランドール</h2>
+                    <p>東京都港区<br>
+                      東京メトロ日比谷線/六本木駅　徒步2分 </p>
+                  </div>
+                </div>
+                <dl>
+                  <dt>売買相場</dt>
+                  <dd><span>1,680〜20,000</span>万円</dd>
+                  <dt>家賃相場</dt>
+                  <dd><span>4〜47</span>万円</dd>
+                  <dt>投資情報</dt>
+                  <dd>表面利回り:<span>2.8</span>%</dd>
+                </dl>
+                </a>
+              </div>
+                          <div class="box">
+                <a href="http://www.fujitaro.com/detail-55ff8a9086cf319fa1004cb0">
+                <div class="clearfix">
+                                    <div class="thumb"> <span style="background-image:url(https://d4g95bmsfck6z.cloudfront.net/mansion_img/55ff8a9086cf319fa1004cb0/1.jpg)"></span> </div>
+                
+
+                  <!-- <div class="thumb"> <span style="background-image:url(https://d4g95bmsfck6z.cloudfront.net/mansion_img/55ff8a9086cf319fa1004cb0/1.jpg)"></span> </div> -->
+                  <div class="txt">
+                    <h2>ライオンズマンション荒川公園</h2>
+                    <p>東京都荒川区<br>
+                      都電荒川線/荒川区役所前駅　徒步4分 </p>
+                  </div>
+                </div>
+                <dl>
+                  <dt>売買相場</dt>
+                  <dd><span>1,980〜3,480</span>万円</dd>
+                  <dt>家賃相場</dt>
+                  <dd><span>6〜11</span>万円</dd>
+                  <dt>投資情報</dt>
+                  <dd>表面利回り:<span>3.9</span>%</dd>
+                </dl>
+                </a>
+              </div>
+                          <div class="box">
+                <a href="http://www.fujitaro.com/detail-55ff8a9186cf319fa1004cb2">
+                <div class="clearfix">
+                                    <div class="thumb"> <span style="background-image:url(https://d4g95bmsfck6z.cloudfront.net/mansion_img/55ff8a9186cf319fa1004cb2/1.jpg)"></span> </div>
+                
+
+                  <!-- <div class="thumb"> <span style="background-image:url(https://d4g95bmsfck6z.cloudfront.net/mansion_img/55ff8a9186cf319fa1004cb2/1.jpg)"></span> </div> -->
+                  <div class="txt">
+                    <h2>リーフハイツ西日暮里</h2>
+                    <p>東京都荒川区<br>
+                      JR常磐線/三河島駅　徒步5分 </p>
+                  </div>
+                </div>
+                <dl>
+                  <dt>売買相場</dt>
+                  <dd><span>1,680〜2,780</span>万円</dd>
+                  <dt>家賃相場</dt>
+                  <dd><span>10〜16</span>万円</dd>
+                  <dt>投資情報</dt>
+                  <dd>表面利回り:<span>6.8</span>%</dd>
+                </dl>
+                </a>
+              </div>
+                          <div class="box">
+                <a href="http://www.fujitaro.com/detail-55ff897486cf319fa10044f2">
+                <div class="clearfix">
+                                    <div class="thumb"> <span style="background-image:url(https://d4g95bmsfck6z.cloudfront.net/mansion_img/55ff897486cf319fa10044f2/1.jpg)"></span> </div>
+                
+
+                  <!-- <div class="thumb"> <span style="background-image:url(https://d4g95bmsfck6z.cloudfront.net/mansion_img/55ff897486cf319fa10044f2/1.jpg)"></span> </div> -->
+                  <div class="txt">
+                    <h2>シェグラン南葛西ハイライズ</h2>
+                    <p>東京都江戸川区<br>
+                      東京メトロ東西線/葛西駅　徒步15分 </p>
+                  </div>
+                </div>
+                <dl>
+                  <dt>売買相場</dt>
+                  <dd><span>2,580〜3,780</span>万円</dd>
+                  <dt>家賃相場</dt>
+                  <dd><span>9〜14</span>万円</dd>
+                  <dt>投資情報</dt>
+                  <dd>表面利回り:<span>4.3</span>%</dd>
+                </dl>
+                </a>
+              </div>
+                      </div>
+        </section>
+      </div>
+    </div>
+    <div class="top_content07">
+      <div class="inner">
+        <div class="top_guidance_wrap">
+          <section class="top_guidance01">
+            <div class="top_guidance01_inner">
+              <div class="top_guidance01_head">
+                <h1>今すぐ相場を見たい方はこちら</h1>
+              </div>
+              <h2><img src="/3.0/asset/img/top/txt_top_guidance01_pc.png" alt="国内のマンション情報が集まる『買う』『借りる』『売る』『知る』を自由気ままに。"></h2>
+              <div class="form_area clearfix">
+                <form method="get" action="/mansion/list">
+                  <input type="text" name="q" id='search_all' class="search_text" value="" placeholder="マンション名・駅名・市区町村名を入力">
+                  <div class="form_btn">
+                    <span><button>相場検索</button></span>
+                  </div>
+                </form>
+              </div>
+              <!-- <div class="search_word">
+                <h3>よくある検索</h3>
+                <ul>
+                                        <li><a href="javascript:" class="keyword" data-name="新宿区">新宿区</a></li>
+                                        <li><a href="javascript:" class="keyword" data-name="ブリリア 光建">ブリリア 光建</a></li>
+                                        <li><a href="javascript:" class="keyword" data-name="青葉台">青葉台</a></li>
+                                        <li><a href="javascript:" class="keyword" data-name="西ノ京">西ノ京</a></li>
+                                        <li><a href="javascript:" class="keyword" data-name="ライオンズ マンション">ライオンズ マンション</a></li>
+                                  </ul>
+              </div> -->
+            </div>
+          </section>
+        </div>
+        <div class="top_guidance_wrap">
+          <section class="top_guidance02">
+            <div class="top_guidance02_inner">
+              <div class="top_guidance02_head">
+                <h1>今すぐ査定依頼したい方はこちら</h1>
+              </div>
+              <h2><img src="/3.0/asset/img/top/txt_top_guidance02_pc.png" alt="不動産のプロに無料査定を依頼!"></h2>
+              <form action="/satei" method="post">
+                <div class="step clearfix">
+                  <dl>
+                    <dt><img src="/3.0/asset/img/top/txt_top_guidance02_step01_on.png" alt="STEP01"></dt>
+                    <dd>
+                      <select name="type" class="require" id="type">
+                        <option value="">物件のタイプ</option>
+                        <option value="1">分譲マンション</option>
+                        <option value="2">一戸建て</option>
+                        <option value="3">土地</option>
+                      </select>
+                    </dd>
+                  </dl>
+                  <dl>
+                    <dt><img src="/3.0/asset/img/top/txt_top_guidance02_step02_off.png" alt="STEP02"></dt>
+                    <dd>
+                      <select name="district_lv_1" class="require" id="pref" disabled>
+                        <option value="">都道府県</option><option value="1">北海道</option><option value="2">青森県</option><option value="3">岩手県</option><option value="4">宮城県</option><option value="5">秋田県</option><option value="6">山形県</option><option value="7">福島県</option><option value="8">茨城県</option><option value="9">栃木県</option><option value="10">群馬県</option><option value="11">埼玉県</option><option value="12">千葉県</option><option value="13">東京都</option><option value="14">神奈川県</option><option value="15">新潟県</option><option value="16">富山県</option><option value="17">石川県</option><option value="18">福井県</option><option value="19">山梨県</option><option value="20">長野県</option><option value="21">岐阜県</option><option value="22">静岡県</option><option value="23">愛知県</option><option value="24">三重県</option><option value="25">滋賀県</option><option value="26">京都府</option><option value="27">大阪府</option><option value="28">兵庫県</option><option value="29">奈良県</option><option value="30">和歌山県</option><option value="31">鳥取県</option><option value="32">島根県</option><option value="33">岡山県</option><option value="34">広島県</option><option value="35">山口県</option><option value="36">徳島県</option><option value="37">香川県</option><option value="38">愛媛県</option><option value="39">高知県</option><option value="40">福岡県</option><option value="41">佐賀県</option><option value="42">長崎県</option><option value="43">熊本県</option><option value="44">大分県</option><option value="45">宮崎県</option><option value="46">鹿児島県</option><option value="47">沖縄県</option>
+                      </select>
+                    </dd>
+                  </dl>
+                  <dl>
+                    <dt><img src="/3.0/asset/img/top/txt_top_guidance02_step03_off.png" alt="STEP03"></dt>
+                    <dd>
+                      <select name="district_lv_2" class="require" id="city" disabled>
+                        <option value="" selected="">市区町村</option>
+                      </select>
+                    </dd>
+                  </dl>
+                  <dl>
+                    <dt><img src="/3.0/asset/img/top/txt_top_guidance02_step04_off.png" alt="STEP04"></dt>
+                    <dd>
+                      <select name="district_lv_3" class="require" id="area" disabled>
+                        <option value="" selected="">エリア</option>
+                      </select>
+                    </dd>
+                  </dl>
+                </div>
+                <div class="form_btn shadow">
+                  <span><button disabled><span>らくらく60秒</span>査定スタート</button></span>
+                </div>
+              </form>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="top_content02">
+    <div class="inner">
+      <section class="top_able">
+        <h1 class="sec_h">ふじたろうならできる4つのこと</h1>
+        <ul class="clearfix">
+          <li class="shadow">
+            <div class="img"> <img src="/3.0/asset/img/top/img_top_able01.png" alt=""> </div>
+            <div class="point_num">
+              <p>Point<span>1</span></p>
+            </div>
+            <div class="content">
+              <h2><span>簡単入力で推定価格がすぐにわかる</span></h2>
+              <div class="txt">
+                <p>ビッグデータ技術により、マンションの「推定販売価格」「推定賃料」をその場で算出します。</p>
+              </div>
+            </div>
+          </li>
+          <li class="shadow">
+            <div class="img"> <img src="/3.0/asset/img/top/img_top_able02.png" alt=""> </div>
+            <div class="point_num">
+              <p>Point<span>2</span></p>
+            </div>
+            <div class="content">
+              <h2> <span>お気に入り登録で株価のように価格を把握</span></h2>
+              <div class="txt">
+                <p>お気に入り登録すれば、毎月変動するマンション相場（平米単価）を、株価のチャートのように確認できます。</p>
+              </div>
+            </div>
+          </li>
+          <li class="shadow">
+            <div class="img"> <img src="/3.0/asset/img/top/img_top_able03.png" alt=""> </div>
+            <div class="point_num">
+              <p>Point<span>3</span></p>
+            </div>
+            <div class="content">
+              <h2> <span>相場と取引量をヒートマップで見える化</span></h2>
+              <div class="txt">
+                <p>「相場」「取引量」が、色の違いによって一目瞭然。気になるエリアのマンション相場がわかります。</p>
+              </div>
+            </div>
+          </li>
+          <li class="shadow">
+            <div class="img"> <img src="/3.0/asset/img/top/img_top_able04.png" alt=""> </div>
+            <div class="point_num">
+              <p>Point<span>4</span></p>
+            </div>
+            <div class="content">
+              <h2><span>不動産のプロへ売却・購入相談</span></h2>
+              <div class="txt">
+                <p>すぐに売却・購入を希望される方は、不動産のプロへ、詳細な価格査定や相談、サポートを依頼いただけます。</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+                 <p class="require">すべての機能をお使いいただくには<span>会員登録</span>が必要です</p>
+        <a href="/user/signup" class="btn shadow"><span>今すぐ会員登録する</span></a> </section>
+            </div>
+  </div>
+  <div class="top_content03">
+    <div class="inner">
+      <section class="accuracy">
+        <h1 class="sec_h">「ふじたろう」なら簡単査定でも、査定精度が高い。<span>全体の半数の物件が6.4%以下の乖離率で査定できます。</span></h1>
+        <table>
+          <tbody>
+            <tr>
+              <th scope="col">都道府県</th>
+              <th scope="col">MER</th>
+              <th scope="col">誤差5%以内の物件割合</th>
+              <th scope="col">誤差10%以内の物件割合</th>
+              <th scope="col">誤差20%以内の物件割合</th>
+            </tr>
+            <tr>
+              <th scope="row"><a href="/pref-tokyo/list">東京都</a></th>
+              <td><span>6.0</span>%</td>
+              <td><span>43.9</span>%</td>
+              <td><span>71.7</span>%</td>
+              <td><span>93.8</span>%</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="/pref-kanagawa/list">神奈川県</a></th>
+              <td><span>5.8</span>%</td>
+              <td><span>42.4</span>%</td>
+              <td><span>73.6</span>%</td>
+              <td><span>96.7</span>%</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="/pref-osaka/list">大阪府</a></th>
+              <td><span>6.3</span>%</td>
+              <td><span>41.0</span>%</td>
+              <td><span>70.0</span>%</td>
+              <td><span>93.4</span>%</td>
+            </tr>
+            <tr>
+              <th scope="row"><a href="/pref-aichi/list">愛知県</a></th>
+              <td><span>7.5</span>%</td>
+              <td><span>34.2</span>%</td>
+              <td><span>62.6</span>%</td>
+              <td><span>88.2</span>%</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="clearfix"> <a href="/fujivalue" class="btn">他のエリアのMERをみる</a>
+          <p class="caption">＊ 「査定モデルが算出した推定価格」と「実際の成約価格」との差額の絶対値を、当該成約価格で割った値を乖離率としています。<br>
+            その乖離率の中央値をMER（Median Error Rate、乖離率中央値）としています。<br>
+            MERの値が小さいほど、査定モデルの精度が高いことを意味します。 <br>
+            例えば、 MER が 7% の場合、全体の半数の物件が7%以下の乖離率で相場価格を算出できることを意味します。</p>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="top_content04">
+    <div class="inner">
+      <section class="top_example">
+        <h1 class="sec_h">「ふじたろう」活用事例<span>お客様の声</span></h1>
+        <div class="example clearfix">
+          <div class="box">
+            <h2><img src="/3.0/asset/img/top/img_top_example01_01_pc.png" alt="30代女性/会社員売却額:2,300万円"></h2>
+            <div class="txt">
+              <p><img src="/3.0/asset/img/top/img_top_example01_02.png" alt="査定額270万円UP!"></p>
+              <dl>
+                <dt>物件情報</dt>
+                <dd>1LDK／45㎡／2009年 築</dd>
+              </dl>
+              <p>結婚が決まった時、独身時代に買ったマンションを売るか貸すか迷っていました。友人に紹介された「ふじたろう」で推定価格を調べると、購入価格より高くなっていることが判明。思い切って売却することに。住宅ローンが残っていましたが、ほぼ相殺することもでき満足しています。</p>
+            </div>
+          </div>
+          <div class="box">
+            <h2><img src="/3.0/asset/img/top/img_top_example02_01.png" alt="30代男性/会社員/売却額:2,800万円"></h2>
+            <div class="txt">
+              <p><img src="/3.0/asset/img/top/img_top_example02_02.png" alt="査定額310万円UP!"></p>
+              <dl>
+                <dt>物件情報</dt>
+                <dd>2LDK／55㎡／1984年 築</dd>
+              </dl>
+              <p>3人目の妊娠を機に、広いマンションに引っ越そうということになりました。当初、古い物件で買い手が見つかるか不安でしたが、「ふじたろう」で似たような物件が高く取引されていることがわかりました。納得の金額で売りに出し、無事買い手を見つけることができました。</p>
+            </div>
+          </div>
+          <div class="box">
+            <h2><img src="/3.0/asset/img/top/img_top_example03_01.png" alt="60代男性/無職売却額:9,200万円"></h2>
+            <div class="txt">
+              <p><img src="/3.0/asset/img/top/img_top_example03_02.png" alt="査定額400万円UP!"></p>
+              <dl>
+                <dt>物件情報</dt>
+                <dd>3LDK／72㎡／2007年 築</dd>
+              </dl>
+              <p>定年退職後、住んでいるマンションを売り、郊外でのんびり暮らしたいと考えていました。割と人気があるエリアなので、価格はある程度納得。ただ会社によって、査定額にかなりの差があり驚きました。最終的には、相場より高い金額を提示した「ふじたろう」提携会社へサポートを依頼しました。</p>
+            </div>
+          </div>
+          <div class="box">
+            <h2><img src="/3.0/asset/img/top/img_top_example04_01.png" alt="50代男性/投資家売却額:1億3,000万円"></h2>
+            <div class="txt">
+              <p><img src="/3.0/asset/img/top/img_top_example04_02.png" alt="査定額480万円UP!"></p>
+              <dl>
+                <dt>物件情報</dt>
+                <dd>162㎡／1998年 築</dd>
+              </dl>
+              <p>亡くなった父からアパートを相続したのですが、空室続きで困っていました。税金もかかるし、売るしかないかな…と。「ふじたろう」を通し査定を依頼したところ、これまで査定をお願いしていた会社より金額が高く、対応も良かったです。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="top_content05">
+    <div class="inner">
+      <section class="top_knowhow">
+        <h1 class="sec_h">マンションを高く売るノウハウ</h1>
+        <ul class="clearfix">
+          <li> <a href="/knowhow/souba">
+            <div class="thumb"><img src="/3.0/asset/img/top/img_top_knowhow01.png" alt=""></div>
+            <div class="txt">
+              <h2>マンション売却前の準備！「相場」を知ること</h2>
+              <p class="author">住宅コンサルタント 野中清志</p>
+              <p>不動産会社に任せる前にしなければならないこと。それは「相場を知ること」です。</p>
+            </div>
+            </a> </li>
+          <li> <a href="/knowhow/timing">
+            <div class="thumb"><img src="/3.0/asset/img/top/img_top_knowhow02.png" alt=""></div>
+            <div class="txt">
+              <h2>今はマンション売却に有利な時期か？</h2>
+              <p class="author">住宅コンサルタント 野中清志</p>
+              <p>マンションはいつ売るのが良いのか？不動産市場全体の動向を見極めながら、売却に有利な時期を探ってみましょう。</p>
+            </div>
+            </a> </li>
+          <li> <a href="/knowhow/nairan">
+            <div class="thumb"><img src="/3.0/asset/img/top/img_top_knowhow03.png" alt=""></div>
+            <div class="txt">
+              <h2>内覧時に住んでみたいと思わせるコツ</h2>
+              <p class="author">住宅コンサルタント 野中清志</p>
+              <p>早く売却するポイントは、内覧時に、マンションに対して良い印象をもってもらうことです。</p>
+            </div>
+            </a> </li>
+          <li> <a href="/knowhow/ketsudan">
+            <div class="thumb"><img src="/3.0/asset/img/top/img_top_knowhow04.png" alt=""></div>
+            <div class="txt">
+              <h2>売却成功のカギは「決断」するタイミング</h2>
+              <p class="author">住宅コンサルタント 野中清志</p>
+              <p>売却価格や時期などについて、適切な「決断」がマンション売却の成功につながります。</p>
+            </div>
+            </a> </li>
+          <li> <a href="/knowhow/chukai">
+            <div class="thumb"><img src="/3.0/asset/img/top/img_top_knowhow05.png" alt=""></div>
+            <div class="txt">
+              <h2>仲介手数料は値下げ交渉できるの？</h2>
+              <p class="author">住宅コンサルタント 野中清志</p>
+              <p>不動産会社に支払う「仲介手数料」は値下げ交渉できるのでしょうか？</p>
+            </div>
+            </a> </li>
+          <li> <a href="/knowhow/keiyaku">
+            <div class="thumb"><img src="/3.0/asset/img/top/img_top_knowhow06.png" alt=""></div>
+            <div class="txt">
+              <h2>媒介契約は専属専任？専任？一般？<br>
+                どれを選べばいい？</h2>
+              <p class="author">住宅コンサルタント 野中清志</p>
+              <p>不動産会社と締結する「媒介契約」。専属専任、専任、一般のどれを選べばいいでしょうか。</p>
+            </div>
+            </a> </li>
+          <li> <a href="/knowhow/shijou">
+            <div class="thumb"><img src="/3.0/asset/img/top/img_top_knowhow07.png" alt=""></div>
+            <div class="txt">
+              <h2>今後の不動産市況から予想する！<br>
+                売却にベストなタイミングは？！</h2>
+              <p class="author">住宅コンサルタント 野中清志</p>
+              <p>中古マンション人気が上昇し、首都圏の成約数が増加してます。今後の市場動向を見てみましょう。</p>
+            </div>
+            </a> </li>
+          <li> <a href="/knowhow/nagarei">
+            <div class="thumb"><img src="/3.0/asset/img/top/img_top_knowhow08.png" alt=""></div>
+            <div class="txt">
+              <h2>不動産売却の流れと手続きについて</h2>
+              <p class="author">住宅コンサルタント 野中清志</p>
+              <p>マンションを売却する際、どういう手順を踏めばいいのか解説します。</p>
+            </div>
+            </a> </li>
+          <li> <a href="/knowhow/chuiten">
+            <div class="thumb"><img src="/3.0/asset/img/top/img_top_knowhow09.png" alt=""></div>
+            <div class="txt">
+              <h2>不動産を売却する時に<br>
+                押さえておきたい注意点</h2>
+              <p class="author">住宅コンサルタント 野中清志</p>
+              <p>ローンの残債や、管理費の未払い分など…。マンション売却時に「押さえておきたい」ポイントを紹介します。</p>
+            </div>
+            </a> </li>
+          <li> <a href="/knowhow/hiyou">
+            <div class="thumb"><img src="/3.0/asset/img/top/img_top_knowhow10.png" alt=""></div>
+            <div class="txt">
+              <h2>不動産売却に必要な費用とは？<br>
+                押さえておきたい注意点</h2>
+              <p class="author">住宅コンサルタント 野中清志</p>
+              <p>不動産を売却する際、仲介手数料や登記の費用、税金等が発生します。それぞれの費用等について見てみましょう。</p>
+            </div>
+            </a> </li>
+        </ul>
+      </section>
+    </div>
+  </div>
+  <div class="top_content06">
+    <div class="inner">
+      <section class="top_app">
+        <h1 class="sec_h app_h">スマートフォンアプリ</h1>
+        <div class="app_list clearfix">
+          <div class="box">
+            <h2 class="fujitaro">未来のマンション相場がわかる<span>「ふじたろう」</span></h2>
+            <div class="txt">
+              <ul class="app_guide">
+                <li>今いくらか調べる</li>
+                <li>エリア相場を学ぶ</li>
+                <li>不動産の動きを見比べる</li>
+                <li>価格を見守る</li>
+              </ul>
+              <p>“不動産 売るのも買うのも 相場から”<br>
+                「ふじたろう」ならこれ一つでマンション売買の有益な情報を手に入れられます。</p>
+              <a href="https://itunes.apple.com/app/apple-store/id1060420846"><img src="/3.0/asset/img/top/btn_top_app.png" alt="App Store"></a> </div>
+          </div>
+          <div class="box">
+            <h2 class="fujijiro">カメラをかざせば、マンション相場が見える<span>「ふじじろう」</span></h2>
+            <div class="txt">
+              <ul class="app_guide">
+                <li>気になるマンション発見</li>
+                <li>相場価格を調べてみよう</li>
+                <li>カメラをかざすと相場がわかる</li>
+                <li>「ふじたろう」でその場で確認</li>
+              </ul>
+              <p>「ふじじろう」は、AR(拡張現実)によって簡単＆気軽にマンション相場情報を知ることができるアプリケーションです。</p>
+              <a href="https://itunes.apple.com/app/apple-store/id1120467270"><img src="/3.0/asset/img/top/btn_top_app.png" alt="App Store"></a> </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</main>
+<div id="linechat" >
+      <div class="linechat top">
+  <div class="clearfix">
+    <div class="inner">
+      <div class="linechat_box"> <a href="#" class="chat_open open-linechat modal">LINEチャットで問い合わせ</a> </div>
+      <div id="modal-linechat">
+        <div class="howtoline modal">
+          <h1>LINEチャットで問い合わせ</h1>
+          <p>「担当者と1:1トーク機能で相談」<br class="only_sp">「チャットボットでAI査定」<br>
+          ご希望の方法を選び、LINEで会話してみてください。</p>
+          <div class="box_wrap clearfix">
+            <div class="box">
+              <h2>担当者と1:1トーク機能で相談</h2>
+              <div class="content">
+                <div class="qr only_pc">
+                  <img src="/3.0/asset/img/img_qr_line.png" alt=""/>
+                  <div class="id">@bea3062h</div>
+                </div>
+                <div class="only_sp">
+                  <a href="https://line.me/R/ti/p/%40bea3062h" class="btn_line">友だち追加</a>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <h2>チャットボットでAI査定</h2>
+              <div class="content">
+                <div class="qr only_pc">
+                  <img src="/3.0/asset/img/img_qr_line_bot.png" alt=""/>
+                  <div class="id">@ctq2393o</div>
+                </div>
+                <div class="only_sp">
+                  <a href="https://line.me/R/ti/p/%40ctq2393o" class="btn_line">友だち追加</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p>LINEの「友だち追加」を開いてQRコードを読み込むかID検索してください。</p>
+          <a href="#" class="btn btn03 close open-linechat" data-izimodal-close=""><span>閉じる</span></a> </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <footer>
+    <div class="inner">
+      <div class="ft_nav area clearfix">
+        <p>【 都道府県 】</p>
+        <div class="area_nav01 area_nav">
+          <div class="area_tit">北海道・東北</div>
+          <ul>
+            <li><a href="/pref-hokkaido">北海道</a></li>
+            <li><a href="/pref-aomori">青森</a></li>
+            <li><a href="/pref-iwate">岩手</a></li>
+            <li><a href="/pref-miyagi">宮城</a></li>
+            <li><a href="/pref-akita">秋田</a></li>
+            <li><a href="/pref-yamagata">山形</a></li>
+            <li><a href="/pref-fukushima">福島</a></li>
+          </ul>
+          <div class="area_tit">関東</div>
+          <ul>
+            <li><a href="/pref-tokyo">東京</a></li>
+            <li><a href="/pref-kanagawa">神奈川</a></li>
+            <li><a href="/pref-saitama">埼玉</a></li>
+            <li><a href="/pref-chiba">千葉</a></li>
+            <li><a href="/pref-ibaraki">茨城</a></li>
+            <li><a href="/pref-tochigi">栃木</a></li>
+            <li><a href="/pref-gumma">群馬</a></li>
+          </ul>
+          <div class="area_tit">北陸・甲信越</div>
+          <ul>
+            <li><a href="/pref-niigata">新潟</a></li>
+            <li><a href="/pref-toyama">富山</a></li>
+            <li><a href="/pref-ishikawa">石川</a></li>
+            <li><a href="/pref-fukui">福井</a></li>
+            <li><a href="/pref-yamanashi">山梨</a></li>
+            <li><a href="/pref-nagano">長野</a></li>
+          </ul>
+          <div class="area_tit">東海</div>
+          <ul>
+            <li><a href="/pref-aichi">愛知</a></li>
+            <li><a href="/pref-gifu">岐阜</a></li>
+            <li><a href="/pref-shizuoka">静岡</a></li>
+            <li><a href="/pref-mie">三重</a></li>
+          </ul>
+        </div>
+
+        <div class="area_nav02 area_nav">
+          <div class="area_tit">近畿</div>
+          <ul>
+            <li><a href="/pref-osaka">大阪</a></li>
+            <li><a href="/pref-shiga">滋賀</a></li>
+            <li><a href="/pref-kyoto">京都</a></li>
+            <li><a href="/pref-hyogo">兵庫</a></li>
+            <li><a href="/pref-nara">奈良</a></li>
+            <li><a href="/pref-wakayama">和歌山</a></li>
+          </ul>
+          <div class="area_tit">中国・四国</div>
+          <ul>
+            <li><a href="/pref-tottori">鳥取</a></li>
+            <li><a href="/pref-shimane">島根</a></li>
+            <li><a href="/pref-okayama">岡山</a></li>
+            <li><a href="/pref-hiroshima">広島</a></li>
+            <li><a href="/pref-yamaguchi">山口</a></li>
+            <li><a href="/pref-tokushima">徳島</a></li>
+            <li><a href="/pref-kagawa">香川</a></li>
+            <li><a href="/pref-ehime">愛媛</a></li>
+            <li><a href="/pref-kochi">高知</a></li>
+          </ul>
+          <div class="area_tit">九州・沖縄</div>
+          <ul>
+            <li><a href="/pref-fukuoka">福岡</a></li>
+            <li><a href="/pref-saga">佐賀</a></li>
+            <li><a href="/pref-nagasaki">長崎</a></li>
+            <li><a href="/pref-kumamoto">熊本</a></li>
+            <li><a href="/pref-oita">大分</a></li>
+            <li><a href="/pref-miyazaki">宮崎</a></li>
+            <li><a href="/pref-kagoshima">鹿児島</a></li>
+            <li><a href="/pref-okinawa">沖縄</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="ft_nav city">
+        <p>【 都市 】</p>
+        <ul>
+          <li><a href="/pref-tokyo/city-shibuya">渋谷区</a></li>
+          <li><a href="/pref-tokyo/city-shinjuku">新宿区</a></li>
+          <li><a href="/pref-tokyo/city-minato">港区</a></li>
+          <li><a href="/pref-tokyo/city-meguro">目黒区</a></li>
+          <li><a href="/pref-osaka/city-osaka">大阪市</a></li>
+          <li><a href="/pref-aichi/city-nagoya">名古屋市</a></li>
+          <li><a href="/pref-kyoto/city-kyoto">京都市</a></li>
+          <li><a href="/pref-kanagawa/city-yokohama">横浜市</a></li>
+                    <li><a href="/pref-fukuoka/city-kitakyushu">北九州市</a></li>
+          <li><a href="/pref-hokkaido/city-sapporo">札幌市</a></li>
+          <li><a href="/pref-kanagawa/city-kawasaki">川崎市</a></li>
+          <li><a href="/pref-fukuoka/city-fukuoka">福岡市</a></li>
+          <li><a href="/pref-hiroshima/city-hiroshima">広島市</a></li>
+          <li><a href="/pref-miyagi/city-sendai">仙台市</a></li>
+          <li><a href="/pref-chiba/city-chiba">千葉市</a></li>
+          <li><a href="/pref-saitama/city-saitama">さいたま市</a></li>
+          <li><a href="/pref-shizuoka/city-shizuoka">静岡市</a></li>
+                    <li><a href="/pref-niigata/city-niigata">新潟市</a></li>
+          <li><a href="/pref-shizuoka/city-hamamatsu">浜松市</a></li>
+          <li><a href="/pref-okayama/city-okayama">岡山市</a></li>
+          <li><a href="/pref-kanagawa/city-sagamihara">相模原市</a></li>
+        </ul>
+      </div>
+
+      <div class="ft_nav info">
+        <ul>
+          <li><a href="/contact">お問い合わせ</a></li>
+          <li><a target="_blank" href="http://www.propertyagent.co.jp/company/profile">運営会社</a></li>
+          <li><a href="/agreement">利用規約</a></li>
+          <li><a href="/policy">個人情報保護方針</a></li>
+          <li><a href="/app">アプリ</a></li>
+        </ul>
+      </div>
+      <p class="copyright">Copyright <span></span> © PROPERTY AGENT Corporation. All Rights Reserved.</p>    </div>
+</footer><script type="text/javascript" src="/3.0/asset/js/top.js"></script>
+<script type="text/javascript" src="/3.0/lib/jquery/jquery.cookie.js"></script>
+
+</body>
+</html>

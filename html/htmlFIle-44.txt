@@ -1,0 +1,3200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Simulink is a block diagram environment for Model-Based Design. It supports simulation, automatic code generation, and continuous testing of embedded systems."/>
+
+	<link rel="icon" href="/etc/designs/mathworks/img/favicon.ico" type="image/x-icon">
+	<link rel="canonical" href="https://www.mathworks.com/products/simulink.html"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+
+	
+	
+	
+
+	<meta property="og:url" content="https://www.mathworks.com/products/simulink.html"/>
+	<meta property="og:image:url" content="http://www.mathworks.com/content/dam/mathworks/mathworks-dot-com/products/thumbnails/SL_large.jpg"/>
+	<meta property="og:image:secure_url" content="http://www.mathworks.com/content/dam/mathworks/mathworks-dot-com/products/thumbnails/SL_large.jpg"/>
+	<meta property="og:description" content="Simulink is a block diagram environment for Model-Based Design. It supports simulation, automatic code generation, and continuous testing of embedded systems."/>
+	<meta property="og:title" content="Simulink - Simulation and Model-Based Design"/>
+	
+	
+
+	<link rel="stylesheet" href="/etc/clientlibs/foundation/main.min.css" type="text/css"/>
+<script type="text/javascript" src="/etc/clientlibs/granite/jquery.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/granite/utils.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/granite/jquery/granite.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/foundation/jquery.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/foundation/main.min.js"></script>
+
+	<script type="text/javascript">
+            (function() {
+                window.ContextHub = window.ContextHub || {};
+
+                /* setting paths */
+                ContextHub.Paths = ContextHub.Paths || {};
+                ContextHub.Paths.CONTEXTHUB_PATH = "/etc/cloudsettings/default/contexthub";
+                ContextHub.Paths.RESOURCE_PATH = "\/content\/mathworks\/www\/en\/products\/simulink\/jcr:content\/contexthub";
+                ContextHub.Paths.SEGMENTATION_PATH = "\/etc\/segmentation\/contexthub";
+                ContextHub.Paths.CQ_CONTEXT_PATH = "";
+
+                /* setting initial constants */
+                ContextHub.Constants = ContextHub.Constants || {};
+                ContextHub.Constants.ANONYMOUS_HOME = "/home/users/P/PKwwu1fmmbCuTYDzAmIS";
+                ContextHub.Constants.MODE = "no-ui";
+            }());
+        </script><script src="/etc/cloudsettings/default/contexthub.kernel.js" type="text/javascript"></script>
+	
+
+	
+
+	
+
+	
+    
+<link rel="stylesheet" href="/etc/designs/mathworks/clientlibs.min.20180705192942581.css" type="text/css"/>
+
+
+
+	
+    
+<script type="text/javascript" src="/etc/designs/mathworks/clientlibs/headlibs.min.20180705192942581.js"></script>
+
+
+
+	
+    
+<link rel="stylesheet" href="/etc/designs/mathworks/clientlibs/aem.min.20180705192942581.css" type="text/css"/>
+
+
+
+
+	
+	
+	
+
+	<script>try{Typekit.load();}catch(e){}</script>
+
+	<script id="analyticsDigitalData"> digitalData = {
+  "pageInstanceID" : "http://www.mathworks.com/products/simulink.html",
+  "page" : {
+    "pageInfo" : {
+      "pageID" : "http://www.mathworks.com/products/simulink.html",
+      "destinationURL" : "http://www.mathworks.com/products/simulink.html"
+    },
+    "category" : {
+      "subCategory1" : "products/simulink",
+      "pageType" : "prodmain"
+    },
+    "attributes" : {
+      "descriptonCode" : "sl"
+    }
+  },
+  "product" : [ {
+    "productInfo" : {
+      "productName" : "SL"
+    }
+  } ],
+  "component" : [ ]
+};</script>
+
+	<script src="//assets.adobedtm.com/d0cc0600946eb3957f703b9fe43c3590597a8c2c/satelliteLib-e8d23c2e444abadc572df06537e2def59c01db09.js"></script>
+
+	
+
+	<style>
+		.add_border_radius_50 { width: 100px; margin: auto }
+	</style>
+
+	<title>Simulink - Simulation and Model-Based Design - MATLAB &amp; Simulink</title>
+</head>
+
+
+
+	<body>
+
+	
+<!-- Mobile TopNav: Start -->
+<div class="header visible-xs visible-sm" id="header_mobile">
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle topnav_toggle" data-toggle="collapse" data-target="#topnav_collapse">
+							<span class="sr-only">Toggle Main Navigation</span>
+							<span class="icon-menu"></span>
+						</button>
+						<a href="https://www.mathworks.com/?s_tid=gn_logo" class="svg_link navbar-brand">
+							<img src="/etc/designs/mathworks/img/pic-header-mathworks-logo.svg" class="mw_logo" alt="MathWorks">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="row visible-xs visible-sm">
+				<div class="col-xs-12">
+					<div class="navbar-collapse collapse" id="topnav_collapse">
+						<div class="topNavigation topnavigation containsResourceName resourceClass-topnavigation">
+
+<ul class="nav navbar-nav" id="topnav_mobile">
+	<li class="headernav_login" style='display: none;'>
+	<a class='mwa-nav_login'>Sign In</a>
+</li>
+<li class="headernav_logout dropdown" style='display: none;'>
+	<a href='#' class='dropdown-toggle' data-toggle='dropdown' aria-expanded="false">
+		<span class='mwa-name'></span><b class='caret'></b>
+	</a>
+	<ul class='dropdown-menu'>
+		<li class='mwa-nav_account'><a class='mwa-account'>My Account</a></li>
+		<li class='mwa-nav_associate'><a class='mwa-associate-license'>Associate License</a></li>
+		<li class='mwa-nav_community'><a class='mwa-community-profile'>My Community Profile</a></li>
+		<li class='mwa-nav_logout'><a class='mwa-logout'>Sign Out</a>
+		</li>
+	</ul>
+</li>
+
+	
+		<li class="topnav_products active">
+			<a href="https://www.mathworks.com/products.html?s_tid=gn_ps">Products</a>
+		</li>
+	
+		<li class="topnav_solutions ">
+			<a href="https://www.mathworks.com/solutions.html?s_tid=gn_sol">Solutions</a>
+		</li>
+	
+		<li class="topnav_academia ">
+			<a href="https://www.mathworks.com/academia.html?s_tid=gn_acad">Academia</a>
+		</li>
+	
+		<li class="topnav_support ">
+			<a href="https://www.mathworks.com/support.html?s_tid=gn_supp">Support</a>
+		</li>
+	
+		<li class="topnav_community ">
+			<a href="https://www.mathworks.com/matlabcentral/?s_tid=gn_mlc">Community</a>
+		</li>
+	
+		<li class="topnav_events ">
+			<a href="https://www.mathworks.com/company/events.html?s_tid=gn_ev">Events</a>
+		</li>
+	
+	
+		<li class="headernav_contact">
+			<a href="https://www.mathworks.com/company/aboutus/contact_us.html?s_tid=gn_cntus">Contact Us</a>
+		</li>
+		<li class="headernav_store">
+			<a href="https://www.mathworks.com/store?s_tid=gn_store">How to Buy</a>
+		</li>
+	
+</ul>
+</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+</div>
+<!-- Mobile TopNav: End -->
+<!-- Desktop TopNav: Start -->
+<div class="header hidden-xs hidden-sm" id="header_desktop">
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="headerNavigation headernavigation containsResourceName resourceClass-headernavigation">
+<div class="collapse navbar-collapse" id="headernav_collapse">
+	<ul class="nav navbar-nav navbar-right" id="headernav">
+		<li class="headernav_contact"><a href="https://www.mathworks.com/company/aboutus/contact_us.html?s_tid=gn_cntus">Contact Us</a></li>
+		<li class="headernav_store"><a href="https://www.mathworks.com/store?s_tid=gn_store">How to Buy</a></li>
+		<li class="headernav_login" style='display: none;'>
+	<a class='mwa-nav_login'>Sign In</a>
+</li>
+<li class="headernav_logout dropdown" style='display: none;'>
+	<a href='#' class='dropdown-toggle' data-toggle='dropdown' aria-expanded="false">
+		<span class='mwa-name'></span><b class='caret'></b>
+	</a>
+	<ul class='dropdown-menu'>
+		<li class='mwa-nav_account'><a class='mwa-account'>My Account</a></li>
+		<li class='mwa-nav_associate'><a class='mwa-associate-license'>Associate License</a></li>
+		<li class='mwa-nav_community'><a class='mwa-community-profile'>My Community Profile</a></li>
+		<li class='mwa-nav_logout'><a class='mwa-logout'>Sign Out</a>
+		</li>
+	</ul>
+</li>
+
+	</ul>
+</div></div>
+
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="navbar-header">
+						<div class="logo_container hidden-xs hidden-sm">
+							<a href="https://www.mathworks.com/?s_tid=gn_logo" class="svg_link pull-left">
+								<img src="/etc/designs/mathworks/img/pic-header-mathworks-logo.svg" class="mw_logo" alt="MathWorks">
+							</a>
+						</div>
+						<div class="navbar-collapse collapse hidden-xs hidden-sm">
+							
+							<div class="topNavigation topnavigation containsResourceName resourceClass-topnavigation">
+
+
+	<ul id="topnav" class="nav navbar-nav">
+		<li class="topnav_products active">
+			<a href="https://www.mathworks.com/products.html?s_tid=gn_ps">Products</a>
+		</li>
+	
+		<li class="topnav_solutions ">
+			<a href="https://www.mathworks.com/solutions.html?s_tid=gn_sol">Solutions</a>
+		</li>
+	
+		<li class="topnav_academia ">
+			<a href="https://www.mathworks.com/academia.html?s_tid=gn_acad">Academia</a>
+		</li>
+	
+		<li class="topnav_support ">
+			<a href="https://www.mathworks.com/support.html?s_tid=gn_supp">Support</a>
+		</li>
+	
+		<li class="topnav_community ">
+			<a href="https://www.mathworks.com/matlabcentral/?s_tid=gn_mlc">Community</a>
+		</li>
+	
+		<li class="topnav_events ">
+			<a href="https://www.mathworks.com/company/events.html?s_tid=gn_ev">Events</a>
+		</li>
+	</ul>
+	
+</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+</div>
+<!-- Desktop TopNav: End -->
+
+	<div class="sticky_header_container includes_subnav">
+		<!-- Section Header: Start -->
+		<div class="section_header level_3">
+			<div class="container">
+				<div class="row" id="mobile_search_row">
+					<div class="col-xs-12 col-sm-6 col-sm-push-6 col-md-5 col-md-push-7" id="mobile_search">
+						<div><div class="sectionHeadSearchBox sectionheadsearchbox containsResourceName resourceClass-sectionheadsearchbox">
+<div class="search_nested_content_container">
+	
+	<div id="search_scope_site" class="collapse in">
+		<form name="search" id="site_search" class="site_search" action="https://www.mathworks.com/search/site_search.html" method="get">
+			<div class="input-group">
+				<label class="sr-only">Search MathWorks.com</label>
+				<input type="hidden" name="c[]" value="entire_site">
+				<input type="text" name="q" id="query" class="form-control conjoined_search" placeholder="Search MathWorks.com" autocomplete="off" data-site-domain="www" data-site-language="en">
+				<div class="input-group-btn">
+					
+					<button type="submit" id="searchbutton" class="btn icon-search btn_search_adjacent btn_search icon_16" tabindex="-1"></button>
+				</div>
+			</div>
+		</form>
+	</div>
+
+	<script>
+		$(".search_scope_trigger").click(function handlerSearch(event) {
+			var target1 = event.target.parentNode.attributes.getNamedItem("data-groupid").nodeValue;
+			$('#' + target1).removeClass("in");
+		});
+	</script>
+
+</div>
+<button class="btn icon-remove btn_search pull-right icon_32 visible-xs" data-toggle="collapse" data-target="#mobile_search" aria-expanded="false" aria-controls="mobile_search"></button>
+
+</div>
+</div>
+					</div>
+					<div class="col-sm-6 col-sm-pull-6 col-md-7 col-md-pull-5" id="section_header_title">
+						<div><div class="sectionHead sectionhead containsResourceName resourceClass-sectionhead">
+	<div class="section_header_content">
+		<div class="section_header_title">
+			<h1>
+				
+				Simulink
+			</h1>
+			
+			
+		</div>
+		
+			<button type="button" class="navbar-toggle collapsed subnav visible-xs visible-sm" data-toggle="collapse" data-target=".mobile_subnav_content"> <span class="icon-arrow-down icon_24"></span> </button>
+		
+	</div>
+</div>
+</div>
+					</div>
+					<div class="visible-xs" id="search_actuator">
+						<button class="btn icon-search btn_search pull-right icon_16 containsResourceName resourceClass-button" data-toggle="collapse" data-target="#mobile_search" aria-expanded="false" aria-controls="mobile_search"></button>
+					</div>
+				</div>
+				<!-- Mobile Local Nav: Start -->
+				<div class="row visible-xs visible-sm" id="mobile_subnav">
+					<div class="col-xs-12">
+						<div class="navbar-collapse collapse mobile_subnav_content">
+							<div><div class="localNavigation localnav containsResourceName resourceClass-localnav">
+
+
+	<ul id="localnav_mobile" class="nav navbar-nav subnav" style="float:none">
+		
+			
+				<li class="active">
+					<a href="https://www.mathworks.com/products/simulink.html">Overview</a>
+				</li>
+			
+			
+		
+			
+				<li>
+					<a href="https://www.mathworks.com/products/simulink/getting-started.html">Getting Started</a>
+				</li>
+			
+			
+		
+			
+				<li>
+					<a href="https://www.mathworks.com/products/simulink/whatsnew.html">What's New</a>
+				</li>
+			
+			
+		
+			
+			
+		
+			
+			
+		
+			
+			
+		
+			
+			
+		
+			
+			
+		
+	</ul>
+	
+</div>
+</div>
+						</div>
+					</div>
+				</div>
+				<!-- Mobile Local Nav: End -->
+			</div>
+		</div>
+		
+<div class="horizontal_nav hidden-xs hidden-sm ">
+    <div class="horizontal_nav_container">
+        
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-lg-9 hidden-xs hidden-sm">
+                        <nav class="navbar navbar-default" role="navigation" id="subnav">
+                            <div class="collapse navbar-collapse">
+                                <div><div class="localNavigation localnav containsResourceName resourceClass-localnav">
+
+
+	<ul id="localnav" class="nav navbar-nav subnav" style="float:none">
+		
+			
+				<li class="active">
+					<a href="https://www.mathworks.com/products/simulink.html">Overview</a>
+				</li>
+			
+			
+		
+			
+				<li>
+					<a href="https://www.mathworks.com/products/simulink/getting-started.html">Getting Started</a>
+				</li>
+			
+			
+		
+			
+				<li>
+					<a href="https://www.mathworks.com/products/simulink/whatsnew.html">What's New</a>
+				</li>
+			
+			
+		
+			
+			
+		
+			
+			
+		
+			
+			
+		
+			
+			
+		
+			
+			
+		
+	</ul>
+	
+</div>
+</div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="col-md-4 col-lg-3 hidden-xs hidden-sm">
+                        <div><div class="callToAction calltoactionheader containsResourceName resourceClass-calltoactionheader">
+
+ 
+	<div class="cta_box">
+		<ul class="list-inline">
+		    <li class="cta_item cta_item_general">
+		    	<a href="https://www.mathworks.com/campaigns/products/trials.html?prodcode=SL" class="
+						  icon-download
+						  " data-link="lead" data-offerType="trial">
+					Trial software
+				</a>
+		    </li>
+		
+		    <li class="cta_item cta_item_general">
+		    	<a href="https://www.mathworks.com/company/aboutus/contact_us/contact_sales.html" class="
+						  icon-phone
+						  " data-link="lead" data-offerType="Contact Sales">
+					Contact sales
+				</a>
+		    </li>
+		</ul>
+	</div>
+
+
+
+</div>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+	
+	<div class="content_container">
+		
+		
+			
+			
+	
+	<section><div class="mainParsys parsys containsResourceName resourceClass-parsys"><div class="cqBand containsResourceName section resourceClass-band">
+
+
+<div class="band add_background_color_null add_background_position_bottom add_background_cover add_display_table   ">
+	
+	<div data-adaptivepicture data-backgroundImage="true">
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_12162/backgroundImage.adapt.full.low.jpg/1530157542892.jpg' data-media="(min-width: 1px)"></div>    <!-- Portrait iPad  -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_12162/backgroundImage.adapt.full.medium.jpg/1530157542892.jpg' data-media="(min-width: 481px)"></div> <!-- Landscape iPad -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_12162/backgroundImage.adapt.full.high.jpg/1530157542892.jpg' data-media="(min-width: 768px)"></div>    <!-- desktop  -->
+		
+	</div>
+
+	<div class="add_display_table_cell add_vertical_align_bottom">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div><div class="mainParsys parsys containsResourceName resourceClass-parsys"><div class="cqColumns containsResourceName section resourceClass-columns"><div class="row   section_upsize add_font_color_white text_center_xs ">
+
+    
+        <div class=" col-xs-12 col-sm-8 col-md-6 col-lg-6"><div class="parsys containsResourceName resourceClass-parsys"><div class="text containsResourceName section resourceClass-text">
+<div class="mw-text add_margin_30 ">
+	<p class="add_margin_100">&nbsp;</p>
+<h2 class="h1 add_margin_15 text_center_xs">Simulation and<br>
+Model‑Based&nbsp;Design</h2>
+<p class="text_center_xs">Design and simulate your system in Simulink before moving to hardware. Explore and implement designs that you wouldn’t otherwise consider – without having to write C, C++, or HDL code.</p>
+
+</div>
+
+
+</div>
+<div class="cqColumns containsResourceName section resourceClass-columns"><div class="row   ">
+
+    
+        <div class=" col-xs-6"><div class="parsys containsResourceName resourceClass-parsys"><div class="button containsResourceName resourceClass-button section">
+
+
+
+	
+	<a href="https://www.mathworks.com/videos/simulink-overview-61216.html" class="btn btn-lg btn_color_orange btn-block add_margin_5  " data-width="833" data-remote="/content/mathworks/www/en/videos/simulink-overview-61216.udp.html" data-toggle="lightbox">
+		<span class="icon-video icon_24"></span>
+		Watch video
+		<span style='color:grey'></span>
+		
+	</a>
+
+
+
+
+</div>
+
+</div>
+</div>
+    
+        <div class=" col-xs-6"><div class="parsys containsResourceName resourceClass-parsys"><div class="button containsResourceName resourceClass-button section">
+
+
+
+	
+	<a href="https://www.mathworks.com/campaigns/products/trials.html?prodcode=SL" class="btn btn-lg btn_color_orange btn-block add_margin_5  " data-link="lead" data-offerType="trial">
+		<span class="icon-download icon_24"></span>
+		Download a free trial
+		<span style='color:grey'></span>
+		
+	</a>
+
+
+
+
+</div>
+
+</div>
+</div>
+    
+</div>
+</div>
+
+</div>
+</div>
+    
+</div>
+</div>
+
+</div>
+</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<div class="cqBand containsResourceName section resourceClass-band">
+
+
+<div class="band add_background_color_gray   section_upsize ">
+	
+	
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div><div class="mainParsys parsys containsResourceName resourceClass-parsys"><div class="cqColumns containsResourceName section resourceClass-columns"><div class="row   ">
+
+    
+        <div class=" col-xs-12 col-md-12 col-lg-12 text-center"><div class="parsys containsResourceName resourceClass-parsys"><div class="cqColumns containsResourceName section resourceClass-columns"><div class="row   ">
+
+    
+        <div class=" col-xs-12"><div class="parsys containsResourceName resourceClass-parsys"><div class="text containsResourceName section resourceClass-text">
+<div class="mw-text add_margin_40 ">
+	<h2 class="h1 text_center_xs"><a name="model-based-design" id="model-based-design"></a>Model-Based Design: From Concept to Code</h2>
+
+</div>
+
+
+</div>
+
+</div>
+</div>
+    
+</div>
+</div>
+<div class="cqColumns containsResourceName section resourceClass-columns"><div class="row   text-center ">
+
+    
+        <div class=" col-xs-12 col-sm-4"><div class="parsys containsResourceName resourceClass-parsys"><div class="pictogram containsResourceName section resourceClass-pictogram">
+
+
+
+
+
+
+ 	<div> 		
+				            				
+		
+		
+		
+	
+	
+	
+	<div data-adaptivepicture data-alt="Model and Simulate Your Entire System" data-title="Model and Simulate Your Entire System" data-class="pictogram_100">
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_copy_/mainParsys/columns_copy/1/columns_1538292987_c/1/pictogram_copy.adapt.full.low.svg/1530157543506.svg' data-media="(min-width: 1px)"></div>    <!-- Portrait iPad  -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_copy_/mainParsys/columns_copy/1/columns_1538292987_c/1/pictogram_copy.adapt.full.medium.svg/1530157543506.svg' data-media="(min-width: 481px)"></div> <!-- Landscape iPad -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_copy_/mainParsys/columns_copy/1/columns_1538292987_c/1/pictogram_copy.adapt.full.high.svg/1530157543506.svg' data-media="(min-width: 768px)"></div>    <!-- desktop  -->
+		<noscript>
+			<img src='/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_copy_copy_/mainParsys/columns_copy/1/columns_1538292987_c/1/pictogram_copy.adapt.full.high.svg/1530157543506.svg' alt='Model and Simulate Your Entire System' title="Model and Simulate Your Entire System" class="pictogram_100" data-aem-src="/content/dam/mathworks/mathworks-dot-com/images/responsive/pictograms/simulink1.svg">
+		</noscript>
+	</div>
+
+	 
+	
+	</div>
+
+
+</div>
+<div class="text containsResourceName section resourceClass-text">
+<div class="mw-text  ">
+	<div class="add_padding_15">
+ <h3 class="add_font_futura_medium">Model and Simulate Your System</h3> 
+ <p class="add_margin_0">Explore a wide design space by <a href="https://www.mathworks.com/discovery/modeling-and-simulation.html">modeling the system</a> under test and the physical plant. Your entire team can use one multi-domain environment to simulate how all parts of the system behave.</p> 
+</div>
+</div>
+
+
+</div>
+
+</div>
+</div>
+    
+        <div class=" col-xs-12 col-sm-4"><div class="parsys containsResourceName resourceClass-parsys"><div class="pictogram containsResourceName section resourceClass-pictogram">
+
+
+
+
+
+
+ 	<div> 		
+				            				
+		
+		
+		
+	
+	
+	
+	<div data-adaptivepicture data-alt="Test Early and Often" data-title="Test Early and Often" data-class="pictogram_100">
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_copy_/mainParsys/columns_copy/1/columns_1538292987_c/2/pictogram_copy.adapt.full.low.svg/1530157543542.svg' data-media="(min-width: 1px)"></div>    <!-- Portrait iPad  -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_copy_/mainParsys/columns_copy/1/columns_1538292987_c/2/pictogram_copy.adapt.full.medium.svg/1530157543542.svg' data-media="(min-width: 481px)"></div> <!-- Landscape iPad -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_copy_/mainParsys/columns_copy/1/columns_1538292987_c/2/pictogram_copy.adapt.full.high.svg/1530157543542.svg' data-media="(min-width: 768px)"></div>    <!-- desktop  -->
+		<noscript>
+			<img src='/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_copy_copy_/mainParsys/columns_copy/1/columns_1538292987_c/2/pictogram_copy.adapt.full.high.svg/1530157543542.svg' alt='Test Early and Often' title="Test Early and Often" class="pictogram_100" data-aem-src="/content/dam/mathworks/mathworks-dot-com/images/responsive/pictograms/checkmark.svg">
+		</noscript>
+	</div>
+
+	 
+	
+	</div>
+
+
+</div>
+<div class="text containsResourceName section resourceClass-text">
+<div class="mw-text  ">
+	<div class="add_padding_15">
+ <h3 class="add_font_futura_medium">Test Early and Often</h3> 
+ <p class="add_margin_0">Reduce expensive prototypes by <a href="https://www.mathworks.com/solutions/verification-validation.html">testing your system</a> under conditions that are otherwise too risky or time-consuming to consider. Validate your design with hardware-in-the-loop testing and rapid prototyping. Maintain traceability from requirements to design to code.</p> 
+</div>
+</div>
+
+
+</div>
+
+</div>
+</div>
+    
+        <div class=" col-xs-12 col-sm-4"><div class="parsys containsResourceName resourceClass-parsys"><div class="pictogram containsResourceName section resourceClass-pictogram">
+
+
+
+
+
+
+ 	<div> 		
+				            				
+		
+		
+		
+	
+	
+	
+	<div data-adaptivepicture data-alt="Automatically Generate Code" data-title="Automatically Generate Code" data-class="pictogram_100">
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_copy_/mainParsys/columns_copy/1/columns_1538292987_c/3/pictogram_copy.adapt.full.low.svg/1530157543577.svg' data-media="(min-width: 1px)"></div>    <!-- Portrait iPad  -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_copy_/mainParsys/columns_copy/1/columns_1538292987_c/3/pictogram_copy.adapt.full.medium.svg/1530157543577.svg' data-media="(min-width: 481px)"></div> <!-- Landscape iPad -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_copy_/mainParsys/columns_copy/1/columns_1538292987_c/3/pictogram_copy.adapt.full.high.svg/1530157543577.svg' data-media="(min-width: 768px)"></div>    <!-- desktop  -->
+		<noscript>
+			<img src='/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_copy_copy_/mainParsys/columns_copy/1/columns_1538292987_c/3/pictogram_copy.adapt.full.high.svg/1530157543577.svg' alt='Automatically Generate Code' title="Automatically Generate Code" class="pictogram_100" data-aem-src="/content/dam/mathworks/mathworks-dot-com/images/responsive/pictograms/code-generation.svg">
+		</noscript>
+	</div>
+
+	 
+	
+	</div>
+
+
+</div>
+<div class="text containsResourceName section resourceClass-text">
+<div class="mw-text  ">
+	<div class="add_padding_15"><h3 class="add_font_futura_medium">Automatically Generate Code</h3>
+<p class="add_margin_0">Instead of writing thousands of lines of code by hand, automatically generate production-quality C and HDL code that behaves the same way as the model you created in Simulink. Then deploy it directly onto your <a href="https://www.mathworks.com/solutions/embedded-systems.html" data-link="lead" data-offerType="Web Trial Request for Embedded Systems">embedded processor or FPGA/ASIC</a>.</p>
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+</div>
+    
+</div>
+</div>
+
+</div>
+</div>
+    
+</div>
+</div>
+
+</div>
+</div>
+				</div>
+			</div>
+		</div>
+	
+</div>
+</div>
+<div class="cqBand containsResourceName section resourceClass-band">
+
+
+<div class="band add_background_color_darkblue add_background_position_top add_background_cover remove_background_image_xs add_display_table   ">
+	
+	<div data-adaptivepicture data-backgroundImage="true">
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_1227855798/backgroundImage.adapt.full.low.jpg/1530157543630.jpg' data-media="(min-width: 1px)"></div>    <!-- Portrait iPad  -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_1227855798/backgroundImage.adapt.full.medium.jpg/1530157543630.jpg' data-media="(min-width: 481px)"></div> <!-- Landscape iPad -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_1227855798/backgroundImage.adapt.full.high.jpg/1530157543630.jpg' data-media="(min-width: 768px)"></div>    <!-- desktop  -->
+		
+	</div>
+
+	<div class="add_display_table_cell add_vertical_align_middle">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div><div class="mainParsys parsys containsResourceName resourceClass-parsys"><div class="cqColumns containsResourceName section resourceClass-columns"><div class="row add_margin_40 add_margin_30_xs section_upsize ">
+
+    
+        <div class=" col-xs-12 col-sm-7 col-sm-push-5 col-md-6 col-md-push-6 col-lg-6 col-lg-push-6"><div class="parsys containsResourceName resourceClass-parsys"><div class="cqImage containsResourceName section resourceClass-image">
+
+
+
+
+
+
+	
+	
+	<div class="clearfix mw-image thumbnail    add_margin_40_xs visible-xs">
+
+		
+		
+
+		
+		
+
+		
+		
+
+	
+	
+	
+	<div data-adaptivepicture data-alt="Simulink Desktop" data-class="fluid_image remove_border">
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_1227855798/mainParsys/columns_copy/1/image_copy.adapt.full.low.jpg/1530157543718.jpg' data-media="(min-width: 1px)"></div>    <!-- Portrait iPad  -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_1227855798/mainParsys/columns_copy/1/image_copy.adapt.full.medium.jpg/1530157543718.jpg' data-media="(min-width: 481px)"></div> <!-- Landscape iPad -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_1227855798/mainParsys/columns_copy/1/image_copy.adapt.full.high.jpg/1530157543718.jpg' data-media="(min-width: 768px)"></div>    <!-- desktop  -->
+		<noscript>
+			<img src='/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_1227855798/mainParsys/columns_copy/1/image_copy.adapt.full.high.jpg/1530157543718.jpg' alt='Simulink Desktop' class="fluid_image remove_border" data-aem-src="/content/dam/mathworks/mathworks-dot-com/images/responsive/supporting/products/simulink/simulink-withmatlab-mobile.jpg">
+		</noscript>
+	</div>
+
+
+	
+
+
+		
+
+	</div>
+
+
+
+
+
+</div>
+<div class="text containsResourceName section resourceClass-text">
+<div class="mw-text add_margin_100 add_margin_0_xs">
+	<h2 class="h1 text_center_xs">MATLAB and Simulink Work Together</h2>
+<p>When you use MATLAB<sup>®</sup> and Simulink<sup>®</sup> together, you combine <b>textual and graphical programming</b> to design your system in a simulation environment.</p>
+<p>Directly use the<b> thousands of algorithms </b>that are already in MATLAB. Simply add your MATLAB code into a Simulink block or Stateflow<sup>®</sup> chart.</p>
+<p>Use MATLAB to create input data sets to drive simulation. Run thousands of&nbsp;simulations in parallel. Then <b>analyze and visualize</b> the data in MATLAB.</p>
+
+</div>
+
+
+</div>
+
+</div>
+</div>
+    
+</div>
+</div>
+
+</div>
+</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<div class="cqBand containsResourceName section resourceClass-band">
+
+
+<div class="band add_background_color_gray   ">
+	
+	
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div><div class="mainParsys parsys containsResourceName resourceClass-parsys"><div class="upsize containsResourceName section resourceClass-upsize"><section class="section_upsize">
+    <div><div class="mainParsys parsys containsResourceName resourceClass-parsys"><div class="cqColumns containsResourceName section resourceClass-columns"><div class="row   text-center ">
+
+    
+        <div class=" col-xs-12"><div class="parsys containsResourceName resourceClass-parsys"><div class="cqColumns containsResourceName section resourceClass-columns"><div class="row add_margin_30 add_margin_0_xs ">
+
+    
+        <div class=" col-xs-12"><div class="parsys containsResourceName resourceClass-parsys">
+</div>
+</div>
+    
+</div>
+</div>
+<div class="text containsResourceName section resourceClass-text">
+<div class="mw-text  ">
+	<h2 class="h1">Models for Every Project</h2>
+
+</div>
+
+
+</div>
+
+</div>
+</div>
+    
+</div>
+</div>
+<div class="cqColumns containsResourceName section resourceClass-columns"><div class="row   ">
+
+    
+        <div class=" col-xs-12"><div class="parsys containsResourceName resourceClass-parsys"><div class="tabs containsResourceName section resourceClass-tabs"><div class="tab-container add_margin_20  tab-container-vertical">
+
+	<div class="row add_equal_heights">
+		<div class="col-xs-12">
+
+			<ul role="tablist" class="nav nav-tabs responsive tabs-vertical" id="7903f75d-b963-4fcc-b3b4-d4a1b730c9dd">
+				
+					<li class="active ">
+						<a role="tab" data-toggle="tab" href="#tab_7903f75d-b963-4fcc-b3b4-d4a1b730c9dd_0" id="%24%7Btranslate%3A-%22wireless-communications%22%7D">
+							
+							Wireless Communications
+							
+							<span class="icon-arrow-open-down hidden-md hidden-lg"></span><span class="icon-arrow-open-up hidden-md hidden-lg"></span>
+						</a>
+					</li>
+				
+					<li>
+						<a role="tab" data-toggle="tab" href="#tab_7903f75d-b963-4fcc-b3b4-d4a1b730c9dd_1" id="%24%7Btranslate%3A-%22motor-and-power-control%22%7D">
+							
+							Motor and Power Control
+							
+							<span class="icon-arrow-open-down hidden-md hidden-lg"></span><span class="icon-arrow-open-up hidden-md hidden-lg"></span>
+						</a>
+					</li>
+				
+					<li>
+						<a role="tab" data-toggle="tab" href="#tab_7903f75d-b963-4fcc-b3b4-d4a1b730c9dd_2" id="%24%7Btranslate%3A-%22control-systems%22%7D">
+							
+							Control Systems
+							
+							<span class="icon-arrow-open-down hidden-md hidden-lg"></span><span class="icon-arrow-open-up hidden-md hidden-lg"></span>
+						</a>
+					</li>
+				
+					<li>
+						<a role="tab" data-toggle="tab" href="#tab_7903f75d-b963-4fcc-b3b4-d4a1b730c9dd_3" id="%24%7Btranslate%3A-%22signal-processing%22%7D">
+							
+							Signal Processing
+							
+							<span class="icon-arrow-open-down hidden-md hidden-lg"></span><span class="icon-arrow-open-up hidden-md hidden-lg"></span>
+						</a>
+					</li>
+				
+					<li>
+						<a role="tab" data-toggle="tab" href="#tab_7903f75d-b963-4fcc-b3b4-d4a1b730c9dd_4" id="%24%7Btranslate%3A-%22robotics%22%7D">
+							
+							Robotics
+							
+							<span class="icon-arrow-open-down hidden-md hidden-lg"></span><span class="icon-arrow-open-up hidden-md hidden-lg"></span>
+						</a>
+					</li>
+				
+					<li>
+						<a role="tab" data-toggle="tab" href="#tab_7903f75d-b963-4fcc-b3b4-d4a1b730c9dd_5" id="%24%7Btranslate%3A-%22advanced-driver-assistance-systems%22%7D">
+							
+							Advanced Driver Assistance Systems
+							
+							<span class="icon-arrow-open-down hidden-md hidden-lg"></span><span class="icon-arrow-open-up hidden-md hidden-lg"></span>
+						</a>
+					</li>
+				
+					<li>
+						<a role="tab" data-toggle="tab" href="#tab_7903f75d-b963-4fcc-b3b4-d4a1b730c9dd_6" id="%24%7Btranslate%3A-%22image-processing-and-computer-vision%22%7D">
+							
+							Image Processing and Computer Vision
+							
+							<span class="icon-arrow-open-down hidden-md hidden-lg"></span><span class="icon-arrow-open-up hidden-md hidden-lg"></span>
+						</a>
+					</li>
+				
+					<li>
+						<a role="tab" data-toggle="tab" href="#tab_7903f75d-b963-4fcc-b3b4-d4a1b730c9dd_7" id="%24%7Btranslate%3A-%22internet-of-things%22%7D">
+							
+							Internet of Things
+							
+							<span class="icon-arrow-open-down hidden-md hidden-lg"></span><span class="icon-arrow-open-up hidden-md hidden-lg"></span>
+						</a>
+					</li>
+				
+			</ul>
+
+			<div class="tab-content responsive remove_padding ">
+				
+			      	<div id="tab_7903f75d-b963-4fcc-b3b4-d4a1b730c9dd_0" class="tab-pane active"><div class="parsys containsResourceName resourceClass-parsys"><div class="cqPanel containsResourceName resourceClass-panel section">
+
+
+<div class="panel add_margin_0  add_padding_20">
+    
+
+    
+
+    <div class="panel-body">
+        
+        <div class="panelParsys parsys containsResourceName resourceClass-parsys"><div class="cqImage containsResourceName section resourceClass-image">
+
+
+
+
+
+
+	
+	
+	<div class="clearfix mw-image thumbnail   add_margin_30  ">
+
+		
+		
+
+		
+		
+
+		
+		
+
+	
+	
+	
+	<div data-adaptivepicture data-alt="Wireless Communications" data-class="fluid_image ">
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_1/parsys/panel/panelParsys/image.adapt.full.low.gif/1530157544196.gif' data-media="(min-width: 1px)"></div>    <!-- Portrait iPad  -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_1/parsys/panel/panelParsys/image.adapt.full.medium.gif/1530157544196.gif' data-media="(min-width: 481px)"></div> <!-- Landscape iPad -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_1/parsys/panel/panelParsys/image.adapt.full.high.gif/1530157544196.gif' data-media="(min-width: 768px)"></div>    <!-- desktop  -->
+		<noscript>
+			<img src='/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_1/parsys/panel/panelParsys/image.adapt.full.high.gif/1530157544196.gif' alt='Wireless Communications' class="fluid_image " data-aem-src="/content/dam/mathworks/mathworks-dot-com/images/responsive/supporting/products/simulink/simulink-models-wireless.gif">
+		</noscript>
+	</div>
+
+
+	
+
+
+		
+
+	</div>
+
+
+
+
+
+</div>
+<div class="mediaobject containsResourceName resourceClass-mediaobject section">
+
+
+
+
+
+
+ 	<div class="media   "> 
+ 		
+ 			<div class="media-left media-left">
+ 				
+                
+			    
+			    
+	<img alt="Wireless Communications" src="/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_1/parsys/panel/panelParsys/mediaobject.adapt.svg/1530157544213.svg" class="pictogram_56"/>
+
+ 			</div>
+			
+ 			
+	<div class="media-body media-left">
+		
+ 		<div><div class="mainParsys parsys containsResourceName resourceClass-parsys"><div class="text containsResourceName section resourceClass-text">
+<div class="mw-text  ">
+	<h3 class="add_font_color_orange add_padding_top_15">Wireless Communications</h3>
+<p>Simulink blocks let you quickly model and manipulate signals, transforms, filters, and more. Verify compliance to standards like LTE.</p>
+
+</div>
+
+
+</div>
+<div class="actionlink containsResourceName section resourceClass-actionlink">
+
+
+
+	
+	
+	<a href="https://www.mathworks.com/solutions/wireless-communications.html" class="add_margin_20    icon-chevron null add_icon_color_null null ">
+		
+		Explore MATLAB and Simulink for wireless communications
+		<span style='color:grey'></span>
+		
+	</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+</div>
+ 	</div>
+
+ 		
+
+ 		    	    			
+	</div>
+
+
+
+</div>
+
+</div>
+        
+    </div>
+
+    
+
+</div></div>
+
+</div>
+</div>
+				
+			      	<div id="tab_7903f75d-b963-4fcc-b3b4-d4a1b730c9dd_1" class="tab-pane "><div class="parsys containsResourceName resourceClass-parsys"><div class="cqPanel containsResourceName resourceClass-panel section">
+
+
+<div class="panel add_margin_0  add_padding_20">
+    
+
+    
+
+    <div class="panel-body">
+        
+        <div class="panelParsys parsys containsResourceName resourceClass-parsys"><div class="cqImage containsResourceName section resourceClass-image">
+
+
+
+
+
+
+	
+	
+	<div class="clearfix mw-image thumbnail   add_margin_30  ">
+
+		
+		
+
+		
+		
+
+		
+		
+
+	
+	
+	
+	<div data-adaptivepicture data-alt="Motor and Power Control" data-class="fluid_image ">
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_2/parsys/panel_copy/panelParsys/image.adapt.full.low.gif/1530157544403.gif' data-media="(min-width: 1px)"></div>    <!-- Portrait iPad  -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_2/parsys/panel_copy/panelParsys/image.adapt.full.medium.gif/1530157544403.gif' data-media="(min-width: 481px)"></div> <!-- Landscape iPad -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_2/parsys/panel_copy/panelParsys/image.adapt.full.high.gif/1530157544403.gif' data-media="(min-width: 768px)"></div>    <!-- desktop  -->
+		<noscript>
+			<img src='/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_2/parsys/panel_copy/panelParsys/image.adapt.full.high.gif/1530157544403.gif' alt='Motor and Power Control' class="fluid_image " data-aem-src="/content/dam/mathworks/mathworks-dot-com/images/responsive/supporting/products/simulink/simulink-models-motor-and-power-control.gif">
+		</noscript>
+	</div>
+
+
+	
+
+
+		
+
+	</div>
+
+
+
+
+
+</div>
+<div class="mediaobject containsResourceName resourceClass-mediaobject section">
+
+
+
+
+
+
+ 	<div class="media   "> 
+ 		
+ 			<div class="media-left media-left">
+ 				
+                
+			    
+			    
+	<img alt="Motor and Power Control" src="/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_2/parsys/panel_copy/panelParsys/mediaobject_copy.adapt.svg/1530157544419.svg" class="pictogram_56"/>
+
+ 			</div>
+			
+ 			
+	<div class="media-body media-left">
+		
+ 		<div><div class="mainParsys parsys containsResourceName resourceClass-parsys"><div class="text containsResourceName section resourceClass-text">
+<div class="mw-text  ">
+	<h3 class="add_font_color_orange add_padding_top_15">Motor and Power Control</h3>
+<p>Simulate power electronics control systems used in electric vehicles, renewable energy, and industrial automation. Blocks of electrical components help you build system-level models for electric motors, power converters, and battery storage systems.</p>
+
+</div>
+
+
+</div>
+<div class="actionlink containsResourceName section resourceClass-actionlink">
+
+
+
+	
+	
+	<a href="https://www.mathworks.com/solutions/motor-and-power-control.html" class="add_margin_20    icon-chevron null add_icon_color_null null ">
+		
+		Explore MATLAB and Simulink for motor and power control
+		<span style='color:grey'></span>
+		
+	</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+</div>
+ 	</div>
+
+ 		
+
+ 		    	    			
+	</div>
+
+
+
+</div>
+
+</div>
+        
+    </div>
+
+    
+
+</div></div>
+
+</div>
+</div>
+				
+			      	<div id="tab_7903f75d-b963-4fcc-b3b4-d4a1b730c9dd_2" class="tab-pane "><div class="parsys containsResourceName resourceClass-parsys"><div class="cqPanel containsResourceName resourceClass-panel section">
+
+
+<div class="panel add_margin_0  add_padding_20">
+    
+
+    
+
+    <div class="panel-body">
+        
+        <div class="panelParsys parsys containsResourceName resourceClass-parsys"><div class="cqImage containsResourceName section resourceClass-image">
+
+
+
+
+
+
+	
+	
+	<div class="clearfix mw-image thumbnail   add_margin_30  ">
+
+		
+		
+
+		
+		
+
+		
+		
+
+	
+	
+	
+	<div data-adaptivepicture data-alt="Control Systems" data-class="fluid_image ">
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_3/parsys/panel_copy_copy/panelParsys/image_copy.adapt.full.low.gif/1530157544617.gif' data-media="(min-width: 1px)"></div>    <!-- Portrait iPad  -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_3/parsys/panel_copy_copy/panelParsys/image_copy.adapt.full.medium.gif/1530157544617.gif' data-media="(min-width: 481px)"></div> <!-- Landscape iPad -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_3/parsys/panel_copy_copy/panelParsys/image_copy.adapt.full.high.gif/1530157544617.gif' data-media="(min-width: 768px)"></div>    <!-- desktop  -->
+		<noscript>
+			<img src='/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_3/parsys/panel_copy_copy/panelParsys/image_copy.adapt.full.high.gif/1530157544617.gif' alt='Control Systems' class="fluid_image " data-aem-src="/content/dam/mathworks/mathworks-dot-com/images/responsive/supporting/products/simulink/simulink-models-control-systems.gif">
+		</noscript>
+	</div>
+
+
+	
+
+
+		
+
+	</div>
+
+
+
+
+
+</div>
+<div class="mediaobject containsResourceName resourceClass-mediaobject section">
+
+
+
+
+
+
+ 	<div class="media   "> 
+ 		
+ 			<div class="media-left media-left">
+ 				
+                
+			    
+			    
+	<img alt="Control Systems" src="/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_3/parsys/panel_copy_copy/panelParsys/mediaobject_copy_cop.adapt.svg/1530157544634.svg" class="pictogram_56"/>
+
+ 			</div>
+			
+ 			
+	<div class="media-body media-left">
+		
+ 		<div><div class="mainParsys parsys containsResourceName resourceClass-parsys"><div class="text containsResourceName section resourceClass-text">
+<div class="mw-text  ">
+	<h3 class="add_font_color_orange add_padding_top_15">Control Systems</h3>
+<p>Model plant dynamics and design and tune feedback loops and supervisory controllers. Use simulation models to verify control design and to automatically generate code for rapid prototyping and production.</p>
+
+</div>
+
+
+</div>
+<div class="actionlink containsResourceName section resourceClass-actionlink">
+
+
+
+	
+	
+	<a href="https://www.mathworks.com/solutions/control-systems.html" class="add_margin_20    icon-chevron null add_icon_color_null null ">
+		
+		Explore MATLAB and Simulink for control systems
+		<span style='color:grey'></span>
+		
+	</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+</div>
+ 	</div>
+
+ 		
+
+ 		    	    			
+	</div>
+
+
+
+</div>
+
+</div>
+        
+    </div>
+
+    
+
+</div></div>
+
+</div>
+</div>
+				
+			      	<div id="tab_7903f75d-b963-4fcc-b3b4-d4a1b730c9dd_3" class="tab-pane "><div class="parsys containsResourceName resourceClass-parsys"><div class="cqPanel containsResourceName resourceClass-panel section">
+
+
+<div class="panel add_margin_0  add_padding_20">
+    
+
+    
+
+    <div class="panel-body">
+        
+        <div class="panelParsys parsys containsResourceName resourceClass-parsys"><div class="cqImage containsResourceName section resourceClass-image">
+
+
+
+
+
+
+	
+	
+	<div class="clearfix mw-image thumbnail   add_margin_30  ">
+
+		
+		
+
+		
+		
+
+		
+		
+
+	
+	
+	
+	<div data-adaptivepicture data-alt="Signal Processing" data-class="fluid_image ">
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_4/parsys/panel_copy_copy_copy/panelParsys/image_copy.adapt.full.low.gif/1530157544832.gif' data-media="(min-width: 1px)"></div>    <!-- Portrait iPad  -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_4/parsys/panel_copy_copy_copy/panelParsys/image_copy.adapt.full.medium.gif/1530157544832.gif' data-media="(min-width: 481px)"></div> <!-- Landscape iPad -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_4/parsys/panel_copy_copy_copy/panelParsys/image_copy.adapt.full.high.gif/1530157544832.gif' data-media="(min-width: 768px)"></div>    <!-- desktop  -->
+		<noscript>
+			<img src='/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_4/parsys/panel_copy_copy_copy/panelParsys/image_copy.adapt.full.high.gif/1530157544832.gif' alt='Signal Processing' class="fluid_image " data-aem-src="/content/dam/mathworks/mathworks-dot-com/images/responsive/supporting/products/simulink/simulink-models-signal-processing.gif">
+		</noscript>
+	</div>
+
+
+	
+
+
+		
+
+	</div>
+
+
+
+
+
+</div>
+<div class="mediaobject containsResourceName resourceClass-mediaobject section">
+
+
+
+
+
+
+ 	<div class="media   "> 
+ 		
+ 			<div class="media-left media-left">
+ 				
+                
+			    
+			    
+	<img alt="Signal Processing" src="/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_4/parsys/panel_copy_copy_copy/panelParsys/mediaobject_copy_cop.adapt.svg/1530157544849.svg" class="pictogram_56"/>
+
+ 			</div>
+			
+ 			
+	<div class="media-body media-left">
+		
+ 		<div><div class="mainParsys parsys containsResourceName resourceClass-parsys"><div class="text containsResourceName section resourceClass-text">
+<div class="mw-text  ">
+	<h3 class="add_font_color_orange add_padding_top_15">Signal Processing</h3>
+<p>Simulink lets you model and simulate digital signal processing systems. It provides a range of test signals and waveforms, collections of filters types and architectures, and scopes for dynamic visualization. Color-coding and in-diagram displays allow you to quickly inspect update rates and signal sizes for sample-based or frame-based system designs.</p>
+
+</div>
+
+
+</div>
+<div class="actionlink containsResourceName section resourceClass-actionlink">
+
+
+
+	
+	
+	<a href="https://www.mathworks.com/solutions/dsp.html" class="add_margin_20    icon-chevron null add_icon_color_null null ">
+		
+		Explore MATLAB and Simulink for signal processing
+		<span style='color:grey'></span>
+		
+	</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+</div>
+ 	</div>
+
+ 		
+
+ 		    	    			
+	</div>
+
+
+
+</div>
+
+</div>
+        
+    </div>
+
+    
+
+</div></div>
+
+</div>
+</div>
+				
+			      	<div id="tab_7903f75d-b963-4fcc-b3b4-d4a1b730c9dd_4" class="tab-pane "><div class="parsys containsResourceName resourceClass-parsys"><div class="cqPanel containsResourceName resourceClass-panel section">
+
+
+<div class="panel add_margin_0  add_padding_20">
+    
+
+    
+
+    <div class="panel-body">
+        
+        <div class="panelParsys parsys containsResourceName resourceClass-parsys"><div class="cqImage containsResourceName section resourceClass-image">
+
+
+
+
+
+
+	
+	
+	<div class="clearfix mw-image thumbnail   add_margin_30  ">
+
+		
+		
+
+		
+		
+
+		
+		
+
+	
+	
+	
+	<div data-adaptivepicture data-alt="Robotics" data-class="fluid_image ">
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_5/parsys/panel_copy_copy_copy/panelParsys/image_copy.adapt.full.low.gif/1530157545044.gif' data-media="(min-width: 1px)"></div>    <!-- Portrait iPad  -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_5/parsys/panel_copy_copy_copy/panelParsys/image_copy.adapt.full.medium.gif/1530157545044.gif' data-media="(min-width: 481px)"></div> <!-- Landscape iPad -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_5/parsys/panel_copy_copy_copy/panelParsys/image_copy.adapt.full.high.gif/1530157545044.gif' data-media="(min-width: 768px)"></div>    <!-- desktop  -->
+		<noscript>
+			<img src='/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_5/parsys/panel_copy_copy_copy/panelParsys/image_copy.adapt.full.high.gif/1530157545044.gif' alt='Robotics' class="fluid_image " data-aem-src="/content/dam/mathworks/mathworks-dot-com/images/responsive/supporting/products/simulink/simulink-models-robotics.gif">
+		</noscript>
+	</div>
+
+
+	
+
+
+		
+
+	</div>
+
+
+
+
+
+</div>
+<div class="mediaobject containsResourceName resourceClass-mediaobject section">
+
+
+
+
+
+
+ 	<div class="media   "> 
+ 		
+ 			<div class="media-left media-left">
+ 				
+                
+			    
+			    
+	<img alt="Robotics" src="/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_5/parsys/panel_copy_copy_copy/panelParsys/mediaobject_copy_cop.adapt.svg/1530157545060.svg" class="pictogram_56"/>
+
+ 			</div>
+			
+ 			
+	<div class="media-body media-left">
+		
+ 		<div><div class="mainParsys parsys containsResourceName resourceClass-parsys"><div class="text containsResourceName section resourceClass-text">
+<div class="mw-text  ">
+	<h3 class="add_font_color_orange add_padding_top_15">Robotics</h3>
+<p>Develop controllers using blocks for ground vehicles, manipulators, ROS access, and collecting and analyzing sensor data. Control your robot with the algorithms you develop and automatically generate code that you can run on hardware.</p>
+
+</div>
+
+
+</div>
+<div class="actionlink containsResourceName section resourceClass-actionlink">
+
+
+
+	
+	
+	<a href="https://www.mathworks.com/solutions/robotics.html" class="add_margin_20    icon-chevron null add_icon_color_null null ">
+		
+		Explore MATLAB and Simulink for robotics
+		<span style='color:grey'></span>
+		
+	</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+</div>
+ 	</div>
+
+ 		
+
+ 		    	    			
+	</div>
+
+
+
+</div>
+
+</div>
+        
+    </div>
+
+    
+
+</div></div>
+
+</div>
+</div>
+				
+			      	<div id="tab_7903f75d-b963-4fcc-b3b4-d4a1b730c9dd_5" class="tab-pane "><div class="parsys containsResourceName resourceClass-parsys"><div class="cqPanel containsResourceName resourceClass-panel section">
+
+
+<div class="panel add_margin_0  add_padding_20">
+    
+
+    
+
+    <div class="panel-body">
+        
+        <div class="panelParsys parsys containsResourceName resourceClass-parsys"><div class="cqImage containsResourceName section resourceClass-image">
+
+
+
+
+
+
+	
+	
+	<div class="clearfix mw-image thumbnail   add_margin_30  ">
+
+		
+		
+
+		
+		
+
+		
+		
+
+	
+	
+	
+	<div data-adaptivepicture data-alt="ADAS" data-class="fluid_image ">
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_6/parsys/panel_copy_copy_copy/panelParsys/image_copy.adapt.full.low.gif/1530157545314.gif' data-media="(min-width: 1px)"></div>    <!-- Portrait iPad  -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_6/parsys/panel_copy_copy_copy/panelParsys/image_copy.adapt.full.medium.gif/1530157545314.gif' data-media="(min-width: 481px)"></div> <!-- Landscape iPad -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_6/parsys/panel_copy_copy_copy/panelParsys/image_copy.adapt.full.high.gif/1530157545314.gif' data-media="(min-width: 768px)"></div>    <!-- desktop  -->
+		<noscript>
+			<img src='/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_6/parsys/panel_copy_copy_copy/panelParsys/image_copy.adapt.full.high.gif/1530157545314.gif' alt='ADAS' class="fluid_image " data-aem-src="/content/dam/mathworks/mathworks-dot-com/images/responsive/supporting/products/simulink/simulink-models-adas.gif">
+		</noscript>
+	</div>
+
+
+	
+
+
+		
+
+	</div>
+
+
+
+
+
+</div>
+<div class="mediaobject containsResourceName resourceClass-mediaobject section">
+
+
+
+
+
+
+ 	<div class="media   "> 
+ 		
+ 			<div class="media-left media-left">
+ 				
+                
+			    
+			    
+	<img alt="ADAS" src="/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_6/parsys/panel_copy_copy_copy/panelParsys/mediaobject_copy_cop.adapt.svg/1530157545342.svg" class="pictogram_56"/>
+
+ 			</div>
+			
+ 			
+	<div class="media-body media-left">
+		
+ 		<div><div class="mainParsys parsys containsResourceName resourceClass-parsys"><div class="text containsResourceName section resourceClass-text">
+<div class="mw-text  ">
+	<h3 class="add_font_color_orange add_padding_top_15">Advanced Driver Assistance Systems</h3>
+<p>Model and simulate the vehicle and environment, and perform sensor fusion and controls development using Simulink. Develop control algorithms and decision logic based on fused sensor output.</p>
+
+</div>
+
+
+</div>
+<div class="actionlink containsResourceName section resourceClass-actionlink">
+
+
+
+	
+	
+	<a href="https://www.mathworks.com/solutions/automotive/advanced-driver-assistance-systems.html" class="add_margin_20    icon-chevron null add_icon_color_null null ">
+		
+		Explore MATLAB and Simulink for advanced driver assistance systems
+		<span style='color:grey'></span>
+		
+	</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+</div>
+ 	</div>
+
+ 		
+
+ 		    	    			
+	</div>
+
+
+
+</div>
+
+</div>
+        
+    </div>
+
+    
+
+</div></div>
+
+</div>
+</div>
+				
+			      	<div id="tab_7903f75d-b963-4fcc-b3b4-d4a1b730c9dd_6" class="tab-pane "><div class="parsys containsResourceName resourceClass-parsys"><div class="cqPanel containsResourceName resourceClass-panel section">
+
+
+<div class="panel add_margin_0  add_padding_20">
+    
+
+    
+
+    <div class="panel-body">
+        
+        <div class="panelParsys parsys containsResourceName resourceClass-parsys"><div class="cqImage containsResourceName section resourceClass-image">
+
+
+
+
+
+
+	
+	
+	<div class="clearfix mw-image thumbnail   add_margin_30  ">
+
+		
+		
+
+		
+		
+
+		
+		
+
+	
+	
+	
+	<div data-adaptivepicture data-alt="Image Processing and Computer Vision" data-class="fluid_image ">
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_7/parsys/panel_copy_copy_copy/panelParsys/image_copy.adapt.full.low.gif/1530157545545.gif' data-media="(min-width: 1px)"></div>    <!-- Portrait iPad  -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_7/parsys/panel_copy_copy_copy/panelParsys/image_copy.adapt.full.medium.gif/1530157545545.gif' data-media="(min-width: 481px)"></div> <!-- Landscape iPad -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_7/parsys/panel_copy_copy_copy/panelParsys/image_copy.adapt.full.high.gif/1530157545545.gif' data-media="(min-width: 768px)"></div>    <!-- desktop  -->
+		<noscript>
+			<img src='/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_7/parsys/panel_copy_copy_copy/panelParsys/image_copy.adapt.full.high.gif/1530157545545.gif' alt='Image Processing and Computer Vision' class="fluid_image " data-aem-src="/content/dam/mathworks/mathworks-dot-com/images/responsive/supporting/products/simulink/simulink-models-image-processing-computer-vision.gif">
+		</noscript>
+	</div>
+
+
+	
+
+
+		
+
+	</div>
+
+
+
+
+
+</div>
+<div class="mediaobject containsResourceName resourceClass-mediaobject section">
+
+
+
+
+
+
+ 	<div class="media   "> 
+ 		
+ 			<div class="media-left media-left">
+ 				
+                
+			    
+			    
+	<img alt="Image Processing and Computer Vision" src="/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_7/parsys/panel_copy_copy_copy/panelParsys/mediaobject_copy_cop.adapt.svg/1530157545561.svg" class="pictogram_56"/>
+
+ 			</div>
+			
+ 			
+	<div class="media-body media-left">
+		
+ 		<div><div class="mainParsys parsys containsResourceName resourceClass-parsys"><div class="text containsResourceName section resourceClass-text">
+<div class="mw-text  ">
+	<h3 class="add_font_color_orange add_padding_top_15">Image Processing and Computer Vision</h3>
+<p>Incorporate vision into robotics, ADAS, controls, and other multidomain systems. Model and simulate hardware implementation with test benches using frame-to-pixel stream conversion and vision algorithms designed for FPGAs and ASICs.</p>
+
+</div>
+
+
+</div>
+<div class="actionlink containsResourceName section resourceClass-actionlink">
+
+
+
+	
+	
+	<a href="https://www.mathworks.com/solutions/image-video-processing.html" class="add_margin_20    icon-chevron null add_icon_color_null null ">
+		
+		Explore MATLAB Simulink for image processing and computer vision
+		<span style='color:grey'></span>
+		
+	</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+</div>
+ 	</div>
+
+ 		
+
+ 		    	    			
+	</div>
+
+
+
+</div>
+
+</div>
+        
+    </div>
+
+    
+
+</div></div>
+
+</div>
+</div>
+				
+			      	<div id="tab_7903f75d-b963-4fcc-b3b4-d4a1b730c9dd_7" class="tab-pane "><div class="parsys containsResourceName resourceClass-parsys"><div class="cqPanel containsResourceName resourceClass-panel section">
+
+
+<div class="panel add_margin_0  add_padding_20">
+    
+
+    
+
+    <div class="panel-body">
+        
+        <div class="panelParsys parsys containsResourceName resourceClass-parsys"><div class="cqImage containsResourceName section resourceClass-image">
+
+
+
+
+
+
+	
+	
+	<div class="clearfix mw-image thumbnail   add_margin_30  ">
+
+		
+		
+
+		
+		
+
+		
+		
+
+	
+	
+	
+	<div data-adaptivepicture data-alt="Internet of Things" data-class="fluid_image ">
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_8/parsys/panel_copy_copy_copy/panelParsys/image_copy.adapt.full.low.gif/1530157545758.gif' data-media="(min-width: 1px)"></div>    <!-- Portrait iPad  -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_8/parsys/panel_copy_copy_copy/panelParsys/image_copy.adapt.full.medium.gif/1530157545758.gif' data-media="(min-width: 481px)"></div> <!-- Landscape iPad -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_8/parsys/panel_copy_copy_copy/panelParsys/image_copy.adapt.full.high.gif/1530157545758.gif' data-media="(min-width: 768px)"></div>    <!-- desktop  -->
+		<noscript>
+			<img src='/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_8/parsys/panel_copy_copy_copy/panelParsys/image_copy.adapt.full.high.gif/1530157545758.gif' alt='Internet of Things' class="fluid_image " data-aem-src="/content/dam/mathworks/mathworks-dot-com/images/responsive/supporting/products/simulink/simulink-models-internet-of-things.gif">
+		</noscript>
+	</div>
+
+
+	
+
+
+		
+
+	</div>
+
+
+
+
+
+</div>
+<div class="mediaobject containsResourceName resourceClass-mediaobject section">
+
+
+
+
+
+
+ 	<div class="media   "> 
+ 		
+ 			<div class="media-left media-left">
+ 				
+                
+			    
+			    
+	<img alt="Internet of Things" src="/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_copy_23821/mainParsys/upsize/mainParsys/columns_1977803091/1/tabs_0_copy_copy_cop/tabs/item_8/parsys/panel_copy_copy_copy/panelParsys/mediaobject_copy_cop.adapt.svg/1530157545775.svg" class="pictogram_56"/>
+
+ 			</div>
+			
+ 			
+	<div class="media-body media-left">
+		
+ 		<div><div class="mainParsys parsys containsResourceName resourceClass-parsys"><div class="text containsResourceName section resourceClass-text">
+<div class="mw-text  ">
+	<h3 class="add_font_color_orange add_padding_top_15">Internet of Things</h3>
+<p>With Simulink, you can develop and test smart devices, and then deploy your models to edge nodes on hardware such as Raspberry Pi. Use blocks to send data to MATLAB and ThingSpeak so you can analyze it further.</p>
+
+</div>
+
+
+</div>
+<div class="actionlink containsResourceName section resourceClass-actionlink">
+
+
+
+	
+	
+	<a href="https://www.mathworks.com/solutions/internet-of-things.html" class="add_margin_20    icon-chevron null add_icon_color_null null " data-link="lead" data-offerType="Web Trial Request for MATLAB for IoT">
+		
+		Explore MATLAB and Simulink for the Internet of Things
+		<span style='color:grey'></span>
+		
+	</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+</div>
+ 	</div>
+
+ 		
+
+ 		    	    			
+	</div>
+
+
+
+</div>
+
+</div>
+        
+    </div>
+
+    
+
+</div></div>
+
+</div>
+</div>
+				
+			</div>
+
+		</div>
+	</div>
+
+	<div class="clearfix"></div>
+</div>
+
+</div>
+
+</div>
+</div>
+    
+</div>
+</div>
+
+</div>
+</div>
+</section></div>
+
+</div>
+</div>
+				</div>
+			</div>
+		</div>
+	
+</div>
+</div>
+<div class="cqBand containsResourceName section resourceClass-band">
+
+
+<div class="band add_background_color_darkblue add_transparent_background_white_20   ">
+	
+	
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div><div class="mainParsys parsys containsResourceName resourceClass-parsys"><div class="cqColumns containsResourceName section resourceClass-columns"><div class="row  add_margin_0_xs text-center ">
+
+    
+        <div class=" col-xs-12"><div class="parsys containsResourceName resourceClass-parsys"><div class="text containsResourceName section resourceClass-text">
+<div class="mw-text add_margin_20 ">
+	<h3><b>New to Simulink?</b> It's easy to get started.</h3>
+
+</div>
+
+
+</div>
+<div class="button containsResourceName resourceClass-button section">
+
+
+
+	
+	<a href="https://www.mathworks.com/products/simulink/getting-started.html" class="btn btn-lg add_margin_20  companion_btn ">
+		<span class="icon-chevron icon_24"></span>
+		View getting started resources
+		<span style='color:grey'></span>
+		
+	</a>
+
+
+
+
+</div>
+
+</div>
+</div>
+    
+</div>
+</div>
+
+</div>
+</div>
+				</div>
+			</div>
+		</div>
+	
+</div>
+</div>
+<div class="cqBand containsResourceName section resourceClass-band">
+
+
+<div class="band add_background_color_gray   ">
+	
+	
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div><div class="mainParsys parsys containsResourceName resourceClass-parsys"><div class="cqColumns containsResourceName section resourceClass-columns"><div class="row add_margin_30 add_margin_0_xs ">
+
+    
+        <div class=" col-xs-12"><div class="parsys containsResourceName resourceClass-parsys">
+</div>
+</div>
+    
+</div>
+</div>
+<div class="text containsResourceName section resourceClass-text">
+<div class="mw-text add_margin_40 ">
+	<div class="section_upsize"><h2 class="h1 text-center"><a name="testimonials" id="testimonials"></a>Engineers and Scientists Worldwide Rely on Simulink</h2>
+</div>
+
+</div>
+
+
+</div>
+<div class="cqColumns containsResourceName section resourceClass-columns"><div class="row   ">
+
+    
+        <div class=" col-xs-12 col-sm-4"><div class="parsys containsResourceName resourceClass-parsys"><div class="cqPanel containsResourceName resourceClass-panel section">
+
+
+<div class="panel panel-default  ">
+    
+
+    <div class="panel-heading add_padding_0">
+        
+        
+	<div data-adaptivepicture data-class="fluid_image">
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_10388_1535501741/mainParsys/columns_copy_copy/1/panel_copy/headerImage.adapt.full.low.jpg/1530157546301.jpg' data-media="(min-width: 1px)"></div>    <!-- Portrait iPad  -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_10388_1535501741/mainParsys/columns_copy_copy/1/panel_copy/headerImage.adapt.full.medium.jpg/1530157546301.jpg' data-media="(min-width: 481px)"></div> <!-- Landscape iPad -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_10388_1535501741/mainParsys/columns_copy_copy/1/panel_copy/headerImage.adapt.full.high.jpg/1530157546301.jpg' data-media="(min-width: 768px)"></div>    <!-- desktop  -->
+		<noscript>
+			<img src='/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_copy_10388_1535501741/mainParsys/columns_copy_copy/1/panel_copy/headerImage.adapt.full.high.jpg/1530157546301.jpg' class="fluid_image" data-aem-src="/content/dam/mathworks/mathworks-dot-com/images/responsive/supporting/products/simulink/simulink-huawei-quote-thumbnail.jpg">
+		</noscript>
+	</div>
+
+        
+            <h2></h2>
+        
+    </div>
+
+    <div class="panel-body">
+        
+        <div class="panelParsys parsys containsResourceName resourceClass-parsys"><div class="text containsResourceName section resourceClass-text">
+<div class="mw-text add_margin_0 add_margin_0_xs">
+	<blockquote class="remove_border"><h2>Huawei</h2>
+<p>“When we do 5G prototyping design and development, we build the whole air access link-level simulation using MATLAB and Simulink, and import the parameters of this model – from the antenna to the new waveform – from the field testing… We can see the whole system’s performance, and identify potential issues.”</p>
+<small><cite>Kevin Law, Director of Algorithm Architecture and Design</cite></small></blockquote>
+
+</div>
+
+
+</div>
+
+</div>
+        
+    </div>
+
+    
+
+</div></div>
+
+</div>
+</div>
+    
+        <div class=" col-xs-12 col-sm-4"><div class="parsys containsResourceName resourceClass-parsys"><div class="cqPanel containsResourceName resourceClass-panel section">
+
+
+<div class="panel panel-default  ">
+    
+
+    <div class="panel-heading add_padding_0">
+        
+        
+	<div data-adaptivepicture data-class="fluid_image">
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_10388_1535501741/mainParsys/columns_copy_copy/2/panel_copy_copy/headerImage.adapt.full.low.jpg/1530157546403.jpg' data-media="(min-width: 1px)"></div>    <!-- Portrait iPad  -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_10388_1535501741/mainParsys/columns_copy_copy/2/panel_copy_copy/headerImage.adapt.full.medium.jpg/1530157546403.jpg' data-media="(min-width: 481px)"></div> <!-- Landscape iPad -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_10388_1535501741/mainParsys/columns_copy_copy/2/panel_copy_copy/headerImage.adapt.full.high.jpg/1530157546403.jpg' data-media="(min-width: 768px)"></div>    <!-- desktop  -->
+		<noscript>
+			<img src='/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_copy_10388_1535501741/mainParsys/columns_copy_copy/2/panel_copy_copy/headerImage.adapt.full.high.jpg/1530157546403.jpg' class="fluid_image" data-aem-src="/content/dam/mathworks/mathworks-dot-com/cmsimages/images/user-stories/a-g/52262_responsive_User_Story_thumbnail_640x360_FujitsuLab.jpg">
+		</noscript>
+	</div>
+
+        
+            <h2></h2>
+        
+    </div>
+
+    <div class="panel-body">
+        
+        <div class="panelParsys parsys containsResourceName resourceClass-parsys"><div class="text containsResourceName section resourceClass-text">
+<div class="mw-text add_margin_0 add_margin_0_xs">
+	<blockquote class="remove_border"><h2>Fujitsu Laboratories of America</h2>
+<p>“By including circuit-level simulation results in our Simulink models we can simulate millions of cycles with the accuracy needed to account for noise and other transient effects. Simulink is the only tool fast enough for our jitter-tolerance simulations.”</p>
+<small><cite>William Walker, Vice President</cite></small></blockquote>
+
+</div>
+
+
+</div>
+
+</div>
+        
+    </div>
+
+    
+
+</div></div>
+
+</div>
+</div>
+    
+        <div class=" col-xs-12 col-sm-4"><div class="parsys containsResourceName resourceClass-parsys"><div class="cqPanel containsResourceName resourceClass-panel section">
+
+
+<div class="panel panel-default  ">
+    
+
+    <div class="panel-heading add_padding_0">
+        
+        
+	<div data-adaptivepicture data-class="fluid_image">
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_10388_1535501741/mainParsys/columns_copy_copy/3/panel_copy_copy/headerImage.adapt.full.low.jpg/1530157546505.jpg' data-media="(min-width: 1px)"></div>    <!-- Portrait iPad  -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_10388_1535501741/mainParsys/columns_copy_copy/3/panel_copy_copy/headerImage.adapt.full.medium.jpg/1530157546505.jpg' data-media="(min-width: 481px)"></div> <!-- Landscape iPad -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_10388_1535501741/mainParsys/columns_copy_copy/3/panel_copy_copy/headerImage.adapt.full.high.jpg/1530157546505.jpg' data-media="(min-width: 768px)"></div>    <!-- desktop  -->
+		<noscript>
+			<img src='/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_copy_10388_1535501741/mainParsys/columns_copy_copy/3/panel_copy_copy/headerImage.adapt.full.high.jpg/1530157546505.jpg' class="fluid_image" data-aem-src="/content/dam/mathworks/mathworks-dot-com/images/responsive/supporting/products/simulink/simulink-rpi.jpg">
+		</noscript>
+	</div>
+
+        
+            <h2></h2>
+        
+    </div>
+
+    <div class="panel-body">
+        
+        <div class="panelParsys parsys containsResourceName resourceClass-parsys"><div class="text containsResourceName section resourceClass-text">
+<div class="mw-text add_margin_0 add_margin_0_xs">
+	<blockquote class="remove_border"><h2>Rensselaer Polytechnic Institute</h2>
+<p>“A primary benefit of using MATLAB and Simulink in our research is the availability of toolboxes for computer vision, image processing, and control system development. All the tools we need are in one environment that is easily integrated with other software for robotics and automation systems.”</p>
+<small><cite>Dr. John Wen, head of the Industrial and Systems Engineering department </cite></small></blockquote>
+
+</div>
+
+
+</div>
+
+</div>
+        
+    </div>
+
+    
+
+</div></div>
+
+</div>
+</div>
+    
+</div>
+</div>
+
+</div>
+</div>
+				</div>
+			</div>
+		</div>
+	
+</div>
+</div>
+<div class="cqBand containsResourceName section resourceClass-band">
+
+
+<div class="band add_background_color_null   section_upsize ">
+	
+	
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div><div class="mainParsys parsys containsResourceName resourceClass-parsys"><div class="cqColumns containsResourceName section resourceClass-columns"><div class="row   ">
+
+    
+        <div class=" col-xs-12 col-md-12 col-lg-12 text-center"><div class="parsys containsResourceName resourceClass-parsys"><div class="cqColumns containsResourceName section resourceClass-columns"><div class="row   ">
+
+    
+        <div class=" col-xs-12"><div class="parsys containsResourceName resourceClass-parsys"><div class="text containsResourceName section resourceClass-text">
+<div class="mw-text add_margin_40 ">
+	<h2 class="h1 text_center_xs add_margin_20">Do More with Simulink</h2> 
+<p>Check out some of the latest highlights, and see all the <a href="https://www.mathworks.com/products/simulink/whatsnew.html">new features</a>.</p>
+</div>
+
+
+</div>
+
+</div>
+</div>
+    
+</div>
+</div>
+<div class="cqColumns containsResourceName section resourceClass-columns"><div class="row add_margin_40  text-center ">
+
+    
+        <div class=" col-xs-12 col-sm-4"><div class="parsys containsResourceName resourceClass-parsys"><div class="cqImage containsResourceName section resourceClass-image">
+
+
+
+
+
+
+	
+	
+	<div class="clearfix mw-image thumbnail     ">
+
+		
+		
+
+		
+		
+
+		
+		
+
+	
+	
+	
+	<div data-adaptivepicture data-alt="Smart Editing" data-class="fluid_image ">
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_copy__1991916755/mainParsys/columns_copy/1/columns_1538292987_c/1/image_copy.adapt.full.low.gif/1530157547008.gif' data-media="(min-width: 1px)"></div>    <!-- Portrait iPad  -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_copy__1991916755/mainParsys/columns_copy/1/columns_1538292987_c/1/image_copy.adapt.full.medium.gif/1530157547008.gif' data-media="(min-width: 481px)"></div> <!-- Landscape iPad -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_copy__1991916755/mainParsys/columns_copy/1/columns_1538292987_c/1/image_copy.adapt.full.high.gif/1530157547008.gif' data-media="(min-width: 768px)"></div>    <!-- desktop  -->
+		<noscript>
+			<img src='/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_copy_copy__1991916755/mainParsys/columns_copy/1/columns_1538292987_c/1/image_copy.adapt.full.high.gif/1530157547008.gif' alt='Smart Editing' class="fluid_image ">
+		</noscript>
+	</div>
+
+
+	
+
+
+		
+
+	</div>
+
+
+
+
+
+</div>
+<div class="text containsResourceName section resourceClass-text">
+<div class="mw-text  ">
+	<h3 class="add_font_futura_medium">Smart Editing</h3>
+<p>Improve your model’s appearance by hiding default block names. You can also quickly group signals, add inports and outports to blocks, and more.</p>
+
+</div>
+
+
+</div>
+
+</div>
+</div>
+    
+        <div class=" col-xs-12 col-sm-4"><div class="parsys containsResourceName resourceClass-parsys"><div class="cqImage containsResourceName section resourceClass-image">
+
+
+
+
+
+
+	
+	
+	<div class="clearfix mw-image thumbnail     ">
+
+		
+		
+
+		
+		
+
+		
+		
+
+	
+	
+	
+	<div data-adaptivepicture data-alt="Scheduling" data-class="fluid_image ">
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_copy__1991916755/mainParsys/columns_copy/1/columns_1538292987_c/2/image_copy_copy.adapt.full.low.gif/1530157547135.gif' data-media="(min-width: 1px)"></div>    <!-- Portrait iPad  -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_copy__1991916755/mainParsys/columns_copy/1/columns_1538292987_c/2/image_copy_copy.adapt.full.medium.gif/1530157547135.gif' data-media="(min-width: 481px)"></div> <!-- Landscape iPad -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_copy__1991916755/mainParsys/columns_copy/1/columns_1538292987_c/2/image_copy_copy.adapt.full.high.gif/1530157547135.gif' data-media="(min-width: 768px)"></div>    <!-- desktop  -->
+		<noscript>
+			<img src='/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_copy_copy__1991916755/mainParsys/columns_copy/1/columns_1538292987_c/2/image_copy_copy.adapt.full.high.gif/1530157547135.gif' alt='Scheduling' class="fluid_image ">
+		</noscript>
+	</div>
+
+
+	
+
+
+		
+
+	</div>
+
+
+
+
+
+</div>
+<div class="text containsResourceName section resourceClass-text">
+<div class="mw-text  ">
+	<h3 class="add_font_futura_medium">Scheduling</h3>
+<p>Mix and match export functions and rate-based schedulable components, and model startup and shutdown behavior.</p>
+
+</div>
+
+
+</div>
+
+</div>
+</div>
+    
+        <div class=" col-xs-12 col-sm-4"><div class="parsys containsResourceName resourceClass-parsys"><div class="cqImage containsResourceName section resourceClass-image">
+
+
+
+
+
+
+	
+	
+	<div class="clearfix mw-image thumbnail     ">
+
+		
+		
+
+		
+		
+
+		
+		
+
+	
+	
+	
+	<div data-adaptivepicture data-alt="Smart Editing" data-class="fluid_image ">
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_copy__1991916755/mainParsys/columns_copy/1/columns_1538292987_c/3/image_copy_copy_copy.adapt.full.low.jpg/1530157547211.jpg' data-media="(min-width: 1px)"></div>    <!-- Portrait iPad  -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_copy__1991916755/mainParsys/columns_copy/1/columns_1538292987_c/3/image_copy_copy_copy.adapt.full.medium.jpg/1530157547211.jpg' data-media="(min-width: 481px)"></div> <!-- Landscape iPad -->
+		<div data-src='/content/mathworks/www/en/products/simulink/jcr:content/mainParsys/band_copy_copy_copy__1991916755/mainParsys/columns_copy/1/columns_1538292987_c/3/image_copy_copy_copy.adapt.full.high.jpg/1530157547211.jpg' data-media="(min-width: 768px)"></div>    <!-- desktop  -->
+		<noscript>
+			<img src='/content/mathworks/www/en/products/simulink/_jcr_content/mainParsys/band_copy_copy_copy__1991916755/mainParsys/columns_copy/1/columns_1538292987_c/3/image_copy_copy_copy.adapt.full.high.jpg/1530157547211.jpg' alt='Smart Editing' class="fluid_image " data-aem-src="/content/dam/mathworks/mathworks-dot-com/images/responsive/supporting/products/simulink/simulink-performance-speedometer-thumbnail.jpg">
+		</noscript>
+	</div>
+
+
+	
+
+
+		
+
+	</div>
+
+
+
+
+
+</div>
+<div class="text containsResourceName section resourceClass-text">
+<div class="mw-text  ">
+	<h3 class="add_font_futura_medium">Performance</h3>
+<p>Get simulation results fast using shared model artifacts, quickly build your top-level model, and use the automatic solver option to set up your model.</p>
+
+</div>
+
+
+</div>
+
+</div>
+</div>
+    
+</div>
+</div>
+<div class="button containsResourceName resourceClass-button section">
+
+
+
+	
+	<a href="https://www.mathworks.com/products/simulink/whatsnew.html" class="btn btn-lg btn_color_blue add_margin_20  ">
+		
+		See all the new features
+		<span style='color:grey'></span>
+		
+	</a>
+
+
+
+
+</div>
+
+</div>
+</div>
+    
+</div>
+</div>
+
+</div>
+</div>
+				</div>
+			</div>
+		</div>
+	
+</div>
+</div>
+
+</div>
+</section>
+	<section class="section_upsize">
+		
+	</section>
+	<div><div class="mainParsys2 parsys containsResourceName resourceClass-parsys">
+</div>
+</div>
+	<section class="section_upsize">
+		<div class="band add_background_color_gray band_footer_adjacent">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="row text-center">
+							<div class="col-xs-12 col-sm-4">
+								<div class="row">
+									<div class="col-xs-4 col-xs-offset-4">
+										<div class="add_margin_20 add_background_color_darkblue add_border_radius_50">
+											<a class="svg_link" href="https://www.mathworks.com/campaigns/products/trials.html?prodcode=SL" data-link="lead" data-offerType="trial"><span class="pictogram-download pictogram_72 add_font_color_white add_padding_10"></span></a>
+										</div>
+									</div>
+								</div>
+								<h2>Get a Free Trial</h2>
+								<p>30 days of exploration at your fingertips.</p>
+								<a href="https://www.mathworks.com/campaigns/products/trials.html?prodcode=SL" class="btn btn-lg btn_color_orange add_margin_0 add_margin_30_xs" data-link="lead" data-offerType="trial">Download now</a>
+							</div>
+							<div class="col-xs-12 col-sm-4">
+								<div class="row">
+									<div class="col-xs-4 col-xs-offset-4">
+										<div class="add_margin_20 add_background_color_darkblue add_border_radius_50">
+											<a class="svg_link" href="https://www.mathworks.com/company/aboutus/contact_us/contact_sales.html" data-link="lead" data-offerType="Contact Sales"><span class="pictogram-store pictogram_72 add_font_color_white add_padding_10"></span></a>
+										</div>
+									</div>
+								</div>
+								<h2>Ready to Buy?</h2>
+								<p>Get pricing information and explore related products.</p>
+								<a href="https://www.mathworks.com/company/aboutus/contact_us/contact_sales.html" class="btn btn-md btn_color_blue add_margin_0 add_margin_30_xs companion_btn" data-link="lead" data-offerType="Contact Sales">Contact Sales</a>
+								<hr>
+								<div class="add_margin_30_xs">
+									<a href="https://www.mathworks.com/pricing-licensing.html?prodcode=SL" data-link="lead" data-offerType="pl">View Pricing and Licensing </a>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-4">
+								<div class="row">
+									<div class="col-xs-4 col-xs-offset-4">
+										<div class="add_margin_20 add_background_color_darkblue add_border_radius_50">
+											<a class="svg_link" href="https://www.mathworks.com/academia/student_version.html"><span class="pictogram-student pictogram_72 add_font_color_white add_padding_10"></span></a>
+										</div>
+									</div>
+								</div>
+								<h2>Are You a Student?</h2>
+								<p>Get MATLAB and Simulink student software.</p>
+								<a href="https://www.mathworks.com/academia/student_version.html" class="btn btn-md btn_color_blue add_margin_0 companion_btn">Learn more</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div><div class="mainParsys3 parsys containsResourceName resourceClass-parsys">
+</div>
+</div>
+
+
+			
+			
+				
+
+<div><div class="modalParsys parsys containsResourceName resourceClass-parsys">
+</div>
+</div>
+
+				<div id="location_content" style="display:none;"></div>
+
+<div class="modal fade" id="country-unselected">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<object data="/etc/designs/mathworks/img/pic-header-mathworks-logo.svg" width="167" class="mw_logo" type="image/svg+xml">
+					<img src="/etc/designs/mathworks/img/pic-header-mathworks-logo.png" class="mw_logo" alt="MathWorks">
+				</object>
+			</div>
+			<div class="modal-body">
+				<div class="row add_margin_40">
+					<div class="col-xs-12">
+						<h1 class="icon-globe add_icon_color_darkblue">Select a Web Site</h1>
+						<p>Choose a web site to get translated content where available and see local events and
+							offers. Based on
+							your location, we recommend that you select: <strong class="recommended-country"></strong>.
+						</p>
+						<a href="#" id="recommended_domain_button" class="btn btn_color_blue containsResourceName resourceClass-button">Select <span class="recommended-country"></span> web site</a>
+					</div>
+				</div>
+				<p>You can also select a web site from the following list:</p>
+				<div class="alert alert-warning" id="china_performance_alert" style="display:none;"> <span class="alert_icon icon-alert-warning"></span>
+					<h3>How to Get Best Site Performance</h3>
+					<p>Select the China site (in Chinese or English) for best site performance. Other MathWorks country sites are not optimized for visits from your location.</p>
+				</div>
+				<div class="row add_margin_20">
+					<div class="col-sm-4 col-md-3">
+						<h3 class="add_bottom_rule">Americas</h3>
+						<ul class="list-unstyled">
+							<li><a href="//la.mathworks.com" class="domain_selector_link" data-country-code="LA" data-subdomain="la" data-lang="es" data-default-lang="true" data-selected-text="América Latina" data-recommended-text="América Latina" data-do-not-rewrite="true">América Latina</a> (Español)
+							</li>
+							<li><a href="//www.mathworks.com" class="domain_selector_link" data-country-code="CA" data-subdomain="www" data-lang="en" data-do-not-rewrite="true">Canada</a> (English)
+							</li>
+							<li><a href="//www.mathworks.com" class="domain_selector_link" data-country-code="US" data-subdomain="www" data-lang="en" data-default-lang="true" data-selected-text="United States" data-recommended-text="United States" data-do-not-rewrite="true">United States</a> (English)
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-4 col-md-6">
+						<h3 class="add_bottom_rule">Europe</h3>
+						<div class="row">
+							<div class="col-xs-6 col-sm-12 col-md-6">
+								<ul class="list-unstyled add_margin_0_sm">
+									<li><a href="//nl.mathworks.com" class="domain_selector_link" data-country-code="BE" data-subdomain="nl" data-lang="en" data-do-not-rewrite="true">Belgium</a> (English)
+									</li>
+									<li><a href="//se.mathworks.com" class="domain_selector_link" data-country-code="DK" data-subdomain="se" data-lang="en" data-do-not-rewrite="true">Denmark</a> (English)
+									</li>
+									<li><a href="//de.mathworks.com" class="domain_selector_link" data-country-code="DE" data-subdomain="de" data-lang="de" data-default-lang="true" data-selected-text="Deutschland" data-recommended-text="Deutschland" data-do-not-rewrite="true">Deutschland</a> (Deutsch)
+									</li>
+									<li><a href="//es.mathworks.com" class="domain_selector_link" data-country-code="ES" data-subdomain="es" data-lang="es" data-default-lang="true" data-selected-text="España" data-recommended-text="España" data-do-not-rewrite="true">España</a> (Español)
+									</li>
+									<li><a href="//se.mathworks.com" class="domain_selector_link" data-country-code="FI" data-subdomain="se" data-lang="en" data-do-not-rewrite="true">Finland</a> (English)
+									</li>
+									<li><a href="//fr.mathworks.com" class="domain_selector_link" data-country-code="FR" data-subdomain="fr" data-lang="fr" data-default-lang="true" data-selected-text="France" data-recommended-text="France" data-do-not-rewrite="true">France</a> (Français)
+									</li>
+									<li><a href="//uk.mathworks.com" class="domain_selector_link" data-country-code="IE" data-subdomain="uk" data-lang="en" data-do-not-rewrite="true">Ireland</a> (English)
+									</li>
+									<li><a href="//it.mathworks.com" class="domain_selector_link" data-country-code="IT" data-subdomain="it" data-lang="it" data-default-lang="true" data-selected-text="Italia" data-recommended-text="Italia" data-do-not-rewrite="true">Italia</a> (Italiano)
+									</li>
+									<li><a href="//nl.mathworks.com" class="domain_selector_link" data-country-code="LU" data-subdomain="nl" data-lang="en" data-do-not-rewrite="true">Luxembourg</a> (English)
+									</li>
+								</ul>
+							</div>
+							<div class="col-xs-6 col-sm-12 col-md-6">
+								<ul class="list-unstyled">
+									<li><a href="//nl.mathworks.com" class="domain_selector_link" data-country-code="NL" data-subdomain="nl" data-lang="en" data-default-lang="true" data-selected-text="Benelux" data-recommended-text="Netherlands" data-do-not-rewrite="true">Netherlands</a> (English)
+									</li>
+									<li><a href="//se.mathworks.com" class="domain_selector_link" data-country-code="NO" data-subdomain="se" data-lang="en" data-do-not-rewrite="true">Norway</a> (English)
+									</li>
+									<li><a href="//de.mathworks.com" class="domain_selector_link" data-country-code="AT" data-subdomain="de" data-lang="de" data-do-not-rewrite="true">Österreich</a> (Deutsch)
+									</li>
+									<li><a href="//www.mathworks.com" class="domain_selector_link" data-country-code="PT" data-subdomain="www" data-lang="en" data-do-not-rewrite="true">Portugal</a> (English)
+									</li>
+									<li><a href="//se.mathworks.com" class="domain_selector_link" data-country-code="Sweden" data-subdomain="se" data-lang="en" data-default-lang="true" data-selected-text="Nordic" data-recommended-text="Sweden" data-do-not-rewrite="true">Sweden</a> (English)
+									</li>
+									<li>Switzerland
+										<ul class="list-unstyled add_indent_20">
+											<li><a href="//ch.mathworks.com" class="domain_selector_link" data-country-code="CH" data-subdomain="ch" data-lang="de" data-selected-text="Schweiz" data-recommended-text="Schweiz" data-do-not-rewrite="true">Deutsch</a>
+											</li>
+
+											<li><a href="//ch.mathworks.com" class="domain_selector_link" data-country-code="CH" data-subdomain="ch" data-lang="en" data-default-lang="true" data-selected-text="Switzerland" data-recommended-text="Switzerland" data-do-not-rewrite="true">English</a>
+											</li>
+
+											<li><a href="//ch.mathworks.com" class="domain_selector_link" data-country-code="CH" data-subdomain="ch" data-lang="fr" data-selected-text="Suisse" data-recommended-text="Suisse" data-do-not-rewrite="true">Français</a>
+											</li>
+										</ul>
+									</li>
+									<li><a href="//uk.mathworks.com" class="domain_selector_link" data-country-code="GB" data-subdomain="uk" data-lang="en" data-default-lang="true" data-selected-text="United Kingdom" data-recommended-text="United Kingdom" data-do-not-rewrite="true">United Kingdom</a>
+										(English)
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 col-md-3">
+						<h3 class="add_bottom_rule">Asia Pacific</h3>
+						<ul class="list-unstyled">
+							<li><a href="//au.mathworks.com" class="domain_selector_link" data-country-code="AU" data-subdomain="au" data-lang="en" data-default-lang="true" data-selected-text="Australia" data-recommended-text="Australia" data-do-not-rewrite="true">Australia</a> (English)
+							</li>
+							<li><a href="//in.mathworks.com" class="domain_selector_link" data-country-code="IN" data-subdomain="in" data-lang="en" data-default-lang="true" data-selected-text="India" data-recommended-text="India" data-do-not-rewrite="true">India</a> (English)
+							</li>
+							<li><a href="//au.mathworks.com" class="domain_selector_link" data-country-code="NZ" data-subdomain="au" data-lang="en" data-do-not-rewrite="true">New Zealand</a> (English)
+							</li>
+							<li>中国
+								<ul class="list-unstyled add_indent_20">
+									<li><a href="//ww2.mathworks.cn" class="domain_selector_link" data-country-code="CN" data-subdomain="ww2" data-lang="zh" data-default-lang="true" data-selected-text="中国" data-recommended-text="中国" data-do-not-rewrite="true">简体中文</a>
+									</li>
+									<li><a href="//ww2.mathworks.cn" class="domain_selector_link" data-country-code="CN" data-subdomain="ww2" data-lang="en" data-default-lang="true" data-selected-text="China" data-recommended-text="China" data-do-not-rewrite="true">English</a>
+									</li>
+								</ul>
+							</li>
+							<li><a href="//jp.mathworks.com" class="domain_selector_link" data-country-code="JP" data-subdomain="jp" data-lang="ja" data-default-lang="true" data-selected-text="日本" data-recommended-text="日本" data-do-not-rewrite="true">日本</a> (日本語)
+							</li>
+							<li><a href="//kr.mathworks.com" class="domain_selector_link" data-country-code="KR" data-subdomain="kr" data-lang="ko" data-default-lang="true" data-selected-text="한국" data-recommended-text="한국" data-do-not-rewrite="true">한국</a> (한국어)
+							</li>
+						</ul>
+					</div>
+				</div>
+				<p class="text-center"><a href="#" class="worldwide_link">Contact your local office</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+			
+		
+	</div>
+
+
+<div class="cta_container_mobile visible-sm visible-xs">
+	<div class="container-fluid">      
+		<div class="row">
+			<div class="col-xs-12">
+				<div><div class="callToAction calltoactionheader containsResourceName resourceClass-calltoactionheader">
+
+ 
+	<div class="cta_box">
+		<ul class="list-inline">
+		    <li class="cta_item cta_item_general">
+		    	<a href="https://www.mathworks.com/campaigns/products/trials.html?prodcode=SL" class="
+						  icon-download
+						  " data-link="lead" data-offerType="trial">
+					Trial software
+				</a>
+		    </li>
+		
+		    <li class="cta_item cta_item_general">
+		    	<a href="https://www.mathworks.com/company/aboutus/contact_us/contact_sales.html" class="
+						  icon-phone
+						  " data-link="lead" data-offerType="Contact Sales">
+					Contact sales
+				</a>
+		    </li>
+		</ul>
+	</div>
+
+
+
+</div>
+</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+	<footer id="footer" class="bs-footer">
+
+	<div class="fat_footer_container"><div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div><div class="fatFooterParsys iparsys parsys resourceClass-iparsys containsResourceName"><div class="section"><div class="new containsResourceName resourceClass-new"></div>
+</div><div class="iparys_inherited"><div class="fatFooterParsys iparsys parsys containsResourceName resourceClass-par"><div class="cqColumns containsResourceName section resourceClass-columns"><div class="row   ">
+
+    
+        <div class=" col-xs-12 col-lg-9 col-lg-push-3"><div class="parsys containsResourceName resourceClass-parsys"><div class="cqColumns containsResourceName section resourceClass-columns"><div class="row add_margin_20  ">
+
+    
+        <div class=" col-xs-12 col-sm-2"><div class="parsys containsResourceName resourceClass-parsys"><div class="text containsResourceName section resourceClass-text">
+<div class="mw-text  ">
+	<h5>Explore Products</h5> 
+<ul class="list-unstyled"> 
+ <li><a href="https://www.mathworks.com/products/matlab.html?s_tid=hp_ff_p_matlab" target="_self">MATLAB</a></li> 
+ <li><a href="https://www.mathworks.com/products/simulink.html?s_tid=hp_ff_p_simulink" target="_self">Simulink</a></li> 
+ <li><a href="https://www.mathworks.com/academia/student_version.html?s_tid=hp_ff_p_student" target="_self">Student Software</a></li> 
+ <li><a href="https://www.mathworks.com/hardware-support.html?s_tid=hp_ff_p_hwsupport" target="_self">Hardware Support</a></li> 
+ <li><a href="https://www.mathworks.com/matlabcentral/fileexchange/?s_tid=hp_ff_p_fx">File Exchange</a></li> 
+</ul>
+</div>
+
+
+</div>
+
+</div>
+</div>
+    
+        <div class=" col-xs-12 col-sm-2"><div class="parsys containsResourceName resourceClass-parsys"><div class="text containsResourceName section resourceClass-text">
+<div class="mw-text  ">
+	<h5>Try or Buy</h5> 
+<ul class="list-unstyled"> 
+ <li><a href="https://www.mathworks.com/downloads/web_downloads/?s_iid=hp_ff_t_downloads">Downloads</a></li> 
+ <li><a href="https://www.mathworks.com/campaigns/products/trials.html" data-target="same" data-link="lead" data-offerType="trial">Trial Software</a></li> 
+ <li><a href="https://www.mathworks.com/company/aboutus/contact_us/contact_sales.html" target="_self" data-link="lead" data-offerType="Contact Sales">Contact Sales</a></li> 
+ <li><a href="https://www.mathworks.com/pricing-licensing.html" target="_self" data-link="lead" data-offerType="pl">Pricing and Licensing</a></li> 
+</ul>
+</div>
+
+
+</div>
+
+</div>
+</div>
+    
+        <div class=" col-xs-12 col-sm-2"><div class="parsys containsResourceName resourceClass-parsys"><div class="text containsResourceName section resourceClass-text">
+<div class="mw-text  ">
+	<h5>Learn to Use</h5> 
+<ul class="list-unstyled"> 
+ <li><a href="https://www.mathworks.com/help/?s_tid=hp_ff_l_doc" data-target="same">Documentation</a></li> 
+ <li><a href="https://www.mathworks.com/support/learn-with-matlab-tutorials.html?s_tid=hp_ff_l_tutorials" data-target="same">Tutorials</a></li> 
+ <li><a href="https://www.mathworks.com/examples/?s_tid=hp_ff_l_examples" data-target="same">Examples</a></li> 
+ <li><a href="https://www.mathworks.com/videos.html?s_tid=hp_ff_l_videos" target="_self">Videos and Webinars</a></li> 
+ <li><a href="https://www.mathworks.com/services/training.html?s_tid=hp_ff_l_training" target="_self">Training</a></li> 
+</ul>
+</div>
+
+
+</div>
+
+</div>
+</div>
+    
+        <div class=" col-xs-12 col-sm-2"><div class="parsys containsResourceName resourceClass-parsys"><div class="text containsResourceName section resourceClass-text">
+<div class="mw-text  ">
+	<h5>Get Support</h5> 
+<ul class="list-unstyled"> 
+ <li><a href="https://www.mathworks.com/support/install-matlab.html?s_tid=hp_ff_s_install">Installation Help</a></li> 
+ <li><a href="https://www.mathworks.com/matlabcentral/answers/?s_tid=hp_ff_s_answers">Answers</a></li> 
+ <li><a href="https://www.mathworks.com/services/consulting.html?s_tid=hp_ff_s_consulting" target="_self">Consulting</a></li> 
+ <li><a href="http://status.mathworks.com/?s_tid=hp_ff_s_application">Application Status</a></li> 
+ <li><a href="https://www.mathworks.com/licensecenter/?s_tid=hp_ff_s_license">License Center</a></li> 
+</ul>
+</div>
+
+
+</div>
+
+</div>
+</div>
+    
+        <div class=" col-xs-12 col-sm-2"><div class="parsys containsResourceName resourceClass-parsys"><div class="text containsResourceName section resourceClass-text">
+<div class="mw-text  ">
+	<h5>About MathWorks</h5> 
+<ul class="list-unstyled"> 
+ <li><a href="https://www.mathworks.com/company/jobs/opportunities/?s_tid=hp_ff_a_careers">Careers</a></li> 
+ <li><a href="https://www.mathworks.com/company/newsroom.html?s_tid=hp_ff_a_newsroom" target="_self">Newsroom</a></li> 
+ <li><a href="https://www.mathworks.com/company/aboutus/soc_mission.html?s_tid=hp_ff_a_socialmission" target="_self">Social Mission</a></li> 
+ <li><a href="https://www.mathworks.com/company.html?s_tid=hp_ff_a_company" target="_self">About MathWorks</a></li> 
+</ul>
+</div>
+
+
+</div>
+
+</div>
+</div>
+    
+</div>
+</div>
+
+</div>
+</div>
+    
+        <div class=" col-xs-12 col-lg-3 col-lg-pull-9"><div class="parsys containsResourceName resourceClass-parsys"><div class="text containsResourceName section resourceClass-text">
+<div class="mw-text  ">
+	<h4 class="add_margin_0">MathWorks</h4>
+<p><i>Accelerating the pace of engineering and science</i></p>
+
+</div>
+
+
+</div>
+<div class="text containsResourceName section resourceClass-text">
+<div class="mw-text  ">
+	<p>MathWorks is the leading developer of mathematical computing software for engineers and scientists.</p>
+
+</div>
+
+
+</div>
+<div class="text containsResourceName section resourceClass-text">
+<div class="mw-text  ">
+	<p><a href="https://www.mathworks.com/discovery.html?s_tid=hp_ff_a_discover" data-target="same">Discover…</a></p>
+</div>
+
+
+</div>
+
+</div>
+</div>
+    
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+	<!-- BASIC FOOTER CONTENT - Begin -->
+	<div class="container">
+		<div class="footer">
+			<div class="row">
+				<div class="col-xs-12 col-md-9">
+					<ul class="countrynav">
+						<!-- Code to Remove Tracking from Previous page and add new tracking -->
+						<li class="footernav_country">
+							<a onclick="$('#country-unselected').modal('show');">
+                                <span class="icon-globe icon_color_quinary icon_16"></span><span id="countrySelectorButtonText">United States</span>
+							</a>
+						</li>
+					</ul>
+					<div class="clearfix"></div>
+					
+					<div><div class="footerNavigation footernavigation containsResourceName resourceClass-footernavigation">
+	<ul class="footernav  ">
+		<li class="footernav_footernav_patents">
+			<a href="https://www.mathworks.com/company/aboutus/policies_statements/patents.html?s_tid=gf_pat">Patents</a>
+		</li>
+	
+		<li class="footernav_footernav_trademarks">
+			<a href="https://www.mathworks.com/company/aboutus/policies_statements/trademarks.html?s_tid=gf_trd">Trademarks</a>
+		</li>
+	
+		<li class="footernav_footernav_privacy">
+			<a href="https://www.mathworks.com/company/aboutus/policies_statements.html?s_tid=gf_priv">Privacy Policy</a>
+		</li>
+	
+		<li class="footernav_footernav_piracy">
+			<a href="https://www.mathworks.com/company/aboutus/policies_statements/piracy.html?s_tid=gf_pir">Preventing Piracy</a>
+		</li>
+	</ul>
+	
+
+</div>
+</div>
+					
+					<div><div class="footerCompanyAddress footercompanyaddress containsResourceName resourceClass-footercompanyaddress">
+	
+	<div class="cq-placeholder" data-emptytext="Footer Company Address"></div>
+
+</div>
+</div>
+					
+					<div><div class="footerParsys iparsys parsys resourceClass-iparsys containsResourceName"><div class="section"><div class="new containsResourceName resourceClass-new"></div>
+</div><div class="iparys_inherited"><div class="footerParsys iparsys parsys containsResourceName resourceClass-par"></div>
+</div>
+</div>
+</div>
+					<div class="clearfix"></div>
+					<p class="copyright">&copy; 1994-2018 The MathWorks, Inc.</p>
+				</div>
+				<div class="clearfix visible-sm add_margin_10"></div>
+				<div class="col-xs-12 col-md-3">
+					
+					<div><div class="socialMediaIconParsys iparsys parsys resourceClass-iparsys containsResourceName"><div class="section"><div class="new containsResourceName resourceClass-new"></div>
+</div><div class="iparys_inherited"><div class="socialMediaIconParsys iparsys parsys containsResourceName resourceClass-par"><div class="socialmediaicon containsResourceName resourceClass-socialmediaicon section">
+
+
+	<div class="social_media  ">
+		<ul class="social_media_icons list-unstyled  ">
+			
+			<li>
+				<a href="http://www.facebook.com/MATLAB" class="svg_link" target="_blank">
+					<img class="ico_facebook" alt="Facebook" title="Facebook" src="/etc/designs/mathworks/img/ico-facebook.svg"/>
+				</a>
+
+				 
+				
+			</li>
+			
+			<li>
+				<a href="http://www.twitter.com/MATLAB" class="svg_link" target="_blank">
+					<img class="ico_twitter" alt="Twitter" title="Twitter" src="/etc/designs/mathworks/img/ico-twitter.svg"/>
+				</a>
+
+				 
+				
+			</li>
+			
+			<li>
+				<a href="https://plus.google.com/117177960465154322866?prsrc=3" class="svg_link" target="_blank">
+					<img class="ico_google" alt="Google+" title="Google+" src="/etc/designs/mathworks/img/ico-google-plus.svg"/>
+				</a>
+
+				 
+				
+			</li>
+			
+			<li>
+				<a href="http://www.linkedin.com/company/the-mathworks_2" class="svg_link" target="_blank">
+					<img class="ico_linkedin" alt="LinkedIn" title="LinkedIn" src="/etc/designs/mathworks/img/ico-linkedin.svg"/>
+				</a>
+
+				 
+				
+			</li>
+			
+			<li>
+				<a href="https://www.mathworks.com/company/rss.html" class="svg_link">
+					<img class="ico_rss" alt="RSS" title="RSS" src="/etc/designs/mathworks/img/ico-rss.svg"/>
+				</a>
+
+				 
+				
+			</li>
+			
+			
+		</ul>
+		<div class="clearfix"></div>
+	</div>
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+					<div class="clearfix"></div>
+					<p class="pull_right_sm pull_right_md pull_right_lg"><small class="percent_90"><em>Join the conversation</em></small></p>
+				</div>
+			</div>
+			
+		</div>
+
+	</div>
+	<!-- BASIC FAT FOOTER CONTENT - End -->
+</footer>
+
+	<div class="clientcontext parbase containsResourceName resourceClass-clientcontext"><link rel="stylesheet" href="/etc/designs/cs/brightcove/shared.min.css" type="text/css"/>
+<script type="text/javascript" src="/etc/clientlibs/foundation/shared.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/granite/lodash/modern.min.js"></script>
+<script type="text/javascript" src="/etc/clientlibs/foundation/personalization/kernel.min.js"></script>
+<script type="text/javascript">
+    $CQ(function() {
+        CQ_Analytics.SegmentMgr.loadSegments("\/etc\/segmentation");
+        CQ_Analytics.ClientContextUtils.init("\/etc\/clientcontext\/mw\u002Ddefault", "\/content\/mathworks\/www\/en\/products\/simulink");
+
+        
+    });
+</script>
+</div>
+
+	
+    
+<script type="text/javascript" src="/etc/designs/mathworks/clientlibs/akamai-country-code.min.20180705192942581.js"></script>
+
+
+
+
+	
+
+	
+    
+<script type="text/javascript" src="/etc/designs/mathworks/clientlibs.min.20180705192942581.js"></script>
+
+
+
+
+	
+
+	
+	<!-- BEGIN Adobe DTM -->
+	<script type="text/javascript">
+	try {
+		_satellite.pageBottom();
+	} catch (e) {
+		//something went wrong
+	}
+	</script>
+	<!-- END Adobe DTM -->
+
+	</body>
+
+
+
+</html>

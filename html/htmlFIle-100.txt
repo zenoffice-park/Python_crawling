@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en-NZ" class="no-js">
+<head>
+  <title>Infotools | Market research software for insightful data analysis</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#195287">
+  
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8"/><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <meta name="title" content="Infotools | Market research software for insightful data analysis"/>
+  <meta name="description" content="Infotools&amp;#039; software helps you to process, analyze and visualize market research data quickly and accurately to get you the right information at the right time."/>
+    
+  <meta itemprop="name" content="Infotools | Market research software for insightful data analysis">
+  <meta itemprop="description" content="Infotools&amp;#039; software helps you to process, analyze and visualize market research data quickly and accurately to get you the right information at the right time.">
+  <meta itemprop="image" content="https://www.infotools.com/infotools/images/favicons/apple-touch-icon.png">
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@infotools">
+  <meta name="twitter:title" content="Infotools | Market research software for insightful data analysis">
+  <meta name="twitter:description" content="Infotools&amp;#039; software helps you to process, analyze and visualize market research data quickly and accurately to get you the right information at the right time.">
+  <meta name="twitter:image:src" content="https://www.infotools.com/infotools/images/favicons/apple-touch-icon.png">
+  
+  <meta property="og:title" content="Infotools | Market research software for insightful data analysis" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://www.infotools.com/" />
+  <meta property="og:image" content="https://www.infotools.com/infotools/images/favicons/apple-touch-icon.png" />
+  <meta property="og:description" content="Infotools&amp;#039; software helps you to process, analyze and visualize market research data quickly and accurately to get you the right information at the right time." />
+  <meta property="og:site_name" content="" />
+
+  <link rel="dns-prefetch" href="https://www.google-analytics.com">
+  <link rel="shortcut icon" href="/favicon.ico?v=1" type="image/x-icon"/>
+  <link rel="apple-touch-icon" href="/infotools/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="/infotools/images/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/infotools/images/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="stylesheet" type="text/css" href="/infotools/dist/style.e07b97db.css" media="screen"/>
+  
+  
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-K67RJXP');</script>
+  <!-- End Google Tag Manager -->
+  
+
+  
+  <!-- Google Analytics -->
+  <script>
+    window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+    ga('create', 'UA-27538675-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script src='https://www.google-analytics.com/analytics.js' async></script>
+    <!-- End Google Analytics -->
+  
+<style type="text/css">
+.field { border-bottom:none; }
+</style>
+</head>
+<body>
+  
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K67RJXP"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
+
+  <!--[if lt IE 10]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+  <svg class="hide" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="icon-arrow-down" viewBox="0 0 50 50">
+        <path d="M25 32.414l-9.707-9.707 1.414-1.414L25 29.586l8.293-8.293 1.414 1.414L25 32.414z"></path>
+    </symbol>
+    <symbol id="icon-arrow-left" viewBox="0 0 50 50">
+        <path d="M27.293 34.707L17.586 25l9.707-9.707 1.414 1.414L20.414 25l8.293 8.293-1.414 1.414z"></path>
+    </symbol>
+    <symbol id="icon-arrow-right" viewBox="0 0 50 50">
+        <path d="M22.707 34.707l-1.414-1.414L29.586 25l-8.293-8.293 1.414-1.414L32.414 25l-9.707 9.707z"></path>
+    </symbol>
+    <symbol id="icon-arrow-up" viewBox="0 0 50 50">
+        <path d="M33.293 28.707L25 20.414l-8.293 8.293-1.414-1.414L25 17.586l9.707 9.707-1.414 1.414z"></path>
+    </symbol>
+    <symbol id="icon-close" viewBox="0 0 50 50">
+        <path d="M34.707 16.707l-1.414-1.414L25 23.586l-8.293-8.293-1.414 1.414L23.586 25l-8.293 8.293 1.414 1.414L25 26.414l8.293 8.293 1.414-1.414L26.414 25l8.293-8.293z"></path>
+    </symbol>
+    <symbol id="icon-cross" viewBox="0 0 50 50">
+        <path d="M33.414 19.414l-2.828-2.828L25 22.172l-5.586-5.586-2.828 2.828L22.171 25l-5.585 5.586 2.828 2.828L25 27.828l5.586 5.586 2.828-2.828L27.829 25l5.585-5.586z"></path>
+    </symbol>
+    <symbol id="icon-facebook" viewBox="0 0 50 50">
+        <path d="M37.565 12h-23.13A1.434 1.434 0 0 0 13 13.435v23.13A1.434 1.434 0 0 0 14.435 38h12.452V27.931h-3.39V24.01h3.39V21.11c0-3.357 2.051-5.183 5.047-5.183a27.694 27.694 0 0 1 3.028.152v3.51h-2.08c-1.625 0-1.942.78-1.942 1.918v2.502h3.884l-.504 3.933h-3.38V38h6.625A1.434 1.434 0 0 0 39 36.565v-23.13A1.434 1.434 0 0 0 37.565 12"></path>
+    </symbol>
+    <symbol id="icon-hamburger" viewBox="0 0 50 50">
+        <path d="M10 14h30v2H10zM10 24h30v2H10zM10 34h30v2H10z"></path>
+    </symbol>
+    <symbol id="icon-linkedin" viewBox="0 0 50 50">
+        <path d="M36.077 12H13.918a1.897 1.897 0 0 0-1.917 1.875v22.249A1.899 1.899 0 0 0 13.918 38h22.159A1.902 1.902 0 0 0 38 36.124v-22.25A1.9 1.9 0 0 0 36.077 12zM20 34h-4V22h4zm-2-13.6a2.4 2.4 0 1 1 2.4-2.4 2.4 2.4 0 0 1-2.4 2.4zm16 13.6h-4v-6c0-1.625-.438-3.169-2-3.169s-2 1.568-2 3.187V34h-4V22h4v1.443h.2a3.793 3.793 0 0 1 3.329-1.804c3.69 0 4.47 2.424 4.47 5.361z"></path>
+    </symbol>
+    <symbol id="icon-search" viewBox="0 0 50 50">
+        <path d="M41.707 40.293l-8.845-8.845a13.037 13.037 0 1 0-1.415 1.414l8.846 8.845zM23 34a11 11 0 1 1 11-11 11.012 11.012 0 0 1-11 11z"></path>
+    </symbol>
+    <symbol id="icon-select-reset" viewBox="0 0 50 50">
+        <path d="M37.768 15.768l-3.536-3.536L25 21.465l-9.232-9.233-3.536 3.536L21.465 25l-9.233 9.232 3.536 3.536L25 28.535l9.232 9.233 3.536-3.536L28.535 25l9.233-9.232z"></path>
+    </symbol>
+    <symbol id="icon-select" viewBox="0 0 50 50">
+        <path d="M46 16L25 37 4 16h42z"></path>
+    </symbol>
+    <symbol id="icon-tag" viewBox="0 0 50 50">
+        <path d="M24.737 38.151L12.85 26.263A7.143 7.143 0 0 1 11 21.8v-7.6a3.204 3.204 0 0 1 3.2-3.2h7.6a7.143 7.143 0 0 1 4.463 1.849L38.15 24.737a3.206 3.206 0 0 1 0 4.526l-8.888 8.888a3.206 3.206 0 0 1-4.526 0zM14.2 13a1.202 1.202 0 0 0-1.2 1.2v7.6a5.122 5.122 0 0 0 1.263 3.049L26.15 36.737a1.202 1.202 0 0 0 1.698 0l8.888-8.888a1.202 1.202 0 0 0 0-1.698L24.85 14.263A5.122 5.122 0 0 0 21.8 13z"></path><path d="M15 19a4 4 0 1 1 4 4 4.005 4.005 0 0 1-4-4zm2 0a2 2 0 1 0 2-2 2.002 2.002 0 0 0-2 2z"></path>
+    </symbol>
+    <symbol id="icon-tick" viewBox="0 0 50 50">
+        <path d="M21.75 33.954l-8.414-8.415 2.828-2.828 5.586 5.585 10.836-10.835 2.828 2.828L21.75 33.954z"></path>
+    </symbol>
+    <symbol id="icon-twitter" viewBox="0 0 50 50">
+        <path d="M41 15.844a12.233 12.233 0 0 1-3.475.956 6.072 6.072 0 0 0 2.663-3.35 12.024 12.024 0 0 1-3.844 1.469 6.05 6.05 0 0 0-10.469 4.137 5.924 5.924 0 0 0 .156 1.381 17.148 17.148 0 0 1-12.475-6.33 6.063 6.063 0 0 0 1.882 8.087 5.91 5.91 0 0 1-2.75-.756v.075a6.056 6.056 0 0 0 4.856 5.937 6.091 6.091 0 0 1-1.594.212 5.709 5.709 0 0 1-1.138-.112 6.06 6.06 0 0 0 5.657 4.206 12.132 12.132 0 0 1-7.519 2.594 12.266 12.266 0 0 1-1.444-.087A16.914 16.914 0 0 0 20.77 37C31.913 37 38 27.769 38 19.762c0-.262-.006-.525-.019-.78A12.318 12.318 0 0 0 41 15.843z"></path>
+    </symbol>
+    <symbol id="icon-youtube" viewBox="0 0 50 50">
+        <path d="M40.7 18.995a6.486 6.486 0 0 0-1.192-2.978 4.29 4.29 0 0 0-3.008-1.271c-4.196-.304-10.5-.311-10.5-.311s-7.8.067-10.2.3a5.09 5.09 0 0 0-3.308 1.282 6.49 6.49 0 0 0-1.192 2.976 45.437 45.437 0 0 0-.3 4.856v2.363a45.392 45.392 0 0 0 .3 4.856 6.49 6.49 0 0 0 1.192 2.976 5.09 5.09 0 0 0 3.308 1.282c2.4.23 10.2.3 10.2.3s6.304-.007 10.5-.311a4.29 4.29 0 0 0 3.007-1.271 6.486 6.486 0 0 0 1.193-2.978 45.345 45.345 0 0 0 .3-4.856v-2.359a45.343 45.343 0 0 0-.3-4.856zm-17.798 9.973V20.54l8.106 4.228z"></path>
+    </symbol>
+    <symbol id="icon-pdf" viewBox="0 0 50 50">
+      <path d="M19.7 28.7c0-.4-.3-.7-.8-.7h-.4v1.4h.4c.4.1.8-.2.8-.7zm3.2-.6h-.5v3.1h.4c1 0 1.6-.5 1.6-1.6 0-1-.6-1.5-1.5-1.5z"/><path d="M29 12H18.6c-1.5 0-2.8 1.2-2.8 2.8V25h-.3c-.6 0-1.1.5-1.1 1.1v6.8c0 .6.5 1.1 1.1 1.1h.3v1.2c0 1.5 1.2 2.8 2.8 2.8h14.2c1.5 0 2.8-1.2 2.8-2.8V18.5L29 12zM17.3 27.3c.3-.1.8-.1 1.4-.1.7 0 1.1.1 1.4.4.3.2.5.6.5 1.1 0 .5-.2.8-.4 1.1-.4.3-.9.5-1.5.5h-.4V32h-1.1v-4.7h.1zm15.5 9H18.6c-.6 0-1.1-.5-1.1-1.1V34h13.3c.6 0 1.1-.5 1.1-1.1v-6.8c0-.6-.5-1.1-1.1-1.1H17.5V14.8c0-.6.5-1.1 1.1-1.1h9.8v3.6c0 1.1.9 1.9 1.9 1.9h3.6v16c0 .6-.5 1.1-1.1 1.1zm-11.4-4.4v-4.6c.4-.1.9-.1 1.4-.1.9 0 1.5.2 1.9.5.5.4.8.9.8 1.8s-.3 1.5-.8 1.9c-.5.4-1.2.6-2.2.6-.5 0-.8 0-1.1-.1zm7.6-2.7v.9h-1.7V32h-1.1v-4.7h2.9v.9h-1.8v1.1H29z"/>
+    </symbol>
+</svg>
+
+  <svg class="hide" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="screenshot" viewBox="0 0 380 20">
+    <path d="M2.5947,0H377.4053A2.5947,2.5947,0,0,1,380,2.5947V20a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2.5947A2.5947,2.5947,0,0,1,2.5947,0Z" style="fill:#d5e0e5"/><circle cx="9.25" cy="10.25" r="2.25" style="fill:#fff"/><circle cx="16" cy="10.25" r="2.25" style="fill:#fff"/><circle cx="22.75" cy="10.25" r="2.25" style="fill:#fff"/><rect x="33" y="5" width="327" height="10" rx="1" ry="1" style="fill:#fff"/>
+  </symbol>
+</svg>
+
+  
+
+  <div id="app" :class="{ 'menu-open' : this.menuOpen }" >
+  <header class="site-header">
+  <site-header :menu-open="menuOpen" inline-template>
+  <div class="site-header__inner">
+    <div class="row panel">
+      <a class="site-header__logo columns shrink" href="/">
+        <picture>
+          <source srcset="/infotools/images/logos/infotools-logo-small.svg" media="(max-width: 430px)">
+          <img srcset="/infotools/images/logos/infotools-logo.svg" alt="Infotools">
+        </picture>
+      </a>
+      <div class="site-header__nav columns">
+        <nav class="site-nav">
+          <ul class="site-nav__container">
+            
+            <li class="site-nav__item"><a class="site-nav__link " href="/harmoni/">Infotools Harmoni</a></li>
+            
+            <li class="site-nav__item"><a class="site-nav__link " href="/services/">Services</a></li>
+            
+            <li class="site-nav__item"><a class="site-nav__link " href="/resources/">Resources</a></li>
+            
+            <li class="site-nav__item"><a class="site-nav__link " href="/why-us/">Why Us</a></li>
+            
+            
+              
+                <li class="site-nav__item hide-for-large"><a class="site-nav__link" href="//web.infotools.com/book-a-demo"  target='_blank'>Book a Demo</a></li>
+              
+                <li class="site-nav__item hide-for-large"><a class="site-nav__link" href="//web.infotools.com/lets-talk"  target='_blank'>Let&#039;s Talk</a></li>
+              
+            
+          </ul>
+        </nav>
+      </div>
+      <div class="site-header__right columns">
+        <div class="site-header__right-inner">
+          <div class="site-header__cta">
+            
+              
+                <a href="//web.infotools.com/book-a-demo"  target='_blank' class="button-hollow">Book a Demo</a>
+              
+                <a href="//web.infotools.com/lets-talk"  target='_blank' class="button-blue">Let&#039;s Talk</a>
+              
+            
+          </div>
+          <div class="site-header__search">
+            <site-search inline-template>
+            <div class="site-search" v-bind:class="{ 'site-search--open': open === true }">
+              <div class="site-search__form">
+                <form action="/search/" autocomplete="off" v-on:submit.prevent="formSubmit">
+                  <input v-model="search" @blur="blur" @focus="focus" class="site-search__input" type="text" name="search" autocomplete="off" >
+                  <button class="site-search__submit" type="submit"><span>Search</span></button>
+                  <span class="icon site-search__icon"><svg><use xlink:href="#icon-search"></use></svg></span>
+                  <span class="spinner site-search__spinner" v-bind:class="{ 'hide': request === false }"></span>
+                </form>
+              </div>
+              <div class="site-search__results">
+                <ul class="site-search__list">
+                  <li class="site-search__item" v-for="result in results">
+                    <a :href="result.link" title="View">
+                      <span class="site-search__title">{{result.title}}</span>
+                      <span class="site-search__desc">{{result.description}}</span>
+                      <span class="site-search__type">{{result.type}}</span></a>
+                  </li>
+                  <div class="site-search__empty" v-bind:class="{ 'hide': total !== 0 }">
+                    <h3>{{message.title}}</h3>
+                    <p>{{message.body}}</p>
+                  </div>
+                </ul>
+              </div>
+            </div>
+            </site-search>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="site-header__mobile">
+      <div class="site-header__cta" v-if="!menuOpen">
+        
+          
+            <a href="//web.infotools.com/book-a-demo"  target='_blank' class="button-hollow">Book a Demo</a>
+          
+            <a href="//web.infotools.com/lets-talk"  target='_blank' class="button-blue">Let&#039;s Talk</a>
+          
+        
+      </div>
+      <div class="site-header__nav-toggle" v-on:click="toggle()"><span></span><span></span><span></span><span></span></div>
+    </div>
+    <div class="site-header__curve">
+      <svg preserveAspectRatio="xMaxYMid slice" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1920 60">
+      <path d="M567.0019,60C229.47,60,32,10,0,0H1920V40.68c-88.2028-15.8983-320.3122-27.54-552.3288-27.54C1070,13.1395,893,60,567.0019,60Z"/></svg>
+    </div>
+  </div>
+  </site-header>
+</header>
+
+  <main class="main-content">
+  
+	<element-section :breakpoint="breakpoint" anchor="e1"  posx="50%" posy="50%" small="/assets/backgrounds/_resampled/ScaleWidthWyI3NjgiXQ/Infotools-Home-Hero.jpg" medium="/assets/backgrounds/_resampled/ScaleWidthWyIxMDI0Il0/Infotools-Home-Hero.jpg" large="/assets/backgrounds/_resampled/ScaleWidthWyIxMjgwIl0/Infotools-Home-Hero.jpg" xlarge="/assets/backgrounds/Infotools-Home-Hero.jpg" inline-template>
+  <section class="element element-hero element--padding-none element--bg-grey element--bg" :class="{ 'element__cover': cover }" :style="style" >
+    
+
+
+    
+
+    <div id="e1" class="element__inner text-white">
+      
+      <hero :inview="inview"  inline-template>
+  <div class="hero">
+    
+    <div class="hero__video">
+      <a class="icon hero__close" @click="stopVideo()"><svg><use xlink:href="#icon-close"></use></svg></a>
+
+      
+        <vid :play.sync="play" video-id="RF2aKyOVhAM" inline-template>
+          <div class="video-embed"></div>
+        </vid>
+      
+    </div>
+    
+    <div class="hero__content">
+      <div class="row align-middle align-center text-center">
+        <div class="small-12 medium-8 column">
+          
+          <h1>Be the change. <br>The future of market research <br>analysis is here.</h1>
+          
+          
+            
+              
+              <a class="button-blue" @click="playVideo()">See Harmoni in action</a>
+              
+            
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</hero>
+
+      
+    </div>
+
+    <div class="element__curve element__curve--bottom">
+  <svg preserveAspectRatio="xMaxYMid slice" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 60">
+  <path d="M0,0V60C32,50,229.47,1,567.002,1,893,1,1070,47.8605,1367.6714,47.8605c232.0164,0,464.126-11.6419,552.3286-27.54V0Z"/>
+  </svg>
+</div>
+
+  </section>
+</element-section>
+
+
+	<element-section :breakpoint="breakpoint" anchor="e5"  inline-template>
+  <section class="element element-multi-column element--padding-small element--bg-white" :class="{ 'element__cover': cover }" :style="style" >
+    
+<div class="element__curve element__curve--top">
+  <svg preserveAspectRatio="xMaxYMid slice" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 60">
+  <path d="M567.0019,1C229.47,1,32,50,0,60H1920V20.32c-88.2028,15.8983-320.3122,27.54-552.3288,27.54C1070,47.8605,893,1,567.0019,1Z"/>
+  </svg>
+</div>
+
+
+
+    
+
+    <div id="e5" class="element__inner text-grey">
+      
+      
+<div class="row intro">
+  <div class="column text-center">
+    <h1 class="text-green" style="text-align: center;">Say hello to Infotools Harmoni.</h1>
+  </div>
+</div>
+
+
+
+<div class="row align-center">
+  
+  <div class="column small-12    large-expand">
+    <div class="full-height">
+      
+
+
+
+
+
+
+
+
+<div class="single-icon">
+  <img class="single-icon__image" src="/assets/icons/infotools-icons-insight.svg" alt="Harmoni feature 1" width="405" >
+  <div class="single-icon__inner">
+  <h4>Integration for insights.</h4><p><span>You’ve got research data. You’ve got numbers. You’ve got figures galore. What you need is a way to bring it all together so you can find the hidden treasures in your data. After all, isn't that why you got into market research?</span></p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+  
+  <div class="column small-12    large-expand">
+    <div class="full-height">
+      
+
+
+
+
+
+
+
+
+<div class="single-icon">
+  <img class="single-icon__image" src="/assets/icons/infotools-icons-ah-hah.svg" alt="Harmoni feature 2" width="405" >
+  <div class="single-icon__inner">
+  <h4>More "ah-ha" moments.</h4><p>Infotools Harmoni is an intuitive software platform that lets you quickly and easily process, analyze and visualize your market research data, to consistently deliver the insights you need.</p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+  
+  <div class="column small-12    large-expand">
+    <div class="full-height">
+      
+
+
+
+
+
+
+
+
+<div class="single-icon">
+  <img class="single-icon__image" src="/assets/icons/infotools-icons-sharable.svg" alt="Harmoni feature 3" width="405" >
+  <div class="single-icon__inner">
+  <h4>Beautiful, sharable stories.</h4><p><span>With Infotools Harmoni you spend less time preparing data, and more time asking questions and building understanding. Harmoni transforms your data into beautiful, sharable stories that deliver powerful insights.</span></p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+  
+  <div class="column small-12    large-expand">
+    <div class="full-height">
+      
+
+
+
+
+
+
+
+
+<div class="single-icon">
+  <img class="single-icon__image" src="/assets/icons/infotools-icons-all-right.svg" alt="Harmoni feature 4" width="405" >
+  <div class="single-icon__inner">
+  <h4>Right people, right time.</h4><p><span>Use Infotools Harmoni to get the right information to the right people at the right time. Give them actionable insights that will help them make better decisions. They'll love you for it.</span></p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+  
+</div>
+
+
+
+
+      
+    </div>
+
+    <div class="element__curve element__curve--bottom">
+  <svg preserveAspectRatio="xMaxYMid slice" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 60">
+  <path d="M0,0V60C32,50,229.47,1,567.002,1,893,1,1070,47.8605,1367.6714,47.8605c232.0164,0,464.126-11.6419,552.3286-27.54V0Z"/>
+  </svg>
+</div>
+
+  </section>
+</element-section>
+
+
+	<element-section :breakpoint="breakpoint" anchor="e175"  inline-template>
+  <section class="element element-multi-column element--padding-normal element--bg-grey element--bg multi-column--split" :class="{ 'element__cover': cover }" :style="style" >
+    
+<div class="element__curve element__curve--top">
+  <svg preserveAspectRatio="xMaxYMid slice" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 60">
+  <path d="M567.0019,1C229.47,1,32,50,0,60H1920V20.32c-88.2028,15.8983-320.3122,27.54-552.3288,27.54C1070,47.8605,893,1,567.0019,1Z"/>
+  </svg>
+</div>
+
+
+
+    
+      
+        
+        
+        <div class="multi-column__background position--1 bg-grey">
+        </div>
+        
+      
+        
+        <div class="multi-column__background position--2 "
+             style="background-image:url('/assets/backgrounds/_resampled/ScaleWidthWyI3NjgiXQ/E64M7C.jpg'); background-position:50% 50%;">
+        </div>
+        
+        
+      
+    
+
+    <div id="e175" class="element__inner text-white">
+      
+      
+
+
+
+
+<div class="row">
+  
+  <div class="column small-12 medium-6  ">
+    <div class="full-height position--1 text-white">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 class="text-green">The Insider's Guide</h2><h3>Five ways to keep consumer insights at the heart of your organization</h3><p>Is your research budget shrinking? Do you feel pressure to prove the value of the insights function?</p><p>We can help. Read our guide for ideas about how to boost the profile of market research, prove your value and put the insights team at the heart of your organization.</p><p><a class="button-green" href="https://goo.gl/CmcUKB" target="_blank">Download the guide</a></p>
+
+
+
+
+
+    </div>
+  </div>
+  
+  <div class="column small-12 medium-6  ">
+    <div class="full-height position--2 ">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+  
+</div>
+
+
+      
+    </div>
+
+    <div class="element__curve element__curve--bottom">
+  <svg preserveAspectRatio="xMaxYMid slice" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 60">
+  <path d="M0,0V60C32,50,229.47,1,567.002,1,893,1,1070,47.8605,1367.6714,47.8605c232.0164,0,464.126-11.6419,552.3286-27.54V0Z"/>
+  </svg>
+</div>
+
+  </section>
+</element-section>
+
+
+	<element-section :breakpoint="breakpoint" anchor="e40"  inline-template>
+  <section class="element element-multi-column element--padding-small element--bg-white" :class="{ 'element__cover': cover }" :style="style" >
+    
+<div class="element__curve element__curve--top">
+  <svg preserveAspectRatio="xMaxYMid slice" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 60">
+  <path d="M567.0019,1C229.47,1,32,50,0,60H1920V20.32c-88.2028,15.8983-320.3122,27.54-552.3288,27.54C1070,47.8605,893,1,567.0019,1Z"/>
+  </svg>
+</div>
+
+
+
+    
+
+    <div id="e40" class="element__inner text-grey">
+      
+      
+<div class="row intro">
+  <div class="column text-center">
+    <h1 class="text-green" style="text-align: center;">Share your discoveries.</h1>
+  </div>
+</div>
+
+
+
+<div class="row align-center">
+  
+  <div class="column small-12    large-expand">
+    <div class="full-height">
+      
+
+
+
+
+
+
+<div class="single-screenshot">
+  <svg class="single-screenshot__header" viewBox="0 0 380 20"><use xlink:href="#screenshot"></use></svg>
+  <img class="single-screenshot__image" src="/assets/screenshots/_resampled/CroppedFocusedImageWyI2NDAiLCIzNjAiLCJ5Iiw5XQ/Infotools-PowerPoint-Sharable-1.jpg" alt="Infotools PowerPoint Sharable 1" /> <!--1920, 1280-->
+  <div class="single-screenshot__inner">
+    
+    <h3 class="single-screenshot__heading">Truly editable PowerPoint presentations.</h3>
+    
+
+    <p>Others promise it, Infotools Harmoni delivers it. Truly editable PowerPoint presentations. Write the story in your data, export it to PowerPoint, and then edit your charts, graphs and tables to your heart's content.</p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+  
+  <div class="column small-12    large-expand">
+    <div class="full-height">
+      
+
+
+
+
+
+
+<div class="single-screenshot">
+  <svg class="single-screenshot__header" viewBox="0 0 380 20"><use xlink:href="#screenshot"></use></svg>
+  <img class="single-screenshot__image" src="/assets/screenshots/_resampled/CroppedFocusedImageWyI2NDAiLCIzNjAiLCJ5Iiw1MV0/Infotools-Beautiful.jpg" alt="Infotools Beautiful" /> <!--1920, 1280-->
+  <div class="single-screenshot__inner">
+    
+    <h3 class="single-screenshot__heading">Beautiful dashboards that keep your execs coming back.</h3>
+    
+
+    <p>Make sure the people who matter have your latest insights at the push of a button. Infotools Harmoni dashboards are visually compelling, easily customized and convey the up-to-the-minute value you and your team provide.</p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+  
+  <div class="column small-12    large-expand">
+    <div class="full-height">
+      
+
+
+
+
+
+
+<div class="single-screenshot">
+  <svg class="single-screenshot__header" viewBox="0 0 380 20"><use xlink:href="#screenshot"></use></svg>
+  <img class="single-screenshot__image" src="/assets/screenshots/_resampled/CroppedFocusedImageWyI2NDAiLCIzNjAiLCJ5IiwyMV0/Infotools-Stories-Sharable.jpg" alt="Infotools Stories Sharable" /> <!--1920, 1280-->
+  <div class="single-screenshot__inner">
+    
+    <h3 class="single-screenshot__heading">Create compelling stories that encourage change.</h3>
+    
+
+    <p>Create compelling stories that enlighten and inspire action and decision-making.</p>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+  
+</div>
+
+
+
+
+      
+    </div>
+
+    <div class="element__curve element__curve--bottom">
+  <svg preserveAspectRatio="xMaxYMid slice" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 60">
+  <path d="M0,0V60C32,50,229.47,1,567.002,1,893,1,1070,47.8605,1367.6714,47.8605c232.0164,0,464.126-11.6419,552.3286-27.54V0Z"/>
+  </svg>
+</div>
+
+  </section>
+</element-section>
+
+
+	<element-section :breakpoint="breakpoint" anchor="e36"  posx="50%" posy="50%" small="/assets/backgrounds/_resampled/ScaleWidthWyI3NjgiXQ/Infotools-Feed-Curiosity.jpg" medium="/assets/backgrounds/_resampled/ScaleWidthWyIxMDI0Il0/Infotools-Feed-Curiosity.jpg" large="/assets/backgrounds/_resampled/ScaleWidthWyIxMjgwIl0/Infotools-Feed-Curiosity.jpg" xlarge="/assets/backgrounds/_resampled/ScaleWidthWyIxOTIwIl0/Infotools-Feed-Curiosity.jpg" inline-template>
+  <section class="element element-multi-column element--padding-large element--bg" :class="{ 'element__cover': cover }" :style="style" >
+    
+<div class="element__curve element__curve--top">
+  <svg preserveAspectRatio="xMaxYMid slice" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 60">
+  <path d="M567.0019,1C229.47,1,32,50,0,60H1920V20.32c-88.2028,15.8983-320.3122,27.54-552.3288,27.54C1070,47.8605,893,1,567.0019,1Z"/>
+  </svg>
+</div>
+
+
+
+    
+
+    <div id="e36" class="element__inner text-white">
+      
+      
+<div class="row intro">
+  <div class="column text-center">
+    <h1 style="text-align: center;">Feed your curiosity.</h1><p style="text-align: center;"><a class="button-blue" href="/harmoni/">Find out more</a></p>
+  </div>
+</div>
+
+
+
+<div class="row align-center">
+  
+</div>
+
+
+
+
+      
+    </div>
+
+    <div class="element__curve element__curve--bottom">
+  <svg preserveAspectRatio="xMaxYMid slice" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 60">
+  <path d="M0,0V60C32,50,229.47,1,567.002,1,893,1,1070,47.8605,1367.6714,47.8605c232.0164,0,464.126-11.6419,552.3286-27.54V0Z"/>
+  </svg>
+</div>
+
+  </section>
+</element-section>
+
+
+	<element-section :breakpoint="breakpoint" anchor="e39"  inline-template>
+  <section class="element element-quote element--padding-small element--bg-grey" :class="{ 'element__cover': cover }" :style="style" >
+    
+<div class="element__curve element__curve--top">
+  <svg preserveAspectRatio="xMaxYMid slice" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 60">
+  <path d="M567.0019,1C229.47,1,32,50,0,60H1920V20.32c-88.2028,15.8983-320.3122,27.54-552.3288,27.54C1070,47.8605,893,1,567.0019,1Z"/>
+  </svg>
+</div>
+
+
+
+    
+
+    <div id="e39" class="element__inner text-white">
+      
+      <div class="row align-center">
+  <div class="small-12 medium-9 column">
+    <figure class="quote">
+      <blockquote>
+        <p>Knowing that we have a specialist team at Infotools that ensures the data quality and consistency across 90+ markets is crucial for us to fully trust this information and concentrate on the results and insights. </p>
+      </blockquote>
+      <figcaption class="row">
+        <div class="column small-12 medium-6 quote__left">
+          <span class="quote__name"></span><br/>
+          <span class="quote__title">Senior Director</span><br/>
+          <span class="quote__company">Global FMCG Manufacturer</span>
+        </div>
+        
+      </figcaption>
+    </figure>
+  </div>
+</div>
+
+      
+    </div>
+
+    <div class="element__curve element__curve--bottom">
+  <svg preserveAspectRatio="xMaxYMid slice" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 60">
+  <path d="M0,0V60C32,50,229.47,1,567.002,1,893,1,1070,47.8605,1367.6714,47.8605c232.0164,0,464.126-11.6419,552.3286-27.54V0Z"/>
+  </svg>
+</div>
+
+  </section>
+</element-section>
+
+
+	<element-section :breakpoint="breakpoint" anchor="e48"  posx="50%" posy="50%" small="/assets/backgrounds/_resampled/ScaleWidthWyI3NjgiXQ/Infotools-Stories.jpg" medium="/assets/backgrounds/_resampled/ScaleWidthWyIxMDI0Il0/Infotools-Stories.jpg" large="/assets/backgrounds/_resampled/ScaleWidthWyIxMjgwIl0/Infotools-Stories.jpg" xlarge="/assets/backgrounds/Infotools-Stories.jpg" inline-template>
+  <section class="element element-hero element--padding-none element--bg" :class="{ 'element__cover': cover }" :style="style" >
+    
+<div class="element__curve element__curve--top">
+  <svg preserveAspectRatio="xMaxYMid slice" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 60">
+  <path d="M567.0019,1C229.47,1,32,50,0,60H1920V20.32c-88.2028,15.8983-320.3122,27.54-552.3288,27.54C1070,47.8605,893,1,567.0019,1Z"/>
+  </svg>
+</div>
+
+
+
+    
+
+    <div id="e48" class="element__inner text-white">
+      
+      <hero :inview="inview"  inline-template>
+  <div class="hero">
+    
+    <div class="hero__video">
+      <a class="icon hero__close" @click="stopVideo()"><svg><use xlink:href="#icon-close"></use></svg></a>
+
+      
+        <vid :play.sync="play" video-id="RF2aKyOVhAM" inline-template>
+          <div class="video-embed"></div>
+        </vid>
+      
+    </div>
+    
+    <div class="hero__content">
+      <div class="row align-middle align-center text-center">
+        <div class="small-12 medium-8 column">
+          
+          <h1>Write the future.</h1>
+          
+          
+            
+              
+              <a class="button-blue" @click="playVideo()">Watch Video</a>
+              
+            
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</hero>
+
+      
+    </div>
+
+    <div class="element__curve element__curve--bottom">
+  <svg preserveAspectRatio="xMaxYMid slice" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 60">
+  <path d="M0,0V60C32,50,229.47,1,567.002,1,893,1,1070,47.8605,1367.6714,47.8605c232.0164,0,464.126-11.6419,552.3286-27.54V0Z"/>
+  </svg>
+</div>
+
+  </section>
+</element-section>
+
+
+  
+</main>
+
+  
+
+
+
+<footer class="site-footer">
+
+  <div class="site-footer__curve">
+    <svg preserveAspectRatio="xMaxYMid slice" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 45"><path d="M1124.84,23.79C493.3333-22.416,44,41.1533,0,44v1H1920V0C1785.3333,26.9173,1426.2319,45.8438,1124.84,23.79Z"/></svg>
+  </div>
+
+  <div class="site-footer__inner">
+    <div class="row">
+      <div class="small-12 medium-9 columns">
+        <nav class="site-footer-nav">
+          <ul class="site-footer__nav">
+            
+            <li class="site-footer__item"><a class="site-footer__link" href="/harmoni/">Infotools Harmoni</a>
+              
+            </li>
+            
+            <li class="site-footer__item"><a class="site-footer__link" href="/services/">Services</a>
+              
+            </li>
+            
+            <li class="site-footer__item"><a class="site-footer__link" href="/resources/">Resources</a>
+              
+                <ul class="site-footer__child-nav">
+                
+                  <li class="site-footer__child-item"><a class="site-footer__child-link" href="/resources/?type=article">Article</a></li>
+                
+                  <li class="site-footer__child-item"><a class="site-footer__child-link" href="/resources/?type=client-story">Client Story</a></li>
+                
+                  <li class="site-footer__child-item"><a class="site-footer__child-link" href="/resources/?type=e-book">E-book</a></li>
+                
+                  <li class="site-footer__child-item"><a class="site-footer__child-link" href="/resources/?type=news">News</a></li>
+                
+                  <li class="site-footer__child-item"><a class="site-footer__child-link" href="/resources/?type=video">Video</a></li>
+                
+                  <li class="site-footer__child-item"><a class="site-footer__child-link" href="/resources/?type=webinar">Webinar</a></li>
+                
+                </ul>
+              
+            </li>
+            
+            <li class="site-footer__item"><a class="site-footer__link" href="/why-us/">Why Us</a>
+              
+            </li>
+            
+            <li class="site-footer__item"><a class="site-footer__link" href="/company/">Company</a>
+              
+                <ul class="site-footer__child-nav">
+                
+                  <li class="site-footer__child-item"><a class="site-footer__child-link" href="/company/contact-us/">Contact Us</a></li>
+                
+                  <li class="site-footer__child-item"><a class="site-footer__child-link" href="/company/careers/">Careers</a></li>
+                
+                  <li class="site-footer__child-item"><a class="site-footer__child-link" href="/company/privacy-and-terms/">Privacy &amp; Terms</a></li>
+                
+                </ul>
+              
+            </li>
+            
+          </ul>
+        </nav>
+      </div>
+      
+      <div class="small-12 medium-3 columns">
+        <nav class="site-footer-social">
+          <ul class="site-footer-social__icons">
+            <li class="site-footer-social__icon">
+              <a class="icon" href="https://www.linkedin.com/company-beta/46910/" target="_blank"><svg><use xlink:href="#icon-linkedin"></use></svg></a>
+            </li>
+            <li class="site-footer-social__icon">
+              <a class="icon" href="https://www.youtube.com/channel/UCZhbVwW6wDCG37P1ZMa5qyw" target="_blank"><svg><use xlink:href="#icon-youtube"></use></svg></a>
+            </li>
+            <li class="site-footer-social__icon">
+              <a class="icon" href="https://www.facebook.com/Infotools1" target="_blank"><svg><use xlink:href="#icon-facebook"></use></svg></a>
+            </li>
+            <li class="site-footer-social__icon">
+              <a class="icon" href="https://twitter.com/infotools" target="_blank"><svg><use xlink:href="#icon-twitter"></use></svg></a>
+            </li>
+          </ul>
+        </nav>
+        <div class="site-footer__copyright">
+          &copy; 2018 - Information Tools Limited
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+  
+  <!-- Start of HubSpot Embed Code -->
+  <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/156783.js"></script>
+  <!-- End of HubSpot Embed Code -->
+  
+  <script src="/infotools/dist/manifest.d41d8cd9.js" ></script>
+  <script src="/infotools/dist/vendor.85ed8e99.js" ></script>
+  <script src="/infotools/dist/main.5d3bcab7.js" ></script>
+  <script src="/infotools/dist/style.98d5e829.js" ></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"9c0ce91aff","applicationID":"12031104","transactionName":"MVxVbEJRXBZTUEEKVwgWYkpZH1YcXFJYClsFWFRQVR9RBFFbUE5VB1BZFkBYQg==","queueTime":0,"applicationTime":58,"atts":"HRtWGgpLTxg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

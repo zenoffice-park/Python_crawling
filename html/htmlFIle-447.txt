@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:og="http://ogp.me/ns#" xmlns:mixi="http://mixi-platform.com/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<title>サポーターズ | 学生と企業が支援でつながる</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="カッコイイオトナとの「出会い」をプロデュースすることでキャリアを考えるきっかけを生み、いつか日本中にカッコイイオトナを増やす。そんな学生支援向けキャリア支援サービスです。" />
+<meta name="keywords" content="サポーターズ,就職活動,インターンシップ,交通費,支援金" />
+<meta property="og:site_name" content="supporterz.jp" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="サポーターズ | 学生と企業が支援でつながる" />
+<meta property="og:description" content="カッコイイオトナとの「出会い」をプロデュースすることでキャリアを考えるきっかけを生み、いつか日本中にカッコイイオトナを増やす。そんな学生支援向けキャリア支援サービスです。" />
+<meta property="og:url" content="https://supporterz.jp/" />
+<meta property="og:image" content="http://supporterz.jp/img/social.png" />
+<link href="/favicon.ico?1522990751" type="image/x-icon" rel="icon"/><link href="/favicon.ico?1522990751" type="image/x-icon" rel="shortcut icon"/><link rel="shortcut icon" type="image/vnd.microsoft.icon" sizes="16x16" href="/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" href="/img/apple_touch_icon.png" />
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+
+
+	<link rel="stylesheet" type="text/css" href="/css/common.css?1528351914" media="screen, print"/>
+	<link rel="stylesheet" type="text/css" href="/css/jquery-ui-1.8.16.custom.css?1522990751" media="screen, print"/>
+
+	<link rel="stylesheet" type="text/css" href="/css/print.css?1522990751" media="print"/>
+<!-- [ SCRIPTS ] -->
+
+
+	<script type="text/javascript" src="/js/libs/LAB.js?1522990751"></script>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="/js/slides.min.jquery.js?1522990751"></script>
+
+<!--[if lt IE 9]>  
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
+<![endif]-->
+
+	<script type="text/javascript" src="/js/main.js?1522990751"></script>
+<!-- / [ SCRIPTS ] -->
+
+<script type="text/javascript" src="/js/jquery-2.1.4.min.js?1522990751"></script>
+<link rel="stylesheet" type="text/css" href="/css/top.css?1528089328"/><link rel="stylesheet" type="text/css" href="/css/layout.css?1522990751"/><script type="text/javascript">
+//<![CDATA[
+window.nex_rt_queue = window.nex_rt_queue || [];
+window.nex_rt_queue.push({
+advertiser_id: 351
+});
+
+//]]>
+</script>
+
+
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KJN723"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KJN723');</script>
+<!-- End Google Tag Manager -->
+<script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
+<script type="text/javascript">
+twttr.conversion.trackPid('l68hy', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l68hy&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
+<img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l68hy&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" /></noscript>
+
+<div id="fb-root"></div><script type="text/javascript">
+//<![CDATA[
+
+
+	// This is called with the results from from FB.getLoginStatus().
+	function statusChangeCallback(response) {
+		// The response object is returned with a status field that lets the
+		// app know the current login status of the person.
+		// Full docs on the response object can be found in the documentation
+		// for FB.getLoginStatus().
+		if (response.status === 'connected') {
+			// Logged into your app and Facebook.
+		} else if (response.status === 'not_authorized') {
+			// The person is logged into Facebook, but not your app.
+		} else {
+			// The person is not logged into Facebook, so we're not sure if
+			// they are logged into this app or not.
+		}
+	}
+
+	// This function is called when someone finishes with the Login
+	// Button.  See the onlogin handler attached to it in the sample
+	// code below.
+	function checkLoginState() {
+		FB.getLoginStatus(function(response) {
+			statusChangeCallback(response);
+		});
+	}
+
+
+	window.fbAsyncInit = function() {
+		FB.init({
+			appId      : '417514355013146',
+			cookie     : true,  // enable cookies to allow the server to access 
+				      // the session
+			xfbml      : true,  // parse social plugins on this page
+			version    : 'v2.12' // use version 2.12
+		});
+
+		// Now that we've initialized the JavaScript SDK, we call 
+		// FB.getLoginStatus().  This function gets the state of the
+		// person visiting this page and can return one of three states to
+		// the callback you provide.  They can be:
+		//
+		// 1. Logged into your app ('connected')
+		// 2. Logged into Facebook, but not your app ('not_authorized')
+		// 3. Not logged into Facebook and can't tell if they are logged into
+		//    your app or not.
+		//
+		// These three cases are handled in the callback function.
+
+		FB.getLoginStatus(function(response) {
+			statusChangeCallback(response);
+		});
+
+	};
+
+
+	// logs the user in the application and facebook
+	function login(redirection){
+		FB.login(function (response) {
+			if(response.authResponse) {
+				// user is logged in
+				// console.log('Welcome!');
+				if(redirection != null && redirection != ''){
+					top.location.href = redirection;
+				}
+			} else {
+				// user could not log in
+				console.log('User cancelled login or did not fully authorize.');
+			}
+		}, {scope: 'email,user_birthday'});
+	}
+
+	// logs the user out of the application and facebook
+	function logout(redirection){
+		FB.logout(function(response) {
+			// user is logged out
+			// redirection if any
+			if(redirection != null && redirection != ''){
+				top.location.href = redirection;
+			}
+		});
+	}
+
+	// Load the SDK asynchronously
+	(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = '//connect.facebook.net/ja_JP/sdk.js';
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+
+	
+//]]>
+</script>
+
+<!--<div id="container" style="width:100%"> -->
+<!-- [ HEADER-AREA ] -->
+<!-- / [ HEADER-AREA ] -->
+<!-- [[ CONTENT-AREA ]] -->
+<!-- <div id="content" style="width:100%"> -->
+
+
+
+<div class="top-header">
+			<div class="wrapper">
+				<div class="logo">
+					<img src="img/common/logo_01.png" alt="サポーターズ logo">
+				</div>
+				<div class="re-top">
+					<img src="img/top/lead-in.png" class="intro-lead-in">
+					<div class="intro-heading">
+  					<font size="4">15〜50万円</font>かかると<font size="4">言</font>われる<font size="4">就職活動</font><br>その<font size="4">費用</font>を、<font size="4">企業</font>が<font size="4">支援</font>する<font size="4">新</font>しい<font size="4">就活</font>の<font size="4">カタチ</font>
+  				</div>
+				</div>
+				<div class="mt50">
+					<a href="/register/agreement" class="btn register">無料会員登録</a>
+				</div>
+				<div class="mt10">
+					<a href="#popup1" class="popup_btn btn login">ログイン</a>
+				</div>
+											</div><!-- wrapper -->
+</div><!-- top-header -->
+
+<!--:::::: login box ::::::-->
+<div id="popup1" class="popup">
+    <div class="popup_inner" style="text-align: center;">
+        <h4>ログイン</h4>
+		<form action="/users/login" autocomplete="off" novalidate="novalidate" id="UserHomeForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="769d47cfa2a5457337fcaca23e5f3a57ce31329d99647ac65db0a4842753758c" id="Token344389256"/></div>        <div class="login_box">
+            <div class="mt10 mb20">
+                <a id="facebook_login_button" href="#" class="fb">facebookログイン</a>
+            </div>
+            <div class="border"></div>
+			<input name="data[User][email]" placeholder="メールアドレス" title="メールアドレス" id="email" maxlength="255" type="text"/><br>
+			<input name="data[User][password]" placeholder="パスワード" title="パスワード" id="passwd" type="password"/><br>
+            <a href="/users/password_remind">パスワードを忘れた方はこちら</a>
+        </div><!-- login box -->
+        <div class="mt20">
+            <a id="email_login_button" href="#" class="login">ログイン</a>
+			<div class="submit"><input class="login" hidden="hidden" type="submit" value="ログイン"/></div>        </div>
+		<div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="b9fdee2785c89c1a8ab03c16b259b5972063ccbf%3A" id="TokenFields1419609883"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked1175668084"/></div></form>        <div class="mt30">
+            <p><a href="#close_btn" class="btn close_btn">閉じる</a></p>
+        </div>
+    </div><!-- popup_inner -->
+</div><!-- popup1 -->
+<script src="/js/login.js"></script>
+
+<!--:::::: login box ::::::-->
+
+		<div class="merit">
+  		<div class="wrapper">
+    		<div class="head-merit">
+      		<h2><font size="">支援金</font>を<font>もらう</font><br><font><b>２</b></font>つの方法</h2>
+    		</div>
+	  		<div class="merit-left">
+      		<img src="img/top/merit-case-1.png" alt="CASE1 自ら企業に会いに行く" />
+      		<div class="merit-txt" style="text-align:center">
+                大学の所在地と開催地によって、<br>
+                <b>1,000円</b>～<b>3,000円</b>の支援金を支給。
+      		</div>
+    		</div>
+	  		<div class="merit-right">
+      		<img src="img/top/merit-case-2.png" alt="CASE2 企業からスカウトをもらう" />
+      		<div class="merit-txt" style="text-align:center">
+                大学の所在地と開催地によって、<br>
+                <b>1,000円</b>～<b>10,000円</b>の支援金を支給。
+      		</div>
+			</div>
+    		<div class="clear"></div>
+			<p class="merit-txt center">2016年度は約<b>7300人</b>の学生に総額約<b>5000万</b>の支援を行いました。</p>
+  		</div>
+		</div>
+		<div class="free-reg">
+  		<a href="/register/agreement" class="free btn">無料会員登録</a>
+		</div>
+		<div class="point">
+      <div class="wrapper">
+    		<div class="head-merit">
+      		<h2>サポーターズを使う<br><b>３</b>つの<b>メリット</b></h2>
+    		</div>
+    		<div class="point-left">
+          <img src="img/top/point-1.png" alt="" />
+    		</div>
+    		<div class="point-right">
+      		<img src="img/top/point-1-1.png" alt="" />
+      		<p>就職活動には、交通費を中心に<b>15〜50万円</b>ほど費用がかかると言われています。そんな費用に苦しむことなく、たくさんのインターン、イベントに参加できるよう、交通費の支援をしています。</p>
+    		</div>
+    		<div class="clear"></div>
+    		<div class="border"></div>
+    		<div class="point-left">
+          <img src="img/top/point-2.png" alt="" />
+    		</div>
+    		<div class="point-right">
+      		<img src="img/top/point-2-2.png" alt="" />
+      		<p>サポーターズは、<b>200</b>を越える人気IT企業が利用しています。そんな企業の支援を受けながら、就職活動を行うことができます。</p>
+    		</div>
+    		<div class="clear"></div>
+    		<div class="border"></div>
+    		<div class="point-left">
+          <img src="img/top/point-3.png" alt="" />
+    		</div>
+    		<div class="point-right">
+      		<div class="left">
+      		<p><b>全国で年間100イベントを開催。</b><br>
+        		美人事からホリエモンまで普段は<br>会えない大人と会うことができます。
+          </p>
+          </div>
+          <div class="right">
+            <img src="img/top/point-3-3.png" alt="" />
+          </div>
+          <div class="clear"></div>
+    		</div>
+    		<div class="clear"></div>
+    		<div class="border"></div>
+      </div>
+		</div>
+
+	<!-- 企業イベント -->
+	<div class="sp-event">
+		<div class="wrapper">
+			<div class="head-merit">
+				<h2>企業イベント</h2>
+				<p>〜関東1,000円、地方3,000円を支給〜</p>
+			</div>
+
+	
+	<!-- 個別イベント -->
+	<a href="/events/detail/4589">
+		<div class="event-left">
+			<div class="small-left">
+				<img src="/media/normal/img/659a97111885ced05b11b8eeeacde20552fd6b1066a10.png" alt="レバレジーズ株式会社イメージ" width="192" height="100" class=""/>			</div>
+			<div class="small-right">
+				<p>レバレジーズ株式会社									<span class="bootstrap-like-label">2019年卒</span>
+								</p>
+				<ul>
+										<li>7/13</li>
+									</ul>
+			</div>
+			<div class="clear"></div>
+			<div class="event-div">
+			<p class="event-p">【東京開催】創業わずか12年で200億規模へ、圧倒的スピードで拡大する事業で若手に最大限の裁量を-レバレジーズグループ</p>
+		</div>
+		</div>
+	</a>
+	
+	<!-- 個別イベント -->
+	<a href="/events/detail/5187">
+		<div class="event-right">
+			<div class="small-left">
+				<img src="/media/normal/img/d41d8cd98f00b204e9800998ecf8427e55784fc776e5d.png" alt="株式会社パソナ パソナキャリアカンパニーイメージ" width="192" height="100" class=""/>			</div>
+			<div class="small-right">
+				<p>株式会社パソナ パソナキャリアカンパニー									<span class="bootstrap-like-label">2019年卒</span>
+								</p>
+				<ul>
+										<li>7/13</li>
+									</ul>
+			</div>
+			<div class="clear"></div>
+			<div class="event-div">
+			<p class="event-p">＜札幌特別開催＞トップセミナー～北海道出身の創業者が語る良い会社づくりの秘訣とは～</p>
+		</div>
+		</div>
+	</a>
+	
+	<!-- 個別イベント -->
+	<a href="/events/detail/5559">
+		<div class="event-left">
+			<div class="small-left">
+				<img src="/media/normal/img/a87ff679a2f3e71d9181a67b7542122c5a584ad6518c8.png" alt="HRソリューションズ株式会社イメージ" width="192" height="100" class=""/>			</div>
+			<div class="small-right">
+				<p>HRソリューションズ株式会社									<span class="bootstrap-like-label">2019年卒</span>
+								</p>
+				<ul>
+										<li>7/13</li>
+										<li>7/18</li>
+									</ul>
+			</div>
+			<div class="clear"></div>
+			<div class="event-div">
+			<p class="event-p">【次回いきなり三次選考】野心ある人求む　～本当の一流と仕事をしたい人たちへ～</p>
+		</div>
+		</div>
+	</a>
+	
+	<!-- 個別イベント -->
+	<a href="/events/detail/5589">
+		<div class="event-right">
+			<div class="small-left">
+				<img src="/media/normal/img/cb28347f1c8d7c80328193795f9e712a55ba0ada0ae26.png" alt="株式会社アイスタイルイメージ" width="192" height="100" class=""/>			</div>
+			<div class="small-right">
+				<p>株式会社アイスタイル									<span class="bootstrap-like-label">2019年卒</span>
+								</p>
+				<ul>
+										<li>7/13</li>
+										<li>7/19</li>
+										<li>7/30</li>
+									</ul>
+			</div>
+			<div class="clear"></div>
+			<div class="event-div">
+			<p class="event-p">《会社説明会＆面接会》ネットとリアルを融合させ、生活者中心の市場を創造するマーケットデザインカンパニー</p>
+		</div>
+		</div>
+	</a>
+	
+	<!-- 個別イベント -->
+	<a href="/events/detail/5703">
+		<div class="event-left">
+			<div class="small-left">
+				<img src="/media/normal/img/d41d8cd98f00b204e9800998ecf8427e55784fc776e5d.png" alt="株式会社パソナ パソナキャリアカンパニーイメージ" width="192" height="100" class=""/>			</div>
+			<div class="small-right">
+				<p>株式会社パソナ パソナキャリアカンパニー									<span class="bootstrap-like-label">2020年卒</span>
+								</p>
+				<ul>
+										<li>7/13</li>
+										<li>7/18</li>
+										<li>7/23</li>
+										<li>7/31</li>
+										<li>7/31</li>
+										<li>8/2</li>
+										<li>8/6</li>
+										<li>8/8</li>
+									</ul>
+			</div>
+			<div class="clear"></div>
+			<div class="event-div">
+			<p class="event-p">※先行公開※ VALUE~企画編~ ＜事業立案インターン (兼) 8days INTERNSHIP ~HERO~選考会＞</p>
+		</div>
+		</div>
+	</a>
+	
+	<!-- 個別イベント -->
+	<a href="/events/detail/5802">
+		<div class="event-right">
+			<div class="small-left">
+				<img src="/media/normal/img/f2cb7afae0285b730a90b0d0eb3cd3565aba55dae8e22.png" alt="株式会社リジョブイメージ" width="192" height="100" class=""/>			</div>
+			<div class="small-right">
+				<p>株式会社リジョブ									<span class="bootstrap-like-label">2019年卒</span>
+								</p>
+				<ul>
+										<li>7/13</li>
+										<li>8/24</li>
+									</ul>
+			</div>
+			<div class="clear"></div>
+			<div class="event-div">
+			<p class="event-p">【仙台初開催★スピード選考】ビジネスで持続可能な社会課題解決をめざすベンチャー企業！成長できるワークショップ型説明選考会☆</p>
+		</div>
+		</div>
+	</a>
+	
+	<!-- 個別イベント -->
+	<a href="/events/detail/5878">
+		<div class="event-left">
+			<div class="small-left">
+				<img src="/media/normal/img/d41d8cd98f00b204e9800998ecf8427e559b54fd666fd.png" alt="ギークス株式会社イメージ" width="192" height="100" class=""/>			</div>
+			<div class="small-right">
+				<p>ギークス株式会社									<span class="bootstrap-like-label">2020年卒</span>
+								</p>
+				<ul>
+										<li>7/13</li>
+										<li>7/14</li>
+										<li>7/14</li>
+										<li>7/17</li>
+										<li>7/19</li>
+										<li>7/23</li>
+										<li>7/24</li>
+										<li>7/28</li>
+									</ul>
+			</div>
+			<div class="clear"></div>
+			<div class="event-div">
+			<p class="event-p">【ゲームプログラマー対象】アイデア無限大！5days「アソビ」創造インターンシップ</p>
+		</div>
+		</div>
+	</a>
+	
+	<!-- 個別イベント -->
+	<a href="/events/detail/5880">
+		<div class="event-right">
+			<div class="small-left">
+				<img src="/media/normal/img/67e19605622c4cb335964437c7ea3f715b0f98a7eef57.png" alt="株式会社Beyond Cafe(合同セミナー)イメージ" width="192" height="100" class=""/>			</div>
+			<div class="small-right">
+				<p>株式会社Beyond Cafe(合同セミナー)									<span class="bootstrap-like-label">2019年卒</span>
+								</p>
+				<ul>
+										<li>7/13</li>
+										<li>7/17</li>
+										<li>7/18</li>
+										<li>7/19</li>
+										<li>7/20</li>
+										<li>7/24</li>
+										<li>7/25</li>
+										<li>7/26</li>
+									</ul>
+			</div>
+			<div class="clear"></div>
+			<div class="event-div">
+			<p class="event-p">夏採用はこうやって内定を取る！当日中に二次／最終面接直結の特別選考ルートご案内も！</p>
+		</div>
+		</div>
+	</a>
+
+<div class="clear"></div>
+
+			<div class="clear"></div>
+		<a href="/events/2019/" style="text-decoration: none;">
+		<div class="btn sp-event-btn mt60">
+		【2019卒向けイベントはコチラ】
+		</div>
+		</a>
+		<a href="/events/2020/" style="text-decoration: none;">
+		<div class="btn sp-event-btn">
+		【2020卒向けイベントはコチラ】
+		</div>
+		</a>
+			<a href="https://pages.supporterz.jp/rental-space.html"><img class="img-responsive mt80" src="img/top/rental-space-banner.jpg" alt="サポーターズ渋谷オフィス レンタル開始" /></a>
+
+			<a href="/kyoto-rental"><img class="img-responsive mt80" src="img/top/baner-kyoto.png" alt="京都オフォスバナー" /></a>
+		</div>
+	</div><!-- sp-event -->
+
+
+    <!-- サポーターズイベント -->
+    <div class="event">
+  		<div class="wrapper">
+    		<h2>開催中のイベント</h2>
+  			<div class="clearfix">
+
+																													<a href="/spevents/detail/techcamp2018_0720 ">
+					
+					<div class="left box_sp_event box_special_left">
+					<img src="/media/normal/img/eee96f01c03497f6129aa1498e055ae35b472fb307894.png" alt="【京都開催・CEO特別セミナー】未経験でも分かるWebサービス・アプリの作り方イメージ" width="472" height="" class="left"/>					</div>
+				</a>
+																									<a href="/spevents/detail/korekaraNIGHT20180807 ">
+					
+					<div class="right box_sp_event box_special_right">
+					<img src="/media/normal/img/75f4d5610c115778464c9fe9e3a410ac5b4730a0d24ba.png" alt="【2020卒対象】これからNIGHT！イメージ" width="472" height="" class="right"/>					</div>
+				</a>
+				  			</div><!-- clerfix -->
+
+	  		<div class="clearfix">
+
+		<!--=========================    Event    ================================-->
+
+																		<div class="left-thumb">
+									<a href="/spevents/detail/techcamp2018_0722 ">
+								<img src="/media/normal/img/7fc56270e7a70fa81a5935b72eacbe295b47ee356cffd.png" alt="【福岡開催・CEO特別セミナー】未経験でも分かるWebサービス・アプリの作り方イメージ" width="187" height="187"/>					</a>
+				</div><!-- left-thumb -->
+															<div class="left-thumb">
+									<a href="/spevents/detail/korekaraNIGHT20180807 ">
+								<img src="/media/normal/img/7a76830304ad43d5f3dc9df47978210d5b4730a9c80c5.png" alt="【2020卒対象】これからNIGHT！イメージ" width="187" height="187"/>					</a>
+				</div><!-- left-thumb -->
+															<div class="left-thumb">
+									<a href="/spevents/detail/techcamp2018_0720 ">
+								<img src="/media/normal/img/7fc56270e7a70fa81a5935b72eacbe295b47ee4009fca.png" alt="【京都開催・CEO特別セミナー】未経験でも分かるWebサービス・アプリの作り方イメージ" width="187" height="187"/>					</a>
+				</div><!-- left-thumb -->
+			
+
+  		</div><!-- clear -->
+			<div class="wrapper">
+  			<a href="/spevents">
+    			<div class="btn event-btn">
+      			イベント一覧はこちら
+    			</div>
+  			</a>
+			</div>
+  		</div><!-- wrapper -->
+    </div><!-- event -->
+    <div class="comp">
+  		<div class="wrapper">
+        <h2>あなたを支援してくれる企業</h2>
+        <p>(一部抜粋)</p>
+	    <div class="clearfix">
+	       <div class="left-thumb"><img src="img/top/1.png" alt="LINE" /></div>
+	       <div class="left-thumb"><img src="img/top/2.png" alt="istyle" /></div>
+	       <div class="left-thumb"><img src="img/top/3.png" alt="SEGA Games" /></div>
+	       <div class="left-thumb"><img src="img/top/4.png" alt="Yahoo Japan" /></div>
+	       <div class="left-thumb"><img src="img/top/5.png" alt="cookpad" /></div>
+	     </div>
+	     <div class="clearfix">
+	       <div class="left-thumb"><img src="img/top/6.png" alt="コロプラ" /></div>
+	       <div class="left-thumb"><img src="img/top/7.png" alt="CROOZ" /></div>
+	       <div class="left-thumb"><img src="img/top/9.png" alt="NAVITIME" /></div>
+	       <div class="left-thumb"><img src="img/top/10.png" alt="lancers" /></div>
+	       <div class="left-thumb"><img src="img/top/11.png" alt="DeNA" /></div>
+	     </div>
+	     <div class="clearfix">
+	       <div class="left-thumb"><img src="img/top/12.png" alt="VOYAGE GRUOP" /></div>
+	       <div class="left-thumb"><img src="img/top/13.png" alt="RECRUIT" /></div>
+	       <div class="left-thumb"><img src="img/top/14.png" alt="面白法人カヤック" /></div>
+	       <div class="left-thumb"><img src="img/top/15.png" alt="dwango" /></div>
+	       <div class="left-thumb"><img src="img/top/16.png" alt="Gunosy" /></div>
+	     </div>
+	     <div class="clearfix">
+	       <div class="left-thumb"><img src="img/top/17.png" alt="楽天" /></div>
+	       <div class="left-thumb"><img src="img/top/18.png" alt="pixiv" /></div>
+	       <div class="left-thumb"><img src="img/top/19.png" alt="Freak Out" /></div>
+	       <div class="left-thumb"><img src="img/top/20.png" alt="Cybozu" /></div>
+	       <div class="left-thumb"><img src="img/top/21.png" alt="Leverages" /></div>
+	     </div>
+	     <div class="clearfix">
+	       <div class="left-thumb"><img src="img/top/22.png" alt="GREE" /></div>
+	       <div class="left-thumb"><img src="img/top/23.png" alt="NEXT Co.,Ltd" /></div>
+	       <div class="left-thumb"><img src="img/top/24.png" alt="mixi" /></div>
+	       <div class="left-thumb"><img src="img/top/25.png" alt="Cyber Agent" /></div>
+	       <div class="left-thumb"><img src="img/top/26.png" alt="WANTEDLY" /></div>
+	     </div>
+	     <div class="clearfix">
+	       <div class="left-thumb"><img src="img/top/27.png" alt="ATEAM" /></div>
+	       <div class="left-thumb"><img src="img/top/28.png" alt="Speee" /></div>
+	       <div class="left-thumb"><img src="img/top/29.png" alt="kakaku.com" /></div>
+	       <div class="left-thumb"><img src="img/top/30.png" alt="LIVE SENSE" /></div>
+	       <div class="left-thumb"><img src="img/top/31.png" alt="Gaiax" /></div>
+	     </div>
+        </div><!-- wrapper -->
+    </div><!-- comp -->
+<div class="free-reg">
+    <a href="/register/agreement" class="free btn">無料会員登録</a>
+</div>
+
+<script type="text/javascript" src="//st.nex8.net/js/nexRt.js" async="async"></script><!-- / #content </div> -->
+<!-- / [[ CONTENT-AREA ]] -->
+<!-- [ FOOTER-AREA ] -->
+<div class="wrapper mt60">
+<footer id="site-footer">
+<nav id="footer-utility">
+<ul>
+<li><a href="/sitemap">サイトマップ</a></li>
+<li><a href="/faq">よくあるご質問</a></li>
+<li><a href="https://corp.supporterz.jp" target="_blank">運営会社</a></li>
+<li><a href="/contact/input">お問い合わせ</a></li>
+<li><a href="/terms">利用規約</a></li>
+<li><a href="/privacy">プライバシーポリシー</a></li>
+</ul>
+</nav>
+<p class="site-name"><img src="/img/common/logo_02.png?1522990751" alt="サポーターズ" width="94" height="18"/></p>
+<p id="copyright"><small>Copyright &copy; Supporterz, Inc. All Rights Reserved.</small></p>
+<!-- /#site-footer --></footer>
+
+</div>
+<!-- / [ FOOTER-AREA ] -->
+<!-- / #container </div> -->
+
+
+
+
+<!-- [ SCRIPTS ] -->
+<!-- / [ SCRIPTS ] -->
+
+<!-- [ NO SCRIPTS ] -->
+<noscript><p id="msg-noscript">当サイトは、ブラウザのJavaScript設定を有効にしてご覧ください。</p></noscript>
+<!-- / [ NO SCRIPTS ] -->
+</body>
+</html>

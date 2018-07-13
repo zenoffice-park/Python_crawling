@@ -1,0 +1,768 @@
+<!DOCTYPE HTML>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="author" content="" />
+<meta name="description" content="" />
+<meta name="keywords" content="風俗,デリヘル,レポート,動画" />
+<meta name="referrer" content="unsafe-url">
+
+<title> お問い合わせ | kaku-butsu 風俗ランキング</title>
+
+<script type="text/javascript" src="/common/js/kaku_butsu_libs.min.js?20171108"></script>
+<script type="text/javascript" src="/common/js/heightLine.js"></script>
+
+<link rel="canonical" href="https://fuzoku.sod.co.jp/contact" />
+<link rel="alternate" media="only screen and (max-width: 640px)" href="https://fuzoku.sod.co.jp/sp/contact" />
+<link rel="stylesheet" type="text/css" href="/common/css/init.css" />
+<link rel="stylesheet" type="text/css" href="/common/css/mod.css?20180706" />
+<link rel="stylesheet" type="text/css" href="/common/css/layout.css?20180611" />
+<link rel="stylesheet" type="text/css" href="/common/css/cupertino/jquery-ui-1.10.2.min.css" />
+<link rel="stylesheet" type="text/css" href="/common/js/fancybox/jquery.fancybox.css" media="screen" />
+<script type="text/javascript" src="//x9.shinobi.jp/ufo/453134575" charset="utf-8" async></script>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" href="/common/css/ie6fix.css" />
+<![endif]-->
+
+<style>
+.outsideBnr__l,
+.outsideBnr__r {
+  text-decoration: none !important;
+}
+.zettai_banner_shop {
+  display: block;
+  height: 57px;
+}
+</style>
+
+<script type="text/javascript" src="/common/js/google_analytics.js?_t=20180713"></script>
+
+<script type="text/javascript">
+
+  $(function(){
+    $.ajax({
+      url: "/parts_ci/get_zettai_banner_json/",
+      type: "post",
+      dataType: 'json'
+    })
+    .done(function (response) {
+      var data = response.data;
+      for(var i = 0; i < data.length; i++) {
+        $('.zettai_banner_shop.shop'+i).css('background-image', 'url(' + data[i] + ')');
+      }
+      $('.zettai_banner_shop.count').css('background-image', 'url(/common/img/bnr/outside_l_event_count.jpg)');
+      $('.zettai_banner_shop.andmore').css('background-image', 'url(/common/img/bnr/outside_r_event_andmore.jpg)');
+    });
+  });
+
+  piAId = '287852';
+  piCId = '1034';
+
+  (function() {
+    function async_load(){
+      var s = document.createElement('script'); s.type = 'text/javascript';
+      s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+      var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+    }
+    if(window.attachEvent) { window.attachEvent('onload', async_load); }
+    else { window.addEventListener('load', async_load, false); }
+  })();
+</script>
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:site" content="@SOD_FUZOKU"/>
+<meta name="twitter:creator" content="@SOD_FUZOKU ">
+<meta name="twitter:title" content="kaku-butsu風俗ランキング">
+<meta name="twitter:description" content="kaku-butsu風俗情報ランキング">
+<meta name="twitter:domain" content="風俗情報　デリヘル ホテヘル 箱ヘル　kaku-butsu "/>
+</head>
+
+<body id="contact">
+  <!-- google検索ボックス -->
+  <div class="google-search">
+    <div class="search-box">
+      <p class="google-search__info">サイト内キーワード検索を実装しました。店名や女の子名で検索が可能です。どうぞご活用ください。</p>
+      <p>サイト内検索</p>
+      <input class="google-search__text" type="text">
+      <input class="google-search__btn" type="submit" value="検索"></input>
+    </div>
+  </div>
+  <header id="header">
+    <div id="header-inner">
+      <hgroup>
+        <div class="kakubutsu-logo"><a href="/"><img src="/common/img/header/logo.jpg" alt="kaku-butsu SOD覆面調査団 風俗ランキング"></a></div>
+        <strong class="lead">風俗業界の健全化を推進する kaku-butsu SOD覆面調査団 風俗ランキング</strong>
+      </hgroup>
+      <nav id="gnav" >
+        <ul>
+          <li class="home"><a href="/">ホーム</a></li>
+          <li class="ranking-nav">
+            <div class="ranking-nav-inner">
+              <ul>
+                <li class="delivery"><a href="/ranking-delivery/">デリヘルランキング</a></li>
+                <li class="hotelhealth"><a href="/ranking-hotelhealth/">ホテヘルランキング</a></li>
+                <li class="hakohealth"><a href="/ranking-hakohealth/">箱ヘルランキング</a></li>
+                <li class="soap"><a href="/ranking-soap/">ソープランキング</a></li>
+                <li class="esthe"><a href="/ranking-esthe/">エステランキング</a></li>
+                <li class="onakura"><a href="/ranking-onakura/">オナクラランキング</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="search-nav">
+            <div class="search-nav-inner">
+              <ul>
+                <li class="search-nav-inner--girls"><a href="/girls/">女の子を探す</a></li>
+                <li class="search-nav-inner--shops"><a href="/shop/">店舗を探す</a></li>
+                <li class="search-nav-inner--area"><a href="/area/">調査エリア</a></li>
+                <li class="search-nav-inner--members"><a href="/members/">調査団員</a></li>
+                <li class="search-nav-inner--5"><a href="/report/">最新レポート</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="contents-nav">
+            <div class="contents-nav-inner">
+              <ul>
+                <li class="contents-nav-inner--1"><a href="/every_event/">イベントページ</a></li>
+                <li class="contents-nav-inner--2"><a href="/movie/">動画</a></li>
+                <li class="contents-nav-inner--3"><a href="/special/interview">風俗嬢1000人インタビュー</a></li>
+                <li class="contents-nav-inner--4"><a href="/special/shinten_ichibannori">新店一番乗り</a></li>
+                <li class="contents-nav-inner--5"><a href="/special/">SP企画</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="report-nav">
+            <div class="report-nav-inner">
+              <ul>
+                <li></li>
+                <li></li>
+                <li class="report-nav-inner--report"><a href="/photo/?new=new">ヒメログ</a></li>
+                <li class="report-nav-inner--1000man"><a href="/himecole/">ヒメコレ</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="research-nav">
+            <div class="research-nav-inner">
+              <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li class="research-nav-inner--01"><a href="/special/report/premium_lp_201702.html">月額1万円プレミアム会員サービス</a></li>
+                <li class="research-nav-inner--02"><a href="/special/report/premium_lite_lp2.html">月額2980円ライト会員サービス</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="news"><a href="/news/">日刊カクブツ</a></li>
+          <li class="review-nav"><a href="/review/">みんなのレビュー</a></li>       
+        </ul>
+      </nav>
+
+      <nav id="snav">
+        <ul>
+          <li class="intro"><a href="/about/introduction.html">新サイトの紹介</a></li>
+          <li class="about"><a href="/about/">調査の目的</a></li>
+          <li class="guide"><a href="/guide/">ご利用ガイド</a></li>
+          <li class="faq"><a href="/faq/">よくあるご質問</a></li>
+          <li class="sitemap"><a href="/sitemap/">サイトマップ</a></li>
+        </ul>
+      </nav>
+      <p class="banner">
+        <a href="/contact/" data-hook="ga-event" data-params="banner; 店舗掲載依頼"><img src="/common/img/header/bnr_contact_2.jpg" alt="店舗掲載依頼"></a>
+                <a href="/special/report/premium_lite_lp2.html" target="_blank" data-hook="ga-event" data-params="banner; ライト会員"><img src="/common/img/header/bnr_hangakuken.jpg" alt="ライト会員バナー"></a>
+      </p>
+<a class="outsideBnr__l" href="#" style="background: url(/common/img/bnr/outside_l_event_2.png?20180316)no-repeat;background-size: 100%;margin-left: -180px;display: block;width: 170px;position: fixed;top: 0;height: 627px;z-index: 9999;" onclick="javascript:window.open('/zettai/')" data-hook="ga-event" data-params="premium; サイド_ゼッタイ割_B">
+    <div style="padding-top: 285px;">
+        <span class="zettai_banner_shop zettai_banner_l shop0"></span>
+        <span class="zettai_banner_shop zettai_banner_l shop1"></span>
+        <span class="zettai_banner_shop zettai_banner_l shop2"></span>
+        <span class="zettai_banner_shop zettai_banner_l shop3"></span>
+        <span class="zettai_banner_shop zettai_banner_l shop4"></span>
+        <span class="zettai_banner_shop zettai_banner_l count"></span>
+    </div>
+</a>
+<a class="outsideBnr__r" href="#" style="background: url(/common/img/bnr/outside_r_event_2.png?20180316)no-repeat;background-size: 100%;margin-left: 1000px;display: block;width: 170px;position: fixed;top: 0;height: 627px;z-index: 9999;" onclick="javascript:window.open('/zettai/')" data-hook="ga-event" data-params="premium; サイド_ゼッタイ割_B">
+    <div style="padding-top: 285px;">
+        <span class="zettai_banner_shop zettai_banner_r shop5"></span>
+        <span class="zettai_banner_shop zettai_banner_r shop6"></span>
+        <span class="zettai_banner_shop zettai_banner_r shop7"></span>
+        <span class="zettai_banner_shop zettai_banner_r shop8"></span>
+        <span class="zettai_banner_shop zettai_banner_r shop9"></span>
+        <span class="zettai_banner_shop zettai_banner_r andmore"></span>
+    </div>
+</a>
+    </div>
+  </header>
+
+  <div class="blockBreadcrumbs">
+    <ol class="breadcrumbs" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+      <li><a href="https://fuzoku.sod.co.jp/" itemprop="url"><span itemprop="title">ホーム</span></a></li>
+      <li class="now"><em><a href="https://fuzoku.sod.co.jp/contact" itemprop="url"><span itemprop="title">お問い合わせ</span></a></em></li>
+    </ol>
+  </div>
+  <!-- /.breadcrumbs -->
+
+
+    <link rel="stylesheet" type="text/css" href="/common/css/contact.css" />
+<link rel="stylesheet" href="/shared/css/validationEngine.jquery.css" type="text/css" />
+<script type="text/javascript" src="/shared/js/languages/jquery.validationEngine-ja.js?t=20170511" charset="utf-8"></script>
+<script type="text/javascript" src="/shared/js/jquery.validationEngine.js" charset="utf-8"></script>
+<script type="text/javascript">
+$(function(){
+	$("#formID").validationEngine({
+		promptPosition: "topLeft:100"
+	})
+});
+</script>
+
+
+<form action="https://fuzoku.sod.co.jp/contact/confirm" method="post" id="formID" name="formID">
+
+    <div id="wrapper">
+      <article id="content">
+        <div class="head">
+          <h2 class="headline1">お問い合わせ</h2>
+          <div>
+            <p class="detail">ご意見・ご感想や、店舗様用のお問い合わせフォームとなります。 はじめに「よくある質問」をご確認いただき、該当箇所がないことを確認した上で下記フォームよりお問い合わせください。</p>
+          </div>
+          <span></span>
+        </div>
+        <section class="box-effect commentSection">
+          <div class="head01 clearbox">
+            <h2>お問い合わせフォーム</h2>
+          </div>
+          <p class="note">
+            <span>※</span>は入力必須項目です。
+          </p>
+            <div class="formBlock">
+              <table class="formTable">
+                <tr>
+                  <th>
+                    <label for="name">お名前 
+                      <span>※</span>
+                    </label>
+                  </th>
+                  <td>
+                    <input type="text" id="name" name="name" size="20" class="size01 validate_name validate[required]">                                      </td>
+                </tr>
+                <tr>
+                  <th>
+                    <label for="mail">ご連絡先</label>
+                  </th>
+                  <td>
+                    <input type="text" id="mail" name="mail" size="20" class="size01 validate_mail validate[custom[email]]">                                        <br>
+                    <span class="suggest">ご返信が必要な場合はご記入ください（メールアドレス）</span>
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    <label for="subject">お問い合わせ項目 
+                      <span>※</span>
+                    </label>
+                  </th>
+                  <td>
+                    <select name="subject" id="subject">
+                      <option value="opinion">ご意見・ご感想</option>
+                      <option value="shop">掲載店舗について</option>
+                      <option value="investigator">調査団員について</option>
+                      <option value="link">相互リンクについて</option>
+                      <option value="report">調査レポートについて</option>
+                      <option value="special">特別（SP）企画</option>
+                      <option value="check">属性診断について</option>
+                      <option value="other">その他</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    <label for="body">お問い合わせ内容 
+                      <span>※</span>
+                    </label>
+                  </th>
+                  <td>
+                    <textarea name="body" id="body" cols="30" rows="10" class="validate_body validate[required]"></textarea>
+                                      </td>
+                </tr>
+              </table>
+              <p class="formButton">
+                <input type="image" src="/common/img/contact/btn_send.png" alt="送 信">
+              </p>
+            </div>
+        </section>
+        <!-- /.commentSection -->
+      </article>
+<aside id="sidebar">
+
+
+<section class="report">
+	<h2>最新レポート
+		<span>2018/07/13(金)</span>
+	</h2>
+	<div class="report-box">
+		<div class="clearbox score-block">
+			<div class="report-score">
+				<div class="score-wrap">
+					<p class="sc-ti">点数</p>
+					<p class="sc-score">87</p>
+				</div>
+			</div>
+			<div class="report-prof">
+				<p class="girl-info__name name"><a href="/gotanda/13896/report/25078">じゅり</a> <span class="girl-info__age">(30)</span></p>				<p class="bwh">B88(D) W58 H89</p>
+			</div>
+		</div>
+		<p class="shopname">
+			<a href="/gotanda/13896">ノーハンドで楽しませる人妻 品川店</a>
+		</p>
+		<p>極上ボディのどエロなお姉さんの、最上のおもてなしとプレイぶりにどっぷり王様気分！</p>
+	</div>
+	<div class="report-box">
+		<div class="clearbox score-block">
+			<div class="report-score">
+				<div class="score-wrap">
+					<p class="sc-ti">点数</p>
+					<p class="sc-score">85</p>
+				</div>
+			</div>
+			<div class="report-prof">
+				<p class="girl-info__name name"><a href="/tachikawa/13299/report/25198">えりの</a> <span class="girl-info__age">(33)</span></p>				<p class="bwh">B83(D) W57 H84</p>
+			</div>
+		</div>
+		<p class="shopname">
+			<a href="/tachikawa/13299">立川フリンフリン</a>
+		</p>
+		<p>色白清楚な奥様と不倫気分。最初は恥じらうものの、攻めるほどに淫らに変わってく！</p>
+	</div>
+	<div class="report-box">
+		<div class="clearbox score-block">
+			<div class="report-score">
+				<div class="score-wrap">
+					<p class="sc-ti">点数</p>
+					<p class="sc-score">81</p>
+				</div>
+			</div>
+			<div class="report-prof">
+				<p class="girl-info__name name"><a href="/ikebukuro/13212/report/24866">えみ</a> <span class="girl-info__age">(20)</span></p>				<p class="bwh">B87(E) W58 H86</p>
+			</div>
+		</div>
+		<p class="shopname">
+			<a href="/ikebukuro/13212">池袋ボディクリニックI.B.C</a>
+		</p>
+		<p>Sっ気たっぷりのキレイ系女子に言葉責めされながら、最後の一滴まで搾り取られました。</p>
+	</div>
+</section>
+<!-- /.report -->
+
+
+  <div class="more clearbox">
+    <p class="link">
+      <a style="font-size: 17px;font-weight: bold;" href="/report/">もっとレポートを見る</a>
+    </p>
+  </div>
+
+
+  <a href="/movie/">
+    <section class="newmovie">
+      <div class="balloon">
+        <p class="date">2018.07.13</p>
+
+        <p class="txt">動画1本追加しました</p>
+      </div>
+      <div class="balloon-bottom"></div>
+    </section>
+  </a>
+  <!-- /.newmovie -->
+  
+
+
+  <section class="not-login">
+    <p class="loginform open"></p>
+    <div class="login-wrap" style="display:block;">
+      <form method="post" action="https://fuzoku.sod.co.jp/login/submit?redirect_path=/mypage/top" style="margin-top:-20px;">
+      <p class="check" style="margin-top:20px;">
+      </p>
+      <p>メールアドレス</p>
+      <input type="text" name="user_id" id="user_id" class="inp">      <p>パスワード</p>
+      <input type="password" name="password" id="password" class="inp">
+      <p class="check">
+        <label>
+          <input type="checkbox" name="remember_me" id="remember_me" />ログインしたままにする
+        </label>
+      </p>
+      <input type="image" src="/common/img/aside/login.png" alt="ログインする">
+      <p class="forgot">
+        <a href="/reissue">＞パスワードを忘れた方</a>
+      </p>
+      </form>
+    </div>
+
+  </section>
+  <!-- /.not-login -->
+<div class="bottomshadow"></div>
+
+
+
+  <section class="sidemenu">
+      <div class="aside__news">
+  <div class="header">
+    <a href="/news/" class="aside__news__ttl">
+      <img class="aside__news__topimg" src="/common/img/aside/ttl-news.png" alt="日刊kaku-butsu最新ニュース">
+    </a>
+    <p class="aside__news__ttl__date">7月13日(金)</p>
+  </div>
+  <ul>
+        <li class="clearfix" >
+            <a href="https://fuzoku.sod.co.jp/news/2018/07/13/%e8%a6%8b%e3%81%9f%e7%9b%ae%e3%81%ae%e3%82%b1%e3%83%90%e3%81%95%e3%81%8c%e7%94%9f%e3%80%85%e3%81%97%e3%81%8f%e3%81%a6%e3%82%a8%e3%83%ad%e3%81%84%e5%a4%89%e6%85%8b%e9%a1%98%e6%9c%9b%e3%81%82%e3%82%8a/">
+              <p class="aside__news__text">見た目のケバさが生々しくてエロい変態願望ありの保育士さん！</p>
+        <div class="aside__news__img" >
+                    <img src="https://fuzoku.sod.co.jp/news/wp-content/uploads/2018/07/20180730-007-100x125.jpg">
+                  </div>
+        <a href="/news/" class="sp__news__title" style="display: none;">日刊kaku-butsuニュース</a>
+      </a>
+    </li>
+        <li class="clearfix" >
+            <a href="https://fuzoku.sod.co.jp/news/2018/07/13/%e6%ad%a3%e5%bc%8f%e5%85%a5%e5%ba%97%e5%88%9d%e6%97%a5%e3%82%92%e8%bf%8e%e3%81%88%e3%82%8b%e3%82%a2%e3%82%a4%e3%83%89%e3%83%ab%e7%b4%9a%ef%bc%91%ef%bc%98%e6%ad%b3%e3%81%ae%e6%ad%a3%e7%b5%b1%e6%b4%be/">
+              <p class="aside__news__text">正式入店初日を迎えるアイドル級１８歳の正統派美少女！</p>
+        <div class="aside__news__img" >
+                    <img src="https://fuzoku.sod.co.jp/news/wp-content/uploads/2018/07/20180730-012-100x125.jpg">
+                  </div>
+        <a href="/news/" class="sp__news__title" style="display: none;">日刊kaku-butsuニュース</a>
+      </a>
+    </li>
+        <li class="clearfix" >
+            <a href="https://fuzoku.sod.co.jp/news/2018/07/13/%e5%b0%8f%e3%81%95%e3%81%8f%e3%81%a6%e5%8f%af%e6%84%9b%e3%81%8f%e3%81%a6%e3%83%ad%e3%83%aa%e3%83%ad%e3%83%aa%e3%81%a7%ef%bd%86%e3%82%ab%e3%83%83%e3%83%97%e3%81%a7%e3%82%a2%e3%82%a4%e3%83%89%e3%83%ab/">
+              <p class="aside__news__text">小さくて可愛くてロリロリでＦカップでアイドル系の妹タイプ！</p>
+        <div class="aside__news__img" >
+                    <img src="https://fuzoku.sod.co.jp/news/wp-content/uploads/2018/07/20180727-003-100x125.jpg">
+                  </div>
+        <a href="/news/" class="sp__news__title" style="display: none;">日刊kaku-butsuニュース</a>
+      </a>
+    </li>
+        <li class="clearfix" >
+            <a href="https://fuzoku.sod.co.jp/news/2018/07/13/%e6%b8%85%e6%a5%9a%e3%81%a0%e3%81%a8%e6%80%9d%e3%81%a3%e3%81%9f%e3%82%89%e3%80%81%e3%81%a8%e3%81%a3%e3%81%a6%e3%82%82%e3%82%a8%e3%83%83%e3%83%81%e3%81%a0%e3%81%a3%e3%81%9f%e7%ac%91%e9%a1%94%e3%81%ae/">
+              <p class="aside__news__text">清楚だと思ったら、とってもエッチだった笑顔の癒しクイーン！</p>
+        <div class="aside__news__img" >
+                    <img src="https://fuzoku.sod.co.jp/news/wp-content/uploads/2018/07/20180730-009-100x125.jpg">
+                  </div>
+        <a href="/news/" class="sp__news__title" style="display: none;">日刊kaku-butsuニュース</a>
+      </a>
+    </li>
+        <li class="clearfix" >
+            <a href="https://fuzoku.sod.co.jp/news/2018/07/13/%e3%82%a2%e3%82%a4%e3%83%89%e3%83%ab%e9%a1%94%e3%81%ae%e3%82%a2%e3%83%91%e3%83%ac%e3%83%ab%e5%ba%97%e5%93%a1%e3%81%ae%e3%82%ae%e3%83%a3%e3%83%ab%e3%82%92%e7%97%b4%e6%bc%a2%e3%81%97%e3%81%a6%e5%96%98/">
+              <p class="aside__news__text">アイドル顔のアパレル店員のギャルを痴漢して喘がせたい！</p>
+        <div class="aside__news__img" >
+                    <img src="https://fuzoku.sod.co.jp/news/wp-content/uploads/2018/07/20180728-017-100x125.jpg">
+                  </div>
+        <a href="/news/" class="sp__news__title" style="display: none;">日刊kaku-butsuニュース</a>
+      </a>
+    </li>
+        <li class="clearfix" >
+            <a href="https://fuzoku.sod.co.jp/news/2018/07/12/%e3%81%93%e3%81%ae%e5%a6%96%e8%89%b6%e3%81%95%e3%81%a8%e7%b4%a0%e4%ba%ba%e3%81%95%e3%81%ae%e6%a0%b8%e8%9e%8d%e5%90%88%e3%81%af%e3%80%81%e3%81%a8%e3%82%93%e3%81%a7%e3%82%82%e3%81%aa%e3%81%84%e3%83%91/">
+              <p class="aside__news__text">この妖艶さと素人さの核融合は、とんでもないパワーになる！</p>
+        <div class="aside__news__img" >
+                    <img src="https://fuzoku.sod.co.jp/news/wp-content/uploads/2018/07/20180802-016-100x125.jpg">
+                  </div>
+        <a href="/news/" class="sp__news__title" style="display: none;">日刊kaku-butsuニュース</a>
+      </a>
+    </li>
+        <li class="clearfix" >
+            <a href="https://fuzoku.sod.co.jp/news/2018/07/12/%e6%84%9f%e3%81%98%e5%87%ba%e3%81%99%e3%81%a8%e6%88%b8%e6%83%91%e3%81%84%e3%81%aa%e3%81%8c%e3%82%89%e3%82%82%e3%81%8a%e3%81%ad%e3%81%a0%e3%82%8a%e3%81%97%e3%81%a6%e3%81%8f%e3%82%8b%e6%9c%aa%e7%b5%8c/">
+              <p class="aside__news__text">感じ出すと戸惑いながらもおねだりしてくる未経験の現役ＪＤ！</p>
+        <div class="aside__news__img" >
+                    <img src="https://fuzoku.sod.co.jp/news/wp-content/uploads/2018/07/20180802-014-100x125.jpg">
+                  </div>
+        <a href="/news/" class="sp__news__title" style="display: none;">日刊kaku-butsuニュース</a>
+      </a>
+    </li>
+      </ul>
+</div>
+  </section>
+
+
+
+<section class="information">
+	<div class="header">新規掲載風俗店舗一覧</div>
+	<dl>
+		<dt>2018/07/01(日)</dt>
+		<dd>
+			<a href="https://fuzoku.sod.co.jp/yokohama/15640">淫乱人妻最前線</a>
+		</dd>
+		<dt>2018/06/30(土)</dt>
+		<dd>
+			<a href="https://fuzoku.sod.co.jp/uguisudani/15707">鶯谷サンキュー</a>
+		</dd>
+		<dt>2018/06/27(水)</dt>
+		<dd>
+			<a href="https://fuzoku.sod.co.jp/gotanda/13896">ノーハンドで楽しませる人妻 品川店</a>
+		</dd>
+		<dt>2018/06/27(水)</dt>
+		<dd>
+			<a href="https://fuzoku.sod.co.jp/roppongi/14009">赤坂アロマVIP</a>
+		</dd>
+		<dt>2018/06/23(土)</dt>
+		<dd>
+			<a href="https://fuzoku.sod.co.jp/chiba/14705">GOLD QUEST</a>
+		</dd>
+		<dt>2018/06/20(水)</dt>
+		<dd>
+			<a href="https://fuzoku.sod.co.jp/shibuya/3624">渋谷千年堂</a>
+		</dd>
+		<dt>2018/06/15(金)</dt>
+		<dd>
+			<a href="https://fuzoku.sod.co.jp/shinagawa/15721">品川ハイブリッドマッサージ</a>
+		</dd>
+		<dt>2018/06/15(金)</dt>
+		<dd>
+			<a href="https://fuzoku.sod.co.jp/chiba/14710">アラカルト Alacarte</a>
+		</dd>
+		<dt>2018/06/14(木)</dt>
+		<dd>
+			<a href="https://fuzoku.sod.co.jp/matsudo/15692">Peach Pie</a>
+		</dd>
+		<dt>2018/06/13(水)</dt>
+		<dd>
+			<a href="https://fuzoku.sod.co.jp/gotanda/15701">五反田イメクラ風俗敗北スーパーヒロイン</a>
+		</dd>
+	</dl>
+	<p class="btn-new_shop textImage">
+		<a href="/new_shop/">もっと見る</a>
+	</p>
+</section>
+<!-- /.information -->
+
+
+
+<!--   <section class="sidemenu">
+    <p>
+      <a href="/special/report/1000man.html">
+        <img src="/common/img/aside/box-1000-post.jpg" alt="1000万キャンペーン 投稿する">
+      </a>
+    </p>
+  </section>
+  <section class="sidemenu">
+    <p>
+      <a href="/special/1000man">
+        <img src="/common/img/aside/box-1000-review.jpg" alt="1000万キャンペーン レビューを読む">
+      </a>
+    </p>
+  </section>
+ -->  <!-- <section class="sidemenu">
+    <p>
+      <a href="/review/">
+        <img src="/common/img/aside/box-review.jpg" alt="レビューページ">
+      </a>
+    </p>
+  </section>
+  <section class="sidemenu">
+    <p>
+      <a href="/media/">
+        <img src="/common/img/aside/box-media.jpg" alt="メディア掲載">
+      </a>
+    </p>
+  </section>
+  <section class="sidemenu">
+    <p>
+      <a href="/special/">
+        <img src="/common/img/aside/box-sp.jpg" alt="SP企画">
+      </a>
+    </p>
+  </section> -->
+
+  
+
+
+  <!-- /.check -->
+  <!-- <section class="sidemenu">
+    <p>
+      <a href="/about/">
+        <img src="/common/img/aside/box-score.jpg" alt="評価基準">
+      </a>
+    </p>
+  </section>
+  <section class="sidemenu">
+    <p>
+      <a href="/recruit/KCA.html">
+        <img style="border: 1px solid #ccc;" src="/common/img/aside/box-kca.jpg" alt="kaku-butsu Creative Agency">
+      </a>
+    </p>
+  </section> -->
+
+
+<section class="information">
+	<h2>お知らせ一覧</h2>
+	<dl>
+		<dt>2018/07/11(水)</dt>
+		<dd>
+			<a href="/info/detail/1493">敗北スーパーヒロインのSAKURAさんvol.3 (28)体験動画公開！</a>
+		</dd>
+		<dt>2018/07/09(月)</dt>
+		<dd>
+			<a href="/info/detail/1490">敗北スーパーヒロインのSAKURAさんvol.1 (28)体験動画公開！</a>
+		</dd>
+		<dt>2018/07/05(木)</dt>
+		<dd>
+			<a href="/info/detail/1485">淫乱人妻最前線のなつきさんvol.5 (21)体験動画公開！</a>
+		</dd>
+		<dt>2018/07/04(水)</dt>
+		<dd>
+			<a href="/info/detail/1484">女帝めるさんの自画撮り公開！</a>
+		</dd>
+		<dt>2018/07/02(月)</dt>
+		<dd>
+			<a href="/info/detail/1482">淫乱人妻最前線なつきさんvol.2体験動画公開</a>
+		</dd>
+	</dl>
+	<p class="btn-info textImage">
+		<a href="/info/">さらにお知らせを見る</a>
+	</p>
+</section>
+<!-- /.information -->
+  
+
+  <section class="noting-login">
+    <p class="regist-ti">まずは会員登録！</p>
+    <p class="free-regist textImage">
+      <a href="https://fuzoku.sod.co.jp/check">今すぐ無料登録する！</a>
+    </p>
+    <p class="txt">会員登録をし様々な機能を使いこなそう！ 
+      <br>その機能の一部を紹介します。 
+    </p>
+    <p class="point1"></p>
+    <div class="point-txt">
+      <p class="point-txt-in">風俗属性診断テストであなたにピッタりの子が探せる</p>
+      <p class="point-txt-link"><a href="/guide/#zokusei">＞属性診断とは？</a></p>
+    </div>
+    
+    <p class="point2"></p>
+    <div class="point-txt">
+      <p class="point-txt-in">お気に入りのお店や女の子をブックマークできる！</p>
+      <p class="point-txt-link"><a href="/guide/#bookmark">＞ブックマークとは？</a></p>
+    </div>
+    
+    <p class="point3"></p>
+    <div class="point-txt">
+      <p class="point-txt-in">女の子のスタイルで検索も可能！</p>
+      <p class="point-txt-link"><a href="/guide/#style">＞スタイル別検索とは？</a></p>
+    </div>
+    <p class="free-regist textImage">
+      <a href="https://fuzoku.sod.co.jp/check">今すぐ無料登録する！</a>
+    </p>
+  </section>
+  <div class="bottomshadow"></div>
+
+  <section class="twitter-area">
+    <h2>
+      <span>kaku-butsu 公式ツイッター</span>
+      @SOD_FUZOKU
+    </h2>
+    <a class="twitter-timeline" height="400" data-chrome="nofooter noheader" lang="ja" href="https://twitter.com/SOD_FUZOKU" data-widget-id="288472347445428225">#sodfuzoku に関するツイート</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </section>
+  <!-- /SOFT ON DEMAND 風俗調査団公式 -->
+
+  
+
+<!--  <section>
+    <p>
+      <img src="/common/img/aside/sp.png" alt="https://fuzoku.sod.co.jp/sp/">
+    </p>
+  </section>
+ -->
+</aside>
+
+    </div>
+    <!-- /#wrapper -->
+
+</form>
+
+<script>
+    var change_view_mode_reload = true;
+</script>
+<footer>
+  <div id="footer-inner" sylte="padding-bottom: 20px;">
+    <nav id="fnav">
+      <ul>
+        <li><a href="http://fuzoku.sod.co.jp">首都圏版</a></li>
+        <li><a href="http://hokkaido-fuzoku.sod.co.jp/zenkoku">北海道版</a></li>
+        <li><a href="http://tohoku-fuzoku.sod.co.jp/zenkoku">東北版</a></li>
+        <li><a href="http://kitakanto-fuzoku.sod.co.jp/zenkoku">北関東版</a></li>
+        <li><a href="http://chubuhokuriku-fuzoku.sod.co.jp/zenkoku">中部・北陸版</a></li>
+        <li><a href="http://tokai-fuzoku.sod.co.jp/zenkoku">東海版</a></li>
+        <li><a href="http://kansai-fuzoku.sod.co.jp">関西版</a></li>
+        <li><a href="http://chugokushikoku-fuzoku.sod.co.jp/zenkoku">中国・四国版</a></li>
+        <li><a href="http://kyusyuokinawa-fuzoku.sod.co.jp/zenkoku">九州・沖縄版</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <script defer src="/common/js/change_view_mode.js"></script>
+  <p class="change" style="color: #fff; text-align: center;">
+    表示切り替え： <a class="change_view_mode_mobile" href="/">スマートフォンサイト</a>／PCサイト
+  </p>
+
+    <div id="footer-inner">
+    <div class="footer-inner__pagetop"><a href="#header"></a></div>
+    <nav id="fnav">
+      <ul>
+        <li class="home"><a href="/">ホーム</a></li>
+        <li class="ranking"><a href="/ranking-delivery/">各種ランキング</a></li>
+        <li class="girls"><a href="/girls/">女の子一覧</a></li>
+        <li class="movie"><a href="/movie/">動画</a></li>
+        <li class="report"><a href="/report/">店舗レポート</a></li>
+        <li class="members"><a href="/members/">調査団員</a></li>
+        <li class="area"><a href="/area/">調査エリア</a></li>
+        <li class="shop-list"><a href="/shop/">店舗一覧</a></li>
+      </ul>
+    </nav>
+    <nav id="fnav2">
+      <ul>
+          <li><a href="/bbs/">調査団員知恵袋</a></li>
+          <li><a href="/about/">調査の目的</a></li>
+          <li><a href="/guide/">ご利用ガイド</a></li>
+          <li><a href="/media/">メディア掲載</a></li>
+          <li><a href="/faq/">よくあるご質問</a></li>
+          <li><a href="/sitemap/">サイトマップ</a></li>
+          <li><a href="/contact/">事業者様お問い合わせ</a></li>
+          <li><a href="/recruit/intro.html">風俗調査団員募集</a></li>
+        </ul>
+    </nav>
+    <nav class="footer-nav--areas">
+    </nav>
+       <nav id="fnav3">
+      <ul>
+        <li><a href="/sitepolicy/">ご利用規約</a></li>
+					<li><a href="/sitepolicy/tokushohou.html">特定商取法に基づく表記</a></li>
+        <li><a href="/link/">相互リンク</a></li>
+        <li><a href="/contact/">お問い合わせ</a></li>
+        <li><a href="http://corporate.sod.co.jp/" target="_blank">会社概要</a></li>
+        <li><a href="http://www.sod.co.jp/corporate/sod_recruit/" target="_blank">求人情報</a></li>
+      </ul>
+    </nav>
+    <p class="footer_text">映像送信型性風俗特殊営業届出済 受理番号：10076 　警視庁中野警察署経由</p>
+  </div>
+	</footer>
+
+<script type="text/javascript">
+$(function(){
+  // エリア情報
+  $(".footer-nav--areas").load("/parts_ci/get_footer_area_html/");
+});
+</script>
+
+<script type="text/javascript" src="/common/js/kaku_butsu.js?20180117"></script>
+<script type="text/javascript">
+
+// sidebarの謎関数
+$(function(){
+  $("aside .loginform").off();
+  $("aside .loginform").on('click', function(){
+    $(this).toggleClass('open');
+    $("aside .login-wrap").slideToggle();
+  });
+});
+</script>
+
+</body>
+</html>

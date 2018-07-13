@@ -1,0 +1,3193 @@
+
+
+
+
+
+
+
+
+
+
+ 
+
+<!doctype html><html lang="en_US" class="a-no-js" data-19ax5a9jf="dingo">
+    
+
+
+
+
+
+
+
+
+
+ 
+    <head><script>var aPageStart = (new Date()).getTime();</script><meta charset="utf-8">
+        
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        
+        
+            
+            
+                <title>Download SDKs and Code Samples | Amazon Developer Portal
+</title>
+        
+            
+        
+
+        
+        
+            
+            
+                
+            
+        
+
+        
+        
+        
+        
+        <meta name="google-site-verification" content="wfEDah_6uJe9Y7uIfLrVycd_efr8wQ9YO-fM_5MI5w0" />
+        
+        <meta name="google-site-verification" content="Eu8BqTWMhRRdfCAdqUh2RYb3SjAiuFp4wmgTtGcteM0" />
+        
+        <meta name="google-site-verification" content="KHmp6TUPKc1gHlM9TuB842pcV7TxZVV6TgenZtsYoNY" />
+        
+        <meta name="msvalidate.01" content="9761B379C1B64F587D71BA40337FDD07" />
+        <meta name="description" content="Download our free Amazon SDKs and code samples including Apps & Game Services SDKs, Fire TV SDKs and Alexa Skills Kit downloads." />
+        <meta name="keywords" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <script language="JavaScript" type="text/javascript">
+
+        var digitalData ={
+            page:{
+                pageInfo: {
+                    pageInstanceID: "/dx/sdk-download",
+                    path: "/sdk-download",
+                    pageID: "",
+                    pageTitle: "",
+                    pageType: "DeX",
+                    primaryCategory: "appstore",
+                    pageName: "",
+                    language: "en_US"
+                }
+            },
+            user:{
+                userID: "",
+                ipAddress: "157.205.87.146"
+            }
+        };
+        var urlSplit = "/sdk-download".split("/");
+        var trailingSlash = urlSplit.pop();
+        var pTitle = trailingSlash;
+        if (trailingSlash == ""){
+            pTitle = urlSplit.pop()
+        }
+
+
+        
+        if ("sdk-download".includes("search")) {
+            digitalData.page.pageInfo.searchResultsNum = "";
+        }
+
+        if ("sdk-download".includes("dex-home")){
+            digitalData.page.pageInfo.pageID = "Home";
+            digitalData.page.pageInfo.pageTitle = "Home";
+            digitalData.page.pageInfo.primaryCategory = "Home";
+        } else {
+            digitalData.page.pageInfo.pageID = pTitle;
+            pTitle = pTitle.replace(/(^|-)[a-z]/g,function(f){return f.toUpperCase();});
+            pTitle = pTitle.replace(/-/g, '');
+            digitalData.page.pageInfo.pageTitle = pTitle;
+            var pCat = digitalData.page.pageInfo.primaryCategory;
+            pCat = pCat.replace(/(^|-)[a-z]/g,function(f){return f.toUpperCase();});
+            pCat = pCat.replace(/-/g, '');
+            digitalData.page.pageInfo.primaryCategory = pCat;
+        }
+
+        var pageNameStr = "" + digitalData.page.pageInfo.primaryCategory;
+        //Todo: add in logic for sub-categories when AOI is implemented.
+        if (digitalData.page.pageInfo.pageTitle != null){
+        	if (pageNameStr != ""){
+        		pageNameStr += ":";
+        	}
+            pageNameStr += digitalData.page.pageInfo.pageTitle;
+        }
+        digitalData.page.pageInfo.pageName = pageNameStr;
+        </script>
+        <script src="//assets.adobedtm.com/2c02c31d2aed638ba6c6ca977df6b73f9ff514c3/satelliteLib-38635b7dc936a1789c429e0c77550bc7a78f33af.js"></script>
+
+        
+<script type="text/javascript">
+(function() {
+  var didInit = false;
+  function initMunchkin() {
+    if(didInit === false) {
+      didInit = true;
+      Munchkin.init('365-EFI-026');
+    }
+  }
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '//munchkin.marketo.net/munchkin.js';
+  s.onreadystatechange = function() {
+    if (this.readyState == 'complete' || this.readyState == 'loaded') {
+      initMunchkin();
+    }
+  };
+  s.onload = initMunchkin;
+  document.getElementsByTagName('head')[0].appendChild(s);
+})();
+</script>
+
+
+        
+        <link rel="stylesheet" href="https://images-na.ssl-images-amazon.com/images/I/61hpgixl7UL._RC|01evdoiemkL.css,01K+Ps1DeEL.css,31yErFkQitL.css,11PuQQlCaSL.css,11UGC+GXOPL.css,21LK7jaicML.css,11L58Qpo0GL.css,21EuGTxgpoL.css,01Xl9KigtzL.css,21GwE3cR-yL.css,019SHZnt8RL.css,01FZwtpqhsL.css,11vZhCgAHbL.css,21Mne54CsmL.css,11WgRxUdJRL.css,01dU8+SPlFL.css,11DGn6WmpTL.css,01SHjPML6tL.css,111-D2qRjiL.css,01QrWuRrZ-L.css,31WnKks7R1L.css,114KWZGKCVL.css,01cbS3UK11L.css,21zId9c5Z5L.css,01cNnXK5MbL.css,11pPpHypVXL.css_.css?AUIClients/AmazonUI#us.not-trident" />
+<link rel="stylesheet" href="https://images-na.ssl-images-amazon.com/images/I/711ZLbMYJXL.css?AUIClients/DeXWebsiteAUIAssets" />
+
+        
+        
+    </head>
+
+    <body class="a-m-us a-aui_149818-c a-aui_152852-c a-aui_51744-c a-aui_57326-c a-aui_72554-c a-aui_accessibility_49860-c a-aui_attr_validations_1_51371-c a-aui_bolt_62845-c a-aui_perf_130093-c a-aui_tnr_140932-c a-aui_ux_113788-c a-aui_ux_114039-c a-aui_ux_138741-c a-aui_ux_145937-c a-aui_ux_59374-c a-aui_ux_60000-c"><div id="a-page"><script type="a-state" data-a-state="{&quot;key&quot;:&quot;a-wlab-states&quot;}">{"AUI_149818":"C","AUI_152852":"C","AUI_51744":"C","AUI_57326":"C","AUI_72554":"C","AUI_ACCESSIBILITY_49860":"C","AUI_ATTR_VALIDATIONS_1_51371":"C","AUI_BOLT_62845":"C","AUI_PERF_130093":"C","AUI_TNR_140932":"C","AUI_UX_113788":"C","AUI_UX_114039":"C","AUI_UX_138741":"C","AUI_UX_145937":"C","AUI_UX_59374":"C","AUI_UX_60000":"C"}</script>
+        
+
+
+
+
+
+
+<header class='dpHeader dphThemedark'>
+    <div class='dphTopBar clearfix'>
+        <div class='dphLeft'>
+            <div class='dphMenuToggle'>
+                <i class='dphMenuIcon'></i>
+                <i class='dphMenuBackIcon'></i>
+            </div>
+            <a class='dphLogo' href='/apps-and-games'>
+                <img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/logos/amazonAppstoreLogoDarkBG1x._V516058340_.png" 
+                     srcset="https://m.media-amazon.com/images/G/01/mobile-apps/dex/logos/amazonAppstoreLogoDarkBG1x._V516058340_.png 1x, https://m.media-amazon.com/images/G/01/mobile-apps/dex/logos/amazonAppstoreLogoDarkBG2x._V516058340_.png 2x" 
+                     alt="Amazon Developer Logo">
+            </a>
+        </div>
+        <div class='dphRight'>
+            
+            
+                
+                
+                    <a href="/home.html" class='dphConsole dphLink'>Developer Console</a>
+                
+            
+            
+            
+            
+
+
+
+
+<div class='dphUserInfo'>
+    
+    
+    
+    
+        
+        
+            
+                
+                    <a class="dphLink" href="https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fdeveloper.amazon.com%2Fsdk-download&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=mas_dev_portal&openid.mode=checkid_setup&marketPlaceId=ATVPDKIKX0DER&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_developer_portal&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&siteState=clientContext%3D000-0000000-0000000%2CsourceUrl%3Dhttps%253A%252F%252Fdeveloper.amazon.com%252Fsdk-download%2Csignature%3Dnull&language=en_US">Sign In</a>
+                
+                
+            
+        
+    
+</div>
+            
+            
+            
+                
+                
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+<div id='navFlyout?' class='dphFlyoutItem dphDevConsoleLinkTopBar dphButton'>
+    <span class='dphConsole dphLink'>?</span>
+    <div class='dphDropdownWrap'>
+        <nav class='dphDropdown accrItem'>
+            <div class='dpIconArrow accrHandle'></div>
+            
+            
+            
+                
+                    <ul class='dphDropdownList'>
+                        <li class='dphdItem'><a href='/support/'>Support</a></li>
+                        <li class='dphdItem'><a href='/documentation/'>Docs</a></li>
+                        <li class='dphdItem'><a href='https://forums.developer.amazon.com/index.html'>Forums</a></li>
+                        <li class='dphdItem'><a href='/support/contact-us'>Contact Us</a></li>
+                    </ul>
+                
+            
+        </nav>
+    </div>
+</div>
+
+                
+            
+            
+            <form class="dphSearch" method="get" action="/search">
+                <button type="submit" id="searchButton" class="dphButton dphButtonSearch" disabled="true">
+                    <svg class="dphSearchIcon" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" shape-rendering="geometricPrecision">
+                        <circle stroke="#000000" stroke-width="2" cx="8" cy="8" r="7" fill="transparent"></circle>
+                        <path d="M13.5,13.5 L19.5,19.5" id="Path-1" stroke="#000000" stroke-width="2.6" stroke-linecap="round"></path>
+                    </svg>
+                </button>
+                <div class="dphSearchWrap">
+                    
+                    <input type="search" id="search" name="query" class="dphSearchField" placeholder="Search..." autocomplete="off"/>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <div class='dphNavigation accordion' data-accr_active_width='327'>
+        <div class='dphnWrap'>
+            
+
+
+
+
+<div class='dphUserInfo'>
+    
+    
+    
+    
+        
+        
+            
+                
+                    <a class="dphLink" href="https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fdeveloper.amazon.com%2Fsdk-download&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=mas_dev_portal&openid.mode=checkid_setup&marketPlaceId=ATVPDKIKX0DER&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_developer_portal&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&siteState=clientContext%3D000-0000000-0000000%2CsourceUrl%3Dhttps%253A%252F%252Fdeveloper.amazon.com%252Fsdk-download%2Csignature%3Dnull&language=en_US">Sign In</a>
+                
+                
+            
+        
+    
+</div>
+            
+
+
+
+
+
+
+    
+    
+        <a href="/home.html" class='dphConsole dphLink'>Developer Console</a>
+    
+
+            
+
+
+
+
+
+<nav class="dpPrimaryNav">
+    <ul class="dppnItems">
+        
+            
+                
+                    
+                    
+                    
+                        
+                    
+                
+                <li class="dppnItem  accrItem">
+                    
+                        
+                            <a href="/apps-and-games/getting-started" class="dppnLink">
+                                Getting Started
+                            </a>
+                        
+                        
+                    
+                    
+                        <div class='dpIconArrow accrHandle'></div>
+                        <div class='dppnFlyoutWrap'>
+                            <div class='dppnSecondaryNavWrap'>
+                                <ul class="dppnFlyout dppnSecondaryNav">
+                                    
+                                        
+                                            
+                                            
+                                                
+                                            
+                                        
+                                        <li class="dppnfItem  accrItem">
+                                            
+                                                
+                                                    <a href="/apps-and-games/monetize" class="dppnfLink">
+                                                        <span class="dppnfTitle">Monetize Your Apps</span>
+                                                        <span class="dppnfSubtitle"></span>
+                                                    </a>
+                                                
+                                                
+                                            
+                                            
+                                        </li>
+                                    
+                                        
+                                            
+                                            
+                                                
+                                            
+                                        
+                                        <li class="dppnfItem  accrItem">
+                                            
+                                                
+                                                    <a href="/apps-and-games/engage" class="dppnfLink">
+                                                        <span class="dppnfTitle">Engage Your Customers</span>
+                                                        <span class="dppnfSubtitle"></span>
+                                                    </a>
+                                                
+                                                
+                                            
+                                            
+                                        </li>
+                                     
+                                </ul>
+                            </div>
+                        </div>
+                    
+                </li>        
+            
+        
+            
+                
+                    
+                    
+                    
+                        
+                    
+                
+                <li class="dppnItem  accrItem">
+                    
+                        
+                            <a href="/devices" class="dppnLink">
+                                Devices
+                            </a>
+                        
+                        
+                    
+                    
+                        <div class='dpIconArrow accrHandle'></div>
+                        <div class='dppnFlyoutWrap'>
+                            <div class='dppnSecondaryNavWrap'>
+                                <ul class="dppnFlyout dppnSecondaryNav">
+                                    
+                                        
+                                            
+                                            
+                                                
+                                            
+                                        
+                                        <li class="dppnfItem  accrItem">
+                                            
+                                                
+                                                    <a href="/fire-tv" class="dppnfLink">
+                                                        <span class="dppnfTitle">Amazon Fire TV</span>
+                                                        <span class="dppnfSubtitle"></span>
+                                                    </a>
+                                                
+                                                
+                                            
+                                            
+                                        </li>
+                                    
+                                        
+                                            
+                                            
+                                                
+                                            
+                                        
+                                        <li class="dppnfItem  accrItem">
+                                            
+                                                
+                                                    <a href="/fire-tablets" class="dppnfLink">
+                                                        <span class="dppnfTitle">Fire Tablets</span>
+                                                        <span class="dppnfSubtitle"></span>
+                                                    </a>
+                                                
+                                                
+                                            
+                                            
+                                        </li>
+                                     
+                                </ul>
+                            </div>
+                        </div>
+                    
+                </li>        
+            
+        
+            
+                
+                    
+                    
+                    
+                        
+                    
+                
+                <li class="dppnItem  accrItem">
+                    
+                        
+                            <a href="/apps-and-games/build" class="dppnLink">
+                                Build
+                            </a>
+                        
+                        
+                    
+                    
+                        <div class='dpIconArrow accrHandle'></div>
+                        <div class='dppnFlyoutWrap'>
+                            <div class='dppnSecondaryNavWrap'>
+                                <ul class="dppnFlyout dppnSecondaryNav">
+                                    
+                                        
+                                            
+                                            
+                                                
+                                            
+                                        
+                                        <li class="dppnfItem  accrItem">
+                                            
+                                                
+                                                    <a href="/apps-and-games/build/fire-tv" class="dppnfLink">
+                                                        <span class="dppnfTitle">Fire TV</span>
+                                                        <span class="dppnfSubtitle"></span>
+                                                    </a>
+                                                
+                                                
+                                            
+                                            
+                                        </li>
+                                    
+                                        
+                                            
+                                            
+                                                
+                                            
+                                        
+                                        <li class="dppnfItem  accrItem">
+                                            
+                                                
+                                                    <a href="/apps-and-games/build/fire-tablets" class="dppnfLink">
+                                                        <span class="dppnfTitle">Fire Tablets</span>
+                                                        <span class="dppnfSubtitle"></span>
+                                                    </a>
+                                                
+                                                
+                                            
+                                            
+                                        </li>
+                                    
+                                        
+                                            
+                                            
+                                                
+                                            
+                                        
+                                        <li class="dppnfItem  accrItem">
+                                            
+                                                
+                                                    <a href="/apps-and-games/build/app-add-ons" class="dppnfLink">
+                                                        <span class="dppnfTitle">App Add-Ons</span>
+                                                        <span class="dppnfSubtitle"></span>
+                                                    </a>
+                                                
+                                                
+                                            
+                                            
+                                        </li>
+                                    
+                                        
+                                            
+                                            
+                                                
+                                            
+                                        
+                                        <li class="dppnfItem  accrItem">
+                                            
+                                                
+                                                    <a href="/cross-platform" class="dppnfLink">
+                                                        <span class="dppnfTitle">Cross-Platform Frameworks</span>
+                                                        <span class="dppnfSubtitle"></span>
+                                                    </a>
+                                                
+                                                
+                                            
+                                            
+                                        </li>
+                                     
+                                </ul>
+                            </div>
+                        </div>
+                    
+                </li>        
+            
+        
+            
+                
+                    
+                    
+                    
+                        
+                    
+                
+                <li class="dppnItem  accrItem">
+                    
+                        
+                            <a href="/test" class="dppnLink">
+                                Test
+                            </a>
+                        
+                        
+                    
+                    
+                        <div class='dpIconArrow accrHandle'></div>
+                        <div class='dppnFlyoutWrap'>
+                            <div class='dppnSecondaryNavWrap'>
+                                <ul class="dppnFlyout dppnSecondaryNav">
+                                    
+                                        
+                                            
+                                            
+                                                
+                                            
+                                        
+                                        <li class="dppnfItem  accrItem">
+                                            
+                                                
+                                                    <a href="/app-testing-service" class="dppnfLink">
+                                                        <span class="dppnfTitle">Android Apps</span>
+                                                        <span class="dppnfSubtitle"></span>
+                                                    </a>
+                                                
+                                                
+                                            
+                                            
+                                        </li>
+                                    
+                                        
+                                            
+                                            
+                                                
+                                            
+                                        
+                                        <li class="dppnfItem  accrItem">
+                                            
+                                                
+                                                    <a href="/docs/html5-web-apps/webapp-app-tester.html" class="dppnfLink">
+                                                        <span class="dppnfTitle">Web/HTML5 Apps</span>
+                                                        <span class="dppnfSubtitle"></span>
+                                                    </a>
+                                                
+                                                
+                                            
+                                            
+                                        </li>
+                                    
+                                        
+                                            
+                                            
+                                                
+                                            
+                                        
+                                        <li class="dppnfItem  accrItem">
+                                            
+                                                
+                                                    <a href="/live-app-testing" class="dppnfLink">
+                                                        <span class="dppnfTitle">Live App Testing</span>
+                                                        <span class="dppnfSubtitle"></span>
+                                                    </a>
+                                                
+                                                
+                                            
+                                            
+                                        </li>
+                                     
+                                </ul>
+                            </div>
+                        </div>
+                    
+                </li>        
+            
+        
+            
+                
+                    
+                    
+                    
+                        
+                    
+                
+                <li class="dppnItem  accrItem">
+                    
+                        
+                            <a href="/app-submission" class="dppnLink">
+                                Submit
+                            </a>
+                        
+                        
+                    
+                    
+                        <div class='dpIconArrow accrHandle'></div>
+                        <div class='dppnFlyoutWrap'>
+                            <div class='dppnSecondaryNavWrap'>
+                                <ul class="dppnFlyout dppnSecondaryNav">
+                                    
+                                        
+                                            
+                                            
+                                                
+                                            
+                                        
+                                        <li class="dppnfItem  accrItem">
+                                            
+                                                
+                                                    <a href="/apps-and-games/app-submission/android" class="dppnfLink">
+                                                        <span class="dppnfTitle">Android Apps</span>
+                                                        <span class="dppnfSubtitle"></span>
+                                                    </a>
+                                                
+                                                
+                                            
+                                            
+                                        </li>
+                                    
+                                        
+                                            
+                                            
+                                                
+                                            
+                                        
+                                        <li class="dppnfItem  accrItem">
+                                            
+                                                
+                                                    <a href="/apps-and-games/app-submission/streaming-media" class="dppnfLink">
+                                                        <span class="dppnfTitle">Web/HTML5 Apps</span>
+                                                        <span class="dppnfSubtitle"></span>
+                                                    </a>
+                                                
+                                                
+                                            
+                                            
+                                        </li>
+                                     
+                                </ul>
+                            </div>
+                        </div>
+                    
+                </li>        
+            
+        
+            
+                
+                    
+                    
+                        
+                    
+                    
+                
+                <li class="dppnItem dppnItemCurrent accrItem">
+                    
+                        
+                            <a href="/sdk-download" class="dppnLink">
+                                SDK Downloads
+                            </a>
+                        
+                        
+                    
+                    
+                </li>        
+            
+        
+            
+                
+                    
+                    
+                    
+                        
+                    
+                
+                <li class="dppnItem  accrItem">
+                    
+                        
+                            <a href="/appstore/documentation" class="dppnLink">
+                                Docs
+                            </a>
+                        
+                        
+                    
+                    
+                </li>        
+            
+        
+    </ul>
+</nav>
+            
+            
+                
+                
+                    
+
+
+
+
+
+
+
+<nav class="dpPrimaryNav dphDevConsoleLinkNavBar">
+    <ul class="dppnItems">
+        <li class="dppnItem accrItem">
+            <span class='dppnLink'>Support</span>
+            <div class="dpIconArrow accrHandle"></div>
+            <div class="dppnFlyoutWrap">
+                <div class="dppnSecondaryNavWrap">
+                    <ul class='dppnFlyout dppnSecondaryNav'>
+                        
+                        
+                            
+                                <li class='dppnfItem accrItem'><a class="dppnfLink" href='/support/'><span class="dppnfTitle">Support</span></a></li>
+                                <li class='dppnfItem accrItem'><a class="dppnfLink" href='/documentation/'><span class="dppnfTitle">Docs</span></a></li>
+                                <li class='dppnfItem accrItem'><a class="dppnfLink" href='https://forums.developer.amazon.com/index.html'><span class="dppnfTitle">Forums</span></a></li>
+                                <li class='dppnfItem accrItem'><a class="dppnfLink" href='/support/contact-us'><span class="dppnfTitle">Contact Us</span></a></li>
+                            
+                        
+                    </ul>
+                </div>
+            </div>
+        </li>
+    </ul>
+</nav>
+                
+            
+        </div>
+    </div>
+</header>
+<div id='dpHeaderPlaceholder'></div>
+
+<script>
+    (function(){
+        //Set placeholder height as soon as possible to eliminate page jump
+        "use strict";
+
+        var setHeaderPlaceholderHeight = function(header){
+            var placeholder = document.getElementById('dpHeaderPlaceholder');
+            var headerHeight = header[0].offsetHeight + "px";
+            placeholder.style.height = headerHeight;
+        }
+
+        var checkForHeader = function(){
+            var header = document.querySelectorAll('.dpHeader');
+            if(header.length){
+                setHeaderPlaceholderHeight(header);
+                window.clearInterval(checkForHeaderInterval);
+            }
+        }
+
+        var checkForHeaderInterval = window.setInterval(checkForHeader, 10);
+        checkForHeader();   //Run once immediately
+    }());
+</script>
+        <section class="content-section">
+            
+            
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+<div id="hero-no-cta" class="">
+    
+        
+        
+
+
+		
+        
+		    
+		    
+		        
+		        
+		        
+		   	    
+		        
+		    
+		
+
+        
+        <div class="hero-no-cta-block" style="background-image: url('https://m.media-amazon.com/images/G/01/appstore/devportal/2018-redesign/hero-banner/SDKDownloads_Banner_1500x450._CB501303604_.jpg');">
+			<div class="">
+                <div class="">
+		            <div class="hero-no-cta-text-area">
+		                
+		                    <h2 class="hero-no-cta-title" style="color: #FFFFFF;">
+		                        Amazon Developer SDKs
+		                    </h2>
+		                
+		                
+		            </div>
+		            
+       				
+	            </div>
+			</div>
+        </div>
+    
+</div>
+        </section>
+        
+
+
+
+
+
+
+
+
+
+ 
+
+    
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+<section class="dp-content-slot " style="">
+    <div class="dp-content-slot-inner container">
+        
+            
+            
+                <div class="dp-content-slot--buffet-component"><div class="responsive-col-12 dp-text-with-image-margin-auto">
+  <a id="Getting started with Amazon Developer SDKs" class="dp-anchor"></a>
+  
+    <div class="h2 u-align-center">
+      Getting started with Amazon Developer SDKs
+    </div>
+  
+
+  
+    <div class="dp-text-with-image-description">
+      <p>Amazon has created a range of SDKs, APIs, and services that span multiple platforms to help you earn more revenue, engage your audience, manage your apps, and more. Each download contains multiple separate SDKs for you to utilize as needed.</p>
+
+<p>Download our free Amazon Developer SDKs to maximize your earnings and make your app a success!</p>
+
+<p>Follow these steps to begin working with Amazon Developer SDKs today:</p>
+
+<ol>
+<li>Identify the platform you will be working in.</li>
+<li>Click on Release Notes to see more details about the downloads.</li>
+<li>Check out the related technical documentation.</li>
+</ol>
+
+    </div>
+  
+
+  
+
+  
+    
+    
+  
+
+  
+
+  <div id="dp-text-with-image-bottom-description">
+    
+  </div>
+</div>
+
+<div class="dp-subsction-middle-image-clear"></div></div>
+            
+        
+            
+            
+                <div class="dp-content-slot--buffet-component"><!-- Random Number Util to generate unique IDs -->
+
+
+<div class="sdk-downloader-wrapper row">
+    <header class="title col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+        <h5></h5>
+        
+    </header>
+
+    <ul class="downloads-container col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+
+        
+        <li class="sdk-details col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <ul class="sdk-container col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <li class="name col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <a href="https://amazonadsi-a.akamaihd.net/public/Amazon-Mobile-App-SDK-by-Platform/Amazon-Android-SDKs.zip" class="download-icon col-xs-12 col-sm-12"
+                     data-event="download" data-type="Android">
+                        <span>Android</span>
+
+                        
+                    </a>
+
+                    
+                </li>
+                <li class="updated-on col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                    <span>Jul 10, 2018</span>
+                </li>
+                <li class="download-size col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    <span>(18.57 MB download)</span>
+                </li>
+                <li class="count col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    <span>Contains 7 SDKs</span>
+                </li>
+                <li class="notes-container col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    
+
+                        
+
+                        <a role="button" class="collapsed" data-toggle="collapse" href="#sdk_notes-1420887709" aria-expanded="false">
+                            Release Notes
+                        </a>
+                    
+                </li>
+            </ul>
+
+            
+
+            
+              
+
+              
+                
+                  <div id="sdk_notes-1420887709" class="collapse hidden-xs hidden-sm col-md-12 col-lg-12">
+                    <ul class="sdks">
+                      
+                        <li class="sdk">
+                          
+                          
+
+                          <a href="#change_log_container--335678348" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false">
+                            Amazon Mobile Ads (5.9.0) - Jul 10, 2018
+                          </a>
+
+                          
+                            
+                              <ul id="change_log_container--335678348" class="collapse">
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>New Features</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>GDPR compliance</li>
+                                      
+                                        <li>Removed support for MoPub event adapters</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>Resolved Issues</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>Fixed an issue with RegexMatcher that caused the app to hang when loading ads with certain resource URLs</li>
+                                      
+                                        <li>Fixed an issue when clicking on video ads caused the app to crash</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                              </ul>
+                            
+                            
+                          
+                        </li>
+                      
+                        <li class="sdk">
+                          
+                          
+
+                          <a href="#change_log_container--934381625" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false">
+                            Amazon GameCircle (2.4.3) - Dec 15, 2015
+                          </a>
+
+                          
+                            
+                              <ul id="change_log_container--934381625" class="collapse">
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>New Features</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>Added new <code>getFriendIds()</code> method which returns the player IDs for all friends of the local player.</li>
+                                      
+                                        <li>Added new <code>getBatchFriends()</code> which returns player info (including nickname and avatar image) for a list of player IDs, if the players are current friends of the local player.</li>
+                                      
+                                        <li>See documentation <a href="https://developer.amazon.com/public/apis/engage/gamecircle/docs/friends-api">here</a>.</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>Resolved Issues</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>The SDK now supports loading assets for apks that have had their package names changed via the Android asset packaging tool (aapt).</li>
+                                      
+                                        <li>The leaderboard time filter FRIENDS_ALL_TIME now works correctly.</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                              </ul>
+                            
+                            
+                          
+                        </li>
+                      
+                        <li class="sdk">
+                          
+                          
+
+                          <a href="#change_log_container--978224465" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false">
+                            Login With Amazon (3.0.2) - Mar 17, 2017
+                          </a>
+
+                          
+                            
+                              <ul id="change_log_container--978224465" class="collapse">
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>New Features</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>Bug fixes for Fire phone and Kindle devices</li>
+                                      
+                                        <li>Support for server side logout</li>
+                                      
+                                        <li>Bug fixes for getClientId and getRedirectURI APIs</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>Compatibility</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>Backwards compatible to version 2.x and 1.x</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                              </ul>
+                            
+                            
+                          
+                        </li>
+                      
+                        <li class="sdk">
+                          
+                          
+
+                          <a href="#change_log_container--1766748739" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false">
+                            Amazon In App Purchasing (2.0.76) - Sep 21, 2016
+                          </a>
+
+                          
+                            
+                              <ul id="change_log_container--1766748739" class="collapse">
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>New Features</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>Products returned by the getProductData API now include a Coins reward amount, an optional field that surfaces the amount of Amazon Coins a customer will be rewarded after purchasing that product</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                              </ul>
+                            
+                            
+                          
+                        </li>
+                      
+                        <li class="sdk">
+                          
+                          
+
+                          <a href="#change_log_container-990253633" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false">
+                            Amazon Maps (2.3) - Sep 01, 2015
+                          </a>
+
+                          
+                            
+                              <ul id="change_log_container-990253633" class="collapse">
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>New Features</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>Added Map toolbar which allows users to start the Maps App at the selected Marker or get directions to the location of the Marker.</li>
+                                      
+                                        <li>Added <code>getMapAsync(OnMapReadyCallback callback)</code> to MapView, MapFragment, and SupportMapFragment to return the AmazonMap when it is ready. This replaces the deprecated <code>getMap()</code> methods.</li>
+                                      
+                                        <li>Added <code>AmazonMapsRuntimeUtil.isAmazonSignedUid(PackageManager packageManager, int UID)</code> to verify the UID belongs to an Amazon signed app.</li>
+                                      
+                                        <li>Zoom controls are now disabled by default</li>
+                                      
+                                        <li>Added stubs for <code>getStreetViewPanoramaAsync()</code> to StreetViewPanoramaView and StreetViewPanoramaFragment. These methods are not implemented, use strict mode to log warnings or throw execptions instead of silently failing.</li>
+                                      
+                                        <li>Added stubs for lite mode. This feature is not implemented, use strict mode to log warnings or throw execptions instead of silently failing.</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>Compatibility</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>Backwards compatible to version 2.0.</li>
+                                      
+                                        <li>API parity with Google Maps API v2. See https://developer.amazon.com/public/apis/experience/maps/docs-v2/differences-between-amazon-maps-api-v2-and-google-maps-api-v2 for differences.</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                              </ul>
+                            
+                            
+                          
+                        </li>
+                      
+                        <li class="sdk">
+                          
+                          
+
+                          <a href="#change_log_container-294666391" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false">
+                            Amazon Cloud Drive (1.0.0) - Jun 17, 2015
+                          </a>
+
+                          
+                            
+                              <ul id="change_log_container-294666391" class="collapse">
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>New Features</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>Support for uploading, downloading, and listing metadata.</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                              </ul>
+                            
+                            
+                          
+                        </li>
+                      
+                        <li class="sdk">
+                          
+                          
+
+                          <a href="#change_log_container-160505713" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false">
+                            Amazon Device Messaging (1.0.1) - Jul 10, 2013
+                          </a>
+
+                          
+                            
+                            
+                              <div id="change_log_container-160505713" class="collapse">
+                                <span></span>
+                              </div>
+                            
+                          
+                        </li>
+                      
+                    </ul>
+                  </div>
+                
+              
+            
+
+        </li>
+
+        
+        <li class="sdk-details col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <ul class="sdk-container col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <li class="name col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <a href="https://amazonadsi-a.akamaihd.net/public/Amazon-Mobile-App-SDK-by-Platform/Amazon-iOS-SDKs.zip" class="download-icon col-xs-12 col-sm-12"
+                     data-event="download" data-type="iOS">
+                        <span>iOS</span>
+
+                        
+                    </a>
+
+                    
+                </li>
+                <li class="updated-on col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                    <span>Jul 10, 2018</span>
+                </li>
+                <li class="download-size col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    <span>(47.18 MB download)</span>
+                </li>
+                <li class="count col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    <span>Contains 3 SDKs</span>
+                </li>
+                <li class="notes-container col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    
+
+                        
+
+                        <a role="button" class="collapsed" data-toggle="collapse" href="#sdk_notes-214431133" aria-expanded="false">
+                            Release Notes
+                        </a>
+                    
+                </li>
+            </ul>
+
+            
+
+            
+              
+
+              
+                
+                  <div id="sdk_notes-214431133" class="collapse hidden-xs hidden-sm col-md-12 col-lg-12">
+                    <ul class="sdks">
+                      
+                        <li class="sdk">
+                          
+                          
+
+                          <a href="#change_log_container-474183972" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false">
+                            Amazon Mobile Ads (2.2.17.0) - Jul 10, 2018
+                          </a>
+
+                          
+                            
+                              <ul id="change_log_container-474183972" class="collapse">
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>New Features</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>GDPR compliance</li>
+                                      
+                                        <li>Removed support for MoPub event adapters</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>Resolved Issues</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>Fixed an issue caused due to multi-threading violation</li>
+                                      
+                                        <li>Fixed an issue when clicking on certain ad types caused the app to crash</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>Compatibility</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>Backward compatible with previous release</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                              </ul>
+                            
+                            
+                          
+                        </li>
+                      
+                        <li class="sdk">
+                          
+                          
+
+                          <a href="#change_log_container-24458184" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false">
+                            Login With Amazon (3.0.2) - Mar 28, 2017
+                          </a>
+
+                          
+                            
+                              <ul id="change_log_container-24458184" class="collapse">
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>Resolved Issues</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>Fixed app crashing issue caused by [AMZNScopeFactory scopeWithName:] method</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>Compatibility</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>Backwards compatible to version 2.x and 1.x</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                              </ul>
+                            
+                            
+                          
+                        </li>
+                      
+                        <li class="sdk">
+                          
+                          
+
+                          <a href="#change_log_container--1469862650" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false">
+                            Amazon Cloud Drive (1.0.0) - Jun 17, 2015
+                          </a>
+
+                          
+                            
+                              <ul id="change_log_container--1469862650" class="collapse">
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>New Features</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>Support for uploading, downloading, and listing metadata.</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                              </ul>
+                            
+                            
+                          
+                        </li>
+                      
+                    </ul>
+                  </div>
+                
+              
+            
+
+        </li>
+
+        
+        <li class="sdk-details col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <ul class="sdk-container col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <li class="name col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <a href="https://amazonadsi-a.akamaihd.net/public/Amazon-Mobile-App-SDK-by-Platform/Amazon-Unity-SDKs.zip" class="download-icon col-xs-12 col-sm-12"
+                     data-event="download" data-type="Unity">
+                        <span>Unity</span>
+
+                        
+                    </a>
+
+                    
+                </li>
+                <li class="updated-on col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                    <span>Sep 21, 2016</span>
+                </li>
+                <li class="download-size col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    <span>(3.12 MB download)</span>
+                </li>
+                <li class="count col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    <span>Contains 3 SDKs</span>
+                </li>
+                <li class="notes-container col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    
+
+                        
+
+                        <a role="button" class="collapsed" data-toggle="collapse" href="#sdk_notes--1895447966" aria-expanded="false">
+                            Release Notes
+                        </a>
+                    
+                </li>
+            </ul>
+
+            
+
+            
+              
+
+              
+                
+                  <div id="sdk_notes--1895447966" class="collapse hidden-xs hidden-sm col-md-12 col-lg-12">
+                    <ul class="sdks">
+                      
+                        <li class="sdk">
+                          
+                          
+
+                          <a href="#change_log_container-1111064588" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false">
+                            Amazon Mobile Ads (1.0) - May 04, 2016
+                          </a>
+
+                          
+                            
+                              <ul id="change_log_container-1111064588" class="collapse">
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>Resolved Issues</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>iOS: All callbacks (delegates) should now be fired correctly in all Cross-Platform Engines</li>
+                                      
+                                        <li>iOS: Apps may now maintain multiple interstitial ads, similar to how the Android plugin works. Multiple ads can be created and loaded, then shown one at a time.</li>
+                                      
+                                        <li>iOS: Only one banner ad can show at a time in each dock (one in 'top' and one in 'bottom'). Loading a different Floating Ad into a dock that currently contains a Floating Ad will cause the current Floating Ad to be removed from the screen before the new Ad is displayed.</li>
+                                      
+                                        <li>Android: When an Interstitial Ad expires, it will no longer block new ads from being shown. An expired Interstitial Ad will now be ready to load new ad content into using the LoadInterstitialAd operation. If all available ads have expired, calling the ShowInterstitialAd operation will return FALSE and no ad will be shown. Likewise the IsInterstitialAdReady operation will return FALSE until one of the Interstitial Ads has successfully been loaded using the LoadInterstitialAd operation.</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                              </ul>
+                            
+                            
+                          
+                        </li>
+                      
+                        <li class="sdk">
+                          
+                          
+
+                          <a href="#change_log_container-2131062665" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false">
+                            Amazon GameCircle (2.5.3) - Dec 15, 2015
+                          </a>
+
+                          
+                            
+                              <ul id="change_log_container-2131062665" class="collapse">
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>New Features</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>Added new <code>getFriendIds()</code> method which returns the player IDs for all friends of the local player.</li>
+                                      
+                                        <li>Added new <code>getBatchFriends()</code> which returns player info (including nickname and avatar image) for a list of player IDs, if the players are current friends of the local player.</li>
+                                      
+                                        <li>See documentation <a href="https://developer.amazon.com/public/apis/engage/gamecircle/docs/friends-api">here</a>.</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>Resolved Issues</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>The SDK now supports loading assets for apks that have had their package names changed via the Android asset packaging tool (aapt).</li>
+                                      
+                                        <li>The leaderboard time filter FRIENDS_ALL_TIME now works correctly.</li>
+                                      
+                                        <li>Minor bug fixes were made related to callbacks.</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                              </ul>
+                            
+                            
+                          
+                        </li>
+                      
+                        <li class="sdk">
+                          
+                          
+
+                          <a href="#change_log_container--1423529617" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false">
+                            Amazon In App Purchasing (2.0) - Sep 21, 2016
+                          </a>
+
+                          
+                            
+                              <ul id="change_log_container--1423529617" class="collapse">
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>New Features</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>Products returned by the getProductData API now include a Coins reward amount, an optional field that surfaces the amount of Amazon Coins a customer will be rewarded after purchasing that product</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                              </ul>
+                            
+                            
+                          
+                        </li>
+                      
+                    </ul>
+                  </div>
+                
+              
+            
+
+        </li>
+
+        
+        <li class="sdk-details col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <ul class="sdk-container col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <li class="name col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <a href="https://amazonadsi-a.akamaihd.net/public/Amazon-Mobile-App-SDK-by-Platform/Amazon-Xamarin-SDKs.zip" class="download-icon col-xs-12 col-sm-12"
+                     data-event="download" data-type="Xamarin">
+                        <span>Xamarin</span>
+
+                        
+                    </a>
+
+                    
+                </li>
+                <li class="updated-on col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                    <span>Sep 21, 2016</span>
+                </li>
+                <li class="download-size col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    <span>(5.92 MB download)</span>
+                </li>
+                <li class="count col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    <span>Contains 2 SDKs</span>
+                </li>
+                <li class="notes-container col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    
+
+                        
+
+                        <a role="button" class="collapsed" data-toggle="collapse" href="#sdk_notes--1410816607" aria-expanded="false">
+                            Release Notes
+                        </a>
+                    
+                </li>
+            </ul>
+
+            
+
+            
+              
+
+              
+                
+                  <div id="sdk_notes--1410816607" class="collapse hidden-xs hidden-sm col-md-12 col-lg-12">
+                    <ul class="sdks">
+                      
+                        <li class="sdk">
+                          
+                          
+
+                          <a href="#change_log_container--1774872927" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false">
+                            Amazon Mobile Ads (1.0) - May 04, 2016
+                          </a>
+
+                          
+                            
+                              <ul id="change_log_container--1774872927" class="collapse">
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>Resolved Issues</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>iOS: All callbacks (delegates) should now be fired correctly in all Cross-Platform Engines</li>
+                                      
+                                        <li>iOS: Apps may now maintain multiple interstitial ads, similar to how the Android plugin works. Multiple ads can be created and loaded, then shown one at a time.</li>
+                                      
+                                        <li>iOS: Only one banner ad can show at a time in each dock (one in 'top' and one in 'bottom'). Loading a different Floating Ad into a dock that currently contains a Floating Ad will cause the current Floating Ad to be removed from the screen before the new Ad is displayed.</li>
+                                      
+                                        <li>Android: When an Interstitial Ad expires, it will no longer block new ads from being shown. An expired Interstitial Ad will now be ready to load new ad content into using the LoadInterstitialAd operation. If all available ads have expired, calling the ShowInterstitialAd operation will return FALSE and no ad will be shown. Likewise the IsInterstitialAdReady operation will return FALSE until one of the Interstitial Ads has successfully been loaded using the LoadInterstitialAd operation.</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                              </ul>
+                            
+                            
+                          
+                        </li>
+                      
+                        <li class="sdk">
+                          
+                          
+
+                          <a href="#change_log_container-686170618" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false">
+                            Amazon In App Purchasing (2.0) - Sep 21, 2016
+                          </a>
+
+                          
+                            
+                              <ul id="change_log_container-686170618" class="collapse">
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>New Features</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>Products returned by the getProductData API now include a Coins reward amount, an optional field that surfaces the amount of Amazon Coins a customer will be rewarded after purchasing that product</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                              </ul>
+                            
+                            
+                          
+                        </li>
+                      
+                    </ul>
+                  </div>
+                
+              
+            
+
+        </li>
+
+        
+        <li class="sdk-details col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <ul class="sdk-container col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <li class="name col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <a href="https://amazonadsi-a.akamaihd.net/public/Amazon-Mobile-App-SDK-by-Platform/Amazon-AIR-SDKs.zip" class="download-icon col-xs-12 col-sm-12"
+                     data-event="download" data-type="Adobe AIR">
+                        <span>Adobe AIR</span>
+
+                        
+                    </a>
+
+                    
+                </li>
+                <li class="updated-on col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                    <span>Sep 21, 2016</span>
+                </li>
+                <li class="download-size col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    <span>(7.07 MB download)</span>
+                </li>
+                <li class="count col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    <span>Contains 3 SDKs</span>
+                </li>
+                <li class="notes-container col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    
+
+                        
+
+                        <a role="button" class="collapsed" data-toggle="collapse" href="#sdk_notes-1254813885" aria-expanded="false">
+                            Release Notes
+                        </a>
+                    
+                </li>
+            </ul>
+
+            
+
+            
+              
+
+              
+                
+                  <div id="sdk_notes-1254813885" class="collapse hidden-xs hidden-sm col-md-12 col-lg-12">
+                    <ul class="sdks">
+                      
+                        <li class="sdk">
+                          
+                          
+
+                          <a href="#change_log_container-1748065333" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false">
+                            Amazon Mobile Ads (1.0) - May 04, 2016
+                          </a>
+
+                          
+                            
+                              <ul id="change_log_container-1748065333" class="collapse">
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>Resolved Issues</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>iOS: All callbacks (delegates) should now be fired correctly in all Cross-Platform Engines</li>
+                                      
+                                        <li>iOS: Apps may now maintain multiple interstitial ads, similar to how the Android plugin works. Multiple ads can be created and loaded, then shown one at a time.</li>
+                                      
+                                        <li>iOS: Only one banner ad can show at a time in each dock (one in 'top' and one in 'bottom'). Loading a different Floating Ad into a dock that currently contains a Floating Ad will cause the current Floating Ad to be removed from the screen before the new Ad is displayed.</li>
+                                      
+                                        <li>Android: When an Interstitial Ad expires, it will no longer block new ads from being shown. An expired Interstitial Ad will now be ready to load new ad content into using the LoadInterstitialAd operation. If all available ads have expired, calling the ShowInterstitialAd operation will return FALSE and no ad will be shown. Likewise the IsInterstitialAdReady operation will return FALSE until one of the Interstitial Ads has successfully been loaded using the LoadInterstitialAd operation.</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                              </ul>
+                            
+                            
+                          
+                        </li>
+                      
+                        <li class="sdk">
+                          
+                          
+
+                          <a href="#change_log_container-1233662087" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false">
+                            Amazon GameCircle (2.4.3) - Dec 15, 2015
+                          </a>
+
+                          
+                            
+                              <ul id="change_log_container-1233662087" class="collapse">
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>New Features</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>The latest version of Whispersync for Games, with automatic synching, is now supported.</li>
+                                      
+                                        <li>The GameCircleEvent class now has subclasses specific to each API call. Instead of listening for any GameCircle event, methods can now listen for specific types of events.</li>
+                                      
+                                        <li>Added a new <code>showSignIn()</code> method which displays the GameCircle sign-in page.</li>
+                                      
+                                        <li>Added a new <code>loadLocalPlayer()</code> method which gets the current player's GameCircle profile.</li>
+                                      
+                                        <li>Added a new <code>showLeaderboards()</code> method which displays the GameCircle overlay showing all leaderboards for a game.</li>
+                                      
+                                        <li>Added a new <code>loadAchievement()</code> method which gets data for a single achievement.</li>
+                                      
+                                        <li>Added a new <code>loadPercentiles()</code> method which gets percentile ranks for a leaderboard.</li>
+                                      
+                                        <li>Added a new functional sample app (see example-src/GameCircleExample2.as).</li>
+                                      
+                                        <li>See AIR documentation <a href="https://developer.amazon.com/public/apis/engage/gamecircle/docs/air-ane-2x-overview">here</a>.</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>Compatibility</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>The <code>create()</code> method no longer takes any parameters.</li>
+                                      
+                                        <li>The <code>submitAchievement()</code> method is now updateAchievementProgress().</li>
+                                      
+                                        <li>The <code>loadScores()</code> method no longer takes the parameters startRank and scoreCount.</li>
+                                      
+                                        <li>The data type of all score-related values has changed from int to number. This includes GameCircleScore scoreValue; SubmitScoreCompleted score, newAllTimeScore, newDailyScore, and newWeeklyScore; GameCirclePercentile score; and LoadLocalPlayerScoreCompleted score.</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                              </ul>
+                            
+                            
+                          
+                        </li>
+                      
+                        <li class="sdk">
+                          
+                          
+
+                          <a href="#change_log_container--1465594586" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false">
+                            Amazon In App Purchasing (2.0) - Sep 21, 2016
+                          </a>
+
+                          
+                            
+                              <ul id="change_log_container--1465594586" class="collapse">
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>New Features</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>Products returned by the getProductData API now include a Coins reward amount, an optional field that surfaces the amount of Amazon Coins a customer will be rewarded after purchasing that product</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                              </ul>
+                            
+                            
+                          
+                        </li>
+                      
+                    </ul>
+                  </div>
+                
+              
+            
+
+        </li>
+
+        
+        <li class="sdk-details col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <ul class="sdk-container col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <li class="name col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <a href="https://amazonadsi-a.akamaihd.net/public/Amazon-Mobile-App-SDK-by-Platform/Amazon-Cordova-SDKs.zip" class="download-icon col-xs-12 col-sm-12"
+                     data-event="download" data-type="Cordova">
+                        <span>Cordova</span>
+
+                        
+                    </a>
+
+                    
+                </li>
+                <li class="updated-on col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                    <span>Sep 21, 2016</span>
+                </li>
+                <li class="download-size col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    <span>(12.93 MB download)</span>
+                </li>
+                <li class="count col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    <span>Contains 2 SDKs</span>
+                </li>
+                <li class="notes-container col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    
+
+                        
+
+                        <a role="button" class="collapsed" data-toggle="collapse" href="#sdk_notes-1128127481" aria-expanded="false">
+                            Release Notes
+                        </a>
+                    
+                </li>
+            </ul>
+
+            
+
+            
+              
+
+              
+                
+                  <div id="sdk_notes-1128127481" class="collapse hidden-xs hidden-sm col-md-12 col-lg-12">
+                    <ul class="sdks">
+                      
+                        <li class="sdk">
+                          
+                          
+
+                          <a href="#change_log_container-1693062482" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false">
+                            Amazon Mobile Ads (1.0) - May 04, 2016
+                          </a>
+
+                          
+                            
+                              <ul id="change_log_container-1693062482" class="collapse">
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>Resolved Issues</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>iOS: All callbacks (delegates) should now be fired correctly in all Cross-Platform Engines</li>
+                                      
+                                        <li>iOS: Apps may now maintain multiple interstitial ads, similar to how the Android plugin works. Multiple ads can be created and loaded, then shown one at a time.</li>
+                                      
+                                        <li>iOS: Only one banner ad can show at a time in each dock (one in 'top' and one in 'bottom'). Loading a different Floating Ad into a dock that currently contains a Floating Ad will cause the current Floating Ad to be removed from the screen before the new Ad is displayed.</li>
+                                      
+                                        <li>Android: When an Interstitial Ad expires, it will no longer block new ads from being shown. An expired Interstitial Ad will now be ready to load new ad content into using the LoadInterstitialAd operation. If all available ads have expired, calling the ShowInterstitialAd operation will return FALSE and no ad will be shown. Likewise the IsInterstitialAdReady operation will return FALSE until one of the Interstitial Ads has successfully been loaded using the LoadInterstitialAd operation.</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                              </ul>
+                            
+                            
+                          
+                        </li>
+                      
+                        <li class="sdk">
+                          
+                          
+
+                          <a href="#change_log_container-625647844" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false">
+                            Amazon In App Purchasing (2.0) - Sep 21, 2016
+                          </a>
+
+                          
+                            
+                              <ul id="change_log_container-625647844" class="collapse">
+                                
+                                  <li class="notes">
+                                    
+                                      <header><h6>New Features</h6></header>
+                                    
+                                    <ul>
+                                      
+                                        <li>Products returned by the getProductData API now include a Coins reward amount, an optional field that surfaces the amount of Amazon Coins a customer will be rewarded after purchasing that product</li>
+                                      
+                                    </ul>
+                                  </li>
+                                
+                              </ul>
+                            
+                            
+                          
+                        </li>
+                      
+                    </ul>
+                  </div>
+                
+              
+            
+
+        </li>
+
+        
+        <li class="sdk-details col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <ul class="sdk-container col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <li class="name col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <a href="https://amazonadsi-a.akamaihd.net/public/Amazon-Mobile-App-SDK-by-Platform/Amazon-Web-SDKs.zip" class="download-icon col-xs-12 col-sm-12"
+                     data-event="download" data-type="Web">
+                        <span>Web</span>
+
+                        
+                    </a>
+
+                    
+                </li>
+                <li class="updated-on col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                    <span>Dec 01, 2013</span>
+                </li>
+                <li class="download-size col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    <span>(2.81 MB download)</span>
+                </li>
+                <li class="count col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    <span>Contains 1 SDKs</span>
+                </li>
+                <li class="notes-container col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    
+
+                        
+
+                        <a role="button" class="collapsed" data-toggle="collapse" href="#sdk_notes-1121867313" aria-expanded="false">
+                            Release Notes
+                        </a>
+                    
+                </li>
+            </ul>
+
+            
+
+            
+              
+
+              
+                
+                  <div id="sdk_notes-1121867313" class="collapse hidden-xs hidden-sm col-md-12 col-lg-12">
+                    <ul class="sdks">
+                      
+                        <li class="sdk">
+                          
+                          
+
+                          <a href="#change_log_container-1738764867" class="collapsed" role="button" data-toggle="collapse" aria-expanded="false">
+                            Webapps (1.0) - Dec 01, 2013
+                          </a>
+
+                          
+                            
+                            
+                              <div id="change_log_container-1738764867" class="collapse">
+                                <span></span>
+                              </div>
+                            
+                          
+                        </li>
+                      
+                    </ul>
+                  </div>
+                
+              
+            
+
+        </li>
+
+        
+
+    </ul>
+
+    
+</div></div>
+            
+        
+            
+            
+                <div class="dp-content-slot--buffet-component"><div class="responsive-col-12 dp-text-with-image-margin-auto">
+  <a id="" class="dp-anchor"></a>
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+
+  <div id="dp-text-with-image-bottom-description">
+    
+      <div class="dp-text-with-image-description">
+        <p>By downloading our Amazon Fire TV SDKs and samples, you agree to our <a href="/support/legal/pml">Program Materials License Agreement.</a></p>
+
+<p>By using the Login with Amazon API, you agree to the <a href="https://login.amazon.com/services-agreement">Login with Amazon Services Agreement.</a> By using the Mobile Ads API, you agree to the <a href="/support/legal/mobileads/terms-and-agreements">Mobile Ad Network Publisher Agreement.</a></p>
+
+<p>Samples may include third-party software that is copyrighted by other parties and is subject to separate license terms. Information on that software and the applicable copyright notices and license terms are included in files accompanying the samples.</p>
+
+<p>Please note: The Mobile Ads external plugins were discontinued on August 31st, 2017.</p>
+
+      </div>
+    
+  </div>
+</div>
+
+<div class="dp-subsction-middle-image-clear"></div></div>
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+    </div>
+</section>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+<section class="dp-content-slot " style="">
+    <div class="dp-content-slot-inner container">
+        
+            
+            
+                <div class="dp-content-slot--buffet-component"><div class="responsive-col-12 dp-text-with-image-margin-auto">
+  <a id="Amazon Fling SDKs" class="dp-anchor"></a>
+  
+    <div class="h2 u-align-center">
+      Amazon Fling SDKs
+    </div>
+  
+
+  
+    <div class="dp-text-with-image-description">
+      <p>With our SDK, you can “fling” media content to Amazon Fire TV and leverage two-way communication between Amazon Fire TV and mobile apps to create engaging and rich multi-screen experiences.</p>
+
+    </div>
+  
+
+  
+
+  
+    
+    
+  
+
+  
+
+  <div id="dp-text-with-image-bottom-description">
+    
+  </div>
+</div>
+
+<div class="dp-subsction-middle-image-clear"></div></div>
+            
+        
+            
+            
+                <div class="dp-content-slot--buffet-component"><!-- Random Number Util to generate unique IDs -->
+
+
+<div class="sdk-downloader-wrapper row">
+    <header class="title col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+        <h5></h5>
+        
+    </header>
+
+    <ul class="downloads-container col-md-offset-1 col-lg-offset-1 col-xs-12 col-sm-12 col-md-10 col-lg-10">
+
+        
+        <li class="sdk-details col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <ul class="sdk-container col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <li class="name col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <a href="https://s3-us-west-1.amazonaws.com/amazon-fling/AmazonFling-SDK.zip" class="download-icon col-xs-12 col-sm-12"
+                     data-event="download" data-type="Fire OS, Android, iOS︎">
+                        <span>Fire OS, Android, iOS︎</span>
+
+                        
+                    </a>
+
+                    
+                </li>
+                <li class="updated-on col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                    <span></span>
+                </li>
+                <li class="download-size col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    <span>(197 MB download)</span>
+                </li>
+                <li class="count col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    <span>Contains 1 SDK</span>
+                </li>
+                <li class="notes-container col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    
+
+                        
+
+                        <a role="button" class="collapsed" data-toggle="collapse" href="#sdk_notes-1604001385" aria-expanded="false">
+                            Release Notes
+                        </a>
+                    
+                </li>
+            </ul>
+
+            
+
+            
+              
+                <div id="sdk_notes-1604001385" class="collapse hidden-xs hidden-sm col-md-12 col-lg-12 sdk-description">
+                  <p>See the <a href="/docs/fling/release-notes.html">full Release notes</a> for more details.</p>
+
+<p><strong>1.3.4 Release Notes</strong></p>
+
+<ul>
+<li>Enabled modular iOS framework for inclusion in Swift applications or other modular frameworks
+<br/><br/></li>
+</ul>
+
+<p><strong>1.3.3 Release Notes</strong></p>
+
+<ul>
+<li>Enabled BITCODE support. SDK size increased due to this.
+<br/><br/></li>
+</ul>
+
+<p><strong>1.3.2 Release Notes</strong></p>
+
+<ul>
+<li>Increased Minimum and Target Android SDK Version Levels.</li>
+<li>Updated the iOS library to remove non-public APIs.</li>
+<li>Updated broken links in the sample apps.
+<br/><br/></li>
+</ul>
+
+<p><strong>1.3.1 Release Notes</strong></p>
+
+<ul>
+<li>Updated the iOS library to support bitcode.</li>
+<li>Fixed problem on FlingMediaRouteProvider to sync media status listener properly.</li>
+</ul>
+
+                </div>
+              
+
+              
+            
+
+        </li>
+
+        
+        <li class="sdk-details col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <ul class="sdk-container col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <li class="name col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <a href="https://s3-us-west-1.amazonaws.com/amazon-fling/AmazonFlingUnityPlugins.zip" class="download-icon col-xs-12 col-sm-12"
+                     data-event="download" data-type="Unity">
+                        <span>Unity</span>
+
+                        
+                    </a>
+
+                    
+                </li>
+                <li class="updated-on col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                    <span></span>
+                </li>
+                <li class="download-size col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    <span>(29.3 MB download)</span>
+                </li>
+                <li class="count col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    <span>Contains 1 plugin</span>
+                </li>
+                <li class="notes-container col-md-2 col-lg-2 hidden-xs hidden-sm">
+                    
+
+                        
+
+                        <a role="button" class="collapsed" data-toggle="collapse" href="#sdk_notes-509759025" aria-expanded="false">
+                            Release Notes
+                        </a>
+                    
+                </li>
+            </ul>
+
+            
+
+            
+              
+                <div id="sdk_notes-509759025" class="collapse hidden-xs hidden-sm col-md-12 col-lg-12 sdk-description">
+                  <p><strong>1.0.0 Release Notes</strong></p>
+
+<ul>
+<li>First release</li>
+</ul>
+
+                </div>
+              
+
+              
+            
+
+        </li>
+
+        
+
+    </ul>
+
+    
+</div></div>
+            
+        
+            
+            
+                <div class="dp-content-slot--buffet-component"><div class="responsive-col-12 dp-text-with-image-margin-auto">
+  <a id="" class="dp-anchor"></a>
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+
+  <div id="dp-text-with-image-bottom-description">
+    
+      <div class="dp-text-with-image-description">
+        <p>By downloading our Amazon Fire TV SDKs and samples, you agree to our <a href="/support/legal/pml">Program Materials License Agreement.</a></p>
+
+<p>Samples may include third-party software that is copyrighted by other parties and is subject to separate license terms. Information on that software, the applicable copyright notices, and license terms are included in files accompanying the samples.</p>
+
+      </div>
+    
+  </div>
+</div>
+
+<div class="dp-subsction-middle-image-clear"></div></div>
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+    </div>
+</section>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+<section class="dp-content-slot " style="">
+    <div class="dp-content-slot-inner container">
+        
+            
+            
+                <div class="dp-content-slot--buffet-component"><div class="responsive-col-12 dp-text-with-image-margin-auto">
+  <a id="Alexa Skills Kit downloads" class="dp-anchor"></a>
+  
+    <div class="h2 u-align-center">
+      Alexa Skills Kit downloads
+    </div>
+  
+
+  
+    <div class="dp-text-with-image-description">
+      <p>The Alexa Skills Kit downloads <a href="/alexa-skills-kit/build#Build%20with%20the%20Alexa%20Skills%20Kit">can be found here</a>.</p>
+
+    </div>
+  
+
+  
+
+  
+    
+    
+  
+
+  
+
+  <div id="dp-text-with-image-bottom-description">
+    
+  </div>
+</div>
+
+<div class="dp-subsction-middle-image-clear"></div></div>
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+    </div>
+</section>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+<section class="dp-content-slot " style="">
+    <div class="dp-content-slot-inner container">
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+    </div>
+</section>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+<section class="dp-content-slot " style="">
+    <div class="dp-content-slot-inner container">
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+    </div>
+</section>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+<section class="dp-content-slot " style="">
+    <div class="dp-content-slot-inner container">
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+    </div>
+</section>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+<section class="dp-content-slot " style="">
+    <div class="dp-content-slot-inner container">
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+    </div>
+</section>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+<section class="dp-content-slot " style="">
+    <div class="dp-content-slot-inner container">
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+    </div>
+</section>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+<section class="dp-content-slot " style="">
+    <div class="dp-content-slot-inner container">
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+    </div>
+</section>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+<section class="dp-content-slot " style="">
+    <div class="dp-content-slot-inner container">
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+    </div>
+</section>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+<section class="dp-content-slot " style="">
+    <div class="dp-content-slot-inner container">
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+    </div>
+</section>
+
+
+
+
+        
+
+
+
+
+<section class="dp-content-slot dp-content-pixel-tracker-slot">
+  <div class="dp-content-slot-inner container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</section>
+        
+
+
+
+
+
+
+
+<footer class='dpFooter'>
+    <a class='dpfBackToTopLink' href='#'>Back to top</a>
+
+    <nav class="dpfNav accordion clearfix">
+        <div class='dpfWidth'>
+            <div class='dpfnHideRightMargin'>
+                
+                    
+                        
+                        <div class='dpfnColWrap'>
+                    
+                        <div class="dpfnCol">
+                            
+                                <div class="dpfnGroup accrItem">
+                                    <div class='dpIconArrow accrHandle'></div>
+                                    
+                                        
+                                        
+                                            <h3>Resources</h3>
+                                        
+                                    
+                                    <ul>
+                                        
+                                            <li><a href="/blogs/appstore/">Amazon Developer Blog</a></li>
+                                        
+                                            <li><a href="/appstore/documentation">Technical Documentation</a></li>
+                                        
+                                            <li><a href="http://m.amazonappservices.com/GameMakerResources">GameMaker Tutorials</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            
+                        </div>
+                    
+                
+                    
+                        <div class="dpfnCol">
+                            
+                                <div class="dpfnGroup accrItem">
+                                    <div class='dpIconArrow accrHandle'></div>
+                                    
+                                        
+                                        
+                                            <h3>Testing Tools</h3>
+                                        
+                                    
+                                    <ul>
+                                        
+                                            <li><a href="/test">App Testing Tools</a></li>
+                                        
+                                            <li><a href="/app-testing-service">App Testing Service</a></li>
+                                        
+                                            <li><a href="/live-app-testing">Live App Testing</a></li>
+                                        
+                                            <li><a href="/docs/html5-web-apps/webapp-app-tester.html">Amazon Web App Tester</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            
+                        </div>
+                    
+                        
+                        </div>
+                    
+                
+                    
+                        
+                        <div class='dpfnColWrap'>
+                    
+                        <div class="dpfnCol">
+                            
+                                <div class="dpfnGroup accrItem">
+                                    <div class='dpIconArrow accrHandle'></div>
+                                    
+                                        
+                                            <h3><a href="/services-and-apis">Services & APIs</a></h3>
+                                        
+                                        
+                                    
+                                    <ul>
+                                        
+                                            <li><a href="/gameon">Amazon GameOn</a></li>
+                                        
+                                            <li><a href="/merch">Merch by Amazon</a></li>
+                                        
+                                            <li><a href="/coins">Amazon Coins</a></li>
+                                        
+                                            <li><a href="/docs/in-app-purchasing/iap-overview.html ">In-App Purchasing</a></li>
+                                        
+                                            <li><a href="/mobile-ads">Mobile Ads</a></li>
+                                        
+                                            <li><a href="/docs/adm/overview.html ">Device Messaging</a></li>
+                                        
+                                            <li><a href="/gamecircle">GameCircle</a></li>
+                                        
+                                            <li><a href="/login-with-amazon">Login with Amazon</a></li>
+                                        
+                                            <li><a href="/advertise-your-app">Advertise Your App</a></li>
+                                        
+                                            <li><a href="/docs/reports-promo/promo-overview.html ">Developer Promotions Console</a></li>
+                                        
+                                            <li><a href="/amazon-incentives-api">Amazon Incentives API</a></li>
+                                        
+                                            <li><a href="/sdk-download">Amazon Fling SDK</a></li>
+                                        
+                                            <li><a href="/docs/maps/get-started.html ">Amazon Maps</a></li>
+                                        
+                                            <li><a href="/developer-publishing">Developer Publishing API</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            
+                        </div>
+                    
+                
+                    
+                        <div class="dpfnCol">
+                            
+                                <div class="dpfnGroup accrItem">
+                                    <div class='dpIconArrow accrHandle'></div>
+                                    
+                                        
+                                        
+                                            <h3>Support</h3>
+                                        
+                                    
+                                    <ul>
+                                        
+                                            <li><a href="/support">Amazon Developer Support</a></li>
+                                        
+                                            <li><a href="/docs/app-submission/faq-landing.html">FAQs</a></li>
+                                        
+                                            <li><a href="https://forums.developer.amazon.com/">Amazon Developer Forums</a></li>
+                                        
+                                            <li><a href="https://developer.amazon.com/public/support/contact/contact-us?cmp=US_2018-00_OPP_Support-Footer&ch=web&chlast=web&pub=web&publast=web&type=org&typelast=org">Contact Us</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            
+                                <div class="dpfnGroup accrItem">
+                                    <div class='dpIconArrow accrHandle'></div>
+                                    
+                                        
+                                        
+                                            <h3>Legal</h3>
+                                        
+                                    
+                                    <ul>
+                                        
+                                            <li><a href="/terms-and-agreements">Terms & Agreements</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            
+                        </div>
+                    
+                        
+                        </div>
+                    
+                
+            </div>
+        </div>
+    </nav>
+
+    <div class="dpfSocialLocal clearfix">
+        <div class='dpfWidth'>
+            <div class='dpfLocale'>
+                
+
+
+
+<nav class="dpLangSwitcher dpsfFlyout">
+    <span class='dplsTitle'>Language</span>
+    <div class='dplsSwitch'>
+        <span class="dplsCurrent dpsfFlyoutCurrent">
+            <i class='dpsfIcon dpsfIconGlobe'></i>
+            English
+        </span>
+        <div class='dplsOptionsWrap dpsfFlyoutWrap'>
+            <ul class="dplsOptions dpsfFlyoutContent">
+                
+                    
+                    
+                        
+                    
+                    <li class="dplsOption dpsfFlyoutItem dplsOptionActive">
+                        <a data-locale="en_US" href="/sdk-download">
+                            English
+                        </a>
+                    </li>
+                
+                    
+                    
+                    <li class="dplsOption dpsfFlyoutItem ">
+                        <a data-locale="zh_CN" href="/zh/sdk-download">
+                            Chinese (中文)
+                        </a>
+                    </li>
+                
+                    
+                    
+                    <li class="dplsOption dpsfFlyoutItem ">
+                        <a data-locale="ja_JP" href="/ja/sdk-download">
+                            Japanese (日本語)
+                        </a>
+                    </li>
+                
+                    
+                    
+                    <li class="dplsOption dpsfFlyoutItem ">
+                        <a data-locale="de_DE" href="/de/sdk-download">
+                            German (Deutsch)
+                        </a>
+                    </li>
+                
+                    
+                    
+                    <li class="dplsOption dpsfFlyoutItem ">
+                        <a data-locale="fr_FR" href="/fr/sdk-download">
+                            French (Français)
+                        </a>
+                    </li>
+                
+                    
+                    
+                    <li class="dplsOption dpsfFlyoutItem ">
+                        <a data-locale="it_IT" href="/it/sdk-download">
+                            Italian (Italiano)
+                        </a>
+                    </li>
+                
+                    
+                    
+                    <li class="dplsOption dpsfFlyoutItem ">
+                        <a data-locale="es_ES" href="/es/sdk-download">
+                            Spanish (Español)
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+            </div>
+            <div class="dpfSocial">
+                <span class="dpfSocialTitle">
+                    Follow Us:
+                </span>
+                
+                    <a href="https://www.facebook.com/AmazonAppDev">
+                        <img src="https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex/logo-facebook._V290989945_.png" alt="facebook_icon"/>
+                    </a>
+                
+                    <a href="https://www.twitter.com/AmazonAppDev">
+                        <img src="https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex/logo-twitter._V290989945_.png" alt="twitter_icon"/>
+                    </a>
+                
+                    <a href="/public/community/blog">
+                        <img src="https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/dex/logo-blog._V290989945_.png" alt="blog_icon"/>
+                    </a>
+                
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+<div class="dpfAreaOfInterest dpsfFlyout">
+    <span class='dpfaCurrent'>
+        <i class='dpsfIcon dpsfIconDots'></i>
+    </span>
+    <div class="dpfWidth dpsfFlyoutWrap">
+        <div class="dpfaItems dpsfFlyoutContent">
+            <h3><hza:string id="area_of_interest_title" /></h3>
+            
+                <div class="dpfaItem dpsfFlyoutItem">
+                    <a href="/alexa">
+                        <span class='dpfaiText'>Amazon Alexa</span>
+                        <img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/platform-logos/white/Alexalogoheaderwhite._V506548913_.png" alt="Amazon Alexa Icon" />
+                    </a>
+                </div>
+            
+                <div class="dpfaItem dpsfFlyoutItem">
+                    <a href="/apps-and-games">
+                        <span class='dpfaiText'>Amazon Appstore</span>
+                        <img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/platform-logos/white/Appstorelogowhite._V506548913_.png" alt="Amazon Appstore Icon" />
+                    </a>
+                </div>
+            
+                <div class="dpfaItem dpsfFlyoutItem">
+                    <a href="https://aws.amazon.com">
+                        <span class='dpfaiText'>Amazon Web Services</span>
+                        <img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/platform-logos/white/AWS_logo_RGB_WHT._CB1506540482_.png" alt="Amazon Web Services Icon" />
+                    </a>
+                </div>
+            
+                <div class="dpfaItem dpsfFlyoutItem">
+                    <a href="https://developer.amazon.com/mac-pc">
+                        <span class='dpfaiText'>Amazon Software + Games</span>
+                        <img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/platform-logos/softwareandgames_logo_stacked_footer._CB1527665729_.png" alt="Amazon Software + Games Icon" />
+                    </a>
+                </div>
+            
+                <div class="dpfaItem dpsfFlyoutItem">
+                    <a href="https://developer.amazon.com/dash-services">
+                        <span class='dpfaiText'>Amazon Dash Services</span>
+                        <img src="https://m.media-amazon.com/images/G/01/mobile-apps/dex/logos/Dash-White-1x._CB1515447320_.png" alt="Amazon Dash Services Icon" />
+                    </a>
+                </div>
+            
+        </div>
+    </div>
+</div>
+
+    <div class="dpfCopyright">
+        © 2010-2018, Amazon.com, Inc. or its affiliates. All Rights Reserved.
+    </div>
+    <script type="text/javascript">_satellite.pageBottom()</script>
+</footer>
+        <script>
+(function(g,h,K,la){function V(a){t&&t.tag&&t.tag(q(":","aui",a))}function v(a,b){t&&t.count&&t.count("aui:"+a,0===b?0:b||(t.count("aui:"+a)||0)+1)}function m(a){try{return a.test(navigator.userAgent)}catch(b){return!1}}function w(a,b,c){a.addEventListener?a.addEventListener(b,c,!1):a.attachEvent&&a.attachEvent("on"+b,c)}function q(a,b,c,e){b=b&&c?b+a+c:b||c;return e?q(a,b,e):b}function B(a,b,c){try{Object.defineProperty(a,b,{value:c,writable:!1})}catch(e){a[b]=c}return c}function L(){return setTimeout(W,
+0)}function ma(a,b){var c=a.length,e=c,f=function(){e--||(M.push(b),N||(L(),N=!0))};for(f();c--;)X[a[c]]?f():(x[a[c]]=x[a[c]]||[]).push(f)}function na(a,b,c,e,f){var d=h.createElement(a?"script":"link");w(d,"error",e);f&&w(d,"load",f);if(a){d.type="text/javascript";d.async=!0;if(a=c)a=-1!==b.indexOf("images/I")||/AUIClients/.test(b);a&&d.setAttribute("crossorigin","anonymous");d.src=b}else d.rel="stylesheet",d.href=b;h.getElementsByTagName("head")[0].appendChild(d)}function Y(a,b){function c(c,e){function f(){na(b,
+c,h,function(b){!C&&h?(h=!1,v("resource_retry"),f()):(v("resource_error"),a.log("Asset failed to load: "+c,C?"WARN":void 0));b&&b.stopPropagation?b.stopPropagation():g.event&&(g.event.cancelBubble=!0)},e)}if(Z[c])return!1;Z[c]=!0;v("resource_count");var h=!0;return!f()}if(b){var e=0,f=0;c.andConfirm=function(a,b){return c(a,function(){e++;b&&b.apply(this,arguments)})};c.confirm=function(){f++};c.getCsriCounters=function(){return{reqs:e,full:f}}}return c}function oa(a,b,c){for(var e={name:a,guard:function(c){return b.guardFatal(a,
+c)},logError:function(c,d,e){b.logError(c,d,e,a)}},f=[],d=0;d<c.length;d++)D.hasOwnProperty(c[d])&&(f[d]=O.hasOwnProperty(c[d])?O[c[d]](D[c[d]],e):D[c[d]]);return f}function y(a,b,c,e,f){return function(d,h){function l(){var a=null;e?a=h:"function"===typeof h&&(p.start=z(),a=h.apply(g,oa(d,k,m)),p.end=z());if(b){D[d]=a;a=d;for(X[a]=!0;(x[a]||[]).length;)x[a].shift()();delete x[a]}p.done=!0}var k=f||this;"function"===typeof d&&(h=d,d=void 0);b&&(d=(d||"__NONAME__").replace(/^prv:/,""),P.hasOwnProperty(d)&&
+k.error(q(", reregistered by ",q(" by ",d+" already registered",P[d]),k.attribution),d),P[d]=k.attribution);for(var m=[],n=0;n<a.length;n++)m[n]=a[n].replace(/^prv:/,"");var p=aa[d||"anon"+ ++pa]={depend:m,registered:z(),namespace:k.namespace};c?l():ma(m,k.guardFatal(d,l));return{decorate:function(a){O[d]=k.guardFatal(d,a)}}}}function ba(a){return function(){var b=Array.prototype.slice.call(arguments);return{execute:y(b,!1,a,!1,this),register:y(b,!0,a,!1,this)}}}function Q(a,b){return function(c,
+e){e||(e=c,c=void 0);var f=this.attribution;return function(){u.push(b||{attribution:f,name:c,logLevel:a});var d=e.apply(this,arguments);u.pop();return d}}}function E(a,b){this.load={js:Y(this,!0),css:Y(this)};B(this,"namespace",b);B(this,"attribution",a)}function ca(){h.body?n.trigger("a-bodyBegin"):setTimeout(ca,20)}function A(a,b){if(b){for(var c=a.className.split(" "),e=c.length;e--;)if(c[e]===b)return;a.className+=" "+b}}function da(a,b){for(var c=a.className.split(" "),e=[],f;void 0!==(f=c.pop());)f&&
+f!==b&&e.push(f);a.className=e.join(" ")}function ea(a){try{return a()}catch(b){return!1}}function F(){if(G){var a=g.innerWidth?{w:g.innerWidth,h:g.innerHeight}:{w:k.clientWidth,h:k.clientHeight};5<Math.abs(a.w-R.w)||50<a.h-R.h?(R=a,H=4,(a=l.mobile||l.tablet?450<a.w&&a.w>a.h:1250<=a.w)?A(k,"a-ws"):da(k,"a-ws")):0<H&&(H--,fa=setTimeout(F,16))}}function qa(a){(G=void 0===a?!G:!!a)&&F()}function ra(){return G}"use strict";var I=K.now=K.now||function(){return+new K},z=function(a){return a&&a.now?a.now.bind(a):
+I}(g.performance);la=z();var p=g.AmazonUIPageJS||g.P;if(p&&p.when&&p.register)throw Error("A copy of P has already been loaded on this page.");var t=g.ue;V();V("aui_build_date:3.18.9-2018-06-20");var M=[],N=!1,W;W=function(){for(var a=L(),b=I();M.length;)if(M.shift()(),50<I()-b)return;clearTimeout(a);N=!1};m(/OS 6_[0-9]+ like Mac OS X/i)&&w(g,"scroll",L);var X={},x={},Z={},C=!1;w(g,"beforeunload",function(){C=!0;setTimeout(function(){C=!1},1E4)});var P={},D={},O={},aa={},pa=0,S,u=[],ga=g.onerror;
+g.onerror=function(a,b,c,e,f){f&&"object"===typeof f||(f=Error(a,b,c),f.columnNumber=e,f.stack=b||c||e?q(String.fromCharCode(92),f.message,"at "+q(":",b,c,e)):void 0);var d=u.pop()||{};f.attribution=q(":",f.attribution||d.attribution,d.name);f.logLevel=d.logLevel;f.attribution&&console&&console.log&&console.log([f.logLevel||"ERROR",a,"thrown by",f.attribution].join(" "));u=[];ga&&(d=[].slice.call(arguments),d[4]=f,ga.apply(g,d))};E.prototype={logError:function(a,b,c,e){b={message:b,logLevel:c||"ERROR",
+attribution:q(":",this.attribution,e)};if(g.ueLogError)return g.ueLogError(a||b,a?b:null),!0;console&&console.error&&(console.log(b),console.error(a));return!1},error:function(a,b,c,e){a=Error(q(":",e,a,c));a.attribution=q(":",this.attribution,b);throw a;},guardError:Q(),guardFatal:Q("FATAL"),guardCurrent:function(a){var b=u[u.length-1];return b?Q(b.logLevel,b).call(this,a):a},log:function(a,b,c){return this.logError(null,a,b,c)},declare:y([],!0,!0,!0),register:y([],!0),execute:y([]),AUI_BUILD_DATE:"3.18.9-2018-06-20",
+when:ba(),now:ba(!0),trigger:function(a,b,c){var e=I();this.declare(a,{data:b,pageElapsedTime:e-(g.aPageStart||NaN),triggerTime:e});c&&c.instrument&&S.when("prv:a-logTrigger").execute(function(b){b(a)})},handleTriggers:function(){this.log("handleTriggers deprecated")},attributeErrors:function(a){return new E(a)},_namespace:function(a,b){return new E(a,b)}};var n=B(g,"AmazonUIPageJS",new E);S=n._namespace("PageJS","AmazonUI");S.declare("prv:p-debug",aa);n.declare("p-recorder-events",[]);n.declare("p-recorder-stop",
+function(){});B(g,"P",n);ca();if(h.addEventListener){var ha;h.addEventListener("DOMContentLoaded",ha=function(){n.trigger("a-domready");h.removeEventListener("DOMContentLoaded",ha,!1)},!1)}var k=h.documentElement,T=function(){var a=["O","ms","Moz","Webkit"],b=h.createElement("div");return{testGradients:function(){b.style.cssText="background-image:-webkit-gradient(linear,left top,right bottom,from(#9f9),to(white));background-image:-webkit-linear-gradient(left top,#9f9,white);background-image:linear-gradient(left top,#9f9,white);";
+return-1<b.style.backgroundImage.indexOf("gradient")},test:function(c){var e=c.charAt(0).toUpperCase()+c.substr(1);c=(a.join(e+" ")+e+" "+c).split(" ");for(e=c.length;e--;)if(""===b.style[c[e]])return!0;return!1},testTransform3d:function(){var a=!1;g.matchMedia&&(a=g.matchMedia("(-webkit-transform-3d)").matches);return a}}}(),p=k.className,ia=/(^| )a-mobile( |$)/.test(p),ja=/(^| )a-tablet( |$)/.test(p),l={audio:function(){return!!h.createElement("audio").canPlayType},video:function(){return!!h.createElement("video").canPlayType},
+canvas:function(){return!!h.createElement("canvas").getContext},svg:function(){return!!h.createElementNS&&!!h.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect},offline:function(){return navigator.hasOwnProperty&&navigator.hasOwnProperty("onLine")&&navigator.onLine},dragDrop:function(){return"draggable"in h.createElement("span")},geolocation:function(){return!!navigator.geolocation},history:function(){return!(!g.history||!g.history.pushState)},webworker:function(){return!!g.Worker},
+autofocus:function(){return"autofocus"in h.createElement("input")},inputPlaceholder:function(){return"placeholder"in h.createElement("input")},textareaPlaceholder:function(){return"placeholder"in h.createElement("textarea")},localStorage:function(){return"localStorage"in g&&null!==g.localStorage},orientation:function(){return"orientation"in g},touch:function(){return"ontouchend"in h},gradients:function(){return T.testGradients()},hires:function(){var a=g.devicePixelRatio&&1.5<=g.devicePixelRatio||
+g.matchMedia&&g.matchMedia("(min-resolution:144dpi)").matches;v("hiRes"+(ia?"Mobile":ja?"Tablet":"Desktop"),a?1:0);return a},transform3d:function(){return T.testTransform3d()},touchScrolling:function(){return m(/Windowshop|android.([3-9]|[L-Z])|OS ([5-9]|[1-9][0-9]+)(_[0-9]{1,2})+ like Mac OS X|Chrome|Silk|Firefox|Trident.+?; Touch/i)},ios:function(){return m(/OS [1-9][0-9]*(_[0-9]*)+ like Mac OS X/i)&&!m(/trident|Edge/i)},android:function(){return m(/android.([1-9]|[L-Z])/i)&&!m(/trident|Edge/i)},
+mobile:function(){return ia},tablet:function(){return ja}},r;for(r in l)l.hasOwnProperty(r)&&(l[r]=ea(l[r]));for(var U="textShadow textStroke boxShadow borderRadius borderImage opacity transform transition".split(" "),J=0;J<U.length;J++)l[U[J]]=ea(function(){return T.test(U[J])});var G=!0,fa=0,R={w:0,h:0},H=4;F();w(g,"resize",function(){clearTimeout(fa);H=4;F()});var ka={getItem:function(a){try{return g.localStorage.getItem(a)}catch(b){}},setItem:function(a,b){try{return g.localStorage.setItem(a,
+b)}catch(c){}}};da(k,"a-no-js");A(k,"a-js");!m(/OS [1-8](_[0-9]*)+ like Mac OS X/i)||g.navigator.standalone||m(/safari/i)||A(k,"a-ember");p=[];for(r in l)l.hasOwnProperty(r)&&l[r]&&p.push("a-"+r.replace(/([A-Z])/g,function(a){return"-"+a.toLowerCase()}));A(k,p.join(" "));k.setAttribute("data-aui-build-date","3.18.9-2018-06-20");n.register("p-detect",function(){return{capabilities:l,localStorage:l.localStorage&&ka,toggleResponsiveGrid:qa,responsiveGridEnabled:ra}});m(/UCBrowser/i)||l.localStorage&&
+A(k,ka.getItem("a-font-class"));n.declare("a-event-revised-handling",!1);n.declare("a-fix-event-off",!1);v("pagejs:pkgExecTime",z()-NaN)})(window,document,Date);
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/018A8-9pedL._RC|11IYhapguOL.js,61c+9JAnApL.js,21iSNz47xoL.js,012FVc3131L.js,31KE7boYKEL.js,31yRaEj-EtL.js,51rqb0nVCNL.js,11AHlQhPRjL.js,01xMsWWFUQL.js,11CYRXogq+L.js,116tgw9TSaL.js,21auxuI+dRL.js,01PoLXBDXWL.js,61fdakuKr7L.js,01mi-J86cyL.js,110HZneHcZL.js,31Fwa3IMfsL.js,01rpauTep4L.js,11JJQC-EglL.js,01PZxPmIO1L.js_.js?AUIClients/AmazonUI#omit_jquery-true');
+  (window.AmazonUIPageJS ? AmazonUIPageJS : P).load.js('https://images-na.ssl-images-amazon.com/images/I/71MTf+SnNvL.js?AUIClients/DeXWebsiteAUIAssets');
+</script>
+
+    </div></body>
+</html>

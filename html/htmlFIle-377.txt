@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang='ja'>
+<head prefix='og: http://ogp.me/ns# article: http://ogp.me/ns/website#'>
+<meta charset='utf-8'>
+<title>Jector クラウドストレージ</title>
+<meta content='Jector（ジェクター）とは、革新的なコンテンツを生み出していく、すべてのクリエイティブなチームのためのクラウドストレージサービスです。プロジェクトフォルダにメンバーを招待してアセット管理を一元化できます。あらゆるファイルのプレビュー・ストリーミング再生が可能です。' name='description'>
+<meta content='jector,ジェクター,ファイル共有,オンラインストレージ,クラウドストレージ,ワークフロー,サーバー,データ共有,大容量,mac,server,アプリ,プロジェクト,管理,データ保管,バックアップ,ファイル転送,ファイル送信,安全,DAM' name='keywords'>
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Jector クラウドストレージ" />
+<meta property="og:description" content="Jector（ジェクター）とは、革新的なコンテンツを生み出していく、すべてのクリエイティブなチームのためのクラウドストレージサービスです。プロジェクトフォルダにメンバーを招待してアセット管理を一元化できます。あらゆるファイルのプレビュー・ストリーミング再生が可能です。" />
+<meta property="og:url" content="https://jector.jp/users/sign_in" />
+<meta property="og:type" content="article" />
+<meta property="og:site_name" content="Jector" />
+<meta property="og:image" content="https://jector.jp/assets/jector_og_image.png" />
+<meta property="fb:app_id" />
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:site" content="@Jector_jp" />
+<meta property="twitter:description" content="Jector（ジェクター）とは、革新的なコンテンツを生み出していく、すべてのクリエイティブなチームのためのクラウドストレージサービスです。プロジェクトフォルダにメンバーを招待してアセット管理を一元化できます。あらゆるファイルのプレビュー・ストリーミング再生が可能です。" />
+<meta property="twitter:image:src" content="https://jector.jp/assets/jector_og_image.png" />
+<script>
+  (function() {
+    var didInit = false;
+    function initMunchkin() {
+      if(didInit === false) {
+        didInit = true;
+        Munchkin.init('897-CMD-695', {"domainLevel":2});
+      }
+    }
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//munchkin.marketo.net/munchkin.js';
+    s.onreadystatechange = function() {
+      if (this.readyState == 'complete' || this.readyState == 'loaded') {
+        initMunchkin();
+      }
+    };
+    s.onload = initMunchkin;
+    document.getElementsByTagName('head')[0].appendChild(s);
+  })();
+</script>
+
+<script>
+  (function(w,d,s,l,i){
+    w[l]=w[l]||[];
+    w[l].push({
+      'gtm.start':
+      new Date().getTime(), event:'gtm.js'
+    });
+    var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';
+    j.async=true;
+    j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;
+    f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer',"GTM-5V7GZ3B");
+</script>
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="DXw36ZxaGESk7OBCT6zfRh/XKyC8hZWmtuyvj7SIMf0XBZGRZWolca+B7l5reW+DaPbCFZFx99JimiiOh2gS/w==" />
+<link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-02f31c13d3e18e9daea8f31e83d0b147.ico" />
+<link rel="stylesheet" media="all" href="/assets/sign-1432a457ae0531c4ac94a0d3c90cd6bc.css" />
+<link rel="stylesheet" media="all" href="/assets/sign2-6a903fcdb0e8fae2b0f8033e1da2ff9d.css" />
+<link rel="stylesheet" media="screen" href="//cloud.typography.com/6170672/795306/css/fonts.css" />
+<script src="/assets/sign-871e7ab5ee6d4f281552859343866af6.js"></script>
+</head>
+<body>
+<noscript>
+<iframe height='Q' src='https://www.googletagmanager.com/ns.html?id=GTM-5V7GZ3B' style='display:none;visibility:hidden' width='0'></iframe>
+</noscript>
+
+<div class='auth-page ordinary'>
+<div class='login-wrap row'>
+<div class='login sign-in clearfix'>
+<div class='logo-wrap'>
+<img src='/assets/signin_logo_jector.png'>
+</div>
+
+<form id="login-form" class="form-horizontal" action="/users/sign_in" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="xXLA6eH0d9OYoGVEJ27nn3GKNpF3V7Od1N7lnbOqu9TfC2aRGMRK5pPNa1gDu1daBqvfpFqj0ekAqGKcgEqY1g==" /><div class='form-group'>
+<div class='col-sm-13 col-md-13'>
+<input autofocus="autofocus" placeholder="アカウント名またはメールアドレス" class="form-control" value="" type="text" name="db_user[login]" id="db_user_login" />
+</div>
+</div>
+<div class='form-group'>
+<div class='col-sm-13 col-md-13'>
+<input class="form-control" placeholder="パスワード" type="password" name="db_user[password]" id="db_user_password" />
+</div>
+</div>
+<div class='form-group'>
+<div class='col-sm-13 col-md-13'>
+<input class="form-control hidden" placeholder="チームアカウント" autocomplete="off" data-target="enterprise-account-form" value="" type="text" name="db_user[enterprise_account]" id="db_user_enterprise_account" />
+</div>
+</div>
+<a class='select-team' data-action='show-enterprise'>チームアカウント</a>
+<div class='form-group'>
+<div class='col-sm-13 col-md-13'>
+<input type="submit" name="commit" value="ログイン" id="login-btn" class="btn btn-primary" />
+<button class='btn btn-primary disabled hidden' id='loggingin-btn'>
+<div class='jector-spinner'>
+<div class='bounce1'></div>
+<div class='bounce2'></div>
+<div class='bounce3'></div>
+</div>
+</button>
+</div>
+</div>
+<div class='links'>
+<!-- = link_to "Sign up", new_registration_path(resource_name) -->
+<!-- %br/ -->
+<a href="/users/password/new">パスワードを忘れた場合はこちら</a>
+<br>
+
+</div>
+</form>
+</div>
+</div>
+
+</div>
+<div class='plain-footer' id='footer'>
+<div class='container'>
+<ul class='list-unstyled list-inline col-md-8'>
+<li>
+<a href='https://jector.com/'>トップページ</a>
+</li>
+<li>
+<a href='/users/sign_in'>ログイン</a>
+</li>
+<li>
+<a href='/users/sign_up'>無料お試し</a>
+</li>
+<li>
+<a href='/users/password/new'>パスワードのリセット</a>
+</li>
+<li>
+<div class='language-bar'>
+<div class='lang-btn' id='english' onClick="document.cookie = 'top_locale=en;path=/'; window.location.href = window.location.pathname;">
+<p></p>
+English
+</div>
+<span></span>
+ / 
+<div class='lang-btn' id='japanese' onClick="document.cookie = 'top_locale=ja;path=/'; window.location.href = window.location.pathname;">
+<p></p>
+日本語
+</div>
+</div>
+</li>
+</ul>
+<address>Copyright © Nekojarashi Inc. All Rights Reserved.</address>
+</div>
+</div>
+
+<script src='/js/retina.min.js'></script>
+<script src='/js/jquery.placeholder.js'></script>
+
+<script src="/javascripts/devise/jquery-min.js"></script>
+<script src="/javascripts/devise/sugar.js"></script>
+<script src="/javascripts/devise/tooltip.js"></script>
+<script src="/javascripts/devise/bootstrap.js"></script>
+<script src="/javascripts/devise/underscore.js"></script>
+<script src="/assets/devise/devise-37ba053003816f5d2882ccb78f7de974.js"></script>
+<script src="/assets/request_visitor-6aa821796b033e046be009a5586a50fb.js"></script>
+<script src="/assets/contacts-fa27a42b91ee09c53f02ecb2b8b2ae8d.js"></script>
+</body>
+</html>

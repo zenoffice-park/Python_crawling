@@ -1,0 +1,277 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]><html lang="ja" class="ie6"><![endif]-->
+<!--[if IE 7 ]><html lang="ja" class="ie7"><![endif]-->
+<!--[if IE 8 ]><html lang="ja" class="ie8"><![endif]-->
+<!--[if IE 9 ]><html lang="ja" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="ja"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-Ua-Compatible" content="IE=edge" />
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="content-script-type" content="text/javascript">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>お問い合わせ | 一の坊公式サイトl宮城の海と山と森の温泉リゾート</title>
+<meta name="keywords" content="お問い合わせ,宮城,温泉,ホテル,旅館,飲食,美術館,一の坊,いちのぼう" />
+<meta name="description" content="企業、採用、宿泊施設等についてお気軽にお問合せください。" />
+<link rel="index" href="https://www.ichinobo.com/" />
+<link rel="shortcut icon" href="https://www.ichinobo.com/images/common/favicon.ico" />
+<link rel="apple-touch-icon" href="https://www.ichinobo.com/images/common/apple-touch-icon.png" />
+
+<!-- *** stylesheet *** -->
+<link href="https://www.ichinobo.com/css/default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="https://www.ichinobo.com/css/common.css" rel="stylesheet" type="text/css" media="all" />
+
+<!-- *** stylesheet 追加 *** -->
+<link href="https://www.ichinobo.com/css/contact.css" rel="stylesheet" type="text/css" media="all">
+
+<!-- *** javascript *** -->
+<script type="text/javascript" src="https://www.ichinobo.com/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="https://www.ichinobo.com/js/common.js"></script>
+<script type="text/javascript" src="https://www.ichinobo.com/js/analytics_ich.js"></script>
+<script type="text/javascript" charset="utf-8">
+	if ( navigator.userAgent.indexOf('iPhone') != -1 || navigator.userAgent.indexOf('iPod') != -1 || navigator.userAgent.indexOf('Android') != -1) {
+		document.write('<p id="btn_sp_site"><a href="https://www.ichinobo.com/sp/">スマートフォンサイトはこちら</a></p>');
+	}
+	else{
+		document.write('');
+	}
+</script>
+
+<!-- *** javascript 追加 *** -->
+</head>
+
+<body id="contact">
+
+<div id="page">
+
+<div id="header">
+	<div class="con_header">
+		<h1><a href="https://www.ichinobo.com/"><img src="https://www.ichinobo.com/images/header/logo.png" alt="株式会社　一の坊"></a></h1>
+		<div class="box_header">
+			<div class="wrp_text">
+				<p class="title"><img src="https://www.ichinobo.com/images/header/txt_size.png" alt="文字サイズ"></p>
+				<ul id="bt_size" class="bt_size">
+					<li class="middle"><a class="active">中</a></li>
+					<li class="big"><a>大</a></li>
+				</ul>
+			</div>
+			<!-- .wrp_text -->
+			<div id="site_search_box" class="wrp_search">
+				<p class="title"><img src="https://www.ichinobo.com/images/header/txt_search.png" alt="サイト内検索"></p>
+				<form action="https://www.ichinobo.com/search/" id="siteSearch">
+					<input type="text" name="kw" id="word" class="input autoclear" value="サイト内検索" /><input name="serch" type="image" value="" src="https://www.ichinobo.com/images/header/bt_search.png" class="btn_gsearch" id="btn_gsearch" />
+				</form>
+			</div>
+			<!-- #site_search -->
+		</div>
+		<!-- .box_header -->
+	</div>
+	<!-- .con_header -->
+</div><!-- /#header -->
+
+<div class="gnav_area">
+	<div id="gnav">
+		<ul>
+			<li class="gnav_top"><a href="https://www.ichinobo.com/">総合TOP</a></li>
+			<li class="gnav_com"><a href="https://www.ichinobo.com/company/">会社概要</a></li>
+			<li class="gnav_ent"><a id="bt_biz" href="https://www.ichinobo.com/business/">事業案内</a></li>
+			<li class="gnav_club"><a href="https://www.ichinobo.com/club/">一の坊倶楽部</a></li>
+			<li class="gnav_rec"><a id="bt_rec" href="https://www.ichinobo.com/recruit/">採用情報</a></li>
+			<li class="gnav_media"><a href="https://www.ichinobo.com/media/">メディア掲載・プレスリリース</a></li>
+		</ul>
+	</div>
+	<!-- #gnav -->
+</div>
+<!-- .gnav_area -->
+
+<div id="business_nav">
+	<ul>
+		<li><a href="https://www.ichinobo.com/business/">事業案内TOP</a></li>
+		<li><a href="https://www.ichinobo.com/business/matsushima.php">松島一の坊</a></li>
+		<li><a href="https://www.ichinobo.com/business/sakunami.php">ゆづくしSalon一の坊</a></li>
+		<li><a href="https://www.ichinobo.com/business/daikon-no-hana.php">だいこんの花</a></li>
+		<li><a href="https://www.ichinobo.com/business/yutomori.php">ゆと森倶楽部</a></li>
+	</ul>
+</div>
+<!-- #business_nav -->
+
+<div id="rec_nav">
+	<ul>
+		<li><a href="https://www.ichinobo.com/recruit/index.php">採用情報TOP</a></li>
+		<li><a href="https://www.ichinobo.com/recruit/index.php#lnk_new">新卒採用</a></li>
+		<li><a href="https://www.ichinobo.com/recruit/index.php#lnk_car">キャリア採用</a></li>
+		<li><a href="https://www.ichinobo.com/recruit/baito.php">パート・アルバイト採用</a></li>
+	</ul>
+</div>
+<!-- #rec_nav -->
+<div id="contents">
+
+	<div class="con_title">
+		<div class="box_title main">
+			<h2><img src="./images/title.png" alt="お問い合わせ"></h2>
+		</div>
+		<!-- .box_title -->
+	</div>
+	<!-- .con_title -->
+
+	<div class="con_p_lnk">
+		<ul>
+			<li><a href="https://www.ichinobo.com/">TOP</a></li>
+			<li>&nbsp;&gt;&nbsp;お問い合わせ</li>
+		</ul>
+	</div>
+	<!-- .con_p_lnk -->
+
+		<div class="con_form main">
+		<h3><img src="./images/st_form.png" alt="お問い合わせフォーム"></h3>
+		<div class="box_form">
+			<div class="wrp_form">
+				<form action="?" method="post">
+					<input type="hidden" name="contact_mode" value="confirm" />
+					<table>
+						<tbody>
+							<tr>
+								<th>お名前(漢字)<span class="red">*</span></th>
+								<td>
+									姓&nbsp;<input type="text" name="name[]" value="" class="short">&nbsp;&nbsp;&nbsp;名&nbsp;<input type="text" name="name[]" value="" class="short">
+<br>
+									
+								</td>
+							</tr>
+							<tr>
+								<th>お名前(ふりがな)<span class="red">*</span></th>
+								<td>
+									せい&nbsp;<input type="text" name="name_kana[]" value="" class="short">&nbsp;&nbsp;&nbsp;めい&nbsp;<input type="text" name="name_kana[]" value="" class="short">
+<br>
+									
+								</td>
+							</tr>
+							<tr>
+								<th>メールアドレス<span class="red">*</span></th>
+								<td>
+									<input type="text" name="mail" value="" class="short">
+<br>
+									※半角英数字<br>
+									
+								</td>
+							</tr>
+							<tr>
+								<th>電話番号<span class="red">*</span></th>
+								<td>
+									<input type="text" name="tel" value="" class="middle">
+<br>
+									※記入例：012-3456-7890（半角数字+ハイフン）<br>
+									
+								</td>
+							</tr>
+							<tr>
+								<th>これまでに一の坊をご利用された事がありますか</th>
+								<td>
+									<label><input type="radio" name="used" value="0" />&nbsp;はい</label>&nbsp;&nbsp;&nbsp;&nbsp;
+<label><input type="radio" name="used" value="1" />&nbsp;いいえ</label>&nbsp;&nbsp;&nbsp;&nbsp;
+
+									
+								</td>
+							</tr>
+							<tr>
+								<th>お問い合わせ内容<span class="red">*</span></th>
+								<td>
+									<select name="cont_type">
+<option label="-" value="0">-</option>
+<option label="企業について" value="1">企業について</option>
+<option label="宿泊・施設について" value="2">宿泊・施設について</option>
+<option label="採用について" value="3">採用について</option>
+<option label="その他" value="4">その他</option>
+</select>
+
+<br>
+									
+									<textarea name="discription"></textarea>
+<br>
+									
+								</td>
+							</tr>
+						</tbody>
+					</table>
+					<div class="wrp_bt">
+						<ul>
+							<li class="reset"><input type="reset" value="リセット" /></li>
+							<li class="confume"><input type="submit" value="入力内容の確認" /></li>
+						</ul>
+					</div>
+				</form>
+			</div>
+			<!-- .wrp_form -->
+		</div>
+		<!-- .box_form -->
+	</div>
+	<!-- .con_form -->
+</div><!-- /#contents -->
+
+<div id="footer">
+	<div class="con_footer">
+		<div class="box_footer">
+			<p class="btn_ptop"><a href="#page" class="scroll-to"><img src="https://www.ichinobo.com/images/footer/bt_pagetop.png" alt="ページの先頭へ戻る"></a></p>
+			<ul class="fnav">
+				<li><a href="https://www.ichinobo.com/contact/">お問い合わせ</a></li>
+				<li><a href="https://www.ichinobo.com/privacy/">プライバシーポリシー</a></li>
+			</ul>
+		</div>
+		<!-- .box_footer -->
+	</div>
+	<!-- .con_footer -->
+
+	<div class="con_group">
+		<div class="box_group">
+			<ul>
+				<li><a href="https://www.ichinobo.com/daikon-no-hana/" target="_blank"><img src="https://www.ichinobo.com/images/footer/bn_daikon.png" alt="温泉山荘だいこんの花"></a></li>
+				<li><a href="https://www.ichinobo.com/sakunami/" target="_blank"><img src="https://www.ichinobo.com/images/footer/bn_salon.png" alt="ゆづくしSalon 一の坊"></a></li>
+				<li><a href="https://www.ichinobo.com/matsushima/" target="_blank"><img src="https://www.ichinobo.com/images/footer/bn_matsu.png" alt="松島温泉 湯元 松島一の坊"></a></li>
+				<li><a href="https://www.yutomori.com/" target="_blank"><img src="https://www.ichinobo.com/images/footer/bn_yuto.png" alt="「蔵王の森」がつくる美と健康の温泉宿 ゆと森倶楽部"></a></li>
+			</ul>
+			<ul class="three">
+				<li><a href="https://www.ichinobo.com/taritsuan/" target="_blank"><img src="https://www.ichinobo.com/images/footer/bn_kaki.png" alt="かきとあなご 松島 田里津庵（たりつあん）"></a></li>
+				<li><a href="https://www.ichinobo.com/wabiichi/" target="_blank"><img src="https://www.ichinobo.com/images/footer/bn_meet.png" alt="仙台黒毛和牛炭火焼肉　和火一"></a></li>
+				<li><a href="https://www.ichinobo.com/museum/" target="_blank"><img src="https://www.ichinobo.com/images/footer/bn_glass.png" alt="藤田喬平ガラス美術館"></a></li>
+				<li class="view_pc-tab"><a href="https://www.ichinobo.com/gokanso/" target="_blank"><img src="https://www.ichinobo.com/images/footer/bn_ank.jpg" alt="一の坊グループご利用アンケート"></a></li>
+			</ul>
+		</div>
+		<div class="box_address">
+			<div class="box_add_l">
+				<p><a href="../."><img src="https://www.ichinobo.com/images/footer/logo.png" alt="株式会社　一の坊"></a></p>
+				<address>
+					〒980-0013 仙台市青葉区花京院2丁目1-10<br>
+					TEL：022-222-0177／FAX：022-265-9059
+				</address>
+			</div>
+			<div class="qr_area">
+				<div class="sp">
+					<p class="text">
+						スマートフォンからも<br />
+						ご予約できます<br />
+						<br />
+						<a href="mailto:?body=https://www.ichinobo.com/sp/">URLを送信</a>
+					</p>
+				</div>
+				<!-- .sp -->
+			</div>
+			<p class="copy">
+				Copyright &copy; <script type="text/javascript">
+				<!--
+				document.write(new Date().getFullYear());
+				-->
+				</script>&nbsp;ICHINOBO Co.,ltd. All Rights Reserved.
+			</p>
+		</div>
+		<!-- .box_address -->
+	</div>
+	<!-- .con_group -->
+
+</div><!-- /#footer -->
+</div><!-- /#page -->
+
+<!-- JS 追加 -->
+<script type="text/javascript" src="https://www.ichinobo.com/js/analytics_ma.js"></script>
+</body>
+</html>

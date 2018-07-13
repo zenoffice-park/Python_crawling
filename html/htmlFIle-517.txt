@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="ja" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta http-equiv="cache-control" content="no-cache">
+  <meta name="author" content="HITOKUSE Inc.">
+  <meta name="keywords" content="動画広告,リッチメディア広告,広告効果,広告,ネイティブアド,ネイティブ広告,収益化" >
+  <title>Smart Canvas - 動画広告・リッチメディア広告配信プラットフォーム</title>
+  <meta name="description" content="動画・リッチメディア広告配信プラットフォームSmart CanvasはPCやスマートフォンで再生可能な動画プレイヤーやリッチメディア広告を簡単に制作・配信・分析ができる広告プラットフォームです。" />
+  <meta property="og:title" content="SmartCanvas - Smart Canvas - 動画広告・リッチメディア広告配信プラットフォーム" />
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="動画・リッチメディア広告配信プラットフォームSmart CanvasはPCやスマートフォンで再生可能な動画プレイヤーやリッチメディア広告を簡単に制作・配信・分析ができる広告プラットフォームです。" />
+  <meta property="og:url" content="http://smartcanvas.net" />
+  <meta property="og:site_name" content="SmartCanvas" />
+    <meta property="og:image" content="//cdn.smartcanvas.net/images/toppage/og_image.png" />
+
+  <link rel="shortcut icon" href="//cdn.smartcanvas.net/images/favicon.ico" />
+  <link rel="stylesheet" href="//cdn.smartcanvas.net/images/toppage/base.css" />
+  <link rel="apple-touch-icon" href="http://cdn.smartcanvas.net/images/toppage/apple-touch-icon-120x120.png"/>
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+
+  <link href="/assets/landingpage/shared-a8f8b850fb55dfe03f3a19dca36233a2.css" media="all" rel="stylesheet" />
+    <link href="/assets/landingpage/index-404e8d742965c3b74abfd5e6b5587217.css" media="all" rel="stylesheet" />
+  <style type="text/css">
+  /* お問い合わせボタン */
+  #contact-btn {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px 0px;
+    color: #FFF;
+    background: #2d76ae;
+    font-size: 36px;
+    text-align: center;
+    z-index: 10000;
+  }
+  #contact-btn .phone-icon {
+    height: 1em;
+  }
+  #contact-btn div {
+    padding: 10px;
+    font-weight: bold;
+    line-height: 1em;
+    display: inline-block;
+  }
+  #contact-btn .phone {
+    width: 380px;
+    letter-spacing: 2px;
+  }
+  #contact-btn .btn {
+    width: 400px;
+    padding: 12px 10px;
+    margin-right: 20px;
+    border-radius: 6px;
+    color: #3b88c3;
+    background: #FFF;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #FFF), color-stop(1, #BDBDBD));
+    background: -moz-linear-gradient(center top, #FFF 5%, #BDBDBD 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #FFF), color-stop(1, #BDBDBD));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFF', endColorstr='#BDBDBD');
+    font-size: 32px;
+  }
+  #contact-btn .btn:hover {
+    cursor: pointer;
+    opacity: .7;
+  }
+
+  #scene7 .inner .partner {
+    width: 250px;
+    padding: 0;
+
+  }
+  @media screen and (max-width: 851px) {
+    #contact-btn {
+      padding-top: 0px;
+    }
+    #contact-btn.ipad {
+      padding-top: 10px;
+    }
+    #contact-btn.nexus7 {
+      bottom: -1px;
+    }
+    #contact-btn .phone {
+      max-width: 400px;
+      width: 80%;
+      padding: 0px 0px 5px 0px;
+      font-size: 20px;
+    }
+    #contact-btn .btn {
+      width: auto;
+      padding: 8px 10px;
+      margin: 0px;
+      font-size: 18px;
+    }
+  }
+  </style>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TGNJST');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body style="margin: 0; padding: 0;">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGNJST"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+  <img src="//cdn.smartcanvas.net/images/toppage/ishii/menubutton.png" id="menu_button" />
+  <div id="top_header">
+    <div id="header_contents">
+      <div class="list clearfix">
+        <h1><a href="/ja/top"></a></h1>
+        <ul class="clearfix" id="header_nav">
+          <a href="http://hitokuse.com/corporate/" target="_blank"><li>会社情報</li></a>
+          <a href="/ja/sample_ads"><li>アドギャラリー</li></a>
+          <a class="contact_scroll pointer"><li>お問い合わせ</li></a>
+          <a href="/ja/login"><li class="last">ログイン</li></a>
+        </ul>
+      </div>
+    </div>
+    <div id="inset_shadow_wrapper">
+      <div id="inset_shadow"></div>
+    </div>
+  </div>
+  <ul class="clearfix" id="open_nav">
+    <a href="http://hitokuse.com/corporate/" target="_blank"><li>会社情報</li></a>
+    <a href="/ja/sample_ads"><li>アドギャラリー</li></a>
+    <a class="contact_scroll pointer"><li>お問い合わせ</li></a>
+    <a href="/ja/login"><li class="last">ログイン</li></a>
+  </ul>
+
+  <div id="inset_shadow_wrapper">
+    <div id="inset_shadow"></div>
+  </div>
+
+  <div id="scene1" class="scene" >
+    <img src="//cdn.smartcanvas.net/images/toppage/bg.png" class="bg">
+    <img src="//cdn.smartcanvas.net/images/toppage/flush1.png" class="abs" id="flush1" data-0="top:0px;" data-200="top:50px;">
+    <img src="//cdn.smartcanvas.net/images/toppage/flush2.png" class="abs" id="flush2" data-0="bottom:-160px;" data-350="bottom:-50px;">
+    <img src="//cdn.smartcanvas.net/images/toppage/flush4.png" class="abs" id="flash4" data-0="bottom:-160px;" data-350="bottom:-50px;">
+    <div class="inner clearfix" id="catcharea">
+      <div class='left'>
+        <h2>あらゆるデバイスでリッチな広告を</h2>
+      </div>
+      <div class='right'>
+        <img src="//cdn.smartcanvas.net/images/toppage/main.png" id="imac">
+      </div>
+      <div class='left'>
+        PC、タブレット、スマートフォンにHTML5のリッチメディア広告を配信します。<br />動画広告やインタラクティブな広告で、ユーザーを次のステップへ誘導します。
+      </div>
+    </div>
+  </div>
+
+  <div id="scene2" class="scene">
+    <div>
+      <img src="//cdn.smartcanvas.net/images/toppage/2_bg.png" class="abs" id="bg2">
+      <img src="//cdn.smartcanvas.net/images/toppage/2_flush1.png" class="abs" id="bg3">
+      <img src="//cdn.smartcanvas.net/images/toppage/2_flush2.png" class="abs" id="bg4">
+      <img src="//cdn.smartcanvas.net/images/toppage/2_flush3.png" class="abs" id="bg5">
+      <img src="//cdn.smartcanvas.net/images/toppage/2_flush4.png" class="abs" id="bg6">
+    </div>
+
+    <div class='inner clearfix'>
+      <div class="left">
+        <h2><span class='border'>広告効果を最大化</span></h2>
+        <p>HTML5やCSS3といった最新技術を組み合わせ、リッチな広告をユーザーにお届けします。ブランディングやアプリのプロモーションなど、様々な用途でお使い頂けます。</p>
+      </div>
+
+      <div class='right'>
+        <div class='pcView'>
+          <img src="//cdn.smartcanvas.net/images/toppage/car_iphone.png" class="abs" id="car_iphone" data-120="top:120px;opacity:0;" data-320="top:90px;opacity:1;">
+          <div data-220="top:30px;opacity:0;" data-420="top:0px;opacity:1;">
+            <img src="//cdn.smartcanvas.net/images/toppage/car_flush.png" class="abs" id="car_flush">
+            <img src="//cdn.smartcanvas.net/images/toppage/car.png" class="abs" id="car">
+          </div>
+          <!--worrior-->
+          <div data-270="bottom:260px;opacity:0;" data-470="bottom:290px;opacity:1;">
+            <img src="//cdn.smartcanvas.net/images/toppage/hammer.png" class="abs" id="hammer">
+            <img src="//cdn.smartcanvas.net/images/toppage/meet.png" class="abs" id="meet">
+            <img src="//cdn.smartcanvas.net/images/toppage/worrior.png" class="abs" id="worrior">
+          </div>
+
+          <!--cloth-->
+          <div data-320="top:138px;opacity:0;" data-520="top:158px;opacity:1;">
+            <img src="//cdn.smartcanvas.net/images/toppage/cloth.png" class="abs" id="cloth">
+            <img src="//cdn.smartcanvas.net/images/toppage/wallet.png" class="abs" id="wallet">
+            <img src="//cdn.smartcanvas.net/images/toppage/shoes.png" class="abs" id="shoes">
+          </div>
+        </div>
+        <div class='smpView'>
+          <img src="//cdn.smartcanvas.net/images/toppage/characters.png" id='characters'>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="scene3" class="scene">
+    <div class="inner clearfix">
+      <h2 class='tac'><span class='border'>豊富なテンプレート</span></h2>
+      <p class='ta_c'>クリックしてサンプルがご覧になれます。</p>
+      <div class="left" id="sample_wrapper" data-1020="bottom:-100px;opacity:0;" data-1120="bottom:0px;opacity:1;">
+        <div id="sample_wrapper_center">
+          <iframe src="//cdn.smartcanvas.net/index.pkg.html?user=2229&app=5451&type=HK-2_2&no_send=true" width="300" height="250" frameborder="0" class="abs" id="sample"></iframe>
+        </div>
+      </div>
+      <div class="right" id="templates" data-1020="position:relative;right:-50px;opacity:0;" data-1120="right:0px;opacity:1;">
+        <div class="fll template pointer" onclick="reloadFrame('//cdn.smartcanvas.net/index.pkg.html?user=2935&app=16737&type=HK-2_2&no_send=true&redirect=http://hitokuse.com', 300, 250, 'simple')">
+          <img src="//cdn.smartcanvas.net/images/toppage/template1.png" class="simple">
+          <h3>シンプルアニメーション</h3>
+          <p class='en_character'>Simple Animation</p>
+        </div>
+        <div class="fll template pointer" onclick="reloadFrame('//cdn.smartcanvas.net/index.pkg.html?user=2229&app=5461&type=PG-1_5&no_send=true&redirect=http://hitokuse.com',300,250, 'transition')">
+          <img src="//cdn.smartcanvas.net/images/toppage/template2.png" class="transition">
+          <h3>トランジション</h3>
+          <p class='en_character'>Transition</p>
+        </div>
+        <div class="fll template pointer" onclick="reloadFrame('//cdn.smartcanvas.net/index.pkg.html?user_id=8&app=12181&type=DM-1_1&no_send=true&redirect=http://hitokuse.com',300,250, 'movie')">
+          <img src="//cdn.smartcanvas.net/images/toppage/template3.png" class="movie">
+          <h3>ムービー</h3>
+          <p class='en_character'>Movie</p>
+        </div>
+        <div class="clearfix"></div>
+        <div class="fll template pointer" onclick="reloadFrame('//cdn.smartcanvas.net/index.pkg.html?user=2935&app=16734&type=HK-2_2&no_send=true&redirect=http://hitokuse.com',300,250, 'rich')">
+          <img src="//cdn.smartcanvas.net/images/toppage/template4.png" class="rich active">
+          <h3>リッチアニメーション</h3>
+          <p class='en_character'>Rich Animation</p>
+        </div>
+        <div class="fll template pointer" onclick="reloadFrame('//cdn.smartcanvas.net/index.pkg.html?user=2935&app=16746&type=HK-2_2&no_send=true&redirect=http://hitokuse.com',300,250, 'interactive')">
+          <img src="//cdn.smartcanvas.net/images/toppage/template5.png" class="interactive">
+          <h3>インタラクティブ</h3>
+          <p class='en_character'>Interactive</p>
+        </div>
+        <div class="fll template pointer">
+          <img src="//cdn.smartcanvas.net/images/toppage/template6_1.png">
+          <h3>エキスパンド</h3>
+          <p class='en_character'>Expand</p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class='samplebutton'><a href="/ja/sample_ads">サンプルページはこちら</a></div>
+    </div>
+  </div>
+
+
+  <div id="scene4" class="scene">
+    <div class="inner clearfix">
+      <div class='left'>
+        <h2>お望みの広告を簡単に作成</h2>
+        <div class='smpView'>
+          <img src="//cdn.smartcanvas.net/images/toppage/editor_all.png" id="objects">
+        </div>
+        <p>広告作成ソフトSmart Canvas Studioで豊かな表現をサポート。<br />オリジナルの広告はもちろん、豊富なテンプレートに素材を入稿すれば、すぐにスタートできます。</p>
+        <ul class='point'>
+          <li id="list1" data-1670="opacity:0;" data-1720="opacity:1;">プログラミングなしで作成可能</li>
+          <li id="list2" data-1680="opacity:0;" data-1730="opacity:1;">既存の素材をそのまま使用可能</li>
+          <li id="list3" data-1690="opacity:0;" data-1740="opacity:1;">入稿も簡単</li>
+        </ul>
+      </div>
+
+      <div class="right pcView">
+        <img src="//cdn.smartcanvas.net/images/toppage/objects.png" class="abs" id="objects">
+        <img src="//cdn.smartcanvas.net/images/toppage/object1.png" class="abs" id="object1" data-1570="opacity:0;" data-1620="opacity:1;" data-1670="top:50px;left:28px;" data-1870="top:250px;left:208px;">
+        <img src="//cdn.smartcanvas.net/images/toppage/object2.png" class="abs" id="object2" data-1570="opacity:0;" data-1620="opacity:1;">
+        <img src="//cdn.smartcanvas.net/images/toppage/pointer.png" class="abs" id="pointer" data-1670="top:62px;left:102px;" data-1870="top:262px;left:282px;">
+      </div>
+    </div>
+  </div>
+
+  <div id="scene5" class="scene">
+    <div class="inner clearfix">
+      <div class='left'>
+        <h2><span class='border'>クリエイティブを自動最適化</span></h2>
+        <p>最先端の最適化アルゴリズムを用いて、CVRやCTRを最大化するクリエイティブをご利用可能です。</p>
+        <div id="items" class='clearfix pcView'>
+          <div id='crown'>
+            <img src="//cdn.smartcanvas.net/images/toppage/crown.png">
+          </div>
+          <img src="//cdn.smartcanvas.net/images/toppage/item1.png" class="item" id="item1" data-2180="opacity:1;" data-2270="opacity:0.2;">
+          <img src="//cdn.smartcanvas.net/images/toppage/item2.png" class="item" id="item2" data-2270="opacity:1;" data-2420="opacity:0.2;">
+          <img src="//cdn.smartcanvas.net/images/toppage/item3.png" class="item" id="item3">
+          <img src="//cdn.smartcanvas.net/images/toppage/item4.png" class="item" id="item4" data-2180="opacity:1;" data-2270="opacity:0.2;">
+        </div>
+        <div class='smpView'>
+          <img src="//cdn.smartcanvas.net/images/toppage/allBn.png">
+          <img src="//cdn.smartcanvas.net/images/toppage/graph3.png">
+        </div>
+      </div>
+      <div class="right">
+        <img src="//cdn.smartcanvas.net/images/toppage/graph1.png" class="abs" id="graph1">
+        <img src="//cdn.smartcanvas.net/images/toppage/graph2.png" class="abs" id="graph2" data-2270="opacity:0;" data-2520="opacity:1;">
+        <img src="//cdn.smartcanvas.net/images/toppage/graph3.png" class="abs" id="graph3" data-2270="opacity:0;" data-2520="opacity:1;">
+      </div>
+    </div>
+  </div>
+
+  <div id="scene6" class="scene">
+    <div class="inner clearfix">
+      <div class='right'>
+        <h2 class="bordershadow pb10"><span class='border'>ユーザーの行動を可視化</span></h2>
+        <p>ユーザーがタッチ・クリックした領域を視覚化します。時系列で測定可能です。<br />クリエイティブの改善に生かして、効果をより高めることが出来ます。</p>
+      </div>
+      <div class="left" data-2670="bottom:-100px;opacity:0;" data-2770="bottom:0px;opacity:1;">
+          <video width="300" height="325" autoplay loop controls>
+            <source src="//cdn.smartcanvas.net/images/toppage/video3.mp4" type="video/mp4">
+            <source src="//cdn.smartcanvas.net/images/toppage/video5.webm" type="video/webm">
+            Your browser does not support the video tag.
+          </video>
+      </div>
+    </div>
+  </div>
+
+  <div id="scene7" class="scene">
+    <div class="inner clearfix">
+
+
+      <h2 class='tac'><span class='border'>広告配信パートナー</span></h2>
+
+      <h3>アドネットワーク</h3>
+      <div class ='smpView'>
+        <table class="spartners" align="center">
+          <tr>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/zucks-part.png" /></td>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/amoad-part.png" /></td>
+            <td></td>
+
+          </tr>
+
+        </table>
+      </div>
+      <div class="clearfix pcView partners_wrapper">
+        <div class="partners" id="partner2">
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/zucks-part.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/amoad-part.png" /></div>
+
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <h3>DSP</h3>
+      <div class='smpView'>
+        <table class="spartners" align="center">
+          <tr>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/double-click-manager.png" /></td>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/freak-out.png" /></td>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/scale-out.png" /></td>
+          </tr>
+          <tr>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/microad-blade.png" /></td>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/logicad.png" /></td>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/admatrix.png" /></td>
+          </tr>
+          <tr>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/geniee.png" /></td>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/cinarra.png" /></td>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/r-dsp.png" /></td>
+          </tr>
+          <tr>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/market-one.png" /></td>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/profile-passport-dmp-dsp.png" /></td>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/geologic.png" /></td>
+          </tr>
+          <tr>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/sphere.png" /></td>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/adnite.png" /></td>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/kanade.png" /></td>
+          </tr>
+          <tr>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/bypass.png" /></td>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/the-trade-desk.png" /></td>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/ignition-one.png" /></td>
+          </tr>
+          <tr>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/xrost.png" /></td>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/fluct.png" /></td>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/appnexus.png" /></td>
+          </tr>
+          <tr>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/mediamatht1.png" /></td>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/amobee.png" /></td>
+          </tr>
+        </table>
+      </div>
+
+
+
+      <div class="clearfix pcView partners_wrapper">
+        <div class="partners" id="partner1">
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/double-click-manager.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/freak-out.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/microad-blade.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/logicad.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/scale-out.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/admatrix.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/geniee.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/cinarra.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/r-dsp.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/market-one.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/profile-passport-dmp-dsp.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/geologic.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/sphere.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/adnite.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/kanade.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/bypass.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/the-trade-desk.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/ignition-one.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/xrost.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/fluct.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/appnexus.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/mediamatht1.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/amobee.png" /></div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <h3>計測ツール / その他</h3>
+      <div class ='smpView'>
+        <table class="spartners" align="center">
+          <tr>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/fox-part.png" /></td>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/digitalice.png" /></td>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/macromill-part.png" /></td>
+          </tr>
+          <tr>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/kantar.png" /></td>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/party-track.png" /></td>
+            <td><img src="//cdn.smartcanvas.net/images/toppage/partners_logo/adebis.png" /></td>
+          </tr>
+        </table>
+      </div>
+      <div class="clearfix pcView partners_wrapper">
+        <div class="partners" id="partner2">
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/fox-part.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/macromill-part.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/digitalice.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/kantar.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/party-track.png" /></div>
+          <div class="partner"> <img src="//cdn.smartcanvas.net/images/toppage/partners_logo/adebis.png" /></div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      </div>
+      </div>
+
+  <div id="contact-btn" class="contact-btn">
+    <div class="phone">
+      <img alt="Phone" class="phone-icon" src="/assets/icons/phone-604b333aae530f3e83713a8f0b64e5e7.png" /><span class="number">03-6279-4421</span>
+    </div>
+    <div class="btn">お問い合わせはこちら</div>
+  </div>
+
+  <div id="scene9" class="scene">
+    <div class="inner">
+      <h2>お問い合わせ</h2>
+      <div>
+        <form accept-charset="UTF-8" action="https://go.pardot.com/l/315411/2017-05-08/375d" id="newContactForm" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="VuhAdJlnT74TsbnHaQoavAzbgbfTwu0NgNBLnalII9o=" /></div>
+          <table id="inquiry">
+            <tr class='smpView'>
+              <td class='item_inq'>お名前（姓）<span class='en_character'>Family Name</span></td>
+            </tr>
+            <tr>
+              <td class='item_inq pcView'>お名前（姓）<p class='en_character'>Family Name</p></td>
+              <td class='item_inq_input'>
+                <input id="family_name" name="family_name" required="required" type="text" /><br />
+                <span class="warning left">必須項目です</span>
+              </td>
+            </tr>
+
+            <tr class='smpView'>
+              <td class='item_inq'>お名前（名）<span class='en_character'>First Name</span></td>
+            </tr>
+            <tr>
+              <td class='item_inq pcView'>お名前（名）<p class='en_character'>First Name</p></td>
+              <td class='item_inq_input'>
+                <input id="first_name" name="first_name" required="required" type="text" /><br />
+                <span class="warning left">必須項目です</span>
+              </td>
+            </tr>
+
+            <tr class='smpView'>
+              <td class='item_inq'>法人名</td>
+            </tr>
+            <tr>
+              <td class='item_inq pcView'>法人名<p class='en_character'>Corporate Name</p></td>
+              <td class='item_inq_input'>
+                <input id="company" name="company" required="required" type="text" /><br />
+                <span class="warning left">必須項目です</span>
+              </td>
+            </tr>
+
+            <tr>
+              <td class='item_inq pcView'></td>
+              <td class='item_inq_input'>
+                <select id="inquiry_type" name="inquiry[type]"><option value="">選択してください</option>
+<option value="広告主">広告主</option>
+<option value="代理店">代理店</option>
+<option value="アドネットワーク / DSP / SSP">アドネットワーク / DSP / SSP</option>
+<option value="その他">その他</option></select><br />
+                <span class="warning left">必須項目です</span>
+              </td>
+            </tr>
+
+            <tr class='smpView'>
+              <td class='item_inq'>電話番号<span class='en_character'>Phone Number</span></td>
+            </tr>
+            <tr>
+              <td class='item_inq pcView'>電話番号<p class='en_character'>Phone Number</p></td>
+              <td class='item_inq_input'>
+                <input id="phone" name="phone" required="required" type="text" /><br />
+                <span class="warning left">必須項目です</span>
+              </td>
+            </tr>
+
+            <tr class='smpView'>
+              <td class='item_inq'>メールアドレス<span class='en_character'>Email Address</span></td>
+            </tr>
+             <tr>
+              <td class='item_inq pcView'>メールアドレス<p class='en_character'>Email Address</p></td>
+              <td class='item_inq_input'>
+                <input id="email" name="email" required="required" type="email" /><br />
+                <span class="warning left">必須項目です</span>
+              </td>
+            </tr>
+
+            <tr class='smpView'>
+              <td class='item_inq'>お問い合わせ内容<span class='en_character'>Inquiry</span></td>
+            </tr>
+            <tr>
+              <td class='item_inq pcView'>お問い合わせ内容<p>Inquiry</p></td>
+              <td class='item_inq_input'>
+                <textarea id="content" name="content" required="required">
+</textarea><br />
+                <span class="warning left">必須項目です</span>
+              </td>
+            </tr>
+          </table>
+          <div class="form_buttons">
+            <input class="pointer donebutton" name="commit" type="submit" value="送信" />
+          </div>
+</form>      </div>
+    </div>
+  </div>
+
+<script type="text/javascript">
+  // フォームバリデーション
+  $(".warning").hide();
+  $("#newContactForm").submit(function(e){
+    // 初期化
+    $("#newContactForm span.warning").hide();
+    // 必須チェック
+    $("#newContactForm input:visible, #newContactForm textarea:visible, #newContactForm select:visible").each(function(i, item){
+      if(item.value === ""){
+        $(item).parents("td").children(".warning").show();
+      }
+    });
+    // submitを中断
+    if($("#newContactForm .warning:visible").length > 0){ e.preventDefault(); }
+  });
+</script>
+
+  <div id="top_footer" style="text-align:center;">
+    <img src="//cdn.smartcanvas.net/images/iab_logo2.png" alt="" height="35" style="margin:10px;margin-bottom:15px;" />
+    <a class="top_scroll pointer"><div class="top_button"><span>▲</span>TOP</div></a>
+    <div id="top_footer_list" class="center w100">
+        <a href="/ja/privacy">プライバシーポリシー</a> |
+        <a href="http://hitokuse.com/corporate/" target="_blank">会社情報</a> |
+        <a class="contact_scroll pointer">お問い合わせ</a>
+    </div>
+
+    <div class="copyright" style="text-align: center; margin-top: 20px;">
+      Copyright(C) HITOKUSE Inc. All Rights Reserved.
+    </div>
+  </div>
+
+  <script type="text/javascript" src="//cdn.smartcanvas.net/js/skrollr.js"></script>
+  <script type="text/javascript">
+    $( document ).ready(function() {
+      if (navigator.userAgent.indexOf('MSIE 7') > 0 || navigator.userAgent.indexOf('MSIE 8') > 0 || navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPad') > 0 || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0 || navigator.userAgent.indexOf('Kindle') > 0 || navigator.userAgent.indexOf('Silk') > 0 || navigator.userAgent.indexOf('Firefox') > 0) {
+      } else {
+        skrollr.init();
+      }
+      //firefoxのみtop位置がpixelで取得できないため、調整
+      if (location.hash=='#scene9' && navigator.userAgent.indexOf('Firefox')) {
+        $(window).scrollTop($('#scene9 .inner h2').offset().top/2.9);
+      }
+      $(".contact_scroll").on("click", function(){
+        $("html, body").animate({scrollTop: $('#scene9').offset().top}, 800);
+        $('#open_nav').css('display', 'none');
+      });
+      $(".top_scroll").on("click", function(){
+        $("html, body").animate({scrollTop: 0}, 800);
+      });
+      $('img#menu_button').bind('click',function(){
+        if($('#open_nav').css('display') == 'block'){
+          $('#open_nav').css('display', 'none');
+        } else {
+          $('#open_nav').css('display', 'block');
+        }
+      });
+      $('#scene1,#scene2').bind('click',function(){
+        $('#open_nav').css('display', 'none');
+      });
+      $(window).on("scroll touchmove", function() {
+        $('#open_nav').css('display', 'none');
+      });
+    });
+    function reloadFrame(url,w,h, target){
+      var iframe = document.getElementById("sample");
+      iframe.src = url;
+      iframe.style.width = w + "px";
+      iframe.style.height = h + "px";
+      var tpl_array = ["simple", "transition", "movie", "rich", "interactive"];
+      for(var i = 0; i < tpl_array.length; i++){
+        $("." + tpl_array[i]).removeClass("active");
+      }
+      $("." + target).addClass("active");
+    }
+
+/* 常駐お問い合わせボタン */
+// 一定範囲内で出現
+$(window).scroll(function(){
+  var win_height = $(this).height();
+  var positionTop = $(this).scrollTop();
+  // var positionToShow = $('#scene2').offset().top;
+  var positionToHide = $('#scene9').offset().top - win_height;
+  if(positionTop < positionToHide){
+    $('#contact-btn').show();
+  } else {
+    $('#contact-btn').hide();
+  }
+});
+// クリックすると移動
+$('#contact-btn .btn').click(function(){
+  $('#contact-btn').hide();
+  var width = $(window).width(),
+  position = $('#scene9').offset().top;
+  if(width < 668) {
+    $(window).scrollTop(position);
+  } else {
+    $('html, body').animate({
+      scrollTop: position
+    });
+  }
+  $('#name').focus();
+});
+// デバイス対応
+var userAgent = window.navigator.userAgent.toLowerCase();
+if(userAgent.indexOf('ipad;') >= 0){
+  $('#contact-btn').addClass('ipad');
+} else if(userAgent.indexOf('nexus 7') >= 0){
+  $('#contact-btn').addClass('nexus7');
+}
+</script>
+<script src='https://cdn.slaask.com/chat.js'></script>
+<script>
+    _slaask.identify('SmartCanvasLP', {});
+    _slaask.init('3fadd56b05a11b89db5dbcfceb1ce8a5');
+</script>
+</body>
+</html>

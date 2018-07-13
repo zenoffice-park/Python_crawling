@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta name="robots" content="noindex,nofollow" />
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="description" content="フォームにてご質問やお問い合わせなどを承ります株式会社ネオマーケティングは「情報」の収集から、分析、蓄積・管理、運用、配信までのステップを、ワンストップでおこないお客様の課題解決を強力にサポートします！ /contact/">
+	<meta name="keywords" content="フォームでのお問い合わせ,リサーチ,マーケティング,Webマーケティング,PR,広告,渋谷区">
+	<meta name="author" content="株式会社ネオマーケティング">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta property="og:title" content="フォームでのお問い合わせ">
+	<meta property="og:description" content="フォームにてご質問やお問い合わせなどを承ります株式会社ネオマーケティングは「情報」の収集から、分析、蓄積・管理、運用、配信までのステップを、ワンストップでおこないお客様の課題解決を強力にサポートします！">
+	<meta property="og:url" content="https://www.neo-m.jp/contact/index.php">
+	<meta property="og:image" content="/ogimage.png">
+	<meta property="og:site_name" content="株式会社ネオマーケティング">
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="image_src" href="/ogimage.png">
+	<link rel="apple-touch-icon" href="/ogimage.png">
+	<link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/smartDrawer.css">
+	<link rel="stylesheet" type="text/css" href="/assets/css/common.css?20170101">
+	<title>フォームでのお問い合わせ | 株式会社ネオマーケティング</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/contact.css?1611_neo">
+	<link rel="stylesheet" type="text/css" href="assets/css/validationEngine.jquery.css">
+</head>
+<body id="pageContact">
+	<div id="allWrap">
+		<header>
+  <div id="headWrap">
+    <div id="headCont">
+      <div id="headTxt">
+        <span>総合マーケティング支援事業でお客様の仕事を“もっと”面白くする会社</span>
+        <span>株式会社ネオマーケティング</span>
+        <span>NEO MARKETING INC.</span>
+      </div>
+      <div id="headLogo">
+        <a href="/">
+          <img src="/assets/img/headLogo.png" alt="マーケティング支援ホームへ"/>
+        </a>
+      </div>
+      <div id="headSubNav">
+        <nav>
+          <ul>
+            <li>
+              <a href="/research-service/recruit/" class="top_bnr" ga_eventCategory="PCgnav-top-register" ga_eventAction="action_click" ga_eventValue="1">
+                <img src="/assets/img/headSubNav00.svg" alt="パートナー募集">
+                <span>パートナー募集</span>
+              </a>
+            </li>
+            <li>
+              <a href="/recruit/" class="top_bnr" ga_eventCategory="PCgnav-top-recruit" ga_eventAction="action_click" ga_eventValue="1">
+                <img src="/assets/img/headSubNav01.png" alt="採用情報">
+                <span>採用情報</span>
+              </a>
+            </li>
+            <li>
+              <a href="/blog/" class="top_bnr" ga_eventCategory="PCgnav-top-blog" ga_eventAction="action_click" ga_eventValue="1">
+                <img src="/assets/img/headSubNav02.png" alt="ブログ">
+                <span>ブログ</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/neomarketing.inc/" target="_blank" class="top_bnr" ga_eventCategory="PCgnav-top-fb" ga_eventAction="action_click" ga_eventValue="1">
+                <img src="/assets/img/headSubNav03.png" alt="Facebook"/>
+                <span>Facebook</span>
+              </a>
+            </li>
+          </ul>
+          <a href="/contact/" data-target="con1" class="contact_btn" class="top_bnr" ga_eventCategory="PCgnav-top-contact" ga_eventAction="action_click" ga_eventValue="1">
+            <img src="/assets/img/btn_contact.png" alt="お問い合わせ">
+          </a>
+          <span class="info_tel_pc">
+            <img src="/assets/img/iconPhone140.png" alt="電話問い合わせ">
+            <strong>03-6328-2880</strong>
+          </span>
+        </nav>
+      </div>
+      <div id="headNavSp">
+        <div class="sd-trigger">
+          <i class="fa fa-bars"></i>MENU
+        </div>
+        <nav id="sd_nav">
+          <span class="close">CLOSE</span>
+          <ul>
+            <li class="info_tel">
+              <p>お電話でのお問い合わせ</p>
+              <span>
+                <a href="tel:0363282880" class="top_bnr" ga_eventCategory="SPgnav-tel" ga_eventAction="action_click" ga_eventValue="1">03-6328-2880</a>
+              </span>
+            </li>
+            <li>
+              <a href="/" class="top_bnr" ga_eventCategory="SPgnav-home" ga_eventAction="action_click" ga_eventValue="1">マーケティング支援ホーム
+                <img src="/assets/img/pager_arrow.png" alt="マーケティング支援ホームへ">
+              </a>
+            </li>
+            <li>
+              <a href="/research-service/" class="top_bnr" ga_eventCategory="SPgnav-research-service-service" ga_eventAction="action_click" ga_eventValue="1">リサーチメニュー
+                <img src="/assets/img/pager_arrow.png" alt="リサーチメニュー">
+              </a>
+            </li>
+            <li>
+              <a href="/research-service/service/" class="top_bnr" ga_eventCategory="SPgnav-research-service" ga_eventAction="action_click" ga_eventValue="1">そのた調査サービス
+                <img src="/assets/img/pager_arrow.png" alt="リサーチサービス">
+              </a>
+            </li>
+            <li>
+              <a href="/service/" class="top_bnr" ga_eventCategory="SPgnav-service" ga_eventAction="action_click" ga_eventValue="1">事業領域
+                <img src="/assets/img/pager_arrow.png" alt="事業領域">
+              </a>
+            </li>
+            <li>
+              <a href="/work/" class="top_bnr" ga_eventCategory="SPgnav-work" ga_eventAction="action_click" ga_eventValue="1">活用事例
+                <img src="/assets/img/pager_arrow.png" alt="活用事例">
+              </a>
+            </li>
+            <li>
+              <a href="/report/" class="top_bnr" ga_eventCategory="SPgnav-report" ga_eventAction="action_click" ga_eventValue="1">調査レポート
+                <img src="/assets/img/pager_arrow.png" alt="調査レポート">
+              </a>
+            </li>
+            <li>
+              <a href="/column/" class="top_bnr" ga_eventCategory="SPgnav-column" ga_eventAction="action_click" ga_eventValue="1">コラム・用語集
+                <img src="/assets/img/pager_arrow.png" alt="コラム・用語集">
+              </a>
+            </li>
+            <li>
+              <a href="/company/" class="top_bnr" ga_eventCategory="SPgnav-company" ga_eventAction="action_click" ga_eventValue="1">企業情報
+                <img src="/assets/img/pager_arrow.png" alt="企業情報">
+              </a>
+            </li>
+            <li class="sd_nav_small">
+              <a href="/recruit/" class="top_bnr" ga_eventCategory="SPgnav-recruit" ga_eventAction="action_click" ga_eventValue="1">採用情報
+                <img src="/assets/img/pager_arrow.png" alt="採用情報へ">
+              </a>
+            </li>
+            <li class="sd_nav_small">
+              <a href="/blog/" class="top_bnr" ga_eventCategory="SPgnav-blog" ga_eventAction="action_click" ga_eventValue="1">Blog
+                <img src="/assets/img/pager_arrow.png" alt="Blogへ">
+              </a>
+            </li>
+            <li class="sd_nav_small">
+              <a href="https://www.facebook.com/neomarketing.inc/" target="_blank" class="top_bnr" ga_eventCategory="SPgnav-fb" ga_eventAction="action_click" ga_eventValue="1">Facebook
+                <img src="/assets/img/pager_arrow.png" alt="Facebookへ">
+              </a>
+            </li>
+            <li class="sd_nav_small">
+              <a href="/contact/" class="top_bnr" ga_eventCategory="SPgnav-contact" ga_eventAction="action_click" ga_eventValue="1">お問い合わせ
+                <img src="/assets/img/pager_arrow.png" alt="お問い合わせへ">
+              </a>
+            </li>
+            <li class="sd_nav_small">
+              <a href="/privacy/" class="top_bnr" ga_eventCategory="SPgnav-privacy" ga_eventAction="action_click" ga_eventValue="1">プライバシーポリシー
+                <img src="/assets/img/pager_arrow.png" alt="プライバシーポリシーへ">
+              </a>
+            </li>
+            <li class="sd_nav_small">
+              <a href="/security/" class="top_bnr" ga_eventCategory="SPgnav-security" ga_eventAction="action_click" ga_eventValue="1">セキュリティーポリシー
+                <img src="/assets/img/pager_arrow.png" alt="セキュリティーポリシーへ">
+              </a>
+            </li>
+            <li class="sd_nav_small">
+              <a href="/sitemap/" class="top_bnr" ga_eventCategory="SPgnav-sitemap" ga_eventAction="action_click" ga_eventValue="1">サイトマップ
+                <img src="/assets/img/pager_arrow.png" alt="サイトマップへ">
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div id="headNav" class="clearfix">
+      <nav class="cont960">
+
+        <ul id="navi-left">
+          <li>
+            <a href="/research-service/" class="top_bnr" ga_eventCategory="PCgnav-research-service" ga_eventAction="action_click" ga_eventValue="1">リサーチメニュー</a>
+            <ul class="sub-navi">
+             <li>
+                <a href="/research-service/service/netresearch.php" class="top_bnr" ga_eventCategory="PCgnav-research-service-netresearch" ga_eventAction="action_click" ga_eventValue="1">ネットリサーチ</a>
+              </li>
+              <li>
+                <a href="/research-service/service/clt.php" class="top_bnr" ga_eventCategory="PCgnav-research-service-clt" ga_eventAction="action_click" ga_eventValue="1">会場調査</a>
+              </li>
+              <li>
+                <a href="/research-service/service/homeusetest.php" class="top_bnr" ga_eventCategory="PCgnav-research-service-homeusetest" ga_eventAction="action_click" ga_eventValue="1">ホームユーステスト</a>
+              </li>
+              <li>
+                <a href="/research-service/service/mysterycall.php" class="top_bnr" ga_eventCategory="PCgnav-research-service-mysterycall" ga_eventAction="action_click" ga_eventValue="1">ミステリーコール</a>
+              </li>
+              <li>
+                <a href="/research-service/service/" class="top_bnr" ga_eventCategory="PCgnav-research-service" ga_eventAction="action_click" ga_eventValue="1">その他調査サービス</a>
+              </li>
+              <li>
+                <a href="https://www.neo-m.jp/s-hut/" class="top_bnr" ga_eventCategory="PCgnav-research-service" ga_eventAction="action_click" ga_eventValue="1" target="_blank">S-HUT</a>
+              </li>
+              <li>
+                <a href="https://www.neo-m.jp/inbound/" class="top_bnr" ga_eventCategory="PCgnav-research-service" ga_eventAction="action_click" ga_eventValue="1" target="_blank">インバウンドリサーチ</a>
+              </li>
+              <li>
+                <a href="https://www.neo-m.jp/beauty-and-life/" class="top_bnr" ga_eventCategory="PCgnav-research-service" ga_eventAction="action_click" ga_eventValue="1" target="_blank">ビューティ＆ライフ</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/service/" class="top_bnr" ga_eventCategory="PCgnav-service" ga_eventAction="action_click" ga_eventValue="1">事業領域</a>
+            <ul class="sub-navi">
+              <li>
+                <a href="/service/pr/" class="top_bnr" ga_eventCategory="PCgnav-pr" ga_eventAction="action_click" ga_eventValue="1">PR企画</a>
+              </li>
+              <li>
+                <a href="/service/media/" class="top_bnr" ga_eventCategory="PCgnav-media" ga_eventAction="action_click" ga_eventValue="1">メディア発信</a>
+              </li>
+              <li>
+                <a href="/service/it/" class="top_bnr" ga_eventCategory="PCgnav-it" ga_eventAction="action_click" ga_eventValue="1">IT支援</a>
+              </li>
+              <li>
+                <a href="/service/web/" class="top_bnr" ga_eventCategory="PCgnav-web" ga_eventAction="action_click" ga_eventValue="1">Web制作</a>
+              </li>
+              <li>
+                <a href="/service/contact/" class="top_bnr" ga_eventCategory="PCgnav-contact" ga_eventAction="action_click" ga_eventValue="1">コンタクトセンター</a>
+              </li>
+              <li>
+                <a href="/service/bpo/" class="top_bnr" ga_eventCategory="PCgnav-bpo" ga_eventAction="action_click" ga_eventValue="1">BPO</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/report/" class="top_bnr" ga_eventCategory="PCgnav-report" ga_eventAction="action_click" ga_eventValue="1">調査レポート</a>
+            <ul class="sub-navi">
+             <li>
+                <a href="/investigation/" class="top_bnr" ga_eventCategory="PCgnav-Investigation" ga_eventAction="action_click" ga_eventValue="1">自主調査</a>
+              </li>
+
+              <li>
+                <a href="/white-paper/" class="top_bnr" ga_eventCategory="PCgnav-white-paper" ga_eventAction="action_click" ga_eventValue="1">ホワイトペーパー</a>
+              </li>
+            </ul>
+          </li>
+            </ul>
+          </li>
+        </ul>
+        <ul id="navi-right">
+          <li>
+            <a href="/work/" class="top_bnr" ga_eventCategory="PCgnav-work" ga_eventAction="action_click" ga_eventValue="1">活動事例</a>
+            <ul class="sub-navi">
+             <li>
+                <a href="/casestudy/" class="top_bnr" ga_eventCategory="PCgnav-casestudy" ga_eventAction="action_click" ga_eventValue="1">ケーススタディ</a>
+              </li>
+              <li>
+                <a href="/interviews/" class="top_bnr" ga_eventCategory="PCgnav-interviews" ga_eventAction="action_click" ga_eventValue="1">お客様の声</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/column/" class="top_bnr" ga_eventCategory="PCgnav-column" ga_eventAction="action_click" ga_eventValue="1">コラム・用語集</a>
+            <ul class="sub-navi">
+              <li>
+                <a href="/column/marketing-research.php" class="top_bnr" ga_eventCategory="PCgnav-column-research" ga_eventAction="action_click" ga_eventValue="1">マーケティングリサーチ活用術</a>
+              </li>
+             <li>
+                <a href="/column/result.php" class="top_bnr" ga_eventCategory="PCgnav-column-report" ga_eventAction="action_click" ga_eventValue="1">調査結果活用術</a>
+              </li>
+              <li>
+                <a href="/column/technique.php" class="top_bnr" ga_eventCategory="PCgnav-column-technique" ga_eventAction="action_click" ga_eventValue="1">調査データ活用テクニック</a>
+              </li>
+              <li>
+                <a href="/word/" class="top_bnr" ga_eventCategory="PCgnav-word" ga_eventAction="action_click" ga_eventValue="1">用語集</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/company/" class="top_bnr" ga_eventCategory="PCgnav-company" ga_eventAction="action_click" ga_eventValue="1">企業情報</a>
+            <ul class="sub-navi">
+              <li>
+                <a href="/company/philosophy/" class="top_bnr" ga_eventCategory="PCgnav-philosophy" ga_eventAction="action_click" ga_eventValue="1">企業理念</a>
+              </li>
+              <li>
+                <a href="/company/profile/" class="top_bnr" ga_eventCategory="PCgnav-profile" ga_eventAction="action_click" ga_eventValue="1">会社概要</a>
+              </li>
+              <li>
+                <a href="/company/message/" class="top_bnr" ga_eventCategory="PCgnav-c-message" ga_eventAction="action_click" ga_eventValue="1">代表挨拶</a>
+              </li>
+              <li>
+                <a href="/company/history/" class="top_bnr" ga_eventCategory="PCgnav-history" ga_eventAction="action_click" ga_eventValue="1">会社沿革</a>
+              </li>
+              <li>
+                <a href="/message/" class="top_bnr" ga_eventCategory="PCgnav-message" ga_eventAction="action_click" ga_eventValue="1">メッセージ</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>		<div id="mainWrap">
+			<article>
+				<div id="contWrap">
+					<div id="breadCrumbWrap">
+						<nav id="breadCrumb">
+                <ul>
+                  <li itemscope="itempscope" itemtype="http://datavocabulary.org/Breadcrumb"><a href="/" itemprop="url"><span itemprop="title">ホームへ</span></a></li>
+								<li itemscope="itempscope" itemtype="http://datavocabulary.org/Breadcrumb"><i class="fa fa-chevron-right"></i><span itemprop="title">フォームでのお問い合わせ</span></li>
+                </ul>
+              </nav>
+					</div>
+					<div class="ttlWrap">
+<h1 class="h1Line">CONTACT<span>お問い合わせ</span></h1><p class="h2Line"><span>フォームにてご質問やお問い合わせなどを承ります</p></div>
+</div>
+
+					<div class="cont960 box_default">
+						<!--フォームスタート-->
+								<div id="webForm">
+									<form class="form" action="" method="POST" name="form_add" id="form_body">
+										<p>ご相談・資料請求は下記のフォームよりお気軽にお問い合わせ下さい。<br>フォーム中の<span class="cfRequired">必須</span>&nbsp;&nbsp;がついているものは入力必須項目です。</p>
+
+										<div id="form_a" class="clearfix">
+											<dl>
+												<dt><label for="contact">ご相談内容</label><span class="cfRequired">必須</span></dt>
+												<dd id="select">
+<input type="checkbox" name="contact[]" class="validate[required]" data-prompt-position="topLeft:370,-25" value="176" id="check176"> <label for="check176">お問合わせ・資料請求</label><input type="checkbox" name="contact[]" class="validate[required]" data-prompt-position="topLeft:370,-25" value="13" id="check13"> <label for="check13">お見積り依頼</label>												</dd>
+
+												<dt><label for="lastname">お名前</label><span class="cfRequired">必須</span></dt>
+												<dd><input type="text" name="name1" id="lastname" placeholder="姓" class="validate[required]" value=""><input type="text" name="name2" id="firstname" placeholder="名" class="validate[required] spl15" value=""></dd>
+
+												<dt><label for="company">社名・団体名</label><span class="cfRequired">必須</span></dt>
+												<dd><input type="text" name="company_name" id="company" placeholder="個人の場合は「個人」とご入力ください。" class="validate[required]" value=""></dd>
+
+												<dt><label for="tel">電話番号</label><span class="cfRequired">必須</span></dt>
+												<dd><input type="text" name="tel" id="phone" placeholder="03-6328-2880" class="validate[required,custom[phone]]" value="">
+
+												<dt><label for="mailaddress">E-mail</label><span class="cfRequired">必須</span></dt>
+												<dd><input type="text" name="email" placeholder="example@neo-m.jp" id="mailaddress" class="validate[required,custom[email]]" value=""></dd>
+
+												<dt><label for="lastname">都道府県</label></dt>
+												<dd>
+													<select name="address1">
+														<option value="---">選択してください</option>
+						<option value="1">北海道</option>
+<option value="2">青森県</option>
+<option value="3">岩手県</option>
+<option value="4">宮城県</option>
+<option value="5">秋田県</option>
+<option value="6">山形県</option>
+<option value="7">福島県</option>
+<option value="8">茨城県</option>
+<option value="9">栃木県</option>
+<option value="10">群馬県</option>
+<option value="11">埼玉県</option>
+<option value="12">千葉県</option>
+<option value="13">東京都</option>
+<option value="14">神奈川県</option>
+<option value="15">山梨県</option>
+<option value="16">長野県</option>
+<option value="17">新潟県</option>
+<option value="18">富山県</option>
+<option value="19">石川県</option>
+<option value="20">福井県</option>
+<option value="21">岐阜県</option>
+<option value="22">静岡県</option>
+<option value="23">愛知県</option>
+<option value="24">三重県</option>
+<option value="25">滋賀県</option>
+<option value="26">京都府</option>
+<option value="27">大阪府</option>
+<option value="28">兵庫県</option>
+<option value="29">奈良県</option>
+<option value="30">和歌山県</option>
+<option value="31">鳥取県</option>
+<option value="32">島根県</option>
+<option value="33">岡山県</option>
+<option value="34">広島県</option>
+<option value="35">山口県</option>
+<option value="36">徳島県</option>
+<option value="37">香川県</option>
+<option value="38">愛媛県</option>
+<option value="39">高知県</option>
+<option value="40">福岡県</option>
+<option value="41">佐賀県</option>
+<option value="42">長崎県</option>
+<option value="43">熊本県</option>
+<option value="44">大分県</option>
+<option value="45">宮崎県</option>
+<option value="46">鹿児島県</option>
+<option value="47">沖縄県</option>
+<option value="48">海外</option>
+<option value="49">その他</option>
+                          </select>
+												</dd>
+
+												<dt><label for="business">業種</label></dt>
+												<dd>
+													<select name="business">
+														<option value="---">選択してください</option>
+<option value="1">農林水産業</option>
+<option value="2">建設・不動産業</option>
+<option value="3">製造業（食品）</option>
+<option value="4">製造業（飲料）</option>
+<option value="5">製造業（家電）</option>
+<option value="6">製造業（化粧品）</option>
+<option value="7">製造業（日用品）</option>
+<option value="8">製造業（衣服・その他の繊維製品）</option>
+<option value="9">製造業（自動車関連）</option>
+<option value="10">製造業（その他）</option>
+<option value="11">電気・ガス・熱供給・水道業</option>
+<option value="12">情報通信業（通信）</option>
+<option value="13">マスコミ・メディア関連</option>
+<option value="14">印刷・出版業</option>
+<option value="15">運輸業</option>
+<option value="16">商社・卸</option>
+<option value="17">小売業</option>
+<option value="18">金融・保険業</option>
+<option value="19">飲食店、宿泊業</option>
+<option value="20">医療、福祉</option>
+<option value="21">学校・教育・学習支援業</option>
+<option value="22">人材サービス</option>
+<option value="23">娯楽業</option>
+<option value="24">広告・PR業</option>
+<option value="25">マーケティング・コンサルティング業</option>
+<option value="26">官公庁</option>
+<option value="27">上記以外の業界</option>
+                         </select>
+												</dd>
+
+												<dt><label for="department">部署</label></dt>
+												<dd>
+													<select name="occupational">
+														<option value="---">選択してください</option>
+<option value="1">経営</option>
+<option value="2">経営企画・事業企画</option>
+<option value="3">管理</option>
+<option value="4">マーケティング</option>
+<option value="5">営業</option>
+<option value="6">コンサルタント</option>
+<option value="7">情報システム</option>
+<option value="8">研究・開発</option>
+<option value="9">その他</option>
+                          </select>
+												</dd>
+
+												<dt><label for="position">役職</label></dt>
+												<dd>
+													<select name="post">
+														<option value="---">選択してください</option>
+<option value="1">経営者・役員</option>
+<option value="2">部長クラス</option>
+<option value="3">課長・次長クラス</option>
+<option value="4">係長・主任クラス</option>
+<option value="5">一般社員</option>
+<option value="6">その他</option>
+                          </select>
+												</dd>
+												</dl>
+										</div>
+
+										<div id="form_b" class="clearfix">
+											<dl>
+												<dt><label>内容</label><span class="cfRequired">必須</span></dt>
+												<dd><textarea name="text" placeholder="お問い合わせ内容の詳細をご自由にご入力ください。
+												  ※お見積もり概要・お問合わせ・資料請求、又はプレスリリース等
+												" class="validate[required]"></textarea></dd>
+											</dl>
+										</div>
+
+										<div id="cfContPrivacy">
+											<strong>■個人情報の取得利用ついて</strong>
+											<p>お問い合わせフォームへご入力いただいた、お客様の個人情報を下記の利用目的の範囲内で利用させていただきます。<br>あらかじめ、ご了承ください。</p>
+											<strong>１．お問い合わせ対応のため</strong>
+											<strong>２．当社商品・サービスのご案内のため</strong>
+											<p>当社は、お客様の個人情報の流出・漏洩の防止、その他個人情報の安全管理のために必要かつ適切な措置を講じるものとし、法令等に基づく正当な理由がある場合を除き、お客様の同意なく目的外での利用及び第三者への提供は行いません。</p>
+											<p>ご同意頂けない場合はお問い合わせすることができませんので予めご了承ください。</p>
+											<p>当社の個人情報の取扱いに関する苦情、お客様ご本人の情報についての開示・訂正・削除のご依頼につきましては、「<a href="https://www.neo-m.jp/privacy/" target="_blank">個人情報保護方針</a>」を参照してください。</p>
+											<p>■個人情報保護に関する連絡先<br>株式会社ネオマーケティング　個人情報保護管理者<br>E-Mail：info1@neo-m.jp<br>TEL：03-6328-2880</p>
+										</div>
+
+
+										<div class="submit clearfix">
+											<label class="agree"><input name="" type="checkbox" id="check"><span>個人情報の取得利用について同意する</span></label><br>
+											<input type="submit" id="btnContactUs" value="入力内容を確認する" disabled="disabled">
+										</div>
+<input type="hidden" name="act" value="conf" />
+									</form>
+								</div>
+						<!--/フォームスタート-->
+					</div>
+									</div><!-- contWrap end -->
+			</article>
+		</div><!-- mainWrap end -->
+		<footer>
+  <div id="footNavWrap">
+    <nav id="nav_footer">
+      <div id="div_ancToTop">
+        <ul>
+          <li>
+            <a href="/contact/">
+              <img src="/assets/img/btn_contact_a.png" alt="お問い合わせ">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="/assets/img/ancToTop02.png" alt="トップへ">
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div id="div_footerNav" class="cont960">
+        <ul>
+          <li>
+            <a href="/research-service/">リサーチメニュー</a>
+          </li>
+          <li>
+            <a href="/service/">事業領域</a>
+          </li>
+          <li>
+            <a href="/work/">活用事例</a>
+          </li>
+          <li>
+            <a href="/report/">調査レポート</a>
+          </li>
+          <li>
+            <a href="/column/">コラム・用語集</a>
+          </li>
+          <li>
+            <a href="/company/">企業情報</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div id="div_footCopyWrap">
+    <ul>
+      <li>
+        <a href="https://privacymark.jp/" target="_blank">
+          <img src="/assets/img/foot_privacymark.jpg" alt="プライバシーマーク" />
+        </a>
+        <a href="https://isms.jp/lst/ind/CR_JUSE-IR-262.html" target="_blank">
+          <img src="/assets/img/foot_isms.jpg" alt="情報マネジメントシステム推進センター" />
+        </a>
+      </li>
+      <li>
+        <div class="noneTab noneSp">
+          <a href="/contact/">お問い合わせ</a>
+          <a href="/privacy/">プライバシーポリシー</a>
+          <a href="/security/">セキュリティーポリシー</a>
+          <a href="/sitemap/">サイトマップ</a>
+        </div>Copyright &#169;
+        NEO MARKETING INC.All Rights Reserved.
+      </li>
+    </ul>
+  </div>
+</footer>
+<div id="page-top">
+  <div class="cont960">
+    <ul>
+      <li>
+        <img src="/assets/img/iconPhone140_w.png" alt="お電話でのお問い合わせ" class="icon-style">
+        <span style="padding-top:2px;">03-6328-2880（代表）</span>
+      </li>
+      <li>
+        <img src="/assets/img/iconMail140_w.png" alt="問い合わせフォーム" class="icon-style">
+        <a href="/contact/">
+          <span>お問い合わせ・お見積もり・資料請求</span>
+        </a>
+      </li>
+      <!--li>
+        <img src="/assets/img/iconlist140_w.png" alt="資料請求" class="icon-style">
+        <a href="/contact/request/">
+          <span>資料請求</span>
+        </a>
+      </li-->
+<!--       <li>
+        <img src="/assets/img/icontext140_w.png" alt="お見積もり" class="icon-style">
+        <a href="/contact/estimate/">
+          <span>お見積もり</span>
+        </a>
+      </li> -->
+    </ul>
+  </div>
+</div>
+<div id="page-top-sp">
+  <div class="cont960">
+    <ul>
+      <li>
+        <small>お電話でのお問い合わせ </small>
+        <img src="/assets/img/iconPhone140_w.png" alt="お電話でのお問い合わせ" class="icon-style">
+        <span>
+          <a href="tel:0363282880" class="telLink">03-6328-2880（代表）</a>
+        </span>
+        <br>
+      </li>
+    </ul>
+  </div>
+</div>		<script type="text/javascript" src="/assets/js/jquery.min.js"></script>
+		<!--Google Analytics-->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			
+			ga('create', 'UA-30638002-2', 'auto');
+			ga('send', 'pageview');
+		
+		</script>
+		<!--//Google-->
+		<!--Eloqua Async Tracking Scripts-->
+		<script type="text/javascript">
+    var _elqQ = _elqQ || [];
+    _elqQ.push(['elqSetSiteId', '1346812628']);
+    _elqQ.push(['elqTrackPageView']);
+    
+    (function () {
+        function async_load() {
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+            s.src = '//img07.en25.com/i/elqCfg.min.js';
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        }
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+    })();
+</script>
+		<script type="text/javascript" src="/assets/js/smartdrawer.js"></script>
+		<script type="text/javascript" src="/assets/js/common.js"></script>
+		<script type="text/javascript" src="/assets/js/jquery.GAEventTrackListener.js"></script>
+<script type="text/javascript">
+$('.top_bnr').GAEventTrackListener();
+</script>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1270778056316573'); // Insert your pixel ID here.
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1270778056316573&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+<script>
+  	$(function(){
+		$("ul#navi-left li").hover(function(){
+			$("ul.sub-navi:not(:animated)", this).slideDown(150);
+		}, function(){
+			$("ul.sub-navi",this).slideUp(150);
+		});
+	});
+    	$(function(){
+		$("ul#navi-right li").hover(function(){
+			$("ul.sub-navi:not(:animated)", this).slideDown(150);
+		}, function(){
+			$("ul.sub-navi",this).slideUp(150);
+		});
+	});
+</script>
+<!-- Eloqua Async Tracking Scripts Code -->
+<script type="text/javascript">
+    var _elqQ = _elqQ || [];
+    _elqQ.push(['elqSetSiteId', '1346812628']);
+    _elqQ.push(['elqTrackPageView']);
+    
+    (function () {
+        function async_load() {
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+            s.src = '//img07.en25.com/i/elqCfg.min.js';
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        }
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+    })();
+</script>
+<!-- end Eloqua Async Tracking Scripts Code -->	</div><!-- allWrap end -->
+<script type="text/javascript" src="assets/js/jquery.validationEngine.js"></script>
+<script type="text/javascript" src="assets/js/jquery.validationEngine-ja.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function(){
+			jQuery("#form_body").validationEngine();
+		});
+	</script>
+	<script>
+							$(function(){
+
+								$('#btnContactUs').attr("disabled","disabled");
+								$('#check').click(function(){
+
+									if($(this).prop('checked') === false){
+										 $('#btnContactUs').attr("disabled","disabled");
+									}
+									else {
+										$('#btnContactUs').removeAttr('disabled');
+									}
+								});
+
+
+							});
+							</script>
+</body>
+</html>

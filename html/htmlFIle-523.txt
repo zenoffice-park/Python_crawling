@@ -1,0 +1,66 @@
+  <form action="contact.php" method="post">
+  <div class="contact_box">
+    <div class="contact_ttl">お問い合わせ</div>
+    <p>このたびは、当社ホームページにご訪問いただき、誠にありがとうございます。<br>
+      当社業務に関するご質問やご相談については、こちらからお問い合わせください。<br>
+      お送りいただいた内容を確認でき次第、担当者からご連絡させていただきます。</p>
+    <div class="form_box">
+      <div class="form_left">
+        <dl>
+          <dt>会社名 ／ 組織名</dt>
+          <dd>
+            <input type="text" name="companyname" value="" />
+          </dd>
+        </dl>
+        <dl>
+          <dt>お名前<span class="icon_equired">必須</span> </dt>
+          <dd>
+            <input type="text" name="name" value="" />
+            <input type="hidden" name="required[]" value="name">
+            
+          </dd>
+        </dl>
+        <dl>
+          <dt>メールアドレス<span class="icon_equired">必須</span> </dt>
+          <dd>
+            <input type="text" name="email_address" value="" />
+            <input type="hidden" name="required[]" value="email_address">
+            <input type="hidden" name="email[]" value="email_address">
+            
+            
+          </dd>
+        </dl>
+        <dl>
+          <dt>電話番号<span class="icon_equired">必須</span> </dt>
+          <dd>
+            <input type="text" name="tel" value="" />
+            <input type="hidden" name="required[]" value="tel">
+			<input type="hidden" name="num_hyphen[]" value="tel">
+			
+            
+          </dd>
+        </dl>
+      </div>
+      <div class="form_right">
+        <dl>
+          <dt>お問い合わせ内容<span class="icon_equired">必須</span> </dt>
+          <dd class="form_detail">
+            <textarea name="content"></textarea>
+            <input type="hidden" name="required[]" value="content">
+            
+          </dd>
+        </dl>
+      </div>
+      <div class="form_submit">
+        <label>
+          <input type="checkbox" name="privacy" value="on" >
+            <input type="hidden" name="required[]" value="privacy">
+          <a href="https://digishoku.co.jp/privacy.php" target="_blank">プライバシーポリシー</a>に記載された個人情報の取り扱いについて同意する</label>
+            
+            
+        <input type="hidden" name="page" value="finish" />
+        <button type="submit" class="btn">送信する</button>
+      </div>
+    </div>
+  </div>
+  </form>

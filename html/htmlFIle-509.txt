@@ -1,0 +1,301 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja" class="LC_Page_Contact">
+<head>
+<meta name="robots" content="index,follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<title>お問い合わせ(入力ページ)</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="canonical" content="/contact/" />
+<meta property="og:title" content="お問い合わせ(入力ページ)" />
+<meta property="og:site_name" content="株式会社テシード" />
+<meta property="og:url" content="/contact/" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="product" />
+<link rel="stylesheet" href="/user_data/packages/default/css/all.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/user_data/packages/default/css/add.css" type="text/css" media="all" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.tecido.co.jp/rss/" />
+<link rel="shortcut icon" href="/user_data/packages/default/img/common/favicon.ico" />
+<link rel="icon" type="image/vnd.microsoft.icon" href="/user_data/packages/default/img/common/favicon.ico" />
+<script type="text/javascript" src="/js/css.js"></script>
+<script type="text/javascript" src="/js/navi.js"></script>
+<script type="text/javascript" src="/js/win_op.js"></script>
+<script type="text/javascript" src="/js/site.js"></script>
+<script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/user_data/packages/default/js/list_over.js"></script>
+<link rel='stylesheet' type='text/css' href='/plugin/RssFeedBlock/style_pc.css' />
+<meta name="p:domain_verify" content="6f2d29a93c8469890008d8f2a49985b5"/><!-- JQuery -->
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<!-- ここから 高さ調整スクリプト -->
+<script>
+  window.addEventListener("message", receiveSize, false);
+    function receiveSize(e) {
+      if (e.origin === "https://go.tecido.co.jp" && e.data.execFlg ===
+"autoHeight") {
+        document.getElementById("formArea").style.height = e.data.height +
+"px";
+        $("html,body").animate({scrollTop:$('body').offset().top});
+      }
+    }
+</script>
+<!-- ここまで 高さ調整スクリプト --><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-23702480-1', 'auto');
+  ga('send', 'pageview');
+
+</script><script src="https://apis.google.com/js/platform.js" async defer>
+  {lang: 'ja'}
+</script><link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/whhg.css"><meta name="google-site-verification" content="EFnknpMBID03wJCBbD5D23JfYYosnmymakj-ZxEFO_M" /><link href='http://fonts.googleapis.com/css?family=Halant' rel='stylesheet' type='text/css'></head>
+<!-- ▼BODY部 スタート -->
+<body itemscope itemtype="http://schema.org/WebPage">
+      <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>        <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>  
+<div class="frame_outer">
+  <a name="top" id="top"></a>
+      
+        <div id="header_wrap">
+  <div id="header" class="clearfix">
+    <div class="logo_desc">
+      <div id="logo_area">
+        <div id="logo">
+          <a href="http://www.tecido.co.jp/">
+            <img src="/user_data/packages/default/img/common/logo.jpg" alt="株式会社テシード/お問い合わせ(入力ページ)" />
+          </a>
+        </div>
+      </div>
+      <div id="description_wrap"><h1 id="site_description">世界の輸入壁紙（クロス）、ボーダー壁紙、輸入ファブリックを扱うテシード</h1></div>
+    </div>
+            <div id="header_utility">
+      <div id="headerInternalColumn">
+        <div id="header_subnavi">
+                                      <!-- ▼【ヘッダー】ログイン -->
+                              <div id="subnavi_left">
+  <div id="login_btn_area">
+    <div class="block_outer">
+      <div id="header_login_area" class="clearfix">
+        <form name="header_login_form" id="header_login_form" method="post" action="https://www.tecido.co.jp/frontparts/login_check.php" onsubmit="return fnCheckLogin('header_login_form')">
+          <input type="hidden" name="mode" value="login" />
+          <input type="hidden" name="transactionid" value="7f72ab6ff89621ef6ce75ba381039510e7ffd49d" />
+          <input type="hidden" name="url" value="/contact/" />
+          <div class="block_body clearfix">
+                          <ul class="btn_utility">
+                <li class="right"><a href="https://www.tecido.co.jp/mypage/login.php"><img src="/user_data/packages/default/img/header/btn_login2.png" alt="ログイン" onmouseover="this.src='/user_data/packages/default/img/header/btn_login_on2.png','login'" onmouseout="this.src='/user_data/packages/default/img/header/btn_login2.png','login'" /></a></li>
+                <li><a href="http://www.tecido.co.jp/connection.html"><img src="/user_data/packages/default/img/header/btn_shoplist2.png" alt="SHOP LIST" onmouseover="this.src='/user_data/packages/default/img/header/btn_shoplist2_on2.png','btn_shoplist''" onmouseout="this.src='/user_data/packages/default/img/header/btn_shoplist2.png','btn_shoplist''" /></a></li>
+                <li class="left"><a href="http://www.tecido.co.jp/"><img src="/user_data/packages/default/img/header/btn_home2.png" alt="HOME" onmouseover="this.src='/user_data/packages/default/img/header/btn_home_on2.png','btn_home'" onmouseout="this.src='/user_data/packages/default/img/header/btn_home2.png','btn_home'" /></a></li>
+              </ul>
+                      </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+    <form name="search_form" id="search_form" method="get" action="http://www.tecido.co.jp/products/list.php">
+    <input type="hidden" name="transactionid" value="7f72ab6ff89621ef6ce75ba381039510e7ffd49d" />
+    <p id="header_search">
+      <input type="image" onmouseover="chgImgImageSubmit('/user_data/packages/default/img/header/btn_itemsearch_on.png',this)" onmouseout="chgImgImageSubmit('/user_data/packages/default/img/header/btn_itemsearch.png',this)" src="/user_data/packages/default/img/header/btn_itemsearch.png" alt="検索" id="search" />
+      <input type="text" name="name" placeholder="キーワードで商品を探す　品番・色・柄" id="h19" class="box190" maxlength="50" value="" />
+    </p>
+  </form>
+  
+</div>
+                            <!-- ▲【ヘッダー】ログイン -->
+                              </div>
+      </div>
+    </div>
+          </div>
+    <div id="global_navi_wrap">
+    <ul id="global_navi">
+      <li><a href="http://www.tecido.co.jp/products/list.php?category_id=3" onmouseover="chgImg('/user_data/packages/default/img/header/navi01_on.png','navi01');" onmouseout="chgImg('/user_data/packages/default/img/header/navi01.png','navi01');"><img src="/user_data/packages/default/img/header/navi01.png" alt="WALLPAPER 壁紙を探す" name="navi01" id="navi01" /></a></li>
+      <li><a href="http://www.tecido.co.jp/products/list.php?category_id=2" onmouseover="chgImg('/user_data/packages/default/img/header/navi02_on.png','navi02');" onmouseout="chgImg('/user_data/packages/default/img/header/navi02.png','navi02');"><img src="/user_data/packages/default/img/header/navi02.png" alt="FABRIC 生地を探す" name="navi02" id="navi02" /></a></li>
+      <li><a href="http://www.tecido.co.jp/products/list.php?category_id=16" onmouseover="chgImg('/user_data/packages/default/img/header/navi03_on.png','navi03');" onmouseout="chgImg('/user_data/packages/default/img/header/navi03.png','navi03');"><img src="/user_data/packages/default/img/header/navi03.png" alt="OTHERS その他の商品を探す" name="navi03" id="navi03" /></a></li>
+      <li><a href="http://www.tecido.co.jp/brandlist.html" onmouseover="chgImg('/user_data/packages/default/img/header/navi04_on.png','navi04');" onmouseout="chgImg('/user_data/packages/default/img/header/navi04.png','navi04');"><img src="/user_data/packages/default/img/header/navi04.png" alt="BRAND ブランドで探す" name="navi04" id="navi04" /></a></li>
+      <li><a href="https://www.tecido.co.jp/contact/index.php" onmouseover="chgImg('/user_data/packages/default/img/header/navi05_on.png','navi05');" onmouseout="chgImg('/user_data/packages/default/img/header/navi05.png','navi05');"><img src="/user_data/packages/default/img/header/navi05.png" alt="CONTACT お問い合わせ" name="navi05" id="navi05" /></a></li>
+    </ul>
+  </div>
+  </div>  
+  <div id="container" class="clearfix">
+            
+        <div id="maincolumn_wrapper">
+
+                  
+            <div
+                  id="one_maincolumn"
+                class="main_column"
+      >
+                  
+            
+<div id="undercolumn">
+  <div id="under01column">
+    <h2 class="title">お問い合わせ・サンプル請求</h2>
+    <div id="undercolumn_contact">
+      <p>お問い合わせの内容によっては回答をさしあげるのにお時間をいただくこともございます。<br>
+        また、休業日は翌営業日以降の対応となりますのでご了承ください。<br>
+        お問い合わせ後、5日営業日たちましても弊社からの連絡がない場合は、お手数ですが再度お問い合わせください。<br>
+        <b>サンプル受付：月～金　15：00までのご依頼は当日出荷</b></p>
+        <p>&nbsp;</p>
+      <h3>&#9830;2018-2019新カタログ受付中！フォーム→&nbsp;<a href="https://go.tecido.co.jp/l/511991/2018-03-30/2r5485c" target="_blank">(https://go.tecido.co.jp/l/511991/2018-03-30/2r5485c)</a>&nbsp;からお申込み下さい。</h3>
+
+<!------------　上の段　-------------->
+<div class="clearfix p20">
+
+<div class="left" style="width: 460px;">
+<div class="conwhitebox"><img src="/user_data/pages/contact/title_sample.jpg" alt="サンプルのご請求">
+<p>&nbsp;<br>サンプル請求はマイページをご利用下さい。</p>
+<table  class="contact" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a href="http://www.tecido.co.jp/guide/index.php"><img src="/user_data/pages/contact/btn_guide.jpg" alt="初めての方はマイページご利用ガイド"></a></td>
+    <td><a href="https://www.tecido.co.jp/mypage/login.php"><img src="/user_data/pages/contact/btn_mypage.jpg" alt="マイページをお持ちの方はログイン"></a></td>
+  </tr>
+</table>
+</div>
+</div>
+
+<div class="right" style="width: 460px;">
+<div class="conwhitebox"><img src="/user_data/pages/contact/title_buy.jpg" alt="商品のご購入">
+<p>&nbsp;<br>商品のご購入については、下記ページをご覧ください。</p>
+<table  class="contact" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><a href="http://www.tecido.co.jp/connection.html"><img src="/user_data/pages/contact/btn_buy.jpg" alt="WHERE TO BUY/商品のご購入について"></a></td>
+  </tr>
+</table>
+</div>
+</div>
+
+</div>
+<!------------　上の段ここまで　-------------->
+
+<!------------　下の段　-------------->
+<div class="clearfix p20">
+
+<div class="left" style="width: 460px;">
+<div class="conwhitebox"><img src="/user_data/pages/contact/title_company.jpg" alt="お問い合わせ/法人のお客様">
+<p>&nbsp;<br>法人の方は下記よりお問い合わせください。<br><br>
+&#12304;電話&#12305;　03-3982-9051<br>
+&#12304;FAX&#12305;　03-3980-9716</p>
+<table  class="contact" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr><td><a href="http://www.tecido.co.jp/user_data/inq_company.php"><img src="/user_data/pages/contact/btn_company.jpg" alt="CONTACT/法人のお客様"></a></td></tr></table>
+</div>
+</div>
+
+<div class="right" style="width: 460px;">
+<div class="conwhitebox"><img src="/user_data/pages/contact/title_normal.jpg" alt="お問い合わせ/一般のお客様">
+<p>&nbsp;<br>一般の方は下記よりお問い合わせください。<br><br>
+&#12304;電話&#12305;　03-6912-9990　&#x203B;水曜祝日定休<br>
+&#12304;FAX&#12305;　03-3980-9716　&#x203B;水曜祝日定休</p>
+<table  class="contact" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr><td><a href="http://www.tecido.co.jp/user_data/inq_normal.php"><img src="/user_data/pages/contact/btn_normal.jpg" alt="CONTACT/一般のお客様"></a></td></tr></table>
+</div>
+</div>
+
+</div>
+<!------------　下の段ここまで　-------------->
+
+    </div>
+  </div>
+</div>
+            
+    </div>
+    
+        
+  </div>
+  
+        </div>
+
+        
+<div id="pagetop"> <a href="#top" onMouseOver="chgImg('/user_data/packages/default/img/button/pagetop_on.png','pagetopbtn');" onMouseOut="chgImg('/user_data/packages/default/img/button/pagetop.png','pagetopbtn');"> <img src="/user_data/packages/default/img/button/pagetop.png" alt="このページの先頭へ" name="pagetopbtn" id="pagetopbtn" width="48" height="25" /> </a> </div>
+<div id="footer_wrap">
+      <div class="footer_top">
+    <h2><a href="http://www.tecido.co.jp/"><img src="/user_data/packages/default/img/footer/logo_footer.jpg" alt="TECIDO" /></a></h2>
+    <p class="footer_desc">テシードは世界の壁紙メーカーとネットワークを結び、伝統からトレンドまで、さまざまな輸入壁紙（クロス）を販売しています。<br />
+      また、当社はショールームでも、豊富に商品をご紹介しています。ぜひお越しください。</p>
+  </div>
+  <ul class="footer_navi">
+    <li><a href="http://www.tecido.co.jp/"><img src="/user_data/packages/default/img/footer/navi01.jpg" onMouseOver="this.src='/user_data/packages/default/img/footer/navi01_on.jpg'" onMouseOut="this.src='/user_data/packages/default/img/footer/navi01.jpg'" alt="ホーム" /></a></li>
+    <li><a href="http://www.tecido.co.jp/news/"><img src="/user_data/packages/default/img/footer/navi02.jpg" onMouseOver="this.src='/user_data/packages/default/img/footer/navi02_on.jpg'" onMouseOut="this.src='/user_data/packages/default/img/footer/navi02.jpg'" alt="ニュース・トピックス" /></a></li>
+    <li><a href="http://www.tecido.co.jp/catalog.html"><img src="/user_data/packages/default/img/footer/navi12.jpg" onMouseOver="this.src='/user_data/packages/default/img/footer/navi12_on.jpg'" onMouseOut="this.src='/user_data/packages/default/img/footer/navi12.jpg'" alt="カタログ" /></a></li>
+    <li><a href="http://www.tecido.co.jp/affinity.html"><img src="/user_data/packages/default/img/footer/navi13.jpg" onMouseOver="this.src='/user_data/packages/default/img/footer/navi13_on.jpg'" onMouseOut="this.src='/user_data/packages/default/img/footer/navi13.jpg'" alt="輸入壁紙の魅力" /></a></li>
+    <li><a href="http://www.tecido.co.jp/point.html"><img src="/user_data/packages/default/img/footer/navi14.jpg" onMouseOver="this.src='/user_data/packages/default/img/footer/navi14_on.jpg'" onMouseOut="this.src='/user_data/packages/default/img/footer/navi14.jpg'" alt="壁紙選びのポイント" /></a></li>
+    <li><a href="http://www.tecido.co.jp/roomset.html"><img src="/user_data/packages/default/img/footer/navi15.jpg" onMouseOver="this.src='/user_data/packages/default/img/footer/navi15_on.jpg'" onMouseOut="this.src='/user_data/packages/default/img/footer/navi15.jpg'" alt="施工例" /></a></li>
+    <li><a href="http://www.tecido.co.jp/social.html"><img src="/user_data/packages/default/img/footer/navi16.jpg" onMouseOver="this.src='/user_data/packages/default/img/footer/navi16_on.jpg'" onMouseOut="this.src='/user_data/packages/default/img/footer/navi16.jpg'" alt="公式アカウント" /></a></li>
+    <li><a href="http://www.tecido.co.jp/connection.html"><img src="/user_data/packages/default/img/footer/navi11.jpg" onMouseOver="this.src='/user_data/packages/default/img/footer/navi11_on.jpg'" onMouseOut="this.src='/user_data/packages/default/img/footer/navi11.jpg'" alt="SHOP LISET" /></a></li>
+    <li><a href="https://www.tecido.co.jp/contact/index.php"><img src="/user_data/packages/default/img/footer/navi09.jpg" onMouseOver="this.src='/user_data/packages/default/img/footer/navi09_on.jpg'" onMouseOut="this.src='/user_data/packages/default/img/footer/navi09.jpg'" alt="お問い合わせ" /></a></li>
+  </ul>
+  <div id="footer" class="clearfix">
+    <ul id="footer_guide">
+      <li><a href="http://www.tecido.co.jp/company.html">会社概要</a></li>
+      <li><a href="http://www.tecido.co.jp/showroom.html">ショールーム</a></li>
+      <li><a href="http://www.tecido.co.jp/guide/index.php">ご利用ガイド</a></li>
+      <li><a href="http://www.tecido.co.jp/qa.html">Q&A</a></li>
+      <li class="end"><a href="http://www.tecido.co.jp/guide/privacy.php">プライバシーポリシー</a></li>
+          </ul>
+    <div id="copyright">当サイトの画像・情報等を無断に複製、転用、販売する事を禁じます<br />
+      Copyright&copy;
+      TECIDO, LTD.
+      .All&nbsp;rights&nbsp;reserved.</div>
+  </div>
+</div>  
+      </div>
+
+      <script type="text/javascript">
+piAId = '512991';
+piCId = '96306';
+piHostname = 'pi.pardot.com';
+
+(function() {
+ function async_load(){
+  var s = document.createElement('script'); s.type = 'text/javascript';
+  s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+  var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+ }
+ if(window.attachEvent) { window.attachEvent('onload', async_load); }
+ else { window.addEventListener('load', async_load, false); }
+})();
+</script>        <script type="text/javascript">
+piAId = '512991';
+piCId = '96306';
+piHostname = 'pi.pardot.com';
+
+(function() {
+ function async_load(){
+  var s = document.createElement('script'); s.type = 'text/javascript';
+  s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+  var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+ }
+ if(window.attachEvent) { window.attachEvent('onload', async_load); }
+ else { window.addEventListener('load', async_load, false); }
+})();
+</script>            
+<form action="https://www.tecido.co.jp/contact/index.php" method="post" name="form_product_contact" id="form_product_contact">
+  <input type="hidden" name="mode" value="" />
+  <input type="hidden" name="products_name" value="" />
+  <input type="hidden" name="transactionid" value="7f72ab6ff89621ef6ce75ba381039510e7ffd49d" />
+</form>
+<form action="https://www.tecido.co.jp/shopping/index.php" method="post" name="form_shopping_nonmember" id="form_shopping_nonmember">
+  <input type="hidden" name="mode" value="" />
+  <input type="hidden" name="transactionid" value="7f72ab6ff89621ef6ce75ba381039510e7ffd49d" />
+  <input type="hidden" name="cartKey" value="" />
+</form>
+</body><!-- ▲BODY部 エンド -->
+</html>

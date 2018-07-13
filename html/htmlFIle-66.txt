@@ -1,0 +1,6261 @@
+<!DOCTYPE HTML><html lang="en" dir="ltr" class="no-js non-ie" xmlns:wb="http://open.weibo.com/wb">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="dns-prefetch" href="//assets.adobedtm.com">
+<link rel="dns-prefetch" href="https://images.philips.com">
+<link rel="dns-prefetch" href="//philipselectronicsne.tt.omtrdc.net">
+<link rel="dns-prefetch" href="//philips.112.2o7.net">
+
+<link rel="preconnect" href="//assets.adobedtm.com">
+<link rel="preconnect" href="https://images.philips.com">
+<link rel="preconnect" href="//philipselectronicsne.tt.omtrdc.net">
+<link rel="preconnect" href="//philips.112.2o7.net">
+
+
+<link rel="preload" href="/crsc/images/1ae70358e14e05c50950a65b9f8dab75.woff2" as="font" type="font/woff2" media="(min-width:701px)" crossorigin>
+    <link rel="preload" href="/crsc/images/0c7658f73f4bf3704f3065c48971bc65.woff2" as="font" type="font/woff2" media="(min-width:701px)" crossorigin>
+    <link rel="preload" href="/crsc/images/18eaadf63f1c8bcdd7b4225274ced4a5.woff2" as="font" type="font/woff2" media="(min-width:701px)" crossorigin>
+    <link rel="preload" href="/crsc/images/1899c4cd5c6009d130a2488d2567eec5.woff2" as="font" type="font/woff2" media="(min-width:701px)" crossorigin>
+  <link rel="preload" href="/c-etc/philips/clientlibs/foundation-general/clientlibs-css-rb2014/images/generic/wordmark_1x.svg" as="image" type="image/svg+xml" media="max-resolution: 1.99dppx" crossorigin>
+<link rel="preload" href="/c-etc/philips/clientlibs/foundation-general/clientlibs-css-rb2014/images/generic/wordmark_2x.svg" as="image" type="image/svg+xml" media="min-resolution: 2dppx" crossorigin><script>
+window.dtm=window.dtm || {};
+dtm.dnt=false;
+</script>
+<title>Philips - Global</title>
+<meta name="description" content="Philips is a leading health technology company focused on improving people’s lives and enabling better outcomes across the health continuum.">
+<meta name="keywords" content="">
+<meta name="PHILIPS.CONTEXT.LOCALE" content="en_aa">
+<meta name="PHILIPS.CONTEXT.CM.ENABLE" content="true"><meta name="ISS_BASEURL" content="https://www.philips.com/">
+<meta name="ISS_PAGETYPE" content="home">
+<meta name="ISS_FILTER_SITE" content="">
+<meta name="ISS_FILTER_INFOTYPE" content="">
+<meta name="ISS_KEYWORD" content="">
+<meta name="PHILIPS.METRICS.COUNTRY" content="global">
+<meta name="PHILIPS.METRICS.LANGUAGE" content="en">
+<meta name="PHILIPS.METRICS.DIVISION" content="CO">
+<meta name="PS_CARDTYPE" content="generic">
+<meta name="PS_CONTENTTYPE_KEY" content="">
+<meta name="PS_TITLE" content="Global">
+<meta name="PS_SUBTITLE" content="">
+<meta name="PS_BODYTEXT" content="Philips is a leading health technology company focused on improving people’s lives and enabling better outcomes across the health continuum.">
+<meta property="og:title" content="Philips - Global">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://www.philips.com/">
+<meta property="og:site_name" content="Philips">
+<meta property="og:description" content="Philips is a leading health technology company focused on improving people’s lives and enabling better outcomes across the health continuum.">
+<meta property="twitter:card" content="summary_large_image"><script src="/analytics/tools_lib.js"></script>
+    <script src="/analytics/tms_lib.js"></script>
+    <link rel="canonical" href="https://www.philips.com/global"/>
+    <link rel="apple-touch-icon" href="/c-etc/philips/clientlibs/foundation-base/clientlibs-css/img/favicon/favicon-hd.png">
+<link rel="icon" href="/c-etc/philips/clientlibs/foundation-base/clientlibs-css/img/favicon/favicon-s.png">
+<!--[if IE]>
+<link rel="shortcut icon" href="/c-etc/philips/clientlibs/foundation-base/clientlibs-css/img/favicon/favicon.ico">
+<![endif]-->
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/c-etc/philips/clientlibs/foundation-base/clientlibs-css/img/favicon/favicon-hd.png">
+<!-- domainAndPageUrlCheck -->
+<link rel="stylesheet" href="/c-etc/designs/b2c-seamless-theme/clientlibs.min.180709.css" type="text/css">
+
+<script type="text/javascript">
+/*!
+ * modernizr v3.3.1
+ * Build https://modernizr.com/download?-canvas-csstransforms-csstransforms3d-csstransitions-flexbox-fullscreen-localstorage-objectfit-svg-touchevents-addtest-domprefixes-mq-prefixes-setclasses-testallprops-testprop-teststyles-dontmin
+ *
+ * Copyright (c)
+ *  Faruk Ates
+ *  Paul Irish
+ *  Alex Sexton
+ *  Ryan Seddon
+ *  Patrick Kettner
+ *  Stu Cox
+ *  Richard Herrera
+
+ * MIT License
+ */
+(function(X,aA,au){var ay=[];
+var ap=[];
+var U={_version:"3.3.1",_config:{classPrefix:"test-",enableClasses:true,enableJSClass:true,usePrefixes:true},_q:[],on:function(b,a){var c=this;
+setTimeout(function(){a(c[b])
+},0)
+},addTest:function(c,b,a){ap.push({name:c,fn:b,options:a})
+},addAsyncTest:function(a){ap.push({name:null,fn:a})
+}};
+var aa=function(){};
+aa.prototype=U;
+aa=new aa();
+/*!
+{
+  "name": "SVG",
+  "property": "svg",
+  "caniuse": "svg",
+  "tags": ["svg"],
+  "authors": ["Erik Dahlstrom"],
+  "polyfills": [
+    "svgweb",
+    "raphael",
+    "amplesdk",
+    "canvg",
+    "svg-boilerplate",
+    "sie",
+    "dojogfx",
+    "fabricjs"
+  ]
+}
+!*/
+;
+aa.addTest("svg",!!aA.createElementNS&&!!aA.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect);
+/*!
+{
+  "name": "Local Storage",
+  "property": "localstorage",
+  "caniuse": "namevalue-storage",
+  "tags": ["storage"],
+  "knownBugs": [],
+  "notes": [],
+  "warnings": [],
+  "polyfills": [
+    "joshuabell-polyfill",
+    "cupcake",
+    "storagepolyfill",
+    "amplifyjs",
+    "yui-cacheoffline"
+  ]
+}
+!*/
+;
+aa.addTest("localstorage",function(){var a="modernizr";
+try{localStorage.setItem(a,a);
+localStorage.removeItem(a);
+return true
+}catch(b){return false
+}});
+var aq=(U._config.usePrefixes?" -webkit- -moz- -o- -ms- ".split(" "):["",""]);
+U._prefixes=aq;
+function af(b,a){return typeof b===a
+}function P(){var e;
+var c;
+var g;
+var d;
+var h;
+var f;
+var a;
+for(var b in ap){if(ap.hasOwnProperty(b)){e=[];
+c=ap[b];
+if(c.name){e.push(c.name.toLowerCase());
+if(c.options&&c.options.aliases&&c.options.aliases.length){for(g=0;
+g<c.options.aliases.length;
+g++){e.push(c.options.aliases[g].toLowerCase())
+}}}d=af(c.fn,"function")?c.fn():c.fn;
+for(h=0;
+h<e.length;
+h++){f=e[h];
+a=f.split(".");
+if(a.length===1){aa[a[0]]=d
+}else{if(aa[a[0]]&&!(aa[a[0]] instanceof Boolean)){aa[a[0]]=new Boolean(aa[a[0]])
+}aa[a[0]][a[1]]=d
+}ay.push((d?"":"no-")+a.join("-"))
+}}}}var i=aA.documentElement;
+var aC=i.nodeName.toLowerCase()==="svg";
+function aB(c){var b=i.className;
+var d=aa._config.classPrefix||"";
+if(aC){b=b.baseVal
+}if(aa._config.enableJSClass){var a=new RegExp("(^|\\s)"+d+"no-js(\\s|$)");
+b=b.replace(a,"$1"+d+"js$2")
+}if(aa._config.enableClasses){b+=" "+d+c.join(" "+d);
+aC?i.className.baseVal=b:i.className=b
+}}var at="Moz O ms Webkit";
+var R=(U._config.usePrefixes?at.toLowerCase().split(" "):[]);
+U._domPrefixes=R;
+var Z;
+(function(){var a=({}).hasOwnProperty;
+if(!af(a,"undefined")&&!af(a.call,"undefined")){Z=function(c,b){return a.call(c,b)
+}
+}else{Z=function(c,b){return((b in c)&&af(c.constructor.prototype[b],"undefined"))
+}
+}})();
+U._l={};
+U.on=function(b,a){if(!this._l[b]){this._l[b]=[]
+}this._l[b].push(a);
+if(aa.hasOwnProperty(b)){setTimeout(function(){aa._trigger(b,aa[b])
+},0)
+}};
+U._trigger=function(b,c){if(!this._l[b]){return
+}var a=this._l[b];
+setTimeout(function(){var d,e;
+for(d=0;
+d<a.length;
+d++){e=a[d];
+e(c)
+}},0);
+delete this._l[b]
+};
+function ah(e,b){if(typeof e=="object"){for(var a in e){if(Z(e,a)){ah(a,e[a])
+}}}else{e=e.toLowerCase();
+var c=e.split(".");
+var d=aa[c[0]];
+if(c.length==2){d=d[c[1]]
+}if(typeof d!="undefined"){return aa
+}b=typeof b=="function"?b():b;
+if(c.length==1){aa[c[0]]=b
+}else{if(aa[c[0]]&&!(aa[c[0]] instanceof Boolean)){aa[c[0]]=new Boolean(aa[c[0]])
+}aa[c[0]][c[1]]=b
+}aB([(!!b&&b!=false?"":"no-")+c.join("-")]);
+aa._trigger(e,b)
+}return aa
+}aa._q.push(function(){U.addTest=ah
+});
+function ac(){if(typeof aA.createElement!=="function"){return aA.createElement(arguments[0])
+}else{if(aC){return aA.createElementNS.call(aA,"http://www.w3.org/2000/svg",arguments[0])
+}else{return aA.createElement.apply(aA,arguments)
+}}}
+/*!
+{
+  "name": "Canvas",
+  "property": "canvas",
+  "caniuse": "canvas",
+  "tags": ["canvas", "graphics"],
+  "polyfills": ["flashcanvas", "excanvas", "slcanvas", "fxcanvas"]
+}
+!*/
+;
+aa.addTest("canvas",function(){var a=ac("canvas");
+return !!(a.getContext&&a.getContext("2d"))
+});
+/*!
+{
+  "name": "CSS Supports",
+  "property": "supports",
+  "caniuse": "css-featurequeries",
+  "tags": ["css"],
+  "builderAliases": ["css_supports"],
+  "notes": [{
+    "name": "W3 Spec",
+    "href": "http://dev.w3.org/csswg/css3-conditional/#at-supports"
+  },{
+    "name": "Related Github Issue",
+    "href": "github.com/Modernizr/Modernizr/issues/648"
+  },{
+    "name": "W3 Info",
+    "href": "http://dev.w3.org/csswg/css3-conditional/#the-csssupportsrule-interface"
+  }]
+}
+!*/
+;
+var ad="CSS" in X&&"supports" in X.CSS;
+var ai="supportsCSS" in X;
+aa.addTest("supports",ad||ai);
+function Q(){var a=aA.body;
+if(!a){a=ac(aC?"svg":"body");
+a.fake=true
+}return a
+}function an(d,a,k,b){var c="modernizr";
+var l;
+var e;
+var j;
+var g;
+var h=ac("div");
+var f=Q();
+if(parseInt(k,10)){while(k--){j=ac("div");
+j.id=b?b[k]:c+(k+1);
+h.appendChild(j)
+}}l=ac("style");
+l.type="text/css";
+l.id="s"+c;
+(!f.fake?h:f).appendChild(l);
+f.appendChild(h);
+if(l.styleSheet){l.styleSheet.cssText=d
+}else{l.appendChild(aA.createTextNode(d))
+}h.id=c;
+if(f.fake){f.style.background="";
+f.style.overflow="hidden";
+g=i.style.overflow;
+i.style.overflow="hidden";
+i.appendChild(f)
+}e=a(h,d);
+if(f.fake){f.parentNode.removeChild(f);
+i.style.overflow=g;
+i.offsetHeight
+}else{h.parentNode.removeChild(h)
+}return !!e
+}var av=(function(){var a=X.matchMedia||X.msMatchMedia;
+if(a){return function(b){var c=a(b);
+return c&&c.matches||false
+}
+}return function(b){var c=false;
+an("@media "+b+" { #modernizr { position: absolute; } }",function(d){c=(X.getComputedStyle?X.getComputedStyle(d,null):d.currentStyle).position=="absolute"
+});
+return c
+}
+})();
+U.mq=av;
+var ak=U.testStyles=an;
+/*!
+{
+  "name": "Touch Events",
+  "property": "touchevents",
+  "caniuse" : "touch",
+  "tags": ["media", "attribute"],
+  "notes": [{
+    "name": "Touch Events spec",
+    "href": "https://www.w3.org/TR/2013/WD-touch-events-20130124/"
+  }],
+  "warnings": [
+    "Indicates if the browser supports the Touch Events spec, and does not necessarily reflect a touchscreen device"
+  ],
+  "knownBugs": [
+    "False-positive on some configurations of Nokia N900",
+    "False-positive on some BlackBerry 6.0 builds – https://github.com/Modernizr/Modernizr/issues/372#issuecomment-3112695"
+  ]
+}
+!*/
+;
+aa.addTest("touchevents",function(){var a;
+if(("ontouchstart" in X)||X.DocumentTouch&&aA instanceof DocumentTouch){a=true
+}else{var b=["@media (",aq.join("touch-enabled),("),"heartz",")","{#modernizr{top:9px;position:absolute}}"].join("");
+ak(b,function(c){a=c.offsetTop===9
+})
+}return a
+});
+var V=(U._config.usePrefixes?at.split(" "):[]);
+U._cssomPrefixes=V;
+function ab(b,a){return !!~(""+b).indexOf(a)
+}function aj(a){return a.replace(/([a-z])-([a-z])/g,function(b,c,d){return c+d.toUpperCase()
+}).replace(/^-/,"")
+}var az=function(a){var e=aq.length;
+var c=X.CSSRule;
+var b;
+if(typeof c==="undefined"){return au
+}if(!a){return false
+}a=a.replace(/^@/,"");
+b=a.replace(/-/g,"_").toUpperCase()+"_RULE";
+if(b in c){return"@"+a
+}for(var g=0;
+g<e;
+g++){var d=aq[g];
+var f=d.toUpperCase()+"_"+b;
+if(f in c){return"@-"+d.toLowerCase()+"-"+a
+}}return false
+};
+U.atRule=az;
+function ag(a,b){return function(){return a.apply(b,arguments)
+}
+}function al(d,a,b){var c;
+for(var e in d){if(d[e] in a){if(b===false){return d[e]
+}c=a[d[e]];
+if(af(c,"function")){return ag(c,b||a)
+}return c
+}}return false
+}var S={elem:ac("modernizr")};
+aa._q.push(function(){delete S.elem
+});
+var W={style:S.elem.style};
+aa._q.unshift(function(){delete W.style
+});
+function aw(a){return a.replace(/([A-Z])/g,function(b,c){return"-"+c.toLowerCase()
+}).replace(/^ms-/,"-ms-")
+}function ae(c,b){var d=c.length;
+if("CSS" in X&&"supports" in X.CSS){while(d--){if(X.CSS.supports(aw(c[d]),b)){return true
+}}return false
+}else{if("CSSSupportsRule" in X){var a=[];
+while(d--){a.push("("+aw(c[d])+":"+b+")")
+}a=a.join(" or ");
+return an("@supports ("+a+") { #modernizr { position: absolute; } }",function(e){return getComputedStyle(e,null).position=="absolute"
+})
+}}return au
+}function Y(e,j,b,d){d=af(d,"undefined")?false:d;
+if(!af(b,"undefined")){var n=ae(e,b);
+if(!af(n,"undefined")){return n
+}}var a,h,m,k,c;
+var l=["modernizr","tspan","samp"];
+while(!W.style&&l.length){a=true;
+W.modElem=ac(l.shift());
+W.style=W.modElem.style
+}function g(){if(a){delete W.style;
+delete W.modElem
+}}m=e.length;
+for(h=0;
+h<m;
+h++){k=e[h];
+c=W.style[k];
+if(ab(k,"-")){k=aj(k)
+}if(W.style[k]!==au){if(!d&&!af(b,"undefined")){try{W.style[k]=b
+}catch(f){}if(W.style[k]!=c){g();
+return j=="pfx"?k:true
+}}else{g();
+return j=="pfx"?k:true
+}}}g();
+return false
+}var ax=U.testProp=function(b,c,a){return Y([b],au,c,a)
+};
+function ao(a,d,e,c,b){var g=a.charAt(0).toUpperCase()+a.slice(1),f=(a+" "+V.join(g+" ")+g).split(" ");
+if(af(d,"string")||af(d,"undefined")){return Y(f,d,c,b)
+}else{f=(a+" "+(R).join(g+" ")+g).split(" ");
+return al(f,d,e)
+}}U.testAllProps=ao;
+function ar(b,a,c){return ao(b,au,au,a,c)
+}U.testAllProps=ar;
+/*!
+{
+  "name": "Flexbox",
+  "property": "flexbox",
+  "caniuse": "flexbox",
+  "tags": ["css"],
+  "notes": [{
+    "name": "The _new_ flexbox",
+    "href": "http://dev.w3.org/csswg/css3-flexbox"
+  }],
+  "warnings": [
+    "A `true` result for this detect does not imply that the `flex-wrap` property is supported; see the `flexwrap` detect."
+  ]
+}
+!*/
+;
+aa.addTest("flexbox",ar("flexBasis","1px",true));
+/*!
+{
+  "name": "CSS Transforms",
+  "property": "csstransforms",
+  "caniuse": "transforms2d",
+  "tags": ["css"]
+}
+!*/
+;
+aa.addTest("csstransforms",function(){return navigator.userAgent.indexOf("Android 2.")===-1&&ar("transform","scale(1)",true)
+});
+/*!
+{
+  "name": "CSS Transforms 3D",
+  "property": "csstransforms3d",
+  "caniuse": "transforms3d",
+  "tags": ["css"],
+  "warnings": [
+    "Chrome may occassionally fail this test on some systems; more info: https://code.google.com/p/chromium/issues/detail?id=129004"
+  ]
+}
+!*/
+;
+aa.addTest("csstransforms3d",function(){var d=!!ar("perspective","1px",true);
+var a=aa._config.usePrefixes;
+if(d&&(!a||"webkitPerspective" in i.style)){var c;
+var b="#modernizr{width:0;height:0}";
+if(aa.supports){c="@supports (perspective: 1px)"
+}else{c="@media (transform-3d)";
+if(a){c+=",(-webkit-transform-3d)"
+}}c+="{#modernizr{width:7px;height:18px;margin:0;padding:0;border:0}}";
+ak(b+c,function(e){d=e.offsetWidth===7&&e.offsetHeight===18
+})
+}return d
+});
+/*!
+{
+  "name": "CSS Transitions",
+  "property": "csstransitions",
+  "caniuse": "css-transitions",
+  "tags": ["css"]
+}
+!*/
+;
+aa.addTest("csstransitions",ar("transition","all",true));
+var am=U.prefixed=function(b,c,a){if(b.indexOf("@")===0){return az(b)
+}if(b.indexOf("-")!=-1){b=aj(b)
+}if(!c){return ao(b,"pfx")
+}else{return ao(b,c,a)
+}};
+/*!
+{
+  "name": "Fullscreen API",
+  "property": "fullscreen",
+  "caniuse": "fullscreen",
+  "notes": [{
+    "name": "MDN documentation",
+    "href": "https://developer.mozilla.org/en/API/Fullscreen"
+  }],
+  "polyfills": ["screenfulljs"],
+  "builderAliases": ["fullscreen_api"]
+}
+!*/
+;
+aa.addTest("fullscreen",!!(am("exitFullscreen",aA,false)||am("cancelFullScreen",aA,false)));
+/*!
+{
+  "name": "CSS Object Fit",
+  "caniuse": "object-fit",
+  "property": "objectfit",
+  "tags": ["css"],
+  "builderAliases": ["css_objectfit"],
+  "notes": [{
+    "name": "Opera Article on Object Fit",
+    "href": "https://dev.opera.com/articles/css3-object-fit-object-position/"
+  }]
+}
+!*/
+;
+aa.addTest("objectfit",!!am("objectFit"),{aliases:["object-fit"]});
+P();
+aB(ay);
+delete U.addTest;
+delete U.addAsyncTest;
+for(var T=0;
+T<aa._q.length;
+T++){aa._q[T]()
+}X.Modernizr=aa
+})(window,document);
+Modernizr.addTest("correctvh",function(){return !navigator.userAgent.match(/(iPad|iPhone);.*CPU.*OS (6|7)_\d/i)
+});
+Modernizr.addTest("touch",function(){return Modernizr.touchevents
+});
+(function(){var d=document.documentElement;
+var c="no-js";
+if(Modernizr._config.classPrefix&&d.className.indexOf(c)>-1){d.className=d.className.replace(c,Modernizr._config.classPrefix+"js")
+}})();
+</script>
+</head><body class="tpl21-topicpage " style=" " data-country="global" data-language="en" data-locale="en_AA">
+<!--<noindex>-->
+    <!-- HEADER SECTION START -->
+    <div class="basepage page genericheaderpage"><div class="component-base header n02v3-header">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="p-n02v3 p-layout-row p-n02v3__hamburger--close
+     
+    default 
+     
+     
+     "
+    data-n25="false"
+    data-flyout-links = "{&quot;registerProduct&quot;:&quot;https://www.philips.com/myphilips/register-product.html#tab\u003dregister-product&quot;,&quot;login&quot;:&quot;https://www.philips.com/myphilips/login.html#tab\u003dlog-in&quot;,&quot;myAccount&quot;:&quot;https://www.philips.com/myphilips/register-product.html#tab\u003duser&quot;,&quot;signUp&quot;:&quot;https://www.philips.com/myphilips/login.html#tab\u003dsign-up&quot;}">
+    
+    <div class="p-layout-inner">
+        
+
+
+
+
+
+
+
+
+<div class="p-n02v3__mz">
+
+    
+    
+
+    
+    
+
+    
+    
+        <div class="p-n02v3__mzsearch">
+            <div class="search se18-gsa-search-box">
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+
+
+
+<section class="p-se18-gsa-search-box
+    "
+    id=""
+    data-comp-id="se18GsaSearchBox"
+    data-collection=""
+    data-client=""
+    data-biasing-configuration="a__corporate"
+    data-filter-query=""
+    data-required-fields=""
+    data-gsa-search-result-url="https://www.philips.com/a-w/search.html"
+    data-search-input-param="yes"
+    data-show-auto-suggestion="yes"
+    data-show-suggested-results="no"
+    data-autocomplete-min-chars ="2"
+    data-max-auto-suggestion ="4"
+    data-max-auto-suggested-result ="4"
+    data-gsa-server-url="https://www.search.philips.com/"
+    data-proxy-stylesheet-suggested="pr_master_main_onlyres"
+    data-sector="common"
+    data-analytics=""
+    data-proxy-stylesheet-variant="pr_master_main"
+    data-search-on-pageload="no"
+    data-sorting-on-pageload=""
+    data-sort-order-on-pageload=""
+    data-sort-by-on-pageload=""
+    >
+    <div class="p-layout-row ">
+        <div class="p-layout-inner p-se18-inner-wrapper">
+
+            
+
+            <form class="p-form p-search-form" id='se18form_52343' action="">
+                <fieldset>
+                    <input class="p-search-box p-search-padding" type="text" name="q" placeholder="What are you looking for?" autocomplete="off"/>
+                    <div class="p-reset-wrapper">
+                        <button class="p-icon-close p-small p-reset" type="reset"></button>
+                    </div>
+                    <button class="p-icon-search p-search"
+                        type="submit" form='se18form_52343'></button>
+                </fieldset>
+            </form>
+
+            <div class="p-se18-gsa-auto-suggestions">
+                
+                    <section class="p-se18-gsa-suggested-terms">
+                        <p class="p-body-copy-02 p-title-terms">
+                            Search terms
+                        </p>
+                        <div class="p-se18-wrapper"></div>
+                    </section>
+                
+                
+                
+
+                <script type="text/x-handlebars-template" data-template="se18-gsa-search-box-terms">
+                    <li>
+                        <div class="p-content">
+                            <p class="p-body-copy-02 p-title-result">{{{name}}}</p>
+                        </div>
+                    </li>
+                </script>
+            </div>
+
+        </div>
+    </div>
+</section></div>
+
+            <div class="p-n02v3__mzsearch--open">
+                <span class="p-icon-magnifier" aria-label="Search"></span>
+            </div>
+            <div class="p-n02v3__mzsearch--close">
+                <span class="p-icon-close" aria-label="Close"></span>
+            </div>
+        </div>
+    
+
+    
+    <div class="p-n02v3__mzhamburger">
+        <div class="p-n02v3__mzhamburger--open">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0" y="0" width="20" height="20" viewBox="0, 0, 64, 64"
+                aria-label="Open the menu">
+                <path d="M0,54.398 L0,47.999 L63.995,47.999 L63.995,54.398 L0,54.398 z M0,35.2 L0,28.8 L63.995,28.8 L63.995,35.2 L0,35.2 z M0,16.001 L0,9.602 L64,9.602 L64,16.001 L0,16.001 z" fill="#fff" id="hamburger_menu"/>
+            </svg>
+        </div>
+        <div class="p-n02v3__mzhamburger--close">
+            <span class="p-icon-close" aria-label="Close the menu"></span>
+        </div>
+    </div>
+
+</div>
+    </div>
+    
+    <div class="p-layout-inner">
+        <div class="p-n02v3__shape">
+    <a href='https://www.philips.com/' title="Home" class="p-n02v3__shapelink">
+        
+        <div class="p-n02v3__brand">
+            
+                <div class="p-n02v3__shapegradient">
+                    <div class="p-body-copy-03">Home</div>
+                </div>
+            
+            <div class="p-n02v3__philips">
+                <img src="/c-etc/philips/clientlibs/foundation-general/clientlibs-css-rb2014/images/generic/wordmark_1x.svg" srcset="/etc/philips/clientlibs/foundation-general/clientlibs-css-rb2014/images/generic/wordmark_1x.svg 1x, /etc/philips/clientlibs/foundation-general/clientlibs-css-rb2014/images/generic/wordmark_2x.svg 2x" width="85" alt="Philips"/>
+            </div>
+            <div class="p-n02v3__shapetop" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" preserveAspectRatio="xMidYMid meet"
+                    x="0" y="0" width="98" height="45" viewBox="0, 0, 196, 90">
+                    <path d="M154.001,90.001 C176.012,90.022 195.966,82.011 196.001,60 L196.001,0.001 L-0.001,0.001 L-0.001,90.001 L154.001,90.001 z" fill="#fff" id="Shape_top" />
+               </svg>
+            </div>
+        </div>
+
+        
+        
+    </a>
+</div>
+    </div>
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="p-n02v3__menu">
+    
+    <div class="p-n02v3__mobiletopbg" aria-hidden="true"></div>
+    <div class="p-n02v3__mobilebottombg" aria-hidden="true"></div>
+    
+
+    
+    <div class="p-n02v3__m1bg">
+        <div class="p-n02v3__mwrap">
+            <div class="p-n02v3__m1title"></div>
+            
+            <ul class="p-n02v3__m1">
+                
+                    
+                    
+                    
+                    
+                    
+                    <li class="p-n02v3__mli p-m-1
+                        
+                        ">
+                        
+                            
+                                
+                                <span class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":for_consumers">
+                                    <span class="p-n02v3__m1item p-body-copy-01 p-heading-light">For consumers</span>
+                                </span>
+                                
+                                    
+                                    
+                                        
+                                        <div class="p-n02v3__m2bg p-n02v3__mflyout p-hidden
+                                            ">
+                                            <div class="p-n02v3__mwrap">
+                                                <div class="p-n02v3__mtitle p-n02v3__t--col14">
+                                                    <div class="p-n02v3__mback">Back</div>
+                                                    <div class="p-n02v3__listtitle ">
+                                                        <div class="p-n02v3__mclose"><span class="p-icon-close" arial-label="Back"></span></div>
+                                                        <div class="p-heading-02 p-heading-light">For consumers</div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <ul class="p-n02v3__m2 p-n02v3__m--col14">
+                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <li class="p-n02v3__mli p-m-1-1
+                                                            ">
+                                                            <a href='https://www.philips.com/c-cs/global-country-selector.html' class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":for_consumers:products">
+                                                                <span class="p-body-copy-01 p-heading-light">Products</span>
+                                                            </a>
+                                                            
+                                                        </li>
+                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <li class="p-n02v3__mli p-m-1-2
+                                                            ">
+                                                            <a href='https://www.philips.nl/shop/country-selector/' class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":for_consumers:shop">
+                                                                <span class="p-body-copy-01 p-heading-light">Shop</span>
+                                                            </a>
+                                                            
+                                                        </li>
+                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <li class="p-n02v3__mli p-m-1-3
+                                                            ">
+                                                            <a href='https://www.philips.com/c-cs/support-country-selector.html' class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":for_consumers:product_support">
+                                                                <span class="p-body-copy-01 p-heading-light">Product support</span>
+                                                            </a>
+                                                            
+                                                        </li>
+                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <li class="p-n02v3__mli p-m-1-4
+                                                            ">
+                                                            <a href='https://www.philips.co.uk/e/promo/promotions.html' class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":for_consumers:promotions">
+                                                                <span class="p-body-copy-01 p-heading-light">Promotions</span>
+                                                            </a>
+                                                            
+                                                        </li>
+                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <li class="p-n02v3__mli p-m-1-5
+                                                            ">
+                                                            <a href='https://www.philips.com/welcome' class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":for_consumers:register_your_product">
+                                                                <span class="p-body-copy-01 p-heading-light">Register your product</span>
+                                                            </a>
+                                                            
+                                                        </li>
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                   
+                                
+                            
+                            
+                        
+                    </li>
+                
+                    
+                    
+                    
+                    
+                    
+                    <li class="p-n02v3__mli p-m-2
+                        
+                        ">
+                        
+                            
+                                
+                                <span class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":for_professionals">
+                                    <span class="p-n02v3__m1item p-body-copy-01 p-heading-light">For professionals</span>
+                                </span>
+                                
+                                    
+                                    
+                                        
+                                        <div class="p-n02v3__m2bg p-n02v3__mflyout p-hidden
+                                            ">
+                                            <div class="p-n02v3__mwrap">
+                                                <div class="p-n02v3__mtitle p-n02v3__t--col14">
+                                                    <div class="p-n02v3__mback">Back</div>
+                                                    <div class="p-n02v3__listtitle ">
+                                                        <div class="p-n02v3__mclose"><span class="p-icon-close" arial-label="Back"></span></div>
+                                                        <div class="p-heading-02 p-heading-light">For professionals</div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <ul class="p-n02v3__m2 p-n02v3__m--col14">
+                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <li class="p-n02v3__mli p-m-2-1
+                                                            ">
+                                                            <a href='https://www.usa.philips.com/healthcare' class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":for_professionals:healthcare">
+                                                                <span class="p-body-copy-01 p-heading-light">Healthcare</span>
+                                                            </a>
+                                                            
+                                                        </li>
+                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <li class="p-n02v3__mli p-m-2-2
+                                                            ">
+                                                            <a href='http://www.lighting.philips.com/' class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":for_professionals:lighting">
+                                                                <span class="p-body-copy-01 p-heading-light">Lighting</span>
+                                                            </a>
+                                                            
+                                                        </li>
+                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <li class="p-n02v3__mli p-m-2-3
+                                                            ">
+                                                            <a href='https://www.philips.com/dictation' class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":for_professionals:professional_dictation_solutions">
+                                                                <span class="p-body-copy-01 p-heading-light">Professional Dictation Solutions</span>
+                                                            </a>
+                                                            
+                                                        </li>
+                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <li class="p-n02v3__mli p-m-2-4
+                                                            ">
+                                                            <a href='https://www.philips.co.uk/p-m-pr/professional-displays-homepage.html' class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":for_professionals:professional_display_solutions">
+                                                                <span class="p-body-copy-01 p-heading-light">Professional display solutions</span>
+                                                            </a>
+                                                            
+                                                        </li>
+                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <li class="p-n02v3__mli p-m-2-5
+                                                            ">
+                                                            <a href='http://www.innovationservices.philips.com/' class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":for_professionals:philips_innovation_services">
+                                                                <span class="p-body-copy-01 p-heading-light">Philips Innovation Services</span>
+                                                            </a>
+                                                            
+                                                        </li>
+                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <li class="p-n02v3__mli p-m-2-6
+                                                            ">
+                                                            <a href='https://www.usa.philips.com/healthcare/solutions/mother-and-child-care' class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":for_professionals:philips_avent_professional">
+                                                                <span class="p-body-copy-01 p-heading-light">Philips AVENT professional</span>
+                                                            </a>
+                                                            
+                                                        </li>
+                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <li class="p-n02v3__mli p-m-2-7
+                                                            ">
+                                                            <a href='https://www.philips.com/a-w/rewards-programs/our-solutions.html' class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":for_professionals:b2b_rewards_programs_solution">
+                                                                <span class="p-body-copy-01 p-heading-light">B2B rewards programs solution</span>
+                                                            </a>
+                                                            
+                                                        </li>
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                   
+                                
+                            
+                            
+                        
+                    </li>
+                
+                    
+                    
+                    
+                    
+                    
+                    <li class="p-n02v3__mli p-m-3
+                        
+                        ">
+                        
+                            
+                                
+                                <span class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":about_philips">
+                                    <span class="p-n02v3__m1item p-body-copy-01 p-heading-light">About Philips</span>
+                                </span>
+                                
+                                    
+                                    
+                                        
+                                        <div class="p-n02v3__m2bg p-n02v3__mflyout p-hidden
+                                            ">
+                                            <div class="p-n02v3__mwrap">
+                                                <div class="p-n02v3__mtitle p-n02v3__t--col14">
+                                                    <div class="p-n02v3__mback">Back</div>
+                                                    <div class="p-n02v3__listtitle ">
+                                                        <div class="p-n02v3__mclose"><span class="p-icon-close" arial-label="Back"></span></div>
+                                                        <div class="p-heading-02 p-heading-light">About Philips</div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <ul class="p-n02v3__m2 p-n02v3__m--col14">
+                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <li class="p-n02v3__mli p-m-3-1
+                                                            ">
+                                                            <a href='https://www.philips.com/a-w/about/company.html' class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":about_philips:company_profile">
+                                                                <span class="p-body-copy-01 p-heading-light">Company profile</span>
+                                                            </a>
+                                                            
+                                                        </li>
+                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <li class="p-n02v3__mli p-m-3-2
+                                                            ">
+                                                            <a href='https://www.philips.com/a-w/about/investor.html' class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":about_philips:investor_relations">
+                                                                <span class="p-body-copy-01 p-heading-light">Investor relations</span>
+                                                            </a>
+                                                            
+                                                        </li>
+                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <li class="p-n02v3__mli p-m-3-3
+                                                            ">
+                                                            <a href='https://www.philips.com/a-w/about/news/home.html' class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":about_philips:news_center">
+                                                                <span class="p-body-copy-01 p-heading-light">News center</span>
+                                                            </a>
+                                                            
+                                                        </li>
+                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <li class="p-n02v3__mli p-m-3-4
+                                                            ">
+                                                            <a href='https://www.philips.com/a-w/about/sustainability.html' class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":about_philips:sustainability">
+                                                                <span class="p-body-copy-01 p-heading-light">Sustainability</span>
+                                                            </a>
+                                                            
+                                                        </li>
+                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <li class="p-n02v3__mli p-m-3-5
+                                                            ">
+                                                            <a href='https://www.careers.philips.com/global/en' class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":about_philips:careers">
+                                                                <span class="p-body-copy-01 p-heading-light">Careers</span>
+                                                            </a>
+                                                            
+                                                        </li>
+                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <li class="p-n02v3__mli p-m-3-6
+                                                            ">
+                                                            <a href='https://www.philips.com/innovationmatters' class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":about_philips:blog">
+                                                                <span class="p-body-copy-01 p-heading-light">Blog</span>
+                                                            </a>
+                                                            
+                                                        </li>
+                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <li class="p-n02v3__mli p-m-3-7
+                                                            ">
+                                                            <a href='http://www.research.philips.com/' class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":about_philips:research">
+                                                                <span class="p-body-copy-01 p-heading-light">Research</span>
+                                                            </a>
+                                                            
+                                                        </li>
+                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <li class="p-n02v3__mli p-m-3-8
+                                                            ">
+                                                            <a href='https://www.90yearsofdesign.philips.com/' class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":about_philips:design">
+                                                                <span class="p-body-copy-01 p-heading-light">Design</span>
+                                                            </a>
+                                                            
+                                                        </li>
+                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <li class="p-n02v3__mli p-m-3-9
+                                                            ">
+                                                            <a href='https://www.philips.com/a-w/about/company-contacts.html' class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":about_philips:company_contacts">
+                                                                <span class="p-body-copy-01 p-heading-light">Company contacts</span>
+                                                            </a>
+                                                            
+                                                        </li>
+                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <li class="p-n02v3__mli p-m-3-10
+                                                            ">
+                                                            <a href='http://www.ip.philips.com' class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":about_philips:intellectual_property_and_standards">
+                                                                <span class="p-body-copy-01 p-heading-light">Intellectual Property and Standards</span>
+                                                            </a>
+                                                            
+                                                        </li>
+                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <li class="p-n02v3__mli p-m-3-11
+                                                            ">
+                                                            <a href='https://www.philips.com/a-w/about-philips/social-media.html' class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":about_philips:social_media">
+                                                                <span class="p-body-copy-01 p-heading-light">Social media</span>
+                                                            </a>
+                                                            
+                                                        </li>
+                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <li class="p-n02v3__mli p-m-3-12
+                                                            ">
+                                                            <a href='https://www.philips.com/a-w/about-philips/sponsorships/philips-sponsorships.html' class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":about_philips:sponsorships">
+                                                                <span class="p-body-copy-01 p-heading-light">Sponsorships</span>
+                                                            </a>
+                                                            
+                                                        </li>
+                                                    
+                                                        
+                                                        
+                                                        
+                                                        
+                                                        <li class="p-n02v3__mli p-m-3-13
+                                                            ">
+                                                            <a href='https://www.results.philips.com' class="p-n02v3__mlink" data-track-type="track-nav-nena" data-track-compid="n02v3" data-track-navid="header" data-track-navdest=":about_philips:annual_and_quarterly_reports">
+                                                                <span class="p-body-copy-01 p-heading-light">Annual and Quarterly Reports</span>
+                                                            </a>
+                                                            
+                                                        </li>
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                   
+                                
+                            
+                            
+                        
+                    </li>
+                
+
+                
+                
+                
+
+                
+                
+                
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    
+    <div class="p-header-follow-content"></div>
+    
+    <div class="p-n02v3__title ">
+    <div class="p-layout-inner p-row-gutter">
+        <div class="p-n02v3__titletext p-heading-03 p-heading-light">Global</div>
+    </div>
+    <hr class="p-n02v3__titleline">
+</div>
+</header>
+
+</div>
+</div>
+<!-- HEADER SECTION END -->
+    <!--</noindex>-->
+
+    <div class="">
+<div class="par parsys"><div class="section gc06-story-banner">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+    
+    
+    
+        <section class="p-gc06-story-banner p-inverted p-full-bleed p-l-inverted p-s-inverted
+        "
+                 data-comp-id="gc06StoryBanner">
+              <div class="p-gc06-background   
+                   p-s-min-height-j p-xs-min-height-g" data-background='{"bleed":"yes","fill":"image","solidcolor":"highcontrast","transparency":"100","gradientcolor":"highcontrast","videoLoop":"yes","videoSourceUrl":"","videoPosterUrl":"","l":{"repeat":"no-repeat","halign":"center","valign":"center","image":"/c-dam/Home-page-content/en_AA/annual-report/annual-report-2017-launch_L.jpg","position":"center center","size":"cover"},"m":{"repeat":"no-repeat","halign":"center","valign":"center","image":"/c-dam/Home-page-content/en_AA/annual-report/annual-report-2017-launch_M.jpg","position":"center center","size":"cover"},"s":{"repeat":"no-repeat","halign":"center","valign":"center","image":"/c-dam/Home-page-content/en_AA/annual-report/annual-report-2017-launch_S.jpg","position":"center center","size":"auto"},"xs":{"repeat":"no-repeat","halign":"center","valign":"center","image":"/c-dam/Home-page-content/en_AA/annual-report/annual-report-2017-launch_XS.jpg","position":"center center","size":"auto"}}' style=" ">
+                    
+                        <div class="p-masthead-background">
+                          <picture>
+                            <!--[if IE 9]><video style="display: none;"><![endif]-->
+                            <source srcset="/c-dam/Home-page-content/en_AA/annual-report/annual-report-2017-launch_L.jpg" media="(min-width: 961px)">
+                            <source srcset="/c-dam/Home-page-content/en_AA/annual-report/annual-report-2017-launch_M.jpg" media="(min-width: 701px)">
+                            <source srcset="/c-dam/Home-page-content/en_AA/annual-report/annual-report-2017-launch_S.jpg" media="(min-width: 451px)">
+                            <source srcset="/c-dam/Home-page-content/en_AA/annual-report/annual-report-2017-launch_XS.jpg" media="(min-width: 0px)">
+                            <!--[if IE 9]></video><![endif]-->
+                            <img class="p-fit p-l-fit-cover p-m-fit-cover p-s-fit-cover-none p-xs-fit-cover-none
+                               p-l-fit-pos-center-center p-m-fit-pos-center-center
+                               p-s-fit-pos-center-center p-xs-fit-pos-center-center" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                         </picture>
+                       </div>
+                   
+                  
+            </div>
+            <div class="p-gc06-foreground
+                p-valign-parent
+                
+                
+                
+                 p-row-gutter
+                p-blue-theme
+        p-bg-gradient-highcontrast p-l-min-height-l p-m-min-height-l
+
+
+                p-row-gutter  ">
+                <div class="p-layout-row p-valign-middle">
+                    <div class="p-layout-inner">
+                        <div class="p-grid">
+                            <div class="p-grid-item p-l-seven-twelfths p-m-one-half
+                                        p-offset-l-none p-offset-m-none">
+                                <div class="containerpar tc01-backgroundparsys">
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+
+        
+        
+        
+            
+            
+        
+        
+        
+            
+            
+        
+        <section data-comp-id="tc01BackgroundParsys"
+             data-background='{}'
+             style=""
+             class="p-tc01-backgroundparsys p-bg-solid-lowcontrastbright p-bg-opacity-50 p-cell-padding">
+            <div class="containerpar parsys"><div class="gc11v3-generictext component-base section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+        
+    
+
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<section
+    class="p-gc11v3-generictext p-valign-parent
+           
+         p-l-spacing-top-none p-m-spacing-top-none p-s-spacing-top-b p-xs-spacing-top-b p-l-spacing-bottom-b p-m-spacing-bottom-b p-s-spacing-bottom-a p-xs-spacing-bottom-a"
+    data-comp-id="gc11v3Generictext"
+    data-containerlink='{"useLink":"no",
+               "url":"",
+               "navdest":"",
+               "target":"_self",
+               "omniture":""}'
+    data-is-internal=""
+    >
+    
+    
+    
+    
+        
+        
+            
+            
+        
+        
+    
+    
+    
+    
+    <div class="p-vertical-positioning p-text-container  p-valign-top">
+        <div class="p-text-container-inner">
+            
+                <h2><span class="p-heading-01 p-text-shadow">Our Annual Report 2017 is live</span></h2>
+            
+            
+            
+                <div class="p-body-text p-text-smaller
+                p-l-col1 p-m-col1
+                p-s-col1 p-xs-col1">
+                <!--googleoff: snippet-->
+                <span class="p-body-copy-02">2017 was a good year for Philips as we advanced our transformation, driving customer focus and innovation to improve the lives of billions of people around the globe. Find out more in our Annual Report 2017, which contains all the information you need on our financial, social and environmental performance over the past year.</span>
+                <!--googleon: snippet--></div>
+            
+        </div>
+    </div>
+</section></div>
+<div class="component-base section gc15-linkbutton">
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+        <div class="p-gc15-link-button  p-l-spacing-bottom-b p-m-spacing-bottom-b p-s-spacing-bottom-c p-xs-spacing-bottom-c" data-is-internal="" data-comp-id="gc15LinkButton">
+            <!--googleoff: anchor-->
+            
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+
+
+
+
+	
+
+
+
+    
+        
+        
+            <a href="https://www.results.philips.com/#/" class="p-cta-link p-button p-large p-button 
+                                        gc15-linkbutton-component p-gc15-anchor-link" title='' target="_self" data-track-type="track-conversion" data-track-name="interaction" data-track-description="view_our_annual_report:button" data-track-compid="gc15" data-fullscreen-slide="none" data-btn-alignment='{"l":"left",
+                                 "m":"left",
+                                 "s":"left",
+                                 "xs":"left"}'>
+                <span>View our Annual Report</span></a>
+        
+    
+
+            <!--googleon: anchor-->
+        </div>
+    
+</div>
+
+</div>
+
+        </section>
+    
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    
+</div>
+<div class="section gc06-story-banner">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+    
+    
+    
+        <section class="p-gc06-story-banner p-inverted p-full-bleed p-l-inverted p-s-inverted
+        "
+                 data-comp-id="gc06StoryBanner">
+              <div class="p-gc06-background   
+                   p-s-min-height-j p-xs-min-height-g" data-background='{"bleed":"yes","fill":"image","solidcolor":"highcontrast","transparency":"100","gradientcolor":"highcontrast","videoLoop":"yes","videoSourceUrl":"","videoPosterUrl":"","l":{"repeat":"no-repeat","halign":"center","valign":"top","image":"/c-dam/Home-page-content/en_AA/copd/world-copd-day-2017-banner-l-min.jpg","position":"center top","size":"cover"},"m":{"repeat":"no-repeat","halign":"center","valign":"center","image":"/c-dam/Home-page-content/en_AA/copd/world-copd-day-2017-banner-m-min.jpg","position":"center center","size":"cover"},"s":{"repeat":"no-repeat","halign":"center","valign":"center","image":"/c-dam/Home-page-content/en_AA/copd/world-copd-day-2017-banner-s-min.jpg","position":"center center","size":"auto"},"xs":{"repeat":"no-repeat","halign":"center","valign":"top","image":"/c-dam/Home-page-content/en_AA/copd/world-copd-day-2017-banner-xs-min.jpg","position":"center top","size":"auto"}}' style=" ">
+                    
+                        <div class="p-masthead-background">
+                          <picture>
+                            <!--[if IE 9]><video style="display: none;"><![endif]-->
+                            <source srcset="/c-dam/Home-page-content/en_AA/copd/world-copd-day-2017-banner-l-min.jpg" media="(min-width: 961px)">
+                            <source srcset="/c-dam/Home-page-content/en_AA/copd/world-copd-day-2017-banner-m-min.jpg" media="(min-width: 701px)">
+                            <source srcset="/c-dam/Home-page-content/en_AA/copd/world-copd-day-2017-banner-s-min.jpg" media="(min-width: 451px)">
+                            <source srcset="/c-dam/Home-page-content/en_AA/copd/world-copd-day-2017-banner-xs-min.jpg" media="(min-width: 0px)">
+                            <!--[if IE 9]></video><![endif]-->
+                            <img class="p-fit p-l-fit-cover p-m-fit-cover p-s-fit-cover-none p-xs-fit-cover-none
+                               p-l-fit-pos-center-top p-m-fit-pos-center-center
+                               p-s-fit-pos-center-center p-xs-fit-pos-center-top" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                         </picture>
+                       </div>
+                   
+                  
+            </div>
+            <div class="p-gc06-foreground
+                p-valign-parent
+                
+                
+                
+                 p-row-gutter
+                p-none-theme
+        p-bg-gradient-darklowcontrast p-l-min-height-l p-m-min-height-l
+
+
+                 ">
+                <div class="p-layout-row p-valign-middle">
+                    <div class="p-layout-inner">
+                        <div class="p-grid">
+                            <div class="p-grid-item p-l-one-half p-m-one-half
+                                        p-offset-l-none p-offset-m-none">
+                                <div class="containerpar tc01-backgroundparsys">
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+
+        
+        
+        
+        
+        
+            
+            
+        
+        <section data-comp-id="tc01BackgroundParsys"
+             data-background='{}'
+             style=""
+             class="p-tc01-backgroundparsys  p-cell-gutter">
+            <div class="containerpar parsys"><div class="gc11v3-generictext component-base section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+        
+    
+
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<section
+    class="p-gc11v3-generictext p-valign-parent
+           
+         p-l-spacing-top-d p-m-spacing-top-none p-s-spacing-top-b p-xs-spacing-top-b p-l-spacing-bottom-b p-m-spacing-bottom-b p-s-spacing-bottom-a p-xs-spacing-bottom-a"
+    data-comp-id="gc11v3Generictext"
+    data-containerlink='{"useLink":"no",
+               "url":"",
+               "navdest":"",
+               "target":"_self",
+               "omniture":""}'
+    data-is-internal=""
+    >
+    
+    
+    
+    
+        
+        
+            
+            
+        
+        
+    
+    
+    
+    
+    <div class="p-vertical-positioning p-text-container  p-valign-top">
+        <div class="p-text-container-inner">
+            
+                <h2><span class="p-heading-01">Join Philips on World COPD Day</span></h2>
+            
+            
+            
+                <div class="p-body-text p-text-smaller
+                p-l-col1 p-m-col1
+                p-s-col1 p-xs-col1">
+                <!--googleoff: snippet-->
+                <span class="p-body-copy-02">Even with COPD, there's always a way to #makelifebetter. Through education, engagement, and empowerment we can help those affected by the disease live a fulfilling life.</span>
+                <!--googleon: snippet--></div>
+            
+        </div>
+    </div>
+</section></div>
+<div class="component-base section gc15-linkbutton">
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+        <div class="p-gc15-link-button  p-l-spacing-bottom-b p-m-spacing-bottom-b p-s-spacing-bottom-c p-xs-spacing-bottom-c" data-is-internal="" data-comp-id="gc15LinkButton">
+            <!--googleoff: anchor-->
+            
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+
+
+
+
+	
+
+
+
+    
+        
+        
+            <a href="https://www.usa.philips.com/healthcare/consumer/copd-care-and-solutions/all-about-copd/world-copd-day" class="p-cta-link p-button p-large p-button-conversion 
+                                        gc15-linkbutton-component p-gc15-anchor-link" title='' target="_self" data-track-type="track-conversion" data-track-name="interaction" data-track-description="copd-day-2017-btn:read_more:button" data-track-compid="gc15" data-fullscreen-slide="none" data-btn-alignment='{"l":"left",
+                                 "m":"left",
+                                 "s":"left",
+                                 "xs":"left"}'>
+                <span>Help us spread the message</span></a>
+        
+    
+
+            <!--googleon: anchor-->
+        </div>
+    
+</div>
+
+</div>
+
+        </section>
+    
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    
+</div>
+<div class="section gc06-story-banner">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+    
+    
+    
+        <section class="p-gc06-story-banner p-inverted p-full-bleed p-l-inverted p-s-inverted
+        "
+                 data-comp-id="gc06StoryBanner">
+              <div class="p-gc06-background   
+                   p-s-min-height-j p-xs-min-height-g" data-background='{"bleed":"yes","fill":"image","solidcolor":"highcontrast","transparency":"100","gradientcolor":"highcontrast","videoLoop":"yes","videoSourceUrl":"","videoPosterUrl":"","l":{"repeat":"no-repeat","halign":"center","valign":"top","image":"/c-dam/Home-page-content/en_AA/better-me-better-world/masthead-better-me-better-world-mother-child_L.jpg","position":"center top","size":"auto"},"m":{"repeat":"no-repeat","halign":"center","valign":"top","image":"/c-dam/Home-page-content/en_AA/better-me-better-world/masthead-better-me-better-world-mother-child_M.jpg","position":"center top","size":"auto"},"s":{"repeat":"no-repeat","halign":"center","valign":"top","image":"/c-dam/Home-page-content/en_AA/better-me-better-world/masthead-better-me-better-world-mother-child_S.jpg","position":"center top","size":"auto"},"xs":{"repeat":"no-repeat","halign":"center","valign":"top","image":"/c-dam/Home-page-content/en_AA/better-me-better-world/masthead-better-me-better-world-mother-child_XS.jpg","position":"center top","size":"auto"}}' style=" ">
+                    
+                        <div class="p-masthead-background">
+                          <picture>
+                            <!--[if IE 9]><video style="display: none;"><![endif]-->
+                            <source srcset="/c-dam/Home-page-content/en_AA/better-me-better-world/masthead-better-me-better-world-mother-child_L.jpg" media="(min-width: 961px)">
+                            <source srcset="/c-dam/Home-page-content/en_AA/better-me-better-world/masthead-better-me-better-world-mother-child_M.jpg" media="(min-width: 701px)">
+                            <source srcset="/c-dam/Home-page-content/en_AA/better-me-better-world/masthead-better-me-better-world-mother-child_S.jpg" media="(min-width: 451px)">
+                            <source srcset="/c-dam/Home-page-content/en_AA/better-me-better-world/masthead-better-me-better-world-mother-child_XS.jpg" media="(min-width: 0px)">
+                            <!--[if IE 9]></video><![endif]-->
+                            <img class="p-fit p-l-fit-cover-none p-m-fit-cover-none p-s-fit-cover-none p-xs-fit-cover-none
+                               p-l-fit-pos-center-top p-m-fit-pos-center-top
+                               p-s-fit-pos-center-top p-xs-fit-pos-center-top" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                         </picture>
+                       </div>
+                   
+                  
+            </div>
+            <div class="p-gc06-foreground
+                p-valign-parent
+                
+                
+                
+                 p-row-gutter
+                p-blue-theme
+        p-bg-gradient-darklowcontrast p-l-min-height-l p-m-min-height-l
+
+
+                p-row-gutter  ">
+                <div class="p-layout-row p-valign-middle">
+                    <div class="p-layout-inner">
+                        <div class="p-grid">
+                            <div class="p-grid-item p-l-two-thirds p-m-two-thirds
+                                        p-offset-l-none p-offset-m-one-twelfth">
+                                <div class="containerpar tc01-backgroundparsys">
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+
+        
+        
+        
+        
+        
+            
+            
+        
+        <section data-comp-id="tc01BackgroundParsys"
+             data-background='{}'
+             style=""
+             class="p-tc01-backgroundparsys  p-cell-gutter">
+            <div class="containerpar parsys"><div class="gc10-spacercomponent component-base section">
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+        
+        
+
+        
+        
+        
+        
+
+        <div class="p-gc10-spacer-component
+                    p-l-spacing-top-c
+                    p-m-spacing-top-none
+                    p-s-spacing-top-none
+                    p-xs-spacing-top-none
+                    
+            
+            
+            
+            
+                    ">
+            
+        </div>
+    
+</div>
+<div class="gc11v3-generictext component-base section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+        
+    
+
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<section
+    class="p-gc11v3-generictext p-valign-parent
+           
+         p-l-spacing-top-e p-m-spacing-top-none p-s-spacing-top-b p-xs-spacing-top-b p-l-spacing-bottom-b p-m-spacing-bottom-b p-s-spacing-bottom-a p-xs-spacing-bottom-a"
+    data-comp-id="gc11v3Generictext"
+    data-containerlink='{"useLink":"no",
+               "url":"",
+               "navdest":"",
+               "target":"_self",
+               "omniture":""}'
+    data-is-internal=""
+    >
+    
+    
+    
+    
+        
+            
+            
+        
+        
+        
+    
+    
+    
+    
+    <div class="p-vertical-positioning p-text-container  p-valign-top">
+        <div class="p-text-container-inner">
+            
+                <h1><span class="p-heading-01 p-heading-thin">Join our</span><br>
+ <span class="p-heading-01 p-heading-medium" style="font-weight: inherit;">Better Me,&nbsp;Better world<br>
+ </span><span class="p-heading-01 p-heading-thin">initiative</span></h1>
+            
+            
+            
+                <div class="p-body-text p-text-smaller
+                p-l-col1 p-m-col1
+                p-s-col1 p-xs-col1">
+                <!--googleoff: snippet-->
+                <p>&nbsp;</p>
+<p><span class="p-body-copy-01">As well as rewarding our customers, we're inviting you to help shape the good causes we support.</span></p>
+                <!--googleon: snippet--></div>
+            
+        </div>
+    </div>
+</section></div>
+<div class="component-base section gc15-linkbutton">
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+        <div class="p-gc15-link-button  p-l-spacing-bottom-b p-m-spacing-bottom-b p-s-spacing-bottom-c p-xs-spacing-bottom-c" data-is-internal="" data-comp-id="gc15LinkButton">
+            <!--googleoff: anchor-->
+            
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+
+
+
+
+	
+
+
+
+    
+        
+        
+            <a href="http://www.philips.com/better-me-better-world" class="p-cta-link p-button p-large p-button-conversion 
+                                        gc15-linkbutton-component p-gc15-anchor-link" title='' target="_blank" data-track-type="track-conversion" data-track-name="interaction" data-track-description="homepage_banner:ifa_2017:button" data-track-compid="gc15" data-fullscreen-slide="none" data-btn-alignment='{"l":"left",
+                                 "m":"left",
+                                 "s":"left",
+                                 "xs":"left"}'>
+                <span>Join us</span></a>
+        
+    
+
+            <!--googleon: anchor-->
+        </div>
+    
+</div>
+
+</div>
+
+        </section>
+    
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    
+</div>
+<div class="section gc06-story-banner">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+    
+    
+    
+        <section class="p-gc06-story-banner p-inverted p-full-bleed p-l-inverted p-s-inverted
+        "
+                 data-comp-id="gc06StoryBanner">
+              <div class="p-gc06-background   
+                   p-s-min-height-j p-xs-min-height-g" data-background='{"bleed":"yes","fill":"image","solidcolor":"highcontrast","transparency":"100","gradientcolor":"highcontrast","videoLoop":"yes","videoSourceUrl":"","videoPosterUrl":"","l":{"repeat":"no-repeat","halign":"right","valign":"top","image":"/c-dam/Home-page-content/en_AA/careers/careers-healthtech-masthead-M.jpg","position":"right top","size":"cover"},"m":{"repeat":"no-repeat","halign":"center","valign":"center","image":"/c-dam/Home-page-content/en_AA/careers/careers-healthtech-masthead-M.jpg","position":"center center","size":"cover"},"s":{"repeat":"no-repeat","halign":"center","valign":"center","image":"/c-dam/Home-page-content/en_AA/careers/careers-healthtech-masthead-S.jpg","position":"center center","size":"auto"},"xs":{"repeat":"no-repeat","halign":"center","valign":"top","image":"/c-dam/Home-page-content/en_AA/careers/careers-healthtech-masthead-XS.jpg","position":"center top","size":"auto"}}' style=" ">
+                    
+                        <div class="p-masthead-background">
+                          <picture>
+                            <!--[if IE 9]><video style="display: none;"><![endif]-->
+                            <source srcset="/c-dam/Home-page-content/en_AA/careers/careers-healthtech-masthead-M.jpg" media="(min-width: 961px)">
+                            <source srcset="/c-dam/Home-page-content/en_AA/careers/careers-healthtech-masthead-M.jpg" media="(min-width: 701px)">
+                            <source srcset="/c-dam/Home-page-content/en_AA/careers/careers-healthtech-masthead-S.jpg" media="(min-width: 451px)">
+                            <source srcset="/c-dam/Home-page-content/en_AA/careers/careers-healthtech-masthead-XS.jpg" media="(min-width: 0px)">
+                            <!--[if IE 9]></video><![endif]-->
+                            <img class="p-fit p-l-fit-cover p-m-fit-cover p-s-fit-cover-none p-xs-fit-cover-none
+                               p-l-fit-pos-right-top p-m-fit-pos-center-center
+                               p-s-fit-pos-center-center p-xs-fit-pos-center-top" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                         </picture>
+                       </div>
+                   
+                  
+            </div>
+            <div class="p-gc06-foreground
+                p-valign-parent
+                
+                
+                
+                 p-row-gutter
+                p-blue-theme
+        p-bg-gradient-darklowcontrast p-l-min-height-l p-m-min-height-l
+
+
+                p-row-gutter  ">
+                <div class="p-layout-row p-valign-middle">
+                    <div class="p-layout-inner">
+                        <div class="p-grid">
+                            <div class="p-grid-item p-l-one-half p-m-seven-twelfths
+                                        p-offset-l-none p-offset-m-none">
+                                <div class="containerpar tc01-backgroundparsys">
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+
+        
+        
+        
+        
+        
+            
+            
+        
+        <section data-comp-id="tc01BackgroundParsys"
+             data-background='{}'
+             style=""
+             class="p-tc01-backgroundparsys  p-cell-gutter">
+            <div class="containerpar parsys"><div class="gc11v3-generictext component-base section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+        
+    
+
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<section
+    class="p-gc11v3-generictext p-valign-parent
+           
+         p-l-spacing-top-none p-m-spacing-top-none p-s-spacing-top-b p-xs-spacing-top-b p-l-spacing-bottom-b p-m-spacing-bottom-b p-s-spacing-bottom-a p-xs-spacing-bottom-a"
+    data-comp-id="gc11v3Generictext"
+    data-containerlink='{"useLink":"no",
+               "url":"",
+               "navdest":"",
+               "target":"_self",
+               "omniture":""}'
+    data-is-internal=""
+    >
+    
+    
+    
+    
+        
+        
+            
+            
+        
+        
+    
+    
+    
+    
+    <div class="p-vertical-positioning p-text-container  p-valign-top">
+        <div class="p-text-container-inner">
+            
+                <h2><h2><span class="p-heading-01 p-heading-light p-text-shadow">Life at Philips</span></h2>
+<h3><span class="p-heading-01 p-text-shadow">Helping improve billions of lives worldwide</span></h3></h2>
+            
+            
+            
+        </div>
+    </div>
+</section></div>
+<div class="component-base section gc15-linkbutton">
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+        <div class="p-gc15-link-button  p-l-spacing-bottom-b p-m-spacing-bottom-b p-s-spacing-bottom-c p-xs-spacing-bottom-c" data-is-internal="" data-comp-id="gc15LinkButton">
+            <!--googleoff: anchor-->
+            
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+
+
+
+
+
+
+    
+        
+        
+            <a href="https://www.philips.com/a-w/careers/healthtech.html" class="p-cta-link p-button p-large p-button 
+                                        gc15-linkbutton-component p-gc15-anchor-link" title='' target="_self" data-track-type="track-conversion" data-track-name="interaction" data-track-description="read_more:button" data-track-compid="gc15" data-fullscreen-slide="none" data-btn-alignment='{"l":"left",
+                                 "m":"left",
+                                 "s":"left",
+                                 "xs":"left"}'>
+                <span>Read more</span></a>
+        
+    
+
+            <!--googleon: anchor-->
+        </div>
+    
+</div>
+
+</div>
+
+        </section>
+    
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    
+</div>
+<div class="section gc06-story-banner">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+    
+    
+    
+        <section class="p-gc06-story-banner p-inverted p-full-bleed p-l-inverted p-s-inverted
+        "
+                 data-comp-id="gc06StoryBanner">
+              <div class="p-gc06-background   
+                   p-s-min-height-j p-xs-min-height-g" data-background='{"bleed":"yes","fill":"image","solidcolor":"highcontrast","transparency":"100","gradientcolor":"highcontrast","videoLoop":"yes","videoSourceUrl":"","videoPosterUrl":"","l":{"repeat":"no-repeat","halign":"center","valign":"top","image":"/c-dam/Home-page-content/en_AA/little-more-action/philips-elvis-L.jpg","position":"center top","size":"cover"},"m":{"repeat":"no-repeat","halign":"center","valign":"center","image":"/c-dam/Home-page-content/en_AA/little-more-action/philips-elvis-M.jpg","position":"center center","size":"cover"},"s":{"repeat":"no-repeat","halign":"center","valign":"center","image":"/c-dam/Home-page-content/en_AA/little-more-action/philips-elvis-S.jpg","position":"center center","size":"auto"},"xs":{"repeat":"no-repeat","halign":"center","valign":"center","image":"/c-dam/Home-page-content/en_AA/little-more-action/philips-elvis-XS.jpg","position":"center center","size":"auto"}}' style=" ">
+                    
+                        <div class="p-masthead-background">
+                          <picture>
+                            <!--[if IE 9]><video style="display: none;"><![endif]-->
+                            <source srcset="/c-dam/Home-page-content/en_AA/little-more-action/philips-elvis-L.jpg" media="(min-width: 961px)">
+                            <source srcset="/c-dam/Home-page-content/en_AA/little-more-action/philips-elvis-M.jpg" media="(min-width: 701px)">
+                            <source srcset="/c-dam/Home-page-content/en_AA/little-more-action/philips-elvis-S.jpg" media="(min-width: 451px)">
+                            <source srcset="/c-dam/Home-page-content/en_AA/little-more-action/philips-elvis-XS.jpg" media="(min-width: 0px)">
+                            <!--[if IE 9]></video><![endif]-->
+                            <img class="p-fit p-l-fit-cover p-m-fit-cover p-s-fit-cover-none p-xs-fit-cover-none
+                               p-l-fit-pos-center-top p-m-fit-pos-center-center
+                               p-s-fit-pos-center-center p-xs-fit-pos-center-center" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                         </picture>
+                       </div>
+                   
+                  
+            </div>
+            <div class="p-gc06-foreground
+                p-valign-parent
+                
+                
+                
+                 p-row-gutter
+                p-blue-theme
+        p-bg-gradient-darklowcontrast p-l-min-height-l p-m-min-height-l
+
+
+                p-row-gutter  ">
+                <div class="p-layout-row p-valign-middle">
+                    <div class="p-layout-inner">
+                        <div class="p-grid">
+                            <div class="p-grid-item p-l-seven-twelfths p-m-seven-twelfths
+                                        p-offset-l-none p-offset-m-none">
+                                <div class="containerpar tc01-backgroundparsys">
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+
+        
+        
+        
+        
+        
+            
+            
+        
+        <section data-comp-id="tc01BackgroundParsys"
+             data-background='{}'
+             style=""
+             class="p-tc01-backgroundparsys  p-cell-gutter">
+            <div class="containerpar parsys"><div class="gc11v3-generictext component-base section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+        
+    
+
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<section
+    class="p-gc11v3-generictext p-valign-parent
+           
+         p-l-spacing-top-none p-m-spacing-top-none p-s-spacing-top-b p-xs-spacing-top-b p-l-spacing-bottom-b p-m-spacing-bottom-b p-s-spacing-bottom-a p-xs-spacing-bottom-a"
+    data-comp-id="gc11v3Generictext"
+    data-containerlink='{"useLink":"no",
+               "url":"",
+               "navdest":"",
+               "target":"_self",
+               "omniture":""}'
+    data-is-internal=""
+    >
+    
+    
+    
+    
+        
+        
+            
+            
+        
+        
+    
+    
+    
+    
+    <div class="p-vertical-positioning p-text-container  p-valign-top">
+        <div class="p-text-container-inner">
+            
+                <h2><h2><span class="p-heading-01">A little more action</span></h2></h2>
+            
+            
+            
+                <div class="p-body-text p-text-smaller
+                p-l-col1 p-m-col1
+                p-s-col1 p-xs-col1">
+                <!--googleoff: snippet-->
+                <span class="p-body-copy-02">At Philips, we believe that concerns about your health shouldn’t hold you back in life.<br>
+<br>
+Discover the remarkable story of Keith Hart, a 45-year-old software engineer with a dream he was worried his health could hold back. Watch how he improved his health habits in only 6 weeks to give the performance of a lifetime.<br>
+<br>
+© 2016 ABG EPE IP LLC</span>
+                <!--googleon: snippet--></div>
+            
+        </div>
+    </div>
+</section></div>
+<div class="component-base section gc15-linkbutton">
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+        <div class="p-gc15-link-button  p-l-spacing-bottom-b p-m-spacing-bottom-b p-s-spacing-bottom-c p-xs-spacing-bottom-c" data-is-internal="" data-comp-id="gc15LinkButton">
+            <!--googleoff: anchor-->
+            
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+
+
+
+
+
+
+    
+        
+        
+            <a href="https://www.philips.com/a-w/innovationandyou/article/extended-story/a-little-more-action.html" class="p-cta-link p-button p-large p-button 
+                                        gc15-linkbutton-component p-gc15-anchor-link" title='' target="_self" data-track-type="track-conversion" data-track-name="interaction" data-track-description="read_more:button" data-track-compid="gc15" data-fullscreen-slide="none" data-btn-alignment='{"l":"left",
+                                 "m":"left",
+                                 "s":"left",
+                                 "xs":"left"}'>
+                <span>Read more</span></a>
+        
+    
+
+            <!--googleon: anchor-->
+        </div>
+    
+</div>
+
+</div>
+
+        </section>
+    
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    
+</div>
+<div class="section gc06-story-banner">
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+        <section class="p-gc06-story-banner p-inverted p-full-bleed p-l-inverted 
+        "
+                 data-comp-id="gc06StoryBanner">
+              <div class="p-gc06-background   
+                   p-s-min-height-j p-xs-min-height-g" data-background='{"bleed":"yes","fill":"image","solidcolor":"highcontrast","transparency":"100","gradientcolor":"highcontrast","videoLoop":"yes","videoSourceUrl":"","videoPosterUrl":"","l":{"repeat":"no-repeat","halign":"center","valign":"center","image":"/c-dam/Home-page-content/en_AA/mhiu/mhiu-medium.jpg","position":"center center","size":"cover"},"m":{"repeat":"no-repeat","halign":"left","valign":"center","image":"/c-dam/Home-page-content/en_AA/mhiu/mhiu-medium.jpg","position":"left center","size":"cover"},"s":{"repeat":"no-repeat","halign":"center","valign":"center","image":"/c-dam/Home-page-content/en_AA/mhiu/mhiu-small.jpg","position":"center center","size":"auto"},"xs":{"repeat":"no-repeat","halign":"left","valign":"center","image":"/c-dam/Home-page-content/en_AA/mhiu/mhiu-xsmall.jpg","position":"left center","size":"auto"}}' style=" ">
+                    
+                        <div class="p-masthead-background">
+                          <picture>
+                            <!--[if IE 9]><video style="display: none;"><![endif]-->
+                            <source srcset="/c-dam/Home-page-content/en_AA/mhiu/mhiu-medium.jpg" media="(min-width: 961px)">
+                            <source srcset="/c-dam/Home-page-content/en_AA/mhiu/mhiu-medium.jpg" media="(min-width: 701px)">
+                            <source srcset="/c-dam/Home-page-content/en_AA/mhiu/mhiu-small.jpg" media="(min-width: 451px)">
+                            <source srcset="/c-dam/Home-page-content/en_AA/mhiu/mhiu-xsmall.jpg" media="(min-width: 0px)">
+                            <!--[if IE 9]></video><![endif]-->
+                            <img class="p-fit p-l-fit-cover p-m-fit-cover p-s-fit-cover-none p-xs-fit-cover-none
+                               p-l-fit-pos-center-center p-m-fit-pos-left-center
+                               p-s-fit-pos-center-center p-xs-fit-pos-left-center" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">
+                         </picture>
+                       </div>
+                   
+                  
+            </div>
+            <div class="p-gc06-foreground
+                p-valign-parent
+                
+                
+                
+                 p-row-gutter
+                 p-l-min-height-l p-m-min-height-l
+
+
+                p-row-gutter  ">
+                <div class="p-layout-row p-valign-middle">
+                    <div class="p-layout-inner">
+                        <div class="p-grid">
+                            <div class="p-grid-item p-l-one-half p-m-five-twelfths
+                                        p-offset-l-one-half p-offset-m-none">
+                                <div class="containerpar tc01-backgroundparsys">
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+
+        
+        
+        
+        
+        
+            
+            
+        
+        <section data-comp-id="tc01BackgroundParsys"
+             data-background='{}'
+             style=""
+             class="p-tc01-backgroundparsys  p-cell-gutter">
+            <div class="containerpar parsys"><div class="gc11v3-generictext component-base section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+        
+    
+
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<section
+    class="p-gc11v3-generictext p-valign-parent
+           
+         p-l-spacing-top-none p-m-spacing-top-none p-s-spacing-top-b p-xs-spacing-top-b p-l-spacing-bottom-b p-m-spacing-bottom-b p-s-spacing-bottom-a p-xs-spacing-bottom-a"
+    data-comp-id="gc11v3Generictext"
+    data-containerlink='{"useLink":"no",
+               "url":"",
+               "navdest":"",
+               "target":"_self",
+               "omniture":""}'
+    data-is-internal=""
+    >
+    
+    
+    
+    
+        
+        
+            
+            
+        
+        
+    
+    
+    
+    
+    <div class="p-vertical-positioning p-text-container  p-valign-top">
+        <div class="p-text-container-inner">
+            
+                <h2><h2><span class="p-heading-01 p-text-shadow">My Heart Is Unique</span></h2></h2>
+            
+            
+            
+                <div class="p-body-text p-text-smaller
+                p-l-col1 p-m-col1
+                p-s-col1 p-xs-col1">
+                <!--googleoff: snippet-->
+                <span class="p-body-copy-02">Last year, 17.5 million people died of cardiovascular disease – a staggering number, which is why Philips is on a mission to do something about it.<br>
+ <br>
+ This year, to mark World Heart Day, we are raising awareness of the vital, incomparable importance of heart health, and letting you know how to take better care of your heart.<br>
+ <br>
+ Visit <a href="http://www.myheartisunique.com/">MyHeartIsUnique.com</a> to learn more about the steps you can take to keep your heart healthy and strong.</span>
+                <!--googleon: snippet--></div>
+            
+        </div>
+    </div>
+</section></div>
+<div class="component-base section gc15-linkbutton">
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+        <div class="p-gc15-link-button  p-l-spacing-bottom-b p-m-spacing-bottom-b p-s-spacing-bottom-c p-xs-spacing-bottom-c" data-is-internal="" data-comp-id="gc15LinkButton">
+            <!--googleoff: anchor-->
+            
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+
+
+
+
+
+
+
+    
+        
+        
+            <a href="http://www.myheartisunique.com/" class="p-cta-link p-button p-large p-button 
+                                        gc15-linkbutton-component p-gc15-anchor-link" title='' target="_self" data-track-type="track-conversion" data-track-name="interaction" data-track-description="read_more:button" data-track-compid="gc15" data-fullscreen-slide="none" data-btn-alignment='{"l":"left",
+                                 "m":"left",
+                                 "s":"left",
+                                 "xs":"left"}'>
+                <span>Read more</span></a>
+        
+    
+
+            <!--googleon: anchor-->
+        </div>
+    
+</div>
+
+</div>
+
+        </section>
+    
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    
+</div>
+<div class="component-base gc04v3-gridcontainer section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+
+        
+        
+
+        
+        
+
+        
+        
+        
+
+        
+        
+            
+            
+               
+            
+                                           
+
+        
+        
+
+        
+        
+        
+
+        
+        
+            
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <section class="p-gc04v3-gridcontainer p-full-bleed
+                           
+                         
+                                           
+                                           
+                                            
+                      p-comp-spacing-bottom  "
+                 id=""
+                 data-comp-id="gc04v3Gridcontainer"
+                 data-containerlink="{'useLink':'no'}"
+                 data-cookie-id=""
+                 style=" background-color:rgba(239,239,239,1.0); filter: progid:DXImageTransform.Microsoft.gradient(StartColorStr='#EFEFEF', EndColorStr='#EFEFEF');"
+                 data-background='{}'
+                 data-customheight= '{"l": {"minheight":"0px",     "customheight":"dynamic"},
+                                      "m": {"minheight":"0px",    "customheight":"dynamic"},
+                                      "s": {"minheight":"0px",     "customheight":"dynamic"},
+                                      "xs":{"minheight":"0px","customheight":"dynamic"}}'
+                 data-cellmargin=   '{"l": {"cellmargin":"0px"},
+                                      "m": {"cellmargin":""},
+                                      "s": {"cellmargin":""},
+                                      "xs":{"cellmargin":""}}'>
+            <div class="p-gc04-positioning">
+                <div class="p-grid 
+                                               
+                                               
+                                               ">
+                    
+                    
+                        <div id="item_1" class="p-grid-item 
+                                           
+                                           
+                                            p-l-seven-twelfths p-m-one-half p-s-one-whole p-xs-one-whole
+                                                p-push-l-none p-push-m-none p-push-s-none p-push-xs-none
+                                                p-pull-l-none p-pull-m-none p-pull-s-none p-pull-xs-none">
+                            <div class="containerpar_item_1 tc01v2-backgroundparsys component-base">
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+
+        
+        
+        
+
+        
+        
+
+        
+
+        
+            
+            
+                
+            
+        
+        <section data-comp-id="tc01BackgroundParsys"
+             data-background='{}'
+             style=""
+             class="p-tc01-backgroundparsys ">
+            <div class="containerpar parsys"><div class="gc11v3-generictext component-base section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+        
+    
+
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<section
+    class="p-gc11v3-generictext p-valign-parent
+           
+        p-row-gutter p-comp-spacing-top  p-l-spacing-bottom-b p-m-spacing-bottom-b p-s-spacing-bottom-b p-xs-spacing-bottom-b"
+    data-comp-id="gc11v3Generictext"
+    data-containerlink='{"useLink":"no",
+               "url":"",
+               "navdest":"",
+               "target":"_self",
+               "omniture":""}'
+    data-is-internal=""
+    >
+    
+    
+    
+    
+        
+        
+            
+            
+        
+        
+    
+    
+    
+    
+    <div class="p-vertical-positioning p-text-container  p-valign-top">
+        <div class="p-text-container-inner">
+            
+                <h2><span class="p-heading-02">Is the world ready</span>&nbsp; &nbsp;<span class="p-heading-02 p-heading-light">for integrated care?</span>
+<div style="position: absolute; left: -10000px; width: 9000px; top: 0px;"><span style="color: rgb(0, 102, 161); font-family: centrale_sans_book, tahoma, arial, helvetica, sans-serif; font-size: 34px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; background-color: rgba(255, 255, 255, 0.952941);">Is the world ready for integrated care?</span></div>
+<div style="position: absolute; left: -10000px; width: 9000px; top: 0px;"><span style="color: rgb(0, 102, 161); font-family: centrale_sans_book, tahoma, arial, helvetica, sans-serif; font-size: 34px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; background-color: rgba(255, 255, 255, 0.952941);">Is the world ready for integrated care?</span></div></h2>
+            
+            
+            
+        </div>
+    </div>
+</section></div>
+<div class="component-base section gc08-teasercontainer">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+            
+                
+            
+            
+        
+        
+            
+            
+            
+            
+                
+            
+        
+        
+        
+        
+        
+
+        <section
+            class="p-gc08-teasercontainer p-full-bleed    
+                   p-row-gutter "
+            data-containerlink=""
+            data-is-internal-cell1=""
+            data-is-internal-cell2=""
+            style=""
+            data-background=''
+            data-customheight='{"l":{"paddingcell1":"","paddingcell2":"","cell1minheight":"0","cell2minheight":"0","cell1customheight":"dynamic","cell2customheight":"dynamic"},"m":{"paddingcell1":"","paddingcell2":"","cell1minheight":"0","cell2minheight":"0","cell1customheight":"dynamic","cell2customheight":"dynamic"},"s":{"paddingcell1":"","paddingcell2":"","cell1minheight":"0","cell2minheight":"0","cell1customheight":"dynamic","cell2customheight":"dynamic"},"xs":{"paddingcell1":"","paddingcell2":"","cell1minheight":"0","cell2minheight":"0","cell1customheight":"dynamic","cell2customheight":"dynamic"},"swapl":{},"swapm":{},"swaps":{},"swapxs":{}}'
+            data-comp-id="gc08Teasercontainer">
+            <div class="p-gc08-positioning ">
+                
+                <div data-background='' style="" class="p-gc08-teaser-item1 
+                     p-l-one-whole p-m-one-whole
+                     p-s-one-whole p-xs-one-whole
+                     p-push-l-none p-push-m-none
+                     p-push-s-none p-push-xs-none
+                     ">
+                    <div class=" 
+                          p-gc08-teaser-item-inner">
+                        
+                            
+                                <div class="component-base cell1Component-gc13 gc13v2-genericimage">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        <section class="p-gc13v2-genericimage "
+            data-comp-id="gc13v2Genericimage"
+            data-minheight="dynamic"
+            data-include-hover-effect="no"
+            data-settings='{"l":{"vertical":"middle","horizontal":"left","minimumHeight":"0px"},"m":{"vertical":"middle","horizontal":"left","minimumHeight":"0px"},"s":{"vertical":"middle","horizontal":"left","minimumHeight":"0px"},"xs":{"vertical":"middle","horizontal":"left","minimumHeight":"0px"}}'
+            
+            data-image-source="dam"
+            data-link-container='no'
+            data-link-url=''
+            data-omniture=''>
+            <div class="p-gc13v2-positioning">
+                
+                    
+                    
+
+                    
+                    
+                
+
+                
+                
+                    
+                     
+                    
+                        <picture data-alt="Is the world ready for integrated care?" data-picture=""><source srcset="/c-dam/Home-page-content/en_AA/future-health-index/future-health-index_thumb1.jpg" media="(min-width: 961px)"></source><source srcset="/c-dam/Home-page-content/en_AA/future-health-index/future-health-index_thumb1.jpg" media="(min-width: 701px)"></source><source srcset="/c-dam/Home-page-content/en_AA/future-health-index/future-health-index_thumb1.jpg" media="(min-width: 451px)"></source><source srcset="/c-dam/Home-page-content/en_AA/future-health-index/future-health-index_thumb1.jpg" media=""></source><img src="/c-dam/Home-page-content/en_AA/future-health-index/future-health-index_thumb1.jpg" alt="Is the world ready for integrated care?" title=""></picture>
+                    
+                
+
+                
+                
+                
+                
+
+                
+            </div>
+        </section>
+    
+</div>
+
+                            
+                            
+                        
+                        
+                    </div>
+
+                </div>
+
+                <div style="" class="p-gc08-teaser-item2   
+                     p-l-one-whole p-m-one-whole
+                     p-s-one-whole p-xs-one-whole
+                     p-pull-l-none p-pull-m-none
+                     p-pull-s-none p-pull-xs-none
+                     " data-background=''>
+                    <div class=" 
+                          p-gc08-teaser-item-inner ">
+                        
+                            
+                                <div class="cell2Component-gc11 gc11v3-generictext component-base">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+        
+    
+
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<section
+    class="p-gc11v3-generictext p-valign-parent
+           
+         p-l-spacing-top-b p-m-spacing-top-b p-s-spacing-top-a p-xs-spacing-top-a"
+    data-comp-id="gc11v3Generictext"
+    data-containerlink='{"useLink":"no",
+               "url":"",
+               "navdest":"",
+               "target":"_self",
+               "omniture":""}'
+    data-is-internal=""
+    >
+    
+    
+    
+    
+        
+        
+            
+            
+        
+        
+    
+    
+    
+    
+    <div class="p-vertical-positioning p-text-container  p-valign-top">
+        <div class="p-text-container-inner">
+            
+            
+            
+                <div class="p-body-text p-text-smaller
+                p-l-col1 p-m-col1
+                p-s-col1 p-xs-col1">
+                <!--googleoff: snippet-->
+                <p><span class="p-body-copy-02">With growing, aging populations and a rise of chronic diseases, the world is facing imminent healthcare challenges. The new Future Health Index, an international research commissioned by Philips, reveals perceptions of access and integration of healthcare systems, and adoption of connected care technology to determine how prepared the world is to meet the new healthcare needs.</span></p>
+<p>&nbsp;</p>
+<p><a href="http://www.futurehealthindex.com" target="_blank"><span class="p-button p-large">Read more</span></a></p>
+                <!--googleon: snippet--></div>
+            
+        </div>
+    </div>
+</section></div>
+
+                            
+                            
+                        
+
+                        
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+    
+</div>
+
+</div>
+
+        </section>
+    
+</div>
+
+                        </div>
+                    
+                    
+                        <div id="item_2" class="p-grid-item 
+                                           
+                                           
+                                            p-l-five-twelfths p-m-one-half p-s-one-whole p-xs-one-whole
+                                                p-push-l-none p-push-m-none p-push-s-none p-push-xs-none
+                                                p-pull-l-none p-pull-m-none p-pull-s-none p-pull-xs-none">
+                            <div class="containerpar_item_2 tc01v2-backgroundparsys component-base">
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+
+        
+        
+        
+
+        
+        
+
+        
+
+        
+            
+            
+                
+            
+        
+        <section data-comp-id="tc01BackgroundParsys"
+             data-background='{}'
+             style=""
+             class="p-tc01-backgroundparsys ">
+            <div class="containerpar parsys"><div class="gc11v3-generictext component-base section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+        
+    
+
+
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<section
+    class="p-gc11v3-generictext p-valign-parent
+           
+        p-row-gutter p-comp-spacing-top  p-l-spacing-bottom-b p-m-spacing-bottom-b p-s-spacing-bottom-b p-xs-spacing-bottom-b"
+    data-comp-id="gc11v3Generictext"
+    data-containerlink='{"useLink":"no",
+               "url":"",
+               "navdest":"",
+               "target":"_self",
+               "omniture":""}'
+    data-is-internal=""
+    >
+    
+    
+    
+    
+        
+        
+            
+            
+        
+        
+    
+    
+    
+    
+    <div class="p-vertical-positioning p-text-container  p-valign-top">
+        <div class="p-text-container-inner">
+            
+                <h2><span class="p-heading-02">Connect</span><span class="p-heading-02 p-heading-light"> with us</span></h2>
+            
+            
+            
+        </div>
+    </div>
+</section></div>
+<div class="section sc04-twitter-feed-v2">
+    
+
+
+
+
+
+
+
+
+
+
+    <!--googleoff: all-->
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+        
+            
+        
+        
+    
+    
+        
+            
+        
+        
+    
+    
+    
+    <section class="p-sc04v2-twitter-feeds  p-row-gutter " data-comp-id="sc04v2TwitterFeeds" data-rb-tchannel="from:@Philips"
+             data-rb-tcount="2" data-rb-tcurrentpage="/content/corporate/en_AA"
+             data-rb-tusername="yes"
+             data-rb-tname="follow_us"
+             data-minutesago="{0} Minutes ago" data-hoursago="{0} Hours ago"
+             data-servlet-url='/c-bin/foundation-social/sc04-twitter-feed'>
+
+        
+            <h2 class="p-heading-03 p-title  p-spacing-bottom-c">
+                
+                    <i class="p-icon-twitter-unboxed p-icon-boxed p-icon-boxed-rounded-corners"></i>@Philips on Twitter
+            </h2>
+        
+        
+        <ul class="p-tweet-list"
+                data-month0="{0} January" data-month1="{0} February"
+                data-month2="{0} March" data-month3="{0} April"
+                data-month4="{0} May" data-month5="{0} June"
+                data-month6="{0} July" data-month7="{0} August"
+                data-month8="{0} September" data-month9="{0} October" 
+                data-month10="{0} November" data-month11="{0} December"> </ul>
+
+        
+            <a href="https://twitter.com/philips" data-type="recent-posts" target="_blank" class="p-link-more p-read-more" data-track-type="track-conversion" data-track-name="follow_us" data-track-compid="sc04" data-track-servicename="twitter"> Join the conversation </a>
+        
+    </section>
+<!--googleon: all--></div>
+
+</div>
+
+        </section>
+    
+</div>
+
+                        </div>
+                    
+                </div>
+            </div>
+        </section>
+    
+</div>
+<div class="component-base gc04v3-gridcontainer section">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+
+        
+        
+
+        
+        
+
+        
+        
+        
+
+        
+        
+            
+            
+               
+            
+                                           
+
+        
+        
+
+        
+        
+        
+
+        
+        
+            
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        <section class="p-gc04v3-gridcontainer p-full-bleed
+                           
+                         
+                                           
+                                           
+                                            
+                      p-comp-spacing-top p-comp-spacing-bottom  "
+                 id=""
+                 data-comp-id="gc04v3Gridcontainer"
+                 data-containerlink="{'useLink':'no'}"
+                 data-cookie-id=""
+                 style=" background-color:rgba(9,47,82,1.0); filter: progid:DXImageTransform.Microsoft.gradient(StartColorStr='#092f52', EndColorStr='#092f52');"
+                 data-background='{}'
+                 data-customheight= '{"l": {"minheight":"0px",     "customheight":"dynamic"},
+                                      "m": {"minheight":"0px",    "customheight":"dynamic"},
+                                      "s": {"minheight":"0px",     "customheight":"dynamic"},
+                                      "xs":{"minheight":"0px","customheight":"dynamic"}}'
+                 data-cellmargin=   '{"l": {"cellmargin":"20px"},
+                                      "m": {"cellmargin":"20px"},
+                                      "s": {"cellmargin":"20px"},
+                                      "xs":{"cellmargin":"20px"}}'>
+            <div class="p-gc04-positioning">
+                <div class="p-grid 
+                                               
+                                               
+                                               ">
+                    
+                    
+                        <div id="item_3" class="p-grid-item 
+                                           
+                                           
+                                            p-l-one-quarter p-m-one-quarter p-s-one-whole p-xs-one-whole
+                                                p-push-l-none p-push-m-none p-push-s-none p-push-xs-none
+                                                p-pull-l-none p-pull-m-none p-pull-s-none p-pull-xs-none">
+                            <div class="tc01v2-backgroundparsys containerpar_item_3 component-base">
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+
+        
+        
+        
+
+        
+        
+
+        
+
+        
+            
+            
+        
+        <section data-comp-id="tc01BackgroundParsys"
+             data-background='{}'
+             style=""
+             class="p-tc01-backgroundparsys  p-cell-gutter">
+            <div class="containerpar parsys"><div class="n14-listoflinks component-base section">
+
+
+
+
+
+
+
+<!--googleoff: all-->
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<section
+    class="p-n14-link-list p-inverted verticaltransparent p-row-gutter "
+    data-comp-id="n14ListOfLinks"
+    data-col-count="{'xs': 'whole',
+                    's': 'whole',
+                    'm': 'whole',
+                    'l': 'whole'}">
+    
+    
+        
+        
+            <ul class="p-grid">
+        
+    
+    
+        
+        
+
+        
+        
+
+        
+            
+                
+            
+            
+        
+        
+    
+    </ul>
+</section>
+<!--googleon: all--></div>
+<div class="n14-listoflinks component-base section">
+
+
+
+
+
+
+
+<!--googleoff: all-->
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<section
+    class="p-n14-link-list p-inverted verticaltransparent "
+    data-comp-id="n14ListOfLinks"
+    data-col-count="{'xs': 'whole',
+                    's': 'whole',
+                    'm': 'whole',
+                    'l': 'whole'}">
+    
+        
+            <h3 class="p-heading-03 p-heading-secondary">About Philips</h3>
+        
+    
+    
+        
+        
+            <ul class="p-grid">
+        
+    
+    
+        
+        
+
+        
+        
+
+        
+            
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.com/a-w/about/company.html" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Company profile" data-track-navdest=":content:corporate:en_aa:about:company.html" class="p-link-color">
+                            
+                            <span class="p-text">Company profile</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.com/a-w/about/investor.html" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Investor relations" data-track-navdest=":content:corporate:en_aa:about:investor.html" class="p-link-color">
+                            
+                            <span class="p-text">Investor relations</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.com/a-w/about/news/home.html" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="News center" data-track-navdest=":content:corporate:en_aa:about:news:home.html" class="p-link-color">
+                            
+                            <span class="p-text">News center</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.com/a-w/about/sustainability.html" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Sustainability" data-track-navdest=":content:corporate:en_aa:about:sustainability.html" class="p-link-color">
+                            
+                            <span class="p-text">Sustainability</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.careers.philips.com/global/en" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Careers" data-track-navdest="https:::www.careers.philips.com:global:en" class="p-link-color">
+                            
+                            <span class="p-text">Careers</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.com/innovationmatters" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Blog" data-track-navdest="https:::www.philips.com:innovationmatters" class="p-link-color">
+                            
+                            <span class="p-text">Blog</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="http://www.research.philips.com/" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Research" data-track-navdest="http:::www.research.philips.com:" class="p-link-color">
+                            
+                            <span class="p-text">Research</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.90yearsofdesign.philips.com/" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Design" data-track-navdest="https:::www.90yearsofdesign.philips.com:" class="p-link-color">
+                            
+                            <span class="p-text">Design</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.com/a-w/about/company-contacts.html" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Company contacts" data-track-navdest=":content:corporate:en_aa:about:company-contacts.html" class="p-link-color">
+                            
+                            <span class="p-text">Company contacts</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="http://www.ip.philips.com" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Intellectual Property and Standards" data-track-navdest="http:::www.ip.philips.com" none='' class="p-link-color">
+                            
+                            <span class="p-text">Intellectual Property and Standards</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.com/a-w/about-philips/social-media.html" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Social media" data-track-navdest=":content:corporate:en_aa:about-philips:social-media.html" class="p-link-color">
+                            
+                            <span class="p-text">Social media</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.com/a-w/about-philips/sponsorships/philips-sponsorships.html" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Sponsorships" data-track-navdest=":content:corporate:en_aa:about-philips:sponsorships:philips-sponsorships.html" none='' class="p-link-color">
+                            
+                            <span class="p-text">Sponsorships</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.results.philips.com" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Annual and Quarterly Reports" data-track-navdest="https:::www.results.philips.com" none='' class="p-link-color">
+                            
+                            <span class="p-text">Annual and Quarterly Reports</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+            
+            
+        
+        
+    
+    </ul>
+</section>
+<!--googleon: all--></div>
+
+</div>
+
+        </section>
+    
+</div>
+
+                        </div>
+                    
+                    
+                        <div id="item_1" class="p-grid-item 
+                                           
+                                           
+                                            p-l-one-quarter p-m-one-quarter p-s-one-whole p-xs-one-whole
+                                                p-push-l-none p-push-m-none p-push-s-none p-push-xs-none
+                                                p-pull-l-none p-pull-m-none p-pull-s-none p-pull-xs-none">
+                            <div class="containerpar_item_1 tc01v2-backgroundparsys component-base">
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+
+        
+        
+        
+
+        
+        
+
+        
+
+        
+            
+            
+        
+        <section data-comp-id="tc01BackgroundParsys"
+             data-background='{}'
+             style=""
+             class="p-tc01-backgroundparsys  p-cell-gutter">
+            <div class="containerpar parsys"><div class="n14-listoflinks component-base section">
+
+
+
+
+
+
+
+<!--googleoff: all-->
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<section
+    class="p-n14-link-list p-inverted verticaltransparent p-row-gutter "
+    data-comp-id="n14ListOfLinks"
+    data-col-count="{'xs': 'whole',
+                    's': 'whole',
+                    'm': 'whole',
+                    'l': 'whole'}">
+    
+    
+        
+        
+            <ul class="p-grid">
+        
+    
+    
+        
+        
+
+        
+        
+
+        
+            
+                
+            
+            
+        
+        
+    
+    </ul>
+</section>
+<!--googleon: all--></div>
+<div class="n14-listoflinks component-base section">
+
+
+
+
+
+
+
+<!--googleoff: all-->
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<section
+    class="p-n14-link-list p-inverted verticaltransparent "
+    data-comp-id="n14ListOfLinks"
+    data-col-count="{'xs': 'whole',
+                    's': 'whole',
+                    'm': 'whole',
+                    'l': 'whole'}">
+    
+        
+            <h3 class="p-heading-03 p-heading-secondary">For consumers</h3>
+        
+    
+    
+        
+        
+            <ul class="p-grid">
+        
+    
+    
+        
+        
+
+        
+        
+
+        
+            
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.com/c-cs/global-country-selector.html" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Products" data-track-navdest="https:::www.philips.com:c-cs:global-country-selector.html" class="p-link-color">
+                            
+                            <span class="p-text">Products</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.nl/shop/country-selector/" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Shop" data-track-navdest="https:::www.philips.nl:shop:country-selector:" class="p-link-color">
+                            
+                            <span class="p-text">Shop</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.com/c-cs/support-country-selector.html" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Product support" data-track-navdest="https:::www.philips.com:c-cs:support-country-selector.html" class="p-link-color">
+                            
+                            <span class="p-text">Product support</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.co.uk/e/promo/promotions.html" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Promotions" data-track-navdest="https:::www.philips.co.uk:e:promo:promotions.html" class="p-link-color">
+                            
+                            <span class="p-text">Promotions</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.com/welcome" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Register your product" data-track-navdest="https:::www.philips.com:welcome" class="p-link-color">
+                            
+                            <span class="p-text">Register your product</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+            
+            
+        
+        
+    
+    </ul>
+</section>
+<!--googleon: all--></div>
+
+</div>
+
+        </section>
+    
+</div>
+
+                        </div>
+                    
+                    
+                        <div id="item_2" class="p-grid-item 
+                                           
+                                           
+                                            p-l-one-quarter p-m-one-quarter p-s-one-whole p-xs-one-whole
+                                                p-push-l-none p-push-m-none p-push-s-none p-push-xs-none
+                                                p-pull-l-none p-pull-m-none p-pull-s-none p-pull-xs-none">
+                            <div class="containerpar_item_2 tc01v2-backgroundparsys component-base">
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+
+        
+        
+        
+
+        
+        
+
+        
+
+        
+            
+            
+        
+        <section data-comp-id="tc01BackgroundParsys"
+             data-background='{}'
+             style=""
+             class="p-tc01-backgroundparsys  p-cell-gutter">
+            <div class="containerpar parsys"><div class="n14-listoflinks component-base section">
+
+
+
+
+
+
+
+<!--googleoff: all-->
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<section
+    class="p-n14-link-list p-inverted verticaltransparent "
+    data-comp-id="n14ListOfLinks"
+    data-col-count="{'xs': 'whole',
+                    's': 'whole',
+                    'm': 'whole',
+                    'l': 'whole'}">
+    
+        
+            <h3 class="p-heading-03 p-heading-secondary">For professionals</h3>
+        
+    
+    
+        
+        
+            <ul class="p-grid">
+        
+    
+    
+        
+        
+
+        
+        
+
+        
+            
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.usa.philips.com/healthcare" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Healthcare" data-track-navdest="https:::www.usa.philips.com:healthcare" class="p-link-color">
+                            
+                            <span class="p-text">Healthcare</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="http://www.lighting.philips.com/" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Lighting" data-track-navdest="http:::www.lighting.philips.com:" class="p-link-color">
+                            
+                            <span class="p-text">Lighting</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.com/dictation" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Professional Dictation Solutions" data-track-navdest="https:::www.philips.com:dictation" class="p-link-color">
+                            
+                            <span class="p-text">Professional Dictation Solutions</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.co.uk/p-m-pr/professional-displays-homepage.html" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Professional display solutions" data-track-navdest="https:::www.philips.co.uk:p-m-pr:professional-displays-homepage.html" class="p-link-color">
+                            
+                            <span class="p-text">Professional display solutions</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="http://www.innovationservices.philips.com/" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Philips Innovation Services" data-track-navdest="http:::www.innovationservices.philips.com:" class="p-link-color">
+                            
+                            <span class="p-text">Philips Innovation Services</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.usa.philips.com/healthcare/solutions/mother-and-child-care" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Philips AVENT professional" data-track-navdest=":content:b2b_hc:en_us:marketing-catalog:mother-and-child-care.html" class="p-link-color">
+                            
+                            <span class="p-text">Philips AVENT professional</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.com/a-w/rewards-programs/our-solutions.html" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="B2B rewards programs solution" data-track-navdest=":content:corporate:en_aa:rewards-programs:our-solutions.html" class="p-link-color">
+                            
+                            <span class="p-text">B2B rewards programs solution</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+            
+            
+        
+        
+    
+    </ul>
+</section>
+<!--googleon: all--></div>
+
+</div>
+
+        </section>
+    
+</div>
+
+                        </div>
+                    
+                    
+                        <div id="item_4" class="p-grid-item 
+                                           
+                                           
+                                            p-l-one-quarter p-m-one-quarter p-s-one-whole p-xs-one-whole
+                                                p-push-l-none p-push-m-none p-push-s-none p-push-xs-none
+                                                p-pull-l-none p-pull-m-none p-pull-s-none p-pull-xs-none">
+                            <div class="tc01v2-backgroundparsys containerpar_item_4 component-base">
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+
+        
+        
+        
+
+        
+        
+
+        
+
+        
+            
+            
+        
+        <section data-comp-id="tc01BackgroundParsys"
+             data-background='{}'
+             style=""
+             class="p-tc01-backgroundparsys  p-cell-gutter">
+            <div class="containerpar parsys"><div class="n14-listoflinks component-base section">
+
+
+
+
+
+
+
+<!--googleoff: all-->
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<section
+    class="p-n14-link-list p-inverted verticaltransparent p-row-gutter "
+    data-comp-id="n14ListOfLinks"
+    data-col-count="{'xs': 'whole',
+                    's': 'whole',
+                    'm': 'whole',
+                    'l': 'whole'}">
+    
+    
+        
+        
+            <ul class="p-grid">
+        
+    
+    
+        
+        
+
+        
+        
+
+        
+            
+                
+            
+            
+        
+        
+    
+    </ul>
+</section>
+<!--googleon: all--></div>
+<div class="n14-listoflinks component-base section">
+
+
+
+
+
+
+
+<!--googleoff: all-->
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<section
+    class="p-n14-link-list p-inverted verticaltransparent "
+    data-comp-id="n14ListOfLinks"
+    data-col-count="{'xs': 'whole',
+                    's': 'whole',
+                    'm': 'whole',
+                    'l': 'whole'}">
+    
+        
+            <h3 class="p-heading-03 p-heading-secondary">Innovation and you</h3>
+        
+    
+    
+        
+        
+            <ul class="p-grid">
+        
+    
+    
+        
+        
+
+        
+        
+
+        
+            
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.com/a-w/innovationandyou/homepage.html" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Homepage" data-track-navdest=":content:corporate:en_aa:innovationandyou:homepage.html" class="p-link-color">
+                            
+                            <span class="p-text">Homepage</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.com/a-w/innovationandyou/advanced-healthcare.html" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Advancing healthcare" data-track-navdest=":content:corporate:en_aa:innovationandyou:advancing-healthcare.html" class="p-link-color">
+                            
+                            <span class="p-text">Advancing healthcare</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.com/a-w/innovationandyou/healthy-living.html" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Healthy living" data-track-navdest=":content:corporate:en_aa:innovationandyou:healthy-living.html" class="p-link-color">
+                            
+                            <span class="p-text">Healthy living</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.com/a-w/innovationandyou/smarter-lighting.html" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Smarter lighting" data-track-navdest=":content:corporate:en_aa:innovationandyou:smarter-lighting.html" class="p-link-color">
+                            
+                            <span class="p-text">Smarter lighting</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-whole p-m-one-whole
+                                p-s-one-whole p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.com/a-w/innovationandyou/living-lab.html" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Living laboratory" data-track-navdest=":content:corporate:en_aa:innovationandyou:living-lab.html" class="p-link-color">
+                            
+                            <span class="p-text">Living laboratory</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+            
+            
+        
+        
+    
+    </ul>
+</section>
+<!--googleon: all--></div>
+
+</div>
+
+        </section>
+    
+</div>
+
+                        </div>
+                    
+                </div>
+            </div>
+        </section>
+    
+</div>
+
+</div>
+</div><!--<noindex>-->
+    <!-- FOOTER SECTION START -->
+    <section class="">
+            <div class="basepage page tpl21-topicpage"><div class="">
+<div class="par parsys"><div class="component-base section f03-footer-container">
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+        
+        
+        
+        
+        <footer class="p-f03-footer-container ">
+            <section class="p-footer">
+                <div class="p-grid p-grid-no-gutter">
+                    <div class="p-grid-item p-one-whole p-m-two-fifths p-footer-social">
+                        
+                <!--googleoff: all--> <h3 class="p-body-copy-02">Connect with Philips</h3> <!--googleon: all-->
+                            <div class="par parsys"><div class="component-base section gc23v2-icon">
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+        <div class="p-gc23v2-icon
+         
+         ">
+            
+            
+
+            
+                
+                    
+                    
+                    
+                    
+                    
+            <!--googleoff: anchor-->
+                    <a data-track-type="track-conversion" data-track-name="follow_us" data-track-compid="gc23v2" data-track-servicename="youtube" href="http://www.youtube.com/Philips" target="_self" title="">
+                
+                
+                
+            
+
+            
+                <i class="p-icon-youtube"></i>
+            
+            
+
+            
+                
+                  
+                  </a>    
+                  <!--googleon: anchor-->         
+                
+                
+            
+        </div>
+        
+    
+</div>
+<div class="component-base section gc23v2-icon">
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+        <div class="p-gc23v2-icon
+         
+         ">
+            
+            
+
+            
+                
+                    
+                    
+                    
+                    
+                    
+            <!--googleoff: anchor-->
+                    <a data-track-type="track-conversion" data-track-name="follow_us" data-track-compid="gc23v2" data-track-servicename="facebook" href="http://www.facebook.com/Philips" target="_self" title="">
+                
+                
+                
+            
+
+            
+                <i class="p-icon-facebook"></i>
+            
+            
+
+            
+                
+                  
+                  </a>    
+                  <!--googleon: anchor-->         
+                
+                
+            
+        </div>
+        
+    
+</div>
+<div class="component-base section gc23v2-icon">
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+        <div class="p-gc23v2-icon
+         
+         ">
+            
+            
+
+            
+                
+                    
+                    
+                    
+                    
+                    
+            <!--googleoff: anchor-->
+                    <a data-track-type="track-conversion" data-track-name="follow_us" data-track-compid="gc23v2" data-track-servicename="twitter" href="https://twitter.com/philips" target="_self" title="">
+                
+                
+                
+            
+
+            
+                <i class="p-icon-twitter"></i>
+            
+            
+
+            
+                
+                  
+                  </a>    
+                  <!--googleon: anchor-->         
+                
+                
+            
+        </div>
+        
+    
+</div>
+<div class="component-base section gc23v2-icon">
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+        <div class="p-gc23v2-icon
+         
+         ">
+            
+            
+
+            
+                
+                    
+                    
+                    
+                    
+                    
+            <!--googleoff: anchor-->
+                    <a data-track-type="track-conversion" data-track-name="follow_us" data-track-compid="gc23v2" data-track-servicename="pinterest" href="http://www.pinterest.com/philipsglobal/" target="_self" title="">
+                
+                
+                
+            
+
+            
+                <i class="p-icon-pinterest"></i>
+            
+            
+
+            
+                
+                  
+                  </a>    
+                  <!--googleon: anchor-->         
+                
+                
+            
+        </div>
+        
+    
+</div>
+<div class="component-base section gc23v2-icon">
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+        <div class="p-gc23v2-icon
+         
+         ">
+            
+            
+
+            
+                
+                    
+                    
+                    
+                    
+                    
+            <!--googleoff: anchor-->
+                    <a data-track-type="track-conversion" data-track-name="follow_us" data-track-compid="gc23v2" data-track-servicename="google+" href="https://plus.google.com/+Philips" target="_self" title="">
+                
+                
+                
+            
+
+            
+                <i class="p-icon-googleplus"></i>
+            
+            
+
+            
+                
+                  
+                  </a>    
+                  <!--googleon: anchor-->         
+                
+                
+            
+        </div>
+        
+    
+</div>
+
+</div>
+
+                        
+                    </div>
+
+                    <div class="p-grid-item p-one-whole p-m-one-fifth p-philips-shield"></div>
+
+                    <div class="p-grid-item p-one-whole p-m-two-fifths p-footer-select">
+                        
+                            <div class="component-base n05-selectcountry">
+
+
+
+
+
+
+
+<!--googleoff: all-->
+
+<div style="clear:both;"></div>
+
+    
+    
+        <section class="p-main-footer-language">
+            
+            
+            
+            
+            
+
+            <a class="p-body-copy-02" href="https://www.philips.com/a-cs/global-country-selector.html" data-track-type="track-ajax" data-track-pagename="country_selector:footer:Global - English" data-type="o" data-track-compid="n_05"> <span class="p-footer-country">Select country/language</span>
+                <span class="p-footer-country-list">
+                    <output>Global - English <i class="p-arrow-right"></i>
+                    </output>
+                </span>
+            </a>
+        </section>
+    
+
+<div style="clear:both;"></div>
+<!--googleon: all--></div>
+
+                        
+                        
+                            <div class="component-base n06-selectsite">
+
+
+
+
+
+
+
+<!--googleoff: all-->
+
+
+<div style="clear:both;"></div>
+
+    
+    
+        <section>
+            <h3 class="p-body-copy-02">Select site
+                <output> <i class="p-arrow-down"></i></output>
+            </h3>
+            <ul>
+                
+                    
+                        
+                        
+                            
+                        
+                    
+                    
+                        
+                            <li class="p-always-visible">
+                        
+                        
+                    
+                    <a href="https://www.philips.com/global/country_selector.page" target='_self' title="Consumer Products" data-track-type="track-ajax" data-track-pagename="country_selector:footer:select_Consumer Products" data-type="o" data-track-compid="n_06">Consumer Products</a>
+                    </li>
+                
+                    
+                        
+                        
+                            
+                        
+                    
+                    
+                        
+                        
+                            <li>
+                        
+                    
+                    <a href="http://www.healthcare.philips.com/" target='_self' title="Healthcare" data-track-type="track-ajax" data-track-pagename="country_selector:footer:select_Healthcare" data-type="o" data-track-compid="n_06">Healthcare</a>
+                    </li>
+                
+                    
+                        
+                        
+                            
+                        
+                    
+                    
+                        
+                        
+                            <li>
+                        
+                    
+                    <a href="http://www.lighting.philips.com/" target='_self' title="Lighting" data-track-type="track-ajax" data-track-pagename="country_selector:footer:select_Lighting" data-type="o" data-track-compid="n_06">Lighting</a>
+                    </li>
+                
+                    
+                        
+                        
+                            
+                        
+                    
+                    
+                        
+                            <li class="p-always-visible">
+                        
+                        
+                    
+                    <a href="https://www.philips.com/about/company/index.page" target='_self' title="About Philips" data-track-type="track-ajax" data-track-pagename="country_selector:footer:select_About Philips" data-type="o" data-track-compid="n_06">About Philips</a>
+                    </li>
+                
+            </ul>
+        </section>
+    
+
+<div style="clear:both;"></div>
+<!--googleon: all--></div>
+
+                        
+                    </div>
+                </div>
+            </section>
+
+            <section class="p-main-footer-about">
+                
+                    <div class="n14-listoflinks component-base">
+
+
+
+
+
+
+
+<!--googleoff: all-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section
+    class="p-n14-link-list  horizontal p-row-gutter "
+    data-comp-id="n14ListOfLinks"
+    data-col-count="{'xs': 'whole',
+                    's': 'half',
+                    'm': 'third',
+                    'l': 'quarter'}">
+    
+        
+    
+    
+        
+        
+            <ul class="p-grid">
+        
+    
+    
+        
+        
+
+        
+        
+
+        
+            
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-quarter p-m-one-third
+                                p-s-one-half p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.com/a-w/about/news/home.html" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="News center" data-track-navdest=":content:corporate:en_aa:about:news:home.html" class="p-link-color">
+                            
+                                <span class="p-image">
+                                    
+                                </span>
+                            
+                            <span class="p-text">News center</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-quarter p-m-one-third
+                                p-s-one-half p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.careers.philips.com/global/en/" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Careers" data-track-navdest="https:::www.careers.philips.com:global:en:" class="p-link-color">
+                            
+                                <span class="p-image">
+                                    
+                                </span>
+                            
+                            <span class="p-text">Careers</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-quarter p-m-one-third
+                                p-s-one-half p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.com/a-w/about/company-contacts.html" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Contact Philips" data-track-navdest=":content:corporate:en_aa:about:company-contacts.html" class="p-link-color">
+                            
+                                <span class="p-image">
+                                    
+                                </span>
+                            
+                            <span class="p-text">Contact Philips</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-quarter p-m-one-third
+                                p-s-one-half p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.com/a-w/site-owner.html" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Philips" data-track-navdest=":content:corporate:en_aa:site-owner.html" class="p-link-color">
+                            
+                                <span class="p-image">
+                                    
+                                </span>
+                            
+                            <span class="p-text">Philips</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-quarter p-m-one-third
+                                p-s-one-half p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.com/a-w/cookie-notice.html" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Cookie Notice" data-track-navdest=":content:corporate:en_aa:cookie-notice.html" data-cookie-settings='' class="p-link-color">
+                            
+                                <span class="p-image">
+                                    
+                                </span>
+                            
+                            <span class="p-text">Cookie Notice</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-quarter p-m-one-third
+                                p-s-one-half p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.com/a-w/privacy-notice.html" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Privacy Notice" data-track-navdest=":content:corporate:en_aa:privacy-notice.html" class="p-link-color">
+                            
+                                <span class="p-image">
+                                    
+                                </span>
+                            
+                            <span class="p-text">Privacy Notice</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-quarter p-m-one-third
+                                p-s-one-half p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.com/a-w/terms-of-use.html" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Terms of use" data-track-navdest=":content:corporate:en_aa:terms-of-use.html" class="p-link-color">
+                            
+                                <span class="p-image">
+                                    
+                                </span>
+                            
+                            <span class="p-text">Terms of use</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+                    
+                        
+                            
+                            <li
+                                class="p-grid-item p-l-one-quarter p-m-one-third
+                                p-s-one-half p-xs-one-whole">
+                        
+                        
+                    
+
+                        
+                        
+                        
+                        
+
+                        <a href="https://www.philips.com/a-w/security.html" target="_self" data-track-type="track-nav-content" data-track-compid="n14" data-is-internal="false" data-track-navid="Product Security" data-track-navdest=":content:corporate:en_aa:security.html" class="p-link-color">
+                            
+                                <span class="p-image">
+                                    
+                                </span>
+                            
+                            <span class="p-text">Product Security</span>
+                            <div class="p-icon-container"> <span class="p-arrow-right"></span></div>
+                        </a>
+                    </li>
+                
+            
+            
+        
+        
+    
+    </ul>
+</section>
+<!--googleon: all--></div>
+
+                
+            </section>
+
+            <div class="p-i18-internationalizationitem">
+                
+                    
+                        <span>© Koninklijke Philips N.V., 2004 - 2018. All rights reserved.</span>
+                    
+
+                    
+                
+            </div>
+        </footer>
+    
+
+</div>
+
+</div>
+</div></div>
+</section>
+    <!-- FOOTER SECTION END -->
+    <!--</noindex>-->
+
+    <!--[if lt IE 10]>
+    <div class="p-non-browser-notification-bar">
+       <div class="p-notification-bar-container">
+           <span class="p-text">Our site can best be viewed with the latest version of Internet Explorer, Google Chrome or FireFox.</span>
+           <button class="p-close p-square p-inverted  p-small p-close-button" onclick="this.parentElement.style.display='none';">X</button>
+       </div>
+    </div>
+    <![endif]-->    
+<script>
+    window.philips = window.philips || {};
+
+    
+        window.philips.apiurl = '/api';
+    
+        window.philips.customDataStorageCreateApiUrl = 'https://www.philips.ru/api/consumerdata/v1/user';
+    
+        window.philips.customDataStorageGetApiUrl = 'https://www.philips.ru/api/consumerdata/v1/user/{email}';
+    
+        window.philips.customDataStorageUpdateApiUrl = 'https://www.philips.ru/api/consumerdata/v1/user?accesstoken=';
+    
+        window.philips.janrainCaptureUrl = 'https://philips.janraincapture.com';
+    
+        window.philips.popurl = 'https://www.net.philips.com/ATGWeb/download';
+    
+        window.philips.prxurl = '/prx';
+    
+        window.philips.urxurl = '/urx';
+    
+        window.philips.wtbUrxEndpoint = '//www.philips.com/api';
+    
+        window.philips.scene7 = {"domain":"https://images.philips.com","companyName":"PhilipsConsumer","imgRoot":"https://images.philips.com/is/image/","imgPath":"https://images.philips.com/is/image/PhilipsConsumer/","contentRoot":"https://images.philips.com/is/content/","contentPath":"https://images.philips.com/is/content/PhilipsConsumer/","languageCode":""};
+    </script><!-- removing bodylibs.jsp as it includes clientlibs -->
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="/c-etc/philips/clientlibs/foundation-base/jquery/jquery-1x.min.160921.js"></script>
+<![endif]-->
+<!--[if gte IE 9]><!-->
+    <script type="text/javascript" src="/c-etc/philips/clientlibs/foundation-base/jquery/jquery.min.160921.js"></script>
+<!--<![endif]--><script>
+
+window.philips = window.philips || {};
+
+
+
+philips.context = {
+    sector: 'CO',
+    internalSector: 'corporate',
+    locale: {
+        country: 'global',
+        language: 'en',
+        currency: 'EUR'
+    },
+    page: {
+        section: 'main',
+        pageName: 'homepage',
+        pageType: 'content',
+        pageSubType: ''
+    },
+ 
+    url:{
+        repositoryPath: '/content/corporate/en_AA/corporate-homepage/homepage'
+    }
+};</script>
+<script type="text/javascript" src="/c-etc/designs/b2c-seamless-theme/clientlibs.min.180709.js"></script>
+<script>
+philips.context.tracking = philips.context.tracking || {
+    toString: function(){return '[object context tracking]';}
+};
+
+philips.context.tracking.eloqua = philips.context.tracking.eloqua || {
+    toString: function(){return '[object context eloqua]';}
+};
+philips.context.tracking.usabilla = philips.context.tracking.usabilla || {
+    toString: function(){return '[object context usabilla]';}
+};
+
+
+philips.context.tracking.eloqua.load = false;
+philips.context.tracking.eloqua.siteid = '';
+philips.context.tracking.eloqua.dataLookupID = '';
+philips.context.tracking.usabilla.load = false;
+philips.context.tracking.usabilla.mvalue = '';
+philips.context.tracking.usabilla.dvalue = '';
+philips.context.tracking.dnt = false;</script>
+<script>
+
+window.philips = window.philips || {};
+
+philips.context.social = philips.context.social || {};
+
+
+philips.context.social.providers = {
+    
+    "facebook" : "https://www.facebook.com/sharer.php?u={{link}}" ,
+    "googleplusone" : "https://plus.google.com/share?url={{link}}" ,
+    "googleplusonewithoutcounter" : "https://plus.google.com/share?url={{link}}" ,
+    "linkedin" : "http://www.linkedin.com/shareArticle?url={{link}}&title={{title}}" ,
+    "pinterest" : "https://www.pinterest.com/pin/create/extension/?url={{link}}&media={{image}}&description={{title}}-{{description}}" ,
+    "projectplanner" : "#" ,
+    "twitter" : "https://www.twitter.com/share?url={{link}}&text={{title}}" ,
+    "twitterwithoutcounter" : "https://www.twitter.com/share?url={{link}}&text={{title}}" 
+}
+
+
+  philips.context.social.imagesharing = { 
+     "imageSize" : "200", 
+     "disableImageShare":"", 
+     "providers" : {
+     
+     }
+}
+</script>
+<script>
+
+philips.context.tracking.sitetext  =  {
+
+    
+       'analyticalCookies': '<p>This notification bar is shown here because the cookie consent level you have provided to us does not allow us to display the contents of this section. To change your cookie settings, please delete cookies from your browser settings, then refresh the page and reset your cookies at the minimum required level here. Minimum level required to display the contents of this section is &#39;Analytical Cookies.&#39;</p>',
+    
+       'socialMedia': '<p>This notification bar is shown here because the cookie consent level you have provided to us does not allow us to display the contents of this section. To change your cookie settings, please delete cookies from your browser settings, then refresh the page and reset your cookies at the minimum required level here. Minimum level required to display the contents of this section is &#39;Social Media.&#39;</p>',
+    
+       'advertisingCookies': '<p>This notification bar is shown here because the cookie consent level you have provided to us does not allow us to display the contents of this section. To change your cookie settings, please delete cookies from your browser settings, then refresh the page and reset your cookies at the minimum required level here. Minimum level required to display the contents of this section is &#39;Targeted Advertising Cookies.&#39;</p>',
+
+    
+    
+  };
+
+</script>
+<!-- domainCheck -->
+<!-- domainCheck = true -->
+    <script src="/analytics/mbox/mbox-bottom.js" defer></script>
+<script src="/crsc/scripts/s_code_philipsglobal.js" defer></script>
+        <script type="text/javascript" src="/c-etc/philips/clientlibs/foundation-base/clientlibs/js/philips/utilities/showads.js"></script>
+
+<script>
+	var onePixelImage = new Image();
+		if(philips.canRunAds){
+			onePixelImage.src = "/c-etc/philips/clientlibs/foundation-base/clientlibs-css-rb2014/img/generic/ad-blocker-unavailable.gif";
+		}else {
+			onePixelImage.src = "/c-etc/philips/clientlibs/foundation-base/clientlibs-css-rb2014/img/generic/ad-blocker-available.gif";
+		}
+</script><script type="text/javascript">if (window._satellite) { _satellite.pageBottom(); }</script>
+</body></html>

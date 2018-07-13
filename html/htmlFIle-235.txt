@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+	
+<head>
+	
+<!-- Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1459060-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-1459060-1');
+</script>	
+<script type="text/javascript" src="/assets/scripts/redir_https.js"></script>
+
+<meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<title>ソシオメディア | 問い合わせ</title>
+
+<link rel="stylesheet" href="/assets/stylesheets/general.css" type="text/css" />
+<link rel="alternate" type="application/rss+xml" title="ソシオメディア RSS Feed" href="http://www.sociomedia.co.jp/feed/" />
+<link rel="mask-icon" href="https://www.sociomedia.co.jp/assets/images/sociomedia-safari-pinnedtab-icon.svg" color="#990000">
+<link rel="icon" href="https://www.sociomedia.co.jp/assets/images/sociomedia_favicon_16.png" type="image/png" />
+<link rel="apple-touch-icon" href="https://www.sociomedia.co.jp/assets/images/sociomedia-apple-touch-icon.png">
+<link rel="index" href="https://www.sociomedia.co.jp/" />
+<link rev="made" href="https://www.sociomedia.co.jp/contact/" />
+
+</head>
+
+<body>
+
+<div id="base" class="single">
+
+	<header class="header layoutguide">
+		<div style="position: relative; height: 100%; max-width: 980px;">
+			<a class="headeritem headeritem-center" title="ホーム" href="https://www.sociomedia.co.jp/">
+				<img src="/assets/images/logomark-white.svg" style="width: 32px; height: auto;" alt="ソシオメディアのロゴ" />
+			</a>
+		</div>
+	</header>
+	
+	<div class="content">
+	
+		<div class="title layoutguide">
+			<div>
+				<h1><img class="posticon" src="/assets/images/icon-contact.svg" alt="" />問い合わせ</h1>
+			</div>
+		</div>
+		
+		<div class="entry layoutguide layoutguide-readable">
+			
+			<p style="line-height: 1.7; margin-top: 30px;">
+				ソシオメディアへのご相談、ご依頼、その他のご意見などを承ります。<br />
+				担当の者より折り返しご連絡いたします。
+			</p>
+			
+			<form id="contactform" class="contactform layoutguide layoutguide-readable" method="post">
+				<div class="contactformbound">
+					<!--
+					<div class="contactformlabel">お名前</div>
+					<div><input id="namefield" type="text" name="name" value="" /></div>
+					-->
+					<div class="contactformlabel">Eメール</div>
+					<div><input id="emailfield" type="email" name="email" value="" /></div>
+					<div class="contactformlabel">内容</div>
+					<div><textarea id="messagefield" name="message"></textarea></div>
+					<div class="invokerbound"><button id="submitbutton">送信</button></div>
+				</div>
+			</form>
+			
+			<p style="font-size: 20px;">
+				Tel. 03-5155-1248<br />
+				Fax. 03-5155-2468<br />
+			</p>
+			
+			<p><a class="arrowed" href="/539">ソシオメディアオフィスへの地図</a></p>
+
+		</div><!-- end of div.entry -->
+	
+	</div><!-- end of div.content -->
+	
+	<footer class="footer layoutguide">
+	<div class="directory">
+		<ul class="directorygroup">
+			<li><a href="/">ホーム</a></li>
+			<li><a href="/contact/">問い合わせ</a></li>
+		</ul>
+		<ul class="directorygroup">
+			<li><a href="/7932">エクスペリエンス・ストラテジー</a></li>
+			<li><a href="/7934">デザイン・リサーチ</a></li>
+			<li><a href="/7936">ヒューマン・インターフェース</a></li>
+		</ul>
+		<ul class="directorygroup">
+			<li><a href="/category/work">実績</a></li>
+			<li><a href="/category/news">ニュース</a></li>
+			<li><a href="/category/blog">ブログ</a></li>
+			<li><a href="/category/books">書籍</a></li>
+			<li><a href="/uxsf">UX戦略フォーラム</a></li>
+		</ul>
+		<ul class="directorygroup">
+			<li><a href="/category/about">会社情報</a></li>
+			<li><a href="/8541">採用情報</a></li>
+			<li><a href="/1422">プライバシー</a></li>
+			<li><a href="https://sociomedia.com/">English</a></li>
+		</ul>
+	</div>
+	<p class="copyright">Copyright &#169; Sociomedia, Inc.</p>
+</footer><!-- end of .footer -->	
+	</div><!-- end of #base -->
+
+</body>
+
+<script type="text/javascript" src="/assets/scripts/main.js"></script>
+
+<script>
+	var submitted = false;
+	var contactform = document.getElementById( 'contactform' );
+	// var namefield = document.getElementById( 'namefield' );
+	var emailfield = document.getElementById( 'emailfield' );
+	var messagefield = document.getElementById( 'messagefield' );
+	var submitbutton = document.getElementById( 'submitbutton' );
+	
+	// Disable the submit button as the initial state. 
+	// Set this by JavaScript instead of initially applying disabled attribute to the tag
+	// to let users with a JS-free browser be able to submit anyway.
+	submitbutton.disabled = true;
+	
+	var fields = [ /* namefield,  */ emailfield, messagefield ];
+	
+	function updateSubmitButtonStatus() {
+		// Needs to set timeout to evaluate the value correctly while cutting or pasting.
+		setTimeout( function() {
+			var isReady = true;
+			for ( var i = 0, l = fields.length; i < l; i++ ) {
+				var field = fields[ i ];
+				if ( field.value.length < 1 ) {
+					isReady = false;
+					break;
+				};
+			};
+			submitbutton.disabled = !isReady;
+		}, 0 );
+	};
+
+	for ( var i = 0, l = fields.length; i < l; i++ ) {
+		var field = fields[ i ];
+		field.addEventListener( 'keyup', function() {
+			updateSubmitButtonStatus();
+		}, false );
+		field.addEventListener( 'cut', function() {
+			updateSubmitButtonStatus();
+		}, false );
+		field.addEventListener( 'paste', function() {
+			updateSubmitButtonStatus();
+		}, false );
+		field.addEventListener( 'change', function() {
+			updateSubmitButtonStatus();
+		}, false );
+	};
+	
+	contactform.addEventListener( 'submit', function( event ) {
+		if ( submitted ) {
+			event.preventDefault();
+			return;
+		};
+		submitted = true;
+	}, false );
+
+</script>
+
+</html>

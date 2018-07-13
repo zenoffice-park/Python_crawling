@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" prefix="og: http://ogp.me/ns#"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" prefix="og: http://ogp.me/ns#"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" prefix="og: http://ogp.me/ns#"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" prefix="og: http://ogp.me/ns#">
+  <!--<![endif]-->
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <!-- Google Tag Manager -->
+    <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-KLLMRP');
+  </script>
+    <!-- End Google Tag Manager -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="fb:admins" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="">
+    <meta property="og:site_name" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/images/common/ogp.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image:src" content="">
+    <link rel="shortcut icon" href="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/images/common/favicon.ico">
+    <link rel="icon" type="image/png" href="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/images/common/favicon-16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/images/common/favicon-32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/images/common/favicon-96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/images/common/android-chrome-192.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/images/common/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/images/common/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/images/common/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/images/common/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/images/common/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/images/common/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/images/common/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/images/common/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/images/common/apple-touch-icon-180x180.png" />
+    <link rel="apple-touch-icon-precomposed" href="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/images/common/apple-touch-icon-precomposed.png">
+    <script src="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/lib/modernizr.js"></script>
+    <link rel="stylesheet" href="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/css/style.css">
+    <link rel="stylesheet" href="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/css/global.css">
+    <link rel="stylesheet" href="./css/request.css">
+    <link rel="stylesheet" href="./css/custom.css">
+    <!--
+  <link rel="stylesheet" href="./css/reset.css">
+-->
+  <script src="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/js/vendor.js"></script>
+    <script src="js/jquery-1.8.2.min.js"></script>
+    <script src="js/jquery.autokana.js"></script>
+    <script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
+    <script src="js/form.js"></script>
+    <script src="js/form-lib.js"></script>
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-2848461-1', 'auto'); ga('send', 'pageview');
+  </script>
+    <!-- This site is optimized with the Yoast SEO plugin v4.4 - https://yoast.com/wordpress/plugins/seo/ -->
+    <title>子供の写真、家族写真の撮影ならスタジオキャラット | 子供の写真、家族写真の撮影ならスタジオキャラット</title>
+    <meta name="description" content="子供の写真、家族写真の撮影ならスタジオキャラット" />
+    <meta name="robots" content="noindex,follow,noodp" />
+    <link rel="canonical" href="https://www.caratt.jp/" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="子供の写真、家族写真の撮影ならスタジオキャラット | 子供の写真、家族写真の撮影ならスタジオキャラット" />
+    <meta property="og:description" content="子供の写真、家族写真の撮影ならスタジオキャラット" />
+    <meta property="og:url" content="https://www.caratt.jp/" />
+    <meta property="og:site_name" content="子供の写真、家族写真の撮影ならスタジオキャラット" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="子供の写真、家族写真の撮影ならスタジオキャラット" />
+    <meta name="twitter:title" content="子供の写真、家族写真の撮影ならスタジオキャラット | 子供の写真、家族写真の撮影ならスタジオキャラット" />
+    <script type='application/ld+json'>
+    {"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/new.caratt.jp\/","name":"\u5b50\u4f9b\u306e\u5199\u771f\u3001\u5bb6\u65cf\u5199\u771f\u306e\u64ae\u5f71\u306a\u3089\u30b9\u30bf\u30b8\u30aa\u30ad\u30e3\u30e9\u30c3\u30c8","potentialAction":{"@type":"SearchAction","target":"http:\/\/new.caratt.jp\/?s={search_term_string}","query-input":"required name=search_term_string"}}
+  </script>
+    <!-- / Yoast SEO plugin. -->
+    <link rel='dns-prefetch' href='//s.w.org' />
+    <script type="text/javascript">
+    window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/new.caratt.jp\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
+    			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+  </script>
+    <style type="text/css">
+    img.wp-smiley,
+    img.emoji {
+    	display: inline !important;
+    	border: none !important;
+    	box-shadow: none !important;
+    	height: 1em !important;
+    	width: 1em !important;
+    	margin: 0 .07em !important;
+    	vertical-align: -0.1em !important;
+    	background: none !important;
+    	padding: 0 !important;
+    }
+  </style>
+    <link rel='https://api.w.org/' href='https://www.caratt.jp/wp-json/' />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.caratt.jp/wp/xmlrpc.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.caratt.jp/wp/wp-includes/wlwmanifest.xml" />
+  </head>
+  <body class="contact global">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLLMRP" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="fb-root"></div>
+    <script>
+    (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.6";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+  </script>
+    <div id="js-loader" class="loader"></div>
+    <div id="js-container" class="container">
+      <main id="js-main" class="main" role="main">
+        <header id="js-global-header" class="global-header">
+          <div class="global-header__upper">
+            <div class="inner">
+              <p class="global-header__grand-menu-current">
+                  <img src="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/images/global/logo.png" data-src="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/images/global/logo.png" alt="STUDIO CARATT スタジオキャラット" class="global-header__logo lazyloaded">
+</p>
+            </div>
+          </div>
+          <!--//global-header__upper-->
+          <!--//global-header__lower-->
+
+
+        </header>
+        <!--//global-header-->  <div id="js-pjax-container">
+      <section class="content contact">
+          <h1 class="page-title">お問い合わせ</h1>
+          <div class="page-flow">
+          <img src="images/contact/flow_01.png" alt="お問い合わせ">
+          </div>
+          <div class="wrap">
+          <p class="top-caption">こちらからの撮影予約受付は行っておりませんので、ご予約の際は<a href="https://reserve.caratt.jp/carattweb/shopselect.php" title="撮影予約フォームへ">専用のフォーム</a>よりお申込みください。</p>
+          <h2 class="form-title">お問い合わせフォーム</h2>
+          <form name="contact" action="/contact/" method="post" id="contact">
+              <input type="hidden" name="action" value="confirm">
+              <section class="contact-title">
+                  <h3>お問合せ項目
+                      <span>必須</span>
+                  </h3>
+                  <div class="contact-field">
+                      <div class="msg"></div>
+                      <select id="input-title" name="inq_title" class="">
+                          <option value="" disabled selected>お選び下さい</option>
+                                                        <option value="1">キャンペーン内容について</option>                              <option value="2">撮影について</option>                              <option value="3">料金について</option>                              <option value="4">店舗について</option>                          <option value="99">その他</option>                      </select>
+                      <i class="select_arrow"></i>
+                  </div>
+              </section>
+
+
+
+
+              <section class="contact-shop">
+                  <h3>ご利用店舗
+                      <span class="any">任意</span>
+                  </h3>
+                  <div class="contact-field">
+                      <select name="inq_shop" class="">
+                          <option value="" disabled selected>お選び下さい</option>
+                                                        <option value="1">東京　自由が丘店</option>                              <option value="2">東京　アリオ西新井店</option>                              <option value="3">東京　丸井錦糸町店</option>                              <option value="4">東京　二子玉川ライズ店</option>                              <option value="19">東京　世田谷馬事公苑店</option>                              <option value="26">東京　北千住マルイ店</option>                              <option value="5">神奈川　トレッサ横浜店</option>                              <option value="6">神奈川　みなとみらい店</option>                              <option value="25">神奈川　相模大野店</option>                              <option value="27">神奈川　武蔵小杉東急スクエア店</option>                              <option value="7">埼玉　イオンレイクタウン店</option>                              <option value="8">埼玉　草加マルイ店</option>                              <option value="9">埼玉　イオンモール春日部店</option>                              <option value="10">埼玉　イオンモール羽生店</option>                              <option value="20">埼玉　新所沢パルコ店</option>                              <option value="22">千葉　イクスピアリ店</option>                              <option value="11">大阪　心斎橋店</option>                              <option value="12">大阪　アリオ八尾店</option>                              <option value="13">大阪　寝屋川店</option>                              <option value="21">京都　京都岡崎店</option>                              <option value="14">奈良　広陵店</option>                              <option value="15">奈良　イオンモール橿原店</option>                              <option value="24">奈良　奈良大宮通り店</option>                              <option value="16">三重　名張店</option>                              <option value="17">三重　松阪店</option>                              <option value="18">三重　鈴鹿店</option>                              <option value="23">三重　四日市店</option>                          <option value="99">指定なし</option>                      </select>
+                      <i class="select_arrow"></i>
+                  </div>
+              </section>
+              <section class="contact-content">
+                  <h3>お問合せ内容
+                      <span>必須</span>
+                  </h3>
+                  <div class="contact-field">
+                      <div class="msg"></div>
+                      <textarea id="input-content" name="inq_content" cols="60" rows="7" class=""></textarea>
+                      <!--<p>記入例 ：&nbsp;&nbsp;</p>-->
+                  </div>
+              </section>
+
+              <section class="clearfix contact-name">
+                  <h3>お名前
+                      <span>必須</span>
+                  </h3>
+                  <dl class="name-box clearfix contact-field">
+                      <div class="msg"></div>
+                      <div class="msg"></div>
+                      <dt>姓</dt>
+                      <dd><input type="text" name="cnt_sei" maxlength="20" class="cnt_sei " value="">
+                      </dd>
+                      <dt>名</dt>
+                      <dd class="last"><input type="text" name="cnt_mei" maxlength="20" class="cnt_mei " value="">
+                      </dd>
+                  </dl>
+              </section>
+
+              <section class="contact-name-kana clearfix">
+                  <h3>ふりがな
+                      <span>必須</span>
+                  </h3>
+                  <dl class="name-box clearfix contact-field">
+                          <div class="msg"></div>
+                          <div class="msg"></div>
+                      <dt>せい</dt>
+                      <dd><input type="text" name="cnt_sei_kana" maxlength="20" class="cnt_sei_kana " value="">
+                      </dd>
+                      <dt>めい</dt>
+                      <dd class="last"><input type="text" maxlength="20" name="cnt_mei_kana" class="cnt_mei_kana " value="">
+                          <div class="msg"></div>
+                      </dd>
+                  </dl>
+              </section>
+
+              <section class="contact-email">
+                  <h3>メールアドレス
+                      <span>必須</span>
+                  </h3>
+                  <div class="contact-field">
+                      <div class="msg"></div>
+                      <input type="text" id="input-email" name="cnt_email" maxlength="200" class="" value="">
+                      <p class="example">記入例 ： sample@example.com</p>
+                  </div>
+              </section>
+
+              <section class="contact-tel">
+                  <h3>電話番号
+                      <span>必須</span>
+                  </h3>
+                  <div class="contact-field">
+                      <div class="msg"></div>
+                  <input type="tel" id="input-tel" name="cnt_tel" maxlength="13" class="" value="">
+                  <p class="example">記入例：08012345678(ハイフンなし)</p>
+                  <p class="caution">※メールブロック機能などによりメールが送信できない場合や、お問合せ内容によっては、お電話でご連絡をさせていただく場合がございます。
+                      </div>
+                  </p>
+              </section>
+
+              <section class="contact-address">
+                  <h3>住所
+                      <span class="any">任意</span>
+                  </h3>
+                  <dl class="inner clearfix">
+                      <dt>郵便番号</dt>
+                      <dd><input type="text" name="cnt_zip" value="" size="35" maxlength="7" class="zip-code ">
+                      </dd>
+                      <p class="example mleft10">記入例 ： 1580094 （ハイフンなし）</p>
+                  </dl>
+                  <dl class="inner clearfix">
+                      <dt>都道府県</dt>
+                      <dd><select name="cnt_pref" class="cnt_pref ">
+                      <option value="0" disabled selected>選択して下さい</option>
+                                  <option value="1">北海道</option>        <option value="2">青森県</option>        <option value="3">岩手県</option>        <option value="4">宮城県</option>        <option value="5">秋田県</option>        <option value="6">山形県</option>        <option value="7">福島県</option>        <option value="8">茨城県</option>        <option value="9">栃木県</option>        <option value="10">群馬県</option>        <option value="11">埼玉県</option>        <option value="12">千葉県</option>        <option value="13">東京都</option>        <option value="14">神奈川県</option>        <option value="15">新潟県</option>        <option value="16">富山県</option>        <option value="17">石川県</option>        <option value="18">福井県</option>        <option value="19">山梨県</option>        <option value="20">長野県</option>        <option value="21">岐阜県</option>        <option value="22">静岡県</option>        <option value="23">愛知県</option>        <option value="24">三重県</option>        <option value="25">滋賀県</option>        <option value="26">京都府</option>        <option value="27">大阪府</option>        <option value="28">兵庫県</option>        <option value="29">奈良県</option>        <option value="30">和歌山県</option>        <option value="31">鳥取県</option>        <option value="32">島根県</option>        <option value="33">岡山県</option>        <option value="34">広島県</option>        <option value="35">山口県</option>        <option value="36">徳島県</option>        <option value="37">香川県</option>        <option value="38">愛媛県</option>        <option value="39">高知県</option>        <option value="40">福岡県</option>        <option value="41">佐賀県</option>        <option value="42">長崎県</option>        <option value="43">熊本県</option>        <option value="44">大分県</option>        <option value="45">宮崎県</option>        <option value="46">鹿児島県</option>        <option value="47">沖縄県</option>                      </select>
+                      <i class="select_arrow"></i>
+                      </dd>
+                  </dl>
+                  <dl class="inner clearfix">
+                      <dt>市区町村</dt>
+                      <dd><input type="text" name="cnt_addr_1" value="" size="35" maxlength="150" class="cnt_addr ">
+                      </dd>
+                      <p class="example">記入例 ： 世田谷区玉川 2-21-1 二子玉川ライズ・ショッピングセンター 8階</p>
+                  </dl>
+              </section>
+
+              				<div class="verisign">
+                 <p>サイト利用者がブラウザから入力する情報を暗号化し、情報を保護します。</p>
+                 <script type="text/javascript" src="https://seal.verisign.com/getseal?host_name=www.caratt.jp&amp;size=M&amp;use_flash=YES&amp;use_transparent=NO&amp;lang=ja"></script>
+                </div>
+                <div class="agreement">
+                  <div class="terms">
+                    <section>
+                      <h4>個人情報保護方針</h4>
+                      <ol class="term-wrap">
+                        <li>株式会社キャラット（以下「当社」といいます）は、記念撮影、映像サービス、衣装レンタル及び挙式などの事業を通じて、個人情報を適切に取り扱うことの重要性を認識し、次の通り個人情報保護方針を定め、役員及び従業員が一体となってこれを遵守し、もって個人情報の保護及び個人の権利利益の保護に万全をつくしてまいります</li>
+                        <li><em>1.</em>当社は、個人情報の取扱いに関する法令、国が定める指針その他の規範を遵守いたします。</li>
+                        <li><em>2.</em> 当社は、個人情報を適正に取得いたします。個人情報の利用目的を通知または公表し、その利用目的の範囲内において使用いたします。また、利用目的の範囲を超えた個人情報の取り扱いを行わないために必要な対策を講じます。</li>
+                        <li><em>3.</em>当社では、すべての役員・従業員が個人情報保護の重要性を理解し、個人情報を適切に取扱うよう教育いたします。</li>
+                        <li><em>4.</em> 当社は、個人情報の漏えい、滅失又は毀損等の防止及び是正のため、適切な安全管理措置を実施いたします。</li>
+                        <li><em>5.</em> 当社は、法令に定める場合を除き、ご本人の同意なしにご本人の個人情報を第三者に開示・提供いたしません。</li>
+                        <li><em>6.</em> 当社は、個人情報の取扱いを委託する場合には、個人情報の安全管理が図られるよう適切に監督いたします。</li>
+                        <li><em>7.</em> 当社は、個人情報の開示・訂正等の手続を定めます。また、個人情報の取扱いに関する苦情及びご相談に対応いたします。</li>
+                        <li><em>8.</em> 当社は、個人情報保護のための管理体制および取組みを定期的に見直し、継続的に改善いたします。</li>
+                      </ol>
+                      <div class="cond1">制定：2011年7月1日
+                        <br>最終改訂：2012年12月1日
+                        <br>株式会社キャラット
+                        <br>代表取締役社長　佐野隆之
+                      </div>
+                      <div class="pagetop">
+                        <a href="#header" class="scroll">ページトップへ</a>
+                      </div>
+                    </section>
+                    <section>
+                      <h4>◆◆◆◆◆◆◆◆◆◆◆◆個人情報の利用目的◆◆◆◆◆◆◆◆◆◆◆◆</h4>
+                      <dl class="term-wrap">
+                        <dt>◆受託により取得した個人情報◆</dt>
+                        <dd>
+                          <ul>
+                            <li>・顧客管理、商品製作、商品仕上がり納期管理、商品仕上がりのお知らせのため</li>
+                            <li>・ご希望による郵送又は宅配による商品発送業務のため</li>
+                            <li>・お客様のご希望による焼増等の注文に迅速に対応するため</li>
+                            <li>・広告・DM等によりプレゼント企画を行った際の商品発送のため</li>
+                            <li>・ご注文内容のご変更やご解約に対する業務遂行のため</li>
+                            <li>給与計算及び労務管理
+                              <br>（配置及び賃金その他の処遇決定、納税・年金・保険その他関係法令に基づく手続き、福利厚生の提供、健康管理及び保健衛生等）及び業務運営管理（教育訓練、業務・商品・サービス等に関する周知・連絡等）のため
+                            </li>
+                          </ul>
+                        </dd>
+                        <dt>◆株式会社キャラットイースト、株式会社ネクステージから取得した個人情報◆</dt>
+                        <dd>
+                          <ul>
+                            <li>・健やかな成長に合わせた記念日、また四季折々に訪れるイベント等のお知らせのため</li>
+                            <li>・当社の広告、ホームページ等、宣伝活動で、お客様画像を使用するため</li>
+                          </ul>
+                        </dd>
+                        <dt>◆電話受付等の口頭の場合及び個人情報が一般的に提供された場合（郵便、FAX、メール等）◆</dt>
+                        <dd>
+                          <ul>
+                            <li>・写真撮影業務、レンタル業務、挙式業務、における予約受付及び連絡のため</li>
+                            <li>・就職等希望者への連絡のため</li>
+                            <li>・お客様からのお問合せ、開示等の請求に対応するため</li>
+                          </ul>
+                        </dd>
+                        <dt>◆監視カメラの映像◆</dt>
+                        <dd>
+                          <ul>
+                            <li>・防犯のため</li>
+                          </ul>
+                        </dd>
+                        <dt>◆従来から既に取得している個人情報◆</dt>
+                        <dd>
+                          <ul>
+                            <li>・顧客管理、商品製作、商品仕上がり納期管理、商品仕上がりのお知らせのため</li>
+                            <li>・ご希望による郵送又は宅配による商品発送業務のため</li>
+                            <li>・お客様のご希望による焼増等の注文に迅速に対応するため</li>
+                            <li>・広告・DM等によりプレゼント企画を行った際の商品発送のため</li>
+                            <li>・ご注文内容のご変更やご解約に対する業務遂行のため</li>
+                            <li>・健やかな成長に合わせた記念日、また四季折々に訪れるイベント等のお知らせのため</li>
+                            <li>・当社の広告、ホームページ等、宣伝活動で、お客様画像を使用するため</li>
+                            <li>・給与計算及び労務管理（配置及び賃金その他の処遇決定、納税・年金・保険その他関係法令に基づく
+                              <br>手続き、福利厚生の提供、健康管理及び保健衛生等）及び
+                              <br>業務運営管理（教育訓練、業務・商品・サービス等に関する周知・連絡等）のため
+                            </li>
+                          </ul>
+                        </dd>
+                      </dl>
+                    </section>
+                    <section>
+                      <h4>◆◆◆◆◆◆◆◆◆◆◆◆開示対象個人情報に関する事項◆◆◆◆◆◆◆◆◆◆◆◆</h4>
+                      <div class="pagetop">
+                        <a href="#header" class="scroll">ページトップへ</a>
+                      </div>
+                      <dl class="term-wrap">
+                        <dt>a) 事業者の氏名</dt>
+                        <dd>株式会社キャラット　代表取締役社長　佐野隆之
+                          <div class="pagetop">
+                            <a href="#header" class="scroll">ページトップへ</a>
+                          </div>
+                        </dd>
+                        <dt>b) 個人情報保護管理者の職名、所属及び連絡先</dt>
+                        <dd>株式会社キャラット　総務部
+                          <br>〒639-0227
+                          <br>奈良県香芝市鎌田416-1 caratt,inc
+                          <br>電話:0745-77-0016（受付時間：9:00～18:00）
+                          <br>E-mail:contact@caratt.jp
+                          <div class="pagetop">
+                            <a href="#header" class="scroll">ページトップへ</a>
+                          </div>
+                        </dd>
+                        <dt>c) すべての開示対象個人情報の利用目的</dt>
+                        <dd>
+                          <dl>
+                            <dt>◆お客様の個人情報◆</dt>
+                            <dd>
+                              <ul>
+                                <li>・写真撮影業務、レンタル業務、挙式業務におけるサービスを提供するため</li>
+                                <li>・当社サービスをご案内するため</li>
+                                <li>・ダイレクトメールやメールマガジンを送付するため</li>
+                                <li>・開示対象個人情報に関しての開示等の求めに応じるため、
+                                  <br>及び個人情報の取扱い及び個人情報保護マネジメントシステムに関して苦情及び相談を受け付けて対応するため
+                                </li>
+                              </ul>
+                            </dd>
+                            <dt>◆従業者の個人情報◆</dt>
+                            <dd>
+                              <ul>
+                                <li>・労務管理（配置及び賃金その他の処遇決定、納税・年金・保険その他関係法令に基づく手続き、
+                                  <br>福利厚生の提供、健康管理及び保健衛生等）及び
+                                  <br>業務運営管理（教育訓練、業務・商品・サービス等に関する周知・連絡等）のため
+                                </li>
+                                <li>・当社個人情報保護マネジメントシステムを運用し、維持し、改善するため</li>
+                                <li>・開示対象個人情報に関しての開示等の求めに応じるため、
+                                  <br>及び個人情報の取扱い及び個人情報保護マネジメントシステムに関して苦情及び相談を受け付けて対応するため
+                                </li>
+                              </ul>
+                            </dd>
+                            <dt>◆採用応募者の個人情報◆</dt>
+                            <dd>
+                              <ul>
+                                <li>・就職等希望者の選考、採用及び選考に関する連絡、配置及び賃金その他の処遇決定のため</li>
+                                <li>・開示対象個人情報に関しての開示等の求めに応じるため
+                                  <br>及び個人情報の取扱い及び個人情報保護マネジメントシステムに関して苦情及び相談を受け付けて対応するため
+                                </li>
+                              </ul>
+                            </dd>
+                            <dt>◆退職者の個人情報◆</dt>
+                            <dd>
+                              <ul>
+                                <li>・労務管理（納税・年金・保険その他関係法令に基づく手続き）及び業務運営管理（業務に関して必要な事実の確認、連絡）のため</li>
+                                <li>・開示対象個人情報に関しての開示等の求めに応じるため及び個人情報の取扱い及び個人情報保護マネジメントシステムに関して苦情及び相談を受け付けて対応するため</li>
+                              </ul>
+                              <div class="pagetop">
+                                <a href="#header" class="scroll">ページトップへ</a>
+                              </div>
+                            </dd>
+                          </dl>
+                        </dd>
+                        <dt>d) 個人情報の取扱いに関する苦情の申し出先</dt>
+                        <dd>当社「お客様サポートセンター」です。
+                          <div class="pagetop">
+                            <a href="#header" class="scroll">ページトップへ</a>
+                          </div>
+                        </dd>
+                        <dt>e) 認定個人情報保護団体の名称</dt>
+                        <dd>当社は該当しません。
+                          <div class="pagetop">
+                            <a href="#header" class="scroll">ページトップへ</a>
+                          </div>
+                        </dd>
+                        <dt>f) 開示等の求めに応じる手続</dt>
+                        <dd>
+                          <dl>
+                            <dt>(ア)開示等の求めの申し出先</dt>
+                            <dd>個人情報お問合せ窓口：お客様サポートセンター　担当者：個人情報保護管理者
+                              <br>〒639-0227 奈良県香芝市鎌田416-1 caratt,inc
+                              <br>電話0745-77-0016（受付時間：9:00～18:00）　E-mail:contact@caratt.jp
+                            </dd>
+                            <dt>(イ) 開示等の求めに際して提出すべき書面：</dt>
+                            <dd>「お客様サポートセンター」あてに、電話、FAX、メールのいずれかの方法で、
+                              <br>名前、住所、電話番号、請求の内容を明らかにしてご請求ください。
+                            </dd>
+                            <dt>(ウ) 開示等の求めをする者が、本人又は代理人であることの確認の方法</dt>
+                            <dd>電話番号及び住所の照合、コールバック等により本人確認を行います。
+                              <br>代理人によるご請求の場合は、依頼者と代理人の両方の本人確認を行います。
+                            </dd>
+                            <dt>(エ) 手数料の徴収方法</dt>
+                            <dd>ご請求に手数料は必要ありません。</dd>
+                          </dl>
+                          <div class="pagetop">
+                            <a href="#header" class="scroll">ページトップへ</a>
+                          </div>
+                        </dd>
+                      </dl>
+                    </section>
+                    <section>
+                      <h4>◆◆◆◆◆◆◆◆◆◆◆◆苦情・相談への対応◆◆◆◆◆◆◆◆◆◆◆◆</h4>
+                      <p class="term-wrap">当社は、個人情報の取扱い及び個人情報保護マネジメントシステムに関して、
+                        <br>ご本人様からの苦情及び相談を受け付けて、適切、かつ、迅速に対応いたします。
+                        <br>当社の、苦情及び相談の窓口は、お客様サポートセンターです。
+                      </p>
+                      <dl class="term-wrap">
+                        <dt>お客様サポートセンター</dt>
+                        <dd>担当者:個人情報保護管理者
+                          <br>〒639-0227　奈良県香芝市鎌田416-1
+                          <br>株式会社キャラット
+                          <br>電話:0745-77-0016（受付時間：9:00～18:00）
+                          <br>E-mail:contact@caratt.jp
+                        </dd>
+                      </dl>
+                    </section>
+                  </div>                  <div class="parts">
+                      <p>上記「個人情報の取り扱いについて」にご同意いただける場合は、
+                      <br>「同意する」にチェックを入れ、必要事項をご入力のうえ、確認画面へお進みください。
+                      </p>
+                      <label for="agreement" class="checker">
+                      <input id="agreement" name="consent" type="checkbox" value="1" />
+                      <span class="check"></span>
+                      <span class="text">&nbsp;同意する</span>
+                      </label>
+                  </div>
+              </div>
+              <div class="submit" id="MerHiKWhf" class="hover">
+                   <span>入力情報の確認</span>
+                   <i class="button_arrow"></i>
+              </div>
+            </form>
+        </div>
+      </section>
+  </div>
+  <!--//js-pjax-container-->
+<link rel="stylesheet" href="css/contact.css">
+      </main>
+      <!--/main-->
+      <footer class="global-footer">
+        <!--//global-footer__banner-->
+        <div class="global-footer__menu">
+          <div class="inner">
+            <div id="js-pagetop" class="pagetop">
+              <img src="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/images/common/load.png" data-src="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/images/common/pagetop.png" alt="" class="lazyload">
+            </div>
+          </div>
+        </div>
+
+        <!--//global-footer__menu-->
+        <div class="global-footer__copy">
+          <div class="inner">
+            <div class="global-footer__copy-table">
+              <ul class="global-footer__copy-list">
+                <li>
+                  <a href="https://www.caratt.jp/about/">
+                    <svg width="6px" height="10px">
+                      <path fill-rule="evenodd" fill="rgb(38, 38, 38)" d="M1.000,9.243 L0.293,8.536 L3.829,5.000 L0.293,1.464 L1.000,0.758 L5.243,5.000 L1.000,9.243 Z"/>
+                    </svg>
+                    <span>サイトポリシー</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.caratt.jp/privacy/">
+                    <svg width="6px" height="10px">
+                      <path fill-rule="evenodd" fill="rgb(38, 38, 38)" d="M1.000,9.243 L0.293,8.536 L3.829,5.000 L0.293,1.464 L1.000,0.758 L5.243,5.000 L1.000,9.243 Z"/>
+                    </svg>
+                    <span>プライバシーポリシー</span>
+                  </a>
+                </li>
+
+              </ul>
+              <small class="global-footer__copy-text">Copyright (c) CARATT, Inc. All Rights Reserved.</small>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--//global-footer-->
+    </div>
+    <!--/container-->
+    <script src="//maps.google.com/maps/api/js?key=AIzaSyDrthwXOMV8nN_uJleO2_om85KekPTy4fE&sensor=true"></script>
+    <!--
+    バリデーションに干渉するためオフにする
+  <script src="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/js/vendor.js"></script>
+  -->
+    <script src="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/js/app.js"></script>
+    <script src="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/lib/slick.min.js"></script>
+    <script src="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/lib/swiper.min.js"></script>
+    <script src="https://www.caratt.jp/wp/wp-content/themes/caratt/assets/js/global.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer>
+    {lang: 'ja'}
+  </script>
+    <script>
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+  </script>
+    <script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+    <script type="text/javascript">
+    !function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");
+  </script>
+    <script type='text/javascript' src='https://www.caratt.jp/wp/wp-includes/js/wp-embed.min.js?ver=4.7.5'></script>
+    <script type="text/javascript">
+    piAId = '294762'; piCId = '1740';
+    (function() { function async_load(){ var s = document.createElement('script'); s.type = 'text/javascript'; s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js'; var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c); } if(window.attachEvent) { window.attachEvent('onload', async_load); } else { window.addEventListener('load', async_load, false); } })();
+  </script>
+<script>
+$(function(){
+    $('input[name=cnt_zip]').on("keyup",function(){
+        AjaxZip3.zip2addr(this,'','cnt_pref','cnt_addr_1');
+    }).on("blur", function() {
+        AjaxZip3.zip2addr(this, '', 'cnt_pref', 'cnt_addr_1');
+    });
+});
+</script>
+  </body>
+</html>

@@ -1,0 +1,555 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="canonical" href="https://proreco.jp/shika/contact" />
+
+<link rel="stylesheet" type="text/css" href="./css/default.css?20180711161503" media="all" />
+<link rel="stylesheet" type="text/css" href="./css/base.css?20180711161503" media="all" />
+<link rel="stylesheet" type="text/css" href="./css/style.css?20180711161503" media="all" />
+<link rel="stylesheet" href="./css/responsive.css?20180711161503">
+<link rel="stylesheet" href="./css/font-awesome.min.css?20180711161503">
+<link rel="stylesheet" href="./css/jquery.bxslider.css?20180711161503">
+<!---->
+
+<link rel="shortcut icon" href="./img/favicon.ico" />
+<link rel="apple-touch-icon-precomposed" href="./img/webclip.png" />
+
+<link rel="stylesheet" href="./css/remodal.css?20180711161503">
+<link rel="stylesheet" href="./css/remodal-default-theme.css?20180711161503">
+<link type="text/css" rel="stylesheet" href="https://code.jquery.com/ui/1.10.3/themes/cupertino/jquery-ui.min.css" />
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f)
+;})(window,document,'script','dataLayer','GTM-PFWKNW');</script>
+<!-- End Google Tag Manager -->
+
+
+<script type="text/javascript" src="./js/jquery-1.9.0.min.js?20180711161503"></script>
+<script type="text/javascript" src="./js/scroll.js?20180711161503"></script>
+<script type="text/javascript" src="./js/remodal.min.js?20180711161503"></script>
+<script type="text/javascript" src="./js/jquery.autopager-1.0.0.js?20180711161503"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBfOlUaRa6PfJFEuijaDL0NS1NTcmDGXsw"></script>
+
+<script>
+(function($) {
+    $(function() {
+        var $header = $('#top-head');
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > 300) {
+                $header.addClass('fixed');
+            } else {
+                $header.removeClass('fixed');
+            }
+        });
+
+    });
+})(jQuery);
+</script>
+
+<script type="text/javascript" src="./js/jquery.matchHeight-min.js?20180711161503"></script>
+<script type="text/javascript">
+$(function() {
+    $('.item').matchHeight();
+});
+</script>
+
+<script type="text/javascript" src="./js/jquery.bxslider.min.js?20180711161503"></script>
+<script>
+$(document).ready(function(){
+    $('.slider').bxSlider({
+        auto: true,
+        controls: true,
+        pager:true
+    });
+});
+</script>
+
+<script type="text/javascript" src="https://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+<script type="text/javascript" src="https://proreco.jp/shika/js/proreco.suggest.js?20180711161503"></script>
+<script type="text/javascript">
+$(function() {
+  // 注記付きアイコン
+  $('.popup-notes').css('cursor','pointer');
+  $('#main .tag').each(function() {
+    if($(this).find('.popup-notes').length == 1) {
+      $(this).hide();
+    }
+  });
+  $(document)
+  .on('click', '.popup-notes', function(e) {
+    var tag = $(this).parents('.tag').eq(0);
+	var f_name = location.pathname.split("/").pop();
+	var c_name = 'popup-notes-content';
+	if (f_name === 'detail.php') {
+		c_name = 'popup-notes-content-detail';
+	}
+    if(tag.find('.' + c_name).length <= 0) {
+      // 表示中のすべての注記を削除
+      $('body').trigger('click');
+      // コンテンツを追加
+      var w = tag.parent().width();
+      var content_txt = "「今日」→今日予約可能な医院<br>"
+      + "「明日」→明日予約可能な医院<br>"
+      + "「専門医」→専門医・認定医が在籍している医院<br>"
+      + "「子連れ」→お子様連れの受け入れが問題ない、もしくは歓迎している医院<br>"
+      + "「幼児」→小さなお子様の診療を歓迎している医院";
+      var content = $('<div class="' + c_name + '" style="width:'+w+'px;">'+content_txt+'</div>');
+      tag.append(content);
+      content.fadeIn('fast');
+    } else {
+      // 表示中のすべての注記を削除
+      $('body').trigger('click');
+    }
+    e.preventDefault();
+    return false;
+  })
+  .on('click touchend', ':not(.tag *)', function(e) {
+	var f_name = location.pathname.split("/").pop();
+	var c_name = 'popup-notes-content';
+	if (f_name === 'detail.php') {
+		c_name = 'popup-notes-content-detail';
+	}
+	$('.' + c_name).remove();
+  });
+
+  //	フォーム入力エラー位置合わせ
+  if(0 < $('.text-error').length) {
+    var top = parseInt($('.text-error:first').offset().top, 10);
+    var head= 70+30;//parseInt($('#top-head').outerHeight(), 10);
+    $('html,body').animate({scrollTop: top-head}, 500, 'swing');
+  }
+});
+</script>
+
+
+<script type="text/javascript">
+var wom_words = [
+	{word:'補綴', text:'虫歯や事故などで歯が欠けたり、失ったりした場合にお口の機能や見た目を回復させる治療のこと'},	{word:'義歯', text:'入れ歯のこと'},	{word:'顔面矯正', text:'歯だけではなく、頭骨や歯を取り巻く軟組織までを考慮した一連の矯正治療の進め方です。'},	{word:'顎関節症', text:'あごの関節(顎関節)周辺に何らかの異常がある「あごが痛い」「あごが鳴る」「口が開けづらい」などが主な症状である慢性的な疾患'},	{word:'CR', text:'コンポジットレジンの略。虫歯治療時にする白い詰め物のこと'},	{word:'タービン', text:'歯を削るための回転切削器具のこと'},	{word:'保険治療', text:'保険内診療のこと'},	{word:'保険診療', text:'保険内診療のこと'},	{word:'自費', text:'保険外診療のこと。保険治療に比べ費用は高いが、その分治療の質は保険の場合よりも良くなる可能性が高まります。'},	{word:'自由治療', text:'保険外診療のこと。保険治療に比べ費用は高いが、その分治療の質は保険の場合よりも良くなる可能性が高まります。'},	{word:'自由診療', text:'保険外診療のこと。保険治療に比べ費用は高いが、その分治療の質は保険の場合よりも良くなる可能性が高まります。'},	{word:'セレック', text:'歯の修復物を設計・製作するシステムのことです。かぶせる歯の型を取る必要がないので、治療期間が早くなり、また、審美性にも優れています。'},	{word:'インプラント', text:'人口歯根のこと。抜けてしまったところの骨にネジを埋め込み、そのネジを土台にして人工の歯を装着する治療法。'},	{word:'ユニット', text:'診療台のこと。'},	{word:'根管治療', text:'虫歯の進行度が高い場合に行う治療のこと。'},	{word:'根の治療', text:'虫歯の進行度が高い場合に行う治療のこと。'},	{word:'保存療法', text:'歯を抜くことなく、いつまでも自分の歯で噛めるように治療を行い、大切な歯を口の中に維持、保存し機能させていくことを目的とした歯科の一分野です。'},	{word:'歯内療法', text:'虫歯の進行度が高い場合に行う根管治療のことを指す言葉。'},	{word:'静脈麻酔', text:'静脈内鎮静法のこと。麻酔医が点滴を用いて鎮静薬を投与し、不安や恐怖心、緊張感を取り除き、ウトウトとリラックスした快適な状態で治療を受けていただく方法です。'},	{word:'メンテナンス', text:'定期的に予防のためにお口のケアを行うこと'},	{word:'メインテナンス', text:'定期的に予防のためにお口のケアを行うこと'},	{word:'チェア', text:'診療台のこと。'},	{word:'印象', text:'歯の型のこと。印象をとる（印象採得）→歯の型をとること。'},	{word:'デンチャ―', text:'入れ歯のこと。'},	{word:'マイクロスコープ', text:'肉眼では見えない歯の神経や虫歯の治療のために使用する歯科用顕微鏡のこと。'},	{word:'TBI', text:'歯磨き指導のこと。'},	{word:'スケーリング', text:'スケーラーと呼ばれる器具を使って歯垢や歯石を除去すること。歯の予防のために重要な処置です。'},	{word:'CT', text:'立体画像で見れる写真画像のこと。治療の正確さや安全性を高める効果があります。'},	{word:'メタボン', text:'メタルボンドの略。中身は金属で、外から見える部分にのみセラミック(陶器)を貼り付けた被せ物、差し歯のことです。'},	{word:'メタルボンド', text:'中身は金属で、外から見える部分にのみセラミック(陶器)を貼り付けた被せ物、差し歯のことです。'},	{word:'ラボ', text:'入れ歯や差し歯などを作る場所。ラボが院内にあると早く治療が終わり、また、丁寧な仕上がりになる可能性が高いです。'},	{word:'コントラ', text:'歯を削るための切削器具のこと。'},	{word:'セラミック', text:'セラミック（陶器）で作られた歯のかぶせ物、差し歯のこと。通常の銀歯などに比べ審美性も高く、汚れなどもつきにくいです。'},	{word:'テック', text:'仮歯のこと。'},	{word:'浸潤麻酔', text:'痛みをとりたい部分の歯肉に麻酔薬を注射する、いわゆる歯科の麻酔です。'},	{word:'クラウン', text:'歯がむし歯などで大きく壊れた場合、金属などで修復します。その修復物の総称をクラウンと言います。'},	{word:'オートクレーブ', text:'医療器具の滅菌処理の一種。'},	{word:'PMTC', text:'歯科医院にて、専用器具を用いて行う歯の清掃のことです。毎日のブラッシングに加えて定期的に行うことで、蓄積しがちな歯垢や着色汚れ、細菌を取り除き、虫歯や歯周病を防ぐことができます。'},	{word:'マイクロ', text:'マイクロスコープのこと。肉眼では見えない歯の神経や虫歯の治療のために使用する歯科用顕微鏡。'},	{word:'インレー', text:'虫歯を削った後の詰め物のこと。'},	{word:'リコール', text:'定期健診のこと。'},	{word:'エッジ', text:'かぶせもの、差し歯（補綴）の一種'},	{word:'咬合調整', text:'かみ合わせが悪くなることを防ぐ治療のこと'},	{word:'P処', text:'歯周病処置の略'},	{word:'P検', text:'歯周病検査の略'}
+];
+$(function() {
+	$('.review p').each(function() {
+		var html = $(this).html();
+		for(var i in wom_words) {
+			var w = wom_words[i].word;
+			html = html.replace(new RegExp(w,'g'), '<span class="wom-word wom-word-'+i+'">'+w+'</span>');
+		}
+		$(this).html(html);
+	});
+
+	$(document)
+  .on('click', '.wom-word', function(e) {
+    // 表示中のすべての注記を削除
+    $('body').trigger('click');
+
+    // コンテンツを追加
+    var wid = $(this).prop('class').match(/wom\-word\-(\d+)/)[1];
+    var txt = wom_words[wid].text;
+    var t = $(this).offset().top;
+    var l = $(this).offset().left;
+    var h = $(this).outerHeight();
+    var content = $('<div class="wom-word-popup" style="width:200px;top:'+(t+h)+'px;left:'+(l-10)+'px">'+txt+'</div>');
+
+    $('body').append(content);
+    content.fadeIn('fast');
+
+    e.preventDefault();
+    return false;
+  })
+  .on('click touchend', ':not(.wom-word,.wom-word-popup)', function(e) {
+    $('.wom-word-popup').remove();
+  });
+
+  $(window).on('resize', function() {
+    $('.wom-word-popup').remove();
+  });
+});
+</script>
+<style type="text/css">
+.review p {
+
+}
+.wom-word {
+	margin-left: .1em;
+	margin-right: .1em;
+	color: #0080ff;
+	display: inline-block;
+	border-bottom: 1px dashed #0080ff;
+	cursor: pointer;
+}
+.wom-word-popup {
+	padding: 5px 10px;
+	color: #333;
+	background-color: #ffe;
+	border: 1px solid #ccc;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 999999;
+}
+</style><link rel="stylesheet" href="/shika/css/fc_ctm.css?20180711161503">
+<script src="/shika/js/fc_ctm.js?20180711161503"></script>
+
+<style type="text/css">
+
+	.ui-menu-item a,
+	.ui-menu-item a:hover
+	 { transition: none; }
+	 #usernav ul li {margin-left:0}
+
+</style>
+<!--[if lt IE 9]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
+<script src="./js/html5shiv.js?20180711161503"></script>
+<script src="./script/respond.min.js?20180711161503"></script>
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8 lt-ie9">
+<![endif]-->
+<script type="text/javascript" src="/shika/js/proreco.preview.js?20180711161503"></script><!-- 2017-03-30 -->
+<link rel="stylesheet" href="/shika/css/proreco.favorite_modal.css?20180711161503"><link rel="stylesheet" type="text/css" href="/shika/css/related_link.css?20180711161503" media="all" />
+<title>お問い合わせ｜プロレコ｜プロがレコメンドする情報サイト</title>
+
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.7";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFWKNW"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+	<div id="base">
+		<script type="text/javascript" src="/shika/js/proreco.favorite.js?20180711161503"></script><script type="text/javascript" src="/shika/js/proreco.favorite_modal.js?20180711161503"></script><link href="https://proreco.jp/shika/css/proreco.condition_list.css?20180711161503" rel="stylesheet"><script src="https://proreco.jp/shika/js/proreco.condition_list.js?20180711161503" type="text/javascript"></script><script type="text/javascript">
+		// 現在地より検索
+		$(function () {
+			$('a.current_position').on('click', function () {
+				// 端末の対応状況を判別
+				if (!navigator.geolocation) {
+					alert('お使いのブラウザ及び端末では\n現在位置を取得出来ません');
+					return false;
+				}
+
+				$('#loading .loading-text').html('現在位置取得中');
+				$('#loading').show();
+
+				// 現在位置を取得する
+				navigator.geolocation.getCurrentPosition(
+					// success
+					function (position) {
+						var lat = position.coords.latitude;
+						var lng = position.coords.longitude;
+
+						location.href = './list.php?lat='+lat+'&lng='+lng;
+						return;
+					},
+					// error
+					function (error) {
+						// エラーコードのメッセージを定義
+						var errorMessage = {
+							0: '原因不明のエラーが発生しました',
+							1: '位置情報の取得が許可されませんでした',
+							2: '電波状況などで位置情報が取得できませんでした',
+							3: '位置情報の取得に時間がかかり過ぎてタイムアウトしました'
+						};
+						alert(errorMessage[error.code]);
+						$('#loading').hide();
+						return false;
+					},
+					// option
+					function () {
+					}
+				);
+			});
+		});
+</script>
+<style type="text/css">
+	#loading{ display: none; };
+.ui-front{z-index:100 !important;}
+</style>
+
+
+<header id="top-head">
+	<div class="inner">
+		<!-- <h1>歯医者・歯科医院の受付（予約）・検索・口コミサイト | プロレコ</h1> -->
+	</div>
+	<div class="inner clr header_inner">
+		<!-- div class="logo"><a href="./"><img src="./img/logo.png" alt="プロレコ"></a></div -->
+		<div class="logo"><a href="./"><img src="./img/logo_sp.png" alt="プロレコ歯医者" class="narrow-device"><img src="./img/logo.png" alt="プロレコ歯医者" class="wide-device"></a></div>
+
+		<div id="usernav">
+			<ul class="clr usernav_ul">
+				<li class="searcharea sp"><a id="BtnHeadSearch">検索</a></li>
+				<li class="history"><a data-remodal-target="history">閲覧履歴</a></li>
+				<li class="favorite"><a data-remodal-target="favorite">お気に入り<span class="sp_none">一覧</span></a></li>
+			</ul>
+
+			<div class="head_search clr sp_none suggest-parent">
+				<form action="./list.php" method="get" autocomplete="ananaloagud">
+					<input type="text" class="suggest area_input" data-suggest="area" name="vague_area" value="" placeholder="駅名、エリア名" autocomplete="off">
+					<input type="text" class="suggest text_input" data-suggest="name" name="vague_name" value="" placeholder="科目、症状、医院名" autocomplete="off">
+					<input type="submit" class="freeword_submit" value="検索">
+				</form>
+			</div>
+			<div class="head_present_location sp_none clr">
+				<a href="javascript:void(0);" class="headBtn01 current_position">今いる場所から探す</a>
+				<!-- <a href="javascript:void(0);" class="headBtn02 current_position">今すぐ受診</a> -->
+			</div>
+
+			<!-- モーダルウインドウ -->
+			<div id="history" class="remodal" data-remodal-id="history" data-remodal-options="hashTracking:false">
+				<button data-remodal-action="close" class="remodal-close"></button>
+				<h5><i class="fa fa-clock-o"></i>閲覧履歴</h5>
+				<div class="box">
+					<a href="javascript:void(0);" class="btn02 bulk_deletion favorite-delete favorite-delete-all" name="history">登録を一括削除</a>
+					<ul id="HistoryList">
+					</ul>
+				</div>
+			</div>
+
+						<div id="favorite-add" class="remodal" data-remodal-id="favorite-add" data-remodal-options="hashTracking:false">
+				<button data-remodal-action="close" class="remodal-close"></button>
+				<h3><i class="fa fa-heart"></i>お気に入りに追加しました</h3>
+				<div class="box modal-fav">
+				<p class="TaC fav-add-modal">追加した求人は、ページ上部の<br/>「お気に入り」から確認できます。<br>
+				<br><img src="/img/modal-fav.jpg" alt="お気に入り確認イメージ" class="modal-fav"/></p>
+				<button data-remodal-action="close" class="btn04">閉じる</button>
+				</div>
+			</div>
+		</div>
+	</div><!-- inner -->
+</header>
+<div id="loading">
+	<div class="page_loading"></div>
+	<p class="loading-text">現在位置取得中</p>
+</div>
+
+<!-- #searcharea -->
+<div id="searcharea" class="sp">
+	<div class="box">
+		<form name="HeadSearchForm" action="./list.php" method="get">
+			<input type="hidden" name="p" value="shika/contact.html">
+			<!-- <h5>絞込み条件を追加する</h5> -->			<div class="suggest-parent sp_search">
+				<div class="sp_search_inner">
+					<ul>
+						<li class="search_area">
+							<input type="text" class="suggest area_input" data-suggest="area" name="vague_area" value="" placeholder="駅名、エリア名" autocomplete="off">
+						</li>
+						<li class="search_txt">
+							<input type="text" class="suggest text_input" data-suggest="name" name="vague_name" value="" placeholder="科目、症状、医院名" autocomplete="off">
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="">
+				<a href="javascript:void(0);" onclick="document.HeadSearchForm.submit();return false;" class="btn03">検索</a>
+				</div>
+		</form>
+			</div>
+			<div class="box">
+		<h5 class="headsearch-favorite"><i class="fa fa-star"></i> お気に入りに登録している医院</h5>
+		<div id="SearchFavorites"></div>
+		<div id="SearchFavoritesTemplate" style="display:none;">
+			<div class="search-favorite-item clr">
+				<div class="image"><a href=""></a></div>
+				<div class="info">
+					<h6><a href="" class="h_b">医院名</a></h6>
+					<table>
+						<tr><th>住所</th><td class="h_i"></td></tr>
+						<tr><th>業務内容</th><td class="h_f"></td></tr>
+					</table>
+					</div>
+					</div>
+				</div>
+			</div>
+</div><!-- /#searcharea -->
+
+<div class="history_template"  style="display:none;">
+	<ul>
+		<li>
+			<h6>
+				<span class="h_bf"></span>
+				<a href="" class="h_b"></a>
+			</h6>
+			<div class="tags">
+				<ul class="tag">
+					<li><a href=""></a></li>
+				</ul>
+				<a href="javascript:void(0);" class="btn02 del favorite-delete">登録を削除</a>
+					</div>
+						<div class="clr">
+				<div class="image">
+					<a href=""></a>
+				</div>
+		</li>
+	</ul>
+			</div>
+<div id="favorite" class="remodal" data-remodal-id="favorite" data-remodal-options="hashTracking:false">
+	<button type="button" data-remodal-action="close" class="remodal-close"></button>
+	<h5><i class="fa fa-star"></i>お気に入りに登録した医院</h5>
+	<div class="remodal-control clr">
+		<div class="remodal-control-left"><label><input type="checkbox" class="checked_fid_all"> 全て選択</label></div>
+		<div class="remodal-control-right"><a href="javascript:void(0);" class="btn02 bulk_deletion favorite-delete favorite-delete-all" name="favorite">選択した登録を一括削除</a></div>
+	</div>
+	<div class="box">
+		<ul id="Favorites"></ul>
+		<ul id="FavoritesTemplate" style="display:none;">
+			<li class="favorite-item clr">
+				<div class="check"><input type="checkbox" class="checked_fid" value=""></div>
+				<div class="image"><a href=""></a></div>
+				<div class="info">
+					<h6><a href="" class="fav_fname"></a></h6>
+					<p><span class="fav_address"></span>/<span class="fav_access"></span></p>
+					<table>
+						<tr><th>診療内容</th><td class="fav_taxo3"></td></tr>
+					</table>
+				</div>
+			</li>
+		</ul><!-- /#FavoritesTemplate -->
+	</div><!-- /.box -->
+</div><!-- /#favorite -->
+		<div class="breadcrumb inner">
+			<ul class="clr">
+				<li><a href="./">プロレコHOME</a></li>
+				<li>お問い合わせ</li>
+			</ul>
+		</div>
+
+		<div id="contents" class="clr inner">
+			<div id="main" class="box_inner page">
+				<section id="contact" class="box form">
+					<h2>お問い合わせ</h2>
+					<p class="mb20">こちらはプロレコに関するお問い合わせフォームです。<br />
+						医院様の問い合わせ窓口とは異なりますのでご注意ください。<br />
+						医院様あての問い合わせについては、各医院様へお問い合わせくださいますようお願いします。<br /><br />
+
+						お問い合わせの内容をご記入の上、送信してください。<br />
+						ご記入いただいたメールアドレス宛に返信いたします。<br />
+						<span class="must">※</span>は必須入力です。必ず入力してください。（仮の文章です）
+					</p>
+
+					<form>
+					<table>
+						<tr>
+							<th><label>お問い合わせ内容</label><span class="must">※</span></th>
+							<td>
+								<select name="" id="">
+								<option value="" selected>お問い合わせ内容
+								<option value="">お問い合わせ内容
+								<option value="">お問い合わせ内容
+								<option value="">お問い合わせ内容
+								<option value="">お問い合わせ内容
+								<option value="">お問い合わせ内容
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<th><label>お名前</label><span class="must">※</span></th>
+							<td><input type="text" name="" autocomplete="name"></td>
+						</tr>
+						<tr>
+							<th><label>メールアドレス</label><span class="must">※</span></th>
+							<td><input type="email" name="email" autocomplete="email"></td>
+						</tr>
+						<tr>
+							<th><label>お電話番号</label></th>
+							<td><input type="tel" name="tel" autocomplete="tel"></td>
+						</tr>
+						
+						<tr>
+							<th><label>内容をご記入ください</label><span class="must">※</span></th>
+							<td><textarea name="massage"></textarea></td>
+						</tr>
+					</table>
+
+					<p class="attention">ご記入にあたり、<a href="./pp.html">個人情報保護方針</a>をご一読いただき、内容にご同意頂いた上でご記入、ご送信くださいますようお願い申し上げます。 </p>
+
+					<p class="taC submit"><input type="submit" value="確認"></p>
+					</form>
+					
+
+				</section>
+			</div><!-- main -->
+
+			<div id="side" class="box_inner">
+				<img src="./img/chara_pickup.png" alt="ピックアップアイコン プロレコ歯医者" class="chara_pickup">
+				<div id="pickup" class="sidebox">
+					<h4>ピックアップ歯医者</h4>
+					<div class="box">
+						<ul class="slider">
+							<li><a href="./detail.php?facility_id=8229" class="local_add_btn" name="history" data-countfid="8229"><span><img src="https://proreco.jp/shika/img/no-image.gif" alt="医療法人 応世会 大野歯科医院 "></span><p class="clinic_name">医療法人 応世会 大野歯科医院</a></p></li>
+							<li><a href="./detail.php?facility_id=23077" class="local_add_btn" name="history" data-countfid="23077"><span><img src="https://proreco.jp/shika/img/no-image.gif" alt="たかしデンタルクリニック "></span><p class="clinic_name">たかしデンタルクリニック</a></p></li>
+							<li><a href="./detail.php?facility_id=28073" class="local_add_btn" name="history" data-countfid="28073"><span><img src="https://proreco.jp/shika/img/no-image.gif" alt="医療法人社団 仁愛会 武蔵小杉クリニック "></span><p class="clinic_name">医療法人社団 仁愛会 武蔵小杉クリニック</a></p></li>
+							<li><a href="./detail.php?facility_id=31253" class="local_add_btn" name="history" data-countfid="31253"><span><img src="https://proreco.jp/shika/img/no-image.gif" alt="倉松歯科医院 "></span><p class="clinic_name">倉松歯科医院</a></p></li>
+							<li><a href="./detail.php?facility_id=17803" class="local_add_btn" name="history" data-countfid="17803"><span><img src="https://proreco.jp/shika/img/up/17803-other-4.jpg" alt="裕木歯科クリニック その他"></span><p class="clinic_name">裕木歯科クリニック</a></p></li>
+						</ul>
+					</div>
+				</div>
+				<!-- <div id="member" class="sidebox">
+					<h4>プロレコ会員サービス</h4>
+					<form action="" method="post" class="box">
+						<input type="hidden" name="request" value="login">
+						<dl>
+														<dt><label><i class="fa fa-envelope"></i>メールアドレス</label></dt>
+							<dd><input type="text" name="mail"></dd>
+							<dt><label><i class="fa fa-key"></i>パスワード</label></dt>
+							<dd><input type="password" name="password"></dd>
+						</dl>
+
+						<p class="submit"><input type="submit" value="ログイン" name=""></p>
+					</form>
+				</div> -->
+
+				<div id="banner" class="sp_none">
+					<a href="./application_inquiry.php"><img src="./img/banner.jpg" alt="掲載お問合せ"></a>
+				</div>
+
+
+
+				<div id="sns" class="sp_none">
+					<div class="fb-page" data-href="https://www.facebook.com/proreco" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/proreco" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/proreco">プロレコ - プロの口コミが見れる歯医者ガイド</a></blockquote></div>
+				</div>
+			</div><!-- side -->		</div>
+
+				<footer>
+			<nav class="inner clr">
+				<ul>
+					<li><a href="./">ホーム</a></li>
+					<!--<li><a href="./area.html">エリアから探す</a></li>
+					<li><a href="./ensen.html">沿線から探す</a></li>
+					<li><a href="./rosen.html">路線図から探す</a></li>-->
+					<li><a href="./news.php">お知らせ</a></li>
+					<li><a href="./application_form.php">医院掲載のお申込み</a></li>
+					<li><a href="./pp.html">個人情報保護方針</a></li>
+					<li><a href="./terms.html">サービス利用規約</a></li>
+					<li><a href="./faq.html">よくあるご質問</a></li>
+					<!-- <li><a href="./user_policy.html">無料会員規約</a></li>
+					<li><a href="./payinguser_policy.html">有料会員規約</a></li>
+					<li><a href="./guidelines.html">掲載ガイドライン</a></li> -->
+					<li><a href="http://firstconnect.co.jp/" target="_blank">運営会社</a></li>
+					<li><a href="./contact.php">お問い合わせ</a></li>
+					<li><a href="./sitemap.html">サイトマップ</a></li>
+				</ul>
+			</nav>
+			<!-- <p class="sp box_inner"><a href="./contact.html" class="btn03">お問い合わせ</a></p> -->
+
+			<div class="copy">
+				<p class="inner">Copyright (C)FirstConnect Inc. All Rights Reserved.</p>
+			</div>
+		</footer>	</div><!-- base -->
+	<p class="pageTop"><a href="#"></a></p>
+</body>
+</html>

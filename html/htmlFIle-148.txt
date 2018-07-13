@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>QuadTech自動印刷機制御装置</title>
+<!-- google verify -->
+<meta name="verify-v1" content="x4IbhPju8zp3kdA1Jp1llF0LYCobc97Gh0nSWFA/ELw=" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="トータルカスタマーケアに裏付けられた利益を築く印刷ソリューション" />
+<meta name="keywords" content="quadtech, quad tech, qti, vigitek, 印刷機自動化, 自動化, プロセス自動化, 商業印刷, 新聞印刷, パッケージ印刷, グラビア, オフセット印刷, フレキソ, 印刷, コントロールシステム, プロセスコントロール, 自動見当装置, カラーコントロール, カラー制御, リボンコントロール, ウェブ検査, 印刷周辺機器, 印刷機器, multicam", spectralcam, spectracam />
+
+<!--ShareThis-->
+<script type="text/javascript">var switchTo5x=true;</script><script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script><script type="text/javascript">stLight.options({publisher:'543654fe-d820-4a93-a1a2-ad572bfeb5b6'});</script>
+
+<script type="text/javascript" src="/jquery/jquery.js"></script>
+<script type="text/javascript" src="/jquery/jquery.cycle.all.js"></script>
+<link rel="stylesheet" type="text/css" href="/jquery/cycle.css" />
+<link href="/ja/includes/headnav.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/ja/includes/headnav.js"></script>
+<link href="/ja/includes/quadtech.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/ja/includes/js.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.slideshow')
+	.after('<div id="page">')
+	.cycle({
+		fx: 'fade,scrollDown,fade,scrollLeft',
+		randomizeEffects: 0,
+		timeout: 5000,
+		pager: '#page',
+		pagerAnchorBuilder: function(index, el) {
+        return '<a href="#"></a>'; } // whatever markup you want
+	});
+});
+</script>
+</head>
+<body onload="MM_preloadImages('/ja/images/hm_commercial_f2.gif','/ja/images/hm_newspaper_f2.gif','/ja/images/hm_packaging_f2.gif','/ja/images/hm_pubgravure_f2.gif')">
+<div id="wrapper"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="/ja/includes/quadtech.css" rel="stylesheet" type="text/css" />
+<link href="/ja/includes/headnav.css" rel="stylesheet" type="text/css" />
+<div class="header">
+  <div class="header_left"><img src="/images/logos/logo_qtech-tag.gif" width="448" height="80" border="0" alt="QuadTech" /><a name="top">&nbsp;</a></div>
+  <div class="header_right">
+    <!-- Google CSE Search Box Begins  -->
+    <form action="http://www.quadtechworld.com/ja/search_results.asp" id="cse-search-box">
+      <div>
+        <input type="hidden" name="cx" value="002896992468911286808:q4k6es2zbfe" />
+        <input type="hidden" name="cof" value="FORID:11" />
+        <input type="hidden" name="ie" value="UTF-8" />
+        <input type="hidden" name="hl" value="ja" />
+        <input type="hidden" name="lr" value="lang_ja" />
+        <input type="text" name="q" size="37" />
+        <input name="sa" type="image" src="/images/search-normal.gif" srcover="/images/search-over.gif" style="vertical-align:bottom" alt="検索" />
+      </div>
+    </form>
+    <script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=ja"></script>
+    <!-- Google CSE Search Box Ends -->
+  </div>
+  <div class="utility_right"><!-- 
+--><a href="/en/" onclick="switchLanguage('en');return false;" title="US English"><img src="/images/flags-languages/us-normal.gif" srcover="/images/flags-languages/us-over.gif" alt="US English" /></a>&nbsp;<!--
+--><a href="/ja/" onclick="switchLanguage('ja');return false;" title="Japanese (&#26085;&#26412;&#35486;)"><img src="/images/flags-languages/jp-normal.gif" srcover="/images/flags-languages/jp-over.gif" alt="Japanese (&#26085;&#26412;&#35486;)" /></a>&nbsp;<!-- 
+--><a href="/de/" onclick="switchLanguage('de');return false;" title="Deutsch"><img src="/images/flags-languages/de-normal.gif" srcover="/images/flags-languages/de-over.gif" alt="Deutsch" /></a>&nbsp;<!-- 
+--><a href="/fr/" onclick="switchLanguage('fr');return false;" title="Français"><img src="/images/flags-languages/fr-normal.gif" srcover="/images/flags-languages/fr-over.gif" alt="Français" /></a>&nbsp;<!-- 
+--><a href="/it/" onclick="switchLanguage('it');return false;" title="Italiano"><img src="/images/flags-languages/it-normal.gif" srcover="/images/flags-languages/it-over.gif" alt="Italiano" /></a>&nbsp;<!-- 
+--><a href="/es/" onclick="switchLanguage('es');return false;" title="Español"><img src="/images/flags-languages/es-normal.gif" srcover="/images/flags-languages/es-over.gif" alt="Español" /></a>&nbsp;<!-- 
+--><a href="/zh/" onclick="switchLanguage('zh');return false;" title="Chinese-simp (&#31616;&#20307;&#20013;&#25991;)"><img src="/images/flags-languages/cn-normal.gif" srcover="/images/flags-languages/cn-over.gif" alt="Chinese-simp (&#31616;&#20307;&#20013;&#25991;)" /></a></div>
+</div>
+<div id="nav" class="menu">
+  <ul>
+    <li><a href="/ja/products/default.asp" title="Products" rel="dropmenu1">製品</a></li>
+    <li><a href="/ja/services/default.asp" title="Services &amp; Support" rel="dropmenu2">サービス &amp; サポート</a></li>
+    <li><a href="/ja/news/default.asp" title="News &amp; Events" rel="dropmenu3">ニュース &amp; イベント</a></li>
+    <li><a href="/ja/library/default.asp" title="Resource Library">リソースライブラリー</a></li>
+    <li><a href="/ja/about/default.asp" title="About QuadTech" rel="dropmenu5">QuadTechについて</a></li>
+    <li><a href="/ja/contact/default.asp" title="Contact Us" rel="dropmenu6">お問合せ先</a></li>
+  </ul>
+</div>
+<!--
+sub nav and initialize script are located in subnav.asp and included at the bottom botton of pages to avoid positioning problems... *positioning problem solution: make sure the HTML for the drop down DIVs themselves is outside any container tag on the page other than the BODY
+-->
+
+  <div id="main">
+    <div class="h_col_4">
+      <div class="slideshow">
+        
+        <div><a href="/ja/news/pressroom/pr1712.asp" target="_blank"><img src="/ja/images/main/comexi.jpg" alt="Comexi" width="655" height="475" /></a></div>
+        
+        <div><a href="/ja/news/pressroom/pr1711.asp" target="_blank"><img src="/ja/images/main/qt-cc.jpg" alt="QuadTech-ColorConsulting" width="655" height="475" /></a></div>
+        
+        <div><a href="/ja/news/pressroom/pr1710.asp" target="_blank"><img src="/ja/images/main/uteco.jpg" alt="Uteco" width="655" height="475" /></a></div>
+        
+        <div><a href="/ja/news/pressroom/pr1708.asp" target="_blank"><img src="/ja/images/main/imprimerie.jpg" alt="Imprimerie Bidoit" width="655" height="475" /></a></div>
+        
+        <div><a href="/ja/products/colortrack.asp" target="_blank"><img src="/ja/images/main/colortrack.jpg" alt="ColorTrack" width="655" height="475" /></a></div>
+        
+        <div><a href="/ja/products/cm_deltacam.asp" target="_blank"><img src="/ja/images/main/deltacam.jpg" alt="DeltaCam" width="655" height="475" /></a></div>
+        
+        <div><a href="/ja/products/inspection_system.asp" target="_blank"><img src="/ja/images/main/inspection.jpg" alt="Inspection System" width="655" height="475" /></a></div>
+        
+        <div><a href="/ja/products/ccs_accu.asp"><img src="/ja/images/main/accucam.jpg" alt="AccuCam" width="655" height="475" /></a></div>
+        
+        <div><a href="/ja/products/cms_spectralcam.asp"><img src="/ja/images/main/cms-w-sc-hd.jpg" alt="Color Measurement System with SpectralCam" width="655" height="475" /></a></div>
+        
+      </div>
+    </div>
+    <div class="col_2">
+      <div class="market"> <a href="/ja/markets/commercial/default.asp" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('commercial','','/ja/images/hm_commercial_f2.gif',1)"><img src="/ja/images/hm_commercial.gif" alt="Commercial Market" width="325" height="89" border="0" id="commercial" /></a> </div>
+      <div class="market"> <a href="/ja/markets/newspaper/default.asp" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('newspaper','','/ja/images/hm_newspaper_f2.gif',1)"><img src="/ja/images/hm_newspaper.gif" alt="Newspaper Market" width="325" height="89" border="0" id="newspaper" /></a> </div>
+      <div class="market"> <a href="/ja/markets/packaging/default.asp" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('packaging','','/ja/images/hm_packaging_f2.gif',1)"><img src="/ja/images/hm_packaging.gif" alt="Packaging Market" width="325" height="89" border="0" id="packaging" /></a> </div>
+      <div class="market"> <a href="/ja/markets/pubgravure/default.asp" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('pubgravure','','/ja/images/hm_pubgravure_f2.gif',1)"><img src="/ja/images/hm_pubgravure.gif" alt="Publication Gravure Market" width="325" height="89" border="0" id="pubgravure" /></a> </div>
+      
+      <div class="h_news"> <a href="/ja/news/pressroom/default.asp"><img src="/ja/images/hm_news.gif" alt="NEWS" width="89" height="25" /></a>
+      
+        <p><a href="https://baldwintech.com/media" target="_blank">QuadTech is now BALDWIN Vision Systems! For all BALDWIN news, please visit baldwintech.com/media</a><a href="/downloads/FLEXO_November_2017_DuMez.pdf" target="_blank"></a></p>
+      </div>
+      
+    </div>
+    
+    <div class="footer">
+  <ul>
+    <li>&copy;2018 QuadTech, Inc.&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://www.baldwintech.com" target="_blank">Baldwin Technology Company, Inc.</a></li>
+    <li><a href="https://plus.google.com/110090621332043338479?prsrc=3" rel="publisher" class="gplus" target="_blank"></a></li>
+    <li><a href="http://www.linkedin.com/companies/10948" class="linkedin" target="_blank"></a></li>
+    <li><a href="http://twitter.com/QuadTechWorld" class="twitter" target="_blank"></a></li>
+    <li><a href="http://www.youtube.com/user/QuadTechWorld" class="youtube" target="_blank"></a></li>
+    <li><a href="http://www.facebook.com/QuadTech" class="facebook" target="_blank"></a></li>
+  </ul>
+</div>
+ 
+  </div>
+</div>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- products drop down menu -->
+<div id="dropmenu1" class="dropmenudiv">
+  <ul class="topics">
+    <li><a href="/ja/markets/commercial/default.asp">商業用</a></li>
+    <li><a href="/ja/markets/newspaper/default.asp">新聞用</a></li>
+    <li><a href="/ja/markets/packaging/default.asp">パッケージング &amp; 紙材加工用</a></li>
+    <li><a href="/ja/markets/pubgravure/default.asp">出版グラビア用</a></li>
+  </ul>
+</div>
+<!-- services drop down menu -->
+<div id="dropmenu2" class="dropmenudiv">
+  <ul class="topics">
+    <li><a href="/ja/services/service.asp">サービス &amp; パーツ</a></li>
+    <li><a href="/ja/services/training.asp">トレーニング</a></li>
+    <li><a href="/ja/services/ppg.asp">パフォーマンス実証済み保証&#8482;</a></li>
+    <li><a href="/ja/services/Notices_ja.pdf" target="_blank">お知らせ</a></li>
+  </ul>
+</div>
+<!-- news drop down menu -->
+<div id="dropmenu3" class="dropmenudiv">
+  <ul class="topics">
+    <li><a href="/ja/news/pressroom/default.asp">プレスルーム</a></li>
+    <li><a href="/ja/news/installations.asp">設置情報</a></li>
+    <li><a href="/ja/news/events.asp">イベント</a></li>
+  </ul>
+</div>
+<!-- library drop down menu -->
+<div id="dropmenu4" class="dropmenudiv">
+  <ul class="topics">
+    <li><a href="/ja/library/default.asp#thinktank">ThinkTank対談</a></li>
+    <li><a href="/ja/library/default.asp#wp">白書</a></li>
+    <li><a href="/ja/library/default.asp#videos">ビデオ（英語）</a></li>
+    <li><a href="/ja/library/default.asp#success">サクセスストーリー</a></li>
+    <li><a href="/ja/library/default.asp#brochures">パンフレット</a></li>
+  </ul>
+</div>
+<!-- about drop down menu -->
+<div id="dropmenu5" class="dropmenudiv">
+  <ul class="topics">
+    <li><a href="/ja/about/heritage.asp">伝統</a></li>
+    <li><a href="/ja/about/innovation.asp">イノベーション</a></li>
+    <li><a href="/ja/about/affiliations.asp">提携企業・加盟団体</a></li>
+    <li><a href="/ja/about/management.asp">マネージメント チーム</a></li>
+    <li><a href="/ja/about/locations.asp">所在地</a></li>
+    <li><a href="https://barrywehmiller.wd1.myworkdayjobs.com/BWCareers" target="_blank">キャリア</a></li>
+  </ul>
+</div>
+<!-- contact drop down menu -->
+<div id="dropmenu6" class="dropmenudiv">
+  <ul class="topics">
+    <li><a href="/ja/contact/sales.asp">セールス</a></li>
+    <li><a href="/ja/contact/order_management.asp">注文管理</a></li>
+    <li><a href="/ja/contact/service.asp">現場サービス</a></li>
+    <li><a href="/ja/contact/parts.asp">パーツ</a></li>
+    <li><a href="/ja/contact/agents.asp">代理店</a></li>
+  </ul>
+</div>
+<script type="text/javascript">
+//SYNTAX: tabdropdown.init("menu_id", [integer OR "auto"])
+tabdropdown.init("nav", "auto")
+</script> 
+ 
+<!-- Google Analytics --> 
+<!--Start Google Analytics Code-->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-460760-4");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<!--End of Google Analytics Code-->
+</body>
+</html>

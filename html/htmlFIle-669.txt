@@ -1,0 +1,1020 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-JP" />
+<meta property="og:title" content="デザインオフィス(賃貸事務所 賃貸オフィス)ならデザイナーズオフィスのDESGIN BUKKEN" />
+<meta property="og:description" content="賃貸事務所・デザインオフィスをお探しならDESIGN BUKKEN。さすがの定番から、驚きの新定番まで。普段をもっと快適に、暮らしとシゴトを活性化させるデザインオフィス、リノベーション、コンバージョン、ヴィンテージ物件。自分をバリューアップする付加価値不動産を見つけるウェブサイト。">
+<meta property="og:type" content="landmark" />
+<meta property="og:url" content="http://re-remodel.com/" />
+<meta property="og:image" content="https://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-ash4/304256_306165776060656_210487325628502_1337936_1422166009_n.jpg" />
+<meta property="og:site_name" content="DESIGN BUKKEN" />
+<meta property="og:email" content="info@re-remodel.com">
+<meta property="og:phone_number" content="03-6427-3125">
+<title>デザインオフィス(賃貸事務所 賃貸オフィス)ならデザイナーズオフィスのDESGIN BUKKEN</title>
+<meta name="description" content="賃貸事務所・デザインオフィスをお探しならDESIGN BUKKEN。さすがの定番から、驚きの新定番まで。普段をもっと快適に、暮らしとシゴトを活性化させるデザインオフィス、リノベーション、コンバージョン、ヴィンテージ物件。自分をバリューアップする付加価値不動産を見つけるウェブサイト。">
+<meta name="keywords" content="デザインオフィス,デザイナーズオフィス,賃貸オフィス,賃貸事務所">
+<link rel="stylesheet" type="text/css" href="http://re-remodel.com/css/common.css" />
+<link rel="stylesheet" type="text/css" href="http://re-remodel.com/css/utility.css" />
+<link rel="stylesheet" type="text/css" href="http://re-remodel.com/css/style.css" />
+<link rel="stylesheet" type="text/css" href="http://re-remodel.com/css/slide.css"/>
+<link rel="stylesheet" type="text/css" href="http://re-remodel.com/css/print.css"  media="print" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://re-remodel.com/js/smoothScroll.js"></script>
+<script type="text/javascript" src="http://re-remodel.com/js/slickhover.js"></script>
+<script type="text/javascript">
+(function($){
+	$(function() {
+		$('#photoList img').slickhover({
+			icon: "images/ico_zoom.png",
+			color: "#000000",
+			opacity: 0.5,
+			speed: 300,
+			animateIn: false
+		});
+	});
+})(jQuery);
+</script>
+<!--[if lt IE 9]>
+<script src="//css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<script type="text/javascript" src="http://re-remodel.com/js/jquery.bxslider.js"></script>
+<script type="text/javascript" src="http://re-remodel.com/js/sp.js"></script>
+<script type="text/javascript">
+$(function(){
+	$('#slider1').bxSlider({
+		auto:true,
+		speed:1000,
+		pause:7000,
+	});
+	$('.bxslider').bxSlider({
+		slideWidth:670
+	});
+});
+</script>
+<script type="text/javascript">
+//タブ追随
+$(function() {
+            var offset = $(".gnavi").offset();
+            var topPadding = 0;
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > offset.top) {
+                    $(".gnavi").stop().css({
+                        marginTop: $(window).scrollTop() - offset.top + topPadding
+                    });
+                } else {
+                    $(".gnavi").stop().css({
+                        marginTop: 0
+                    });
+                };
+            });
+        });
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1&appId=110718255683088";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="wrap" id="top"> 
+	<!--header-->
+	<div class="header">
+		<div class="inner">
+			<div class="logo">
+				<h1 class="pc"><a data-tor-smoothScroll="noSmooth" href="http://re-remodel.com/"><img src="http://re-remodel.com/images/common/logo.gif" alt="DESIGN BUKKEN" /></a></h1>
+				<h1 class="sp"><a data-tor-smoothScroll="noSmooth" href="http://re-remodel.com/"><img src="http://re-remodel.com/images/common/logo_sp.png" alt="DESIGN BUKKEN" /></a></h1>
+			<!--メニュー-->
+			<div class="sp user_menu"> 
+				<script type="text/javascript">
+				function more(){
+				$(".user_open").toggleClass("user_none")}
+				</script>
+				<dl>
+					<dt onclick="more()"><a href="#"><img src="http://re-remodel.com/images/common/btn_menu.png" width="40" height="40" alt="メニュー" /></a></dt>
+					<dd class="user_open user_none">
+						<ul>
+							<li><a href="http://re-remodel.com/"><img src="http://re-remodel.com/images/common/navi01_on.gif" width="100%" alt="Home" /></a></li>
+							<li><a href="http://re-remodel.com/about/"><img src="http://re-remodel.com/images/common/navi02.gif" width="100%" alt="About us" /></a></li>
+							<li><a href="http://re-remodel.com/list/"><img src="http://re-remodel.com/images/common/navi03.gif" width="100%" alt="お気に入りリスト" /></a></li>
+							<li><a href="http://re-remodel.com/special/"><img src="http://re-remodel.com/images/common/navi04.gif" width="100%" alt="特選物件" /></a></li>
+							<li><a href="http://re-remodel.com/info/"><img src="http://re-remodel.com/images/common/navi05.gif" width="100%" alt="物件情報のご提供" /></a></li>
+							<li><a href="http://re-remodel.com/voice/"><img src="http://re-remodel.com/images/common/navi06.gif" width="100%" alt="お客様の声" /></a></li>
+							<li><a href="http://re-remodel.com/fees/"><img src="http://re-remodel.com/images/common/navi07.gif" width="100%" alt="手数料について" /></a></li>
+						</ul>
+					</dd>
+				</dl>
+			</div>
+			<!--//メニュー-->
+				<p class="pc h1_cap">賃貸事務所・デザインオフィスをお探しならDESIGN BUKKEN. さすが定番から、最新のハイグレードオフィスまで。<br />快適な空間が働く人のモチベーションを上げ、ビジネスを活性化させる。そんなバリューアップオフィスを見つけるウェブサイト。</p>
+			</div>
+			<div class="sp cap_sp">
+				<p>都内にまだあるデザインオフィス多数！<br />『眺望』『採光』などこだわり条件から逆引き検索。<br />電話でお好みのテイストを教えて下さい。<br />非公開物件も含めてお探し致します！</p>
+				<p class="tel"><a href="tel:0357977825"><img src="http://re-remodel.com/images/common/tel.gif" alt="" /></a></p>
+			</div>
+			<!--sns-->
+			<div class="pc head_sns">
+				<ul>
+					<li><a href="https://www.facebook.com/designbukken"><img src="http://re-remodel.com/images/common/icon_sns01.gif" width="35" height="35" alt="" /></a></li>
+					<li><a href="http://twitter.com/#!/design_bukken"><img src="http://re-remodel.com/images/common/icon_sns02.gif" width="35" height="35" alt="" /></a></li>
+					<li><a href="http://re-remodel.com/feed.php"><img src="http://re-remodel.com/images/common/icon_sns04.gif" width="35" height="35" alt="" /></a></li>
+				</ul>
+			</div>
+			<!--//sns-->
+			
+			<!--tel-->
+			<p class="pc head_tel"><img usemap="#company" src="http://re-remodel.com/images/common/head_tel.gif" width="270" height="145" alt="03-6434-0203 受付時間/平日9:00〜18:00" /></p>
+			<map name="company"><area href="https://x173.secure.ne.jp/~x173029/inquiry/index.php" target="_blank" shape="rect" title="ジーエルアールインベストメント株式会社" coords="0,100,270,145"></map>
+			<!--//tel--> 
+			<p class="sp clear pt10" align="center">受付時間／平日9:00〜18:00</p>
+			<p align="center" class="sp clear pt10"><a href="https://x173.secure.ne.jp/~x173029/inquiry/index.php"><img alt="メールのお問い合わせ" src="http://re-remodel.com/images/common/btn_mail_sp.png"></a></p>
+		</div>
+	</div>
+	<!--//header--> 
+	
+	<!--content-->
+	<div class="content"> 
+		<!--グローバルナビ-->
+		<div class="pc gnavi">
+			<ul>
+				<li><a href="http://re-remodel.com/"><img src="http://re-remodel.com/images/common/gnavi01.gif" width="130" height="45" alt="Home" /></a></li>
+				<li><a href="http://re-remodel.com/about/"><img src="http://re-remodel.com/images/common/gnavi02.gif" width="130" height="45" alt="About us" /></a></li>
+				<li><a href="http://re-remodel.com/list/"><img src="http://re-remodel.com/images/common/gnavi03.gif" width="160" height="45" alt="お気に入りリスト" /></a></li>
+				<li><a href="http://re-remodel.com/special/"><img src="http://re-remodel.com/images/common/gnavi04.gif" width="130" height="45" alt="特選物件" /></a></li>
+				<li><a href="http://re-remodel.com/info/"><img src="http://re-remodel.com/images/common/gnavi05.gif" width="130" height="45" alt="物件情報のご提供" /></a></li>
+				<li><a href="http://re-remodel.com/voice/"><img src="http://re-remodel.com/images/common/gnavi06.gif" width="130" height="45" alt="お客様の声" /></a></li>
+				<li><a href="http://re-remodel.com/fees/"><img src="http://re-remodel.com/images/common/gnavi07.gif" width="150" height="45" alt="手数料について" /></a></li>
+			</ul>
+		</div>
+		<!--//グローバルナビ--> 
+
+
+		<!--left_side-->
+		<div class="pc side_left"> 
+			<!--category-->
+			<div class="banner">
+				<ul>
+					<li><a href="http://re-remodel.com/feature/"><img src="http://re-remodel.com/images/common/banner_inuki_left.jpg" width="100%"  /></a></li>
+				</ul>
+			</div>
+			<div class="side_box side_navi">
+				<ul>
+					<li class="             current"><a href="http://re-remodel.com/search/index.php?tubo=&city="                                         >全キーワード</a></li>
+					<li class="lighting     "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=lighting"     id="gnavi_sunful"     >たっぷり採光</a></li>
+					<li class="green        "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=green"        id="gnavi_green"      >緑の癒し</a></li>
+					<li class="view         "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=view"         id="gnavi_view"       >眺望サプライズ！</a></li>
+					<li class="minute       "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=minute"       id="gnavi_station"    >エキ近∞5分以内</a></li>
+					<li class="new          "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=new"          id="gnavi_new"        >ピカピカ築浅</a></li>
+					<li class="relax        "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=relax"        id="gnavi_relax"      >閑静＆リラックス</a></li>
+					<li class="inuki        "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=inuki"        id="gnavi_inuki"      >居抜きでECO</a></li>
+					<li class="renovation   "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=renovation"   id="gnavi_renovation" >魅惑リノベーション</a></li>
+					<li class="vintage      "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=vintage"      id="gnavi_vintage"    >味わいヴィンテージ</a></li>
+					<li class="one_building "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=one_building" id="gnavi_house"      >“我が城”１棟モノ</a></li>
+					<li class="nicedesign   "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=nicedesign"   id="gnavi_nicedesign" >グッと！デザイン</a></li>
+					<li class="balcony      "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=balcony"      id="gnavi_balcony"    >ルーフバルコニー解放区</a></li>
+					<li class="maisonette   "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=maisonette"   id="gnavi_maisonnette">メゾネット主義</a></li>
+					<li class="concrete     "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=concrete"     id="gnavi_concrete"   >Cool！コンクリ打放し</a></li>
+					<li class="ceiling      "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=ceiling"      id="gnavi_ceiling"    >開放感↑天高2.8ｍ以上</a></li>
+				</ul>
+			</div>
+			<!--//category--> 
+			
+			<!--sns-->
+			<div class="side_box">
+<div class="fb-like-box" data-href="https://www.facebook.com/designbukken" data-width="198" data-height="500" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+			</div>
+			<!--//sns--> 
+			
+			<!--banner-->
+			<div class="banner">
+				<ul>
+					<li><a href="http://re-remodel.com/special/"><img src="http://re-remodel.com/images/common/bnr01.jpg" width="100%" alt="特選物件" /></a></li>
+					<li><a href="http://re-remodel.com/voice/"><img src="http://re-remodel.com/images/common/bnr02.jpg" width="100%" alt="お客様の声" /></a></li>
+					<li><a href="http://re-remodel.com/info/"><img src="http://re-remodel.com/images/common/bnr03.jpg" width="100%" alt="物件情報のご提供" /></a></li>
+					<li><a href="http://re-remodel.com/fees/"><img src="http://re-remodel.com/images/common/bnr05.png" width="100%" alt="手数料についてのご案内" /></a></li>
+					<li><a href="http://re-remodel.com/search/index.php?menu=full"><img src="http://re-remodel.com/images/common/bnr06.jpg" width="100%" alt="ただいま満室物件" /></a></li>
+				</ul>
+			</div>
+			<!--//banner--> 
+		</div>
+		<!--//left_side--> 
+		<!--right_side-->
+		<div class="side_right">
+<h2 class="photo pc" id="photoList" style="margin-bottom:20px;"><a href="http://re-remodel.com/lp2/" target="_blank"><img src="http://re-remodel.com/images/topimg.jpg" alt="働きたくなるオフィスには理由がある"></a></h2>
+<h2 class="photo sp" id="photoList" style="margin-bottom:20px;"><a href="http://re-remodel.com/lp2/" target="_blank"><img src="http://re-remodel.com/images/topimg_sp.jpg" alt="" style="width:100%;"></a></h2>
+	<!--sort-->
+	<div class="pc box box_sort">
+		<ul class="left">
+			<li class="current"><a href="http://re-remodel.com/search/index.php?city=&menu=">全面積</a></li>
+			<li ><a href="http://re-remodel.com/search/index.php?tubo=1&city=&menu=">〜50坪</a></li>
+			<li ><a href="http://re-remodel.com/search/index.php?tubo=2&city=&menu=">〜100坪</a></li>
+			<li ><a href="http://re-remodel.com/search/index.php?tubo=3&city=&menu=">〜200坪</a></li>
+			<li ><a href="http://re-remodel.com/search/index.php?tubo=4&city=&menu=">200坪〜</a></li>
+		</ul>
+		<ul class="right">
+			<li class="current"><a href="http://re-remodel.com/search/index.php?tubo=&menu=">全エリア</a></li>
+			<li ><a href="http://re-remodel.com/search/index.php?tubo=&city=3&menu=">港区</a></li>
+			<li ><a href="http://re-remodel.com/search/index.php?tubo=&city=13&menu=">渋谷区</a></li>
+			<li ><a href="http://re-remodel.com/search/index.php?tubo=&city=4&menu=">新宿区</a></li>
+			<li ><a href="http://re-remodel.com/search/index.php?tubo=&city=2&menu=">中央区</a></li>
+			<li ><a href="http://re-remodel.com/search/index.php?tubo=&city=1&menu=">千代田区</a></li>
+			<li ><a href="http://re-remodel.com/search/index.php?tubo=&city=other&menu=">その他</a></li>
+		</ul>
+	</div>
+					
+	<!--//sort-->
+	<!--h2><img src="http://re-remodel.com/images/tit_h2_01.gif" width="59" height="21" alt="特選物件" /></h2-->
+<!--box_special pc版-->
+	<!--div class="pc box box01">
+		<div id="slideBox" class="box01_bottom bxslider">--
+	<!--box_special loop-->
+			<!--div class="box_special">
+				<p class="left"><a href="/details/index.php?id=0003155"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201803221749_737465.png" alt="物件写真" /></a></p>
+				<div class="right">
+					<div class="box01_detail">
+						<h3><a href="/details/index.php?id=0003155">表参道ヒルズ裏手でゴージャスに</a></h3>
+						<p class="discp">表参道ヒルズの背面側は、閑静ながらも目を引くショップやオフィスが住宅に混じって散在するゾーン。
+今回ご紹介するのは、そんな高感度エリアに構える2012年竣工の低...</p>
+						<div class="ad">
+							<p>渋谷区神宮前4</p>
+							<p>134.62m<sup>2</sup>〔40.7坪〕／980,000円</p>
+						</div>
+					</div>
+				</div>
+			</div-->
+	<!--box_special loop-->
+	<!--box_special loop-->
+			<!--div class="box_special">
+				<p class="left"><a href="/details/index.php?id=0003188"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201805231022_223452.png" alt="物件写真" /></a></p>
+				<div class="right">
+					<div class="box01_detail">
+						<h3><a href="/details/index.php?id=0003188">どう変える？戸建てからのオーダーメイドリノベ</a></h3>
+						<p class="discp">戸建て住宅を思い切ったリノベーションで自社仕様に！
+
+代官山で元々住居として使用しされていた建物を、貸主様による内装費用負担でリノベーションを手掛ける事が出...</p>
+						<div class="ad">
+							<p>渋谷区猿楽町</p>
+							<p>182.14m<sup>2</sup>〔55.1坪〕／1,000,000円</p>
+						</div>
+					</div>
+				</div>
+			</div-->
+	<!--box_special loop-->
+	<!--box_special loop-->
+			<!--div class="box_special">
+				<p class="left"><a href="/details/index.php?id=0003184"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201805210852_373927.png" alt="物件写真" /></a></p>
+				<div class="right">
+					<div class="box01_detail">
+						<h3><a href="/details/index.php?id=0003184">変幻自在なオフィス空間</a></h3>
+						<p class="discp">新橋エリアとしては珍しい、クリエイティブオフィスのご紹介です。
+
+2018年竣工の新築物件で、周辺の物件と比較しても異彩を放つ外観に仕上がっています。
+
+内装も...</p>
+						<div class="ad">
+							<p>港区新橋3</p>
+							<p>31.47m<sup>2</sup>〔9.5坪〕／相談</p>
+						</div>
+					</div>
+				</div>
+			</div-->
+	<!--box_special loop-->
+	<!--box_special loop-->
+			<!--div class="box_special">
+				<p class="left"><a href="/details/index.php?id=0003199"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201806052209_516875.png" alt="物件写真" /></a></p>
+				<div class="right">
+					<div class="box01_detail">
+						<h3><a href="/details/index.php?id=0003199">アートを感じる解放空間</a></h3>
+						<p class="discp">代官山駅と恵比寿駅の中間地帯に、実に魅力的な物件が出てきた。
+これまでアート＆イベントスペースとして使われてきたということで、並の空間ではない。
+駒沢通りか...</p>
+						<div class="ad">
+							<p>渋谷区恵比寿西1</p>
+							<p>153.05m<sup>2</sup>〔46.3坪〕／1,203,540円</p>
+						</div>
+					</div>
+				</div>
+			</div-->
+	<!--box_special loop-->
+	<!--box_special loop-->
+			<!--div class="box_special">
+				<p class="left"><a href="/details/index.php?id=0000135"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201508062155_480913.png" alt="物件写真" /></a></p>
+				<div class="right">
+					<div class="box01_detail">
+						<h3><a href="/details/index.php?id=0000135">こだわり × こだわり</a></h3>
+						<p class="discp">オーナーのこだわり満載なオフィスビル。
+
+外観、黒光りしたガラス箱みたいでカッコイイです。
+
+エントランスは間接照明とオブジェでお出迎え。
+
+そして今回、お...</p>
+						<div class="ad">
+							<p>中央区日本橋２</p>
+							<p>84.44m<sup>2</sup>〔25.5坪〕／相談</p>
+						</div>
+					</div>
+				</div>
+			</div-->
+	<!--box_special loop-->
+	<!--box_special loop-->
+			<!--div class="box_special">
+				<p class="left"><a href="/details/index.php?id=0001187"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201803281848_852811.png" alt="物件写真" /></a></p>
+				<div class="right">
+					<div class="box01_detail">
+						<h3><a href="/details/index.php?id=0001187">至高の原宿目抜き通り</a></h3>
+						<p class="discp">ラフォーレ原宿の向かいには東急プラザ。
+では、FOREVER21の向かいには何が？
+そこにあるのが、今回ご紹介するビルだ。
+
+1Fには当然のようにアパレルのセレクトショ...</p>
+						<div class="ad">
+							<p>渋谷区神宮前4</p>
+							<p>186.59m<sup>2</sup>〔56.4坪〕／1,241,680円</p>
+						</div>
+					</div>
+				</div>
+			</div-->
+	<!--box_special loop-->
+	<!--box_special loop-->
+			<!--div class="box_special">
+				<p class="left"><a href="/details/index.php?id=0001085"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201802282112_491840.png" alt="物件写真" /></a></p>
+				<div class="right">
+					<div class="box01_detail">
+						<h3><a href="/details/index.php?id=0001085">明治通り沿いカフェのような空間</a></h3>
+						<p class="discp">竹下通りとの交差点から北上すると、明治通り沿いにはBEAMSなどのショップが続く。
+一つのランドマークとなっているDIESELショップの三軒向こうあるのが今回の紹介物件...</p>
+						<div class="ad">
+							<p>渋谷区神宮前2</p>
+							<p>122.58m<sup>2</sup>〔37.1坪〕／1,300,000円</p>
+						</div>
+					</div>
+				</div>
+			</div-->
+	<!--box_special loop-->
+	<!--box_special loop-->
+			<!--div class="box_special">
+				<p class="left"><a href="/details/index.php?id=0000734"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201211071714_454869.jpg" alt="物件写真" /></a></p>
+				<div class="right">
+					<div class="box01_detail">
+						<h3><a href="/details/index.php?id=0000734">青山Beauty Collection</a></h3>
+						<p class="discp">銀座線「外苑前」駅徒歩3分の246沿いに感度の高いオフィスビルが出てきた。
+
+新進気鋭のデザイナーによる洗練されたデザイン
+
+入居企業の大半は女性をターゲットに...</p>
+						<div class="ad">
+							<p>港区南青山3</p>
+							<p>281.5m<sup>2</sup>〔85.2坪〕／相談</p>
+						</div>
+					</div>
+				</div>
+			</div-->
+	<!--box_special loop-->
+	<!--box_special loop-->
+			<!--div class="box_special">
+				<p class="left"><a href="/details/index.php?id=0003168"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201804191918_968372.png" alt="物件写真" /></a></p>
+				<div class="right">
+					<div class="box01_detail">
+						<h3><a href="/details/index.php?id=0003168">シークレットベース in 広尾</a></h3>
+						<p class="discp">都内でも有数の高級住宅地エリアとして知られる広尾に、大型のSOHO物件が登場です。
+日本赤十字社の医療センター近くの閑静な住宅街の中にある本物件。
+
+デザイナー...</p>
+						<div class="ad">
+							<p>渋谷区広尾2</p>
+							<p>188.58m<sup>2</sup>〔57坪〕／1,100,000円</p>
+						</div>
+					</div>
+				</div>
+			</div-->
+	<!--box_special loop-->
+	<!--box_special loop-->
+			<!--div class="box_special">
+				<p class="left"><a href="/details/index.php?id=0003161"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201803281311_635843.png" alt="物件写真" /></a></p>
+				<div class="right">
+					<div class="box01_detail">
+						<h3><a href="/details/index.php?id=0003161">【申込あり】天高空間フル活用！</a></h3>
+						<p class="discp">天井高3.89mという開放的な空間を余すところなく有効活用している本物件。
+
+メゾネットでスキップフロアのエリアとロフトがついていて、吹き抜けとして広々とした空間...</p>
+						<div class="ad">
+							<p>新宿区新大久保2</p>
+							<p>60.76m<sup>2</sup>〔18.4坪〕／205,000円</p>
+						</div>
+					</div>
+				</div>
+			</div-->
+	<!--box_special loop-->
+	<!--box_special loop-->
+			<!--div class="box_special">
+				<p class="left"><a href="/details/index.php?id=0003160"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201803271323_117153.png" alt="物件写真" /></a></p>
+				<div class="right">
+					<div class="box01_detail">
+						<h3><a href="/details/index.php?id=0003160">天井高最大3.8m！</a></h3>
+						<p class="discp">築年数の古い物件をリニューアルする事は多いと思いますが、外観が綺麗で比較的築年数の新しい物件をリニューアルするは事は珍しいのではないでしょうか？
+
+今回ご紹...</p>
+						<div class="ad">
+							<p>中央区新川1</p>
+							<p>66.85m<sup>2</sup>〔20.2坪〕／390,000円</p>
+						</div>
+					</div>
+				</div>
+			</div-->
+	<!--box_special loop-->
+	<!--box_special loop-->
+			<!--div class="box_special">
+				<p class="left"><a href="/details/index.php?id=0003152"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201803162102_191308.png" alt="物件写真" /></a></p>
+				<div class="right">
+					<div class="box01_detail">
+						<h3><a href="/details/index.php?id=0003152">むき出しのリノベーションスタイル</a></h3>
+						<p class="discp">東日本橋駅から隅田川に向かって歩みを進めていくと、ちょうど川沿いに現れる本物件。
+
+2017年にフルリノベーションで生まれ変わり、スケルトン天井に、モルタル床と...</p>
+						<div class="ad">
+							<p>中央区日本橋浜町1</p>
+							<p>332.1m<sup>2</sup>〔100.5坪〕／1,500,000円</p>
+						</div>
+					</div>
+				</div>
+			</div-->
+	<!--box_special loop-->
+	<!--box_special loop-->
+			<!--div class="box_special">
+				<p class="left"><a href="/details/index.php?id=0000771"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201301161652_632831.jpg" alt="物件写真" /></a></p>
+				<div class="right">
+					<div class="box01_detail">
+						<h3><a href="/details/index.php?id=0000771">代官山のクールポコ！</a></h3>
+						<p class="discp">代官山といえばご存じの八幡通り。その一角に建つ物件のご紹介です。
+
+2012年5月竣工のこの建物は外観はカーテンウォールのパリッと系、
+共用部はコンクリート打ちっ...</p>
+						<div class="ad">
+							<p>渋谷区代官山町</p>
+							<p>61.39m<sup>2</sup>〔18.6坪〕／519,960円</p>
+						</div>
+					</div>
+				</div>
+			</div-->
+	<!--box_special loop-->
+		<!--/div>
+	</div-->
+<!--box_special pc版-->
+
+<!--box_sp01 sp版-->
+	<!--div class="sp box box01">
+		<div id="slideBox" class="box01_bottom">
+			<div>
+				<ul id="slider1" class="cf"-->
+	<!--box_special loop-->
+					<!--li>
+						<p class="slider_img"><a href="/details/index.php?id=0003155" target="_blank"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201803221749_737465.png" alt="物件写真" /></a></p>
+						<div class="box01_detail">
+							<h3>表参道ヒルズ裏手でゴージャスに</h3>
+							<ul>
+								<li>渋谷区神宮前4</li>
+								<li>134.62m<sup>2</sup>〔40.7坪〕／980,000円</li>
+							</ul>
+						</div>	
+					</li>
+	<!--box_special loop-->
+	<!--box_special loop-->
+					<!--li>
+						<p class="slider_img"><a href="/details/index.php?id=0003188" target="_blank"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201805231022_223452.png" alt="物件写真" /></a></p>
+						<div class="box01_detail">
+							<h3>どう変える？戸建てからのオーダーメイドリノベ</h3>
+							<ul>
+								<li>渋谷区猿楽町</li>
+								<li>182.14m<sup>2</sup>〔55.1坪〕／1,000,000円</li>
+							</ul>
+						</div>	
+					</li>
+	<!--box_special loop-->
+	<!--box_special loop-->
+					<!--li>
+						<p class="slider_img"><a href="/details/index.php?id=0003184" target="_blank"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201805210852_373927.png" alt="物件写真" /></a></p>
+						<div class="box01_detail">
+							<h3>変幻自在なオフィス空間</h3>
+							<ul>
+								<li>港区新橋3</li>
+								<li>31.47m<sup>2</sup>〔9.5坪〕／相談</li>
+							</ul>
+						</div>	
+					</li>
+	<!--box_special loop-->
+	<!--box_special loop-->
+					<!--li>
+						<p class="slider_img"><a href="/details/index.php?id=0003199" target="_blank"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201806052209_516875.png" alt="物件写真" /></a></p>
+						<div class="box01_detail">
+							<h3>アートを感じる解放空間</h3>
+							<ul>
+								<li>渋谷区恵比寿西1</li>
+								<li>153.05m<sup>2</sup>〔46.3坪〕／1,203,540円</li>
+							</ul>
+						</div>	
+					</li>
+	<!--box_special loop-->
+	<!--box_special loop-->
+					<!--li>
+						<p class="slider_img"><a href="/details/index.php?id=0000135" target="_blank"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201508062155_480913.png" alt="物件写真" /></a></p>
+						<div class="box01_detail">
+							<h3>こだわり × こだわり</h3>
+							<ul>
+								<li>中央区日本橋２</li>
+								<li>84.44m<sup>2</sup>〔25.5坪〕／相談</li>
+							</ul>
+						</div>	
+					</li>
+	<!--box_special loop-->
+	<!--box_special loop-->
+					<!--li>
+						<p class="slider_img"><a href="/details/index.php?id=0001187" target="_blank"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201803281848_852811.png" alt="物件写真" /></a></p>
+						<div class="box01_detail">
+							<h3>至高の原宿目抜き通り</h3>
+							<ul>
+								<li>渋谷区神宮前4</li>
+								<li>186.59m<sup>2</sup>〔56.4坪〕／1,241,680円</li>
+							</ul>
+						</div>	
+					</li>
+	<!--box_special loop-->
+	<!--box_special loop-->
+					<!--li>
+						<p class="slider_img"><a href="/details/index.php?id=0001085" target="_blank"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201802282112_491840.png" alt="物件写真" /></a></p>
+						<div class="box01_detail">
+							<h3>明治通り沿いカフェのような空間</h3>
+							<ul>
+								<li>渋谷区神宮前2</li>
+								<li>122.58m<sup>2</sup>〔37.1坪〕／1,300,000円</li>
+							</ul>
+						</div>	
+					</li>
+	<!--box_special loop-->
+	<!--box_special loop-->
+					<!--li>
+						<p class="slider_img"><a href="/details/index.php?id=0000734" target="_blank"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201211071714_454869.jpg" alt="物件写真" /></a></p>
+						<div class="box01_detail">
+							<h3>青山Beauty Collection</h3>
+							<ul>
+								<li>港区南青山3</li>
+								<li>281.5m<sup>2</sup>〔85.2坪〕／相談</li>
+							</ul>
+						</div>	
+					</li>
+	<!--box_special loop-->
+	<!--box_special loop-->
+					<!--li>
+						<p class="slider_img"><a href="/details/index.php?id=0003168" target="_blank"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201804191918_968372.png" alt="物件写真" /></a></p>
+						<div class="box01_detail">
+							<h3>シークレットベース in 広尾</h3>
+							<ul>
+								<li>渋谷区広尾2</li>
+								<li>188.58m<sup>2</sup>〔57坪〕／1,100,000円</li>
+							</ul>
+						</div>	
+					</li>
+	<!--box_special loop-->
+	<!--box_special loop-->
+					<!--li>
+						<p class="slider_img"><a href="/details/index.php?id=0003161" target="_blank"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201803281311_635843.png" alt="物件写真" /></a></p>
+						<div class="box01_detail">
+							<h3>【申込あり】天高空間フル活用！</h3>
+							<ul>
+								<li>新宿区新大久保2</li>
+								<li>60.76m<sup>2</sup>〔18.4坪〕／205,000円</li>
+							</ul>
+						</div>	
+					</li>
+	<!--box_special loop-->
+	<!--box_special loop-->
+					<!--li>
+						<p class="slider_img"><a href="/details/index.php?id=0003160" target="_blank"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201803271323_117153.png" alt="物件写真" /></a></p>
+						<div class="box01_detail">
+							<h3>天井高最大3.8m！</h3>
+							<ul>
+								<li>中央区新川1</li>
+								<li>66.85m<sup>2</sup>〔20.2坪〕／390,000円</li>
+							</ul>
+						</div>	
+					</li>
+	<!--box_special loop-->
+	<!--box_special loop-->
+					<!--li>
+						<p class="slider_img"><a href="/details/index.php?id=0003152" target="_blank"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201803162102_191308.png" alt="物件写真" /></a></p>
+						<div class="box01_detail">
+							<h3>むき出しのリノベーションスタイル</h3>
+							<ul>
+								<li>中央区日本橋浜町1</li>
+								<li>332.1m<sup>2</sup>〔100.5坪〕／1,500,000円</li>
+							</ul>
+						</div>	
+					</li>
+	<!--box_special loop-->
+	<!--box_special loop-->
+					<!--li>
+						<p class="slider_img"><a href="/details/index.php?id=0000771" target="_blank"><img src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201301161652_632831.jpg" alt="物件写真" /></a></p>
+						<div class="box01_detail">
+							<h3>代官山のクールポコ！</h3>
+							<ul>
+								<li>渋谷区代官山町</li>
+								<li>61.39m<sup>2</sup>〔18.6坪〕／519,960円</li>
+							</ul>
+						</div>	
+					</li>
+	<!--box_special loop-->
+				<!--/ul>
+			</div>
+		</div>
+	</div-->
+<!--//box_sp01 sp版--> 
+
+
+		<!--検索する-->
+		<div class="sp btn_search"> 
+			<script type="text/javascript">
+				function more02(){
+					$(".user_open02").toggleClass("user_none02");
+				}
+			</script>
+			<dl>
+				<dt onclick="more02()"><a href="#"><img src="http://re-remodel.com/images/common/btn_search.gif" width="159" height="48" alt="検索する" /></a></dt>
+				<dd class="user_open02 user_none02">
+					 <form action="http://re-remodel.com/search/" method="GET" name="searchCondition">
+					<ul>
+						<li>
+							<select name="tubo">
+								<option value="">全て</option>
+								<option value="1">〜50坪</option>
+								<option value="2">〜100坪</option>
+								<option value="3">〜200坪</option>
+								<option value="4">200坪〜</option>
+							</select>
+						</li>
+						<li>
+							<select name="city">
+								<option value="">全て</option>
+								<option value="3">港区</option>
+								<option value="13">渋谷区</option>
+								<option value="4">新宿区</option>
+								<option value="2">中央区</option>
+								<option value="1">千代田区</option>
+								<option value="other">その他</option>
+							</select>
+						</li>
+						<li>
+							<select name="menu">
+								<option value="">全キーワード</option>
+								<option value="lighting"    >たっぷり採光</option>
+								<option value="green"       >緑の癒し</option>
+								<option value="view"        >眺望サプライズ！</option>
+								<option value="minute"      >エキ近∞5分以内</option>
+								<option value="new"         >ピカピカ築浅</option>
+								<option value="relax"       >閑静＆リラックス</option>
+								<option value="inuki"       >居抜きでECO</option>
+								<option value="renovation"  >魅惑リノベーション</option>
+								<option value="vintage"     >味わいヴィンテージ</option>
+								<option value="one_building">“我が城”１棟モノ</option>
+								<option value="nicedesign"  >グッと！デザイン</option>
+								<option value="balcony"     >ルーフバルコニー解放区</option>
+								<option value="maisonette"  >メゾネット主義</option>
+								<option value="concrete"    >Cool！コンクリ打放し</option>
+								<option value="ceiling"     >開放感↑天高2.8ｍ以上</option>
+								<option value="builder"     >有名建築家</option>
+							</select>
+						</li>
+
+						<li>
+							<input type="submit" id="searchBtn" value="検索" class="boxbtn"/>
+						</li>
+					</ul>
+					</form>
+				</dd>
+			</dl>
+		</div>
+		<!--//検索する--> 
+
+<!--box02-->
+	<h2><img src="http://re-remodel.com/images/tit_h2_02.gif" width="59" height="21" alt="検索結果" /></h2>
+	<div class="box box02">
+<ul class="kekka"><li>全キーワード</li><li class="kekka_plus">全面積</li><li class="kekka_plus">全エリア </li></ul>
+		<div class="right">
+			<form method="GET" action="http://re-remodel.com/search/">
+			<select class="select_sort" name="order_list">
+				<option value="md"> 面積が大きい順に </option>
+				<option value="ma"> 面積が小さい順に </option>
+				<option value="pd"> 賃料が高い順に </option>
+				<option value="pa"> 賃料が安い順に </option>
+			</select>
+			<input type="hidden" name="menu" value="">
+			<input type="hidden" name="city" value="">
+			<input type="hidden" name="tubo" value="">
+			<input type="submit" class="btn_sort" />
+			</form>
+		</div>
+	</div>
+<!--//box02--> 
+
+<!--box03-->
+	<div class="box03">
+		<ul>
+					<li>
+						<div class="box box03_inner">
+							<div class="box03_left">
+								<p><a href="/details/index.php?id=0003218" target="_blank"><img alt="物件写真" src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201807092113_486342.png"></a></p>
+							</div>
+							<div class="box03_right">
+								<h3 class="tit_cap"><span class="new"></span>白金台の築浅戸建てSOHOという選択</h3>
+								<div class="box03_right_inner">
+									<h4 class="tit_cap02">港区白金台1</h4>
+									<p class="mb5">74.67m<sup>2</sup><br class="pc" />〔22.6坪〕<br />312,000円</p>
+								</div>
+								<ul class="icon"><li><img src="/search/images/icon/icon_05.gif" alt="メゾネット"               ></li><li><img src="/search/images/icon/icon_09.gif" alt="一棟モノ・平屋"           ></li><li><img src="/search/images/icon/icon_15.gif" alt="グッと！デザイン"         ></li></ul>
+							</div>
+							<p class="txt">白金台に築浅のSOHO可能物件が登場です。
+
+八芳園と白金小学校の間に位置し、高級住宅街の閑静な雰囲気と物件としての佇まいがマッチした外観となっています。
+1階部...</p>
+						</div>
+					</li>
+					<li>
+						<div class="box box03_inner">
+							<div class="box03_left">
+								<p><a href="/details/index.php?id=0003155" target="_blank"><img alt="物件写真" src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201803221749_737465.png"></a></p>
+							</div>
+							<div class="box03_right">
+								<h3 class="tit_cap"><span class="new"></span>表参道ヒルズ裏手でゴージャスに</h3>
+								<div class="box03_right_inner">
+									<h4 class="tit_cap02">渋谷区神宮前4</h4>
+									<p class="mb5">134.62m<sup>2</sup><br class="pc" />〔40.7坪〕<br />980,000円</p>
+								</div>
+								<ul class="icon"><li><img src="/search/images/icon/icon_20.gif" alt="エキ近 5分以内"           ></li><li><img src="/search/images/icon/icon_18.gif" alt="ピカピカ築浅"             ></li><li><img src="/search/images/icon/icon_23.gif" alt="閑静＆リラックス"         ></li><li><img src="/search/images/icon/icon_15.gif" alt="グッと！デザイン"         ></li></ul>
+							</div>
+							<p class="txt">表参道ヒルズの背面側は、閑静ながらも目を引くショップやオフィスが住宅に混じって散在するゾーン。
+今回ご紹介するのは、そんな高感度エリアに構える2012年竣工の低...</p>
+						</div>
+					</li>
+					<li>
+						<div class="box box03_inner">
+							<div class="box03_left">
+								<p><a href="/details/index.php?id=0001204" target="_blank"><img alt="物件写真" src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201312182003_591987.png"></a></p>
+							</div>
+							<div class="box03_right">
+								<h3 class="tit_cap"><span class="new"></span>大人気サービスオフィス！</h3>
+								<div class="box03_right_inner">
+									<h4 class="tit_cap02">渋谷区渋谷1</h4>
+									<p class="mb5">51.94m<sup>2</sup><br class="pc" />〔15.7坪〕<br />759,000円</p>
+								</div>
+								<ul class="icon"><li><img src="/search/images/icon/icon_20.gif" alt="エキ近 5分以内"           ></li><li><img src="/search/images/icon/icon_18.gif" alt="ピカピカ築浅"             ></li><li><img src="/search/images/icon/icon_15.gif" alt="グッと！デザイン"         ></li></ul>
+							</div>
+							<p class="txt">地下鉄渋谷駅から徒歩1分の場所に、人気のサービスオフィスがある。
+8階建てガラス・ファサードのビル全体が、サービスオフィスとして建てられたもの。
+そこいらの、...</p>
+						</div>
+					</li>
+					<li>
+						<div class="box box03_inner">
+							<div class="box03_left">
+								<p><a href="/details/index.php?id=0003217" target="_blank"><img alt="物件写真" src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201807051321_741292.png"></a></p>
+							</div>
+							<div class="box03_right">
+								<h3 class="tit_cap"><span class="new"></span>代々木BRICK WALL TASTE</h3>
+								<div class="box03_right_inner">
+									<h4 class="tit_cap02">渋谷区代々木1</h4>
+									<p class="mb5">157.88m<sup>2</sup><br class="pc" />〔47.8坪〕<br />700,000円</p>
+								</div>
+								<ul class="icon"><li><img src="/search/images/icon/icon_06.gif" alt="リノベーション物件"       ></li><li><img src="/search/images/icon/icon_10.gif" alt="ルーフバルコニー・屋上付" ></li><li><img src="/search/images/icon/icon_15.gif" alt="グッと！デザイン"         ></li></ul>
+							</div>
+							<p class="txt">代々木駅から徒歩5分、明治神宮敷地内の裏手にあたる位置にある本物件をご紹介します。
+
+2015年に外観をリニューアルしており、茶色を基調としたレンガ調の味わいがあ...</p>
+						</div>
+					</li>
+					<li>
+						<div class="box box03_inner">
+							<div class="box03_left">
+								<p><a href="/details/index.php?id=0003215" target="_blank"><img alt="物件写真" src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201807041020_425747.png"></a></p>
+							</div>
+							<div class="box03_right">
+								<h3 class="tit_cap"><span class="new"></span>好立地の新築物件！</h3>
+								<div class="box03_right_inner">
+									<h4 class="tit_cap02">港区赤坂2</h4>
+									<p class="mb5">161.91m<sup>2</sup><br class="pc" />〔49坪〕<br />相談</p>
+								</div>
+								<ul class="icon"><li><img src="/search/images/icon/icon_21.gif" alt="たっぷり採光"             ></li><li><img src="/search/images/icon/icon_20.gif" alt="エキ近 5分以内"           ></li><li><img src="/search/images/icon/icon_18.gif" alt="ピカピカ築浅"             ></li><li><img src="/search/images/icon/icon_15.gif" alt="グッと！デザイン"         ></li></ul>
+							</div>
+							<p class="txt">空室の少ない赤坂エリアで新築物件のご紹介です。
+
+溜池山王から徒歩2分の立地で銀座線・南北線が使用可能。千代田線の国会議事堂前、赤坂駅・丸ノ内線の赤坂見附駅も...</p>
+						</div>
+					</li>
+					<li>
+						<div class="box box03_inner">
+							<div class="box03_left">
+								<p><a href="/details/index.php?id=0001721" target="_blank"><img alt="物件写真" src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201411061805_205368.png"></a></p>
+							</div>
+							<div class="box03_right">
+								<h3 class="tit_cap"><span class="new"></span>ホテルライクなシックさ</h3>
+								<div class="box03_right_inner">
+									<h4 class="tit_cap02">渋谷区恵比寿4</h4>
+									<p class="mb5">154.47m<sup>2</sup><br class="pc" />〔46.7坪〕<br />相談</p>
+								</div>
+								<ul class="icon"><li><img src="/search/images/icon/icon_22.gif" alt="緑の癒し"                 ></li><li><img src="/search/images/icon/icon_23.gif" alt="閑静＆リラックス"         ></li><li><img src="/search/images/icon/icon_06.gif" alt="リノベーション物件"       ></li><li><img src="/search/images/icon/icon_15.gif" alt="グッと！デザイン"         ></li></ul>
+							</div>
+							<p class="txt">今回ご紹介するのは、そのシックさが売りのオフィスビル。
+まずビル外観からして、なかなかお目にしないワインレッドの外壁。
+そしてビルエントランスから足を踏み入...</p>
+						</div>
+					</li>
+					<li>
+						<div class="box box03_inner">
+							<div class="box03_left">
+								<p><a href="/details/index.php?id=0003206" target="_blank"><img alt="物件写真" src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201806221050_200399.png"></a></p>
+							</div>
+							<div class="box03_right">
+								<h3 class="tit_cap"><span class="new"></span>EBISUの1棟モノ</h3>
+								<div class="box03_right_inner">
+									<h4 class="tit_cap02">渋谷区東3</h4>
+									<p class="mb5">192.92m<sup>2</sup><br class="pc" />〔58.4坪〕<br />1,248,800円</p>
+								</div>
+								<ul class="icon"><li><img src="/search/images/icon/icon_09.gif" alt="一棟モノ・平屋"           ></li></ul>
+							</div>
+							<p class="txt">恵比寿駅へ徒歩4分の希少な1棟貸し物件で、周辺は住宅なども多く、落ち着いた雰囲気の立地に位置しています。
+
+前テナントの内装を引き継ぐ形でのご紹介となり、事務...</p>
+						</div>
+					</li>
+					<li>
+						<div class="box box03_inner">
+							<div class="box03_left">
+								<p><a href="/details/index.php?id=0003216" target="_blank"><img alt="物件写真" src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201807041152_127146.png"></a></p>
+							</div>
+							<div class="box03_right">
+								<h3 class="tit_cap"><span class="new"></span>表参道の居抜きオフィス！</h3>
+								<div class="box03_right_inner">
+									<h4 class="tit_cap02">港区南青山5</h4>
+									<p class="mb5">65.32m<sup>2</sup><br class="pc" />〔19.8坪〕<br />400,000円</p>
+								</div>
+								<ul class="icon"><li><img src="/search/images/icon/icon_15.gif" alt="グッと！デザイン"         ></li><li><img src="/search/images/icon/icon_16.gif" alt="居抜きでECO"              ></li></ul>
+							</div>
+							<p class="txt">人気の表参道エリアで希少な居抜き物件の登場です！
+スケルトン天井にフローリング床が好印象で、白が基調の室内が明るい雰囲気を演出しています。
+
+おしゃれなショ...</p>
+						</div>
+					</li>
+					<li>
+						<div class="box box03_inner">
+							<div class="box03_left">
+								<p><a href="/details/index.php?id=0003188" target="_blank"><img alt="物件写真" src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201805231022_223452.png"></a></p>
+							</div>
+							<div class="box03_right">
+								<h3 class="tit_cap"><span class="new"></span>どう変える？戸建てからのオーダーメイドリノベ</h3>
+								<div class="box03_right_inner">
+									<h4 class="tit_cap02">渋谷区猿楽町</h4>
+									<p class="mb5">182.14m<sup>2</sup><br class="pc" />〔55.1坪〕<br />1,000,000円</p>
+								</div>
+								<ul class="icon"><li><img src="/search/images/icon/icon_06.gif" alt="リノベーション物件"       ></li><li><img src="/search/images/icon/icon_10.gif" alt="ルーフバルコニー・屋上付" ></li><li><img src="/search/images/icon/icon_15.gif" alt="グッと！デザイン"         ></li></ul>
+							</div>
+							<p class="txt">戸建て住宅を思い切ったリノベーションで自社仕様に！
+
+代官山で元々住居として使用しされていた建物を、貸主様による内装費用負担でリノベーションを手掛ける事が出...</p>
+						</div>
+					</li>
+					<li>
+						<div class="box box03_inner">
+							<div class="box03_left">
+								<p><a href="/details/index.php?id=0003214" target="_blank"><img alt="物件写真" src="https://x173.secure.ne.jp/~x173029/upimg/tenant/201807040944_141105.png"></a></p>
+							</div>
+							<div class="box03_right">
+								<h3 class="tit_cap"><span class="new"></span>骨董通り沿いのホッとスペース</h3>
+								<div class="box03_right_inner">
+									<h4 class="tit_cap02">港区南青山6</h4>
+									<p class="mb5">185.75m<sup>2</sup><br class="pc" />〔56.2坪〕<br />970,963円</p>
+								</div>
+								<ul class="icon"><li><img src="/search/images/icon/icon_15.gif" alt="グッと！デザイン"         ></li></ul>
+							</div>
+							<p class="txt">骨董通り沿いの、根津美術館方面に向かえる交差点から100ｍちょっと先に進んだ位置。
+そこに立つオフィスビルは、ビル前面のオープンスペース両脇を壁で囲んでいる。
+...</p>
+						</div>
+					</li>
+		</ul>
+		<div class="pagelink">  
+			<ul><li class="active"><a>1</a></li> <li><a href="index.php?page=2" title="1">2</a></li> <li><a href="index.php?page=3" title="1">3</a></li> <li><a href="index.php?page=4" title="1">4</a></li> <li><a href="index.php?page=5" title="1">5</a></li><li><a href="index.php?page=2" style="text-decoration: none;" title="次の10件">次の10件>></a></li></ul>
+		</div>
+		<div class="contact00 pc">
+			<img width="100%" usemap="#mail" alt="お問い合わせ" src="http://re-remodel.com/images/common/tel_mail_top.jpg">
+			<map name="mail"><area coords="34,140,688,215" title="メールのお問い合わせ" shape="rect" target="_blank" href="https://x173.secure.ne.jp/~x173029/inquiry/index.php"></map>
+		</div>
+	</div>
+<!--//box03--> 
+			<!--banner-->
+			<div class="sp banner">
+				<ul>
+					<li><a href="http://re-remodel.com/feature/"><img src="http://re-remodel.com/images/common/banner_inuki_left.jpg" width="100%"  /></a></li>
+				</ul>
+			</div>
+			<!--//banner--> 
+			<!--category-->
+			<div class="sp category">
+				<ul class="sp_menu">
+					<li class="            "><a href="http://re-remodel.com/search/index.php?tubo=&city="                  >全キーワード</a></li>
+					<li class="lighting    "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=lighting"    >たっぷり採光</a></li>
+					<li class="green       "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=green"       >緑の癒し</a></li>
+					<li class="view        "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=view"        >眺望サプライズ！</a></li>
+					<li class="minute      "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=minute"      >エキ近∞5分以内</a></li>
+					<li class="new         "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=new"         >ピカピカ築浅</a></li>
+					<li class="relax       "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=relax"       >閑静＆リラックス</a></li>
+					<li class="inuki       "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=inuki"       >居抜きでECO</a></li>
+					<li class="renovation  "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=renovation"  >魅惑リノベーション</a></li>
+					<li class="vintage     "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=vintage"     >味わいヴィンテージ</a></li>
+					<li class="one_building"><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=one_building">“我が城”１棟モノ</a></li>
+					<li class="nicedesign  "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=nicedesign"  >グッと！デザイン</a></li>
+					<li class="balcony     "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=balcony"     >ルーフバルコニー解放区</a></li>
+					<li class="maisonette  "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=maisonette"  >メゾネット主義</a></li>
+					<li class="concrete    "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=concrete"    >Cool！コンクリ打放し</a></li>
+					<li class="ceiling     "><a href="http://re-remodel.com/search/index.php?tubo=&city=&menu=ceiling"     >開放感↑天高2.8ｍ以上</a></li>
+				</ul>
+			</div>
+			<!--category--> 
+			
+			<!--banner-->
+			<div class="sp banner">
+				<ul>
+					<li><a href="http://re-remodel.com/special/"><img src="http://re-remodel.com/images/common/bnr01.jpg" width="100%" alt="特選物件" /></a></li>
+					<li><a href="http://re-remodel.com/voice/"><img src="http://re-remodel.com/images/common/bnr02.jpg" width="100%" alt="お客様の声" /></a></li>
+					<li><a href="http://re-remodel.com/info/"><img src="http://re-remodel.com/images/common/bnr03.jpg" width="100%" alt="物件情報のご提供" /></a></li>
+					<li><a href="http://www.central-system.jp/campaign/"><img src="http://re-remodel.com/images/common/bnr04.jpg" width="100%" alt="コピー機が安い" /></a></li>
+					<li><a href="http://re-remodel.com/fees/"><img src="http://re-remodel.com/images/common/bnr05.png" width="100%" alt="手数料についてのご案内" /></a></li>
+					<li><a href="http://re-remodel.com/search/index.php?menu=full"><img src="http://re-remodel.com/images/common/bnr06.jpg" width="100%" alt="ただいま満室物件" /></a></li>
+				</ul>
+			</div>
+			<!--//banner--> 
+		</div>
+		<!--//right_side--> 
+		<p id="toTop" class="btn_pagetop"><a href="#top"><img src="http://re-remodel.com/images/btn_pagetop.png" width="35px" height="35px" alt="ページのトップへ" /></a>
+		</p>
+	</div>
+	<!--//content-->
+	
+	<!--footer-->
+	<div class="footer">
+		<div class="inner">
+			<p class="foot_logo"><img src="http://re-remodel.com/images/common/foot_logo.gif" width="100%" alt="DESIGN BUKKEN" /></p>
+			<ul class="pc foot_navi">
+				<li><a href="http://re-remodel.com/"><img src="http://re-remodel.com/images/common/foot_navi_01.gif" width="385" height="25" alt="TOP" /></a></li>
+				<li><a href="http://re-remodel.com/privacy/"><img src="http://re-remodel.com/images/common/foot_navi_02.gif" width="385" height="25" alt="プライバシーポリシー" /></a></li>
+				<li><a href="http://re-remodel.com/sitemap/"><img src="http://re-remodel.com/images/common/foot_navi_03.gif" width="385" height="25" alt="サイトマップ" /></a></li>
+				<li><a href="http://re-remodel.com/company/"><img src="http://re-remodel.com/images/common/foot_navi_04.gif" width="385" height="25" alt="会社概要" /></a></li>
+			</ul>
+			<ul class="sns">
+				<li><a href="https://www.facebook.com/designbukken"><img src="http://re-remodel.com/images/common/btn_sns01.gif" width="100%" alt="" /></a></li>
+				<li><a href="http://twitter.com/#!/design_bukken"  ><img src="http://re-remodel.com/images/common/btn_sns02.gif" width="100%" alt="" /></a></li>
+				<li><a href="http://re-remodel.com/feed.php"><img src="http://re-remodel.com/images/common/btn_sns03.gif" width="100%" alt="" /></a></li>
+			</ul>
+			<ul class="sp foot_navi">
+				<li><a href="http://re-remodel.com/"><img src="http://re-remodel.com/images/common/foot_navi01.gif" width="100%" alt="TOP" /></a></li>
+				<li><a href="http://re-remodel.com/privacy/"><img src="http://re-remodel.com/images/common/foot_navi02.gif" width="100%" alt="プライバシーポリシー" /></a></li>
+				<li><a href="http://re-remodel.com/sitemap/"><img src="http://re-remodel.com/images/common/foot_navi03.gif" width="100%" alt="サイトマップ" /></a></li>
+				<li><a href="http://re-remodel.com/company/"><img src="http://re-remodel.com/images/common/foot_navi04.gif" width="100%" alt="会社概要" /></a></li>
+			</ul>
+		</div>
+		<p class="copy"><span><a href="http://www.glr.co.jp" target="_blank"><img src="http://re-remodel.com/images/common/copy.png" width="100%" alt="" /></a></span></p>
+	</div>
+	<!--//footer--> 
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46013933-1', 'auto', {'allowLinker': true});
+  ga('require', 'linker');
+  ga('linker:autoLink', ['re-remodel.com','x173.secure.ne.jp']);
+  ga('send', 'pageview');
+
+</script>
+
+<script type="text/javascript">
+  (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=2XwJcrD";
+    s.parentNode.insertBefore(tagjs, s);
+  }());
+</script>
+<noscript>
+  <iframe src="//b.yjtag.jp/iframe?c=2XwJcrD" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+<script type="text/javascript" src="//f1.zenclerk.com/publish/re-remodel.js"></script>
+<script type="text/javascript" id="_-s-js-_" src="//satori.segs.jp/s.js?c=e8952fa2"></script>
+</body>
+</html>

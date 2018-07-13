@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SHIGETA</title>
+    <meta name="description" content="SHIGETA（シゲタ）公式サイト。「ひとりでも多くのお客さまに、調和のとれた美しさを。」という考えのもと、凝縮された植物の力と日々進化し続けるグリーンテクノロジーを融合したオーガニック化粧品の商品開発・製造をしています。">
+    <meta name="keywords" content="オーガニック,オーガニックコスメ,ビオコスメ,精油,デトックス,サーキュレーション">
+    <meta property="og:image" content="https://www.shigetajapan.com/template/default/img/common/ogimage.png">
+
+                    <link rel="icon" href="/template/default/img/common/favicon.ico">
+    <link rel="stylesheet" href="/template/default/css/style.css?v=3.0.15">
+    <link rel="stylesheet" href="/template/default/css/slick.css?v=3.0.15">
+    <link rel="stylesheet" href="/template/default/css/default.css?v=3.0.15">
+    <link rel="stylesheet" href="/template/default/css/shigeta.css?v=1.0.3">
+    <!-- for original theme CSS -->
+    
+    <!-- Typekit -->
+    <script src="https://use.typekit.net/wuq5wuk.js"></script>
+    <script>try{Typekit.load({ async: false });}catch(e){}</script>
+    <!--/Typekit -->
+    <!-- jQuery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/template/default/js/vendor/jquery-1.11.3.min.js?v=3.0.15"><\/script>')</script>
+    <!--/jQuery -->
+    </head>
+
+<body id="page_homepage" class="front_page">
+
+    <!-- #header -->
+    
+<header id="shigeta-header" class="reset">
+    <div class="logo"><h1><a href="/"><span class="alt">SHIGETA PARIS</span></a></h1></div>
+    <div class="icon">
+        <ul>
+            <li class="nav"><a><span></span><span></span></a></li>
+            <li class="bag"><a href="https://shigetajapan.com/cart"><span class="alt">ショッピングバッグ</span></a></a></li>
+        </ul>
+    </div>
+    <div class="navi">
+        <div class="link">
+            <ul class="status">
+                
+    <li class="usr">
+        <a href="https://shigetajapan.com/entry">新規会員登録</a>
+    </li>
+    <li class="usr">
+        <a href="https://shigetajapan.com/mypage/login">ログイン</a>
+    </li>
+
+                <li class="bag">
+                    
+<a href="https://shigetajapan.com/cart">ショッピングバッグ(0)</a>
+
+                </li>
+            </ul>
+            <ul class="option">
+                <li class="src">
+                    <a>
+                        
+<form method="get" action="/products/list">
+    <input type="search" id="name" name="name" maxlength="50" placeholder="キーワードを入力" class="form-control" />
+</form>
+
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="menu">
+            <div class="main-menu">
+                <div class="scroller">
+                    <ul>
+                        <li class="news"><a href="https://shigetajapan.com/news">NEWS</a></li>
+                        <li><a class="next" href="https://shigetajapan.com/about/philosophy/" data-target=".about">ABOUT SHIGETA</a></li>
+                        <li><a class="next" href="https://shigetajapan.com/products/" data-target=".shopping">SHOPPING</a></li>
+                        <li><a class="next" href="https://shigetajapan.com/counselling/" data-target=".counselling">COUNSELLING</a></li>
+                        <li><a href="https://shigetajapan.com/storelist/">STORE LIST</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sub-menu about">
+                <div class="scroller">
+                    <ul>
+                        <li class="sp"><a class="back" href="#"><span class="alt">戻る</span></a></li>
+                        <li><a href="https://shigetajapan.com/about/philosophy/"><img src="/template/default/img/header/menu_about_01.png">PHILOSOPHY</a></li>
+                        <li><a href="https://shigetajapan.com/about/chicoshigeta/"><img src="/template/default/img/header/menu_about_02.png">CHICO SHIGETA</a></li>
+                        <li><a href="https://shigetajapan.com/about/coaching/"><img src="/template/default/img/header/menu_about_03.png">COACHING VITALITÉ®</a></li>
+                        <li><a href="https://shigetajapan.com/about/history/"><img src="/template/default/img/header/menu_about_04.png">HISTORY</a></li>
+                        <li><a href="https://shigetajapan.com/about/laboratory/"><img src="/template/default/img/header/menu_about_05.png">SHIGETA LABORATORY</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sub-menu shopping">
+                <div class="scroller">
+                    <ul>
+                        <li class="sp"><a class="back" href="#"><span class="alt">戻る</span></a></li>
+                        <li class="sp"><a href="https://shigetajapan.com/products/"><span class="alt">SHOPPING TOP</span></a></li>
+                        <li><a href="https://shigetajapan.com/products/list?category_id=1"><img src="/template/default/img/header/menu_shopping_01.png">BASIC<br><span class="sp"> </span>SKINCARE</a></li>
+                        <li><a href="https://shigetajapan.com/products/list?category_id=2"><img src="/template/default/img/header/menu_shopping_02.png">SPECIAL<br><span class="sp"> </span>SKINCARE</a></li>
+                        <li><a href="https://shigetajapan.com/products/list?category_id=3"><img src="/template/default/img/header/menu_shopping_03.png">HAIR＆BODY<br><span class="sp"> </span>CARE</a></li>
+                        <li><a href="https://shigetajapan.com/products/list?category_id=4"><img src="/template/default/img/header/menu_shopping_04.png">ESSENTIAL<br><span class="sp"> </span>OILS</a></li>
+                        <li><a href="https://shigetajapan.com/products/list?category_id=5"><img src="/template/default/img/header/menu_shopping_05.png">INNER CARE</a></li>
+                        <li><a href="https://shigetajapan.com/products/list?category_id=32"><img src="/template/default/img/header/menu_shopping_32.png">MAMAN&amp;PETIT</a></li>
+                    </ul>
+                    <ul>
+                        <li><a class="button" href="https://shigetajapan.com/products/list?category_id=6">SEASONAL</a></li>
+                        <li><a class="button" href="https://shigetajapan.com/products/list?category_id=7">GIFT</a></li>
+                        <li><a class="button" href="https://shigetajapan.com/products/list?category_id=8">BOOK</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sub-menu counselling">
+                <div class="scroller">
+                    <ul>
+                        <li class="sp"><a class="back" href="#"><span class="alt">戻る</span></a></li>
+                        <li class="sp"><a href="https://shigetajapan.com/counselling/"><span class="alt">COUNSELLING TOP</span></a></li>
+                        <li><a href="https://shigetajapan.com/counselling/qanda/"><img src="/template/default/img/header/menu_counselling_01.png">BEAUTY ADVICE</a></li>
+                        <li><a href="https://shigetajapan.com/counselling/online/"><img src="/template/default/img/header/menu_counselling_02.png">ONLINE COUNSELING</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <!--/#header -->
+
+    <!-- #contents -->
+    <div id="contents">
+         <div class="contents-home reset">
+             
+    <div class="homeslide">
+        <div class="slider">
+                                                                                                                                                                                                                                                                                                            <a class="homeslide-29" href="/products/list?category_id=4"></a>
+            <a class="homeslide-30 nolink"></a>
+            <a class="homeslide-27" href="/products/list?category_id=6"></a>
+            <a class="homeslide-28" href="/products/list?category_id=6"></a>
+            <a class="homeslide-31" href="/products/list?category_id=32"></a>
+            <a class="homeslide-21" href="/products/list?category_id=6"></a>
+        </div>
+        <div class="timer">
+            <svg id="obturateur_bg" class="obturateur" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="28px" height="28" viewBox="0 0 280 280">
+                <circle cx="140" cy="140" r="113"/>
+            </svg>
+            <svg id="obturateur" class="obturateur" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="28px" height="28" viewBox="0 0 280 280">
+                <circle cx="140" cy="140" r="110"/>
+            </svg>
+        </div>
+    </div><!-- .homeslide -->
+
+    <style type="text/css">
+                                                                                                                                                                        #contents .contents-home .homeslide .slider a.homeslide-21 {background-image: url(/template/default/img/contents/home/homeslide/slider_CV.jpg); }
+                                                #contents .contents-home .homeslide .slider a.homeslide-27 {background-image: url(/template/default/img/contents/home/homeslide/slider_3kits.jpg); }
+        #contents .contents-home .homeslide .slider a.homeslide-28 {background-image: url(/template/default/img/contents/home/homeslide/slider_HKK.jpg); }
+        #contents .contents-home .homeslide .slider a.homeslide-29 {background-image: url(/template/default/img/contents/home/homeslide/slider_BIG_1807.jpg); }
+        #contents .contents-home .homeslide .slider a.homeslide-30 {background-image: url(/template/default/img/contents/home/homeslide/slider_GWP07.jpg); }
+        #contents .contents-home .homeslide .slider a.homeslide-31 {background-image: url(/template/default/img/contents/home/homeslide/slider_MP4.jpg); }
+
+        @media screen and (max-width:767px) {
+                                                                                                                                                                                                                                                            #contents .contents-home .homeslide .slider a.homeslide-21 {background-image: url(/template/default/img/contents/home/homeslide/slider_mobile_CV.jpg); }
+                                                                        #contents .contents-home .homeslide .slider a.homeslide-27 {background-image: url(/template/default/img/contents/home/homeslide/slider_mobile_3kits.jpg); }
+            #contents .contents-home .homeslide .slider a.homeslide-28 {background-image: url(/template/default/img/contents/home/homeslide/slider_mobile_HKK.jpg); }
+            #contents .contents-home .homeslide .slider a.homeslide-29 {background-image: url(/template/default/img/contents/home/homeslide/slider_mobile_BIG_1807.jpg); }
+            #contents .contents-home .homeslide .slider a.homeslide-30 {background-image: url(/template/default/img/contents/home/homeslide/slider_mobile_GWP07.jpg); }
+            #contents .contents-home .homeslide .slider a.homeslide-31 {background-image: url(/template/default/img/contents/home/homeslide/slider_mobile_MP4.jpg); }
+        }
+    </style>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/vivus/0.3.2/vivus.js"></script>
+
+    <section class="section news frame w1040">
+        <header class="section-header">
+            <h2 class="title">
+                <span class="en">NEWS</span>
+                <span class="ja">最新情報</span>
+            </h2>
+        </header>
+        <div class="section-body">
+
+            <ul class="information-list">
+                                                    <li>
+                        <a href="https://shigetajapan.com/news/495">
+                            <div class="img">
+                                <span
+                                                                                                                                                                                                                            style="background-image:url(https://www.shigetajapan.com/wordpress/wp-content/uploads/logo_sns-1-150x150.jpg)"
+                                                                                                                                                                                                        ></span>
+                            </div>
+                            <div class="txt">
+                                <div class="date">2018.07.09</div>
+                                <div class="text">大雨による配達の影響について</div>
+                            </div>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="https://shigetajapan.com/news/474">
+                            <div class="img">
+                                <span
+                                                                                                                                                                                                                            style="background-image:url(https://www.shigetajapan.com/wordpress/wp-content/uploads/BIG2-150x150.jpg)"
+                                                                                                                                                                                                        ></span>
+                            </div>
+                            <div class="txt">
+                                <div class="date">2018.07.01</div>
+                                <div class="text">7/1(FRI) 【数量・期間限定】エッセンシャルオイル４種のビッグボトルが発売開始</div>
+                            </div>
+                        </a>
+                    </li>
+                            </ul>
+            <div class="more-info">
+                <a href="https://shigetajapan.com/news">MORE INFO</a>
+            </div>
+        </div>
+    </section><!-- .section.news -->
+
+    <section class="section about frame bg-lightgray">
+        <header class="section-header">
+            <h2 class="title">
+                <span class="en">ABOUT SHIGETA</span>
+                <span class="ja">SHIGETAについて</span>
+            </h2>
+        </header>
+        <div class="section-body scrollanimation">
+            <a class="item-04 type-l size-s" href="https://shigetajapan.com/about/philosophy/">
+                <div class="item">
+                    <div>
+                        <dl>
+                            <dt>PHILOSOPHY</dt>
+                            <dd>
+                                ORGANIC WITH IMPACT<br>
+                                すべては、使った瞬間の驚きのために
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </a>
+            <a class="item-01 type-r size-l" href="https://shigetajapan.com/about/chicoshigeta/">
+                <div class="item">
+                    <div>
+                        <dl>
+                            <dt>CHICO SHIGETA</dt>
+                            <dd>
+                                SHIGETA主宰、ホリスティックビューティーコンサルタント。<br>
+                                長年フランスおよび日本にてビューティーメソッドを探求。
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </a>
+            <a class="item-03 type-r size-s" href="https://shigetajapan.com/about/coaching/">
+                <div class="item">
+                    <div>
+                        <dl>
+                            <dt>COACHING VITALITÉ®</dt>
+                            <dd>
+                                よりすこやかで、心地よい体と<br>肌、髪のために。
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </a>
+            <a class="item-02 type-l size-s" href="https://shigetajapan.com/about/history/">
+                <div class="item">
+                    <div>
+                        <dl>
+                            <dt>HISTORY</dt>
+                            <dd>
+                                Our milestones<br>
+                                SHIGETA PARIS の歴史。
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </a>
+            <a class="item-05 type-r size-s" href="https://shigetajapan.com/about/laboratory/">
+                <div class="item">
+                    <div>
+                        <dl>
+                            <dt>SHIGETA LABORATORY</dt>
+                            <dd>
+                                NATURE + SCIENCE<br>
+                                見てわかるほどの変化を、肌、体、髪に与えるために―。
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </a>
+            <a class="item-06 type-l size-l">
+                <div class="item">
+                    <div class="youtube" data-videoid="CBfjkqzRViA">
+                        <div class="player"></div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section><!-- .section.about -->
+
+    <section class="section articles frame w1040">
+        <div class="block chicos-diary">
+            <header class="section-header">
+                <h2 class="title">
+                    <span class="en">CHICO’S DIARY</span>
+                    <span class="ja">チコ シゲタ ダイアリー</span>
+                </h2>
+            </header>
+            <div class="section-body">
+                <ul class="information-list">
+                                                                <li>
+                            <a href="https://shigetajapan.com/chicosdiary/482">
+                                <div class="img">
+                                    <span
+                                                                                                                                                                                                                                                style="background-image:url(https://www.shigetajapan.com/wordpress/wp-content/uploads/DSC_9727-150x150.jpg)"
+                                                                                                                                                                                                                            ></span>
+                                </div>
+                                <div class="txt">
+                                    <div class="date">2018.07.03</div>
+                                    <div class="text">オーガニックのラベルの裏側</div>
+                                </div>
+                            </a>
+                        </li>
+                                            <li>
+                            <a href="https://shigetajapan.com/chicosdiary/449">
+                                <div class="img">
+                                    <span
+                                                                                                                                                                                                                                                style="background-image:url(https://www.shigetajapan.com/wordpress/wp-content/uploads/IMG_4508-150x150.jpg)"
+                                                                                                                                                                                                                            ></span>
+                                </div>
+                                <div class="txt">
+                                    <div class="date">2018.06.05</div>
+                                    <div class="text">ママンとべべのための製品ができました！</div>
+                                </div>
+                            </a>
+                        </li>
+                                    </ul>
+                <div class="more-info">
+                    <a href="https://shigetajapan.com/chicosdiary">MORE INFO</a>
+                </div>
+            </div>
+        </div>
+        <div class="block staff-column">
+            <header class="section-header">
+                <h2 class="title">
+                    <span class="en">STAFF COLUMN</span>
+                    <span class="ja">スタッフコラム</span>
+                </h2>
+            </header>
+            <div class="section-body">
+                <ul class="information-list">
+                                                                <li>
+                            <a href="https://shigetajapan.com/staffcolumn/468">
+                                <div class="img">
+                                    <span
+                                                                                                                                                                                                                                                style="background-image:url(https://www.shigetajapan.com/wordpress/wp-content/uploads/ML-1-150x150.jpg)"
+                                                                                                                                                                                                                            ></span>
+                                </div>
+                                <div class="txt">
+                                    <div class="date">2018.06.20</div>
+                                    <div class="text">集中力もアップ！美髪ブレンド”ミッドナイトラスター”</div>
+                                </div>
+                            </a>
+                        </li>
+                                            <li>
+                            <a href="https://shigetajapan.com/staffcolumn/471">
+                                <div class="img">
+                                    <span
+                                                                                                                                                                                                                                                style="background-image:url(https://www.shigetajapan.com/wordpress/wp-content/uploads/Early-Summer-skincare-kit-150x150.jpg)"
+                                                                                                                                                                                                                            ></span>
+                                </div>
+                                <div class="txt">
+                                    <div class="date">2018.06.20</div>
+                                    <div class="text">初夏のスキンケアのおすすめ</div>
+                                </div>
+                            </a>
+                        </li>
+                                    </ul>
+                <div class="more-info">
+                    <a href="https://shigetajapan.com/staffcolumn">MORE INFO</a>
+                </div>
+            </div>
+        </div>
+    </section><!-- .section.articles -->
+
+    <section class="section shopping frame w1040">
+        <header class="section-header">
+            <h2 class="title">
+                <span class="en">SHOPPING</span>
+                <span class="ja">ショッピング</span>
+            </h2>
+        </header>
+        <div class="section-body">
+            <div class="category">
+                <h3>CATEGORY</h3>
+                <ul>
+                    <li><a class="shopping-01" href="/products/list?category_id=1"><span class="name">BASIC<span class="pc"> </span><span class="sp"><br></span>SKINCARE</span></a></li>
+                    <li><a class="shopping-02" href="/products/list?category_id=2"><span class="name">SPECIAL<span class="pc"> </span><span class="sp"><br></span>SKINCARE</span></a></li>
+                    <li><a class="shopping-03" href="/products/list?category_id=3"><span class="name">HAIR＆BODY<span class="pc"> </span><span class="sp"><br></span>CARE</span></a></li>
+                    <li><a class="shopping-04" href="/products/list?category_id=4"><span class="name">ESSENTIAL<span class="pc"> </span><span class="sp"><br></span>OILS</span></a></li>
+                    <li><a class="shopping-05" href="/products/list?category_id=5"><span class="name">INNER CARE</span></a></li>
+                    <li><a class="shopping-32" href="/products/list?category_id=32"><span class="name">MAMAN&PETIT</span></a></li>
+                </ul>
+                <ul>
+                    <li><a class="shopping-06 button" href="/products/list?category_id=6"><span class="name">SEASONAL</span></a></li>
+                    <li><a class="shopping-07 button" href="/products/list?category_id=7"><span class="name">GIFT</span></a></li>
+                    <li><a class="shopping-08 button" href="/products/list?category_id=8"><span class="name">BOOK</span></a></li>
+                </ul>
+            </div>
+            <div class="recommend">
+                <h3>RECOMMEND</h3>
+                
+<ul class="product-list">
+    </ul>
+
+            </div>
+        </div>
+    </section><!-- .section.shopping -->
+
+    <section class="section instagram-list frame bg-lightgray">
+        <header class="section-header">
+            <h2 class="title">
+                <span class="en">#shigeta</span>
+                <span class="ja">インスタグラム</span>
+            </h2>
+        </header>
+        <div class="section-body">
+            <ul class="instagram loading" data-limit="8">
+            </ul>
+            <div class="more-info">
+                <a href="https://shigetajapan.com/instagram/">＠shigeta_paris</a>
+            </div>
+        </div>
+    </section><!-- .section.instagram -->
+
+         </div>
+         <!-- EBiS tag version4.10 start -->
+<script type="text/javascript">
+    (function(a,d,e,b,i,s){ window[i]=window[i]||[];var f=function(a,d,e,b,i,s){
+        var o=a.getElementsByTagName(d)[0],h=a.createElement(d),t='text/javascript';
+        h.type=t;h.async=e;h.onload=function(){ window[i].init(
+            { argument:s, auto:true }
+        );};h._p=o;return h;},h=f(a,d,e,b,i,s),l='//taj',j=b+s+'/cmt.js';h.src=l+'1.'+j;
+        h._p.parentNode.insertBefore(h,h._p);h.onerror=function(k){k=f(a,d,e,b,i,s);
+        k.src=l+'2.'+j;k._p.parentNode.insertBefore(k,k._p);};
+    })(document,'script',true,'ebis.ne.jp/','ebis','ezVE4r5U');
+</script>
+<!-- EBiS tag end -->
+
+
+         <!-- #breadcrumbs -->
+                  <!--/#breadcrumbs -->
+    </div>
+    <!--/#contents -->
+
+    <!-- #footer -->
+    
+<footer id="shigeta-footer">
+    <p class="page-top">
+        <a href="#">
+            <i class="ti-angle-up"></i>
+        </a>
+    </p>
+    <div class="mark">
+    </div>
+    <ul class="followus">
+        <li class="fb"><a href="https://www.facebook.com/SHIGETAPARIS/" target="_blank"><span class="alt">Facebook</span></a></li>
+        <li class="tw"><a href="https://twitter.com/shigeta_japan" target="_blank"><span class="alt">Twitter</span></a></li>
+        <li class="ig"><a href="https://www.instagram.com/shigeta_paris/" target="_blank"><span class="alt">Instagram</span></a></li>
+        <li class="yt"><a href="https://www.youtube.com/channel/UCoPXKQ3SLvu-Cy8CUrUkghg" target="_blank"><span class="alt">Youtube</span></a></li>
+    </ul>
+    <ul class="link">
+        <li class="diary"><a href="https://shigetajapan.com/chicosdiary">CHICO’S DIARY</a></li>
+        <li class="column"><a href="https://shigetajapan.com/staffcolumn">STAFF COLUMN</a></li>
+        <li class="mailmag"><a href="https://shigeta.us4.list-manage.com/subscribe/post?u=65a129fd6de6d6cad6f1d8060&id=50603e19e5" target="_blank">NEWS LETTER 登録</a></li>
+    </ul>
+    <ul class="menu">
+        <li><a href="https://shigetajapan.com/contact">お問い合わせ</a></li>
+        <li><a href="https://shigetajapan.com/help/guide">ショッピングガイド</a></li>
+        <li><a href="https://shigetajapan.com/help/tradelaw">特定商取引法に基づく表記</a></li>
+        <li><a href="https://shigetajapan.com/help/agreement">ご利用規約</a></li>
+        <li><a href="https://shigetajapan.com/help/qanda">よくあるご質問</a></li>
+        <li><a href="https://shigetajapan.com/help/privacy">プライバシーポリシー</a></li>
+    </ul>
+    <div class="logo">
+    </div>
+    <div class="copy">©2017 SHIGETA PARIS All Rights Reserved.</div>
+</footer>
+
+    <!--/#footer -->
+
+    <!-- #drawer -->
+    <div id="drawer" class="drawer sp"></div>
+    <!--/#drawer -->
+
+    <!-- .overlay -->
+    <div class="overlay"></div>
+    <!--/.overlay -->
+
+    <script src="/template/default/js/vendor/bootstrap.custom.min.js?v=3.0.15"></script>
+    <script src="/template/default/js/vendor/slick.min.js?v=3.0.15"></script>
+    <script src="/template/default/js/function.js?v=3.0.15"></script>
+    <script src="/template/default/js/eccube.js?v=3.0.15"></script>
+    <script src="/template/default/js/vendor/velocity.min.js?v=1.5.0"></script>
+    <script src="/template/default/js/vendor/iscroll.js?v=5.2.0"></script>
+    <script src="/template/default/js/vendor/handlebars.js?v=4.0.10"></script>
+    <script src="/template/default/js/shigeta.js?v=1.0.3"></script>
+    <script>
+        $(function () {
+            $('#drawer').append($('.drawer_block').clone(true).children());
+            $.ajax({
+                url: '/template/default/img/common/svg.html',
+                type: 'GET',
+                dataType: 'html',
+            }).done(function(data){
+                $('body').prepend(data);
+            }).fail(function(data){
+            });
+        });
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108290784-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-108290784-1');
+      gtag('config', 'AW-874340966');
+    </script>
+    </body>
+</html>

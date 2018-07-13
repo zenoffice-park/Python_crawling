@@ -1,0 +1,2712 @@
+<!doctype html>
+<html lang="pl" class="no-js lang-pl no-us">
+  <head>
+    <meta charset="utf-8">
+    
+    <link rel="dns-prefetch" href="//ocs-pl.oktawave.com">
+    <link rel="dns-prefetch" href="//ajax.googleapis.com">
+    <link rel="dns-prefetch" href="https://checkout.mrgugu.com">
+    <link rel="dns-prefetch" href="//use.typekit.net">
+
+    
+    <title>Mr. GUGU &amp; Miss GO | Oficjalny Sklep Internetowy</title>
+    <meta name="description" content="Mr. Gugu &amp; Miss Go powstało po to, aby dać Ci szansę wyróżnienia się z tłumu. Pokazania, że nie idziesz na stylistyczne kompromisy. Wyrażenia się poprzez ubiór. Dołącz...">
+
+    
+    <meta property="og:url" content="https://mrgugu.com/pl">
+    <meta property="og:title" content="Mr. GUGU &amp; Miss GO | Oficjalny Sklep Internetowy">
+    <meta property="og:description" content="Mr. Gugu &amp; Miss Go powstało po to, aby dać Ci szansę wyróżnienia się z tłumu. Pokazania, że nie idziesz na stylistyczne kompromisy. Wyrażenia się poprzez ubiór. Dołącz do Ludzi GUGU!">
+    <meta property="og:image" content="https://mrgugu.com/home/images/mrgugu-logo_black.png">
+    <meta property="og:type" content="website">
+
+    <!-- Viewport -->
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+<!-- Icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/home/mrgugu/apple-touch-icon-144x144.png?v=2"/>
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/home/mrgugu/apple-touch-icon-152x152.png?v=2"/>
+<link rel="icon" type="image/png" href="/home/mrgugu/favicon-32x32.png?v=2" sizes="32x32"/>
+<link rel="icon" type="image/png" href="/home/mrgugu/favicon-16x16.png?v=2" sizes="16x16"/>
+<meta name="application-name" content="Mr. Gugu &amp; Miss Go"/>
+<meta name="msapplication-TileColor" content="#FFFFFF"/>
+<meta name="msapplication-TileImage" content="/home/mrgugu/mstile-144x144.png?v=2"/>
+
+<!-- TypeKit -->
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+<script>WebFont.load({ typekit: { id: 'elw5hvp' } });</script>
+
+<link rel="stylesheet" href="/home/mrgugu/styles/main.min.css?v=20180425124934">
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '313481228815036');
+  fbq('track', "PageView");
+</script>
+
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=313481228815036&ev=PageView&noscript=1"/></noscript>
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63852392-1', 'auto');
+  ga('require', 'linker');
+  ga('linker:autoLink', ['https://checkout.mrgugu.com'], false, false);
+  ga('send', 'pageview');
+</script>
+
+<!-- MailChimp -->
+<script type="text/javascript">
+	var $mcGoal = {'settings':{'uuid':'fc70d9f33e5db3b726eb8cdff','dc':'us7'}};
+
+	(function() {
+		var sp = document.createElement('script'); sp.type = 'text/javascript'; sp.async = true; sp.defer = true;
+	  sp.src = ('https:' == document.location.protocol ? 'https://s3.amazonaws.com/downloads.mailchimp.com' : 'http://downloads.mailchimp.com') + '/js/goal.min.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sp, s);
+	})();
+</script>
+
+<!-- SnapChat -->
+<script type='text/javascript'>
+  (function(win, doc, sdk_url){
+    if(win.snaptr) return;
+    var tr=win.snaptr=function(){
+    tr.handleRequest? tr.handleRequest.apply(tr, arguments):tr.queue.push(arguments);
+  };
+    tr.queue = [];
+    var s='script';
+    var new_script_section=doc.createElement(s);
+    new_script_section.async=!0;
+    new_script_section.src=sdk_url;
+    var insert_pos=doc.getElementsByTagName(s)[0];
+    insert_pos.parentNode.insertBefore(new_script_section, insert_pos);
+  })(window, document, 'https://sc-static.net/scevent.min.js');
+
+  snaptr('init','8a7fa7d5-7647-4ade-a84a-25fe4274fc76', {
+    'user_email': "",
+    'user_phone_number': ""
+  })
+
+  snaptr('track', 'PAGE_VIEW')
+</script>
+    
+    <script>
+      var PKG = {
+        name: 'mrgugu',
+        apiUrl: '/pl',
+        authenticated: false,
+        lang: 'pl',
+        currency: 'USD',
+        sortBy: 'ourPics',
+        previousUrl: 'https://mrgugu.com',
+        modal: {"activity":null,"data":null,"banner":null},
+        translations: {
+          'home.productAddedToCart': 'Produkt został dodany do koszyka!',
+          'home.productAddedToWishlist': 'Dodano do Twojej listy życzeń!',
+          'home.discountApplySuccess': 'Pomyślnie użyto kodu rabatowego!',
+          'home.discountApplyError': 'Nie możemy znaleźć podanego kodu rabatowego lub karty podarunkowej.',
+          'home.share': 'Udostępnij'
+        }
+      };
+
+      PKG.wishlist = {"items":[]};
+      PKG.cart = {"id":null,"items":[],"summary":{"subtotalPrice":"$0,00","subtotalPriceInt":0,"shippingPrice":"$0,00","shippingPriceInt":0,"totalPrice":"$0,00","totalPriceInt":0},"discount":null,"shipping":null};
+
+      PKG.instagramGallery = {"accessToken":"196435560.0aa914b.6a2dc47c75d444e28f7e222749b31b9c","userId":"196435560"};
+    </script>
+
+        <style>
+      .Header__Navigation.u-lg-isShownAlt .Navigation .Navigation-item:first-child .Button {
+        color: #ff3b13;
+      }
+      .Header__Navigation.u-lg-isShownAlt .Navigation .Navigation-item:first-child .Button:hover,
+      .Header__Navigation.u-lg-isShownAlt .Navigation .Navigation-item:first-child.is-active .Button{
+        color: white;
+      }
+    </style>
+    
+      </head>
+
+    <body ng-app="mgShop">
+  
+    <div class="Wrapper ShopView" ng-controller="AppController as appCtrl">
+      <div mg-layout class="Layout">
+        <div class="Layout-container ng-anim" mg-layout-watch="::{ id: 'mobile', activeClass: 'is-off' }">
+
+          
+          <div class="Layout__Header">
+            <div ng-controller="HeaderController as headerCtrl">
+  <header class="Header" headroom offset="50" tolerance='5' classes="::{ notTop: 'is-notOnTop', top: 'is-onTop', pinned: 'is-pinned', unpinned: 'is-unpinned', initial: '' }">
+
+    <div class="Bar Bar--secondary">
+      <div class="u-superWrapper u-cf">
+        <div class="Bar-item Bar-item--left">
+          <nav class="Header__Breadcrumb">
+            <ul class="Breadcrumb">
+    <li class="Breadcrumb-item">
+    <a class="Link Link--sm" href="/pl"><span class="Icon Icon--home"></span> Strona główna</a>
+  </li>
+  </ul>
+          </nav>
+        </div>
+
+        <div class="Bar-item Bar-item--right">
+          <nav class="Header__Navigation ">
+            <ul class="Navigation Navigation--hz">
+              <li class="Navigation-item">
+                <button class="Link Link--sm" mg-layout-target="::{ id: ['headerActions', 'headerLocale'], activateOn: 'click' }"><span class="Flag Flag--pl"></span> pl / usd ($)</button>
+              </li>
+
+                            <li class="Navigation-item">
+                <a class="Link Link--sm" href="/pl/page/help-and-contact" title="Kontakt">Kontakt</a>
+              </li>
+                            <li class="Navigation-item">
+                <a class="Link Link--sm" href="/pl/page/faq" title="FAQ">FAQ</a>
+              </li>
+                            <li class="Navigation-item">
+                <a class="Link Link--sm" href="http://moresexy.com" title="Zaprojektuj sam">Zaprojektuj sam</a>
+              </li>
+              
+                          </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="Bar Bar--primary">
+      <div class="u-superWrapper u-cf">
+
+        <div class="Bar-item Bar-item--left">
+          <div class="Header__Navigation u-lg-isHidden">
+            <ul class="Navigation Navigation--hz">
+              <li class="Navigation-item" mg-layout-watch="::{ id: 'mobile', activeClass: 'is-active' }">
+
+                <button class="Button Button--toggle" title="Przełącz menu" mg-layout-target="::{ id: 'mobile', toggleOn: 'click' }">
+                  <span class="u-hiddenVisually">Przełącz menu</span>
+                  <span class="Hamburger">
+                    <span class="Hamburger-peace"></span>
+                    <span class="Hamburger-peace"></span>
+                    <span class="Hamburger-peace"></span>
+                  </span>
+                </button>
+
+              </li>
+            </ul>
+          </div>
+
+          <div class="Header__Brand">
+            <a class="Brand" href="/pl" title="Mr. Gugu & Miss Go | Strona główna">
+                              <img src="/home/mrgugu/images/mrgugu-logo_white.svg?v1" alt="Mr. Gugu & Miss Go">
+                          </a>
+          </div>
+
+          
+          <nav class="Header__Navigation u-marginLm u-isHidden u-lg-isShownAlt">
+            <ul class="Navigation Navigation--hz" mg-layout-target="::{ id: 'headerMenu', activateOn: 'mouseenter', deactivateOn: 'mouseleave' }">
+                                                <li class="Navigation-item" mg-layout-watch="::{ id: 'newinMenu', activeClass: 'is-active' }">
+                                          <a class="Button Button--toggle Button--category" href="/pl/newin" title="Wyświetl Nowości"
+                         ng-click="headerCtrl.categoryClick($event, false)"
+                         mg-layout-target="::{ id: 'newinMenu', activateOn: 'mouseenter', deactivateOn: 'mouseleave' }">Nowości</a>
+                                      </li>
+                                                                <li class="Navigation-item" mg-layout-watch="::{ id: 'womenMenu', activeClass: 'is-active' }">
+                                          <a class="Button Button--toggle Button--category" href="/pl/women" title="Wyświetl Kobieta"
+                         ng-click="headerCtrl.categoryClick($event, false)"
+                         mg-layout-target="::{ id: 'womenMenu', activateOn: 'mouseenter', deactivateOn: 'mouseleave' }">Kobieta</a>
+                                      </li>
+                                                                <li class="Navigation-item" mg-layout-watch="::{ id: 'menMenu', activeClass: 'is-active' }">
+                                          <a class="Button Button--toggle Button--category" href="/pl/men" title="Wyświetl Mężczyzna"
+                         ng-click="headerCtrl.categoryClick($event, false)"
+                         mg-layout-target="::{ id: 'menMenu', activateOn: 'mouseenter', deactivateOn: 'mouseleave' }">Mężczyzna</a>
+                                      </li>
+                                                                <li class="Navigation-item" mg-layout-watch="::{ id: 'kidsMenu', activeClass: 'is-active' }">
+                                          <a class="Button Button--toggle Button--category" href="/pl/kids" title="Wyświetl Dziecko"
+                         ng-click="headerCtrl.categoryClick($event, false)"
+                         mg-layout-target="::{ id: 'kidsMenu', activateOn: 'mouseenter', deactivateOn: 'mouseleave' }">Dziecko</a>
+                                      </li>
+                                                                <li class="Navigation-item" mg-layout-watch="::{ id: 'outletMenu', activeClass: 'is-active' }">
+                                          <a class="Button Button--toggle Button--category" href="/pl/outlet" title="Wyświetl Outlet"
+                         ng-click="headerCtrl.categoryClick($event, false)"
+                         mg-layout-target="::{ id: 'outletMenu', activateOn: 'mouseenter', deactivateOn: 'mouseleave' }">Outlet</a>
+                                      </li>
+                              
+                          </ul>
+          </nav>
+
+                    <div class="Header__Search u-isHidden u-lg-isShownAlt u-marginLm">
+            <form action="/pl/search" method="GET" class="Search Search--alt" name="searchForm" ng-non-bindable>
+  <button class="Search-button" type="submit">
+    <span class="u-isHiddenVisually">Szukaj</span>
+    <span class="Icon Icon--search"></span>
+  </button>
+  <input class="Search-input" name="q" type="text" pattern=".{3,}" required title="Wymagane są minimum 3 znaki.">
+</form>
+          </div>
+                  </div>
+
+        <div class="Bar-item Bar-item--right">
+          <div class="Header__Navigation">
+            <ul class="Navigation Navigation--hz">
+                            <li class="Navigation-item" id="headerTag">
+                <a href="/pl/newin/clothing/sweaters" class="Link">
+                  -30% TANIEJ
+                </a>
+              </li>
+                            <li class="Navigation-item">
+                                <a class="Link u-isHidden u-md-isShownAlt" href="/pl/account" title="Twoje konto">Twoje konto</a>
+                              </li>
+            </ul>
+          </div>
+
+          <div class="Header__Navigation">
+            <ul class="Navigation Navigation--hz" mg-layout-target="::{ id: 'headerUser', activateOn: 'mouseenter', deactivateOn: 'mouseleave' }">
+              <li class="Navigation-item" mg-layout-watch="::{ id: 'headerWishlist', activeClass: 'is-active' }">
+                <a class="Button Button--toggle" href="/pl/wishlist" title="Pokaż listę życzeń" mg-layout-target="::{ id: 'headerWishlist', activateOn: 'mouseenter', deactivateOn: 'mouseleave' }">
+                  <span class="u-isHiddenVisually">Pokaż listę życzeń</span>
+                  <span class="Icon Icon--wishlist"></span> <span ng-bind="wishlist.items.length"></span>
+                </a>
+              </li>
+              <li class="Navigation-item" mg-layout-watch="::{ id: 'headerCart', activeClass: 'is-active' }">
+                <a class="Button Button--toggle" href="/pl/cart" title="Pokaż koszyk" mg-layout-target="::{ id: 'headerCart', activateOn: 'mouseenter', deactivateOn: 'mouseleave' }">
+                  <span class="u-isHiddenVisually">Pokaż koszyk</span>
+                  <span class="Icon Icon--basket"></span> <span ng-bind="cart.items.length"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="Heder__Growl">
+
+      <div growl></div>
+
+    </div>
+
+    <div class="Header__Menu ng-anim" id="headerMenu" mg-layout-element>
+      <div class="Menu" id="newinMenu" mg-layout-element>
+    <div class="u-superWrapper">
+      <div class="Menu-container u-cf">
+
+                            <div class="Menu-item u-marginVm">
+            <nav class="Menu__Navigation">
+              <h5 class="Menu-heading">
+                <a href="/pl/newin/clothing" class="Link Link--underline" title="Wyświetl Odzież">Odzież</a>
+              </h5>
+
+                            <ul class="Navigation Navigation--links u-marginTs">
+                                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/clothing/bestsellers-1" title="Wyświetl Bestsellers">Bestsellers</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/clothing/sweaters" title="Wyświetl Unisex bluzy bawełniane ">Unisex bluzy bawełniane </a>
+                  </li>
+                                                                                                        <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/clothing/women-sweater-2" title="Wyświetl Bluzy bawełniane damskie">Bluzy bawełniane damskie</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/clothing/tshirts" title="Wyświetl Unisex t-shirty ">Unisex t-shirty </a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/clothing/women-tshirt" title="Wyświetl T-shirty damskie">T-shirty damskie</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/clothing/hoodie-4" title="Wyświetl Bawełniane bluzy z kapturem">Bawełniane bluzy z kapturem</a>
+                  </li>
+                                                                                                        <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/clothing/hoodie" title="Wyświetl Bawełniane bluzy z zamkiem">Bawełniane bluzy z zamkiem</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/clothing/tops" title="Wyświetl Topy">Topy</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/clothing/leggings-yoga" title="Wyświetl Legginsy">Legginsy</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/clothing/dresses-skirts" title="Wyświetl Sukienki i spódnice">Sukienki i spódnice</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/clothing/sweatpants" title="Wyświetl Spodnie bawełniane">Spodnie bawełniane</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/clothing/bikini" title="Wyświetl Stroje kąpielowe dwuczęściowe">Stroje kąpielowe dwuczęściowe</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/clothing/swimsuits" title="Wyświetl Stroje kąpielowe jednoczęściowe ">Stroje kąpielowe jednoczęściowe </a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/clothing/shorts" title="Wyświetl Szorty">Szorty</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/clothing/underwear-2" title="Wyświetl Bielizna">Bielizna</a>
+                  </li>
+                                                </ul>
+              
+            </nav>
+          </div>
+                                                                          <div class="Menu-item u-marginVm">
+            <nav class="Menu__Navigation">
+              <h5 class="Menu-heading">
+                <a href="/pl/newin/new-releases" class="Link Link--underline" title="Wyświetl Nowe na stronie">Nowe na stronie</a>
+              </h5>
+
+                            <ul class="Navigation Navigation--links u-marginTs">
+                                                    <li class="Navigation-item">
+                    <a class="Link Link--underline is-featured" href="/pl/newin/new-releases/assasins-creed-2" title="Wyświetl Assassin&#039;s Creed">Assassin&#039;s Creed</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline is-featured" href="/pl/newin/new-releases/swimwear-2018" title="Wyświetl Stroje kąpielowe">Stroje kąpielowe</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/new-releases/february-2018" title="Wyświetl Luty 2018">Luty 2018</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/new-releases/cryptocurrencies" title="Wyświetl Kryptowaluty">Kryptowaluty</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/new-releases/my-little-pony-1" title="Wyświetl My Little Pony">My Little Pony</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/new-releases/october-2017" title="Wyświetl Październik 2017">Październik 2017</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/new-releases/september-2017" title="Wyświetl Wrzesień 2017">Wrzesień 2017</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/new-releases/june-2017" title="Wyświetl Czerwiec 2017">Czerwiec 2017</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/new-releases/march-2017" title="Wyświetl Marzec 2017">Marzec 2017</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/new-releases/spring-dress-selection" title="Wyświetl Sukienki wiosenne">Sukienki wiosenne</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/new-releases/january-2017" title="Wyświetl Styczeń 2017">Styczeń 2017</a>
+                  </li>
+                                                                                  </ul>
+              
+            </nav>
+          </div>
+                                                        <div class="Menu-item u-marginVm">
+            <nav class="Menu__Navigation">
+              <h5 class="Menu-heading">
+                <a href="/pl/newin/collections" class="Link Link--underline" title="Wyświetl Kolekcje">Kolekcje</a>
+              </h5>
+
+                            <ul class="Navigation Navigation--links u-marginTs">
+                                                    <li class="Navigation-item">
+                    <a class="Link Link--underline is-featured" href="/pl/newin/collections/greatest-art-collection" title="Wyświetl Galeria sztuki">Galeria sztuki</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/collections/beer-collection" title="Wyświetl Kolekcja piwa">Kolekcja piwa</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/collections/ikea-mrgugu" title="Wyświetl FRAKTA x Mr. Gugu">FRAKTA x Mr. Gugu</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/collections/jay-freestyle" title="Wyświetl Jay Freestyle">Jay Freestyle</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/collections/junk-food" title="Wyświetl Junk Food">Junk Food</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/collections/weed-hype-club" title="Wyświetl Weed Hype Club">Weed Hype Club</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/collections/jungle-selection" title="Wyświetl Jungle Selection">Jungle Selection</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/collections/day-dream" title="Wyświetl Day-Dream">Day-Dream</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/collections/nebula-sunrise" title="Wyświetl Nebula Sunrise ">Nebula Sunrise </a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/collections/cats-and-dogs" title="Wyświetl Cats and Dogs">Cats and Dogs</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/collections/death-skull" title="Wyświetl Death Skull">Death Skull</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/collections/zodiac" title="Wyświetl Zodiak">Zodiak</a>
+                  </li>
+                                                </ul>
+              
+            </nav>
+          </div>
+                                      <div class="Menu-item u-marginVm">
+            <nav class="Menu__Navigation">
+              <h5 class="Menu-heading">
+                <a href="/pl/newin/brands" class="Link Link--underline" title="Wyświetl Marki">Marki</a>
+              </h5>
+
+                            <ul class="Navigation Navigation--links u-marginTs">
+                                                    <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/brands/rum-and-coco" title="Wyświetl Rum and Coco">Rum and Coco</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/brands/live-heroes" title="Wyświetl Live Heroes">Live Heroes</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/newin/brands/carpatree" title="Wyświetl Carpatree">Carpatree</a>
+                  </li>
+                                                </ul>
+              
+            </nav>
+          </div>
+                                      <div class="Menu-item u-marginVm">
+            <nav class="Menu__Navigation">
+              <h5 class="Menu-heading">
+                <a href="/pl/newin/gifts" class="Link Link--underline" title="Wyświetl Prezenty">Prezenty</a>
+              </h5>
+
+              
+            </nav>
+          </div>
+                  
+        <div class="Menu-item Menu-item--lg Menu-item--right">
+          <div class="Menu__Preview">
+                        <a href="/pl/newin/clothing/sweaters" title="" class="Preview">
+              <img src="https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-images/20180702095556_cS4MRfRRyIIcCrfx-pl.jpg" class="u-responsiveImage" alt="">
+            </a>
+                      </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+    <div class="Menu" id="womenMenu" mg-layout-element>
+    <div class="u-superWrapper">
+      <div class="Menu-container u-cf">
+
+                            <div class="Menu-item u-marginVm">
+            <nav class="Menu__Navigation">
+              <h5 class="Menu-heading">
+                <a href="/pl/women/clothing-1" class="Link Link--underline" title="Wyświetl Odzież">Odzież</a>
+              </h5>
+
+                            <ul class="Navigation Navigation--links u-marginTs">
+                                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/women/clothing-1/bestsellers-2" title="Wyświetl Bestsellers">Bestsellers</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/women/clothing-1/sweaters-1" title="Wyświetl Bluzy bawełniane unisex">Bluzy bawełniane unisex</a>
+                  </li>
+                                                                                                        <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/women/clothing-1/women-sweater-3" title="Wyświetl Bluzy bawełniane damskie">Bluzy bawełniane damskie</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/women/clothing-1/tshirts-1" title="Wyświetl T-shirty unisex">T-shirty unisex</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/women/clothing-1/women-tshirt-1" title="Wyświetl T-shirty damskie">T-shirty damskie</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/women/clothing-1/hoodie-5" title="Wyświetl Bawełniane bluzy z kapturem">Bawełniane bluzy z kapturem</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/women/clothing-1/hoodie-1" title="Wyświetl Bawełniane bluzy z zamkiem">Bawełniane bluzy z zamkiem</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/women/clothing-1/fitness-1" title="Wyświetl Fitness">Fitness</a>
+                  </li>
+                                                                                                        <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/women/clothing-1/tops-1" title="Wyświetl Topy">Topy</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/women/clothing-1/leggings-yoga-1" title="Wyświetl Legginsy">Legginsy</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/women/clothing-1/dresses-skirts-1" title="Wyświetl Sukienki i spódnice">Sukienki i spódnice</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/women/clothing-1/sweatpants-1" title="Wyświetl Spodnie bawełniane">Spodnie bawełniane</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/women/clothing-1/bikini-1" title="Wyświetl Stroje kąpielowe dwuczęściowe">Stroje kąpielowe dwuczęściowe</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/women/clothing-1/swimsuits-1" title="Wyświetl Stroje kąpielowe jednoczęściowe ">Stroje kąpielowe jednoczęściowe </a>
+                  </li>
+                                                </ul>
+              
+            </nav>
+          </div>
+                                      <div class="Menu-item u-marginVm">
+            <nav class="Menu__Navigation">
+              <h5 class="Menu-heading">
+                <a href="/pl/women/accessories-1" class="Link Link--underline" title="Wyświetl Akcesoria">Akcesoria</a>
+              </h5>
+
+                            <ul class="Navigation Navigation--links u-marginTs">
+                                                    <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/women/accessories-1/backpacks-1" title="Wyświetl Plecaki i Torby">Plecaki i Torby</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/women/accessories-1/shoes-1" title="Wyświetl Buty">Buty</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/women/accessories-1/iphone-cases-1" title="Wyświetl Obudowy na telefony iPhone">Obudowy na telefony iPhone</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/women/accessories-1/samsung-cases-1" title="Wyświetl Obudowy na telefony Samsung">Obudowy na telefony Samsung</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/women/accessories-1/sony-cases-1" title="Wyświetl Obudowy na telefon Sony Xperia">Obudowy na telefon Sony Xperia</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/women/accessories-1/socks-1" title="Wyświetl Skarpetki">Skarpetki</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/women/accessories-1/poufs-pillows-1" title="Wyświetl Poduszki">Poduszki</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/women/accessories-1/caps-1" title="Wyświetl Czapki z daszkiem">Czapki z daszkiem</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/women/accessories-1/gloves-beanies-1" title="Wyświetl Czapki">Czapki</a>
+                  </li>
+                                                </ul>
+              
+            </nav>
+          </div>
+                                                        <div class="Menu-item u-marginVm">
+            <nav class="Menu__Navigation">
+              <h5 class="Menu-heading">
+                <a href="/pl/women/licenses-1" class="Link Link--underline" title="Wyświetl Licencje">Licencje</a>
+              </h5>
+
+                            <ul class="Navigation Navigation--links u-marginTs">
+                                                    <li class="Navigation-item">
+                    <a class="Link Link--underline is-featured" href="/pl/women/licenses-1/assasins-creed" title="Wyświetl Assassin&#039;s Creed">Assassin&#039;s Creed</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline is-featured" href="/pl/women/licenses-1/my-little-pony" title="Wyświetl My Little Pony">My Little Pony</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/women/licenses-1/gamedec-1" title="Wyświetl Gamedec">Gamedec</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/women/licenses-1/jay-freestyle-1" title="Wyświetl Jay Freestyle">Jay Freestyle</a>
+                  </li>
+                                                </ul>
+              
+            </nav>
+          </div>
+                                      <div class="Menu-item u-marginVm">
+            <nav class="Menu__Navigation">
+              <h5 class="Menu-heading">
+                <a href="/pl/women/gifts-1" class="Link Link--underline" title="Wyświetl Prezenty">Prezenty</a>
+              </h5>
+
+              
+            </nav>
+          </div>
+                  
+        <div class="Menu-item Menu-item--lg Menu-item--right">
+          <div class="Menu__Preview">
+                        <a href="/pl/women/clothing-1/tshirts-1" title="" class="Preview">
+              <img src="https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-images/20180702095446_H3rAyuAxKUwkrJPr-pl.jpg" class="u-responsiveImage" alt="">
+            </a>
+                      </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+    <div class="Menu" id="menMenu" mg-layout-element>
+    <div class="u-superWrapper">
+      <div class="Menu-container u-cf">
+
+                            <div class="Menu-item u-marginVm">
+            <nav class="Menu__Navigation">
+              <h5 class="Menu-heading">
+                <a href="/pl/men/clothing-2" class="Link Link--underline" title="Wyświetl Odzież">Odzież</a>
+              </h5>
+
+                            <ul class="Navigation Navigation--links u-marginTs">
+                                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/men/clothing-2/bestsellers-3" title="Wyświetl Bestsellers">Bestsellers</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/men/clothing-2/sweaters-2" title="Wyświetl Bluzy bawełniane">Bluzy bawełniane</a>
+                  </li>
+                                                                                                        <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/men/clothing-2/tshirts-2" title="Wyświetl T-shirty">T-shirty</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/men/clothing-2/hoodie-6" title="Wyświetl Bawełniane bluzy z kapturem">Bawełniane bluzy z kapturem</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/men/clothing-2/hoodie-2" title="Wyświetl Bawełniane bluzy z zamkiem">Bawełniane bluzy z zamkiem</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/men/clothing-2/tops-2" title="Wyświetl Topy">Topy</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/men/clothing-2/fitness-2" title="Wyświetl Fitness">Fitness</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/men/clothing-2/sweatpants-2" title="Wyświetl Spodnie bawełniane">Spodnie bawełniane</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/men/clothing-2/swimwear-2" title="Wyświetl Szorty">Szorty</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/men/clothing-2/underwear-3" title="Wyświetl Bielizna">Bielizna</a>
+                  </li>
+                                                </ul>
+              
+            </nav>
+          </div>
+                                      <div class="Menu-item u-marginVm">
+            <nav class="Menu__Navigation">
+              <h5 class="Menu-heading">
+                <a href="/pl/men/accessories3" class="Link Link--underline" title="Wyświetl Akcesoria">Akcesoria</a>
+              </h5>
+
+                            <ul class="Navigation Navigation--links u-marginTs">
+                                                    <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/men/accessories3/backpacks-3" title="Wyświetl Plecaki i Torby">Plecaki i Torby</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/men/accessories3/shoes-3" title="Wyświetl Buty">Buty</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/men/accessories3/iphone-cases-3" title="Wyświetl Obudowy na telefony iPhone">Obudowy na telefony iPhone</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/men/accessories3/samsung-cases-3" title="Wyświetl Obudowy na telefony Samsung">Obudowy na telefony Samsung</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/men/accessories3/sony-cases-2" title="Wyświetl Obudowy na telefon Sony Xperia">Obudowy na telefon Sony Xperia</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/men/accessories3/socks-3" title="Wyświetl Skarpetki">Skarpetki</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/men/accessories3/caps-2" title="Wyświetl Czapki z daszkiem">Czapki z daszkiem</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/men/accessories3/poufs-pillows-3" title="Wyświetl Poduszki">Poduszki</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/men/accessories3/gloves-beanies-2" title="Wyświetl Czapki">Czapki</a>
+                  </li>
+                                                </ul>
+              
+            </nav>
+          </div>
+                                                        <div class="Menu-item u-marginVm">
+            <nav class="Menu__Navigation">
+              <h5 class="Menu-heading">
+                <a href="/pl/men/licenses-2" class="Link Link--underline" title="Wyświetl Licencje">Licencje</a>
+              </h5>
+
+                            <ul class="Navigation Navigation--links u-marginTs">
+                                                    <li class="Navigation-item">
+                    <a class="Link Link--underline is-featured" href="/pl/men/licenses-2/assasins-creed-1" title="Wyświetl Assassin&#039;s Creed">Assassin&#039;s Creed</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/men/licenses-2/my-little-pony-2" title="Wyświetl My Little Pony">My Little Pony</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/men/licenses-2/gamedec-2" title="Wyświetl Gamedec">Gamedec</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/men/licenses-2/jay-freestyle-2" title="Wyświetl Jay Freestyle">Jay Freestyle</a>
+                  </li>
+                                                </ul>
+              
+            </nav>
+          </div>
+                                      <div class="Menu-item u-marginVm">
+            <nav class="Menu__Navigation">
+              <h5 class="Menu-heading">
+                <a href="/pl/men/gifts-2" class="Link Link--underline" title="Wyświetl Prezenty">Prezenty</a>
+              </h5>
+
+              
+            </nav>
+          </div>
+                  
+        <div class="Menu-item Menu-item--lg Menu-item--right">
+          <div class="Menu__Preview">
+                        <a href="/pl/newin/clothing/hoodie-4" title="" class="Preview">
+              <img src="https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-images/20180702095537_XaSgMwr6B71xUBwK-pl.jpg" class="u-responsiveImage" alt="">
+            </a>
+                      </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+    <div class="Menu" id="kidsMenu" mg-layout-element>
+    <div class="u-superWrapper">
+      <div class="Menu-container u-cf">
+
+                            <div class="Menu-item u-marginVm">
+            <nav class="Menu__Navigation">
+              <h5 class="Menu-heading">
+                <a href="/pl/kids/kids-1" class="Link Link--underline" title="Wyświetl Dziewczynka">Dziewczynka</a>
+              </h5>
+
+                            <ul class="Navigation Navigation--links u-marginTs">
+                                                    <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/kids/kids-1/kids-sweaters-1" title="Wyświetl Bluzy">Bluzy</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/kids/kids-1/kids-tshirts-1" title="Wyświetl T-shirty">T-shirty</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/kids/kids-1/kids-leggings-1" title="Wyświetl Legginsy">Legginsy</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/kids/kids-1/skirt-dresses-1" title="Wyświetl Sukienki i spódniczki">Sukienki i spódniczki</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/kids/kids-1/socks" title="Wyświetl Skarpetki">Skarpetki</a>
+                  </li>
+                                                </ul>
+              
+            </nav>
+          </div>
+                                      <div class="Menu-item u-marginVm">
+            <nav class="Menu__Navigation">
+              <h5 class="Menu-heading">
+                <a href="/pl/kids/kids-2" class="Link Link--underline" title="Wyświetl Chłopczyk">Chłopczyk</a>
+              </h5>
+
+                            <ul class="Navigation Navigation--links u-marginTs">
+                                                    <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/kids/kids-2/kids-sweaters-2" title="Wyświetl Bluzy">Bluzy</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/kids/kids-2/kids-tshirts-2" title="Wyświetl T-shirty">T-shirty</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/kids/kids-2/socks-4" title="Wyświetl Skarpetki">Skarpetki</a>
+                  </li>
+                                                </ul>
+              
+            </nav>
+          </div>
+                                      <div class="Menu-item u-marginVm">
+            <nav class="Menu__Navigation">
+              <h5 class="Menu-heading">
+                <a href="/pl/kids/accessories-3" class="Link Link--underline" title="Wyświetl Akcesoria">Akcesoria</a>
+              </h5>
+
+                            <ul class="Navigation Navigation--links u-marginTs">
+                                                    <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/kids/accessories-3/backpacks-4" title="Wyświetl Plecaki">Plecaki</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/kids/accessories-3/iphone-cases-4" title="Wyświetl Obudowy na telefony iPhone">Obudowy na telefony iPhone</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/kids/accessories-3/samsung-cases-4" title="Wyświetl Obudowy na telefony Samsung">Obudowy na telefony Samsung</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/kids/accessories-3/poufs-pillows-4" title="Wyświetl Poduszki">Poduszki</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/kids/accessories-3/flip-flops-3" title="Wyświetl Japonki">Japonki</a>
+                  </li>
+                                                                      <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/kids/accessories-3/beanies" title="Wyświetl Czapki">Czapki</a>
+                  </li>
+                                                </ul>
+              
+            </nav>
+          </div>
+                                      <div class="Menu-item u-marginVm">
+            <nav class="Menu__Navigation">
+              <h5 class="Menu-heading">
+                <a href="/pl/kids/special-collection-3" class="Link Link--underline" title="Wyświetl Kolekcje Specjalne">Kolekcje Specjalne</a>
+              </h5>
+
+                            <ul class="Navigation Navigation--links u-marginTs">
+                                                    <li class="Navigation-item">
+                    <a class="Link Link--underline " href="/pl/kids/special-collection-3/collection-ss-2017-3" title="Wyświetl Kolekcja SS 2017">Kolekcja SS 2017</a>
+                  </li>
+                                                </ul>
+              
+            </nav>
+          </div>
+                  
+        <div class="Menu-item Menu-item--lg Menu-item--right">
+          <div class="Menu__Preview">
+                        <a href="/pl/kids/kids-1/kids-sweaters-1" title="" class="Preview">
+              <img src="https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-images/20180702095514_tIymoanugnfPqW2P-pl.jpg" class="u-responsiveImage" alt="">
+            </a>
+                      </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+    <div class="Menu" id="outletMenu" mg-layout-element>
+    <div class="u-superWrapper">
+      <div class="Menu-container u-cf">
+
+                            <div class="Menu-item u-marginVm">
+            <nav class="Menu__Navigation">
+              <h5 class="Menu-heading">
+                <a href="/pl/outlet/sweaters-3" class="Link Link--underline" title="Wyświetl Bluzy - OUTLET">Bluzy - OUTLET</a>
+              </h5>
+
+              
+            </nav>
+          </div>
+                                      <div class="Menu-item u-marginVm">
+            <nav class="Menu__Navigation">
+              <h5 class="Menu-heading">
+                <a href="/pl/outlet/women-sweater" class="Link Link--underline" title="Wyświetl Bluzy damskie - OUTLET">Bluzy damskie - OUTLET</a>
+              </h5>
+
+              
+            </nav>
+          </div>
+                                      <div class="Menu-item u-marginVm">
+            <nav class="Menu__Navigation">
+              <h5 class="Menu-heading">
+                <a href="/pl/outlet/hoodies-3" class="Link Link--underline" title="Wyświetl Bluzy z kapturem - OUTLET">Bluzy z kapturem - OUTLET</a>
+              </h5>
+
+              
+            </nav>
+          </div>
+                                      <div class="Menu-item u-marginVm">
+            <nav class="Menu__Navigation">
+              <h5 class="Menu-heading">
+                <a href="/pl/outlet/sweatpants-3" class="Link Link--underline" title="Wyświetl Spodnie - OUTLET">Spodnie - OUTLET</a>
+              </h5>
+
+              
+            </nav>
+          </div>
+                                    
+        <div class="Menu-item Menu-item--lg Menu-item--right">
+          <div class="Menu__Preview">
+                      </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+    </div>
+
+    <div class="Header__User ng-anim" id="headerUser" mg-layout-element>
+      
+      <div class="u-superWrapper">
+        <div>
+          <div ng-cloak ng-controller="CartController as cartCtrl">
+  <div class="Cart" id="headerCart" mg-layout-element>
+
+    <div class="Cart-products">
+
+      <div ng-switch="cart.items.length > 0">
+        <div ng-switch-when="true">
+          <ul class="ProductsList">
+            <li ng-repeat="item in cart.items" ng-include="'/home/templates/cart-item.html'"></li>
+          </ul>
+
+          <div class="Summary u-marginBs">
+            <div class="Summary-item">
+              <span class="Summary-label">Podsuma:</span>
+              <span class="Summary-value">{{ cart.summary.subtotalPrice }}</span>
+            </div>
+            <div class="Summary-item">
+              <span class="Summary-label">Dostawa:</span>
+              <span class="Summary-value">{{ cart.summary.shippingPrice }}</span>
+            </div>
+            <div class="Summary-item Summary-item--total">
+              <span class="Summary-label">Suma:</span>
+              <span class="Summary-value">{{ cart.summary.totalPrice }}</span>
+            </div>
+          </div>
+
+          <div class="Arrange Arrange--equal u-boxT">
+            <div class="Arrange-item Arrange-item--fit u-boxR">
+              <a href="/pl/cart" class="Button Button--primary Button--block">Pokaż koszyk</a>
+            </div>
+            <div class="Arrange-item Arrange-item--fit u-boxL">
+              <a href="https://checkout.mrgugu.com//personal-info?lang=pl" ng-href="https://checkout.mrgugu.com/{{ cart.id }}/personal-info?lang=pl" target="_self" class="Button Button--secondary Button--block">Kup teraz</a>
+            </div>
+          </div>
+        </div>
+
+        <div ng-switch-default>
+          <div class="u-textCenter u-paddingVm">
+            <p class="u-italic">Twój koszyk jest pusty.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+          <div ng-cloak ng-controller="WishlistController as wishlistCtrl">
+  <div class="Wishlist" id="headerWishlist" mg-layout-element>
+
+    <div class="Wishlist-form" ng-show="wishlistCtrl.showForm">
+      <h5>{{ ::item.title }}</h5>
+      <hr class="u-marginVs">
+
+      <div ng-if="wishlistCtrl.loading" class="u-textCenter u-paddingTl u-marginBm">
+        <span class="Spinner Spinner--lg"></span>
+      </div>
+
+      <div class="Grid Grid--gutters" ng-hide="wishlistCtrl.loading">
+        <div class="Grid-cell u-size1of3">
+          <a ng-href="{{ ::item.url }}" class="Thumbnail">
+            <img ng-src="{{ ::item.image.medium }}" class="u-responsiveImage">
+          </a>
+        </div>
+
+        <div class="Grid-cell u-size2of3">
+          <form name="wishlistMoveForm" class="Form" ng-submit="wishlistCtrl.save()" novalidate>
+            <div class="Form-item u-marginBs" ng-repeat="option in options">
+              <label style="min-width: 80px;" class="u-textLight">{{ ::option.name }}:</label>
+              <div class="Select Select--primary Select--sm">
+                <select name="{{ ::option.optionId }}" style="min-width: 108px;"
+                  ng-options="val.optionValueId as val.name for val in option.values"
+                  ng-model="item.options[option.optionId]"
+                  required
+                  ng-disabled="wishlistMoveForm.$busy">
+                  <option value="" disabled="disabled">Wybierz</option>
+                </select>
+              </div>
+
+              <ng-messages ng-show="wishlistMoveForm.$submitted" for="wishlistMoveForm[option.optionId].$error">
+                <ng-message when="required">Wybierz opcję.</ng-message>
+              </ng-messages>
+            </div>
+
+            <div class="Form-item">
+              <label style="width: 80px;" class="u-textLight">Ilość:</label>
+              <input name="quantity" style="width: 108px;" type="number" class="Input Input--primary Input--sm" ng-model="item.quantity" min="1" max="9" ng-disabled="wishlistMoveForm.$busy">
+
+              <ng-messages ng-show="wishlistMoveForm.$submitted" for="wishlistMoveForm.quantity.$error">
+                <ng-message when="max">Ilość jest nieprawidłowa.</ng-message>
+                <ng-message when="min">Ilość jest nieprawidłowa.</ng-message>
+              </ng-messages>
+            </div>
+
+            <button type="submit" class="Link Link--underline Link--alt" v-busy="wishlistMoveForm.$busy" v-busy-label="Proszę czekać...">Przenieś do koszyka</button>
+            <button type="submit" class="Link Link--danger u-marginLm" ng-click="wishlistCtrl.close()" ng-disabled="wishlistMoveForm.$busy">Anuluj</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="Wishlist-products" ng-hide="wishlistCtrl.showForm">
+
+      <div ng-switch="wishlist.items.length > 0">
+        <div ng-switch-when="true">
+          <ul class="ProductsList u-marginBs">
+            <li ng-repeat="item in wishlist.items" ng-include="'/home/templates/wishlist-item.html'"></li>
+          </ul>
+
+          <div class="u-boxT">
+            <a href="/pl/wishlist" class="Button Button--primary Button--block">Pokaż listę życzeń</a>
+          </div>
+        </div>
+
+        <div ng-switch-default>
+          <div class="u-textCenter u-paddingVm">
+            <p class="u-italic">Twoja lista życzeń jest pusta.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="Header__Actions ng-anim" id="headerActions" mg-layout-element="::{ deactivateOn: 'outsideclick' }">
+
+      <div class="Locale ng-anim" id="headerLocale" mg-layout-element="::{ deactivateOn: '' }">
+  <div class="u-superWrapper">
+
+    <form class="Locale-form Form" ng-non-bindable action="/settings" method="POST">
+
+      <h5 class="u-marginBm">Wybierz kraj, język i walutę.</h5>
+
+      <div class="Select Select--primary u-marginRm" style="width: 220px;">
+        <select name="country">
+                      <option value="ad" >Andora</option>
+                      <option value="sa" >Arabia Saudyjska</option>
+                      <option value="ar" >Argentyna</option>
+                      <option value="am" >Armenia</option>
+                      <option value="au" >Australia</option>
+                      <option value="at" >Austria</option>
+                      <option value="az" >Azerbejdżan</option>
+                      <option value="bs" >Bahamy</option>
+                      <option value="bh" >Bahrajn</option>
+                      <option value="bb" >Barbados</option>
+                      <option value="be" >Belgia</option>
+                      <option value="bt" >Bhutan</option>
+                      <option value="by" >Białoruś</option>
+                      <option value="mm" >Birma</option>
+                      <option value="bo" >Boliwia</option>
+                      <option value="ba" >Bośnia I Hercegowina</option>
+                      <option value="br" >Brazylia</option>
+                      <option value="bn" >Brunei</option>
+                      <option value="bg" >Bułgaria</option>
+                      <option value="cl" >Chile</option>
+                      <option value="cn" >Chińska Republika Ludowa</option>
+                      <option value="hr" >Chorwacja</option>
+                      <option value="cy" >Cypr</option>
+                      <option value="me" >Czarnogóra</option>
+                      <option value="dk" >Dania</option>
+                      <option value="do" >Dominikana</option>
+                      <option value="eg" >Egipt</option>
+                      <option value="ec" >Ekwador</option>
+                      <option value="ee" >Estonia</option>
+                      <option value="et" >Etiopia</option>
+                      <option value="fj" >Fidżi</option>
+                      <option value="ph" >Filipiny</option>
+                      <option value="fi" >Finlandia</option>
+                      <option value="fr" >Francja</option>
+                      <option value="gr" >Grecja</option>
+                      <option value="ge" >Gruzja</option>
+                      <option value="gy" >Gujana</option>
+                      <option value="gt" >Gwatemala</option>
+                      <option value="es" >Hiszpania</option>
+                      <option value="nl" >Holandia</option>
+                      <option value="hn" >Honduras</option>
+                      <option value="hk" >Hongkong</option>
+                      <option value="in" >Indie</option>
+                      <option value="id" >Indonezja</option>
+                      <option value="iq" >Irak</option>
+                      <option value="ir" >Iran</option>
+                      <option value="ie" >Irlandia</option>
+                      <option value="is" >Islandia</option>
+                      <option value="il" >Izrael</option>
+                      <option value="jm" >Jamajka</option>
+                      <option value="jp" selected=&quot;selected&quot;>Japonia</option>
+                      <option value="ye" >Jemen</option>
+                      <option value="jo" >Jordania</option>
+                      <option value="kh" >Kambodża</option>
+                      <option value="cm" >Kamerun</option>
+                      <option value="ca" >Kanada</option>
+                      <option value="qa" >Katar</option>
+                      <option value="kz" >Kazachstan</option>
+                      <option value="ke" >Kenia</option>
+                      <option value="kg" >Kirgistan</option>
+                      <option value="co" >Kolumbia</option>
+                      <option value="kr" >Korea Południowa</option>
+                      <option value="cr" >Kostaryka</option>
+                      <option value="cu" >Kuba</option>
+                      <option value="kw" >Kuwejt</option>
+                      <option value="la" >Laos</option>
+                      <option value="li" >Liechtenstein</option>
+                      <option value="lt" >Litwa</option>
+                      <option value="lu" >Luksemburg</option>
+                      <option value="mk" >Macedonia</option>
+                      <option value="mg" >Madagaskar</option>
+                      <option value="mv" >Malediwy</option>
+                      <option value="my" >Malezja</option>
+                      <option value="mt" >Malta</option>
+                      <option value="mx" >Meksyk</option>
+                      <option value="mc" >Monako</option>
+                      <option value="mn" >Mongolia</option>
+                      <option value="md" >Mołdawia</option>
+                      <option value="np" >Nepal</option>
+                      <option value="de" >Niemcy</option>
+                      <option value="ng" >Nigeria</option>
+                      <option value="ni" >Nikaragua</option>
+                      <option value="no" >Norwegia</option>
+                      <option value="nz" >Nowa Zelandia</option>
+                      <option value="om" >Oman</option>
+                      <option value="pk" >Pakistan</option>
+                      <option value="pw" >Palau</option>
+                      <option value="pa" >Panama</option>
+                      <option value="pg" >Papua Nowa Gwinea</option>
+                      <option value="py" >Paragwaj</option>
+                      <option value="pe" >Peru</option>
+                      <option value="pl" >Polska</option>
+                      <option value="pt" >Portugalia</option>
+                      <option value="cz" >Republika Czeska</option>
+                      <option value="za" >Republika Południowej Afryki</option>
+                      <option value="ru" >Rosja</option>
+                      <option value="ro" >Rumunia</option>
+                      <option value="sm" >San Marino</option>
+                      <option value="sn" >Senegal</option>
+                      <option value="rs" >Serbia</option>
+                      <option value="sc" >Seszele</option>
+                      <option value="sg" >Singapur</option>
+                      <option value="lk" >Sri Lanka</option>
+                      <option value="us" >Stany Zjednoczone</option>
+                      <option value="ch" >Szwajcaria</option>
+                      <option value="se" >Szwecja</option>
+                      <option value="sk" >Słowacja</option>
+                      <option value="si" >Słowenia</option>
+                      <option value="th" >Tajlandia</option>
+                      <option value="tw" >Tajwan</option>
+                      <option value="tn" >Tunezja</option>
+                      <option value="tr" >Turcja</option>
+                      <option value="tm" >Turkmenistan</option>
+                      <option value="ua" >Ukraina</option>
+                      <option value="uy" >Urugwaj</option>
+                      <option value="uz" >Uzbekistan</option>
+                      <option value="va" >Watykan</option>
+                      <option value="hu" >Węgry</option>
+                      <option value="ve" >Wenezuela</option>
+                      <option value="gb" >Wielka Brytania</option>
+                      <option value="vn" >Wietnam</option>
+                      <option value="it" >Włochy</option>
+                      <option value="ae" >Zjednoczone Emiraty Arabskie</option>
+                      <option value="lv" >Łotwa</option>
+                  </select>
+      </div>
+
+      <div class="Select Select--primary u-marginRm" style="width: 100px;">
+        <select name="language">
+                      <option value="en" >EN</option>
+                      <option value="pl" selected=&quot;selected&quot;>PL</option>
+                      <option value="es" >ES</option>
+                      <option value="fr" >FR</option>
+                      <option value="it" >IT</option>
+                      <option value="nl" >NL</option>
+                      <option value="ru" >RU</option>
+                      <option value="de" >DE</option>
+                      <option value="us" >US</option>
+                  </select>
+      </div>
+
+      <div class="Select Select--primary u-marginRl" style="width: 100px;">
+        <select name="currency">
+                      <option value="eur" >EUR (€)</option>
+                      <option value="gbp" >GBP (£)</option>
+                      <option value="pln" >PLN (zł)</option>
+                      <option value="usd" selected=&quot;selected&quot;>USD ($)</option>
+                  </select>
+      </div>
+
+      <button class="Button Button--primary" type="submit">Zapisz i kontynuuj</button>
+
+    </form>
+
+    <div class="Locale-close" mg-layout-target="::{ id: [ 'headerLocale', 'headerActions' ], deactivateOn: 'click' }">
+      <v-close aria-label="Zamknij"></v-close>
+    </div>
+
+  </div>
+</div>
+
+    </div>
+
+  </header>
+</div>
+          </div><!-- /.Layout__Header -->
+
+          <div class="Layout__Page">
+           
+            <div class="Layout__Info">
+              <div class="u-superWrapper">
+                <div class="Info">
+                  <div class="Info-item Info--shipping is-active">
+                    <text-rotator timer="6">
+                                                                  <text-rotator-item class="ng-anim">
+                        <h4 class="Info-text"><span class="u-textHighlight">Darmowa </span>  Dostawa od 250 zł<span class="u-textLight">/</span> <span class="u-textHighlight">100 dni</span> na zwrot <span class="u-textLight">/</span> <span class="u-textHighlight">Dostawa </span> pocztą polską</h4>
+                      </text-rotator-item>
+                                          </text-rotator>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="Page" ng-clock>
+              <div class="u-superWrapper">
+
+                
+  <div class="View View--homepage">
+
+        <div class="Gallery Gallery--double" ng-controller="HomeGalleryController as galleryCtrl">
+
+      <ul class="Gallery-slides" rn-carousel rn-carousel-easing="easeOutQuad" rn-carousel-duration="400" rn-carousel-auto-slide="5" rn-carousel-index="gallery.currentIndex">
+                <li class="Gallery-slide">
+          <div class="Grid md-Grid--2col">
+                        <div class="Grid-cell">
+              <a href="/pl/newin/new-releases/swimwear-2018" title="">
+                <div class="Block FlexEmbed FlexEmbed--1by1">
+                  <figure class="Gallery-image FlexEmbed-item" style="background-image: url('https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-images/20180702111718_VvMOj8tuSD0XshFE-pl.jpg')"></figure>
+                  <noscript>
+                    <img src="https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-images/20180702111718_VvMOj8tuSD0XshFE-pl.jpg" alt=" image">
+                  </noscript>
+                </div>
+
+                <div class="Gallery-content">
+                  <div class="u-absoulteCenter">
+                                        
+                                      </div>
+                </div>
+              </a>
+            </div>
+                        <div class="Grid-cell">
+              <a href="/pl/men/licenses-2/assasins-creed-1" title="">
+                <div class="Block FlexEmbed FlexEmbed--1by1">
+                  <figure class="Gallery-image FlexEmbed-item" style="background-image: url('https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-images/20180702100431_FuGSkx7XDkq5OsTa-pl.jpg')"></figure>
+                  <noscript>
+                    <img src="https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-images/20180702100431_FuGSkx7XDkq5OsTa-pl.jpg" alt=" image">
+                  </noscript>
+                </div>
+
+                <div class="Gallery-content">
+                  <div class="u-absoulteCenter">
+                                        
+                                      </div>
+                </div>
+              </a>
+            </div>
+                      </div>
+        </li>
+                <li class="Gallery-slide">
+          <div class="Grid md-Grid--2col">
+                        <div class="Grid-cell">
+              <a href="/pl/newin/clothing/sweaters" title="">
+                <div class="Block FlexEmbed FlexEmbed--1by1">
+                  <figure class="Gallery-image FlexEmbed-item" style="background-image: url('https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-images/20180702100154_I9D91s6ZJUeCqIfo-pl.jpg')"></figure>
+                  <noscript>
+                    <img src="https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-images/20180702100154_I9D91s6ZJUeCqIfo-pl.jpg" alt=" image">
+                  </noscript>
+                </div>
+
+                <div class="Gallery-content">
+                  <div class="u-absoulteCenter">
+                                        
+                                      </div>
+                </div>
+              </a>
+            </div>
+                        <div class="Grid-cell">
+              <a href="pl/newin/collections/greatest-art-collection" title="">
+                <div class="Block FlexEmbed FlexEmbed--1by1">
+                  <figure class="Gallery-image FlexEmbed-item" style="background-image: url('https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-images/20180702100340_4b7ArcPAy8Kc6bsC-pl.jpg')"></figure>
+                  <noscript>
+                    <img src="https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-images/20180702100340_4b7ArcPAy8Kc6bsC-pl.jpg" alt=" image">
+                  </noscript>
+                </div>
+
+                <div class="Gallery-content">
+                  <div class="u-absoulteCenter">
+                                        
+                                      </div>
+                </div>
+              </a>
+            </div>
+                      </div>
+        </li>
+              </ul>
+
+      <div class="Gallery-indicators">
+                <span class="Gallery-indicator" ng-click="galleryCtrl.slideTo(0)">●</span>
+                <span class="Gallery-indicator" ng-click="galleryCtrl.slideTo(1)">●</span>
+              </div>
+
+    </div>
+    
+        <div class="Block Block--alt u-marginBmAlt">
+      <p><span class="u-textHighlight">Darmowa</span> Dostawa od 250 zł</p>
+    </div>
+    
+          <section>
+  <ul class="Grid Grid--products xs-Grid--2col sm-Grid--3col md-Grid--4col lg-Grid--5col">
+
+          <li class="Grid-cell">
+        <div class="Product Block">
+          <a href="/pl/glass-heart-skater-skirt" title="Wyświetl Rozkloszowana spódnica w wzór Glass Heart" class="Product-link">
+            <div class="Product-thumbnail">
+              <div class="FlexEmbed FlexEmbed--product">
+                <div class="FlexEmbed-item">
+                                      <img src="https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-products/20160302084846_DPi2oYf7mt1HbQGu_680-680.jpg" alt="Rozkloszowana spódnica w wzór Glass Heart Miniatury 1" class="u-responsiveImage">
+                                                      </div>
+              </div>
+
+                          </div>
+
+            <div class="Product-details">
+              <div class="Arrange">
+                <div class="Arrange-item Arrange-item--fill">
+                  <h5 class="Product-title">Rozkloszowana spódnica w wzór Glass Heart</h5>
+                  <p class="u-textLight">
+                                          <span class="Product-price Product-price--special">$31,47</span>&nbsp;/&nbsp;<span class="Product-oldPrice">$44,95</span>
+                                      </p>
+                </div>
+
+                <div class="Arrange-item">
+                  <button class="Button Button--atw Button--icon Button--circle" aria-label="Dodaj do listy życzeń" mg-wishlist-button="6798">
+                    <span class="Icon Icon--wishlist"></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </a>
+
+        </div>
+      </li>
+          <li class="Grid-cell">
+        <div class="Product Block">
+          <a href="/pl/men/accessories3/socks-3/colorful-flamingo-socks-1" title="Wyświetl Stopki Colorful Flamingo" class="Product-link">
+            <div class="Product-thumbnail">
+              <div class="FlexEmbed FlexEmbed--product">
+                <div class="FlexEmbed-item">
+                                      <img src="https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-products/20161207092405_RaxucnuxK43MIlzF_680-680.jpg" alt="Stopki Colorful Flamingo Miniatury 1" class="u-responsiveImage">
+                                                          <img src="https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-products/20170330122821_cR8lP6gkACq9i7GD_680-680.jpg" alt="Stopki Colorful Flamingo Miniatury 2" class="u-responsiveImage">
+                                    </div>
+              </div>
+
+                          </div>
+
+            <div class="Product-details">
+              <div class="Arrange">
+                <div class="Arrange-item Arrange-item--fill">
+                  <h5 class="Product-title">Stopki Colorful Flamingo</h5>
+                  <p class="u-textLight">
+                                          <span class="Product-price Product-price--special">$6,27</span>&nbsp;/&nbsp;<span class="Product-oldPrice">$8,95</span>
+                                      </p>
+                </div>
+
+                <div class="Arrange-item">
+                  <button class="Button Button--atw Button--icon Button--circle" aria-label="Dodaj do listy życzeń" mg-wishlist-button="9024">
+                    <span class="Icon Icon--wishlist"></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </a>
+
+        </div>
+      </li>
+          <li class="Grid-cell">
+        <div class="Product Block">
+          <a href="/pl/newin/clothing/tshirts/volkswagen-lama-tshirt" title="Wyświetl T-shirt Volkswagen Lama" class="Product-link">
+            <div class="Product-thumbnail">
+              <div class="FlexEmbed FlexEmbed--product">
+                <div class="FlexEmbed-item">
+                                      <img src="https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-products/20170731135230_U95nCrcygHJd5dW5_680-680.jpg" alt="T-shirt Volkswagen Lama Miniatury 1" class="u-responsiveImage">
+                                                          <img src="https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-products/20160624083929_9RXXpZMdLfJVhguo_680-680.jpg" alt="T-shirt Volkswagen Lama Miniatury 2" class="u-responsiveImage">
+                                    </div>
+              </div>
+
+                            <div class="Product-rate">
+                <mg-rate value="5.0" readonly="true" size="xs" theme="darkstar"></mg-rate>
+              </div>
+                          </div>
+
+            <div class="Product-details">
+              <div class="Arrange">
+                <div class="Arrange-item Arrange-item--fill">
+                  <h5 class="Product-title">T-shirt Volkswagen Lama</h5>
+                  <p class="u-textLight">
+                                          <span class="Product-price Product-price--special">$33,57</span>&nbsp;/&nbsp;<span class="Product-oldPrice">$47,95</span>
+                                      </p>
+                </div>
+
+                <div class="Arrange-item">
+                  <button class="Button Button--atw Button--icon Button--circle" aria-label="Dodaj do listy życzeń" mg-wishlist-button="6467">
+                    <span class="Icon Icon--wishlist"></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </a>
+
+        </div>
+      </li>
+          <li class="Grid-cell">
+        <div class="Product Block">
+          <a href="/pl/men/accessories3/like-a-boss-phone-case" title="Wyświetl Obudowa na telefon Like a Boss" class="Product-link">
+            <div class="Product-thumbnail">
+              <div class="FlexEmbed FlexEmbed--product">
+                <div class="FlexEmbed-item">
+                                      <img src="https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-products/20161129103458_edtVAqNdsTnLCQ6m_680-680.jpg" alt="Obudowa na telefon Like a Boss Miniatury 1" class="u-responsiveImage">
+                                                          <img src="https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-products/20160620074805_AOaWkbxW1lFjJii2_680-680.jpg" alt="Obudowa na telefon Like a Boss Miniatury 2" class="u-responsiveImage">
+                                    </div>
+              </div>
+
+                          </div>
+
+            <div class="Product-details">
+              <div class="Arrange">
+                <div class="Arrange-item Arrange-item--fill">
+                  <h5 class="Product-title">Obudowa na telefon Like a Boss</h5>
+                  <p class="u-textLight">
+                                          <span class="Product-price Product-price--special">$19,57</span>&nbsp;/&nbsp;<span class="Product-oldPrice">$27,95</span>
+                                      </p>
+                </div>
+
+                <div class="Arrange-item">
+                  <button class="Button Button--atw Button--icon Button--circle" aria-label="Dodaj do listy życzeń" mg-wishlist-button="462">
+                    <span class="Icon Icon--wishlist"></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </a>
+
+        </div>
+      </li>
+          <li class="Grid-cell">
+        <div class="Product Block">
+          <a href="/pl/newin/colorful-flamingo-sweater-3" title="Wyświetl Bluza ze wzorem Colorful Flamingo" class="Product-link">
+            <div class="Product-thumbnail">
+              <div class="FlexEmbed FlexEmbed--product">
+                <div class="FlexEmbed-item">
+                                      <img src="https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-products/20170523145713_B1KTUM4bKNSs5WtL_680-680.jpg" alt="Bluza ze wzorem Colorful Flamingo Miniatury 1" class="u-responsiveImage">
+                                                          <img src="https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-products/20180111095006_uKMLHWCsdsasX6y2_680-680.jpg" alt="Bluza ze wzorem Colorful Flamingo Miniatury 2" class="u-responsiveImage">
+                                    </div>
+              </div>
+
+                            <div class="Product-rate">
+                <mg-rate value="5.0" readonly="true" size="xs" theme="darkstar"></mg-rate>
+              </div>
+                          </div>
+
+            <div class="Product-details">
+              <div class="Arrange">
+                <div class="Arrange-item Arrange-item--fill">
+                  <h5 class="Product-title">Bluza ze wzorem Colorful Flamingo</h5>
+                  <p class="u-textLight">
+                                          <span class="Product-price Product-price--special">$55,97</span>&nbsp;/&nbsp;<span class="Product-oldPrice">$79,95</span>
+                                      </p>
+                </div>
+
+                <div class="Arrange-item">
+                  <button class="Button Button--atw Button--icon Button--circle" aria-label="Dodaj do listy życzeń" mg-wishlist-button="7089">
+                    <span class="Icon Icon--wishlist"></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </a>
+
+        </div>
+      </li>
+    
+  </ul>
+</section>
+    
+        <ul class="Grid u-marginBmAlt">
+                            <li class="Grid-cell u-md-size1of3 u-isHidden u-md-isShown">
+          <a href="/pl/kids" title="View Kids Collection" class="Block Block--irregular Block--link FlexEmbed FlexEmbed--1by1">
+            <div class="FlexEmbed-item">
+              <img src="https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-images/20180702100545_tnxGRzsn9JvJvV8i-pl.jpg" alt="" class="u-responsiveImage">
+            </div>
+          </a>
+        </li>
+                      <li class="Grid-cell u-md-size2of3  u-md-isShown">
+          <a href="/pl/women" title="View Women&#039;s Collection" class="Block Block--irregular Block--link FlexEmbed FlexEmbed--2by1">
+            <div class="FlexEmbed-item">
+              <img src="https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-images/20180702100616_DfP9F8yDPeZgVlH2-pl.jpg" alt="" class="u-responsiveImage">
+            </div>
+          </a>
+        </li>
+                      <li class="Grid-cell u-md-size2of3  u-md-isShown">
+          <a href="/pl/men" title="View Men&#039;s Collection" class="Block Block--irregular Block--link FlexEmbed FlexEmbed--2by1">
+            <div class="FlexEmbed-item">
+              <img src="https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-images/20180702100516_c03UyaQ0JGVglkry-pl.jpg" alt="" class="u-responsiveImage">
+            </div>
+          </a>
+        </li>
+                      <li class="Grid-cell u-md-size1of3 u-isHidden u-md-isShown">
+          <a href="http://liveheroes.com/pl" title="Go to Live Heroes" class="Block Block--irregular Block--link FlexEmbed FlexEmbed--1by1">
+            <div class="FlexEmbed-item">
+              <img src="https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-images/20171117101619_2yWfMT1fNkWk0PXR-pl.jpg" alt="" class="u-responsiveImage">
+            </div>
+          </a>
+        </li>
+          </ul>
+    
+        <div class="Block Block--alt u-marginBmAlt">
+      <p><span class="u-textHighlight">100 dni</span> na zwrot</p>
+    </div>
+    
+          <div class="Instagram" ng-controller="InstagramController" ng-class="{'is-loaded': instagram.isLoaded}">
+
+  <ul class="Grid">
+    <li class="Grid-cell u-size6of12 u-sm-size4of12 u-md-size3of12 u-lg-size2of12" ng-repeat="pic in instagram.pics">
+      
+      <div class="Block FlexEmbed FlexEmbed--1by1">
+        <a ng-href="{{ pic.link }}" target="_blank" class="Instagram-pic FlexEmbed-item">
+          <img ng-src="{{ pic.images.low_resolution.url }}" alt="{{ pic.caption.text }}" class="u-responsiveImage">
+          <div class="Instagram-likes">
+            <span>{{ pic.likes.count }}</span>
+          </div>
+        </a>
+      </div>
+
+    </li>
+  </ul>
+  
+</div>    
+        <div class="About Block u-marginBmAlt">
+      <div class="About-media" style="background-image: url('https://ocs-pl.oktawave.com/v1/AUTH_e1d5d90a-20b9-49c9-a9cd-33fc2cb68df3/mrgugu-images/20170725123301_6wdhuzmglycM4Kfg-pl.jpg');"></div>
+      <div class="About-body">
+        <h1 class="About-title u-h3 u-marginBm">O Mr. Gugu &amp; Miss Go</h1>
+
+        <p class="About-description u-marginBm">
+          Sprawdź nasz sklep internetowy pełen galaktycznych wzorów, wzorów ze zwierzętami, wzorów z psami i wielu, wielu innych – Mr. Gugu & Miss Go powstało po to, aby uczynić świat bardziej kolorowym dzięki niesamowitym ubraniom z pełnym nadrukiem. Jesteśmy więcej niż pewni, że w naszym sklepie każdy znajdzie coś dla siebie. Mr. Gugu & Miss Go to styl ubierania, który jest też stylem życia. Nie dbamy o chwilową popularność, ale chcemy dać ludziom szanse na pokazanie ich unikalności dzięki kolorowym nadrukom 3D w naszym sklepie. Jesteśmy znani z naszych bluz z nadrukiem, legginsów z nadrukiem, strojów kąpielowych z nadrukiem oraz t-shirtów z nadrukiem. Przede wszystkim jednak znacie nas z naszych szalonych wzorów.
+        </p>
+
+        <a href="pl/page/about-us" class="Button Button--primary u-paddingHl">Czytaj więcej</a>
+      </div>
+    </div>
+    
+          <div class="FeaturedOn">
+  
+  <div class="u-container">
+    <div class="Block Block--bordered">
+      <h5 class="u-textCenter u-marginBs u-textLight">Pisali o nas</h5>
+
+      <ul class="Grid Grid--center Grid--gutters Grid--2col sm-Grid--3col md-Grid--4col lg-Grid--5col">
+                  <li class="Grid-cell">
+            <a class="FeaturedOn-item FeaturedOn-item--mashable" target="_blank" ></a>
+          </li>
+                  <li class="Grid-cell">
+            <a class="FeaturedOn-item FeaturedOn-item--elle" target="_blank" ></a>
+          </li>
+                  <li class="Grid-cell">
+            <a class="FeaturedOn-item FeaturedOn-item--vogue" target="_blank" ></a>
+          </li>
+                  <li class="Grid-cell">
+            <a class="FeaturedOn-item FeaturedOn-item--gq" target="_blank" ></a>
+          </li>
+                  <li class="Grid-cell">
+            <a class="FeaturedOn-item FeaturedOn-item--cosmopolitan" target="_blank" ></a>
+          </li>
+                  <li class="Grid-cell">
+            <a class="FeaturedOn-item FeaturedOn-item--glamour" target="_blank" ></a>
+          </li>
+                  <li class="Grid-cell">
+            <a class="FeaturedOn-item FeaturedOn-item--popsugar" target="_blank" ></a>
+          </li>
+                  <li class="Grid-cell">
+            <a class="FeaturedOn-item FeaturedOn-item--hypebeast" target="_blank" ></a>
+          </li>
+                  <li class="Grid-cell">
+            <a class="FeaturedOn-item FeaturedOn-item--highsnobiety" target="_blank" ></a>
+          </li>
+                  <li class="Grid-cell">
+            <a class="FeaturedOn-item FeaturedOn-item--complex" target="_blank" ></a>
+          </li>
+              </ul>
+    </div>
+  </div>
+
+</div>    
+  </div>
+
+
+              </div>
+            </div><!-- /.Page -->
+
+          </div><!-- /.Layout__Page -->
+
+          <div class="Layout__Footer">
+
+            <div class="Footer">
+  <div class="Footer-container">
+    <div class="u-superWrapper">
+      <div class="Grid Grid--gutters">
+
+        <div class="Grid-cell u-md-size1of2 u-lg-size2of12">
+
+          <nav class="Footer-section u-marginBl">
+            <h5 class="Footer-heading">Obsługa Klienta</h5>
+
+            <ul class="Navigation Navigation--links">
+                              <li class="Navigation-item">
+                  <a href="/pl/page/help-and-contact" class="Link Link--underline" title="Pomoc i kontakt">Pomoc i kontakt</a>
+                </li>
+                              <li class="Navigation-item">
+                  <a href="/pl/page/orders-and-shipping" class="Link Link--underline" title="Zamówienia i dostawa">Zamówienia i dostawa</a>
+                </li>
+                              <li class="Navigation-item">
+                  <a href="/pl/page/returns-and-refunds" class="Link Link--underline" title="Zwroty">Zwroty</a>
+                </li>
+                              <li class="Navigation-item">
+                  <a href="/pl/page/faq" class="Link Link--underline" title="FAQ">FAQ</a>
+                </li>
+                              <li class="Navigation-item">
+                  <a href="/pl/page/terms-and-conditions" class="Link Link--underline" title="Regulamin">Regulamin</a>
+                </li>
+                              <li class="Navigation-item">
+                  <a href="/pl/page/privacy-and-cookie-policy" class="Link Link--underline" title="Prywatność i polityka cookies">Prywatność i polityka cookies</a>
+                </li>
+                              <li class="Navigation-item">
+                  <a href="/pl/page/size-charts" class="Link Link--underline" title="Tabela rozmiarów">Tabela rozmiarów</a>
+                </li>
+                          </ul>
+          </nav>
+
+        </div>
+
+        <div class="Grid-cell u-md-size1of2 u-lg-size2of12">
+
+          <nav class="Footer-section u-marginBl">
+            <h5 class="Footer-heading">Informacje</h5>
+
+              <ul class="Navigation Navigation--links">
+                                <li class="Navigation-item">
+                  <a href="/pl/blog" class="Link Link--underline" title="Blog">Blog</a>
+                </li>
+                                                  <li class="Navigation-item">
+                    <a href="/pl/page/about-us" class="Link Link--underline" title="O nas">O nas</a>
+                  </li>
+                                  <li class="Navigation-item">
+                    <a href="/pl/page/csr" class="Link Link--underline" title="CSR">CSR</a>
+                  </li>
+                                  <li class="Navigation-item">
+                    <a href="/pl/page/gugustores" class="Link Link--underline" title="Sklepy Gugu">Sklepy Gugu</a>
+                  </li>
+                                  <li class="Navigation-item">
+                    <a href="/pl/page/wholesale" class="Link Link--underline" title="Zamówienia hurtowe">Zamówienia hurtowe</a>
+                  </li>
+                              </ul>
+          </nav>
+
+        </div>
+
+        <div class="Grid-cell u-md-size1of2 u-lg-size4of12">
+
+          <section class="Footer-section u-marginBl">
+            <h5 class="Footer-heading">Newsletter</h5>
+
+            <form name="newsletterForm" class="Newsletter" ng-controller="NewsletterController as newsletterCtrl" ng-submit="newsletterCtrl.subscribe()" novalidate>
+
+  <div class="Alert Alert--success Alert--sm" ng-show="isSuccess" ng-cloak ng-click="isSuccess = false">
+    <div class="Alert-message">
+      Dziękujemy za dopisanie się do naszej listy. Aby potwierdzić swoją subskrypcję, proszę kliknąć na link w wiadomości email, którą do Ciebie wysłaliśmy.
+    </div>
+  </div>
+
+  <v-textfield class="vTextfield--primary u-marginBs">
+    <label class="u-isHiddenVisually" for="newsletterForm_email">Adres email</label>
+
+    <div class="InputGroup InputGroup--collapse">
+      <div class="InputGroup-item InputGroup-item--fill">
+        <div class="Textfield-input">
+          <input class="Input Input--secondary" id="newsletterForm_email" name="email" type="email" placeholder="Zapisz się do newslettera" ng-model="model.email" required v-textfield-input>
+        </div>
+      </div>
+      <div class="InputGroup-item">
+        <button type="submit" class="Button Button--default Button--alt" v-busy="newsletterForm.$busy" v-busy-label="">
+          <span class="u-isHiddenVisually">Subskrybuj</span>
+          <span class="Icon Icon--paperPlane"></span>
+        </button>
+      </div>
+    </div>
+
+    <ng-messages for="newsletterForm.email.$error">
+      <ng-message when="email">Proszę wprowadzić poprawny adres email.</ng-message>
+      <ng-message when="required">Adres email nie został wprowadzony.</ng-message>
+    </ng-messages>
+  </v-textfield>
+
+  <p>Zapoznaj się z zasadami prywatności i polityką cookie 
+<a href="https://mrgugu.com/pl/page/privacy-and-cookie-policy" class="Link Link--underline Link--alt">tutaj</a></p>
+
+</form>
+          </section>
+
+          <section class="Footer-section u-marginBl">
+            <h5 class="Footer-heading">Media społecznościowe</h5>
+            
+            <ul class="Navigation Navigation--hz">
+    <li class="Navigation-item u-marginRs">
+    <a href="https://www.facebook.com/mrguguandmissgo" title="Mr. Gugu &amp; Miss Go - Facebook" target="_blank" class="Link Link--lg Link--social u-facebook">
+      <span class="u-isHiddenVisually">Mr. Gugu &amp; Miss Go - Facebook</span>
+      <span class="Icon Icon--facebook"></span>
+    </a>
+  </li>
+    
+    <li class="Navigation-item u-marginRs">
+    <a href="https://twitter.com/MrGuguMissGo" title="Mr. Gugu &amp; Miss Go - Twitter" target="_blank" class="Link Link--lg Link--social u-twitter">
+      <span class="u-isHiddenVisually">Mr. Gugu &amp; Miss Go - Twitter</span>
+      <span class="Icon Icon--twitter"></span>
+    </a>
+  </li>
+  
+    <li class="Navigation-item u-marginRs">
+    <a href="https://pl.pinterest.com/mrgugu/" title="Mr. Gugu &amp; Miss Go - Pinterest" target="_blank" class="Link Link--lg Link--social u-pinterest">
+      <span class="u-isHiddenVisually">Mr. Gugu &amp; Miss Go - Pinterest</span>
+      <span class="Icon Icon--pinterest"></span>
+    </a>
+  </li>
+  
+    <li class="Navigation-item u-marginRs">
+    <a href="http://mrgugumissgo.tumblr.com/" title="Mr. Gugu &amp; Miss Go - Tumblr" target="_blank" class="Link Link--lg Link--social u-tumblr">
+      <span class="u-isHiddenVisually">Mr. Gugu &amp; Miss Go - Tumblr</span>
+      <span class="Icon Icon--tumblr"></span>
+    </a>
+  </li>
+  
+    <li class="Navigation-item u-marginRs">
+    <a href="http://instagram.com/mrgugumissgo" title="Mr. Gugu &amp; Miss Go - Instagram" target="_blank" class="Link Link--lg Link--social u-instagram">
+      <span class="u-isHiddenVisually">Mr. Gugu &amp; Miss Go - Instagram</span>
+      <span class="Icon Icon--instagram"></span>
+    </a>
+  </li>
+  </ul>
+          </section>
+
+        </div>
+
+        <div class="Grid-cell u-md-size1of2 u-lg-size4of12">
+
+          <div class="Footer-section Footer-section--payments u-marginBl u-cf">
+            <h5 class="Footer-heading">Płatności</h5>
+
+                        <div class="Arrange">
+              <div class="Arrange-item">
+                <img src="/home/shared/images/ssl.png" alt="" width="34px" class="u-block">
+              </div>
+              <div class="Arrange-item Arrange-item--fill">
+                <p class="u-marginLs">
+  Mr. Gugu & Miss zapewnia bezpieczne płatności internetowe kartą kredytową. 
+</p> 
+              </div>
+            </div>
+                        
+            <img src="/home/shared/images/payments_cc.png?v1" alt="" width="300px" class="u-block u-marginTm">
+<img src="/home/shared/images/payments_loc.png" alt="" width="300px" class="u-block u-marginTm">          </div>
+
+                    <div class="Footer-section Footer-section--payments u-marginBl u-cf">
+            <h5 class="Footer-heading">Partnerzy Logistyczni</h5>
+
+            
+
+            <img src="/home/shared/images/partners.png?v1" alt="" width="300px" class="u-block">
+          </div>
+          
+        </div>
+
+      </div>
+
+      <footer>
+        <small class="Footer-copyrights">© 2018 Mr. GUGU &amp; Miss GO. Wszystkie prawa zastrzeżone.</small>
+      </footer>
+    </div>
+  </div>
+</div>
+
+          </div><!-- /.Layout__Footer -->
+
+          <div class="Layout__Mobile">
+
+            <div class="Mobile" id="mobile" mg-layout-element="::{ deactivateOn: 'outsideclick', containerActiveClass: 'u-hideOverflow' }">
+
+  <div class="Mobile-container" mg-layout-watch="::{ id: 'mobileMenu', activeClass: 'is-off' }">
+
+    <nav class="Mobile__Search">
+      <form action="/pl/search" method="GET" class="Search Search--alt" name="searchForm" ng-non-bindable>
+  <button class="Search-button" type="submit">
+    <span class="u-isHiddenVisually">Szukaj</span>
+    <span class="Icon Icon--search"></span>
+  </button>
+  <input class="Search-input" name="q" type="text" pattern=".{3,}" required title="Wymagane są minimum 3 znaki.">
+</form>
+    </nav>
+
+    <hr>
+
+    <div class="MobileMenu MobileMenu--primary ng-anim">
+      <nav class="MobileMenu__Navigation">
+        <h5 class="u-isHiddenVisually">Menu</h5>
+
+        <ul class="Navigation" mg-layout-target="::{ id: 'mobileMenu', activateOn: 'click' }">
+                    <li class="Navigation-item">
+                        <a href="newin" class="Link Link--block Link--primary" title="Wyświetl Nowości" mg-layout-target="::{ id: 'mobile_newinMenu', activateOn: 'click', preventDefault: true }">Nowości</a>
+                      </li>
+                    <li class="Navigation-item">
+                        <a href="women" class="Link Link--block Link--primary" title="Wyświetl Kobieta" mg-layout-target="::{ id: 'mobile_womenMenu', activateOn: 'click', preventDefault: true }">Kobieta</a>
+                      </li>
+                    <li class="Navigation-item">
+                        <a href="men" class="Link Link--block Link--primary" title="Wyświetl Mężczyzna" mg-layout-target="::{ id: 'mobile_menMenu', activateOn: 'click', preventDefault: true }">Mężczyzna</a>
+                      </li>
+                    <li class="Navigation-item">
+                        <a href="kids" class="Link Link--block Link--primary" title="Wyświetl Dziecko" mg-layout-target="::{ id: 'mobile_kidsMenu', activateOn: 'click', preventDefault: true }">Dziecko</a>
+                      </li>
+                    <li class="Navigation-item">
+                        <a href="outlet" class="Link Link--block Link--primary" title="Wyświetl Outlet" mg-layout-target="::{ id: 'mobile_outletMenu', activateOn: 'click', preventDefault: true }">Outlet</a>
+                      </li>
+                  </ul>
+      </nav>
+
+      <hr>
+
+      <nav class="MobileMenu__Navigation">
+        <ul class="Navigation">
+                    <li class="Navigation-item">
+            <a href="/pl/blog" class="Link Link--underline" title="Blog">Blog</a>
+          </li>
+                              <li class="Navigation-item">
+            <a href="/pl/page/about-us" class="Link Link--block" title="Wyświetl O nas">O nas</a>
+          </li>
+                    <li class="Navigation-item">
+            <a href="/pl/page/help-and-contact" class="Link Link--block" title="Wyświetl Pomoc i kontakt">Pomoc i kontakt</a>
+          </li>
+                    <li class="Navigation-item">
+            <a href="/pl/page/orders-and-shipping" class="Link Link--block" title="Wyświetl Zamówienia i dostawa">Zamówienia i dostawa</a>
+          </li>
+                  </ul>
+      </nav>
+
+      <hr>
+
+      <nav class="MobileMenu__Navigation">
+        <ul class="Navigation" mg-layout-target="::{ id: 'mobileMenu', activateOn: 'click' }">
+          <li class="Navigation-item">
+            <button type="button" class="Link Link--block" mg-layout-target="::{ id: 'mobile_locale', activateOn: 'click', preventDefault: true }">
+              <span class="Flag Flag--pl"></span> &nbsp;PL / USD ($)
+            </button>
+          </li>
+        </ul>
+      </nav>
+
+      <hr>
+
+      <nav class="MobileMenu__Navigation">
+        <ul class="Navigation">
+          <li class="Navigation-item">
+                        <a class="Link Link--block" href="/pl/account" title="Twoje konto">Twoje konto</a>
+                      </li>
+
+                  </ul>
+      </nav>
+
+    </div>
+
+  </div>
+
+  <div class="Mobile__Menu ng-anim" id="mobileMenu" mg-layout-element="::{ deactivateOn: '' }">
+    <div class="MobileMenu MobileMenu--secondary ng-anim" id="mobile_newinMenu" mg-layout-element="::{ deactivateOn: '' }">
+
+    <button class="MobileMenu-close Button" mg-layout-target="::{ id: ['mobileMenu', 'mobile_newinMenu'], deactivateOn: 'click' }">
+      <span class="u-isHiddenVisually">Zamknij</span>
+      <span class="Icon Icon--leftThin"></span>
+    </button>
+
+                <nav class="MobileMenu__Navigation u-marginVm">
+        <h5 class="MobileMenu-heading u-marginBs">
+          <a href="/pl/newin/clothing" class="Link" title="Wyświetl Odzież">Odzież</a>
+        </h5>
+
+                <ul class="Navigation">
+                                                        <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Bestsellers" href="/pl/newin/clothing/bestsellers-1">Bestsellers</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Unisex bluzy bawełniane " href="/pl/newin/clothing/sweaters">Unisex bluzy bawełniane </a>
+            </li>
+                                                                    <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Bluzy bawełniane damskie" href="/pl/newin/clothing/women-sweater-2">Bluzy bawełniane damskie</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Unisex t-shirty " href="/pl/newin/clothing/tshirts">Unisex t-shirty </a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl T-shirty damskie" href="/pl/newin/clothing/women-tshirt">T-shirty damskie</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Bawełniane bluzy z kapturem" href="/pl/newin/clothing/hoodie-4">Bawełniane bluzy z kapturem</a>
+            </li>
+                                                                    <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Bawełniane bluzy z zamkiem" href="/pl/newin/clothing/hoodie">Bawełniane bluzy z zamkiem</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Topy" href="/pl/newin/clothing/tops">Topy</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Legginsy" href="/pl/newin/clothing/leggings-yoga">Legginsy</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Sukienki i spódnice" href="/pl/newin/clothing/dresses-skirts">Sukienki i spódnice</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Spodnie bawełniane" href="/pl/newin/clothing/sweatpants">Spodnie bawełniane</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Stroje kąpielowe dwuczęściowe" href="/pl/newin/clothing/bikini">Stroje kąpielowe dwuczęściowe</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Stroje kąpielowe jednoczęściowe " href="/pl/newin/clothing/swimsuits">Stroje kąpielowe jednoczęściowe </a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Szorty" href="/pl/newin/clothing/shorts">Szorty</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Bielizna" href="/pl/newin/clothing/underwear-2">Bielizna</a>
+            </li>
+                              </ul>
+              </nav>
+                                          <nav class="MobileMenu__Navigation u-marginVm">
+        <h5 class="MobileMenu-heading u-marginBs">
+          <a href="/pl/newin/new-releases" class="Link" title="Wyświetl Nowe na stronie">Nowe na stronie</a>
+        </h5>
+
+                <ul class="Navigation">
+                                  <li class="Navigation-item">
+              <a class="Link is-featured" title="Wyświetl Assassin&#039;s Creed" href="/pl/newin/new-releases/assasins-creed-2">Assassin&#039;s Creed</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link is-featured" title="Wyświetl Stroje kąpielowe" href="/pl/newin/new-releases/swimwear-2018">Stroje kąpielowe</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Luty 2018" href="/pl/newin/new-releases/february-2018">Luty 2018</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Kryptowaluty" href="/pl/newin/new-releases/cryptocurrencies">Kryptowaluty</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl My Little Pony" href="/pl/newin/new-releases/my-little-pony-1">My Little Pony</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Październik 2017" href="/pl/newin/new-releases/october-2017">Październik 2017</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Wrzesień 2017" href="/pl/newin/new-releases/september-2017">Wrzesień 2017</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Czerwiec 2017" href="/pl/newin/new-releases/june-2017">Czerwiec 2017</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Marzec 2017" href="/pl/newin/new-releases/march-2017">Marzec 2017</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Sukienki wiosenne" href="/pl/newin/new-releases/spring-dress-selection">Sukienki wiosenne</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Styczeń 2017" href="/pl/newin/new-releases/january-2017">Styczeń 2017</a>
+            </li>
+                                                    </ul>
+              </nav>
+                                <nav class="MobileMenu__Navigation u-marginVm">
+        <h5 class="MobileMenu-heading u-marginBs">
+          <a href="/pl/newin/collections" class="Link" title="Wyświetl Kolekcje">Kolekcje</a>
+        </h5>
+
+                <ul class="Navigation">
+                                  <li class="Navigation-item">
+              <a class="Link is-featured" title="Wyświetl Galeria sztuki" href="/pl/newin/collections/greatest-art-collection">Galeria sztuki</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Kolekcja piwa" href="/pl/newin/collections/beer-collection">Kolekcja piwa</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl FRAKTA x Mr. Gugu" href="/pl/newin/collections/ikea-mrgugu">FRAKTA x Mr. Gugu</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Jay Freestyle" href="/pl/newin/collections/jay-freestyle">Jay Freestyle</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Junk Food" href="/pl/newin/collections/junk-food">Junk Food</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Weed Hype Club" href="/pl/newin/collections/weed-hype-club">Weed Hype Club</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Jungle Selection" href="/pl/newin/collections/jungle-selection">Jungle Selection</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Day-Dream" href="/pl/newin/collections/day-dream">Day-Dream</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Nebula Sunrise " href="/pl/newin/collections/nebula-sunrise">Nebula Sunrise </a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Cats and Dogs" href="/pl/newin/collections/cats-and-dogs">Cats and Dogs</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Death Skull" href="/pl/newin/collections/death-skull">Death Skull</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Zodiak" href="/pl/newin/collections/zodiac">Zodiak</a>
+            </li>
+                              </ul>
+              </nav>
+                      <nav class="MobileMenu__Navigation u-marginVm">
+        <h5 class="MobileMenu-heading u-marginBs">
+          <a href="/pl/newin/brands" class="Link" title="Wyświetl Marki">Marki</a>
+        </h5>
+
+                <ul class="Navigation">
+                                  <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Rum and Coco" href="/pl/newin/brands/rum-and-coco">Rum and Coco</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Live Heroes" href="/pl/newin/brands/live-heroes">Live Heroes</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Carpatree" href="/pl/newin/brands/carpatree">Carpatree</a>
+            </li>
+                              </ul>
+              </nav>
+                      <nav class="MobileMenu__Navigation u-marginVm">
+        <h5 class="MobileMenu-heading u-marginBs">
+          <a href="/pl/newin/gifts" class="Link" title="Wyświetl Prezenty">Prezenty</a>
+        </h5>
+
+              </nav>
+          
+  </div>
+  
+    <div class="MobileMenu MobileMenu--secondary ng-anim" id="mobile_womenMenu" mg-layout-element="::{ deactivateOn: '' }">
+
+    <button class="MobileMenu-close Button" mg-layout-target="::{ id: ['mobileMenu', 'mobile_womenMenu'], deactivateOn: 'click' }">
+      <span class="u-isHiddenVisually">Zamknij</span>
+      <span class="Icon Icon--leftThin"></span>
+    </button>
+
+                <nav class="MobileMenu__Navigation u-marginVm">
+        <h5 class="MobileMenu-heading u-marginBs">
+          <a href="/pl/women/clothing-1" class="Link" title="Wyświetl Odzież">Odzież</a>
+        </h5>
+
+                <ul class="Navigation">
+                                                        <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Bestsellers" href="/pl/women/clothing-1/bestsellers-2">Bestsellers</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Bluzy bawełniane unisex" href="/pl/women/clothing-1/sweaters-1">Bluzy bawełniane unisex</a>
+            </li>
+                                                                    <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Bluzy bawełniane damskie" href="/pl/women/clothing-1/women-sweater-3">Bluzy bawełniane damskie</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl T-shirty unisex" href="/pl/women/clothing-1/tshirts-1">T-shirty unisex</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl T-shirty damskie" href="/pl/women/clothing-1/women-tshirt-1">T-shirty damskie</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Bawełniane bluzy z kapturem" href="/pl/women/clothing-1/hoodie-5">Bawełniane bluzy z kapturem</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Bawełniane bluzy z zamkiem" href="/pl/women/clothing-1/hoodie-1">Bawełniane bluzy z zamkiem</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Fitness" href="/pl/women/clothing-1/fitness-1">Fitness</a>
+            </li>
+                                                                    <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Topy" href="/pl/women/clothing-1/tops-1">Topy</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Legginsy" href="/pl/women/clothing-1/leggings-yoga-1">Legginsy</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Sukienki i spódnice" href="/pl/women/clothing-1/dresses-skirts-1">Sukienki i spódnice</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Spodnie bawełniane" href="/pl/women/clothing-1/sweatpants-1">Spodnie bawełniane</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Stroje kąpielowe dwuczęściowe" href="/pl/women/clothing-1/bikini-1">Stroje kąpielowe dwuczęściowe</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Stroje kąpielowe jednoczęściowe " href="/pl/women/clothing-1/swimsuits-1">Stroje kąpielowe jednoczęściowe </a>
+            </li>
+                              </ul>
+              </nav>
+                      <nav class="MobileMenu__Navigation u-marginVm">
+        <h5 class="MobileMenu-heading u-marginBs">
+          <a href="/pl/women/accessories-1" class="Link" title="Wyświetl Akcesoria">Akcesoria</a>
+        </h5>
+
+                <ul class="Navigation">
+                                  <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Plecaki i Torby" href="/pl/women/accessories-1/backpacks-1">Plecaki i Torby</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Buty" href="/pl/women/accessories-1/shoes-1">Buty</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Obudowy na telefony iPhone" href="/pl/women/accessories-1/iphone-cases-1">Obudowy na telefony iPhone</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Obudowy na telefony Samsung" href="/pl/women/accessories-1/samsung-cases-1">Obudowy na telefony Samsung</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Obudowy na telefon Sony Xperia" href="/pl/women/accessories-1/sony-cases-1">Obudowy na telefon Sony Xperia</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Skarpetki" href="/pl/women/accessories-1/socks-1">Skarpetki</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Poduszki" href="/pl/women/accessories-1/poufs-pillows-1">Poduszki</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Czapki z daszkiem" href="/pl/women/accessories-1/caps-1">Czapki z daszkiem</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Czapki" href="/pl/women/accessories-1/gloves-beanies-1">Czapki</a>
+            </li>
+                              </ul>
+              </nav>
+                                <nav class="MobileMenu__Navigation u-marginVm">
+        <h5 class="MobileMenu-heading u-marginBs">
+          <a href="/pl/women/licenses-1" class="Link" title="Wyświetl Licencje">Licencje</a>
+        </h5>
+
+                <ul class="Navigation">
+                                  <li class="Navigation-item">
+              <a class="Link is-featured" title="Wyświetl Assassin&#039;s Creed" href="/pl/women/licenses-1/assasins-creed">Assassin&#039;s Creed</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link is-featured" title="Wyświetl My Little Pony" href="/pl/women/licenses-1/my-little-pony">My Little Pony</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Gamedec" href="/pl/women/licenses-1/gamedec-1">Gamedec</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Jay Freestyle" href="/pl/women/licenses-1/jay-freestyle-1">Jay Freestyle</a>
+            </li>
+                              </ul>
+              </nav>
+                      <nav class="MobileMenu__Navigation u-marginVm">
+        <h5 class="MobileMenu-heading u-marginBs">
+          <a href="/pl/women/gifts-1" class="Link" title="Wyświetl Prezenty">Prezenty</a>
+        </h5>
+
+              </nav>
+          
+  </div>
+  
+    <div class="MobileMenu MobileMenu--secondary ng-anim" id="mobile_menMenu" mg-layout-element="::{ deactivateOn: '' }">
+
+    <button class="MobileMenu-close Button" mg-layout-target="::{ id: ['mobileMenu', 'mobile_menMenu'], deactivateOn: 'click' }">
+      <span class="u-isHiddenVisually">Zamknij</span>
+      <span class="Icon Icon--leftThin"></span>
+    </button>
+
+                <nav class="MobileMenu__Navigation u-marginVm">
+        <h5 class="MobileMenu-heading u-marginBs">
+          <a href="/pl/men/clothing-2" class="Link" title="Wyświetl Odzież">Odzież</a>
+        </h5>
+
+                <ul class="Navigation">
+                                                        <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Bestsellers" href="/pl/men/clothing-2/bestsellers-3">Bestsellers</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Bluzy bawełniane" href="/pl/men/clothing-2/sweaters-2">Bluzy bawełniane</a>
+            </li>
+                                                                    <li class="Navigation-item">
+              <a class="Link " title="Wyświetl T-shirty" href="/pl/men/clothing-2/tshirts-2">T-shirty</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Bawełniane bluzy z kapturem" href="/pl/men/clothing-2/hoodie-6">Bawełniane bluzy z kapturem</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Bawełniane bluzy z zamkiem" href="/pl/men/clothing-2/hoodie-2">Bawełniane bluzy z zamkiem</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Topy" href="/pl/men/clothing-2/tops-2">Topy</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Fitness" href="/pl/men/clothing-2/fitness-2">Fitness</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Spodnie bawełniane" href="/pl/men/clothing-2/sweatpants-2">Spodnie bawełniane</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Szorty" href="/pl/men/clothing-2/swimwear-2">Szorty</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Bielizna" href="/pl/men/clothing-2/underwear-3">Bielizna</a>
+            </li>
+                              </ul>
+              </nav>
+                      <nav class="MobileMenu__Navigation u-marginVm">
+        <h5 class="MobileMenu-heading u-marginBs">
+          <a href="/pl/men/accessories3" class="Link" title="Wyświetl Akcesoria">Akcesoria</a>
+        </h5>
+
+                <ul class="Navigation">
+                                  <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Plecaki i Torby" href="/pl/men/accessories3/backpacks-3">Plecaki i Torby</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Buty" href="/pl/men/accessories3/shoes-3">Buty</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Obudowy na telefony iPhone" href="/pl/men/accessories3/iphone-cases-3">Obudowy na telefony iPhone</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Obudowy na telefony Samsung" href="/pl/men/accessories3/samsung-cases-3">Obudowy na telefony Samsung</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Obudowy na telefon Sony Xperia" href="/pl/men/accessories3/sony-cases-2">Obudowy na telefon Sony Xperia</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Skarpetki" href="/pl/men/accessories3/socks-3">Skarpetki</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Czapki z daszkiem" href="/pl/men/accessories3/caps-2">Czapki z daszkiem</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Poduszki" href="/pl/men/accessories3/poufs-pillows-3">Poduszki</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Czapki" href="/pl/men/accessories3/gloves-beanies-2">Czapki</a>
+            </li>
+                              </ul>
+              </nav>
+                                <nav class="MobileMenu__Navigation u-marginVm">
+        <h5 class="MobileMenu-heading u-marginBs">
+          <a href="/pl/men/licenses-2" class="Link" title="Wyświetl Licencje">Licencje</a>
+        </h5>
+
+                <ul class="Navigation">
+                                  <li class="Navigation-item">
+              <a class="Link is-featured" title="Wyświetl Assassin&#039;s Creed" href="/pl/men/licenses-2/assasins-creed-1">Assassin&#039;s Creed</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl My Little Pony" href="/pl/men/licenses-2/my-little-pony-2">My Little Pony</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Gamedec" href="/pl/men/licenses-2/gamedec-2">Gamedec</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Jay Freestyle" href="/pl/men/licenses-2/jay-freestyle-2">Jay Freestyle</a>
+            </li>
+                              </ul>
+              </nav>
+                      <nav class="MobileMenu__Navigation u-marginVm">
+        <h5 class="MobileMenu-heading u-marginBs">
+          <a href="/pl/men/gifts-2" class="Link" title="Wyświetl Prezenty">Prezenty</a>
+        </h5>
+
+              </nav>
+          
+  </div>
+  
+    <div class="MobileMenu MobileMenu--secondary ng-anim" id="mobile_kidsMenu" mg-layout-element="::{ deactivateOn: '' }">
+
+    <button class="MobileMenu-close Button" mg-layout-target="::{ id: ['mobileMenu', 'mobile_kidsMenu'], deactivateOn: 'click' }">
+      <span class="u-isHiddenVisually">Zamknij</span>
+      <span class="Icon Icon--leftThin"></span>
+    </button>
+
+                <nav class="MobileMenu__Navigation u-marginVm">
+        <h5 class="MobileMenu-heading u-marginBs">
+          <a href="/pl/kids/kids-1" class="Link" title="Wyświetl Dziewczynka">Dziewczynka</a>
+        </h5>
+
+                <ul class="Navigation">
+                                  <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Bluzy" href="/pl/kids/kids-1/kids-sweaters-1">Bluzy</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl T-shirty" href="/pl/kids/kids-1/kids-tshirts-1">T-shirty</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Legginsy" href="/pl/kids/kids-1/kids-leggings-1">Legginsy</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Sukienki i spódniczki" href="/pl/kids/kids-1/skirt-dresses-1">Sukienki i spódniczki</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Skarpetki" href="/pl/kids/kids-1/socks">Skarpetki</a>
+            </li>
+                              </ul>
+              </nav>
+                      <nav class="MobileMenu__Navigation u-marginVm">
+        <h5 class="MobileMenu-heading u-marginBs">
+          <a href="/pl/kids/kids-2" class="Link" title="Wyświetl Chłopczyk">Chłopczyk</a>
+        </h5>
+
+                <ul class="Navigation">
+                                  <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Bluzy" href="/pl/kids/kids-2/kids-sweaters-2">Bluzy</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl T-shirty" href="/pl/kids/kids-2/kids-tshirts-2">T-shirty</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Skarpetki" href="/pl/kids/kids-2/socks-4">Skarpetki</a>
+            </li>
+                              </ul>
+              </nav>
+                      <nav class="MobileMenu__Navigation u-marginVm">
+        <h5 class="MobileMenu-heading u-marginBs">
+          <a href="/pl/kids/accessories-3" class="Link" title="Wyświetl Akcesoria">Akcesoria</a>
+        </h5>
+
+                <ul class="Navigation">
+                                  <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Plecaki" href="/pl/kids/accessories-3/backpacks-4">Plecaki</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Obudowy na telefony iPhone" href="/pl/kids/accessories-3/iphone-cases-4">Obudowy na telefony iPhone</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Obudowy na telefony Samsung" href="/pl/kids/accessories-3/samsung-cases-4">Obudowy na telefony Samsung</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Poduszki" href="/pl/kids/accessories-3/poufs-pillows-4">Poduszki</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Japonki" href="/pl/kids/accessories-3/flip-flops-3">Japonki</a>
+            </li>
+                                              <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Czapki" href="/pl/kids/accessories-3/beanies">Czapki</a>
+            </li>
+                              </ul>
+              </nav>
+                      <nav class="MobileMenu__Navigation u-marginVm">
+        <h5 class="MobileMenu-heading u-marginBs">
+          <a href="/pl/kids/special-collection-3" class="Link" title="Wyświetl Kolekcje Specjalne">Kolekcje Specjalne</a>
+        </h5>
+
+                <ul class="Navigation">
+                                  <li class="Navigation-item">
+              <a class="Link " title="Wyświetl Kolekcja SS 2017" href="/pl/kids/special-collection-3/collection-ss-2017-3">Kolekcja SS 2017</a>
+            </li>
+                              </ul>
+              </nav>
+          
+  </div>
+  
+    <div class="MobileMenu MobileMenu--secondary ng-anim" id="mobile_outletMenu" mg-layout-element="::{ deactivateOn: '' }">
+
+    <button class="MobileMenu-close Button" mg-layout-target="::{ id: ['mobileMenu', 'mobile_outletMenu'], deactivateOn: 'click' }">
+      <span class="u-isHiddenVisually">Zamknij</span>
+      <span class="Icon Icon--leftThin"></span>
+    </button>
+
+                <nav class="MobileMenu__Navigation u-marginVm">
+        <h5 class="MobileMenu-heading u-marginBs">
+          <a href="/pl/outlet/sweaters-3" class="Link" title="Wyświetl Bluzy - OUTLET">Bluzy - OUTLET</a>
+        </h5>
+
+              </nav>
+                      <nav class="MobileMenu__Navigation u-marginVm">
+        <h5 class="MobileMenu-heading u-marginBs">
+          <a href="/pl/outlet/women-sweater" class="Link" title="Wyświetl Bluzy damskie - OUTLET">Bluzy damskie - OUTLET</a>
+        </h5>
+
+              </nav>
+                      <nav class="MobileMenu__Navigation u-marginVm">
+        <h5 class="MobileMenu-heading u-marginBs">
+          <a href="/pl/outlet/hoodies-3" class="Link" title="Wyświetl Bluzy z kapturem - OUTLET">Bluzy z kapturem - OUTLET</a>
+        </h5>
+
+              </nav>
+                      <nav class="MobileMenu__Navigation u-marginVm">
+        <h5 class="MobileMenu-heading u-marginBs">
+          <a href="/pl/outlet/sweatpants-3" class="Link" title="Wyświetl Spodnie - OUTLET">Spodnie - OUTLET</a>
+        </h5>
+
+              </nav>
+                    
+  </div>
+  
+
+    <div class="MobileMenu MobileMenu--secondary ng-anim" id="mobile_locale" mg-layout-element="::{ deactivateOn: '' }">
+
+  <button class="MobileMenu-close Button" mg-layout-target="::{ id: ['mobileMenu', 'mobile_locale'], deactivateOn: 'click' }">
+    <span class="u-isHiddenVisually">Zamknij</span>
+    <span class="Icon Icon--leftThin"></span>
+  </button>
+
+	<form class="MobileMenu__Form Form u-boxR" ng-non-bindable action="/settings" method="POST">
+
+		<div class="MobileMenu-header u-marginBm">
+			<h5 class="u-marginBs">Ustawienia</h5>
+			<p>Wybierz kraj, język i walutę.</p>
+		</div>
+
+		<div class="Form-item">
+			<div class="Select Select--secondary u-block">
+				<select name="country" class="u-sizeFull">
+											<option value="ad" >Andora</option>
+											<option value="sa" >Arabia Saudyjska</option>
+											<option value="ar" >Argentyna</option>
+											<option value="am" >Armenia</option>
+											<option value="au" >Australia</option>
+											<option value="at" >Austria</option>
+											<option value="az" >Azerbejdżan</option>
+											<option value="bs" >Bahamy</option>
+											<option value="bh" >Bahrajn</option>
+											<option value="bb" >Barbados</option>
+											<option value="be" >Belgia</option>
+											<option value="bt" >Bhutan</option>
+											<option value="by" >Białoruś</option>
+											<option value="mm" >Birma</option>
+											<option value="bo" >Boliwia</option>
+											<option value="ba" >Bośnia I Hercegowina</option>
+											<option value="br" >Brazylia</option>
+											<option value="bn" >Brunei</option>
+											<option value="bg" >Bułgaria</option>
+											<option value="cl" >Chile</option>
+											<option value="cn" >Chińska Republika Ludowa</option>
+											<option value="hr" >Chorwacja</option>
+											<option value="cy" >Cypr</option>
+											<option value="me" >Czarnogóra</option>
+											<option value="dk" >Dania</option>
+											<option value="do" >Dominikana</option>
+											<option value="eg" >Egipt</option>
+											<option value="ec" >Ekwador</option>
+											<option value="ee" >Estonia</option>
+											<option value="et" >Etiopia</option>
+											<option value="fj" >Fidżi</option>
+											<option value="ph" >Filipiny</option>
+											<option value="fi" >Finlandia</option>
+											<option value="fr" >Francja</option>
+											<option value="gr" >Grecja</option>
+											<option value="ge" >Gruzja</option>
+											<option value="gy" >Gujana</option>
+											<option value="gt" >Gwatemala</option>
+											<option value="es" >Hiszpania</option>
+											<option value="nl" >Holandia</option>
+											<option value="hn" >Honduras</option>
+											<option value="hk" >Hongkong</option>
+											<option value="in" >Indie</option>
+											<option value="id" >Indonezja</option>
+											<option value="iq" >Irak</option>
+											<option value="ir" >Iran</option>
+											<option value="ie" >Irlandia</option>
+											<option value="is" >Islandia</option>
+											<option value="il" >Izrael</option>
+											<option value="jm" >Jamajka</option>
+											<option value="jp" selected=&quot;selected&quot;>Japonia</option>
+											<option value="ye" >Jemen</option>
+											<option value="jo" >Jordania</option>
+											<option value="kh" >Kambodża</option>
+											<option value="cm" >Kamerun</option>
+											<option value="ca" >Kanada</option>
+											<option value="qa" >Katar</option>
+											<option value="kz" >Kazachstan</option>
+											<option value="ke" >Kenia</option>
+											<option value="kg" >Kirgistan</option>
+											<option value="co" >Kolumbia</option>
+											<option value="kr" >Korea Południowa</option>
+											<option value="cr" >Kostaryka</option>
+											<option value="cu" >Kuba</option>
+											<option value="kw" >Kuwejt</option>
+											<option value="la" >Laos</option>
+											<option value="li" >Liechtenstein</option>
+											<option value="lt" >Litwa</option>
+											<option value="lu" >Luksemburg</option>
+											<option value="mk" >Macedonia</option>
+											<option value="mg" >Madagaskar</option>
+											<option value="mv" >Malediwy</option>
+											<option value="my" >Malezja</option>
+											<option value="mt" >Malta</option>
+											<option value="mx" >Meksyk</option>
+											<option value="mc" >Monako</option>
+											<option value="mn" >Mongolia</option>
+											<option value="md" >Mołdawia</option>
+											<option value="np" >Nepal</option>
+											<option value="de" >Niemcy</option>
+											<option value="ng" >Nigeria</option>
+											<option value="ni" >Nikaragua</option>
+											<option value="no" >Norwegia</option>
+											<option value="nz" >Nowa Zelandia</option>
+											<option value="om" >Oman</option>
+											<option value="pk" >Pakistan</option>
+											<option value="pw" >Palau</option>
+											<option value="pa" >Panama</option>
+											<option value="pg" >Papua Nowa Gwinea</option>
+											<option value="py" >Paragwaj</option>
+											<option value="pe" >Peru</option>
+											<option value="pl" >Polska</option>
+											<option value="pt" >Portugalia</option>
+											<option value="cz" >Republika Czeska</option>
+											<option value="za" >Republika Południowej Afryki</option>
+											<option value="ru" >Rosja</option>
+											<option value="ro" >Rumunia</option>
+											<option value="sm" >San Marino</option>
+											<option value="sn" >Senegal</option>
+											<option value="rs" >Serbia</option>
+											<option value="sc" >Seszele</option>
+											<option value="sg" >Singapur</option>
+											<option value="lk" >Sri Lanka</option>
+											<option value="us" >Stany Zjednoczone</option>
+											<option value="ch" >Szwajcaria</option>
+											<option value="se" >Szwecja</option>
+											<option value="sk" >Słowacja</option>
+											<option value="si" >Słowenia</option>
+											<option value="th" >Tajlandia</option>
+											<option value="tw" >Tajwan</option>
+											<option value="tn" >Tunezja</option>
+											<option value="tr" >Turcja</option>
+											<option value="tm" >Turkmenistan</option>
+											<option value="ua" >Ukraina</option>
+											<option value="uy" >Urugwaj</option>
+											<option value="uz" >Uzbekistan</option>
+											<option value="va" >Watykan</option>
+											<option value="hu" >Węgry</option>
+											<option value="ve" >Wenezuela</option>
+											<option value="gb" >Wielka Brytania</option>
+											<option value="vn" >Wietnam</option>
+											<option value="it" >Włochy</option>
+											<option value="ae" >Zjednoczone Emiraty Arabskie</option>
+											<option value="lv" >Łotwa</option>
+									</select>
+			</div>
+		</div>
+
+		<div class="Form-item">
+			<div class="Select Select--secondary u-block">
+				<select name="language" class="u-sizeFull">
+                      <option value="en" >EN</option>
+                      <option value="pl" selected=&quot;selected&quot;>PL</option>
+                      <option value="es" >ES</option>
+                      <option value="fr" >FR</option>
+                      <option value="it" >IT</option>
+                      <option value="nl" >NL</option>
+                      <option value="ru" >RU</option>
+                      <option value="de" >DE</option>
+                      <option value="us" >US</option>
+                  </select>
+			</div>
+		</div>
+
+		<div class="Form-item">
+			<div class="Select Select--secondary u-block">
+				<select name="currency" class="u-sizeFull">
+											<option value="eur" >EUR (€)</option>
+											<option value="gbp" >GBP (£)</option>
+											<option value="pln" >PLN (zł)</option>
+											<option value="usd" selected=&quot;selected&quot;>USD ($)</option>
+									</select>
+			</div>
+		</div>
+
+		<div class="u-textCenter u-marginTl">
+			<button class="Button Button--primary Button--sm" type="submit">
+				Zapisz i kontynuuj
+			</button>
+		</div>
+
+	</form>
+
+</div>
+  </div>
+
+</div>
+
+          </div>
+
+          <div class="Layout__Info Layout__Info--fixed">
+            <div class="u-superWrapper">
+              <div class="Info">
+                <mg-info class="Info-item Info--cookies" info-id="mg_cookies">
+                  <p class="Info-text">Niniejsza strona korzysta z plików cookies, zgodnie z Polityką Plików Cookies. Możesz określić warunki przechowywania lub dostępu do plików cookies w Twojej przeglądarce. Dalsze korzystanie z niniejszej witryny oznacza zgodę na przechowywanie i uzyskiwanie dostępu do plików cookies przez administratora strony mrgugu.pl, zgodnie z ustawieniami przeglądarki. <a href="#" class="Info-close Button" mg-info-close>Zamknij</a></p>
+                </mg-info>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div><!-- /.Layout -->
+
+    </div><!-- /.Wrapper -->
+
+    <!-- Templates -->
+    <script type="text/ng-template" id="/home/templates/subscribe-modal.html">
+	</script>
+
+<script type="text/ng-template" id="/home/templates/auto-modal.html">
+	</script>
+
+<script type="text/ng-template" id="/home/templates/wishlist-item.html">
+	<div class="ProductsList-item ng-animate-disabled" ng-controller="WishlistItemController as itemCtrl" ng-class="{ 'is-disabled': itemCtrl.disabled }">
+		<a class="ProductsList-link u-linkClean u-cf" ng-href="{{ ::item.url }}">
+			<div class="ProductsList-image">
+				<img class="u-responsiveImage" alt="{{ ::item.title }}" ng-src="{{ ::item.image.small }}">
+			</div>
+
+			<div class="ProductsList-details">
+				<h5 class="u-marginBs">{{ ::item.title }}</h5>
+				<div class="ProductsList-price">{{ ::item.price }}</div>
+			</div>
+		</a>
+
+		<div class="ProductsList-actions">
+			<button class="Link Link--sm u-marginRs" ng-click="itemCtrl.move(item)">Przenieś do koszyka</button>
+			<button class="Link Link--danger Link--sm" ng-click="itemCtrl.remove(item)">Usuń</button>
+		</div>
+	</div>
+</script>
+
+
+<script type="text/ng-template" id="/home/templates/cart-item.html">
+	<div class="ProductsList-item ng-animate-disabled" ng-controller="CartItemController as itemCtrl" ng-class="{ 'is-disabled': itemCtrl.disabled }">
+		<a class="ProductsList-link u-linkClean u-cf" ng-href="{{ ::item.url }}">
+			<div class="ProductsList-image">
+				<img class="u-responsiveImage" alt="{{ ::item.title }}" ng-src="{{ ::item.image.small }}">
+			</div>
+
+			<div class="ProductsList-details">
+				<h5 class="u-marginBs">{{ ::item.title }}</h5>
+				<div class="ProductsList-price">{{ ::item.price }}</div>
+
+				<div class="Meta Meta--sm">
+					<p class="Meta-item" ng-repeat="option in item.meta.options">
+						<span class="Meta-label">{{ ::option.name }}:</span>
+						<span class="Meta-value">{{ ::option.value }}</span>
+					</p>
+					<p class="Meta-item">
+						<span class="Meta-label">Ilość:</span>
+						<span class="Meta-value">{{ ::item.quantity }}</span>
+					</p>
+				</div>
+			</div>
+		</a>
+
+		<div class="ProductsList-actions">
+			<button class="Link Link--danger Link--sm" ng-click="itemCtrl.remove(item)">Usuń</button>
+		</div>
+	</div>
+</script>
+
+    <!-- Scripts -->
+    <script src="/home/shared/scripts/shared.min.js?v=20180425124934"></script>
+
+        <script src="/home/shared/scripts/shop.min.js?v=20180425124934"></script>
+    
+    <script type="text/javascript" src="//static.criteo.net/js/ld/ld.js" async defer></script>
+
+<script>
+  window.criteo_q = window.criteo_q || [];
+
+  var deviceType = /iPad/.test(navigator.userAgent) ? 't' : /Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Silk/.test(navigator.userAgent) ? 'm' : 'd';
+
+  window.criteo_q.push(
+    { event: 'setAccount', account: 42795 },
+    { event: 'setEmail', email: '' },
+    { event: 'setSiteType', type: deviceType },
+    { event: 'viewHome' }
+  );
+</script>
+
+  </body>
+</html>

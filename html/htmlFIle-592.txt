@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+    <!--[if IE]><![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="shortcut icon" href="https://www.smartfocus.com/sites/all/themes/smartfocus_theme/favicon.ico" type="image/png" />
+<meta name="description" content="SmartFocus empowers you to deliver omni-channel marketing campaigns with true personalization. Get intelligent digital marketing insights today from SmartFocus." />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.smartfocus.com/en/front" />
+<meta property="og:site_name" content="SmartFocus" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.smartfocus.com/en/front" />
+<meta property="og:title" content="Message Cloud" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@smartfocusworld" />
+<meta name="twitter:creator" content="@smartfocusworld" />
+<meta name="twitter:url" content="http://www.smartfocus.com" />
+<meta name="twitter:title" content="SmartFocus" />
+<meta name="twitter:description" content="Real-time interactions. Personalized by you." />
+<meta name="twitter:image" content="http://www.smartfocus.com/sites/default/files/sf_logo_2.png" />
+<meta name="twitter:image:width" content="200" />
+<meta name="twitter:image:height" content="150" />
+    <title>Message Cloud | SmartFocus</title>
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+    <script src="/sites/all/themes/smartfocus_theme/js-vendor/modernizr.js"></script>
+    <link rel="stylesheet" type="text/css" href="//cloud.typography.com/6546674/7417192/css/fonts.css" />
+    <link type="text/css" rel="stylesheet" href="https://www.smartfocus.com/sites/default/files/advagg_css/css__NQroIacERi--Rks13T8Sirs0ILKAgEyWc7JLVHGtsNI__5l_RplejqVvLhhhPzbbRJHFid0v2DMNPMfWoCjKxIuQ__pcRYJDo_O09-L76J_3aBXJE0pu0Qr2MKBTxxrRpVtv0.css" media="all" />
+<style type="text/css" media="all">
+/* <![CDATA[ */
+#section-1761{background-image:url(https://www.smartfocus.com/sites/default/files/styles/page_hero_small/public/uploads/images/message-cloud-hero.jpg?itok=T0Dy3xKX);}@media (min-width:48em){#section-1761{background-image:url(https://www.smartfocus.com/sites/default/files/styles/page_hero_medium/public/uploads/images/message-cloud-hero.jpg?itok=ptG2ZAIJ);}}@media (min-width:75em){#section-1761{background-image:url(https://www.smartfocus.com/sites/default/files/styles/page_hero_large/public/uploads/images/message-cloud-hero.jpg?itok=Noyg5v-b);}}@media (min-width:95em){#section-1761{background-image:url(https://www.smartfocus.com/sites/default/files/styles/page_hero_xlarge/public/uploads/images/message-cloud-hero.jpg?itok=BxM5gs67);}}
+#node-1537{background-image:url(https://www.smartfocus.com/sites/default/files/styles/section_background_small/public/peak_performance_rinner_d0054902_1400x450.jpg?itok=HyRBTC5K);}@media (min-width:48em){#node-1537{background-image:url(https://www.smartfocus.com/sites/default/files/styles/section_background_medium/public/peak_performance_rinner_d0054902_1400x450.jpg?itok=1Px_8V4C);}}@media (min-width:75em){#node-1537{background-image:url(https://www.smartfocus.com/sites/default/files/styles/section_background_large/public/peak_performance_rinner_d0054902_1400x450.jpg?itok=h--ghVff);}}@media (min-width:95em){#node-1537{background-image:url(https://www.smartfocus.com/sites/default/files/styles/section_background_xlarge/public/peak_performance_rinner_d0054902_1400x450.jpg?itok=UQOE198i);}}
+#section-1946{background-image:url(https://www.smartfocus.com/sites/default/files/styles/section_background_small/public/uploads/images/purple-effect.jpg?itok=SsiPAmr-);}@media (min-width:48em){#section-1946{background-image:url(https://www.smartfocus.com/sites/default/files/styles/section_background_medium/public/uploads/images/purple-effect.jpg?itok=YPU1JfmB);}}@media (min-width:75em){#section-1946{background-image:url(https://www.smartfocus.com/sites/default/files/styles/section_background_large/public/uploads/images/purple-effect.jpg?itok=blGevBR6);}}@media (min-width:95em){#section-1946{background-image:url(https://www.smartfocus.com/sites/default/files/styles/section_background_xlarge/public/uploads/images/purple-effect.jpg?itok=bwwbl2Nj);}}
+
+/* ]]> */
+</style>
+<link type="text/css" rel="stylesheet" href="https://www.smartfocus.com/sites/default/files/advagg_css/css__6yUC-6Vxmm0_n9Ej8ZbxjwZIDPQdlGhzMSITntVtv_8__GeCyn5eooV6tso0UhoXf7rkT3-gIXgrSVOD0dBeGO_M__pcRYJDo_O09-L76J_3aBXJE0pu0Qr2MKBTxxrRpVtv0.css" media="all" />
+    <script src="//platform.twitter.com/widgets.js" charset="utf-8" async></script>
+    <script src="//www.trackdiscovery.net/js/12757.js" type="text/javascript"></script>
+    <noscript><img src="//www.trackdiscovery.net/12757.png" style="display:none;" /></noscript>
+    
+    <!-- Start of smartfocushelp Zendesk Widget script -->
+    <script>/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(e){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var e=this.createElement("script");n&&(this.domain=n),e.id="js-iframe-async",e.src="https://assets.zendesk.com/embeddable_framework/main.js",this.t=+new Date,this.zendeskHost="smartfocushelp.zendesk.com",this.zEQueue=a,this.body.appendChild(e)},o.write('<body onload="document._l();">'),o.close()}();
+    /*]]>*/</script>
+    <!-- End of smartfocushelp Zendesk Widget script -->
+
+    <!-- Start of Pardot tracking code -->
+    <script type="text/javascript">
+      piAId = '399432';
+      piCId = '47973';
+      piHostname = 'pi.pardot.com';
+
+      (function() {
+        function async_load(){
+          var s = document.createElement('script'); s.type = 'text/javascript';
+          s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+          var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+        }
+        if(window.attachEvent) { window.attachEvent('onload', async_load); }
+        else { window.addEventListener('load', async_load, false); }
+      })();
+    </script>
+    <!-- End of Pardot tracking code -->
+
+    <!-- Google Tag Manager -->
+          <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MP6GNK" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <script type="text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0];var j=d.createElement(s);var dl=l!='dataLayer'?'&l='+l:'';j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;j.type='text/javascript';j.async=true;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MP6GNK');</script>
+        <!-- End Google Tag Manager -->
+
+  </head>
+  <body class="html front not-logged-in no-sidebars page-node page-node- page-node-2136 node-type-advanced-page i18n-en">
+    <div id="skip-link"><a href="#main-content" class="element-invisible element-focusable">Skip to main content</a></div>
+        
+  
+
+<div class="site-wrapper">
+
+      <div class="header-section">
+      <div class="container-wide">
+                  <div class="header-section__branding">
+            <a href="/en" title="Home" rel="home" id="logo">
+              <img src="/sites/all/themes/smartfocus_theme/svg/smart_focus.svg?01112017" width="254" height="28" alt="SmartFocus" />
+            </a>
+          </div>
+        
+        <a href="#menu" class="css-target header-section__menu-toggle"><span class="hamburger-icon"></span></a>
+
+        <div id="menu" class="header-section__links">
+          <a href="#menu-close" class="css-close header-section__menu-close"><span class="hamburger-icon close"></span></a>
+            <div id="block-menu-block-1" class="block block-menu-block">
+      
+  <div class="block__content">
+    <div class="menu-block-wrapper menu-block-1 menu-name-menu-main-menu-english parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first expanded menu-mlid-7375"><a href="#message-cloud" class="sub-menu-toggle css-target"><i class="icon-down"></i></a><a href="/en/message-cloud" >Message Cloud</a><div class="sub-menu-wrapper" id="message-cloud"><ul class="menu"><li class="first leaf menu-mlid-10851"><a href="/en/message-cloud/apprentice">Apprentice</a></li>
+<li class="leaf menu-mlid-10856"><a href="/en/message-cloud/professional">Professional</a></li>
+<li class="leaf menu-mlid-10861"><a href="/en/message-cloud/expert">Expert</a></li>
+<li class="leaf menu-mlid-10866"><a href="/en/message-cloud/master">Master</a></li>
+<li class="last leaf menu-mlid-7397"><a href="/en/message-cloud/connectors-integrations">Connectors and Integrations</a></li>
+</ul></div></li>
+<li class="leaf menu-mlid-7387"><a href="/en/customers">Customers</a></li>
+<li class="leaf menu-mlid-7374"><a href="/en/resources"  title="">Resources</a></li>
+<li class="expanded menu-mlid-2356"><a href="#about-us" class="sub-menu-toggle css-target"><i class="icon-down"></i></a><a href="/en/company" >About us</a><div class="sub-menu-wrapper" id="about-us"><ul class="menu"><li class="first leaf menu-mlid-8871"><a href="/en/company/technical-support" >Technical Support</a></li>
+<li class="leaf menu-mlid-7377"><a href="/en/news"  title="">News</a></li>
+<li class="leaf menu-mlid-2191"><a href="/en/company/services-support" >Services and Support</a></li>
+<li class="leaf menu-mlid-7396"><a href="/en/company/careers">Careers</a></li>
+<li class="leaf menu-mlid-7379"><a href="/en/contact">Global Locations</a></li>
+<li class="last leaf menu-mlid-2470"><a href="/en/company/training" >Training</a></li>
+</ul></div></li>
+<li class="leaf menu-mlid-7376"><a href="/en/blog"  title="">Blog</a></li>
+<li class="last leaf menu-mlid-7378 search-panel-toggle"><a href="#search"  title="" class="css-target"><i class="icon-search-alt"></i></a><div class="search-panel" id="search"><form class="search-form" action="/en/search/node" method="post" id="search-form" accept-charset="UTF-8"><div class="container-inline form-wrapper" id="edit-basic"><input placeholder="Search SmartFocus..." type="text" id="edit-keys" name="keys" value="" size="40" maxlength="255" class="form-text" /><button class="form-submit" type="submit"><i class="icon-search-alt"></i></button><button class="invisible btn form-submit" id="edit-submit" name="op" value="Search" type="submit">Search</button>
+</div><input type="hidden" name="form_build_id" value="form-S1WepDbnf8KbsGwKWfPuPC8FYq1qcOXIUUTlRl2j_1M" />
+<input type="hidden" name="form_id" value="search_form" />
+</form></div></li>
+</ul></div>
+  </div>
+</div>
+          <div class="language-switcher">
+            <a href="#language" class="css-target language-switcher__active">en</a><ul id="language" class="language-switcher__link-list" role="menu"><li class="language-switcher__link-item en language-link"><a href="/en" data-language-code="en" class="active"><span>English</span></a></li><li class="language-switcher__link-item fr language-link"><a href="/fr" data-language-code="fr"><span>Français</span></a></li><li class="language-switcher__link-item de language-link"><a href="/de" data-language-code="de"><span>Deutsch</span></a></li><li class="language-switcher__link-item es language-link"><a href="/es" data-language-code="es"><span>Español</span></a></li></ul>          </div>
+        </div>
+
+        <ul class="header-section__link-list">
+          <li class="header-section__link-button pink"><a href="/en/contact#form">Request meeting</a></li>
+          <li class="header-section__link-button blue"><a id="login" href="/en/login">Log in <i class="icon-login"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  
+  <a id="main-content"></a>
+
+  <div class="content-section">
+      
+
+  
+  <section class="paragraph-homepage-hero-section">
+  <div id="section-1761" class="paragraph-homepage-hero-section__background full-height">
+    <div class="container">
+      
+      <h1 class="typewriter-headline">
+      <span class="typewriter-headline__prefix">Opportunity</span> <span class="typewriter-headline__headline"><span class="typewriter">  <span class="typewriter__statement" >to better connect with your customer</span>
+  <span class="typewriter__statement" style="display: none;">to gain better customer insight</span>
+  <span class="typewriter__statement" style="display: none;">to increase customer lifetime value</span>
+  <span class="typewriter__statement" style="display: none;">delivered</span>
+</span></span>      </h1>
+      
+      <div><a class="btn btn--highlight" href="https://www.smartfocus.com/en/message-cloud">Start here</a></div>
+      <span class="scroll-down"><i class="icon-down"></i><i class="icon-down"></i><i class="icon-down"></i></span>
+    </div>
+  </div>
+</section><section class="paragraph-content-grid-section">
+  <div class="container">
+    <div class="content-grid__primary">
+      <h2 class="headline">Maximize the value of every customer.</h2>
+
+      <p>Deliver insight-based brand interactions to boost engagement and lifetime value of your customer.</p>
+
+<p>Introducing Message Cloud by SmartFocus.</p>
+
+      <p><a class="btn" href="https://www.smartfocus.com/en/message-cloud">Start here</a></p>    </div>
+
+    <div class="content-grid__grid">
+        	
+		<div class="content-grid__grid-item">
+	   <div id="svg-audience" class="bodymovin"></div>
+<h4>Audience</h4>
+<p>Understand, manage and address your audience in a meaningful way. </p>  </div>
+		<div class="content-grid__grid-item">
+	   <div id="svg-message" class="bodymovin"></div>
+<h4>Message</h4>
+<p>Deliver relevant messages to your customer across any channel.</p>  </div>
+		<div class="content-grid__grid-item">
+	   <div id="svg-content" class="bodymovin"></div>
+<h4>Content</h4>
+<p>Curate and distribute the most compelling content at the right time.</p>  </div>
+		<div class="content-grid__grid-item">
+	   <div id="svg-analytics" class="bodymovin"></div>
+<h4>Analytics</h4>
+<p>Act on insights that enable you to continually test and learn for optimal results.</p>  </div>
+	    </div>
+  </div>
+</section><section class="paragraph-case-study-section">
+  <article id="node-1537" class="node node-customers mode-featured clearfix">
+      
+  <a class="node-customers__link" href="/en/customers/peak-performance">
+  
+    <div class="container">
+      <div class="node-customers__content">
+
+                  <div class="field-name-field-logo field-type-image">
+  
+      <img src="https://www.smartfocus.com/sites/default/files/styles/case_study_teaser/public/peakperformance.png?itok=LGVjt1A4" width="260" height="100" alt="" />  </div>        
+        <h2 class="headline">
+          <span class="headline__headline">Peak Performance</span>
+        </h2>
+      
+                <div class="intro-text">  
+  33% increase in click-through rate and a 7% decrease in website bounce rate.</div>
+                
+        <span class="btn">Learn more</span>
+      </div>
+    </div>
+  
+  </a>
+
+</article></section><section class="paragraph-customer-logos-section">
+    
+  <div class="customer-logos-list owl-carousel">
+      <div class="customer-logos-item item">
+        
+          <a href="/en/customers/house-fraser" class="customer-logos-item__link"><div class="customer-logos-item__link-inner">
+<img src="https://www.smartfocus.com/sites/default/files/styles/case_study_teaser/public/house-of-fraser_0.png?itok=3jYXMELD" width="260" height="100" alt="" />
+</div></a>      </div>
+      <div class="customer-logos-item item">
+        
+          <a href="/en/customers/speedo" class="customer-logos-item__link"><div class="customer-logos-item__link-inner">
+<img src="https://www.smartfocus.com/sites/default/files/styles/case_study_teaser/public/speedo_0.png?itok=a8YvwaEt" width="260" height="100" alt="Speedo Logo" title="Speedo" />
+</div></a>      </div>
+      <div class="customer-logos-item item">
+        
+          <a href="/en/customers/levi-strauss-co" class="customer-logos-item__link"><div class="customer-logos-item__link-inner">
+<img src="https://www.smartfocus.com/sites/default/files/styles/case_study_teaser/public/levis_logo_colour.png?itok=SEl1VBwn" width="260" height="100" alt="Levi Strauss &amp; Co" title="Levi Strauss &amp; Co" />
+</div></a>      </div>
+      <div class="customer-logos-item item">
+        
+          <a href="/en/customers/waterstones" class="customer-logos-item__link"><div class="customer-logos-item__link-inner">
+<img src="https://www.smartfocus.com/sites/default/files/styles/case_study_teaser/public/waterstones_logo.png?itok=-6dCn61q" width="260" height="100" alt="" />
+</div></a>      </div>
+      <div class="customer-logos-item item">
+        
+          <a href="/en/customers/tm-lewin-0" class="customer-logos-item__link"><div class="customer-logos-item__link-inner">
+<img src="https://www.smartfocus.com/sites/default/files/styles/case_study_teaser/public/uploads/images/tmlewin-logo.png?itok=ZA9FJ57t" width="260" height="100" alt="" />
+</div></a>      </div>
+      <div class="customer-logos-item item">
+        
+          <a href="/en/customers/rossignol" class="customer-logos-item__link"><div class="customer-logos-item__link-inner">
+<img src="https://www.smartfocus.com/sites/default/files/styles/case_study_teaser/public/rossignol.png?itok=8KmAHS5H" width="260" height="100" alt="" />
+</div></a>      </div>
+      <div class="customer-logos-item item">
+        
+          <a href="/en/customers/namco" class="customer-logos-item__link"><div class="customer-logos-item__link-inner">
+<img src="https://www.smartfocus.com/sites/default/files/styles/case_study_teaser/public/namco_0.png?itok=vF589As9" width="260" height="100" alt="" />
+</div></a>      </div>
+      <div class="customer-logos-item item">
+        
+          <a href="/en/customers/stan-james" class="customer-logos-item__link"><div class="customer-logos-item__link-inner">
+<img src="https://www.smartfocus.com/sites/default/files/styles/case_study_teaser/public/stan_james_logo.jpg?itok=MgbAG5j2" width="260" height="100" alt="" />
+</div></a>      </div>
+      <div class="customer-logos-item item">
+        
+          <a href="/en/customers/uk-mail" class="customer-logos-item__link"><div class="customer-logos-item__link-inner">
+<img src="https://www.smartfocus.com/sites/default/files/styles/case_study_teaser/public/uk_mail.png?itok=jg8qVWZ9" width="260" height="100" alt="" />
+</div></a>      </div>
+      <div class="customer-logos-item item">
+        
+          <a href="/en/customers/transdev" class="customer-logos-item__link"><div class="customer-logos-item__link-inner">
+<img src="https://www.smartfocus.com/sites/default/files/styles/case_study_teaser/public/transdev.jpg?itok=FRQF0fjx" width="260" height="100" alt="Transdev" title="Transdev" />
+</div></a>      </div>
+  </div></section><section id="section-1946" class="paragraph-two-column-section colour-purple">
+    
+  <div class="container">
+    <div class="field-name-field-column-1">
+  
+      <h2 class="headline">SmartFocus Supports Graduate Fashion Week 2018</h2>
+
+<p><a class="btn btn--highlight" href="/en/news/smartfocus-host-26-catwalk-shows-graduate-fashion-week-2018">Learn more</a></p>
+  </div><div class="field-name-field-column-2">
+  
+      <p>SmartFocus showcased the story of Graduate Fashion Week 2018 through Message Cloud, increasing awareness and engagement across the global design talent and industry.</p>
+  </div>  </div>
+</section> 	</div>
+  
+  
+
+<div class="footer-section">
+  <div class="container">
+    <div class="footer-section__links">
+                <div class="region region-footer">
+    <div id="block-menu-block-2" class="block block-menu-block">
+        <h2 class="block__headline">Legal</h2>
+    
+  <div class="block__content">
+    <div class="menu-block-wrapper menu-block-2 menu-name-menu-footer-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-2159"><a href="/en/terms-of-use" >Terms of Use</a></li>
+<li class="leaf menu-mlid-2161"><a href="/en/anti-spam-policy" >Anti-Spam Policy</a></li>
+<li class="leaf menu-mlid-2160"><a href="/en/privacy-and-cookies-policy" >Privacy & Cookies Notice</a></li>
+<li class="leaf menu-mlid-9016"><a href="/en/company/technical-support"  title="">Technical Support</a></li>
+<li class="leaf menu-mlid-2152"><a href="/en/acceptable-use-policy" >Acceptable Use Policy</a></li>
+<li class="last leaf menu-mlid-2157"><a href="/en/contact"  title="">Contact Us</a></li>
+</ul></div>
+  </div>
+</div>  </div>
+          </div>
+
+    <div class="footer-section__social">
+      <h4 class="block__headline">Follow us</h4>
+      <ul class="social-links-list">
+                  <li class="social-links-list__item">
+            <a href="https://twitter.com/smartfocusworld" target="_blank" title="Twitter"><i class="icon-twitter"></i></a>
+          </li>
+                <li class="social-links-list__item">
+          <a href="https://www.facebook.com/SmartFocusWorld" target="_blank" title="Facebok"><i class="icon-facebook"></i></a>
+        </li>
+
+        <li class="social-links-list__item">
+          <a href="https://www.linkedin.com/company/emailvision" target="_blank" title="LinkedIn"><i class="icon-linkedin"></i></a>
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="footer-section__text">
+      Deliver insight-based brand interactions to boost engagement and lifetime value of each customer.    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="copyright-section ">
+    &copy; 2018 Smart Focus - All rights reserved  </div>
+</div>
+
+</div>
+
+
+    <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(h,o,t,j,a,r){
+  h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+  h._hjSettings={hjid:"43105",hjsv:5};
+  a=o.getElementsByTagName('head')[0];
+  r=o.createElement('script');r.async=1;
+  r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+  a.appendChild(r);
+})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.smartfocus.com/sites/default/files/advagg_js/js__jGfr-z48ZirLL12EDvReR-YRbZ4N6vPtvjD3lseF4Qk__fU8iFvRSpACZ3mUxpMyZVevElw8uVFXbQ-dv_TE78vc__pcRYJDo_O09-L76J_3aBXJE0pu0Qr2MKBTxxrRpVtv0.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+document.createElement( "picture" );
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.smartfocus.com/sites/default/files/advagg_js/js__SAdT_9Y9ch9Oz5ml_Np1z06_ZBr_cjPDmCtsCSql-10__TrFE40aDZxhMpe--IS-FU1zhjM8-JAa5mOTPqGJCHks__pcRYJDo_O09-L76J_3aBXJE0pu0Qr2MKBTxxrRpVtv0.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+_sfatc=["datasheets","ebooks","infographics","posters"];_sfatv=["webinars","videos"];
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.smartfocus.com/sites/default/files/advagg_js/js__6Wp1_EIrfMR4BpB_UOnxCC-N6QhxKLETTRvHHObEPMM__Hh9oqiIox7hEYinawMRC-ppAJAgcupM1_7svnMSqQ9o__pcRYJDo_O09-L76J_3aBXJE0pu0Qr2MKBTxxrRpVtv0.js"></script>
+<script type="text/javascript" src="https://www.smartfocus.com/sites/default/files/advagg_js/js__fzCUwaemR69hKq6nPTRBP_M3RnGOEDYMWjbtyjUbnpE__afxgcL-q3PlLXcwQFlpF00t6mwQHXIU8us4vuNncde0__pcRYJDo_O09-L76J_3aBXJE0pu0Qr2MKBTxxrRpVtv0.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"en\/","ajaxPageState":{"theme":"smartfocus_theme","theme_token":"G994Ezb6ODM0xMZo3I2igeX_orTf4xlRiKDQ6ywB2Es","css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"0":1,"1":1,"2":1,"sites\/all\/themes\/smartfocus_theme\/css\/bower.css":1,"sites\/all\/themes\/smartfocus_theme\/css\/global.css":1},"js":{"sites\/all\/modules\/contrib\/picture\/picturefill2\/picturefill.min.js":1,"sites\/all\/modules\/contrib\/picture\/picture.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/cookiecontrol\/js\/cookieControl-5.1.min.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/modules\/custom\/smartfocus_analytics\/scripts\/tracking.js":1,"sites\/all\/themes\/smartfocus_theme\/js-vendor\/bodymovin.js":1,"sites\/all\/themes\/smartfocus_theme\/js\/animations.js":1,"sites\/all\/themes\/smartfocus_theme\/js-vendor\/owl.carousel.min.js":1,"sites\/all\/themes\/smartfocus_theme\/js-vendor\/bower.js":1,"sites\/all\/themes\/smartfocus_theme\/js\/global.js":1}},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"urlIsAjaxTrusted":{"\/en\/search\/node":true},"smartfocus_theme":{"homepage_hero_section_statements":["to better connect with your customer","to gain better customer insight","to increase customer lifetime value","delivered"]},"better_exposed_filters":{"views":{"customers":{"displays":{"customers_featured":{"filters":[]}}}},"datepicker_options":{"dateformat":"dd-mm-yy"}}});
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.smartfocus.com/sites/default/files/advagg_js/js__GM3GJPR36rRIz0TRkjC5OQwrioSyN9aoYRivDhCO_AM__qAl84FcCv2jyN22yFGS5Oc85cjd9zKX6p_cFNLGhe-M__pcRYJDo_O09-L76J_3aBXJE0pu0Qr2MKBTxxrRpVtv0.js" async="async"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+    jQuery(document).ready(function($) {
+    cookieControl({
+        introText: '<p>This site uses cookies to store information on your computer.</p>',
+        fullText: '<p>Some cookies used by this website are essential, and the website won\'t work as intended without them. These cookies are set when you submit a form, login or interact with the website by doing something that goes beyond clicking on simple links.</p><p>We also use <a href=\"http://www.google.com/analytics/learn/privacy.html\" target=\"_blank\">Google Analytics cookies</a> to anonymously track visitors.</p><p>By using our site you accept the terms of our <a href="/en/privacy-and-cookies-policy2">Privacy Policy</a>.',
+        theme: 'light',
+        html: '<div id="cccwr"><div id="ccc-state" class="ccc-pause"><div id="ccc-icon"><button><span>Cookie Control</span></button></div><div class="ccc-widget"><div class="ccc-outer"><div class="ccc-inner"><h2>Cookie Control</h2><div class="ccc-content"><p class="ccc-intro"></p><div class="ccc-expanded"></div><div id="ccc-cookies-switch" style="background-position-x: 0;"><a id="cctoggle" href="#" style="background-position-x: 0;" name="cctoggle"><span id="cctoggle-text">Cookies test</span></a></div><div id="ccc-implicit-warning">(One cookie will be set to store your preference)</div><div id="ccc-explicit-checkbox"><label><input id="cchide-popup" type="checkbox" name="ccc-hide-popup" value="Y" /> Do not ask me again<br /></label> (Ticking this sets a cookie to hide this popup if you then hit close. This will not store any personal information)</div><p class="ccc-about"><small><a href="http://www.civicuk.com/cookie-law" target="_blank">About this tool</a></small></p><a class="ccc-icon" href="http://www.civicuk.com/cookie-law" target="_blank"title="About Cookie Control">About Cookie Control</a><button class="ccc-close">Close</button></div></div></div><button class="ccc-expand">read more</button></div></div></div>',
+        position: 'left',
+        shape: 'triangle',
+        startOpen: true,
+        autoHide: 2000,
+        onAccept: function(cc){cookiecontrol_accepted(cc)},
+        onReady: function(){},
+        onCookiesAllowed: function(cc){cookiecontrol_cookiesallowed(cc)},
+        onCookiesNotAllowed: function(cc){cookiecontrol_cookiesnotallowed(cc)},
+        countries: '',
+        subdomains: true,
+        cookieName: 'smartfocus_cookiecontrol',
+        iconStatusCookieName: 'ccShowCookieIcon',
+        consentModel: 'information_only'
+        });
+      });
+    
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function cookiecontrol_accepted(cc) {
+cc.setCookie('ccShowCookieIcon', 'no');jQuery('#ccc-icon').hide();
+}
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function cookiecontrol_cookiesallowed(cc) {
+
+}
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function cookiecontrol_cookiesnotallowed(cc) {
+
+}
+//--><!]]>
+</script>
+
+
+<!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 947676604;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/947676604/?value=0&guid=ON&script=0"/>
+</div>
+</noscript>
+        <script>
+      var _pt = ["1E2AD1E8-3AA8-40C8-BCD2-2759EBC161C8"];
+      (function(d,t)
+      { var a=d.createElement(t),s=d.getElementsByTagName(t)[0];a.src=location.protocol+'//a1webstrategy.com/track.js';s.parentNode.insertBefore(a,s); }
+      (document,'script'));
+    </script>
+
+                <script type="text/javascript">
+              (function() {
+                var se = document.createElement('script'); se.type = 'text/javascript'; se.async = true;
+                se.src = '//commondatastorage.googleapis.com/code.snapengage.com/js/88227440-8716-4339-921a-da5146c6d449.js';
+                var done = false;
+                se.onload = se.onreadystatechange = function() {
+                  if (!done&&(!this.readyState||this.readyState==='loaded'||this.readyState==='complete')) {
+                    done = true;
+                  }
+                };
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(se, s);
+              })();
+            </script>
+              <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"b404d1858a","applicationID":"70694339","transactionName":"MQZaYEJRCkYDW0YPCghMeVdEWQtbTVZdAgA5E1lTVW8SXAdP","queueTime":0,"applicationTime":396,"atts":"HUFZFgpLGUg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

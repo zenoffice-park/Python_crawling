@@ -1,0 +1,290 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" dir="ltr">
+<head>
+	<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="content-language" content="ja" />
+	<meta http-equiv="content-style-type" content="text/css" />
+	<meta http-equiv="content-script-type" content="text/javascript" />
+	<meta name="Keywords" content="" lang="ja" xml:lang="ja" />
+	<meta name="Description" content="" lang="ja" xml:lang="ja" />
+	<title>お問い合わせ</title>
+	<link href="/commoncms/css/base.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/commoncms/css/validationEngine.jquery.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="/commoncms/css/print.css" rel="stylesheet" type="text/css" media="print" />
+</head>
+
+<body id="layout_popup">
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TXHDSP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T5JSGQ');</script>
+<!-- End Google Tag Manager --><div id="layout_position" class="layout_popup">
+
+	<!-- **************** elem_skip_navi **************** -->
+	<div id="elem_skip_navi">
+		<p id="pagetop">ページの先頭です</p>
+	<!-- /elem_skip_navi --></div>
+	<!-- **************** /elem_skip_navi **************** -->
+
+<form action="./index.php" method="post" id="front_form" name="front_form">
+	<!-- **************** area_header **************** -->
+	<div id="area_header_wrap">
+		<div id="area_header"><div class="area_header_pad"><div class="area_header_pad"><div class="area_header_pad">
+			<p id="logo"><a href="http://www.kinotrope.co.jp/index.html"><img src="/commoncms/images/module_parts/area_header/logo.gif" alt="KINOTROPE" /></a></p>
+		<!-- /area_header --></div></div></div></div>
+	<!-- /area_header_wrap --></div>
+	<!-- **************** /area_header **************** -->
+
+	<!-- **************** area_content **************** -->
+	<div id="area_content">
+
+		<!-- **************** area_content_main **************** -->
+		<div id="area_content_main">
+
+			<input type="hidden" name="mode" value="entry_form_confirm">
+			<input type="hidden" name="form_id" value="95">
+
+			<div id="elem_heading_lv1"><div class="elem_heading_lv1_pad"><div class="elem_heading_lv1_pad">
+				<h1>お問い合わせ</h1>
+			<!-- /elem_heading_lv1 --></div></div></div>
+
+			
+
+			<div class="elem_section_block"><div class="section_gray_lv2 elem_section_block_pad"><div class="elem_section_block_pad">
+
+				<div class="elem_pic"><div class="pic_flow elem_pic_pad">
+					<div class="holder">
+						<img src="images/img_flow_11.gif" alt="01.内容の入力" />
+					<!-- /holder --></div>
+				<!-- /elem_pic --></div></div>
+
+				<div class="elem_heading_lv2"><div class="elem_heading_lv2_pad">
+					<h2>内容の入力</h2>
+				<!-- /elem_heading_lv2 --></div></div>
+
+				<div class="elem_paragraph">
+					<p class="center"><span class="font_red">※</span>印は必須項目です。</p>
+				<!-- /elem_paragraph --></div>
+
+				
+
+							<input type="hidden" name="pname" value="">
+		<div class="elem_form_table_set elem_table_set"><div class="elem_table_set_pad ">
+			<table class="elem_table_set" summary="">
+				<colgroup>
+					<col width="25%" />
+					<col width="75%" />
+				</colgroup>
+				<tbody>
+					
+					<tr>
+<th class="table_middle elem_table_set">お問い合わせ種別</th>
+<td class="table_middle elem_table_set">
+<div class="elem_table_element_pad">
+
+					<div class="elem_form"><div class="elem_form_pad">
+		<div class="text"><strong></strong></div>
+		<div class="form_checkbox_list"><div class="form_checkbox_list_pad">
+									<div class="form_checkbox">
+							<label for="element_2822_1">
+								<span class="form_checkbox_button">
+									<input id="element_2822_1" name="element_2822[]" type="checkbox"   value="3832">
+								</span>
+								リニューアル
+							</label>
+						</div>						<div class="form_checkbox">
+							<label for="element_2822_2">
+								<span class="form_checkbox_button">
+									<input id="element_2822_2" name="element_2822[]" type="checkbox"   value="3833">
+								</span>
+								新規構築
+							</label>
+						</div>						<div class="form_checkbox">
+							<label for="element_2822_3">
+								<span class="form_checkbox_button">
+									<input id="element_2822_3" name="element_2822[]" type="checkbox"   value="3834">
+								</span>
+								その他
+							</label>
+						</div>
+			
+		<!-- /form_checkbox_list --></div></div>
+		
+	<!-- /elem_form --></div></div>
+
+
+<!-- /elem_table_element_pad --></div>
+</td>
+</tr>
+<tr>
+<th class="table_middle elem_table_set">お問い合わせ内容<span class="form_require">※</span></th>
+<td class="table_middle elem_table_set">
+<div class="elem_table_element_pad">
+
+						<div class="elem_form"><div class="size_full elem_form_pad">
+		<div class="form_textarea">
+		<span class="text"></span>
+		<textarea class="js_placeholder form_error validate[required]" name="element_2825" id="2825" placeholder="お問い合わせ、ご依頼内容をご自由に記入ください。既存サイトのリニューアル等は、該当のURLやページ数、公開時期なども記載ください。"  cols="50" rows="8" ></textarea>
+		<!-- /form_textarea --></div>
+		<!-- /elem_form --></div></div>
+		
+		
+
+
+<!-- /elem_table_element_pad --></div>
+</td>
+</tr>
+<tr>
+<th class="table_middle elem_table_set">会社名<span class="form_require">※</span></th>
+<td class="table_middle elem_table_set">
+<div class="elem_table_element_pad">
+
+				<div class="form_pad_liner_box">
+<div class="elem_form"><div class="size_full elem_form_pad">
+<div class="form_text">
+<span class="text"> </span>
+<input name="element_2840" class="js_placeholder input_text form_error validate[required] text-input" id="2840" type="text" value="" size="50"   placeholder="例）株式会社キノトロープ" >
+<span class="text"></span>
+
+<!-- /form_text --></div>
+<!-- /elem_form --></div></div>
+<!-- /form_pad_liner_box --></div>
+
+
+<!-- /elem_table_element_pad --></div>
+</td>
+</tr>
+<tr>
+<th class="table_middle elem_table_set">お名前<span class="form_require">※</span></th>
+<td class="table_middle elem_table_set">
+<div class="elem_table_element_pad">
+
+				<div class="form_pad_liner_box">
+<div class="elem_form"><div class="size_full elem_form_pad">
+<div class="form_text">
+<span class="text"> </span>
+<input name="element_2828" class="js_placeholder input_text form_error validate[required] text-input" id="2828" type="text" value=""    placeholder="例）山田 太郎" >
+<span class="text"></span>
+
+<!-- /form_text --></div>
+<!-- /elem_form --></div></div>
+<!-- /form_pad_liner_box --></div>
+
+
+<!-- /elem_table_element_pad --></div>
+</td>
+</tr>
+<tr>
+<th class="table_middle elem_table_set">電話番号<span class="form_require">※</span></th>
+<td class="table_middle elem_table_set">
+<div class="elem_table_element_pad">
+
+				<div class="elem_form"><div class="size_full elem_form_pad">
+<div class="form_text">
+<span class="text"></span>
+<input name="element_2832" class="js_placeholder input_text form_error validate[required,custom[phone]] text-input" id="2832" type="text" value=""   style="ime-mode: disabled" placeholder="例）03-5478-8440" >
+<!-- /form_text --></div>
+<!-- /elem_form --></div></div>
+
+
+
+<!-- /elem_table_element_pad --></div>
+</td>
+</tr>
+<tr>
+<th class="table_middle elem_table_set">メールアドレス<span class="form_require">※</span></th>
+<td class="table_middle elem_table_set">
+<div class="elem_table_element_pad">
+
+				<div class="form_pad_liner_box">
+<div class="elem_form"><div class="size_full elem_form_pad">
+<div class="form_text">
+<span class="text"> </span>
+<input name="element_2838" class="js_placeholder input_text form_error validate[required,custom[email]] text-input" id="2838" type="text" value="" size="50"   placeholder="例）abc@kinotrope.co.jp" >
+<span class="text"></span>
+
+<!-- /form_text --></div>
+<!-- /elem_form --></div></div>
+<!-- /form_pad_liner_box --></div>
+
+
+<!-- /elem_table_element_pad --></div>
+</td>
+</tr>
+				</tbody>
+			</table>
+		<!-- /elem_table_set --></div></div>
+
+			<!-- /elem_section_block --></div></div></div>
+
+			<div class="elem_section_block"><div class="section_contact elem_section_block_pad"><div class="elem_section_block_pad">
+				
+				<div class="elem_paragraph">
+					<p class="center"><strong><p class="center"><a href="http://www.kinotrope.co.jp/privacy/index.html" target="_blank">プライバシーポリシー<span class="in_icon"><img src="/commoncms/images/content_images/icon/new_window.png" alt="" /></span></a>をよくお読みいただき同意いただけましたら<br />「確認画面へ」ボタンを押してください。</p></strong></p>
+				<!-- /elem_paragraph --></div>
+
+				<div class="elem_pic"><div class="center elem_pic_pad">
+					<div class="holder">
+						<input class="form_button btn_confirm" type="submit" value="確認画面へ" />
+					<!-- /holder --></div>
+				<!-- /elem_pic --></div></div>
+
+			<!-- /elem_section_block --></div></div></div>
+
+			
+		
+		<!-- /area_content_main --></div>
+		<!-- **************** /area_content_main **************** -->
+
+	<!-- /area_content --></div>
+	<!-- **************** /area_content **************** -->
+
+	<!-- **************** area_footer **************** -->
+	<div id="area_footer"><div class="area_footer_pad"><div class="area_footer_pad"><div class="area_footer_pad">
+		<div id="copyright">
+			<small>Copyright&copy; 2018 KINOTROPE, INC. All Rights Reserved.</small>
+		<!-- /copyright --></div>
+	<!-- /area_footer --></div></div></div></div>
+	<!-- **************** /area_footer **************** -->
+</form>
+</div>
+
+	<!-- **************** javascript **************** -->
+	<script type="text/javascript" src="/commoncms/js/loader.js"></script>
+	<script type="text/javascript" src="/commoncms/js/jquery.placeholder.min.js"></script>
+	<script type="text/javascript" src="/commoncms/js/jquery.validationEngine-ja.js"></script>
+	<script type="text/javascript" src="/commoncms/js/jquery.validationEngine.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#front_form").validationEngine('attach', {
+				promptPosition: 'topLeft',
+				addFailureCssClassToField: 'form_error',
+				validationEventTrigger: 'blur keyup change',
+				autoHidePrompt: true,
+				autoHideDelay: 2000,
+				fadeDuration: 0.1,
+				scrollOffset: 120,
+				maxErrorsPerField: 1
+			});
+		});
+		$(function(){
+			var finishFlag;
+			if($('input').is('*')) {
+				$(window).on('beforeunload',function(){
+					return('本当に移動してもよろしいですか？');
+				});
+			}
+			$('form').on('submit',function(){
+				$(window).off('beforeunload');
+			});
+		});
+	</script>
+	
+	<!-- **************** /javascript **************** -->
+
+</body>
+</html>

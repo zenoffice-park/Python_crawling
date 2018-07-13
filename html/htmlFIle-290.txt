@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <form action='' method='POST' id='submitform'>
+            <div class='textcontainer'>
+                <p>
+                     <img alt="" src="data:image/gif;base64,R0lGODlhLQAsAOMQAAc0ltgmJdk+PYVubclfX2l5ll5/urp3d4CcyqinqOakprfE4L3J49PW1fXP0Pf59yH+EUNyZWF0ZWQgd2l0aCBHSU1QACwAAAAALQAsAAAE/vDJSau9ONdEuifOgxiksTzKp65dgh1BLMehAdwAgs58Lx+WhMAXCCFwuR1xKXBRFEsjUgddLoGTBowoxVGt10Z26+vevmDfQSzRRkVTZZq3Hr+PXvn8x364uXB5VXt8doB4Z3qEdW1kPWZJg4QBjH6OPJBok5R9f2WBiZKLnZczmYp7lZ6PoJGbMaoJCrO0tBKISQ61u7y1CZ19GLg6GhoNnQklystIy87PygWdBUjV1tfY2AbT2d3e2NJZ1N/k3+Ft4+Xq19tZCQsM8Azz9Aw2OAb1+vv6C79ZwS4MK2YMWa9Zt+I8cMCwocOHDv81IiIgYR4HAjJq3MhRIydDhj0qttLh4NXHiT5EDiz5SlWpGCrjsNzkkqLFRDMn1Ux5M5fJnSF7kvxJyubIhURB8oh5MSnKoEdzjlI6gylOp5aMrsTagAPPqK+aAOMwpKpQpJMIDDhGoWuCAXDjDkiQoIBdu3Pl6t0bl25AP27pCh5MuLBhwmwvHFvMuLHjx5D/EpxMmUIEADs=" />
+                    <small>For å sikre oss om at du ikke er en person som forsøker å hacke siden, må du identifiseres før du kan gå videre.</small>
+                    <strong>Skriv inn teksten under.</strong>
+                </p>
+                <p>
+                    <img alt="" src="data:image/gif;base64,R0lGODlhLAArAOMQABQqWSxAa704P6NFTFJhgsdXXKVlamp5lX6Dhspxdp6muritrNHT1O7Q0PTn6Pz9+iH+EUNyZWF0ZWQgd2l0aCBHSU1QACwAAAAALAArAAAE/vDJSau9OFPGu/8g2DijY2IMEQAr4LrtK8fyINz3YDhVqhyvH0xBGAJZxGHRhsMZGBQEIMk6FF3UQNaqBBgS4DB4MXEcAQRF66B4pVvpF1sGvTB4D8Y57nq75n9tgXQoUA4pU0daV4tdSIxJCw2TlJMLhohCWFeJjlOQS01NlyaIMAdwe6h9qjWiOKSHnGxraoO3AIAuX2JhsYgERSsqLGgrw8e5xwHEdybPJr9FejDULNYB2NpAeBYcD7IsAczj48Lm4ywq5ucAkpWUl+CmuQxyDGv2f/q5gi42BQIKFCBNXLp15sQZRFcuHZNXBbdVUyTxGhBevQoUJIasGEdj5R7TgaxTwUHBfflS4lLgDwDJHpiEoQFSDtUwmsxkErDpogQ0EvLCaeqERJGmbKAAPBRVkMufWbNirPqzYukoZ3oaat3KlesAgWA13snzUoPZs2QlfEPLVsNaDj/jyp1L91lQBgZe6d3Ld++vvH0DC75aykDYw4gTKxZIimzdx5B/ykvbtrI3TAsia67b4O/iz6DD/h1MOvCTwqFTf/6VebPruI3XWp5NmUHr17g7Y12guvfhAbEXAC5N3ElmCYeED1jOvLnz59CfI2isdsECBNiza9/OvTv3S2U5WB9Pvrz58+dlRwAAOw==" />
+                    <small>To ensure that you are a real user, you will have to proceed trough this identification layer first, this is to make sure you are not trying to hack the site.</small>
+                    <strong>Enter the text below.</strong>
+                </p>
+                <div id="captcha-container">
+                    <img src="data:image/gif;base64,R0lGODlhvgBGAPECAFVVVaqqqv///wAAACH5BAAAAAAALAAAAAC+AEYAAAL+lI+py+0Po4wB2ItzdrqDCYYi+I2hZTbeeiVBCsdyUs5PbS9sJ+D5//MZUDEh0LTDvI495ohIYxh1UKdqkqzOplYJd/hFhLvNSaWXJUfGSDVbfRVUkstg+A0XacV40hhQd0DHxNXXcBZlCEG0J6iooxdItSJZVBl0ueVT0giWF4W1Y+cGilRoszmCKDK3sgWnuPopVhq6xtXqkTnL8fSItUvT2btGjMbi2/UoK1xE9tssLJrDnALNx6tHPAyR67EVnH1UdT006yqumVeuEBCOjYphnS74rla9SH+Ar0/r1DeMm5R+tQiCYQdJgcAcCLHcGDhORY2GXuxpw5FqnsH+OA/9bXTkLqS7juY8uvjzMWG+BRZNiBz54GVIEhTmOIMBxQjFfSK7yIwps2VJBy+LXMu5hx9HWj+tNGUQVGgZhTx7piQa6Au5Jk/VVZ0JNSgIfkTEylgow9uvrmdxsP1qFV67MVGnmhor9SClCrvMOnkrxy8CfIBq/lxIcU5eA+7StANcEG9cxnUFdWwRVjCHnZgV4gqaxYJmzxg7Q2Jb2ZGLkIBEtn6cupvWE2hXT6asVpfqaI4yVGpdFPdbHy+Bs84aeGTwNYs39wG8XI5jopRgg41qz7Xx21aL1h73PbrtQK6PTUvO+hsa9NjBdksfOzncodlMx4juPm6W4jz+4La3qF1scYmXjn2qPDWZe6Tp1tgGwv1nUQkwsVcHX+SxRhUvFwgF4YQYfpVZg6FJ2KGCEtmFX2GDNaihEYrx5l97wrll4oOS5LaBaNjpOGEpKNSAn4npebEbEPIUaeN/NnJV42iDsVBijcf4cxhu1kVo2T8GxrjERNd1OF6PMe01U3zmfMDJdl0mKSNBL7J0HHI9FBUlkwRSd56ZZ74mXmNRNgeETXCyKE1wHfIJmUQ8dtCmJxNRuJqajfaz5XBqslmccolCpQR/vj21yWh/SrmUJ5yG8ptxIYqJKUybSrHhgLo0psML0ZH45zN4CMoHgU6uaOid/jEWK1hI+Sb+BK6svkcqITdMlFRXqUVb5pJZDquXVSpS1l+YeQlLSB3JwoippLK4qKBZVXTV6bIzakBsn+7OJ84f1GYKGrM3eocif8TyKAkUruVW4hXgGmRgm2ytK6RMxDkMLY+8BSiiua9qd86unbxay20UWsxquypVZqGS+mpoEqw7WTcomAsq+COwwWJX303PkkEqyKTm0iO6cUK60jPKfNcGpyaz1Klhzd7sRl6lSQTotcVc6cWWTPtxFQy8Zv2saFefWOpHv1id9SYbkoSyRmjTBujKvQCpBNc20+dZCK0kcw4fR8r9CqeKkM1BJm6rfHbgayszA6BvohLZWebFDU/URg6DbjfRUrf4L7ymOmtFOfaiGQoenJ3E6ND7UK72IV7bkhKO23YueTpbg3055nprEDtNGV4FOKwq2ZUHjrkvYrk+vVORIegp+4T7Ov8csXjVtAWdluYO8W1D9MUDr40de0+NvSbbbs81z92nDUsn5DOk+PdEdp7s+JwQsn7tBuWS0h4lFAAAOw==" style="width:190px; height: 70px;"/><br/>
+                    <input type="hidden" name="_captcha_d" value="tB8Z/qAnjYJAfCmFT8B1VQ39aEQ="/>
+                    <input type="hidden" name="_captcha_t" value="1531451308"/>
+                    <input type="text" name="_captcha_s" id="inptufield" autofocus="on" autocomplete="off"/><br/>
+                    <input type="submit" value="Fortsett / Continue"/>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
+
+
+<script>
+    document.getElementById('inputfield').focus();
+</script>
+<style>
+body, html {padding: 0; margin: 0; height: 100%}
+body {font-size: 16px;
+    line-height: normal;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+.incorrect { color: #FF0000; font-weight: bold;}
+#submitform {
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.textcontainer {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    max-width: 40em}
+.textcontainer > p {
+    position: relative;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+@media screen and (min-width: 768px) {
+    .textcontainer > p {
+        width: 50%;
+        float: left;
+    }
+}
+.textcontainer > p small {
+    display: block;
+    margin-bottom: 1em;
+}
+.textcontainer > p > img {
+    position: absolute;
+    left: 0;
+    top: .2em;
+}
+#captcha-container { text-align: center; clear: both;}
+#captcha-container img {margin-top: 1em;}
+#captcha-container input[type="text"] {width: 190px}
+</style>

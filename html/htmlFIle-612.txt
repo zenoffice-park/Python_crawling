@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<title>PRESIDENT STORE (プレジデントストア)</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" href="/_common/css/style.css" />
+<!--[if lt IE 9]><script type="text/javascript" src="/_common/js/ie/html5shiv.js"></script><script type="text/javascript" src="/_common/js/ie/respond.min.js"></script><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/_common/css/ie7.css"><![endif]-->
+<script type="text/javascript" src="/_common/js/common-lib.min.js"></script>
+<script type="text/javascript" src="/_common/js/common.js"></script>
+<script type="text/javascript" src="/user_data/master/packages/default/js/win_op.js"></script>
+<script type="text/javascript" src="/user_data/master/packages/default/js/site.js"></script>
+<script type="text/javascript">
+
+</script>
+<script type="text/javascript" src="/_common/js/alog.js" charset="UTF-8" async></script>
+</head>
+<body id="" class="">
+<header id="header" class="navbar-fixed-top">
+
+<nav id="header-global" class="navbar" role="navigation">
+<div class="container">
+
+<div class="navbar-header">
+<a class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header .navbar-collapse">Menu <i class="icon-chevron-down"></i></a>
+<div class="navbar-brand"><a href="/">PRESIDENT STORE</a></div>
+</div>
+<!-- /.navbar-header -->
+
+<div class="collapse navbar-collapse">
+<aside class="pull-right">
+<a href="http://www.president.co.jp/" id="presidentinc" class="btn btn-primary"><i class="icon-home icon-large"></i> <span title="PRESIDENT Inc."></span></a>
+<a href="/cart/" class="btn btn-danger"><i class="icon-shopping-cart icon-2x"></i> <span class="badge baddge-important" id="cartCount"></span></a>
+<a href="#sidr" id="guide" class="btn btn-default"><i class="icon-question-sign icon-2x"></i> <small style="display:inline-block;line-height:1.4;">ご利用<br />ガイド</small> <i class="icon-double-angle-right"></i></a>
+</aside>
+<ul class="nav navbar-nav pull-left">
+<li class="yoyaku"><a href="/_w/yoyaku/"><span class="icon-truck icon-large"></span> <strong>雑誌の予約購読</strong></a></li>
+<li class="books"><a href="/"><span class="icon-book icon-large"></span> 書籍＆雑誌</a></li>
+</ul>
+</div>
+<!-- /.collapse -->
+
+</div>
+<!-- /.container -->
+</nav>
+<!-- /.navbar -->
+
+
+
+<nav id="header-site" class="navbar" role="navigation">
+<div class="container">
+
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav">
+<li class="book dropdown">
+<a href="/books/" class="dropdown-toggle" data-toggle="dropdown">書籍 <i class="caret"></i></a>
+<ul class="dropdown-menu">
+<li><a href="/books/" class="fz16"><i class="icon-book"></i> 書籍トップページ</a></li>
+<li><a href="/books/products/list.php?category_id=81" class="child">ビジネス</a></li>
+<li><a href="/books/products/list.php?category_id=82" class="child">人文・歴史・文芸</a></li>
+<li><a href="/books/products/list.php?category_id=83" class="child">政治・社会</a></li>
+<li><a href="/books/products/list.php?category_id=84" class="child">生活・実用・カルチャー</a></li>
+<li><a href="/books/products/list.php?category_id=85"><i class="icon-book"></i> ムック一覧</a></li>
+<li><a href="/books/products/list.php?category_id=86" class="child">プレジデント別冊・ムック</a></li>
+<li><a href="/books/products/list.php?category_id=88" class="child">dancyu別冊・ムック</a></li>
+<li><a href="/books/products/list.php?category_id=87" class="child">プレジデントファミリー別冊・ムック</a></li>
+<li><a href="/books/products/list.php?category_id=89" class="child">七緒別冊・ムック</a></li>
+<li><a href="/books/products/list.php?category_id=97" class="child">ALBA別冊・ムック</a></li>
+<li><a href="/books/products/list.php?category_id=132"><i class="icon-book"></i> 電子書籍一覧</a></li>
+</ul>
+</li>
+<li class="mag dropdown">
+<a href="/books/" class="dropdown-toggle" data-toggle="dropdown">雑誌バックナンバー <i class="caret"></i></a>
+<ul class="dropdown-menu">
+<li><a href="/books/products/list.php?category_id=23"><span class="label bg-president">No.1ビジネス誌</span> PRESIDENT</a></li>
+<li><a href="/books/products/list.php?category_id=26"><span class="label bg-dancyu">食を楽しむ</span> dancyu</a></li>
+<li><a href="/books/products/list.php?category_id=27"><span class="label bg-family">子育て・教育</span> Family</a></li>
+<li><a href="/books/products/list.php?category_id=237"><span class="label bg-woman">働く女性総合誌</span> WOMAN</a></li>
+<li><a href="/books/products/list.php?category_id=28"><span class="label bg-nanaoh">着物と暮らし</span> 七緒</a></li>
+<li><a href="/books/products/list.php?category_id=29"><span class="label bg-alba">ゴルフレッスン</span> ALBA</a></li>
+<li><a href="/books/products/list.php?category_id=75"><span class="label bg-regina">ゴルフライフスタイル</span> Regina</a></li>
+</ul>
+</li>
+<li class="dvd"><a href="/dvd/">DVD</a></li>
+<li class="kotencd"><a href="/kotencd/">古典CD</a></li>
+<li class="gourmetgift"><a href="/gourmetgift/">ギフトカタログ</a></li>
+<li class="cookware"><a href="/cookware/">料理道具</a></li>
+</ul>
+<script>
+  (function() {
+    var cx = '010089777245955050078:sngua4z_iey';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+  })();
+</script>
+<form id="cse-search-box" class="navbar-form navbar-right" method="get" action="/_w/search/">
+<input type="hidden" name="cx" value="010089777245955050078:sngua4z_iey" />
+<input type="hidden" name="ie" value="UTF-8" />
+<input type="text" name="q" id="q" autocomplete="on" class="form-control search-query" placeholder="キーワード検索" />
+<button type="submit" class="btn btn-black"><i class="icon-search icon-large"></i></button>
+</form>
+</div>
+<!-- /.collapse -->
+
+</div>
+<!-- /.container -->
+</nav>
+<!-- /.navbar -->
+
+
+
+<nav id="header-yoyaku" class="navbar">
+<div class="container">
+
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav">
+<li class="president"><a href="/president/"><span class="label bg-president">No.1ビジネス誌</span> PRESIDENT</a></li>
+<li class="dancyu"><a href="/dancyu/"><span class="label bg-dancyu">食を楽しむ</span> dancyu</a></li>
+<li class="family"><a href="/family/"><span class="label bg-family">子育て・教育</span> Family</a></li>
+<li class="woman"><a href="/woman/"><span class="label bg-woman">働く女性総合誌</span> WOMAN</a></li>
+<li class="nanaoh"><a href="/nanaoh/"><span class="label bg-nanaoh">着物と暮らし</span> 七緒</a></li>
+<li class="alba"><a href="/alba/"><span class="label bg-alba">ゴルフレッスン</span> ALBA</a></li>
+</ul>
+</div>
+<!-- /.collapse -->
+
+</div>
+<!-- /.container -->
+</nav>
+<!-- /.navbar -->
+
+
+</header>
+<!-- /#header -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="main">
+<div class="container">
+
+
+
+<!--▼CONTENTS-->
+<div id="undercolumn">
+
+  <div id="undercolumn_contact">
+    <h2 class="title"><img src="/user_data/packages/default/img/contact/title.jpg" alt="お問い合わせ" /></h2>
+
+    <p>お問い合わせはメールにて承っています。<br />
+    内容によっては回答をさしあげるのにお時間をいただくこともございます。また、土日、祝祭日、年末年始、夏季期間は翌営業日以降の対応となりますのでご了承ください。</p>
+
+    <p class="mini"><em>※ご注文に関するお問い合わせには、必ず「ご注文番号」と「お名前」をご記入の上、メールくださいますようお願いいたします。</em></p>
+
+    <form name="form1" method="post" action="/contact/index.php">
+    <input type="hidden" name="mode" value="confirm" />
+
+    <table summary="お問い合わせ">
+      <tr>
+        <th>お名前<span class="attention">※</span></th>
+        <td>
+          <span class="attention"></span>
+          姓&nbsp;<input type="text"
+                         class="box120"
+                         name="name01"
+                         value=""
+                         maxlength="50"
+                         style="; ime-mode: active;" />　
+          名&nbsp;<input type="text" class="box120" name="name02"
+                         value=""
+                         maxlength="50"
+                         style="; ime-mode: active;" />
+        </td>
+      </tr>
+      <tr>
+        <th>お名前（フリガナ）<span class="attention">※</span></th>
+        <td>
+          <span class="attention"></span>
+          セイ&nbsp;<input type="text"
+                           class="box120"
+                           name="kana01"
+                           value=""
+                           maxlength="50"
+                           style="; ime-mode: active;" />　
+          メイ&nbsp;<input type="text"
+                           class="box120"
+                           name="kana02"
+                           value=""
+                           maxlength="50"
+                           style="; ime-mode: active;" />
+        </td>
+      </tr>
+      <tr>
+        <th>郵便番号</th>
+        <td>
+          <span class="attention"></span>
+          <p>
+            〒&nbsp;
+            <input type="text"
+                   name="zip01"
+                   class="box60"
+                   value=""
+                   maxlength="3"
+                   style="; ime-mode: disabled;" />&nbsp;-&nbsp;
+            <input type="text"
+                   name="zip02"
+                   class="box60"
+                   value=""
+                   maxlength="4"
+                   style="; ime-mode: disabled;" />　
+            <a href="http://search.post.japanpost.jp/zipcode/" target="_blank"><span class="fs12">郵便番号検索</span></a>
+          </p>
+          <p class="zipimg">
+            <a href="javascript:fnCallAddress('/input_zip.php', 'zip01', 'zip02', 'pref', 'addr01');">
+              <img src="/user_data/packages/default/img/common/address.gif" width="86" height="20" alt="住所自動入力" /></a>
+            <span class="mini">&nbsp;郵便番号を入力後、クリックしてください。</span>
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <th>住所</th>
+        <td>
+          <span class="attention"></span>
+
+          <select name="pref" style="">
+          <option value="">都道府県を選択</option>
+          <option label="北海道" value="1">北海道</option>
+<option label="青森県" value="2">青森県</option>
+<option label="岩手県" value="3">岩手県</option>
+<option label="宮城県" value="4">宮城県</option>
+<option label="秋田県" value="5">秋田県</option>
+<option label="山形県" value="6">山形県</option>
+<option label="福島県" value="7">福島県</option>
+<option label="茨城県" value="8">茨城県</option>
+<option label="栃木県" value="9">栃木県</option>
+<option label="群馬県" value="10">群馬県</option>
+<option label="埼玉県" value="11">埼玉県</option>
+<option label="千葉県" value="12">千葉県</option>
+<option label="東京都" value="13">東京都</option>
+<option label="神奈川県" value="14">神奈川県</option>
+<option label="新潟県" value="15">新潟県</option>
+<option label="富山県" value="16">富山県</option>
+<option label="石川県" value="17">石川県</option>
+<option label="福井県" value="18">福井県</option>
+<option label="山梨県" value="19">山梨県</option>
+<option label="長野県" value="20">長野県</option>
+<option label="岐阜県" value="21">岐阜県</option>
+<option label="静岡県" value="22">静岡県</option>
+<option label="愛知県" value="23">愛知県</option>
+<option label="三重県" value="24">三重県</option>
+<option label="滋賀県" value="25">滋賀県</option>
+<option label="京都府" value="26">京都府</option>
+<option label="大阪府" value="27">大阪府</option>
+<option label="兵庫県" value="28">兵庫県</option>
+<option label="奈良県" value="29">奈良県</option>
+<option label="和歌山県" value="30">和歌山県</option>
+<option label="鳥取県" value="31">鳥取県</option>
+<option label="島根県" value="32">島根県</option>
+<option label="岡山県" value="33">岡山県</option>
+<option label="広島県" value="34">広島県</option>
+<option label="山口県" value="35">山口県</option>
+<option label="徳島県" value="36">徳島県</option>
+<option label="香川県" value="37">香川県</option>
+<option label="愛媛県" value="38">愛媛県</option>
+<option label="高知県" value="39">高知県</option>
+<option label="福岡県" value="40">福岡県</option>
+<option label="佐賀県" value="41">佐賀県</option>
+<option label="長崎県" value="42">長崎県</option>
+<option label="熊本県" value="43">熊本県</option>
+<option label="大分県" value="44">大分県</option>
+<option label="宮崎県" value="45">宮崎県</option>
+<option label="鹿児島県" value="46">鹿児島県</option>
+<option label="沖縄県" value="47">沖縄県</option>
+
+          </select>
+
+          <p class="mini">
+            <input type="text"
+                   class="box380"
+                   name="addr01"
+                   value=""
+                   style="; ime-mode: active;" /><br />
+            市区町村名（例：千代田区神田神保町）
+          </p>
+
+          <p class="mini">
+            <input type="text"
+                   class="box380"
+                   name="addr02"
+                   value=""
+                   style="; ime-mode: active;" /><br />
+            番地・ビル名（例：1-3-5）
+          </p>
+
+          <p class="mini"><em>住所は2つに分けてご記入いただけます。マンション名は必ず記入してください。</em></p>
+        </td>
+      </tr>
+      <tr>
+        <th>電話番号</th>
+        <td>
+          <span class="attention"></span>
+          <input type="text"
+                 class="box60"
+                 name="tel01"
+                 value=""
+                 maxlength="6"
+                 style="; ime-mode: disabled;" />&nbsp;-&nbsp;
+          <input type="text"
+                 class="box60"
+                 name="tel02"
+                 value=""
+                 maxlength="6"
+                 style="; ime-mode: disabled;" />&nbsp;-&nbsp;
+          <input type="text"
+                 class="box60"
+                 name="tel03"
+                 value=""
+                 maxlength="6"
+                 style="; ime-mode: disabled;" />
+        </td>
+      </tr>
+      <tr>
+        <th>メールアドレス<span class="attention">※</span></th>
+        <td>
+          <span class="attention"></span>
+          <input type="text"
+                 class="box380"
+                 name="email"
+                 value=""
+                 maxlength="200"
+                 style="; ime-mode: disabled;" /><br />
+                              <input type="text"
+                 class="box380"
+                 name="email02"
+                 value=""
+                 maxlength="200"
+                 style="; ime-mode: disabled;" /><br />
+          <p class="mini"><em>確認のため2度入力してください。</em></p>
+        </td>
+      </tr>
+      <tr>
+        <th>お問い合わせ内容<span class="attention">※</span><br />
+        <span class="mini">（全角1000字以下）</span></th>
+        <td>
+          <span class="attention"></span>
+          <textarea name="contents"
+                    class="area380"
+                    cols="60"
+                    rows="20"
+                    style="; ime-mode: active;"></textarea>
+        </td>
+      </tr>
+    </table>
+
+    <div class="tblareabtn text-center pt20">
+      <input type="image"
+             onmouseover="chgImgImageSubmit('/user_data/packages/default/img/common/b_confirm_on.gif', this)"
+             onmouseout="chgImgImageSubmit('/user_data/packages/default/img/common/b_confirm.gif', this)"
+             src="/user_data/packages/default/img/common/b_confirm.gif"
+             style="width:150px; height=30px;"
+             alt="確認ページへ"
+             name="confirm" />
+    </div>
+    </form>
+  </div>
+</div>
+<!--▲CONTENTS-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<!-- /.container -->
+</div>
+<!-- /#main -->
+
+
+<div id="sidr">
+<button class="close"><i class="icon-remove"></i></button>
+<h2 class="clear"><i class="icon-question-sign"></i> PRESIDENT STOREご利用ガイド<br>
+<span class="fz13 ml30">対象：書籍・雑誌バックナンバー・DVD・古典CD</span><br>
+<small class="indent1 ml30 mt5" style="display:block;">※雑誌の予約販売・ギフトカタログ・料理道具は各サイト内の案内をご確認ください。</small>
+</h2>
+<h3><i class="icon-yen"></i> お支払方法について</h3>
+<h4><i class="icon-exchange"></i> 代金引換の場合</h4>
+<ul>
+<li>送料は一回のご注文につき 420 円（税込）です。</li>
+<li>ヤマト運輸の宅急便でお届けします。</li>
+<li>代引手数料は一回のご注文につき 400 円です。お届けした際に書籍代・送料に加えてお支払いください。</li>
+<li>当日15時までにご注文いただいたものは原則当日発送いたします。（在庫などの条件により変わります）</li>
+</ul>
+<h4><i class="icon-credit-card"></i> クレジットカードの場合</h4>
+<ul>
+<li>VISA・MASTER・JCB・AMEX・DINERSカードがご使用になれます。</li>
+<li>送料は一回のご注文につき 420 円（税込）です。 3,000 円以上ご注文いただいた場合、送料無料となります。</li>
+<li>一括払いのみになります。</li>
+<li>書籍・雑誌のご注文の場合、ヤマト運輸ネコポス便または宅急便でのお届けとなります。ネコポス便はポスト投函方式となります。</li>
+<li>2冊以上ご注文の場合、ヤマト運輸宅急便でのお届けとなります。</li>
+<li>お客様宛てのカード利用明細では「プレジデント社オンラインストア」のサービス名にてご請求させていただきます。</li>
+<li>弊社サイトのクレジット決済サービスは、GMOペイメントゲートウェイ（株）のオンラインクレジット決済システムを採用しています。弊社では、お客様のクレジットカードに関する情報は保管しません。お客様のクレジット番号送信時にはSSL（Secure Socket Layer）という高度な暗号化技術を使用し通信を行なっております。お客様のプライバシーは確保されておりますので、安心してお申し込みください。</li>
+</ul>
+
+<p>
+※一部商品については増税前の税込価格となっており、商品に印字されている価格と実際の販売価格が異なる場合がございます。何卒ご了承ください。
+</p>
+
+<h3><i class="icon-truck"></i> 本のお届けについて</h3>
+
+
+<ul>
+<li>当日15時までにご注文いただいたものは原則、本州・四国は翌日、北海道・九州・沖縄は翌々日、離島は3～4日後のお届けとなります。また、複数の書籍をご注文の場合、在庫状況により、3～4日を要することがあります。</li>
+<li class="text-warning">ご注文冊数が 1 冊で、カードでのお支払いの場合はヤマト運輸のネコポス便または宅急便でのお届けとなります。ネコポス便はポスト投函方式となります。</li>
+<li>2冊以上ご注文の場合、ヤマト運輸宅急便でのお届けとなります。</li>
+<li>お申し込み時間や地域の問題がなく、お届けが遅れた場合は、 注文受付センターまでご確認ください。 （注文受付センター TEL : 0120-489-612）<br />
+<span class="text-danger">※土日・祝祭日の出庫はしておりません。ご注意ください。</span>
+</li>
+</ul>
+
+</div>
+<!-- /#sidr -->
+
+
+
+<footer id="footer">
+
+<nav id="footer-site" class="navbar">
+<div class="container">
+<ul class="nav nav-pills">
+<li><a href="http://www.president.co.jp/"><i class="icon-home icon-large"></i> プレジデント</a></li>
+<li><a href="https://secure.president.co.jp/cgi-bin/info/contact/sales/info" target="_blank">お問合せ</a></li>
+<li><a href="http://www.president.co.jp/information/company/">会社概要</a></li>
+<li><a href="http://www.president.co.jp/information/privacy/">個人情報の取り扱い</a></li>
+<li><a href="http://www.president.co.jp/information/leagal/">特定商取引法に基づく表示</a></li>
+<li><a href="http://www.president.co.jp/information/retail/">商品のご購入</a></li>
+</ul>
+<address>Copyright &copy; 2013 PRESIDENT inc. All rights reserved.</address>
+</div>
+<!-- .container -->
+</nav>
+<!-- /.navbar -->
+
+
+<nav id="footer-extra" class="navbar navbar-fixed-bottom" role="navigation">
+<div class="container">
+<div class="tickers">
+<ul id="ticker">
+</ul>
+</div>
+
+</div>
+<!-- .container -->
+</nav>
+<!-- /.navbar -->
+
+
+</footer>
+<!-- /#footer -->
+
+
+<div id="modal-remote" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"></div>
+<!-- /.modal -->
+
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PTFFGQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PTFFGQ');</script>
+<!-- End Google Tag Manager -->
+
+
+
+<script type="text/javascript">
+piAId = '185832';
+piCId = '1192';
+
+(function() {
+ function async_load(){
+  var s = document.createElement('script'); s.type = 'text/javascript';
+  s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+  var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+ }
+ if(window.attachEvent) { window.attachEvent('onload', async_load); }
+ else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+
+
+</body></html>

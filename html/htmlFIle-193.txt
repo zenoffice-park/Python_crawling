@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Cape Heights</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,900" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<link rel="icon" href="http://capeheights.com/media/favicon/stores/10/cape-heights_1.png" type="image/x-icon"/>
+<link rel="shortcut icon" href="http://capeheights.com/media/favicon/stores/10/cape-heights_1.png" type="image/x-icon"/>
+</head>
+
+
+<body>
+
+
+<!--Menu Button-->
+<div class="buttonholder">
+<div class="animated bar topbar"></div>
+<div class="animated bar bottombar"></div>
+</div>
+<!---->
+
+<!-- Menu --> 
+<div class="menuholder closed">
+<!--Logo-->
+<div class="logo2">
+<object type="image/svg+xml" data="svg/cape-heights-logo2.svg" class="logo">
+</object>
+</div>
+<script>
+$(document).ready(function() {
+$(".buttonholder").click(function () {
+  if ( $(".menuholder").width() == 0 ) {
+$(".menuholder").removeClass('closed').addClass('open');
+$('.topbar').removeClass('topbar').addClass('rotate1');
+$('.bottombar').removeClass('bottombar').addClass('rotate2');
+$(".outerfooterholder").removeClass('outerfooterholder').addClass('outerfooterholderopen');
+  }else{
+$(".menuholder").removeClass('open').addClass('closed');
+$('.rotate1').removeClass('rotate1').addClass('topbar');
+$('.rotate2').removeClass('rotate2').addClass('bottombar');
+$(".outerfooterholderopen").removeClass('outerfooterholderopen').addClass('outerfooterholder');
+}});});
+</script>
+<div class="menuinner">
+<div class="introbox">
+<br><br>
+Founded in 1990 in Hudson, Massachusetts, Cape Heights has been providing innovative outerwear for more than 30 years.
+ <br><br>
+With Cape Heights, there is no need to sacrifice style for warmth and comfort. We find inspiration in the extreme climates of New England with outerwear that encourages exploration and adventure.<br>
+<br>
+</div>
+<span class="hideonmobile">
+<a href="https://www.facebook.com/CapeHeights/" target="_blank" class="menulink" id="">Facebook</a>
+<a href="https://www.instagram.com/capeheights/" target="_blank" class="menulink" id="">Instagram</a>
+<a href="https://twitter.com/capeheights?lang=en" target="_blank" class="menulink" id="">Twitter</a>
+</span>
+<a href="mailto:info@capeheights.com?Subject=Cape%20Heights%20Contact" target="_top" class="menulink" id="">Contact</a>
+<div id="stockistsshow" style="display:block;margin: 10px 0 0 0;color: #233e88;cursor:pointer;">Stockists <span style="font-size:20px;position:absolute;margin-left:4px;">+</span></div>
+<div id="stockistshide" style="display:none;margin: 10px 0 0 0;color: #233e88;cursor:pointer;">Stockists <span style="font-size:20px;position:absolute;margin-left:4px;margin-top:0;">-</span></div>
+
+
+
+<script>
+$(document).ready(function(){
+    $("#stockistsshow").click(function(){
+        $(".stockists").show();
+		$("#stockistsshow").hide();
+		$("#stockistshide").show();
+    });
+    $("#stockistshide").click(function(){
+        $(".stockists").hide();
+		$("#stockistshide").hide();
+		$("#stockistsshow").show();
+    });
+});
+</script>
+
+<div class="stockists">
+<br><br>
+UK<br><br>
+<a href="https://18montrose.com/" target="_blank" class="menulink2" id="">18montrose</a><br>
+6-8 Stable St, London, UK<br>
+58 Bridlesmith Gate, Nottingham, UK<br>
+18 Montrose St, Glasgow, UK<br><br>
+<a href="https://www.academyandco.com/" target="_blank" class="menulink2" id="">Academy</a><br>
+Lifeboat Hill, St Ives, UK<br><br>
+<a href="https://www.couvertureandthegarbstore.com/" target="_blank" class="menulink2" id="">Garbstore</a><br>
+188 Kensington Park Rd, London, UK<br><br>
+<a href="http://www.owlstore.co.uk/" target="_blank" class="menulink2" id="">Owl</a><br>
+6 Montpellier Gardens, Harrogate, UK<br><br>
+<a href="https://psyche.co.uk/" target="_blank" class="menulink2" id="">Psyche Ltd</a><br>
+175-187 Linthorpe Rd, Middlesborough, UK<br><br>
+<a href="https://www.urbanexcess.com/" target="_blank" class="menulink2" id="">Urban Excess</a><br>
+61 Atlantic Rd, London, UK<br><br>
+	<a href="http://www.peggsandson.com/" target="_blank" class="menulink2" id="">Peggs & Sons</a><br>
+39 Duke St, Brighton, UK<br><br>
+	<a href="https://present-london.com/" target="_blank" class="menulink2" id="">Present</a><br>
+140 Shoreditch High St, London, UK<br><br>
+	<a href="https://www.manifesto-clothing.co.uk/" target="_blank" class="menulink2" id="">Manifesto</a><br>
+78 Commerical St, Dundee, UK<br><br>
+	<a href="https://www.thehipstore.co.uk/" target="_blank" class="menulink2" id="">The Hip Store</a><br>
+84-86 Vicar Lane, Leeds, UK
+<br><br><br>
+CANADA<br><br>
+	<a href="https://parkprovince.com/" target="_blank" class="menulink2" id="">Park & Province</a><br>
+927 Queen St W, Toronto, CA
+<br><br><br>
+USA<br><br>
+	<a href="https://modernanthology.com/" target="_blank" class="menulink2" id="">Modern Anthology</a><br>
+123 Smith St, New York, US
+	<br><br><br>
+JAPAN<br><br>
+	<a href="http://www.americanragcie.co.jp/store/" target="_blank" class="menulink2" id="">American Rag Cie</a><br>
+<a href="http://www.arknets.co.jp/" target="_blank" class="menulink2" id="">Ark Standard</a><br>
+	<a href="http://www.baybrook.co.jp/shop/" target="_blank" class="menulink2" id="">Baybrook</a><br>
+	<a href="https://www.beams.co.jp/shop/" target="_blank" class="menulink2" id="">Beams Lights</a><br>
+	<a href="http://www.captainshelm.jp/shop-info/" target="_blank" class="menulink2" id="">Captains Helm</a><br>
+	<a href="https://www.palcloset.jp/addons/pal/shoplist/?b=ciaopanic" target="_blank" class="menulink2" id="">Ciaopanic</a><br>
+	<a href="http://www.jeansfactory.jp/pc/pc_shoplist.html" target="_blank" class="menulink2" id="">Jeans Factory</a><br>
+	<a href="http://www.arknets.co.jp/top.html?condition=SHOP:A15" target="_blank" class="menulink2" id="">Pier Lounge</a><br>
+	<a href="http://rhc.ronherman.jp/store.php" target="_blank" class="menulink2" id="">RHC</a><br>
+	<a href="https://www.palcloset.jp/addons/pal/shoplist/?b=rivedroite" target="_blank" class="menulink2" id="">Rive Droite</a><br>
+	<a href="https://baycrews.jp/store/list?shop=0284" target="_blank" class="menulink2" id="">Spick & Span</a><br>
+	<a href="http://www.styles-tokyo.jp/shop-info/" target="_blank" class="menulink2" id="">Styles</a><br>
+	<a href="https://www.todaysspecial.jp/shop/" target="_blank" class="menulink2" id="">Today's Special</a><br>
+	<a href="http://www.urban-research.co.jp/shop_cat/store13/" target="_blank" class="menulink2" id="">Urban Research Sunny Label</a><br>
+<br><br><br>
+</div>
+
+<!-- Desktop Newsletter -->
+<div style="height:80px;"></div>
+<div style="position:relative; margin:60px 0 40px 0;">
+<span class="hideonmobile">
+<div class="newsletter">
+<!-- Begin MailChimp Signup Form -->
+<div id="mc_embed_signup">
+<form action="//capeheights.us13.list-manage.com/subscribe/post?u=098098e2a8ee6f826714a612f&amp;id=4c038362dc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+
+
+<div class="mc-field-group">
+	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Join our mailing list...">
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_098098e2a8ee6f826714a612f_4c038362dc" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Sign up" name="subscribe" id="mc-embedded-subscribe" class="mobileenterbutton">
+    
+    </div><br><br><br>
+    
+
+    
+<!--    
+    <div class="mc-field-group input-group regions">
+<input type="radio" value="1" name="group[5701]" id="mce-group[5701]-5701-0" class="regions"><label for="mce-group[5701]-5701-0" class="regions">US/CA&nbsp;&nbsp;</label>
+<input type="radio" value="2" name="group[5701]" id="mce-group[5701]-5701-1" class="regions"><label for="mce-group[5701]-5701-1" class="regions">UK&nbsp;&nbsp;</label>
+<input type="radio" value="4" name="group[5701]" id="mce-group[5701]-5701-2" class="regions"><label for="mce-group[5701]-5701-2" class="regions">EU&nbsp;&nbsp;</label>
+<input type="radio" value="8" name="group[5701]" id="mce-group[5701]-5701-3" class="regions"><label for="mce-group[5701]-5701-3" class="regions">Other</label>
+</div>
+-->
+    </div>
+
+</form>
+</div>
+
+<!--End mc_embed_signup-->
+</div>
+</span>
+</div>
+</div>
+</div>
+<!---->
+
+<!--Logo-->
+<div class="logo">
+<object type="image/svg+xml" data="svg/cape-heights-logo2.svg" class="logo">
+</object>
+</div>
+<!---->
+
+<!--Desktop Slides-->
+<span id="dtimages">
+<img src="dt-img-orig/desktop-1-compressor.jpg" class="slides" alt=""/>
+<img src="dt-img-orig/desktop-2-3-compressor.jpg" class="slides" alt=""/>
+<img src="dt-img-orig/desktop-4-5-compressor.jpg" class="slides" alt=""/>
+<img src="dt-img-orig/desktop-6-7-compressor.jpg" class="slides" alt=""/>
+<img src="dt-img-orig/desktop-8-9-compressor.jpg" class="slides" alt=""/>
+<img src="dt-img-orig/desktop-10-11-compressor.jpg" class="slides" alt=""/>
+<img src="dt-img-orig/desktop-12-13-compressor.jpg" class="slides" alt=""/>
+</span>
+<!---->
+
+<!--Mobile Slides-->
+<span id="mbimages">
+<div style="overflow:hidden;">
+<img src="mb-img-orig/mobile-1-compressor.jpg" class="slides" style="width:124%;margin-left:-6vw;" alt=""/>
+</div>
+<img src="mb-img-orig/mobile-2-compressor.jpg" class="slides" alt=""/>
+<img src="mb-img-orig/mobile-3-compressor.jpg" class="slides" alt=""/>
+<img src="mb-img-orig/mobile-4-compressor.jpg" class="slides" alt=""/>
+<img src="mb-img-orig/mobile-5-compressor.jpg" class="slides" alt=""/>
+<img src="mb-img-orig/mobile-6-compressor.jpg" class="slides" alt=""/>
+<img src="mb-img-orig/mobile-7-compressor.jpg" class="slides" alt=""/>
+<img src="mb-img-orig/mobile-8-compressor.jpg" class="slides" alt=""/>
+<img src="mb-img-orig/mobile-9-compressor.jpg" class="slides" alt=""/>
+<img src="mb-img-orig/mobile-10-compressor.jpg" class="slides" alt=""/>
+<img src="mb-img-orig/mobile-11-compressor.jpg" class="slides" alt=""/>
+<img src="mb-img-orig/mobile-12-compressor.jpg" class="slides" alt=""/>
+<img src="mb-img-orig/mobile-13-compressor.jpg" class="slides" alt=""/>
+</span>
+<!---->
+
+<!--Footer-->
+<div class="footer">
+<div class="left">
+&copy;2018 capeheights.com
+</div>
+</div>
+<!---->
+
+</body>
+</html>

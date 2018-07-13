@@ -1,0 +1,1322 @@
+<!DOCTYPE html><html lang="ja-JP" prefix="og: http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">	<head>				<meta charset="utf-8"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"XQ4AUV9XGwIBU1dWBwQH"};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script>		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, shrink-to-fit=no">			<title>美髪サプリメントヘアフィニティー |HairFinity Japan</title>		<link rel="shortcut icon" href="/favicon.ico" />		<link rel="alternate" type="application/rss+xml" title="Official JP Hairfinity Online Store &raquo; RSS Feed" href="http://www.hairfinity.com/jp/ja/feed/" />
+<!-- This site is optimized with the Yoast SEO plugin v7.5.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="Hairfinityで体の中から美髪を作ろう。ヘアフィニティーは健康な髪の発育に特化してビタミンを調合。自然素材由来のサプリメントです。"/>
+<link rel="canonical" href="http://www.hairfinity.com/jp/ja/" />
+<link rel="publisher" href="https://plus.google.com/+hairfinity/posts"/>
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="美髪サプリメントヘアフィニティー |HairFinity Japan" />
+<meta property="og:description" content="Hairfinityで体の中から美髪を作ろう。ヘアフィニティーは健康な髪の発育に特化してビタミンを調合。自然素材由来のサプリメントです。" />
+<meta property="og:url" content="http://www.hairfinity.com/jp/ja/" />
+<meta property="og:site_name" content="Official JP Hairfinity Online Store" />
+<meta property="fb:app_id" content="690943631011911" />
+<meta property="og:image" content="https://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/6/2015/06/FBshare-image2-11.jpg" />
+<meta property="og:image:secure_url" content="https://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/6/2015/06/FBshare-image2-11.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Hairfinityで体の中から美髪を作ろう。ヘアフィニティーは健康な髪の発育に特化してビタミンを調合。自然素材由来のサプリメントです。" />
+<meta name="twitter:title" content="美髪サプリメントヘアフィニティー |HairFinity Japan" />
+<meta name="twitter:site" content="@hairfinity" />
+<meta name="twitter:image" content="https://s3.amazonaws.com/hairfinity/IMAGES/twitter3.jpg" />
+<meta name="twitter:creator" content="@hairfinity" />
+<script type='application/ld+json'>{"@context":"https:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/www.hairfinity.com\/jp\/ja\/","name":"Official JP Hairfinity Online Store","potentialAction":{"@type":"SearchAction","target":"http:\/\/www.hairfinity.com\/jp\/ja\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<meta name="google-site-verification" content="OFFpZfRZmzg7EeYAHq5ffGr2SB7dJ3rrZ_5znGMOphw" />
+<meta name="p:domain_verify" content="ede0fec6bd0cfe72b22e730dc0dd8bd0" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//maps.googleapis.com' />
+<link rel='dns-prefetch' href='//vjs.zencdn.net' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//js.maxmind.com' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+        <style type="text/css">
+            #wpadminbar #wp-admin-bar-my-networks > .ab-item:first-child:before {
+                content: "\f325";
+                top: 3px;
+            }
+        </style>
+        <link rel='stylesheet' id='simplemap-map-style-css'  href='http://www.hairfinity.com/wp-content/plugins/simplemap/inc/styles/light.css?ver=4.9.6' type='text/css' media='all' />
+<link rel='stylesheet' id='video-js-css-css'  href='http://vjs.zencdn.net/5.8.0/video-js.css?ver=4.9.6' type='text/css' media='all' />
+<link rel='stylesheet' id='fa-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=4.9.6' type='text/css' media='all' />
+<link rel='stylesheet' id='hairfinity-css-css'  href='http://www.hairfinity.com/static/css/hairfinity-local.css' type='text/css' media='all' />
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js?ver=4.9.6'></script>
+<script type='text/javascript' src='http://www.hairfinity.com/jp?simplemap-master-js=1&#038;smpid=5&#038;ver=4.9.6'></script>
+<script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?key&#038;v=3&#038;language=en&#038;region=US&#038;ver=4.9.6'></script>
+<link rel='https://api.w.org/' href='http://www.hairfinity.com/jp/wp-json/' />
+<link rel='shortlink' href='http://www.hairfinity.com/jp/' />
+<link rel="alternate" type="application/json+oembed" href="http://www.hairfinity.com/jp/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.hairfinity.com%2Fjp%2Fja%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.hairfinity.com/jp/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.hairfinity.com%2Fjp%2Fja%2F&#038;format=xml" />
+<link rel="alternate" href="http://www.hairfinity.com/us/en/" hreflang="x-default">
+<link rel="alternate" href="http://www.hairfinity.com/us/en/" hreflang="en-US">
+<link rel="alternate" href="http://www.hairfinity.com/us/es/" hreflang="es-US">
+<link rel="alternate" href="http://www.hairfinity.com/uk/en/" hreflang="en-GB">
+<link rel="alternate" href="http://www.hairfinity.com/sa/ar/" hreflang="ar-SA">
+<link rel="alternate" href="http://www.hairfinity.com/sa/en/" hreflang="en-SA">
+<link rel="alternate" href="http://www.hairfinity.com/ca/en/" hreflang="en-CA">
+<link rel="alternate" href="http://www.hairfinity.com/ca/fr/" hreflang="fr-CA">
+<link rel="alternate" href="http://www.hairfinity.com/au/en/" hreflang="en-AU">
+<link rel="alternate" href="http://www.hairfinity.com/ie/en/" hreflang="en-IE">
+<link rel="alternate" href="http://www.hairfinity.com/za/en/" hreflang="en-ZA">
+<link rel="alternate" href="http://www.hairfinity.com/nz/en/" hreflang="en-NZ">
+<link rel="alternate" href="http://www.hairfinity.com/mx/es/" hreflang="es-MX">
+<link rel="alternate" href="http://www.hairfinity.com/mx/en/" hreflang="en-MX">
+<link rel="alternate" href="http://www.hairfinity.com/co/es/" hreflang="es-CO">
+<link rel="alternate" href="http://www.hairfinity.com/co/en/" hreflang="en-CO">
+<link rel="alternate" href="http://www.hairfinity.com/spain/es/" hreflang="es-ES">
+<link rel="alternate" href="http://www.hairfinity.com/spain/en/" hreflang="en-ES">
+<link rel="alternate" href="http://www.hairfinity.com/fr/fr/" hreflang="fr-FR">
+<link rel="alternate" href="http://www.hairfinity.com/fr/en/" hreflang="en-FR">
+<link rel="alternate" href="http://www.hairfinity.com/qa/ar/" hreflang="ar-QA">
+<link rel="alternate" href="http://www.hairfinity.com/qa/en/" hreflang="en-QA">
+<link rel="alternate" href="http://www.hairfinity.com/ae/ar/" hreflang="ar-AE">
+<link rel="alternate" href="http://www.hairfinity.com/ae/en/" hreflang="en-AE">
+<link rel="alternate" href="http://www.hairfinity.com/af/en/" hreflang="en-AF">
+<link rel="alternate" href="http://www.hairfinity.com/br/pt/" hreflang="pt-BR">
+<link rel="alternate" href="http://www.hairfinity.com/br/en/" hreflang="en-BR">
+<link rel="alternate" href="http://www.hairfinity.com/ch/de/" hreflang="de-CH">
+<link rel="alternate" href="http://www.hairfinity.com/ch/en/" hreflang="en-CH">
+<link rel="alternate" href="http://www.hairfinity.com/ch/fr/" hreflang="fr-CH">
+<link rel="alternate" href="http://www.hairfinity.com/ch/it/" hreflang="it-CH">
+<link rel="alternate" href="http://www.hairfinity.com/bh/ar/" hreflang="ar-BH">
+<link rel="alternate" href="http://www.hairfinity.com/bh/en/" hreflang="en-BH">
+<link rel="alternate" href="http://www.hairfinity.com/om/ar/" hreflang="ar-OM">
+<link rel="alternate" href="http://www.hairfinity.com/om/en/" hreflang="en-OM">
+<link rel="alternate" href="http://www.hairfinity.com/kw/ar/" hreflang="ar-KW">
+<link rel="alternate" href="http://www.hairfinity.com/kw/en/" hreflang="en-KW">
+<link rel="alternate" href="http://www.hairfinity.com/be/nl/" hreflang="nl-BE">
+<link rel="alternate" href="http://www.hairfinity.com/be/en/" hreflang="en-BE">
+<link rel="alternate" href="http://www.hairfinity.com/be/fr/" hreflang="fr-BE">
+<link rel="alternate" href="http://www.hairfinity.com/de/de/" hreflang="de-DE">
+<link rel="alternate" href="http://www.hairfinity.com/de/en/" hreflang="en-DE">
+<link rel="alternate" href="http://www.hairfinity.com/at/de/" hreflang="de-AT">
+<link rel="alternate" href="http://www.hairfinity.com/at/en/" hreflang="en-AT">
+<link rel="alternate" href="http://www.hairfinity.com/ua/ru/" hreflang="ru-UA">
+<link rel="alternate" href="http://www.hairfinity.com/ua/en/" hreflang="en-UA">
+<link rel="alternate" href="http://www.hairfinity.com/ru/ru/" hreflang="ru-RU">
+<link rel="alternate" href="http://www.hairfinity.com/ru/en/" hreflang="en-RU">
+<link rel="alternate" href="http://www.hairfinity.com/nl/nl/" hreflang="nl-NL">
+<link rel="alternate" href="http://www.hairfinity.com/nl/en/" hreflang="en-NL">
+<link rel="alternate" href="http://www.hairfinity.com/pt/pt/" hreflang="pt-PT">
+<link rel="alternate" href="http://www.hairfinity.com/pt/en/" hreflang="en-PT">
+<link rel="alternate" href="http://www.hairfinity.com/it/it/" hreflang="it-IT">
+<link rel="alternate" href="http://www.hairfinity.com/it/en/" hreflang="en-IT">
+<link rel="alternate" href="http://www.hairfinity.com/dk/en/" hreflang="en-DK">
+<link rel="alternate" href="http://www.hairfinity.com/se/sv/" hreflang="sv-SE">
+<link rel="alternate" href="http://www.hairfinity.com/se/en/" hreflang="en-SE">
+<link rel="alternate" href="http://www.hairfinity.com/gr/el/" hreflang="el-GR">
+<link rel="alternate" href="http://www.hairfinity.com/gr/en/" hreflang="en-GR">
+<link rel="alternate" href="http://www.hairfinity.com/fi/en/" hreflang="en-FI">
+<link rel="alternate" href="http://www.hairfinity.com/jp/ja/" hreflang="ja-JP">
+<link rel="alternate" href="http://www.hairfinity.com/jp/en/" hreflang="en-JP">
+<link rel="alternate" href="http://www.hairfinity.com/kr/ko/" hreflang="ko-KR">
+<link rel="alternate" href="http://www.hairfinity.com/kr/en/" hreflang="en-KR">
+
+<!-- Google Webmaster Tools plugin for WordPress -->
+<meta name="google-site-verification" content="e1dMLQqhdzT3G8wHah9kDDBIP5-EVk-g4DfloExD7xo" />
+<script type="text/javascript" src="//fast.fonts.net/jsapi/d110525b-8c89-4896-abbb-28bd49a8b46a.js"></script>
+	
+<!--Plugin WP Missed Schedule Active - PATCH - Secured with Genuine Authenticity KeyTag-->
+
+<!-- This site is patched against a big problem not solved since WordPress 2.5 to date -->
+
+				<script type="text/javascript">			var ajax_home_url = 'http://www.hairfinity.com/jp/ja';		</script>				<!-- twitter async -->		<script>window.twttr = (function(d, s, id) {		  var js, fjs = d.getElementsByTagName(s)[0],			t = window.twttr || {};		  if (d.getElementById(id)) return t;		  js = d.createElement(s);		  js.id = id;		  js.src = "https://platform.twitter.com/widgets.js";		  fjs.parentNode.insertBefore(js, fjs); 		  t._e = [];		  t.ready = function(f) {			t._e.push(f);		  }; 		  return t;		}(document, "script", "twitter-wjs"));</script>		<!-- pinterest async -->		<script type="text/javascript">			(function(d){				var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');				p.type = 'text/javascript';				p.async = true;				p.src = '//assets.pinterest.com/js/pinit.js';				f.parentNode.insertBefore(p, f);			}(document));		</script>		<!-- google +1 -->		<script src="https://apis.google.com/js/platform.js" async defer></script>		<!-- end google +1 -->					</head><body  class="home page-template-default page page-id-5">	
+	<script type="text/javascript">
+		window.dataLayer = window.dataLayer || [];
+		dataLayer.push({
+		  'gaProperty' : 'UA-38150067-30'
+		});
+	</script>
+        	<script type="text/javascript">
+    		dataLayer.push({
+    		  'currentCustomerEmail' : ''
+    		});
+    	</script>
+    
+    
+        
+	
+	<!-- Google Tag Manager -->
+	<noscript><iframe src='//www.googletagmanager.com/ns.html?id=GTM-P5D9DN'
+	height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-P5D9DN');</script>
+	<!-- End Google Tag Manager -->
+
+
+
+	<div id="fb-root"></div>
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+			  appId      : 690943631011911,
+			  xfbml      : true,
+			  cookie	 : true, 			  version    : 'v2.9'
+			});
+
+			//custom jquery event indicating fb has been loaded
+			$(document).trigger('fb-loaded');
+
+		};
+		(function(d, s, id){
+			 var js, fjs = d.getElementsByTagName(s)[0];
+			 if (d.getElementById(id)) {return;}
+			 js = d.createElement(s); js.id = id;
+			 js.src = '//connect.facebook.net/en_US/sdk.js';
+			 fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+
+																																		<div id="mobile-nav" class="mobile-nav">			<div class="mobile-nav-wrapper">				<div class="mobile-nav-primary">																																													<span class="header-nav-primary-link  "><a href="/jp/ja/shop/">ショップ</a></span>
+																							<span class="header-nav-primary-link  "><a href="http://www.hairfinity.com/jp/ja/%e7%be%8e%e9%ab%aa%e3%81%ae%e5%b0%82%e9%96%80%e5%ae%b6/">美髪の専門家</a></span>
+																							<span class="header-nav-primary-link  "><a href="http://www.hairfinity.com/jp/ja/our-story/">当社の歴史</a></span>
+																							<span class="header-nav-primary-link  "><a href="/jp/ja/testimonials">お客様のビフォー＆アフター写真</a></span>
+																							<span class="header-nav-primary-link  "><a href="http://www.hairfinity.com/jp/ja/in-the-press/">メディア掲載</a></span>
+																							<span class="header-nav-primary-link  "><a href="http://www.hairfinity.com/jp/ja/blog/">ブログ</a></span>
+																						</div>				<div class="mobile-nav-tertiary-nav">														</div>				<div class="mobile-nav-utility-nav">											<span class="utility-nav-link utility-nav-link-my-account">
+							<a href="http://www.hairfinity.com/jp/ja/shop/account">マイ アカウント</a>
+															<a class="utility-nav-login" href="http://www.hairfinity.com/jp/ja/shop/login">ログイン</a>
+													</span>
+
+						<span class="utility-nav-link utility-nav-link-search">
+							<a class="fa fa-search" href=""><span>サイト内検索</span></a>
+						</span>
+						<span class="utility-nav-link utility-nav-link-shopping-cart">
+							<a class="fa fa-shopping-bag" href="http://www.hairfinity.com/jp/ja/shop/?route=checkout/cart"><span>買い物かご</span></a>
+						</span>
+										</div>				<div class="mobile-nav-language-switcher">																
+													<div class="language-switcher">
+								<select class="language-switcher-select" id="language-toggle" name="language-switcher">
+
+								
+									
+
+																			<option selected="selected" value="http://www.hairfinity.com/jp/ja/">日本語</option>
+																	
+									
+
+																			<option value="http://www.hairfinity.com/jp/en/">English</option>
+																								</select>
+							</div>							
+											
+				</div>			</div>		</div>		<div id="header-search" class="header-search">			<div class="container">				<form action="http://www.hairfinity.com/jp/ja/">					<fieldset>						<label for="search">サイト内検索： </label>						<input class="input-field" type="search" name="s"/>						<span id="mobile-search-close" class="mobile-search-close">close</span>						<button><span>Go</span></button>					</fieldset>				</form>			</div>		</div>		<div class="header">										<a id="mobile-nav-toggle" class="mobile-nav-toggle ellipses-icon" href="#mobile-nav"><span>Menu</span></a>										<a class="mobile-nav-shopping-cart shopping-bag" id="mobile-shopping-cart" href="http://www.hairfinity.com/jp/ja/shop/?route=checkout/cart"><span>Shopping Cart</span><span class="cartCount" id="cartcount"></span></a> 																<a class="mobile-nav-search search-icon" id="mobile-search" href="#mobile-search"><span>Search</span></a>										<div class="container header-navigation-utility-container">					<div class="row clearfix">																																<div class="header-navigation-utility">																	<span class="utility-nav-link utility-nav-link-my-account">										<a href="http://www.hairfinity.com/jp/ja/shop/account">マイ アカウント</a>																					<a class="utility-nav-login" href="http://www.hairfinity.com/jp/ja/shop/login">ログイン</a>																			</span>								<span class="utility-nav-link utility-nav-link-search">									<a class="search-icon" href=""><span>サイト内検索</span></a>								</span>																									<span class="utility-nav-link utility-nav-link-shopping-cart">										<a class="shopping-bag" href="http://www.hairfinity.com/jp/ja/shop/?route=checkout/cart"><span>買い物かご</span><span class="cartCount" id="cartcount"><!--0--></span></a>									</span>															</div>																			<div class="header-language-switcher">																			
+													<div class="language-switcher">
+								<select class="language-switcher-select" id="language-toggle" name="language-switcher">
+
+								
+									
+
+																			<option selected="selected" value="http://www.hairfinity.com/jp/ja/">日本語</option>
+																	
+									
+
+																			<option value="http://www.hairfinity.com/jp/en/">English</option>
+																								</select>
+							</div>							
+											
+							</div>											</div>				</div>			<div class="container header-logo-container">				<div class="row">					
+<a class="header-logo" href="http://www.hairfinity.com/jp/ja">Hairfinity</a>
+				</div>			</div>							<div class="container header-navigation-primary-container">					<div class="row">						<div class="header-navigation-primary">																																															<span class="header-nav-primary-link  "><a href="/jp/ja/shop/">ショップ</a></span>
+																							<span class="header-nav-primary-link  "><a href="http://www.hairfinity.com/jp/ja/%e7%be%8e%e9%ab%aa%e3%81%ae%e5%b0%82%e9%96%80%e5%ae%b6/">美髪の専門家</a></span>
+																							<span class="header-nav-primary-link  "><a href="http://www.hairfinity.com/jp/ja/our-story/">当社の歴史</a></span>
+																							<span class="header-nav-primary-link  "><a href="/jp/ja/testimonials">お客様のビフォー＆アフター写真</a></span>
+																							<span class="header-nav-primary-link  "><a href="http://www.hairfinity.com/jp/ja/in-the-press/">メディア掲載</a></span>
+																							<span class="header-nav-primary-link  "><a href="http://www.hairfinity.com/jp/ja/blog/">ブログ</a></span>
+																								</div>					</div>				</div>					</div><!-- /header-->		<div class="content-main"> <!-- closing tag is in footer -->							<div class="container"><div id="notification"></div></div>	    			<div class="hp-slider flexslider">
+				<ul class="slides">
+								<style>
+					.hp-slider-slide-inline-20 div.bg-image {
+						background-image:url(http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/05/HF-slide-1US-small-720x540.jpg);
+					}
+					.hp-slider-slide-inline-20 .hp-slider-slide-content {
+						text-align: center;
+					}
+
+					@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
+						.hp-slider-slide-inline-20 div.bg-image {
+							background:url(http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/05/HF-slide-1US-small.jpg) top center no-repeat;
+						}
+					}
+
+					@media (min-width:1000px) { 
+						.hp-slider-slide-inline-20 div.bg-image {
+							background-image:url(http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/05/HF-slide-1US-large-1200x540.jpg);
+						}
+
+						.hp-slider-slide-inline-20 .hp-slider-slide-content {
+							text-align:right;
+															color:#333;
+													}
+
+						
+						.hp-slider-slide-inline-20 .hp-slider-slide-content > .container > div {
+														padding-left:47%;
+													}
+					}
+
+					@media only screen and (-Webkit-min-device-pixel-ratio: 1.5) and (min-width:740px), only screen and (-moz-min-device-pixel-ratio: 1.5) and (min-width:740px), only screen and (-o-min-device-pixel-ratio: 3/2) and (min-width:740px), only screen and (min-device-pixel-ratio: 1.5) and (min-width:740px) {
+						.hp-slider-slide-inline-20 div.bg-image {
+							background:url(http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/05/HF-slide-1US-large.jpg) top center no-repeat;
+						}
+					}	
+
+			</style>
+
+			<li class="hp-slider-slide hp-slider-slide-inline hp-slider-slide-inline-20">
+				<div class="bg-image"></div>
+				<div class="hp-slider-slide-content">
+					<div class="container">
+						<div>
+															<h2><span>美髪は身体の内側の健康から</span></h2>
+																						<h4>ヘルシーヘアビタミンで</br>健康な美髪のための栄養素を補給</h4>
+<a href="/jp/ja/shop/">ビタミン購入ページへ</a>													</div>
+					</div>
+				</div>
+			</li>
+										<style>
+					.hp-slider-slide-inline-970 div.bg-image {
+						background-image:url(http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2016/08/HF-slide-2-small-720x540.png);
+					}
+					.hp-slider-slide-inline-970 .hp-slider-slide-content {
+						text-align: center;
+					}
+
+					@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
+						.hp-slider-slide-inline-970 div.bg-image {
+							background:url(http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2016/08/HF-slide-2-small.png) top center no-repeat;
+						}
+					}
+
+					@media (min-width:1000px) { 
+						.hp-slider-slide-inline-970 div.bg-image {
+							background-image:url(http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2016/08/HF-slide-2-large-1200x540.png);
+						}
+
+						.hp-slider-slide-inline-970 .hp-slider-slide-content {
+							text-align:right;
+															color:#333;
+													}
+
+						
+						.hp-slider-slide-inline-970 .hp-slider-slide-content > .container > div {
+														padding-left:47%;
+													}
+					}
+
+					@media only screen and (-Webkit-min-device-pixel-ratio: 1.5) and (min-width:740px), only screen and (-moz-min-device-pixel-ratio: 1.5) and (min-width:740px), only screen and (-o-min-device-pixel-ratio: 3/2) and (min-width:740px), only screen and (min-device-pixel-ratio: 1.5) and (min-width:740px) {
+						.hp-slider-slide-inline-970 div.bg-image {
+							background:url(http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2016/08/HF-slide-2-large.png) top center no-repeat;
+						}
+					}	
+
+			</style>
+
+			<li class="hp-slider-slide hp-slider-slide-inline hp-slider-slide-inline-970">
+				<div class="bg-image"></div>
+				<div class="hp-slider-slide-content">
+					<div class="container">
+						<div>
+															<h2><span>疲れきった髪にデイリーリペアで栄養を</span></h2>
+																						<h4>健康的な美髪の促進ビタミンと</br>アクティブボタニカルのフュージョン<h4>
+
+<a class="cta" href="/jp/ja/shop/">ヘアケア商品購入ページへ</a>													</div>
+					</div>
+				</div>
+			</li>
+										<style>
+					.hp-slider-slide-inline-22 div.bg-image {
+						background-image:url(http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2016/08/HF-slide-3-small-720x540.png);
+					}
+					.hp-slider-slide-inline-22 .hp-slider-slide-content {
+						text-align: center;
+					}
+
+					@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
+						.hp-slider-slide-inline-22 div.bg-image {
+							background:url(http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2016/08/HF-slide-3-small.png) top center no-repeat;
+						}
+					}
+
+					@media (min-width:1000px) { 
+						.hp-slider-slide-inline-22 div.bg-image {
+							background-image:url(http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2016/08/HF-slide-3-large-1200x540.png);
+						}
+
+						.hp-slider-slide-inline-22 .hp-slider-slide-content {
+							text-align:left;
+															color:#333;
+													}
+
+						
+						.hp-slider-slide-inline-22 .hp-slider-slide-content > .container > div {
+														padding-right:60%;
+													}
+					}
+
+					@media only screen and (-Webkit-min-device-pixel-ratio: 1.5) and (min-width:740px), only screen and (-moz-min-device-pixel-ratio: 1.5) and (min-width:740px), only screen and (-o-min-device-pixel-ratio: 3/2) and (min-width:740px), only screen and (min-device-pixel-ratio: 1.5) and (min-width:740px) {
+						.hp-slider-slide-inline-22 div.bg-image {
+							background:url(http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2016/08/HF-slide-3-large.png) top center no-repeat;
+						}
+					}	
+
+			</style>
+
+			<li class="hp-slider-slide hp-slider-slide-inline hp-slider-slide-inline-22">
+				<div class="bg-image"></div>
+				<div class="hp-slider-slide-content">
+					<div class="container">
+						<div>
+															<h2><span>髪の深層に栄養を届け活力を取り戻そう</span></h2>
+																						<h4>パワフルな濃縮ブレンドオイルは頭皮と</br>髪の内側まで深く浸透し、髪全体の健康をサポート</h4>
+
+<a class="cta" href="/jp/ja/shop/">ヘアケア商品購入ページへ</a>													</div>
+					</div>
+				</div>
+			</li>
+										<style>
+					.hp-slider-slide-inline-24 div.bg-image {
+						background-image:url(http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2016/08/HF-slide-4-small-720x540.jpg);
+					}
+					.hp-slider-slide-inline-24 .hp-slider-slide-content {
+						text-align: center;
+					}
+
+					@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
+						.hp-slider-slide-inline-24 div.bg-image {
+							background:url(http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2016/08/HF-slide-4-small.jpg) top center no-repeat;
+						}
+					}
+
+					@media (min-width:1000px) { 
+						.hp-slider-slide-inline-24 div.bg-image {
+							background-image:url(http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2016/08/HF-slide-4-large-1200x540.jpg);
+						}
+
+						.hp-slider-slide-inline-24 .hp-slider-slide-content {
+							text-align:right;
+															color:#333;
+													}
+
+						
+						.hp-slider-slide-inline-24 .hp-slider-slide-content > .container > div {
+														padding-left:47%;
+													}
+					}
+
+					@media only screen and (-Webkit-min-device-pixel-ratio: 1.5) and (min-width:740px), only screen and (-moz-min-device-pixel-ratio: 1.5) and (min-width:740px), only screen and (-o-min-device-pixel-ratio: 3/2) and (min-width:740px), only screen and (min-device-pixel-ratio: 1.5) and (min-width:740px) {
+						.hp-slider-slide-inline-24 div.bg-image {
+							background:url(http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2016/08/HF-slide-4-large.jpg) top center no-repeat;
+						}
+					}	
+
+			</style>
+
+			<li class="hp-slider-slide hp-slider-slide-inline hp-slider-slide-inline-24">
+				<div class="bg-image"></div>
+				<div class="hp-slider-slide-content">
+					<div class="container">
+						<div>
+															<h2><span>サルフェートを含まない潤いのあるクレンジングシャンプー</span></h2>
+																						<h4>髪に栄養と水分を与えながら</br>頭皮や髪から優しく汚れを落とします</h4>
+
+<a class="cta" href="/jp/ja/shop/">ヘアケア商品購入ページへ</a>													</div>
+					</div>
+				</div>
+			</li>
+		                    			<style>
+					.hp-slider-slide-inline-1127 div.bg-image {
+						background-image:url(http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2016/08/HF-slide-5-small-720x540.jpg);
+					}
+					.hp-slider-slide-inline-1127 .hp-slider-slide-content {
+						text-align: center;
+					}
+
+					@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
+						.hp-slider-slide-inline-1127 div.bg-image {
+							background:url(http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2016/08/HF-slide-5-small.jpg) top center no-repeat;
+						}
+					}
+
+					@media (min-width:1000px) { 
+						.hp-slider-slide-inline-1127 div.bg-image {
+							background-image:url(http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2016/08/HF-slide-5-large-1200x540.jpg);
+						}
+
+						.hp-slider-slide-inline-1127 .hp-slider-slide-content {
+							text-align:right;
+													}
+
+						
+						.hp-slider-slide-inline-1127 .hp-slider-slide-content > .container > div {
+														padding-left:47%;
+													}
+					}
+
+					@media only screen and (-Webkit-min-device-pixel-ratio: 1.5) and (min-width:740px), only screen and (-moz-min-device-pixel-ratio: 1.5) and (min-width:740px), only screen and (-o-min-device-pixel-ratio: 3/2) and (min-width:740px), only screen and (min-device-pixel-ratio: 1.5) and (min-width:740px) {
+						.hp-slider-slide-inline-1127 div.bg-image {
+							background:url(http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2016/08/HF-slide-5-large.jpg) top center no-repeat;
+						}
+					}	
+
+			</style>
+
+			<li class="hp-slider-slide hp-slider-slide-inline hp-slider-slide-inline-1127">
+				<div class="bg-image"></div>
+				<div class="hp-slider-slide-content">
+					<div class="container">
+						<div>
+															<h2><span>シリコンフリーで健康で柔らかな美髪に</span></h2>
+																						<h4>髪の絡まりを優しく滑らかに直し、</br>毛先まで潤いを補充するコンディショナー</h4>
+
+<a class="cta" href="/jp/ja/shop/">ヘアケア商品購入ページへ</a>													</div>
+					</div>
+				</div>
+			</li>
+						</ul>
+			</div>
+
+			<div id="hp-bestsellers"></div> <!--content inserted dynamically via ajax -->
+				 
+
+	
+		
+					<div class="hp-testimonials container">
+				<div class="section-header">
+					<h2>お客様の喜びの声					 <span class="see-more"><a href="http://www.hairfinity.com/jp/ja/testimonials/">もっと見る</a></span></h2>
+				</div>
+
+				<div class="hp-testimonials-slider flexslider grid-testimonial-slider">
+					<ul class="slides">
+						
+							<li class="testimonial-cell">
+																	<div class="cell-thumb">
+										<div class="image">
+											<img width="320" height="320" src="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/07/syndy-320x320.png" class="attachment-testimonial-small size-testimonial-small wp-post-image" alt="" srcset="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/07/syndy-320x320.png 320w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/07/syndy-150x150.png 150w" sizes="(max-width: 320px) 100vw, 320px" />										</div>
+									</div>
+																<div class="pullquote"><p>Hairfinity を一ヶ月使い続けて、確実に効果を感じてる。感動しちゃった！変なまやかしじゃなくて、ちゃんと効き目あり。</p>
+<p>&nbsp;</p>
+</div>
+
+							</li>
+						
+							<li class="testimonial-cell">
+																	<div class="cell-thumb">
+										<div class="image">
+											<img width="320" height="320" src="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/07/jessicaarlene-320x320.jpg" class="attachment-testimonial-small size-testimonial-small wp-post-image" alt="" srcset="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/07/jessicaarlene-320x320.jpg 320w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/07/jessicaarlene-150x150.jpg 150w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/07/jessicaarlene-300x300.jpg 300w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/07/jessicaarlene-450x450.jpg 450w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/07/jessicaarlene-600x600.jpg 600w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/07/jessicaarlene-400x400.jpg 400w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/07/jessicaarlene.jpg 640w" sizes="(max-width: 320px) 100vw, 320px" />										</div>
+									</div>
+																<div class="pullquote"><p>いまちょっと興奮ぎみ。毛先カットしたのが10月。@hairfinity を飲み始めたのが11月かな。何度も飲み忘れちゃったんで、いま2本目の途中だけど、ゼッタイいつもの倍の速度で伸びている！1年かけて2.5cmぐらいがやっとだったから、今の状態はすごすぎ！ほとんど切る前の長さまで戻ってくれた。分かってもらえるかな？#ちょー幸せ #hairfinity #2ヶ月経過 #イエイ！</p>
+</div>
+
+							</li>
+						
+							<li class="testimonial-cell">
+																	<div class="cell-thumb">
+										<div class="image">
+											<img width="320" height="320" src="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/07/milissa-320x320.jpg" class="attachment-testimonial-small size-testimonial-small wp-post-image" alt="" srcset="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/07/milissa-320x320.jpg 320w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/07/milissa-150x150.jpg 150w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/07/milissa-300x300.jpg 300w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/07/milissa-450x450.jpg 450w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/07/milissa-600x600.jpg 600w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/07/milissa-400x400.jpg 400w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/07/milissa.jpg 640w" sizes="(max-width: 320px) 100vw, 320px" />										</div>
+									</div>
+																<div class="pullquote"><p>@hairfinity 使い始めて4週間後の効果！黒っぽく染めました。このプロダクトにはとーっても満足しているし、皆にすすめたい！#Hairfinity #ロングヘア #祝福</p>
+<p>&nbsp;</p>
+</div>
+
+							</li>
+						
+							<li class="testimonial-cell">
+																	<div class="cell-thumb">
+										<div class="image">
+											<img width="320" height="320" src="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/07/maxine-320x320.jpg" class="attachment-testimonial-small size-testimonial-small wp-post-image" alt="" srcset="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/07/maxine-320x320.jpg 320w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2015/07/maxine-150x150.jpg 150w" sizes="(max-width: 320px) 100vw, 320px" />										</div>
+									</div>
+																<div class="pullquote"><p>まっすぐ揃った前髪はウソをつかない。Hairfinity 1ヶ月使用後。</p>
+<p><a href="https://www.facebook.com/permalink.php?story_fbid=10206031517767691&amp;id=9351537271" target="_blank">Facebookで元の投稿を見る</a></p>
+</div>
+
+							</li>
+											</ul>
+
+									</div>
+				<div class="hp-testimonials-pullquote" data-selector="hp-testimonials-pullquote"></div>
+			</div>
+				
+		<div class="container container-discover hairf-right-wrp clearfix"> 
+		<div class="section-header">
+					
+			<h2>HAIRFINITY はあなたのために右であるか。</h2>
+		</div>
+		<div class="discover-sub-section discover-sub-section-why-hairfinity">
+			
+
+			<div class="discover-sub-section-content">
+				<div class="grid-2col clearfix">
+					<div class="cell">
+						 
+												<a href="http://www.hairfinity.com/jp/ja/美髪の専門家/hair-expertise/" class="txtwrp"><img src="http://www.hairfinity.com//static/img/assets/why-haifinity.jpg"><span class="discover-txt">なぜ Hairfinity</span></a>
+											</div>
+					<div class="cell">
+
+																			<a href="http://www.hairfinity.com/jp/ja/consultation" class="txtwrp" data-selector="discover-subsection-link" data-href="http://www.hairfinity.com/jp/ja/consultation">
+								<img src="http://www.hairfinity.com//static/img/assets/hair-health-consult.jpg"><span class="discover-txt">無料ヘア健康相談</span>
+							</a>
+						
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+
+
+	</div>
+
+   
+		
+				<div class="container wrapper-carousel">
+			<div class="section-header">
+				<h2>ソーシャルメディア #HAIRFINITY</h2>
+			</div>
+				<div class="wpoc_carousel-container" style="visibility: hidden; height: 0;">
+		<ul class="slides">
+							<li class="slide-cell">
+											<div class="cell-thumb">
+							<div class="image">
+								<img width="320" height="320" src="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/1-320x320.jpg" class="attachment-testimonial-small size-testimonial-small wp-post-image" alt="" srcset="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/1-320x320.jpg 320w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/1-150x150.jpg 150w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/1-300x300.jpg 300w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/1-540x540.jpg 540w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/1-450x450.jpg 450w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/1-600x600.jpg 600w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/1-400x400.jpg 400w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/1.jpg 640w" sizes="(max-width: 320px) 100vw, 320px" />							</div>
+						</div>
+									</li>
+							<li class="slide-cell">
+											<div class="cell-thumb">
+							<div class="image">
+								<img width="320" height="320" src="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/2.jpeg" class="attachment-testimonial-small size-testimonial-small wp-post-image" alt="" srcset="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/2.jpeg 320w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/2-150x150.jpeg 150w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/2-300x300.jpeg 300w" sizes="(max-width: 320px) 100vw, 320px" />							</div>
+						</div>
+									</li>
+							<li class="slide-cell">
+											<div class="cell-thumb">
+							<div class="image">
+								<img width="320" height="320" src="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/3-320x320.jpg" class="attachment-testimonial-small size-testimonial-small wp-post-image" alt="" srcset="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/3-320x320.jpg 320w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/3-150x150.jpg 150w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/3-300x300.jpg 300w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/3-540x540.jpg 540w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/3-450x450.jpg 450w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/3-600x600.jpg 600w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/3-400x400.jpg 400w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/3.jpg 640w" sizes="(max-width: 320px) 100vw, 320px" />							</div>
+						</div>
+									</li>
+							<li class="slide-cell">
+											<div class="cell-thumb">
+							<div class="image">
+								<img width="320" height="320" src="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/4-320x320.jpg" class="attachment-testimonial-small size-testimonial-small wp-post-image" alt="" srcset="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/4-320x320.jpg 320w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/4-150x150.jpg 150w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/4-600x600.jpg 600w" sizes="(max-width: 320px) 100vw, 320px" />							</div>
+						</div>
+									</li>
+							<li class="slide-cell">
+											<div class="cell-thumb">
+							<div class="image">
+								<img width="320" height="320" src="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/5-320x320.jpg" class="attachment-testimonial-small size-testimonial-small wp-post-image" alt="" srcset="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/5-320x320.jpg 320w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/5-150x150.jpg 150w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/5-300x300.jpg 300w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/5-540x540.jpg 540w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/5-450x450.jpg 450w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/5-600x600.jpg 600w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/5-400x400.jpg 400w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/5.jpg 640w" sizes="(max-width: 320px) 100vw, 320px" />							</div>
+						</div>
+									</li>
+							<li class="slide-cell">
+											<div class="cell-thumb">
+							<div class="image">
+								<img width="320" height="320" src="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/6-320x320.jpg" class="attachment-testimonial-small size-testimonial-small wp-post-image" alt="" srcset="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/6-320x320.jpg 320w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/6-150x150.jpg 150w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/6-300x300.jpg 300w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/6-768x765.jpg 768w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/6-1024x1020.jpg 1024w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/6-542x540.jpg 542w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/6-1084x1080.jpg 1084w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/6-450x448.jpg 450w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/6-600x600.jpg 600w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/6-400x399.jpg 400w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/6-401x400.jpg 401w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/6.jpg 1152w" sizes="(max-width: 320px) 100vw, 320px" />							</div>
+						</div>
+									</li>
+							<li class="slide-cell">
+											<div class="cell-thumb">
+							<div class="image">
+								<img width="320" height="320" src="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/7-320x320.jpg" class="attachment-testimonial-small size-testimonial-small wp-post-image" alt="" srcset="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/7-320x320.jpg 320w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/7-150x150.jpg 150w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/7-600x600.jpg 600w" sizes="(max-width: 320px) 100vw, 320px" />							</div>
+						</div>
+									</li>
+							<li class="slide-cell">
+											<div class="cell-thumb">
+							<div class="image">
+								<img width="320" height="320" src="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/8-320x320.jpg" class="attachment-testimonial-small size-testimonial-small wp-post-image" alt="" srcset="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/8-320x320.jpg 320w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/8-150x150.jpg 150w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/8-300x300.jpg 300w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/8-540x540.jpg 540w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/8-450x450.jpg 450w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/8-600x600.jpg 600w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/8-400x400.jpg 400w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/8.jpg 640w" sizes="(max-width: 320px) 100vw, 320px" />							</div>
+						</div>
+									</li>
+							<li class="slide-cell">
+											<div class="cell-thumb">
+							<div class="image">
+								<img width="320" height="320" src="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/9-320x320.jpg" class="attachment-testimonial-small size-testimonial-small wp-post-image" alt="" srcset="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/9-320x320.jpg 320w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/9-150x150.jpg 150w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/9-300x300.jpg 300w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/9-540x540.jpg 540w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/9-450x450.jpg 450w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/9-600x600.jpg 600w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/9-400x400.jpg 400w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/9.jpg 640w" sizes="(max-width: 320px) 100vw, 320px" />							</div>
+						</div>
+									</li>
+							<li class="slide-cell">
+											<div class="cell-thumb">
+							<div class="image">
+								<img width="320" height="320" src="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/10-320x320.jpg" class="attachment-testimonial-small size-testimonial-small wp-post-image" alt="" srcset="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/10-320x320.jpg 320w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/10-150x150.jpg 150w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/10-300x300.jpg 300w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/10-540x540.jpg 540w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/10-450x450.jpg 450w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/10-600x600.jpg 600w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/10-400x400.jpg 400w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/10.jpg 640w" sizes="(max-width: 320px) 100vw, 320px" />							</div>
+						</div>
+									</li>
+							<li class="slide-cell">
+											<div class="cell-thumb">
+							<div class="image">
+								<img width="320" height="320" src="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/11-320x320.jpg" class="attachment-testimonial-small size-testimonial-small wp-post-image" alt="" srcset="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/11-320x320.jpg 320w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/11-150x150.jpg 150w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/11-300x300.jpg 300w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/11-540x540.jpg 540w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/11-450x450.jpg 450w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/11-600x600.jpg 600w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/11-400x400.jpg 400w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/11.jpg 640w" sizes="(max-width: 320px) 100vw, 320px" />							</div>
+						</div>
+									</li>
+							<li class="slide-cell">
+											<div class="cell-thumb">
+							<div class="image">
+								<img width="320" height="320" src="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/12-320x320.jpg" class="attachment-testimonial-small size-testimonial-small wp-post-image" alt="" srcset="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/12-320x320.jpg 320w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/12-150x150.jpg 150w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/12-300x300.jpg 300w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/12-540x540.jpg 540w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/12-450x450.jpg 450w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/12-600x600.jpg 600w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/12-400x400.jpg 400w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/12.jpg 640w" sizes="(max-width: 320px) 100vw, 320px" />							</div>
+						</div>
+									</li>
+							<li class="slide-cell">
+											<div class="cell-thumb">
+							<div class="image">
+								<img width="320" height="320" src="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/13.jpeg" class="attachment-testimonial-small size-testimonial-small wp-post-image" alt="" srcset="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/13.jpeg 320w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/13-150x150.jpeg 150w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/13-300x300.jpeg 300w" sizes="(max-width: 320px) 100vw, 320px" />							</div>
+						</div>
+									</li>
+							<li class="slide-cell">
+											<div class="cell-thumb">
+							<div class="image">
+								<img width="320" height="320" src="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/14-320x320.jpg" class="attachment-testimonial-small size-testimonial-small wp-post-image" alt="" srcset="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/14-320x320.jpg 320w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/14-150x150.jpg 150w" sizes="(max-width: 320px) 100vw, 320px" />							</div>
+						</div>
+									</li>
+							<li class="slide-cell">
+											<div class="cell-thumb">
+							<div class="image">
+								<img width="320" height="320" src="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/15-320x320.jpg" class="attachment-testimonial-small size-testimonial-small wp-post-image" alt="" srcset="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/15-320x320.jpg 320w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/15-150x150.jpg 150w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/15-600x600.jpg 600w" sizes="(max-width: 320px) 100vw, 320px" />							</div>
+						</div>
+									</li>
+							<li class="slide-cell">
+											<div class="cell-thumb">
+							<div class="image">
+								<img width="320" height="320" src="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/16-320x320.jpg" class="attachment-testimonial-small size-testimonial-small wp-post-image" alt="" srcset="http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/16-320x320.jpg 320w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/16-150x150.jpg 150w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/16-300x300.jpg 300w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/16-539x540.jpg 539w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/16-450x450.jpg 450w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/16-600x600.jpg 600w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/16-400x401.jpg 400w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/16-399x400.jpg 399w, http://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/41/2018/06/16.jpg 640w" sizes="(max-width: 320px) 100vw, 320px" />							</div>
+						</div>
+									</li>
+					</ul>
+			</div>
+			</div>
+				
+		
+		
+		
+	</div> <!-- /container-main -->
+					</div>
+
+		
+			
+				<div class="footer-link-sections">
+					<div class="container">
+						<div class="grid-4col clearfix">
+
+							<div class="cell" data-selector="toggle-footer-links">
+									
+					<h4>当社について <i class="fa fa-plus-circle fa-lg"></i></h4>
+					<a href="http://www.hairfinity.com/jp/ja/about-brock-beauty/">Brock Beauty について</a>
+<a href="https://www.facebook.com/hairfinity/events">イベント</a>
+<a href="http://www.hairfinity.com/jp/ja/philanthropy/">慈善活動</a>
+<a href="http://www.hairfinity.com/jp/ja/store-locator/">販売代理店</a>
+<a href="http://www.hairfinity.com/jp/ja/contact-us/">お問い合わせ</a>
+<a href="https://www.revfluence.com/creators/signup?campaign_id=5498450530271232">インフルエンサーになるには</a>
+<a href="http://www.hairfinity.com/jp/ja/become-a-retailer/">小売業者になる</a>
+<a href="http://www.hairfinity.com/jp/ja/blog/">ブログを読む</a>
+								</div>
+
+							<div class="cell" data-selector="toggle-footer-links">
+										
+					<h4>カスタマーサービス <i class="fa fa-plus-circle fa-lg"></i></h4>
+					<a href="http://www.hairfinity.com/jp/ja/shipping-policy/">発送に関する方針</a>
+<a href="http://www.hairfinity.com/jp/ja/privacy-policy/">プライバシー ポリシー</a>
+<a href="/jp/ja/shop/index.php?route=account/order">注文の追跡</a>
+<a href="/jp/ja/shop/index.php?route=account/voucher">ギフト カード</a>
+<a href="http://www.hairfinity.com/jp/ja/faqs/">よくあるご質問 (FAQ)</a>
+								</div>
+
+							<div class="cell" data-selector="toggle-footer-links">
+								
+		
+					<h4>ヘアケアの記事 <i class="fa fa-plus-circle fa-lg"></i></h4>
+
+							<a href="http://www.hairfinity.com/jp/ja/article/secrets-for-faster-hair-growth/">美しい髪を実現する秘訣</a>
+							<a href="http://www.hairfinity.com/jp/ja/article/the-best-shampoos/">美しい髪を実現するシャンプー</a>
+							<a href="http://www.hairfinity.com/jp/ja/article/hair-growth-explained/">髪の成長のメカニズム</a>
+							<a href="http://www.hairfinity.com/jp/ja/article/grow-longer-hair-faster/">より美しい髪を育てる</a>
+							<a href="http://www.hairfinity.com/jp/ja/article/faster-hair-growth/">美しい髪を育てる</a>
+							<a href="http://www.hairfinity.com/jp/ja/article/choosing-a-hair-growth-treatment/">髪の成長を促すトリートメント選び</a>
+							<a href="http://www.hairfinity.com/jp/ja/article/biotin-and-hair-growth/">ビオチンと美しい髪</a>
+			
+
+			<a class="footer-read-more-link" href="http://www.hairfinity.com/jp/ja/article/"><span>もっと読む</span></a>
+							
+
+											</div>
+							<div class="cell" data-selector="toggle-footer-links">
+													
+		
+					<h4>ブログ <i class="fa fa-plus-circle fa-lg"></i></h4>
+							<a href="http://www.hairfinity.com/jp/ja/%e5%86%ac%e3%81%ab%e9%ab%aa%e3%82%92%e5%ae%88%e3%81%a3%e3%81%a6%e8%82%b2%e3%81%a410%e3%83%92%e3%83%b3%e3%83%88/">冬に髪を守って育つ10ヒント</a>
+							<a href="http://www.hairfinity.com/jp/ja/%e3%82%af%e3%83%ab%e3%83%bc%e3%82%a8%e3%83%ab%e3%83%86%e3%82%a3%e3%83%95%e3%83%aa%e3%83%bc%e3%83%bb%e5%8b%95%e7%89%a9%e5%ae%9f%e9%a8%93%e3%82%92%e8%a1%8c%e3%81%a3%e3%81%a6%e3%81%84%e3%81%aa%e3%81%84/">クルーエルティフリー・動物実験を行っていない美容品</a>
+							<a href="http://www.hairfinity.com/jp/ja/%e7%b8%ae%e3%82%8c%e6%af%9b-%e3%81%95%e3%82%88%e3%81%aa%e3%82%89/">縮れ毛 さよなら</a>
+			
+			
+			
+							<a class="footer-read-more-link" href="http://www.hairfinity.com/jp/ja/blog/"><span>もっと読む</span></a>
+			
+				
+		
+						
+							</div>
+						</div>
+					</div>
+				</div>
+					
+		<div class="footer">
+
+			
+									<div class="newsletter-container">
+						<div class="container">
+							<div class="grid-2col footer-row-email-fb clearfix">
+								
+								<div class="cell footer-email-signup">
+									<h3>無料ニュースレター登録</h3>
+<p>
+	いつも憧れて手に入れたかった健康で美しい髪になるための道のりを学ぼう！無料ニュースレターに登録をすれば、ヘアフィニティの最新情報、美しい髪になるための裏技やトリビア、割引などが受け取れます。</p>
+<form id="footer-email-opt-in" action="" method="post">
+	<fieldset>
+		<input type="hidden" id="_wpnonce" name="_wpnonce" value="744637457e" /><input type="hidden" name="_wp_http_referer" value="/jp/ja/" />		<input type="email" name="email" placeholder="電子メール アドレスを入力してください" class="input-field">
+		<input type="hidden" name="action" value="footer_opt_in_action" />
+		<input type="hidden" name="list" value="0" />
+		<input id="button-footer-opt-in" type="submit" value="go" class="form-submit button button-secondary">
+	</fieldset>
+</form>								</div>
+
+							</div>
+						</div>
+					</div>
+				
+				
+
+<div class="footer-row-support">
+					<div class="container">
+						<div class="clearfix">
+							<div class="cell footer-email-support footer-support-link footer-support-link-modal">
+								<a target="_blank" href="https://brockbeauty.desk.com/customer/widget/emails/new"><span></span>カスタマーサービスにメール</a>
+							</div>
+													</div>
+					</div>
+				</div>
+
+
+				
+					
+
+			<div class="footer-copyright">
+				<div class="container">
+					
+					<div class="hp-social-icons footer-social-icon-t"> 
+						<a target="_blank" href="https://www.facebook.com/hairfinity"><span>find us on facebook</span> <i class="fa fa-facebook-square fa-3x"></i></a>
+						<a target="_blank" href="http://www.twitter.com/hairfinity"><span>find us on twitter</span> <i class="fa fa-twitter-square fa-3x"></i></a>
+						<a target="_blank" href="https://instagram.com/hairfinity/"><span>find us on instagram</span> <i class="fa fa-instagram fa-3x"></i></a>
+						<a target="_blank" href="https://www.pinterest.com/hairfinity/"><span>find us on pinterest</span> <i class="fa fa-pinterest-square fa-3x"></i></a>
+						<a target="_blank" href="http://www.youtube.com/user/hairfinity?sub_confirmation=1"><span>find us on youtube</span> <i class="fa fa-youtube-square fa-3x"></i></a>
+					</div>
+
+					<div class="cell footer-facebook-like-box">
+						<div>
+							<div class="hp-social-shares-bar">
+
+	<div class="social-icons"><div class="socialList"><div class="social-icon fb-share-button" data-layout="button_count" data-href="http://www.hairfinity.com/jp/ja/"></div></div><div class="socialList"><a class="social-icon twitter-share-button" href="https://twitter.com/share" data-count="horizontal">Tweet</a></div><div class="socialList"><a class="social-icon"  href="//www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.hairfinity.com%2Fjp%2Fja%2F&media=https://d3o11da9fljvz8.cloudfront.net/wp-content/uploads/sites/6/sites/6/2015/06/FBshare-image2-11.jpg&description=Home" data-pin-do="buttonPin" data-pin-config="beside" data-pin-color="red"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png" /></a></div><div class="socialList"><a class="social-icon g-plusone" href="https://plusone.google.com/_/+1/confirm?hl=en" target="_blank" data-size="medium" data-annotation="bubble" ><span>google</span></a></div></div>
+</div>
+
+						</div>
+					</div>
+					<p><p>免責事項: 健康的な日常生活の一部として取り入れてください。バランスの取れた多様な食事に代わるものではありません。 本サイトで言及する製品および情報は、いかなる疾患の診断、治療、治癒、予防を意図したものではありません。本サイト上の情報および記述は情報の提供を目的としており、治療医の助言に代わるものではありません。Hairfinity は、医学的な助言、処方、病気の診断を行いません。Hairfinity が示す見解や栄養学的な助言は、標準的な医療サービスに代わるものではありません。深刻な疾患を患っている方は、担当の医師にご相談ください。</p>
+</p>
+					<p></p>
+					<p>
+						&copy; 2018 Brock Beauty Inc. 無断転載を禁じます					</p>
+				</div>
+				
+								<div class="container">
+					<div class="footer-world-page"><a class="footer-world-page-link" href="/world"><span>国を選択</span><img class="flag-img" src="http://www.hairfinity.com/static/img/flags/jp.svg" alt="jp" /></a></div>		
+					<div class="footer-seals">		   
+						<a href="https://verify.authorize.net/anetseal/?pid=13bfd69f-242b-481e-869f-131c27c36584&rurl=http%3A//www.hairfinity.com/" target="_blank">
+							<img src="http://www.hairfinity.com/static/img/assets/auth-net.png" width="90" height="72" alt=""/>
+						</a>
+					</div>	
+				</div>
+								
+				 
+			</div>
+		</div>
+
+					<div class="viewport-anchored-actions">
+				<div class="bottom-anchored-actions">
+					<div class="container">
+						<a class="button-secondary viewport-anchored-call" href="tel:888-387-4151">お電話</a>
+																			<a class="viewport-anchored-order-now cta" href="http://www.hairfinity.com/jp/ja/shop/"><span>注文する</span></a>
+											</div>
+				</div>
+				<a class="viewport-anchored-email button-secondary" href="#modal-newsletter-signup-content"><span>無料ニュースレター登録</span></a>
+			</div>
+		
+		<div class="modal-newsletter-signup-container">
+			<div id="modal-newsletter-signup-content" class="modal-email-signup-content">
+				<h3>Be the first to know</h3>
+				<p>
+					Sign up for our newsletter and get direct access to healthy hair tips, new product alerts and special discounts.				</p>
+				<form id="modal-email-opt-in" action="" method="post">
+					<fieldset>
+						<input type="hidden" id="_wpnonce" name="_wpnonce" value="9427e0d824" /><input type="hidden" name="_wp_http_referer" value="/jp/ja/" />						<input type="email" name="email" placeholder="電子メール アドレスを入力してください" class="input-field">
+						<input type="hidden" name="action" value="modal_opt_in_action" />
+						<input type="hidden" name="list" value="0" />
+						<input id="button-modal-opt-in" type="submit" value="送信" class="form-submit button button-primary">
+					</fieldset>
+				</form>
+			</div>
+		</div>
+		<div id="tsd"></div>
+	
+<script type="text/javascript">
+	var $mcGoal = {'settings':{'uuid':'a3127602e37ee2b7e8143a63f','dc':'us11'}};
+	(function() {
+		 var sp = document.createElement('script'); sp.type = 'text/javascript'; sp.async = true; sp.defer = true;
+		sp.src = ('https:' == document.location.protocol ? 'https://s3.amazonaws.com/downloads.mailchimp.com' : 'http://downloads.mailchimp.com') + '/js/goal.min.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sp, s);
+	})();
+</script>
+
+<script type="text/javascript">
+	$(window).on("load resize",function(){
+		$(".viewport-anchored-call, .viewport-anchored-order-now").height('auto');
+		var tallestbutton = $('.viewport-anchored-call').height();
+		if (tallestbutton < $('.viewport-anchored-order-now').height()) {
+			tallestbutton = $('.viewport-anchored-order-now').height();
+		}
+		$(".viewport-anchored-call, .viewport-anchored-order-now").css("height","56px");
+	});
+</script>
+
+<script type='text/javascript'>
+	var zaius=zaius||[];zaius.methods=["initialize","onload","event","entity","identify","anonymize","dispatch"];zaius.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);zaius.push(t);return zaius}};for(var i=0;i<zaius.methods.length;i++){var method=zaius.methods[i];zaius[method]=zaius.factory(method)}(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"===document.location.protocol?"https://":"http://")+"d1igp3oop3iho5.cloudfront.net/v2/hJWgptkh2sVL_7so2DCJGA/zaius-min.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})();
+
+	// Edits to this script should only be made below this line.
+    zaius.event('pageview', {"store_id":"24","store_language":"ja"});
+	    	</script>
+
+	
+	<script type="text/javascript">
+		// check if closed cookie
+		var notigobyevalue_or_null = (document.cookie.match(/^(?:.*;)?\s*notigobye\s*=\s*([^;]+)(?:.*)?$/)||[,null])[1];
+
+		if($(window).width() > 740 && notigobyevalue_or_null == null) {
+			$.ajax({
+				url: ajax_home_url + '/shop/index.php?route=module/smartnotifications/getPopup',
+				dataType: 'json',
+				success: function(json) {
+					if($.trim(json)) {
+						$(document).ready(function(){
+							setTimeout(function(){
+								for(i in json) {
+									notify(json[i]);
+								}
+							},1000);						
+						});
+					}
+				}
+			});
+	    }
+        function notify(json) {
+        	var text = '<a href="' + json['product_url'] + '" class="noty-text"><img src="' + json['product_img'] + '" width="100" height="100" />';
+			text += '<div class="noty-content">';
+			text += '<span class="noty-heading">' + json['title'] + ' <strong>' + json['product'] + '</strong></span>';
+			text += '<span class="noty-subheading">' + json['description'] + '</span>';
+			text += '</div></a>';
+			var n = noty({
+				text        : text,
+				dismissQueue: true,
+				layout      : 'bottomLeft',
+				closeWith   : ['button'],
+				theme		: 'relax',
+				timeout     : 6000,
+				maxVisible  : 1,
+				buttons: false,
+				animation   : {
+					open  : 'animated fadeInUp',
+					close : 'animated fadeOut'
+				},
+				callback : {
+					onCloseClick: function() {
+						$.noty.clearQueue();
+						setNotiCookie();
+					}
+				}
+			});	 			
+        }
+        function setNotiCookie() {
+        	document.cookie = "notigobye=true;path=/";
+        }
+	</script>
+
+				<script>
+
+				$.ajax({
+					url: ajax_home_url + '/shop/index.php?route=module/hp_bestsellers',
+					dataType: 'html',
+					success: function(html) {
+						if(html) {
+							$('#hp-bestsellers').html(html);
+
+							$(function(){
+
+								// store the slider in a local variable
+								var $window = $(window),
+									flexslider = { vars:{} };
+
+								// tiny helper function to add breakpoints
+								function getGridSize() {
+									return (window.innerWidth < 768) ? 2 : 4;
+								}
+								
+								$('.hp-bestsellers-slider').flexslider({
+									animation: "slide",
+									animationSpeed: 400,
+									animationLoop: false,
+									slideshow:false,
+									itemWidth: 210,
+									itemMargin: 10,
+									controlNav: false,
+									minItems: getGridSize(), // use function to pull in initial value
+									maxItems: getGridSize(), // use function to pull in initial value
+									start: function(slider){
+										$('body').removeClass('loading');
+										flexslider = slider;
+									}
+								});
+
+								// check grid size on resize event
+								$window.smartresize(function() {
+									var gridSize = getGridSize();
+									flexslider.vars.minItems = gridSize;
+									flexslider.vars.maxItems = gridSize;
+									flexslider.resize();
+								});
+
+								//prevent flexslider resize from bubbling up to window object, triggering resize events
+								$('.hp-bestsellers-slider').on('resize', function(e){
+									e.stopPropagation();
+								});
+							});
+						}
+					}
+				});
+
+			</script>
+					<script>
+				$(function(){
+
+					// store the slider in a local variable
+					var $window = $(window);
+					var flexslider = { vars:{} };
+					var theGrid = getGridSize(); //initial grid size
+					var clicked = false; 	//the click event appears to trigger the flexslider 'after' callback, even when not transitioning slides
+											//using this to more explicitly control click events
+
+
+					//init flexslider
+					$('.hp-testimonials-slider').flexslider({
+						animation: "slide",
+						animationSpeed: 400,
+						animationLoop: false,
+						slideshow: false,
+						itemWidth: 220,
+						itemMargin: 20,
+						controlNav: false,
+						useCSS: true,
+						minItems: getGridSize(), // use function to pull in initial value
+						maxItems: getGridSize(), // use function to pull in initial value
+						start: function(slider){
+							$('body').removeClass('loading');
+							flexslider = slider;
+							setMarkerPosition(1);
+							addClasses();
+						},
+						before: function(slider) {
+							clicked = false;
+						},
+						after: function(slider) {
+
+							if (clicked == false) {
+								addClasses();
+							    setMarkerPosition(1);
+							    var pullquote = $('.testimonial-cell.visible').eq(0).find('.pullquote').html();
+							    $('[data-selector="hp-testimonials-pullquote"]').html(pullquote);
+							}
+						}
+					});
+
+					//function to add classes to slides in the viewport
+					function addClasses() {
+						$('.testimonial-cell').removeClass('visible');
+
+						var end = (flexslider.currentSlide + 1 ) * flexslider.move;
+						if(end > flexslider.count) {
+							end = flexslider.count;
+						}
+						var start = end - flexslider.move + 1;
+						$('.testimonial-cell:nth-of-type(n+' + start + '):nth-of-type(-n+' + end + ')').addClass('visible');
+					}
+
+					//click handler
+					$(document).on('click', '.testimonial-cell', function(e){
+						
+						//place the marker
+						var position = $('.testimonial-cell.visible').index(this) + 1;
+						setMarkerPosition(position);
+
+					    //load the pullquote
+					    var pullquote = $(this).find('.pullquote').html();
+					    $('[data-selector="hp-testimonials-pullquote"]').html(pullquote);
+					    clicked = true;
+					});
+
+
+					// check grid size on resize event
+					$window.smartresize(function() {
+
+						var gridSize = getGridSize();
+
+						//if gridSize changes, reset marker and content to leftmost visible element
+						if(gridSize != theGrid) {
+						    addClasses();
+						    setMarkerPosition(1);
+						    var pullquote = $('.testimonial-cell.visible').eq(0).find('.pullquote').html();
+						    $('[data-selector="hp-testimonials-pullquote"]').html(pullquote);
+						}
+
+						flexslider.vars.minItems = gridSize;
+						flexslider.vars.maxItems = gridSize;
+						flexslider.resize();
+						
+					});
+					
+					//prevent flexslider resize from bubbling up to the window resize which would cause an infinite loop
+					$('.hp-testimonials-slider').on('resize', function(e) {
+						e.stopPropagation();
+					});
+
+
+					// tiny helper function to add breakpoints
+					function getGridSize() {
+						return (window.innerWidth < 740) ? 2 : 4;
+					}
+					
+					function setMarkerPosition(position) {
+						var gridSize = getGridSize();
+					    $('[data-selector="hp-testimonials-pullquote"]')
+					    .removeClass('marker-exposed position-1 position-2 position-3 position-4 grid-2 grid-4')
+					    .addClass('marker-exposed position-' + position + ' grid-' + gridSize);
+					}
+				});
+
+				//load the first pullquote on page load
+				$(function(){
+				    var pullquote = $('.hp-testimonials-slider li:first-child').find('.pullquote').html();
+				    $('[data-selector="hp-testimonials-pullquote"]').html(pullquote);
+				});
+			</script>
+				<script>
+			$(function(){
+				// check for slides 
+				if ( $( ".wpoc_carousel-container .slides li" ).length > 3 ) {
+					//$( ".wpoc_carousel-container ul, .wpoc_carousel-container li" ).css( "list-style","none" );
+					// store the slider in a local variable
+					var $window = $(window);
+					var flexslider = { vars:{} };
+					var theGrid = getGridSize(); //initial grid size
+					var clicked = false; 	//the click event appears to trigger the flexslider 'after' callback, even when not transitioning slides
+											//using this to more explicitly control click events
+					// tiny helper function to add breakpoints
+					function getGridSize() {
+						return (window.innerWidth < 740) ? 2 : 4;					
+					}
+					//init flexslider
+					$('.wpoc_carousel-container').flexslider({
+						animation: "slide",
+						animationSpeed: 400,
+						animationLoop: false,
+						slideshow: false,
+						itemWidth: 210,
+						itemMargin: 20,
+						controlNav: false,
+						useCSS: true,
+						minItems: getGridSize(), // use function to pull in initial value
+						maxItems: getGridSize(), // use function to pull in initial value
+						start: function(slider){
+							//$('.wpoc_carousel-container .image img').show(); 
+							$('.wpoc_carousel-container').css("visibility", "visible");
+							$('.wpoc_carousel-container').css("height", "auto");							  
+							flexslider = slider;
+						},
+					});
+
+					// check grid size on resize event
+					$window.resize(function() {
+						var gridSize = getGridSize();
+						flexslider.vars.minItems = gridSize;
+						flexslider.vars.maxItems = gridSize;
+						flexslider.resize();
+					});
+				
+					//prevent flexslider resize from bubbling up to the window resize which would cause an infinite loop
+					$('.wpoc_carousel-container').on('resize', function(e) {
+						e.stopPropagation();
+					});
+				}
+			});
+		</script>
+		<script type='text/javascript' src='http://vjs.zencdn.net/5.8.0/video.js?ver=4.9.6'></script>
+<script type='text/javascript' src='http://www.hairfinity.com/static/js/index.js'></script>
+<script type='text/javascript' src='http://www.hairfinity.com/static/js/jquery.cookie.js'></script>
+<script type='text/javascript' src='http://www.hairfinity.com/static/js/jquery.colorbox-min.js'></script>
+<script type='text/javascript' src='//js.maxmind.com/js/apis/geoip2/v2.1/geoip2.js'></script>
+<script type='text/javascript' src='http://www.hairfinity.com/static/js/noty/packaged/jquery.noty.packaged.js'></script>
+<script type='text/javascript' src='http://www.hairfinity.com/static/js/noty/themes/relax.js'></script>
+<script type='text/javascript' src='http://www.hairfinity.com/static/js/noty/layouts/bottomLeft.js'></script>
+<script type='text/javascript' src='http://www.hairfinity.com/static/js/jquery.flexslider-min.js'></script>
+<script type='text/javascript' src='http://www.hairfinity.com/jp/wp-includes/js/wp-embed.min.js?ver=4.9.6'></script>
+
+<!--Plugin WP Missed Schedule Active - PATCH - Secured with Genuine Authenticity KeyTag-->
+
+<!-- This site is patched against a big problem not solved since WordPress 2.5 to date -->
+
+
+	<script type="text/javascript">
+		$(function() {
+			var onSuccess = function(location) {
+                // From MaxMind API
+    			var country_code = location.country.iso_code;
+    			var country_name = location.country.names.en;
+                
+    			var country_mappings = {"A1":"","A2":"","O1":"","AD":"","AE":{"path":"\/ae\/","lang":"ar"},"AF":{"path":"\/af\/","lang":"en"},"AG":"","AI":"","AL":"","AM":"","AO":"","AP":"","AQ":"","AR":"","AS":"","AT":{"path":"\/at\/","lang":"de"},"AU":{"path":"\/au\/","lang":"en"},"AW":"","AX":"","AZ":{"path":"\/eu\/","lang":"en"},"BA":{"path":"\/eu\/","lang":"en"},"BB":"","BD":"","BE":{"path":"\/be\/","lang":"nl"},"BF":"","BG":{"path":"\/eu\/","lang":"en"},"BH":{"path":"\/bh\/","lang":"ar"},"BI":"","BJ":"","BL":"","BM":"","BN":"","BO":"","BQ":"","BR":{"path":"\/br\/","lang":"pt"},"BS":"","BT":"","BV":"","BW":"","BY":{"path":"\/eu\/","lang":"en"},"BZ":"","CA":{"path":"\/ca\/","lang":"en"},"CC":"","CD":"","CF":"","CG":"","CH":{"path":"\/ch\/","lang":"de"},"CI":"","CK":"","CL":"","CM":"","CN":"","CO":{"path":"\/co\/","lang":"es"},"CR":"","CU":"","CV":"","CW":"","CX":"","CY":{"path":"\/ae\/","lang":"en"},"CZ":{"path":"\/eu\/","lang":"en"},"DE":{"path":"\/de\/","lang":"de"},"DJ":{"path":"\/ae\/","lang":"ar"},"DK":{"path":"\/dk\/","lang":"en"},"DM":"","DO":"","DZ":{"path":"\/ae\/","lang":"ar"},"EC":"","EE":{"path":"\/eu\/","lang":"en"},"EG":{"path":"\/ae\/","lang":"ar"},"EH":"","ER":{"path":"\/ae\/","lang":"ar"},"ES":{"path":"\/spain\/","lang":"es"},"ET":"","EU":"","FI":{"path":"\/fi\/","lang":"en"},"FJ":"","FK":"","FM":"","FO":{"path":"\/eu\/","lang":"en"},"FR":{"path":"\/fr\/","lang":"fr"},"GA":"","GB":{"path":"\/uk\/","lang":"en"},"GD":"","GE":{"path":"\/eu\/","lang":"en"},"GF":"","GG":"","GH":"","GI":"","GL":{"path":"\/eu\/","lang":"en"},"GM":"","GN":"","GP":"","GQ":"","GR":{"path":"\/gr\/","lang":"el"},"GS":"","GT":"","GU":"","GW":"","GY":"","HK":"","HM":"","HN":"","HR":{"path":"\/eu\/","lang":"en"},"HT":"","HU":{"path":"\/eu\/","lang":"en"},"ID":"","IE":{"path":"\/ie\/","lang":"en"},"IL":"","IM":"","IN":"","IO":"","IQ":{"path":"\/ae\/","lang":"ar"},"IR":"","IS":{"path":"\/eu\/","lang":"en"},"IT":{"path":"\/it\/","lang":"it"},"JE":"","JM":"","JO":{"path":"\/ae\/","lang":"ar"},"JP":{"path":"\/jp\/","lang":"ja"},"KE":"","KG":{"path":"\/eu\/","lang":"en"},"KH":"","KI":"","KM":{"path":"\/ae\/","lang":"ar"},"KN":"","KP":"","KR":{"path":"\/kr\/","lang":"ko"},"KW":{"path":"\/kw\/","lang":"ar"},"KY":"","KZ":{"path":"\/eu\/","lang":"en"},"LA":"","LB":{"path":"\/ae\/","lang":"ar"},"LC":"","LI":{"path":"\/eu\/","lang":"en"},"LK":"","LR":"","LS":"","LT":{"path":"\/eu\/","lang":"en"},"LU":{"path":"\/eu\/","lang":"en"},"LV":{"path":"\/eu\/","lang":"en"},"LY":{"path":"\/ae\/","lang":"ar"},"MA":{"path":"\/ae\/","lang":"ar"},"MC":{"path":"\/eu\/","lang":"en"},"MD":{"path":"\/eu\/","lang":"en"},"ME":{"path":"\/eu\/","lang":"en"},"MF":"","MG":"","MH":"","MK":{"path":"\/eu\/","lang":"en"},"ML":{"path":"\/ae\/","lang":"en"},"MM":"","MN":"","MO":"","MP":"","MQ":"","MR":{"path":"\/ae\/","lang":"ar"},"MS":"","MT":{"path":"\/eu\/","lang":"en"},"MU":"","MV":"","MW":"","MX":{"path":"\/mx\/","lang":"es"},"MY":"","MZ":"","NA":"","NC":"","NE":{"path":"\/ae\/","lang":"en"},"NF":{"path":"\/eu\/","lang":"en"},"NG":"","NI":"","NL":{"path":"\/nl\/","lang":"nl"},"NO":{"path":"\/eu\/","lang":"en"},"NP":"","NR":"","NU":"","NZ":{"path":"\/nz\/","lang":"en"},"OM":{"path":"\/om\/","lang":"ar"},"PA":"","PE":"","PF":"","PG":"","PH":"","PK":{"path":"\/ae\/","lang":"en"},"PL":{"path":"\/eu\/","lang":"en"},"PM":"","PN":"","PR":"","PS":"","PT":{"path":"\/pt\/","lang":"pt"},"PW":"","PY":"","QA":{"path":"\/qa\/","lang":"ar"},"RE":"","RO":{"path":"\/eu\/","lang":"en"},"RS":{"path":"\/eu\/","lang":"en"},"RU":{"path":"\/ru\/","lang":"ru"},"RW":"","SA":{"path":"\/sa\/","lang":"ar"},"SB":"","SC":"","SD":"","SE":{"path":"\/se\/","lang":"sv"},"SG":"","SH":"","SI":{"path":"\/eu\/","lang":"en"},"SJ":"","SK":{"path":"\/eu\/","lang":"en"},"SL":"","SM":"","SN":"","SO":{"path":"\/ae\/","lang":"ar"},"SR":"","SS":"","ST":"","SV":"","SX":"","SY":"","SZ":"","TC":"","TD":{"path":"\/ae\/","lang":"en"},"TF":"","TG":"","TH":"","TJ":{"path":"\/eu\/","lang":"en"},"TK":"","TL":"","TM":{"path":"\/eu\/","lang":"en"},"TN":{"path":"\/ae\/","lang":"ar"},"TO":"","TR":{"path":"\/ae\/","lang":"en"},"TT":"","TV":"","TW":"","TZ":"","UA":{"path":"\/ua\/","lang":"uk"},"UG":"","UM":"","US":{"path":"\/us\/","lang":"en"},"UY":"","UZ":{"path":"\/eu\/","lang":"en"},"VA":"","VC":"","VE":"","VG":"","VI":"","VN":"","VU":"","WF":"","WS":"","YE":{"path":"\/ae\/","lang":"ar"},"YT":"","ZA":{"path":"\/za\/","lang":"en"},"ZM":"","ZW":""};
+    			var current_path = '/jp/';
+    			var home_url = 'https://www.hairfinity.com';
+
+    			    				//no redirects for US IPs on the HP
+    				if(country_code == 'US') {
+    					//return false;
+    				}
+    			
+    			    				if(country_mappings[country_code]['path'] && country_mappings[country_code]['path'] != current_path && !$.cookie('geo-reco')) {
+
+    					var redir_url = home_url + country_mappings[country_code]['path'];
+                        if(country_mappings[country_code]['lang']) {
+                            redir_url += country_mappings[country_code]['lang'] + '/';
+                        }
+    					window.location = redir_url;
+
+    					//set cookie limiting to once per session
+    					$.cookie('geo-reco', true, {path: '/'});
+    				}
+
+    						};
+            
+            var onError = function(error){
+                //alert("Error:\n\n" + JSON.stringify(error, undefined, 4));
+            };
+            geoip2.country(onSuccess, onError);
+		});
+	</script>
+
+
+			<script>
+			var hpVid = videojs('hp-video', {"aspectRatio": "1280:720", "nativeControlsForTouch":true} ,function() {
+				$('.hp-video').addClass('exposed');
+			});
+		</script>
+
+			<script type="text/javascript">
+			$(function() {
+				//hero flexslider init
+				$('.hp-slider').flexslider({
+					animation: 'slide',
+					smoothHeight: true,
+					useCSS:false,
+					slideshow:true
+				});
+			});
+		</script>
+
+	<script>
+
+		$(function(){
+
+			// expand/collapse the 'why hairfinity section'
+			$('[data-selector="discover-why-hairfinity"]').click(function(){
+				if($(this).hasClass('exposed')) {
+					$(this).removeClass('exposed');
+				} else {
+					$(this).addClass('exposed');
+				}
+			});
+
+			//prevent clicks from bubbling up to the above handler
+			$('[data-selector="discover-why-hairfinity"] a').click(function(e){
+				e.stopPropagation();
+			});
+
+
+			$('[data-selector="discover-subsection-link"]').click(function(){
+				window.location = $(this).data('href');
+			});
+
+		});
+	</script>
+	<script type="text/javascript">
+			$(function() {
+
+				$('video').each(function(){
+					videojs($(this)[0], {"aspectRatio": "1280:720", "nativeControlsForTouch":true},function() {
+				$('.hp-video').addClass('exposed');
+			});
+				});
+
+				//hero flexslider init
+				$('.hp-slider').flexslider({
+					animation: 'slide',
+					smoothHeight: true,
+					directionNav: false,
+					useCSS:false,
+					slideshow:true
+				});
+
+
+				var windowWidth = $(window).width();
+			    window_height = $(window).innerHeight()-160;
+			    if(windowWidth < 1000){
+			        $('.home .hp-slider-slide .bg-image').css('height', window_height); 
+			    }
+						
+
+				/**** video tabs ****/
+				
+				
+				var currentTab = '';
+
+			    var $tabs = $('#tabs-videowrp .tab-block');
+			    $tabs.hide();
+			    var index = Math.floor($tabs.length * Math.random());
+			    $tabs.eq(index).show();
+			    $('#tabs-videowrp ul li').eq(index).addClass('active');
+			    $('#tabs-videowrp ul li a').click(function() { //When any link is clicked
+			        
+			        if (currentTab == '') {
+			            //Find current tab:
+			            currentTab = $('#tabs-videowrp ul li.active').find('a').attr('href');
+			        }
+			        
+			        //Stop playing video:
+			        if (currentTab != '') {
+			            $(currentTab).find('iframe').attr('src', '');
+			        
+					
+				$( ".vjs-tech" ).each(function() {
+				  var video =  $( this ).get(0);
+				  video.pause();
+				});
+					
+					}
+			        $('#tabs-videowrp ul li').removeClass('active'); // Remove active class from all links
+			        $(this).parent().addClass('active'); //Set clicked link class to active
+			        currentTab = $(this).attr('href'); // Set variable currentTab to value of href attribute of clicked link
+			        $('#tabs-videowrp .tab-block').hide(); // Hide all divs
+			        var index = $(this).attr('id');
+			        $(currentTab).find('iframe').attr('src');
+			        $(currentTab).show(); // Show div with id equal to variable currentTab
+			        return false;
+			    });
+			    $('#tabs-videowrp .tab-block').hide(); // Hide all divs
+		        $('#tabs-videowrp .tab-block:nth-child(1)').show(); // Show first div
+			});
+		</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"a81208ba16","applicationID":"11764050","transactionName":"MVRbZhYAXBJVAE1RXQgeeFEQCF0PGwVLV1wSHElTAwQ=","queueTime":0,"applicationTime":1540,"atts":"HRNYEF4aTxw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

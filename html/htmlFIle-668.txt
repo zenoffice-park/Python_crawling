@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MGW4P4');</script>
+<!-- End Google Tag Manager -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+			<title>お問い合わせ - 賃貸倉庫、貸し倉庫を探すならロジポータル</title>
+	
+	<meta name="description" content="賃貸倉庫・貸し倉庫をお探しならロジポータルへ。東京、埼玉、千葉、神奈川など首都圏から大阪、名古屋エリア中心とした法人向け中小物流倉庫から最新の大型物流施設まで豊富に取扱い【業界TOPクラスの仲介実績】 お問合せ">
+			<meta name="keywords" content="賃貸,貸し倉庫,貸,物流施設,物流倉庫,ロジポータル">
+	
+	<link rel="stylesheet" type="text/css" href="/bower_components/components-font-awesome/css/font-awesome.css"/>
+	<link rel="stylesheet" type="text/css" href="/js/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="/js/slick/slick-theme.css"/>
+	<link rel="stylesheet" href="/css/styles.css">
+	<link rel="stylesheet" href="/js/colorbox/colorbox.css">
+
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<style>
+.img img{
+	max-width:100%;
+}
+</style>
+</head>
+<body style="background-image:url('http://logi-portal.com/contents/wp-content/uploads/2018/01/topImage5.png');">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MGW4P4"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header id="main-header">
+	<div class="container clearfix">
+		<div class="boxL">
+			<h1 class="logo">
+				<a href="/">
+					<img src="/images/index/header-logo2.png" alt="賃貸倉庫、貸し倉庫を探すならロジポータル">
+				</a>
+			</h1>
+		</div>
+		<div class="boxR">
+			<div class="contact">
+				<p class="top">【営業時間】 9:00〜18:00　【休日】 土曜・日曜・祝日</p>
+				<a href="tel:03-5797-7824">T<span>EL</span> 03-5797-7824</a>
+				<div style='margin-bottom:0;padding-bottom:0;font-size:12px;color:#fff;'>※媒介業者様からのお問合せはご遠慮下さい。</div>
+			</div>
+			<div class="btn-row clearfix">
+				<a href="/contact" class="btn btn-white">お問い合わせ</a>
+				<a href="/favorite" class="btn btn-black">お気に入り一覧</a>
+			</div>
+		</div>
+	</div>
+</header>
+<main class="page-index">
+<!-- ▼ 検索フォーム ▼ -->
+<!-- ▲ 検索フォーム ▲ -->
+	<div class="wrapper-down clearfix">
+		<div class="main-content">
+<!-- ▼ メインコンテンツ ▼ -->
+<div id="main_contents">
+	<div id="contact">
+		<h2 class="section-ttl">お問い合わせ<span>CONTACT US</span></h2>
+		<div class="single-main">
+	
+			<p><span style="color:#FF6633;">※</span> は必須項目です</p>
+			<form method="post" action="" name="fm">
+					<input type="hidden" name="tenant_id" value="">
+					<table class="form" summary="入力フォーム">
+						<tr>
+							<th>会社名<span>※</span></th>
+							<td><input name="company" type="text" value="" class="text01" tabindex="1"><p class="description">個人の方は『個人』とご記入ください</p></td>
+						</tr>
+						<tr>
+							<th>姓・名<span>※</span></th>
+							<td>姓<input name="name"    type="text" style="width:25%;" value=""    class="text01h" tabindex="2">名<input name="name_ex" type="text" style="width:25%;" value="" class="text01h" tabindex="3"></td>
+						</tr>
+						<tr>
+							<th>TEL<span>※</span></th>
+							<td><input name="tel" type="text" value="" class="text01" tabindex="3"><p class="description">例 (03-5797-7824 ※ハイフンを入力してください</p></td>
+						</tr>
+						<tr>
+							<th>E-Mail<span>※</span></th>
+							<td><input name="email" type="text" value="" class="text01" tabindex="4"></td>
+						</tr>
+						<tr>
+							<th>入居時期<span>※</span></th>
+							<td><input name="moving" id="moving_0" type="radio" value="0"  tabindex="5"> <label for="moving_0"><select name="year" tabindex="6"><option value="0" selected>2018</option>
+<option value="1" >2019</option>
+<option value="2" >2020</option>
+</select> 年 <select name="month" tabindex="7"><option value="0" >1</option>
+<option value="1" >2</option>
+<option value="2" >3</option>
+<option value="3" >4</option>
+<option value="4" >5</option>
+<option value="5" >6</option>
+<option value="6" selected>7</option>
+<option value="7" >8</option>
+<option value="8" >9</option>
+<option value="9" >10</option>
+<option value="10" >11</option>
+<option value="11" >12</option>
+</select> 月頃</label> <input name="moving" id="moving_1" type="radio" value="1"  tabindex="8"><label for="moving_1">出来るだけ早く</label>　<input name="moving" id="moving_2" type="radio" value="2"  tabindex="9"><label for="moving_2">良い物件があれば</label>　</td>
+						</tr>
+						<tr>
+							<th>部署名</th>
+							<td><input name="post" type="text" value="" class="text01" tabindex="10"></td>
+						</tr>
+						<tr>
+							<th>役職</th>
+							<td><input name="executive" value="" type="text" class="text01"  tabindex="11"></td>
+						</tr>
+						<tr>
+							<th>住所</th>
+							<td>〒 <input name="postal_code" type="text" value="" class="text02" tabindex="12"><br><select name="pref" class="pref" tabindex="13"><option value="99">選択してください</option><option value="0" selected>北海道</option>
+<option value="1" >青森県</option>
+<option value="2" >岩手県</option>
+<option value="3" >宮城県</option>
+<option value="4" >秋田県</option>
+<option value="5" >山形県</option>
+<option value="6" >福島県</option>
+<option value="7" >茨城県</option>
+<option value="8" >栃木県</option>
+<option value="9" >群馬県</option>
+<option value="10" >埼玉県</option>
+<option value="11" >千葉県</option>
+<option value="12" >東京都</option>
+<option value="13" >神奈川県</option>
+<option value="14" >新潟県</option>
+<option value="15" >富山県</option>
+<option value="16" >石川県</option>
+<option value="17" >福井県</option>
+<option value="18" >山梨県</option>
+<option value="19" >長野県</option>
+<option value="20" >岐阜県</option>
+<option value="21" >静岡県</option>
+<option value="22" >愛知県</option>
+<option value="23" >三重県</option>
+<option value="24" >滋賀県</option>
+<option value="25" >京都府</option>
+<option value="26" >大阪府</option>
+<option value="27" >兵庫県</option>
+<option value="28" >奈良県</option>
+<option value="29" >和歌山県</option>
+<option value="30" >鳥取県</option>
+<option value="31" >島根県</option>
+<option value="32" >岡山県</option>
+<option value="33" >広島県</option>
+<option value="34" >山口県</option>
+<option value="35" >徳島県</option>
+<option value="36" >香川県</option>
+<option value="37" >愛媛県</option>
+<option value="38" >高知県</option>
+<option value="39" >福岡県</option>
+<option value="40" >佐賀県</option>
+<option value="41" >長崎県</option>
+<option value="42" >熊本県</option>
+<option value="43" >大分県</option>
+<option value="44" >宮崎県</option>
+<option value="45" >鹿児島県</option>
+<option value="46" >沖縄県</option>
+</select><br><input type="text" name="address" class="text01" value="" tabindex="14"><br></td>
+						</tr>
+						<tr>
+							<th>FAX</th>
+							<td><input name="fax" type="text" value="" class="text01" tabindex="15"></td>
+						</tr>
+						<tr>
+							<th>その他連絡先<br>（携帯電話等）</th>
+							<td><input name="mobile" type="text" value="" class="text01" tabindex="16"></td>
+						</tr>
+						<!-- 2011/11/15 希望により削除 indexUtil.php :201,318,335 index.php :201, contact.php :172
+						<tr>
+							<th>希望連絡方法<span>※</span></th>
+							<td><input name="connection" id="connection_1" type="radio" value="1"  class="radio01" tabindex="17"><label for="connection_1">携帯電話</label>　<input name="connection" id="connection_2" type="radio" value="2"  class="radio01" tabindex="18"><label for="connection_2">E-Mail</label>　<input name="connection" id="connection_3" type="radio" value="3"  class="radio01" tabindex="19"><label for="connection_3"></label></td>
+						</tr>
+						-->
+						<tr>
+							<th>その他ご質問等</th>
+							<td><textarea name="content" cols="50" rows="5" tabindex="17"></textarea></td>
+						</tr>
+					</table>
+<input type="submit" name="check" type="submit" value="　確認　" style="display:none;" />
+					<p class="btn_center"><input name="reset" type="submit" value="　クリア　">&nbsp;&nbsp;<input name="check" type="submit" value="　確認　" tabindex="20"></p>
+					
+					</form>
+				</div>
+			</div>
+		</div>
+<!-- ▲ メインコンテンツ ▲ -->
+			<section class="unknown-section">
+				<div class="banner-row clearfix">
+					<a href="/contact" class="left">
+						<img src="/images/index/banner-05.png" alt="banner">
+					</a>
+					<a href="/contact" class="right">
+						<img src="/images/index/banner-06.png" alt="banner">
+					</a>
+				</div>
+				<div class="btn-row clearfix">
+					<a href="/contents/?p=110" class="btn-outline">
+						お問い合わせ後の流れ
+						<i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+					</a>
+					<a href="/contents/?p=114" class="btn-outline">
+						GLRをご利用されるメリット
+						<i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+					</a>
+				</div>
+				<div class="article-column clearfix">
+					<div class="box boxL">
+						<p class="box-ttl">
+							<span>最近見た物件</span>
+						</p>
+					</div>
+					<div class="box boxR">
+						<p class="box-ttl">
+							<span>貸し倉庫 賃貸倉庫の<br>LOGIPORTAL NEWS</span>
+						</p>
+<ul class="post-list"><li class="clearfix"><div class="img"><a href="http://logi-portal.com/contents/?p=422"><img src="http://logi-portal.com/contents/wp-content/uploads/2018/06/kashisouko_sukejyu-ru.jpg" class="attachment-full size-full wp-post-image" alt="kashisouko_sukejyu-ru" srcset="http://logi-portal.com/contents/wp-content/uploads/2018/06/kashisouko_sukejyu-ru.jpg 800w, http://logi-portal.com/contents/wp-content/uploads/2018/06/kashisouko_sukejyu-ru-300x171.jpg 300w, http://logi-portal.com/contents/wp-content/uploads/2018/06/kashisouko_sukejyu-ru-768x438.jpg 768w, http://logi-portal.com/contents/wp-content/uploads/2018/06/kashisouko_sukejyu-ru-304x173.jpg 304w, http://logi-portal.com/contents/wp-content/uploads/2018/06/kashisouko_sukejyu-ru-282x161.jpg 282w" sizes="(max-width: 800px) 100vw, 800px" /></a></div><a class="text" href="http://logi-portal.com/contents/?p=422"><span class="ln_title">貸し倉庫の物件選定、いつからス…</span><br />突然ですが、貸し倉庫を探す際に、あなたはいつ頃から探し始める<br />…続きを読む></a></li><li class="clearfix"><div class="img"><a href="http://logi-portal.com/contents/?p=149"><img src="http://logi-portal.com/contents/wp-content/uploads/2018/01/hakken1280x853-e1515426870735.jpg" class="attachment-full size-full wp-post-image" alt="" /></a></div><a class="text" href="http://logi-portal.com/contents/?p=149"><span class="ln_title">貸し倉庫の物件選定成功の分かれ…</span><br />
+
+あなたは貸し倉庫を探したのに苦労した事はありませんか<br />…続きを読む></a></li><li class="clearfix"><div class="img"><a href="http://logi-portal.com/contents/?p=119"><img src="http://logi-portal.com/contents/wp-content/uploads/2017/12/logiportal_21aikon.png" class="attachment-full size-full wp-post-image" alt="" srcset="http://logi-portal.com/contents/wp-content/uploads/2017/12/logiportal_21aikon.png 800w, http://logi-portal.com/contents/wp-content/uploads/2017/12/logiportal_21aikon-300x200.png 300w, http://logi-portal.com/contents/wp-content/uploads/2017/12/logiportal_21aikon-768x513.png 768w, http://logi-portal.com/contents/wp-content/uploads/2017/12/logiportal_21aikon-304x203.png 304w, http://logi-portal.com/contents/wp-content/uploads/2017/12/logiportal_21aikon-282x188.png 282w" sizes="(max-width: 800px) 100vw, 800px" /></a></div><a class="text" href="http://logi-portal.com/contents/?p=119"><span class="ln_title">貸し倉庫検索を簡単にするコツ！…</span><br />
+
+ロジポータルは貸し倉庫・工場を探している人にとって嬉<br />…続きを読む></a></li></ul>
+						<div class="btn-row">
+							<a href="https://logi-portal.com/contents/" class="btn-action">
+								一覧はこちら
+								<i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="images-container clearfix">
+					<a href="/lp" class="img">
+						<img src="/images/index/images-01.png" alt="images">
+						<div class="text">
+							倉庫・工場を貸したいお客様へ
+							<i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+						</div>
+					</a>
+					<a href="/baibai" class="img">
+						<img src="/images/index/images-02.png" alt="images">
+						<div class="text">
+							倉庫・工場を売却したいお客様へ
+							<i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+						</div>
+					</a>
+					<a href="http://logi-portal.com/contents/?page_id=97" class="img">
+						<img src="/images/index/images-03.png" alt="images">
+						<div class="text">
+							運営会社について
+							<i class="fa fa-chevron-circle-right" aria-hidden="true"></i>
+						</div>
+					</a>
+				</div>
+			</section>
+		</div>
+		<aside class="sidebar">
+			<a href="http://logi-portal.com/contents/?page_id=97">
+				<img src="https://logi-portal.com/contents/wp-content/themes/logi_portal/images/index/banner-01.png" alt="banner">
+			</a>
+			<a href="/lp">
+				<img src="https://logi-portal.com/contents/wp-content/themes/logi_portal/images/index/banner-02.png" alt="banner">
+			</a>
+			<a href="/prologi">
+				<img src="https://logi-portal.com/contents/wp-content/themes/logi_portal/images/index/banner-03-01.png" alt="banner">
+			</a>
+			<a href="/mj">
+				<img src="https://logi-portal.com/contents/wp-content/themes/logi_portal/images/index/banner-03-02.png" alt="banner">
+			</a>
+			<a href="/special">
+				<img src="https://logi-portal.com/contents/wp-content/themes/logi_portal/images/index/banner-03-03.png" alt="banner">
+			</a>
+			<a href="/goodman">
+				<img src="https://logi-portal.com/contents/wp-content/themes/logi_portal/images/index/banner-good.jpg" alt="banner">
+			</a>
+			<a href="/esr_redwood">
+				<img src="https://logi-portal.com/contents/wp-content/themes/logi_portal/images/index/banner-esr.jpg" alt="banner">
+			</a>
+
+			<div class="news">
+				<div class="heading">
+					<p class="txt-heading">貸し倉庫 賃貸倉庫の<br>LOGIPORTAL NEWS</p>
+				</div>
+<ul><li><div class="top clearfix"><div class="info"><a href="http://logi-portal.com/contents/?p=422">貸し倉庫の物件選定、いつからスタートするのが正解？</a></div><div class="img"><a class="readmore" href="http://logi-portal.com/contents/?p=422"><img src="http://logi-portal.com/contents/wp-content/uploads/2018/06/kashisouko_sukejyu-ru.jpg" class="attachment-full size-full wp-post-image" alt="kashisouko_sukejyu-ru" srcset="http://logi-portal.com/contents/wp-content/uploads/2018/06/kashisouko_sukejyu-ru.jpg 800w, http://logi-portal.com/contents/wp-content/uploads/2018/06/kashisouko_sukejyu-ru-300x171.jpg 300w, http://logi-portal.com/contents/wp-content/uploads/2018/06/kashisouko_sukejyu-ru-768x438.jpg 768w, http://logi-portal.com/contents/wp-content/uploads/2018/06/kashisouko_sukejyu-ru-304x173.jpg 304w, http://logi-portal.com/contents/wp-content/uploads/2018/06/kashisouko_sukejyu-ru-282x161.jpg 282w" sizes="(max-width: 800px) 100vw, 800px" /></a></div></div><div class="desc">突然ですが、貸し倉庫を探す際に、あなたは…<a class="readmore" href="http://logi-portal.com/contents/?p=422"> 続きを読む <i class="fa fa-angle-right" aria-hidden="true"></i></a></div></li><li><div class="top clearfix"><div class="info"><a href="http://logi-portal.com/contents/?p=149">貸し倉庫の物件選定成功の分かれ道「レア物件」の発掘方法とは？</a></div><div class="img"><a class="readmore" href="http://logi-portal.com/contents/?p=149"><img src="http://logi-portal.com/contents/wp-content/uploads/2018/01/hakken1280x853-e1515426870735.jpg" class="attachment-full size-full wp-post-image" alt="" /></a></div></div><div class="desc">
+
+あなたは貸し倉庫を探したのに苦労…<a class="readmore" href="http://logi-portal.com/contents/?p=149"> 続きを読む <i class="fa fa-angle-right" aria-hidden="true"></i></a></div></li><li><div class="top clearfix"><div class="info"><a href="http://logi-portal.com/contents/?p=119">貸し倉庫検索を簡単にするコツ！　21個アイコンの見方をご紹介！</a></div><div class="img"><a class="readmore" href="http://logi-portal.com/contents/?p=119"><img src="http://logi-portal.com/contents/wp-content/uploads/2017/12/logiportal_21aikon.png" class="attachment-full size-full wp-post-image" alt="" srcset="http://logi-portal.com/contents/wp-content/uploads/2017/12/logiportal_21aikon.png 800w, http://logi-portal.com/contents/wp-content/uploads/2017/12/logiportal_21aikon-300x200.png 300w, http://logi-portal.com/contents/wp-content/uploads/2017/12/logiportal_21aikon-768x513.png 768w, http://logi-portal.com/contents/wp-content/uploads/2017/12/logiportal_21aikon-304x203.png 304w, http://logi-portal.com/contents/wp-content/uploads/2017/12/logiportal_21aikon-282x188.png 282w" sizes="(max-width: 800px) 100vw, 800px" /></a></div></div><div class="desc">
+
+ロジポータルは貸し倉庫・工場を探…<a class="readmore" href="http://logi-portal.com/contents/?p=119"> 続きを読む <i class="fa fa-angle-right" aria-hidden="true"></i></a></div></li><li><div class="top clearfix"><div class="info"><a href="http://logi-portal.com/contents/?p=114">GLRで貸し倉庫を探すメリット</a></div><div class="img"><a class="readmore" href="http://logi-portal.com/contents/?p=114"><img src="http://logi-portal.com/contents/wp-content/uploads/2017/12/logiportal_glr_meritto.png" class="attachment-full size-full wp-post-image" alt="" srcset="http://logi-portal.com/contents/wp-content/uploads/2017/12/logiportal_glr_meritto.png 800w, http://logi-portal.com/contents/wp-content/uploads/2017/12/logiportal_glr_meritto-300x199.png 300w, http://logi-portal.com/contents/wp-content/uploads/2017/12/logiportal_glr_meritto-768x510.png 768w, http://logi-portal.com/contents/wp-content/uploads/2017/12/logiportal_glr_meritto-304x202.png 304w, http://logi-portal.com/contents/wp-content/uploads/2017/12/logiportal_glr_meritto-282x187.png 282w" sizes="(max-width: 800px) 100vw, 800px" /></a></div></div><div class="desc">
+
+こちらのページでは貸し倉庫や物流…<a class="readmore" href="http://logi-portal.com/contents/?p=114"> 続きを読む <i class="fa fa-angle-right" aria-hidden="true"></i></a></div></li><li><div class="top clearfix"><div class="info"><a href="http://logi-portal.com/contents/?p=110">初めての方へ／サイトの使い方</a></div><div class="img"><a class="readmore" href="http://logi-portal.com/contents/?p=110"><img src="http://logi-portal.com/contents/wp-content/uploads/2017/12/6a13236f79df968f7a896ceaaefccef2_m-e1515421885404.jpg" class="attachment-full size-full wp-post-image" alt="" /></a></div></div><div class="desc">ロジポータルへようこそ！
+
+ロジポー…<a class="readmore" href="http://logi-portal.com/contents/?p=110"> 続きを読む <i class="fa fa-angle-right" aria-hidden="true"></i></a></div></li></ul>
+			</div>
+		</aside>
+	</div>
+</main>
+<footer id="main-footer">
+	<div class="container clearfix">
+		<div class="boxL">
+			<div class="logo-col">
+				<h1 class="logo">
+					<a href="">
+						<img src="/images/index/footer-logo.png" alt="logo">
+					</a>
+				</h1>
+				<a href="tel:03-5797-7824" class="phone">
+					<i class="fa fa-phone" aria-hidden="true"></i>
+					03-5797-7824
+				</a>
+				<span class="open-hours">
+					【営業時間】9:00〜18:00　土・日・祝休
+				</span>
+				<p class="contact-notice">
+					お休みの日はお問い合わせメールフォームから<br>
+					ご連絡ください。
+				</p>
+			</div>
+			<div class="col">
+				<div class="sitemap">
+					<ul class="sitemap-items clearfix">
+						<li>
+							<a href="/">トップ</a>
+						</li>
+						<li>
+							<a href="https://logi-portal.com/contents/?page_id=91">ご利用について</a>
+						</li>
+						<li>
+							<a href="http://logi-portal.com/contents/?page_id=97">運営会社について</a>
+						</li>
+						<li>
+							<a href="http://logi-portal.com/contents/?page_id=106">プライバシーポリシー</a>
+						</li>
+						<li>
+							<a href="http://logi-portal.com/contents/?page_id=108">サイトマップ</a>
+						</li>
+						<li>
+							<a href="http://logi-portal.com/contents/?page_id=97">会社概要</a>
+						</li>
+						<li>
+							<a href="/contact">お問い合わせ</a>
+						</li>
+						<li>
+							<a href="/category/100">只今満室物件</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col last">
+				<div class="sitemap">
+					<ul id="footer-nav" class="sitemap-items clearfix">
+						<li><a href="/lp">倉庫・工場を貸したいお客様へ</a></li>
+						<li><a href="/baibai/">倉庫・工場を売却したいお客様へ</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="boxR">
+			<div class="col">
+				<div class="sitemap">
+					<p class="sitemap-label">
+						エリアから貸し倉庫を探す
+					</p>
+					<ul class="sitemap-items">
+						<li><a href="/area/kanto.html">首都圏の賃貸倉庫一覧</a></li>
+						<li><a href="/area/tokyo23.html">東京23区の賃貸倉庫一覧</a></li>
+						<li><a href="/area/tokyo.html">東京都下の賃貸倉庫一覧</a></li>
+
+						<li><a href="/area/tokai.html">東海の賃貸倉庫一覧</a></li>
+						<li><a href="/area/komaki.html">愛知／小牧の賃貸倉庫一覧</a></li>
+						<li><a href="/area/nagoya.html">名古屋市の賃貸倉庫一覧</a></li>
+
+						<li><a href="/area/kansai.html">関西の賃貸倉庫一覧</a></li>
+						<li><a href="/area/osaka.html">大阪／内陸の賃貸倉庫一覧</a></li>
+						<li><a href="/area/kobe.html">神戸市の賃貸倉庫一覧</a></li>
+
+						<li><a href="/area/fukuoka.html">福岡の賃貸倉庫一覧</a></li>
+
+						<li><a href="/area/other.html">その他の賃貸倉庫一覧</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col">
+				<div class="sitemap">
+					<p class="sitemap-label">
+						&nbsp;
+					</p>
+					<ul class="sitemap-items">
+						<li><a href="/area/kanagawa.html">神奈川の賃貸倉庫一覧</a></li>
+						<li><a href="/area/atsugi.html">厚木市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/sagamihara.html">相模原市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/yokohama.html">横浜市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/zama.html">座間市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/hiratsuka.html">平塚市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/kawasaki.html">川崎市の賃貸倉庫一覧</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col">
+				<div class="sitemap">
+					<p class="sitemap-label">
+						&nbsp;
+					</p>
+					<ul class="sitemap-items">
+						<li><a href="/area/saitama.html">埼玉の賃貸倉庫一覧</a></li>
+						<li><a href="/area/kawaguchi.html">川口市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/toda.html">戸田市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/misato.html">三郷市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/yashio.html">八潮市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/souka.html">草加市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/asaka.html">朝霞市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/wakou.html">和光市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/kuki.html">久喜市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/kawagoe.html">川越市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/tokorozawa.html">所沢市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/iruma.html">入間市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/kasu.html">加須市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/saitama.html">さいたま市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/koshigaya.html">越谷市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/hasuda.html">蓮田市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/niiza.html">新座市の賃貸倉庫一覧</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col">
+				<div class="sitemap">
+					<p class="sitemap-label">
+						&nbsp;
+					</p>
+					<ul class="sitemap-items">
+						<li><a href="/area/chiba.html">千葉の賃貸倉庫一覧</a></li>
+						<li><a href="/area/ichigawa.html">市川市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/urayasu.html">浦安市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/funabashi.html">船橋市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/narashino.html">習志野市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/matsudo.html">松戸市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/kashiwa.html">柏市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/noda.html">野田市の賃貸倉庫一覧</a></li>
+						<li><a href="/area/nagareyama.html">流山市の賃貸倉庫一覧</a></li>
+
+					</ul>
+				</div>
+			</div>
+
+			<div class="col">
+				<div class="sitemap">
+					<p class="sitemap-label">
+						大きさから貸し倉庫を探す
+					</p>
+					<ul class="sitemap-items">
+						<li><a href="/size/1">〜150坪</a></li>
+						<li><a href="/size/2">〜300坪</a></li>
+						<li><a href="/size/3">〜500坪</a></li>
+						<li><a href="/size/4">〜1000坪</a></li>
+						<li><a href="/size/5">〜3000坪</a></li>
+						<li><a href="/size/6">3000坪以上</a></li>
+					</ul>
+				</div>
+			</div>
+
+	</div>
+</footer>
+<section class="footer-copyright">
+	<span>©2017 GLR Investment Co.,Ltd.</span>
+</section>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script src="/js/jquery.matchHeight.js"></script>
+<script type="text/javascript" src="/js/slick/slick.min.js"></script>
+<script src="/js/colorbox/jquery.colorbox-min.js"></script>
+<script src="/js/setting.js"></script>
+
+
+<!-- ▼ Google Analytics ▼ -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46580411-1', 'logi-portal.com');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- ▲ Google Analytics ▲ -->
+</div>
+<script type="text/javascript">
+  (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=oYEa6Qd";
+    s.parentNode.insertBefore(tagjs, s);
+  }());
+</script>
+<noscript>
+  <iframe src="//b.yjtag.jp/iframe?c=oYEa6Qd" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+<script type="text/javascript" id="_-s-js-_" src="//satori.segs.jp/s.js?c=e8952fa2"></script>
+</body>
+</html>

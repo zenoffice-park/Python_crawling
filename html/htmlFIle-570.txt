@@ -1,0 +1,1140 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+
+
+
+
+
+
+
+
+
+
+
+
+<meta charset="UTF-8">
+<title>NextMall(ネクストモール) ピクセラの月額サービス向けオンラインショップ</title>
+
+<script src="https://www.nextmall.jp/resource/lib/jquery-3.1.1.min.js"></script>
+<script src="https://www.nextmall.jp/resource/lib/jquery.autoKana.js"></script>
+<script type="text/javascript" src="https://www.nextmall.jp/resource/nconst.jsp" ></script>
+<script type="text/javascript" src="https://www.nextmall.jp/resource/ns.js" ></script>
+<script type="text/javascript" src="https://www.nextmall.jp/resource/customgmosc.js" ></script>
+<link href="https://www.nextmall.jp/resource/nsjs.css" rel="stylesheet">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="https://www.nextmall.jp/resource/n2default_base.css" rel="stylesheet">
+<link href="https://www.nextmall.jp/resource/n2default_ui.css" rel="stylesheet">
+<link href="https://www.nextmall.jp/resource/n2default_local.css" rel="stylesheet">
+<script type="text/javascript" src="https://www.nextmall.jp/resource/n2default.js" ></script>
+
+<!-- private/head.html -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="requiresActiveX=true">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<meta http-equiv="imagetoolbar" content="no">
+	<meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no">
+        
+
+
+	<meta name="description" content="防犯、見守り、ホームオートメーションなどIoTサービスをご家庭に導入できるサービス・プランを扱っています。リーズナブルな価格で月額500円から!全て税込、全国送料無料!">
+	<meta name="keywords" content="Nextmall,ネクストモール,PIXELA,株式会社ピクセラ,ピクセラ光,インターネット,動画,Smart Box,クラウドゲーム,Gクラスタ,ピクセラモバイル,Tommy,Moto G5,Moto G5 PLUS,ZenPad 8, ZenPad 10,Conte™ ホームサービス">
+
+
+	<link rel="canonical" href="https://www.nextmall.jp">
+
+	<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon.png">
+
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+	<link rel="stylesheet" href="/css/jquery.bxslider.css">
+	<link rel="stylesheet" href="/css/base.css">
+	<link rel="stylesheet" href="/css/pixela_main.css">
+	<link rel="stylesheet" href="/css/pixela_page.css">
+	<link rel="stylesheet" href="/css/customize.css">
+	<link rel="stylesheet" href="/css/account.css">
+	<link rel="stylesheet" href="/css/calendar.css">
+	<link rel="stylesheet" href="/css/adjust.css">
+	<link rel="stylesheet" href="/css/table.css">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W83V8SP');</script>
+<!-- End Google Tag Manager -->
+
+<!-- END private/head.html -->
+
+</head>
+<body id="default" class="full default" data-stkn="7qtyouKy">
+<div id="wrapper" >
+
+
+
+
+
+
+
+<header id="header" ><div class="contents-wrapper">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="sc item-search" id="665568">
+<form method="get" action="https://www.nextmall.jp/list/" id="665568-sf">
+<div class="item-search-box">
+  
+  
+  
+  <div class="sb-keywords">
+    <input type="text" name="Keywords" value="" id="665568-kwd" placeholder="ストア全体から検索">
+  </div>
+  <div class="sb-btn">
+  <button class="btn-item-search">検索</button>
+  </div>
+  <div class="sb-suggest" id="sb-suggest-665568"></div>
+  
+</div>
+</form>
+</div>
+<script type="text/javascript">
+
+
+$("#665568-kwd").keyup(function(){
+	var kwd = $(this).val();
+	if(kwd.length < 2) return;
+	var cc = $("#665568-cate").val();
+	var q = "?Category=" + cc + "&Keywords=" + kwd;
+	var div = $("#sb-suggest-665568");
+	$("body").click(function(){div.empty();});
+	n.load(div, "https://www.nextmall.jp/ps/async/itemsuggest.jsp" + q);
+});
+
+</script>
+<!------------------------------
+【共通テンプレート】Header　ここから
+------------------------------>
+<header class="header_wrap cf">
+  <nav class="header_nav cf" data-contents="">
+      <h1 class="header_nav_logo"><a href="/"><img src="/img/logo.png" alt="NextMall(ネクストモール)"></a></h1>
+      <div class="header_nav_service">
+          <ul class="cf">
+              <li><a href="https://www.nextmall.jp/list/20180130-T30yh6Ba">PIXELA Smart Box シリーズ</a></li>
+              <li><a href="https://www.nextmall.jp/list/20180130-kodx5WVZ">クラウドゲーム「Gクラスタ」</a></li>
+              <li><a href="https://www.nextmall.jp/list/20180130-cWO30kGG">ピクセラモバイル</a></li>
+              <li><a href="https://www.nextmall.jp/list/20180130-iXtF3eVY">Conte™ホームサービス</a></li>
+          </ul>
+      </div><!-- /.header_nav_service -->
+  </nav><!-- /.header_nav -->
+
+  <div class="header_user">
+    <div class="header_user_inner">
+          <div class="header_user_search">
+              <form name="material_submit" method="get" action="https://www.nextmall.jp/list/">
+                  <div class="searchArea">
+                      <input type="text" class="searchText" placeholder="ストア全体から検索" name="Keywords">
+                      <div class="searchButton" onclick="document.material_submit.submit();">
+
+                          <i class="material-icons">search</i>
+                      </div>
+                  </div><!--/.searchArea-->
+              </form>
+          </div>
+
+
+
+    <ul>
+            
+
+
+
+<li class="header_user_login">
+
+  <!--ログアウト時-->
+  <!-- <a href="https://www.nextmall.jp/signup">
+    <div class="header_user_icon_wrap">
+      <i class="material-icons">exit_to_app</i>
+    </div>
+  ログイン
+  </a> -->
+
+  <!--ログイン時-->
+  <!-- <a href="https://www.nextmall.jp/account">
+    <div class="header_user_icon_wrap">
+      <i class="material-icons">account_circle</i>
+    </div>
+  MYページ
+  </a>
+
+  <div class="header_user_cart_area"></div>
+
+
+
+
+  <div class="header_user_login_balloon">
+      <div>
+          <p class="header_user_login_balloon_left"><i class="material-icons">account_circle</i></p>
+          <p class="header_user_login_balloon_right">ようこそ<br>さん</p>
+          <div class="header_user_login_btn_wrap">
+            <p class="mypage_btn"><a href="https://www.nextmall.jp/account">MYページ</a></p>
+            <p class="logout_btn"><a href="https://www.nextmall.jp/signout">ログアウト</a></p>
+          </div>
+      </div>
+  </div> -->
+
+</li>
+
+
+
+
+
+
+               <li class="header_user_cart">
+                <a href="https://www.nextmall.jp/cart">
+                  <div class="header_user_icon_wrap">
+                      <i class="material-icons">shopping_cart</i>
+
+                      <p class="header_user_cart_circle">0</p>
+
+
+                    </div>
+                    カート
+                    <div class="header_user_cart_area"></div>
+                </a>
+                <div class="header_user_cart_balloon">
+                    <div>
+                        <p class="header_user_cart_balloon_left"><i class="material-icons">shopping_cart</i></p>
+                        <p class="header_user_cart_balloon_right">カートに商品が<br><span class="text_red">0個</span>あります</p>
+                    </div>
+                    <div class="header_user_cart_balloon_btn"><a href="/cart">カートを見る</a></div>
+                </div><!--/.header_user_cart_balloon-->
+    </li></ul>
+  </div>
+  </div><!-- /.header_user -->
+
+  <div class="header_nav_menu" id="toggleMenu">
+    <i class="material-icons">list</i>
+      <p>MENU</p>
+  </div>
+  <div class="header_line"></div>
+</header>
+
+
+
+
+
+
+<!-- ハンバーガーメニュー -->
+<div class="header_menu">
+
+    <!-- スマホ版メニュー -->
+    <div class="header_menu_sp">
+        <div class="header_menu_sp_user">
+            <ul class="cf">
+                <li class="header_menu_sp_userlogin"><a href=""></a>
+                  
+                <li class="header_menu_sp_usercart">
+                  <a href="/cart">
+                    <div class="header_user_icon_wrap">
+                      <i class="material-icons">shopping_cart</i>
+                        <p class="header_user_cart_circle">0</p>
+                      </div>
+                    カート
+                  </a>
+
+
+                <li class="header_menu_sp_usercart header_menu_sp_logout">
+                  <a href="/signout">
+                    <i class="material-icons">reply</i>
+                    ログアウト
+                  </a>
+
+               
+            </ul>
+        </div><!-- /.header_menu_sp_user -->
+
+        <div class="header_menu_sp_search">
+            <form name="material_submit_sp" method="get" action="https://www.nextmall.jp/list/">
+                <div class="searchArea">
+                    <input type="text" id="inText" class="searchText" placeholder="ストア全体から検索">
+                    <div class="searchButton" onclick="document.material_submit_sp.submit();">
+                        <i class="material-icons">search</i>
+                    </div>
+                </div>
+            </form>
+        </div><!-- /.header_menu_sp_search -->
+
+        <div class="header_menu_sp_search_service">
+            <ul>
+                <li><a href="https://www.nextmall.jp/list/20180130-T30yh6Ba">PIXELA Smart Box シリーズ<i class="material-icons">keyboard_arrow_right</i></a></li>
+                <li><a href="https://www.nextmall.jp/list/20180130-kodx5WVZ">クラウドゲーム「Gクラスタ」<i class="material-icons">keyboard_arrow_right</i></a></li>
+                <li><a href="https://www.nextmall.jp/list/20180130-cWO30kGG">ピクセラモバイル<i class="material-icons">keyboard_arrow_right</i></a></li>
+                <li><a href="https://www.nextmall.jp/list/20180130-iXtF3eVY">Conte&trade;ホームサービス<i class="material-icons">keyboard_arrow_right</i></a></li>
+            </ul>
+        </div>
+    </div><!-- /.header_menu_sp -->
+</div><!-- /.header_menu -->
+
+
+<!------------------------------
+【共通テンプレート】Header　ここまで
+------------------------------>
+
+
+
+<div class="sc cart-link" id="784395"></div>
+<script type="text/javascript">
+n.showCartLink($("#784395"));
+</script>
+
+
+
+
+<div class="sc account-panel" id="600814"></div>
+<script type="text/javascript">
+$(function(){n.load($("#600814"), "https://www.nextmall.jp/ps/async/account_panel.jsp");});
+</script>
+</div></header>
+
+
+
+
+
+
+
+
+<div id="outer" >
+
+
+
+
+
+
+
+
+<div id="mid">
+  
+
+
+
+
+
+
+
+  <div id="inner" >
+    
+
+
+
+
+
+
+
+    <article id="container" >
+    
+    
+
+
+
+
+
+<div class="contents-wrapper"><!-- main1.html -->
+<!-- ContentsStart -->
+	<main class="indexPage">
+		<div class="mainVisual">
+			<div class="mainVisual_navi">
+				<div>
+					<ul id="sliderText">
+						<li class="active"  style="cursor: default; visibility: hidden;">SMART BOX</li>
+						<li style="cursor: default; visibility: hidden;">MOBILE SET</li>
+						<li style="cursor: default; visibility: hidden;">PIXELA MOBILE</li>
+						<li style="cursor: default; visibility: hidden;">CONTE<span class="mainVisual_navi_rotate">&trade;</span></li>
+					</ul>
+				</div>
+			</div>
+			<ul class="fv_slide pc">
+				<li style="background-image: url(./img/slider_bg01.jpg);"><a href="/contents/pixelahikaristb.html"><img src="./img/slider_a01.png"></a></li>
+				<li style="background-image: url(./img/slider_bg02.jpg);"><a href="/contents/pixelamobile.html"><img src="./img/slider_a02.png"></a></li>
+				<li style="background-image: url(./img/slider_bg03.jpg);"><a href="/list/20180130-cWO30kGG"><img src="./img/slider_a03.png"></a></li>
+				<li style="background-image: url(./img/slider_bg04.jpg);"><a href="/contents/contehome_service.html"><img src="./img/slider_a04.png"></a></li>
+			</ul>
+			<div class="mainVisual_blank">　</div>
+		</div><!-- /.mainVisual -->
+
+		<article class="mainContents">
+			<div class="box menu">
+				<ul>
+					<li><a href="#internet" class="hash"><img src="./img/smartbox_banner.jpg" alt="" /></a>
+					<li><a href="#g-cluster" class="hash"><img src="./img/banner02.png" alt="" /></a>
+					<li><a href="#mobile" class="hash"><img src="./img/banner03.png" alt="" /></a>
+					<li><a href="#conte" class="hash"><img src="./img/Conte_Pt.01.jpg" alt="" /></a>
+				</ul>
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="sc news news-20180201-NrDNeWqs">
+  
+  <div class="panel panel-news">
+  <div class="panel-heading panel-heading-text">
+    
+    <div class="news-name">お知らせ</div>
+  </div>
+  <div class="panel-body">
+  
+  
+    <div class="news-entries">
+      
+      <div class="news-entry">
+        <div class="header">
+          <div class="release-date">2018/07/10</div>
+          <div class="headline">
+          <a href="https://www.nextmall.jp/news/20180201-NrDNeWqs/eaf0cc20-b43b-4eb7-89e0-6556e9420944">
+          西日本の大雨に伴う配送状況のお知らせ
+          </a>
+          </div>
+        </div>
+        
+      </div>
+      
+      <div class="news-entry">
+        <div class="header">
+          <div class="release-date">2018/06/21</div>
+          <div class="headline">
+          <a href="https://www.nextmall.jp/news/20180201-NrDNeWqs/057312ae-c9e5-4dc9-81fb-365b3781b882">
+          「NextMall」リニューアルのお知らせ
+          </a>
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>
+  
+  </div>
+  </div>
+  
+</div><!--
+      <div class="box news">
+
+        <div class="news_headline">お知らせ</div>
+        <div class="news_list">
+
+          <ul>
+            <li>
+              <a href="./news_detail">
+                <span class="news_date">2017/12/18</span>
+                <span class="news_arrow">▶</span>
+                <span class="news_title">2017年 年末年始休業について</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="./news_detail">
+                <span class="news_date">2017/12/18</span>
+                <span class="news_arrow">▶</span>
+                <span class="news_title">期間限定・お買い得祭り開催中</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+-->
+
+      <section class="box" id="internet">
+        <div class="service_headline">
+          <h2 class="service_headline_h2"><span class="service_headline_h2_title service_headline_h2_title_smtbox">PIXELA Smart Box <br />シリーズ</span><span class="service_headline_h2_subtitle service_headline_h2_subtitle_smtbox">テレビにAndroidの機能をプラス。エンタテイメントを、<br />もっと自由にもっと楽しく。</span></h2>
+          <div class="service_headline_detail"><a class="btn-line_red" href="https://www.nextmall.jp/contents/pixelahikari.html">詳しく見る</a></div>
+        </div><!-- /.service_headline -->
+
+        <div class="service_list">
+          <ul class="cf">
+            <li>
+              <a href="https://www.nextmall.jp/item/PIX-SMB-VMSET">
+                <div class="service_list_img">
+                  <img alt="Smart Box VODパック ずっと割プラン" src="img/internet01_v6.png">
+                </div>
+                <p class="service_list_name">Smart Box VODパック ずっと割プラン</p>
+              </a>
+
+            </li><li>
+              <a href="https://www.nextmall.jp/item/PIX-SMB-GMOPT">
+                <div class="service_list_img">
+                  <img alt="Smart Box VOD+GAMEパック ずっと割プラン" src="img/internet02_v6.png">
+                </div>
+                <p class="service_list_name">Smart Box VOD+GAMEパック <br class="sp">ずっと割プラン</p>
+              </a>
+
+            </li><li>
+              <a href="https://www.nextmall.jp/item/PIX-SMB-VMOPT">
+                <div class="service_list_img">
+                  <img alt="Smart Box VODパック" src="img/internet03_mod.png">
+                </div>
+                <p class="service_list_name">Smart Box VODパック</p>
+              </a>
+
+            </li><li>
+              <a href="https://www.nextmall.jp/item/PIX-SMB-GMSET">
+                <div class="service_list_img">
+                  <img alt="Smart Box VOD+GAMEパック" src="img/internet04.png">
+                </div>
+                <p class="service_list_name">Smart Box VOD+GAMEパック</p>
+              </a>
+
+            </li><li>
+              <a href="https://www.nextmall.jp/item/KSTB5043">
+                <div class="service_list_img">
+                  <img alt="Smart Box" src="img/internet05.png">
+                </div>
+                <p class="service_list_name">Smart Box</p>
+              </a>
+
+            </li><li>
+              <a href="https://www.nextmall.jp/item/PIX-OPT100F">
+                <div class="service_list_img">
+                  <img alt="ピクセラ光" src="img/internet06_v6.png">
+                </div>
+                <p class="service_list_name">ピクセラ光</p>
+              </a>
+
+            </li><li>
+              <a href="https://www.nextmall.jp/item/PIX-GME100F">
+                <div class="service_list_img">
+                  <img alt="GAMEパック追加購入" src="img/internet07.png">
+                </div>
+                <p class="service_list_name">GAMEパック追加購入</p>
+              </a>
+
+            </li><li>
+              <a href="https://www.nextmall.jp/item/pix-security-zero">
+                <div class="service_list_img">
+                  <img alt="スーパーセキュリティ for Android TV" src="img/super_security.jpg">
+                </div>
+                <p class="service_list_name">スーパーセキュリティ<br>for Android TV</p>
+              </a>
+
+          </li></ul>
+        <div><!-- /.service_list -->
+
+      </div></div></section><!-- /.box #internet -->
+
+      <section class="box" id="g-cluster">
+
+        <div class="service_headline">
+          <h2 class="service_headline_h2"><span class="service_headline_h2_title service_headline_h2_title_gcluster">クラウドゲーム<br />「Gクラスタ」</span><span class="service_headline_h2_subtitle service_headline_h2_subtitle_gcluster">ゲーム配信サービス。ゲーム専用機がなくても、<br />Android TVで快適ゲーム生活を。</span></h2>
+          <div class="service_headline_detail"><a class="btn-line_red" href="https://www.nextmall.jp/contents/gcluster.html">詳しく見る</a></div>
+        </div><!-- /.service_headline -->
+
+        <div class="service_list">
+          <ul class="cf">
+            <li>
+              <a href="https://www.nextmall.jp/item/SquareEnixFFXIII">
+                <div class="service_list_img">
+                  <img alt="ファイナルファンタジーXⅢ" src="img/g-cluster01.png">
+                </div>
+                <p class="service_list_name">ファイナルファンタジーXⅢ</p>
+              </a>
+
+
+            </li><li>
+              <a href="https://www.nextmall.jp/item/SquareEnixFFXIII2">
+                <div class="service_list_img">
+                  <img alt="ファイナルファンタジーXⅢ-2" src="img/g-cluster02.png">
+                </div>
+                <p class="service_list_name">ファイナルファンタジーXⅢ-2</p>
+              </a>
+
+
+            </li><li>
+              <a href="https://www.nextmall.jp/item/SquareEnixFFXIII3">
+                <div class="service_list_img">
+                  <img alt="ライトニング リターンズ ファイナルファンタジーXIII" src="img/g-cluster03.png">
+                </div>
+                <p class="service_list_name">ライトニング リターンズ<br>ファイナルファンタジーXIII</p>
+              </a>
+
+
+            </li><li>
+              <a href="https://www.nextmall.jp/item/SquareEnixFinalFantasyVII">
+                <div class="service_list_img">
+                  <img alt="ファイナルファンタジーⅦ インターナショナル for Gクラスタ" src="img/g-cluster04.png">
+                </div>
+                <p class="service_list_name">ファイナルファンタジーⅦ<br>インターナショナル <br class="sp">for Gクラスタ</p>
+              </a>
+
+
+            </li><li>
+              <a href="https://www.nextmall.jp/item/SquareEnixFF8">
+                <div class="service_list_img">
+                  <img alt="ファイナルファンタジーⅧ for Gクラスタ" src="img/g-cluster05.png">
+                </div>
+                <p class="service_list_name">ファイナルファンタジーⅧ<br>for Gクラスタ</p>
+              </a>
+
+
+            </li><li>
+              <a href="https://www.nextmall.jp/item/SquareEnixFF9">
+                <div class="service_list_img">
+                  <img alt="ファイナルファンタジーIX" src="img/g-cluster06.png">
+                </div>
+                <p class="service_list_name">ファイナルファンタジーIX</p>
+              </a>
+
+
+            </li><li>
+              <a href="https://www.nextmall.jp/item/KoeiTecmoSangokushi12">
+                <div class="service_list_img">
+                  <img alt="三國志12" src="img/g-cluster07.png">
+                </div>
+                <p class="service_list_name">三國志12</p>
+              </a>
+
+
+            </li><li>
+              <a href="https://www.nextmall.jp/item/KoeiTecmoNobunagaSouzouPK">
+                <div class="service_list_img">
+                  <img alt="信長の野望·創造 with パワーアップキット" src="img/g-cluster08.png">
+                </div>
+                <p class="service_list_name">信長の野望·創造<br>with パワーアップキット</p>
+              </a>
+
+
+            </li><li>
+              <a href="https://www.nextmall.jp/item/KoeiTecmoNobunagaSouzou">
+                <div class="service_list_img">
+                  <img alt="信長の野望·創造" src="img/g-cluster09.png">
+                </div>
+                <p class="service_list_name">信長の野望·創造</p>
+              </a>
+
+          </li></ul>
+        <div><!-- /.service_list -->
+      </div></div></section><!-- /.box #g-cluster -->
+
+      <section class="box" id="mobile">
+        <div class="service_headline">
+          <h2 class="service_headline_h2">
+            <span class="service_headline_h2_title">ピクセラモバイル</span>
+            <span class="service_headline_h2_subtitle">月々定額の使い放題！容量無制限のデータ専用SIM！</span>
+          </h2>
+          <div class="service_headline_detail"><a class="btn-line_red" href="https://www.nextmall.jp/contents/pixelamobile.html">詳しく見る</a></div>
+        </div><!-- /.service_headline -->
+        <div class="service_list">
+          <ul class="cf">
+            <li>
+              <a href="https://www.nextmall.jp/item/pix-mt100-simset">
+                <div class="service_list_img">
+                  <img alt="ピクセラモバイル 高速定額SIM LTE端末セット 月額1,598円(税込)プラン" src="img/pixelamobile_LTE.jpg">
+                </div>
+                <p class="service_list_name">ピクセラモバイル 高速定額SIM LTE端末セット</p>
+              </a>
+            </li><li>
+              <a href="https://www.nextmall.jp/item/pix-sim100n">
+                <div class="service_list_img">
+                  <img alt="ピクセラモバイル 高速定額SIM(ナノ SIM) 月額2,138円(税込)プラン" src="img/pixelamobile_NANO.jpg">
+                </div>
+                <p class="service_list_name">ピクセラモバイル 高速定額SIM(ナノ SIM)</p>
+              </a>
+            </li><li>
+              <a href="https://www.nextmall.jp/item/pix-sim100m">
+                <div class="service_list_img">
+                  <img alt="ピクセラモバイル 高速定額SIM(マイクロ SIM) 月額2,138円(税込)プラン" src="img/pixelamobile_MICRO.jpg">
+                </div>
+                <p class="service_list_name">ピクセラモバイル 高速定額SIM(マイクロ SIM) </p>
+              </a>
+            </li><li>
+              <a href="https://www.nextmall.jp/item/pix-tommy-simset-trueblack">
+                <div class="service_list_img">
+                  <img alt="pix-tommy-simset-trueblack Tommy 高速定額SIM ずっと割（トゥルーブラック） 月額1,598円(税込)～" src="img/wiko_tommy_black.jpg">
+                </div>
+                <p class="service_list_name">Tommy 高速定額SIM ずっと割（トゥルーブラック）</p>
+              </a>
+            </li><li>
+                <a href="https://www.nextmall.jp/item/pix-tommy-simset-flashyred">
+                  <div class="service_list_img">
+                    <img alt="pix-tommy-simset-flashyred Tommy 高速定額SIM ずっと割（フラッシュレッド） 月額1,598円(税込)～" src="img/wiko_tommy_red.jpg">
+                  </div>
+                  <p class="service_list_name">Tommy 高速定額SIM ずっと割（フラッシュレッド）</p>
+                </a>
+              </li><li>
+                <a href="https://www.nextmall.jp/item/pix-tommy-simset-bleen">
+                  <div class="service_list_img">
+                    <img alt="pix-tommy-simset-bleen Tommy 高速定額SIM ずっと割（ブリーン） 月額1,598円(税込)～" src="img/wiko_tommy_green.jpg">
+                  </div>
+                  <p class="service_list_name">Tommy 高速定額SIM ずっと割（ブリーン）</p>
+                </a>
+              </li><li>
+                <a href="https://www.nextmall.jp/item/pix-motog-simset-finegold">
+                  <div class="service_list_img">
+                    <img alt="pix-motog-simset-finegold Moto G5 高速定額SIM ずっと割（ファインゴールド） 月額1,598円(税込)～" src="img/moto_g5_gold.jpg">
+                  </div>
+                  <p class="service_list_name">Moto G5 高速定額SIM ずっと割（ファインゴールド）</p>
+                </a>
+              </li><li>
+                <a href="https://www.nextmall.jp/item/pix-motog-simset-lunagray">
+                  <div class="service_list_img">
+                    <img alt="pix-motog-simset-lunagray Moto G5 高速定額SIM ずっと割（ルナグレー） 月額1,598円(税込)～" src="img/moto_g5_gray.jpg">
+                  </div>
+                  <p class="service_list_name">Moto G5 高速定額SIM ずっと割（ルナグレー）</p>
+                </a>
+              </li><li>
+                <a href="https://www.nextmall.jp/item/pix-motgp-simset-lunagray">
+                  <div class="service_list_img">
+                    <img alt="pix-motgp-simset-lunagray Moto G5 Plus 高速定額SIM ずっと割（ルナグレー）月額1,598円(税込)～" src="img/moto_g5_plus_gray_gray.jpg">
+                  </div>
+                  <p class="service_list_name">Moto G5 Plus 高速定額SIM ずっと割（ルナグレー）</p>
+                </a>
+              </li><li>
+                <a href="https://www.nextmall.jp/item/pix-motgp-simset-oxfordblue">
+                  <div class="service_list_img">
+                    <img alt="pix-motgp-simset-oxfordblue Moto G5 Plus 高速定額SIM ずっと割（オックスフォードブルー）月額1,598円(税込)～" src="img/moto_g5_plus_blue_gray.jpg">
+                  </div>
+                  <p class="service_list_name">Moto G5 Plus 高速定額SIM ずっと割（オックスフォードブルー）</p>
+                </a>
+              </li><li>
+                <a href="https://www.nextmall.jp/item/pix-motgp-simset-finegold">
+                  <div class="service_list_img">
+                    <img alt="pix-motgp-simset-finegold Moto G5 Plus 高速定額SIM ずっと割（ファインゴールド）月額1,598円(税込)～" src="img/moto_g5_plus_gold.jpg">
+                  </div>
+                  <p class="service_list_name">Moto G5 Plus 高速定額SIM ずっと割（ファインゴールド）</p>
+                </a>
+              </li><li>
+                <a href="https://www.nextmall.jp/item/pix-znp08-simset-black">
+                  <div class="service_list_img">
+                    <img alt="pix-znp08-simset-black ZenPad 8 高速定額SIM ずっと割（ブラック） 月額1,598円(税込)～" src="img/ZenPad8_black.jpg">
+                  </div>
+                  <p class="service_list_name">ZenPad 8 高速定額SIM ずっと割（ブラック）</p>
+                </a>
+              </li><li>
+                <a href="https://www.nextmall.jp/item/pix-znp08-simset-rosegold">
+                  <div class="service_list_img">
+                    <img alt="pix-znp08-simset-rosegold ZenPad 8 高速定額SIM ずっと割（ローズゴールド） 月額1,598円(税込)～" src="img/ZenPad8_pink.jpg">
+                  </div>
+                  <p class="service_list_name">ZenPad 8 高速定額SIM ずっと割（ローズゴールド）</p>
+                </a>
+              </li><li>
+                <a href="https://www.nextmall.jp/item/pix-znp08-simset-white">
+                  <div class="service_list_img">
+                    <img alt="pix-znp08-simset-white ZenPad 8 高速定額SIM ずっと割（ホワイト） 月額1,598円(税込)～" src="img/ZenPad8_white.jpg">
+                  </div>
+                  <p class="service_list_name">ZenPad 8 高速定額SIM ずっと割（ホワイト）</p>
+                </a>
+              </li><li>
+                <a href="https://www.nextmall.jp/item/pix-znp10-simset-black">
+                  <div class="service_list_img">
+                    <img alt="pix-znp10-simset-black ZenPad 10 高速定額SIM ずっと割（ブラック） 月額1,598円(税込)～" src="img/ZenPad10_black.jpg">
+                  </div>
+                  <p class="service_list_name">ZenPad 10 高速定額SIM ずっと割（ブラック）</p>
+                </a>
+              </li><li>
+                <a href="https://www.nextmall.jp/item/pix-znp10-simset-rosegold">
+                  <div class="service_list_img">
+                    <img alt="pix-znp10-simset-rosegold ZenPad 10 高速定額SIM ずっと割（ローズゴールド） 月額1,598円(税込)～" src="img/ZenPad10_pink.jpg">
+                  </div>
+                  <p class="service_list_name">ZenPad 10 高速定額SIM ずっと割（ローズゴールド）</p>
+                </a>
+              </li><li>
+                <a href="https://www.nextmall.jp/item/pix-znp10-simset-white">
+                  <div class="service_list_img">
+                    <img alt="pix-znp10-simset-white ZenPad 10 高速定額SIM ずっと割（ホワイト） 月額1,598円(税込)～" src="img/ZenPad10_white.jpg">
+                  </div>
+                  <p class="service_list_name">ZenPad 10 高速定額SIM ずっと割（ホワイト）</p>
+                </a>
+              </li>
+          </ul>
+        <div><!-- /.service_list -->
+      </div></div></section><!-- /.box #mobile -->
+
+      <section class="box" id="conte">
+        <div class="service_headline">
+          <h2 class="service_headline_h2"><span class="service_headline_h2_title">Conte™ホームサービス</span><span class="service_headline_h2_subtitle">話題のスマートホームを手軽にスタート。</span></h2>
+          <div class="service_headline_detail"><a class="btn-line_red" href="https://www.nextmall.jp/contents/contehome_service.html">詳しく見る</a></div>
+        </div><!-- /.service_headline -->
+        <div class="service_list">
+          <ul class="cf">
+            <li>
+              <a href="https://www.nextmall.jp/item/PIX-GW100Z-ZWFSET">
+                <div class="service_list_img">
+                  <img alt="家族の見守り マルチセンサーパック 月額670円（税込）" src="img/conte01.jpg">
+                </div>
+                <p class="service_list_name">家族の見守り マルチセンサーパック</p>
+              </a>
+
+            </li><li>
+              <a href="https://www.nextmall.jp/item/PIX-GW100Z-ZDSSET">
+                <div class="service_list_img">
+                  <img alt="一人暮らしの安心 開閉センサーパック 月額500円（税込）" src="img/conte02.jpg">
+                </div>
+                <p class="service_list_name">一人暮らしの安心 開閉センサーパック</p>
+              </a>
+
+            </li><li>
+              <a href="https://www.nextmall.jp/item/PIX-GW100Z-ZWCSET">
+                <div class="service_list_img">
+                  <img alt="子どもの見守り マルチセンサーパック 月額670円（税込）" src="img/conte03.jpg">
+                </div>
+                <p class="service_list_name">子どもの見守り マルチセンサーパック</p>
+              </a>
+
+
+            </li><li>
+              <a href="https://www.nextmall.jp/item/PIX-GW100Z-ZDFSET">
+                <div class="service_list_img">
+                  <img alt="家族の安心 開閉センサーパック 月額500円（税込）" src="img/conte04.jpg">
+                </div>
+                <p class="service_list_name">家族の安心 開閉センサーパック</p>
+              </a>
+
+            </li><li>
+              <a href="https://www.nextmall.jp/item/PIX-GW100Z-ZWPSET">
+                <div class="service_list_img">
+                  <img alt="ペットの見守り マルチセンサーパック 月額670円（税込）" src="img/conte05.jpg">
+                </div>
+                <p class="service_list_name">ペットの見守り<br>マルチセンサーパック</p>
+              </a>
+
+            </li><li>
+              <a href="https://www.nextmall.jp/item/ZD2112JP-5">
+                <div class="service_list_img">
+                  <img alt="（オプション）開閉センサー 4,500円（税込）" src="img/conte06.jpg">
+                </div>
+                <p class="service_list_name">（オプション）開閉センサー</p>
+              </a>
+
+            </li><li>
+              <a href="https://www.nextmall.jp/item/ZW100">
+                <div class="service_list_img">
+                  <img alt="（オプション）マルチセンサー 9,000円（税込）" src="img/conte07.jpg">
+                </div>
+                <p class="service_list_name">（オプション）マルチセンサー</p>
+              </a>
+
+            </li><li>
+              <a href="https://www.nextmall.jp/item/PIX-MT100">
+                <div class="service_list_img">
+                  <img alt="（オプション）LTE対応USBドングル PIX-MT100 14,800円（税込）" src="img/conte08.jpg">
+                </div>
+                <p class="service_list_name">（オプション）LTE対応USBドングル</p>
+              </a>
+
+            </li><li>
+              <a href="https://www.nextmall.jp/item/REX-WFIREX1">
+                <div class="service_list_img">
+                  <img alt="（オプション）リモコンユニット 14,800円（税込）" src="img/conte09.jpg">
+                </div>
+                <p class="service_list_name">（オプション）リモコンユニット</p>
+              </a>
+
+            </li><li>
+              <a href="https://www.nextmall.jp/item/Danalock-BTZW">
+                <div class="service_list_img">
+                  <img alt="（オプション）スマートロック 34,800円（税込）" src="img/conte10.jpg">
+                </div>
+                <p class="service_list_name">（オプション）スマートロック</p>
+              </a>
+
+            </li><li>
+              <a href="https://www.nextmall.jp/item/TS-WLC2">
+                <div class="service_list_img">
+                  <img alt="（オプション）ネットワークカメラ 12,800円（税込）" src="img/conte11.jpg">
+                </div>
+                <p class="service_list_name">（オプション）ネットワークカメラ</p>
+              </a>
+
+          </li></ul>
+        <div><!-- /.service_list -->
+      </div></div></section><!-- /.box #conte -->
+    <!-- /.mainContents -->
+  
+<!-- ContentsEnd -->
+</div>
+
+    
+    </article>
+    
+
+
+
+
+
+
+<aside id="page_aside2" ><div class="contents-wrapper">
+
+
+
+
+
+
+
+
+
+
+
+</div></aside>
+  </div>
+  
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<footer id="footer" ><div class="contents-wrapper"><!-- private/footer.html -->
+<footer id="footer" style="position: static;">
+  <div class="contents-wrapper">
+    <footer class="footer_wrap" style="position: static; background: #fff;">
+      <div class="box cf" style="margin-bottom: -30px;">
+
+      
+         <div class="footer_top">
+
+
+
+
+            <div id="calendar" class="footer_calendar cf">
+              <div id="current_month" class="footer_calendar_content">
+                <h3 class="calendar1_title"></h3>
+                <table>
+                  <tr>
+                    <th>日</th><th>月</th><th>火</th><th>水</th><th>木</th><th>金</th><th>土</th>
+                  </tr>
+                </table>
+              </div>
+
+              <div id="next_month" class="footer_calendar_content">
+                <h3 class="calendar2_title"></h3>
+                <table>
+                  <tr>
+                    <th>日</th><th>月</th><th>火</th><th>水</th><th>木</th><th>金</th><th>土</th>
+                  </tr>
+                </table>
+              </div>
+
+              <div class="footer_calendar_text">
+                <span class="s_off_comment">&nbsp;&nbsp;&nbsp;&nbsp;</span><span>お問い合せ・出荷業務の休業日</span>
+                <span class="q_off_comment">&nbsp;&nbsp;&nbsp;&nbsp;</span><span>出荷業務の休業日</span>
+              </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="footer_nav cf">
+              <div class="footer_nav_category">
+                <p class="footer_nav_title">Category</p>
+                <ul>
+                  <li>
+                    <a href="https://www.nextmall.jp/list/20180130-T30yh6Ba">PIXELA Smart Box シリーズ</a>
+                  </li>
+                  <li>
+                    <a href="https://www.nextmall.jp/list/20180130-kodx5WVZ">クラウドゲーム「Gクラスタ」</a>
+                  </li>
+                  <li>
+                    <a href="https://www.nextmall.jp/list/20180130-cWO30kGG">ピクセラモバイル</a>
+                  </li>
+                  <li>
+                    <a href="https://www.nextmall.jp/list/20180130-iXtF3eVY">Conte™ホームサービス</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer_nav_myaccount">
+                <p class="footer_nav_title">Account / Help</p>
+                <ul>
+                  <li class="footer_nav_myaccount_branch">
+                    <a href="/signup">ログイン</a>
+                  </li>
+                  <li>
+                    <a href="https://www.nextmall.jp/cart">カート</a>
+                  </li>
+                  <li>
+                    <a href="https://www.nextmall.jp/contents/faq.html">よくあるご質問</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer_nav_company">
+                <p class="footer_nav_title">Company</p>
+                <ul>
+                  <li>
+                    <a href="https://www.nextmall.jp/abouts/index.html">運営会社について</a>
+                  </li>
+                  <li>
+                    <a href="https://www.nextmall.jp/order/index.html">特定商取引法に基づく表示</a>
+                  </li>
+                  <li>
+                    <a href="https://www.nextmall.jp/guide/privacy.html">プライバシーポリシー</a>
+                  </li>
+                  <li>
+                    <a href="https://www.nextmall.jp/form/INQUIRY_FORM">お問い合わせ</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+
+
+        <div class="footer_bottom cf">
+          <div class="footer_bottom_inner">
+        
+            <!-- <div class="footer_mailmagazine">
+              <p class="footer_mailmagazine_title">ニュースレター購読</p>
+              <form action="#" onsubmit="return setemladr(this.Email.value);">
+                <div class="mailmagazineArea">
+                  <input type="text" name="Email" value="" class="mailmagazineText" placeholder="メールアドレスを入力">
+                  <button type="submit" class="mailmagazineButton">購読</button>
+                </div>
+              </form>
+
+              <script type="text/javascript">
+                function setemladr(eml){
+                  location.href = 'https://www.nextmall.jp/ps/fr/subscribe_mailmagazine/' + eml;
+                  return false;
+                }
+              </script>
+            </div> -->
+
+            <div class="footer_copyright">©
+              2016-2018  PIXELA CORPORATION</div>
+            </div>
+
+            <div id="isLogin" style="display: none;">true</div>
+
+          </div>
+        </div>
+        <p class="page_top"><a href="#"><img src="https://www.nextmall.jp/img/pagetop.png" alt=""></a></p>
+    </footer>
+
+
+  <script src="/js/jquery.bxslider.min.js"></script>
+  <!--    <script src="/js/jquery.inview.min.js"></script> -->  
+  <!--    <script src="/js/jquery.flexslider.js"></script> -->
+  <script src="/js/common.js"></script>
+  <script src="/js/index.js"></script>  
+  <script src="/js/page.js"></script>
+
+
+<!--
+    <script src="/js/signup.js"></script>
+  -->
+  <script src="/js/order.js"></script>
+  <script src="/js/header.js"></script>
+  <script src="/js/login_agreement.js"></script>
+  <script src="/js/list.js"></script>
+  <script src="/js/search_box.js"></script>
+  <script src="/js/cart_rightmenu.js"></script>
+  <script src="/js/calendar.js"></script>
+  <script src="/js/account.js"></script>
+  <script src="/js/header_icon.js?ver=20180510"></script>
+  <script src="/js/adjust.js"></script>
+</div> 
+</footer>
+<!-- END private/footer.html --></div></footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<script type="text/javascript">
+
+
+n.sestr("", {orderID:"", alterURI:""});
+</script>
+
+</body>
+</html>

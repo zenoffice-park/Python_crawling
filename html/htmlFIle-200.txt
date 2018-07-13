@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/s.js"></script>
+    <link rel="shortcut icon" href="http://www.niseko.ne.jp/en/favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www.niseko.ne.jp/en/apple-touch-icon-114x114-precomposed.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="http://www.niseko.ne.jp/en/apple-touch-icon-114x114-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www.niseko.ne.jp/en/apple-touch-icon-72x72-precomposed.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="http://www.niseko.ne.jp/en/apple-touch-icon-72x72-precomposed.png" />
+    <link rel="apple-touch-icon-precomposed" href="http://www.niseko.ne.jp/en/apple-touch-icon-precomposed.png" />
+    <link rel="apple-touch-icon" href="http://www.niseko.ne.jp/enapple-touch-icon-precomposed.png" />
+    <link rel="shortcut icon" href="http://www.niseko.ne.jp/en/apple-touch-icon.png" />
+    <link rel="start" href="http://www.niseko.ne.jp/en/index.html" />
+    <link rel="stylesheet" type="text/css" media="screen,print" href="http://www.niseko.ne.jp/en/common/css/default.css" />
+    <link rel="stylesheet" type="text/css" media="screen,print" href="http://www.niseko.ne.jp/en/common/css/design.css" />
+
+    <link rel="stylesheet" type="text/css" media="screen,print" href="http://www.niseko.ne.jp/en/common/fonts/proxima-nova/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" media="screen,print" href="http://www.niseko.ne.jp/en/common/css/owl.carousel.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen,print" href="http://www.niseko.ne.jp/en/common/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen,print" href="http://www.niseko.ne.jp/en/common/css/extended.css" />
+
+    <link rel="stylesheet" type="text/css" media="all" href="http://www.niseko.ne.jp/en/common/js/libs/fancybox/jquery.fancybox-1.3.4.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://www.niseko.ne.jp/en/common/js/libs/jquery-ui/css/custom-theme/jquery-ui-1.9.2.custom.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://www.niseko.ne.jp/en/common/js/libs/jquery-ui/css/jquery-ui-fix.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://www.niseko.ne.jp/en/common/js/libs/bxslider/jquery.bxslider.fix.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://www.niseko.ne.jp/en/common/js/libs/flexslider/flexslider.fix.css" />
+    <link href="http://fonts.googleapis.com/css?family=Raleway%7CCabin" rel="stylesheet" type="text/css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+
+    <title>Niseko United</title>
+    <meta name="author" content="Niseko United" />
+    <meta name="description" content="Niseko Annupuri,Niseko Village,Niseko Grand Hirafu,HANAZONO resort,4area web portal." />
+    <meta name="keywords" content="ski,winter,sports,leisure,Niseko,Hokkaido,snow,snowboard,resort,Annupri,alpine,Higashiyama,Hanazono,lift,Hirafu,ski school,Snowboard school,Hot spring,Stay" />
+
+</head><body class="home">
+
+<!--BODY BEGIN-->
+    <ul class="reader">
+    <li><a id="TOP" name="TOP">Top of page</a></li>
+    <li><a href="#BODY" accesskey="C">Go to Main contents</a></li>
+</ul>
+
+<div id="header">
+    <div id="header_inner">
+        <div class="text-logo"><a href="http://www.niseko.ne.jp/en/index.html">THE OFFICIAL WEBSITE OF <span>NISEKO RESORT</span></a></div>
+        <ul id="header_link" class="btn fix">
+            <li class="link_annupuri"><a href="http://annupuri.info/" target="_blank" class="png"><span class="reader">Niseko Annupuri</span></a></li>
+            <li class="link_village"><a href="http://www.niseko-village.com/" target="_blank" class="png"><span class="reader">Niseko Village</span></a></li>
+            <li class="link_hirafu"><a href="http://www.grand-hirafu.jp/" target="_blank" class="png"><span class="reader">Niseko Mt.Resort Grand Hirafu</span></a></li>
+            <li class="link_hanazono"><a href="http://www.hanazononiseko.com/" target="_blank" class="png"><span class="reader">Niseko Hanazono</span></a></li>
+        </ul>
+        <ul id="header_lang" class="btn">
+            <li class="lang_ja"><a href="http://www.niseko.ne.jp/en/ja/" class="png"><span class="reader">Japanese</span></a></li>
+        </ul>
+    </div>
+</div>
+    <div id="slides" class="flexslider nosumaho">
+        <img src="img/slides/slides_logo.png" class="png" name="slides_logo" id="slides_logo" alt="Niseko United. One Mountain Four Resorts. Winter Guide 2013-2014" />
+        <ul class="slides">
+			<li><a href="http://www.niseko.ne.jp/en/news/you_re_entered_to_win_a_niseko_united_5-day_pass.html"><img src="img/slides/2016_17/niseko-free-ski-pass.jpg" class="" alt="NISEKO UNITED Image" /></li></a>
+            <li><a href="http://www.niseko.ne.jp/en/news/After-the-snow-melts-a-whole-new-world-comes-to-life.html"><img src="img/slides/2016_17/06.jpg" class="" alt="Niseko Village" /></li></a>
+			<li><a href="http://www.niseko.ne.jp/en/news/niseko_united_season_2017-18_officially_open.html"><img src="img/slides/2016_17/01.jpg" class="" alt="NISEKO UNITED Image" /></li></a>
+            <li><a href="http://www.niseko.ne.jp/en/news/two_new_lifts_ready_to_roll_in_coming_days.html"><img src="img/slides/2016_17/hanazono-home-2.jpg" class="" alt="Hanazono" /></li></a>
+        </ul>
+    </div>
+
+    <div id="nav">
+  <div id="nav_inner">
+        <div id="nav_menu" class="none">
+<!--            <div class="text-logo"><a href="--><!--/index.html">THE OFFICIAL WEBSITE OF <span>NISEKO RESORT</span></a></div>-->
+            <strong id="nav_nu_logo"><a href="http://www.niseko.ne.jp/en/index.html" class="png"><span class="reader">Niseko United.</span></a></strong>
+            <ul id="nav_link" class="btn fix">
+                <li class="link_annupuri"><a href="http://annupuri.info/" target="_blank" class="png"><span class="reader">Niseko Annupuri</span></a></li>
+                <li class="link_village"><a href="http://www.niseko-village.com/" target="_blank" class="png"><span class="reader">Niseko Village</span></a></li>
+                <li class="link_hirafu"><a href="http://www.grand-hirafu.jp/" target="_blank" class="png"><span class="reader">Niseko Mt.Resort Grand Hirafu</span></a></li>
+                <li class="link_hanazono"><a href="http://www.hanazononiseko.com/" target="_blank" class="png"><span class="reader">Niseko Hanazono</span></a></li>
+            </ul>
+            <ul id="nav_lang" class="btn">
+                <li class="lang_ja"><a href="../ja/" class="png"><span class="reader">Japanese</span></a></li>
+            </ul>
+        </div>
+    <button class="mobile-toggle">Menu</button>
+      <ul id="nav_global" class="nav-main fix">
+          <li class="has-sub-menu">
+            <a href="http://www.niseko.ne.jp/en/niseko/index.html"> About <br>Niseko United</a>
+              <ul class="sub-menu">
+                 <li><a href="http://www.niseko.ne.jp/en/latest-niseko-news.html">News & Events</a></li>
+                   
+                 <li><a href="http://www.niseko.ne.jp/en/niseko-rules/index.html">Niseko Rules</a></li>
+					
+                  <li class="has-sub-menu">
+                      <a href="http://www.niseko.ne.jp/en/access/pdf/2018-NU_Shuttle_Timetable_EN.pdf">Niseko Shuttle Bus</a>
+                  </li>
+                    <li class="has-sub-menu">
+                        <a href="http://www.niseko.ne.jp/en/niseko-summer/index.html">Summer In Niseko</a><!-- 
+                        <ul class="sub-menu">
+                            <li><a href="http://www.niseko.ne.jp/en/niseko-summer/index.html">General Overview</a></li>
+                            <li><a href="http://www.niseko.ne.jp/en/summer-activities/index.html">Summer Activities</a></li>
+                        </ul>
+                    </li> -->
+                  <li><a href="http://www.nisekotourism.com/" target="_blank">More on Niseko</a></li>
+                  <li class="has-sub-menu">
+                      <a href="http://www.niseko.ne.jp/en/niseko-access/index.html">Getting to Niseko</a>
+                      <ul class="sub-menu">
+                          <li>
+                              <a href="http://www.niseko.ne.jp/en/niseko-access/index.html">By Car, By Train, By Bus</a>
+                          </li>
+                      </ul>
+                  </li>
+                   
+              </ul>
+          </li>
+          <li class="has-sub-menu">
+              <a href="http://www.niseko.ne.jp/en/niseko-lift-status/index.html">Weather &<br>Lift Status</a>
+              <ul class="sub-menu">
+                  <li class="has-sub-menu">
+                      <a href="http://www.niseko.ne.jp/en/niseko-lift-status/index.html">Lift Status</a>
+                      <ul class="sub-menu">
+                          <li><a href="http://www.niseko.ne.jp/en/weather/grand-hirafu.html">Grand Hirafu</a></li>
+                          <li><a href="http://www.niseko.ne.jp/en/weather/hanazono.html">Hanazono</a></li>
+                          <li><a href="http://www.niseko.ne.jp/en/weather/village.html">Niseko Village</a></li>
+                          <li><a href="http://www.niseko.ne.jp/en/weather/annupuri.html">Annupuri</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="http://www.niseko.ne.jp/en/niseko-snow-report.html">Snow Report</a></li>
+                  <li><a href="http://www.niseko.ne.jp/en/livecamera/index.html">Web Cams</a></li>
+                  <li><a href="http://www.niseko.ne.jp/en/niseko-avalanche-report.html">Avalanche Report</a></li>
+                  <li class="has-sub-menu">
+                      <a href="http://www.niseko.ne.jp/en/map/index.html">Trail Map</a>
+                      <ul class="sub-menu">
+                          <li><a href="http://www.niseko.ne.jp/en/map/hanazono.html">Hanazono</a></li>
+                          <li><a href="http://www.niseko.ne.jp/en/map/grand-hirafu.html">Grand Hirafu</a></li>
+                          <li><a href="http://www.niseko.ne.jp/en/map/village.html">Niseko Village</a></li>
+                          <li><a href="http://www.niseko.ne.jp/en/map/annupuri.html">Annupuri</a></li>
+                      </ul>
+                  </li>
+              </ul>
+          </li>
+          <li class="has-sub-menu">
+              <a href="http://www.niseko.ne.jp/en/lift/index.html">Tickets <br>& passes</a>
+              <ul class="sub-menu">
+                  <li><a href="http://www.niseko.ne.jp/en/lift/index.html">Lift Ticket Prices</a></li>
+                  <li><a href="http://www.niseko.ne.jp/en/all-mountain-season-pass/index.html">All Mtn Season Pass</a></li>
+                  <li><a href="http://www.niseko.ne.jp/en/web-liftpass/index.html">Internet Lift Tickets</a></li>
+                  <li class="has-sub-menu">
+                      <a href="http://www.niseko.ne.jp/en/otoku/index.html">Lift Ticket Packages</a>
+                      <ul class="sub-menu">
+                          <li><a href="http://www.niseko.ne.jp/en/otoku/index.html#buspack">Bus Pack</a></li>
+                          <li><a href="http://www.niseko.ne.jp/en/otoku/index.html#yokubari">Yokubari Pack</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="http://www.niseko.ne.jp/en/web-liftpass/skiline.html">Skiline</a></li>
+                  <li class="has-sub-menu">
+                      <a href="http://www.niseko.ne.jp/en/affiliate-school/index.html">Commercial Lift Tickets</a>
+                      <ul class="sub-menu">
+                          <li><a href="http://www.niseko.ne.jp/en/affiliate-school/index.html">NISEKO UNITED Snowsports School Accreditation System</a></li>
+                          <li><a href="http://www.niseko.ne.jp/en/photography/index.html">Guided Photography Business Commercial Season Pass</a></li>
+                      </ul>
+                  </li>
+                  <li><a href="http://www.niseko.ne.jp/en/mountain-collective/index.html">Mountain Collective</a></li>
+              </ul>
+          </li>
+          <li class="has-sub-menu">
+              <a href="http://www.niseko.ne.jp/en/niseko-accommodation/index.html">PLAN <br>YOUR STAY</a>
+              <ul class="sub-menu">
+                  <li><a href="http://www.niseko.ne.jp/en/niseko-accommodation/index.html">Accommodation</a></li>
+                   <li><a href="http://www.niseko.ne.jp/en/niseko-ski-school/index.html">Ski School</a></li> 
+                  <li><a href="http://www.niseko.ne.jp/en/niseko-rentals/index.html">Rentals</a></li> 
+                   <li><a href="http://www.niseko.ne.jp/en/niseko-winter-activities/index.html">Winter Activities</a></li> 
+					<li><a href="http://www.niseko.ne.jp/en/niseko-summer/index.html">Summer Activities</a></li> 
+				  <li><a href="http://www.niseko.ne.jp/en/niseko-resort-dining/index.html">Resort Dining</a></li>
+                  <li><a href="http://www.niseko.ne.jp/en/niseko-kids/index.html">Kids</a></li> 
+              </ul>
+          </li>
+          <li class="has-sub-menu">
+              <a href="http://www.niseko.ne.jp/en/access/index.html">Getting <br>TO NISEKO</a>
+          </li>
+      </ul>
+    </div>
+    <div id="page_down" class="btn"><a class="png" href="#BODY"><span class="reader">Go to Main contents</span></a></div>
+</div>
+    <div id="contents">
+        <div id="contents_inner">
+            <p class="reader"><a id="BODY" name="BODY">Main contents start here</a></p>
+
+            <div id="sub" class="box" style="width:100%;float:none;">
+                <hr />
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="http://www.niseko.ne.jp/en/niseko-lift-status/index.html" class="tile-box" style="background-image: url('img/extra/tile-1-bg.png')">
+                        <h2>LIFT STATUS</h2>
+                        <div class="spacer"></div>
+                        <p>
+                            REAL TIME LIFT STATUS
+                            <br>OF EVERY RESORT
+                        </p>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="http://www.niseko.ne.jp/en/livecamera/index.html" class="tile-box" style="background-image: url('img/extra/tile-2-bg.png')">
+                        <h2>WEB CAMS</h2>
+                        <div class="spacer"></div>
+                        <p>
+                            KEEP AN EYE ON
+                            <br>NISEKO POWDER
+                        </p>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="http://www.niseko.ne.jp/en/niseko-rules/index.html" class="tile-box" style="background-image: url('img/extra/tile-3-bg.png')">
+                        <h2>NISEKO RULES</h2>
+                        <div class="spacer"></div>
+                        <p>
+                            RIDE SAFE AND
+                            <br>HAVE FUN
+                        </p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <a href="http://www.niseko.ne.jp/en/niseko-avalanche-report.html" class="avalanche-info">
+                        Niseko Avalanche Information
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="section-title">NISEKO NEWS</h2>
+
+                    <div class="news-carousel owl-theme owl-carousel">
+                       
+
+												                        <div class="item">
+                            <div class="news-box">
+                                <a href="http://www.niseko.ne.jp/en/news/ste.html"><div class="news-thumb" style="background-image: url('img/slides/2016_17/22.jpg')"></div></a>
+                                <div class="news-excerpt">
+                                    <a href="http://www.niseko.ne.jp/en/news/ste.html"><h2>Visit us at the Snow Travel Expo and WIN!</h2></a>
+                                    <p>
+                                        Visit us at the Niseko United booth to talk about Niseko and win a fully inclusive Niseko holiday!
+                                    </p>
+                                    <a href="http://www.niseko.ne.jp/en/news/ste.html">More info ></a>
+                                </div>
+                            </div>
+                        </div>
+						
+						
+						
+						<div class="item">
+                            <div class="news-box">
+                                <a href="http://www.niseko.ne.jp/en/news/89-chance-of-fresh-snow.html"><div class="news-thumb" style="background-image: url('img/slides/2016_17/20.jpg')"></div></a>
+                                <div class="news-excerpt">
+                                    <a href="http://www.niseko.ne.jp/en/news/89-chance-of-fresh-snow.html"><h2>89% chance of fresh snow in powder season?!</h2></a>
+                                    <p>
+                                        What a winter it was! Check out the official stats from the 820m station of Grand Hirafu.
+                                    </p>
+                                    <a href="http://www.niseko.ne.jp/en/news/89-chance-of-fresh-snow.html">More info ></a>
+                                </div>
+                            </div>
+                        </div>
+						
+						
+						                        <div class="item">
+                            <div class="news-box">
+                                <a href="http://www.niseko.ne.jp/en/news/After-the-snow-melts-a-whole-new-world-comes-to-life.html"><div class="news-thumb" style="background-image: url('img/slides/2016_17/21.jpg')"></div></a>
+                                <div class="news-excerpt">
+                                    <a href="http://www.niseko.ne.jp/en/news/After-the-snow-melts-a-whole-new-world-comes-to-life.html"><h2>The green season: A whole new world comes to life! </h2></a>
+                                    <p>
+                                        Niseko bursts into life with nature and an endless number of outdoor activities on offer.
+                                    </p>
+                                    <a href="http://www.niseko.ne.jp/en/news/After-the-snow-melts-a-whole-new-world-comes-to-life.html">More info ></a>
+                                </div>
+                            </div>
+                        </div>
+						
+						
+                        <div class="item">
+                            <div class="news-box">
+                                <a href="http://www.niseko.ne.jp/en/news/Chinese-New-Year-in-Niseko-goes-off-with-a-bang.html"><div class="news-thumb" style="background-image: url('img/slides/2016_17/18.jpg')"></div></a>
+                                <div class="news-excerpt">
+                                    <a href="http://www.niseko.ne.jp/en/news/Chinese-New-Year-in-Niseko-goes-off-with-a-bang.html"><h2>Chinese New Year in Niseko goes off with a bang!</h2></a>
+                                    <p>
+                                        Over the past decade Niseko has firmly become a Chinese New Year holiday hotspot!
+                                    </p>
+                                    <a href="http://www.niseko.ne.jp/en/news/Chinese-New-Year-in-Niseko-goes-off-with-a-bang.html">More info ></a>
+                                </div>
+                            </div>
+                        </div>
+						
+						<div class="item">
+                            <div class="news-box">
+                                <a href="http://www.niseko.ne.jp/en/news/Follow-the-Niseko-Rules-for-avalanche-safety.html"><div class="news-thumb" style="background-image: url('img/slides/2016_17/17.jpg')"></div></a>
+                                <div class="news-excerpt">
+                                    <a href="http://www.niseko.ne.jp/en/news/Follow-the-Niseko-Rules-for-avalanche-safety.html"><h2>Follow the Niseko Rules for avalanche safety</h2></a>
+                                    <p>
+                                        Niseko's heavy winter eases up towards the end of February, meaning March and April offers the best of all worlds.
+                                    </p>
+                                    <a href="http://www.niseko.ne.jp/en/news/Follow-the-Niseko-Rules-for-avalanche-safety.html">More info ></a>
+                                </div>
+                            </div>
+                        </div>
+						
+						<div class="item">
+                            <div class="news-box">
+                                <a href="http://www.niseko.ne.jp/en/news/Try-skiing-in-the-sunshine-of-Nisekos-spring.html"><div class="news-thumb" style="background-image: url('img/slides/2016_17/16.jpg')"></div></a>
+                                <div class="news-excerpt">
+                                    <a href="http://www.niseko.ne.jp/en/news/Try-skiing-in-the-sunshine-of-Nisekos-spring.html"><h2>Try skiing in the sunshine of Niseko's spring</h2></a>
+                                    <p>
+                                        Niseko's heavy winter eases up towards the end of February, meaning March and April offers the best of all worlds.
+                                    </p>
+                                    <a href="http://www.niseko.ne.jp/en/news/Try-skiing-in-the-sunshine-of-Nisekos-spring.html">More info ></a>
+                                </div>
+                            </div>
+                        </div>
+						
+						<div class="item">
+                            <div class="news-box">
+                                <a href="http://www.niseko.ne.jp/en/news/a-return-to-classic-deep-winter-on-the-way.html"><div class="news-thumb" style="background-image: url('img/slides/2016_17/15.jpg')"></div></a>
+                                <div class="news-excerpt">
+                                    <a href="http://www.niseko.ne.jp/en/news/a-return-to-classic-deep-winter-on-the-way.html"><h2>A return to classic deep winter on the way</h2></a>
+                                    <p>
+                                        After the heaviest snowfall start to a season for at least a decade, we experienced a relatively mild January.
+                                    </p>
+                                    <a href="http://www.niseko.ne.jp/en/news/a-return-to-classic-deep-winter-on-the-way.html">More info ></a>
+                                </div>
+                            </div>
+                        </div>
+						
+						<div class="item">
+                            <div class="news-box">
+                                <a href="http://www.niseko.ne.jp/en/news/Backcountry-Gates-Mizuno-no-Sawa-open.html"><div class="news-thumb" style="background-image: url('img/slides/2016_17/14.jpg')"></div></a>
+                                <div class="news-excerpt">
+                                    <a href="http://www.niseko.ne.jp/en/news/Backcountry-Gates-Mizuno-no-Sawa-open.html"><h2>Backcountry Gates & Mizuno no Sawa open!</h2></a>
+                                    <p>
+                                        Christmas has come early for Niseko powder hounds this year - literally!
+                                    </p>
+                                    <a href="http://www.niseko.ne.jp/en/news/Backcountry-Gates-Mizuno-no-Sawa-open.html">More info ></a>
+                                </div>
+                            </div>
+                        </div>
+                       
+                       <div class="item">
+                            <div class="news-box">
+                                <a href="http://www.niseko.ne.jp/en/news/Celebrate-the-New-Year-Niseko-Style.html"><div class="news-thumb" style="background-image: url('img/slides/2016_17/13.jpg')"></div></a>
+                                <div class="news-excerpt">
+                                    <a href="http://www.niseko.ne.jp/en/news/Celebrate-the-New-Year-Niseko-Style.html"><h2>Celebrate the New Year Niseko Style!</h2></a>
+                                    <p>
+                                        The New Year or “shougatsu” holiday is to Japanese what Christmas is to Westerners ...
+                                    </p>
+                                    <a href="http://www.niseko.ne.jp/en/news/Celebrate-the-New-Year-Niseko-Style.html">More info ></a>
+                                </div>
+                            </div>
+                        </div>
+                       
+                       <div class="item">
+                            <div class="news-box">
+                                <a href="http://www.niseko.ne.jp/en/news/Santa-stopping-by-Niseko-this-Christmas.html"><div class="news-thumb" style="background-image: url('img/slides/2016_17/12.jpg')"></div></a>
+                                <div class="news-excerpt">
+                                    <a href="http://www.niseko.ne.jp/en/news/Santa-stopping-by-Niseko-this-Christmas.html"><h2>Santa stopping by Niseko this Christmas</h2></a>
+                                    <p>
+                                        The jolly man in the red suit will do a whirlwind tour of the Niseko resorts on Christmas Eve ...
+                                    </p>
+                                    <a href="http://www.niseko.ne.jp/en/news/Santa-stopping-by-Niseko-this-Christmas.html">More info ></a>
+                                </div>
+                            </div>
+                        </div>
+                       
+                       <div class="item">
+                            <div class="news-box">
+                                <a href="http://www.niseko.ne.jp/en/news/White_Christmas_forecast_for_Niseko.html"><div class="news-thumb" style="background-image: url('img/slides/2016_17/11.jpg')"></div></a>
+                                <div class="news-excerpt">
+                                    <a href="http://www.niseko.ne.jp/en/news/White_Christmas_forecast_for_Niseko.html"><h2>White Christmas forecast for Niseko!</h2></a>
+                                    <p>
+                                        It has snowed on 26 of 29 days since the Niseko United resort opened in late November ...
+                                    </p>
+                                    <a href="http://www.niseko.ne.jp/en/news/White_Christmas_forecast_for_Niseko.html">More info ></a>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="item">
+                            <div class="news-box">
+                                <a href="http://www.niseko.ne.jp/en/news/Niseko_Village_signs_new_hotel_agreement_with_Marriott.html"><div class="news-thumb" style="background-image: url('img/slides/2016_17/10.jpg')"></div></a>
+                                <div class="news-excerpt">
+                                    <a href="http://www.niseko.ne.jp/en/news/Niseko_Village_signs_new_hotel_agreement_with_Marriott.html"><h2>Niseko Village signs new hotel agreement with Marriott</h2></a>
+                                    <p>
+                                        Marriott International and owner of Niseko Village YTL Hotels today announced an agreement for two new hotels at Niseko Village. ...
+                                    </p>
+                                    <a href="http://www.niseko.ne.jp/en/news/Niseko_Village_signs_new_hotel_agreement_with_Marriott.html">More info ></a>
+                                </div>
+                            </div>
+                        </div>
+						<div class="item">
+                            <div class="news-box">
+                                <a href="http://www.niseko.ne.jp/en/news/niseko_united_season_2017-18_officially_open.html"><div class="news-thumb" style="background-image: url('img/slides/2016_17/01.jpg')"></div></a>
+                                <div class="news-excerpt">
+                                    <a href="http://www.niseko.ne.jp/en/news/niseko_united_season_2017-18_officially_open.html"><h2>Niseko United Season 2017/18 officially open!</h2></a>
+                                    <p>
+                                        Niseko United Season 2017/18 was Niseko United’s first official guest for winter 2017/18 after the resort opened in style this morning. Grand Hirafu opened on schedule following a huge week of early season ...
+                                    </p>
+                                    <a href="http://www.niseko.ne.jp/en/news/niseko_united_season_2017-18_officially_open.html">More info ></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="news-box">
+                                <a href="http://www.niseko.ne.jp/en/news/two_new_lifts_ready_to_roll_in_coming_days.html"><div class="news-thumb" style="background-image: url('news/img/two_new_lifts_ready_to_roll_in_coming_days.jpg')"></div></a>
+                                <div class="news-excerpt">
+                                    <a href="http://www.niseko.ne.jp/en/news/two_new_lifts_ready_to_roll_in_coming_days.html">
+                                        <h2>
+                                            Two new lifts ready to roll in coming days
+                                        </h2>
+                                    </a>
+                                    <p>
+                                        Niseko's lift infrastructure overhaul continues this winter with two new modern lifts completed and ready to open on schedule this winter. Both are beginner lifts – one upgrade/extension in Grand Hirafu, ...
+                                    </p>
+                                    <a href="http://www.niseko.ne.jp/en/news/two_new_lifts_ready_to_roll_in_coming_days.html">More info ></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="news-box">
+                                <a href="http://www.niseko.ne.jp/en/news/niseko_now_part_of_something_bigger_mt_collective.html"><div class="news-thumb" style="background-image: url('news/img/niseko_now_part_of_something_bigger_mt_collective.jpg')"></div></a>
+                                <div class="news-excerpt">
+                                    <a href="http://www.niseko.ne.jp/en/news/niseko_now_part_of_something_bigger_mt_collective.html"><h2>Niseko now part of something bigger – Mt Collective</h2></a>
+                                    <p>
+                                        Niseko United this year joined one of the world’s major ski resort alliances, becoming a Global Affiliate resort member of The Mountain Collective.
+                                    </p>
+                                    <a href="http://www.niseko.ne.jp/en/news/niseko_now_part_of_something_bigger_mt_collective.html">More info ></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="news-box">
+                                <a href="http://www.niseko.ne.jp/en/news/you_re_entered_to_win_a_niseko_united_5-day_pass.html"><div class="news-thumb" style="background-image: url('news/img/you_re_entered_to_win_a_niseko_united_5-day_pass.jpg')"></div></a>
+                                <div class="news-excerpt">
+                                    <a href="http://www.niseko.ne.jp/en/news/you_re_entered_to_win_a_niseko_united_5-day_pass.html"><h2>You’re entered to win a Niseko United 5-day pass!</h2></a>
+                                    <p>
+                                        Thank you for reading the first Niseko United newsletter. As a thank you, we’ve entered you into the draw to win one of ? x 5-day Niseko United All Mountain Lift passes!
+                                    </p>
+                                    <a href="http://www.niseko.ne.jp/en/news/you_re_entered_to_win_a_niseko_united_5-day_pass.html">More info ></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="instagram-heading">
+        INSTAGRAM FEED  <a href="https://www.instagram.com/nisekounited/" target="_blank">Follow us @nisekounited</a>
+    </div>
+    <div class="instagram-container">
+        <script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/instafeed.min.js"></script>
+        <script type="text/javascript">
+            var feed = new Instafeed({
+                get: 'user',
+                userId: '5821249157',
+                clientId: '4e9df78b276747fbb58755e8a864a83a',
+                accessToken: '5821249157.4e9df78.0570b9d2cec542bc99f4040ebc54e176',
+                resolution: 'standard_resolution',
+                limit: 4,
+                template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /></a>'
+            });
+            feed.run();
+        </script>
+        <div id="instafeed" class="clearfix"></div>
+        <div class="clearfix"></div>
+    </div>
+
+    <div class="clearfix"></div>
+<div class="newsletter">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Get the Latest Deals & Keep Up with WHAT’S HOT</h2>
+                <p>
+                    Straight to your inbox, about once a month, totally free
+                </p>
+                <div class="newsletter-form">
+                    <form action="https://niseko.us17.list-manage.com/subscribe/post?u=1c319435997475a44be24bdc7&amp;id=3f80d195c0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+
+                            <!-- Text Input Field -->
+                            <div class="mc-field-group"><input type="email" placeholder="Your Email" name="EMAIL" class="required email" id="mce-EMAIL"></div>
+                            <!-- /Text Input Field -->
+
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                            </div><!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+
+                            <div style="position: absolute; left: -5000px;"><input type="text" name="b_0b5586be71b0fee16a03f5684_e41ec18eab" tabindex="-1" value=""></div>
+
+                            <!-- Submit Button -->
+                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                            <!-- /Submit Button -->
+                            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <ul id="page_top" class="btn"><li><a class="png" href="#TOP" accesskey="T"><span>Return to Top of Page</span></a></li></ul>
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 margin-bottom-30">
+                    <ul class="footer-links">
+                        <li><a href="http://www.niseko.ne.jp/en/niseko-lift-status/index.html">LIFT STATUS <i class="fa fa-angle-right"></i></a></li>
+                        <li><a href="http://www.niseko.ne.jp/en/media/index.html">MEDIA REQUESTS <i class="fa fa-angle-right"></i></a></li>
+                        <li><a href="http://www.niseko.ne.jp/en/privacy/index.html">SITE POLICY</a>
+							</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 margin-bottom-30">
+                    <div class="inline-badges left">
+                        <img src="http://www.niseko.ne.jp/en/img/extra/badge-1-fix.png" class="img-responsive center-block mb-15">
+                        <img src="http://www.niseko.ne.jp/en/img/extra/badge-2-fix.png" class="img-responsive center-block mb-15">
+                    </div>
+                    <div class="inline-badges right">
+                        <a href="https://mountaincollective.com/" target="_blank">
+                            <img src="http://www.niseko.ne.jp/en/img/extra/mountain-collective.png" class="img-responsive center-block">
+                        </a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="col-sm-5 margin-bottom-30">
+                    <div class="footer-widget margin-bottom-30">
+                        <div class="social-link">
+                            <span class="widget-title">FOLLOW US</span>
+                            <a href="https://www.instagram.com/nisekounited/"><img src="http://www.niseko.ne.jp/en/img/extra/instagram.png"></a>
+                            <a href="https://www.facebook.com/NisekoUnited/"><img src="http://www.niseko.ne.jp/en/img/extra/facebook.png"></a>
+                        </div>
+                    </div>
+                    <div class="footer-widget">
+                        <div class="weather-link">
+                            <script>
+                                var site_uri = 'http://www.niseko.ne.jp/en';
+                            </script>
+                            <h2 class="widget-title">WEATHER</h2>
+                            <div class="clearfix" id="weather-footer"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">Copyright ©2018 Niseko United. All Rights Reserved. </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+<ul class="reader">
+    <li><a id="END" name="END">Bottom of page</a></li>
+    <li><a href="#TOP" accesskey="T">Return to Top of Page</a></li>
+</ul>
+<!--BODY END-->
+<script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/libs/sugar-1.3.9.min.js"></script>
+<script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/libs/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/libs/jquery-migrate-1.1.1.min.js"></script>
+<script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/libs/jquery-ui/js/jquery-ui-1.9.2.custom.min.js"></script>
+<script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/libs/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/libs/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/libs/jsdeferred.jquery.min.js"></script>
+<script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/libs/underscore-1.4.4.min.js"></script>
+<script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/libs/base64.min.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/libs/DD_belatedPNG_0.0.8a-min.js"></script>
+<script type="text/javascript">$(function(){ try { document.execCommand("BackgroundImageCache", false, true); } catch(e) {} DD_belatedPNG.fix('.png'); });</script>
+<![endif]-->
+<script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/ga.js"></script>
+<script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/libs/jquery.easing.1.3.min.js"></script>
+<script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/libs/bxslider/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/libs/flexslider/jquery.flexslider.min.js"></script>
+<script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/common.js"></script>
+<script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/home.js"></script>
+<!-- <script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/links/links.js"></script> -->
+<!-- <script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/sub_contents/sub_contents.js"></script> -->
+<script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/libs/jquery.rwdImageMaps.min.js"></script>
+<script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/lift.js"></script>
+<script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/weather.js"></script>
+<script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/topics.js"></script>
+
+<script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/owl.carousel.min.js"></script>
+
+<script type="text/javascript" src="http://www.niseko.ne.jp/en/common/js/extend.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-104417981-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-104417981-1');
+</script>
+
+</body>
+</html>

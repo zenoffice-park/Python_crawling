@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>本紙会員移行フォーム｜Medical Tribune</title>
+<meta name="description" content="本紙会員移行フォーム">
+<meta name="keywords" content="本紙会員移行フォーム,Medical Tribune,メディカルトリビューン,医療ニュース,臨床,論文">
+<meta name="viewport" content="initial-scale=1.0,width=device-width,user-scalable=yes">
+<meta property="og:title" content="本紙会員移行フォーム｜Medical Tribune">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Medical Tribune">
+<meta property="og:url" content="https://medical-tribune.co.jp/mypage/migrate.html">
+<meta property="og:description" content="本紙会員移行フォーム">
+<meta property="og:image" content="https://medical-tribune.co.jp/img/img_ogpheader.png">
+<meta name="twitter:site" content="@mtpronews">
+<meta name="twitter:card" content="summary">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="https://medical-tribune.co.jp/img/favicon.ico">
+<link rel="apple-touch-icon" sizes="152x152" href="https://medical-tribune.co.jp/img/apple-touch-icon.png">
+<link rel="stylesheet" href="https://medical-tribune.co.jp/css/main.css?20170912">
+<link rel="stylesheet" href="https://medical-tribune.co.jp/css/main_plus.css">
+<link rel="stylesheet" href="https://medical-tribune.co.jp/css/print.css" type="text/css" media="print">
+<link rel="stylesheet" href="https://medical-tribune.co.jp/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.1.0/font-awesome-animation.css">
+<link rel="stylesheet" href="https://medical-tribune.co.jp/css/lib/icheck/skins/minimal/blue.css">
+<script src="https://medical-tribune.co.jp/js/jquery.min.js"></script>
+<script src="https://medical-tribune.co.jp/js/tags.js?20171201"></script>
+<script src="https://medical-tribune.co.jp/js/main.js?20171206" async></script>
+<script src="https://medical-tribune.co.jp/js/lib/smoothScroll.js" async></script>
+<script src="https://medical-tribune.co.jp/js/lib/icheck.min.js" async></script>
+<script src="https://medical-tribune.co.jp/js/ajax_loader.js?20170829" async></script>
+<script src="https://medical-tribune.co.jp/js/jquery.inview.min.js" async></script>
+<script type="text/javascript">
+  var mtprolabel = 'nologin';
+  </script>
+<script>
+ 
+   
+
+</script>  
+<script>
+if (js_login    == null) {var js_login    = "--";}
+if (sf_id == null) {var sf_id = "";} // 20171114  
+if (js_sex      == null) {var js_sex      = "--";}
+if (js_birthday == null) {var js_birthday = "--";}
+if (js_class    == null) {var js_class    = "--";}
+if (js_nickname == null) {var js_nickname = "--";}
+if (js_kyoumi   == null) {var js_kyoumi   = "--";}
+if (js_daiichi_hyobo == null) {var js_daiichi_hyobo = "--";} 
+</script>
+<style>.async-hide { opacity: 0 !important} </style>
+<script>
+(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+})(window,document.documentElement,'async-hide','dataLayer',4000,
+{'GTM-WSQ6KN4':true});
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-66349615-1', 'auto');
+  ga('require', 'GTM-WSQ6KN4');
+  ga('require', 'linkid');
+  ga('set', 'dimension2', mtprolabel);//not_login doctor other
+  //var sf_id = get_cookie_by_name('sf_id'); //sf_id
+  ga('set', 'dimension3', sf_id);
+  ga('set', 'userId', sf_id); // user_id
+  ga('set', 'dimension4', js_login);
+  ga('set', 'dimension5', js_sex);
+  ga('set', 'dimension6', js_class);
+  ga('set', 'dimension7', js_nickname);
+  ga('set', 'dimension8', js_kyoumi);
+  ga('set', 'dimension9', js_daiichi_hyobo);
+  ga('set', 'dimension10', get_cookie_by_name('mtw_uuid'));
+  var add_query_param = function(name){
+     var path  = location.pathname;
+     var query = location.search.slice(1); //1文字削除
+     result =  path + "?" + query + "&form_type=" +  name           
+     return result;
+  }
+  if(location.pathname == "/members.cgi"){
+    if( document.title.match(/医師・研修医 会員登録確認/)  ) {
+      var changed_url =  add_query_param("confirm");
+      ga('set', 'page', changed_url );
+    }else if(document.title.match(/医師・研修医 会員登録仮完了/) ){
+      var changed_url =  add_query_param("tmp_regist");
+      ga('set', 'page', changed_url );
+    }else if(document.title.match(/医師・研修医 会員登録完了/) ){
+      var changed_url =  add_query_param("regist");
+      ga('set', 'page', changed_url );
+    }else if(document.title.match(/医師・研修医 会員登録｜/) ){
+      var changed_url =  add_query_param("input");
+      ga('set', 'page', changed_url );
+    }else{
+      console.log("変換なし");
+    }
+  }                
+  ga('send', 'pageview');
+</script>
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<!--[if lt IE 9]>
+<script src="https://medical-tribune.co.jp/js/html5.js"></script>
+<script src="/js/lib/respond.js"></script>
+<script src="https://medical-tribune.co.jp/js/lib/jquery.backgroundSize.js"></script>
+<script src="https://medical-tribune.co.jp/js/lib/selectivizr-min.js"></script>
+<![endif]-->
+<script type='text/javascript'>
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    (function() {
+      var gads = document.createElement('script');
+      gads.async = true;
+      gads.type = 'text/javascript';
+      var useSSL = 'https:' == document.location.protocol;
+      gads.src = (useSSL ? 'https:' : 'http:') +
+        '//www.googletagservices.com/tag/js/gpt.js';
+      var node = document.getElementsByTagName('script')[0];
+      node.parentNode.insertBefore(gads, node);
+    })();
+  </script>
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/14305213/mtw_t_rectangle_nologin', [[300, 250],[300, 300]], 'div-gpt-ad-1440144018763-0').addService(googletag.pubads());
+googletag.defineSlot('/14305213/mtw_b_rectangle_nologin',[[300, 250],[300, 300]], 'div-gpt-ad-1440144197065-0').addService(googletag.pubads());
+googletag.defineSlot('/14305213/mtw_all_t_rectangle_dr', [[300, 250],[300, 300]], 'div-gpt-ad-1440145498682-0').addService(googletag.pubads());
+googletag.defineSlot('/14305213/mtw_all_b_rectangle_dr', [[300, 250],[300, 300]], 'div-gpt-ad-1442138398547-0').addService(googletag.pubads());
+googletag.defineSlot('/14305213/mtw_cal_t_rectangle_dr', [[300, 250],[300, 300]], 'div-gpt-ad-1440145967339-0').addService(googletag.pubads());
+googletag.defineSlot('/14305213/mtw_cal_b_rectangle_dr', [[300, 250],[300, 300]], 'div-gpt-ad-1440146067067-0').addService(googletag.pubads());
+googletag.defineSlot('/14305213/mtw_busi_t_rectangle_dr', [300, 250], 'div-gpt-ad-1440146170535-0').addService(googletag.pubads());
+googletag.defineSlot('/14305213/mtw_busi_b_rectangle_dr', [300, 250], 'div-gpt-ad-1440146254147-0').addService(googletag.pubads());
+googletag.defineSlot('/14305213/mtw_life_t_rectangle_dr', [300, 250], 'div-gpt-ad-1440146370914-0').addService(googletag.pubads());
+googletag.defineSlot('/14305213/mtw_life_b_rectangle_dr', [300, 250], 'div-gpt-ad-1440146460567-0').addService(googletag.pubads());
+googletag.defineSlot('/14305213/mtw_article_right_rectangle_dr', [[300, 250], [300, 300]], 'div-gpt-ad-1499654294698-0').addService(googletag.pubads());
+googletag.defineSlot('/14305213/mtw_article_left_rectangle_dr', [[300, 250], [300, 300]], 'div-gpt-ad-1499654265616-0').addService(googletag.pubads());
+googletag.defineSlot('/14305213/mtw_article_right_rectangle_nologin', [[300, 250], [300, 300]], 'div-gpt-ad-1499654199508-0').addService(googletag.pubads());
+googletag.defineSlot('/14305213/mtw_article_left_rectangle_nologin', [[300, 300], [300, 250]], 'div-gpt-ad-1499654231728-0').addService(googletag.pubads());
+googletag.defineSlot('/14305213/mtw_sp_t_rectangle_nologin', [[300, 300], [300, 250]], 'div-gpt-ad-1500359013147-0').addService(googletag.pubads());
+googletag.defineSlot('/14305213/mtw_sp_b_rectangle_nologin', [[300, 250], [300, 300]], 'div-gpt-ad-1500359684848-0').addService(googletag.pubads());
+googletag.defineSlot('/14305213/mtw_sp_all_t_rectangle_dr', [[300, 300], [300, 250]], 'div-gpt-ad-1500359804643-0').addService(googletag.pubads());
+googletag.defineSlot('/14305213/mtw_sp_all_b_rectangle_dr', [[300, 300], [300, 250]], 'div-gpt-ad-1500359864509-0').addService(googletag.pubads());
+googletag.defineSlot('/14305213/mtw_all_t_rectangle_notdr', [[300, 300], [300, 250]], 'div-gpt-ad-1500615837649-0').addService(googletag.pubads());
+googletag.defineSlot('/14305213/mtw_all_b_rectangle_notdr', [[300, 300], [300, 250]], 'div-gpt-ad-1500615772659-0').addService(googletag.pubads());
+googletag.defineSlot('/14305213/mtw_all_t_rectangle_external', [[300, 300], [300, 250]], 'div-gpt-ad-1500859891829-0').addService(googletag.pubads());
+googletag.defineSlot('/14305213/mtw_all_b_rectangle_external', [[300, 250], [300, 300]], 'div-gpt-ad-1500859948783-0').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+googletag.defineSlot('/14305213/mtw_text_dr', [600, 30], 'div-gpt-ad-1501575506581-0').addService(googletag.pubads());
+googletag.defineSlot('/14305213/mtw_text_nologin', [600, 30], 'div-gpt-ad-1501575256096-0').addService(googletag.pubads());
+googletag.defineSlot('/14305213/mtw_text_notdr', [600, 30], 'div-gpt-ad-1502331754224-0').addService(googletag.pubads());
+googletag.defineSlot('/14305213/mtw_sp_all_t_rectangle_notdr', [[300, 300], [300, 250]], 'div-gpt-ad-1505093738841-0').addService(googletag.pubads());
+googletag.defineSlot('/14305213/mtw_sp_all_b_rectangle_notdr', [[300, 300], [300, 250]], 'div-gpt-ad-1505093836762-0').addService(googletag.pubads());
+});
+</script>
+<link rel="stylesheet" href="/css/member.css">
+<script src="/js/member.js"></script>
+<script type="text/javascript">
+var gnavi_cur = '';
+var gnavi_cat = 'g_navi_original';
+jQuery(function(){
+$('header').find("div.user-inner a").click(function(){
+var href = '';
+if(typeof $(this).attr('href') !== 'undefined'){
+href = $(this).attr('href');
+}
+var action = 'navi_click:'+href;
+var label  = $(this).text();
+if($(this).hasClass('user_list_open')){
+label = '○○さん';
+}
+ga('send', 'event',  gnavi_cat, action, label, '0', {'nonInteraction' : 1});
+});
+});
+</script>
+<link rel="stylesheet" href="https://medical-tribune.co.jp/css/main_ex.css">
+<link rel="stylesheet" href="https://medical-tribune.co.jp/css/main_ex_m.css?20180621">
+<!-- Adx -->
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+<!-- //Adx -->
+<!-- MA -->
+<script type="text/javascript">
+(function() {
+  var didInit = false;
+  function initMunchkin() {
+    if(didInit === false) {
+      didInit = true;
+      Munchkin.init('208-CPD-205');
+    }
+  }
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '//munchkin.marketo.net/munchkin.js';
+  s.onreadystatechange = function() {
+    if (this.readyState == 'complete' || this.readyState == 'loaded') {
+      initMunchkin();
+    }
+  };
+  s.onload = initMunchkin;
+  document.getElementsByTagName('head')[0].appendChild(s);
+})();
+</script>
+<!-- // MA -->
+</head>
+<body id="top" class="page-member">
+<!-- DLPO -->
+<script>
+var  adlpo_custom1 = sf_id;
+var  adlpo_custom2 = mtprolabel;
+var  adlpo_custom3 = js_login;
+var  adlpo_custom4 = js_sex;
+var  adlpo_custom5 = js_class;
+var  adlpo_custom6 = js_nickname;
+var  adlpo_custom7 = js_kyoumi;
+var  adlpo_custom8 = js_daiichi_hyobo;
+</script>
+<script src='//d.adlpo.com/452/739/js/smartadlpo.js' type='text/javascript' ></script> <!--/dlpo -->
+<!-- //DLPO -->
+<div class="layer"></div>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-DZKV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-DZKV');</script>
+<!-- End Google Tag Manager -->
+<header>
+<div class="logo"><a href="/"><img src="/img/logo-pc.png" alt="メディカルトリビューン"></a></div>
+<a id="menu-open" class="fa fa-bars" href="#"><span>メニューを開く</span></a>
+<a id="search-open" class="fa fa-search" href="#"><span>検索を開く</span></a>
+<a id="loginNav" class="sp fa fa-sign-in" href="/members.cgi?__mode=view&amp;blog_id=1&amp;return_url=https%3A%2F%2Fmedical-tribune.co.jp%2F"><span>ログイン</span></a>
+<div class="pc user user-guest">
+<div class="user-inner">
+<ul>
+<li><a href="https://medical-tribune.co.jp/">トップ</a></li>
+<li class="list_open">
+<p><a>医療ニュース</a></p>
+<div class="child_list">
+<ul>
+<li>領域</li>
+<li><a href="/news/search.html?cat%5B%5D=560">消化器</a></li>
+<li><a href="/news/search.html?cat%5B%5D=562">呼吸器</a></li>
+<li><a href="/news/search.html?cat%5B%5D=564">循環器</a></li>
+<li><a href="/news/search.html?cat%5B%5D=565">糖尿病・内分泌</a></li>
+<li><a href="/news/search.html?cat%5B%5D=566">がん</a></li>
+<li><a href="/news/search.html?cat%5B%5D=567">感染症</a></li>
+<li><a href="/news/search.html?cat%5B%5D=568">精神疾患</a></li>
+<li><a href="/news/search.html?cat%5B%5D=569">脳・神経</a></li>
+<li><a href="/news/search.html?cat%5B%5D=570">運動器</a></li>
+<li><a href="/news/search.html?cat%5B%5D=571">女性疾患・周産期</a></li>
+<li><a href="/news/search.html">すべてのニュース一覧</a></li>
+</ul>
+<ul>
+<li>ジャンル</li>
+<li><a href="/news/search.html?cat%5B%5D=19">ガイドライン・診断基準</a></li>
+<li><a href="/news/search.html?cat%5B%5D=18">薬剤情報</a></li>
+<li><a href="/news/search.html?cat%5B%5D=39">基礎医学</a></li>
+<li><a href="/news/search.html?cat%5B%5D=40">健康・公衆衛生</a></li>
+<li><a href="/news/search.html?cat%5B%5D=42">医療制度</a></li>
+<li><a href="/news/search.html?cat%5B%5D=43">ワーク・ライフ</a></li>
+<li><a href="/news/search.html?cat%5B%5D=44">学会レポート</a></li>
+<li><a href="/news/search.html?cat%5B%5D=45">イベント</a></li>
+<li><a href="/news/search.html?cat%5B%5D=46">解説</a></li>
+<li><a href="/news/search.html?cat%5B%5D=47">医療経営</a></li>
+<li><a href="/news/search.html?cat%5B%5D=586">事件・事故</a></li>
+</ul>
+</div>
+</li>
+<li class="list_open">
+<p><a>連載・特集</a></p>
+<div class="child_list">
+<ul>
+<li>人気連載</li>
+<li><a href="/rensai/doctors_eye_stroke/">ドクターズアイ 橋本洋一郎（脳卒中）</a></li>
+<li><a href="/rensai/doctors_eye_psychiatry/">ドクターズアイ 宮岡等（精神科）</a></li>
+<li><a href="/rensai/doctors_eye_orthopaedics/">ドクターズアイ 川口浩（整形外科）</a></li>
+<li><a href="/rensai/doctors_eye_diabetes/">ドクターズアイ 山田悟（糖尿病）</a></li>
+<li><a href="/rensai/doctors_eye_cardiovascular/">ドクターズアイ 香坂俊（循環器）</a></li>
+<li><a href="/rensai/doctors_eye_infection/">ドクターズアイ 岩田健太郎（感染症）</a></li>
+<li><a href="/rensai/doctors_eye_gastroenterology2/">ドクターズアイ 石原俊治（消化器）</a></li>
+<li><a href="/rensai/doctors_eye_breath/">ドクターズアイ 倉原優（呼吸器）</a></li>
+<li><a href="/rensai/doctors_eye_general/">ドクターズアイ 仲田和正（総合診療）</a></li>
+<li><a href="/rensai/watch_allergy/">発掘　注目アレルギー論文</a></li>
+<li><a href="/rensai/">すべての連載一覧</a></li>
+</ul>
+<ul>
+<li>特集</li>
+<li><a href="/special/society_report/2018/">学会レポート</a></li>
+</ul>
+</div>
+</li>
+<li><a href="https://medical-tribune.co.jp/image_view/">画像を探す</a></li>
+<li><a href="https://medical-tribune.co.jp/gakkai/gkcalendar/">学会カレンダー</a></li>
+<li><a href="https://medical-tribune.co.jp/life/">ライフスタイル</a></li>
+<li class="gnavi_new"><a href="/special/campaign/1707beach/salon.html">コミュニティ</a></li>
+<li><a href="https://career.medical-tribune.co.jp/?refmn" target="_blank">医師求人</a></li>
+</ul>
+<!--MTIf name="isLoggedIn"-->
+<p class="user-navi">
+<a href="/members.cgi?__mode=signup&amp;blog_id=1&amp;target=1"><span><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>会員登録</span></a>
+<a href="/members.cgi?__mode=view&amp;blog_id=1&amp;return_url=https%3A%2F%2Fmedical-tribune.co.jp%2F"><span><i class="fa fa-sign-in fa-fw  faa-horizontal animated" aria-hidden="true"></i>ログイン</span></a>
+</p>
+<!--/user-guest-->
+<!--MTIf name="isLoggedIn"-->
+</div><!--user-inner-->
+</div><!--user-->
+<style type="text/css">
+header .user-inner {
+text-align: left;
+overflow: hidden;
+}
+header .user-inner ul {
+display: inline-block;
+font-size: 0;
+}
+header .user-inner ul li {
+display: inline-block;
+border-right: solid #333 1px;
+padding: 0 12px;
+font-size: 14px;
+font-weight: bold;
+}
+header .user-inner ul li {
+cursor: pointer;
+}
+header li.list_open div.child_list {
+display: none;
+position: absolute;
+z-index: 100;
+top: 100%;
+-webkit-border-bottom-right-radius: 3px;
+-webkit-border-bottom-left-radius: 3px;
+-moz-border-radius-bottomright: 3px;
+-moz-border-radius-bottomleft: 3px;
+border-bottom-right-radius: 3px;
+border-bottom-left-radius: 3px;
+box-shadow: 0 12px 10px -6px rgba(0,0,0,.3);
+background-color: #274472;
+}
+header li.list_open div.child_list ul {
+display: inline-block;
+vertical-align: top;
+margin:20px;
+padding:0;
+}
+header li.list_open div.child_list ul li{
+display: block;
+text-align: left;
+margin:0 0 3px;
+padding:3px;
+font-size: 15px;
+color: #fff;
+border-right-width: 0;
+}
+header li.list_open div.child_list ul li:first-child{
+margin:0 0 10px;
+padding:0;
+text-align: left;
+border-bottom:2px solid #FFF;
+}
+header li.list_open div.child_list ul li a{
+font-weight:bold;
+padding:6px;
+font-size: 93.75%;
+border-radius: 3px;
+transition: all 0.15s ease;
+text-decoration: none;
+text-align: left;
+}
+header li.list_open div.child_list ul li a:hover{
+color:#333 !important;
+background:#fff;
+}
+header .user-inner .user-detail {
+float: right;
+}
+header .user-inner .user-detail > p a{
+cursor: pointer;
+}
+header .user-inner .user-detail .user-detail-list {
+background-color: #274472;
+padding: 10px;
+display: none;
+border-bottom-right-radius: 3px;
+border-bottom-left-radius: 3px;
+box-shadow: 0 12px 10px -6px rgba(0,0,0,.3);
+}
+header .user-inner .user-detail .user-detail-list p {
+margin: 0;
+padding: 3px 0;
+text-align: left;
+display: block;
+}
+header .user-inner .user-detail .pop-int {
+border-radius: 3px;
+text-align: center;
+color: #fff;
+background-color: #c60000;
+padding: 3px 6px;
+font-size: 90%;
+}
+header .user .user-inner .user-navi {
+float: right;
+}
+</style>
+<script type="text/javascript">
+jQuery(function($){
+	var open_flg_class = 'header_open';
+	var gn_open = 'list_open';
+	var gn_list = 'child_list';
+	var ud_open = 'user_list_open';
+	var ud_list = 'user-detail-list';
+
+	var parent_list = $('li.'+gn_open);
+	if(parent_list.length){
+		var child_list = parent_list.find('.'+gn_list);
+		if(child_list.length){
+			parent_list.find('p').click(function(){
+				var child_list_tmp = $(this).parent().find('.'+gn_list);
+				child_list.each(function(){
+					if(!$(this).is(child_list_tmp)){
+						$(this).css('z-index', '100').stop().slideUp('normal').removeClass(open_flg_class);
+					}else{
+						if($(this).css('display') != 'none'){
+							$(this).css('z-index', '100').stop().slideUp('normal').removeClass(open_flg_class);
+						}else{
+							$(this).css('z-index', '200').stop().slideDown('normal').addClass(open_flg_class);
+						}
+					}
+				});
+			});
+		}
+	}
+
+	var detail_list = $('div.'+ud_list);
+	var list_link = $('.'+ud_open);
+	if(detail_list.length && list_link.length){
+		list_link.click(function(){
+			if(detail_list.css('display') != 'none'){
+				detail_list.css('z-index', '100').stop().slideUp('normal').removeClass(open_flg_class);
+			}else{
+				detail_list.css('z-index', '200').stop().slideDown('normal').addClass(open_flg_class);
+			}
+		});
+	}
+
+	$("html,body").click(function(obj){
+		var target = $(obj.target);
+		var open_list = $('.'+open_flg_class);
+		if(open_list.length){
+			if(target.is(':not(.'+open_flg_class+')') && target.parents('.'+open_flg_class).length == 0){
+				if(target.is('.'+gn_open) || target.parents('.'+gn_open).length !== 0){
+					if(open_list.hasClass(ud_list)){
+						$('.'+ud_list).css('z-index', '100').stop().slideUp('normal').removeClass(open_flg_class);
+					}
+				}else if(target.is('.'+ud_open) || target.parents('.'+ud_open).length !== 0){
+					if(open_list.hasClass(gn_list)){
+						$('.'+gn_list).css('z-index', '100').stop().slideUp('normal').removeClass(open_flg_class);
+					}
+				}else{
+					open_list.css('z-index', '100').stop().slideUp('normal').removeClass(open_flg_class);
+				}
+			}
+		}
+	});
+});
+</script>
+</header>
+<nav id="menu">
+<div class="menuInner"><a href="javascript:void(0);" id="menu-close" class="sp">×</a>
+<div class="user sp user-detail"></div>
+<ul class="sp">
+<li><a href="https://medical-tribune.co.jp/"><i class="fa fa-home" aria-hidden="true"></i>トップ</a></li>
+<li><a href="https://medical-tribune.co.jp/news/search.html"><i class="fa fa-newspaper-o" aria-hidden="true"></i>医療ニュース</a></li>
+<li><a href="https://medical-tribune.co.jp/rensai/"><i class="fa fa-columns" aria-hidden="true"></i>連載・特集</a></li>
+<li><a href="https://medical-tribune.co.jp/image_view/"><i class="fa fa-search" aria-hidden="true"></i>図表を探す</a></li>
+<li><a href="https://medical-tribune.co.jp/gakkai/gkcalendar/"><i class="fa fa-calendar" aria-hidden="true"></i>学会カレンダー</a></li>
+<li><a href="https://medical-tribune.co.jp/life/"><i class="fa fa-heart" aria-hidden="true"></i>ライフスタイル</a></li>
+<li><a href="/special/campaign/1707beach/salon.html"><i class="fa fa-users" aria-hidden="true"></i>コミュニティ</a></li>
+<li><a href="https://career.medical-tribune.co.jp/?refmn" target="_blank"><i class="fa fa-user-md" aria-hidden="true"></i>医師求人</a></li>
+</ul>
+</div>
+</nav>
+<div id="searchMenu"><div class="searchInner">
+<form id="search" method="get" action="https://medical-tribune.co.jp/search.cgi">
+<input type="text" name="query" placeholder="記事を検索" value="">
+<input type="hidden" name="limit" value="20">
+<input type="hidden" name="blog_id" value="2">
+<input type="submit" value="検索">
+<a href="#" id="search-close">検索を閉じる</a>
+</form>
+</div></div>
+<main>
+<div class="row">
+<div class="col-main com-entry-page">
+<h1 class="com-page-title-box">本紙会員移行フォーム</h1>
+<form method="post" action="/members.cgi">
+<input type="hidden" name="__mode" value="signup">
+<input type="hidden" name="blog_id" value="1">
+<input type="hidden" name="target" value="1">
+<input type="hidden" name="migrate" value="1">
+<div class="section">
+<label class="h">本紙購読番号<span class="icon-h">必須</span></label>
+<div class="r">
+<div class="input-group">
+<input class="input-color-red required" name="customfield_mtnumber__c" type="text" value="">
+</div>
+</div>
+</div><!-- /.section -->
+<div class="section">
+<label class="h">お名前(漢字)<span class="icon-h">必須</span></label>
+<div class="r">
+<div class="input-group">
+<span class="b">姓</span> <input class="input-color-red required" data-label="お名前(姓)" id="customfield_lastname__c" name="customfield_lastname__c" placeholder="山田" type="text" value="">
+</div>
+<div class="input-group">
+<span class="b">名</span> <input class="input-color-red required" data-label="お名前(名)" id="customfield_firstname__c" name="customfield_firstname__c" placeholder="太郎" type="text" value="">
+</div>
+</div>
+</div><!-- /.section -->
+<ul class="list-confirm-btnsets">
+<li><input class="com-btn-submit submit" style="margin: 0 auto;width: 200px;" type="submit" value="移行開始"></li>
+</ul>
+</form>
+</div><!--/col-main-->
+<div class="col-sub com-common-right">
+<div class="top-banner">
+<!-- /14305213/mtw_t_rectangle_nologin -->
+<div id='div-gpt-ad-1440144018763-0' style='width:100%; height:auto; max-height:300px; min-height:250px;'>
+<script type='text/javascript'>
+  googletag.cmd.push(function() { googletag.display('div-gpt-ad-1440144018763-0'); });
+  </script>
+</div>
+</div>
+<section class="com-ranking" data-area="ranking">
+<h2>ランキング</h2>
+<ul class="tab-menu">
+<li class="select"><a href="javascript:void(0);">当日</a></li>
+<li><a href="javascript:void(0);">月間</a></li>
+</ul>
+<ol class="tab-cont-wrap" data-area="ranking_daily">
+<li><a href="https://medical-tribune.co.jp/rensai/2018/0711515056/"><span>1</span><p>糖尿病医が抱く高尿酸血症治療への疑問</p></a></li>
+<li><a href="https://medical-tribune.co.jp/news/2018/0711514931/"><span>2</span><p>進歩する潰瘍性大腸炎治療</p></a></li>
+<li><a href="https://medical-tribune.co.jp/news/2018/0711514944/"><span>3</span><p>COPD、β遮断薬で肺機能悪化せず</p></a></li>
+<li><a href="https://medical-tribune.co.jp/news/2018/0710514955/"><span>4</span><p>食べなくても食物アレルギー!?</p></a></li>
+<li><a href="https://medical-tribune.co.jp/rensai/2018/0711514975/"><span>5</span><p>ザンビアに診療所を！ 医学生が資金集め</p></a></li>
+<li><a href="https://medical-tribune.co.jp/news/2018/0709514825/"><span>6</span><p>MR各位、院内感染対策に協力を！</p></a></li>
+<li><a href="https://medical-tribune.co.jp/news/2018/0712515076/"><span>7</span><p>初のトキソプラズマ症薬などが承認</p></a></li>
+<li><a href="https://medical-tribune.co.jp/news/2018/0709514925/"><span>8</span><p>帯状疱疹予防ワクチン2剤の特徴</p></a></li>
+<li><a href="https://medical-tribune.co.jp/news/2018/0711514958/"><span>9</span><p>PI3K阻害薬、進行乳がんの予後改善</p></a></li>
+<li><a href="https://medical-tribune.co.jp/news/2018/0712514939/"><span>10</span><p>予後不良な食物アレルギーの対応法</p></a></li>
+<li><a class="com-btn-gradient" href="https://medical-tribune.co.jp/ranking.html">アクセスランキング一覧&nbsp;<i class="fa fa-chevron-right"></i></a></li>
+</ol><!--2018/07/13 00:47:02-->
+<ol class="tab-cont-wrap tab-cont-disnon" data-area="ranking_monthly">
+<li><a href="https://medical-tribune.co.jp/news/2018/0615514629/"><span>1</span><p>怖い夜間の無自覚性低血糖、対策は明確</p></a></li>
+<li><a href="https://medical-tribune.co.jp/news/2018/0620514645/"><span>2</span><p>婚外性交渉で感染、カルテに書く？</p></a></li>
+<li><a href="https://medical-tribune.co.jp/news/2018/0629514868/"><span>3</span><p>肥満2型糖尿病の治療に有望な新薬</p></a></li>
+<li><a href="https://medical-tribune.co.jp/news/2018/0613514628/"><span>4</span><p>新概念盛り込みCKD診療GLを全面改訂</p></a></li>
+<li><a href="https://medical-tribune.co.jp/news/2018/0706514916/"><span>5</span><p>Bio・ステロイドによる感染症の対策</p></a></li>
+<li><a href="https://medical-tribune.co.jp/news/2018/0709514825/"><span>6</span><p>MR各位、院内感染対策に協力を！</p></a></li>
+<li><a href="https://medical-tribune.co.jp/news/2018/0708514947/"><span>7</span><p>良質な食事が脳の萎縮を抑制？</p></a></li>
+<li><a href="https://medical-tribune.co.jp/news/2018/0622514778/"><span>8</span><p>電池誤飲時は受診前に蜂蜜を</p></a></li>
+<li><a href="https://medical-tribune.co.jp/news/2018/0626514802/"><span>9</span><p>日本人に多い早老症、早期診断が課題</p></a></li>
+<li><a href="https://medical-tribune.co.jp/news/2018/0627514839/"><span>10</span><p>急増する梅毒に学会が対応策</p></a></li>
+<li><a class="com-btn-gradient" href="https://medical-tribune.co.jp/ranking.html">アクセスランキング一覧&nbsp;<i class="fa fa-chevron-right"></i></a></li>
+</ol><!--2018/07/13 00:47:02-->
+<script type="text/javascript">
+jQuery(function($){
+var ranking_select_tab = $('.com-ranking ul.tab-menu li.select');
+if(ranking_select_tab.length){
+ranking_select_tab.click();
+console.log('ranking: start click : "'+ranking_select_tab.find('a').text()+'"');
+}
+});
+</script>
+</section>
+<div class="bottom-banner">
+<ul>
+<li>
+<!-- /14305213/mtw_b_rectangle_nologin -->
+<div id='div-gpt-ad-1440144197065-0' style='height:250px; width:300px;'>
+<script type='text/javascript'>
+  googletag.cmd.push(function() { googletag.display('div-gpt-ad-1440144197065-0'); });
+  </script>
+</div>
+</li>          
+</ul>
+</div>
+</div><!--/col-sub-->
+</div><!--/row-->
+</main>
+<div class="pan-navi">
+<p><a href="/">ホーム</a>&nbsp;&raquo;&nbsp;
+本紙会員移行フォーム
+</p>
+</div>
+<!-- webpush -->
+<script src="/webpush/webpush.js?20171130" async></script>
+<!--/webpush　-->
+<!-- webpush regist chk-->
+<script src="/webpush/chksub.js"></script>
+<!-- /webpush regist chk-->
+<footer>
+<div class="inner">
+<div class="ft-block">
+<h3>カテゴリ</h3>
+<ul class="newlink1">
+<li><a href="/news/search.html">医療ニュース</a></li>
+<li><a href="/rensai/">連載・特集</a></li>
+<li><a href="/gakkai/gkcalendar/">学会カレンダー</a></li>
+<li><a href="/life/">ライフスタイル</a></li>
+<li><a href="/pubmed/">論文検索</a></li>
+<li><a href="https://career.medical-tribune.co.jp/?refmn">医師転職・求人</a></li>
+<li><a href="/detailing/">ディテーリング</a></li>
+<li><a href="/taglist/">タグ一覧</a></li>
+</ul>
+<ul class="social-link">
+<li><a target="_blank" href="https://twitter.com/mtpronews">Twitter<i class="fa fa-twitter-square"></i></a></li>
+<li><a target="_blank" href="https://www.facebook.com/medicaltribuneweb">facebook<i class="fa fa-facebook-square"></i></a></li>
+</ul>
+</div><!--ft-block-->
+<div class="ft-block">
+<h3>領域別カテゴリ</h3>
+<ul class="flex">
+<li><a href="/news/search.html?cat%5B%5D=560">消化器</a></li>
+<li><a href="/news/search.html?cat%5B%5D=562">呼吸器</a></li>
+<li><a href="/news/search.html?cat%5B%5D=564">循環器</a></li>
+<li><a href="/news/search.html?cat%5B%5D=565">糖尿病・内分泌</a></li>
+<li><a href="/news/search.html?cat%5B%5D=566">がん</a></li>
+<li><a href="/news/search.html?cat%5B%5D=567">感染症</a></li>
+<li><a href="/news/search.html?cat%5B%5D=568">精神疾患</a></li>
+<li><a href="/news/search.html?cat%5B%5D=569">脳・神経</a></li>
+<li><a href="/news/search.html?cat%5B%5D=570">運動器</a></li>
+<li><a href="/news/search.html?cat%5B%5D=571">女性疾患・周産期</a></li>
+<li><a href="/news/search.html?cat%5B%5D=572">小児</a></li>
+<li><a href="/news/search.html?cat%5B%5D=573">皮膚</a></li>
+<li><a href="/news/search.html?cat%5B%5D=574">眼</a></li>
+<li><a href="/news/search.html?cat%5B%5D=575">腎・泌尿器</a></li>
+<li><a href="/news/search.html?cat%5B%5D=576">耳鼻咽喉</a></li>
+<li><a href="/news/search.html?cat%5B%5D=577">リウマチ・膠原病</a></li>
+<li><a href="/news/search.html?cat%5B%5D=578">血液</a></li>
+<li><a href="/news/search.html?cat%5B%5D=579">アレルギー</a></li>
+<li><a href="/news/search.html?cat%5B%5D=580">総合診療</a></li>
+<li><a href="/news/search.html?cat%5B%5D=581">放射線</a></li>
+<li><a href="/news/search.html?cat%5B%5D=582">麻酔科</a></li>
+<li><a href="/news/search.html?cat%5B%5D=583">東洋医学</a></li>
+<li><a href="/news/search.html?cat%5B%5D=584">高齢者</a></li>
+<li><a href="/news/search.html?cat%5B%5D=585">その他診療領域</a></li>
+</ul>
+</div><!--ft-block-->
+<div class="ft-block">
+<h3>テーマ別カテゴリ</h3>
+<ul>
+<li><a href="/news/search.html?cat%5B%5D=19">ガイドライン・診断基準</a></li>
+<li><a href="/news/search.html?cat%5B%5D=18">薬剤情報</a></li>
+<li><a href="/news/search.html?cat%5B%5D=39">基礎医学</a></li>
+<li><a href="/news/search.html?cat%5B%5D=40">健康・公衆衛生</a></li>
+<li><a href="/news/search.html?cat%5B%5D=42">医療制度</a></li>
+<li><a href="/news/search.html?cat%5B%5D=43">ワーク・ライフ</a></li>
+<li><a href="/news/search.html?cat%5B%5D=44">学会レポート</a></li>
+<li><a href="/news/search.html?cat%5B%5D=45">イベント</a></li>
+<li><a href="/news/search.html?cat%5B%5D=46">解説</a></li>
+<li><a href="/news/search.html?cat%5B%5D=47">医療経営</a></li>
+<li><a href="/news/search.html?cat%5B%5D=586">事件・事故</a></li>
+</ul>
+</div><!--ft-block-->
+<div class="ft-block">
+<h3>サービス</h3>
+<ul class="guides-link">
+<li><a href="/contact/contact.html">お問い合わせ</a></li>
+<li><a href="/external/faq/">よくあるご質問Q&amp;A</a></li>
+<li><a href="/mtr.html">MTRについて</a></li>
+<li><a href="/notice.html">本サイトのご利用について</a></li>
+<li><a href="/special/policy/index.html">利用規約・各種規約</a></li>
+<li><a href="/corporate/about/privacy.html">プライバシーポリシー</a></li>
+<li><a href="/corporate/about/">会社概要</a></li>
+</ul>
+<h3>関連サイト</h3>
+<ul>
+<li><a target="_blank" href="http://kenko100.jp/"><span>あなたの健康百科</span><span>(一般向け疾患啓発)</span></a></li>
+<li><a target="_blank" href="https://ptweb.jp/"><span>PharmaTribuneウェブ</span><span>(薬剤師向け)</span></a></li>
+<li><a target="_blank" href="https://career.medical-tribune.co.jp/"><span>MedicalTribuneキャリア</span><span>(医師専門求人)</span></a></li>
+</ul>
+</div><!--ft-block-->
+</div><!--inner-->
+<div class="ft-foot">
+<div class="host-site"><a href="/corporate/" target="_blank"><img src="/img/mt-logo.png" alt="MedicalTribune"></a></div>
+<p class="copyright">Copyright &copy; 2007- <script type="text/javascript">document.write(new Date().getFullYear());</script> Medical Tribune, Inc. All rights reserved.</p>
+</div><!--ft-foot-->
+</footer>
+<a id="bottom-page-top" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- DAC -->
+<script type="text/javascript">(function(d,u){var b=d.getElementsByTagName("script")[0],j=d.createElement("script");j.async=true;j.src=u;b.parentNode.insertBefore(j,b);})(document,"//img.ak.impact-ad.jp/ut/7aa5853e18c8f302_3278.js");</script><noscript><iframe src="//nspt.unitag.jp/7aa5853e18c8f302_3278.php" width="0" height="0" frameborder="0"></iframe></noscript>
+<script type="text/javascript" charset="UTF-8">
+(function(d){
+    var s = {
+        ext_id : sf_id,
+        api : "//aw.dw.impact-ad.jp/c/map/?",
+        oid : "7aa5853e18c8f302",
+        sp : "uid" 
+    };
+    var cookieElement = document.cookie.split(';');
+    var noCookie = true;
+    for (var i=0;i<cookieElement.length;i++) {
+      cookieElement[i] = cookieElement[i].replace(/(^¥s+)|(¥s+$)/g, '');
+      if (cookieElement[i].match(/^AONEU=.*/)) {
+       noCookie = false;
+      }
+    }
+    if (noCookie && s.ext_id) {
+        var p=[],b=d.getElementsByTagName("script")[0],i=d.createElement("img");p.push("oid="+s.oid);p.push("cid="+s.ext_id);p.push("sp="+s.sp);i.style.width=1;i.style.height=1;i.style.display="none";i.src=s.api+p.join("&");b.parentNode.insertBefore(i,b);
+        var expireDate = new Date();
+        expireDate.setTime(expireDate.getTime()+86400000*14);
+        var expireDateString = expireDate.toGMTString();
+        document.cookie = 'AONEU=true' +  '; expires=' + expireDateString + '; path=/';
+    }
+})(document);
+</script>
+<!-- IntimateMerger -->
+<script type="text/javascript">
+ (function(w,d,s,c){
+  w["_itm_cid_"] = c;
+  var f=d.getElementsByTagName(s)[0],j=d.createElement(s);
+  j.async=true;j.src = '//dmp.im-apps.net/itm8/js/itm.js';
+  f.parentNode.insertBefore(j, f);
+ })(window,document,'script',7135);
+</script>
+<link rel="stylesheet" href="//medical-tribune.co.jp/ext_file/jquery.mCustomScrollbar.css">
+<link rel="stylesheet" href="//medical-tribune.co.jp/ext_file/style.css">
+<script src="//medical-tribune.co.jp/ext_file/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="//medical-tribune.co.jp/ext_file/jQueryRotate.js.pagespeed.jm.J_DRKQcKdO.js"></script>
+<!-- facebook -->
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.3";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</body></html>

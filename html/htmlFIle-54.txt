@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html lang="" dir="ltr" class="no-js lt-ie9 lt-ie8 lt-ie7 ie"> <![endif]--><!--[if IE 7]> <html lang="" dir="ltr" class="no-js lt-ie9 lt-ie8 ie7 ie"> <![endif]--><!--[if IE 8]> <html lang="" dir="ltr" class="no-js lt-ie9 ie8 ie"> <![endif]--><!--[if gt IE 8]> <!--> <html lang="" dir="ltr" class="no-js"> <!--<![endif]-->
+<head>
+
+<meta charset="utf-8">
+<!-- 
+	############################################################
+	#                                                          #
+	#  This TYPO3 CMS website is developed by TypoConsult A/S  #
+	#  Rathsacksvej 1, 1. sal                                  #
+	#  DK - 1862 Frederiksberg C                               #
+	#  Tel: +45 7020 7036                                      #
+	#  Web: www.typoconsult.dk                                 #
+	#                                                          #
+	############################################################
+
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2013 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.org/
+-->
+
+<base href="http://cdn.danisco.com/">
+
+
+<meta name="generator" content="TYPO3 6.1 CMS">
+
+<link rel="stylesheet" type="text/css" href="http://cdn.danisco.com/typo3temp/compressor/merged-10db0805e1ba33e3440b5b43ddfea664.css?1531290984" media="all">
+<link rel="stylesheet" type="text/css" href="http://cdn.danisco.com/fileadmin/templates/danisco/css/print.css?1335191083" media="print">
+
+
+
+<script src="//assets.adobedtm.com/fd51374b36be48f9c2897a26af3e246a9b2bd29e/satelliteLib-93d1d8a36037345ea44f0dc8497ecd952d76add6.js" type="text/javascript"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+<script src="http://cdn.danisco.com/typo3temp/compressor/merged-e2547c4d3d3b2a68053aa9aee643deb0.js?1524672230" type="text/javascript"></script>
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">					<!--[if lt IE 9]>
+						<script src="http://cdn.danisco.com/fileadmin/templates/common/javascripts/html5shiv.js"></script>
+						<script src="http://cdn.danisco.com/fileadmin/templates/common/javascripts/html5shivprint.js"></script>
+					<![endif]--><meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport"><title>Food ingredient solutions for the food industry - DuPont | Danisco</title><meta name="keywords" content="danisco, dupont, food ingredients, food, hydrocolloids, enzymes, cultures" /><meta name="description" content="The DuPont™ Danisco® range of food ingredients has the largest food ingredient portfolio - covering everything from hydrocolloids to dairy cultures and food enzymes." /><style type="text/css">#c26012 .imageorient-0 .fluidimagelinks{width: 100%;}
+#c26012 .imagecaption{text-align:right;}
+#c26012 .fluidimagelink{width: 100%;}</style>
+<script type="text/javascript" src="http://cdn.danisco.com/typo3conf/ext/tcdaniscostep/res/jquery.tcdaniscostep.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+	jQuery(function($){
+		var maxWidth = $(".tx-tcdaniscostep-pi1").width();
+		var spaceWidth = parseInt($(".tx-tcdaniscostep-pi1 .stepmenu .step").css("margin-right")) * ($(".tx-tcdaniscostep-pi1 .stepmenu .step").length -1);
+		var columns = $(".tx-tcdaniscostep-pi1 .stepmenu .step").length;
+		var columnWidth = Math.floor((maxWidth - spaceWidth) / columns);
+
+		$(".tx-tcdaniscostep-pi1 .stepmenu .step").width(columnWidth - 1);
+		$(".tx-tcdaniscostep-pi1 .stepmenu .step:last").css("margin-right",0);
+	});
+		
+/*]]>*/
+</script>
+<link rel="stylesheet" type="text/css" href="http://cdn.danisco.com/typo3temp/stylesheet_bb99d83478.css" media="all" />
+<script type="text/javascript">
+/*<![CDATA[*/
+	var id = 25747;
+	jQuery(function($){
+		jQuery.fn.carousel = function(options){
+			options = $.extend({
+		"forward": "#next",
+		"backward": "#previous",
+		"duration": 500,
+		"easing": "swing"
+		},
+		options
+			);
+			
+			var sliderList = jQuery(this).children()[0];
+			
+			if (sliderList) {
+		var increment = 172,
+		elmnts = jQuery(sliderList).children(),
+		numElmts = elmnts.length,
+		sizeFirstElmnt = increment,
+		shownInViewport = Math.round(jQuery(this).width() / sizeFirstElmnt),
+		firstElementOnViewPort = 1,
+		isAnimating = false;
+		
+		for (i = 0; i < shownInViewport; i++) {
+			jQuery(sliderList).css("width",(numElmts+shownInViewport)*increment + increment + "px");
+			jQuery(sliderList).append(jQuery(elmnts[i]).clone());
+		}
+		
+		jQuery(options.backward).click(function(event){
+			if (!isAnimating) {
+				if (firstElementOnViewPort == 1) {
+			jQuery(sliderList).css("left", "-" + numElmts * sizeFirstElmnt + "px");
+			firstElementOnViewPort = numElmts;
+				}
+				else {
+			firstElementOnViewPort--;
+				}
+				
+				jQuery(sliderList).animate({
+			left: "+=" + increment,
+			y: 0,
+			queue: true
+				}, options.duration, options.easing, function(){isAnimating = false;});
+				isAnimating = true;
+			}
+			return false;
+		});
+		
+		jQuery(options.forward).click(function(event){
+			if (!isAnimating) {
+				if (firstElementOnViewPort > numElmts) {
+			firstElementOnViewPort = 2;
+			jQuery(sliderList).css("left", "0px");
+				}
+				else {
+			firstElementOnViewPort++;
+				}
+
+				jQuery(sliderList).animate({
+			left: "-=" + increment,
+			y: 0,
+			queue: true
+				},options.duration, options.easing, function(){isAnimating = false;});
+
+				isAnimating = true;
+			}
+
+			return false;
+		});
+			}
+		};
+	});
+		
+/*]]>*/
+</script>
+<script type="text/javascript" src="http://cdn.danisco.com/typo3conf/ext/tcdaniscoteaserslider/res/lib_1.js"></script>
+<link rel="stylesheet" type="text/css" href="http://cdn.danisco.com/typo3temp/stylesheet_56c3d80bd6.css" media="all" />
+</head>
+<body class="uid_4947 pid_251 rid_251 level_1 ds_2">
+<a id="top"></a>
+	<div id="mobileContainer"><a href="http://www.danisco.com/food-beverages/" id="mobile-logo"><img src="http://cdn.danisco.com/fileadmin/templates/danisco/images/DuPont_Danisco.png" width="150" height="70" alt=""></a><img src="http://cdn.danisco.com/fileadmin/templates/danisco/images/mobilemenu-48x48.png" width="48" height="48" id="mobile-menu" alt=""><a href="http://www.danisco.com/about-dupont/locations/" id="mobile-locations"><img src="http://cdn.danisco.com/fileadmin/templates/danisco/images/locations-48x48.png" width="48" height="48" alt=""></a><a href="http://www.danisco.com/searching/" id="mobile-search"><img src="http://cdn.danisco.com/fileadmin/templates/danisco/images/search-48x48.png" width="48" height="48" alt=""></a><nav id="mobile-menucontainer"><ul><li class="act"><span class="submenu">&rsaquo;</span><a href="http://www.danisco.com/food-beverages/">Food & Beverages</a><ul><li><a href="http://www.danisco.com/food-beverages/bakery/">Bakery</a></li><li><a href="http://www.danisco.com/food-beverages/bars/">Bars</a></li><li><a href="http://www.danisco.com/food-beverages/beverages/">Beverages</a></li><li><a href="http://www.danisco.com/food-beverages/confectionery/">Confectionery</a></li><li><a href="http://www.danisco.com/food-beverages/culinary/">Culinary</a></li><li><a href="http://www.danisco.com/food-beverages/dairy/">Dairy</a></li><li><a href="http://www.danisco.com/food-beverages/frozen-desserts/">Frozen Desserts</a></li><li><a href="http://www.danisco.com/food-beverages/fruit-applications/">Fruit Applications</a></li><li><a href="http://www.danisco.com/food-beverages/meat-poultry-seafood/">Meat, Poultry & Seafood</a></li><li><a href="http://www.danisco.com/food-beverages/oils-fats/">Oils & Fats</a></li><li><a href="http://www.danisco.com/food-beverages/pet-food/">Pet Food</a></li></ul><div class="clearboth"></div></li><li><span class="submenu">&rsaquo;</span><a href="http://www.danisco.com/product-range/">Product Range</a><ul><li><a href="http://www.danisco.com/product-range/alginate/">Alginate</a></li><li><a href="http://www.danisco.com/product-range/antimicrobials/">Antimicrobials</a></li><li><a href="http://www.danisco.com/product-range/antioxidants/">Antioxidants</a></li><li><a href="http://www.danisco.com/product-range/betaine/">Betaine</a></li><li><a href="http://www.danisco.com/product-range/carrageenan/">Carrageenan</a></li><li><a href="http://www.danisco.com/product-range/cellulose-gum/">Cellulose Gum</a></li><li><a href="http://www.danisco.com/product-range/cultures-for-plant-based-food/">Cultures for Plant-based Food</a></li><li><a href="http://www.danisco.com/product-range/dairy-cultures/">Dairy Cultures</a></li><li><a href="http://www.danisco.com/product-range/dietary-fibers/">Dietary Fibers</a></li><li><a href="http://www.danisco.com/product-range/emulsifiers/">Emulsifiers</a></li><li><a href="http://www.danisco.com/product-range/food-enzymes/">Food Enzymes</a></li><li><a href="http://www.danisco.com/product-range/guar-gum/">Guar Gum</a></li><li><a href="http://www.danisco.com/product-range/hmos/">HMOs</a></li><li><a href="http://www.danisco.com/product-range/locust-bean-gum/">Locust Bean Gum</a></li><li><a href="http://www.danisco.com/product-range/meat-cultures/">Meat Cultures</a></li><li><a href="http://www.danisco.com/product-range/medium-chain-triglycerides/">Medium-Chain Triglycerides</a></li><li><a href="http://www.danisco.com/product-range/microcrystalline-cellulose/">Microcrystalline Cellulose</a></li><li><a href="http://www.danisco.com/product-range/natural-colors/">Natural Colors</a></li><li><a href="http://www.danisco.com/product-range/pectin/">Pectin</a></li><li><a href="http://www.danisco.com/pharmaceuticals/pharmaceutical-products/">Pharmaceuticals</a></li><li><a href="http://www.danisco.com/product-range/probiotics/">Probiotics</a></li><li><a href="http://www.danisco.com/product-range/rare-sugars/">Rare Sugars</a></li><li><a href="http://www.danisco.com/product-range/soy-lecithin/">Soy Lecithin</a></li><li><a href="http://www.danisco.com/product-range/soy-protein/">Soy Protein</a></li><li><a href="http://www.danisco.com/product-range/sweeteners/">Sweeteners</a></li><li><a href="http://www.danisco.com/product-range/tailored-ingredient-systems/">Tailored Ingredient Systems</a></li><li><a href="http://www.danisco.com/product-range/xanthan/">Xanthan</a></li></ul><div class="clearboth"></div></li><li><span class="submenu">&rsaquo;</span><a href="http://www.danisco.com/dietary-supplements/">Dietary Supplements</a><ul><li><a href="http://www.danisco.com/dietary-supplements/microbiome-venture/">Microbiome Venture</a></li><li><a href="http://www.danisco.com/dietary-supplements/finished-formats/">Finished Formats</a></li><li><a href="http://www.danisco.com/dietary-supplements/rd-expertise/">R&D Expertise</a></li><li><a href="http://www.danisco.com/dietary-supplements/licensing-program/">Licensing Program</a></li><li><a href="http://www.danisco.com/dietary-supplements/services/">Services</a></li><li><a href="http://www.danisco.com/dietary-supplements/solution-finder/">Solution finder</a></li><li><a href="http://www.danisco.com/dietary-supplements/faq/">FAQ</a></li></ul><div class="clearboth"></div></li><li><span class="submenu">&rsaquo;</span><a href="http://www.danisco.com/pharmaceuticals/">Pharmaceuticals</a><ul><li><a href="http://www.danisco.com/pharmaceuticals/pharmaceutical-products/">Pharmaceutical Products</a></li><li><a href="http://www.danisco.com/pharmaceuticals/pharmaceutical-applications/">Pharmaceutical Applications</a></li><li><a href="http://www.danisco.com/pharmaceuticals/faq/">FAQ</a></li></ul><div class="clearboth"></div></li><li><span class="submenu">&rsaquo;</span><a href="http://www.danisco.com/sustainability/">Sustainability</a><ul><li><a href="http://www.danisco.com/sustainability/world-oceans-day/">World Oceans Day</a></li><li><a href="http://www.danisco.com/sustainability/strategy-and-governance/">Strategy and Governance</a></li><li><a href="http://www.danisco.com/sustainability/sustainable-sourcing/">Sustainable Sourcing</a></li><li><a href="http://www.danisco.com/sustainability/sustainable-operations/">Sustainable Operations</a></li><li><a href="http://www.danisco.com/sustainability/sustainable-solutions/">Sustainable Solutions</a></li><li><a href="http://www.danisco.com/sustainability/publications-and-materials/">Publications and Materials</a></li></ul><div class="clearboth"></div></li><li><span class="submenu">&rsaquo;</span><a href="http://www.danisco.com/about-dupont/">About Us</a><ul><li><a href="http://www.danisco.com/about-dupont/vacant-jobs/" target="_blank">Vacant jobs</a></li><li><a href="http://www.danisco.com/contact-us/">Contact Us</a></li><li><a href="http://www.danisco.com/about-dupont/news/news-archive/">News</a></li><li><a href="http://www.danisco.com/about-dupont/news/subscribe/e-news/">Subscribe</a></li><li><a href="http://www.danisco.com/about-dupont/calendar/event-calendar/">Calendar</a></li><li><a href="http://www.danisco.com/about-dupont/locations/">Locations</a></li><li><a href="http://www.danisco.com/about-dupont/innovation/innovation-in-dupont-nutrition-health/">Innovation</a></li><li><a href="http://www.danisco.com/about-dupont/global-food-challenges/">Global Food Challenges</a></li></ul><div class="clearboth"></div></li></ul></nav></div>
+	<div class="outerContainer outerContainerWide"><!--###outerContainer outerContainerWide### begin -->
+		<div class="cookieContainer"><div class="cookiewrapper"><div id="cookieleft"><div>Our website uses cookies so that we can provide you a better online experience and service;</div><div>by continuing, you agree to our use of cookies in line with our <a href="http://www.danisco.com/privacy/" target="_blank" >Privacy Statement</a></div></div><div id="cookieright"><span id="closecookie">Close</span></div><div class="clearboth"></div></div></div>
+		<div class="topContainer"><div class="logo"><a href="http://www.danisco.com/food-beverages/" title = "Food ingredient solutions for the food industry"><span class="hideit">Til forsiden</span></a></div><div id="searchContainer"><form id="searchbox" name="searchbox" action="http://www.danisco.com/searching/" method="get"><input type="text" id="searchword" name="q" value="" size="20" placeholder="Search danisco.com" /><input type="submit" id="searchbutton" value=""/></form></div><div class="clearboth"></div></div>
+		<div class="horzMenuContainer"><ul id="horizontal-menu"><li class="act first" id="uid_4947"><a href="http://www.danisco.com/food-beverages/" >Food &amp; Beverages</a></li><li class="no" id="uid_5874"><a href="http://www.danisco.com/product-range/" >Product Range</a></li><li class="no" id="uid_1823"><a href="http://www.danisco.com/dietary-supplements/" >Dietary Supplements</a></li><li class="no" id="uid_11429"><a href="http://www.danisco.com/pharmaceuticals/" >Pharmaceuticals</a></li><li class="no" id="uid_11266"><a href="http://www.danisco.com/sustainability/" >Sustainability</a></li><li class="no last" id="uid_3668"><a href="http://www.danisco.com/about-dupont/" >About Us</a></li></ul><div class="clearboth"></div><div id="secondhorzmenu"><ul><li><a href="http://www.danisco.com/food-beverages/bakery/" class="no">Bakery</a></li><li><a href="http://www.danisco.com/food-beverages/bars/" class="no">Bars</a></li><li><a href="http://www.danisco.com/food-beverages/beverages/" class="no">Beverages</a></li><li><a href="http://www.danisco.com/food-beverages/confectionery/" class="no">Confectionery</a></li><li><a href="http://www.danisco.com/food-beverages/culinary/" class="no">Culinary</a></li><li><a href="http://www.danisco.com/food-beverages/dairy/" class="no">Dairy</a></li><li><a href="http://www.danisco.com/food-beverages/frozen-desserts/" class="no">Frozen Desserts</a></li><li><a href="http://www.danisco.com/food-beverages/fruit-applications/" class="no">Fruit Applications</a></li><li><a href="http://www.danisco.com/food-beverages/meat-poultry-seafood/" class="no">Meat, Poultry &amp; Seafood</a></li><li><a href="http://www.danisco.com/food-beverages/oils-fats/" class="no">Oils &amp; Fats</a></li><li><a href="http://www.danisco.com/food-beverages/pet-food/" class="no">Pet Food</a></li></ul></div></div>
+		<div class="middleContainer"><!--###middleContainer### begin -->
+			<div class="middleContent"><!--TYPO3SEARCH_begin--><div class="twoColumnNormal"><div id="c26012" class="csc-default"><div class="tx-tc-adaptivetextpic">
+	
+	
+			<div class="tx_tcadaptivetextpic">
+				<div class="imageorient-0 imagecols-1">
+					
+						
+							<div class="fluidimagelinks">
+								<div class="fluidimagelinksspacing">
+									
+										<div class="fluidimagelink single"><div class="fluidimagecontainer"><div class="imagecontainer "><a href="http://www.danisco.com/about-dupont/calendar/event-calendar/events/2018/ift-2018/" ><img src="http://cdn.danisco.com/typo3temp/GB/csm_IFT-hero_5f8fd6500e_6e18623a2b.jpg" width="640" height="310" class="fluidimage" alt="Food &amp; Beverages"></a></div></div></div>
+									
+								</div>
+							</div>
+							<div class="clearboth"></div>
+						
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				</div>
+				<div class="clearboth"></div>
+			</div>
+		
+
+</div></div><div id="c25747" class="csc-default"><div class="tx-tcdaniscoteaserslider-pi1">
+		<a href="http://www.danisco.com/food-beverages/" title="Previous" class="prev" id="prev-25747"><</a><div id="scrollable-25747" class="scrollable"><div class="items"><a href="http://careers.dupont.com/jobsearch/" title="Jobs" target="_blank" class="imagelink"><img src="http://cdn.danisco.com/uploads/tx_tcdaniscoteaserslider/Jobs.jpg" width="198" height="126" alt="Jobs" title="Jobs"></a><a href="http://www.dupont.com/industries/food-and-beverage.html?src=danisco+home" title="DuPont Food" target="_blank" class="imagelink"><img src="http://cdn.danisco.com/uploads/tx_tcdaniscoteaserslider/DuPont-Food_01.jpg" width="198" height="126" alt="DuPont Food" title="DuPont Food"></a><a href="http://www.danisco.com/sustainability/" title="Sustainability" class="imagelink"><img src="http://cdn.danisco.com/uploads/tx_tcdaniscoteaserslider/Sustainability_01.jpg" width="198" height="126" alt="Sustainability" title="Sustainability"></a><a href="http://www.danisco.com/about-dupont/global-food-challenges/health-and-nutrition/" title="Health & Nutrition" class="imagelink"><img src="http://cdn.danisco.com/uploads/tx_tcdaniscoteaserslider/Health-and-Nutrition.jpg" width="198" height="126" alt="Health &amp; Nutrition" title="Health &amp; Nutrition"></a><a href="http://www.danisco.com/dietary-supplements/" title="Dietary Supplements" class="imagelink"><img src="http://cdn.danisco.com/uploads/tx_tcdaniscoteaserslider/Dietary-Supplements.jpg" width="198" height="126" alt="Dietary Supplements" title="Dietary Supplements"></a><a href="http://www.danisco.com/food-beverages/bakery/" title="Bakery" class="imagelink"><img src="http://cdn.danisco.com/uploads/tx_tcdaniscoteaserslider/Bakery.jpg" width="198" height="126" alt="Bakery" title="Bakery"></a><a href="http://www.danisco.com/food-beverages/dairy/" title="Dairy" class="imagelink"><img src="http://cdn.danisco.com/uploads/tx_tcdaniscoteaserslider/Dairy-slider.jpg" width="198" height="126" alt="Dairy" title="Dairy"></a><a href="http://www.danisco.com/food-beverages/beverages/" title="Beverages" class="imagelink"><img src="http://cdn.danisco.com/uploads/tx_tcdaniscoteaserslider/Beverages_01.jpg" width="198" height="126" alt="Beverages" title="Beverages"></a></div></div><a href="http://www.danisco.com/food-beverages/" title="Next" class="next" id="next-25747">></a><div class="clearboth"></div>
+	</div>
+	</div></div><div class="twoColumnRight"><div id="c10991" class="csc-frame csc-frame-frame1"><header class="csc-header csc-header-n1"><h1 class="csc-firstHeader">Latest News</h1></header><div class="onecol"><div class="flexible-onecol" style="overflow:hidden;width:100%;"><div></div></div><div id="c12212" class="csc-default csc-space-before-16 csc-space-after-20"><div class="tx-tcnewsevents-pi2">
+		<!--TYPO3SEARCH_end--><div class="itemcontainer"><a href="http://www.danisco.com/about-dupont/news/news-archive/2018/dupont-nutrition-health-and-eurofins-bring-higher-level-of-transparency-to-probiotic-industry-through-genetic-identification/" title="Higher Level of Transparency to Probiotic Industry" >Higher Level of Transparency to Probiotic...</a></div><div class="itemcontainer"><a href="http://www.danisco.com/about-dupont/news/news-archive/2018/dupont-nutrition-health-to-showcase-innovative-ingredient-solutions-at-ift18-annual-event-and-food-expo/" title="IFT18 - Showcasing Innovative Ingredients" >IFT18 - Showcasing Innovative Ingredients</a></div><div class="itemcontainer"><a href="http://www.danisco.com/about-dupont/news/news-archive/2018/dupont-unveils-new-generation-of-duponttm-daniscor-enzymes-for-the-bakery-industry-in-south-america/" title="New Generation of Enzymes for the Bakery Industry in South America" >New Generation of Enzymes for the Bakery...</a></div><div class="itemcontainer"><a href="http://www.danisco.com/about-dupont/news/news-archive/2018/dupont-nutrition-health-launches-new-guardianr-toco-30p-antioxidant-from-naturally-sourced-mixed-tocopherols/" title="New Effective Food Protection Solution" >New Effective Food Protection Solution</a></div><div class="itemcontainer"><a href="http://www.danisco.com/about-dupont/news/news-archive/2018/dupont-nutrition-health-microbiome-venture-announces-third-strategic-academic-partnership/" title="DuPont Nutrition &amp; Health Microbiome Venture Announces Third Strategic Academic Partnership" >DuPont Nutrition &amp; Health Microbiome Venture...</a></div><div class="itemcontainer"><a href="http://www.danisco.com/about-dupont/news/news-archive/2018/dupont-nutrition-health-research-study-demonstrates-protein-is-critical-to-successful-weight-loss-and-maintenance/" title="Study Demonstrates Protein is Critical to Successful Weight Loss" >Study Demonstrates Protein is Critical to...</a></div><div class="itemcontainer"><a href="http://www.danisco.com/about-dupont/news/news-archive/2018/dupont-nutrition-health-celebrates-world-oceans-day-with-sustainable-seaweed-program-beach-cleanups/" title="Celebrating World Oceans Day with Sustainable Seaweed Program" >Celebrating World Oceans Day with...</a></div><a href="http://www.danisco.com/about-dupont/news/news-archive/" title="All news" class="flexformlink">All news</a><!--TYPO3SEARCH_begin-->
+	</div>
+	</div><div id="c10993" class="csc-default"><p class="bodytext"><b><a href="http://www.danisco.com/about-dupont/news/subscribe/e-news/" >Subscribe to news</a></b></p></div></div></div><div id="c12594" class="csc-frame csc-frame-frame2"><header class="csc-header csc-header-n2"><h2>Event calendar</h2></header><div class="tx-tcnewsevents-pi2">
+		<!--TYPO3SEARCH_end--><div class="newslistitem"><div class="newslistlinkcontainer"><a href="http://www.danisco.com/about-dupont/calendar/event-calendar/events/2018/ift-2018/" title="IFT 2018" class="newslistlink">IFT 2018</a></div><div class="date">15 Jul 2018</div><div class="location">Chicago<span class="comma">,</span>United States</div><div class="clearboth"></div></div><div class="newslistitem"><div class="newslistlinkcontainer"><a href="http://www.danisco.com/about-dupont/calendar/event-calendar/events/2018/seminar-on-food-safety-continuum-challenges-and-opportunities/" title="Seminar on Food Safety Continuum – Challenges and Opportunities" class="newslistlink">Seminar on Food Safety...</a></div><div class="date">16 Jul 2018</div><div class="location">Chennai<span class="comma">,</span>India</div><div class="clearboth"></div></div><a href="http://www.danisco.com/about-dupont/calendar/event-calendar/" title="All events" class="flexformlink">All events</a><!--TYPO3SEARCH_begin-->
+	</div>
+	</div></div><div class="clearboth"></div><!--TYPO3SEARCH_end--></div>
+			<div class="clearboth"><!--###clearboth### begin --><!-- --><!--###clearboth### end --></div>
+		<!--###middleContainer### end --></div>
+		<div class="bottomContainer"><ul class="disclaimermenu"><li class="disclaimermenuitem"><a href="http://www.danisco.com/contact-us/" title="If you have a question regarding DuPont™ Danisco® please fill in the contact form and press send to make your request." >Contact us</a><span class="spacer">&#124;</span></li><li class="disclaimermenuitem"><a href="http://www.danisco.com/links/" title="In DuPont Nutrition & Health we have several e-business services and websites dedicated to specific uses. Find the complete list here." >Links</a><span class="spacer">&#124;</span></li><li class="disclaimermenuitem"><a href="http://www.danisco.com/downloads/" title="Download reports and publications from DuPont Nutrition & Health" >Downloads</a><span class="spacer">&#124;</span></li><li class="disclaimermenuitem"><a href="http://www.danisco.com/control-reports/" title="Official inspection reports by The Danish Veterinary and Food Administration (DVFA)." >Control reports</a><span class="spacer">&#124;</span></li><li class="disclaimermenuitem"><a href="http://www.danisco.com/sitemap/" title="The sitemap lists the pages and the structure of theDuPont Nutrition & Health website." >Sitemap</a><span class="spacer">&#124;</span></li><li class="disclaimermenuitem"><a href="http://www.dupont.com/global-privacy.html" title="DuPont Nutrition Bioscience Aps has created this privacy policy statement in order to demonstrate our firm commitment to privacy. The statement discloses our information gathering and dissemination practices for our website." target="_blank" >Privacy policy</a><span class="spacer">&#124;</span></li><li class="disclaimermenuitem"><a href="http://www.dupont.com/industries/food-and-beverage/open/legal-notices.html" target="_blank" >Disclaimer</a><span class="spacer">&#124;</span></li><li class="disclaimermenuitem"><a href="http://www.food.dupont.com" target="_blank" >DuPont.com</a></li></ul><div class="copyright">© DuPont Nutrition &amp; Health</div><div class="clearboth"></div></div>
+	<!--###outerContainer outerContainerWide### end --></div>
+	<div class="printLogo"><!--###printLogo### begin -->&nbsp;<!--###printLogo### end --></div>
+	<div id="marketing"><div id="marketingwrapper"><div id="marketingLeft"><h2 class="header">Sign up to hear more from DuPont Nutrition & Health</h2><ul><li>Get exclusive content</li><li>Get the latest on planned events</li><li>Learn more on innovation</li></ul><form action="http://www.danisco.com/about-dupont/news/subscribe/e-news/" method="get" id="marketingform"><input type="text" class="email" name="email" id="marketingEmail" placeholder="Email" autocomplete="off"><input type="submit" class="submit" name="submit" value="Sign me up"></form></div><div id="marketingRight"></div><div id="marketingClose">X</div></div></div>
+		<script type="text/javascript">
+			var _elqQ = _elqQ || [];
+			_elqQ.push(['elqSetSiteId', '1073427956']);
+			_elqQ.push(['elqTrackPageView']);
+
+			(function () {
+				function async_load() {
+					var s = document.createElement('script'); s.type = 'text/javascript';
+					s.async = true; s.src = 'http://img.en25.com/i/elqCfg.min.js';
+					var x = document.getElementsByTagName('script')[0];
+					x.parentNode.insertBefore(s, x);
+				}
+
+
+				if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+				else if (window.attachEvent) window.attachEvent('onload', async_load);
+		 	})();
+		</script>		<script type="text/javascript">
+		_linkedin_data_partner_id = "27773";
+		</script><script type="text/javascript">
+		(function(){var s = document.getElementsByTagName("script")[0];
+		var b = document.createElement("script");
+		b.type = "text/javascript";b.async = true;
+		b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+		s.parentNode.insertBefore(b, s);})();
+		</script>
+
+
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+jQuery('#c26012 .fancyboxlink').fancybox({
+prevEffect: 'none',
+nextEffect: 'none',
+helpers: {
+overlay : {locked : false},title: {type: 'inside'},thumbs: {width: 50,height: 50}
+}
+});
+});
+</script><script type="text/javascript">_satellite.pageBottom();</script>
+</body>
+</html>
+<!-- cached statically on: 13-07-18 00:12 -->

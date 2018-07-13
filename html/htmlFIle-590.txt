@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=1200, maximum-scale=1.0, user-scalable=yes">
+<title>お問い合わせ | 株式会社　昭栄美術</title>
+<meta name="description" content="展示会・イベントの企画立案から、設計、製作、施工まで行うディスプレイの総合企業、昭栄美術オフィシャルサイト。展示会・イベント・プライベートショーにむけたプロモーションの付加価値創造企業として、優れたコストパフォーマンスと高い技術力によって、お客様の声にしっかりとお応えします。" />
+<meta name="keywords" content="展示会,装飾,ブース施工,イベント企画,イベント用品,レンタル,会場設営,運営,設営" />
+
+<link href="http://www.shoei-bijutsu.co.jp/test_newsite/wp-content/themes/shoei/css/layout.css" rel="stylesheet">
+<link href="http://www.shoei-bijutsu.co.jp/test_newsite/wp-content/themes/shoei/css/reset.css" rel="stylesheet">
+<link href="http://www.shoei-bijutsu.co.jp/test_newsite/wp-content/themes/shoei/css/common.css" rel="stylesheet">
+<link href="http://www.shoei-bijutsu.co.jp/test_newsite/wp-content/themes/shoei/css/under.css" rel="stylesheet">
+
+<!-- jQuery library (served from Google) -->
+<!--<script src="js/jquery.min.js"></script>-->
+
+<link rel="stylesheet" href="http://www.shoei-bijutsu.co.jp/test_newsite/wp-content/themes/shoei/css/colorbox.css" />
+<link rel="stylesheet" href="http://shoei-bijutsu.co.jp/cgi-bin/contact_01/mfp.statics/mailformpro.css" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://www.shoei-bijutsu.co.jp/test_newsite/wp-content/themes/shoei/js/jquery.colorbox.js"></script>
+<script>
+$(document).ready(function(){
+    $(".iframe").colorbox({iframe:true, width:"900px", height:"750px"});
+});
+</script>
+<script>
+$(function () {
+    var headerHight = 50; //ヘッダの高さ
+    $('a[href^=#]').click(function(){
+        var href= $(this).attr("href");
+        var target = $(href == "#" || href == "" ? 'html' : href);
+        var position = target.offset().top-headerHight; //ヘッダの高さ分位置をずらす
+        $("html, body").animate({scrollTop:position}, 550, "swing");
+        return false;
+    });
+});
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+<!--header-->
+<div id = "header">
+  <div class="inner clearfix">
+    <h1><a href="http://www.shoei-bijutsu.co.jp/"><img src="http://www.shoei-bijutsu.co.jp/test_newsite/wp-content/themes/shoei/img/common/logo.png" width="182" height="47"  alt="株式会社 昭栄美術"></a></h1>
+    <ul id="normal" class="dropmenu navi">
+      <li><a href="http://www.shoei-bijutsu.co.jp/exhibition">事業領域</a>
+        <ul>
+          <li><a href="http://www.shoei-bijutsu.co.jp/exhibition">展示会</a></li>
+          <li><a href="http://www.shoei-bijutsu.co.jp/event">イベント / プロモーション</a></li>
+          <li><a href="http://www.shoei-bijutsu.co.jp/private">プライベートショー / カンファレンス</a></li>
+          <li><a href="http://www.shoei-bijutsu.co.jp/showroom">ショールーム / 商業施設</a></li>
+          <li><a href="http://www.shoei-bijutsu.co.jp/overseas">海外展示会 / イベント</a></li>
+        </ul>
+      </li>
+      <li><a href="http://www.shoei-bijutsu.co.jp/work">実績紹介</a> </li>
+      <li><a href="http://www.shoei-bijutsu.co.jp/company">会社案内</a>
+        <ul>
+          <li><a href="http://www.shoei-bijutsu.co.jp/greeting">ごあいさつ</a></li>
+          <li><a href="http://www.shoei-bijutsu.co.jp/outline">会社概要</a></li>
+          <li><a href="http://www.shoei-bijutsu.co.jp/summary">事業概要</a></li>
+          <li><a href="http://www.shoei-bijutsu.co.jp/network">ネットワーク / 事務所</a></li>
+        </ul>
+      </li>
+      <li><a href="http://www.shoei-bijutsu.co.jp/recruit">採用情報</a>
+        <ul>
+          <li><a href="http://www.shoei-bijutsu.co.jp/2019_graduates/" target="_blank">新卒採用</a></li>
+          <li><a href="http://www.shoei-bijutsu.co.jp/mid_career">中途採用</a></li>
+          <li><a href="http://www.shoei-bijutsu.co.jp/partner">パートナー募集</a></li>
+        </ul>
+      </li>
+    </ul>
+    <div class="headerMail"> <a href="http://www.shoei-bijutsu.co.jp/contact"><a href="http://www.shoei-bijutsu.co.jp/contact"><img src="http://www.shoei-bijutsu.co.jp/test_newsite/wp-content/themes/shoei/img/common/contact_mail.png" width="214" height="25"  alt="お問い合わせ"></a> </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class = "wrapper">
+<p>  <!--main visual--></p>
+<div class="underMv">
+<h2 class="type_04">Contact Us<span>お問い合わせ</span></h2>
+<p>    <img src="/img/recruit/main.jpg" width="1200" height="250"  alt="お問い合わせ"> </div>
+<p>  <!--main visual end--><br />
+  <!--common contents--></p>
+<div class="commonContents">
+<div class="trackBlock">
+<div>弊社へのご質問、ご相談などを以下のフォームに必要事項を記入のうえ送信してください。<br />
+        ※「<span class="red">＊</span>」は、必須項目となります。</div>
+<p>      <!--
+
+<h3>情報セキュリティーポリシー</h3>
+
+--></p>
+<div id="container" class="mt_20">
+<form id="mailformpro" action="http://www.shoei-bijutsu.co.jp/cgi-bin/contact_01/mailformpro/mailformpro.cgi" method="POST">
+<div class="mfp_phase" summary="個人情報">
+<dl class="mailform">
+<dt class="mfp ta_l">　会社名 <span class="red">*</span></dt>
+<dd class="mfp">
+                <input type="text" name="会社名"  size="55" required />
+              </dd>
+<dt class="mfp ta_l">　担当者:氏名<span class="red">*</span></dt>
+<dd class="mfp">
+                <input type="text" name="担当者:氏名" size="30" required />
+              </dd>
+<dt class="mfp ta_l">　担当者:よみがな<span class="red">*</span></dt>
+<dd class="mfp">
+                <input type="text" name="担当者:よみがな" size="30" required />
+              </dd>
+<dt class="mfp ta_l">　部署名</dt>
+<dd class="mfp">
+                <input type="text" name="部署名"  size="55" />
+              </dd>
+<dt class="mfp ta_l">　電話番号 <span class="red">*</span></dt>
+<dd class="mfp">
+                <input type="text" name="電話番号"  size="15" required />
+              </dd>
+<dt class="mfp ta_l">　メールアドレス <span class="red">*</span></dt>
+<dd class="mfp">
+                <input type="email" data-type="email" name="email" size="40" required />
+              </dd>
+<dt class="mfp ta_l">　メールアドレス<br />（確認用）<span class="red">*</span></dt>
+<dd class="mfp" style="height:50px;">
+                <input type="email" data-type="email" name="confirm_email" data-post-disable="1" size="40" required />
+              </dd>
+<dt class="mfp ta_l"> お問い合わせ種別 </dt>
+<dd class="mfp">
+<ol class="clearfix">
+<li class="fl_l">
+                    <label><input type="radio" name="お問い合わせ種別"  data-min="0" data-max="1" value="展示会ブース装飾" required /> 展示会ブース装飾</label>
+                  </li>
+<li class="fl_l">
+                    <label><input type="radio" name="お問い合わせ種別" value="イベント" /> イベント</label>       </li>
+<li class="fl_l">
+                    <label><input type="radio" name="お問い合わせ種別" value="プライベートショー" /> プライベートショー</label>
+                  </li>
+<li class="fl_l">
+                    <label><input type="radio" name="お問い合わせ種別" value="その他" /> その他</label>
+                  </li>
+</ol>
+</dd>
+<dt class="mfp ta_l">　ご用件</dt>
+<dd class="mfp">
+                <textarea name="お問い合わせ内容" rows="10" cols="60"></textarea>
+              </dd>
+<dt></dt>
+<dd> </dd>
+</dl></div>
+<div class="mfp_phase" >
+<div class="mfp_buttons">
+              <button type="submit" style="padding:10px 80px;"><span class="fs_12">送信する</span></button><br />
+              &nbsp;<br />
+              <button type="reset" style="padding:10px 80px;"><span class="fs_12 mt_10">リセット</span></button>
+            </div>
+</p></div>
+</p></form>
+<p>        <script type="text/javascript" id="mfpjs" src="http://www.shoei-bijutsu.co.jp/cgi-bin/contact_01/mailformpro/mailformpro.cgi" charset="UTF-8"></script>
+      </div>
+</p></div>
+</p></div>
+
+
+
+
+<div id ="footer">
+  <div class="innerTop">
+    <ul>
+      <li><a href="http://www.shoei-bijutsu.co.jp/policy">情報セキュリティ基本方針</a></li>
+      <li><a href="http://www.shoei-bijutsu.co.jp/company">会社概要</a></li>
+      <li><a href="http://www.shoei-bijutsu.co.jp/contact">お問い合わせ</a></li>
+      <li><a href="http://www.shoei-bijutsu.co.jp/sitemap">サイトマップ</a></li>
+    </ul>
+  </div>
+  <div class="innerBottom">
+    <ul>
+      <li><a href="http://www.pacifico.co.jp/" target="_blank">パシフィコ横浜</a></li>
+      <li><a href="http://www.t-i-forum.co.jp/" target="_blank">東京国際フォーラム</a></li>
+      <li><a href="https://www.m-messe.co.jp/" target="_blank">幕張メッセ</a></li>
+      <li><a href="http://www.bigsight.jp/" target="_blank">東京ビッグサイト</a></li>
+      <li><a href="http://www.trc-inc.co.jp/" target="_blank">東京流通センター</a></li>
+      <li><a href="http://www.intex-osaka.com/" target="_blank">インテックス大阪</a></li>
+      <li><a href="http://www.sunshinecity.co.jp/" target="_blank">サンシャインシティ</a></li>
+      <li><a href="http://www.tokyo-dome.co.jp/prism/" target="_blank">プリズムホール</a></li>
+    </ul>
+  </div>
+  <div class = "copyright">Copyright© SHOEI All Right Reserved.</div>
+</div></div>
+<script type="text/javascript">
+piAId = '321431';
+piCId = '1105';
+
+(function() {
+ function async_load(){
+  var s = document.createElement('script'); s.type = 'text/javascript';
+  s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+  var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+ }
+ if(window.attachEvent) { window.attachEvent('onload', async_load); }
+ else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+</body>
+</html>

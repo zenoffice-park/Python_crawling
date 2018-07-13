@@ -1,0 +1,1208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Industrial/embedded Computer, PC-based DAQ Add-on | CONTEC</title>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="CODE_LANGUAGE" content="C#" />
+<meta name="vs_defaultClientScript" content="JavaScript" />
+<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5" />
+<meta name="viewport" content="width=device-width">
+<meta name="keywords" content="CONTEC,industrial computer,industrial PC,embedded PC,data acquisition,DAQ,PC-base measurement,PC-based control">
+<meta name="description" content="With over 30 years successful track records in meeting diverse needs of demanding industrial customers, CONTEC offers an extensive line of industrial computers, DAQ (data acquisition) and measurement devices for factory automation.">
+<meta name="format-detection" content="telephone=no">
+<!-- ======================== OGP Metadata START =================================== -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Industrial/embedded Computer, PC-based DAQ Add-on | CONTEC">
+<meta property="og:description" content="With over 30 years successful track records in meeting diverse needs of demanding industrial customers, CONTEC offers an extensive line of industrial computers, DAQ (data acquisition) and measurement devices for factory automation.">
+<meta property="og:url" content="https://www.contec.com/">
+<meta property="og:site_name" content="CONTEC">
+<meta property="og:image" content="">
+<!-- ======================== OGP Metadata END =================================== -->
+<link rel="alternate" hreflang="en" href="/">
+<link rel="alternate" hreflang="ja" href="/jp">
+<link rel="alternate" hreflang="zh-cn" href="/cn">
+
+<link rel="shortcut icon" href="/layouts/Contec/common/images/favicon/favicon.ico">
+<link rel="icon" type="image/png" href="/layouts/Contec/common/images/favicon/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/layouts/Contec/common/images/favicon/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/layouts/Contec/common/images/favicon/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/layouts/Contec/common/images/favicon/favicon-16x16.png" sizes="16x16">
+<link rel="apple-touch-icon" href="/layouts/Contec/common/images/favicon/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/layouts/Contec/common/images/favicon/apple-touch-icon-57x57.png" sizes="57x57">
+<link rel="apple-touch-icon" href="/layouts/Contec/common/images/favicon/apple-touch-icon-60x60.png" sizes="60x60">
+<link rel="apple-touch-icon" href="/layouts/Contec/common/images/favicon/apple-touch-icon-72x72.png" sizes="72x72">
+<link rel="apple-touch-icon" href="/layouts/Contec/common/images/favicon/apple-touch-icon-76x76.png" sizes="76x76">
+<link rel="apple-touch-icon" href="/layouts/Contec/common/images/favicon/apple-touch-icon-114x114.png" sizes="114x114">
+<link rel="apple-touch-icon" href="/layouts/Contec/common/images/favicon/apple-touch-icon-120x120.png" sizes="120x120">
+<link rel="apple-touch-icon" href="/layouts/Contec/common/images/favicon/apple-touch-icon-144x144.png" sizes="144x144">
+<link rel="apple-touch-icon" href="/layouts/Contec/common/images/favicon/apple-touch-icon-152x152.png" sizes="152x152">
+<link rel="apple-touch-icon" href="/layouts/Contec/common/images/favicon/apple-touch-icon-180x180.png" sizes="180x180">
+<link rel="apple-touch-icon-precomposed" href="/layouts/Contec/common/images/favicon/apple-touch-icon-precomposed.png">
+<link rel="icon" type="image/png" href="/layouts/Contec/common/images/favicon/android-chrome-36x36.png" sizes="36x36">
+<link rel="icon" type="image/png" href="/layouts/Contec/common/images/favicon/android-chrome-48x48.png" sizes="48x48">
+<link rel="icon" type="image/png" href="/layouts/Contec/common/images/favicon/android-chrome-72x72.png" sizes="72x72">
+<link rel="icon" type="image/png" href="/layouts/Contec/common/images/favicon/android-chrome-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/layouts/Contec/common/images/favicon/android-chrome-144x144.png" sizes="144x144">
+<link rel="icon" type="image/png" href="/layouts/Contec/common/images/favicon/android-chrome-192x192.png" sizes="192x192">
+
+<link rel="stylesheet" href="/-/media/contec/common/css/master.css?v=4257ba2623a249d8a47844725e8acf95">
+<!-- ======================== Script START =================================== -->
+<script src="/-/media/contec/common/js/init.js?v=8f3a6860722e44239df7614bc60897d1"></script>
+<script src="/-/media/contec/common/js/jquery.js?v=2b28783072f142d4bcde7ddf2ad6069b"></script>
+<!-- ======================== Script END ===================================== -->
+
+<meta name="VIcurrentDateTime" content="636670475910871684" />
+<script type="text/javascript" src="/layouts/system/VisitorIdentification.js"></script>
+
+</head>
+<body id="top">
+<form method="post" action="/" id="mainform">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="aHyONeHTIvaqWoDSl4DsAU54KApCQJA0LgGCGJj9xCJ0/3aXTRw7r4E5vBjsov/N/S5hfC6jvdWrCePmfA6sA0M5c9aCK6+Pn1P7s2FtxfN+kEPioCfWXSkGpN4bniUtpKlgpEtW+hqiomJKOYJIorV521Ba0CAdklJefVFegaly59dN3xKSjLijdwRTfdxnO6ipCHNHYvKBrhviLzbnvG4ZFF9sIJir0anEaWiuJ8s=" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="4A6C8BE1" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="c3HwIOH5oWDzM3QSwD6tWX0M2ZnmIRDdinRJd9EcD3NQcB9cYWL6zpNGVjsosc+ZGxCenG7Jj//GqQ+4/U2oTnyC9R+uLmOzP56Bv2F0woOghdab8bpcQXN3DvR10wgZIbbP7fb0M04QXSV1XmEntV8UgXZX1JJvcatlBYVK5a0=" />
+</div>
+<!-- ======================== Header START =================================== -->
+<header>
+
+
+<div class="header-content">
+<h1 class="logo"><a href="/"><img src="/-/media/contec/common/images/logo_01.svg" alt="" class="" /></a></h1>
+
+<div class="header-menu js-toggle-header">
+<ul class="utility">
+
+<li class="_login js-dropdown">
+<a href="/" class="dropdown-hook">Login</a>
+<div class="dropdown-content">
+<div class="dropdown-inner">
+
+<ul class="list-mypage">
+<li>
+<div class="title">Already have an account?</div>
+<div class="lyt-btn-01"><a class="btn-01" href="/mycontec/login?returnUrl=%2f" >Login</a></div>
+</li>
+<li>
+<div class="title">Don’t have an account?</div>
+<div class="lyt-btn-01"><a class="btn-01" href="/mycontec/new-mycontec?returnUrl=%2f" >Creat Account</a></div>
+</li>
+</ul>
+
+
+
+
+<style type="text/css">
+<!--
+p#leading {
+    text-align: center;
+}
+-->
+</style>
+
+<!-- /.dropdown-inner --></div>
+<!-- /.dropdown-content --></div>
+</li>
+
+<li class="_search js-dropdown">
+<a href="/" class="dropdown-hook">Search</a>
+<div class="dropdown-content">
+<div class="dropdown-inner">
+
+
+<dl class="list-search">
+<dt><label for="header-search">Site Search</label></dt>
+<dd>
+<div class="search-wrap">
+<input type="hidden" name="site" value="Y28Q1BWA">
+<input type="hidden" name="charset" value="UTF-8" />
+<input type="hidden" name="group" value="2" />
+<input type="hidden" name="design" value="2" />
+<input type="text" name="query" value="" placeholder="Type your search here" id="SS_searchQuery" class="form-txt-01" autocomplete="off">
+<button><img src="/-/media/contec/common/images/icon_search_01.png" alt="検索する" class="" /></button>
+<!-- /.search-wrap --></div>
+</dd>
+</dl>
+
+<script type="text/javascript">
+    jQuery(".list-search").wrap("<form name='SS_searchForm' id='SS_searchForm' action='https://search.contec.com/search' method='get' enctype='application/x-www-form-urlencoded'>");
+</script>
+
+
+<!-- /.dropdown-inner --></div>
+<!-- /.dropdown-content --></div>
+</li>
+
+</ul>
+
+
+<div class="btn-menu"><button type="button" class="toggle-hook">Menu</button></div>
+<nav class="nav-global-wrap toggle-content">
+<ul class="nav-global">
+
+<li class="js-dropdown"><a href="/solutions" class="dropdown-hook">Solutions</a>
+<div class="dropdown-content">
+<div class="dropdown-inner">
+<ul class="nav-menu">
+<li>
+<div class="title _large"><a href="/solutions/">Solutions</a></div>
+<ul class="nav-menu-second">
+<li><div class="title">Search by Industry</div>
+<ul class="list-link-01 _col-4">
+<li><a href="/solutions/manufacturing/">Manufacturing</a></li>
+<li><a href="/solutions/automotive/">Automotive industry</a></li>
+<li><a href="/solutions/social-infrastructure/">Social infrastructure</a></li>
+<li><a href="/solutions/transportation/">Transportation</a></li>
+<li><a href="/solutions/logistics/">Logistics</a></li>
+<li><a href="/solutions/energy/">Energy</a></li>
+<li><a href="/solutions/buildings-offices/">Construction &amp; Building</a></li>
+<li><a href="/solutions/agriculture/">Agriculture</a></li>
+</ul>
+</li>
+<li><div class="title">Search by Keyword</div>
+<ul class="list-link-01 _col-4">
+<li><a href="/solutions/manufacturing/solutions/iot/">Improvement of Production Capacity</a></li>
+<li><a href="/solutions/manufacturing/solutions/production-line/">Operation Monitoring of Production Facilities</a></li>
+<li><a href="/solutions/automotive/solutions/robot/">Robot Breakdown Prediction System</a></li>
+<li><a href="/solutions/automotive/solutions/color-difference/">Color Quality Management System</a></li>
+<li><a href="/solutions/social-infrastructure/solutions/iot/">IoT-Based Water Treatment Equipment</a></li>
+<li><a href="/solutions/social-infrastructure/solutions/river-monitoring/">River &amp; Floodgate Monitoring System</a></li>
+<li><a href="/solutions/transportation/solutions/platform-doors/">Remote Monitoring System for Movable Platform Door</a></li>
+<li><a href="/solutions/energy/solutions/power-storage/">Electricity Storage System Demand Control</a></li>
+</ul>
+</li>
+</ul>
+<!-- /.dropdown-inner --></div>
+<!-- /.dropdown-content--></div>
+</li>
+
+<li class="js-dropdown"><a href="/products-services" class="dropdown-hook">Products &amp; Services</a>
+<div class="dropdown-content">
+<div class="dropdown-inner">
+<div class="title _large"><a href="/products-services/">Products &amp; Services</a></div>
+<ul class="nav-menu-second _products-services">
+<li>
+<div class="title">DAQ &amp; Control, IoT/M2M</div>
+<div class="lyt-col _col-2">
+<div class="col">
+<ul class="list-link-01 _has-child">
+<li><a href="/products-services/daq-control/iiot-conprosys/">CONPROSYS&trade; Industrial IoT</a>
+<ul>
+<li><a href="/products-services/daq-control/iiot-conprosys/m2m-controllers/">M2M controllers</a></li>
+<li><a href="/products-services/daq-control/iiot-conprosys/gateway/">M2M gateways</a></li>
+<li><a href="/products-services/daq-control/iiot-conprosys/pac/">PAC systems</a></li>
+<li><a href="https://www.contec.com/products-services/search/?target=1&query=%20&eol=0&c3=02e646e5-6f9b-4fe8-84e4-bc92de87b305&count=10&start=0&lang=jp">Remote I/O - nano</a></li>
+<li><a href="/products-services/daq-control/iiot-conprosys/m2m-controllers/io-module/">I/O modules</a></li>
+<li><a href="/products-services/daq-control/iiot-conprosys/software/">Software</a></li>
+<li><a href="/products-services/daq-control/iiot-conprosys/cloud/">Cloud service</a></li>
+</ul>
+</li>
+<li><a href="/products-services/daq-control/remote-io-fit/">F&amp;eIT&trade; - Remote I/O Systems</a>
+<ul>
+<li><a href="/products-services/search/?target=1&query=&eol=0&c3=93fea95f-eed4-4d05-9d43-7ff9e0455597&type=ffcf7082-5803-452e-b8f7-9fcc92a5c8a6&count=10&start=0&lang=jp">Remote I/O communication coupler modules</a></li>
+<li><a href="/products-services/search/?target=1&query=&eol=0&c3=3f23e199-9e71-42cb-b405-f8d3628a07c4&count=10&start=0&lang=jp">I/O modules</a></li>
+<li><a href="/products-services/search/?target=1&query=&eol=0&c3=93fea95f-eed4-4d05-9d43-7ff9e0455597&type=4b19e7e8-e18b-40a2-9cbd-755bf3453b1c&count=10&start=0&lang=jp">Digital I/O module</a></li>
+</ul>
+</li>
+</ul>
+<!-- /.col --></div>
+<div class="col">
+<ul class="list-link-01 _has-child">
+<li><a href="/products-services/daq-control/pc-helper/">PC-HELPER - PC-based DAQ &amp; Control</a>
+<ul>
+<li><a href="/products-services/search?c3=29d66c00-0ae6-4543-92a0-a0030a40f807">USB modules</a></li>
+<li><a href="/products-services/search?c3=4edc346a-4c5a-4666-8076-1bdd1e1f4ea7">PCI express cards</a></li>
+<li><a href="/products-services/search?c3=29a6ac05-b18b-471c-9023-92b720467122">PCI cards</a></li>
+<li><a href="/products-services/search/?c3=98683fca-9d5a-4b40-8bc4-8287b16eeb2c">Ethernet I/O</a></li>
+<li><a href="/products-services/search/?target=1&query=&eol=0&c3=cbda560f-6278-49b8-a5ae-6fbcd54b2b13&count=10&start=0&lang=jp">Software</a></li>
+</ul>
+</li>
+<li><a href="/products-services/daq-control/flexlan-iot/">FLEXLAN&trade; IoT - IoT Network</a>
+<!--<<ul>
+<li><a href="dummy">Wireless LAN modules</a></li>
+</ul>-->
+</li>
+</ul>
+<!-- /.col --></div>
+<!-- /.lyt-col --></div>
+</li>
+<li>
+<div class="title">Edge Computing</div>
+<ul class="list-link-01 _has-child">
+<li><a href="/products-services/edge-computing/embedded-computers/">Embedded Computers</a>
+<ul>
+<li><a href="/products-services/search/?c3=96c55cb8-036f-4ab3-bacc-591a480b3508">Box computers</a></li>
+<li><a href="/products-services/search/?c3=779368ff-89de-40a3-a076-739a6a2d304b">Panel computers</a></li>
+<li><a href="/products-services/search/?c3=be5661f2-60d0-42f7-8850-9d2123fd5092">Flat panel displays</a></li>
+<li><a href="/products-services/search/?c3=96581e89-2558-459f-8ea7-f374aef7d067">Digital signage players</a></li>
+</ul>
+</li>
+<li><a href="/products-services/edge-computing/industrial-computers/">Industrial Computers</a>
+<ul>
+<li><a href="/products-services/search/?c3=343f2ad6-c2b0-4e82-82e9-1a3d780df3f3">FA computers VPC</a></li>
+<li><a href="/products-services/search/?c3=5d2fd35d-5a12-48af-ba2f-452d9a803475">Custom PC Solution-ePC</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div class="title">Computer Networking</div>
+<ul class="list-link-01 _has-child">
+<li><a href="/products-services/computer-networking/flexlan-fx/">FLEXLAN&trade; FX - Distributed Wireless LAN</a>
+<ul>
+<li><a href="/products-services/search/?c3=0f16a6d7-3ebf-4759-868a-0203038f9b99">Access points</a></li>
+</ul>
+</li>
+<li><a href="/products-services/computer-networking/flexlan-zc/">FLEXLAN&trade; ZC - Centralized Wireless LAN</a>
+<ul>
+<li><a href="/products-services/search/?c3=bd6f41d1-89dd-491f-8d01-d9db937cc057">Access points</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<!--<li>
+<div class="title">Environmental Monitoring Systems</div>
+<ul class="list-link-01 _has-child _col-2">
+<li><a href="/products-services/environmental-monitoring/solarview/">SolarView&trade; - PV Measurement Systems</a>
+<ul>
+<li><a href="dummy">Packaged systems</a></li>
+</ul>
+</li>
+<li><a href="/products-services/environmental-monitoring/fws/">F&amp;e Web Server – Remote monitoring Systems</a>
+<ul>
+<li><a href="dummy">Packaged systems</a></li>
+</ul>
+</li>
+</ul>
+</li>-->
+<li>
+<div class="title">Services</div>
+<ul class="list-link-01 _has-child _col-2">
+<li><a href="/products-services/daq-control/iiot-conprosys/cloud/">Cloud Service</a></li>
+</ul>
+</li>
+</ul>
+<!-- /.dropdown-inner --></div>
+<!-- /.dropdown-content--></div>
+</li>
+
+<li class="js-dropdown"><a href="/download" class="dropdown-hook">Downloads</a>
+<div class="dropdown-content">
+<div class="dropdown-inner">
+<div class="title _large"><a href="/download/">Downloads</a></div>
+
+<ul class="nav-menu-second">
+<li><div class="title">Keyword Search</div>
+<ul class="list-link-01 _col-4">
+<li><a href="/download/search?type=858a9226-3053-4418-80b9-a61e0b6ff8ac">Drivers &amp; Software</a></li>
+<li><a href="/download/search?type=15e3305a-d212-42b3-8cc8-1e399097b5e9">Technical guides</a></li>
+<li><a href="/download/search?type=66bc4bb4-70af-4251-8909-0f062cfbb95d">CAD data</a></li>
+<li><a href="/download/search?type=a1aa3e44-d78d-4f1b-95ae-f6db38bc8daf">Catalogs</a></li>
+</ul>
+</li>
+<li><div class="title">List</div>
+<ul class="list-link-01 _col-4">
+<li><a href="/download/list/driver-software/">Drivers &amp; Software</a></li>
+<li><a href="/download/brochures-catalogs/en/">Brochures &amp; Catalogs</a></li></ul>
+</li>
+</ul>
+
+<!-- /.dropdown-inner --></div>
+<!-- /.dropdown-content--></div>
+</li>
+
+<li class="js-dropdown"><a href="/support" class="dropdown-hook">Support</a>
+<div class="dropdown-content">
+<div class="dropdown-inner">
+<div class="title"><a href="/support/">Support</a></div>
+<ul class="list-link-01 _col-4">
+<li><a href="/support/technical-support/">Technical Support</a></li>
+<li><a href="/support/basic-knowledge/">Basic knowledge</a></li>
+<!--<li><a href="/support/guides-tutorials/">Deployment guides &amp; tutorials</a></li>-->
+<li><a href="/support/comparison/">Accessories compatibility</a></li>
+<li><a href="/support/environment/">Operation check &amp; Transition guides</a></li>
+<li><a href="/products-services/search/end-of-life/">End of life products</a></li>
+<li><a href="/support/distributors/">Where to buy</a></li>
+</ul>
+<!-- /.dropdown-inner --></div>
+<!-- /.dropdown-content--></div>
+</li>
+
+<li class="js-dropdown"><a href="/about-contec" class="dropdown-hook">About CONTEC</a>
+<div class="dropdown-content">
+<div class="dropdown-inner">
+<div class="title"><a href="/about-contec/">About</a></div>
+<ul class="list-link-01 _col-4 _has-child">
+<li><a href="/about-contec/corporation/">Corporate Information</a>
+<ul>
+<li><a href="/about-contec/corporation/president/">Message from top management</a></li>
+<li><a href="/about-contec/corporation/vision/">Corporate philosophy</a></li>
+<li><a href="/about-contec/corporation/profile/">Corporate profile</a></li>
+<li><a href="/about-contec/corporation/history/">History</a></li>
+<li><a href="/about-contec/corporation/network/">Locations</a></li>
+</ul>
+</li>
+<li><a href="/about-contec/csr/">Sustainability</a>
+<ul>
+<li><a href="/about-contec/csr/quality/">Corporate code of conduct</a></li>
+<li><a href="/about-contec/csr/rule/">Initiatives related to quality</a></li>
+</ul>
+</li>
+<li><a href="/about-contec/ir/">Invest Relations</a>
+<ul>
+<li><a href="/about-contec/ir/message/">Message from top management</a></li>
+<li><a href="/about-contec/ir/financial-highlights/">Financial highlights</a></li>
+<li><a href="/about-contec/ir/financing/">Financial results</a></li>
+</ul>
+</li>
+<ul class="list-link-01 _has-child" style="margin:10px 0 0 10px;">
+<li><a href="/events-seminars/">Event &amp; Seminar</a></li>
+<li><a href="/news/">News Release</a></li>
+<li><a href="/info/">Information</a></li>
+</ul>
+</ul>
+<!-- /.dropdown-inner --></div>
+<!-- /.dropdown-content--></div>
+</li>
+
+</ul>
+</nav>
+
+
+<!-- /.header-menu --></div>
+
+<!-- /.header-content --></div>
+
+</header>
+<!-- ======================== Header END ===================================== -->
+<!-- ======================== Contents START ================================= -->
+<div class="contents">
+
+<main>
+
+<div class="js-carousel-01">
+
+<div class="carousel-item">
+<div class="image"><img src="/-/media/contec/herobanner/hero_banner_conpeosys_en.png" alt="" class="" /></div>
+<div class="pickup">
+<h2 class="hdg">Break into the IoT Revolution<br>with CONPROSYS</h2>
+<p>For innovative measurement & control, and telemetring</p>
+<p><a class="btn-01" href="/products-services/daq-control/iiot-conprosys">See more</a></p>
+<!-- /.pickup --></div>
+<!-- /.carousel-item --></div>
+
+<div class="carousel-item">
+<div class="image"><img src="/-/media/contec/herobanner/mv_top_01.png" alt="" class="" /></div>
+<div class="pickup">
+<h2 class="hdg">Proof of Concept<br>with "CONPROSYS™"</h2>
+<p>at Contec Komaki factory</p>
+<p><a class="btn-01" href="/case-studies/manufacturing/contec-komaki">See more</a></p>
+<!-- /.pickup --></div>
+<!-- /.carousel-item --></div>
+
+<!-- /.js-carousel-01 --></div>
+
+<div class="section">
+<div class="section-inner">
+<div class="js-tab">
+<ul class="list-tab-01">
+
+<li><a href="#tab-01"><span>News Releases</span></a></li>
+
+<li><a href="#tab-02"><span>Information</span></a></li>
+
+<li><a href="#tab-03"><span>Event &amp; Seminar</span></a></li>
+
+<li><a href="#tab-04"><span>IR News</span></a></li>
+
+</ul>
+
+<div class="tab-panels">
+
+<div class="tab-panel" id="tab-01">
+<ul class="list-info-01">
+
+<li>
+<div class="date">2018/07/11</div>
+
+<div class="title"><a href="/news/2018/2018071100">Contec Americas Inc. Opens Modern New U.S. HQ & Manufacturing Facility</a></div>
+</li>
+
+<li>
+<div class="date">2018/06/19</div>
+
+<div class="title"><a href="/news/2018/2018061900">Contec Announces Its New Product: LoRa Modulation (920 MHz) Wireless Communication Module under the Industrial IoT CONPROSYS&trade; Brand</a></div>
+</li>
+
+<li>
+<div class="date">2018/05/08</div>
+
+<div class="title"><a href="/news/2018/2018050800">Contec Announces Its New Product: BX-T1000 Fanless Embedded Computers with Intel Core i7 250GB SSD model with embedded OS Windows 10 IoT is ready.</a></div>
+</li>
+
+<li>
+<div class="date">2018/04/24</div>
+
+<div class="title"><a href="/news/2018/2018042400">Contec Announces Its New Product: Module Type Remote I/O, CONPROSYS&trade; nano Series Programmable by PLC Languages</a></div>
+</li>
+
+<li>
+<div class="date">2018/03/20</div>
+
+<div class="title"><a href="/news/2018/2018032000">Contec Announces Its New Product: the "BOX Computer BX-825 Series" of Embedded PCs Designed for IoT Edge Computing</a></div>
+</li>
+
+</ul>
+<p class="lyt-btn-01">
+<a href="/news" class="btn-01 _size-a">News Releases</a>
+</p>
+<!-- /.tab-panel --></div>
+
+<div class="tab-panel" id="tab-02">
+<ul class="list-info-01">
+
+<li>
+<div class="date">2018/06/21</div>
+
+<div class="category"><div class="icon-txt-01 _ctg-d">Company</div></div>
+
+<div class="title"><a href="/info/2018/2018062100">Scheduled Website Maintenance</a></div>
+</li>
+
+<li>
+<div class="date">2018/05/28</div>
+
+<div class="category"><div class="icon-txt-01 _ctg-d">Company</div></div>
+
+<div class="title"><a href="/info/2018/2018052800">Contec Americas Inc. (Florida, USA) relocates head office.</a></div>
+</li>
+
+<li>
+<div class="date">2018/03/28</div>
+
+<div class="category"><div class="icon-txt-01 _ctg-b">Support</div></div>
+
+<div class="title"><a href="/info/2017/2017102501">Regarding WPA2 protocol vulnerability in wireless LAN products</a></div>
+</li>
+
+<li>
+<div class="date">2018/03/13</div>
+
+<div class="category"><div class="icon-txt-01 _ctg-a">Product & Service</div></div>
+
+<div class="title"><a href="/info/2018/2018031300">New product - RS-232C/-422A/-485 Serial communication lineup is further enhanced!</a></div>
+</li>
+
+<li>
+<div class="date">2017/11/15</div>
+
+<div class="category"><div class="icon-txt-01 _ctg-d">Company</div></div>
+
+<div class="title"><a href="/info/2017/2017111501">CONTEC DTx INC. (Florida, USA) opens the Chicago office</a></div>
+</li>
+
+</ul>
+<p class="lyt-btn-01">
+<a href="/info" class="btn-01 _size-a">Information</a>
+</p>
+<!-- /.tab-panel --></div>
+
+<div class="tab-panel" id="tab-03">
+<ul class="list-info-01">
+
+</ul>
+<p class="lyt-btn-01">
+<a href="/events-seminars" class="btn-01 _size-a">Event &amp; Seminar</a>
+</p>
+<!-- /.tab-panel --></div>
+
+<div class="tab-panel" id="tab-04">
+<ul class="list-info-01">
+
+</ul>
+<p class="lyt-btn-01">
+<a href="/ir-news" class="btn-01 _size-a">IR News</a>
+</p>
+<!-- /.tab-panel --></div>
+
+<!-- /.tab-panels --></div>
+<!-- /.js-tab --></div>
+<!-- /.section-inner --></div>
+<!-- /.section --></div>
+
+
+<script type="text/javascript">
+    var j = jQuery.noConflict();
+    j(document).ready(function ($) {
+        var newestDate = 'undefined';
+        var newestTab = 'undefined';
+
+        var skipTabs = "tab-03";
+        console.log(skipTabs);
+        $("[id^=tab-]").each(function(i, e) {
+            // skipTabsにタブが含まれる場合、スキップ
+            if( skipTabs.indexOf(e.id) != -1 )
+            {
+               return true;
+            }
+
+            $(this).find(".date").each(function(i2, e2) { 
+                var date = new Date(new Date($(this).text()));
+                if(newestDate === 'undefined' || newestDate < date) {
+                    newestDate = date;
+                    newestTab = e;
+                }
+            });
+        });
+        newestTab.classList.add('is-active');
+    });
+</script>
+
+
+<div class="section">
+<div class="section-inner">
+<h2 class="hdg-l2-02">Solutions</h2>
+
+<div class="js-carousel-02">
+
+<div class="carousel-item">
+<ul class="list-link-03 _col-2">
+
+<li>
+<a href="/solutions/manufacturing">
+<div class="image">
+<img src="/-/media/contec/solutions/img_solution_01.jpg" alt="" class="" />
+<!-- /.image --></div>
+<div class="item">
+<div class="title">Manufacturing</div>
+<!-- /.item --></div>
+</a>
+</li>
+
+<li>
+<a href="/solutions/automotive">
+<div class="image">
+<img src="/-/media/contec/jp/solutions/images/img_solution_10.jpg" alt="" class="" />
+<!-- /.image --></div>
+<div class="item">
+<div class="title">Automotive industry</div>
+<!-- /.item --></div>
+</a>
+</li>
+
+</ul>
+<!-- /.carousel-item --></div>
+
+<div class="carousel-item">
+<ul class="list-link-03 _col-2">
+
+<li>
+<a href="/solutions/transportation">
+<div class="image">
+<img src="/-/media/contec/jp/solutions/images/img_solution_02.jpg" alt="" class="" />
+<!-- /.image --></div>
+<div class="item">
+<div class="title">Transportation</div>
+<!-- /.item --></div>
+</a>
+</li>
+
+<li>
+<a href="/solutions/logistics">
+<div class="image">
+<img src="/-/media/contec/jp/solutions/images/img_solution_06.jpg" alt="" class="" />
+<!-- /.image --></div>
+<div class="item">
+<div class="title">Logistics</div>
+<!-- /.item --></div>
+</a>
+</li>
+
+</ul>
+<!-- /.carousel-item --></div>
+
+<div class="carousel-item">
+<ul class="list-link-03 _col-2">
+
+<li>
+<a href="/solutions/social-infrastructure">
+<div class="image">
+<img src="/-/media/contec/jp/solutions/images/img_solution_05.jpg" alt="" class="" />
+<!-- /.image --></div>
+<div class="item">
+<div class="title">Social infrastructure & Water treatment</div>
+<!-- /.item --></div>
+</a>
+</li>
+
+<li>
+<a href="/solutions/energy">
+<div class="image">
+<img src="/-/media/contec/jp/solutions/images/img_solution_07.jpg" alt="" class="" />
+<!-- /.image --></div>
+<div class="item">
+<div class="title">Environmental energy</div>
+<!-- /.item --></div>
+</a>
+</li>
+
+</ul>
+<!-- /.carousel-item --></div>
+
+<div class="carousel-item">
+<ul class="list-link-03 _col-2">
+
+<li>
+<a href="/solutions/buildings-offices">
+<div class="image">
+<img src="/-/media/contec/jp/solutions/images/img_solution_08.jpg" alt="" class="" />
+<!-- /.image --></div>
+<div class="item">
+<div class="title">Construction & Building</div>
+<!-- /.item --></div>
+</a>
+</li>
+
+<li>
+<a href="/solutions/agriculture">
+<div class="image">
+<img src="/-/media/contec/jp/solutions/images/img_solution_09.jpg" alt="" class="" />
+<!-- /.image --></div>
+<div class="item">
+<div class="title">Agriculture</div>
+<!-- /.item --></div>
+</a>
+</li>
+
+</ul>
+<!-- /.carousel-item --></div>
+
+<!-- /.js-carousel-02 --></div>
+<p class="lyt-btn-01"><a class="btn-01" href="/solutions">See what's possible</a></p>
+<!-- /.section-inner --></div>
+<!-- /.section --></div>
+
+<div class="section _has-bg-c">
+<div class="section-inner">
+<h2 class="hdg-l2-02">New Products</h2>
+
+<ul class="list-link-02 _col-2">
+
+<li>
+<a href="/products-services/daq-control/pc-helper/wireless-io/dio-0404ly-wq" class="link-item-03">
+<div class="image">
+<img src="/-/media/contec/product/photo/x1/dio0404lywq_l_rgb_96dpi_500x500.jpg" alt="" class="" />
+<!-- /.image --></div>
+<div class="item">
+<p>Digital I/O 920MHz wireless I/O unit 4ch/4ch (isolated 12 - 24VDC)</p>
+<div class="title">DIO-0404LY-WQ</div>
+<!-- /.item --></div>
+</a>
+</li>
+
+<li>
+<a href="/products-services/daq-control/iiot-conprosys/pac-system/cps-pc341ec-1-9201" class="link-item-03">
+<div class="image">
+<img src="/-/media/contec/product/photo/x1/cps-pc341ec-1-9201_r_rgb_96dpi_500x500.jpg" alt="" class="" />
+<!-- /.image --></div>
+<div class="item">
+<p>CONPROSYS Series | CODESYS EtherCAT Master BATT</p>
+<div class="title">CPS-PC341EC-1-9201</div>
+<!-- /.item --></div>
+</a>
+</li>
+
+<li>
+<a href="/products-services/daq-control/flexlan-iot/wlan-module/fxe3000" class="link-item-03">
+<div class="image">
+<img src="/-/media/contec/product/photo/x3/fxe3000_original_rgb_96dpi_500x500.jpg" alt="" class="" />
+<!-- /.image --></div>
+<div class="item">
+<p>Embedded Wireless LAN Board (Masler/Slave Station/Repeater)</p>
+<div class="title">FXE3000</div>
+<!-- /.item --></div>
+</a>
+</li>
+
+<li>
+<a href="/products-services/edge-computing/embedded-computers/panel-pc/pt-970" class="link-item-03">
+<div class="image">
+<img src="/-/media/contec/product/photo/x2/pt-970w10wdt_l_rgb_96dpi_500x500.jpg" alt="no-image" class="" />
+<!-- /.image --></div>
+<div class="item">
+<p>Panel Computer (Fanless, Touch panel, Atom E3845, 4GB)</p>
+<div class="title">PT-970</div>
+<!-- /.item --></div>
+</a>
+</li>
+
+</ul>
+<!-- /.section-inner --></div>
+<!-- /.section --></div>
+
+
+<div class="section _top-products">
+<div class="section-inner">
+<h2 class="hdg-l2-02">Products & Services</h2>
+
+
+
+<div class="box-search-01">
+<dl class="list-desc-01">
+<dt><label for="search-01">Product name/model, Keywords :  </label></dt>
+<dd>
+<input name="contents_5$itemsearch_0$query" type="text" maxlength="1024" id="query" class="form-txt-01 _search" />
+<button onclick="__doPostBack('contents_5$itemsearch_0$ctl00','')" class="btn-search-01"><span></span></button>
+</dd>
+</dl>
+<p><label class="form-cb-01"><input id="include_eol" type="checkbox" name="contents_5$itemsearch_0$include_eol" /><span>Include discontinued products</span></label></p>
+<!-- /.box-search-01 --></div>
+
+
+
+<br/>
+
+
+<ul class="list-link-03 _col-2 _idx-a">
+
+<li>
+<div class="image"></div>
+<div class="item">
+<h3 class="title">DAQ & Control, IoT/M2M</h3>
+</div>
+<ul class="list-link-01">
+
+<li><a href="/products-services/daq-control/iiot-conprosys">CONPROSYS - Industrial IoT</a></li>
+
+<li><a href="/products-services/daq-control/pc-helper">PC-HELPER - PC-based DAQ & control</a></li>
+
+<li><a href="/products-services/daq-control/remote-io-fit">F&eIT - Remote I/O</a></li>
+
+<li><a href="/products-services/daq-control/flexlan-iot">FLEXLAN IoT - Network devices</a></li>
+
+</ul>
+</li>
+
+<li>
+<div class="image"></div>
+<div class="item">
+<h3 class="title">Edge Computing</h3>
+</div>
+<ul class="list-link-01">
+
+<li><a href="/products-services/edge-computing/embedded-computers">EPC - Embedded computer</a></li>
+
+<li><a href="/products-services/edge-computing/industrial-computers">IPC - Industrial computer</a></li>
+
+<li><a href="/products-services/edge-computing/displays">Display</a></li>
+
+</ul>
+</li>
+
+<li>
+<div class="image"></div>
+<div class="item">
+<h3 class="title">Computer Networking</h3>
+</div>
+<ul class="list-link-01">
+
+<li><a href="/products-services/computer-networking/flexlan-fx">FLEXLAN FX - Distributed wireless LAN</a></li>
+
+<li><a href="/products-services/computer-networking/flexlan-zc">FLEXLAN ZC - Centralized wireless LAN</a></li>
+
+</ul>
+</li>
+
+<li>
+<div class="image"></div>
+<div class="item">
+<h3 class="title">Environmental Mornitoring</h3>
+</div>
+<ul class="list-link-01">
+
+<li><a href="/products-services/environmental-monitoring/solarview">SolarView - Solar power generation monitoring system</a></li>
+
+<li><a href="/products-services/environmental-monitoring/fws">F&e Web Server - Remote Monitoring system</a></li>
+
+</ul>
+</li>
+
+<li>
+<div class="image"></div>
+<div class="item">
+<h3 class="title">Services</h3>
+</div>
+<ul class="list-link-01">
+
+<li><a href="/products-services/services/warranty">Extended warranty service</a></li>
+
+<li><a href="/products-services/services/maintenance">Onsite maintenance service</a></li>
+
+</ul>
+</li>
+
+</ul>
+
+<!-- /.section-inner --></div>
+<!-- /.section --></div>
+
+<div class="section _has-bg-a">
+<div class="section-inner">
+<div class="lyt-col-01 _col-2 _has-border">
+<div class="col">
+<h2 class="hdg-l2-01">Downloads</h2>
+<p>Download manuals, drivers, software, and documents for Contec products.</p>
+<p class="lyt-btn-01"><a href="/download/search" class="btn-01">See more</a></p>
+<!-- /.col --></div>
+<div class="col">
+<h2 class="hdg-l2-01">Support</h2>
+<p>FAQ, basic knowledge, distributor list,  and contact information</p>
+<p class="lyt-btn-01"><a href="/support" class="btn-01">See more</a></p>
+<!-- /.col --></div>
+<!-- /.lyt-col-01 --></div>
+<!-- /.section-inner --></div>
+<!-- /.section --></div>
+<div class="section _top-about">
+<div class="section-inner">
+<h2 class="hdg-l2-02">About CONTEC</h2>
+<p class="lyt-btn-01"><a href="/about-contec" class="btn-01">More about us</a></p>
+<!-- /.section-inner --></div>
+<!-- /.section --></div>
+
+
+<div class="section _has-bg-b _top-topics">
+<div class="section-inner">
+<h2 class="hdg-l2-02">What's New</h2>
+
+<ul class="lyt-col-01 _col-4">
+
+<li><a href="/products-services"><img src="/-/media/contec/topic/topic_en_search.jpg" alt="" class="" /></a></li>
+
+<li><a href="/case-studies"><img src="/-/media/contec/topic/topic_en_casestudies.jpg" alt="" class="" /></a></li>
+
+<li><a href="/mycontec"><img src="/-/media/contec/topic/topic_en_mycontec.jpg" alt="" class="" /></a></li>
+
+</ul>
+<!-- /.section-inner --></div>
+<!-- /.section --></div>
+
+
+<div class="modal-content">
+<div class="modal-inner" id="modal-92">
+<aside>
+
+<div class="aside-inner">
+<div class="box-01">
+<p>Please log in. (Non-members can send an inquiry too)</p>
+<ul class="list-btn-02">
+<li><a class="btn-02" href="/mycontec/login?returnUrl=%2f" >Login</a></li>
+<li><a class="btn-02" href="/mycontec/new-mycontec?returnUrl=%2f" >Create Account</a></li>
+</ul>
+<br/>
+<div style="text-align: center;">
+<a href="javascript:void(0)" onclick="Inquiry();">Send an inquiry without logging in.</a>
+</div>
+<!-- /.box-01 --></div>
+<!-- /.aside-inner --></div>
+<script type="text/javascript">
+    function Inquiry() {
+        var j = jQuery.noConflict();
+        var form = j("#modal-92");
+        var href = form.attr("data-href");
+        var target = form.attr("data-target");
+        form.removeAttr("data-href");
+        form.removeAttr("data-target");
+        if (target) {
+            window.open(href, target);
+            j('#cboxClose').click();
+        } else {
+            location.href = href;
+        }
+    }
+</script>
+
+</aside>
+<!-- /.modal-inner --></div>
+<!-- /.modal-content --></div>
+
+
+
+<style type="text/css">
+<!--
+p#leading {
+    text-align: center;
+}
+-->
+</style>
+
+<script type="text/javascript">
+    var j = jQuery.noConflict();
+    j(document).ready(function ($) {
+        $("a[data-auth='modal-92']").each(function () {
+            $(this).click(function (e) {
+                e.preventDefault();
+                $("#modal-92").attr("data-href", $(this).attr("data-href"));
+                $("#modal-92").attr("data-target", $(this).attr("target"));
+            });
+            $(this).attr("data-href", $(this).attr("href"));
+            $(this).attr("data-esc-txt", "Use Esc key to close");
+            $(this).attr("href", "#modal-92");
+            $(this).attr("class", $(this).attr("class") + " js-modal-inline cboxElement");
+        });
+    });
+</script>
+
+
+<div class="box-share-01 js-toggle-pc">
+<button type="button" class="btn-share-01 toggle-hook">Share</button>
+<ul class="list-share-01 toggle-content">
+
+
+<li class="facebook"><a href=""><img src="/-/media/contec/sns/icon_facebook_01.png" alt="" class="" /></a></li>
+
+
+<li class="gplus"><a href=""><img src="/-/media/contec/sns/icon_gplus_01.png" alt="" class="" /></a></li>
+
+
+<li class="line"><a href=""><img src="/-/media/contec/sns/icon_line_01.png" alt="" class="" /></a></li>
+
+
+<li class="linkedin"><a href=""><img src="/-/media/contec/sns/icon_linkedin_01.png" alt="" class="" /></a></li>
+
+
+<li class="twitter"><a href=""><img src="/-/media/contec/sns/icon_twitter_01.png" alt="" class="" /></a></li>
+
+</ul>
+<!-- /.box-share-01 --></div>
+
+
+</main>
+
+
+<p class="page-top"><a href="#top">To PageTop</a></p>
+
+
+</div>
+<!-- ======================== Contents END =================================== -->
+<!-- ======================== Footer START =================================== -->
+<footer>
+<div class="footer-content">
+
+
+<div class="footer-menu">
+<div class="col">
+<ul class="footer-nav">
+<li><a href="/solutions/">Solutions</a>
+<ul>
+<li><a href="/solutions/manufacturing/">Manufacturing</a></li>
+<li><a href="/solutions/automotive/">Automotive industry</a></li>
+<li><a href="/solutions/social-infrastructure/">Social infrastructure</a></li>
+<li><a href="/solutions/transportation/">Transportation</a></li>
+<li><a href="/solutions/education/">Education</a></li>
+<li><a href="/solutions/medical-healthcare/">Medical &amp; Healthcare</a></li>
+<li><a href="/solutions/logistics/">Logistics</a></li>
+<li><a href="/solutions/energy/">Energy</a></li>
+<li><a href="/solutions/buildings-offices/">Construction &amp; Building</a></li>
+<li><a href="/solutions/agriculture/">Agriculture</a></li>
+</ul>
+</li>
+<li><a href="/case-studies/">Case Studies</a></li>
+</ul>
+<!-- /.col --></div>
+<div class="col">
+<ul class="footer-nav">
+<li><a href="/products-services/">Products &amp; Services</a>
+<ul>
+<li><a href="/products-services/daq-control/iiot-conprosys/">Industrial IoT</a></li>
+<li><a href="/products-services/daq-control/pc-helper/">PC-based DAQ &amp; Control</a></li>
+<li><a href="/products-services/daq-control/remote-io-fit/">Remote I/O systems</a></li>
+<li><a href="/products-services/daq-control/flexlan-iot/">IoT network</a></li>
+<li><a href="/products-services/edge-computing/embedded-computers/">Embedded computers</a></li>
+<li><a href="/products-services/edge-computing/industrial-computers/">Industrial computers</a></li>
+<li><a href="/products-services/computer-networking/flexlan-fx/">Distributed wireless LAN</a></li>
+<li><a href="/products-services/computer-networking/flexlan-zc/">Centralized wireless LAN</a></li>
+<!--<li><a href="/products-services/environmental-monitoring/solarview/">PV Measurement systems</a></li>
+<li><a href="/products-services/environmental-monitoring/fws/">Remote monitoring systems</a></li>-->
+</ul>
+</li>
+</ul>
+<!-- /.col --></div>
+<div class="col">
+<ul class="footer-nav">
+<li><a href="/download/">Downloads</a>
+<ul>
+<li><a href="/download/search?type=858a9226-3053-4418-80b9-a61e0b6ff8ac">Drivers &amp; Software</a></li>
+<li><a href="/download/search?type=15e3305a-d212-42b3-8cc8-1e399097b5e9">Technical guides</a></li>
+<li><a href="/download/search?type=66bc4bb4-70af-4251-8909-0f062cfbb95d">CAD data</a></li>
+<li><a href="/download/search?type=a1aa3e44-d78d-4f1b-95ae-f6db38bc8daf">Catalogs</a></li>
+</ul>
+</li>
+</ul>
+<!-- /.col --></div>
+<div class="col">
+<ul class="footer-nav">
+<li><a href="/support/">Support</a>
+<ul>
+<li><a href="/support/technical-support/">Technical Support</a></li>
+<li><a href="/support/basic-knowledge/">Basic knowledge</a></li>
+<li><a href="/support/comparison/">Accessories compatibility</a></li>
+<li><a href="/support/environment/">Operation check &amp; Transition guides</a></li>
+<li><a href="/products-services/search/end-of-life/">End of life products</a></li>
+<li><a href="/support/distributors/">Where to buy</a></li>
+</ul>
+</li>
+</ul>
+<!-- /.col --></div>
+<div class="col">
+<ul class="footer-nav">
+<li><a href="/about-contec/">About CONTEC</a>
+<ul>
+<li><a href="/about-contec/corporation/">Company information</a></li>
+<li><a href="/about-contec/csr/">Sustainability</a></li>
+<li><a href="/about-contec/ir/">Invest relations</a></li>
+</ul>
+</li>
+<li>
+<ul>
+<li><a href="/news/">News Release</a></li>
+<li><a href="/info/">Information</a></li>
+<li><a href="/events-seminars/">Event &amp; Seminar</a></li>
+</ul>
+</li>
+</ul>
+<!-- /.col --></div>
+
+
+<!-- /.footer-menu --></div>
+
+
+
+
+<div class="utility-wrap">
+<ul class="utility">
+<li><a href="/privacy"  >Privacy Policy</a></li>
+<li><a href="/terms-of-use"  >Terms of Use</a></li>
+<li><a href="/contact-us"  >Contact Us</a></li>
+<li><a href="/sitemap"  >Sitemap</a></li>
+
+</ul>
+<p class="notes">This website uses cookies. By continuing to browse our site you agree to our <a href="/privacy/#anc-01">use of cookies</a>.</p>
+<!-- /.utility-wrap --></div>
+
+
+
+
+<p class="copyright" lang="en"><small>Copyright &copy; 2018 The Contec Group. All Rights Reserved.</small></p>
+
+
+</div>
+
+
+<div class="footer-language js-toggle" lang="en">
+<div class="btn">
+<button type="button" class="toggle-hook">Select language</button>
+</div>
+<div class="toggle-content">
+<ul class="list">
+<li><a href="/jp"><span lang="ja">日本語（Japanese）</a></li>
+<li><a href="/">English</a></li>
+<li><a href="/cn"><span lang="zh-cn">简体中文（Chinese）</a></li>
+
+</ul>
+<!-- /.toggle-content --></div>
+<!-- /.footer-language --></div>
+
+</footer>
+<!-- ======================== Footer END ===================================== -->
+<!-- ======================== Hidden START =================================== -->
+<div id="hidden_contents" style="display: none;">
+
+</div>
+<!-- ======================== Hidden END ===================================== -->
+</form>
+<!-- ======================== Script START =================================== -->
+<script src="/-/media/contec/common/js/run.js?v=53c929c0a85b4ee1b7a77e409d307e37"></script>
+<!-- ======================== Script END ===================================== -->
+<script type="text/javascript" src="//pro.syncsearch.jp/common/js/sync_suggest.js"></script>
+<script type="text/javascript">
+    SYNCSEARCH_SITE="Y28Q1BWA";
+    SYNCSEARCH_GROUP="2";
+</script>
+<script type="text/javascript">
+    
+    jQuery.noConflict();
+    jQuery("a,button").click(function () {
+        if (jQuery(this).attr("target") != "_blank"
+            && jQuery(this).attr("disabled") != "disabled"
+            && jQuery(this).attr("href") != "dummy"
+            && jQuery(this).attr("href") != "#top"
+            && "#modal-".indexOf(jQuery(this).attr("href"))>0
+            && jQuery(this).attr("id") != "GetAddressBtn"
+            && jQuery(this).attr("id") != "cancelBtn"
+            && jQuery(this).attr("id") != "closeBtn"
+            && jQuery(this).attr("id") != "loginHelp"
+            && jQuery(this).attr("id") != "sns"
+            && !jQuery(this).hasClass("toggle-hook")
+            && !jQuery(this).hasClass("scfSubmitButton")) {
+            if (jQuery(this).prop("tagName") == "A") {
+                jQuery(this).click(function(){
+                    return false;
+                });
+            } else {
+                jQuery(this).attr("disabled", true);
+            }
+        }
+    });
+
+    
+    jQuery(document).ready(function ($) {
+        $("a[href]").each(function () {
+            var href = $(this).attr("href");
+            if (href.match(/\.pdf|\.doc|\.docx|\.xls|\.xlsx|\.ppt|\.pptx|\.zip|\.txt|\.html|\.htm|\.exe/)) {
+                $(this).attr("href", "/api/downloadlogger?download=" + href);
+            }
+        });
+    });
+
+    window.onbeforeunload = function () { }
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1589513-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3218969.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+<script id="tagjs" type="text/javascript">
+  (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=FC6DcUH";
+    s.parentNode.insertBefore(tagjs, s);
+  }());
+</script>
+<noscript>
+  <iframe src="//b.yjtag.jp/iframe?c=FC6DcUH" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+
+
+
+</body>
+</html>
+

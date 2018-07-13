@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+    <meta charset="UTF-8">
+    <meta name="description" content="パッションナビは、ベンチャー・成長企業への新卒採用を目指して就職活動されている方の為の就活情報サイトです。ベンチャー・成長企業でより多くの経験を積んで成長したい学生と、そんなアツい想いを持った学生を採用したい企業の出会いをサポートします。">
+    <meta name="Keywords" content="ベンチャー,就活,新卒,インターン,転職,就職活動,イベント,パッションナビ">
+    <!-- meta name="viewport" content="width=device-width,initial-scale=1" -->
+    <meta name="viewport" content="width=1010, initial-scale=0.1, maximum-scale=2.0, user-scalable=yes">
+    <meta name="viewport" content="width=1024">
+
+    <link rel="canonical" href=""/>
+
+    <meta property="fb:app_id" content="1060446040689356" />
+    <meta property="og:title" content="ベンチャー企業と新卒・就活生をツナグキャリアサイトパッションナビ" />
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="パッションナビは、ベンチャー・成長企業への新卒採用を目指して就職活動されている方の為の就活情報サイトです。ベンチャー・成長企業でより多くの経験を積んで成長したい学生と、そんなアツい想いを持った学生を採用したい企業の出会いをサポートします。" />
+    <meta property="og:url" content="https://www.passion-navi.com/contact" />
+    <meta property="og:image" content="http://www.passion-navi.com/img/sns_img.jpg" />
+    <meta property="og:site_name" content="ベンチャー企業と新卒・就活生をツナグキャリアサイトパッションナビ" />
+    <meta property="og:locale" content="ja_JP" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@passionshukatsu">
+    <meta name="twitter:creator" content="@passionshukatsu">
+    <meta name="twitter:title" content="ベンチャー企業と新卒・就活生をツナグキャリアサイトパッションナビ">
+    <meta name="twitter:description" content="パッションナビは、ベンチャー・成長企業への新卒採用を目指して就職活動されている方の為の就活情報サイトです。ベンチャー・成長企業でより多くの経験を積んで成長したい学生と、そんなアツい想いを持った学生を採用したい企業の出会いをサポートします。">
+    <meta name="twitter:image:src" content="http://www.passion-navi.com/img/sns_img.jpg">
+
+    <title>ベンチャー企業と新卒・就活生をツナグキャリアサイトパッションナビ</title>
+    <!-- ★CSS -->
+
+    <link rel="stylesheet" type="text/css" media="all" href="/css/front.css?v=20180531" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/gm.css?v=20170327" />
+    <link rel="stylesheet" type="text/css" media="all" href="/css/user.css?v=20180530">
+    
+    
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!-- ★favicon -->
+    <link rel="icon" type="vnd.microsoft.icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/pnavi_shortcut_icon.png" />
+
+    <!-- ★js -->
+    <!-- jquery -->
+    <script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type='text/javascript' src="/js/jquery.easing.1.3.js"></script>
+    <script type='text/javascript' src='/js/jquery.bxslider.min.js'></script>
+
+    
+    <!-- FIXME: なぜか生で書くと動き、common.jsを読むと動かないバグを修正 -->
+    <!--  // <script type='text/javascript' src='/js/common.js?v=20170220'></script> -->
+    <script type='text/javascript'>
+    /*-- Pulldown of form select  --*/
+    /*-- Slider GL14 & GL18 --*/
+    $(document).ready(function(){
+    //メインスライド用の記述
+      $('.m-main-slider').bxSlider({
+      auto: true,
+      pager: false,//ページャーをカスタマイズする（サムネイルにする）ための記述
+      controls: false,//前後の矢印を消すための記述
+      mode: 'fade'
+      });
+    });
+    /*-- Slider GL14 & GL18 --*/
+    $(document).ready(function(){
+    //下スライド
+      $('.m-bx-pager').bxSlider({
+      controls: true,
+      pager:false,
+      slideWidth: 200,
+      minSlides: 3,//１スライドに表示するサムネイルの数
+      maxSlides: 3,//１スライドに表示するサムネイルの最大数
+      slideMargin: 10,
+      });
+    });
+
+    //サムネイルをスライドさせるための記述
+    $(document).ready(function(){
+      $('.m-thumbs-slider').bxSlider({
+      pager:false,
+      minSlides: 3,//１スライドに表示するサムネイルの数
+      maxSlides: 3,//１スライドに表示するサムネイルの最大数
+      slideWidth: 200,//サムネイルの横幅（単位はpx）
+      slideMargin: 15,//サムネイル間の余白（単位はpx）
+      nextSelector: '.m-icon-next',//"次へ”矢印をカスタマイズするための記述
+      prevSelector: '.m-icon-prev'//"前へ”矢印をカスタマイズするための記述
+          });
+    });
+
+
+    /*-- Accordion(side) --*/
+    $(document).ready(function() {
+      $(".p-search-sidebar-arrow-up").hide();
+      $(".l-sidebar .p-search-sidebar-checkbox .region-title-name").hide();
+
+      var $checkbox = $('.p-search-sidebar input:checkbox');
+      var checkbox_num = $checkbox.length;
+
+      $checkbox.each( function(){
+        if ($(this).prop("checked") == true) {
+          $(this).parent('li').show();
+        } else {
+          $(this).parent('li').hide();
+        }
+
+      });
+
+      var $pref_checkbox = $('.p-search-sidebar .region-box input:checkbox');
+      $pref_checkbox.each( function(){
+        if ($(this).prop("checked") == true) {
+          $(this).parents('.region-box').show();
+          $(this).parent('li').show();
+          $(this).parents().prev('.region-title-name').addClass('region-box-open');
+          $(this).parent('li').prevAll('.region-title').hide();
+        } else {
+          $(this).parent('li').hide();
+        }
+      });
+
+      var $sidebar_checkbox = [];
+      $sidebar_checkbox[0] = 0,
+      $sidebar_checkbox[1] = 0,
+      $sidebar_checkbox[2] = 0,
+      $sidebar_checkbox[3] = 0,
+      $sidebar_checkbox[4] = 0,
+      $sidebar_checkbox[5] = 0;
+
+      $(".p-search-sidebar-heading").click(function(){
+        var $heading_index = $(".p-search-sidebar-heading").index(this);
+
+        if ($sidebar_checkbox[$heading_index] == 0){
+          $(this).next(".p-search-sidebar-checkbox").find("li, .region-title-name").slideDown(200);
+          $(this).next(".p-search-sidebar-checkbox").find(".region-title").show();
+          $sidebar_checkbox[$heading_index] = 1;
+        }else {
+          $(this).next(".p-search-sidebar-checkbox").find("li, .region-title-name").slideUp(200);
+          $(this).next(".p-search-sidebar-checkbox").find(".region-title").hide();
+          $sidebar_checkbox[$heading_index] = 0;
+        }
+        $(this).find(".p-search-sidebar-arrow-down, .p-search-sidebar-arrow-up").toggle();
+      });
+    });
+
+    /*-- Accordion(point) --*/
+    $(document).ready(function() {
+    /*    $(".p-point-content").hide();*/
+        $(".p-point-arrow-down").hide();
+        $(".p-point-toggle").hide();
+        $(".p-point-heading").click(function(){
+                $(this).next(".p-point-toggle").slideToggle(500);
+                $(this).find(".p-point-arrow-down, .p-point-arrow-up").toggle();
+        });
+    });
+
+    /*-- Company entry textarea --*/
+    $(function(){
+        var $countMax = 500,
+            $textarea_index = [],
+            $count = $(".p-company-entry-textarea-num").find(".textarea-current-num");
+        $(".p-company-entry-textarea").bind("keydown keyup keypress change",function(){
+            $textarea_index = $(".p-company-entry-textarea").index(this);
+            var $thisValueLength = $(this).val().length;
+            var $countDown = ($countMax)-($thisValueLength);
+            $count.eq($textarea_index).html($countDown);
+        });
+        $(window).load(function(){
+            $count.html($countMax);
+        });
+    });
+
+    /*-- Pulldown of form select  --*/
+    $(document).ready(function(){
+      $(".p-search-selectbox").minimalect({ placeholder: "エリアを選択" });
+    });
+    /*-- Pulldown of form select (Top1) --*/
+    $(document).ready(function(){
+      $(".p-topsearch01-selectbox").minimalect({ placeholder: "職種で検索" });
+    });
+    /*-- Pulldown of form select (Top2) --*/
+    $(document).ready(function(){
+      $(".p-topsearch02-selectbox").minimalect({ placeholder: "勤務地で検索" });
+    });
+    /*-- Pulldown of form select (Top2) --*/
+    $(document).ready(function(){
+      $(".p-date-search-selectbox").minimalect({ placeholder: "エントリー日が近い順" });
+    });
+    $(document).ready(function(){
+      $(".p-date-search-bookmark-selectbox").minimalect({ placeholder: "ブックマーク日が近い順" });
+    });
+    $(document).ready(function(){
+      $(".p-attend-search-selectbox").minimalect({ placeholder: "選択してください" });
+    });
+
+    /*-- Scroll --*/
+    $(function(){
+       $('a[href^=#]').click(function() {
+          // スクロールの速度
+          var speed = 600; // ミリ秒
+          // アンカーの値取得
+          var href= $(this).attr("href");
+          // 移動先を取得
+          var target = $(href == "#" || href == "" ? 'html' : href);
+          // 移動先を数値で取得
+          var position = target.offset().top;
+          // スムーススクロール
+          $('body,html').animate({scrollTop:position}, speed, 'swing');
+          return false;
+       });
+    });
+
+    /*-- Pulldown of form select  --*/
+    $(document).ready(function(){
+      $(".p-search-selectbox").minimalect({ placeholder: "エリアを選択" });
+      $(".p-membership-info-box-withdraw").minimalect({ placeholder: "退会理由を選択" });
+      $(".p-membership-info-box-prefecture").minimalect({ placeholder: "都道府県" });
+      $(".p-membership-info-box-graduate-year").minimalect({ placeholder: "年度" });
+      $(".p-membership-info-box-year").minimalect({ placeholder: "年" });
+      $(".p-membership-info-box-graduate-month").minimalect({ placeholder: "月" });
+      $(".p-membership-info-box-day").minimalect({ placeholder: "日" });
+      $(".p-membership-info-box-school-category").minimalect({ placeholder: "種別" });
+      $(".p-withdraw-reason-select-box").minimalect({ placeholder: "選択してください" });
+    });
+
+    $(function(){
+        if ($('.p-global-menu').css('display') == 'block') {
+            var triggerTop = $('.p-global-menu').offset().top + $('.p-global-menu').height();
+            var $objFloat = $('.p-global-menu').clone(true).addClass('standby').appendTo('body');
+
+            $(window).on('scroll', function() {
+                if ($(document).scrollTop() > triggerTop) {
+                    if (! $objFloat.is('.floating')) {
+                      $objFloat.addClass('floating');
+                    }
+                } else {
+                    if ($objFloat.is('.floating')) {
+                      $objFloat.removeClass('floating');
+                    }
+                }
+            })
+        }
+
+        var actions = $('.p-action-company-entry').length
+        if (actions > 0) {
+          var $objAction = $('.p-action-company-entry').eq(0).clone(true);
+          $objAction.addClass('standby floating').appendTo('body');
+
+          var triggerActionTop = $('.p-action-company-entry').eq(actions-1).offset().top;
+
+          $(window).on('scroll', function() {
+            if ($(document).scrollTop() > (triggerActionTop - $(window).height())) {
+                if ($objAction.is('.floating')) {
+                  $objAction.removeClass('floating');
+                }
+            } else {
+                if (! $objAction.is('.floating')) {
+                  $objAction.addClass('floating');
+                }
+            }
+          })
+        }
+    });
+    </script>
+
+    <!-- Facebook Pixel Code -->
+        <script>
+            !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '672520169533149');
+            fbq('track', "PageView");
+                    </script>
+        <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=672520169533149&ev=PageView&noscript=1"
+        /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <link rel="stylesheet" type="text/css" media="all" href="/js/jquery.minimalect.css" media="screen" />
+    <script type='text/javascript' src="/js/jquery.minimalect.js"></script>
+
+    <!-- Header Tag Start -->
+    
+  <!-- Yahoo Code for your Target List -->
+  <script type="text/javascript">
+  /* <![CDATA[ */
+  var yahoo_ss_retargeting_id = 1000114635;
+  var yahoo_sstag_custom_params = window.yahoo_sstag_params;
+  var yahoo_ss_retargeting = true;
+  /* ]]> */
+  </script>
+  <script type="text/javascript" src="https://s.yimg.jp/images/listing/tool/cv/conversion.js">
+  </script>
+  <noscript>
+  <div style="display:inline;">
+  <img height="1" width="1" style="border-style:none;" alt="" src="https://b97.yahoo.co.jp/pagead/conversion/1000114635/?guid=ON&script=0&disvt=false"/>
+  </div>
+  </noscript>
+  <!--// Yahoo Code for your Target List -->
+
+  <!-- Global site tag (gtag.js) - Google AdWords: 971384594 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-971384594"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-971384594');
+  </script>
+  <!--// End Global site tag (gtag.js) - Google AdWords: 971384594 -->
+
+      <!-- Header Tag End -->
+
+</head>
+
+<body id="gl103"><!-- ★ページの通し番号をIDとして入力★-->
+<div class="wrap">
+<!-- Header -->
+<header class="l-header">
+
+    <div class="l-menu-up">
+        <h1 class="l-logo">
+            <a href="/">
+              <img src="/img/cmn_logo.png" alt="ココロをツナグ キャリアサイト Passionnavi"/>            </a>
+        </h1>
+
+        <div class="l-menu-member">
+                      <i class="fa  fa-caret-right  u-pdb3"></i>
+            <a href="/docs/about" class="arrow">パッションナビとは</a>
+            <i class="fa  fa-caret-right  u-pdb3"></i>
+            <a href="/staticpages/lp01" class="arrow">企業担当者様へ</a>
+            <i class="fa  fa-caret-right  u-pdb3"></i>
+            <a href="/contact" class="arrow">掲載のお問い合わせ</a>
+          
+        </div>
+
+        <div class="l-menu-member2">
+            <form action="/search/company_list/" novalidate="novalidate" class="m-search-header" id="SearchIndexForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="04a2083ff4511ef1f0bb6f8a398bdbaa2973e762" id="Token1775471954"/></div>                <input name="data[Search][free_word]" class="u-pdl10" placeholder="フリーワード検索" type="text" id="SearchFreeWord"/>                <div class="submit"><input type="submit" value=""/></div>            <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="128a5ff544635a601dfa17a7ddb44511afeeba70%3A" id="TokenFields1319073296"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked193902902"/></div></form>    <span class="l-menu-member3">
+        <i class="fa  fa-sign-in  fa-lg"></i>
+        <a href="/login">ログイン</a>        <i class="fa  fa-lock  fa-lg"></i>
+        <a href="/register">会員登録</a>      </span>
+
+        </div>
+    </div>
+
+    <!-- Navigation -->
+        <ul class="p-global-menu">
+            <li class="p-menu-top"><a href="/">TOP</a></li>
+                    <li class="p-menu-company"><a href="/search/company" class="">企業検索</a></li>
+                          <li class="p-menu-session"><a href="/search/seminar" class="">説明会検索</a></li>
+                            <li class="p-menu-intern"><a href="/intern" class="">インターン</a></li>
+            <li class="p-menu-event"><a href="/event" class="">イベント</a></li>
+            <li class="p-menu-graduate"><a href="/job" class="">転職</a></li>
+            </ul>
+
+    <!-- /Navigation -->
+</header>
+<!-- /Header -->
+
+
+<!-- Content full(Bread Navi) -->
+<div class="l-wrapper-full  u-border-top-bottom  u-bgcolor-f8f8f8  p-breadcrumb">
+  <div class="l-wrapper">
+    <div class="m-bread-nav">
+      <a href="/">TOP</a><span class="m-bread-arrow"></span>お問い合わせ    </div>
+  </div><!--// Content 980 -->
+</div>
+<!--// Content full(Bread Navi) -->
+<noscript><div>
+  <span style="display: block;
+      padding: 20px 0;
+      background: #F7F3A9;
+      text-align: center;
+      border: solid #F2EA6C;
+      border-width: 1px 0;
+      font-size:18px;
+      color:red;">お使いの環境でjavascriptが無効になっています。一部機能が正常に動作しない、または利用できない場合がございます。</span>
+</div></noscript>
+
+
+<!-- Content 980 -->
+<div class="l-wrapper-full  u-pdt55  u-pdb100  u-bgcolor-f8f8f8">
+
+<!-- l-content-full -->
+<div class="l-wrapper  u-bgcolor-fff  u-pdt35  u-pdb30  u-pdr30  u-pdl30">
+
+<div class="u-width920">
+    <h2 class="u-border-bottom-ccc"><span>お問い合わせ</span></h2>
+    <p class="u-fontsize14  u-mgt15  u-mgb30">
+        採用に関するご相談は、弊社までお問い合せ下さい。
+    </p>
+</div>
+
+
+<form action="/contact" novalidate="novalidate" class="p-login-main  u-width920" id="ContactIndexForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="04a2083ff4511ef1f0bb6f8a398bdbaa2973e762" id="Token1246947"/></div><div class="p-search-box">
+    <div class="p-search-box-innner">
+        <div class="p-membership-info-box">
+            <table id="gl103" class="m-table">
+                <tr>
+                    <th>ご興味のあるサービス（複数選択可）&nbsp;&nbsp;<span class="u-color-dd2c00">※必須</span</th>
+                    <td>
+                        <div class="p-search-sidebar-checkbox">
+                             
+                                <input type="hidden" name="data[Contact][contact_type][1]" id="ContactType1_" value="0"/><input type="checkbox" name="data[Contact][contact_type][1]" id="ContactType1" value="1"/>                                <label for="ContactType1">新卒採用</label>
+                             
+                                <input type="hidden" name="data[Contact][contact_type][2]" id="ContactType2_" value="0"/><input type="checkbox" name="data[Contact][contact_type][2]" id="ContactType2" value="1"/>                                <label for="ContactType2">インターン採用</label>
+                             
+                                <input type="hidden" name="data[Contact][contact_type][3]" id="ContactType3_" value="0"/><input type="checkbox" name="data[Contact][contact_type][3]" id="ContactType3" value="1"/>                                <label for="ContactType3">中途採用</label>
+                             
+                                <input type="hidden" name="data[Contact][contact_type][4]" id="ContactType4_" value="0"/><input type="checkbox" name="data[Contact][contact_type][4]" id="ContactType4" value="1"/>                                <label for="ContactType4">その他採用全般</label>
+                             
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>お問い合せ内容&nbsp;&nbsp;<span class="u-color-dd2c00">※必須</span></th>
+                    <td>
+                        <textarea name="data[Contact][body]" class="p-input-text-2" placeholder="入力してください" cols="30" rows="6" id="ContactBody" required="required"></textarea>                    </td>
+                </tr>
+                <tr>
+                    <th>貴社名&nbsp;&nbsp;<span class="u-color-dd2c00">※必須</span</th>
+                    <td>
+                        <input name="data[Contact][company_name]" class="p-input-text-2" placeholder="入力してください" maxlength="255" type="text" id="ContactCompanyName" required="required"/>                    </td>
+                </tr>
+                <tr>
+                    <th>ご担当者様の氏名&nbsp;&nbsp;<span class="u-color-dd2c00">※必須</span</th>
+                    <td>
+                        <input name="data[Contact][name]" class="p-input-text-2" placeholder="入力してください" maxlength="255" type="text" id="ContactName" required="required"/>                    </td>
+                </tr>
+                <tr>
+                    <th>メールアドレス&nbsp;&nbsp;<span class="u-color-dd2c00">※必須</span</th>
+                    <td>
+                        <input name="data[Contact][email]" class="p-input-text-2" placeholder="入力してください" maxlength="255" type="email" id="ContactEmail" required="required"/>                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        ご連絡先電話番号&nbsp;&nbsp;<span class="u-color-dd2c00">※必須</span<br>
+                        <p class="u-mgt15">
+                          <span class="u-fontsize11  u-color-858585">例)0312345678、03-1234-5678</span><br><span class="u-fontsize11" style="color:#d93600">半角のみ</span>
+                        </p>
+                    </th>
+                    <td>
+                        <input name="data[Contact][tel]" class="p-input-text-2" style="width:480px" placeholder="入力してください" maxlength="15" type="tel" id="ContactTel" required="required"/>                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</div>
+
+<div class="u-pd20">
+    <h4 class="u-fontsize14  u-mgt15  u-mgb5">個人情報取り扱いに関する同意</h4>
+    <p class="p-constract-box">
+        このフォームで頂戴する個人情報の取り扱いについて<br>
+        <br>
+        1．事業者の氏名、または名称<br>
+        株式会社アイ・パッション<br>
+        <br>
+        2．個人情報保護管理者(もしくはその代理人)の氏名又は職名、所属及び連絡先<br>
+        管理者職名：櫻井　学<br>
+        所属部署：株式会社アイ・パッション　本社管理部<br>
+        連絡先：電話　03-5456-6411<br>
+        <br>
+        3．個人情報の利用目的<br>
+        ・お問い合わせ対応(本人への連絡を含む)のため<br>
+        <br>
+        4．個人情報の開示等の請求<br>
+        ご本人様は、当社に対してご自身の個人情報の開示等に関して、下記の当社問合わせ窓口に申し出ることができます。その際、当社はお客様ご本人を確認させていただいたうえで、合理的な期間内に対応いたします。<br>
+        【お問合わせ窓口】<br>
+        〒150-0041　東京都渋谷区神南1-6-6　OZAWAビル6F<br>
+        株式会社アイ･パッション　個人情報問合せ係<br>
+        TEL：03‐5456‐6411 （受付時間　9:00～18:00※）<br>
+        ※土・日曜日、祝日、年末年始、ゴールデンウィーク期間は翌営業日以降の対応とさせていただきます。 <br>
+        <br>
+        5．個人情報を提供されることの任意性について<br>
+        ご本人様が当社に個人情報を提供されるかどうかは任意によるものです。ただし、必要な項目をいただけない場合、適切な対応ができない場合があります。<br>
+    </p>
+
+    <div class="p-member-ship-info-box  u-mgt20  u-align-c">
+        <div class="p-search-sidebar-checkbox">
+            <input type="hidden" name="data[Contact][user_policy]" id="ContactUserPolicy_" value="0"/><input type="checkbox" name="data[Contact][user_policy]" value="1" id="ContactUserPolicy"/><label for="ContactUserPolicy">個人情報の取り扱いについて同意する</label>        </div>
+    </div>
+
+    <div id="p-event-confirm-submit" class="u-height65  u-mgt30">
+        <div class="m-main-submit-outer  u-mgr260  u-flr">
+            <input class="m-main-submit  u-bgcolor-da3700  u-width350" type="submit" value="送信する"/>        </div>
+        <div class="u-clear"></div>　
+    </div>
+</div>
+<div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="46e66dd8028aa5bdceacf00a26056c0b79c95551%3A" id="TokenFields1565693288"/><input type="hidden" name="data[_Token][unlocked]" value="" id="TokenUnlocked219697083"/></div></form>
+
+</div>
+<!--// l-content-full -->
+
+</div>
+<!--// Content 980 -->
+
+
+<!-- Content full(Bread Navi) -->
+<div class="l-wrapper-full  u-border-top-bottom  u-bgcolor-f8f8f8  p-breadcrumb">
+  <div class="l-wrapper">
+    <div class="m-bread-nav">
+      <a href="/">TOP</a><span class="m-bread-arrow"></span>お問い合わせ    </div>
+  </div><!--// Content 980 -->
+</div>
+<!--// Content full(Bread Navi) -->
+
+<div class="p-page-top"><a href="#">PAGE TOP</a></div>
+
+<!-- Footer -->
+<footer class="l-footer">
+
+    <div class="l-footer-inner">
+
+        <div class="l-footer-links  l-footer-link01">
+            <p>就職サービス</p>
+            <ul>
+                <li><a href="/">TOPページ</a></li>
+                                  <li><a href="/search/company">企業検索</a></li>
+                  <li><a href="/search/seminar">説明会検索</a></li>
+                  <li><a href="/intern">インターン</a></li>
+                  <li><a href="/job">転職</a></li>
+                  <li><a href="/event">イベント</a></li>
+                            </ul>
+        </div>
+
+        <div class="l-footer-links  l-footer-link02">
+            <p>&nbsp;</p>
+            <ul>
+                <li><a href="/lp/scout">スカウト</a></li>
+                <li><a href="/lp/agency">キャリアエージェント</a></li>
+                <li><a href="/search/message">情熱メッセージ一覧</a></li>
+                <li><a href="/search/comic">企業マンガ一覧</a></li>
+                <li><a href="/staticpages/venture_column/column">ベンチャーコラム</a></li>
+                <li><a href="/intern/intern_column">インターンコラム</a></li>
+                <li><a href="/job/job_column">転職コラム</a></li>
+                <li><a href="/staticpages/bushou/index">武将診断</a></li>
+            </ul>
+        </div>
+
+
+        <div class="l-footer-links  l-footer-link03">
+            <p>パッションナビについて</p>
+            <ul>
+                <li><a href="/staticpages/profile">会社概要</a></li>
+                <li><a href="/staticpages/privacy/privacy">プライバシーポリシー</a></li>
+                <li><a href="/login">ログイン</a></li>
+                <li><a href="/register">新規会員登録</a></li>
+
+                <!-- <li><a href="/login">サイトマップ</a></li> -->
+                <!-- <li><a href="/login">ご利用方法と特徴</a></li> -->
+            </ul>
+        </div>
+
+
+        <div class="l-footer-links  l-footer-link04">
+            <p>企業・採用担当者様</p>
+            <ul>
+                <li><a href="/staticpages/lp01">企業担当者様へ</a></li>
+                <li><a href="/success_stories">掲載企業様の声</a></li>
+                <!-- <li><a href="/event">イベント</a></li> -->
+                <li><a href="/contact">掲載のお問い合わせ </a></li>
+            </ul>
+            <p class="u-mgt13">採用・人事支援</p>
+            <ul>
+                <li><a href="/staticpages/saiyo-tool/saiyotool">採用ツール</a></li>
+                <li><a href="https://www.ipassion.co.jp/lp/kensyu" target="_blank">社員研修</a></li>
+                <li><a href="https://ipassion.co.jp/outsource/" target="_blank">採用アウトソーシング</a></li>
+                <!-- <li><a href="/login">資料請求</a></li> -->
+                <!-- <li><a href="/login">採用セミナー</a></li> -->
+            </ul>
+        </div>
+
+        <div class="l-footer-links  l-footer-link05">
+            <p>関連サイト</p>
+            <ul>
+                <li><a href="http://jonetu-ceo.com/" target="_blank">情熱社長</a></li>
+                <li><a href="https://ventry.jp/indexes" target="_blank">ventry</a></li>
+                <li><a href="http://ipassion.co.jp/" target="_blank">株式会社アイ・パッション</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- /footer-inner -->
+
+    <hr class="m-hr">
+
+    <!-- SNS -->
+    <div class="l-footer-inner">
+        <div class="l-footer-sns">
+            <div class="l-facebook">
+              <div class="fb-page" data-href="https://www.facebook.com/passionnavi/?fref=ts" data-width="600" data-small-header="true" data-adapt-container-width="false" data-hide-cover="true" data-show-facepile="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/passionnavi/?fref=ts"><a href="https://www.facebook.com/passionnavi/?fref=ts">ベンチャー企業特化型就職サイト「パッション業界就職ナビ」</a></blockquote></div></div>
+            </div>
+            <ul>
+                <li><a href="https://www.facebook.com/passionnavi" target="_blank"><img src="/img/cmn_icon_sns_facebook.jpg" alt="Facebook"></a></li>
+                <li><a href="https://twitter.com/passionshukatsu" target="_blank"><img src="/img/cmn_icon_sns_twitter.jpg" alt="Twitter"></a></li>
+                <li><a href="http://line.me/ti/p/%40ebn9737f" target="_blank"><img src="/img/cmn_icon_sns_line.jpg" alt="LINE"></a></li>
+                <li><a href="https://www.instagram.com/passionnavi/" target="_blank"><img src="/img/cmn_icon_sns_insta.jpg" alt="LINE"></a></li>
+            </ul>
+            <div class="u-clear"></div>
+        </div>
+    </div>
+    <!-- /footer-inner -->
+
+    <div class="l-copy">
+        Copyright&#169; iPASSION Inc. All Rights Reserved.
+    </div>
+
+</footer>
+<!-- /Footer -->
+
+
+<div id="fb-root"></div>
+<script>
+(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5&appId=1060446040689356";
+        fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+$(function(){
+  $('#flashMessage').append('<input type="image" class="m-close-btn" src="/admin-company/img/close_btn.png" alt="close">');
+  $('#flashMessage .m-close-btn').on('click', function(event) {
+    $('#flashMessage').hide();
+  });
+
+  setTimeout(function(){
+
+    $('#flashMessage').addClass('floating');
+
+    setTimeout(function(){
+      $('#flashMessage').fadeOut(1500);
+    }, 5000);
+
+  }, 500);
+});
+</script>
+
+<!-- Body Tag Start -->
+
+
+
+
+
+  <script type="text/javascript" language="javascript">
+  /* <![CDATA[ */
+  var yahoo_retargeting_id = 'OXAUENTLHU';
+  var yahoo_retargeting_label = '';
+  /* ]]> */
+  </script>
+  <script type="text/javascript" language="javascript" src="//b92.yahoo.co.jp/js/s_retargeting.js"></script>
+
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NSBGB8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NSBGB8');</script>
+  <!-- End Google Tag Manager -->
+
+<!-- salesforce Tag start -->
+<script type="text/javascript">
+piAId = '437912';
+piCId = '170511';
+piHostname = 'pi.pardot.com';
+
+(function() {
+  function async_load(){
+    var s = document.createElement('script'); s.type = 'text/javascript';
+    s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+    var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+  }
+  if(window.attachEvent) { window.attachEvent('onload', async_load); }
+  else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+<!-- salesforce Tag End -->
+
+<!-- list-finder -->
+  <script type="text/javascript">
+  var _trackingid = 'LFT-10169-1';
+  (function() {
+    var lft = document.createElement('script'); lft.type = 'text/javascript'; lft.async = true;
+    lft.src = document.location.protocol + '//track.list-finder.jp/js/ja/track.js';
+    var snode = document.getElementsByTagName('script')[0]; snode.parentNode.insertBefore(lft, snode);
+  })();
+  </script>
+<!--// list-finder -->
+
+<!-- Body Tag End -->
+
+</div>
+</body>
+</html>

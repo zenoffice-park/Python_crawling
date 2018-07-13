@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+<title>お問い合わせ-エムタメ！</title>
+<meta name="keywords" content="お問い合わせ,デジタルマーケティング,コンテンツマーケティング,リードナーチャリング,ABM,マーケティングオートメーション,BtoB" />
+<meta name="description" content="お問い合わせ －エムタメ！はマーケティング担当者の“ため”に 、デジタルマーケティングに関わる“タメ”になる情報を“溜め”ていくサイトです。" />
+
+<meta property="og:site_name" content="エムタメ">
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:title" content="お問い合わせ｜デジタルマーケティングに関わる“タメ”になる情報を“溜め”ていくサイト" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="エムタメ！はマーケティング担当者の“ため”に 、デジタルマーケティングに関わる“タメ”になる情報を“溜め”ていくサイトです。" />
+<meta property="og:url" content="https://mtame.jp/" />
+<meta property="og:image" content="https://mtame.jp/dcms_media/image/facebook_ogp.jpg">
+
+<link rel="stylesheet" href="/dcms_media/css/base.css?date=201806151735" />
+<link rel="stylesheet" href="/dcms_media/css/layout.css?date=201806151735" />
+<link rel="stylesheet" href="/dcms_media/css/common.css?date=201806151735" />
+<link rel="stylesheet" href="/dcms_media/css/sub.css?date=201806151735" />
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css?date=201806151735">
+<link rel="stylesheet" href="/dcms_media/css/drawer.css?date=201806151735">
+<link rel="stylesheet" href="/dcms_media/css/jquery.flexslider.css?date=201806151735" />
+<link rel="stylesheet" href="/dcms_media/css/sns-style.css?date=201806151735" />
+
+<script src="/dcms_media/js/jquery-1.11.1.min.js?date=201806151735"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js?date=201806151735" defer></script>
+<script src="/dcms_media/js/drawer.min.js?date=201806151735" defer></script>
+<script src="/dcms_media/js/scrolltopcontrol.js?date=201806151735" defer></script>
+<script src="/dcms_media/js/jquery.biggerlink.min.js?date=201806151735" defer></script>
+<script src="/dcms_media/js/jquery.matchHeight-min.js?date=201806151735" defer></script>
+<script src="/dcms_media/js/jquery.flexslider-min.js?date=201806151735" ></script>
+<script src="/dcms_media/js/imgLiquid-min.js?date=201806151735" defer></script>
+<script src="/dcms_media/js/media_archive.js?date=201806151735" defer></script>
+<script src="/dcms_media/js/smoothScroll.js?date=201806151735" defer></script>
+
+<script>
+var lh = "";
+    lh = location.href;
+    if (lh.match(/dcmsadm/)){
+    } else {
+
+$(document).ready(function(){
+  //main wrap
+  $(".archive_area article:lt(2)").wrapAll("<div class='a_submain flexslider'><ul class='slides'></ul></div>");
+  $(".a_submain ul.slides article").wrap("<li></li>");
+  $(".archive_area article:gt(1)").wrapAll("<div class='a_list'></div>");
+  //sp search
+  $(".search_btn").on("click", function() {
+    $(this).next().slideToggle();
+    $(this).toggleClass("active");
+  });
+  //biggerlink
+  $('.seminar_list_in').biggerlink();
+  //matchHeight
+  $(".matchH").matchHeight();
+  $(".title04_02").matchHeight();
+  $(".dl_txt").matchHeight();
+  //sp side navi
+  if(window.matchMedia('(max-width:690px)').matches){
+    $('.drawer').drawer();
+  }
+  //imgLiquid
+  $(".s_img").imgLiquid();
+  //sp main
+  if(window.matchMedia('(max-width:979px)').matches){
+      $('.flexslider').flexslider({
+          animation: "fade",
+          slideDirection: "horizontal", 
+          slideshow: true,  //自動再生
+          slideshowSpeed: 5000,
+          animationDuration: 1000, 
+          directionNav: true,
+          controlNav: true
+      });
+  }
+  //page class
+  var $dir = location.href.split("/");
+  var $dir2 = $dir[$dir.length -1];
+  $('body').addClass($dir2);
+  //txt height
+  if(window.matchMedia('(min-width:691px)').matches){
+    var h = $('.a_list .a_txt').height();
+    $('.a_list .a_txt').css("margin-bottom", h + "px");
+  }
+  //page class
+    // if(location.pathname != "/") {
+    //     $('.globalnav li a[href^="/' + location.pathname.split("/")[2] + '"]').addClass('active');
+    // } else $('.globalnav li a:eq(1)').addClass('active');
+
+});
+}
+</script>
+
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '340655523015035'); // Insert your pixel ID here.
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=340655523015035&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+
+<!-- docomo ec-concier -->
+<script>
+(function(w,d,url,a,s,e){
+    w[a]= (w[a]||[]);
+    s = d.getElementsByTagName("script")[0];e = d.createElement("script");e.src=url;e.async=1;s.parentNode.insertBefore(e,s);
+})(window,document,'//ec-concier.com/6a4d41ad1c951da8/analytics.js','ara');
+ara.push(['init', '6a4d41ad1c951da8']);
+</script>
+
+<!-- UZOU -->
+<script>
+  (function (window, document) {
+    var script = document.createElement("script");
+    script.async = true;
+    script.src = "//uz-analysis.akamaized.net/analysis/uz.js?ord="+(Math.floor(Math.random()*10e12));
+    window.uzAnalysis = {"aid": 345};
+    var firstScriptElement = document.getElementsByTagName("script")[0];
+    firstScriptElement.parentNode.insertBefore(script, firstScriptElement);
+  })(window, document);
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T4QNHPR');</script>
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T4QNHPR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- BowNow -->
+<script>
+var _bownow_trace_id_ = "UTC_56c2eaefaab80";
+var hm = document.createElement("script");
+hm.src = "https://contents.bownow.jp/js/trace.js";
+document.getElementsByTagName("head")[0].appendChild(hm);
+</script>
+<!-- BowNow End -->
+
+</head>
+
+<body class="contact drawer drawer--right">
+
+<header>
+<div class="hlead_nav inner"><a class="hlead_ab" href="/about.html">エムタメ！について</a> <a class="hlead_sns" href="https://www.facebook.com/%E3%82%A8%E3%83%A0%E3%82%BF%E3%83%A1-962375027229923/" target="_blank"><img src="/dcms_media/image/common/icon_facebook.gif" alt="facebook" /></a> <a class="hlead_sns" href="https://twitter.com/m_tame_lab" target="_blank"><img src="/dcms_media/image/common/icon_twitter.gif" alt="twitter" /></a></div>
+<div class="inner clearfix">
+<div class="header_l slead">
+<div class="logo"><a href="/index.html"><img src="/dcms_media/image/common/logo.jpg" alt="エムタメ" /></a></div>
+<p class="sl_txt">マーケティング担当者のために<br /> マーケティングに関わるためになる情報をためていく</p>
+</div>
+<div class="header_ban"><a href="https://movieprint.jp/?mtame" target="_blank"><img src="/dcms_media/image/header_banner.jpg" alt="MoviePrint" /></a></div>
+</div>
+</header> <!--category search pc-->
+<div class="header_nav">
+<div class="inner clearfix"><nav class="globalnav h_nav">
+<ul class="inner">
+<li id="globalnav01"><a class="maf" href="/marketing_foundation">マーケティング入門</a></li>
+<li id="globalnav02"><a class="des" href="/design">デザイン</a></li>
+<li id="globalnav03"><a class="mar" href="/martec">マーテック</a></li>
+<li id="globalnav04"><a class="cma" href="/content_marketing">コンテンツマーケティング</a></li>
+<li id="globalnav05"><a class="adv" href="/advertisement">広告</a></li>
+<li id="globalnav06"><a class="soc" href="/social">ソーシャル</a></li>
+<li id="globalnav07"><a class="clm" href="/column">コラム</a></li>
+<li id="globalnav08"><a class="smn" href="/seminar">セミナー</a></li>
+<li id="globalnav09"><a class="fre" href="/white_paper">無料資料DL</a></li>
+</ul>
+</nav>
+<div class="h_search_pc"><form action="/search"><input class="submit_btn" type="submit" value="" /> <input class="search_txt" name="schKeyword" type="text" placeholder="" /></form></div>
+</div>
+</div> <!--search sp-->
+<div class="h_search_sp">
+<div class="search_btn"><span class="fa fa-search"><!--a--></span></div>
+<div class="search_con clearfix"><form action="/search"><input class="search_txt" name="schKeyword" type="text" placeholder="検索" /><input class="submit_btn" type="submit" value="" /></form></div>
+</div>
+<!--sp navi-->
+<div id="spnavi"><button class="drawer-toggle drawer-hamburger" type="button"> 
+<span class="drawer-hamburger-icon"><!--a--></span>
+<span class="drawer-hamburger-icon02">MENU</span>
+</button>
+<div class="drawer-nav">
+<div id="drawer_in">
+<div class="sidenav_title">カテゴリ</div>
+<nav>
+<ul class="sidenavcate">
+<li><a class="maf" href="/marketing_foundation">マーケティング入門</a></li>
+<li><a class="des" href="/design">デザイン</a></li>
+<li><a class="mar" href="/martec">マーテック</a></li>
+<li><a class="cma" href="/content_marketing">コンテンツマーケ</a></li>
+<li><a class="adv" href="/advertisement">広告</a></li>
+<li><a class="soc" href="/social">ソーシャル</a></li>
+<li><a class="clm" href="/column">コラム</a></li>
+<li><a class="smn" href="/seminar">セミナー</a></li>
+<li><a class="fre" href="/white_paper">無料資料DL</a></li>
+</ul>
+</nav>
+<div class="sidenav_title">タグ</div>
+<nav class="sn_normal">
+<div id="taglist_sp"><!--tag--></div>
+<!--<a href="/archives/tag/recommend">すべてのタグ</a></nav>-->
+<div class="sidenav_title">アーカイブ</div>
+<nav class="sn_normal">
+<div id="archivelist_sp"><!--month6--></div>
+<!--<a href="/archives/2017/02">すべての過去記事</a>--></nav><nav class="sideunav">
+<ul>
+<li><a href="/about.html">エムタメについて</a></li>
+<li><a href="https://mtame.co.jp/" target="_blank">運営会社</a></li>
+<li><a href="https://mtame.co.jp/privacy/" target="_blank">プライバシーポリシー</a></li>
+<li><a href="/contact.html">お問い合わせ</a></li>
+<li><a href="/sitemap.html">サイトマップ</a></li>
+</ul>
+</nav>
+<div class="sidenav_sns"><a class="fb" href="https://www.facebook.com/%E3%82%A8%E3%83%A0%E3%82%BF%E3%83%A1-962375027229923/">Facebook</a> <a class="twt" href="https://twitter.com/m_tame_lab">Twitter</a></div>
+</div>
+</div>
+</div>
+
+
+
+<div id="contents" class="clearfix">
+<div class="loca">
+<div class="inner" itemscope itemtype="http://schema.org/BreadcrumbList">
+<span itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="https://mtame.jp/" itemprop="item"><span itemprop="name">エムタメ！</span></a></span>&nbsp;&gt;&nbsp;お問い合わせ
+</div>
+</div>
+
+<div id="contents_left">
+<!-- ブロック貼り付けエリア -->
+<div id="dcms_layoutPageBlockPasteArea">
+<!-- ブロック -->
+<div id="dcms_layoutPageBlock">
+<h1 class="title_sub02">お問い合わせ</h1>
+<script id="_bownow_cs_sid_58b67396cf945">
+var _bownow_cs_sid_58b67396cf945 = document.createElement('script');
+_bownow_cs_sid_58b67396cf945.charset = 'utf-8';
+_bownow_cs_sid_58b67396cf945.src = 'https://contents.bownow.jp/forms/sid_58b67396cf945/trace.js';
+document.getElementsByTagName('head')[0].appendChild(_bownow_cs_sid_58b67396cf945);
+</script>
+<p style="background-color: #f5f5f5; padding: 10px;">このメールフォームは個人情報保護のためSSL暗号化通信により保護しており、情報の改ざん・漏えいなどの危険から守られ、安全に通信することが出来ます。</p>
+
+</div>
+<!-- // ブロック -->
+</div>
+<!-- // ブロック貼り付けエリア -->
+</div><!--contents_left_end-->
+
+<div id="contents_right">
+
+
+<div class="mediacall"></div>
+</div><!--contents_righ_end-->
+
+</div><!--contents_end-->
+
+
+
+<footer><!--category--><nav class="globalnav f_nav">
+<ul class="inner">
+<li><a class="maf" href="/article/category/marketing_foundation">マーケティング入門</a></li>
+<li><a class="des" href="/article/category/design">デザイン</a></li>
+<li><a class="mar" href="/article/category/martec">マーテック</a></li>
+<li><a class="cma" href="/article/category/content_marketing">コンテンツマーケ<span class="sp_non">ティング</span></a></li>
+<li><a class="adv" href="/article/category/advertisement">広告</a></li>
+<li><a class="soc" href="/article/category/social">ソーシャル</a></li>
+<li><a class="clm" href="/article/category/column">コラム</a></li>
+<li><a class="smn" href="/seminar">セミナー</a></li>
+<li><a class="fre" href="/white_paper">無料資料DL</a></li>
+</ul>
+</nav>
+<div class="f_bottom">
+<div class="inner">
+<div class="footer_l slead">
+<div class="logo"><a href="/index.html"><img src="/dcms_media/image/common/footer_logo.png" alt="エムタメ" /></a></div>
+<p class="sl_txt">マーケティング担当者のために<br />マーケティングに関わるためになる情報をためていく</p>
+</div>
+<ul class="funav">
+<li><a href="/about.html">エムタメについて</a></li>
+<li><a href="https://mtame.co.jp/company/company_info" target="_blank">運営会社</a></li>
+<li><a href="https://mtame.co.jp/privacy" target="_blank">プライバシーポリシー</a></li>
+<li><a href="/contact">お問い合わせ</a></li>
+<li><a href="/sitemap.html">サイトマップ</a></li>
+</ul>
+</div>
+</div>
+<div id="copyright"><small>Copyright &copy; startialab inc. All rights reserved.</small></div>
+</footer><script>
+(function(w,d,url,a,s,e){
+    w[a]= (w[a]||[]);
+    s = d.getElementsByTagName("script")[0];e = d.createElement("script");e.src=url;e.async=1;s.parentNode.insertBefore(e,s);
+})(window,document,'//ec-concier.com/6a4d41ad1c951da8/analytics.js','ara');
+ara.push(['init', '6a4d41ad1c951da8']);
+</script>
+
+ <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.8&appId=122521337887576";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</body>
+</html>

@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="lt-ie9 lt-ie8 lt-ie7"  lang="ja" dir="ltr"> <![endif]-->
+<!--[if IE 7]>         <html class="lt-ie9 lt-ie8"  lang="ja" dir="ltr"> <![endif]-->
+<!--[if IE 8]>         <html class="lt-ie9"  lang="ja" dir="ltr"> <![endif]-->
+<!--[if gt IE 8]><!--> <html  lang="ja" dir="ltr"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+<link href="https://www.precor.com/pt-pt/commercial" rel="alternate" hreflang="pt-pt" />
+<link href="https://www.precor.com/pt-br/commercial" rel="alternate" hreflang="pt-br" />
+<link href="https://www.precor.com/ja/commercial" rel="alternate" hreflang="ja" />
+<link href="https://www.precor.com/he/commercial" rel="alternate" hreflang="he" />
+<link href="https://www.precor.com/it/commercial" rel="alternate" hreflang="it" />
+<link href="https://www.precor.com/ru/commercial" rel="alternate" hreflang="ru" />
+<link href="https://www.precor.com/es-xl/commercial" rel="alternate" hreflang="es-419" />
+<link href="https://www.precor.cn/zh-hans/commercial" rel="alternate" hreflang="zh-cn" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<link rel="shortcut icon" href="https://www.precor.com/sites/default/files/favicon_0.ico" />
+<link href="https://www.precor.com/es-es/commercial" rel="alternate" hreflang="es-es" />
+<link href="https://www.precor.com/de/commercial" rel="alternate" hreflang="de" />
+<link href="https://www.precor.com/en/commercial" rel="alternate" hreflang="en" />
+<link href="https://www.precor.com/en-us/commercial" rel="alternate" hreflang="en-us" />
+<link href="https://www.precor.com/fr-ca/commercial" rel="alternate" hreflang="fr-ca" />
+<link href="https://www.precor.com/en-au/commercial" rel="alternate" hreflang="en-au" />
+<link href="https://www.precor.com/zh-hans/commercial" rel="alternate" hreflang="zh-hans" />
+<link href="https://www.precor.com/nl/commercial" rel="alternate" hreflang="nl" />
+<link href="https://www.precor.com/en-ca/commercial" rel="alternate" hreflang="en-ca" />
+<link href="https://www.precor.com/fr/commercial" rel="alternate" hreflang="fr" />
+<link href="https://www.precor.com/fi/commercial" rel="alternate" hreflang="fi" />
+<link href="https://www.precor.com/en-gb/commercial" rel="alternate" hreflang="en-gb" />
+<meta name="description" content="Precor は、世界最大の業務用ジム機器サプライヤーです。当社のプロフェッショナルカーディオ機器およびストレングスマシンは、全世界90カ国、数千におよぶ施設で採用されています。" />
+<link rel="canonical" href="https://www.precor.com/ja/commercial" />
+<link rel="shortlink" href="https://www.precor.com/ja/node/3326" />
+    <title>商用ジム機器 - Precor</title>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-L75X');</script>
+        <link rel="stylesheet" href="https://www.precor.com/sites/default/files/css/css_-TNq6F6EH1K3WcBMUMQP90OkyCq0Lyv1YnyoEj3kxiU.css" media="screen" />
+<style media="print">#sb-container{position:relative;}#sb-overlay{display:none;}#sb-wrapper{position:relative;top:0;left:0;}#sb-loading{display:none;}
+</style>
+<link rel="stylesheet" href="https://www.precor.com/sites/default/files/css/css_jN5zJcQi6GIDBKEmk_rHh6Qd4Om4TCt6gD9DQ_e03SQ.css" />
+<link rel="stylesheet" href="https://www.precor.com/sites/default/files/css/css_C4-74UZsOao38Vpufv4qdeKJWtLoZTwZkkcZXkYdRKM.css" />
+<link rel="stylesheet" href="https://www.precor.com/sites/all/modules/popup/popup.css?pbgiio" />
+<link rel="stylesheet" href="//cloud.typography.com/7031892/650324/css/fonts.css" />
+<link rel="stylesheet" href="https://www.precor.com/sites/default/files/css/css_8LZJ9HJtu_vjnDwO2Dy5xhkf_nYs2vfoV-UtiJmU4Eg.css" />
+<link rel="stylesheet" href="https://www.precor.com/sites/default/files/css/css_61ZVWSWnO0ZXxAjgqIEb2CBVW021qd8fbqyZf_i7Ico.css" media="print" />
+<link rel="stylesheet" href="https://www.precor.com/sites/default/files/css/css_lgstxq1EFO9FEfQJvjhd1lT7wgme3f6mulNNBPXU4NM.css" />
+    <script src="https://www.precor.com/sites/default/files/js/js_v7z_ueNi9EIrZXPI8So7AkuzyXuKekr2jbdDptsM5Oc.js"></script>
+<script src="https://www.precor.com/sites/default/files/js/js_fLJY85gOyhCaMmTzVSMa2U4ph65rhFhlxRSS1D27pfc.js"></script>
+<script src="https://www.precor.com/sites/default/files/js/js_hq1BAJMMU9r11R8u2Y-_c2CkCYt3vIiGdPR41Omnbrc.js"></script>
+<script src="https://www.precor.com/sites/default/files/js/js_5VLyvrjInjGHLtYk7h9-0qppmMYLD8mrQUrmmlh39ZE.js"></script>
+<script src="https://www.precor.com/sites/all/modules/popup/popup.js?pbgiio"></script>
+<script src="https://www.precor.com/sites/default/files/js/js_ULP9QdJd_uBOhUReXWV1M-J5D7tovdLLWuxJe8qzejM.js"></script>
+<script src="https://www.precor.com/sites/default/files/js/js_XkhicvH8WpatOEIvxdGCW0OSxCGNcs9_pMIKQ6nXxyk.js"></script>
+<script>
+          Shadowbox.path = "/sites/all/libraries/shadowbox/";
+        </script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"ja\/","ajaxPageState":{"theme":"precor_main","theme_token":"SoNv1kG7hUiw7Y6v1TDeqfnm4lzChZx4zLZgOmR0ksQ","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/libraries\/shadowbox\/shadowbox.js":1,"sites\/all\/modules\/shadowbox\/shadowbox_auto.js":1,"sites\/all\/modules\/precor_components\/js\/marketing_opt_in.js":1,"sites\/all\/modules\/simpleads\/simpleads.js":1,"sites\/all\/modules\/simpleads\/modules\/simpleads_campaigns\/simpleads_campaigns.js":1,"public:\/\/languages\/ja_fQVAJK43Fn4tlyFB5XGTovZxVSvTvkTcfIudtIZq1bs.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/libraries\/modernizr\/modernizr-min.js":1,"sites\/all\/modules\/popup\/popup.js":1,"sites\/all\/themes\/precor_main\/js\/cookie_notification.js":1,"sites\/all\/themes\/precor_main\/js\/jquery.waitforimages.min.js":1,"sites\/all\/themes\/precor_main\/js\/precor_share.js":1,"sites\/all\/themes\/precor_main\/js\/shadowbox_auto.js":1,"sites\/all\/themes\/precor_main\/js\/accordion.js":1,"sites\/all\/themes\/precor_main\/js\/simpleads.popup-promo.js":1,"sites\/all\/themes\/precor_main\/js\/jquery.vide.js":1,"sites\/all\/themes\/precor_main\/js\/precor_analytics.js":1,"0":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/libraries\/shadowbox\/shadowbox.css":1,"0":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"sites\/all\/modules\/simpleads\/simpleads.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/libraries\/colorbox\/example3\/colorbox.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/popup\/popup.css":1,"\/\/cloud.typography.com\/7031892\/650324\/css\/fonts.css":1,"sites\/all\/themes\/precor_main\/css\/precor.css":1,"sites\/all\/themes\/precor_main\/system.base.css":1,"sites\/all\/themes\/precor_main\/system.base-rtl.css":1,"sites\/all\/themes\/precor_main\/system.menus.css":1,"sites\/all\/themes\/precor_main\/system.menus-rtl.css":1,"sites\/all\/themes\/precor_main\/system.messages.css":1,"sites\/all\/themes\/precor_main\/system.messages-rtl.css":1,"sites\/all\/themes\/precor_main\/system.theme.css":1,"sites\/all\/themes\/precor_main\/system.theme-rtl.css":1,"sites\/all\/themes\/precor_main\/ckeditor.css":1,"sites\/all\/themes\/precor_main\/ckeditor-rtl.css":1,"sites\/all\/themes\/precor_main\/css\/print.css":1,"sites\/all\/themes\/precor_main\/css\/precor-product.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"\u7d42\u4e86","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"modernizrPath":false,"modernizrServerside":false,"popup":{"effects":{"show":{"default":"this.body.show();","fade":"\n        if (this.opacity){\n          this.body.fadeTo(\u0027medium\u0027,this.opacity);\n        }else{\n          this.body.fadeIn(\u0027medium\u0027);\n        }","slide-down":"this.body.slideDown(\u0027medium\u0027)","slide-down-fade":"\n        this.body.animate(\n          {\n            height:\u0027show\u0027,\n            opacity:(this.opacity ? this.opacity : \u0027show\u0027)\n          }, \u0027medium\u0027\n        );"},"hide":{"default":"this.body.hide();","fade":"this.body.fadeOut(\u0027medium\u0027);","slide-down":"this.body.slideUp(\u0027medium\u0027);","slide-down-fade":"\n        this.body.animate(\n          {\n            height:\u0027hide\u0027,\n            opacity:\u0027hide\u0027\n          }, \u0027medium\u0027\n        );"}},"linger":250,"delay":0},"shadowbox":{"animate":true,"animateFade":true,"animSequence":"wh","auto_enable_all_images":0,"auto_gallery":0,"autoplayMovies":true,"continuous":false,"counterLimit":10,"counterType":"default","displayCounter":true,"displayNav":true,"enableKeys":true,"fadeDuration":0.35,"handleOversize":"resize","handleUnsupported":"link","initialHeight":160,"initialWidth":320,"language":"ja","modal":false,"overlayColor":"#000","overlayOpacity":0.8,"resizeDuration":0.55,"showMovieControls":true,"slideshowDelay":0,"viewportPadding":20,"useSizzle":false},"simpleads":{"url":{"ckeditor":"\/ja\/simpleads\/dashboard\/ckeditor"},"modulepath":"sites\/all\/modules\/simpleads"},"currentPath":"node\/3326","currentPathIsAdmin":false,"urlIsAjaxTrusted":{"\/ja\/search":true}});</script>
+    <meta http-equiv="cleartype" content="on">
+          <script src="//cdn.bizible.com/scripts/bizible.js" async></script>
+  </head>
+  <body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-3326 node-type-vertical i18n-ja precor-section-commercial" >
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-L75X"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- page wrap -->
+<div id="page">
+      <div id="header" role="banner">
+    <div class="content-inner">
+      <a href="/ja" title="ホーム" rel="home" class="logo">
+        <!--[if lt IE 9]><img alt="Precor Gym Equipment" src="/sites/all/themes/precor_main/images/precor-logo.png" width="478" height="75" /><![endif]-->
+        <!--[if gte IE 9] --><svg version="1.1" xmlns="http://www.w3.org/2000/svg" height="75" width="478" viewBox="0 0 478 74"><g class="metadata"><title>Precor®</title></g><g transform="matrix(1.25,0,0,-1.25,0,74.675)"><path fill="#8CD7F5" d="M9.8 50.7 0 0.1 C4.5 0.8 8.6 4.5 9.5 9 L17.5 50.7 c0.8 4.4 4.7 8 9.1 8.8 0.6 0.1 0.1 0.2 0 0.2 -0.1 0 -5.9 0 -5.9 0 -5.1 0 -10 -4 -10.9 -9 " class="pclogo-r1"/><path fill="#00AACD" d="m35 50.7 c0.8 4.4 4.8 8 9.1 8.8 0.6 0.1 0.2 0.2 -0 0.2 -0.2 0 -9.8 0 -9.8 0 -5.1 0 -10 -4 -10.9 -9 L13.6 0 16 0 c5.1 0 10 4 10.9 9 l8.1 41.7 " class="pclogo-r2"/><path fill="#006496" d="m56.3 50.7 c0.8 4.3 4.7 8 9 8.8 0.6 0.1 0.3 0.2 0 0.2 -0.2 0 -13.6 0 -13.6 0 -5.1 0 -10 -4 -10.9 -9 L31 0 37.3 0 c5.1 0 10 4 10.9 9 l8.1 41.7 " class="pclogo-r3"/><path fill="#414141" d="m103.6 59.7 -30.6 0 c-5 0 -10 -4 -10.9 -9 L52.3 0 l6.3 0 c5.1 0 10 4 10.9 9 l7.3 37.9 0 0 c0.2 1.2 1.5 2.2 2.7 2.2 l14.4 0 c1.3 0 2.1 -1 1.9 -2.2 L93.4 34.5 c-0.2 -1.2 -1.5 -2.2 -2.7 -2.2 l-14.4 0 -0.3 -1.5 c-1 -5 2.4 -9 7.4 -9 l12.8 0 c5 0 10 4.1 10.9 9 l3.9 20 c1 5 -2.4 9 -7.4 9 " class="pclogo-chr pclogo-chr-p"/><path fill="#414141" d="m162 30.7 3.9 20 c1 5 -2.4 9 -7.4 9 l-30.6 0 c-5.1 0 -10 -4 -10.9 -9 L107.1 0 l15.5 0 9.1 46.9 c0.2 1.2 1.5 2.3 2.7 2.3 l14.4 0 c1.3 0 2.1 -1 1.9 -2.3 L148.2 34.5 c-0.2 -1.2 -1.5 -2.2 -2.7 -2.2 l-14.4 0 -0.3 -1.5 c-0.2 -1 -0.4 -3.1 0.5 -4.8 L146 0 l16.5 0 -12.3 21.7 0.8 0 c5.1 0 10 4.1 10.9 9 " class="pclogo-chr pclogo-chr-r"/><path fill="#414141" d="m183.7 59.7 c-5.1 0 -10 -4 -10.9 -9 L164.7 9 c-1 -5 2.4 -9 7.4 -9 l32.8 0 0.3 1.6 c1 5 -2.4 9 -7.4 9 l-15.1 0 c-1.3 0 -2.1 1 -1.9 2.2 l2.3 11.8 21.1 0 2 10.5 -21.1 0 2.3 11.7 0 0 c0.2 1.2 1.5 2.2 2.7 2.2 l15.1 0 c5.1 0 10 4.1 10.9 9 l0.3 1.6 -32.9 0 " class="pclogo-chr pclogo-chr-e"/><path fill="#414141" d="m249.8 1.6 c1 5 -2.4 9 -7.4 9 l-13.5 0 c-1.3 0 -2.1 1 -1.9 2.2 l6.6 34 0 0 c0.2 1.2 1.5 2.2 2.7 2.2 l13.5 0 c5.1 0 10 4.1 10.9 9 l0.3 1.6 -31.3 0 c-5.1 0 -10 -4 -10.9 -9 L210.8 9 c-1 -5 2.4 -9 7.4 -9 l31.2 0 0.3 1.6 " class="pclogo-chr pclogo-chr-c"/><path fill="#414141" d="m305.8 59.7 -31.6 0 c-5.1 0 -10 -4 -10.9 -9 L255.2 9 C254.3 4 257.6 0 262.7 0 L294.2 0 c5 0 10 4 10.9 9 l8.1 41.7 c1 5 -2.4 9 -7.4 9 m-34.3 -46.9 6.6 34 c0.2 1.2 1.5 2.2 2.7 2.2 l14.4 0 c1.3 0 2.1 -1 1.9 -2.2 l-6.6 -34 c-0.2 -1.2 -1.5 -2.2 -2.7 -2.2 l-14.4 0 c-1.3 0 -2.1 1 -1.9 2.2 " class="pclogo-chr pclogo-chr-o"/><path fill="#414141" d="m364.1 30.7 3.9 20 c1 5 -2.4 9 -7.4 9 l-30.6 0 c-5.1 0 -10 -4 -10.9 -9 L309.2 0 l15.5 0 9.1 46.9 c0.2 1.2 1.5 2.3 2.7 2.3 l14.4 0 c1.3 0 2.1 -1 1.9 -2.3 l-2.4 -12.4 c-0.2 -1.2 -1.5 -2.2 -2.7 -2.2 l-14.4 0 -0.3 -1.5 c-0.2 -1 -0.4 -3.1 0.5 -4.8 L348.2 0 l16.5 0 -12.3 21.7 0.8 0 c5.1 0 10 4.1 10.9 9 " class="pclogo-chr pclogo-chr-r"/><path fill="#414141" d="m377.2 54.7 c0.5 0 0.8 0.1 0.8 0.7 0 0.5 -0.3 0.7 -0.8 0.7 l-1.1 0 0 -1.3 1.1 0 zm-1.1 -2.8 c0 -0.4 -0.1 -0.7 -0.7 -0.7 -0.5 0 -0.7 0.2 -0.7 0.7 l0 4.5 c0 0.3 0.1 0.6 0.7 0.6 l1.7 0 c1.2 0 2.2 -0.4 2.2 -1.7 0 -1.1 -0.5 -1.6 -1.5 -1.6 l1 -1.7 c0.1 -0.1 0.1 -0.2 0.1 -0.3 0 -0.3 -0.2 -0.5 -0.7 -0.5 -0.5 0 -0.6 0.4 -0.8 0.7 l-0.9 1.7 -0.5 0 0 -1.7 zm0.9 -1.8 c2.3 0 4.1 1.8 4.1 4.1 0 2.3 -1.8 4.1 -4.1 4.1 -2.3 0 -4.1 -1.8 -4.1 -4.1 0 -2.3 1.8 -4.1 4.1 -4.1 m0 9.5 c3 0 5.4 -2.4 5.4 -5.4 0 -3 -2.4 -5.4 -5.4 -5.4 -3 0 -5.4 2.4 -5.4 5.4 0 3 2.4 5.4 5.4 5.4 " class="pclogo-chr pclogo-reg"/></g></svg><!-- <![endif]-->
+        <span class="tagline">Fitness Made Personal</span>
+      </a>
+      <div id="block-precor-menus-search-block" class="block block-precor-menus block-precor-menus-search-block">
+
+    
+  <div class="content">
+    <form class="site-search cf Bizible-Exclude" action="/ja/search" method="GET" id="precor-search" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-search">
+  <label for="edit-search">検索 <span class="form-required" title="このフィールドの入力は必須です。">*</span></label>
+ <input class="query form-text required" data-initial="検索" onfocus="if (this.value == &#039;検索&#039;) this.value = &#039;&#039;; jQuery(&#039;#precor-search&#039;).addClass(&#039;active&#039;); " onblur="if (!this.value) this.value = &#039;検索&#039;; jQuery(&#039;#precor-search&#039;).removeClass(&#039;active&#039;); " type="text" id="edit-search" name="search" value="検索" size="20" maxlength="128" />
+</div>
+<input type="submit" id="edit-submit" name="op" value="移動する" class="form-submit" /></div></form>  </div>
+</div>
+<div id="block-precor-menus-global-navigation-menu" class="block block-precor-menus block-precor-menus-global-navigation-menu">
+
+    
+  <div class="content">
+    <ul class="menu menu-topnav-global menu-lvl-1 "><li class="first leaf"><a href="https://www.precor.com/ja/blog/">What’s new? 新着情報</a></li>
+<li class="collapsed"><a href="/ja/about-precor">Precor について</a></li>
+<li class="last leaf"><a href="/ja/%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%83%BC%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9">カスタマーサービス</a></li>
+</ul>  </div>
+</div>
+<div id="block-precor-menus-top-navigation-menu" class="block block-precor-menus block-precor-menus-top-navigation-menu">
+
+    
+  <div class="content">
+    <ul class="menu menu-topnav menu-topnav-comm precor-display-commercial menu-lvl-1 "><li class="first expanded" data-mlid="24355"><a href="/ja/commercial/cardio">カーディオ</a><ul class="menu menu-lvl-2 " data-plid="24355"><li class="first leaf"><a href="/ja/commercial/cardio">ALL カーディオ</a></li>
+<li class="leaf"><a href="/ja/commercial/cardio/amt">AMT</a></li>
+<li class="leaf"><a href="/ja/commercial/cardio/cross-trainers">クロストレーナー</a></li>
+<li class="leaf"><a href="/ja/commercial/cardio/treadmills">トレッドミル</a></li>
+<li class="leaf"><a href="/ja/commercial/cardio/indoor-cycling">Indoor Cycling</a></li>
+<li class="leaf"><a href="/ja/commercial/cardio/hiit-cardio/products">HIIT Cardio</a></li>
+<li class="leaf"><a href="/ja/commercial/cardio/bikes">バイク</a></li>
+<li class="leaf"><a href="/ja/commercial/cardio/climber">クライマー</a></li>
+<li class="last leaf"><a href="/ja/commercial/cardio/consoles">コンソール</a></li>
+</ul></li>
+<li class="expanded" data-mlid="24367"><a href="/ja/commercial/strength">ストレングス</a><ul class="menu menu-lvl-2 " data-plid="24367"><li class="first leaf"><a href="/ja/commercial/strength">ALL ストレングス</a></li>
+<li class="leaf"><a href="/ja/commercial/strength/selectorized">Selectorized</a></li>
+<li class="leaf"><a href="/ja/commercial/strength/plate-loaded">Plate Loaded</a></li>
+<li class="leaf"><a href="/ja/commercial/strength/functional-training">ファンクショナルトレーニング</a></li>
+<li class="leaf"><a href="/ja/commercial/strength/queenax">Queenax</a></li>
+<li class="leaf"><a href="/ja/commercial/strength/benches-racks">ベンチおよびラック</a></li>
+<li class="leaf"><a href="/ja/commercial/strength/modulars-multi-stations">モジュラーおよびマルチステーション</a></li>
+<li class="last leaf"><a href="/ja/commercial/strength/core-and-stretching">Core &amp; Stretching</a></li>
+</ul></li>
+<li class="leaf"><a href="/ja/commercial/group-training">グループトレーニング</a></li>
+<li class="leaf"><a href="/ja/commercial/networked-fitness">ネットワーク型フィットネス</a></li>
+<li class="expanded" data-mlid="21163"><a href="http://#">Tools</a><ul class="menu menu-lvl-2 " data-plid="21163"><li class="first leaf topnav-tools-planningicons-wrapper"><a href="/ja/design-tool" class="topnav-tools-planningicons">Planning Icons</a></li>
+<li class="leaf"><a href="http://connect.precor.com/cgi-bin/WebObjects/PrecorWeb/">Precor Connection</a></li>
+<li class="leaf"><a href="http://toolkit.precor.com/login.aspx?redirect=%2fhome.aspx">Precor Toolkit</a></li>
+<li class="leaf"><a href="http://www2.precor.com/icovia" target="_blank">スペース プランナー</a></li>
+<li class="leaf"><a href="http://www.precor.com/en-us/customer-service/owners-manuals#term-281">取扱説明書</a></li>
+<li class="last leaf"><a href="https://www.precor.com/ja/color-selector" target="_blank">Discovery Series カラースタジオ</a></li>
+</ul></li>
+<li class="expanded" data-mlid="21161"><a href="http://#">市場を選択</a><ul class="menu menu-lvl-2 " data-plid="21161"><li class="first leaf"><a href="//www.precor.com/ja/commercial">  フィットネスクラブ</a></li>
+<li class="leaf topnav-markets-education-wrapper"><a href="/ja/%E6%95%99%E8%82%B2" class="topnav-markets-education">教育機関</a></li>
+<li class="leaf topnav-markets-hospitality-wrapper"><a href="/ja/hoteru-supa" class="topnav-markets-hospitality">ホテル/スパ</a></li>
+<li class="last leaf"><a href="/ja/%E5%9C%B0%E6%96%B9%E8%87%AA%E6%B2%BB%E4%BD%93">地方自治体</a></li>
+</ul></li>
+<li class="collapsed"><a href="/ja/gym-equipment-suppliers">Precor を選ぶ理由</a></li>
+<li class="last leaf cta-button-wrapper"><a href="/ja/contact-us" class="cta-button">お問い合わせ</a></li>
+</ul>  </div>
+</div>
+    </div>
+  </div>
+      <div id="main-wrapper">
+    <div id="main" class="content-inner">
+      <div id="content" role="main">
+                  <div id="content-header">
+                                                        <div id="title">
+                  <div class="breadcrumb"><a href="/ja">ホーム</a> | フィットネスクラブ</div>                  <h1 class="title">フィットネスクラブ</h1>
+                </div>
+                                                                                                                  </div>
+                        <div id="content-area" class="clearfix">
+                    <div id="content-wrapper" class="content-area-repeater">
+            <div class="content-area-gradient">
+                            <div id="node-3326" class="node node-vertical node-vertical-353">
+	<div class="node-inner">
+
+      <!--
+<style type="text/css">.ambient-banner-copy{
+  background-color: rgba(0,0,0,0.7);
+  bottom: 0;
+  left: 0;
+  padding: 22px;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+}
+.ambient-banner-copy img{
+    float: left;
+    height: 50px;
+    margin: -4px 11px -4px 0;
+    width: 50px;
+    vertical-align: middle;
+}
+.ambient-banner-copy a{
+    color: #ffffff;
+}
+.ambient-banner-copy p{
+    margin: 0 auto;
+    max-width: 45em;
+}
+.teaser-video-banner-alt{
+  background: #1e262a url("//dsw1e6vxqxp82.cloudfront.net/sites/all/themes/precor_main/images/brand-ambient-v3-sm.jpg") no-repeat 90% 0;
+  height: 480px;
+  margin-bottom: 22px;
+  padding-top: 265px;
+}
+  @media (min-width: 25em) {
+    .teaser-video-banner-alt{
+    padding-top: 305px;
+    }
+  }
+  @media (min-width: 43.75em) {
+    .teaser-video-banner-alt{
+    background-position: center top;
+    padding-top: 370px;
+    }
+  }
+  @media (min-width: 63em) {
+    .teaser-video-banner-alt{
+    display: none;
+    }
+  }
+
+.teaser-video-banner-alt .ambient-banner-copy {
+    position: static;
+}
+</style>
+<div class="teaser-video-banner" data-vide-bg="//d3lj3t73yupcwc.cloudfront.net/media/brand_ambient_v3" data-vide-options="position: 0% 50%, resizing: false">
+	<div class="ambient-banner-copy">
+		<p style="padding:0;margin:0 auto;"><span class="wistia_embed wistia_async_n8uxopoatm popover=true popoverContent=link popoverOverlayOpacity=1" style="display:inline"><a href="#"><img alt="ビデオを見る" src="/sites/default/files/Play_Button_2017.png" /> プリコーブランドビデオ：弊社ミッションFitness Made Personal（一人ひとりに合わせたフィットネス体験のデザイン）をご覧ください。 </a></span></p>
+	</div>
+</div>
+
+<div class="teaser-video-banner-alt">
+	<div class="teaser-banner-contain">
+		<div class="ambient-banner-copy"><span class="wistia_embed wistia_async_n8uxopoatm popover=true popoverContent=link popoverOverlayOpacity=1" style="display:inline"><a href="#"><img alt="ビデオを見る" src="/sites/default/files/Play_Button_2017.png" /> プリコーブランドビデオ：弊社ミッションFitness Made Personal（一人ひとりに合わせたフィットネス体験のデザイン）をご覧ください。 </a></span></div>
+	</div>
+</div>
+<script src="//fast.wistia.com/embed/medias/n8uxopoatm.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
+
+-->
+<div class="big-banner">
+	<style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+.big-banner { cursor: pointer; overflow: hidden; margin-bottom: 22px; }
+    .big-banner .frame-mobile {
+        /*background: url("/sites/default/files/Color-Studio_Promo-Banner_small_@2x.jpg") no-repeat left top; 
+        height: 432px;  */
+    }
+    .big-banner .frame-tablet {
+        display: none; 
+        /*background: url("/sites/default/files/Color-Studio_Promo-Banner_large_@2x.jpg") no-repeat left top;
+        height: 432px;*/
+    }
+    .big-banner .banner-content { overflow: hidden; min-width: 17em; background-color: #1e262a; padding: 44px;  }
+    .big-banner h2 { margin-top: 0; color: #ffffff; }
+    .big-banner p { color: #ffffff; }
+    .big-banner .banner-content .cta-button-flat { background-color: #00aacd; margin-bottom: 0; }
+    .big-banner .banner-content .cta-button-flat:hover { background-color: #00AEE3; }
+
+    @media (-webkit-min-device-pixel-ratio: 1.5),  (min-resolution: 144dpi) {
+      /*.big-banner .frame-tablet { background-image: url("/sites/default/files/Color-Studio_Promo-Banner_large_@2x.jpg"); }
+      .big-banner .frame-mobile { background-image: url("/sites/default/files/Color-Studio_Promo-Banner_small_@2x.jpg"); }*/
+    }
+    @media (min-width: 25em) {
+      .big-banner .frame-mobile { display: block; }
+      .big-banner .frame-tablet { display: none; }
+    }
+    @media (min-width: 43.75em) {
+      .big-banner { min-height: 21em; background-size: 61em 21em; background-repeat: no-repeat; background-position: 0 0; } 
+      .big-banner .frame-mobile { display: none; }
+      .big-banner .frame-tablet { display: block; }
+      .big-banner .banner-content {  }
+    }
+    @media (min-width: 63em) {
+    .big-banner { min-height: 21em; background-size: auto 432px; background-image: url("/sites/default/files/Color-Studio_Promo-Banner_large_@2x.jpg"); background-repeat: no-repeat; } .big-banner .frame-tablet { display: none; } .big-banner .banner-content { min-height: 432px; width: 35%; margin: 0 0 0 auto; }
+    }
+    @media (min-width: 91em) {
+      .big-banner { min-height: 26.75em; }
+      .big-banner .banner-content { width: 32%; }
+    }
+	
+/*--><!]]>*/
+</style><div class="frame-mobile">
+		<div><img alt="Discovery Series Color Studio" src="/sites/default/files/Color-Studio_Promo-Banner_small_@2x.jpg" style="border-right:2px solid #999999; display: block;" /></div>
+	</div>
+
+	<div class="frame-tablet">
+		<div><img alt="Discovery Series Color Studio" src="/sites/default/files/Color-Studio_Promo-Banner_large_@2x.jpg" style="display:block;" /></div>
+	</div>
+
+	<div class="banner-content">
+		<h2 style="text-transform:uppercase;">Discovery Series カラースタジオ</h2>
+
+		<p>施設に最適なシートおよびフレームの色の組み合わせをお選びください。</p>
+
+		<div><a class="cta-button-flat" href="/ja/color-selector">色を選択する</a></div>
+	</div>
+	<script>
+<!--//--><![CDATA[// ><!--
+
+    jQuery('.big-banner').click(function () { 
+        window.open(jQuery(this).find("a").attr("href"));
+        dataLayer.push({ 'event': 'GAevent', 'eventCategory': 'Promo - Full Banner - Main 1', 'eventAction': 'click', 'eventLabel': 'Color Studio PC-2723'});
+        return false;
+    });
+    
+//--><!]]>
+</script></div>
+
+<div id="promos"><script>
+<!--//--><![CDATA[// ><!--
+
+  jQuery(function() {
+    jQuery("#block-views-vertical-promotions-2014-block").prependTo("#promos");
+  });
+
+//--><!]]>
+</script></div>
+
+<ul class="l--grid3-loose"><li>
+		<div class="promo-item" style="background: #eee; padding: 11px;"><script src="https://fast.wistia.com/embed/medias/d939ob8sdd.jsonp" async=""></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async=""></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+				<div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed wistia_async_d939ob8sdd popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;width:100%"> </span></div>
+			</div>
+
+			<div class="breathing-room-half" style="margin-top:11px">
+				<h5 class="promo-title">まったく新しい EFX® 800</h5>
+			</div>
+		</div>
+	</li>
+	<li>
+		<div class="promo-item" style="background: #eee; padding: 11px;"><script src="https://fast.wistia.com/embed/medias/zn7y7px31m.jsonp" async=""></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async=""></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+				<div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed wistia_async_zn7y7px31m popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;width:100%"> </span></div>
+			</div>
+
+			<div class="breathing-room-half" style="margin-top:11px">
+				<h5 class="promo-title">Queenax Functional Training</h5>
+			</div>
+		</div>
+	</li>
+	<li>
+		<div class="promo-item" style="background: #eee; padding: 11px;"><script src="https://fast.wistia.com/embed/medias/gd4o3ceep4.jsonp" async=""></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async=""></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;">
+				<div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><span class="wistia_embed wistia_async_gd4o3ceep4 popover=true popoverAnimateThumbnail=true videoFoam=true" style="display:inline-block;height:100%;width:100%"> </span></div>
+			</div>
+
+			<div class="breathing-room-half" style="margin-top:11px">
+				<h5 class="promo-title">Spinner® Chrono™ Power</h5>
+			</div>
+		</div>
+	</li>
+</ul><style type="text/css">
+<!--/*--><![CDATA[/* ><!--*/
+.banner18__sidebar img {
+        display: block;
+    }
+    .banner18__copy {
+        margin-bottom: 0;
+        text-transform: uppercase;
+    }
+    .banner18__cta a {
+        background: none;
+        color: #00aacd;
+        text-decoration: underline;
+        text-shadow: none;
+    }
+    @media (min-width: 43.75em) {
+        .banner18__copy,
+        .banner18__cta {
+            padding: 22px 11px 0 22px;
+        }
+    }
+    @media (min-width: 63em) {
+        .banner18__main {
+            padding: 0;
+        }
+        .banner18__copy,
+        .banner18__cta {
+            padding: 22px 0 0 16px;
+        }
+        .banner18__copy,
+        .banner18__cta a {
+            font-size: 14px;
+            line-height: 23px;
+        }
+        .ds-sidebar {
+            text-align: center;
+        }
+    }
+    @media (min-width: 91em) {
+        .banner18__copy,
+        .banner18__cta a {
+            font-size: 18px;
+            line-height: 27px;
+        }
+        .ds-main {
+            text-align: center;
+        }
+    }
+
+/*--><!]]>*/
+</style><div class="banner18">
+	<div class="banner18__sidebar"><img alt="2018 Precor Catalog" src="/sites/default/files/catalog-half.jpg" /></div>
+
+	<div class="banner18__main">
+		<div class="ds-main-plus-sidebar">
+			<div class="ds-main">
+				<p class="banner18__copy">販売カタログがオンラインでご覧いただけるようになりました</p>
+			</div>
+
+			<div class="ds-sidebar">
+				<p class="banner18__cta"><a href="/ja/digital-brochure" onclick="dataLayer.push({ 'event': 'GAevent', 'eventCategory': 'Promo - Quarter Banner - Main 2', 'eventAction': 'click', 'eventLabel': '2018 Catalog PC-2625'});">カタログを表示</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="series-intros l--grid2-tight">
+	<div class="series-intro series-intro-cardio"><a class="hero-frame" href="/ja/commercial/cardio"><img alt="Precor Commercial Cardio" class="image-full" src="/sites/default/files/precor-commercial-cardio-575x265.jpg" /></a>
+
+		<div class="breathing-room">
+			<h4><a href="/ja/commercial/cardio">カーディオ</a></h4>
+
+			<p>私たちは、信頼性と使いやすさに焦点を置いて、カーディオ機器を設計しています。私たちのカーディオラインは、より多くのエクササイズをする人々が、快適、魅力的かつ効果的なワークアウトを楽しめるように、一人一人に合わせた体験を実現します。</p>
+
+			<p><a class="cta-button-flat" href="/ja/commercial/cardio">カーディオを見る</a></p>
+		</div>
+	</div>
+
+	<div class="series-intro series-intro-strength"><a class="hero-frame" href="/ja/commercial/strength"><img alt="Precor Commercial Strength" class="image-full" src="/sites/default/files/precor-commercial-strength-575x265.jpg" /></a>
+
+		<div class="breathing-room">
+			<h4><a href="/ja/commercial/strength">ストレングス</a></h4>
+
+			<p>ストレングストレーニングを自分の全体フィットネスプログラムに組み入れたいと考えている全てのエクササイズを行う人々のために、私たちは豊富な種類の機器を取り揃えています。さらに、カーディオ製品と同様に、耐久性、人間工学、そして使いやすさに焦点を置いた設計により、お客様の会員様はより効果的なワークアウトを体験できます。</p>
+
+			<p><a class="cta-button-flat" href="/ja/commercial/strength">ストレングスを見る</a></p>
+		</div>
+	</div>
+
+	<div class="series-intro series-intro-cycle"><a class="hero-frame" href="/ja/commercial/cardio/indoor-cycling"><img alt="Spinning Indoor Cycles" class="image-full" src="/sites/default/files/precor-commercial-cycle-575x265.jpg" /></a>
+
+		<div class="breathing-room">
+			<h4><a href="/ja/commercial/cardio/indoor-cycling">Spinning® Indoor Cycle</a></h4>
+
+			<p>Precor による　Spinner®　バイクは、Spinning®　の　20　年以上にわたる業界知識に基づく指導力とプログラムに加え、Pecor　の高い技術とサポート力を結集した製品です。ユーザーがこれまで夢見ていたワークアウトエクスペリエンスを実現します。</p>
+
+			<p><a class="cta-button-flat" href="/ja/commercial/cardio/indoor-cycling">Spinning® を見る</a></p>
+		</div>
+	</div>
+
+	<div class="series-intro series-intro-queenax"><a class="hero-frame" href="/ja/queenax"><img alt="Queenax" class="image-full" src="/sites/default/files/precor-commercial-queenax-575x265.jpg" /></a>
+
+		<div class="breathing-room">
+			<h4><a href="/ja/queenax">Queenax™</a></h4>
+
+			<p>Queenax はユニークなファンクショナル/サスペンディド　ボディウェイト　トレーニングシステムであり、施設内のトレーニングスペースを多様化させます。Queenax の独自のフレキシブルなデザインにより、ニーズに合わせて構成し直しさらに多くのファンクショナルトレーニングに対応させることができます。指導面のサポートも充実しており、トレーナーの養成でも確実な成果をあげることができます。</p>
+
+			<p><a class="cta-button-flat" href="/ja/queenax">Queenax を見る</a></p>
+		</div>
+	</div>
+
+	<div class="series-intro series-intro-preva"><a class="hero-frame" href="http://www.preva.com"><img alt="Preva Networked Fitness" class="image-full" src="/sites/default/files/precor-commercial-networkedfitness-575x265.jpg" /></a>
+
+		<div class="breathing-room">
+			<h4><a href="http://www.preva.com/ja-jp">Preva® Networked Fitness</a></h4>
+
+			<p>Preva® Networked Fitnessは、オペレーターとエクササイズをする人々の両方がそれぞれの目的を果たせるように、人と技術を巧みに結びつけます。Prevaにより、オペレーターは仕事の質を向上し収益を増加させることができ、エクササイズをする人々は、一人一人に合わせた魅力的でやる気を引き出すフィットネスを体験することができます。</p>
+
+			<p><a class="cta-button-flat" href="http://www.preva.com/ja-jp">Networked Fitness を見る</a></p>
+		</div>
+	</div>
+
+	<div class="series-intro series-intro-tools"><a class="hero-frame" href="/ja/design-tool"><img alt="Tools for Your Gym" class="image-full" src="/sites/default/files/precor-commercial-tools-575x265.jpg" /></a>
+
+		<div class="breathing-room">
+			<h4><a href="/ja/design-tool">施設のためのツール</a></h4>
+
+			<p>フィットネス施設が必要とするあらゆるアイテムを、ツールセクションにご用意しています。ビジネスをベストな状態に維持するためにも、ぜひご活用ください。ブランドセンター、スペースプランナー、ファイナンシング、サービスコネクションなどにより、お客様のビジネスを全面的にサポートいたします。</p>
+
+			<p><a class="cta-button-flat" href="/ja/design-tool">ツールを入手する</a></p>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">var mobileSlides = [{"image":"https:\/\/www.precor.com\/sites\/default\/files\/precor-home-mobile-PREVA-02.jpg","body":"","url":""}];</script>	</div>
+</div>              <div id="block-precor-components-marketing-opt-in" class="block block-precor-components block-precor-components-marketing-opt-in">
+
+    
+  <div class="content">
+    <!-- placeholder -->  </div>
+</div>
+<div id="block-views-vertical-promotions-2014-block" class="block block-views block-views-vertical-promotions-2014-block">
+
+    <h2>What’s new? 新着情報</h2>
+  
+  <div class="content">
+    <div class="view view-vertical-promotions-2014 view-id-vertical_promotions_2014 view-display-id-block view-dom-id-e4fb7497e75d4bea138f564b53c477b2">
+        
+  
+  
+      <div class="view-content">
+      <div class="latest-n-greatest-list">    <ul class="l--grid4-tight">          <li class=""><div id="block-precor-components-latest-blogpost--3" class="block block-precor-components block-precor-components-latest-blogpost--3">
+
+    
+  <div class="content">
+    <div class="promo-item">
+  
+  <div class="breathing-room-half">
+    <div class="promo-source">イベント</div>
+    <h5 class="promo-title" style="font-weight:bold"><a href="https://www.precor.com/ja/blog/2018/07/03/review_managementseminar702/" class="latest-blog-title">【開催ご報告】7/2 マネジメント講座  人生100年時代のフィットネスクラブの役割 ～成果をあげ続けるインストラクターの要件～</a></h5>
+    <p class="text-small" style="color: #999;">2018-07-02</p>
+  </div>
+</div>  </div>
+</div>
+</li>
+          <li class=""><div id="block-precor-components-latest-blogpost-2--3" class="block block-precor-components block-precor-components-latest-blogpost-2--3">
+
+    
+  <div class="content">
+    <div class="promo-item">
+  
+  <div class="breathing-room-half">
+    <div class="promo-source">イベント</div>
+    <h5 class="promo-title" style="font-weight:bold"><a href="https://www.precor.com/ja/blog/2018/06/27/sportec_2018/" class="latest-blog-title">【出展ご案内】Sportec2018に出展します</a></h5>
+    <p class="text-small" style="color: #999;">2018-06-26</p>
+  </div>
+</div>  </div>
+</div>
+</li>
+          <li class=""><div id="block-precor-components-latest-blogpost-3--3" class="block block-precor-components block-precor-components-latest-blogpost-3--3">
+
+    
+  <div class="content">
+    <div class="promo-item">
+  
+  <div class="breathing-room-half">
+    <div class="promo-source">イベント</div>
+    <h5 class="promo-title" style="font-weight:bold"><a href="https://www.precor.com/ja/blog/2018/06/06/review_runningseminar/" class="latest-blog-title">【開催ご報告】6/4 効率よく走るためのランニング・トレーニングセミナー</a></h5>
+    <p class="text-small" style="color: #999;">2018-06-05</p>
+  </div>
+</div>  </div>
+</div>
+</li>
+          <li class=""><div id="block-precor-components-latest-blogpost-4--3" class="block block-precor-components block-precor-components-latest-blogpost-4--3">
+
+    
+  <div class="content">
+    <div class="promo-item">
+  
+  <div class="breathing-room-half">
+    <div class="promo-source">イベント</div>
+    <h5 class="promo-title" style="font-weight:bold"><a href="https://www.precor.com/ja/blog/2018/05/30/precor-academy_management_07022018/" class="latest-blog-title">プリコーアカデミー:7/2マネジメント講座：人生100年時代のフィットネスクラブの役割</a></h5>
+    <p class="text-small" style="color: #999;">2018-05-29</p>
+  </div>
+</div>  </div>
+</div>
+</li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+            </div>
+          </div>
+                  </div>
+              </div>
+    </div>
+  </div>
+      <div role="contentinfo" class="footer">
+        <div class="content-inner">
+      <div id="block-menu-menu-footer-cta-comm-" class="block block-menu block-menu-menu-footer-cta-comm-">
+
+    
+  <div class="content">
+      </div>
+</div>
+<div id="block-menu-menu-footermenu2" class="block block-menu block-menu-menu-footermenu2">
+
+    
+  <div class="content">
+    <ul class="menu menu-lvl-1 menu-footermenu2"><li class="first leaf"><a href="/ja/%E3%83%97%E3%83%A9%E3%82%A4%E3%83%90%E3%82%B7%E3%83%BC%E3%83%9D%E3%83%AA%E3%82%B7%E3%83%BC">プライバシーポリシー</a></li>
+<li class="last leaf"><a href="/ja/%E5%88%A9%E7%94%A8%E8%A6%8F%E7%B4%84">利用規約</a></li>
+</ul>  </div>
+</div>
+<div id="block-menu-menu-footer-navigation-global" class="block block-menu block-menu-menu-footer-navigation-global">
+
+    
+  <div class="content">
+    <ul class="menu menu-lvl-1 menu-footer-navigation-global"><li class="first leaf"><a href="/ja/about-precor">Precor について</a></li>
+<li class="leaf"><a href="http://www.precorconnect.com" target="_blank">Precor Connect</a></li>
+<li class="last leaf"><a href="http://www.preva.com/ja-jp" title="PREVA について" target="_blank">Preva</a></li>
+</ul>  </div>
+</div>
+<div id="block-precor-menus-language-selector" class="block block-precor-menus block-precor-menus-language-selector">
+
+    
+  <div class="content">
+    <ul class="country-language-selector"><li class="change-country-link"><a href="/ja/choose-your-country" title="Choose your country or region"><img src="/sites/all/modules/precor_menus/images/ja.png" class="flag-icon country-ja" alt="" /></a></li></ul>  </div>
+</div>
+<div id="block-precor-menus-footer-social" class="block block-precor-menus block-precor-menus-footer-social">
+
+    
+  <div class="content">
+      <div class="social-links">
+    <nav>
+      <ul class="menu">
+        <li><a href="http://twitter.com/precor" target="_blank"><img alt="Twitter" src="/sites/all/themes/precor_main/images/social_twitter.svg" /></a></li>
+        <li><a href="http://www.facebook.com/PrecorIncorporated" target="_blank"><img alt="Facebook" src="/sites/all/themes/precor_main/images/social_facebook.svg" /></a></li>
+        <li><a href="http://instagram.com/precor" target="_blank"><img alt="Instagram" src="/sites/all/themes/precor_main/images/social_instagram.svg" /></a></li>
+        <li><a href="http://pinterest.com/precor/" target="_blank"><img alt="Pinterest" src="/sites/all/themes/precor_main/images/social_pinterest.svg" /></a>
+        <li><a href="http://www.linkedin.com/companies/precor" target="_blank"><img alt="LinkedIn" src="/sites/all/themes/precor_main/images/social_linkedin.svg" /></a></li>
+        <li><a href="http://www.youtube.com/precorinc" target="_blank"><img alt="YouTube" src="/sites/all/themes/precor_main/images/social_youtube.svg" /></a></li>
+      </ul>
+    </nav>
+  </div>  </div>
+</div>
+<div id="block-precor-menus-footer-copyright" class="block block-precor-menus block-precor-menus-footer-copyright">
+
+    
+  <div class="content">
+    <div class="copyright"><p>&copy; 2018 Precor Incorporated. Precor is an <a href="http://www.amersports.com" target="_blank" rel="nofollow">Amer Sports</a> brand.</p></div>  </div>
+</div>
+    </div>
+  </div>
+  </div>
+
+      <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"632f417cb4","applicationID":"420747","transactionName":"M1RXYEpSVhICAEVeCgoeYEZRHFEPBwZJGRUMQQ==","queueTime":0,"applicationTime":50,"ttGuid":"","agentToken":"","atts":"HxNUFgJIRRw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

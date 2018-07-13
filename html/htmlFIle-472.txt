@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="ja" class="ie ie6 noscript ja-jp" data-top-level-url=""> <![endif]-->
+<!--[if IE 7 ]>    <html lang="ja" class="ie ie7 noscript ja-jp" data-top-level-url=""> <![endif]-->
+<!--[if IE 8 ]>    <html lang="ja" class="ie ie8 noscript ja-jp" data-top-level-url=""> <![endif]-->
+<!--[if IE 9 ]>    <html lang="ja" class="ie ie9 noscript ja-jp" data-top-level-url=""> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="ja" class="noscript ja-jp" data-top-level-url=""> <!--<![endif]-->
+<head prefix="og: http://ogp.me/ns#">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    
+<script src="/application/javascript/framework/CookieConsentHelper.js"></script>
+
+<script>
+window.local = 'jp/ja';
+window.wr_environment = 'production';
+window.gtm_sync = false;
+	
+var executeAll = 'true';
+if (typeof window.CookieTrackingAllowed === 'function') {
+    executeAll = (window.CookieTrackingAllowed() === 'true') ? 'true' : 'false';
+}
+if (executeAll == 'true') {
+	}
+document.documentElement.className = document.documentElement.className.replace(/((^|\s)noscript(\s|$))/, " javascript ");
+</script>
+
+
+<script>
+var executeAll = 'true';
+if (typeof window.CookieTrackingAllowed === 'function') {
+    executeAll = (window.CookieTrackingAllowed() === 'true') ? 'true' : 'false';
+}
+if (executeAll == 'true') {
+	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';if(!window.gtm_sync)j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-NPDZV9');
+}
+
+
+</script>
+    
+
+        <script>
+        (function(w, dde, lp) {
+            var redirectUrls = [
+                '/us/en/home/landing/free-vs-paid'
+            ];
+            var redirectUrlLen = redirectUrls.length;
+            for (i = 0; i < redirectUrlLen; i++) {
+                if(lp == redirectUrls[i]) {
+                    dde.setAttribute("data-test-option", "default");
+                    w.setTimeout(function(){dde.removeAttribute("data-test-option");}, 5500);
+                    w.gtm_sync = true;
+
+                    break;
+                }
+            }
+        })(window, document.documentElement, location.pathname)
+    </script>
+
+    <link rel="icon" href="/application/favicons/favicon.ico">
+
+    
+    <link rel="canonical" href="https://www.webroot.com/jp/ja">
+    <link rel="apple-touch-icon" sizes="57x57" href="/application/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/application/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/application/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/application/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/application/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/application/favicons/apple-touch-icon-120x120.png">
+    <link rel="icon" type="image/png" href="/application/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/application/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/application/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/application/favicons/manifest.json">
+    <link rel="mask-icon" href="/application/favicons/safari-pinned-tab.svg" color="#408640">
+    <meta name="theme-color" content="#2e3740">
+    <meta name="msapplication-navbutton-color" content="#2e3740">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#2e3740">
+
+    		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700,900">
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+		<link rel="stylesheet" type="text/css" href="/application/css/libraries/webroot.libraries.min.css">
+		<link rel="stylesheet" type="text/css" href="/application/css/core/webroot.core.min.css">
+		<link rel="stylesheet" type="text/css" href="/application/css/framework/webroot.framework.min.css">
+		<link rel="stylesheet" type="text/css" href="/application/css/webroot.main.japan.min.css">
+		<link rel="stylesheet" type="text/css" href="/packages/theme_webroot/themes/webroot_home/css/webroot.home.japan.min.css">
+
+<title>サイバーセキュリティ|ウェブルート</title>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta name="description" content="ウェブルートは業界をリードする脅威インテリジェンスにより、個人および法人向けのセキュリティソリューションを通じてお客様の情報資産を守ります。"/>
+<meta name="generator" content="concrete5"/>
+<meta name="copyright" content="&copy; Copyright 2004 - 2018 Webroot Inc. All Rights Reserved.">
+
+<link rel="alternate" href="https://www.webroot.com/" hreflang="x-default" />
+<script type="text/javascript">
+    var CCM_DISPATCHER_FILENAME = "/index.php";
+    var CCM_CID = "225";
+    var CCM_EDIT_MODE = false;
+    var CCM_ARRANGE_MODE = false;
+    var CCM_IMAGE_PATH = "/concrete/images";
+    var CCM_TOOLS_PATH = "/index.php/tools/required";
+    var CCM_APPLICATION_URL = "https://www.webroot.com";
+    var CCM_REL = "";
+</script>
+
+<script type="text/javascript" src="/application/javascript/libraries/jquery/jquery.min.js"></script>
+<!--[if lt IE 9]><script type="text/javascript" src="/concrete/js/ie/html5-shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script type="text/javascript" src="/concrete/js/ie/respond.js"></script><![endif]-->
+<link href="/application/blocks/header_consumer/view.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="/application/blocks/home_splash_page/view.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="/application/blocks/footer_business/view.min.css" rel="stylesheet" type="text/css" media="all">
+
+    <script type="application/ld+json">
+    {
+        "@context"      : "http://schema.org",
+        "@type"         : "WebSite",
+        "name"          : "Webroot",
+        "url"           : "https://www.webroot.com/jp/ja"
+    }
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+            var msViewportStyle = document.createElement('style')
+            msViewportStyle.appendChild(document.createTextNode('@-ms-viewport{width:auto!important}'))
+            document.querySelector('head').appendChild(msViewportStyle)
+        }
+    </script>
+</head>
+<body>
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NPDZV9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    
+    <div class="ccm-page page-type-page page-template-splash-page">
+
+        
+
+    
+<header class="block header_consumer" data-name="header_consumer-23355" data-path="/jp/ja" data-offset-top="72" data-spy="affix">
+
+    <div class="utility">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-5 col-md-4 col-sm-12">
+                    <a href="/jp/ja/home" id="forHomeNav" target="_self">個人のお客様</a>
+                        &nbsp;&bull;&nbsp;
+                        <a href="/jp/ja/business" id="forBusinessNav" target="_self">法人のお客様</a>
+
+                    
+                        &nbsp;&bull;&nbsp;
+                        <a href="/jp/ja/about" target="_self">ウェブルートについて</a>
+
+                    
+                    <span class="visible-lg-inline">
+
+                        
+                    </span>
+                </div>
+
+                                	                		<div class="col-lg-4 col-md-4 middle-links hidden-sm-down">
+                			<div class="content text-right">
+
+	                            <a href="https://my.webrootanywhere.com/default.aspx?Langs=ja" target="_blank">マイアカウント</a>
+	                            &bull; 
+	                            <a href="/jp/ja/home/renewal" target="_self">更新 / 追加</a> 
+	                            &bull; 
+	                            <a href="/jp/ja/cart" target="_self">カート</a>
+	                    
+	                        </div>
+	                    </div>
+
+	                    <div class="col-lg-3 col-md-4 hidden-sm-down">
+	                    	<div class="row">
+	                    		<div class="col-sm-6 search">
+	                                <form class="form-inline" action="/jp/ja/search" method="get" name="siteSearch">
+	                                    <button type="submit" class="header-search-btn">
+	                                        <i class="fa fa-search"></i>
+	                                        <i class="fa fa-arrow-right"></i>
+	                                    </button>
+	                                    <div class="form-group">
+	                                        <input name="q" type="text" placeholder="検索" value="" class="ccm-search-block-text form-control">
+	                                    </div>
+	                                </form>
+	                            </div>
+
+	                            <div class="col-sm-6">
+	                            	<div data-plugin="languageselector">
+	                                    <a class="ls-trigger" href="#"></a>
+	                                    <ul class="language-selector" id="language-selector">
+	                                        <li><a data-region="/au/en" href="/au/en/home" class='desktopLanguageSelector'>Australia</a></li><li><a data-region="/ca/en" href="/ca/en/home" class='desktopLanguageSelector'>Canada/English</a></li><li><a data-region="/de/de" href="/de/de/home" class='desktopLanguageSelector'>Deutschland</a></li><li><a data-region="/es/es" href="/es/es/home" class='desktopLanguageSelector'>España</a></li><li><a data-region="/fr/fr" href="/fr/fr/home" class='desktopLanguageSelector'>France</a></li><li><a data-region="/hk/en" href="/hk/en/home" class='desktopLanguageSelector'>Hong Kong</a></li><li><a data-region="/in/en" href="/in/en/home" class='desktopLanguageSelector'>India</a></li><li><a data-region="/it/it" href="/it/it/home" class='desktopLanguageSelector'>Italia</a></li><li><a data-region="/ie/en" href="/ie/en/home" class='desktopLanguageSelector'>Ireland</a></li><li><a data-region="/mx/es" href="/mx/es/home" class='desktopLanguageSelector'>México</a></li><li><a data-region="/nl/nl" href="/nl/nl/home" class='desktopLanguageSelector'>Nederland</a></li><li><a data-region="/nz/en" href="/nz/en/home" class='desktopLanguageSelector'>New Zealand</a></li><li><a data-region="/pt/pt" href="/pt/pt/home" class='desktopLanguageSelector'>Portugal</a></li><li><a data-region="/ch/de" href="/ch/de/home" class='desktopLanguageSelector'>Schweiz</a></li><li><a data-region="/za/en" href="/za/en/home" class='desktopLanguageSelector'>South Africa</a></li><li><a data-region="/ch/fr" href="/ch/fr/home" class='desktopLanguageSelector'>Suisse</a></li><li><a data-region="/se/sv" href="/se/sv/home" class='desktopLanguageSelector'>Sverige</a></li><li><a data-region="/gb/en" href="/gb/en/home" class='desktopLanguageSelector'>United Kingdom</a></li><li><a data-region="/us/en" href="/us/en/home" class='desktopLanguageSelector'>United States</a></li><li><a data-region="/jp/ja" href="/jp/ja/home" class='desktopLanguageSelector'>日 本</a></li>	                                    </ul>    
+	                                </div>
+	                            </div>
+	                        </div>
+	                    </div>
+                	
+                            </div>
+        </div>
+    </div>
+
+    <div class="nav-wrapper container-fluid">
+        <div class="row">
+
+            
+                                <div class="hidden-sm-down">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="main-logo col-md-4">
+                                <a href="/jp/ja/home" target="_self">
+                                    <img class="logo" src="" alt="">
+                                </a>
+                            </div>
+
+                            <div class="top-level col-md-8">
+                                <ul class="text-right clean-list">
+
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                </ul>
+
+                                <div class="secondary utility visible-sm-down">
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <a class="btn-base btn-outline-dark" href="https://my.webrootanywhere.com/default.aspx?Langs=ja" target="_blank">マイアカウント</a>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <a class="btn-base btn-outline-dark" href="/jp/ja/cart" target="_self">カート</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                                                                	<div class="col-xs-12 col-sm-6">
+	                                            <div data-plugin="languageselector">
+	                                                <select id="region" name="region" class="form-control button mobileLanguageSelector form-control"><option value="/au/en/home">Australia</option><option value="/ca/en/home">Canada/English</option><option value="/de/de/home">Deutschland</option><option value="/es/es/home">España</option><option value="/fr/fr/home">France</option><option value="/hk/en/home">Hong Kong</option><option value="/in/en/home">India</option><option value="/it/it/home">Italia</option><option value="/ie/en/home">Ireland</option><option value="/mx/es/home">México</option><option value="/nl/nl/home">Nederland</option><option value="/nz/en/home">New Zealand</option><option value="/pt/pt/home">Portugal</option><option value="/ch/de/home">Schweiz</option><option value="/za/en/home">South Africa</option><option value="/ch/fr/home">Suisse</option><option value="/se/sv/home">Sverige</option><option value="/gb/en/home">United Kingdom</option><option value="/us/en/home">United States</option><option value="/jp/ja/home">日 本</option></select>	                                            </div>
+	                                        </div>
+
+	                                        <div class="col-xs-12 col-sm-6">
+	                                            <form action="/jp/ja/search" method="get" class="form-inline" name="siteSearch">
+	                                                <input name="q" type="text" placeholder="検索" value="" class="ccm-search-block-text form-control">
+	                                                <button type="submit"></button>
+	                                            </form>
+	                                        </div>
+	                                                                        </div>
+
+                                                                    </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                                <div class="visible-sm-down">
+                    <div class="container-fluid">
+                        <div class="row">
+
+                            <div class="main-logo col-xs-10 col-sm-10">
+                                <a href="/jp/ja/home" target="_self">
+                                    <img class="logo" src="" alt="">
+                                </a>
+                            </div>
+                            
+                            <div class="mobile-icon col-xs-2 col-sm-2">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse-group" aria-controls="nav-collapse-group">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <strong class="sr-only">
+                                        Toggle navigation
+                                    </strong>
+                                </button>
+                            </div>
+
+                        </div>
+                        <div class="mobile-menu row collapse" id="nav-collapse-group">
+                            <div class="top-level">
+                                <ul class="clean-list">
+
+                                    
+                                    
+                                    
+                                    
+                                    
+                                </ul>
+
+                                <div class="secondary utility visible-sm-down">
+                                    <div class="row">
+                                        <div class="col-xs-6">
+                                            <a class="btn-base btn-outline-dark" href="https://my.webrootanywhere.com/default.aspx?Langs=ja" target="_blank">マイアカウント</a>
+                                        </div>
+                                        <div class="col-xs-6">
+                                            <a class="btn-base btn-outline-dark" href="/jp/ja/cart" target="_self">カート</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                    	                                        	<div class="col-xs-12 col-sm-6">
+	                                            <div data-plugin="languageselector">
+	                                                <select id="region" name="region" class="form-control button mobileLanguageSelector form-control"><option value="/au/en/home">Australia</option><option value="/ca/en/home">Canada/English</option><option value="/de/de/home">Deutschland</option><option value="/es/es/home">España</option><option value="/fr/fr/home">France</option><option value="/hk/en/home">Hong Kong</option><option value="/in/en/home">India</option><option value="/it/it/home">Italia</option><option value="/ie/en/home">Ireland</option><option value="/mx/es/home">México</option><option value="/nl/nl/home">Nederland</option><option value="/nz/en/home">New Zealand</option><option value="/pt/pt/home">Portugal</option><option value="/ch/de/home">Schweiz</option><option value="/za/en/home">South Africa</option><option value="/ch/fr/home">Suisse</option><option value="/se/sv/home">Sverige</option><option value="/gb/en/home">United Kingdom</option><option value="/us/en/home">United States</option><option value="/jp/ja/home">日 本</option></select>	                                            </div>
+	                                        </div>
+
+	                                        <div class="col-xs-12 col-sm-6">
+	                                            <form action="/jp/ja/search" method="get" class="form-inline" name="siteSearch">
+	                                                <input name="q" type="text" placeholder="検索" value="" class="ccm-search-block-text form-control">
+	                                                <button type="submit"></button>
+	                                            </form>
+	                                        </div>
+	                                                                        </div>
+
+                                                                    </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            
+        </div>
+    </div>
+
+        
+    <input type="hidden" id="urlSlug" value=""><input type="hidden" id="bID" value="23355">
+</header>
+
+
+<main>
+
+    
+
+    
+<div class="block home_splash_page no_editor_content" data-name="home_splash_page-21273" >
+
+    <div class="container-fluid top-container full-height" style="background-image:url('https://www-cdn.webroot.com/3514/9082/2640/homepage-smarter-you-final.png')">
+        <div class="row">
+            <div class="col-sm-12 col-md-12">
+
+                <div class="row">
+                    <div class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-6 col-sm-3 col-sm-offset-8 col-xs-8 col-xs-offset-5">
+                        <span class="logo hidden-sm">
+                            <img src="https://www-cdn.webroot.com/6114/9987/6454/webroot-logo-corporate.svg" alt="Webroot Smarter Cybersecurity Solutions" class="text-left green-logo"/>
+                            <img src="https://www-cdn.webroot.com/3614/9987/8269/webroot-logo-corporate-black.svg" alt="Webroot Smarter Cybersecurity Solutions" class="black-logo"/>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-lg-offset-7 col-md-5 col-md-offset-6 col-sm-6 col-sm-offset-5 col-xs-10 col-xs-offset-2">
+                        <h1>次世代セキュリティ</h1>
+                        <p class="subhead">脅威に対するリアルタイム防御、相互接続された世界における法人および家庭の保護を実現するフルクラウドセキュリティを選択しよう</p>
+                        <div class="row">
+                            <div class="col-lg-6 col-lg-offset-2 col-md-6 col-md-offset-2 col-sm-7 col-sm-offset-2 col-xs-6 col-xs-offset-2">
+                                <p>
+                                    <a href="#video-smarter" data-toggle="modal" aria-hidden="true" class="btn-base btn-outline-white">ビデオを見る</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid segmentation no-gutters" data-equalize=".arrow_align_horizontally,.segment-tiles">
+        <div class="home-background segment-tiles col-sm-6">
+            <a href="/jp/ja/home" class="home-link"></a>
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-4 col-md-7 col-md-offset-2 col-sm-9 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    <h2>
+                        <a href="/jp/ja/home" class="arrow_align_horizontally">
+                            <div class="col-lg-11">個人、SOHO向け</div>
+                            <div class="col-lg-1 arrow-icon"><img src="https://www-cdn.webroot.com/8115/2242/7145/arrow-right.svg" class="arrow"></div>
+                        </a>
+                    </h2>
+                    <p>
+                        <a href="/jp/ja/home">
+                            シンプルで割安な、数々の賞を獲得しているセキュリティ製品がPC、Mac、モバイルなどご利用のあらゆる端末を保護                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="business-background segment-tiles col-sm-6">
+            <a href="/jp/ja/business" class="business-link"></a>
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-3 col-md-7 col-md-offset-2 col-sm-9 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+                    <h2>
+                        <a href="/jp/ja/business" class="arrow_align_horizontally">
+                            <div class="col-lg-11">ビジネス向け</div>
+                            <div class="col-lg-1 arrow-icon"><img src="https://www-cdn.webroot.com/8115/2242/7145/arrow-right.svg" class="arrow"></div>
+                        </a>
+                    </h2>
+                    <p>
+                        <a href="/jp/ja/business">
+                            次世代エンドポイントセキュリティ、ネットワーク防御、フルクラウド脅威インテリジェンスサービス、モバイルセキュリティ                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+            </div>
+
+    <div class="modal fade video-smarter" id="video-smarter" tabindex="-1" role="dialog" aria-labelledby="video-smarter-label">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="video-smarter-label">Video</h4>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://www.youtube-nocookie.com/embed/NxHwPkiqdQQ" height="320" width="568" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+</main>
+
+
+
+    
+<footer class="block footer_business">
+
+    
+    <div class="secondary">
+    	<div class="container">
+	        <div class="row">
+	        	                	<div class="col-sm-12 col-md-12 col-lg-12 trialLegalContainer">
+                	        		<div class="row">
+		                
+		                		                	<div class="col-sm-12 legalPrivacy text-center">
+		                		                    <ul class="list-inline">
+	<li class="hidden-xs">© 2004 - 2018 Webroot Inc.</li>
+	<li><a href="/jp/ja/legal">リーガル</a></li>
+	<li><a href="/jp/ja/legal/privacy">プライバシー</a></li>
+	<li><a href="/jp/ja/business/sitemap">サイトマップ</a></li>
+	<li><a href="/jp/ja">Webroot.com </a></li>
+</ul>
+		                </div>
+		            </div>
+	            </div>
+
+	            	        </div>
+	    </div>
+    </div>
+
+</footer>
+
+
+    </div> <!-- .ccm-page -->
+
+    
+    <script src="/application/javascript/webroot.min.js" defer></script>
+
+
+<script src="https://apis.google.com/js/platform.js" async defer></script>    <script type="text/javascript" src="/application/blocks/header_consumer/view.min.js"></script>
+<script type="text/javascript" src="/application/blocks/footer_business/view.min.js"></script>
+
+</body>
+</html>

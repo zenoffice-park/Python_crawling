@@ -1,0 +1,849 @@
+
+
+<!DOCTYPE html>
+<html ng-app="allSites" lang="en" xml:lang="en" class="">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+
+    
+
+        <title>Gardner Denver | World leading Industrial Manufacturer</title>
+        <meta name="description" content="World leading manufacturer of compressors, construction equipment, mining rock excavation and industrial tools helping you achieve sustainable productivity." />
+        <meta name="keywords" content="" />
+        <meta name="PageTag" content="Corporate, Homepage, en">
+
+    <link rel="icon" href="/images/logo.svg">
+    <link rel="icon" sizes="192x192" href="/images/logo.svg">
+    <link rel="icon" href="/images/logo.png">
+
+    <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6430774/678568/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/includes/allsites/css/main.min.css?15" />
+
+    <link rel="alternate" hreflang="fr" href="http://www.gardnerdenver.com/fr-fr" /><link rel="alternate" hreflang="es" href="http://www.gardnerdenver.com/es-es" /><link rel="alternate" hreflang="zh" href="http://www.gardnerdenver.com/zh-cn" /><link rel="alternate" hreflang="pt" href="http://www.gardnerdenver.com/pt-br" /><link rel="alternate" hreflang="pl" href="http://www.gardnerdenver.com/pl-pl" /><link rel="alternate" hreflang="en" href="http://www.gardnerdenver.com/en" /><link rel="alternate" hreflang="it" href="http://www.gardnerdenver.com/it-it" /><link rel="alternate" hreflang="de" href="http://www.gardnerdenver.com/de-de" /><link rel="alternate" hreflang="x-default" href="http://www.gardnerdenver.com/en" />
+    
+    <!-- Json-LD -->
+<script type="application/ld+json">
+{
+    "@context": "http://www.schema.org/",
+    "@type": "WebSite",
+    "name": "Gardner Denver",
+    "url": "http://www.gardnerdenver.com/en",
+    "title": "Gardner Denver | World leading Industrial Manufacturer",
+    "description": "World leading manufacturer of compressors, construction equipment, mining rock excavation and industrial tools helping you achieve sustainable productivity."
+}
+</script>
+<!-- End Json-LD -->
+
+    <!-- Twitter Card data -->
+<meta name="twitter:@card" content="summary">
+<meta name="twitter:@site" content="@gardnerdenver">
+<meta name="twitter:title" content="Gardner Denver | World leading Industrial Manufacturer">
+<meta name="twitter:description" content="World leading manufacturer of compressors, construction equipment, mining rock excavation and industrial tools helping you achieve sustainable productivity."><!-- End Twitter Card data -->
+
+    <!-- Open Graph data -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="gardnerdenver.com" />
+<meta property="og:title" content="Gardner Denver | World leading Industrial Manufacturer" />
+<meta property="og:description" content="World leading manufacturer of compressors, construction equipment, mining rock excavation and industrial tools helping you achieve sustainable productivity." /><!-- End Open Graph data -->
+
+    
+<meta name="VIcurrentDateTime" content="636670470236343142" />
+<script type="text/javascript" src="/layouts/system/VisitorIdentification.js"></script>
+
+
+    <link rel="canonical" href="http://www.gardnerdenver.com/en" />
+</head>
+
+
+<body id="GDI">
+
+	<div class="wrapper">
+
+
+
+	<script>
+      window.dataSource = 'C1DD338C-8F71-47DA-A5BF-459CFB6CB3DB';
+    window.cssStyle = 'GardnerDenver.Data.Models.sitecore.templates.GardnerDenver.Global_Content.SitesStyles';
+    window.logoUrl = '/-/media/images/logos/gdi_logo.ashx';
+        window.globalItemsSource = '47EE2CCF-F0FF-4075-9582-016B3E49C282';
+    window.helpSlider = {};
+    window.helpSlider.Id = '';
+	</script>
+        <!-- Pasek z wyborem jezyka -->
+		<nav class="container-max-width headerGDI ">
+			<div class="container-language">
+				<div class="container">
+					<ul style="list-style-type: none;">
+						<li id="regionSelector">
+							<a class="pull-right" data-toggle="modal" data-target="#regionForm" data-form-id="9090" title="Contact Us" data-linkloc="topmenu"> Japan- Change Region</a>
+							<div class="modal fade" id="regionForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<region-form></region-form>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- logo w lewym gornym rogu -->
+			<div class="container">
+				<div id="logo" class="pull-left ">
+					<a id="gkn-logo" href="/en" title="Gardner Denver">
+						<img src="/-/media/images/logos/gdi_logo.ashx" alt="Gardner Denver" class="svg-logo" />
+					</a>
+				</div>
+
+				<!-- Mała nawigacja w prawym gornym -->
+				<div id="sub-nav" class="pull-right hidden-xs hidden-sm">
+					<ul>
+						<li>
+							<a href="/en" id="homeicon">
+								<img src="/images/icons/home.svg" width="50" height="30" class="home-svg">
+								<img src="/images/icons/hom.png" width="50" height="30" class="home-png" />
+							</a>
+						</li>
+
+						<!--Contact us modal link-->
+							<li class="contactForm"><a href="/en/modals/contact-us-3-column-window" id="filled" class="ls-modal" data-toggle="modal" data-target="#ContactFormHtml" title="Contact Us">Contact Us</a></li>
+
+						<!-- Other links, without search link -->
+
+<li id="languagechange" class="dropdown">
+<a class="brandbackgroundhover dropdown-toggle" href="#" data-toggle="dropdown" type="button">English</a>
+<ul class="dropdown-menu restyledLanguageDropdownGDI">
+    <li><a href="/de-de/">Deutsch</a></li>
+    <li><a href="/en/">English</a></li>
+    <li><a href="/es-es/">Espa&ntilde;ol</a></li> 
+    <li><a href="/fr-fr/">Français</a></li> 
+    <li><a href="/it-it/">Italiano</a></li>
+    <li><a href="/pl-pl/">Polski</a></li>
+    <li><a href="/pt-br/">Portuguese (Brasil)</a></li>
+    <li><a href="/zh-cn/">汉语(中华人民共和国)</a></li>
+</ul>
+</li>                            <!--Last link is Search field-->
+						<li>
+							<!-- Form's action must be the results page's URL -->
+							<form method="get" action="/en/Search-results">
+								<!-- Search field's name must be addsearch -->
+								<input type="text" name="addsearch" placeholder="Search" />
+							</form>
+						</li>
+
+					</ul>
+				</div>
+
+				<!-- Mobile menu -->
+
+				<nav id="menu" class="mobile-menu-inner" ng-controller="mobileMenuAnimatedController">
+					<a class="mm-btn pull-right closebutton" href="#mm-0" aria-owns="mm-0">
+						<span class="glyphicon glyphicon-remove"></span>
+					</a>
+					<ul>
+						<li>
+							<form method="get" action="/Search-results">
+								<!-- Search field's name must be addsearch -->
+								<input type="text" name="addsearch" placeholder="Search" class="mobile-search" />
+							</form>
+						</li>
+
+								<li>
+									<a href="/en/industries" class="brandbackgroundhover">Industries</a>
+								</li>
+								<li>
+									<a href="/en/industrials-group" class="brandbackgroundhover">Segments</a>
+								</li>
+								<li>
+									<a href="/en/brands-overview" class="brandbackgroundhover">Our Brands</a>
+								</li>
+							<br />
+														<li>
+									<a href="/en/about" class="brandbackgroundhover">About</a>
+								</li>
+								<li>
+									<a href="/en/news" class="brandbackgroundhover">News</a>
+								</li>
+								<li>
+									<a href="http://investors.gardnerdenver.com" class="brandbackgroundhover">Investors</a>
+								</li>
+								<li>
+									<a href="/en/careers" class="brandbackgroundhover">Careers</a>
+								</li>
+							<br />
+
+
+
+                                    <li>
+                                                <a href="/en/modals/contact-us-3-column-window" id="filled" class="ls-modal brandbackgroundhover" data-toggle="modal" data-target="#ContactFormHtml" title="Contact Us">Contact Us</a>
+                                    </li>						<li id="languagechange" class="dropdown">
+<a class="brandbackgroundhover dropdown-toggle" href="#" data-toggle="dropdown" type="button">English</a>
+<ul class="dropdown-menu restyledLanguageDropdownGDI">
+    <li><a href="/de-de/">Deutsch</a></li>
+    <li><a href="/en/">English</a></li>
+    <li><a href="/es-es/">Espa&ntilde;ol</a></li> 
+    <li><a href="/fr-fr/">Français</a></li> 
+    <li><a href="/it-it/">Italiano</a></li>
+    <li><a href="/pl-pl/">Polski</a></li>
+    <li><a href="/pt-br/">Portuguese (Brasil)</a></li>
+    <li><a href="/zh-cn/">汉语(中华人民共和国)</a></li>
+</ul>
+</li>                                    <li>
+                                                <a href="/en/officelocator" class="brandbackgroundhover">Office Locator</a>
+                                    </li>												</ul>
+					</nav>
+				<a href="#menu" class="openbtn pull-right hidden-md hidden-lg">
+					<div class="bar1 brandbackground"></div>
+					<div class="bar2 brandbackground"></div>
+					<div class="bar3 brandbackground"></div>
+				</a>
+
+
+			</div>
+
+
+
+			<!-- Głowna nawigacja -->
+			<div class="container hidden-sm hidden-xs">
+				<div class="pull-right" id="navbarr">
+					<div class="pull-left centermenu">
+						<ul>
+									<li>
+										<a href="/en/industries" class="center">Industries</a>
+									</li>
+									<li>
+										<a href="/en/industrials-group" class="center">Segments</a>
+									</li>
+									<li>
+										<a href="/en/brands-overview" class="center">Our Brands</a>
+									</li>
+						</ul>
+					</div>
+
+					<div class="pull-right inline">
+						<ul>
+									<li>
+										<a href="/en/about" class="side">About</a>
+									</li>
+									<li>
+										<a href="/en/news" class="side">News</a>
+									</li>
+									<li>
+										<a href="http://investors.gardnerdenver.com" class="side">Investors</a>
+									</li>
+									<li>
+										<a href="/en/careers" class="side">Careers</a>
+									</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+		
+        <section class="container-max-width photo-full-width-title"  style="background-image:url(&#39;/-/media/images/gdi/gdi---banner-images/pureair.ashx&#39;)">
+            <div class="container-max-width shadow">
+                <div class="titles">
+                    <h1>Keep Your Business Moving</h1>
+                    <h2>Our innovative flow control solutions accelerate mission-critical applications worldwide</h2>
+
+                    <a href="/en/industrials-group" HideDescription="True">
+
+                        <div class="row">
+                            <a class="button red" href="/en/industrials-group">Find out more</a>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+        <div class="  ">
+            <div class="container-max-width">
+                <div class="container">
+                    <div class="html-content">
+
+                        <div class="row">
+                            <div class="col-sm-8 col-md-12 col-xs-12">
+                                <div class="container-extra-small">
+<h3>Gardner Denver Reports Record First Quarter 2018 Results and Increases EBITDA Guidance for Full Year</h3>
+<p>Gardner Denver Holdings, Inc. (NYSE: GDI) announced today first quarter revenues of $619.6 million, up 29% compared to the prior year and a 22% increase excluding the impact of foreign currency (“FX”).</p>
+<p><a style="color: #da1a31;" href="http://investors.gardnerdenver.com/press-releases/2018/04-26-2018-211531310"><strong>Read More ></strong></a></p>
+</div>
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container-max-width">
+            <div class="phototiles breaklines container-extra-small nopadding">
+                <div class="row">
+                    <div class="col-sm-4 col-xs-12 corridor">
+                        <div class="item">
+							<a href="/en/industries/pharmaceuticals">
+								<div class="title">
+									<h5>
+Pharmaceuticals
+									</h5>
+								</div>
+								<div class="hovereffect">
+											<img class="img-responsive" src="/-/media/images/gdi/industries/pharmaceuticals.ashx?w=263" />
+									<div class="overlay">
+										<div class="info">
+											<p>
+												<p>Our wide selection of flow control systems helps to facilitate cleaner, smarter and more reliable processes for pharmaceuticals manufacturers.</p>
+											</p>
+										</div>
+
+										<p>
+											<span>Learn More</span>
+										</p>
+
+									</div>
+								</div>
+								</a>
+
+</div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12 corridor">
+                        <div class="item">
+							<a href="/en/industries/green-technology">
+								<div class="title">
+									<h5>
+Green Technologies
+									</h5>
+								</div>
+								<div class="hovereffect">
+											<img class="img-responsive" src="/-/media/images/gdi/industries/greentechnology.ashx?w=263" />
+									<div class="overlay">
+										<div class="info">
+											<p>
+												<p>Our energy-saving flow control systems unlock more sustainable methods for preserving natural resources and producing renewable energy.</p>
+											</p>
+										</div>
+
+										<p>
+											<span>Learn More</span>
+										</p>
+
+									</div>
+								</div>
+								</a>
+
+</div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12 corridor">
+                        <div class="item">
+							<a href="/en/industries/oil-and-gas">
+								<div class="title">
+									<h5>
+Oil and Gas
+									</h5>
+								</div>
+								<div class="hovereffect">
+											<img class="img-responsive" src="/-/media/images/gdi/industries/oil-and-gas.ashx?w=263" />
+									<div class="overlay">
+										<div class="info">
+											<p>
+												<p>Gardner Denver's engineered solutions have kept the oil patch operating safely and efficiently for more than 100 years.</p>
+											</p>
+										</div>
+
+										<p>
+											<span>Learn More</span>
+										</p>
+
+									</div>
+								</div>
+								</a>
+
+</div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12 corridor">
+                        <div class="item">
+							<a href="/en/industries/labs-and-lifescience">
+								<div class="title">
+									<h5>
+Life sciences and Laboratories
+									</h5>
+								</div>
+								<div class="hovereffect">
+											<img class="img-responsive" src="/-/media/images/gdi/industries/life-sciences-and-laboratories.ashx?w=263" />
+									<div class="overlay">
+										<div class="info">
+											<p>
+												<p>Increasing efficiency &amp; reducing maintenance, our medical technologies help scientists, researchers &amp; medical professionals increase their impact- from the lab to the lives of patients.</p>
+											</p>
+										</div>
+
+										<p>
+											<span>Learn More</span>
+										</p>
+
+									</div>
+								</div>
+								</a>
+
+</div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12 corridor">
+                        <div class="item">
+							<a href="/en/industries/mining-construction">
+								<div class="title">
+									<h5>
+Mining and Construction
+									</h5>
+								</div>
+								<div class="hovereffect">
+											<img class="img-responsive" src="/-/media/images/gdi/industries/mining-and-construction.ashx?w=263" />
+									<div class="overlay">
+										<div class="info">
+											<p>
+												With mining and construction expertise tracing back to our roots, Gardner Denver designs solutions for longer service life and improved operating efficiency.
+											</p>
+										</div>
+
+										<p>
+											<span>Learn More</span>
+										</p>
+
+									</div>
+								</div>
+								</a>
+
+</div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12 corridor">
+                        <div class="item">
+							<a href="/en/industries/food-and-beverage">
+								<div class="title">
+									<h5>
+Food and Beverage
+									</h5>
+								</div>
+								<div class="hovereffect">
+											<img class="img-responsive" src="/-/media/images/gdi/industries/food-and-beverage.ashx?w=263" />
+									<div class="overlay">
+										<div class="info">
+											<p>
+												Our flow control solutions keep factories running smoothly, increasing reliability while helping to make every manufacturer's business more sustainable.
+											</p>
+										</div>
+
+										<p>
+											<span>Learn More</span>
+										</p>
+
+									</div>
+								</div>
+								</a>
+
+</div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12 corridor">
+                        <div class="item">
+							<a href="/en/industries/general-industrial">
+								<div class="title">
+									<h5>
+General Manufacturing
+									</h5>
+								</div>
+								<div class="hovereffect">
+											<img class="img-responsive" src="/-/media/images/gdi/industries/general-manufacturing.ashx?w=263" />
+									<div class="overlay">
+										<div class="info">
+											<p>
+												Air compressors, blowers, pumps, loading arms, fuel systems and other flow control solutions designed to meet unique industry challenges all over the world.
+											</p>
+										</div>
+
+										<p>
+											<span>Learn More</span>
+										</p>
+
+									</div>
+								</div>
+								</a>
+
+</div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12 corridor">
+                        <div class="item">
+							<a href="/en/industries/automotive">
+								<div class="title">
+									<h5>
+Automotive
+									</h5>
+								</div>
+								<div class="hovereffect">
+											<img class="img-responsive" src="/-/media/images/gdi/industries/automotive.ashx?w=263" />
+									<div class="overlay">
+										<div class="info">
+											<p>
+												Gardner Denver helps the automotive industry accelerate the speed of service and production with a broad selection of reliable compression and vacuum systems.
+											</p>
+										</div>
+
+										<p>
+											<span>Learn More</span>
+										</p>
+
+									</div>
+								</div>
+								</a>
+
+</div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12 corridor">
+                        <div class="item">
+							<a href="/en/industries/aerospace">
+								<div class="title">
+									<h5>
+Aerospace
+									</h5>
+								</div>
+								<div class="hovereffect">
+											<img class="img-responsive" src="/-/media/images/gdi/industries/aerospace.ashx?w=263" />
+									<div class="overlay">
+										<div class="info">
+											<p>
+												Leveraging decades of aerospace expertise, our solutions deliver a reliable source of air or gas in highly volatile environments.
+											</p>
+										</div>
+
+										<p>
+											<span>Learn More</span>
+										</p>
+
+									</div>
+								</div>
+								</a>
+
+</div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12 corridor">
+                        <div class="item">
+							<a href="/en/industries/transportation">
+								<div class="title">
+									<h5>
+Transportation and Logistics
+									</h5>
+								</div>
+								<div class="hovereffect">
+											<img class="img-responsive" src="/-/media/images/gdi/industries/transportationlogistics.ashx?w=263" />
+									<div class="overlay">
+										<div class="info">
+											<p>
+												Gardner Denver's flow control expertise fuels smarter, safer transportation for millions around the world.
+											</p>
+										</div>
+
+										<p>
+											<span>Learn More</span>
+										</p>
+
+									</div>
+								</div>
+								</a>
+
+</div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12 corridor">
+                        <div class="item">
+							<a href="/en/industries/chemical">
+								<div class="title">
+									<h5>
+Chemicals
+									</h5>
+								</div>
+								<div class="hovereffect">
+											<img class="img-responsive" src="/-/media/images/gdi/industries/chemical.ashx?w=263" />
+									<div class="overlay">
+										<div class="info">
+											<p>
+												Gardner Denver partners with chemical processors to deliver custom solutions that improve safety, maintain strict quality standards and reduce maintenance.
+											</p>
+										</div>
+
+										<p>
+											<span>Learn More</span>
+										</p>
+
+									</div>
+								</div>
+								</a>
+
+</div>
+                    </div>
+                    <div class="col-sm-4 col-xs-12 corridor">
+                        <div class="item">
+							<a href="/en/industries/power-generation">
+								<div class="title">
+									<h5>
+Power Generation
+									</h5>
+								</div>
+								<div class="hovereffect">
+											<img class="img-responsive" src="/-/media/images/gdi/industries/powergeneration.ashx?w=263" />
+									<div class="overlay">
+										<div class="info">
+											<p>
+												An industry supplier for more than 50 years, Gardner Denver designs complete systems that aid in the safe, economical generation of power.
+											</p>
+										</div>
+
+										<p>
+											<span>Learn More</span>
+										</p>
+
+									</div>
+								</div>
+								</a>
+
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class=" ">
+            <div class="container-max-width map">
+                <div class="container title-md-4-8">
+
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-4 text">
+                            <div class="growing-global">
+                            <h3>Growing Global</h3>
+                            <p>With locations in 34 countries and counting, Gardner Denver offers strategic support for customers anywhere in the world.</p>
+
+                                    
+
+                                        <a href="/en/officelocator" class="button red">Find a Location &gt;</a>
+                                                                     
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-8">
+							<div class="background">
+
+								<img src="/-/media/images/gdi/gdcom-homepage/mapgardner.ashx?h=380&amp;la=en&amp;w=760" class="responsive" alt="Gardner Denver Map" width="760" height="380" />
+							</div>
+							</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <footer class="container-max-width ">
+            <div class="container-extra-small">
+                <div class="row upperpadding">
+                    <div class="col-sm-4">
+                        <a href="/">
+                            <img src="/images/icons/logo_white.png">
+                        </a>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="row">
+                            <h4>Site</h4>
+                            <div class="col-sm-6 left">
+                                <ul>
+                                            <li>
+                                                <a href="/en" >Home</a>
+                                            </li>
+                                            <li>
+                                                <a href="/en/industries" >Industries</a>
+                                            </li>
+                                            <li>
+                                                <a href="/en/industrials-group" >Segments</a>
+                                            </li>
+                                            <li>
+                                                <a href="/en/brands-overview" >Our Brands</a>
+                                            </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6 left">
+                                <ul>
+                                            <li>
+                                                <a href="/en/about">About</a>
+                                            </li>
+                                            <li>
+                                                <a href="http://investors.gardnerdenver.com/">Investors</a>
+                                            </li>
+                                            <li>
+                                                <a href="/en/careers">Careers</a>
+                                            </li>
+                                            <li>
+                                                <a href="/en/legal">Legal</a>
+                                            </li>
+                                            <li>
+                                                <a href="/en/terms/cookie-policy">Cookie-Policy</a>
+                                            </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 left">
+                        <h4>Worldwide</h4>
+<p>With locations in over 30 countries, Gardner Denver is strategically positioned to support its customers anywhere in the world.
+</p>
+                        <a href="/en/officelocator"><img src="/images/icons/layer_15.png">FIND A LOCATION</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-max-width footerLowerGDI">
+                <div class="container-extra-small" id="copyright">
+                    Copyright 2018 © Gardner Denver, Inc.
+                    <a href="/terms">Terms of Use | Privacy Policy</a>
+                    
+                </div>
+            </div>
+        </footer>
+	</div>
+
+	
+	
+
+
+<!-- Global site tag (gtag.js) - Google AdWords: 921834871 -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-817476592"></script>
+
+<!-- Tracking of "success filling of contact form" is implemented in Martins forms logics-->
+
+	
+	
+            <script>
+
+                if (window.location.hostname.indexOf('www') > -1) {
+
+                    //Google Tracking
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag() { dataLayer.push(arguments); }
+                    gtag('js', new Date());
+                    gtag('config', 'UA-1226579-3');                   
+                    gtag('config', 'AW-817476592');
+
+                    //Eloqua Tracking
+                    var _elqQ = _elqQ || [];
+                    _elqQ.push(['elqSetSiteId', '804077455']);
+                    _elqQ.push(['elqTrackPageView']);
+
+                    function tracking() {
+                        function async_load() {
+                            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+                            s.src = '//img06.en25.com/i/elqCfg.min.js';
+                            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+                        }
+                        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+                        else if (window.attachEvent) window.attachEvent('onload', async_load);
+                    }
+
+                    var timerId = null, timeout = 5;
+                    function WaitUntilCustomerGUIDIsRetrieved() {
+                        if (!!(timerId)) {
+                            if (timeout == 0) {
+                                return;
+                            }
+                        }
+                        timerId = setTimeout("WaitUntilCustomerGUIDIsRetrieved()", 500);
+                        return;
+                    }
+                    tracking();
+                    window.onload = WaitUntilCustomerGUIDIsRetrieved;
+                    _elqQ.push(['elqGetCustomerGUID']);
+                }
+
+            </script> 
+
+	
+	
+
+<!-- Jquery with local fallback -->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script>
+	if (typeof jQuery === 'undefined') {
+		document.write(unescape("%3Cscript src='/includes/ALLSITES/fallback-modules-autogenerated/jquery/dist/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+	}
+</script>
+
+
+<!-- Bootstrap CSS with local fallback -->
+<div id="bootstrapCssTest" class="hidden"></div>
+<script>
+	$(function () {
+		if ($('#bootstrapCssTest').is(':visible')) {
+			$("head").prepend('<link rel="stylesheet" href="/includes/ALLSITES/fallback-modules-autogenerated/bootstrap/dist/css/bootstrap.min.css">');
+		}
+	});
+</script>
+
+<script src="/includes/ALLSITES/No-NPM-modules/slick/slick/slick.min.js" type="text/javascript"></script>
+
+<!-- Angular with local fallback -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js" type="text/javascript"></script>
+<script>
+	if (typeof angular === 'undefined') {
+		document.write(unescape("%3Cscript src='/includes/ALLSITES/fallback-modules-autogenerated/angular/angular.min.js' type='text/javascript'%3E%3C/script%3E"));
+	}
+</script>
+
+<!-- Bootstrap JS with local fallback -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+<script>
+	if (typeof ($.fn.modal) === 'undefined') {
+		document.write(unescape("%3Cscript src='/includes/ALLSITES/fallback-modules-autogenerated/bootstrap/dist/js/bootstrap.min.js' type='text/javascript'%3E%3C/script%3E"));
+	}
+</script>
+
+<!-- Mobile menu script, for some strange reason (probably angular issues) its not working when loaded from app.js and bundled -->
+<script type="text/javascript" src="/includes/ALLSITES/No-NPM-modules/jquery-mmenu/jQuery.mmenu-master/dist/jquery.mmenu.js"></script>
+
+	
+	<script defer src="/includes/allsites/js/app.min.js?15" type="text/javascript"></script>
+
+	
+	
+<div id="ContactFormHtml" class="modal"
+             role="dialog">  
+    
+</div>
+<div id="ContactThanksHtml"class="modal"
+             role="dialog">
+    
+        <div id="ModalContainer" class="fade in">
+            <div class="modal-dialog modal-lg">
+                <div>                   
+                        <div id="ModalContent" role="document">
+
+                        </div>
+
+                    </div>
+
+            </div>
+        </div>
+    
+</div>   
+    <script>
+        window.DefaultLanguage = 'en';
+    </script>
+
+</body>
+</html>

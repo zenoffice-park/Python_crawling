@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="jp-JP">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2018 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+<base href="https://www.cropster.com/">
+<link rel="shortcut icon" href="/fileadmin/template/img/favicon.png" type="image/png">
+<title>Cropster: ホームページ</title>
+<meta name="generator" content="TYPO3 CMS">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=1">
+
+
+
+<style type="text/css">
+/*<![CDATA[*/
+<!-- 
+/*additionalTSFEInlineStyle*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video,button,input,select{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}button,input{border:none;outline:none;box-shadow:none;border-radius:0;-webkit-appearance:none}*{box-sizing:border-box}input,select,label,textarea{display:block;width:100%}textarea{height:250px}a{color:#60a425;transition:all .2s ease-in-out;text-decoration:none;border-bottom:2px solid transparent}a:hover{border-bottom:2px solid}a.active{border-bottom:2px solid}img{max-width:100%;height:auto}h2{text-align:center}p,ul,ol{margin:8.5px 0 17px 0}p:last-child,ul:last-child,ol:last-child{margin-bottom:0}p{max-width:720px;letter-spacing:0.03em;color:#424c5b}ul{list-style:disc;padding-left:1.5em;letter-spacing:0.03em}i{font-style:italic}ul.plain,ol.plain{list-style:none;padding:0}.clear{clear:both}option{color:#000}table{border:1px solid;border-collapse:collapse}td,th{border:1px solid;padding:3px 5px;vertical-align:middle;text-align:center}th{font-weight:bold}.jslghtbx{font-family:sans-serif;overflow:auto;visibility:hidden;position:fixed;z-index:2;left:0;top:0;width:100%;height:100%;background-color:transparent}.jslghtbx.jslghtbx-active{visibility:visible;background-color:rgba(0,0,0,0.85)}body{font-family:"Noto Sans","Roboto","Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;font-weight:400;font-size:1em;line-height:1.4444444444em;color:#333B46}h1{font-size:2.2777777778em;line-height:1.2;padding:.7826086957em 0 .7826086957em 0;text-shadow:3px 3px 5px rgba(0,0,0,0.3)}h2{font-size:1.7777777778em;line-height:1.2;padding:1.125em 0 1.125em 0}h3{font-size:1.4444444444em;line-height:1.2;padding:1.3846153846em 0 .6923076923em 0}h4{font-size:1.1111111111em;line-height:1.5;padding:1.8em 0 .9em 0}.highlight,strong,b{font-weight:700}h1 .highlight,h2 .highlight,h3 .highlight,h1 strong,h2 strong,h3 strong,h1 b,h2 b,h3 b{font-family:"Lora","Georgia",serif;color:#60a425}.product--origin h1 .highlight,.product--origin h2 .highlight,.product--origin h3 .highlight,.product--origin h1 strong,.product--origin h2 strong,.product--origin h3 strong,.product--origin h1 b,.product--origin h2 b,.product--origin h3 b{color:#3a8a9d}.product--roast h1 .highlight,.product--roast h2 .highlight,.product--roast h3 .highlight,.product--roast h1 strong,.product--roast h2 strong,.product--roast h3 strong,.product--roast h1 b,.product--roast h2 b,.product--roast h3 b{color:#d2443d}.product--lab h1 .highlight,.product--lab h2 .highlight,.product--lab h3 .highlight,.product--lab h1 strong,.product--lab h2 strong,.product--lab h3 strong,.product--lab h1 b,.product--lab h2 b,.product--lab h3 b{color:#44a378}.product--hub h2 .highlight,.product--hub h3 .highlight,.product--hub h2 strong,.product--hub h3 strong,.product--hub h2 b,.product--hub h3 b{color:#984782}.product--hub h1 .highlight,.product--hub h1 strong,.product--hub h1 b{color:#984782;text-shadow:3px 3px 5px rgba(0,0,0,0.3)}.news strong,.news b{color:#000}.news a b{color:#60a425}.highlight--weak{font-style:italic}.font--small{font-size:0.8em;line-height:1.3em}.font--small a:hover{border-bottom-width:1px}.wrapper{max-width:1200px;margin:0 auto;padding:20px}.color__switch{width:100px;height:100px;display:inline-block}.color--primary{background-color:#60a425}.color--secondary{background-color:#6e8595}.color--lab{background-color:#44a378}.color--origin{background-color:#3a8a9d}.color--roast{background-color:#d2443d}.color--hub{background-color:#984782}.color--dark-grey{background-color:#333B46}.color--light-grey{background-color:#f3f5f6}.wrapper__main{max-width:1280px;padding:0 40px;margin:0 auto}.row{font-size:0}.column__size1of2,.column__size1of3,.column__size1of4,.column__size2of3{display:inline-block;vertical-align:top;font-size:16px}.column__size1of2{width:50%;padding:0 50px 0 0}.column__size1of2:nth-child(2n){padding:0 0 0 50px}.column__size1of3{width:31.5%;margin-right:1.9%}.column__size1of3:nth-child(3n){margin-right:0}.column__size1of3:last-child{margin-right:0}.column__size2of3{width:63%;margin-right:1.9%}.column__size2of3:nth-child(2n){margin-right:0}.column__size2of3:last-child{margin-right:0}.column__size1of4{width:23%;margin-right:1.9%;margin-bottom:1.9%}.column__size1of4.card{width:24%;margin-right:1%}.column__size1of4:nth-child(4n){margin-right:0}.column__last-item{margin-right:0}.column40{width:40%;display:inline-block}.full-width>.wrapper__main{max-width:none;padding:0}.small-width>.wrapper__main{max-width:800px}.padding-top{padding-top:50px}.padding-top--small{padding-top:10px}.padding-top--medium{padding-top:15px}.padding-bottom{padding-bottom:50px}.padding-bottom--medium{padding-bottom:20px}.centered p,.is-centered p,p.is-centered,p.centered{margin-left:auto;margin-right:auto}.centered,.is-centered,.align-center{text-align:center}.centered .button,.centered input[type=submit],.centered input[type=button],.centered button,.is-centered .button,.is-centered input[type=submit],.is-centered input[type=button],.is-centered button,.align-center .button,.align-center input[type=submit],.align-center input[type=button],.align-center button{margin-left:auto;margin-right:auto}.align-right{text-align:right}.align-left{text-align:left}.align-left h2,.align-left h3{text-align:left}.section--padding{padding:70px 0}.section--padding>.wrapper__main h2:first-child,.section--padding>.wrapper__main h1:first-child{padding-top:0}.section--padding-extra{padding:100px 0}.customer-map__container{width:100%;padding-bottom:56.25%;position:relative}.customer-map__inner{position:absolute;left:0;top:0;width:100%;height:100%}.customer-map__wrapper{width:60%;float:right;margin:40px 0 70px 0}.customer-map{width:100%;height:100%}.customer-map svg{overflow:visible !important}.customer-map__info{padding:20px 0 0 0}.customer-map__info>*{text-align:left;width:40%}.is-centered ul{list-style:none}.is-hidden{display:none !important}.header__container>.wrapper__main{max-width:none}.header__container{z-index:1;position:relative}.main-logo{display:inline-block;width:150px;margin:20px 18px;border-bottom:none}.main-logo:hover,.main-logo:active,.main-logo:focus{border-bottom:none}.main-logo>img{display:block;width:100%;height:auto}.header{background:#333B46 no-repeat 50% 50%;max-height:80vh;min-height:380px;position:relative;background-size:cover;text-align:center}.header h1{color:#fff;text-align:center;padding-bottom:20px}.header p{color:#fff;text-align:center;margin:0 auto 20px auto;max-width:810px}.header a{color:#fff}.header .bodytext a:not(.button):not(input[type=submit]):not(input[type=button]):not(button){color:#60a425}.header:after{content:'';display:block;position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:none;background-color:rgba(51,59,70,0.7)}.header--light .header:after{display:none}.header__wrapper{position:absolute;z-index:2;left:0;top:0;width:100%;height:100%}.header__image{width:100%;z-index:0;display:block;position:relative;opacity:0}.nav__main{position:fixed;top:0;width:100%;z-index:100;height:75px;background:rgba(51,59,70,0);transition:all 0.3s ease-in-out}.nav__main.is-fixed{background:#333B46;background:rgba(51,59,70,0.9)}.nav__main .form--select{vertical-align:bottom;margin:0;background:transparent url("/fileadmin/template/img/icons/arrow-down.svg") no-repeat 90% 50%;color:#fff;border:1px solid #fff !important;width:120px;text-transform:none;padding-left:5px}.nav__main .form--select select{color:#fff;text-transform:none}.nav__main--list{float:right;margin:0;padding:0;list-style:none;margin:10px 12px 0 0;letter-spacing:0}.nav__main--list li{display:inline-block;margin-left:20px;vertical-align:middle;text-transform:uppercase;position:relative;padding:0 5px}.nav__main--list li>a{border:none}.nav__main--list li.active>a,.nav__main--list li>a.active{color:#78ce2e}.nav__main--list .button,.nav__main--list input[type=submit],.nav__main--list input[type=button],.nav__main--list button{text-transform:none;margin-bottom:0}.nav__main--list__item{line-height:50px;vertical-align:middle;color:#fff;border:none;cursor:pointer}.nav__main--list__item:hover,.nav__main--list__item:focus{border:none;color:#78ce2e}.nav__main--list__item:hover.button--secondary,.nav__main--list__item:focus.button--secondary{color:#fff}.nav__main--more{display:none}.nav__main__sub--indicator{background:transparent url("/fileadmin/template/img/icons/icon-submenue.png") no-repeat;width:20px;height:20px;vertical-align:middle;display:inline-block;background-size:55%;background-position:center;-ms-transform:rotate(0deg);transform:rotate(0deg);-ms-transform-origin:center;transform-origin:center;transition:all 0.3s ease-in-out;margin-left:3px}li:hover .nav__main__sub--indicator,li:focus .nav__main__sub--indicator{-ms-transform:rotate(-180deg);transform:rotate(-180deg)}.nav__main--list>li.has-submenu:before{content:"";display:block;position:absolute;top:100%;left:10%;margin-top:-7px;width:0;height:0;border-left:7px solid transparent;border-right:7px solid transparent;border-bottom:7px solid rgba(150,150,150,0.8);opacity:0;-ms-transform:translate(0, 7px);transform:translate(0, 7px);z-index:0;transition:all 0.3s ease-in-out}.nav__main--list>li.has-submenu:hover:before,.nav__main--list>li.has-submenu:focus:before{opacity:1;-ms-transform:translate(0, 0);transform:translate(0, 0)}.nav__main__sub{display:block;position:absolute;top:100%;left:0;right:-30px;max-height:0;min-width:140px;padding:0;overflow:hidden;transition:all 0.3s ease-in-out;background:#969696;background:rgba(150,150,150,0.9);border-radius:3px;margin:0px 0 0 0;font-size:0.8em}li:hover>.nav__main__sub,li:focus>.nav__main__sub{max-height:250px}.nav__main__sub>li{display:block;width:100%;padding:0;margin:0}.nav__main__sub>li>a{display:block;transition:all 0.2s ease-in-out;padding:5px 15px;border:none;color:#fff}.nav__main__sub>li>a:hover,.nav__main__sub>li>a:focus,.nav__main__sub>li>a.active{color:#fff;background:#60a425}.nav__main__sub>li>a[target='_blank']{position:relative}.nav__main__sub>li>a[target='_blank']:after{content:'';display:inline-block;position:absolute;width:12px;height:18px;background:url(/fileadmin/template/img/icons/icon-new-window-link.png) no-repeat;background-size:100% auto;right:10px;top:13px}.header__wrapper--txt{max-width:1200px;margin:90px auto 0 auto;text-align:center;color:#fff}.header__wrapper--txt .button,.header__wrapper--txt input[type=submit],.header__wrapper--txt input[type=button],.header__wrapper--txt button{display:inline-block}.header__text__sub{color:#fff;margin:0;position:absolute;bottom:10px;left:0;right:0}.header__text__top{text-transform:uppercase;letter-spacing:3px;padding-top:20px}.header__text__top+h1{padding-top:5px}.secondary-nav__container{background:#fff;z-index:99}.secondary-nav--is-fixed .secondary-nav__container{position:fixed;top:70px;left:0;right:0;border-bottom:3px solid #e4e8eb}.secondary-nav--is-fixed .header{margin-bottom:153px}.secondary-nav{list-style:none;text-align:center;padding:0;margin:0 auto;background:#fff;letter-spacing:0;font-size:0}.secondary-nav>li{display:inline-block;padding:0;margin:0;transition:all 0.2s ease-in-out;font-size:16px}.secondary-nav--is-fixed .secondary-nav>li .secondary-nav__item{font-size:.7777777778em;padding:11px 25px;line-height:1.1}.secondary-nav--is-fixed .secondary-nav>li img{width:40px}.secondary-nav__item{display:block;border:none;text-align:center;color:#000;transition:all 0.2s ease-in-out;padding:15px}.secondary-nav__item>img{width:50px;transition:all 0.2s ease-in-out}.secondary-nav__item:hover,.secondary-nav__item.active{background:#e4e8eb;border:none;color:#000}.nav__main--list li.more-button{position:static;cursor:pointer;display:none}.nav__main--list li.more-button:before{left:auto;right:60px;margin-top:-24px}.nav__main--list li.more-button:hover>.nav__main--more,.nav__main--list li.more-button:focus>.nav__main--more{max-height:0px}.nav__main--list li.more-button:hover>.nav__main__sub--indicator,.nav__main--list li.more-button:focus>.nav__main__sub--indicator{-ms-transform:rotate(0deg);transform:rotate(0deg)}.nav__main--list li.more-button:hover:before,.nav__main--list li.more-button:focus:before{opacity:0;-ms-transform:translate(0, 7px);transform:translate(0, 7px)}.nav__main--list li.more-button .nav__main--list__item{padding:0 10px}.nav__main--list li.more-button>.nav__main--list__item{padding:0}.nav__main--list li.more-button.active>.nav__main--more{max-height:200px}.nav__main--list li.more-button.active>.nav__main__sub--indicator{-ms-transform:rotate(-180deg);transform:rotate(-180deg)}.nav__main--list li.more-button.active:before{opacity:1;-ms-transform:translate(0, 0);transform:translate(0, 0)}.nav__main--more{right:10px;left:10px;text-align:right;padding:0;margin-top:-17px;font-size:1em}.nav__main--more .form--select{padding:5px 10px;border-color:#fff !important;line-height:35px}.nav__main--more>li{display:inline-block;width:auto;margin:0}.nav__main--more .button,.nav__main--more input[type=submit],.nav__main--more input[type=button],.nav__main--more button,.nav__main--more .form--select{margin:5px 10px}.section__products{padding:36px 0 40px 0;text-align:center}.button,input[type=submit],input[type=button],button{background-color:#60a425;border-bottom:3px solid #487a1c;transition:all .2s ease-in-out;border-radius:3px;padding:7px 15px;color:#fff;cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,0.21);display:block;max-width:340px;text-align:center;margin-bottom:17px}.button:hover,input[type=submit]:hover,input[type=button]:hover,button:hover{background-color:#487a1c;border-bottom:3px solid #2f5112}.button:hover,input[type=submit]:hover,input[type=button]:hover,button:hover,.button:focus,input[type=submit]:focus,input[type=button]:focus,button:focus{color:#fff}.button.button--secondary,input.button--secondary[type=submit],input.button--secondary[type=button],button.button--secondary{background-color:#6e8595 !important;border-bottom:3px solid #586b78 !important;transition:all .2s ease-in-out !important}.button.button--secondary:hover,input.button--secondary[type=submit]:hover,input.button--secondary[type=button]:hover,button.button--secondary:hover{background-color:#586b78 !important;border-bottom:3px solid #42515b !important}.product--origin .button,.product--origin input[type=submit],.product--origin input[type=button],.product--origin button,.button.button--origin,input.button--origin[type=submit],input.button--origin[type=button],button.button--origin{background-color:#3a8a9d;border-bottom:3px solid #2c6978;transition:all .2s ease-in-out}.product--origin .button:hover,.product--origin input[type=submit]:hover,.product--origin input[type=button]:hover,.product--origin button:hover,.button.button--origin:hover,input.button--origin[type=submit]:hover,input.button--origin[type=button]:hover,button.button--origin:hover{background-color:#2c6978;border-bottom:3px solid #1e4953}.product--roast .button,.product--roast input[type=submit],.product--roast input[type=button],.product--roast button,.button.button--roast,input.button--roast[type=submit],input.button--roast[type=button],button.button--roast{background-color:#d2443d;border-bottom:3px solid #b33029;transition:all .2s ease-in-out}.product--roast .button:hover,.product--roast input[type=submit]:hover,.product--roast input[type=button]:hover,.product--roast button:hover,.button.button--roast:hover,input.button--roast[type=submit]:hover,input.button--roast[type=button]:hover,button.button--roast:hover{background-color:#b33029;border-bottom:3px solid #892520}.product--lab .button,.product--lab input[type=submit],.product--lab input[type=button],.product--lab button,.button.button--lab,input.button--lab[type=submit],input.button--lab[type=button],button.button--lab{background-color:#44a378;border-bottom:3px solid #357f5e;transition:all .2s ease-in-out}.product--lab .button:hover,.product--lab input[type=submit]:hover,.product--lab input[type=button]:hover,.product--lab button:hover,.button.button--lab:hover,input.button--lab[type=submit]:hover,input.button--lab[type=button]:hover,button.button--lab:hover{background-color:#357f5e;border-bottom:3px solid #265b43}.product--hub .button,.product--hub input[type=submit],.product--hub input[type=button],.product--hub button,.button.button--hub,input.button--hub[type=submit],input.button--hub[type=button],button.button--hub{background-color:#984782;border-bottom:3px solid #753764;transition:all .2s ease-in-out}.product--hub .button:hover,.product--hub input[type=submit]:hover,.product--hub input[type=button]:hover,.product--hub button:hover,.button.button--hub:hover,input.button--hub[type=submit]:hover,input.button--hub[type=button]:hover,button.button--hub:hover{background-color:#753764;border-bottom:3px solid #522747}.button.button--primary,input.button--primary[type=submit],input.button--primary[type=button],button.button--primary{background-color:#60a425;border-bottom:3px solid #487a1c;transition:all .2s ease-in-out}.button.button--primary:hover,input.button--primary[type=submit]:hover,input.button--primary[type=button]:hover,button.button--primary:hover{background-color:#487a1c;border-bottom:3px solid #2f5112}.button--dark{background-color:#5e6d81;border-bottom:3px solid #485464;transition:all .2s ease-in-out}.button--dark:hover{background-color:#485464;border-bottom:3px solid #333b46}.button--external{padding-right:45px;background-image:url("/fileadmin/template/img/icons/icon-new-window-link.png");background-size:22px auto;background-position:right 12px center;background-repeat:no-repeat}.button--back-to-top{transition:all .2s ease-in-out;opacity:0;position:fixed;bottom:20px;right:20px;margin:0;pointer-events:none;padding:10px;width:40px}.button--back-to-top.is-active{opacity:1;pointer-events:all}.button--back-to-top img{width:50%;margin:0 auto;padding:7px 0;display:block}.button--inline{display:inline-block}.button--icon{padding:8px 6px;width:36px}.button--icon>img{display:block}.card{position:relative;background-color:#fff;border-radius:3px;box-shadow:0 1px 4px rgba(0,0,0,0.21);text-align:center;display:inline-block;vertical-align:top}.card .button:not(.column40),.card input[type=submit]:not(.column40),.card input[type=button]:not(.column40),.card button:not(.column40){width:100%}.card>img{display:block;border-radius:3px 3px 0 0;max-height:110px}.card .button,.card input[type=submit],.card input[type=button],.card button{display:inline-block;margin-bottom:1px}.card__content{padding:0 15px}.card__content h3{padding-top:0;margin-top:-40px;padding-bottom:22px;font-size:1.3em;color:white !important}.card__content .bodytext{font-size:0.9em;line-height:1.6;margin-bottom:14px}.card__content .text--smaller .bodytext{margin-bottom:0}.card__content--link{color:#333B46;font-size:0.8em;padding-bottom:10px;display:inline-block}.card__content--link>*{vertical-align:middle}.card__content--link>*:first-child{margin-right:5px;opacity:0.9;vertical-align:sub}.card__content--link>*:last-child{margin-left:2px}.card__content--link:hover{opacity:0.9}.card__icon{position:absolute;top:-40px;right:-20px}.card__lab h3{color:#44a378}.card__roast h3{color:#d2443d}.card__origin h3{color:#3a8a9d}.card__hub h3{color:#984782}.card--full{display:block;width:100%;text-align:left}.card--full .card__image{float:left}.card--full .card__content{margin-left:450px;padding-top:20px;padding-bottom:20px}.card--full .button,.card--full input[type=submit],.card--full input[type=button],.card--full button{display:inline-block;width:auto !important;margin-right:15px}.teaser--small h3{padding-top:10px}.teaser--small .card__content__top{padding-bottom:30px}.teaser--small .button,.teaser--small input[type=submit],.teaser--small input[type=button],.teaser--small button{margin-bottom:0}legend{font-weight:bold;font-size:1.3em;padding:30px 0 10px 0}.footer-newsletter legend{display:none !important}.input--txt,.form--txt,.powermail_input,.powermail_textarea{border-radius:3px;padding:7px 15px;border:1px solid #333B46;transition:all .2s ease-in-out;margin-bottom:17px;border:1px solid #b8c3cb;font-family:"Noto Sans","Roboto","Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;font-size:16px;line-height:1.6111111111em}.input--txt:focus,.input--txt:hover,.form--txt:focus,.form--txt:hover,.powermail_input:focus,.powermail_input:hover,.powermail_textarea:focus,.powermail_textarea:hover{border-color:#60a425;box-shadow:none;outline:none}.input--txt.powermail_field_error,.form--txt.powermail_field_error,.powermail_input.powermail_field_error,.powermail_textarea.powermail_field_error{border-color:#c60331}select::-ms-expand{display:none}.powermail_fieldwrap_check>fieldset>legend{display:block;margin-bottom:8.5px}.section--order form>h3{display:none}.section--order .powermail_field{vertical-align:middle}.section--order .powermail_fieldwrap_type_textarea label{vertical-align:top}.section--order .powermail_fieldwrap_type_textarea .powermail_field{display:inline-block}.section--order textarea{width:400px;height:100px}.form--select{overflow:hidden;background-color:#fff;border-radius:3px;border:1px solid #b8c3cb;margin-bottom:17px;padding:7px 15px;background:#fff url("/fileadmin/template/img/icons/arrow-down.svg") no-repeat 97% 50%}.form--select:focus,.form--select:hover{border-color:#60a425;box-shadow:none;outline:none}.form--select select{width:130%;border:none;box-shadow:none;background-color:transparent;background-image:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;transition:all .2s ease-in-out}.form--select select:focus{outline:none;border-color:#60a425}.form--txt-and-submit{position:relative}.form--txt-and-submit .form--txt{padding-right:60px}.layout2>.powermail_input{padding-right:70px}.powermail_fieldwrap_submit.layout2{position:absolute;right:0;margin-top:-68px}.powermail_fieldwrap_submit.layout2 .powermail_submit{background:url("/fileadmin/template/img/icons/arrow-right.svg") no-repeat 50% 50%;height:100%;width:52px;border-radius:0 2px 2px 0;background-color:#60a425;cursor:pointer;transition:all .2s ease-in-out;font-size:0;border:none}.powermail_fieldwrap_submit.layout2 .powermail_submit:hover{background-color:#487a1c}.form--arrow-submit{position:absolute;background:url("/fileadmin/template/img/icons/arrow-right.svg") no-repeat 50% 50%;height:100%;width:52px;border-radius:0 2px 2px 0;background-color:#60a425;right:0;cursor:pointer;top:0;transition:all .2s ease-in-out;font-size:0}.form--arrow-submit:hover{background-color:#487a1c}.wrapper__main>.wrapper__main.tx-powermail{padding:0}.powermail_fieldwrap.layout3{display:inline-block;vertical-align:top;width:47%;margin-right:2%}.powermail_fieldwrap_submit.layout3{display:block;width:100%;text-align:center}.powermail_fieldwrap_submit.layout3>input,.powermail_fieldwrap_submit.layout3>button{margin:0 auto}.control-inline{display:inline-block;width:49%;min-width:130px}.control-inline label{display:inline-block}.powermail_form{position:relative}.powermail_check_inner{display:inline-block;width:48%}.powermail_fieldwrap{margin:0 0 20px 0}.tx-powermail .powermail_fieldset:last-of-type{margin-top:30px}.tx-powermail .powermail_fieldset:last-of-type>legend{display:none}.powermail_checkbox,.styled-checkbox{position:absolute;opacity:0;width:10px}.powermail_checkbox+label,.styled-checkbox+label{position:relative;cursor:pointer;padding:0;display:inline-block}.powermail_checkbox+label:before,.styled-checkbox+label:before{content:'';margin-right:10px;display:inline-block;vertical-align:text-top;width:20px;border-radius:3px;border:1px solid #6e8595;height:20px;background:#fff;transition:all .2s ease-in-out}.powermail_checkbox:hover+label:before,.styled-checkbox:hover+label:before{background:#60a425;box-shadow:0 0 0 2px rgba(0,0,0,0.12)}.powermail_checkbox:checked+label:before,.styled-checkbox:checked+label:before{background:#60a425}.powermail_checkbox.disabled+label,.powermail_checkbox[disabled]+label,.styled-checkbox.disabled+label,.styled-checkbox[disabled]+label{color:#b8b8b8}.powermail_checkbox.disabled+label:before,.powermail_checkbox[disabled]+label:before,.styled-checkbox.disabled+label:before,.styled-checkbox[disabled]+label:before{box-shadow:none;background:#ddd}.powermail_checkbox:checked+label:after,.styled-checkbox:checked+label:after{content:'';position:absolute;left:6px;top:11px;background:#fff;width:2px;height:2px;box-shadow:2px 0 0 #fff,4px 0 0 #fff,4px -2px 0 #fff,4px -4px 0 #fff,4px -6px 0 #fff;-ms-transform:rotate(45deg);transform:rotate(45deg)}#order-package{color:#fff;background:#333B46;border-radius:3px;display:inline-block;padding:10px 25px;margin-right:20px;vertical-align:middle}.section--order label{display:inline-block;width:200px;vertical-align:middle}.section--order .checkboxg label{width:auto}.section--order .input--txt,.section--order .form--txt,.section--order .powermail_input,.section--order .form--select{display:inline-block;width:400px;vertical-align:middle;margin:0}.powermail_fieldwrap{position:relative}.powermail_field{display:inline-block}.powermail_fieldwrap.layout3>.powermail_field,.powermail_field.powermail_textarea,.powermail_fieldwrap_type_textarea>.powermail_field{display:block}.input--inline-icon{width:30px;vertical-align:middle;margin-left:5px;display:inline-block;cursor:pointer}.order--info{float:right;width:350px;background:#f3f5f6;color:#333B46;margin-top:100px;border-radius:3px}.order--info h2{text-align:left;font-size:1.3333333333em;padding:30px 30px 0 30px}.order--info .highlighted{background:#d5dce0;font-weight:bold;padding:30px 30px;margin-top:30px;border-radius:0 0 3px 3px}.powermail_message_error{background-color:red;padding:10px;border-radius:3px;color:#fff;padding-left:2em;width:500px;max-width:100%}dl{counter-reset:my-counter;padding:0 30px}dt{color:#333B46;font-weight:bold;margin:30px 0 10px 0}dt:before{content:counter(my-counter);counter-increment:my-counter;display:inline-block;color:#fff;background:#333B46;padding:5px;border-radius:50%;margin-right:15px;vertical-align:middle;width:24px;height:24px;text-align:center;line-height:24px}dd{font-size:0.8em;color:#333B46}.section__contact-form>.wrapper__main>.tx-powermail{float:left;width:600px;min-height:800px}.section__contact>.wrapper__main{padding-left:720px}.section__contact>.wrapper__main strong,.section__contact>.wrapper__main b{color:#333B46}@media all and (max-width: 1200px){.section__products .card{margin:0 30px 60px 30px}.section__products .card:last-child{margin-bottom:0}.secondary-nav__container,.secondary-nav--is-fixed .secondary-nav__container{position:relative;top:0;border:none}.secondary-nav--is-fixed .secondary-nav>li .secondary-nav__item,.secondary-nav__item{font-size:.7777777778em;padding:15px 15px;line-height:1.4em}.secondary-nav--is-fixed .secondary-nav>li img,.secondary-nav>li img{width:50px}.secondary-nav--is-fixed .header{margin:0}}@media all and (max-width: 1200px){.nav__main--list>li:nth-child(6),.nav__main--list>li:nth-child(7){display:none}.nav__main--more>li:nth-child(1),.nav__main--more>li:nth-child(2),.nav__main--more>li:nth-child(3),.nav__main--more>li:nth-child(4),.nav__main--more>li:nth-child(5){display:none}.has-submenu:not(.more-button)>.nav__main__sub--indicator,.has-submenu:not(.more-button)>.nav__main__sub,.has-submenu:not(.more-button):before{display:none !important}.nav__main--list li.more-button{display:inline-block}.nav__main--list>li.has-submenu:before{border-bottom-color:#333b46}.nav__main__sub{background:#333b46}}@media all and (max-width: 1040px){.form--arrow-submit{font-size:1em;width:auto;display:block;position:relative;background-image:none}.form--txt-and-submit .form--txt{padding-right:15px}.careers__left{margin-left:0}.careers__right{margin-right:0;width:50%}.section__contact-form>.wrapper__main>.tx-powermail{width:400px}.section__contact>.wrapper__main{padding-left:450px}.control-inline{margin-bottom:9px}.nav__main{background:#333B46;background:rgba(51,59,70,0.9)}.hub-widget{padding:0}.upcoming-events{float:none;width:100%;margin:0}}@media all and (max-width: 970px){.nav__main--list>li:nth-child(1),.nav__main--list>li:nth-child(3){display:none}.nav__main--more>li:nth-child(1),.nav__main--more>li:nth-child(3){display:inline-block}}@media all and (max-width: 870px){.order--info{display:none}.section__values h2{margin-bottom:10px}.column__size1of4{width:46%;margin-right:3.9%;margin-bottom:3.9%}.column__size1of4:nth-child(2n){margin-right:0}}@media all and (max-width: 850px){body,.column__size1of2,.column__size1of3,.column__size1of4{font-size:14px}.header{min-height:300px;max-height:none}.header__wrapper{position:relative;padding:1px}.header__text__sub{position:relative;bottom:0;margin-top:50px}.header__wrapper--txt{padding:0 30px 30px 30px;margin:80px 0 0 0}.header__wrapper--txt>h1{font-size:1.6666666667em;padding-bottom:1em}.header__wrapper--txt .button,.header__wrapper--txt input[type=submit],.header__wrapper--txt input[type=button],.header__wrapper--txt button{display:block;width:100%;margin:0 auto}h2,h1{font-size:1.6666666667em}h1.inline-heading{font-size:2.2222222222em;padding-top:0}.section__values h3{padding-bottom:0}.news__list__item__image{display:block;float:none;margin:0 auto 30px auto}.news__list__item__content{margin:0}.news__list__item__title,.news__list__item__subtitle,.news__list__item__category{text-align:center}.product__feature__image__container,.section--even .product__feature__image__container,.csc-textpic-text{float:none;width:auto;margin:0 auto;padding:0}.product__pricing__table .td__wrapper,.product__pricing__table__container>table .td__wrapper{width:80px}.csc-textpic{padding:30px 0}.product__pricing__subtitle{margin-bottom:0}.product__feature__image__thumbnail{height:60px}.product__feature__subtitle{margin-top:10px}.product__feature__content,.section--even .product__feature__content,.section--odd .product__feature__content{width:auto;margin:0}.section--even .product__feature__content,.section--even .csc-textpic-text{margin-left:0}.product__feature__image__link{margin-bottom:20px}.card__content__top>p{min-height:0}.filter-list{padding-bottom:0}.product__images__container{padding-top:10px}.product__customer__content{width:auto;left:20px;right:20px}.product__customer__thumbnail{display:none;pointer-events:none}.product__customer__thumbnail.active{display:inline-block}.product__customer__container{padding-top:100px;min-height:450px}.card--full .card__image{float:none;margin:0 auto}.card--full .card__content{margin-left:0;text-align:center}}@media all and (max-width: 800px){.main-logo{margin:10px 18px}.nav__main{height:50px}.nav__main--list{margin-top:0}.nav__main--list li.more-button:before{margin-top:3px}.nav__main__sub{margin-top:10px}.column__size1of3{width:48%;margin-bottom:20px;margin-right:1.9%}.column__size1of3:nth-of-type(3n){margin-right:1.9%}.column__size1of3:nth-of-type(2n){margin-right:0}textarea,.powermail_textarea{height:150px}.section__products .card{margin:0 0 60px 0;min-height:0;min-width:0;width:350px;max-width:100%}.section--padding{padding:30px 0}h1,h2,h3{padding:1em 0 0.5em 0}.customer-map__info{padding:0}.customer-map__wrapper{width:auto;float:none}.customer-map__info>*{text-align:left;width:auto}.section__contact-form>.wrapper__main>.tx-powermail{width:auto;float:none;min-height:0;padding:0}.section__contact>.wrapper__main{width:auto;padding:0 40px}.section--order .input--txt,.section--order .form--txt,.section--order .powermail_input,.section--order .form--select{width:100%;display:block}.section--order label{margin-bottom:5px}.input--inline-icon{position:absolute;right:8px;bottom:9px}.powermail_checkbox:hover+label:before,.styled-checkbox:hover+label:before{background:#fff}.powermail_checkbox:checked+label:before,.styled-checkbox:checked+label:before{background:#79BB43}.hub-widget .column__size2of3,.hub-widget .column__size1of3{width:100%}}@media all and (max-width: 660px){.nav__main--list>li:nth-child(4){display:none}.nav__main--more>li:nth-child(4){display:inline-block}.product__faq__container__left,.product__faq__container__right{display:block;width:auto;margin:0}.product__faq__container__left{margin-bottom:30px}.product__faq__container{margin-top:0}.careers__left,.careers__right{width:auto;margin:0 0 30px 0;padding:0;float:none}#section-careers{text-align:left}.wrapper__main{padding:0 20px}}@media all and (max-width: 580px){.main-logo{background-image:url(/fileadmin/template/img/icons/icon-cropster.png);background-size:cover;width:30px;height:30px;margin:10px 10px}.main-logo>img{display:none}.nav__main--list>li{margin-left:5px}.nav__main--list>li:nth-child(2){margin-left:0}.product__pricing__filter>.onoffswitch__container:first-child{border-right:none}.news__list__item{margin-top:20px}.image-round-inline{max-width:60%}.employee__item .image-round-inline{max-width:100%}.form--select select{width:90%;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}}@media all and (max-width: 500px){.column__size1of3{width:100%;margin:0 0 20px 0}.footer__main a{display:inline-block;margin-bottom:9px}.section__products{padding-top:40px !important}.card--full .card__content{padding-top:0;padding-bottom:0}.section__products .card{margin-bottom:36px}.card__hub.padding-top--small{padding-top:0}.card__icon{float:none;top:10px;right:10px;height:90px;width:auto}.section__products h2{margin-bottom:15px}}@media all and (max-width: 350px){.nav__main--list>li:nth-child(5){display:none}.nav__main--more>li:nth-child(5){display:inline-block}.subfooter{padding:15px 0}.subfooter__copyright img{width:20px}}
+
+-->
+/*]]>*/
+</style>
+
+
+
+
+
+
+<link rel="sitemap" type="application/xml" title="Sitemap" href="https://www.cropster.com/index.php?id=1&type=841132&page=1" /><script>window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website.","dismiss":"Got it!","learnMore":"More info","link":"https://www.cropster.com/privacy","theme":false};</script><meta property="og:image" content="https://www.cropster.com/fileadmin/template/img/cropster-logo-icon-only.png" />
+<link rel="schema.DCTERMS" href="http://purl.org/dc/terms/">
+<meta name="DCTERMS.title" content="ホームページ">
+<meta name="description" content="Cropster software tools help coffee roasters, labs, traders and producers create and exchange high profile coffee.">
+<meta name="DCTERMS.description" content="Cropster software tools help coffee roasters, labs, traders and producers create and exchange high profile coffee.">
+<meta name="copyright" content="2018 Cropster. All rights reserved.">
+<meta name="DCTERMS.rights" content="2018 Cropster. All rights reserved.">
+<link rev="made" href="mailto:office@cropster.com">
+<meta http-equiv="reply-to" content="office@cropster.com">
+<meta name="date" content="2018-07-02T13:34:06+00:00">
+<meta name="DCTERMS.date" content="2018-07-02T13:34:06+00:00">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://www.cropster.com/jp/home-jp/">
+<meta property="og:site_name" content="Cropster">
+<meta property="og:title" content="ホームページ">
+<meta property="og:type" content="article">
+<meta property="og:email" content="office@cropster.com">
+
+
+<script type="text/javascript">
+/* <![CDATA[ */
+function recordOutboundLink(link, category, action) {
+	try {
+		var myTracker = _gat._getTrackerByName();
+		_gaq.push(['_trackEvent', category ,  action ]);
+	} catch(err) {}
+	if(link.target == '_blank') {
+		window.open(link.href);
+	} else {
+		setTimeout('document.location = "' + link.href + '"', 100);
+	}
+};
+var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+var _gaq = [['_require', 'inpage_linkid', pluginUrl],['_setAccount', 'UA-11381743-1'], ['_gat._anonymizeIp'], ['_trackPageview']];
+ (function(d, t) {
+	var g = d.createElement(t); g.async = true;
+	g.src = ('https:' == d.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = d.getElementsByTagName(t)[0]; s.parentNode.insertBefore(g, s);
+})(document, 'script');
+/* ]]> */
+	</script>
+</head>
+<body class="">
+
+
+
+  <nav class="nav__main">
+
+    <ul class="nav__main--list"><li class="active"><a href="jp/home-jp/" title="ホームページ" class="nav__main--list__item">ホームページ</a></li><li class="has-submenu"><a href="jp/products/roast/" title="製品" class="nav__main--list__item">製品</a><span class="nav__main__sub--indicator"></span><ul class="nav__main__sub"><li><a href="jp/products/roast/" title="ロースト" class="">ロースト</a></li><li><a href="jp/products/cup/" title="カップ" class="">カップ</a></li><li><a href="jp/products/hub/" title="ハブ" class="">ハブ</a></li></ul></li><li><a href="jp/about/" title="に関して" class="nav__main--list__item">に関して</a></li><li><a href="jp/news/" title="ニュース" class="nav__main--list__item">ニュース</a></li><li><a href="jp/contact/" title="お問い合わせ" class="nav__main--list__item">お問い合わせ</a></li><li><div class="form--select">
+
+	
+		<form class="tx-srlanguagemenu" id="sr_language_menu_form" action="jp/home-jp/?tx_srlanguagemenu_languagemenu%5Baction%5D=redirect&amp;tx_srlanguagemenu_languagemenu%5Bcontroller%5D=Menu&amp;cHash=28d808cc1c7b7b2c4f3f649d3e5febf1" method="post">
+<div>
+<input type="hidden" name="tx_srlanguagemenu_languagemenu[__referrer][@extension]" value="SrLanguageMenu" />
+<input type="hidden" name="tx_srlanguagemenu_languagemenu[__referrer][@vendor]" value="SJBR" />
+<input type="hidden" name="tx_srlanguagemenu_languagemenu[__referrer][@controller]" value="Menu" />
+<input type="hidden" name="tx_srlanguagemenu_languagemenu[__referrer][@action]" value="index" />
+<input type="hidden" name="tx_srlanguagemenu_languagemenu[__referrer][arguments]" value="YTowOnt9cc3847e97decafc9b540e4ce0abc52487577c66d" />
+<input type="hidden" name="tx_srlanguagemenu_languagemenu[__referrer][@request]" value="a:4:{s:10:&quot;@extension&quot;;s:14:&quot;SrLanguageMenu&quot;;s:11:&quot;@controller&quot;;s:4:&quot;Menu&quot;;s:7:&quot;@action&quot;;s:5:&quot;index&quot;;s:7:&quot;@vendor&quot;;s:4:&quot;SJBR&quot;;}7ee10e62f9bdcad6968cfe1c997aec7529b8f0cd" />
+<input type="hidden" name="tx_srlanguagemenu_languagemenu[__trustedProperties]" value="a:0:{}f5a0f64d3794e2b0a746b1d685e1432b7b593049" />
+</div>
+
+		<select id="sr_language_menu_select" name="tx_srlanguagemenu_languagemenu[uri]" title="Choose a language" onchange="if (this.options[this.selectedIndex].value == '') return; location.href = this.options[this.selectedIndex].value;">
+			
+            
+                
+                        
+                            
+
+		
+				<option value="en/home-asia/">English</option>
+			
+	
+
+                        
+                    
+            
+                
+                        
+                    
+            
+                
+                        
+                    
+            
+                
+                        
+                            
+
+		
+				<option value="ko/home-ko/">한국말</option>
+			
+	
+
+                        
+                    
+            
+                
+                        
+                    
+            
+                
+                        
+                            
+
+		
+			
+					<option value="jp/home-jp/"  selected="selected">日本語</option>
+				
+		
+	
+
+                        
+                    
+            
+                
+                        
+                            
+
+		
+				<option value="cn/home-cn/">汉语</option>
+			
+	
+
+                        
+                    
+            
+                
+                        
+                            
+
+		
+				<option value="hk/home-hk/">漢語</option>
+			
+	
+
+                        
+                    
+            
+                
+                        
+                    
+            
+		</select>
+		<input name="tx_srlanguagemenu_languagemenu[action]" value="redirect" type="hidden" />
+</form>
+
+	
+
+</div></li><li class=""><a href="https://c-sar.cropster.com/login" class="button button--secondary external-link" title="" onclick="recordOutboundLink(this, 'External Links', 'https://c-sar.cropster.com/login');return false;">サインイン</a></li><li class="has-submenu more-button"><span class="nav__main--list__item">詳しく</span> <span class="nav__main__sub--indicator"></span><ul class="nav__main__sub nav__main--more"><li class="active"><a href="jp/home-jp/" title="ホームページ" class="nav__main--list__item">ホームページ</a></li><li class="has-submenu"><a href="jp/products/roast/" title="製品" class="nav__main--list__item">製品</a></li><li><a href="jp/about/" title="に関して" class="nav__main--list__item">に関して</a></li><li><a href="jp/news/" title="ニュース" class="nav__main--list__item">ニュース</a></li><li><a href="jp/contact/" title="お問い合わせ" class="nav__main--list__item">お問い合わせ</a></li><li><a href="jp/products/roast/" title="ロースト" class="nav__main--list__item">ロースト</a></li><li><a href="jp/products/cup/" title="カップ" class="nav__main--list__item">カップ</a></li><li><a href="jp/products/hub/" title="ハブ" class="nav__main--list__item">ハブ</a></li><li><div class="form--select">
+
+	
+		<form class="tx-srlanguagemenu" id="sr_language_menu_form" action="jp/home-jp/?tx_srlanguagemenu_languagemenu%5Baction%5D=redirect&amp;tx_srlanguagemenu_languagemenu%5Bcontroller%5D=Menu&amp;cHash=28d808cc1c7b7b2c4f3f649d3e5febf1" method="post">
+<div>
+<input type="hidden" name="tx_srlanguagemenu_languagemenu[__referrer][@extension]" value="SrLanguageMenu" />
+<input type="hidden" name="tx_srlanguagemenu_languagemenu[__referrer][@vendor]" value="SJBR" />
+<input type="hidden" name="tx_srlanguagemenu_languagemenu[__referrer][@controller]" value="Menu" />
+<input type="hidden" name="tx_srlanguagemenu_languagemenu[__referrer][@action]" value="index" />
+<input type="hidden" name="tx_srlanguagemenu_languagemenu[__referrer][arguments]" value="YTowOnt9cc3847e97decafc9b540e4ce0abc52487577c66d" />
+<input type="hidden" name="tx_srlanguagemenu_languagemenu[__referrer][@request]" value="a:4:{s:10:&quot;@extension&quot;;s:14:&quot;SrLanguageMenu&quot;;s:11:&quot;@controller&quot;;s:4:&quot;Menu&quot;;s:7:&quot;@action&quot;;s:5:&quot;index&quot;;s:7:&quot;@vendor&quot;;s:4:&quot;SJBR&quot;;}7ee10e62f9bdcad6968cfe1c997aec7529b8f0cd" />
+<input type="hidden" name="tx_srlanguagemenu_languagemenu[__trustedProperties]" value="a:0:{}f5a0f64d3794e2b0a746b1d685e1432b7b593049" />
+</div>
+
+		<select id="sr_language_menu_select" name="tx_srlanguagemenu_languagemenu[uri]" title="Choose a language" onchange="if (this.options[this.selectedIndex].value == '') return; location.href = this.options[this.selectedIndex].value;">
+			
+            
+                
+                        
+                            
+
+		
+				<option value="en/home-asia/">English</option>
+			
+	
+
+                        
+                    
+            
+                
+                        
+                    
+            
+                
+                        
+                    
+            
+                
+                        
+                            
+
+		
+				<option value="ko/home-ko/">한국말</option>
+			
+	
+
+                        
+                    
+            
+                
+                        
+                    
+            
+                
+                        
+                            
+
+		
+			
+					<option value="jp/home-jp/"  selected="selected">日本語</option>
+				
+		
+	
+
+                        
+                    
+            
+                
+                        
+                            
+
+		
+				<option value="cn/home-cn/">汉语</option>
+			
+	
+
+                        
+                    
+            
+                
+                        
+                            
+
+		
+				<option value="hk/home-hk/">漢語</option>
+			
+	
+
+                        
+                    
+            
+                
+                        
+                    
+            
+		</select>
+		<input name="tx_srlanguagemenu_languagemenu[action]" value="redirect" type="hidden" />
+</form>
+
+	
+
+</div></li><li class=""><a href="https://c-sar.cropster.com/login" class="button button--secondary external-link" title="" onclick="recordOutboundLink(this, 'External Links', 'https://c-sar.cropster.com/login');return false;">Sign In</a></li></ul></li></ul>
+
+    <a href="jp/" class="main-logo"><img src="fileadmin/template/img/cropster-logo-white.svg" alt="Cropster" /></a>
+  </nav>
+
+  
+	<!--  CONTENT ELEMENT, uid:918/list [begin] -->
+		<a id="c999"></a><section id="" class="full-width"><div class="wrapper__main">
+		<!--  Plugin inserted: [begin] -->
+			
+<div class="tx-cr-cropster">
+	
+    <header class="header" style="background-image: url(uploads/_processed_/c/0/csm_cropster-title-banner-new6_03_c409f36437.jpg);">
+        <div class="header__wrapper">
+            <div class="header__wrapper--txt">
+                <h1>スペシャルティコーヒー業界No.1のソフトウェア</h1>
+
+                <div class="header__wrapper__subtext">
+                    
+                </div>
+
+                
+                    <a class="button" href="jp/products/roast/order-roast/">お問い合わせ</a>
+                
+            </div>
+        </div>
+    </header>
+
+</div>
+		<!--  Plugin inserted: [end] -->
+			</div></section>
+	<!--  CONTENT ELEMENT, uid:918/list [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:938/text [begin] -->
+		<a id="c1000"></a><section id="" class="is-centered section__asia__partners"><div class="wrapper__main">
+		<!--  Text: [begin] -->
+			<p class="bodytext"><img src="fileadmin/user_upload/Good_Food_Awards.png" width="88" height="87" style="" alt="" /> <img src="fileadmin/user_upload/Reco_Symposium_NOT_CONFIRMED_USAGE.png" width="124" height="43" style="" alt="" /><img src="fileadmin/user_upload/SCAA_Logo.png" width="90" height="94" style="" alt="" /> <img src="fileadmin/user_upload/SCAE_Logo.png" width="109" height="73" style="" alt="" /> <img src="fileadmin/user_upload/US_roasters_championship_logo.png" width="81" height="79" style="" alt="" /> <img src="fileadmin/user_upload/US_Roasters_Guild.png" width="234" height="35" style="" alt="" /> <img src="fileadmin/user_upload/World_Roast_Championship_Logo.png" width="273" height="68" style="" alt="" /> </p>
+		<!--  Text: [end] -->
+			</div></section>
+	<!--  CONTENT ELEMENT, uid:938/text [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:926/html [begin] -->
+		<a id="c1001"></a><section id="" class="section__products section__asia__products section--bg padding-top"><div class="wrapper__main">
+		<!--  Raw HTML content: [begin] -->
+			<div class="wrapper__main">
+      
+<div class="tx-cr-cropster">
+
+    <div class="row">
+        
+            <div class="card card__roast column__size1of4">
+                
+            
+                    <img alt="Cropster Roast Header Image" src="fileadmin/_processed_/d/7/csm_roast-card-header-dark_5efc6fc498.jpg" width="400" height="153">
+                
+
+                <div class="card__content">
+                    <h3>クロプスターロースト（</h3>
+
+                    <div class="card__content__top"><p class="bodytext">
+                      世界トップクラスの自家焙煎の仲間に入りたいですか？
+                      プロとして受賞される焙煎豆を、どのように焙煎するか学べます。
+                      </p><div><p class="bodytext"><a href="jp/products/roast/" title="Opens internal link in current window" class="internal-link button button--roast">焙煎について、もっと詳しく</a></p></div></div>
+                </div>
+            </div>
+        
+
+            <div class="card card__lab column__size1of4">
+                
+                
+                    <img alt="Coffee Lab Header Image" src="fileadmin/_processed_/8/4/csm_lab-card-header-small_d3b42fbe6a.jpg" width="400" height="153">
+                
+
+                <div class="card__content">
+                    <h3>クロプスターカップ</h3>
+
+                    <div class="card__content__top"><p class="bodytext">
+                      高品質の焙煎豆を提供する準備はできましたか？お使いの携帯電話やタブレットを利用して、カッピングを行い、その情報をあらゆる仕事の場面に連携できます。
+                     </p><p class="bodytext"> <a href="jp/products/cup/" title="Opens internal link in current window" class="internal-link button button--lab">クロプスターカップ について</a></p></div>
+                </div>
+            </div>
+       
+            
+        
+
+            <div class="card card__hub column__size1of4">
+                
+                
+                    <img alt="Cropster Hub Header Image" src="fileadmin/_processed_/6/0/csm_hub-card-header-small_fb7ca1081d.jpg" width="400" height="153">
+                
+
+                <div class="card__content">
+                    <h3>クロプスターハブ について</h3>
+
+                    <div class="card__content__top"><p class="bodytext">
+                     新しく個性的な生豆をお探しですか？クロプスターハブ は、世界初のスペシャルティコーヒーの生豆市場です。生豆バイヤーの為に、使いやすく、また無料です。
+                      </p><p class="bodytext"><a href="jp/products/hub/" title="Opens internal link in current window" class="internal-link button button--hub column40">
+                      さらに詳しく</a> 
+                      or 
+                      <a href="https://hub.cropster.com/login" title="Opens internal link in current window" class="external-link-new-window button button--hub column40" onclick="recordOutboundLink(this, 'External Links', 'https://hub.cropster.com/store');return false;" onclick="recordOutboundLink(this, 'External Links', 'https://hub.cropster.com/login');return false;">
+                        クロプスターハブ へ進む</a></p></div>
+                </div>
+            </div>
+        
+    </div>
+
+
+</div>
+      </div>
+		<!--  Raw HTML content: [end] -->
+			</div></section>
+	<!--  CONTENT ELEMENT, uid:926/html [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:927/text [begin] -->
+		<a id="c1002"></a><section id="" class="is-centered padding-bottom--medium section__awards"><div class="wrapper__main">
+		<!--  Header: [begin] -->
+			<h2>クロプスター はSCAAの受賞者です</h2>
+		<!--  Header: [end] -->
+			
+		<!--  Text: [begin] -->
+			<p class="bodytext">&nbsp;<img src="fileadmin/user_upload/2012_SCAA_Best_new_Product_-_People_s_Choice_Winner_-_Equipment_for_Origin.png" width="94" height="101" alt="" style="" /><img src="fileadmin/user_upload/2012_SCAA_Best_new_Product_-_Equipment_for_Origin.png" width="126" height="126" alt="" style="" /><img src="fileadmin/user_upload/2012-scae.png" width="125" height="125" alt="" style="" />&nbsp;<img src="fileadmin/user_upload/2014_Best_New_Product_Award_Winner_Guidelines_-_Open_Class.png" width="126" height="126" alt="" style="" />&nbsp;<img src="fileadmin/_processed_/6/f/csm_2015-excellence-award-new_3c0c0337e3.png" alt="" width="120" style="" /></p>
+		<!--  Text: [end] -->
+			</div></section>
+	<!--  CONTENT ELEMENT, uid:927/text [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:928/text [begin] -->
+		<a id="c1003"></a><section id="" class="is-centered section--asia"><div class="wrapper__main">
+		<!--  Header: [begin] -->
+			<h2>専門家に聞きましょう</h2>
+		<!--  Header: [end] -->
+			
+		<!--  Text: [begin] -->
+			<p class="bodytext">&nbsp;</p>
+<p class="bodytext">クロプスター&nbsp;ユーザーの方々は、賞を受賞したスペシャルティコーヒーマーケットのパイオニアです。なぜ彼らはクロプスター&nbsp;を使用するのでしょう？</p>
+		<!--  Text: [end] -->
+			</div></section>
+	<!--  CONTENT ELEMENT, uid:928/text [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:945/html [begin] -->
+		<a id="c1004"></a><section id="" class="small-width padding-bottom padding-top--medium"><div class="wrapper__main">
+		<!--  Raw HTML content: [begin] -->
+			<div class="video-gallery">
+  <div class="video-gallery__player"></div>
+  
+  <div class="video-gallery__item" data-src="https://www.youtube.com/embed/oEqE0whFZhc?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1&cc_load_policy=1&cc_lang_pref=ja">
+    <div class="video-gallery__thumbnail">
+      <img src="/fileadmin/user_upload/video-prev/james-hoffmann.png" alt="Start Video" />
+      <div class="video-gallery__item__title"><div><b>James Hoffmann</b></div><a href="http://shop.squaremilecoffee.com/" target="_blank" onclick="recordOutboundLink(this, 'External Links', 'http://shop.squaremilecoffee.com/');return false;">Square Mile</a></div>
+    </div>
+  </div>
+  
+   <div class="video-gallery__item" data-src="https://www.youtube.com/embed/DjFlDB8ePHM?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1&cc_load_policy=1&cc_lang_pref=ja">
+    <div class="video-gallery__thumbnail">
+      <img src="/fileadmin/user_upload/video-prev/tim-wendelboe.png" alt="Start Video" />
+       <div class="video-gallery__item__title"><div><b>Tim Wendelboe</b></div><a href="https://www.timwendelboe.no/" target="_blank" onclick="recordOutboundLink(this, 'External Links', 'https://www.timwendelboe.no/');return false;">Tim Wendelboe Cafe</a></div>
+    </div>
+  </div>
+  
+   <div class="video-gallery__item" data-src="https://www.youtube.com/embed/rWqtVEVdjVQ?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1&cc_load_policy=1&cc_lang_pref=ja">
+    <div class="video-gallery__thumbnail">
+      <img src="/fileadmin/user_upload/video-prev/devin-eiring.png" alt="Start Video" />
+      <div class="video-gallery__item__title"><div><b>Devin Eiring</b></div><a href="http://vervecoffee.com/" target="_blank" onclick="recordOutboundLink(this, 'External Links', 'http://vervecoffee.com/');return false;">Verve Coffee Roasters</a></div>
+    </div>
+  </div>
+
+</div>
+		<!--  Raw HTML content: [end] -->
+			</div></section>
+	<!--  CONTENT ELEMENT, uid:945/html [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:932/list [begin] -->
+		<a id="c1005"></a><section id="" class="section--upcoming-events"><div class="wrapper__main">
+		<!--  Plugin inserted: [begin] -->
+			
+<div class="tx-cr-events">
+	
+
+  
+
+  <div class="upcoming-events">
+    <h3 class="upcoming-events__header">
+      近日開催予定のイベント
+    </h3>
+
+    <ul class="upcoming-events__list ">
+      
+          
+            <li>
+              <div class="upcoming-events__date date-field">
+                <div class="upcoming-events__date__month date-field__month">
+                  Aug
+                </div>
+                <div class="upcoming-events__date__day date-field__day">
+                  10
+                </div>
+              </div>
+
+              
+                <div class="upcoming-events__date date-field">
+                  <div class="upcoming-events__date__month date-field__month">
+                    Aug
+                  </div>
+                  <div class="upcoming-events__date__day date-field__day">
+                    12
+                  </div>
+                </div>
+              
+
+              
+                  <a href="http://www.cumbrelatinoamericanadelcafe.com" target="_blank" class="upcoming-events__title" onclick="recordOutboundLink(this, 'External Links', 'http://www.cumbrelatinoamericanadelcafe.com');return false;">
+                    Cumbre Latinoamericano de Cafe in Mexico
+                  </a>
+                
+              
+              <div class="upcoming-events__subtitle">
+                
+                    Puebla, Mexico
+                  
+              </div>
+            </li>
+          
+            <li>
+              <div class="upcoming-events__date date-field">
+                <div class="upcoming-events__date__month date-field__month">
+                  Aug
+                </div>
+                <div class="upcoming-events__date__day date-field__day">
+                  19
+                </div>
+              </div>
+
+              
+                <div class="upcoming-events__date date-field">
+                  <div class="upcoming-events__date__month date-field__month">
+                    Aug
+                  </div>
+                  <div class="upcoming-events__date__day date-field__day">
+                    21
+                  </div>
+                </div>
+              
+
+              
+                  <a href="https://www.coffeefest.com/" target="_blank" class="upcoming-events__title" onclick="recordOutboundLink(this, 'External Links', 'https://www.coffeefest.com/');return false;">
+                    Coffee Fest Los Angeles
+                  </a>
+                
+              
+              <div class="upcoming-events__subtitle">
+                
+                    Los Angeles (CA), USA
+                  
+              </div>
+            </li>
+          
+            <li>
+              <div class="upcoming-events__date date-field">
+                <div class="upcoming-events__date__month date-field__month">
+                  Aug
+                </div>
+                <div class="upcoming-events__date__day date-field__day">
+                  30
+                </div>
+              </div>
+
+              
+                <div class="upcoming-events__date date-field">
+                  <div class="upcoming-events__date__month date-field__month">
+                    Sep
+                  </div>
+                  <div class="upcoming-events__date__day date-field__day">
+                    01
+                  </div>
+                </div>
+              
+
+              
+                  <a href="www.expocafe.mx" target="_blank" class="upcoming-events__title">
+                    EXPO CAFÉ 2018 - Mexico
+                  </a>
+                
+              
+              <div class="upcoming-events__subtitle">
+                
+                    Mexico City, Mexico
+                  
+              </div>
+            </li>
+          
+            <li>
+              <div class="upcoming-events__date date-field">
+                <div class="upcoming-events__date__month date-field__month">
+                  Sep
+                </div>
+                <div class="upcoming-events__date__day date-field__day">
+                  03
+                </div>
+              </div>
+
+              
+                <div class="upcoming-events__date date-field">
+                  <div class="upcoming-events__date__month date-field__month">
+                    Sep
+                  </div>
+                  <div class="upcoming-events__date__day date-field__day">
+                    05
+                  </div>
+                </div>
+              
+
+              
+                  <a href="http://www.tcworldcup.com/" target="_blank" class="upcoming-events__title" onclick="recordOutboundLink(this, 'External Links', 'http://www.tcworldcup.com/');return false;">
+                    Tea &amp; Coffee World Cup Europe 2018
+                  </a>
+                
+              
+              <div class="upcoming-events__subtitle">
+                
+                    Birmingham NEC, UK
+                  
+              </div>
+            </li>
+          
+        
+    </ul>
+  </div>
+
+</div>
+		<!--  Plugin inserted: [end] -->
+			</div></section>
+	<!--  CONTENT ELEMENT, uid:932/list [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:929/list [begin] -->
+		<a id="c1006"></a><section id="" class="section--hub-widget section--bg"><div class="wrapper__main">
+		<!--  Plugin inserted: [begin] -->
+			
+<div class="tx-cr-events">
+	
+
+  
+
+  <div class="hub-widget">
+    <h3 class="">
+      クロプスターハブ の最新情報。
+    </h3>
+
+    <div class="">
+      <div class="row">
+
+        <div class="column__size2of3">
+          <a href="https://hub.cropster.com/store/shops" target="_blank" class="hub-widget__section-title" onclick="recordOutboundLink(this, 'External Links', 'https://hub.cropster.com/store/shops');return false;">
+            ショップ
+          </a>
+
+          <ul class="hub-widget__shops">
+            
+              <li class="hub-widget__shop">
+                <img src="https://d2x79keq0vt1kb.cloudfront.net/images/5443d275aa6738f591bb49d458c91c0d/45cbec3db9a15124208a551493da8954/s500x500/9e4c749b07a4131f281cec8c875c6d9f.jpg" width="50" alt="Specialty Coffee from Colombia &amp; Peru - Organic &amp; Fair Trade - Arabica &amp; Robusta" class="hub-widget__shop__image">
+
+                <a href="https://hub.cropster.com/store/shops/direct-trade" target="_blank" class="hub-widget__shop__title" onclick="recordOutboundLink(this, 'External Links', 'https://hub.cropster.com/store/shops/direct-trade');return false;">
+                  Specialty Coffee from Colombia &amp; Peru - Organic &amp; Fair Trade - Arabica &amp; Robusta
+                </a>
+                <div class="hub-widget__shop__subtitle">Zug, Switzerland</div>
+              </li>
+            
+              <li class="hub-widget__shop">
+                <img src="https://d2x79keq0vt1kb.cloudfront.net/images/4a2499fe50ec9e0b974028422a01daa5/b781b5cf6c02a70605fc666cabcaef67/s500x500/793eb076b9d9244d1106562f6283f641.jpg" width="50" alt="AVIAN COFFEE" class="hub-widget__shop__image">
+
+                <a href="https://hub.cropster.com/store/shops/avian" target="_blank" class="hub-widget__shop__title" onclick="recordOutboundLink(this, 'External Links', 'https://hub.cropster.com/store/shops/avian');return false;">
+                  AVIAN COFFEE
+                </a>
+                <div class="hub-widget__shop__subtitle">Amsterdam, Netherlands</div>
+              </li>
+            
+              <li class="hub-widget__shop">
+                <img src="https://d2x79keq0vt1kb.cloudfront.net/images/19fe3471a5e040a5df415ba4ee5dbba3/3850716a04a32de1a330e9caf29b6975/s500x500/17147c0b959365a3a0307bad522deb3e.jpg" width="50" alt="North Andes Coffee" class="hub-widget__shop__image">
+
+                <a href="https://hub.cropster.com/store/shops/north-andes-coffee" target="_blank" class="hub-widget__shop__title" onclick="recordOutboundLink(this, 'External Links', 'https://hub.cropster.com/store/shops/north-andes-coffee');return false;">
+                  North Andes Coffee
+                </a>
+                <div class="hub-widget__shop__subtitle">Berlin, Germany</div>
+              </li>
+            
+              <li class="hub-widget__shop">
+                <img src="https://d2x79keq0vt1kb.cloudfront.net/images/7a18f7be6ddddc2439b2203fa167d39f/4da94e75181fe4d89b52884a40975221/s500x500/c7f0147563d5e2fdba9e35cd63125eab.jpg" width="50" alt="Cafe Madrid" class="hub-widget__shop__image">
+
+                <a href="https://hub.cropster.com/store/shops/cafe-madrid" target="_blank" class="hub-widget__shop__title" onclick="recordOutboundLink(this, 'External Links', 'https://hub.cropster.com/store/shops/cafe-madrid');return false;">
+                  Cafe Madrid
+                </a>
+                <div class="hub-widget__shop__subtitle">Cartago Valle, Colombia</div>
+              </li>
+            
+              <li class="hub-widget__shop">
+                <img src="https://d2x79keq0vt1kb.cloudfront.net/images/faf5927eb4db8afeed0f7da30638bdad/86b62f62424d8a6367515103c2e93cf5/s500x500/2069a0c755b05f07e27527b0a6dffcf6.jpg" width="50" alt="Farmers Project" class="hub-widget__shop__image">
+
+                <a href="https://hub.cropster.com/store/shops/farmersprojectspecialtycoffee" target="_blank" class="hub-widget__shop__title" onclick="recordOutboundLink(this, 'External Links', 'https://hub.cropster.com/store/shops/farmersprojectspecialtycoffee');return false;">
+                  Farmers Project
+                </a>
+                <div class="hub-widget__shop__subtitle">Naranjo, Costa Rica</div>
+              </li>
+            
+              <li class="hub-widget__shop">
+                <img src="https://d2x79keq0vt1kb.cloudfront.net/images/602dba752d6dfa47cc686abda022dabc/6e01728b84dc7e293361ea67c7a8781b/s500x500/d70d3c91f955f2a702fb8dc1b3c396aa.jpg" width="50" alt="St.Francis Cafe" class="hub-widget__shop__image">
+
+                <a href="https://hub.cropster.com/store/shops/st-francis-cafe" target="_blank" class="hub-widget__shop__title" onclick="recordOutboundLink(this, 'External Links', 'https://hub.cropster.com/store/shops/st-francis-cafe');return false;">
+                  St.Francis Cafe
+                </a>
+                <div class="hub-widget__shop__subtitle">Envigado, Colombia</div>
+              </li>
+            
+          </ul>
+        </div>
+
+        <div class="column__size1of3">
+          <a href="https://hub.cropster.com/store/auctions" target="_blank" class="hub-widget__section-title" onclick="recordOutboundLink(this, 'External Links', 'https://hub.cropster.com/store/auctions');return false;">
+            
+                近日開催予定のオークション
+              
+          </a>
+
+          <ul class="hub-widget__auctions">
+            
+              <li class="hub-widget__auction">
+                <div class="date-field">
+                  <div class="date-field__month">
+                    Jul
+                  </div>
+                  <div class="date-field__day">
+                    28
+                  </div>
+                </div>
+                <a href="https://hub.cropster.com/store/auctions/project-origin-best-of-honduras-late-harvest-2018" target="_blank" class="hub-widget__auction__title" onclick="recordOutboundLink(this, 'External Links', 'https://hub.cropster.com/store/auctions/project-origin-best-of-honduras-late-harvest-2018');return false;">Project Origin Best of Honduras - Late Harvest 2018</a>
+              </li>
+            
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="clear"></div>
+
+</div>
+		<!--  Plugin inserted: [end] -->
+			</div></section>
+	<!--  CONTENT ELEMENT, uid:929/list [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:935/html [begin] -->
+		<a id="c1007"></a><section id="" class="section__asia__media"><div class="wrapper__main">
+		<!--  Raw HTML content: [begin] -->
+			<h3 class="">
+      メディアでのクロプスター
+    </h3>
+<div class="row">
+
+        <div class="column__size1of3">
+          <span class="hub-widget__section-title">
+            メディア:
+          </span>
+
+          <ul class="hub-widget__shops">
+
+<li class="hub-widget__shop">
+
+    <img src="fileadmin/user_upload/media/dailycoffeenews.jpg" width="50" alt="Dailycoffee-news" class="hub-widget__shop__image">
+    <div class="hub-widget__shop__subtitle">Daily Coffee News</div>
+    <a href="http://dailycoffeenews.com/2016/02/04/cropster-introduces-shops-platform-for-green-traders-and-buyers/" target="_blank" class="hub-widget__shop__title" onclick="recordOutboundLink(this, 'External Links', 'https://hub.cropster.com/store/shops/db-coffee');return false;" onclick="recordOutboundLink(this, 'External Links', 'http://dailycoffeenews.com/2016/02/04/cropster-introduces-shops-platform-for-green-traders-and-buyers/');return false;">
+               Cropster Hub
+               </a>
+</li>
+
+<li class="hub-widget__shop">
+
+    <img src="fileadmin/user_upload/media/bwissue.jpg" width="50" alt="Dailycoffee-news" class="hub-widget__shop__image">
+    <div class="hub-widget__shop__subtitle">
+        Black water Issue
+    </div>
+    <a href="http://bwissue.com/news/160453" target="_blank" class="hub-widget__shop__title" onclick="recordOutboundLink(this, 'External Links', 'https://hub.cropster.com/store/shops/db-coffee');return false;" onclick="recordOutboundLink(this, 'External Links', 'http://bwissue.com/news/160453');return false;">
+               Cropster Hub
+               </a>,
+    <a href="http://bwissue.com/?error_return_url=%2F%3Ferror_return_url%3D%252Fnews%252F160453%26mid%3Dnews%26act%3DIS%26search_target%3Dtitle_content%26is_keyword%3D&mid=news&act=IS&search_target=title_content&is_keyword=cropster" target="_blank" class="hub-widget__shop__title"
+        onclick="recordOutboundLink(this, 'External Links', 'https://hub.cropster.com/store/shops/db-coffee');return false;" onclick="recordOutboundLink(this, 'External Links', 'http://bwissue.com/?error_return_url=%2F%3Ferror_return_url%3D%252Fnews%252F160453%26mid%3Dnews%26act%3DIS%26search_target%3Dtitle_content%26is_keyword%3D&mid=news&act=IS&search_target=title_content&is_keyword=cropster');return false;">
+               Cropster
+               </a>
+</li>
+
+<li class="hub-widget__shop">
+
+    <img src="fileadmin/user_upload/media/chronicle.jpg" width="50" alt="Dailycoffee-news" class="hub-widget__shop__image">
+    <div class="hub-widget__shop__subtitle">
+      SCAA Chronicle
+    </div>
+    <a href="http://www.scaa.org/chronicle/2016/05/31/green-coffee-buyers-are-searching-online-will-they-find-you/" target="_blank" class="hub-widget__shop__title" onclick="recordOutboundLink(this, 'External Links', 'https://hub.cropster.com/store/shops/db-coffee');return false;" onclick="recordOutboundLink(this, 'External Links', 'http://www.scaa.org/chronicle/2016/05/31/green-coffee-buyers-are-searching-online-will-they-find-you/');return false;">
+      Cropster Hub
+    </a>,
+    <a href="http://www.scaa.org/chronicle/2016/03/01/technology-of-our-own-developing-information-and-communication-technology-for-the-coffee-industry/" target="_blank" class="hub-widget__shop__title" onclick="recordOutboundLink(this, 'External Links', 'https://hub.cropster.com/store/shops/db-coffee');return false;" onclick="recordOutboundLink(this, 'External Links', 'http://www.scaa.org/chronicle/2016/03/01/technology-of-our-own-developing-information-and-communication-technology-for-the-coffee-industry/');return false;">
+      Cropster
+    </a>
+</li>
+</ul>
+</div>
+  <div class="column__size1of3">
+    <span class="hub-widget__section-title">
+      &nbsp;
+    </span>
+<ul class="hub-widget__shops">
+<li class="hub-widget__shop">
+
+    <img src="fileadmin/user_upload/media/sprudge.jpg" width="50" alt="Dailycoffee-news" class="hub-widget__shop__image">
+    <div class="hub-widget__shop__subtitle">
+      Sprudge
+    </div>
+    <a href="http://sprudge.com/coffee-tech-gets-better-with-a-new-suite-from-cropster-98054.html" target="_blank" class="hub-widget__shop__title" onclick="recordOutboundLink(this, 'External Links', 'https://hub.cropster.com/store/shops/db-coffee');return false;" onclick="recordOutboundLink(this, 'External Links', 'http://sprudge.com/coffee-tech-gets-better-with-a-new-suite-from-cropster-98054.html');return false;">
+      QC Suite
+    </a>,
+    <a href="http://sprudge.com/cafe-imports-cropster-roast-profiles-42735.html" target="_blank" class="hub-widget__shop__title" onclick="recordOutboundLink(this, 'External Links', 'https://hub.cropster.com/store/shops/db-coffee');return false;" onclick="recordOutboundLink(this, 'External Links', 'http://sprudge.com/cafe-imports-cropster-roast-profiles-42735.html');return false;">
+     Roasting Intelligence
+    </a>,
+    <a href="http://sprudge.com/tokyo-single-origin-coffees-new-home-in-ryogoku-85412.html" target="_blank" class="hub-widget__shop__title" onclick="recordOutboundLink(this, 'External Links', 'https://hub.cropster.com/store/shops/db-coffee');return false;" onclick="recordOutboundLink(this, 'External Links', 'http://sprudge.com/tokyo-single-origin-coffees-new-home-in-ryogoku-85412.html');return false;">
+     Tokyo Cropster User
+    </a>
+</li>
+
+<li class="hub-widget__shop">
+
+    <img src="fileadmin/user_upload/media/tt.jpg" width="50" alt="Dailycoffee-news" class="hub-widget__shop__image">
+    <div class="hub-widget__shop__subtitle">
+      Tamper Tantrum
+    </div>
+    <a href="http://www.tampertantrum.com/no-56/" target="_blank" class="hub-widget__shop__title" onclick="recordOutboundLink(this, 'External Links', 'https://hub.cropster.com/store/shops/db-coffee');return false;" onclick="recordOutboundLink(this, 'External Links', 'http://www.tampertantrum.com/no-56/');return false;">
+      Podcast
+    </a>
+</li>
+
+
+          </ul>
+        </div>
+
+  <div class="column__size1of3">
+          <span class="hub-widget__section-title">
+            大会での普及率
+          </span>
+
+          <ul class="hub-widget__shops">
+  <li class="hub-widget__shop">
+                <a href="news-detail/us-2016-roaster-championship-in-atlanta/" target="_blank" class="hub-widget__shop__title" onclick="recordOutboundLink(this, 'External Links', 'https://hub.cropster.com/store/shops/db-coffee');return false;">
+                US Roast Champ
+                </a>
+              </li>
+
+              <li class="hub-widget__shop">
+                <a href="news-detail/world-coffee-roasting-championships-wcrc-2016/" target="_blank" class="hub-widget__shop__title" onclick="recordOutboundLink(this, 'External Links', 'https://hub.cropster.com/store/shops/db-coffee');return false;">
+                World Roast Champ 2016
+                </a>
+              </li>
+              <li class="hub-widget__shop">
+                <a href="news-detail/world-coffee-roasting-competition-2015/" target="_blank" class="hub-widget__shop__title" onclick="recordOutboundLink(this, 'External Links', 'https://hub.cropster.com/store/shops/db-coffee');return false;">
+                World Roast Champ 2015
+                </a>
+              </li>
+
+
+          </ul>
+        </div>
+
+      </div>
+
+		<!--  Raw HTML content: [end] -->
+			</div></section>
+	<!--  CONTENT ELEMENT, uid:935/html [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:944/list [begin] -->
+		<a id="c1008"></a><section id="" class="width--small section--blog-compact section--asia"><div class="wrapper__main">
+		<!--  Header: [begin] -->
+			<h2>ブログ:</h2>
+		<!--  Header: [end] -->
+			
+		<!--  Plugin inserted: [begin] -->
+			
+
+
+
+<div class="news">
+	
+
+  
+
+      
+          <ul class="news-list-view news-list--compact">
+            
+              <li>
+                <a class="news-list--compact__item" title="Cropster Roasting Intelligence 4 has arrived" href="jp/news-detail/cropster-roasting-intelligence-4-has-arrived/">
+                  <span itemprop="headline">Cropster Roasting Intelligence 4 has arrived</span>
+                </a>
+              </li>
+            
+              <li>
+                <a class="news-list--compact__item" title="Cropster is heading to Hotelex Beijing" href="jp/news-detail/cropster-is-heading-to-hotelex-beijing/">
+                  <span itemprop="headline">Cropster is heading to Hotelex Beijing</span>
+                </a>
+              </li>
+            
+              <li>
+                <a class="news-list--compact__item" title="Cropster @CRG Mixer - WOC 2018" href="jp/news-detail/cropster-crg-mixer-woc-2018/">
+                  <span itemprop="headline">Cropster @CRG Mixer - WOC 2018</span>
+                </a>
+              </li>
+            
+          </ul>
+        
+
+    
+
+
+</div>
+
+		<!--  Plugin inserted: [end] -->
+			</div></section>
+	<!--  CONTENT ELEMENT, uid:944/list [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:936/text [begin] -->
+		<a id="c1009"></a><section id="" class="section--bg is-centered"><div class="wrapper__main">
+		<!--  Header: [begin] -->
+			<h2>クロプスター 教育</h2>
+		<!--  Header: [end] -->
+			
+		<!--  Text: [begin] -->
+			<p class="bodytext">クロプスター&nbsp;は年間40以上もの講演を行っています。クロプスター&nbsp;創設者たちは、より良質なコーヒーを作るための情報技術について説明していますので、よく聞いてください。</p>
+		<!--  Text: [end] -->
+			</div></section>
+	<!--  CONTENT ELEMENT, uid:936/text [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:951/html [begin] -->
+		<a id="c1010"></a><section id="" class="small-width padding-bottom padding-top--medium section--bg"><div class="wrapper__main">
+		<!--  Raw HTML content: [begin] -->
+			<div class="video-gallery">
+  <div class="video-gallery__player"></div>
+    <div class="video-gallery__item" data-src="https://www.youtube.com/embed/Y9EXcAb_Ekg?rel=0&amp;controls=1&amp;showinfo=0&autoplay=1">
+    <div class="video-gallery__thumbnail">
+      <img src="/fileadmin/user_upload/video-prev/martin-wiesinger-reco-symposium.jpg" alt="Start Video" />
+      <div class="video-gallery__item__title"><div><b>マーティン、</b></div>ReCo Dublin（ダブリンでの展示会）にて</div>
+    </div>
+  </div>
+  
+  <div class="video-gallery__item" data-src="https://player.vimeo.com/video/144011815?color=c9ff23&autoplay=1">
+    <div class="video-gallery__thumbnail">
+        <img src="/fileadmin/user_upload/video-prev/norbert-cafe-imports.png" alt="Start Video" />
+      <div class="video-gallery__item__title"><div><b>ノルベルト、</b></div>Cafe Imports（カフェインポート）にて</div>
+    </div>
+  </div>
+  
+   <div class="video-gallery__item" data-src="https://www.youtube.com/embed/9jetMNu8kAo?rel=0&amp;controls=1&amp;showinfo=0&autoplay=1">
+    <div class="video-gallery__thumbnail">
+   
+      <img src="/fileadmin/user_upload/video-prev/andreas-idl-roaster-forum.png" alt="Start Video" />
+       <div class="video-gallery__item__title"><div><b>アンドレアス、</b></div>Nordic Roasters Forum（ノルディックロースターズフォーラム）にて</div>
+    </div>
+  </div>
+ 
+
+</div>
+		<!--  Raw HTML content: [end] -->
+			</div></section>
+	<!--  CONTENT ELEMENT, uid:951/html [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:937/text [begin] -->
+		<a id="c1011"></a><section id="" class="is-centered"><div class="wrapper__main">
+		<!--  Header: [begin] -->
+			<h2>クロプスター への接続方法</h2>
+		<!--  Header: [end] -->
+			
+		<!--  Text: [begin] -->
+			<p class="bodytext">クロプスター は簡単にドラム式焙煎機へ接続することができます。喜んで接続のお手伝いをいたします。</p>
+<p class="bodytext"><a href="jp/contact/" title="Opens internal link in current window" class="internal-link"> 方法をご覧ください。</a></p>
+<p class="bodytext"> <a href="fileadmin/_processed_/3/5/csm_cropster-in-roastery_Graphic_-_Japanese_14daa55aa0.png" class="lightbox" rel="lightbox[937]"><img src="fileadmin/_processed_/3/5/csm_cropster-in-roastery_Graphic_-_Japanese_7354b40f9d.png" width="1599" height="822" alt="" title="" style="" /></a> </p>
+		<!--  Text: [end] -->
+			</div></section>
+	<!--  CONTENT ELEMENT, uid:937/text [end] -->
+		
+
+  <footer class="footer__main"><div class="wrapper__main"><div class="column__size1of4">
+	<!--  CONTENT ELEMENT, uid:1295/text [begin] -->
+		<a id="c1300"></a><section id="" class=""><div class="wrapper__main">
+		<!--  Text: [begin] -->
+			<h3>お問い合わせ</h3><div><p class="bodytext"><a href="mailto:sales@cropster.jp">sales@cropster.jp</a></p></div><div><p class="bodytext">81-3-3481-0544</p></div><div><p class="bodytext">81-80-6888-8931</p></div><div><p class="bodytext">                 <a href="https://www.facebook.com/cropster" target="_blank" class="no-border" onclick="recordOutboundLink(this, 'External Links', 'https://www.facebook.com/cropster');return false;"><img src="fileadmin/template/img/icons/facebook.png" alt="Cropster on Facebook" class="social-link" style="" /></a>                 <a href="https://twitter.com/cropster" target="_blank" class="no-border" onclick="recordOutboundLink(this, 'External Links', 'https://twitter.com/cropster');return false;"><img src="fileadmin/template/img/icons/twitter.png" alt="Cropster on Twitter" class="social-link" style="" /></a>             </p></div>
+		<!--  Text: [end] -->
+			</div></section>
+	<!--  CONTENT ELEMENT, uid:1295/text [end] -->
+		</div><div class="column__size1of4">
+	<!--  CONTENT ELEMENT, uid:939/text [begin] -->
+		<a id="c1012"></a><section id="" class="padding-top"><div class="wrapper__main">
+		<!--  Text: [begin] -->
+			<p class="bodytext"><a href="jp/more-about-cropster/#c940" title="Opens internal link in current window" class="internal-link">クロプスターの安全性</a></p>
+<p class="bodytext"><a href="jp/more-about-cropster/#c941" title="Opens internal link in current window" class="internal-link">お客様の個人情報は大切です。</a></p>
+<p class="bodytext"><a href="jp/more-about-cropster/#c942" title="Opens internal link in current window" class="internal-link">お客様のデータはお客様が所有されております。</a></p>
+		<!--  Text: [end] -->
+			</div></section>
+	<!--  CONTENT ELEMENT, uid:939/text [end] -->
+		</div><div class="column__size1of4">
+	<!--  CONTENT ELEMENT, uid:1296/text [begin] -->
+		<section id="" class=""><div class="wrapper__main">
+		<!--  Text: [begin] -->
+			<h3>Resources</h3><ul class="plain"><li><a href="https://download.cropster.com/" target="_blank" onclick="recordOutboundLink(this, 'External Links', 'https://download.cropster.com/');return false;">Download Cropster RI</a></li>   <li><a href="products/cup/">Download Cropster Cup</a></li>   <li><a href="https://cropster.freshdesk.com/support/home" target="_blank" onclick="recordOutboundLink(this, 'External Links', 'https://cropster.freshdesk.com/support/home');return false;">Helpdesk</a></li>   <li><a href="https://developers.cropster.com/" target="_blank" onclick="recordOutboundLink(this, 'External Links', 'https://developers.cropster.com/');return false;">API</a></li></ul>
+		<!--  Text: [end] -->
+			</div></section>
+	<!--  CONTENT ELEMENT, uid:1296/text [end] -->
+		</div><div class="column__size1of4 column__last-item">
+	<!--  CONTENT ELEMENT, uid:11/html [begin] -->
+		<a id="c1013"></a><section id="" class="footer-newsletter"><div class="wrapper__main">
+		<!--  Raw HTML content: [begin] -->
+			<!-- Begin MailChimp Signup Form -->
+ <h3>ニュースレター　ー　現在英語版</h3>
+<div id="mc_embed_signup">
+  <form action="https://cropster.us2.list-manage.com/subscribe/post?u=d0e44a03cbacb341c250a60ec&amp;id=27ac95d7e2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+    <div id="mc_embed_signup_scroll">
+      <div class="form--label">どの製品にご興味がありますか？</div>
+                <ul class="controls">
+                    <li class="control-inline">
+                        <input class="styled-checkbox" id="roast" type="checkbox" value="lcd" name="group[14473][1]"><label
+                            for="roast">ロースト</label>
+                    </li>
+                 
+                    <li class="control-inline">
+                        <input class="styled-checkbox" id="lab-cocoa" type="checkbox" value="cocoa" name="group[14473][2]"><label
+                            for="lab-cocoa">カップ</label>
+                    </li>
+                 
+                  <li class="control-inline">
+                        <input class="styled-checkbox" id="hub" type="checkbox" value="16" name="group[14473][16]"><label
+                            for="hub">ハブ</label>
+                    </li>
+                </ul>
+
+
+                <label class="form--label" for="email">Eメールアドレス</label>
+
+                <div class="form--txt-and-submit">
+                    <input type="email" placeholder="mail@cropster.com" name="MERGE0" class="form--txt" id="email"/>
+                    <input type="submit" class="form--arrow-submit" name="submit" value="Submit">
+                </div>
+      
+      <!-- Country -->
+      <input type="hidden" name="MMERGE5" value="" class="prefill-country" />
+    </div>
+</form>
+</div>
+<!--End mc_embed_signup-->
+		<!--  Raw HTML content: [end] -->
+			</div></section>
+	<!--  CONTENT ELEMENT, uid:11/html [end] -->
+		</div></div><div class="subfooter"><div class="wrapper__main"><div class="subfooter__copyright"><img src="fileadmin/template/img/icons/icon-cropster.png" alt="" /> &copy; Cropster 2018</div><ul class="list__inline"><li><a href="jp/legal-notice/" title="法律上の要項" class="">法律上の要項</a></li><li><a href="jp/privacy/" title="Privacy" class="">Privacy</a></li></ul></div></div></footer>
+
+
+
+<script src="/fileadmin/template/js/primary.js?11" defer></script><script src="/fileadmin/template/js/production.js?11" defer></script>
+
+</body>
+</html>
+<!-- Cached page generated 12-07-18 12:35. Expires 13-07-18 12:35 -->
+<!-- Parsetime: 0ms -->

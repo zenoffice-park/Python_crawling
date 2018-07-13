@@ -1,0 +1,2613 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html xml:lang="en" lang="en" class="no-js">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <![endif]-->
+    <title>Contact Us</title>
+    <meta name="description" content="Elekta is a human care company pioneering significant innovations and clinical solutions for treating cancer and brain disorders.">
+    <meta name="author" content="Elekta Web Team">
+    <meta property="og:image" content="/.resources/elekta/img/elekta-logo.svg"/>
+    <meta property="og:description" content="Elekta is a human care company pioneering significant innovations and clinical solutions for treating cancer and brain disorders."/>
+    <meta property="og:site_name" content="Elekta AB"/>
+    <meta property="og:title" content="Contact Us"/>
+    <meta property="co" content="jp"/>
+    <meta property="lang" content="en"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="/.resources/elekta/img/favicon.ico"/>
+    <link href="https://fonts.googleapis.com/css?family=Maitree:200" rel="stylesheet">
+    <link rel="stylesheet" href="/.resources/elekta/css/main.css">
+    <link rel="stylesheet" href="/.resources/elekta/css/theme-fwim.css">
+    <link rel="alternate" type="application/rss+xml" title="Elekta News"
+          href="https://www.elekta.com/rss/?generatorName=pressAll&results=10"/>
+
+    <!--[if lt IE 9]>
+    <script src="/.resources/elekta/js/vendor/html5shiv.min.js"></script>
+    <script src="/.resources/elekta/js/vendor/respond.min.js"></script>
+    <![endif]-->
+
+    <script>(function (w, d, u) {
+        w.readyQ = [];
+        w.bindReadyQ = [];
+        function p(x, y) {
+            if (x == "ready") {
+                w.bindReadyQ.push(y);
+            } else {
+                w.readyQ.push(x);
+            }
+        }
+
+        var a = {ready: p, bind: p};
+        w.$ = w.jQuery = function (f) {
+            if (f === d || f === u) {
+                return a
+            } else {
+                p(f)
+            }
+        }
+    })(window, document)</script>
+
+</head>
+
+<body>
+
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div id="cookies-eu-banner" style="display: none;">
+    This site uses cookies. By continuing to browse the site you are agreeing to our use of cookies.
+    <a href="/privacy" id="cookies-eu-more">More on this.</a>
+    &nbsp;&nbsp;
+    <button id="cookies-eu-accept" class="btn btn-primary">I understand</button>
+</div>
+
+<header id="header">
+<div class="container">
+    <nav class="elekta-navbar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobile-menu"
+                    aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand hidden-lg" href="/"><img src="/.resources/elekta/img/elekta-logo.svg"
+                                                            alt="Elekta logo"></a>
+        </div>
+
+        <div class="collapse navbar-collapse">
+            <a class="navbar-brand" href="/"><img src="/.resources/elekta/img/elekta-logo.svg" alt="Elekta logo"></a>
+
+            <div id="search-wrapper">
+                <div class="nav navbar-nav">
+                    <div class="input-group">
+                        <input id="search-box" class="aa-input-search" type="search" autocomplete="off">
+                        <i class="aa-input-icon fa fa-search"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div id="numbers-wrapper" class="hidden-xs">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="/global-websites/" title="Global websites"><i class="fa fa-globe"></i></a>
+                    </li>
+                    <li>
+                        <a href="/contact-us/" title="click for global support">Contact</a>
+                    </li>
+                    <li>
+                        <a href="https://community.elekta.com/">Community</a>
+                    </li>
+                </ul>
+            </div>
+
+            <ul class="nav navbar-nav bottom">
+                <li>
+                    <a href="/company/">Company</a>
+                    <div class="submenu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <ul>
+                                        <li>
+                                            <a href="/company/" class="heading">About Elekta</a>
+                                        </li>
+                                        <li>
+                                            <a href="/contact-us/">Contact Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="/investors/corporate-governance/board-of-directors/">Board of
+                                                Directors</a>
+                                        </li>
+                                        <li>
+                                            <a href="/investors/corporate-governance/executive-management/">Executive
+                                                Management</a>
+                                        </li>
+                                        <li>
+                                            <br/>
+                                        </li>
+                                        <li>
+                                            <a href="/patients/" class="heading">Patient Information</a>
+                                        </li>
+                                        <li>
+                                            <a href="/patients/radiation-therapy-treatment-process/">Radiation Therapy
+                                                Treatment</a>
+                                        </li>
+                                        <li>
+                                            <a href="/patients/gammaknife-treatment-process/">Gamma Knife Treatment</a>
+                                        </li>
+                                        <li>
+                                            <a href="/patients/#patients-brachytherapy">Brachytherapy Treatment</a>
+                                        </li>
+                                        <li>
+                                            <a href="/patients/gammaknife-treatment-process/#treatment-centers">Treatment
+                                                Centers</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-3">
+                                    <ul>
+                                        <li>
+                                            <a href="/company/media-resources-center/" class="heading">Media
+                                                Resources</a>
+                                        </li>
+                                        <li>
+                                            <a href="/company/press-releases/">Press Releases</a>
+                                        </li>
+                                        <li>
+                                            <a href="/company/social-media/">Social Media</a>
+                                        </li>
+                                        <li>
+                                            <a href="/events-and-meetings/">Events &amp; Tradeshows</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://wavelength.elekta.com">Wavelength Magazine</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-3">
+                                    <ul>
+                                        <li>
+                                            <a href="/company/" class="heading">Company Information</a>
+                                        </li>
+                                        <li>
+                                            <a href="/company/corporate-citizenship/#code-of-conduct">Code of
+                                                Conduct</a>
+                                        </li>
+                                        <li>
+                                            <a href="/company/#legal">Legal Notices</a>
+                                        </li>
+                                        <li>
+                                            <a href="/company/#legal">Regulatory Affairs</a>
+                                        </li>
+                                        <li>
+                                            <a href="/company/programs/">Programs</a>
+                                        </li>
+                                        <li>
+                                            <a href="/company/elekta-corporate-giving">Corporate Giving</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-3">
+                                    <ul>
+                                        <li>
+                                            <a href="/careers/" class="heading">Careers</a>
+                                        </li>
+                                        <li>
+                                            <a href="/careers/">Working at Elekta</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://elekta.wd3.myworkdayjobs.com/Elekta_Careers"
+                                               target="_blank">View job listings</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">Products &amp; Solutions</a>
+                    <div class="submenu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="tabs-nav-wrapper col-md-20 right-border">
+                                    <ul class="tabs-nav">
+                                        <li>
+                                            <a href="/radiotherapy/" data-panel="#panel-radiotherapy">Radiotherapy</a>
+                                        </li>
+                                        <li>
+                                            <a href="/radiosurgery/" data-panel="#panel-stereotactic-radiosurgery">Stereotactic
+                                                Radiosurgery</a>
+                                        </li>
+                                        <li>
+                                            <a href="/software-solutions/" data-panel="#panel-oncology-informatics">Oncology
+                                                Informatics</a>
+                                        </li>
+                                        <li>
+                                            <a href="/brachytherapy/" data-panel="#panel-brachytherapy">Brachy
+                                                <wbr/>
+                                                therapy</a>
+                                        </li>
+                                        <li>
+                                            <a href="/neurosurgery/leksell-vantage-stereotactic-system/"
+                                               data-panel="#panel-neurosurgery">Neurosurgery</a>
+                                        </li>
+                                        <li>
+                                            <a href="/software-solutions/treatment-management/particle-therapy/"
+                                               data-panel="#panel-particle-therapy">Particle Therapy</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tabs-panels col-md-80">
+                                    <div id="panel-radiotherapy" class="tabs-hide tabs-featured">
+                                        <div class="row">
+                                            <div class="col-sm-4 col-md-3">
+                                                <ul>
+                                                    <li>
+                                                        <a href="/radiotherapy/treatment-delivery-systems/"
+                                                           class="heading">Treatment Delivery</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/radiotherapy/treatment-delivery-systems/versa-hd/"
+                                                           title="Versatile, all-in-one radiotherapy system">Versa
+                                                            HD</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/radiotherapy/treatment-delivery-systems/elekta-infinity/"
+                                                           title="Comprehensive image-guided radiation therapy system with VMAT">Infinity</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/radiotherapy/treatment-delivery-systems/elekta-synergy/"
+                                                           title="Digital accelerator for advanced IGRT">Synergy</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/radiotherapy/treatment-delivery-systems/precise-treatment-system/"
+                                                           title="Advanced digital radiation therapy treatment system">Precise</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/radiotherapy/treatment-delivery-systems/elekta-compact/"
+                                                           title="Starting small, but thinking big">Compact</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4 col-md-3">
+                                                <ul>
+                                                    <li>
+                                                        <a href="/radiotherapy/treatment-solutions/" class="heading">Treatment
+                                                            Solutions</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/radiotherapy/treatment-solutions/imaging/">Advanced
+                                                            Imaging</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/radiotherapy/treatment-solutions/motion-management/">Motion
+                                                            Management</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/radiotherapy/treatment-solutions/quality-assurance/aqua/">QA
+                                                            Solutions</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/radiotherapy/treatment-solutions/beam-shaping/">Beam
+                                                            Shaping</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/radiotherapy/treatment-solutions/patient-positioning/">Patient
+                                                            Positioning</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4 col-md-3">
+                                                <ul>
+                                                    <li>
+                                                        <a href="/software-solutions/" class="heading">Oncology
+                                                            Informatics</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/software-solutions/care-management/mosaiq-radiation-oncology/"
+                                                           title="Efficient care management for medical oncology">MOSAIQ</a>
+                                                    </li>
+                                                    <li>
+                                                        <br>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/software-solutions/treatment-management/external-beam-planning/monaco/"
+                                                           class="heading">Treatment Planning</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/software-solutions/treatment-management/external-beam-planning/monaco/"
+                                                           title="High precision radiotherapy treatment planning">Monaco</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-3 hidden-xs hidden-sm menu-teaser">
+                                                <a href="/radiotherapy/treatment-delivery-systems/versa-hd/"> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="panel-stereotactic-radiosurgery" class="tabs-hide tabs-featured">
+                                        <div class="row">
+                                            <div class="col-sm-4 col-md-3">
+                                                <ul>
+                                                    <li>
+                                                        <span class="heading">Treatment Delivery</span>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/radiosurgery/leksell-gamma-knife-icon/"
+                                                           title="The most precise radiosurgery device on the market">Leksell
+                                                            Gamma Knife Icon</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/radiosurgery/leksell-gamma-knife-perfexion/">Leksell
+                                                            Gamma Knife Perfexion</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/radiotherapy/treatment-delivery-systems/elekta-axesse/">Axesse</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/radiotherapy/treatment-delivery-systems/versa-hd/"
+                                                           title="Versatile, all-in-one radiotherapy system">Versa
+                                                            HD</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4 col-md-3">
+                                                <ul>
+                                                    <li>
+                                                        <span class="heading">Treatment Planning</span>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/radiosurgery/leksell-gammaplan/"
+                                                           title="Treatment planning software for Leksell Gamma Knife">Leksell
+                                                            GammaPlan</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/software-solutions/treatment-management/external-beam-planning/monaco/"
+                                                           title="High precision radiotherapy treatment planning">Monaco</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4 col-md-3">
+
+                                            </div>
+                                            <div class="col-md-3 hidden-xs hidden-sm menu-teaser">
+                                                <a href="/radiosurgery/leksell-gamma-knife-icon/"> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="panel-oncology-informatics" class="tabs-hide tabs-featured">
+                                        <div class="row">
+                                            <div class="col-sm-4 col-md-3">
+                                                <ul>
+                                                    <li>
+                                                        <span class="heading">MOSAIQ Oncology Specific EMR</span>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/software-solutions/care-management/mosaiq-radiation-oncology/">Radiation
+                                                            Oncology</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/software-solutions/care-management/mosaiq-medical-oncology/">Medical
+                                                            Oncology</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/software-solutions/care-management/iq-scripts/">Workflow
+                                                            Automation</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/software-solutions/care-management/patient-engagement/">Patient
+                                                            Engagement</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4 col-md-3">
+                                                <ul>
+                                                    <li>
+                                                        <span class="heading">MOSAIQ Oncology Analytics</span>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/software-solutions/knowledge-management/mosaiq-oncology-analytics/">Clinical
+                                                            Performance</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/software-solutions/knowledge-management/mosaiq-oncology-analytics/">Operational
+                                                            Performance</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/software-solutions/knowledge-management/mosaiq-oncology-analytics/">Financial
+                                                            Performance</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4 col-md-3">
+                                                <ul>
+                                                    <li>
+                                                        <span class="heading">MOSAIQ Image and Plan Review</span>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/software-solutions/treatment-management/mosaiq-evaluate/">Plan
+                                                            Evaluation</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/software-solutions/treatment-management/mosaiq-locate/">Stereotactic
+                                                            Localization</a>
+                                                    </li>
+                                                    <li>
+                                                        <br>
+                                                    </li>
+                                                    <li>
+                                                        <a class="heading"
+                                                           href="/software-solutions/knowledge-management/registries/">Registry</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/software-solutions/knowledge-management/registries/metriq/"
+                                                           title="Cancer registry data management">METRIQ</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-3 hidden-xs hidden-sm menu-teaser">
+                                                <a href="/software-solutions/knowledge-management/mosaiq-oncology-analytics/"> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="panel-brachytherapy" class="tabs-hide tabs-featured">
+                                        <div class="row">
+                                            <div class="col-sm-4 col-md-3">
+                                                <ul>
+                                                    <li>
+                                                        <span class="heading">Treatment Delivery</span>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/brachytherapy/flexitron-treatment-delivery/"
+                                                           title="Remote afterloading platform that offers a simple, intuitive brachytherapy workflow">Flexitron</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/brachytherapy/microselectron-digital-treatment-delivery/"
+                                                           title="Remote afterloading platform">microSelectron</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/brachytherapy/esteya/"
+                                                           title="Electronic brachytherapy for treating skin cancer">Esteya</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/brachytherapy/real-time-brachytherapy-for-prostate-cancer/"
+                                                           title="Dedicated, efficient HDR and LDR brachytherapy">Real-time
+                                                            Prostate</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4 col-md-3">
+                                                <ul>
+                                                    <li>
+                                                        <span class="heading">Treatment Planning</span>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/brachytherapy/oncentra-brachy-treatment-planning/"
+                                                           title="Comprehensive treatment planning software">Oncentra
+                                                            Brachy</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4 col-md-3">
+                                                <ul>
+                                                    <li>
+                                                        <a href="/brachytherapy/applicators/" class="heading">Applicators</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/brachytherapy/applicators.html#bronchus-esophagus-applicators">Bronchus
+                                                            / Esophagus</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/brachytherapy/applicators.html#breast-applicators">Breast</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/brachytherapy/applicators.html#gynecology-applicators">Gynecological</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/brachytherapy/applicators.html#prostate-applicators">Prostate</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/brachytherapy/applicators.html#rectum-bladder-applicators">Rectum
+                                                            / Bladder</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-3 hidden-xs hidden-sm menu-teaser">
+                                                <a href="/brachytherapy/applicators/gynecological-brachytherapy-applicators/venezia-gynecological-applicator/"> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="panel-neurosurgery" class="tabs-hide tabs-featured">
+                                        <div class="row">
+                                            <div class="col-sm-4 col-md-3">
+                                                <ul>
+                                                    <li>
+                                                        <a href="/neurosurgery/leksell-vantage-stereotactic-system/"
+                                                           title="Uncompromised accuracy in neuroimaging and treatment">Leksell
+                                                            Vantage Stereotactic System</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4 col-md-3">
+                                                <ul>
+                                                    <li>
+                                                        <a href="/diagnostic-solutions/elekta-neuromag-triux/"
+                                                           title="The next leap forward in functional mapping">Neuromag
+                                                            TRIUX</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4 col-md-3">
+                                                <ul>
+                                                    <li>
+                                                        <a href="/neurosurgery/leksell-stereotactic-system/"
+                                                           title="Dedicated system for minimally invasive stereotactic neurosurgery">Leksell
+                                                            Stereotactic System</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-3 hidden-xs hidden-sm menu-teaser">
+                                                <a href="/neurosurgery/leksell-vantage-stereotactic-system/"> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="panel-particle-therapy" class="tabs-hide tabs-featured">
+                                        <div class="row">
+                                            <div class="col-sm-4 col-md-3">
+
+                                            </div>
+                                            <div class="col-sm-4 col-md-3">
+
+                                            </div>
+                                            <div class="col-sm-4 col-md-3">
+
+                                            </div>
+                                            <div class="col-md-3 hidden-xs hidden-sm menu-teaser">
+                                                <a href="#"> </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="/services/">Services</a>
+                    <div class="submenu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <ul>
+                                        <li>
+                                            <a href="/services/" class="heading">Service &amp; Support</a>
+                                        </li>
+                                        <li>
+                                            <a href="/services/">Contact Support</a>
+                                        </li>
+                                        <li>
+                                            <a href="/services/community/">Elekta Care Community</a>
+                                        </li>
+                                        <li>
+                                            <a href="/services/">Elekta Care</a>
+                                        </li>
+                                        <li>
+                                            <a href="/services/education-and-training/">Education &amp; Training</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-3">
+
+                                </div>
+                                <div class="col-xs-3">
+
+                                </div>
+                                <div class="col-xs-3">
+                                    <div class="menu-teaser">
+                                        <div class="menu-teaser-icon">
+                                            <span class="fa fa-question"></span>
+                                        </div>
+                                        <div class="menu-teaser-title">
+                                            Get Help
+                                        </div>
+                                        <div class="menu-teaser-link">
+                                            <a href="/services/" class="btn btn-more">Contact Support</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="/investors/">Investors</a>
+                    <div class="submenu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="tabs-nav-wrapper col-md-20 right-border">
+                                    <ul class="tabs-nav">
+                                        <li>
+                                            <a href="/investors/elekta-in-brief/" data-panel="#panel-elekta-in-brief">Elekta
+                                                in brief</a>
+                                        </li>
+                                        <li>
+                                            <a href="/investors/corporate-governance/"
+                                               data-panel="#panel-corporate-governance">Corporate Governance</a>
+                                        </li>
+                                        <li>
+                                            <a href="/investors/the-share/" data-panel="#panel-the-share">The Share</a>
+                                        </li>
+                                        <li>
+                                            <a href="/investors/financials/"
+                                               data-panel="#panel-financials">Financials</a>
+                                        </li>
+                                        <li>
+                                            <a href="/investors/reports/" data-panel="#panel-reports">Reports</a>
+                                        </li>
+                                        <li>
+                                            <a href="/investors/presentations/" data-panel="#panel-presentations">Presentations</a>
+                                        </li>
+                                        <li>
+                                            <a href="/company/press-releases/" data-panel="#panel-press-releases">Press
+                                                Releases</a>
+                                        </li>
+                                        <li>
+                                            <a href="/investors/ir-calendar/" data-panel="#panel-ir-calendar">IR
+                                                Calendar</a>
+                                        </li>
+                                        <li>
+                                            <a href="/investors/subscriptions/" data-panel="#panel-subscriptions">Subscriptions</a>
+                                        </li>
+                                        <li>
+                                            <a href="/investors/ir-contact/" data-panel="#panel-ir-contact">IR
+                                                Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tabs-panels col-md-80">
+                                    <div id="panel-elekta-in-brief" class="tabs-hide">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <ul>
+                                                    <li>
+                                                        <a href="/investors/elekta-in-brief/value-creation/">Value
+                                                            Creation</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/investors/elekta-in-brief/solutions/">Solutions</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/investors/elekta-in-brief/about-cancer/">About
+                                                            Cancer</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <ul>
+                                                    <li>
+                                                        <a href="/investors/elekta-in-brief/about-radiation-therapy/">About
+                                                            Radiation Therapy</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/investors/elekta-in-brief/production/">Production</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/investors/glossary/">Glossary</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="panel-corporate-governance" class="tabs-hide">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <ul>
+                                                    <li>
+                                                        <a href="/investors/corporate-governance/annual-general-meeting/">Annual
+                                                            General Meeting</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/investors/corporate-governance/extraordinary-general-meeting/">Extraordinary
+                                                            General Meeting</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/investors/corporate-governance/board-of-directors/">Board
+                                                            of Directors</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/investors/corporate-governance/executive-management/">Executive
+                                                            Management</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <ul>
+                                                    <li>
+                                                        <a href="/investors/corporate-governance/nomination-committee/">Nomination
+                                                            Committee</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/investors/corporate-governance/the-executive-compensation-capability-committee/">Compensation
+                                                            Committee</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/investors/corporate-governance/audit-committee/">Audit
+                                                            Committee</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/investors/corporate-governance/reporting-and-audit/">Reporting
+                                                            and Audit</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <ul>
+                                                    <li>
+                                                        <a href="/investors/corporate-governance/remuneration-to-executive-management/">Remuneration
+                                                            to executive management</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/company/corporate-citizenship/#code-of-conduct">Code
+                                                            of conduct</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/investors/corporate-governance/articles-of-association/">Articles
+                                                            of Association</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/investors/corporate-governance/corporate-governance-report/">Corporate
+                                                            Governance Report</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/investors/the-share/convertible-debentures/">Convertible
+                                                            Debentures</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="panel-the-share" class="tabs-hide">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <ul>
+                                                    <li>
+                                                        <a href="/investors/the-share/total-return/">Total Return</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/investors/the-share/share-price-calculator/">Share
+                                                            Price Calculator</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/investors/the-share/largest-shareholders/">Largest
+                                                            Shareholders</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/investors/the-share/distribution-of-shareholding/">Distribution
+                                                            of Shareholding</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/investors/the-share/repurchase-of-elekta-shares/">Repurchase
+                                                            of Elekta Shares</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <ul>
+                                                    <!-- <li>
+                                                        <a href="/investors/the-share/insiders/">Insiders</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/investors/the-share/insiders/">Insider Transactions</a>
+                                                    </li> -->
+                                                    <li>
+                                                        <a href="/investors/the-share/share-capital-and-number-of-shares/">Share
+                                                            Capital and Number of Shares</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/investors/the-share/elekta-share-in-brief/">Elekta
+                                                            Share in Brief</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <ul>
+                                                    <li>
+                                                        <a href="/investors/the-share/analysts/">Analysts</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/investors/the-share/market-estimates/">Market
+                                                            Estimates</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/investors/the-share/dividend-policy/">Dividend
+                                                            Policy</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/investors/the-share/data-per-share/">Data per
+                                                            Share</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="panel-financials" class="tabs-hide">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                <ul>
+                                                    <li>
+                                                        <a href="/investors/financials/definitions/">Definitions</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/investors/financials/financial-ambitions/">Financial
+                                                            Ambitions</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="/investors/financials/mtn-program/">MTN - Program</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4">
+                                            </div>
+                                            <div class="col-sm-4">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="panel-reports" class="tabs-hide">
+                                        <div class="row">
+                                            <div class="col-sm-6 text-center">
+                                                <a href="/investors/reports/annual-reports/">
+                                                    <img src="/.resources/elekta/img/investors/cover-annual-report.png"
+                                                         style="width: 240px; height: auto;">
+                                                </a>
+                                                <a href="/investors/reports/annual-reports/">Annual Reports</a>
+                                            </div>
+                                            <div class="col-sm-6 text-center">
+                                                <a href="/investors/reports/interim-reports/">
+                                                    <img src="/.resources/elekta/img/investors/cover-interim-reports.png"
+                                                         style="width: 240px; height: auto;">
+                                                </a>
+                                                <a href="/investors/reports/interim-reports/">Interim Reports</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="panel-presentations" class="tabs-hide">
+
+                                    </div>
+                                    <div id="panel-press-releases" class="tabs-hide">
+
+                                    </div>
+                                    <div id="panel-ir-calendar" class="tabs-hide">
+
+                                    </div>
+                                    <div id="panel-subscriptions" class="tabs-hide">
+
+                                    </div>
+                                    <div id="panel-ir-contact" class="tabs-hide">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <p>
+                                                    <strong>JOHAN ANDERSSON</strong>
+                                                </p>
+                                                <p>
+                                                    Director and Head of Investor Relations
+                                                </p>
+                                                <p>
+                                                    Phone - Direct: <a href="tel:+46858725415">+46 8 587 254 15</a>
+                                                </p>
+
+                                                <p>
+                                                    <a href="mailto:johan.andersson@elekta.com">johan.andersson@elekta.com</a>
+                                                </p>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <p>
+                                                    <strong>TOBIAS BÜLOW</strong>
+                                                </p>
+                                                <p>
+                                                    Director Financial Communications
+                                                </p>
+                                                <p>
+                                                    Phone - Direct: <a href="tel:+46858725734">+46 8 587 257 34</a>
+                                                </p>
+
+                                                <p>
+                                                    <a href="mailto:tobias.bulow@elekta.com">tobias.bulow@elekta.com</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="/unity/" class="link-teal">Future Tech</a>
+                    <div class="submenu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-5">
+                                    <a href="/unity/" class="heading">Future Technologies</a>
+                                    <p>As pioneers of future technology, Elekta is setting a new standard of cancer care
+                                        once again with <strong>magnetic resonance radiation therapy (MR/RT)</strong>.
+                                    </p>
+                                    <p>MR/RT addresses an unmet need in cancer therapy, enabling clinicians to
+                                        confidently see and track difficult to visualize soft-tissue anatomies.</p>
+                                </div>
+                                <div class="col-xs-7 text-center">
+                                    <a href="/unity/"><img src="//play.vidyard.com/6ZXHFvUqPK1qiEfRJGe5Er.jpg?"
+                                                           class="img-responsive" alt="Future Technologies"/></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div id="search-panel" class="submenu">
+                <div class="container" id="outer-search-panel">
+
+                </div>
+            </div>
+
+            <script type="text/template" id="my-custom-menu-template">
+                <div class="row">
+                    <div class="col-md-3">
+                        <strong>Pages</strong>
+                        <ul class="aa-dataset-website">
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <strong>Press releases</strong>
+                        <ul class="aa-dataset-press"></ul>
+                        <br/>
+                        <a href="/company/press-releases.html" class="btn btn-results">View all</a>
+                    </div>
+                    <div class="col-md-3">
+                        <strong>Events</strong>
+                        <ul class="aa-dataset-events"></ul>
+                        <br/>
+                        <a href="/events-and-meetings.html" class="btn btn-results">View all</a>
+                        <br/> <br/> <br/>
+                        <strong>Trainings</strong>
+                        <ul class="aa-dataset-trainings"></ul>
+                        <br/>
+                        <a href="/services/education-and-training.html" class="btn btn-results">View all</a>
+                    </div>
+                    <div class="col-md-3">
+                        <strong>Wavelength</strong>
+                        <ul class="aa-dataset-wavelength"></ul>
+                    </div>
+                </div>
+            </script>
+        </div>
+    </nav>
+</div>
+<div id="mobile-menu" class="collapse">
+    <ul>
+        <li>
+            <a href="#" class="no-link">Company</a>
+            <ul>
+                <li>
+                    <a href="/company/">About Elekta</a>
+                    <ul>
+                        <li>
+                            <a href="/contact-us/">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="/investors/corporate-governance/board-of-directors/">Board of Directors</a>
+                        </li>
+                        <li>
+                            <a href="/investors/corporate-governance/executive-management/">Executive Managment</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/company/media-resources-center/">Media Resources</a>
+                    <ul>
+                        <li>
+                            <a href="/company/press-releases/">Press Releases</a>
+                        </li>
+                        <li>
+                            <a href="/company/social-media/">Social Media</a>
+                        </li>
+                        <li>
+                            <a href="/events-and-meetings/">Events &amp; Tradeshows</a>
+                        </li>
+                        <li>
+                            <a href="https://wavelength.elekta.com" target="_blank">Wavelength Magazine</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/company/">Company Information</a>
+                    <ul>
+                        <li>
+                            <a href="/company/corporate-citizenship/#code-of-conduct">Code of Conduct</a>
+                        </li>
+                        <li>
+                            <a href="/company/#legal">Legal Notices</a>
+                        </li>
+                        <li>
+                            <a href="/company/#legal">Regulatory Affairs</a>
+                        </li>
+                        <li>
+                            <a href="/company/programs/">Programs</a>
+                        </li>
+                        <li>
+                            <a href="/company/elekta-corporate-giving/">Corporate Giving</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/patients/">Patient Information</a>
+                    <ul>
+                        <li>
+                            <a href="/patients/radiation-therapy-treatment-process/">Radiation Therapy Treatment</a>
+                        </li>
+                        <li>
+                            <a href="/patients/gammaknife-treatment-process/">Gamma Knife Treatment</a>
+                        </li>
+                        <li>
+                            <a href="/patients/#patients-brachytherapy">Brachytherapy Treatment</a>
+                        </li>
+                        <li>
+                            <a href="/patients/gammaknife-treatment-process/#treatment-centers">Treatment Centers</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/careers/">Careers</a>
+                    <ul>
+                        <li>
+                            <a href="/careers/">Working at Elekta</a>
+                        </li>
+                        <li>
+                            <a href="https://elekta.wd3.myworkdayjobs.com/Elekta_Careers" target="_blank">View job
+                                listings</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#" class="no-link">Products &amp; Solutions</a>
+            <ul>
+                <li>
+                    <a href="/radiotherapy/">Radiotherapy</a>
+                    <ul>
+                        <li>
+                            <a href="/radiotherapy/treatment-delivery-systems/">Treatment Delivery</a>
+                            <ul>
+                                <li>
+                                    <a href="/radiotherapy/treatment-delivery-systems/versa-hd/">Versa HD</a>
+                                </li>
+                                <li>
+                                    <a href="/radiotherapy/treatment-delivery-systems/elekta-infinity/">Infinity</a>
+                                </li>
+                                <li>
+                                    <a href="/radiotherapy/treatment-delivery-systems/elekta-synergy/">Synergy</a>
+                                </li>
+                                <li>
+                                    <a href="/radiotherapy/treatment-delivery-systems/precise-treatment-system/">Precise</a>
+                                </li>
+                                <li>
+                                    <a href="/radiotherapy/treatment-delivery-systems/elekta-compact/">Compact</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/radiotherapy/treatment-solutions/">Treatment Solutions</a>
+                            <ul>
+                                <li>
+                                    <a href="/radiotherapy/treatment-solutions/imaging/">Advanced Imaging</a>
+                                </li>
+                                <li>
+                                    <a href="/radiotherapy/treatment-solutions/motion-management/">Motion Management</a>
+                                </li>
+                                <li>
+                                    <a href="/radiotherapy/treatment-solutions/quality-assurance/aqua/">QA Solutions</a>
+                                </li>
+                                <li>
+                                    <a href="/radiotherapy/treatment-solutions/beam-shaping/">Beam Shaping</a>
+                                </li>
+                                <li>
+                                    <a href="/radiotherapy/treatment-solutions/patient-positioning/">Patient
+                                        Positioning</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/software-solutions/">Oncology Informatics</a>
+                            <ul>
+                                <li>
+                                    <a href="/software-solutions/care-management/mosaiq-radiation-oncology/">MOSAIQ</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/software-solutions/treatment-management/external-beam-planning/monaco/"
+                               class="no-link">Treatment Planning</a>
+                            <ul>
+                                <li>
+                                    <a href="/software-solutions/treatment-management/external-beam-planning/monaco/">Monaco</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/radiosurgery/">Stereotactic Radiosurgery</a>
+                    <ul>
+                        <li>
+                            <a href="#" class="no-link">Treatment Delivery</a>
+                            <ul>
+                                <li>
+                                    <a href="/radiosurgery/leksell-gamma-knife-icon/">Leksell Gamma Knife Icon</a>
+                                </li>
+                                <li>
+                                    <a href="/radiosurgery/leksell-gamma-knife-perfexion/">Leksell Gamma Knife
+                                        Perfexion</a>
+                                </li>
+                                <li>
+                                    <a href="/radiotherapy/treatment-delivery-systems/elekta-axesse/">Axesse</a>
+                                </li>
+                                <li>
+                                    <a href="/radiotherapy/treatment-delivery-systems/versa-hd/">Versa HD</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="no-link">Treatment Planning</a>
+                            <ul>
+                                <li>
+                                    <a href="/radiosurgery/leksell-gammaplan/">Leksell GammaPlan</a>
+                                </li>
+                                <li>
+                                    <a href="/software-solutions/treatment-management/external-beam-planning/monaco/">Monaco</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/software-solutions/">Oncology Informatics</a>
+                    <ul>
+                        <li>
+                            <a href="#" class="no-link">MOSAIQ Oncology Specific EMR</a>
+                            <ul>
+                                <li>
+                                    <a href="/software-solutions/care-management/mosaiq-radiation-oncology/">Radiation
+                                        Oncology</a>
+                                </li>
+                                <li>
+                                    <a href="/software-solutions/care-management/mosaiq-medical-oncology/">Medical
+                                        Oncology</a>
+                                </li>
+                                <li>
+                                    <a href="/software-solutions/care-management/iq-scripts/">Workflow Automation</a>
+                                </li>
+                                <li>
+                                    <a href="/software-solutions/care-management/patient-engagement/">Patient
+                                        Engagement</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="no-link">MOSAIQ Oncology Analytics</a>
+                            <ul>
+                                <li>
+                                    <a href="/software-solutions/knowledge-management/mosaiq-oncology-analytics/">Clinical
+                                        Performance</a>
+                                </li>
+                                <li>
+                                    <a href="/software-solutions/knowledge-management/mosaiq-oncology-analytics/">Operational
+                                        Performance</a>
+                                </li>
+                                <li>
+                                    <a href="/software-solutions/knowledge-management/mosaiq-oncology-analytics/">Financial
+                                        Performance</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="no-link">MOSAIQ Image and Plan Review</a>
+                            <ul>
+                                <li>
+                                    <a href="/software-solutions/treatment-management/mosaiq-evaluate/">Plan
+                                        Evaluation</a>
+                                </li>
+                                <li>
+                                    <a href="/software-solutions/treatment-management/mosaiq-locate/">Stereotactic
+                                        Localization</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/software-solutions/knowledge-management/registries/">Registry</a>
+                            <ul>
+                                <li>
+                                    <a href="/software-solutions/knowledge-management/registries/metriq/">METRIQ</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/brachytherapy/">Brachytherapy</a>
+                    <ul>
+                        <li>
+                            <a href="#" class="no-link">Treatment Delivery</a>
+                            <ul>
+                                <li>
+                                    <a href="/brachytherapy/flexitron-treatment-delivery/">Flexitron</a>
+                                </li>
+                                <li>
+                                    <a href="/brachytherapy/microselectron-digital-treatment-delivery/">microSelectron</a>
+                                </li>
+                                <li>
+                                    <a href="/brachytherapy/esteya/">Esteya</a>
+                                </li>
+                                <li>
+                                    <a href="/brachytherapy/real-time-brachytherapy-for-prostate-cancer/">Real-time
+                                        Prostate</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="no-link">Treatment Planning</a>
+                            <ul>
+                                <li>
+                                    <a href="/brachytherapy/oncentra-brachy-treatment-planning/">Oncentra Brachy</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="/brachytherapy/applicators/">Applicators</a>
+                            <ul>
+                                <li>
+                                    <a href="/brachytherapy/applicators.html#bronchus-esophagus-applicators">Bronchus /
+                                        Esophagus</a>
+                                </li>
+                                <li>
+                                    <a href="/brachytherapy/applicators.html#breast-applicators">Breast</a>
+                                </li>
+                                <li>
+                                    <a href="/brachytherapy/applicators.html#gynecology-applicators">Gynecological</a>
+                                </li>
+                                <li>
+                                    <a href="/brachytherapy/applicators.html#prostate-applicators">Prostate</a>
+                                </li>
+                                <li>
+                                    <a href="/brachytherapy/applicators.html#rectum-bladder-applicators">Rectum /
+                                        Bladder</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/neurosurgery/leksell-vantage-stereotactic-system/">Neurosurgery</a>
+                    <ul>
+                        <li>
+                            <a href="/neurosurgery/leksell-vantage-stereotactic-system/">Leksell Vantage Stereotactic
+                                System</a>
+                        </li>
+                        <li>
+                            <a href="/diagnostic-solutions/elekta-neuromag-triux/">Neuromag TRIUX</a>
+                        </li>
+                        <li>
+                            <a href="/neurosurgery/leksell-stereotactic-system/">Leksell Stereotactic System</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/software-solutions/treatment-management/particle-therapy/">Particle Therapy</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="/services/">Services</a>
+            <ul>
+                <li>
+                    <a href="/services/">Contact Elekta Care Support</a>
+                </li>
+                <li>
+                    <a href="/services/community/">Elekta Care Community</a>
+                </li>
+                <li>
+                    <a href="/services/education-and-training/">Education &amp; Training</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="/investors/">Investors</a>
+            <ul>
+                <li>
+                    <a href="/investors/elekta-in-brief/">Elekta in Brief</a>
+                    <ul>
+                        <li>
+                            <a href="/investors/elekta-in-brief/value-creation/">Value Creation</a>
+                        </li>
+                        <li>
+                            <a href="/investors/elekta-in-brief/solutions/">Solutions</a>
+                        </li>
+                        <li>
+                            <a href="/investors/elekta-in-brief/about-cancer/">About Cancer</a>
+                        </li>
+                        <li>
+                            <a href="/investors/elekta-in-brief/about-radiation-therapy/">About Radiation Therapy</a>
+                        </li>
+                        <li>
+                            <a href="/investors/elekta-in-brief/production/">Production</a>
+                        </li>
+                        <li>
+                            <a href="/investors/glossary/">Glossary</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/investors/corporate-governance/">Corporate Governance</a>
+                    <ul>
+                        <li>
+                            <a href="/investors/corporate-governance/annual-general-meeting/">Annual General Meeting</a>
+                        </li>
+                        <li>
+                            <a href="/investors/corporate-governance/extraordinary-general-meeting/">Extraordinary
+                                General Meeting</a>
+                        </li>
+                        <li>
+                            <a href="/investors/corporate-governance/board-of-directors/">Board of Directors</a>
+                        </li>
+                        <li>
+                            <a href="/investors/corporate-governance/executive-management/">Executive Management</a>
+                        </li>
+                        <li>
+                            <a href="/investors/corporate-governance/nomination-committee/">Nomination Committee</a>
+                        </li>
+                        <li>
+                            <a href="/investors/corporate-governance/the-executive-compensation-capability-committee/">Compensation
+                                Committee</a>
+                        </li>
+                        <li>
+                            <a href="/investors/corporate-governance/audit-committee/">Audit Committee</a>
+                        </li>
+                        <li>
+                            <a href="/investors/corporate-governance/reporting-and-audit/">Reporting and Audit</a>
+                        </li>
+                        <li>
+                            <a href="/investors/corporate-governance/remuneration-to-executive-management/">Remuneration
+                                to executive management</a>
+                        </li>
+                        <li>
+                            <a href="/company/corporate-citizenship/#code-of-conduct">Code of conduct</a>
+                        </li>
+                        <li>
+                            <a href="/investors/corporate-governance/articles-of-association/">Articles of
+                                Association</a>
+                        </li>
+                        <li>
+                            <a href="/investors/corporate-governance/corporate-governance-report/">Corporate Governance
+                                Report</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/investors/the-share/">The Share</a>
+                    <ul>
+                        <li>
+                            <a href="/investors/the-share/total-return/">Total Return</a>
+                        </li>
+                        <li>
+                            <a href="/investors/the-share/share-price-calculator/">Share Price Calculator</a>
+                        </li>
+                        <li>
+                            <a href="/investors/the-share/largest-shareholders/">Largest Shareholders</a>
+                        </li>
+                        <li>
+                            <a href="/investors/the-share/distribution-of-shareholding/">Distribution of
+                                Shareholding</a>
+                        </li>
+                        <!-- <li>
+                            <a href="/investors/the-share/insiders/">Insiders</a>
+                        </li>
+                        <li>
+                            <a href="/investors/the-share/insiders/">Insider Transactions</a>
+                        </li> -->
+                        <li>
+                            <a href="/investors/the-share/share-capital-and-number-of-shares/">Share Capital and Number
+                                of Shares</a>
+                        </li>
+                        <li>
+                            <a href="/investors/the-share/elekta-share-in-brief/">Elekta Share in Brief</a>
+                        </li>
+                        <li>
+                            <a href="/investors/the-share/analysts/">Analysts</a>
+                        </li>
+                        <li>
+                            <a href="/investors/the-share/market-estimates/">Market Estimates</a>
+                        </li>
+                        <li>
+                            <a href="/investors/the-share/dividend-policy/">Dividend Policy</a>
+                        </li>
+                        <li>
+                            <a href="/investors/the-share/data-per-share/">Data per Share</a>
+                        </li>
+                        <li>
+                            <a href="/investors/the-share/convertible-debentures/">Convertible Debentures</a>
+                        </li>
+                        <li>
+                            <a href="/investors/the-share/repurchase-of-elekta-shares/">Repurchase of Elekta Shares</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/investors/financials/">Financials</a>
+                    <ul>
+                        <li>
+                            <a href="/investors/financials/definitions/">Definitions</a>
+                        </li>
+                        <li>
+                            <a href="/investors/financials/financial-ambitions/">Financial Ambitions</a>
+                        </li>
+                        <li>
+                            <a href="/investors/financials/mtn-program/">MTN - Program</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/investors/reports/">Reports</a>
+                    <ul>
+                        <li>
+                            <a href="/investors/reports/annual-reports/">Annual Reports</a>
+                        </li>
+                        <li>
+                            <a href="/investors/reports/interim-reports/">Interim Reports</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/investors/presentations/">Presentations</a>
+                </li>
+                <li>
+                    <a href="/company/press-releases/">Press Releases</a>
+                </li>
+                <li>
+                    <a href="/investors/ir-calendar/">IR Calendar</a>
+                </li>
+                <li>
+                    <a href="/investors/subscriptions/">Subscriptions</a>
+                </li>
+                <li>
+                    <a href="/investors/ir-contact/">IR Contact</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="/unity">Future Technologies</a>
+        </li>
+        <li>
+            <a href="/global-websites">Global</a>
+        </li>
+        <li>
+            <a href="/contact-us/">Contact</a>
+        </li>
+        <li>
+            <a href="https://community.elekta.com/" target="_blank" rel="noreferrer noopener">Community</a>
+        </li>
+    </ul>
+</div>
+</header>
+
+<div id="wrapper" class="container">
+
+
+<section id="page-header">
+    <div class="page-header-image">
+        <img src="/dam/jcr:ae07f17e-2d82-48b1-9922-5fec0a32c78a/girl-with-laptop-in-field.jpg" alt="Contact Us">
+    </div>
+    <div class="page-header-overlay-3"></div>
+    <div class="page-header-text">
+        <h1>Contact Us</h1>
+    </div>
+</section>
+
+<!--div id="content" class="container"-->
+
+
+
+
+<section id="sectionId1" class="None ">
+
+<div class="row">
+
+<div class="col-md-6">
+
+
+
+<p>If you are interested in a career with Elekta and would like to see current openings, or submit a resume, please visit our <a href="/careers.html">Career Portal.</a></p>
+
+<p>If you are a member of the media <strong>on deadline</strong>, please visit our <a href="/company/media-resources-center.html">Media Resources Center</a>.</p>
+
+<p>For any other questions that you may have, please use one of the forms below. An asterisk (*) indicates a required entry. Typical response time is 3-5 business days, depending on the nature of the question. Please note that we do not respond to form letters or e-mail campaigns.</p>
+
+<p>By submitting your information in this e-mail message, you agree that our <a href="/company.html">Privacy Statement</a> will govern such information. Because e-mail sent to and from this site may not be secure, you should pay close attention to what information you send via e-mail to us.</p>
+
+
+
+</div>
+
+<div class="col-md-5 col-md-offset-1">
+
+
+
+    <h3>Elekta Instrument AB Stockholm</h3>
+<p><span aria-hidden="true" class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;info@elekta.com</p>
+
+<p><span aria-hidden="true" class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;P.O. Box 7593<br />
+Kungstensgatan 18&nbsp;<br />
+SE-103 93 Stockholm&nbsp;<br />
+&nbsp;</p>
+
+
+
+
+
+
+
+
+
+
+<p class="scroll-links none">
+    <a class="btn btn-more " href="/company#our-offices" >Show all elekta office locations</a>
+</p>
+<br>
+
+
+
+
+
+
+
+
+<p class="scroll-links none">
+    <a class="btn btn-more " href="/services/support-phone-numbers.html" >Show all global support numbers</a>
+</p>
+<br>
+
+</div>
+ </div> 
+
+</section>
+
+
+
+
+<section id="sectionId2" class="light-grey ">
+    <h2>Quick Contact</h2>
+
+<div class="row">
+
+<div class="col-md-12">
+</div>
+
+
+<div class="row vertical-tabs">
+    <div class="col-sm-4">
+
+        <!-- Nav tabs -->
+        <ul class="nav" role="tablist">
+                <li class="active">
+                    <a href="#vertical-tab1" role="tab" data-toggle="tab">Sales</a>
+                </li>
+                <li class="">
+                    <a href="#vertical-tab2" role="tab" data-toggle="tab">Human Resources / Careers</a>
+                </li>
+                <li class="">
+                    <a href="#vertical-tab3" role="tab" data-toggle="tab">Investor Relations</a>
+                </li>
+                <li class="">
+                    <a href="#vertical-tab4" role="tab" data-toggle="tab">Media Resources</a>
+                </li>
+                <li class="">
+                    <a href="#vertical-tab5" role="tab" data-toggle="tab">Service Requests</a>
+                </li>
+                <li class="">
+                    <a href="#vertical-tab6" role="tab" data-toggle="tab">Other Enquiries</a>
+                </li>
+        </ul>
+    </div>
+
+    <div class="col-sm-8">
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+
+
+
+<div class="tab-pane fade active in" id="vertical-tab1">
+
+
+
+    <h3>Contact your sales manager</h3>
+<script src="//app-sji.marketo.com/js/forms2/js/forms2.min.js"></script>
+<form id="mktoForm_3068">&nbsp;</form>
+<script>MktoForms2.loadForm("//app-sji.marketo.com", "903-TGI-474", 3068);</script>
+
+
+</div>
+
+
+
+
+
+<div class="tab-pane fade " id="vertical-tab2">
+
+<div class="col-md-6">
+
+
+
+    <h3>Careers at Elekta</h3>
+<p>Around the globe, Elekta solutions encompass the broad spectrum of disease management. Diverse and exciting employment opportunities are available in many areas. If this sounds like the kind of organization you&rsquo;d like to become a part of, we want to hear from you.</p>
+
+
+
+
+
+
+
+
+
+
+<p class="scroll-links none">
+    <a class="btn btn-more " href="/careers.html" >check out careers and apply at elekta</a>
+</p>
+
+</div>
+
+<div class="col-md-4 col-md-offset-1">
+
+
+
+
+
+
+
+<div class="text-center">
+        <div class="rounded-button cyan">
+            <div class="rounded-button-content"
+                 title=""
+                 style="background-image: url('/dam/jcr:c027696d-ca94-49db-85ee-315e5949546a/Guy-at-computer.jpg')">
+            </div>
+        </div>
+            <span class="section-style white"></span>
+</div>
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="tab-pane fade " id="vertical-tab3">
+
+<div class="col-md-6">
+
+
+
+    <h3>Investor Relations</h3>
+<p>Find reports, investor news, financials, corporate governance, share info, and more.</p>
+
+
+
+
+
+
+
+
+
+
+<p class="scroll-links none">
+    <a class="btn btn-more " href="//www.elekta.com/investors/" >learn more</a>
+</p>
+
+</div>
+
+<div class="col-md-4 col-md-offset-1">
+
+
+
+
+
+
+
+<div class="text-center">
+        <div class="rounded-button cyan">
+            <div class="rounded-button-content"
+                 title=""
+                 style="background-image: url('/dam/jcr:1211c0f4-5717-402e-a201-3fdec63f1214/Citizenship-Office-Employees.jpg')">
+            </div>
+        </div>
+            <span class="section-style white"></span>
+</div>
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="tab-pane fade " id="vertical-tab4">
+
+<div class="col-md-6">
+
+
+
+    <h3>Media resources</h3>
+<p>Read executive bios, get info for patients, request an interview, ask a question, discover a story idea, and download the corporate media guide in a single visit.</p>
+
+
+
+
+
+
+
+
+
+
+<p class="scroll-links none">
+    <a class="btn btn-more " href="/company/media-resources-center.html" >learn more</a>
+</p>
+
+</div>
+
+<div class="col-md-4 col-md-offset-1">
+
+
+
+
+
+
+
+<div class="text-center">
+        <div class="rounded-button cyan">
+            <div class="rounded-button-content"
+                 title=""
+                 style="background-image: url('/dam/jcr:07ad81eb-ab5c-4a38-adf1-067ff42566e1/citizenship.jpg')">
+            </div>
+        </div>
+            <span class="section-style white"></span>
+</div>
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="tab-pane fade " id="vertical-tab5">
+
+<div class="col-md-6">
+
+
+
+    <h3>Elekta Services</h3>
+<p>Contact support, find education and training courses, and register or log in to SupportPlus.</p>
+
+
+
+
+
+</div>
+
+<div class="col-md-4 col-md-offset-1">
+
+
+
+
+
+
+
+<div class="text-center">
+        <div class="rounded-button cyan">
+            <div class="rounded-button-content"
+                 title=""
+                 style="background-image: url('/dam/jcr:e933bf68-f761-4e24-93c3-c51a90835ea2/Citizenship-Technical.jpg')">
+            </div>
+        </div>
+            <span class="section-style white"></span>
+</div>
+
+
+</div>
+</div>
+
+
+
+
+
+<div class="tab-pane fade " id="vertical-tab6">
+
+<div class="col-md-12">
+
+
+
+    <h3>Other enquiries</h3>
+<p>Don&#39;t see what you need in the list above? Contact Elekta directly with your question.</p>
+<script src="//app-sji.marketo.com/js/forms2/js/forms2.min.js"></script>
+
+<form id="mktoForm_3016">&nbsp;</form>
+<script>MktoForms2.loadForm("//app-sji.marketo.com", "903-TGI-474", 3016);</script>
+
+
+
+
+
+ 
+
+
+</div>
+</div>
+
+
+        </div>
+
+    </div>
+
+</div>
+ </div> 
+
+</section>
+
+
+
+
+<section id="sectionId3" class="None ">
+
+<div class="row">
+
+<div class="col-md-9">
+
+
+
+    <h3>Note for patients</h3>
+<p><br />
+Elekta appreciates your inquiries and understands the difficulty of your circumstance.<br />
+<br />
+As a manufacturer of radiation therapy and neurologic disease related equipment, however, we are unable to provide you with specific medical advice regarding your health conditions.<br />
+<br />
+Your physicians and care givers are the most knowledgeable resources for your particular disease, and are the most qualified to answer your questions.<br />
+<br />
+Nevertheless, there are a number of high-quality online resources that you may find useful. Among them, the American Cancer Society (<a href="http://www.cancer.org/" target="_blank"><strong>ACS</strong></a>) and the US National Cancer Institute (<a href="http://www.cancer.gov/" target="_blank"><strong>NCI</strong></a>) have high-quality information resources that are multi-lingual and available worldwide.<br />
+<br />
+Professional organizations dedicated to cancer treatment also have resources that may be useful. These include the American Society for Radiation Oncology (<a href="https://www.astro.org/" target="_blank"><strong>ASTRO</strong></a>) the American Society of Clinical Oncology (<a href="http://www.asco.org/" target="_blank"><strong>ASCO</strong></a>), the European Society for Therapeutic Radiation Oncology (<a href="http://www.estro.org/" target="_blank"><strong>ESTRO</strong></a>), the American Brachytherapy Society (<a href="http://www.americanbrachytherapy.org/" target="_blank"><strong>ABS</strong></a>) the American Association of Neurological Surgeons (<a href="http://www.aans.org/" target="_blank"><strong>AANS</strong></a>), the Congress of Neurological Surgeons (<a href="http://www.cns.org/" target="_blank"><strong>CNS</strong></a>), the Groupe Europ&eacute;en de Curieth&eacute;rapie (<a href="http://www.estro.org/about/governance-organisation/scientific-council/committees/gec-estro-brachytherapy-committee" target="_blank"><strong>GEC-ESTRO</strong></a>) and the Asociaci&oacute;n Latinoamericana de Terapia Radiante Oncol&oacute;gica (<a href="http://www.alatro.org/" target="_blank"><strong>ALATRO</strong></a>).<br />
+<br />
+We wish you success in the resolution of your case.</p>
+
+
+
+</div>
+
+<div class="col-md-3">
+
+
+
+
+
+
+
+<div class="text-center">
+        <div class="rounded-button cyan">
+            <div class="rounded-button-content"
+                 title=""
+                 style="background-image: url('/dam/jcr:e9d55f6e-ed53-46f7-936d-40ad06cc352a/family-at-hospital-patients.jpg')">
+            </div>
+        </div>
+            <span class="section-style white"></span>
+</div>
+
+
+</div>
+ </div> 
+
+</section>
+
+
+
+
+<section id="offices" class="grey ">
+        <span class="scroll-links"><a href="#offices" class="section-link">
+            <h2 class="section-heading">Elekta Offices</h2></a></span>
+
+<div class="row">
+
+
+<link rel="stylesheet" type="text/css" href="/.resources/elekta/js/leaflet/leaflet.css"/>
+<!-- Make sure you put this AFTER Leaflet's CSS -->
+<script type="text/javascript" src="/.resources/elekta/js/leaflet/leaflet.js"></script>
+
+
+<style type="text/css">
+    #osmMap {
+        height: 400px;
+        /*overflow-y: hidden;
+        overflow-x: hidden;*/
+    }
+
+    .leaflet-control-attribution a:link, .leaflet-control-attribution a:visited {
+        color: #006580;
+    }
+
+    .leaflet-popup-content a:link, .leaflet-popup-content a:visited {
+        color: #006580;
+    }
+
+</style>
+
+<div id="osmMap"></div>
+
+
+<script>
+    $(function () {
+        var startWithMap = "offices";
+        var map;
+
+        var officeLayer;
+        var tcLayer;
+
+        function initMap() {
+            map = new L.Map('osmMap');
+
+            // create the tile layer with correct attribution
+            var osmUrl = '//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+            var osmAttrib = 'Map data © <a href="//openstreetmap.org">OpenStreetMap</a> contributors';
+            var osm = new L.TileLayer(osmUrl, {minZoom: 0, maxZoom: 19, attribution: osmAttrib});
+
+            map.setView(new L.LatLng(40.489, -3.693), 1);
+
+            map.addLayer(osm);
+        }
+
+        function initOffices(map, officeLayer) {
+            $.ajax({
+                type: "GET",
+                dataType: "json",
+                cache: true,
+                url: "/.rest/map/offices/v1/full",
+                success: function (rawData) {
+                    var officeMarkers = [];
+
+                    for (var i in rawData) {
+
+                        var data = rawData[i];
+
+                        var cs = '<div id="infoWindow">';
+                        //var cs = '';
+
+                        if (data.name)
+                            cs += '<b>' + data.name + '</b><br/>';
+                        if (data.address1 && data.address1.length > 2)
+                            cs += data.address1 + '<br/>';
+                        if (data.address2 && data.address2.length > 2)
+                            cs += data.address2 + '<br/>';
+
+                        if (data.country === "Brazil") {
+                            if (data.city && data.city.length > 2)
+                                cs += data.city + "<br/>";
+                            if (data.zipcode && data.zipcode.length > 2)
+                                cs += data.zipcode;
+                        }
+                        else if (data.country === "United States"
+                                || data.country === "Australia"
+                                || data.country === "Canada"
+                                || data.country === "Thailand"
+                                || data.country === "Korea"
+                                || data.country === "Vietnam"
+                                || data.country === "Bangladesh"
+                                || data.country === "India") {
+                            if (data.city && data.city.length > 2)
+                                cs += data.city;
+                            if (data.state && data.state.length > 0)
+                                cs += ', ' + data.state + ' ';
+                            if (data.zipcode && data.zipcode.length > 2)
+                                cs += data.zipcode;
+                        } else {
+                            if (data.zipcode && data.zipcode.length > 2)
+                                cs += data.zipcode + ' ';
+                            if (data.city && data.city.length > 2)
+                                cs += data.city;
+                        }
+
+                        cs += '<br/><br/>';
+
+                        if (data.phone && data.phone.length > 2)
+                            cs += 'Phone: ' + data.phone + '<br/>';
+                        if (data.fax && data.fax.length > 2)
+                            cs += 'Fax: ' + data.fax + '<br/>';
+                        if (data.email && data.email.length > 2)
+                            cs += 'E-Mail: <a style="color: #009fda" href="mailto:' + data.email + '">' + data.email + '</a><br/>';
+                        if (data.website && data.website.length > 2)
+                            cs += 'Website: <a style="color: #009fda" href="' + data.website + '" target="_blank" rel="noopener">' + data.website + '</a><br/>';
+
+                        /*
+                        if (data.image && data.image.length > 2) {
+                            theDescription = data.description;
+                            theLink = data.link;
+                            theImage = data.image;
+
+                            cs += '<br/><a href="' + theLink + '"><img src="' + theImage + '"></a><br/>';
+                        }*/
+
+                        if (data.description && data.description.length > 2)
+                            cs += '<i>' + theDescription + '</i><br/>';
+
+                        cs += '</div>';
+
+                        var officeMarker = L.marker([data.latitude, data.longitude]).bindPopup(cs);
+                        officeMarkers.push(officeMarker);
+                    }
+
+                    // console.log("markers array: ", officeMarkers);
+                    officeLayer = L.layerGroup(officeMarkers);
+                    // console.log("layer: ", officeLayer);
+                    map.addLayer(officeLayer);
+
+                }
+            });
+
+        }
+
+        function initCenters(map, officeLayer) {
+            $.ajax({
+                type: "GET",
+                dataType: "json",
+                cache: true,
+                url: "/.rest/map/treatmentcenters/v1/full",
+                success: function (rawData) {
+                    var centerMarkers = [];
+
+                    for (var i in rawData) {
+                        var data = rawData[i];
+                        var cs = '<div id="infoWindow">';
+
+                        if (data.name)
+                            cs += '<b>' + data.name + '</b><br/>';
+                        if (data.address1 && data.address1.length > 2)
+                            cs += data.address1 + '<br/>';
+                        if (data.address2 && data.address2.length > 2)
+                            cs += data.address2 + '<br/>';
+                        if (data.zipcode && data.zipcode.length > 2)
+                            cs += data.zipcode + ' ';
+                        if (data.city && data.city.length > 2)
+                            cs += data.city + '<br/>';
+                        if (data.phone && data.phone.length > 2)
+                            cs += 'Phone: ' + data.phone + '<br/>';
+                        if (data.fax && data.fax.length > 2)
+                            cs += 'Fax: ' + data.fax + '<br/>';
+                        if (data.email && data.email.length > 2)
+                            cs += 'E-Mail: <a href="mailto:' + data.email + '">' + data.email + '</a><br/>';
+                        if (data.contactName && data.contactName.length > 2)
+                            cs += '<br/>Primary Contact Name: <b>' + data.contactName + '</b><br/>';
+                        if (data.contactEmail && data.contactEmail.length > 2)
+                            cs += 'Primary Contact E-Mail: <a href="mailto:' + data.contactEmail + '">' + data.contactEmail + '</a><br/>';
+                        if (data.additionalContacts && data.additionalContacts.length > 2)
+                            cs += '<br/>' + data.additionalContacts + '<br/>';
+                        cs += '</div>';
+
+                        var centerMarker = L.marker([data.latitude, data.longitude]).bindPopup(cs);
+                        centerMarkers.push(centerMarker);
+                    }
+
+                    //console.log("markers array: ", centerMarkers);
+                    tcLayer = L.layerGroup(centerMarkers);
+                    //console.log("layer: ", tcLayer);
+                    map.addLayer(tcLayer);
+                }
+            });
+
+        }
+
+        function openExistingPopupAt(map, lat, lon) {
+            // OK this is a bit of a hack because neither map.openPopup nor .openOn(map) works.
+            // So we just create a new popup on the coordinates with the stored information.
+            map.eachLayer(function (layer) {
+                if (layer.hasOwnProperty("_popupHandlersAdded") && layer._popupHandlersAdded) {
+                    if (lat === layer._latlng.lat && lon === layer._latlng.lng) {
+                        //map.openPopup(layer._popup._content, [lat, lon]);
+                        L.marker([lat, lon]).addTo(map).bindPopup(layer._popup._content).openPopup();
+                        map.removeLayer(layer);
+                    }
+                }
+            });
+        }
+
+        function panToLocationFromNav(tableDivId) {
+            // Get the coordinates from the treatement center overview widget and fly to the location on the map
+            var table = $(tableDivId);
+
+            if (table) {
+                table.click(function (e) {
+                    var sLon = e.target.parentElement.getAttribute('data-lon');
+                    var sLat = e.target.parentElement.getAttribute('data-lat');
+                    //console.log("lon: " + lon + ", lat: " + lat);
+
+                    if (sLat && sLon) {
+                        var lon = parseFloat(sLon);
+                        var lat = parseFloat(sLat);
+
+                        //console.log("lon: " + lon + ", lat: " + lat);
+                        map.flyTo(new L.LatLng(lat, lon), 13, {animation: true});
+                        openExistingPopupAt(map, lat, lon);
+                    }
+                });
+            }
+        }
+
+        //
+        // Let's start the fun
+        //
+        initMap();
+
+        if (startWithMap === "offices" && map !== null) {
+            initOffices(map, officeLayer);
+            panToLocationFromNav('#officeOverviewTable');
+        }
+        else if (startWithMap === "centers" && map !== null) {
+            initCenters(map, tcLayer);
+            panToLocationFromNav('#treatmentCenterOverviewTable');
+        }
+        else {
+            console.log("no map defined");
+        }
+    });
+</script>
+ </div> 
+
+</section>
+<!--/div-->
+</div>
+
+<footer id="footer">
+<div class="container">
+        <section>
+            <div class="row">
+                <div class="col-sm-3 col-xs-6">
+                    <h3>Discover</h3>
+                    <ul>
+                        <li>
+                            <a href="/radiotherapy/">Radiotherapy</a>
+                        </li>
+                        <li>
+                            <a href="/radiosurgery/">Stereotactic Radiosurgery</a>
+                        </li>
+                        <li>
+                            <a href="/oncology-informatics/">Oncology Informatics</a>
+                        </li>
+                        <li>
+                            <a href="/neurosurgery/">Neurosurgery</a>
+                        </li>
+                        <li>
+                            <a href="/brachytherapy/">Brachytherapy</a>
+                        </li>
+                        <li>
+                            <a href="/particle-therapy/">Particle Therapy</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <h3>Connect</h3>
+                    <ul>
+                        <li>
+                            <a href="/company/social-media/">Social Media</a>
+                        </li>
+                        <li>
+                            <a href="/events-and-meetings/">Browse Elekta Events</a>
+                        </li>
+                        <li>
+                            <a href="/company/wavelength/">Download Magazine</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clearfix visible-xs-block"></div>
+                <div class="col-sm-3 col-xs-6">
+                    <h3>Find Us</h3>
+                    <ul>
+                        <li>
+                            <a href="/company/#our-offices">Office Locations</a>
+                        </li>
+                        <li>
+                            <a href="/company/awards/">Industry Recognition</a>
+                        </li>
+                        <li>
+                            <a href="/company/media-resources-center/">Media Resources</a>
+                        </li>
+                        <li>
+                            <a href="/gallery" target="_blank" rel="noopener noreferrer">Product Photos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li>
+                            <a href="/events-and-meetings/">User Meetings &amp; Events</a>
+                        </li>
+                        <li>
+                            <a href="/services/education-and-training/">Education &amp; Training</a>
+                        </li>
+                        <li>
+                            <a href="/services/">Elekta Care</a>
+                        </li>
+                        <li>
+                            <a href="/careers/">Careers at Elekta</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="social-icons text-right">
+                <a class="socialico-facebook" href="https://www.facebook.com/Elekta" target="_blank" rel="noopener noreferrer"></a>
+                <a class="socialico-twitter" href="http://twitter.com/Elekta" target="_blank" rel="noopener noreferrer"></a>
+                <a class="socialico-linkedin" href="https://www.linkedin.com/company-beta/9359" target="_blank" rel="noopener noreferrer"></a>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-md-4">
+                    <span id="slogan">Focus where it matters.</span>
+                </div>
+                <div class="col-md-6 col-md-offset-2">
+                    <p class="text-right">
+                        &copy; 2018 Elekta AB (pub) &nbsp;&nbsp;|&nbsp;&nbsp; <a href="/company/#legal">Legal Notices</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a href="/privacy/">Privacy Notice</a>
+                    </p>
+                </div>
+            </div>
+            <br />
+            <div>
+              <p class="small">
+                <strong>Important Safety Information:</strong> Radiation therapy is not appropriate for all patients. Radiation treatments may cause side effects that can vary depending on the part of the body being treated. In some patients, they can be severe. Treatment sessions may vary in complexity and time. Refer to individual product labeling (instructions for use) for more complete information on product safety and effectiveness for its intended use.</p>
+            </div>
+
+    </section>
+</div>
+</footer>
+<style type="text/css">
+    body #slidebox {
+        padding: 10px 16px 10px 10px;
+        background-color: #fff;
+        border-top: 3px solid #00829b;
+        position: fixed;
+        bottom: 0;
+        right: -99999px;
+        -moz-box-shadow: -2px 0 5px #aaa;
+        -webkit-box-shadow: -2px 0 5px #aaa;
+        box-shadow: -2px 0 5px #aaa;
+    }
+
+    a.close {
+        width: 34px;
+        height: 34px;
+        position: absolute;
+        cursor: pointer;
+        top: 5px;
+        right: 5px;
+    }
+
+    .vertical-text {
+        transform: rotate(90deg);
+        /*transform-origin: left top 0;*/
+    }
+
+    /*a.close:hover {
+        background-position: 0 -13px;
+    }*/
+
+    @media only screen and (max-device-width: 480px) {
+        #slidebox {
+            width: 100%;
+        }
+    }
+</style>
+
+<!-- libraries -->
+<script src="/.resources/elekta/js/vendor/jquery.min.js"></script>
+
+<script>(function ($, d) {
+    $.each(readyQ, function (i, f) {
+        $(f)
+    });
+    $.each(bindReadyQ, function (i, f) {
+        $(d).bind("ready", f)
+    })
+})(jQuery, document)</script>
+
+<script src="/.resources/elekta/js/vendor/bootstrap.min.js"></script>
+<script src="/.resources/elekta/js/vendor/modernizr-custom.js"></script>
+
+<!-- menu scripts  -->
+<script src="/.resources/elekta/js/vendor/jquery.hoverIntent.min.js"></script>
+
+<!-- page scrolling -->
+<script src="/.resources/elekta/js/vendor/jquery.easing.1.3.js"></script>
+<script src="/.resources/elekta/js/vendor/jquery.localScroll.min.js"></script>
+<script src="/.resources/elekta/js/vendor/jquery.scrollTo.min.js"></script>
+
+<!-- sliders, filters, carousels -->
+<script src="/.resources/elekta/js/vendor/owl.carousel.min.js"></script>
+<script src="/.resources/elekta/js/vendor/jquery.fractionslider.min.js"></script>
+<script src="/.resources/elekta/js/vendor/jquery.flexslider-min.js"></script>
+<script src="/.resources/elekta/js/vendor/jquery.bxslider.min.js"></script>
+<script src="/.resources/elekta/js/vendor/parallax.js"></script>
+
+<script src="/.resources/elekta/js/vendor/bootstrap-table.js"></script>
+<script src="/.resources/elekta/js/vendor/bootstrap-select.min.js"></script>
+
+
+<!-- custom scripts -->
+<script src="/.resources/elekta/js/main.js"></script>
+
+<!-- Elekta scripts -->
+<script src="/.resources/elekta/js/elekta-menu.js"></script>
+<script src="//ir-relay.elekta.com/afw/javascript/shared/jquery/alertir/jquery.ticker-1.0.min.js"></script>
+<script src="//ir-relay.elekta.com/afw/javascript/shared/highstock/js/highstock.js"></script>
+<script src="//ir-relay.elekta.com/afw/javascript/shared/jquery/alertir/jquery.chart-1.0.min.js"></script>
+
+
+
+<!-- Cookie EU banner -->
+<script src="/.resources/elekta/js/vendor/cookies-eu-banner.js"></script>
+
+<script src="/.resources/elekta/js/algolia/algoliasearch.js"></script>
+<script src="/.resources/elekta/js/algolia/autocomplete.jquery.js"></script>
+
+<script>
+
+    $(function () {
+        var hitsContainer = $("#inner-search-panel");
+        var altHitsContainer = document.querySelector("#inner-search-panel");
+        var searchPanel = $('#search-panel');
+        var searchBox = $('#search-box');
+
+        var client = algoliasearch("BD05JHIWZT", "1faa298bcfd0e79efd7ffa7616c4f90a");
+        var websiteIndex = client.initIndex('website');
+        var investorsIndex = client.initIndex('investors');
+        var eventsIndex = client.initIndex('events');
+        var trainingsIndex = client.initIndex('trainings');
+        var pressIndex = client.initIndex('press');
+        var wavelengthIndex = client.initIndex('wavelength_searchable_posts');
+
+
+        var months = ["January", "February", "March", "April", "May", "June", "July",
+            "August", "September", "October", "November", "December"];
+
+        function formatDate(tstamp) {
+            d = new Date(tstamp);
+            return months[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
+        }
+
+        var websiteSource = $.fn.autocomplete.sources.hits(websiteIndex, {hitsPerPage: 5});
+        var investorsSource = $.fn.autocomplete.sources.hits(investorsIndex, {hitsPerPage: 5});
+        var indexSettingsDone = false;
+
+        //console.log($.fn);
+        searchBox.autocomplete({
+            debug: true,
+            hint: false,
+            autoWidth: false,
+            dropdownMenuContainer: "#outer-search-panel",
+            templates: {
+                dropdownMenu: '#my-custom-menu-template',
+            }
+        }, [
+            {
+                source: function (query, cb) {
+                    if (!indexSettingsDone) {
+                        websiteIndex.setSettings({
+                            'attributesToSnippet': [
+                                'description:10'
+                            ],
+                            'snippetEllipsisText': '&hellip;'
+                        });
+
+                        investorsIndex.setSettings({
+                            'attributesToSnippet': [
+                                'description:10'
+                            ],
+                            'snippetEllipsisText': '&hellip;'
+                        });
+
+                        wavelengthIndex.setSettings({
+                            'attributesToSnippet': [
+                                'post_title:10'
+                            ]
+                        });
+                    }
+
+                    indexSettingsDone = true;
+
+                    investorsSource(query, function (websiteSuggestions) {
+                        websiteSource(query, function (investorsSuggestions) {
+                            $.merge(websiteSuggestions, investorsSuggestions);
+                            websiteSuggestions.sort(function (suggestion1, suggestion2) {
+                                matches1 = suggestion1._highlightResult.title.matchedWords.length + suggestion1._highlightResult.description.matchedWords.length;
+                                matches2 = suggestion2._highlightResult.title.matchedWords.length + suggestion2._highlightResult.description.matchedWords.length;
+                                return matches1 - matches2;
+                            });
+                            var suggestions = websiteSuggestions.slice(-4);
+
+                            cb(suggestions);
+                        });
+                    });
+                },
+                displayKey: 'title',
+                name: 'website',
+                templates: {
+                    //header: '<div class="aa-suggestions-category">Pages</div>',
+                    suggestion: function (suggestion) {
+                        return '<li><a href="' + suggestion.url + '"><h3>'
+                                + suggestion._highlightResult.title.value + '</h3><p class="text-grey">'
+                                + suggestion._snippetResult.description.value + '</p></a></li>';
+                    },
+                    empty: '<div class="aa-empty">No matching pages.</div>'
+                }
+            },
+            {
+                source: $.fn.autocomplete.sources.hits(pressIndex, {hitsPerPage: 5}),
+                displayKey: 'title',
+                name: 'press',
+                templates: {
+                    //header: '<div class="aa-suggestions-category">Press</div>',
+                    suggestion: function (suggestion) {
+                        return '<li><a href="' + suggestion.link + '"><p>'
+                            + suggestion._highlightResult.title.value + '</p>'
+                            + '<span class="date">' + formatDate(suggestion.pubDate) + '</span></a></li>';
+                    },
+                    empty: '<div class="aa-empty">No matching press releases.</div>'
+                }
+            },
+            {
+                source: $.fn.autocomplete.sources.hits(trainingsIndex, {hitsPerPage: 3}),
+                displayKey: 'name',
+                name: 'trainings',
+                templates: {
+                    //header: '<div class="aa-suggestions-category">Events</div>',
+                    suggestion: function (suggestion) {
+                        return '<li><a href="' + suggestion.registerLink + '"><p>'
+                                + suggestion._highlightResult.name.value + '</p>'
+                                + '<span class="date">' + formatDate(suggestion.startDateMillis) + '</span></a></li>';
+                    },
+                    empty: '<div class="aa-empty">No matching trainings.</div>'
+                }
+            },
+            {
+                source: $.fn.autocomplete.sources.hits(eventsIndex, {hitsPerPage: 3}),
+                displayKey: 'name',
+                name: 'events',
+                templates: {
+                    //header: '<div class="aa-suggestions-category">Events</div>',
+                    suggestion: function (suggestion) {
+                        return '<li><a href="' + suggestion.furtherInformationLink + '"><p>'
+                                + suggestion._highlightResult.name.value + '</p>'
+                                + '<span class="date">' + formatDate(suggestion.startDateMillis) + '</span></a></li>';
+                    },
+                    empty: '<div class="aa-empty">No matching events.</div>'
+                }
+            },
+            {
+                source: $.fn.autocomplete.sources.hits(wavelengthIndex, {hitsPerPage: 5}),
+                displayKey: 'post_id',
+                name: 'wavelength',
+                templates: {
+                    //header: '<div class="aa-suggestions-category">Events</div>',
+                    suggestion: function (suggestion) {
+                        if (typeof suggestion.images.thumbnail != 'undefined') {
+                            return '<li><a href="' + suggestion.permalink + '">'
+                                    + '<img src="' + suggestion.images.thumbnail.url + '" alt="' + suggestion.post_title.value + '" class="wavelength-image" />'
+                                    + suggestion._snippetResult.post_title.value + '</a></li>';
+                        } else {
+                            return '<li><a href="' + suggestion.permalink + '">'
+                                    + suggestion._snippetResult.post_title.value + '</a></li>';
+                        }
+                    },
+                    empty: '<div class="aa-empty">No matching articles.</div><br /><a href="https://wavelength.elekta.com" target="_blank" class="btn btn-results">Visit Wavelength</a>'
+                }
+            }
+        ]).on('autocomplete:selected', function (event, suggestion, dataset) {
+        }).on('autocomplete:opened', function (event, suggestion, dataset) {
+            searchPanel.show();
+        }).on('autocomplete:closed', function (event, suggestion, dataset) {
+        }).on('autocomplete:empty', function (event, suggestion, dataset) {
+        }).on('autocomplete:shown', function (event, suggestion, dataset) {
+            searchPanel.show();
+        });
+
+        // Auto hide on focus loss and init
+        searchBox.blur(function () {
+            $(searchPanel).hide();
+        });
+
+        //console.log(searchPanel);
+    });
+</script>
+
+<script>
+    new CookiesEuBanner(function () {
+
+        function getCookie(name) {
+            var value = "; " + document.cookie;
+            var parts = value.split("; " + name + "=");
+            if (parts.length == 2) return parts.pop().split(";").shift();
+        }
+
+        function createCookie(name, value, days) {
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                var expires = "; expires=" + date.toGMTString();
+            }
+            else var expires = "";
+            document.cookie = name + "=" + value + expires + "; path=/";
+        }
+
+        // Google Analytics
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] ||
+                    function () {
+                        (i[r].q = i[r].q || []).push(arguments)
+                    }, i[r].l = 1 * new Date();
+            a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-7016271-2', 'elekta.com');
+        ga('send', 'pageview');
+
+        // Marketo
+        (function() {
+          var didInit = false;
+          function initMunchkin() {
+            if(didInit === false) {
+              didInit = true;
+              Munchkin.init('903-TGI-474');
+            }
+          }
+          var s = document.createElement('script');
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = 'https://munchkin.marketo.net/munchkin.js';
+          s.onreadystatechange = function() {
+            if (this.readyState == 'complete' || this.readyState == 'loaded') {
+              initMunchkin();
+            }
+          };
+          s.onload = initMunchkin;
+          document.getElementsByTagName('head')[0].appendChild(s);
+        })();
+
+    }, true);
+</script>
+
+</body>
+</html>
+
+

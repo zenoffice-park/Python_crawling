@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-style-Type" content="text/css" />
+<meta http-equiv="content-script-Type" content="text/javascript" />
+<link href="css/base.css" rel="stylesheet" type="text/css" media="all" />
+
+<link href="css/others.css" rel="stylesheet" type="text/css" media="all" />
+
+<link href="css/font_s.css" rel="alternate stylesheet" type="text/css" title="font_s" />
+<link href="css/font_m.css" rel="alternate stylesheet" type="text/css" title="font_m" />
+<link href="css/font_l.css" rel="alternate stylesheet" type="text/css" title="font_l" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/styleswitcher.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/scroll.js"></script>
+
+<meta name="Description" content="大日本スクリーン製造株式会社" />
+<meta name="Keywords" content="大日本スクリーン製造株式会社,Dainippon,Screen,DAINIPPON,SCREEN" />
+<title>Not Found｜株式会社SCREENホールディングス</title>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-27337490-1']);
+    _gaq.push(['_setDomainName', 'screen.co.jp']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</head>
+
+<body id="error">
+<div id="header">
+    <div id="header_area">
+        <h1 id="header_logo_en"><a href="index.html"><img src="images/header_logo_en.gif" alt="SCREEN" width="140" height="18" /></a></h1>
+        <p id="header_logo_jp"><img src="images/header_logo_jp.gif" alt="株式会社SCREENホールディングス" width="261" height="16" /></p>
+        <ul id="header_btn">
+           <li><a href="index.html"><img src="images/header_btn_01.gif" alt="ホーム" width="48" height="13" class="rover" /></a></li>
+           <li><a href="top/contact.html"><img src="images/header_btn_02.gif" alt="お問い合わせ" width="83" height="13" class="rover" /></a></li>
+           <li><a href="top/sitemap.html"><img src="images/header_btn_03.gif" alt="サイトマップ" width="84" height="13" class="rover" /></a></li>
+        
+        
+            <li><a href="eng/error.html"><img src="images/header_btn_04.gif" alt="English" width="56" height="13" class="rover" /></a></li>
+        
+        
+        </ul>
+        <ul id="font_switch">
+            <li><img src="images/font_label.gif" alt="文字サイズ" width="62" height="17" /></li>
+            <li class="btn_s"><a href="javascript:void(0);" onclick="setActiveStyleSheet('font_s'); return false;" onkeypress="setActiveStyleSheet('font_s'); return false;"><span>小</span></a></li>
+            <li class="btn_m"><a href="javascript:void(0);" onclick="setActiveStyleSheet('font_m'); return false;" onkeypress="setActiveStyleSheet('font_m'); return false;"><span>中</span></a></li>
+            <li class="btn_l"><a href="javascript:void(0);" onclick="setActiveStyleSheet('font_l'); return false;" onkeypress="setActiveStyleSheet('font_l'); return false;"><span>大</span></a></li>
+        </ul>
+
+<div id="header_search">
+  <form method="get" action="search_result.html" target="_blank">
+    <dl>
+      <dt>
+        <input type="text" name="q" id="Gsearch" onfocus="this.style.background='none'" onblur="if(this.value=='') this.style.background='url(/images/search_text.gif) no-repeat'"
+        />
+      </dt>
+      <dd>
+        <input name="btnG" type="image" src="images/btn_search.gif" alt="検索" id="searchButton" />
+      </dd>
+    </dl>
+  </form>
+</div>    
+
+    <ul id="g_navi">
+            <li class="navi1"><a href="press/index.html" title="グループニュース"><span>グループニュース</span></a></li>
+            <li class="navi2"><a href="profile/index.html" title="企業・グループ情報"><span>企業・グループ</span></a></li>
+            <li class="navi3"><a href="ir/index.html" title="IR情報"><span>IR情報</span></a></li>
+            <li class="navi4"><a href="newbusiness/index.html" title="新規事業"><span>新規事業</span></a></li>
+            <li class="navi5"><a href="csr/index.html" title="CSRの取り組み"><span>CSRの取り組み</span></a></li>
+            <li class="navi6"><a href="recruit/index.html" title="採用情報"><span>採用情報</span></a></li>
+        </ul>
+    </div>
+</div>
+<div id="main">
+    <div id="container">
+    <h2 id="ttl"><img src="images/error_ttl.jpg" alt="Not Found" width="950" height="95" /></h2>
+        <div id="contents">
+            <h2 class="head1">Not Found</h2>
+            <h3 class="large mb10">申しわけありませんが、このページは現在、存在しません。<br />
+            日本語トップページか、英語トップページからご覧ください。</h3>
+            <h3 class="large mb40">Sorry, this page currently does not exist. <br />
+            Please return to the Japanese page or go to the main page of the English website.</h3>
+            <ul class="error_btn">
+            <li class="btn1"><a href="index.html"><img src="images/error_btn_02.jpg" alt="日本語トップページへ／Go to main Japanese page" width="236" height="65" /></a></li>
+            <li class="btn2"><a href="eng/index.html"><img src="eng/images/error_btn_02.jpg" alt="英語トップページへ／Go to main English page" width="236" height="65" /></a></li>
+            </ul>
+        </div>
+
+        <br class="clr" />
+        <p id="pagetop"><a href="#header"><img src="images/btn_pagetop.gif" alt="ページの先頭に戻る" width="154" height="21" /></a></p>
+    </div>
+</div>
+<div id="footer">
+  <div id="footer_area">
+    <p id="copyright">Copyright &copy; 2018 SCREEN Holdings Co., Ltd. All Rights Reserved.</p>
+    <ul>
+      <li class="link1"><a href="top/privacy.html">プライバシーポリシー</a></li>
+      <li class="link2"><a href="top/legal.html">利用規約</a></li>
+    </ul>
+    <br class="clr" />
+  </div>
+</div>
+
+</body>
+</html>
+

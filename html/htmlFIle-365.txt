@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"
+  xmlns:fb="http://ogp.me/ns/fb#"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#">
+<head>
+  <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="http://www.ngosource.org/sites/all/themes/ngosource_bs3/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="description" content="We do the legwork, legal work, and paperwork for you. NGOsource allows U.S. grantmakers to quickly and accurately determine if a foreign NGO is equivalent to a U.S. public charity (the process of &quot;equivalency determination&quot; or &quot;ED&quot;)" />
+<meta name="robots" content="follow, index" />
+<meta name="abstract" content="We do the legwork, legal work, and paperwork for you. NGOsource allows U.S. grantmakers to quickly and accurately determine if a foreign NGO is equivalent to a U.S. public charity (the process of &quot;equivalency determination&quot; or &quot;ED&quot;)" />
+<meta name="keywords" content="NGOsource" />
+<link rel="image_src" href="http://www.ngosource.org/sites/all/themes/ngosource/images/logo.jpg" />
+<link rel="canonical" href="http://www.ngosource.org" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortlink" href="http://www.ngosource.org" />
+<meta property="og:site_name" content="NGOsource - Equivalency Determination Made Easier!" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://www.ngosource.org" />
+<meta property="og:title" content="NGOsource - Equivalency Determination Made Easier!" />
+<meta property="og:description" content="We do the legwork, legal work, and paperwork for you. NGOsource allows U.S. grantmakers to quickly and accurately determine if a foreign NGO is equivalent to a U.S. public charity (the process of &quot;equivalency determination&quot; or &quot;ED&quot;)" />
+<meta property="og:image" content="http://www.ngosource.org/sites/all/themes/ngosource/images/logo.jpg" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="http://www.ngosource.org" />
+<meta name="twitter:title" content="NGOsource - Equivalency Determination Made Easier!" />
+<meta name="twitter:description" content="We do the legwork, legal work, and paperwork for you. NGOsource allows U.S. grantmakers to quickly and accurately determine if a foreign NGO is equivalent to a U.S. public charity (the process of &quot;equivalency determination&quot; or &quot;ED&quot;)" />
+<meta name="dcterms.title" content="NGOsource - Equivalency Determination Made Easier!" />
+<meta name="dcterms.description" content="We do the legwork, legal work, and paperwork for you. NGOsource allows U.S. grantmakers to quickly and accurately determine if a foreign NGO is equivalent to a U.S. public charity (the process of &quot;equivalency determination&quot; or &quot;ED&quot;)" />
+<meta name="dcterms.type" content="Text" />
+<meta name="dcterms.identifier" content="http://www.ngosource.org/" />
+<meta name="dcterms.format" content="text/html" />
+  <title>NGOsource - Equivalency Determination Made Easier!</title>
+  <style>
+@import url("http://www.ngosource.org/modules/system/system.base.css?pbr0sg");
+</style>
+<style>
+@import url("http://www.ngosource.org/sites/all/modules/contrib/date/date_api/date.css?pbr0sg");
+@import url("http://www.ngosource.org/sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css?pbr0sg");
+@import url("http://www.ngosource.org/modules/field/theme/field.css?pbr0sg");
+@import url("http://www.ngosource.org/modules/node/node.css?pbr0sg");
+@import url("http://www.ngosource.org/sites/all/modules/contrib/views_slideshow_xtra/views_slideshow_xtra_overlay/css/views_slideshow_xtra_overlay.css?pbr0sg");
+@import url("http://www.ngosource.org/sites/all/modules/contrib/views/css/views.css?pbr0sg");
+@import url("http://www.ngosource.org/sites/all/modules/contrib/ckeditor/css/ckeditor.css?pbr0sg");
+</style>
+<style>
+@import url("http://www.ngosource.org/sites/all/modules/contrib/ctools/css/ctools.css?pbr0sg");
+@import url("http://www.ngosource.org/sites/all/modules/contrib/jcarousel/skins/default/jcarousel-default.css?pbr0sg");
+</style>
+<style>
+@import url("http://www.ngosource.org/sites/all/themes/ngosource_bs3/css/style.css?pbr0sg");
+</style>
+<link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato|Libre+Baskerville&amp;pbr0sg" media="all" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="http://www.ngosource.org/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2"></script>
+<script src="http://www.ngosource.org/misc/jquery.once.js?v=1.2"></script>
+<script src="http://www.ngosource.org/misc/drupal.js?pbr0sg"></script>
+<script src="http://www.ngosource.org/sites/all/modules/contrib/marketo_ma/js/marketo_ma.js?pbr0sg"></script>
+<script src="http://www.ngosource.org/sites/all/modules/contrib/views_slideshow_xtra/views_slideshow_xtra_overlay/js/views_slideshow_xtra_overlay.js?pbr0sg"></script>
+<script src="http://www.ngosource.org/sites/all/modules/contrib/jcarousel/js/jquery.jcarousel.min.js?pbr0sg"></script>
+<script src="http://www.ngosource.org/sites/all/modules/contrib/jcarousel/js/jcarousel.js?pbr0sg"></script>
+<script src="http://www.ngosource.org/sites/all/modules/contrib/google_analytics/googleanalytics.js?pbr0sg"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-8725091-14", {"cookieDomain":".ngosource.org"});ga("send", "pageview");</script>
+<script src="http://www.ngosource.org/sites/all/themes/ngosource_bs3/bootstrap/js/affix.js?pbr0sg"></script>
+<script src="http://www.ngosource.org/sites/all/themes/ngosource_bs3/bootstrap/js/alert.js?pbr0sg"></script>
+<script src="http://www.ngosource.org/sites/all/themes/ngosource_bs3/bootstrap/js/button.js?pbr0sg"></script>
+<script src="http://www.ngosource.org/sites/all/themes/ngosource_bs3/bootstrap/js/carousel.js?pbr0sg"></script>
+<script src="http://www.ngosource.org/sites/all/themes/ngosource_bs3/bootstrap/js/collapse.js?pbr0sg"></script>
+<script src="http://www.ngosource.org/sites/all/themes/ngosource_bs3/bootstrap/js/dropdown.js?pbr0sg"></script>
+<script src="http://www.ngosource.org/sites/all/themes/ngosource_bs3/bootstrap/js/modal.js?pbr0sg"></script>
+<script src="http://www.ngosource.org/sites/all/themes/ngosource_bs3/bootstrap/js/tooltip.js?pbr0sg"></script>
+<script src="http://www.ngosource.org/sites/all/themes/ngosource_bs3/bootstrap/js/popover.js?pbr0sg"></script>
+<script src="http://www.ngosource.org/sites/all/themes/ngosource_bs3/bootstrap/js/scrollspy.js?pbr0sg"></script>
+<script src="http://www.ngosource.org/sites/all/themes/ngosource_bs3/bootstrap/js/tab.js?pbr0sg"></script>
+<script src="http://www.ngosource.org/sites/all/themes/ngosource_bs3/bootstrap/js/transition.js?pbr0sg"></script>
+<script src="http://www.ngosource.org/sites/all/themes/ngosource_bs3/js/fontawesome.min.js?pbr0sg"></script>
+<script src="http://www.ngosource.org/sites/all/themes/ngosource_bs3/js/fa-brands.min.js?pbr0sg"></script>
+<script src="http://www.ngosource.org/sites/all/themes/ngosource_bs3/js/fa-solid.min.js?pbr0sg"></script>
+<script src="http://www.ngosource.org/sites/all/themes/ngosource_bs3/js/jquery.event.move.js?pbr0sg"></script>
+<script src="http://www.ngosource.org/sites/all/themes/ngosource_bs3/js/jquery.event.swipe.js?pbr0sg"></script>
+<script src="http://www.ngosource.org/sites/all/themes/ngosource_bs3/ngosource_bs3.js?pbr0sg"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"ngosource_bs3","theme_token":"VNHEUCRWgdvFHWv9xOUNMdaUMlGSQANbwVdSa4nMNqA","js":{"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/marketo_ma\/js\/marketo_ma.js":1,"sites\/all\/modules\/contrib\/views_slideshow_xtra\/views_slideshow_xtra_overlay\/js\/views_slideshow_xtra_overlay.js":1,"sites\/all\/modules\/contrib\/jcarousel\/js\/jquery.jcarousel.min.js":1,"sites\/all\/modules\/contrib\/jcarousel\/js\/jcarousel.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/ngosource_bs3\/bootstrap\/js\/affix.js":1,"sites\/all\/themes\/ngosource_bs3\/bootstrap\/js\/alert.js":1,"sites\/all\/themes\/ngosource_bs3\/bootstrap\/js\/button.js":1,"sites\/all\/themes\/ngosource_bs3\/bootstrap\/js\/carousel.js":1,"sites\/all\/themes\/ngosource_bs3\/bootstrap\/js\/collapse.js":1,"sites\/all\/themes\/ngosource_bs3\/bootstrap\/js\/dropdown.js":1,"sites\/all\/themes\/ngosource_bs3\/bootstrap\/js\/modal.js":1,"sites\/all\/themes\/ngosource_bs3\/bootstrap\/js\/tooltip.js":1,"sites\/all\/themes\/ngosource_bs3\/bootstrap\/js\/popover.js":1,"sites\/all\/themes\/ngosource_bs3\/bootstrap\/js\/scrollspy.js":1,"sites\/all\/themes\/ngosource_bs3\/bootstrap\/js\/tab.js":1,"sites\/all\/themes\/ngosource_bs3\/bootstrap\/js\/transition.js":1,"sites\/all\/themes\/ngosource_bs3\/js\/fontawesome.min.js":1,"sites\/all\/themes\/ngosource_bs3\/js\/fa-brands.min.js":1,"sites\/all\/themes\/ngosource_bs3\/js\/fa-solid.min.js":1,"sites\/all\/themes\/ngosource_bs3\/js\/jquery.event.move.js":1,"sites\/all\/themes\/ngosource_bs3\/js\/jquery.event.swipe.js":1,"sites\/all\/themes\/ngosource_bs3\/ngosource_bs3.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/views_slideshow_xtra\/views_slideshow_xtra_overlay\/css\/views_slideshow_xtra_overlay.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/jcarousel\/skins\/default\/jcarousel-default.css":1,"sites\/all\/themes\/ngosource_bs3\/css\/style.css":1,"\/\/fonts.googleapis.com\/css?family=Lato|Libre+Baskerville":1}},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views","carousels":{"jcarousel-dom-1":{"view_options":{"view_args":"","view_path":"node\/1","view_base_path":null,"view_display_id":"block","view_name":"testimonials_slider","jcarousel_dom_id":1},"wrap":"both","skin":"default","visible":1,"auto":4,"autoPause":1,"start":1,"easing":"swing","scroll":1,"selector":".jcarousel-dom-1"}}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackDomainMode":"1"},"marketo_ma":{"track":true,"key":"190-QIL-897","library":"\/\/munchkin.marketo.net\/munchkin.js","initParams":[]},"urlIsAjaxTrusted":{"\/":true},"bootstrap":{"anchorsFix":"0","anchorsSmoothScrolling":"0","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body role="document" class="html front not-logged-in no-sidebars page-node page-node- page-node-1 node-type-page">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <header id="navbar" role="banner" class="navbar container navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      
+              <a class="name navbar-brand" href="/" title="Home">NGOsource</a>
+      
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          </div>
+
+          <div class="navbar-collapse collapse">
+        <nav role="navigation">
+                        <div class="region region-navigation">
+    <section id="block-block-1" class="block block-block clearfix">
+
+      
+   <div class="dropdown">
+  <button class="dropdown-toggle" type="button" data-toggle="dropdown">
+    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+    <span class="sr-only">My Account</span></button>
+  <ul class="dropdown-menu list-inline text-center">
+    <li><a href="https://members.ngosource.org/login.aspx" class="btn" rel="external" target="_blank">Log In</a></li>
+    <li><a href="/getting-started/become-a-member" class="btn">Join Us</a></li>
+  </ul>
+</div> 
+</section>
+<section id="block-search-form" class="block block-search clearfix">
+
+      
+  <form class="form-search content-search" action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div>
+      <h2 class="element-invisible">Search form</h2>
+    <div class="input-group"><input title="Enter the terms you wish to search for." placeholder="Search" class="form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" /><span class="input-group-btn"><button type="submit" class="btn btn-primary"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span></button></span></div><div class="form-actions form-wrapper form-group" id="edit-actions"><button class="element-invisible btn btn-primary form-submit" type="submit" id="edit-submit" name="op" value="Search">Search</button>
+</div><input type="hidden" name="form_build_id" value="form-ENNK8EDO7CCbfKPr4tlybOHRIZRhXLVuIThMV6wO5n4" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>
+</section>
+  </div>
+                                <ul class="menu nav navbar-nav"><li class="first expanded dropdown"><a href="/getting-started/become-a-member" title="" data-target="#" class="dropdown-toggle" data-toggle="dropdown">ED Made Easy <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/ed-made-easy/joining-ngosource">Joining NGOsource</a></li>
+<li class="leaf"><a href="/ed-made-easy/how-it-works">How It Works</a></li>
+<li class="last leaf"><a href="/getting-started/pricing" title="">Pricing</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="/who-we-are" data-target="#" class="dropdown-toggle" data-toggle="dropdown">About NGOsource <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/who-we-are" title="">Who We Are</a></li>
+<li class="last leaf"><a href="/about-ngosource/our-global-reach">Our Global Reach</a></li>
+</ul></li>
+<li class="expanded dropdown"><a href="/blog" title="" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Help & Discovery <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/legalease" title="">LegalEASE</a></li>
+<li class="leaf"><a href="/sector_news" title="">Sector News </a></li>
+<li class="leaf"><a href="/impact_stories" title="">Impact Stories</a></li>
+<li class="leaf"><a href="/help-discovery/resources">Resource Library</a></li>
+<li class="leaf"><a href="/how-it-works/faq">FAQ</a></li>
+<li class="last leaf"><a href="/stay-in-the-loop-subscribe-to-updates" title="Subscribe to our Newsletter">Subscribe to Updates</a></li>
+</ul></li>
+<li class="last expanded dropdown"><a href="/how-an-ed-works" title="" data-target="#" class="dropdown-toggle" data-toggle="dropdown">NGO Activities <span class="caret"></span></a><ul class="dropdown-menu"><li class="first leaf"><a href="/how-an-ed-works" title="">Learn How an ED Request Works</a></li>
+<li class="last leaf"><a href="/ngos-activities/share-your-story">Share Your Story!</a></li>
+</ul></li>
+</ul>                            </nav>
+      </div>
+      </div>
+</header>
+
+<div class="main-container container">
+
+  <header role="banner" id="page-header">
+    
+      </header> <!-- /#page-header -->
+
+  <div class="row">
+
+    
+    <section class="col-sm-12">
+                  <a id="main-content"></a>
+                                                                <div class="region region-content">
+    <section id="block-system-main" class="block block-system clearfix">
+
+      
+  <article id="node-1" class="node node-page node-promoted clearfix">
+    <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><section class="hero-header">
+    <div class="hero-header-body">
+        <div class="container">
+            <h1>Streamlining Equivalency Determination</h1>
+            <p>We do the legwork, legal work, and paperwork for you.</p>
+            <a class="btn btn-orange" href="/getting-started/become-a-member">Join Us</a>
+        </div>
+    </div>
+    <div class="hero-header-footnote">
+        <a href="/get-your-free-guide-to-equivalency-determination">Get Your Free Guide to Equivalency Determination</a>
+        <img alt="" src="/sites/default/files/NGOsource%20Guide%202017.png" style="height:50px;">
+    </div>
+</section>
+<section class="triple-sections">
+    <h2>Changing the Way You Change the World</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Join the Ranks</h3>
+                <div>
+                    <ul>
+                        <li>For all foundations & Donor Advised Funds</li>
+                        <li>Growing ED repository for more savings</li>
+                        <li>Expert attorneys reduce risk & add savings</li>
+                        <li>Fast delivery you can track</li>
+                        <li>Local & native-speaking NGO experts</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <h3>NGO Invited to Participate</h3>
+                <div>
+                    <p>Our 9 global partners provide top-quality, localized language, culturally appropriate, and time zone support throughout the ED process.</p>
+                    <p><a href="#" data-toggle="modal" data-target="#videoModal" data-theVideo="https://www.youtube.com/watch?v=_pCCop-Xmjc">Watch our NGO intro video<br>
+                    <img src="/sites/all/themes/ngosource_bs3/images/homepage-video.png" alt=""></a></p>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <h3>Excellence Delivered</h3>
+                <div>
+                    <ul>
+                        <li>We minimize the burden on you and the NGO.</li>
+                        <li>Delivery of new EDs  in as little as 4 weeks.</li>
+                        <li>Receive "ready to go" EDs already in repository the same day.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a class="btn btn-orange" href="/getting-started/become-a-member">Get Started<span class="hidden-xs"> with NGOsource</span></a>
+    </footer>
+</section>
+<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_pCCop-Xmjc?rel=0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div></div></div></div>    <footer>
+          </footer>
+    </article>
+
+</section>
+<section id="block-views-testimonials-slider-block" class="block block-views clearfix">
+
+      
+  <div class="view view-testimonials-slider view-id-testimonials_slider view-display-id-block view-dom-id-c49d36f1d944e54038bd6842f21b2cc9">
+            <div class="view-header">
+      <h2>Testimonials</h2>    </div>
+  
+  
+  
+      <div class="view-content">
+      <ul class="jcarousel jcarousel-view--testimonials-slider--block jcarousel-dom-1 jcarousel-skin-default">
+      <li class="jcarousel-item-1 odd" style="display: none;">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><blockquote>
+  <p>Prior to partnering with NGOsource, AJWS did not have the capacity or staff necessary to use equivalency determination in our international grantmaking. NGOsource’s expertise and wonderful customer service for both AJWS and our grantee partners has allowed us to expand the type of support available to a group of grantees that would not have been possible before. As NGOsource’s repository of international organizations grows, any already efficient and cost-effective process becomes even more so.</p>
+  <footer>
+    <cite>Ashley Dunn, Grants Manager. International Operations<br>American Jewish World Service</cite><br>
+    
+  </footer>
+</blockquote></span>  </div></li>
+      <li class="jcarousel-item-2 even" style="display: none;">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><blockquote>
+  <p>NGOsource consistently provides responsive and timely feedback to our ED requests as well as our complex questions related to ED completion timing and working with our grantee partners.  NGOsource solidly and adeptly conducts thorough and complete EDs that support our work flow and levels our time to make space for higher level learning and overall grantmaking enhancements.</p>
+  <footer>
+    <cite>Monica Charles, Grants Manager<br>Arcus Foundation</cite><br>
+    
+  </footer>
+</blockquote></span>  </div></li>
+      <li class="jcarousel-item-3 odd" style="display: none;">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><blockquote>
+  <p>As we say in Guatemala ‘tan chula!!’ (‘you are so nice!’) These processes can be a little scary but having people capable of transmitting their warmth even by mail is a relief.</p>
+  <footer>
+    <cite>Flor García, Co-Founder and Executive Director<br>Asociación para el Liderazgo en Guatemala (Association for Leadership in Guatemala)</cite><br>
+    
+  </footer>
+</blockquote></span>  </div></li>
+      <li class="jcarousel-item-4 even" style="display: none;">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><blockquote>
+  <p>ED enables us to receive funds from US donors despite being UK-registered. This helps us broaden our donor support base and strengthen our reach.</p>
+  <footer>
+    <cite>Alasdair Harris, Executive Director<br>Blue Ventures Conservation</cite><br>
+    
+  </footer>
+</blockquote></span>  </div></li>
+      <li class="jcarousel-item-5 odd" style="display: none;">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><blockquote>
+  <p>First, let me start off by saying that NGOsource has been a great tool in streamlining the ED process for grantees as well as ourselves. It has definitely proven to be cost effective and your technical/customer service staff are extremely responsive and helpful. All in all, I think the service is fantastic and I truly love the updates provided to me as an ED is pending and look forward to being notified when the ED is expiring.</p>
+  <footer>
+    <cite>Shana Sorhaindo, Grants Associate<br>Carnegie Corporation of New York</cite><br>
+    
+  </footer>
+</blockquote></span>  </div></li>
+      <li class="jcarousel-item-6 even" style="display: none;">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><blockquote>
+  <p>After we completed the ED, we found out that our credibility with funders increased, and that all our submitted data (financial and organisational) became standardised, and could be used for other prospective donors. Thus reducing the burden and time in doing this all the time.</p>
+  <footer>
+    <cite>Oludotun Babayemi, Monitoring and Evaluation Expert<br>Connected Development</cite><br>
+    
+  </footer>
+</blockquote></span>  </div></li>
+      <li class="jcarousel-item-7 odd" style="display: none;">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><blockquote>
+  <p>Without the equivalency determination, I don&#039;t think we could have gotten the much needed grant we received.</p>
+  <footer>
+    <cite>Chi Laigo Vallido, Director of Programs and Advocacy<br>Forum for Family Planning and Development</cite><br>
+    
+  </footer>
+</blockquote></span>  </div></li>
+      <li class="jcarousel-item-8 even" style="display: none;">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><blockquote>
+  <p>We at Gawad Kalinga know that to end poverty for five million families by 2024, we need to expand the work and advocacy of caring and sharing across countries, to build a better, safer, and kinder world. Reaching more people and making it easier for them to help out is critical, and NGOsource has made this easier.</p>
+  <footer>
+    <cite>Issa Cuevas-Santos, Head, Corporate Shared Services<br>Gawad Kalinga</cite><br>
+    
+  </footer>
+</blockquote></span>  </div></li>
+      <li class="jcarousel-item-9 odd" style="display: none;">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><blockquote>
+  <p>NGOsource is an efficient and cost-effective tool for Humanity United and is a real benefit to the field at large. It significantly streamlines the equivalency determination process for our grants management and legal teams and, more importantly, makes it easier for our NGOsource-listed international grantees to raise money from US foundations down the road.</p>
+  <footer>
+    <cite>Joel Beck-Coon, Senior Counsel<br>Humanity United</cite><br>
+    
+  </footer>
+</blockquote></span>  </div></li>
+      <li class="jcarousel-item-10 even" style="display: none;">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><blockquote>
+  <p>It gave a very high level of credibility with our partners, in the government of Pakistan, and Provincial government of Balochistan. As director of IDSP, I presented it to my board who was very…inspired and felt deep confidence in their position and in the organization.</p>
+  <footer>
+    <cite>Dr. Quratulain Bakhteari, Founding Director<br>Institute for Development Studies and Practice (IDSP)</cite><br>
+    
+  </footer>
+</blockquote></span>  </div></li>
+      <li class="jcarousel-item-11 odd" style="display: none;">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><blockquote>
+  <p>The Rockefeller Foundation has been a proud supporter of NGOsource since its inception. … Both practical and transformative, NGOsource addresses an acute need in philanthropy.</p>
+  <footer>
+    <cite>Pamela Foster, Managing Director, Program Operations, and Associate General Counsel<br>Rockefeller Foundation</cite><br>
+    
+  </footer>
+</blockquote></span>  </div></li>
+      <li class="jcarousel-item-12 even" style="display: none;">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><blockquote>
+  <p>We are very happy and it is so motivating in our work [to receive the ED]. We shall use the status to ensure we make a meaningful impact on the vulnerable children and their families in the community.</p>
+  <footer>
+    <cite>Eric Guga, Coordinator<br>Tanzania Child Rights Forum (TCRF)</cite><br>
+    
+  </footer>
+</blockquote></span>  </div></li>
+      <li class="jcarousel-item-13 odd" style="display: none;">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><blockquote>
+  <p>The Moore Foundation has been a user of NGOsource since its inception. Previously, we handled equivalency determinations in-house, which duplicated work for grantees and utilized internal lawyer and paralegal resources. Over the past few years we have transitioned nearly all of our equivalency determinations to NGOsource, which has resulted in greater efficiency for both the foundation and foreign organizations we support. We especially appreciate NGOsource&#039;s work with grantees in multiple languages, including Spanish and Portuguese.</p>
+  <footer>
+    <cite>Sasha Abrams, General Counsel and Secretary<br>The Gordon and Betty Moore Foundation</cite><br>
+    
+  </footer>
+</blockquote></span>  </div></li>
+      <li class="jcarousel-item-14 even" style="display: none;">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><blockquote>
+  <p>For most of the last 14 years, I&#039;ve had to seek out and cajole organizations to permit me to use their organizational umbrellas to make my international grants. More recently, we undertook doing those tedious and time-consuming EDs ourselves. NGOsource&#039;s equivalency determination service has just unburdened me. The process was quick and easy. Now, we can spend our time and resources doing what we do best and leave this part of the nitty-gritty to NGOsource.</p>
+  <footer>
+    <cite>Jim Greenbaum, Founder &amp; Managing Director<br>The Greenbaum Foundation</cite><br>
+    
+  </footer>
+</blockquote></span>  </div></li>
+      <li class="jcarousel-item-15 odd" style="display: none;">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><blockquote>
+  <p>NGOsource is a great partner in making it easier to give internationally.  Their service is excellent – cost-effective, timely, and easy to use.</p>
+  <footer>
+    <cite>Liz Peters, General Counsel<br>The William and Flora Hewlett Foundation</cite><br>
+    
+  </footer>
+</blockquote></span>  </div></li>
+      <li class="jcarousel-item-16 even" style="display: none;">  
+  <div class="views-field views-field-nothing">        <span class="field-content"><blockquote>
+  <p>The equivalency determination which War Child was awarded in February this year is a crucial mechanism for ensuring we are able to continue our programmes around the world. Essentially it gives War Child UK an opportunity to explore a range of new funding opportunities. It reassures grant-makers that War Child UK is a legitimate and well-governed organisation that meets the same criteria that US-registered charities are expected to adhere to.</p>
+  <footer>
+    <cite>Martin Holliday, Programme Funding Coordinator<br>War Child UK</cite><br>
+    
+  </footer>
+</blockquote></span>  </div></li>
+  </ul>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+</section>
+<section id="block-boxes-tempbanner" class="block block-boxes block-boxes-simple clearfix">
+
+      
+  <div id='boxes-box-tempbanner' class='boxes-box'><div class="boxes-box-content"><div class="parallax" style="background-image: url(/sites/default/files/pictures/ngos-header-1.jpg)"></div>
+</div></div>
+</section>
+<section id="block-views-4011b7b1eda006cbb86d40fedc45aeef" class="block block-views clearfix">
+
+      
+  <div class="view view-latest-news-items-3-at-a-time- view-id-latest_news_items_3_at_a_time_ view-display-id-block view-dom-id-ee1d40f47d01ccca53aa507e6dbbc02a">
+            <div class="view-header">
+      <h2>Insights for Global Philanthropy</h2>    </div>
+  
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-field-details-url-1">        <div class="field-content"><a href="/blog/ngosource-partners-with-zakat-foundation-of-america-giving-in-syria"><img class="img-responsive" src="http://www.ngosource.org/sites/default/files/_MG_8930%20%28002%29.JPG" width="1000" height="667" alt="" /></a></div>  </div>  
+  <div class="views-field-title">        <div><a href="/blog/ngosource-partners-with-zakat-foundation-of-america-giving-in-syria">NGOsource Partners with Zakat Foundation of America: Giving in Syria</a><br /></div>  </div>  
+  <div class="views-field views-field-field-details-date">        <div class="field-content"><span class="date-display-single">July 6, 2018</span></div>  </div>  
+  <div class="views-field views-field-field-details-blurb">        <div class="field-content"><p>We continue our series, in partnership with the Zakat Foundation of America (ZF), with an overview of the complexities of giving in Syria. </p></div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-field-details-url-1">        <div class="field-content"><a href="/blog/the-china-charity-law-other-regulations-in-partnership-with-forngo-pt-1"><img class="img-responsive" src="http://www.ngosource.org/sites/default/files/LOGO-ForNGO.jpg" width="1000" height="595" alt="" /></a></div>  </div>  
+  <div class="views-field-title">        <div><a href="/blog/the-china-charity-law-other-regulations-in-partnership-with-forngo-pt-1">The China Charity Law &amp; Other Regulations in Partnership with ForNGO (Pt. 1)</a><br /></div>  </div>  
+  <div class="views-field views-field-field-details-date">        <div class="field-content"><span class="date-display-single">June 25, 2018</span></div>  </div>  
+  <div class="views-field views-field-field-details-blurb">        <div class="field-content"><p>Over the course of the next few months, ForNGO will share its expertise on the China Charity Law and other regulations in China in weekly articles on the NGOsource blog.</p></div>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-field-details-url-1">        <div class="field-content"><a href="/blog/rehabilitating-survivors-of-child-trafficking-la-conscience-5-years-later"><img class="img-responsive" src="http://www.ngosource.org/sites/default/files/La%20Conscience_2.jpg" width="1000" height="552" alt="" /></a></div>  </div>  
+  <div class="views-field-title">        <div><a href="/blog/rehabilitating-survivors-of-child-trafficking-la-conscience-5-years-later">Rehabilitating Survivors of Child Trafficking: La Conscience 5 Years Later</a><br /></div>  </div>  
+  <div class="views-field views-field-field-details-date">        <div class="field-content"><span class="date-display-single">June 25, 2018</span></div>  </div>  
+  <div class="views-field views-field-field-details-blurb">        <div class="field-content"><p>We take a look back on the amazing growth of La Conscience, one of the first NGOs to receive an ED through NGOsource, over the past five years.</p></div>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even views-row-last">
+      
+  <div class="views-field views-field-field-details-url-1">        <div class="field-content"><a href="/blog/legalease-notes-from-the-experts-political-campaign-activity"><img class="img-responsive" src="http://www.ngosource.org/sites/default/files/ngosource-legalease_NEW_17.jpg" width="1000" height="500" alt="" /></a></div>  </div>  
+  <div class="views-field-title">        <div><a href="/blog/legalease-notes-from-the-experts-political-campaign-activity">LegalEASE: Notes from the Experts - Political Campaign Activity</a><br /></div>  </div>  
+  <div class="views-field views-field-field-details-date">        <div class="field-content"><span class="date-display-single">June 25, 2018</span></div>  </div>  
+  <div class="views-field views-field-field-details-blurb">        <div class="field-content"><p>Our legal experts give you the 411 on everything you need to know regarding political campaign activity. </p></div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      View more <a href="/legalease">LegalEASE</a> or <a href="/sector_news">Sector News</a>    </div>
+  
+  
+</div>
+</section>
+  </div>
+    </section>
+
+    
+  </div>
+</div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-logo-row">
+           <img src="/sites/all/themes/ngosource_bs3/images/ngosource_white.png" width="145" alt="NGOsource logo" id="ngosLogo">
+           <a href="http://www.techsoup.org"><img src="/sites/all/themes/ngosource_bs3/images/techsoup_white.png" width="135" alt="TechSoup logo" id="TSLogo"></a>
+           <a href="https://www.cof.org"><img src="/sites/all/themes/ngosource_bs3/images/council_white.png" width="330" alt="Council On Foundations logo" id="councilLogo"></a>
+        </div>
+        <div>
+          NGOsource is a project of <a href="http://www.techsoup.org">TechSoup</a> and the <a href="https://www.cof.org">Council on Foundations</a>
+        </div>
+      </div>
+        <div class="region region-footer">
+    <section id="block-menu-menu-footer" class="block block-menu clearfix">
+
+      
+  <ul class="menu nav"><li class="first leaf"><a href="/about-us/contact-us" title="">Contact Us</a></li>
+<li class="leaf"><a href="/privacy-policy" title="">Privacy Policy</a></li>
+<li class="leaf"><a href="/terms-of-use" title="">Terms of Use</a></li>
+<li class="last leaf"><a href="/stay-in-the-loop-subscribe-to-updates" title="">Subscribe to Updates</a></li>
+</ul>
+</section>
+<section id="block-on-the-web-0" class="block block-on-the-web clearfix">
+
+      
+  <span class="on-the-web otw-linkedin"><a href="https://www.linkedin.com/company/2739734" title="Find NGOsource on LinkedIn" rel="nofollow" target="_blank"><i class="fab fa-linkedin-in" aria-hidden="true"></i><span class="sr-only">Find NGOsource on LinkedIn</span></a></span><span class="on-the-web otw-facebook"><a href="http://www.facebook.com/ngosource" title="Find NGOsource on Facebook" rel="nofollow" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i><span class="sr-only">Find NGOsource on Facebook</span></a></span><span class="on-the-web otw-twitter"><a href="http://twitter.com/ngosource" title="Find NGOsource on Twitter" rel="nofollow" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i><span class="sr-only">Find NGOsource on Twitter</span></a></span>
+</section>
+<section id="block-block-3" class="block block-block clearfix">
+
+      
+  <p><span style="font-size:10px">NGOsource is a project of the Council on Foundations and TechSoup. Copyright © 2014 TechSoup Global. All rights reserved.</span></p>
+<p><span style="font-size:10px">Disclaimer: This site provides information to U.S. grantmakers regarding international grantmaking procedures, and should not be construed as a legal service or providing legal advice. As the law differs in each legal jurisdiction and may be applied differently depending on the specific circumstances of each case, the information or use of services on the site should not be used as a substitute for the advice of competent legal counsel.</span></p>
+
+</section>
+  </div>
+    </div>
+  </footer>
+  <script src="http://www.ngosource.org/sites/all/themes/bootstrap/js/bootstrap.js?pbr0sg"></script>
+</body>
+</html>

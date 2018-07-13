@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="Credentials,クレデンシャル,薬剤師,医療現場,医療用医薬品,薬局" />
+<meta name="description" content="“Credentials（クレデンシャル）”は薬剤師の皆様に医療用医薬品の適正使用情報をお届けすると共に、薬剤師がチーム医療人として求められる専門性・信頼性･社会性をより高めるための医療情報を提供します。" />
+<title>Credentials（クレデンシャル）【医療の場で幅広く活躍する薬剤師のために】</title>
+<script src="/static/js/jquery.js"></script>
+
+<script src="/static/js/html5.js"></script>
+
+<link rel="stylesheet" href="/static/css/common.css">
+
+<script src="/static/js/common.js"></script>
+
+<script type="text/javascript" src="https://www.credentials.jp/ga.js"></script>
+
+<script type="text/javascript" src="/js/jquery.cookie.js"></script>
+
+<script src="/assets/jquery_ujs.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="/static/js/jquery.tile.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+ $(".up dl.tile").tile();
+ $(".down dl.tile").tile();
+});
+</script>
+</head>
+<body>
+<div id="container" class="top">
+<script type="text/javascript">
+
+piAId = '439582';
+
+piCId = '41210';
+
+piHostname = 'pi.pardot.com';
+
+(function() {
+
+ function async_load(){
+
+  var s = document.createElement('script'); s.type = 'text/javascript';
+
+  s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+
+  var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);  }
+
+ if(window.attachEvent) { window.attachEvent('onload', async_load); }  else { window.addEventListener('load', async_load, false); } })();
+
+</script>
+
+
+<div class="header v2">
+
+	<div class="inr">
+
+		<div id="theme">医療の場で幅広く活躍する薬剤師のために</div>
+
+		<div id="logo"><a href="/"><span>クレデンシャル</span></a></div>
+
+		<div id="catchs"><span>当サイトは、(株)アルトマークが薬剤師のための医薬品適正使用情報を<br>全国の保険薬局・病院薬剤部にお届けしている月刊誌「クレデンシャル」のWeb版です。</span></div>
+
+		<div class="navs">
+
+			<form action="https://www.credentials.jp/du.cgi/index.html" method="post" id="menuLogin">
+
+			<input type="hidden" name="exec" value="login" />
+
+			<ul>
+
+				<li class="navsAbout"><a href="/du.cgi/support/about.html">クレデンシャルとは</a></li>
+
+				<li class="navsFaq"><a href="/du.cgi/support/faq.html">よくあるご質問</a></li>
+
+				<li class="navsRegister"><a href="/du.cgi/password/check.html">会員登録</a></li>
+
+				<li class="navsLogin"><button>ログイン</button></li>
+
+			</ul>
+
+			</form>
+
+		</div>
+
+	</div>
+
+</div>
+
+
+<div id="contents">
+<div class="topHeader">
+  
+  		<div class="menuLogin">
+
+			<h4>会員向けコンテンツのご利用にはこちらから</h4>
+
+			<form action="https://www.credentials.jp/du.cgi/index.html" method="post" id="menuLogin">
+
+				<input type="hidden" name="exec" value="login" />
+
+				<dl>
+
+					<dt><a href="/du.cgi/password/check.html">新規会員登録(無料)</a></dt>
+
+					<dd>既にご登録済みの方はこちらから<button>ログイン</button></dd>
+
+				</dl>
+
+			</form>
+
+		</div>
+
+  
+  <!-- <div id="toprecommend" class="down v2"> -->
+  <!-- <h2>おすすめ最新情報</h2> -->
+  <!-- <div class="clear"> -->
+  <!-- <dl style="height:20px;"> -->
+  <!--
+    <dt>
+    	<a href="/pdf/cre/recommend/recommend201605_01.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/recommend/recommend201605_01.pdf?top']);">
+    	<img src="/static/images/top/recommend201605_01_thum.jpg" alt="2016年度診療報酬改定のポイント">
+    	</a>
+    </dt>-->
+  <!-- <dd>
+    <h6>
+    <a href="/pdf/cre/recommend/recommend201605_01.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/recommend/recommend201605_01.pdf?top']);" style="line-height:20px;">
+    2016年度診療報酬改定のポイント
+    </a>
+    </h6>
+    </dd> -->
+  <!-- </dl> -->
+  <!-- <dl style="height:20px;"> -->
+  <!--
+    <dt>
+    	<a href="/pdf/cre/recommend/recommend201605_02.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/recommend/recommend201605_02.pdf?top']);">
+    	<img src="/static/images/top/recommend201605_02_thum.jpg" alt="クレデンシャルから読者モニター募集のお知らせ">
+    	</a>
+    </dt>-->
+  <!-- <dd>
+    <h6>
+    <a href="/pdf/cre/recommend/recommend201605_02.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/recommend/recommend201605_02.pdf?top']);" style="line-height:20px;">
+    クレデンシャルから読者モニター募集のお知らせ
+    </a>
+    </h6>
+    </dd> -->
+  <!-- </dl> -->
+  <!-- </div> -->
+  <!-- </div> -->
+</div>
+<section id="main" class="top">
+  <div id="topnews" class="v2">
+    <h1>最新号[2018年7月号]のご案内</h1>
+    <div class="img">
+      <p><a href="/du.cgi/journals/index.html"><img src="/static/images/journals/cover/cover_201807.png" alt="最新号のご案内"></a></p>
+      <ul>
+        
+        <li><a href="/sample/sample1807.pdf" target="_blank" class="btn samplepage">試し読みをする</a></li>
+        
+        <li><a href="/du.cgi/support/read.html"><img src="/static/images/common/header_btn_info.png" alt="定期購読のご案内"></a></li>
+        <li><a href="/du.cgi/support/bnform.html"><img src="/static/images/common/header_btn_backnumber.png" alt="最新号&amp;バックナンバーお申込み"></a></li>
+      </ul>
+    </div>
+    <div class="txt">
+      
+      <div align="center"><span class="attention2">＜各コンテンツの内容はログイン後にご覧になれます＞</span></div>
+      
+
+
+
+      <h2><em>特集</em><a href="/pdf/cre/201807_01.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/201807_01.pdf?top']);">アナフィラキシー<br><small>その病態と対処法を知る</small></a></h2>
+      <p>アナフィラキシーの原因やそのメカニズム、対処法などについて</p>
+
+      <h2><em>専門医＋エキスパートに聞くよりよい服薬指導のための基礎知識</em><a href="/pdf/cre/201807_02.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/201807_02.pdf?top']);">疼痛管理</a></h2>
+      <p>高齢化で増加する痛みの適切な服薬管理</p>
+
+      <h2><em>ここに注目！知っているようで知らない疾患のガイセツ</em><a href="/pdf/cre/201807_03.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/201807_03.pdf?top']);">川崎病</a></h2>
+      <p>川崎病とその最新の治療動向</p>
+
+      <h2><em>Medical Diagram</em><a href="/pdf/cre/201807_04.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/201807_04.pdf?top']);">くしゃみの法則</a></h2>
+      <p></p>
+
+      <h2><em>本田先生のHealthy Days</em><a href="/pdf/cre/201807_05.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/201807_05.pdf?top']);">“夏に魅せられる”｢Happyボディ｣のつくりかた</a></h2>
+      <p><a href="/du.cgi/recipe/201807.html"  class="pdfLink" onclick="_gaq.push(['_trackPageview', '/du.cgi/recipe/201807.html?top']);">レシピページはこちら</a></p>
+
+
+
+      <!--
+        <h2><em>Credentials SPECIAL INTERVIEW</em><a href="/pdf/cre/201806_07.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/201806_07.pdf?top']);">2018年度調剤報酬改定</a></h2>
+        <p></p>
+        <h2><a href="/pdf/cre/201806_08.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/201806_08.pdf?top']);">2018年度診療報酬改定のポイント</a></h2>
+        <p></p>
+        <h2><em>ポリファーマシーを減らそう！</em><a href="/pdf/cre/201806_09.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/201806_09.pdf?top']);">事例で学ぶ介入ポイント</a></h2>
+        <p></p>
+        <h2><em>クレデンシャル川柳</em><a href="/pdf/cre/201806_10.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/201806_10.pdf?top']);">｢2017年大賞｣発表</a></h2>
+        <p></p>
+        <h2><em>特集</em><a href="/pdf/cre/201802_01.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/201802_01.pdf?top']);">患者に寄り添う薬剤師を目指して</a></h2>
+        <p>｢健康サポート薬局｣に求められることとは？</p>
+        <h2><em>専門医＋エキスパートに聞くよりよい服薬指導のための基礎知識</em><a href="/pdf/cre/201802_02.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/201802_02.pdf?top']);">潰瘍性大腸炎</a></h2>
+        <p>長期寛解維持のポイント</p>
+        <h2><em>ここに注目！知っているようで知らない疾患のガイセツ</em><a href="/pdf/cre/201802_03.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/201802_03.pdf?top']);">坐骨神経痛</a></h2>
+        <p>適切な薬物療法と運動療法</p>
+        <h2><em>Medical Diagram</em><a href="/pdf/cre/201802_04.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/201802_04.pdf?top']);">睡眠不足の法則</a></h2>
+        <p></p>
+        <h2><em>Credentials Special Report</em><a href="/pdf/cre/201802_05.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/201802_05.pdf?top']);">新規緑内障患者に薬剤師が介入<br>アンケートと動機づけで初回脱落率が低下</a></h2>
+        <p></p>
+        <h2><em>Credentials Special Report</em><a href="/pdf/cre/201802_06.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/201802_06.pdf?top']);">アルトマークシンポジウム<br>医療・介護の同時改定で変わる地域医療提供体制<br>生き残りをかけた施設経営戦略とは</a></h2>
+        <p></p>
+        <h2><em>[新コーナー]<br>はじめる在宅 現場で役立つ基礎知識</em><a href="/pdf/cre/201802_05.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/201802_05.pdf?top']);">在宅訪問の準備</a></h2>
+        <p></p>
+        <h2><em>学会クローズアップ</em><a href="/pdf/cre/201802_06.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/201802_06.pdf?top']);">第50回日本薬剤師会学術大会</a></h2>
+        <p></p>
+        <h2><em>Special Interview</em><a href="/pdf/cre/201802_07.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/201802_07.pdf?top']);">｢患者さん｣を主語にして考える</a></h2>
+        <p></p>
+        <h2><em>Credentials Special Report</em><a href="/pdf/cre/201802_05.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/201802_05.pdf?top']);">外国人患者も安心して来局できる薬局<br>準備と実践を繰り返して、より良い服薬指導を目指す</a></h2>
+        <p></p>
+        <h2><em>クレデンシャル川柳</em><a href="/pdf/cre/201802_06.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/201802_05.pdf?top']);">｢2016年大賞｣発表</a></h2>
+        <p></p>
+        <h2><em>Credentials Special Report</em><a href="/pdf/cre/201802_05.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/201802_05.pdf?top']);">吸入指導の全国水準を高めたい<br>日大医学部の｢吸入レッスン｣サイトがリニューアル</a></h2>
+        <p></p>
+        <ul><li><a href="/pdf/cre/201802_05.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/201802_05.pdf?top']);">Medical Diagram  “ノセボ効果の法則”</a></li></ul>
+        <h2><em class="new_contents">新コーナー</em><em>拝啓、薬剤師さん</em><a href="/pdf/cre/201607_05.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/201607_05.pdf?top']);">立川在宅ケアクリニック 井尾和雄先生</a></h2>
+        <p></p>
+        <ul><li><a href="/pdf/cre/201605_04.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/201605_04.pdf?top']);">今月のKEY WORD “メルドニウム”</a></li></ul>
+        <ul><li><a href="/pdf/cre/201605_05.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/201605_05.pdf?top']);">Credentials Special Report “調剤過誤を防げ！独自のシステムで医療安全を確立 東海大学医学部付属八王子病院の実践”</a></li></ul>
+      -->
+    </div>
+  </div>
+  <div class="topContentsList">
+    <div class="menuList di">
+      <h3><span>企業DI</span></h3>
+      <h4>2018年6月号</h4>
+      <dl>
+        <dt>アステラス製薬株式会社</dt>
+        <dd><a href="/pdf/cre/di_201806_01.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/di_201804_01.pdf?top']);">包装形態に求められる臨床的機能性の重要性<br>―ボノテオ錠50mg製剤専用MVP BOXを再考する―</a></dd>
+        <dd><a href="/pdf/cre/di_201806_01_pi.pdf" target="_blank"><img src="/static/images/common/ico_temp.png" alt="添付文章情報"></a></dd>
+      </dl>
+      <dl>
+        <dt>アストラゼネカ株式会社</dt>
+        <dd><a href="/pdf/cre/di_201806_02.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/di_201804_01.pdf?top']);">ビデュリオン皮下注用2mgペン指導のポイントについて</a></dd>
+        <dd><a href="/pdf/cre/di_201806_02_pi.pdf" target="_blank"><img src="/static/images/common/ico_temp.png" alt="添付文章情報"></a></dd>
+      </dl>
+      <dl>
+        <dt>久光製薬株式会社</dt>
+        <dd><a href="/pdf/cre/di_201806_03.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/di_201804_01.pdf?top']);">モーラスパップXR120mg、モーラスパップXR240mg、モーラステープ20mg、モーラステープL40mgの光接触皮膚炎について</a></dd>
+        <dd><a href="/pdf/cre/di_201806_03_pi.pdf" target="_blank"><img src="/static/images/common/ico_temp.png" alt="添付文章情報"></a></dd>
+      </dl>
+    </div>
+
+
+    <div class="menuList messgaeboard">
+      <h3><span>Message Board</span></h3>
+      <h4>2018年7月号</h4>
+      <dl>
+        <dt>マイランEPD合同会社</dt>
+        <dd><a href="/pdf/cre/mb_201807_01.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/mb_201807_01.pdf?top']);">マイランEPD製品総合情報サイト<br>｢Mylan e Channel｣のご案内</a></dd>
+      </dl>
+      <dl>
+        <dt>日本イーライリリー株式会社</dt>
+        <dd><a href="/pdf/cre/mb_201807_02.pdf" target="_new" class="pdfLink" onclick="_gaq.push(['_trackPageview', '/pdf/cre/mb_201807_02.pdf?top']);">ジプレキサを服用される患者さんのために知っておいていただきたいこと</a></dd>
+      </dl>
+    </div>
+
+    <div class="menuList view">
+      <h3><span>医療業界news</span></h3>
+      <h4>2018年7月</h4>
+      <dl>
+        <dt>あすか製薬</dt>
+        <dd><a href="/du.cgi/view/201807.html">バルサルタン錠「AA」4品目を自主回収</a></dd>
+      </dl>
+      <dl>
+        <dt>厚生労働省</dt>
+        <dd><a href="/du.cgi/view/201807.html">高齢者の医薬品適正使用指針（総論編）を周知</a></dd>
+      </dl>
+      <dl>
+        <dt>日本イーライリリー</dt>
+        <dd><a href="/du.cgi/view/201807.html">「ヒューマログ注ミリオペンHD」を発売</a></dd>
+      </dl>
+      <!-- 			<h3><span>医療業界news</span></h3>
+        <h4>2016年7月</h4>
+        <dl>
+        	<dt>厚生労働省</dt>
+        	<dd><a href="/du.cgi/view/201607.html">｢トレメリムマブ｣など、6成分の一般的名称を決定</a></dd>
+        </dl>
+        -->
+    </div>
+    <div class="menuList web">
+      <h3><span>WEB限定記事</span></h3>
+      <h4>2018年1月</h4>
+      <dl>
+        <dt>アルトマークシンポジウム</dt>
+        <dd><a href="/du.cgi/report/report05_1.html">	医療・介護同時改定で変わる地域医療体制</a></dd>
+      </dl>
+    </div>
+  </div>
+</section>
+<aside id="menu">
+  <div class="menuInfo">
+    <div class="heading">お知らせ</div>
+    <span class="btnlist"><a href="/du.cgi/support/info.html">一覧</a></span>
+
+    <dl class="new">
+      <dt>2018年7月11日</dt>
+      <dd><a href="/du.cgi/view/index.html">医療業界news（7/2-7/6）を更新しました。</a></dd>
+    </dl>
+    <dl class="new">
+      <dt>2018年6月20日</dt>
+      <dd>
+        クレデンシャル誌7月号掲載しました。<br>(<a href="/du.cgi/journals/index.html">記事一覧</a>、<!--<a href="/du.cgi/di/index.html">企業DI</a>、--><a href="/du.cgi/mb/index.html">Message Board</a><!--、<a href="/du.cgi/eb/index.html">Early Bird</a>-->)
+      </dd>
+    </dl>
+
+
+
+    <!--dl class="new">
+      <dt>2017年5月10日</dt>
+      <dd><a href="/du.cgi/view/index.html">医療業界news（4/25-4/28）を更新しました。</a></dd>
+      <dd><a href="/du.cgi/view/index.html">医療業界news（3/30-3/31）を更新しました。</a></dd>
+      </dl-->
+    <!--
+      <dl class="new">
+      	<dt>2016年9月28日</dt>
+      	<dd><a href="/du.cgi/view/index.html">医療業界news（9/23）を更新しました。</a></dd>
+      </dl>
+      -->
+  </div>
+  <div class="menuList anq">
+
+
+    
+    <img src="/static/images/top/bnr_anq_201807_nologin.jpg" alt="アンケート" style="margin-bottom:10px;">
+    
+
+
+    <div class="heading mt20">Web限定コンテンツのご紹介</div>
+    <a href="/du.cgi/ess/index.html"><img src="/static/images/top/bnr_english.png" alt="英語で服薬指導" style="margin-bottom:10px;"></a>
+    <a href="/du.cgi/senryu/index.html"><img src="/static/images/top/bnr_senryu.png" alt="クレデンシャル川柳" style="margin-bottom:10px;"></a>
+    <br>
+  </div>
+  <div class="menuSupport">
+    <div class="heading">各種お手続き</div>
+    <div class="inr">
+      <ul>
+        <li><a href="/du.cgi/support/read.html">定期購読のご案内</a></li>
+        <li><a href="/du.cgi/support/bnform.html">最新号&amp;バックナンバーのお申込み</a></li>
+        <li><a href="/du.cgi/cdform/index.html">クレデンシャル本誌の送付先変更</a></li>
+        <li><a href="/du.cgi/support/contact.html">お問い合わせ</a></li>
+      </ul>
+    </div>
+  </div>
+</aside>
+</div>
+<footer>
+
+	<div class="inner">
+
+		<div class="footerMemberConts">
+
+			<h5>クレデンシャル会員限定コンテンツ</h5>
+
+			<dl>
+
+				<dt><a href="/du.cgi/journals/index.html">本誌記事</a></dt>
+
+				<dd><a href="/du.cgi/journals/index.html">- 本誌記事（最新）</a></dd>
+
+				<dt><a href="/du.cgi/webdocs/index.html">WEB記事</a></dt>
+
+				<dd><a href="/du.cgi/webdocs/cb.html">- 認証機構プロバイダー</a></dd>
+
+				<dd><a href="/du.cgi/webdocs/law.html">- ニュー薬剤師必携法律知識</a></dd>
+
+				<dd><a href="/du.cgi/webdocs/acid.html">- 麻薬取締部―最前線―</a></dd>
+
+				<dd><a href="/du.cgi/webdocs/road.html">- 新薬発見の道</a></dd>
+
+				<dd><a href="/du.cgi/webdocs/counterfeiting.html">- 偽造医薬品</a></dd>
+
+				<dd><a href="/du.cgi/webdocs/doctor.html">- 国境なき医師団</a></dd>
+
+				<dd><a href="/du.cgi/webdocs/art.html">- アート＆メディスン</a></dd>
+
+			</dl>
+
+			<dl>
+
+				<dt><a href="/du.cgi/di/index.html">企業DI</a></dt>
+
+				<dd><a href="/du.cgi/di/index.html">- 企業DI一覧</a></dd><!--ページ未作成-->
+
+				<dt><a href="/du.cgi/mb/index.html">Message Board</a></dt>
+
+				<dd><a href="/du.cgi/mb/index.html">- Message Board一覧</a></dd><!--ページ未作成-->
+
+				<dt><a href="/du.cgi/eb/index.html">Early Bird</a></dt>
+
+				<dd><a href="/du.cgi/eb/index.html">- Early Bird一覧</a></dd><!--ページ未作成-->
+
+				<dt><a href="/du.cgi/view/index.html">医療業界news</a></dt>
+
+				<dd><a href="/du.cgi/view/index.html">- 医療業界news（最新）</a></dd><!--ページ未作成-->
+
+			</dl>
+
+		</div>
+
+		<div class="footerPublicConts">
+
+			<h5>一般コンテンツ</h5>
+
+			<dl>
+
+				<dt><a href="/du.cgi/support/about.html">クレデンシャルについて</a></dt>
+
+				<dd><a href="/du.cgi/support/about.html">- クレデンシャルとは</a></dd>
+
+				<dd><a href="/du.cgi/support/list.html">- 参加企業一覧</a></dd>
+
+				<dt><a href="/du.cgi/journals/index.html">クレデンシャル本誌</a></dt>
+
+				<dd><a href="/du.cgi/support/read.html">- 定期購読のご案内</a></dd>
+
+				<dd><a href="/du.cgi/support/bnform.html">- 最新号＆バックナンバーお申込み</a></dd>
+
+				<dd><a href="/du.cgi/cdform/index.html">- 送付先変更</a></dd>
+
+			</dl>
+
+			<dl>
+
+				<dt><a href="http://www.ultmarc.co.jp/" target="_blank">運営会社</a></dt>
+
+				<dd><a href="http://www.ultmarc.co.jp/" target="_blank">- 株式会社日本アルトマーク</a></dd>
+
+				<dd><a href="/du.cgi/support/faq.html">- よくあるご質問</a></dd>
+
+				<dd><a href="/du.cgi/support/contact.html">- お問い合わせ</a></dd>
+
+				<dd>
+
+					<a href="https://www.facebook.com/credentialsjp" target="_blank"><img src="/static/images/common/footer_bnr_fb.png" alt="クレデンシャル公式Facebook"></a>
+
+					<a href="https://medpass.jp/" target="_blank"><img src="/static/images/common/footer_bnr_medy.png" alt="MEDパス"></a>
+
+				</dd>
+
+			</dl>
+
+		</div>
+
+		<p>医療の場で幅広く活躍する薬剤師のために【クレデンシャル】は、<a href="http://www.ultmarc.co.jp/" target="_blank">株式会社日本アルトマーク</a>によって運営されています。当サイトに掲載してあります企業提供DI（ドラッグインフォメーション）は、本誌が発行された当時のものであり、現時点における最新情報ではない可能性があります。当サイトの企業提供DIをご利用の際は、必ず最新の添付情報をご確認ください。会員は、当サイトに掲載されている情報を自らの責任を持って利用するものとし、(株)日本アルトマークは、一切の責任を負いません。</p>
+
+	</div>
+
+</footer>
+
+<div id="copyright">
+
+	<ul>
+
+		<li>＞<a href="/du.cgi/support/privacy.html">個人情報の取り扱いについて</a></li>
+
+		<li>＞<a href="/du.cgi/support/rule.html">利用規約</a></li>
+
+	</ul>
+
+	<small>Copyright &copy; Credentials All rights　reserved.</small>
+
+</div>
+</div>
+
+
+
+
+</body>
+</html>

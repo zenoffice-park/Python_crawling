@@ -1,0 +1,442 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja-JP">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- 
+	CENIT AG - www.cenit.com
+
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2016 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.org/
+-->
+
+<base href="http://www.cenit.com/" />
+
+
+<meta name="generator" content="TYPO3 CMS" />
+<meta name="google-site-verification" content="fFSlJAkXS5OUOZnFoVB_ELwp4T3NPTOd8-rAjTKvghQ" />
+<meta name="Robots" content="index, follow" />
+<meta name="Copyright" content="Cenit AG" />
+<meta name="Author" content="CENIT AG" />
+<meta name="Rating" content="General" />
+
+
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/ad_templavoila_tabs/res/js/jquery.ui.tabs.css?1366963186" media="all" />
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/and_shadowbox/res/css/shadowbox.css?1433319673" media="screen" />
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/and_shadowbox/res/css/andshadowbox.css?1363596442" media="screen" />
+<link rel="stylesheet" type="text/css" href="typo3conf/ext/powermail/Resources/Public/Css/jquery.ui.datepicker.css?1359462072" media="all" />
+
+
+
+
+<script src="typo3temp/javascript_9a38f34785.js?1432025202" type="text/javascript"></script>
+
+
+
+
+	<title>CENIT - ソフトウェア製品 - ソリューション - サービス</title>
+	<meta name="title" content="CENIT - ソフトウェア製品 - ソリューション - サービス" />
+	<meta name="description" content="バーチャル環境の中で工程設計やデジタル検証をすることにより、潜在的な不具合や新しい可能性に気づくことがあります。CENITのデジタルファクトリー製品をお試しください。" /><meta name="date" content="2018-07-04" />
+	<link rel="canonical" href="http://www.cenit.com/ja_JP.html" />
+	  <script type="text/javascript" src="fileadmin/templates/js/rebranding/jquery-3.2.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/JavaScript"></script><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/><link rel="alternate"hreflang="en" href="http://www.cenit.com/en_EN.html"/><link rel="alternate"hreflang="de" href="http://www.cenit.com/de_DE.html"/><link rel="alternate"hreflang="de-ch" href="http://www.cenit.com/de_CH.html"/><link rel="alternate"hreflang="fr" href="http://www.cenit.com/fr_FR.html"/><link rel="alternate"hreflang="ro" href="http://www.cenit.com/ro_RO.html"/><link rel="alternate"hreflang="ja" href="http://www.cenit.com/ja_JP.html"/><!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4457918.js"></script>
+<!-- End of HubSpot Embed Code -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2561960-13', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript" src="fileadmin/templates/js/cenit_ga.js"></script><script type="text/javascript" src="fileadmin/templates/js/shadowbox/shadowbox.js"></script>
+<script type="text/javascript" src="fileadmin/templates/js/shadowbox/cenit_shadowbox.js"></script>
+<script type="text/javascript">
+Shadowbox.init();
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" type="text/css" href="fileadmin/templates/css/rebranding/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="fileadmin/templates/css/rebranding/jquery.mCustomScrollbar.css" />
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/responsive/1.0.1/css/dataTables.responsive.css" />
+<link rel="stylesheet" type="text/css" href="fileadmin/templates/css/style_rebranding.css" />
+<link rel="stylesheet" type="text/css" href="fileadmin/templates/css/media_queriesRebranding.css" />
+
+
+
+<script type="text/javascript" src="typo3conf/ext/cenit_swmforms/pi2/cenit_swmforms.js"></script><script type="text/javascript" src="typo3conf/ext/cenit_swmforms/pi2/newDropdown_swmforms.js"></script><link rel="stylesheet" href="typo3conf/ext/cenit_swmforms/pi2/jquery_validate.css" type="text/css" media="screen" />
+</head>
+<body>
+
+
+	<header class="headerArea"><div class="navbar navbar-default navbar-has-image navbar-fixed-top" id="headerAreaDiv"><nav class="navbar navbar-default navbarTopNavi" id="topNavigationR"><div class="container"><div id="navbarMeta" class="navbar-collapse collapse pull-right"><div class="container-fluid visible-xs visible-sm visible-md " id="backgroundGreen"><div class="interactionIcons"><div class="pull-left">MENU</div><ul class="nav navbar-nav pull-right"><li class="dropdown language"><a href="#" class="languageLink dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"></a><ul class="dropdown-menu" role="menu"><li><a href="en_EN.html" id="en_EN">INTERNATIONAL</a></li><li><a href="de_DE.html" id="de_DE">DEUTSCHLAND</a></li><li><a href="de_CH.html" id="de_CH">Schweiz</a></li><li><a href="fr_FR.html" id="fr_FR">France</a></li><li><a href="ro_RO.html" id="ro_RO">România</a></li><li class="active"><a href="ja_JP.html" id="ja_JP">日本</a></li></ul></li></ul><a href="ja_JP/metanavigation/search.html" class="searchPageMobile pull-right">Search</a><a href="ja_JP/metanavi/contact.html" class="contactCENITMobile pull-right">連絡先</a></div></div><ul class="nav navbar-nav visible-xs  visible-sm visible-md mainNavigationMobile"><li class="dropdown"><a href="ja_JP/hot-topics.html" title="Hot Topics" title="{field:title}"  role="button" aria-expanded="true" class="mobileLink disable dropdown-toggle">Hot Topics</a><a class="dropdown-toggle visible-xs  visible-sm visible-md  dropdownMobile" data-toggle="dropdown" href="#"><b class="caret"></b></a><ul class="dropdown-menu multi-level topMenuSubR" role="menu"><li class=" "><a href="ja_JP/hot-topics/digital-twin-digital-continuity.html">Digital Twin - Digital Continuity</a></li><li class=" "><a href="ja_JP/hot-topics/digital-factory-solutions.html">Digital Factory Solutions</a></li><li class=" "><a href="ja_JP/hot-topics/smartplm.html">smartPLM</a></li><li class=" "><a href="ja_JP/hot-topics/design-anywhere-build-anywhere.html">Design Anywhere – Build Anywhere</a></li><li class=" "><a href="ja_JP/hot-topics/virtual-production-solutions-for-automation.html">Virtual production solutions for automation</a></li><li class=" "><a href="ja_JP/hot-topics/hybrid-production.html">Hybrid production</a></li><li class=" "><a href="ja_JP/hot-topics/artificial-intelligence.html">Artificial intelligence</a></li><li class=" "><a href="ja_JP/hot-topics/predictive-maintenance.html">Predictive Maintenance</a></li></ul></li><li class="dropdown"><a href="ja_JP/use-cases.html" title="Use Cases" title="{field:title}"  role="button" aria-expanded="true" class="mobileLink disable dropdown-toggle">Use Cases</a><a class="dropdown-toggle visible-xs  visible-sm visible-md  dropdownMobile" data-toggle="dropdown" href="#"><b class="caret"></b></a><ul class="dropdown-menu multi-level topMenuSubR" role="menu"><li class=" "><a href="ja_JP/use-cases/ready-to-grow.html">Ready to grow</a></li><li class=" "><a href="ja_JP/use-cases/virtual-commissioning.html">Virtual commissioning</a></li><li class=" "><a href="ja_JP/use-cases/cad-data-management.html">CAD data management</a></li><li class=" "><a href="ja_JP/use-cases/document-management.html">Document management</a></li><li class=" "><a href="ja_JP/use-cases/360-degree-customer-communication.html">360-degree customer communication</a></li><li class=" "><a href="ja_JP/use-cases/change-management.html">Change management</a></li><li class=" "><a href="ja_JP/use-cases/file-and-transaction-processing.html">File and transaction processing</a></li><li class=" "><a href="ja_JP/use-cases/simulation-offline-programming.html">Simulation & offline programming</a></li><li class=" "><a href="ja_JP/use-cases/application-modernization-and-migration.html">Application modernization and migration</a></li><li class=" "><a href="ja_JP/use-cases/planning-predictive-analytics-reporting.html">Planning, predictive analytics, reporting</a></li></ul></li><li class="dropdown"><a href="ja_JP/products-solutions.html" class="dropdown-toggle mobileLink" role="button" aria-expanded="true">Products &amp; Solutions</a><a class="dropdown-toggle visible-xs  visible-sm visible-md dropdownMobile" data-toggle="dropdown" href="#"><b class="caret"></b></a><ul class="dropdown-menu multi-level topMenuSubR" role="menu"><li class="dropdown dropdown-submenu"><a href="ja_JP/plm.html" role="button" aria-expanded="true" class="mobileLink2 ">PLM</a><a href="#" class="dropdownMobile2" data-toggle="dropdown" aria-expanded="true"><b class="caret"></b></a><ul class="dropdown-menu"><li><a href="ja_JP/plm/digital-factory.html" role="button" aria-expanded="true" class="mobileLink3">Digital Factory</a></li></ul></li><li class="dropdown dropdown-submenu"><a href="ja_JP/products-solutions/eim.html" role="button" aria-expanded="true" class="mobileLink2 ">EIM</a><a href="#" class="dropdownMobile2" data-toggle="dropdown" aria-expanded="true"><b class="caret"></b></a><ul class="dropdown-menu"><li><a href="ja_JP/products-solutions/eim/360-degree-customer-communication.html" role="button" aria-expanded="true" class="mobileLink3">360 degree customer communication</a></li><li><a href="ja_JP/products-solutions/eim/processing-file-and-document-management.html" role="button" aria-expanded="true" class="mobileLink3">Processing, file and document management</a></li><li><a href="ja_JP/products-solutions/eim/application-modernization-and-migration.html" role="button" aria-expanded="true" class="mobileLink3">Application modernization and migration</a></li><li><a href="ja_JP/products-solutions/eim/planning-predictive-analytics-reporting.html" role="button" aria-expanded="true" class="mobileLink3">Planning, predictive analytics, reporting</a></li></ul></li></ul></li><li class="dropdown"><a href="ja_JP/academy/training-overview.html" title="Academy" title="{field:title}"  role="button" aria-expanded="true" class="mobileLink disable dropdown-toggle">Academy</a><a class="dropdown-toggle visible-xs  visible-sm visible-md  dropdownMobile" data-toggle="dropdown" href="#"><b class="caret"></b></a><ul class="dropdown-menu multi-level topMenuSubR" role="menu"><li class=" "><a href="ja_JP/academy/training-overview.html">Training Overview</a></li><li class=" "><a href="ja_JP/academy/actual-trainings.html">Actual Trainings</a></li><li class=" "><a href="ja_JP/events/current-webinars.html">Webinars</a></li></ul></li><li class=" "><a href="ja_JP/newsroom.html" title="Newsroom"  role="button" aria-expanded="true" class="mobileLink disable dropdown-toggle">Newsroom</a></li><li class="dropdown"><a href="ja_JP/career.html" title="Career" title="{field:title}"  role="button" aria-expanded="true" class="mobileLink disable dropdown-toggle">Career</a></li><ul class="nav navbar-nav mobileMetaNaviMenu visible-xs  visible-sm visible-md "><li><a href="ja_JP/investor-relations.html" title="Investor Relations">Investor Relations</a></li><li><a href="ja_JP/corporate.html" title="会社概要">Company</a></li><li><a href="ja_JP/events.html" title="イベント">Events</a></li><li><a href="ja_JP/metanavi/support.html" title="サポート">Support</a></li><li><a href="ja_JP/metanavi/contact.html" title="連絡先">Contact</a></li></ul></ul><ul class="nav navbar-nav mobileMetaNaviMenu hidden-xs hidden-sm hidden-md"><li><a href="ja_JP/investor-relations.html" title="Investor Relations" data-myid="meta-link-1030">Investor Relations</a></li><li><a href="ja_JP/corporate.html" title="会社概要" data-myid="meta-link-1031">Company</a></li><li><a href="ja_JP/events.html" title="イベント" data-myid="meta-link-1032">Events</a></li><li><a href="ja_JP/metanavi/support.html" title="サポート" data-myid="meta-link-1033">Support</a></li><li><a href="ja_JP/metanavi/contact.html" title="連絡先" data-myid="meta-link-1035">Contact</a></li><li><a href="ja_JP/metanavigation/search.html" title="Search" data-myid="meta-link-1036">Search</a></li></ul><ul class="nav navbar-nav navbar-right hidden-xs hidden-sm hidden-md"><li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">日本 </a><ul class="dropdown-menu" role="menu"><li><a href="en_EN.html" id="en_EN">INTERNATIONAL</a></li><li><a href="de_DE.html" id="de_DE">DEUTSCHLAND</a></li><li><a href="de_CH.html" id="de_CH">Schweiz</a></li><li><a href="fr_FR.html" id="fr_FR">France</a></li><li><a href="ro_RO.html" id="ro_RO">România</a></li><li class="active"><a href="ja_JP.html" id="ja_JP">日本</a></li></ul></li></ul></div></div><div class="container"><div class="row"><div class="navbar-header"><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarMeta" aria-expanded="false" aria-controls="navbarMeta"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="ja_JP.html" class="navbar-brand"><img class="Logo" width="100vw" src="fileadmin/ittag/img/cenit_Logo.png"></a></div></div></div></nav><nav class="navbar navbar-default navbar-static-top hidden-xs hidden-sm hidden-md"> <div class="container" id="mainMenuNavigationR"><div class="row"><div class="navbar-header"><button class="navbar-toggle" data-toggle="collapse" data-target=".btnCollapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div><div class="collapse navbar-collapse btnCollapse"><ul class="nav navbar-nav navbar-main"><li class="dropdown"><a href="ja_JP/hot-topics.html" title="Hot Topics" role="button" aria-expanded="false">Hot Topics<span class="bar"></span></a><ul class="dropdown-menu topMenuSubR" role="menu"><div class="container transparentContainer"><div class="row row-eq-height"><div class="topthemaSubMenu col-xs-3 col-sm-3 col-md-3 col-lg-3"><li class="dropdown"><a href="ja_JP/hot-topics/digital-twin-digital-continuity.html"><img src="fileadmin/dam/Rebranding/HotTopics/Digitaler-Zwilling_360x260.jpg" width="360" height="260"   alt="Digital Twin - Digital Continuity"  border="0" /></a><h2><a href="ja_JP/hot-topics/digital-twin-digital-continuity.html">Digital Twin - Digital Continuity</a></h2><p><a href="ja_JP/hot-topics/digital-twin-digital-continuity.html">Digital twin and its real model - What added value do they generate together?</a></p></li></div><div class="topthemaSubMenu col-xs-3 col-sm-3 col-md-3 col-lg-3"><li class="dropdown"><a href="ja_JP/hot-topics/digital-factory-solutions.html"><img src="fileadmin/dam/Rebranding/HotTopics/Digital-Factory_360x260.jpg" width="360" height="260"   alt="Digital Factory Solutions"  border="0" /></a><h2><a href="ja_JP/hot-topics/digital-factory-solutions.html">Digital Factory Solutions</a></h2><p><a href="ja_JP/hot-topics/digital-factory-solutions.html">Are the right solutions already available for the production processes of the future?</a></p></li></div><div class="topthemaSubMenu col-xs-3 col-sm-3 col-md-3 col-lg-3"><li class="dropdown"><a href="ja_JP/hot-topics/smartplm.html"><img src="fileadmin/dam/Rebranding/HotTopics/smartPLM_360x260.jpg" width="360" height="260"   alt="smartPLM"  border="0" /></a><h2><a href="ja_JP/hot-topics/smartplm.html">smartPLM</a></h2><p><a href="ja_JP/hot-topics/smartplm.html">Is there a solution to the apparent contradiction between flexibility and efficiency?</a></p></li></div><div class="topthemaSubMenu col-xs-3 col-sm-3 col-md-3 col-lg-3"><li class="dropdown"><a href="ja_JP/hot-topics/design-anywhere-build-anywhere.html"><img src="fileadmin/dam/Rebranding/HotTopics/Design-anywhere---build-anywhere_360x260.jpg" width="360" height="260"   alt="Design Anywhere – Build Anywhere"  border="0" /></a><h2><a href="ja_JP/hot-topics/design-anywhere-build-anywhere.html">Design Anywhere – Build Anywhere</a></h2><p><a href="ja_JP/hot-topics/design-anywhere-build-anywhere.html">Can design, production and service be efficient independently of the location while still being flexible?</a></p></li></div></div></div><div class="container"><a href="ja_JP/hot-topics.html" class="myhvr btn hvr-grow-shadow">More hot topics</a></div></ul></li><li class="dropdown"><a href="ja_JP/use-cases.html" title="Use Cases" role="button" aria-expanded="false">Use Cases<span class="bar"></span></a><ul class="dropdown-menu topMenuSubR" role="menu"><div class="container transparentContainer"><div class="row row-eq-height"><div class="useCasesSubMenu col-xs-3 col-sm-3 col-md-3 col-lg-3"><li class="dropdown"><a href="ja_JP/use-cases/ready-to-grow.html">Ready to grow</a></li><li class="dropdown"><a href="ja_JP/use-cases/virtual-commissioning.html">Virtual commissioning</a></li><li class="dropdown"><a href="ja_JP/use-cases/cad-data-management.html">CAD data management</a></li><li class="dropdown"><a href="ja_JP/use-cases/document-management.html">Document management</a></li></div><div class="useCasesSubMenu col-xs-3 col-sm-3 col-md-3 col-lg-3"><li class="dropdown"><a href="ja_JP/use-cases/360-degree-customer-communication.html">360-degree customer communication</a></li><li class="dropdown"><a href="ja_JP/use-cases/change-management.html">Change management</a></li><li class="dropdown"><a href="ja_JP/use-cases/file-and-transaction-processing.html">File and transaction processing</a></li><li class="dropdown"><a href="ja_JP/use-cases/simulation-offline-programming.html">Simulation & offline programming</a></li></div><div class="useCasesSubMenu col-xs-3 col-sm-3 col-md-3 col-lg-3"><li class="dropdown"><a href="ja_JP/use-cases/application-modernization-and-migration.html">Application modernization and migration</a></li><li class="dropdown"><a href="ja_JP/use-cases/planning-predictive-analytics-reporting.html">Planning, predictive analytics, reporting</a></li></div><div class="useCasesSubMenu col-xs-3 col-sm-3 col-md-3 col-lg-3"></div></div></div></ul></li><li class="dropdown"><a href="ja_JP/products-solutions.html">Products &amp; Solutions<span class="bar"></span></a><ul class="dropdown-menu topMenuSubR" role="menu"><div class="container transparentContainer"><div class="subMenuCol col-xs-3 col-sm-3 col-md-3 col-lg-3"><ul class="firstColumn"><li class="dropdown"><a href="ja_JP/plm.html" title="PLM" role="button" aria-expanded="false">PLM</a></li><li class="introTextProducts">Consulting, service and software from a single source. Implementation and optimization of PLM processes from product development to production</li></ul></div><div class="subMenuCol col-xs-3 col-sm-3 col-md-3 col-lg-3"><ul class="secondColumn"><li class="dropdown"><a href="ja_JP/plm/digital-factory.html" title="デジタルファクトリー" role="button" aria-expanded="false">Digital Factory</a></li></ul></div><div class="subMenuColimg col-xs-6 col-sm-6 col-md-6 col-lg-6"><ul class="thirdColumn"><a href="ja_JP/plm.html"><img src="fileadmin/dam/Rebranding/Navigation_Products_and_Solutions/CENIT-PLM-Loesungen_600x220.jpg" width="600" height="220"   alt="PLM"  border="0" /></a></ul></div></div><div class="container transparentContainer"><div class="subMenuCol col-xs-3 col-sm-3 col-md-3 col-lg-3"><ul class="firstColumn"><li class="dropdown"><a href="ja_JP/products-solutions/eim.html" title="EIM" role="button" aria-expanded="false">EIM</a></li><li class="introTextProducts">Efficient information management as a business strategy with the CENIT service, consulting and software offer.</li></ul></div><div class="subMenuCol col-xs-3 col-sm-3 col-md-3 col-lg-3"><ul class="secondColumn"><li class="dropdown"><a href="ja_JP/products-solutions/eim/360-degree-customer-communication.html" title="360 degree customer communication" role="button" aria-expanded="false">360 degree customer communication</a></li><li class="dropdown"><a href="ja_JP/products-solutions/eim/processing-file-and-document-management.html" title="Processing, file and document management" role="button" aria-expanded="false">Processing, file and document management</a></li><li class="dropdown"><a href="ja_JP/products-solutions/eim/application-modernization-and-migration.html" title="Application modernization and migration" role="button" aria-expanded="false">Application modernization and migration</a></li><li class="dropdown"><a href="ja_JP/products-solutions/eim/planning-predictive-analytics-reporting.html" title="Planning, predictive analytics, reporting" role="button" aria-expanded="false">Planning, predictive analytics, reporting</a></li></ul></div><div class="subMenuColimg col-xs-6 col-sm-6 col-md-6 col-lg-6"><ul class="thirdColumn"><a href="ja_JP/products-solutions/eim.html"><img src="fileadmin/dam/Rebranding/Navigation_Products_and_Solutions/CENIT-EIM-Loesungen_600x220.jpg" width="600" height="220"   alt="EIM"  border="0" /></a></ul></div></div></ul></li><li class="dropdown"><a href="ja_JP/academy/training-overview.html" title="Academy" role="button" aria-expanded="false">Academy<span class="bar"></span></a><ul class="dropdown-menu topMenuSubR" role="menu"><div class="container transparentContainer"><div class="row row-eq-height"><div class="topthemaSubMenu col-xs-4 col-sm-4 col-md-4 col-lg-4"><li class="dropdown"><a href="ja_JP/academy/training-overview.html"><img src="fileadmin/dam/Rebranding/Navigation_Products_and_Solutions/training_overview_400x250.jpg" width="400" height="250"   alt="Training Overview"  border="0" /></a><h2><a href="ja_JP/academy/training-overview.html">Training Overview</a></h2><p><a href="ja_JP/academy/training-overview.html">Overview of our complete range of training courses.</a></p></li></div><div class="topthemaSubMenu col-xs-4 col-sm-4 col-md-4 col-lg-4"><li class="dropdown"><a href="ja_JP/academy/actual-trainings.html"><img src="fileadmin/dam/Rebranding/Navigation_Products_and_Solutions/current_courses.jpg" width="400" height="250"   alt="Actual Trainings"  border="0" /></a><h2><a href="ja_JP/academy/actual-trainings.html">Actual Trainings</a></h2><p><a href="ja_JP/academy/actual-trainings.html">Overview of our scheduled trainings.
+</a></p></li></div><div class="topthemaSubMenu col-xs-4 col-sm-4 col-md-4 col-lg-4"><li class="dropdown"><a href="ja_JP/events/current-webinars.html"><img src="fileadmin/dam/Rebranding/Navigation_Products_and_Solutions/webinars.jpg" width="375" height="250"   alt="Webinars"  border="0" /></a><h2><a href="ja_JP/events/current-webinars.html">Webinars</a></h2><p><a href="ja_JP/events/current-webinars.html">Comfortable and time-saving. Discover our webinars.</a></p></li></div></div></div></ul></li><li class="dropdown"><a href="ja_JP/newsroom.html" title="Newsroom" role="button" aria-expanded="false">Newsroom<span class="bar"></span></a></li><li class="dropdown"><a href="ja_JP/career.html" title="Career" role="button" aria-expanded="false">Career<span class="bar"></span></a></li></ul></div></div></div> </nav></div></header>
+
+	<div id="stickyNavigationR"><div class="nb-form hidden-xs" id="stickyc"><button type="button" class="btn btn-default sticky closed">Contact</button><div id="stickyContentContact"><div id="c29875" class="csc-default"><div class="tx-powermail">
+	
+
+	
+
+	
+
+		<form enctype="multipart/form-data" class="powermail_form powermail_form_338  " action="https://www.cenit.com/ja_JP.html?tx_powermail_pi1%5Baction%5D=create&amp;tx_powermail_pi1%5Bcontroller%5D=Forms&amp;cHash=ee0ae276124148a22fbd233d7d87002b" method="post">
+<div>
+<input type="hidden" name="tx_powermail_pi1[__referrer][extensionName]" value="Powermail" />
+<input type="hidden" name="tx_powermail_pi1[__referrer][controllerName]" value="Forms" />
+<input type="hidden" name="tx_powermail_pi1[__referrer][actionName]" value="form" />
+<input type="hidden" name="tx_powermail_pi1[__referrer][@request]" value="a:3:{s:13:&quot;extensionName&quot;;s:9:&quot;Powermail&quot;;s:14:&quot;controllerName&quot;;s:5:&quot;Forms&quot;;s:10:&quot;actionName&quot;;s:4:&quot;form&quot;;}83edabbeeba62741b741da9c4126b72d443141a3" />
+<input type="hidden" name="tx_powermail_pi1[__hmac]" value="a:4:{s:5:&quot;field&quot;;a:7:{i:6717;i:1;i:6718;i:1;i:6719;i:1;i:6720;i:1;i:6721;i:1;i:6722;i:1;i:6723;i:1;}s:4:&quot;form&quot;;i:1;s:6:&quot;action&quot;;i:1;s:10:&quot;controller&quot;;i:1;}d2f84a730b7478e605e6c8da3779f25f1d7927d7" />
+</div>
+
+
+			
+
+
+
+			
+				<fieldset class="powermail_fieldset powermail_fieldset_358 ">
+
+					
+						
+
+<div id="powermail_fieldwrap_6717" class="powermail_fieldwrap powermail_fieldwrap_select powermail_fieldwrap_6717 ">
+	<!--<label for="powermail_field_prefixhp" class="powermail_label">
+		Prefix
+	</label>-->
+	<select name="tx_powermail_pi1[field][6717]" class="powermail_field powermail_select  " id="powermail_field_prefixhp"><option value="">Prefix</option><option value="Mr.">Mr.</option><option value="Mrs.">Mrs.</option></select>
+</div>
+					
+						
+
+<div id="powermail_fieldwrap_6718" class="powermail_fieldwrap powermail_fieldwrap_input powermail_fieldwrap_6718 r_input30">
+	<label for="powermail_field_lastnamehpsticky" class="powermail_label">
+		Last name<span class="mandatory">*</span>
+	</label>
+
+	
+			<input onblur="if(this.value=='')this.value=this.defaultValue;" onfocus="if(this.value==this.defaultValue)this.value='';" class="powermail_field powermail_input validate[required] " id="powermail_field_lastnamehpsticky" type="text" name="tx_powermail_pi1[field][6718]" value="" required="required" />
+		
+	
+	
+</div>
+					
+						
+
+<div id="powermail_fieldwrap_6719" class="powermail_fieldwrap powermail_fieldwrap_input powermail_fieldwrap_6719 r_input50">
+	<label for="powermail_field_firstnamehpsticky" class="powermail_label">
+		First name<span class="mandatory">*</span>
+	</label>
+
+	
+			<input onblur="if(this.value=='')this.value=this.defaultValue;" onfocus="if(this.value==this.defaultValue)this.value='';" class="powermail_field powermail_input validate[required] " id="powermail_field_firstnamehpsticky" type="text" name="tx_powermail_pi1[field][6719]" value="" required="required" />
+		
+	
+	
+</div>
+					
+						
+
+<div id="powermail_fieldwrap_6720" class="powermail_fieldwrap powermail_fieldwrap_input powermail_fieldwrap_6720 r_input100">
+	<label for="powermail_field_companyhpsticky" class="powermail_label">
+		Company
+	</label>
+
+	
+			<input onblur="if(this.value=='')this.value=this.defaultValue;" onfocus="if(this.value==this.defaultValue)this.value='';" class="powermail_field powermail_input  " id="powermail_field_companyhpsticky" type="text" name="tx_powermail_pi1[field][6720]" value="" />
+		
+	
+	
+</div>
+					
+						
+
+<div id="powermail_fieldwrap_6721" class="powermail_fieldwrap powermail_fieldwrap_input powermail_fieldwrap_6721 r_input50">
+	<label for="powermail_field_e_mailhpsticky" class="powermail_label">
+		E-Mail<span class="mandatory">*</span>
+	</label>
+
+	
+			<input onblur="if(this.value=='')this.value=this.defaultValue;" onfocus="if(this.value==this.defaultValue)this.value='';" class="powermail_field powermail_input validate[required,custom[email]] " id="powermail_field_e_mailhpsticky" type="text" name="tx_powermail_pi1[field][6721]" value="" required="required" />
+		
+	
+	
+</div>
+					
+						
+
+<div id="powermail_fieldwrap_6722" class="powermail_fieldwrap powermail_fieldwrap_input powermail_fieldwrap_6722 r_input50">
+	<label for="powermail_field_telephonehpsticky" class="powermail_label">
+		Telephone
+	</label>
+
+	
+			<input onblur="if(this.value=='')this.value=this.defaultValue;" onfocus="if(this.value==this.defaultValue)this.value='';" class="powermail_field powermail_input  " id="powermail_field_telephonehpsticky" type="text" name="tx_powermail_pi1[field][6722]" value="" />
+		
+	
+	
+</div>
+					
+						
+
+<div id="powermail_fieldwrap_6723" class="powermail_fieldwrap powermail_fieldwrap_textarea powermail_fieldwrap_6723 ">
+	<label for="powermail_field_commenthpsticky" class="powermail_label">
+		Comment
+	</label>
+	<textarea rows="5" cols="20" class="powermail_field powermail_textarea " id="powermail_field_commenthpsticky" name="tx_powermail_pi1[field][6723]"></textarea>
+</div>
+
+					
+						
+<div id="powermail_fieldwrap_6724" class="powermail_fieldwrap powermail_fieldwrap_html powermail_fieldwrap_6724 ">
+	
+			<div id="powermail_fieldwrap_r_data_s" class="powermail_fieldwrap powermail_fieldwrap_check powermail_fieldwrap_6724">
+<fieldset>
+<div class="powermail_check_outer">
+<div class="powermail_check_inner  powermail_check_inner_1">
+<input id="protectdata_new_s" type="checkbox" class="powermail_checkbox powermail_checkbox_6724 validate[funcCall[r_mycheckCheckboxes]]" value="yes"  name="tx_powermail_pi1[field][6724][0]"/>
+<label for="protectdata_new_s" class="checkbox-label">By subscribing to this form I agree that my personal data stated above may be collected, processed and used by CENIT AG and to contact me by Email or telephone. CENIT AG collects, processes and uses your personal data exclusively to process your request. I have read and accepted the <a href="http://www.cenit.com/en_EN/bottom/cenit-ag/data-protection.html" class="link">privacy policy</a>.</label></div>
+</div>
+</fieldset>
+</div>
+		
+</div>
+					
+						
+<!--<div id="powermail_fieldwrap_6725" class="powermail_fieldwrap powermail_fieldwrap_submit powermail_fieldwrap_6725 r_submit_black hvr-grow-shadow">
+	<input class="powermail_field powermail_submit" type="submit" name="" value="Submit" />
+	
+</div>-->
+
+
+<div id="powermail_fieldwrap_6725" class="powermail_fieldwrap powermail_fieldwrap_submit powermail_fieldwrap_6725 r_submit_black hvr-grow-shadow2">
+
+	<label for="submit_6725" class="submit-icon">
+		<span class="hide">Submit the form</span>
+		<input class="powermail_field powermail_submit" id="submit_6725" type="submit" name="" value="Submit" />
+	</label>
+</div>
+
+					
+
+				</fieldset>
+			
+
+			<input type="hidden" name="tx_powermail_pi1[form]" value="338" />
+			
+		</form>
+
+	
+
+
+</div></div></div></div><div class="nb-form hidden-xs" id="stickys"><button type="button" class="btn btn-default sticky closed">Newsletter</button><div id="stickyContentSupport"><div id="c32399" class="csc-default"><div class="csc-header csc-header-n1"><h3 class="csc-firstHeader">CENIT Newsletter </h3></div><p class="bodytext">With our newsletters, we keep you informed via email about our current events and news. Completely free and without obligation. Of course we guarantee the security of your information under the Privacy Act and will not forward those to third parties. </p>
+<p class="bodytext">Our registration process works according to the double opt-in procedure.</p>
+<p class="bodytext">After inserting your email address you will receive an email with a personalized link for verification. By clicking on this link it will take you to your profile, where you can view and edit the stored data. Here you can also select your preferred areas of interest and newsletters, to which we may inform you without obligation: </p></div><div id="c31421" class="csc-default">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"><div id="c31422" class="csc-default"><ul class="rtelist"><li>Dassault Systèmes PLM</li><li>SAP Solutions</li><li>Digital Factory Solutions</li><li>Enterprise Information Management </li></ul></div></div>
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"><div id="c31423" class="csc-default"><ul class="rtelist"><li>PLM last-minute courses (Germany)</li><li>Application Management Services </li><li>CENIT Magazine</li></ul></div></div>  
+	</div>
+
+	<!-- End first tab content  -->
+</div><div id="c31411" class="csc-default"><div class="tx-cenitswmforms-pi2">
+		
+<!-- Start Leerformular ohne Mailadresse-->
+<div class="powermail">
+<form name="startform"  method="post" action="https://www.cenit.com/nc/ja_JP/metanavigation/newsletter.html" class="powermail_form" id="form">
+<div>
+<input name="tx_powermail_pi1[__referrer][extensionName]" value="Powermail" type="hidden">
+<input name="tx_powermail_pi1[__referrer][controllerName]" value="Forms" type="hidden">
+<input name="tx_powermail_pi1[__referrer][actionName]" value="form" type="hidden">
+<input name="tx_powermail_pi1[__referrer][@request]" value="a:3:{s:13:&quot;extensionName&quot;;s:9:&quot;Powermail&quot;;s:14:&quot;controllerName&quot;;s:5:&quot;Forms&quot;;s:10:&quot;actionName&quot;;s:4:&quot;form&quot;;}83edabbeeba62741b741da9c4126b72d443141a3" type="hidden">
+<input name="tx_powermail_pi1[__hmac]" value="a:4:{s:5:&quot;field&quot;;a:10:{i:5675;i:1;i:5676;i:1;i:5677;i:1;i:5662;i:1;i:5663;i:1;i:5678;i:1;i:5664;i:1;i:5680;a:2:{i:0;i:1;i:1;i:1;}i:6685;i:1;s:2:&quot;hp&quot;;i:1;}s:4:&quot;form&quot;;i:1;s:6:&quot;action&quot;;i:1;s:10:&quot;controller&quot;;i:1;}d36d155e9200de385cc0c95eebed252f186fab4f" type="hidden">
+</div>
+<fieldset class="powermail_fieldset powermail_fieldset_296 ">
+    <div id="powermail_fieldwrap_5753" class="powermail_fieldwrap powermail_fieldwrap_input powermail_fieldwrap_5753 r_onlyOneEl50">
+		<label for="sender" class="powermail_label">
+			E-mail:<span class="mandatory">*</span>
+		</label>
+		<input class="powermail_field powermail_input validate[required,custom[email]] " id="sender" name="email" value="" required="required" style="" type="text">
+	</div>	
+	<div id="powermail_fieldwrap_56801" class="powermail_fieldwrap powermail_fieldwrap_check powermail_fieldwrap_56801">
+		<fieldset>
+			<legend class="powermail_check_legend">
+				Do you wish to receive further informations from Cenit?
+			</legend>
+			<div class="powermail_radio_outer">				
+				<div class="powermail_radio_inner powermail_radio_inner_1">
+					<input class="powermail_radio validate[required]" id="powermail_fieldwrap_56801_1" name="modus" value="subscribe" type="radio">
+					<label for="powermail_fieldwrap_56801_1">subscribe/edit </label>
+				</div>				
+				<div class="powermail_radio_inner powermail_radio_inner_2">
+					<input class="powermail_radio validate[required]" id="powermail_fieldwrap_56801_2" name="modus" value="unsubscribe" type="radio">
+					<label for="powermail_fieldwrap_56801_2">unsubscribe </label>
+				</div>				
+			</div>
+		</fieldset>
+		
+	</div>
+  
+  		<div id="powermail_fieldwrap_56802" class="powermail_fieldwrap powermail_fieldwrap_check powermail_fieldwrap_56802 ">
+	  		<fieldset>
+	  			<div class="powermail_check_outer">
+	  					<input class="powermail_checkbox powermail_checkbox_56802 u_UserFieldString3 validate[funcCall[r_mycheckCheckboxes]]" id="u_UserFieldString3" name="u_UserFieldString3" value="yes, 2018.07.13 - 02:51:43am, 157.205.87.146" type="checkbox">
+	  					<label for="u_UserFieldString3" class="checkbox-label"><span>
+         	I agree that my personal data stated above may be collected, processed and used by CENIT AG to inform me by e-mail or telephone about software products, 
+            services, events and market information of CENIT AG, according to the fields of interest I have selected. <br />
+            I have read and accepted the <a href="http://www.cenit.com/en_EN/bottom/cenit-ag/data-protection.html" class="link"> privacy policy.</a> <br />
+            CENIT AG collects, processes and uses your personal data exclusively to process your request.<br />
+			You can revoke your consent at any time with effect for the future towards CENIT AG, without other transmission costs according to the basic rates arising for the withdrawal on our <a class="link" href="http://www.cenit.com/en_EN/metanavigation/newsletter.html">website. </a>
+			Alternatively, you will find an unsubscribe link in each newsletter to revoke your subscription at any time.
+         </span></label>
+	  				</div>
+	  		</fieldset>
+	  	</div>
+    <!-- 
+	<div id="powermail_fieldwrap_56802" class="powermail_fieldwrap powermail_fieldwrap_check powermail_fieldwrap_56802 ">
+		<fieldset>
+			<div class="powermail_check_outer">
+			<input name="tx_powermail_pi1[field][56802][0]" value="" type="hidden">
+					<input class="powermail_checkbox powermail_checkbox_56802 validate[funcCall[r_mycheckCheckboxes]]" id="dataProtectionREQUIRED" name="tx_powermail_pi1[field][56802][0]" value="yes" type="checkbox">
+					<label for="dataProtectionREQUIRED" class="checkbox-label"><span>
+         	I agree that my personal data stated above may be collected, processed and used by CENIT AG to inform me by e-mail or telephone about software products, 
+            services, events and market information of CENIT AG, according to the fields of interest I have selected. <br />
+            I have read and accepted the <a href="http://www.cenit.com/en_EN/bottom/cenit-ag/data-protection.html" class="link"> privacy policy.</a> <br />
+            CENIT AG collects, processes and uses your personal data exclusively to process your request.<br />
+			You can revoke your consent at any time with effect for the future towards CENIT AG, without other transmission costs according to the basic rates arising for the withdrawal on our <a class="link" href="http://www.cenit.com/en_EN/metanavigation/newsletter.html">website. </a>
+			Alternatively, you will find an unsubscribe link in each newsletter to revoke your subscription at any time.
+         </span></label>
+				</div>
+		</fieldset>
+		
+	</div>
+   -->
+<div class="powermail_fieldwrap powermail_fieldwrap_submit powermail_fieldwrap_938 r_submit_black hvr-grow-shadow2" id="powermail_fieldwrap_938">
+		<label class="submit-icon" for="submit_938">
+			<span class="hide">Submit the form</span>
+			<input id="submit_938" type="submit" value="next" name="" class="powermail_field powermail_submit">
+		</label>
+
+</div>
+</fieldset>
+</form>
+ </div>
+<br />
+<!-- Ende Leerformular ohne Mailadresse -->
+
+
+	</div>
+	</div></div></div></div>
+	
+	
+	
+	<div class="container-fluid" id="mainContentR"><!--TYPO3SEARCH_begin--><div id="c31454" class="csc-default">
+	<div class="container-full" id="backgroundWhite"><div id="c32028" class="csc-default"><div id="slider_start">
+		<div class="flexslider">
+			<ul class="slides"><li>
+					<img src="" class="lazy" data-src="uploads/tx_templavoila/CENIT_Image_Video_1920x800_EN_03.jpg"/>
+					<div class="textBoxSlider" id="sliderBottomLeftSmall">
+						
+						
+						<a href="https://www.youtube.com/watch?v=9xJJx5nM3qs&amp;feature=youtu.be" target="_blank" class="linkYellow">Watch our video!</a>
+					</div>
+					
+				</li></ul>
+		</div>
+	</div></div></div>
+</div><div id="c31522" class="csc-default"><div class="container" id="backgroundWhite">
+    <div class="row">
+      <div class="headingGrey"></div>
+      <div class="gridContent"><div id="c31559" class="csc-default">
+	<h1 class="coloredHeader">
+			<span class="rowColoredHeader" id="blackBackground">デジタルファクトリー</span>
+		</h1>
+  
+</div><div id="c31529" class="csc-default"><p class="bodytext"><b>バーチャル環境の中で工程設計やデジタル検証をすることにより、潜在的な不具合や新しい可能性に気づくことがあります。CENITのデジタルファクトリー製品をお試しください。<br /><a href="ja_JP/plm/digital-factory.html" target="_self" class="linkYellow">デジタルファクトリーの全てがそこにあります</a>。</b></p></div><div id="c31523" class="csc-default">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><div id="c31526" class="csc-default"><h2>ソリューション</h2>
+		<ul class="rtelist"><li>ソリューション</li><li>ワークセル、プラント、ラインのレイアウト</li><li>プランニングと検証</li><li>加工機のためのオフラインプログラミング</li><li>ロボットのためのオフラインプログラミング</li><li>デジタル物流、工程分析</li><li>ポストプロセッサ、NCシミュレーション</li></ul>
+		
+		<a href="ja_JP/plm/digital-factory.html" class="linkYellow" class="button">全ソリューションについて<span class="arrow"></span></a>
+	</div></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><div id="c31527" class="csc-default"><h2>ソフトウェア製品</h2>
+		<ul class="rtelist"><li><a href="ja_JP/plm/digital-factory/software/fastsuite-edition-2.html" target="_blank" class="link"><span class="link">FASTSUITE Edition 2 </span></a></li><li><a href="ja_JP/plm/digital-factory/software/fastsuite-for-v5.html" target="_self" class="link">FASTSUITE for V5</a> </li><li><a href="ja_JP/plm/digital-factory/software/fastcurve.html" target="_self" class="link">FASTCURVE</a> </li><li><a href="ja_JP/plm/digital-factory/software/fastsurf.html" target="_self" class="link">FASTSURF</a> </li><li><a href="ja_JP/plm/digital-factory/software/fasttrim.html" target="_self" class="link">FASTTRIM</a> </li><li><a href="ja_JP/plm/digital-factory/software/fasttip.html" target="_self" class="link"><span class="link">FASTTIP</span></a> </li></ul>
+		
+		<a href="ja_JP/plm/digital-factory/software.html" class="linkYellow" class="button">全ソフトウェアについて<span class="arrow"></span></a>
+	</div></div>
+		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4"><div id="c31528" class="csc-default"><h2>サービス</h2>
+		<ul class="rtelist"><li>導入およびパイロットプロジェクト</li><li>カスタムソフトウェア開発</li><li>新技術・技法へのソフトウェアの適用</li><li>新技術方法論の開発</li><li>V5 &amp; V6におけるポストプロセッサ開発</li><li>プロジェクトサポート</li><li>DELMIA製品及びFASTSUITE製品のホットラインサポート</li></ul>
+		
+		<a href="ja_JP/plm/digital-factory.html" class="linkYellow" class="button">全サービスについて<span class="arrow"></span></a>
+	</div></div>    
+	</div>
+
+	<!-- End first tab content  -->
+</div></div>
+    </div>
+  </div></div><div id="c31543" class="csc-default">
+	<div class="container-full" id="backgroundLightGrey"><div id="c31544" class="csc-default"><div class="container" id="">
+    <div class="row">
+      <div class="headingGrey"></div>
+      <div class="gridContent"><div id="c31561" class="csc-default">
+	<h1 class="coloredHeader">
+			<span class="rowColoredHeader" id="blackBackground">CENIT</span>
+		</h1>
+  
+</div><div id="c31553" class="csc-default">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"><div id="c31548" class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">製品ライフサイクル・マネージメント</h1></div><p class="bodytext">CENIT社のプロダクト・ライフサイクル・マネージメントにご注目ください。ダッソーシステムズおよびSAPとの提携により、当社は開発製造工程およびテクノロジーについて豊富な知識を持っており、特に<a href="http://www.cenit.com/en_EN/plm/3ds-plm.html" target="_blank" class="link">3DS PLM</a>、デジタルファクトリー、<a href="http://www.cenit.com/en_EN/plm/sap-solutions.html" target="_blank" class="link">SAP</a>ソリューション、アプリケーションマネージメントサービス（<a href="http://www.cenit.com/en_EN/plm/ams-plm.html" target="_blank" class="link">PLM</a>）に力を入れています</p></div><div id="c31549" class="csc-default">
+	<a href="ja_JP/plm.html" class="linkYellow" class="button">PLMの概要<span class="arrow"></span></a>
+	
+</div></div>
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"><div id="c31550" class="csc-default"><div class="csc-header csc-header-n1"><h1 class="csc-firstHeader">企業情報管理</h1></div><p class="bodytext">CENITの企業情報管理システムにより、企業内のあらゆる情報及びドキュメントのIT管理を最適化します。<br />CENITの企業情報管理システムにより、企業内のあらゆる情報及びドキュメントのIT管理を最適化します。 当社のサービス、ソフトウェアおよびコンサルティングサービスは企業コンテンツ管理、ビジネスインテリジェンス（<a href="http://www.cenit.com/en_EN/eim/bi.html" target="_blank" class="link">BI</a>）およびアプリケーション管理サービス（<a href="http://www.cenit.com/en_EN/eim/ams-eim.html" target="_blank" class="link">EIM</a>）の分野をカバーしています。</p></div><div id="c31551" class="csc-default">
+	<a href="http://www.cenit.com/en_EN/eim.html" target="_blank" class="linkYellow" class="button">To EIM Overview (information available just in english)<span class="arrow"></span></a>
+	
+</div></div>  
+	</div>
+
+	<!-- End first tab content  -->
+</div></div>
+    </div>
+  </div></div></div>
+</div><!--TYPO3SEARCH_end--></div>
+
+	<footer class="footer">
+		<div class="container-fluid hidden-xs hidden-sm" id="footerNavigationR">
+			<div class="container"><div class="row"><div class="col-md-2 col-lg-2 subMenuCol " ><li class="dropdown"><a href="ja_JP/hot-topics.html" title="Hot Topics" role="button" aria-expanded="false">Hot Topics</a><ul id="footerMenu" role="menu"><li><a href="ja_JP/hot-topics/digital-twin-digital-continuity.html" title="Digital Twin - Digital Continuity">Digital Twin - Digital Continuity</a></li><li><a href="ja_JP/hot-topics/digital-factory-solutions.html" title="Digital Factory Solutions">Digital Factory Solutions</a></li><li><a href="ja_JP/hot-topics/smartplm.html" title="smartPLM">smartPLM</a></li><li><a href="ja_JP/hot-topics/design-anywhere-build-anywhere.html" title="Design Anywhere – Build Anywhere">Design Anywhere – Build Anywhere</a></li><li><a href="ja_JP/hot-topics/virtual-production-solutions-for-automation.html" title="Virtual production solutions for automation">Virtual production solutions for automation</a></li></ul></li></div><div class="col-md-2 col-lg-2 subMenuCol " ><li class="dropdown"><a href="ja_JP/use-cases.html" title="Use Cases" role="button" aria-expanded="false">Use Cases</a><ul id="footerMenu" role="menu"><li><a href="ja_JP/use-cases/ready-to-grow.html" title="Ready to grow">Ready to grow</a></li><li><a href="ja_JP/use-cases/virtual-commissioning.html" title="Virtual commissioning">Virtual commissioning</a></li><li><a href="ja_JP/use-cases/cad-data-management.html" title="CAD data management">CAD data management</a></li><li><a href="ja_JP/use-cases/document-management.html" title="Document management">Document management</a></li><li><a href="ja_JP/use-cases/360-degree-customer-communication.html" title="360-degree customer communication">360-degree customer communication</a></li></ul></li></div><div class="col-md-2 col-lg-2 subMenuCol " ><li class="dropdown"><a href="ja_JP/products-solutions.html" title="Products &amp; Solutions" role="button" aria-expanded="false">Products & Solutions</a><ul id="footerMenu" role="menu"><li><a href="ja_JP/plm.html" title="PLM">PLM</a></li><li class=""><a href="ja_JP/products-solutions/eim.html" title="EIM" role="button" aria-expanded="false">EIM</a></li></ul></li></div><div class="col-md-2 col-lg-2 subMenuCol " ><li class="dropdown"><a href="ja_JP/academy/training-overview.html" title="Academy" role="button" aria-expanded="false">Academy</a><ul id="footerMenu" role="menu"><li><a href="ja_JP/academy/training-overview.html" title="Training Overview">Training Overview</a></li><li><a href="ja_JP/academy/actual-trainings.html" title="Actual Trainings">Actual Trainings</a></li><li><a href="ja_JP/events/current-webinars.html" title="Webinars">Webinars</a></li></ul></li></div><div class="col-md-2 col-lg-2 subMenuCol " ><li class="dropdown bootomHeader"><a href="ja_JP/newsroom.html" title="Newsroom"  role="button" aria-expanded="false">Newsroom</a></li></div><div class="col-md-2 col-lg-2 subMenuCol " ><li class="dropdown"><a href="ja_JP/career.html" title="Career" role="button" aria-expanded="false">Career</a><ul id="footerMenu" role="menu"><li><a href="ja_JP/career/professionals.html" title="Professionals">Professionals</a></li><li><a href="ja_JP/career/entry-level.html" title="Entry Level">Entry Level</a></li><li><a href="ja_JP/career/students.html" title="Students">Students</a></li><li><a href="ja_JP/career/high-school-graduates.html" title="High-School Graduates">High-School Graduates</a></li><li><a href="ja_JP/career.html" title="Top Company">Top Company</a></li></ul></li></div></div></div>
+		</div>
+
+		<div class="container-fluid" id="footerSocialR">
+			<div class="container"><div class="col-xs-12 col-sm-6 col-md-4 col-lg-4"><ul class="list-unstyled socialFooterIcons"><li class="xing"><a href="https://www.xing.com/companies/cenitag" target="_blank" title="CENIT XING Company Profile"></a></li><li class="facebook"><a href="https://www.facebook.com/CENITAG" target="_blank" title="CENIT Facebook Fanpage"></a></li><li class="twitter"><a href="https://twitter.com/#!/cenitAG" target="_blank" title="CENIT Tweets"></a></li><li class="youtube"><a href="http://www.youtube.com/user/CENITAG" target="_blank" title="CENIT YouTube Channel"></a></li><li class="linkedin"><a href="http://www.linkedin.com/company/cenit" target="_blank" title="CENIT Company Updates"></a></li></ul></div><div class="col-xs-12 col-sm-6 col-md-8 col-lg-8"><ul class="list-unstyled footerDataR"><li class="separator hidden-xs"></li><li class="menuMobileResize"><a href="ja_JP/footernavi/terms-conditions.html" title="法的事項と契約条項" id="法的事項と契約条項">法的事項と契約条項</a></li><li class="separator hidden-xs"></li><li class="menuMobileResize"><a href="ja_JP/footernavi/imprint.html" title="Imprint" id="Imprint">Imprint</a></li><li class="separator hidden-xs"></li><li class="menuMobileResize"><a href="ja_JP/footernavi/data-protection.html" title="データ保護" id="データ保護">データ保護</a></li><li class="separator hidden-xs"></li><li class="menuMobileResize"><a href="ja_JP/footernavi/rss.html" title="RSS" id="RSS">RSS</a></li><li class="separator hidden-xs"></li><li class="menuMobileResize"><a href="ja_JP/metanavigation/sitemap.html" title="Sitemap" id="Sitemap">Sitemap</a></li></ul></div></div>
+		</div>
+	</footer>
+        <div id="footer_bottombar" class="container-fluid"></div>
+
+
+<script type="text/javascript" src="fileadmin/templates/js/rebranding/bootstrap.min.js"></script>
+<script type="text/javascript" src="fileadmin/templates/js/rebranding/jquery.flexslider.js"></script>
+<script type="text/javascript" src="fileadmin/templates/js/rebranding/jquery.newDropdown-1.0.js"></script>  
+
+<script type="text/javascript" src="fileadmin/templates/js/rebranding/jquery.scrollTo.min.js"></script>
+<script type="text/javascript" src="fileadmin/templates/js/rebranding/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript" src="fileadmin/templates/js/jquery.infieldlabel.min.js"></script>
+<script type="text/javascript" src="fileadmin/templates/js/rebranding/masonry.pkgd.min.js"></script>
+<script type="text/javascript" src="fileadmin/templates/js/rebranding/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" src="fileadmin/templates/js/rebranding/effects.js"></script>
+<script type="text/javascript">var JsValidationCheckCheckboxes = 'Please check min. 1';var JsValidationCheckInteger = 'Not a valid number';var JsValidationCheckRequired = '必須項目 ';var JsValidationCheckRequiredOption = 'Please select an option';var JsValidationCheckEmail = '無効メール';var JsValidationCheckUrl = 'Invalid URL';var JsValidationCheckPhone = 'Invalid Phone No';var JsValidationCheckLetters = 'アルファベットのみお使い下さい。';var JsValidationCheckSpacesInEmail = 'There is a blank space in this field. Please check your e-mail address.';</script>
+<script src="typo3conf/ext/powermail/Resources/Public/Js/jquery.validationEngine-en.js?1520507915" type="text/javascript"></script>
+<script src="fileadmin/templates/js/rebranding/powermail/powermail_conditions.js?1523960287" type="text/javascript"></script>
+<script src="typo3conf/ext/powermail/Resources/Public/Js/tabs.js?1359015051" type="text/javascript"></script>
+<script src="fileadmin/templates/js/rebranding/powermail/jquery.validationEngine.js?1523539665" type="text/javascript"></script>
+
+<script src="typo3conf/ext/powermail/Resources/Public/Js/form.js?1523959645" type="text/javascript"></script>
+
+
+
+</body>
+</html>

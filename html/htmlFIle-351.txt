@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+    <meta name="google-site-verification" content="U2GqNAs2h6D_gA2u9CMLKQL1xRz8hcRWV5472VT7XIs" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bram-park &#8211; Authentic Web : gadventures.jp</title>
+    <link rel="stylesheet" href="http://authenticweb.com/wp-content/themes/authenticweb/css/bootstrap.css">
+    <link rel="stylesheet" href="http://authenticweb.com/wp-content/themes/authenticweb/css/all.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,500,700|Roboto+Condensed:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="http://authenticweb.com/wp-content/themes/authenticweb/favicon.png" type="image/x-icon"/>
+
+
+    <!-- global meta tags -->
+    <meta name="author" content="Authentic Web">
+    <meta name="subject" content="">
+    <meta name="classification" content="classification">
+    <meta name="keywords" content="gtld, .brand, registry, registrar, icann">
+
+
+    <!-- PAGE SPECIFIC META DESCRIPTIONS -->
+
+    <meta name="description" content="">
+
+    <!-- END PAGE SPECIFIC META DESCRIPTIONS -->
+
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="Authentic Web">
+    <meta itemprop="description" content="TAKE CONTROL OF YOUR  Domain Name / .BRAND REGISTRY A platform that removes the complexity from closed domain management.">
+    <meta itemprop="image" content="http://authenticweb.com/wp-content/themes/authenticweb/images/logo.png">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Authentic Web : gadventures.jp" />
+    <meta property="og:type" content="product" />
+    <meta property="og:url" content="http://authenticweb.com" />
+    <meta property="og:image" content="http://authenticweb.com/wp-content/themes/authenticweb/images/AuthenticWeb_logo_large.jpg" />
+    <meta property="og:description" content="TAKE CONTROL OF YOUR  Domain Name / .BRAND REGISTRY A platform that removes the complexity from closed domain management." />
+    <meta property="og:site_name" content="Authenticweb.com" />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@authenticeweb">
+    <meta name="twitter:title" content="Authentic Web">
+    <meta name="twitter:description" content="TAKE CONTROL OF YOUR  Domain Name / .BRAND REGISTRY A platform that removes the complexity from closed domain management.">
+    <meta name="twitter:image" content="http://authenticweb.com/wp-content/themes/authenticweb/images/AuthenticWeb_logo_only.jpg">
+
+</head>
+
+<body class="home">
+<div id="wrapper">
+    <div class="w1">
+        <header id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 shoehorn hidden-xs">
+                        <div style="float:left">An ICANN Accredited Corporate Domain Registrar</div>
+                        <div style="float:right">
+                            <span>NA: <a class="tel" onClick="javascript:makePhoneCall(25381, '18887365812');return false;" style="cursor:pointer">1-888-736-5812</a></span>
+                            <span>UK: <a class="tel" onClick="javascript:makePhoneCall(25390, '08081894334');return false;" style="cursor:pointer">0808-1894334</a></span>
+                            <span><a href="mailto:info@authenticweb.com">info@authenticweb.com</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <strong class="logo"><a href="http://authenticweb.com/"><img src="http://authenticweb.com/wp-content/themes/authenticweb/images/logo.svg" alt="Authentic Web - Domain Name Management" class="img-responsive"></a></strong>
+                        <nav class="navbar navbar-default" id="main-nav">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+                                    <li><a href="http://authenticweb.com/">Home</a></li>
+                                    <li><a href="http://authenticweb.com/services">Services</a></li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Solutions <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="http://authenticweb.com/solutions">Overview</a></li>
+                                            <li><a href="http://authenticweb.com/solutions-deploy-brand-registry">Brand Registry Platform</a></li>
+                                            <li><a href="http://authenticweb.com/solutions-get-brand-registry">Brand Registry Application</a></li>
+                                            <li><a href="http://authenticweb.com/solutions-corporate-domain-management">Domain Management</a></li>
+                                            <li><a href="http://authenticweb.com/solutions-tld-strategy">New TLD Strategy</a></li>
+                                            <li><a href="http://authenticweb.com/solutions-business-intelligence">Business Intelligence</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Learn <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="http://authenticweb.com/learn">Overview</a></li>
+                                            <li><a href="http://authenticweb.com/blog">Blog</a></li>
+                                            <li><a href="http://authenticweb.com/articles">Articles</a></li>
+                                            <li><a href="http://authenticweb.com/category/new-tld-market-briefs/">Market Briefs</a></li>
+                                            <li><a href="http://authenticweb.com/new-tlds">New TLDs</a></li>
+                                            <li><a href="http://authenticweb.com/whitepapers">Whitepapers</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Company <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="http://authenticweb.com/company">Overview</a></li>
+                                            <li><a href="http://authenticweb.com/company-about">About</a></li>
+                                            <li><a href="http://authenticweb.com/company-why-authentic-web">Why Authentic Web</a></li>
+                                            <li><a href="http://authenticweb.com/company-technology">Technology</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="http://authenticweb.com/contact">Contact</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header><main id="main" role="main" class="front-page">
+
+        <section class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <h3>This domain name is parked.</h3>
+                    <p style="font-size: 18px; font-family:'Roboto', sans-serif;">Authentic Web is a corporate domain registrar offering enterprise clients a next generation digital asset management platform to gain Control, Visibility and Automation over corporate domain portfolios.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="explainer-container">
+            <div class="z-container">
+                <h3 style="margin:0"><img src="http://authenticweb.com/wp-content/themes/authenticweb/images/fp_play-ico.png" class="play-ico" alt="" style="margin-right:10px;">Watch Our Video To Learn More! <img src="http://authenticweb.com/wp-content/themes/authenticweb/images/fp_arrow.png" class="arrow-img" alt="" style="margin-top:30px; margin-left: 10px"></h3>
+                <div id="explainer-border"> <!-- necessary as a parent becuase jw strips clases during injection -->
+                    <div id="explainer-video">
+                        <!--
+                        on page load video will be injected here (and overwrite the below) by footer.php
+                        we keep this here so the bg-stretch fills the container properly before the video injection
+                         -->
+                        <a href name="explainer-play"><img width="654" height="452" src=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    </div>
+
+    <div class="to-top">
+        <a><span class="glyphicon glyphicon-circle-arrow-up" style="padding-right:5px;"></span>Top</a>
+    </div>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4 footer-social">
+                    <div class="text-left" style="margin-top:25px;">
+                        <a href="https://www.facebook.com/authenticwebinc" target="_blank"><img src="http://authenticweb.com/wp-content/themes/authenticweb/images/icon-fb.svg"></a>
+                        <a href="https://twitter.com/authenticwebinc" target="_blank"><img src="http://authenticweb.com/wp-content/themes/authenticweb/images/icon-twitter.svg"></a>
+                        <a href="https://www.linkedin.com/company/authentic-web-inc" target="_blank"><img src="http://authenticweb.com/wp-content/themes/authenticweb/images/icon-linkedin.svg"></a>
+                    </div>
+                </div>
+                <div class="col-xs-4 footer-newsletter text-center">
+                    <h4>Subscribe to our Newsletter!</h4>
+
+                    <!-- Begin MailChimp Signup Form -->
+                    <div style="clear:left;">
+                        <form action="//authenticweb.us7.list-manage.com/subscribe/post?u=c631a5dd740b92ee9115db538&amp;id=51709761f2" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div>
+                                <input type="email" value="" name="EMAIL" class="form-control email" placeholder="email address" style="display:inline-block" required>
+                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;"><input type="text" name="b_c631a5dd740b92ee9115db538_51709761f2" tabindex="-1" value=""></div>
+                                <input type="submit" value="Subscribe" name="subscribe" class="btn btn-subscribe" style="display:inline-block">
+                            </div>
+                        </form>
+                    </div>
+                    <!--End mc_embed_signup-->
+                </div>
+                <div class="col-xs-4 footer-contact">
+                    <div class="row">
+                        <div class="col-md-6 text-right"><a class="tel" onClick="javascript:makePhoneCall(25381, '18887365812');return false;" style="cursor:pointer">1-888-736-5812</a><p>(North America)</p></div>
+                        <div class="col-md-6 text-right"><a class="tel" onClick="javascript:makePhoneCall(25390, '08081894334');return false;" style="cursor:pointer">0808-1894334</a><p>(United Kingdom)</p></div>
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <hr>
+                    <small class="copyright">
+                        &copy; Copyright 2016 - <a href="#">AuthenticWeb.com</a> - All Rights Reserved -
+                        <a href="http://authenticweb.com/privacy">Privacy Policy</a> | <a href="http://authenticweb.com/legal">Legal</a> | <a href="http://whois.authenticweb.com">WHOIS</a> -
+                        <a class="mailto" href="mailto:&#105;&#110;&#102;&#111;&#064;&#097;&#117;&#116;&#104;&#101;&#110;&#116;&#105;&#099;&#119;&#101;&#098;&#115;&#046;&#099;&#111;&#109;">&#105;&#110;&#102;&#111;&#064;&#097;&#117;&#116;&#104;&#101;&#110;&#116;&#105;&#099;&#119;&#101;&#098;&#046;&#099;&#111;&#109;</a>
+                    </small>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script type="text/javascript">window.jQuery || document.write('<script src="http://authenticweb.com/wp-content/themes/authenticweb/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="http://authenticweb.com/wp-content/themes/authenticweb/js/bootstrap.min.js"></script>
+<script src="http://authenticweb.com/wp-content/themes/authenticweb/js/bootbox.min.js"></script>
+<script src="http://authenticweb.com/wp-content/themes/authenticweb/js/jquery.main.js?cb=1"></script>
+
+
+<script type="application/javascript" src="http://content.jwplatform.com/libraries/Gw5Bg42g.js"></script>
+
+<script>
+    /* dom ready */
+    $(function(){
+        var video_id = 'yjp5OQHi';
+        var video_file = video_id + '-i0yeB2Nu.mp4';
+        var playerInstance = jwplayer("explainer-video");
+        playerInstance.setup({
+            file: "//content.jwplatform.com/videos/"+ video_file,
+            image: "//content.jwplatform.com/thumbs/"+ video_id +"-720.jpg",
+            aspectratio: "16:9",
+            sharing: {}
+        });
+    });
+</script>
+
+
+<!--delacon tracking code start-->
+<script type="text/javascript">
+
+    /*
+     ** THESE ARE NOW WRAPPED IN IIFE/SEAF to fix global issues...
+     */
+    (function(cids){
+        var cids = "25390,25381";
+        var refStr = escape(document.referrer);
+        var dd = document;
+        var ll = dd.createElement("script");
+        var ss = dd.getElementsByTagName("script")[0];
+        ll.type = "text/javascript";
+        ll.async = true;
+        ll.src = ("https:" == document.location.protocol ? "https://" : "http://") + "vxml4.plavxml.com/sited/ref/phonenum.jsp?m_id=623&cids=" + cids + "&ref=" + refStr;
+        ss.parentNode.insertBefore(ll,ss);
+    })();
+
+    function makePhoneCall(cid, defNum) {
+        var numDivVar = document.getElementById("numdiv_" + cid + "_0");
+        if (numDivVar) {
+            var telno = numDivVar.innerHTML;
+            var tsArray = telno.split(" ");
+            telno = tsArray.join("");
+            location.href = "tel:" + telno;
+        }
+        else {
+            location.href = "tel:" + defNum;
+        }
+    }
+
+</script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"28a5298a94","applicationID":"31880518","transactionName":"Z1BUNUcAV0VWV01RCl4aYxNcTklXRV8XSA1A","queueTime":0,"applicationTime":26,"atts":"SxdXQw8aREs=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<title>お問い合わせフォーム｜入退室管理・オフィスセキュリティのセキュア</title>
+<meta name="Description" content="信用、人、利益を守る株式会社セキュア公式サイト。最新の顔認証技術による入退管理を実現｜FaceStation。株式会社セキュアはSupremaシリーズの日本公式代理店です。" />
+<meta name="Keywords" content="お問い合わせフォーム" />
+<meta name="robots" content="noindex,nofollow" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<link rel="shortcut icon" href="/images/favicon.ico" />
+<link rel="stylesheet" href="/css/common.css" type="text/css" />
+<link rel="stylesheet" href="/css/megamenu_white.css" type="text/css" />
+<link rel="stylesheet" href="/css/body2016.css" type="text/css" />
+<link rel="stylesheet" href="/css/product2016.css" type="text/css" />
+<script src="/js/jquery.dcmegamenu.1.3.3.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="css/import.css" />
+<link rel="stylesheet" type="text/css" href="css/mailform.css" />
+
+</head>
+<body>
+		<div id="container">
+						<p id="page-top"><a href="#container">PAGE TOP</a><br />
+				<a href="#sitemap">SITE MAP</a><br />
+				</p>
+				<!-- Header -->
+				<div id="header">
+					<div class="headline">
+							<ul class="headline_container">
+								<li class="security now"><a><span class="sankaku">▼ </span>セキュリティサイト</a></li><li class="analytics"><a href="http://store.secureinc.co.jp/" target="_blank">アナリティクスサイト</a></li><li class="corporate"><a href="http://corp.secureinc.biz/" target="_blank">コーポレートサイト</a></li>
+							</ul>
+					</div>
+					<div class="header_container">
+						<div class="wrap left">
+							<div class="logo"><a href="/"><img src="/images/common/logo_secure.gif" alt="入退室管理・監視カメラ、オフィスセキュリティのセキュア" /></a>
+							</div>
+							<p class="submenu4 alpha"><span class="triangle8"><a href="/news/">ニュース</a></span>　<span class="triangle8"><a href="https://corp.secureinc.biz/aboutus/company/" target="_blank">会社概要・沿革</a> <img style="vertical-align: middle;" src="/images/common/img_blanc.gif" /></span>　<span class="triangle8"><a href="/product-service/download.html">資料ダウンロード</a></span>　<span class="triangle8"><a href="/product-service/movie.html">動画ライブラリー</a></span>　<span class="triangle8"><a href="/info/showroom.html">本社ショールーム</a></span></p>
+						</div>
+						<div class="wrap right">
+							<ul class="submenu3">
+								<li class="box1 telnum alpha"><a class="tel-link" href="tel:08009199500" onclick="_gaq.push(['_trackEvent', 'smartphone','phone-number-tap','',1000]);"><img src="/images/common/info/pct_call287px.gif" alt="tel:0800-919-9500" /></a></li>
+								<li class="box2 alpha"><a href="/telephone_inquiry.html"><img src="/images/common/info/pct_tel_inq.gif" alt="電話で問い合わせの詳細ページへ" /></a></li>
+								<li class="box3 alpha"><a href="https://secureinc.co.jp/info/inquiry.php" data-sp-href="/info/inquiry.php"><img src="/images/common/info/pct_inq_mini.gif" alt="相談窓口お問い合わせ" /></a></li>
+							</ul>
+							<!-- #srchBox -->
+							<div id="srchBox" class="watermark">
+								<form action="https://secureinc.co.jp/search_result.html" method="get" id="srch" target="yjserp">
+									<p id="srchForm"><input type="<!--search-->" results="5" name="p" id="srchInput"><input type="submit" value="検索" id="srchBtn" onclick="document.getElementById('srchInput').focus();"><input type="hidden" id="fr" name="fr" value="cse"><input type="hidden" id="ei" name="ei" value="UTF-8"><input type="hidden" id="csid" name="csid" value="QwnEaSMGD4lKg.tQ_5_cOWxVT1TWdNQuE1Yl"></p>
+									<input type="hidden" name="vs" value="secureinc.co.jp" id="yjInsite">
+								</form>
+								<img src="/images/common/QwnEaSMGD4lKg.tQ_5_cOWxVT1TWdNQuE1Yl.gif">
+							</div>
+							<!-- /#srchBox -->
+						</div>
+					</div>
+					<div id="toggle-comment">
+						<div class="">
+						</div>
+					</div>
+				</div>
+				<!--GlobalMenu-->
+		<div id="menu" class="clearfix">
+			<ul id="mega-menu" class="mega-menu">
+				<li class="first home"><a href="/">Home</a></li>
+				<li class="first mega01"><a href="/facility/">施設別にみる</a>
+					<ul>
+						<div class="mega_box">
+								<h3 class=""><a href="/facility/">施設別対応 INDEX</a></h4>
+								<h4 class="midashi01"><a href="/facility/factory.html">工場・倉庫向け セキュリティ対策</a></h4>
+								<h4 class="midashi01"><a href="/facility/office.html">オフィス・事務所向け セキュリティ対策</a></h4>
+								<h4 class="midashi01"><a href="/facility/store.html">店舗向け セキュリティ対策</a></h4>
+								<h4 class="midashi01"><a href="/facility/school.html">学校・塾向け セキュリティ対策</a></h4>
+						</div>
+					</ul>
+				</li>
+				<li class="first mega02"><a href="/problem/">課題別にみる</a>
+					<ul>
+						<div class="clearfix" id="problem">
+							<div class="box-left w250">
+								<h3><a href="/problem/">課題別セキュリティ INDEX</a></h3>
+								<h4 class="midashi01"><a href="/problem/point_a01.html">入退室を管理したい</a></h4>
+								<h4 class="midashi01"><a href="/problem/point_a02.html">監視カメラをつけたい</a></h4>
+								<h4 class="midashi01"><a href="/problem/point_a03.html">エレベーターを制御したい</a></h4>
+								<h4 class="midashi01"><a href="/problem/point_a04.html">Ｐマーク、ＩＳＯ認定を取得したい</a></h4>
+								<h4 class="midashi01"><a href="/problem/point_a05.html">セキュリティルームをつくりたい</a></h4>
+								<h4 class="midashi01"><a href="/problem/point_a06.html">生体認証を導入したい</a></h4>
+								<h4 class="midashi01"><a href="/problem/point_a07.html">監視カメラで顔認証をしたい</a></h4>
+								<h4 class="midashi01"><a href="/problem/point_b01.html">不法侵入、不審車両を防ぎたい</a></h4>
+								<h4 class="midashi01"><a href="/problem/point_b02.html">情報漏えいを防ぎたい</a></h4>
+								<h4 class="midashi01"><a href="/problem/point_b03.html">盗難、いたずら、物品欠損の防止</a></h4>
+								<h4 class="midashi01"><a href="/problem/point_b04.html">共連れを防止したい</a></h4>
+							</div>
+							<div class="box-right w250">
+								<h4 class="midashi01"><a href="/problem/point_b05.html">従業員の不正防止</a></h4>
+								<h4 class="midashi01"><a href="/problem/point_b06.html">レジのトラブルを防ぎたい</a></h4>
+								<h4 class="midashi01"><a href="/problem/point_b07.html">万引き防止</a></h4>
+								<h4 class="midashi01"><a href="/problem/point_b08.html">犯罪者、ブラックリストを防ぎたい</a></h4>
+								<h4 class="midashi01"><a href="/problem/point_b09.html">駐車場のトラブルを防ぎたい</a></h4>
+								<h4 class="midashi01"><a href="/problem/point_c01.html">事故対策、早期発見をしたい</a></h4>
+								<h4 class="midashi01"><a href="/problem/point_c02.html">在室管理（在席、在館）をしたい</a></h4>
+								<h4 class="midashi01"><a href="/problem/point_c03.html">登校状況を確認したい</a></h4>
+								<h4 class="midashi01"><a href="/problem/point_d01.html">労務管理を効率化したい</a></h4>
+								<h4 class="midashi01"><a href="/problem/point_d02.html">多拠点管理、遠隔管理をしたい</a></h4>
+								<h4 class="midashi01"><a href="/problem/point_d03.html">特定人物の来店を知りたい</a></h4>
+								<h4 class="midashi01"><a href="/problem/point_d04.html">セキュリティをクラウド運用したい</a></h4>
+							</div>
+						</div>
+					</ul>
+				</li>
+				<li class="first mega03" id="product"><a href="/product-service/">製品・サービス</a>
+					<ul>
+						<div class="clearfix10">
+							<h3><a href="/product-service/">製品・サービス INDEX</a></h3>
+							<div class="box-left w300">
+								<h4 class="midashi01"><a href="/product-service/faceauthentication_index.html">顔認証ソリューション 概要</a>
+								<h4>
+								<p class="ya"><a href="/product-service/facetracker.html">顔認証システム <strong>フェイストラッカー</strong></a></p>
+								<p class="ya"><a href="/product-service/facestation2.html">入退管理用顔認証ターミナル <strong>FaceStation2</strong></a></p>
+							</div>
+							<div class="box-right w300">
+								<h4 class="midashi01"><a href="/product-service/cloud-solution_index.html">クラウドサービス 概要</a>
+								<h4>
+								<p class="ya"><a href="/product-service/secure_vsaas.html">ビジネス向け映像監視・録画クラウドサービス <strong>VSaaS</strong></a></p>
+								<p class="ya"><a href="/product-service/vemcount.html">客数情報解析ソフトウェア <strong>Vemcount</strong></a></p>
+							</div>
+						</div>
+						<div class="clearfix10">
+							<div class="box-left w300">
+								<h4 class="midashi01"><a href="/product-service/acsess-control_index.html">入退室管理システム 概要</a></h4>
+								<p class="ya"><a href="/product-service/acsess-control-software_index.html">入退室管理ソフトウェア ラインナップ</a></p>
+								<!--<p class="ya"><a href="/product-service/biostar-enterprise.html">入退室管理ソフトウェア <strong>BioStar Enterprise</strong></a></p>-->
+								<!--<p class="ya"><a href="/product-service/biostar2.html">入退室管理ソフトウェア <strong>BioStar2</strong></a></p>-->
+								<!--<p class="ya"><a href="/product-service/x-view.html">入退管理＋CCTV 統合システム <strong>X-View</strong></a></p>-->
+								<p class="ya"><a href="/product-service/terminal_index.html">入退管理認証ターミナル（認証リーダー）ラインナップ</a></p>
+								<!--<p class="ya"><a href="/product-service/facestation2.html">FaceStation2</a><span class="new f80">NEW</span></p>
+								<p class="ya"><a href="/product-service/biostation2.html">BioStation2</a><span class="new f80">NEW</span></p>
+								<p class="ya"><a href="/product-service/biostationL2.html">BioStationL2</a><span class="new f80">NEW</span></p>
+								<p class="ya"><a href="/product-service/bioentryW2.html">BioEntryW2</a><span class="new f80">NEW</span></p>
+								<p class="ya"><a href="/product-service/biolitenet.html">BioLiteNet</a></p>
+								<p class="ya"><a href="/product-service/xpass-s2.html">Xpass Slim</a></p>
+								<p class="ya"><a href="/product-service/option.html">周辺機器</a></p>-->
+								<p class="ya"><a href="/product-service/securitygate_index.html">セキュリティゲート ラインナップ</a></p>
+								<!--<p class="ya"><a href="/product-service/securitygate_sterngate.html">スターンゲート</a></p>
+								<p class="ya"><a href="/product-service/securitygate_lightgate.html">ライトゲート</a></p>
+								<p class="ya"><a href="/product-service/securitygate_unigate.html">ユニゲート</a></p>
+								<p class="ya"><a href="/product-service/securitygate_entergate.html">エンターゲート</a></p>
+								<p class="ya"><a href="/product-service/securitygate_flexgate.html">フレックスゲート</a></p>
+								<p class="ya"><a href="/product-service/securitygate_circlegate.html">サークルゲート</a></p>-->
+							</div>
+							<div class="box-right w300">
+								<!--<h4 class="midashi02"><a href="/product-service/systemSolution_index.html">用途別カスタムシステム 製品ラインナップ</a></h4>
+								<p class="ya"><a href="/product-service/systemSolution_work.html">勤怠管理ソリューション</a></p>
+								<p class="ya"><a href="/product-service/systemSolution_cctv.html">監視カメラ連携ソリューション</a></p>-->
+								<!--<p class="ya">●手荷物検査ソリューション</p>-->
+								<!--<p class="ya">●共連れ検知システム［準備中］</p>-->
+								<!--<p class="ya">●他拠点遠隔管理ソリューション</p>-->
+								<!--<p class="ya">●在室管理システム［準備中］</p>
+								<p class="ya"><a href="/product-service/systemSolution_mail.html">登下校メール通知システム</a></p>
+								<p class="ya"><a href="/product-service/systemSolution_elevator.html">エレベータ制御システム</a></p>-->
+								<h4 class="midashi01"><a href="/product-service/surveillance/index.html">監視カメラシステム 概要</a></h4>
+								<p class="ya"><a href="/product-service/surveillance/direct-cx_lineup.html">IDIS Direct CXシリーズ<span class="f90">（アナログカメラシステム）</span></a></p>
+								<p class="ya"><a href="/product-service/surveillance/direct-ip_lineup.html">IDIS Direct IPシリーズ<span class="f90">（ネットワークカメラシステム）</span></a></p>
+								<p class="ya"><a href="/product-service/surveillance/vms.html">ネットワーク・ソフトウェア<!--（PC用統合管理ソフトウェア iRAS／モバイル用統合管理ソフトウェア RAS Mobile）--></a></p>
+								<p class="ya"><a href="/product-service/surveillance/peripherals.html">周辺機器</a></p>
+							</div>
+						</div>
+						<div class="clearfix">
+							<div class="box-left w300">
+								<h4 class="midashi01"><a href="/product-service/download.html">資料ダウンロード</a></h4>
+							</div>
+							<div class="box-right w300">
+								<h4 class="midashi01"><a href="/product-service/movie.html">動画ライブラリー</a></h4>
+							</div>
+						</div>
+					</ul>
+				</li>
+				<li class="first mega04"><a href="/special/">セキュリティ特集</a>
+					<ul>
+						<div class="mega_box">
+							<h3><a href="/special/">セキュリティ特集 INDEX</a></h3>
+							<h4 class="midashi01"><a href="/special/access_control.html">入退室管理／出入管理ってなんだろう？</a></h4>
+							<h4 class="midashi01"><a href="/special/biostarSystem_index.html">セキュアの入退室管理システムの特長</a></h4>
+							<h4 class="midashi01"><a href="/special/biostation-function/">5分くらいで分かるバイオスターシステム</a></h4>
+							<h4 class="midashi01"><a href="/special/face_station/">“FaceStation” 顔認証技術レポート</a></h4>
+							<h4 class="midashi01"><a href="/special/tomodure/">共連れ対策　共連れを防止するには</a></h4>
+						</div>
+					</ul>
+				</li>
+				<li class="first mega05"><a href="#">導入事例・実績</a>
+					<ul>
+						<div class="mega_box w300">
+							<h3><a>導入事例・実績 INDEX</a></h3>
+							<h4 class="midashi01"><a href="/case/case-studies.html">実際の導入例レポート リスト</a></h4>
+							<p class="ya"><a href="/case/case-studies18.html">【オフィス／顔認証】株式会社ヘッドウォータース 様</a></p>
+							<p class="ya"><a href="/case/case-studies16.html">【オフィス／顔認証】スマートニュース株式会社 様</a></p>
+							<p class="ya"><a href="/case/case-studies15.html">【工場／入退】日清オイリオグループ株式会社 様</a></p>
+							<p class="ya"><a href="/case/case-studies14.html">【工場／入退】エヌフーズ株式会社 様</a></p>
+							<p class="ya"><a href="/case/case-studies13.html">【店舗／カメラ】株式会社東邦 様</a></p>
+							<p class="ya"><a href="/case/case-studies12.html">【介護施設／顔認証】株式会社サンライズ・ヴィラ 様<span class="red"></span></a></p>
+							<p class="ya"><a href="/case/case-studies11.html">【工場／入退】ニビシ醤油株式会社 様</a></p>
+							<p class="ya"><a href="/case/case-studies10.html">【病院／入退】たけなかこどもクリニック 様 <span class="red"></span></a></p>
+							<p class="ya"><a href="/case/case-studies09.html">【オフィス／入退】株式会社ビッグツリーテクノロジー＆コンサルティング 様</a></p>
+							<p class="ya"><a href="/case/case-studies01.html">【オフィス／入退】株式会社レーベン 様</a></p>
+							<p class="ya"><a href="/case/case-studies02.html">【オフィス／入退】アールアイ・ソフトウェア株式会社 様</a></p>
+							<p class="ya"><a href="/case/case-studies03.html">【オフィス／入退】株式会社インディ・アソシエイツ 様</a></p>
+							<p class="ya"><a href="/case/case-studies04.html">【オフィス／入退】株式会社クルーグ 様</a></p>
+							<p class="ya"><a href="/case/case-studies05.html">【マンション／入退】ツナシマ商事株式会社 様</a></p>
+							<p class="ya"><a href="/case/case-studies06.html">【オフィス／入退】株式会社ヘッドウォータース 様</a></p>
+							<p class="ya"><a href="/case/case-studies07.html">【オフィス／入退】株式会社アリスマジック 様</a></p>
+							<p class="ya"><a href="/case/case-studies08.html">【オフィス／入退】コスモシステム株式会社 様</a></p>
+							<p class="ya"><a href="https://www.supremainc.com/en/Solutions/Industries/Commercial" target="_blank">海外導入事例 (Suprema Inc.)</a></p>
+							<h4 class="midashi01"><a href="/case/case_report.html">施設別 導入レポート リスト</a></h4>
+							<h4 class="midashi01"><a href="/case/case_settingImage.html">実際の設置の様子</a></h4>
+							<h4 class="midashi01"><a href="/case/case_list.html">主な納入先企業様</a></h4>
+						</div>
+					</ul>
+				</li>
+				<li class="first mega06"><a href="/securityQA/">よくある質問</a>
+					<ul>
+						<div class="mega_box">
+							<h3 class="midashi01"><a href="/securityQA/">よくある質問 INDEX</a></h3>
+							<h4 class="midashi01"><a href="/securityQA/topics.html">セキュリティ相談最新トピックス</a></h4>
+							<h4 class="midashi01"><a href="/securityQA/onlineSecurity.html">業種別『よくある質問』リスト</a></h4>
+							<h4 class="midashi01"><a href="/securityQA/officeSecurity.html">一般的な『よくある質問』リスト</a></h4>
+						</div>
+					</ul>
+				</li>
+			</ul>
+		</div>
+				<!-- Header Menu End-->
+
+			<p id="topicPath"><a href="/">ホーム</a> ＞ <span>メールフォームでのお問い合わせ</span></p>
+			<div id="contents" class="white">
+				<div class="contents-wrapper">
+					<div id="mainClm2">
+
+
+				<h3 class="border mb20" style="text-align: left;">メールフォームでのお問い合わせ</h3>
+				<p class="mb30 f120"> 
+				概算でのお見積りや、製品や導入場所に関するお問い合わせなど、以下のフォームに必要項目を入力しお問い合わせください。<br>
+				お急ぎの方は、お電話でもお問い合わせいただけます。
+				<span class="f110">お電話でのお問い合わせの詳細は<a href="/telephone_inquiry.html">こちら</a>。</span></p> 
+
+
+
+
+
+
+
+
+
+
+
+
+	<form action="php/mailform.php" method="post" id="mail_form">
+		<dl>
+			<dt>お名前<span>Your Name</span></dt>
+			<dd class="required"><input type="text" id="name_1" name="name_1" value="" /> <input type="text" id="name_2" name="name_2" value="" /></dd>
+			
+			<dt>ふりがな<span>Name Reading</span></dt>
+			<dd><input type="text" id="read_1" name="read_1" value="" /> <input type="text" id="read_2" name="read_2" value="" /></dd>
+			
+			<dt>会社名<span>Company Name</span></dt>
+			<dd><input type="text" id="company" name="company" value="" /></dd>
+
+			<dt>メールアドレス<span>Mail Address</span></dt>
+			<dd class="required"><input type="email" id="mail_address" name="mail_address" value="" /></dd>
+			
+			<dt>メールアドレス<br />(確認用)<span>Mail Address Confirm</span></dt>
+			<dd><input type="email" id="mail_address_confirm" name="mail_address_confirm" value="" /></dd>
+
+			<dt>電話番号<span>Phone Number</span></dt>
+			<dd class="required"><input type="tel" id="phone" name="phone" value="" />　※ハイフンなしの半角数字で入力してください。</dd>
+			
+			<dt>お問い合わせの内容<span>Mail Contents</span></dt>
+			<dd class="required"><textarea id="mail_contents" name="mail_contents" cols="40" rows="5"></textarea></dd>
+			
+			<dt>個人情報の取り扱いについて<span>Privacy</span></dt>
+			<dd class="required">
+				<ul>
+					<li><label><input type="checkbox" class="response" name="response[]" value="電話での返信を希望" />同意する。</label></li>
+					<li>※個人情報の取り扱いについては<a href="/privacy.html">こちら</a>をご参照ください。</li>
+				</ul>
+			</dd>
+		</dl>
+		
+		<p id="form_submit"><input type="button" id="form_submit_button" value="送信する" /></p>
+	</form>
+	<div class="compliance">
+		<p><strong>(1)　コンプライアンスに関する基本的な取り組み方針の決定</strong></p>
+		<div class="box">
+		<p>　セキュアは、経営理念として『・世の中に新しい価値を提供して快適な幸せな社会に貢献する・よりよい未来を創造できる人材を輩出する・社員を幸せにする』を掲げています。
+セキュアが企業価値を認められ、この経営理念を実現し続けるためには、法令遵守はもとより社会の信頼に応える高い倫理観をもって、全役員・従業員一人ひとりが行動することが必要不可欠であると認識しています。
+</p>
+		<p>　このことの徹底を経営の最重要課題と位置付け「コンプライアンスに関する基本的な取り組み方針としてまとめ、全役員・従業員への周知と定着化を図っています。</p>
+		<div><strong>【コンプライアンスに関する基本的な取り組み方針】</strong><br />
+			　1.　お客様からの信頼<br />
+			　2.　清く・正しく・美しく<br />
+			　3.　小さな約束を必ず守る<br />
+			　4.　社会への貢献<br />
+			　5.　従業員の尊重</div>
+	</div>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="js/mailform-js.php"></script>
+
+
+<!-- フリガナ自動入力ライブラリここから -->
+<script src="js/jquery.autoKana.js"></script>
+<script>
+	(function( $ ) {
+    $.fn.autoKana( '#name_1', '#read_1', {
+      katakana: false
+    });
+    $.fn.autoKana( '#name_2', '#read_2', {
+      katakana: false
+    });
+	})( jQuery );
+</script>
+<!-- フリガナ自動入力ライブラリここまで -->
+
+
+
+					</div>
+				</div>
+			</div>
+			<!-- end #contents -->
+					<div id="sitemap" class="clearfix">
+			<div class="sitemap-container">
+				<p class="r1 mb20">Sitemap</p>
+				<div class="column">
+					<div>
+						<p class="r1 mb20"><a href="/">Home</a></p>
+						<p class="r1"><a href="/facility/">施設別に課題を解決する</a></p>
+						<p class="r4">・<a href="/facility/factory.html">工場・倉庫向け セキュリティ対策</a></p>
+						<p class="r4">・<a href="/facility/office.html">オフィス・事務所向け セキュリティ対策</a></p>
+						<p class="r4">・<a href="/facility/store.html">店舗向け セキュリティ対策</a></p>
+						<p class="r4">・<a href="/facility/school.html">学校・塾向け セキュリティ対策</a></p>
+					</div>
+					<div>
+						<p class="r1"><a href="/problem/">課題別にみるセキュリティ</a></p>
+						<p class="r4">・<a href="/problem/point_a01.html">入退室を管理したい</a></p>
+						<p class="r4">・<a href="/problem/point_a02.html">監視カメラをつけたい</a></p>
+						<p class="r4">・<a href="/problem/point_a03.html">エレベーターを制御したい</a></p>
+						<p class="r4">・<a href="/problem/point_a04.html">Ｐマーク、ＩＳＯ認定を取得したい</a></p>
+						<p class="r4">・<a href="/problem/point_a05.html">セキュリティルームをつくりたい</a></p>
+						<p class="r4">・<a href="/problem/point_a06.html">生体認証を導入したい</a></p>
+						<p class="r4">・<a href="/problem/point_a07.html">監視カメラで顔認証をしたい</a></p>
+						<p class="r4">・<a href="/problem/point_b01.html">不法侵入、不審車両を防ぎたい</a></p>
+						<p class="r4">・<a href="/problem/point_b02.html">情報漏えいを防ぎたい</a></p>
+						<p class="r4">・<a href="/problem/point_b03.html">盗難、いたずら、物品欠損の防止</a></p>
+						<p class="r4">・<a href="/problem/point_b04.html">共連れを防止したい</a></p>
+						<p class="r4">・<a href="/problem/point_b05.html">従業員の不正防止</a></p>
+						<p class="r4">・<a href="/problem/point_b06.html">レジのトラブルを防ぎたい</a></p>
+						<p class="r4">・<a href="/problem/point_b07.html">万引き防止</a></p>
+						<p class="r4">・<a href="/problem/point_b08.html">犯罪者、ブラックリストを防ぎたい</a></p>
+						<p class="r4">・<a href="/problem/point_b09.html">駐車場のトラブルを防ぎたい</a></p>
+						<p class="r4">・<a href="/problem/point_c01.html">事故対策、早期発見をしたい</a></p>
+						<p class="r4">・<a href="/problem/point_c02.html">在室管理（在席、在館）をしたい</a></p>
+						<p class="r4">・<a href="/problem/point_c03.html">登校状況を確認したい</a></p>
+						<p class="r4">・<a href="/problem/point_d01.html">労務管理を効率化したい</a></p>
+						<p class="r4">・<a href="/problem/point_d02.html">多拠点管理、遠隔管理をしたい</a></p>
+						<p class="r4">・<a href="/problem/point_d03.html">特定人物の来店を知りたい</a></p>
+						<p class="r4">・<a href="/problem/point_d04.html">セキュリティをクラウド運用したい</a></p>
+					</div>
+				</div>
+				<div class="column">
+					<p class="r1"><a href="/product-service/">製品・サービス</a></p>
+					<p class="r3">＞<a href="/product-service/faceauthentication_index.html">顔認証ソリューション 概要</a></p>
+					<p class="ya">・<a href="/product-service/facetracker.html">顔認証システム  <strong>フェイストラッカー</strong></a></p>
+					<p class="ya">・<a href="/product-service/facestation2.html">入退管理用顔認証ターミナル <strong>FaceStation2</strong></a></p>
+					<p class="r3">＞<a href="/product-service/cloud-solution_index.html">クラウドサービス 概要</a></p>
+					<p class="ya">・<a href="/product-service/secure_vsaas.html">ビジネス向け映像監視・録画クラウドサービス<br />　<strong>SECURE VSaaS</strong></a></p> 
+					<p class="ya">・<a href="/product-service/vemcount.html">客数情報解析ソフトウェア <strong>Vemcount</strong></a></p> 
+					<p class="r3">＞<a href="/product-service/acsess-control_index.html">入退室管理システム 概要</a></p>
+					<p class="r2"><a href="/product-service/acsess-control-software_index.html">入退室管理ソフトウェア 一覧</a></p>
+					
+					
+					<p class="ya">・<a href="/product-service/biostar-enterprise.html">入退室管理プラットフォーム <strong>バイオスターシステム</strong></a></p>
+					<!--<p class="ya">・<a href="/product-service/biostar2.html">入退室管理ソフトウェア  <strong>BioStar2</strong></a></p>-->
+					<!--<p class="ya">・<a href="/product-service/x-view.html">入退管理＋CCTV 統合システム  <strong>X-View</strong></a></p>-->
+					<p class="r2"><a href="/product-service/terminal_index.html">入退管理認証リーダー機器<br>（BioStarターミナルユニット）</a></p>
+					<p class="ya">・<a href="/product-service/facestation2.html">FaceStation2</a>　・<a href="/product-service/biostation2.html">BioStation2</a></p>
+					<p class="ya">・<a href="/product-service/biostationL2.html">BioStationL2</a>　・<a href="/product-service/bioentryW2.html">BioEntryW2</a></p>
+					<p class="ya">・<a href="/product-service/biolitenet.html">BioLiteNet</a>　・<a href="/product-service/xpass-slim.html">XpassS2</a></p>
+					<p class="ya">・<a href="/product-service/option.html">周辺機器</a></p>
+					<p class="r2"><a href="/product-service/securitygate_index.html">セキュリティゲート</a></p>
+					<p class="ya">・<a href="/product-service/securitygate_sterngate.html">スターンゲート</a>　　・<a href="/product-service/securitygate_lightgate.html">ライトゲート</a></p>
+					<p class="ya">・<a href="/product-service/securitygate_unigate.html">ユニゲート</a>　　　　・<a href="/product-service/securitygate_entergate.html">エンターゲート</a></p>
+					<p class="ya">・<a href="/product-service/securitygate_flexgate.html">フレックスゲート</a>　・<a href="/product-service/securitygate_circlegate.html">サークルゲート</a></p>
+					<p class="r3">＞<a href="/product-service/surveillance/index.html">監視カメラシステム 概要</a></p>
+					<p class="ya">・<a href="/product-service/surveillance/index.html">ソリューション一覧</a></p>
+					<p class="ya">・<a href="/product-service/surveillance/direct-cx_lineup.html">IDIS Direct CXシリーズ<br><span class="f90">　（アナログカメラシステム）</span></a></p>
+					<p class="ya">・<a href="/product-service/surveillance/direct-ip_lineup.html">IDIS Direct IPシリーズ<br><span class="f90">　（ネットワークカメラシステム）</span></a></p>
+					<p class="ya">・<a href="/product-service/surveillance/vms.html">ネットワーク・ソフトウェア</a></p>
+					<p class="ya">・<a href="/product-service/surveillance/peripherals.html">周辺機器</a></p>
+				</div>
+				<div class="column">
+					<div>
+						<p class="r1"><a href="/special/">セキュリティ特集</a></p>
+						<p class="r4">・<a href="/special/access_control.html">入退室管理／出入管理ってなんだろう？</a></p>
+						<p class="r4">・<a href="/special/biostarSystem_index.html">セキュアの入退室管理システムの特長</a></p>
+						<p class="r4">・<a href="/special/biostation-function/">5分くらいで分かるバイオスターシステム</a></p>
+						<p class="r4">・<a href="/special/face_station/">“FaceStation” 顔認証技術レポート</a></p>
+						<p class="r4">・<a href="/special/tomodure/">共連れ対策　共連れを防止するには</a></p>
+					</div>
+					<div>
+						<p class="r1">導入事例・実績</p>
+						<p class="r3">＞<a href="/case/case-studies.html">実際の導入例レポート INDEX</a></p>
+						<p class="ya">・<a href="/case/case-studies18.html">事業領域の拡大に合わせ、オフィスのセキュリティを強化</a></p>
+						<p class="ya">・<a href="/case/case-studies16.html">社員の理想を追求したオフィスに顔認証を導入</a></p>
+						<p class="ya">・<a href="/case/case-studies15.html">生体認証でフードディフェンスを強化</a></p>
+						<p class="ya">・<a href="/case/case-studies14.html">事故の予防を最優先に<br />　顔認証による入退管理設備を導入</a></p>
+						<p class="ya">・<a href="/case/case-studies13.html">お客様とスタッフが安心できる店舗の実現に<br>　防犯カメラを導入</a></p>
+						<p class="ya">・<a href="/case/case-studies12.html">事故の未然防止を目的に顔認証システムを導入<span class="red"></span></a></p>
+						<p class="ya">・<a href="/case/case-studies11.html">新工場建設を機に衛生面を考慮した<br>　入退管理設備を導入<span class="red"></span></a></p>
+						<p class="ya">・<a href="/case/case-studies10.html">確実な保護者確認に顔認証リーダーを導入 <span class="red"></span></a></p>
+						<p class="ya">・<a href="/case/case-studies09.html">徹底したセキュリティ対策でお客様に貢献<span class="red"></span></a></p>
+						<p class="ya">・<a href="/case/case-studies08.html">「エリア毎の入退室管理」がローコストで実現</a></p>
+						<p class="ya">・<a href="/case/case-studies07.html">BioStaionの導入により勤怠管理の手間を削減</a></p>
+						<p class="ya">・<a href="/case/case-studies06.html">オフィス移転に際してセキュリティ設備を増強</a></p>
+						<p class="ya">・<a href="/case/case-studies05.html">居住者の利便性を考え生体認証を導入</a></p>
+						<p class="ya">・<a href="/case/case-studies04.html">本社移転にともない、強固なセキュリティを構築</a></p>
+						<p class="ya">・<a href="/case/case-studies03.html">オフィス移転に際してセキュリティ設備を増強</a></p>
+						<p class="ya">・<a href="/case/case-studies02.html">カードレス運用を目的にリプレイス</a></p>
+						<p class="ya">・<a href="/case/case-studies01.html">ICカードの採用で、運用管理を効率化</a></p>
+						<p class="ya">・<a href="https://www.supremainc.com/en/Solutions/Industries/Commercial" target="_blank">海外導入事例 (Suprema Inc.)</a></p>
+						<p class="r3">＞<a href="/case/case_report.html">施設別 導入例 報告</a></p>
+						<p class="ya">・<a href="/case/case_report.html#office-one">オフィス（1フロア）</a></p>
+						<p class="ya">・<a href="/case/case_report.html#office-many">オフィス（複数フロア）</a></p>
+						<p class="ya">・<a href="/case/case_report.html#office-building">オフィス（建物全体）</a></p>
+						<p class="ya">・<a href="/case/case_report.html#factory-one">工場（単独）</a>　　・<a href="/case/case_report.html#factory-many">工場（複数棟）</a></p>
+						<p class="ya">・<a href="/case/case_report.html#shop-one">店舗（単独）</a>　　・<a href="/case/case_report.html#shop-many">店舗（多拠点）</a></p>
+						<p class="ya">・<a href="/case/case_report.html#school">教育機関</a></p>
+						<p class="ya">・<a href="/case/case_report.html#mansion">マンション</a></p>
+						<p class="r3">＞<a href="/case/case_settingImage.html">実際の設置の様子</a></p>
+						<p class="r3">＞<a href="/case/case_list.html">主な取引先企業様</a></p>
+					</div>
+				</div>
+				<div class="column-r">
+					<div>
+						<p class="r1"><a href="/securityQA/">よくある質問</a></p>
+						<p class="r3">＞<a href="/securityQA/topics.html">セキュリティ相談最新Topics</a></p>
+						<p class="r3">＞<a href="/securityQA/onlineSecurity.html">業種別『よくある質問』</a></p>
+						<p class="r4">・<a href="/securityQA/onlineSecurity.html">INDEX</a></p>
+						<p class="r4">・<a href="/securityQA/onlineSecurity.html#c01">部品/重工業メーカー 様向け</a></p>
+						<p class="r4">・<a href="/securityQA/onlineSecurity.html#c02">小売チェーン 様向け</a></p>
+						<p class="r4">・<a href="/securityQA/onlineSecurity.html#c03">情報通信系企業 様向け</a></p>
+						<p class="r4">・<a href="/securityQA/onlineSecurity.html#c04">食品メーカー 様向け</a></p>
+						<p class="r4">・<a href="/securityQA/onlineSecurity.html#c05">物流/運輸系企業 様向け</a></p>
+						<p class="r3">＞<a href="/securityQA/officeSecurity.html">一般的な『よくある質問』</a></p>
+						<p class="r4">・<a href="/securityQA/officeSecurity.html">INDEX</a></p>
+						<p class="r4">・<a href="/securityQA/officeSecurity.html#c01">全般的な疑問について</a></p>
+						<p class="r4">・<a href="/securityQA/officeSecurity.html#c02">セキュリティ用語について</a></p>
+						<p class="r4">・<a href="/securityQA/officeSecurity.html#c03">運用について</a></p>
+						<p class="r4">・<a href="/securityQA/officeSecurity.html#c04">システム構成について</a></p>
+						<p class="r4">・<a href="/securityQA/officeSecurity.html#c05">設置・保守について</a></p>
+					</div>
+					<div>
+						<div>
+							<p class="r3">＞<a href="/product-service/download.html">資料ダウンロード</a></p>
+							<p class="r3">＞<a href="/product-service/movie.html">動画ライブラリー</a></p>
+							<p class="r3">＞<a href="/info/showroom.html">本社ショールーム</a></p>
+							<p class="r3">＞<a href="https://corp.secureinc.biz/aboutus/company/" target="_blank">会社概要・沿革</a></p>
+							<p class="r3">＞<a href="/news/">セキュリティニュース</a></p>
+							<p class="r3">＞<a href="https://secureinc.co.jp/info/inquiry.php" data-sp-href="/info/inquiry.php">お問い合わせフォーム</a></p>
+							<p class="r3">.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+<!--end サイトマップ-->
+<!-- Footer -->
+<div id="footer">
+	<p class="link"><a href="/">ホーム（セキュリティサイト）</a><span>｜</span><a href="https://secureinc.co.jp/info/inquiry.php" data-sp-href="/info/inquiry.php">お問い合わせ</a><span>｜</span><a href="/tos.html">サイトポリシー</a><span>｜</span><a href="/compliance.html">コンプライアンスに関する取り組み</a><span>｜</span><a href="/privacy.html">個人情報保護方針</a><span>｜</span><a href="https://corp.secureinc.biz/" target="_blank">コーポレートサイト（別サイト）</a></p>
+	<div class="copyright">
+		<p>Copyright(C)2011 SECURE Inc. All Rights Reserved.</p>
+		<p class="footer-banner"><span><a href="http://best100.v-tsushin.jp/2015/12/post_181.php" target="_new"><img src="/images/common/banner/banner01-2002_s.jpg" alt="2016年ベストベンチャー100社にセキュアが選出されました" /></a></span><span><a href="http://ils.tokyo/" target="_blank"><img src="/images/common/banner/img_ilstop100.png" alt="イノベーションリーダーズサミット" /></a></span></p>
+	</div>
+</div>
+
+<!-- Google Analytics -->
+<script type="text/javascript"> 
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E")); </script><script type="text/javascript"> 
+try {
+var pageTracker = _gat._getTracker("UA-8217973-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+<script type="text/javascript">
+(function() {
+var sb = document.getElementById('srchBox');
+if (sb && sb.className == 'watermark') {
+  var si = document.getElementById('srchInput');
+  var f = function() { si.className = 'nomark'; };
+  var b = function() {
+    if (si.value == '') {
+      si.className = '';
+    }
+  };
+  si.onfocus = f;
+  si.onblur = b;
+  if (!/[&?]p=[^&]/.test(location.search)) {
+    b();
+  } else {
+    f();
+  }
+}
+})();
+</script>
+<script type="text/javascript">
+$(function(){
+	if(!navigator.userAgent.match(/(iPhone|iPad|Android)/)){
+		$("a.tel-link").each(function(){
+			$(this).replaceWith("<span>" + $(this).html() + "</span>");
+			});
+	}
+});
+</script>
+<!--Saleseforce-->
+<script type="text/javascript">
+piAId = '123782';
+piCId = '86338';
+
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+	<script type="text/javascript">
+$(function() {
+    $("#tab li").click(function() {
+        var num = $("#tab li").index(this);
+        $(".content_wrap").hide();
+        $(".content_wrap").eq(num).fadeIn();
+        $("#tab li").removeClass('select');
+        $(this).addClass('select')
+    });
+}); </script>
+
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Lato:400,300,700:latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+<script type="text/javascript">
+//
+// スマートフォンかどうか判断して、スマートフォンの場合のみ処理。
+//
+if (IsSmartPhone())
+{
+    //
+    // ソースが全て書き出された後に処理。
+    //
+    $(function()
+    {
+      //
+      // 全ての『data-sp-href』属性を繰り返し処理。
+      //
+      $('body').find('[data-sp-href]').each(function()
+      {
+          //
+          // リンクを入れ替え。
+          //
+          $(this).attr('href', $(this).attr('data-sp-href'));
+      });
+    });
+}
+//
+// スマートフォンかどうか判断するメソッド。
+//
+function IsSmartPhone()
+{
+  // デバイスの種類。
+  var media =
+  [
+    'iPhone',
+    'Windows Phone',
+    'Android'
+  ];
+  var pattern = new RegExp(media.join('|'), 'i'); //デバイスの種類を正規表現にする。
+  return pattern.test(navigator.userAgent); //ユーザーエージェントにデバイスが含まれるかを調べる。
+}
+</script>
+<script type="text/javascript">
+$(document).ready(function($){
+	$('#mega-menu').dcMegaMenu({
+		rowItems: '1',
+		speed: 'fast',
+		event: 'click',
+		effect: 'fade'
+	});
+}); </script>
+
+		</div>
+		<!-- end #container -->
+</body>
+</html>

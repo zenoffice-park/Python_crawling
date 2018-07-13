@@ -1,0 +1,365 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- CSS -->
+
+  <link href="//cdn.shopify.com/s/files/1/0009/6894/9811/t/2/assets/password.scss.css?12272133303574083634" rel="stylesheet" type="text/css" media="all" />
+	
+
+  <link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css" media="all" />
+
+
+  
+
+    <link href="//fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet" type="text/css" media="all" />
+  
+
+
+	<title>ログイン</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+  <meta id="shopify-digital-wallet" name="shopify-digital-wallet" content="/968949811/digital_wallets/dialog">
+<style>.shopify-payment-button__button--hidden {
+  visibility: hidden;
+}
+
+.shopify-payment-button__button {
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 0 0 0 transparent;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  width: 100%;
+  transition: background 0.2s ease-in-out;
+}
+
+.shopify-payment-button__button[disabled] {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.shopify-payment-button__button--unbranded {
+  background-color: #1990c6;
+  padding: 1em 2em;
+}
+
+.shopify-payment-button__button--unbranded:hover:not([disabled]) {
+  background-color: #136f99;
+}
+
+.shopify-payment-button__more-options {
+  background: transparent;
+  border: 0 none;
+  cursor: pointer;
+  display: block;
+  font-size: 1em;
+  margin-top: 1em;
+  text-align: center;
+  width: 100%;
+}
+
+.shopify-payment-button__more-options:hover:not([disabled]) {
+  text-decoration: underline;
+}
+
+.shopify-payment-button__more-options[disabled] {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.shopify-payment-button__button--branded {
+  display: flex;
+  flex-direction: column;
+  min-height: 44px;
+  position: relative;
+  z-index: 1;
+}
+
+.shopify-payment-button__button--branded .shopify-cleanslate {
+  flex: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+</style>
+<script>var Shopify = Shopify || {};
+Shopify.shop = "matilda-tokyo.myshopify.com";
+Shopify.theme = {"name":"Flow","id":12504170547,"theme_store_id":801,"role":"main"};
+Shopify.theme.handle = "null";
+Shopify.theme.style = {"id":null,"handle":null};
+</script>
+<script>(function() {
+  function asyncLoad() {
+    var urls = ["https:\/\/chimpstatic.com\/mcjs-connected\/js\/users\/092d83a35479a5709fca1c806\/e7a2506bb0bbc613b4f530495.js?shop=matilda-tokyo.myshopify.com"];
+    for (var i = 0; i < urls.length; i++) {
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = urls[i];
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+    }
+  };
+  if(window.attachEvent) {
+    window.attachEvent('onload', asyncLoad);
+  } else {
+    window.addEventListener('load', asyncLoad, false);
+  }
+})();
+</script>
+<script id="__st">var __st={"a":968949811,"offset":32400,"reqid":"cf20c018-d809-41b9-90a0-5959a0e010ac","pageurl":"matilda.jp\/password","u":"da980cd91516","p":"password"};</script>
+<script>window.ShopifyPaypalV4VisibilityTracking = true;</script>
+<script>window.Shopify = window.Shopify || {};
+window.Shopify.Checkout = window.Shopify.Checkout || {};
+window.Shopify.Checkout.apiHost = "matilda-tokyo.myshopify.com";
+window.ShopifyPay = window.ShopifyPay || {};
+window.ShopifyPay.acceleratedFlowIncontext = false;
+window.ShopifyPay.apiHost = "pay.shopify.com";
+window.ShopifyPay.apiToken = "dnBiK01XZTdHamMybFVQMlBRa0NwNlJ3MWkzTFN3Tmh0cHpaYjBKTUYzQT0tLWFEdTU5NS9JVDNsMnlqNE1RK2hmOUE9PQ==--e6180e73b5092e1f8a864212a4bd9c69284d8adc";
+window.ShopifyPay.requestHost = "matilda.jp"
+window.ShopifyPay.sheetStyleSheetUrl = "\/\/cdn.shopify.com\/s\/assets\/shared\/sheet\/main-9591cdb8fc78ba1acaca189815e8d30f2513988b8b83f4a84c83115fcae19d76.css";
+</script>
+<script>
+      window.ShopifyAnalytics = window.ShopifyAnalytics || {};
+      window.ShopifyAnalytics.meta = window.ShopifyAnalytics.meta || {};
+      window.ShopifyAnalytics.meta.currency = 'JPY';
+      var meta = {"page":{"pageType":"password"}};
+      for (var attr in meta) {
+        window.ShopifyAnalytics.meta[attr] = meta[attr];
+      }
+    </script>
+<script>window.ShopifyAnalytics.merchantGoogleAnalytics = function() {
+  
+};
+</script>
+<script class="analytics">
+
+
+(function () {
+  var customDocumentWrite = function(content) {
+    var jquery = null;
+
+    if (window.jQuery) {
+      jquery = window.jQuery;
+    } else if (window.Checkout && window.Checkout.$) {
+      jquery = window.Checkout.$;
+    }
+
+    if (jquery) {
+      jquery('body').append(content);
+    }
+  };
+
+  var trekkie = window.ShopifyAnalytics.lib = window.trekkie = window.trekkie || [];
+  if (trekkie.integrations) {
+    return;
+  }
+  trekkie.methods = [
+    'identify',
+    'page',
+    'ready',
+    'track',
+    'trackForm',
+    'trackLink'
+  ];
+  trekkie.factory = function(method) {
+    return function() {
+      var args = Array.prototype.slice.call(arguments);
+      args.unshift(method);
+      trekkie.push(args);
+      return trekkie;
+    };
+  };
+  for (var i = 0; i < trekkie.methods.length; i++) {
+    var key = trekkie.methods[i];
+    trekkie[key] = trekkie.factory(key);
+  }
+  trekkie.load = function(config) {
+    trekkie.config = config;
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.onerror = function(e) {
+      (new Image()).src = '//v.shopify.com/internal_errors/track?error=trekkie_load';
+    };
+    script.async = true;
+    script.src = 'https://cdn.shopify.com/s/javascripts/tricorder/trekkie.storefront.min.js?v=2017.09.05.1';
+    var first = document.getElementsByTagName('script')[0];
+    first.parentNode.insertBefore(script, first);
+  };
+  trekkie.load(
+    {"Trekkie":{"appName":"storefront","development":false,"defaultAttributes":{"shopId":968949811,"isMerchantRequest":null,"themeId":12504170547,"themeCityHash":15215783878932493875}},"Performance":{"navigationTimingApiMeasurementsEnabled":true,"navigationTimingApiMeasurementsSampleRate":1.0},"Session Attribution":{}}
+  );
+
+  var loaded = false;
+  trekkie.ready(function() {
+    if (loaded) return;
+    loaded = true;
+
+    window.ShopifyAnalytics.lib = window.trekkie;
+    
+
+    var originalDocumentWrite = document.write;
+    document.write = customDocumentWrite;
+    try { window.ShopifyAnalytics.merchantGoogleAnalytics.call(this); } catch(error) {};
+    document.write = originalDocumentWrite;
+
+    
+        window.ShopifyAnalytics.lib.page(
+          null,
+          {"pageType":"password"}
+        );
+      
+    
+  });
+
+  
+      var eventsListenerScript = document.createElement('script');
+      eventsListenerScript.async = true;
+      eventsListenerScript.src = "//cdn.shopify.com/s/assets/shop_events_listener-f2c5800305098f0ebebdfa7d980c9abf56514c46d5305e97a7c476f7c9116163.js";
+      document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);
+    
+})();
+</script>
+<script defer="defer" integrity="sha256-qhF2cfCYNFAl0umvIOrU7EMiySlENmgKI12SDbDaDWY=" crossorigin="anonymous" src="//cdn.shopify.com/s/assets/storefront/express_buttons-aa117671f098345025d2e9af20ead4ec4322c9294436680a235d920db0da0d66.js"></script>
+
+
+<link rel="canonical" href="https://matilda.jp/password">
+</head>
+
+<body>
+
+  <div class="background-overlay">
+
+    
+
+
+
+<div id="shopify-section-password-template" class="shopify-section"><style>
+
+body{
+  color: #000000;
+  background-color: #ffffff;
+}
+
+a{
+  color: #000000;
+}
+
+.password--main{
+  background-color: #ffffff;
+}
+
+
+
+</style>
+
+<header id="site-header" style="display: none;">
+	<div class="site-header--inner">
+		<form method="post" action="/password" id="login_form" accept-charset="UTF-8" class="storefront-password-form"><input type="hidden" name="form_type" value="storefront_password" /><input type="hidden" name="utf8" value="✓" />
+			
+			<div class="form-group">
+			<label for='password'>パスワードを使用してショップに入る</label>
+			<div class="input-group">
+			<input type='password' name='password' id='password' class="form-control password--input" autofocus />
+			<span class="input-group-btn"><input class="btn btn-default" name="commit" type="submit" value="続ける" /></span>
+			</div>
+			</div>
+		</form>
+		<p class="password--store-owner">あなたはショップのオーナーですか？ <a href="/admin">ここにログイン</a>するか、<a href="/admin/online_store/preferences?tutorial=unlock">パスワードの設定を変更する</a></p>
+		<div class="password--close"><a href="#"><img src="//cdn.shopify.com/s/files/1/0009/6894/9811/t/2/assets/close.png?12272133303574083634" alt="Close" /></a></div>
+	</div>
+</header>
+
+<div class="password--wrapper">
+
+	<div class="password--main">
+
+		<div class="password--logo">
+      
+        Select Shop Matilda
+      
+		</div>
+
+		
+			<div class="welcome-message custom-font">
+				<h1>ただいまストアの準備中です</h1>
+			</div>
+		
+
+    
+
+		<div class="password--mailing-list">
+			<form method="post" action="/contact#contact_form" id="contact_form" accept-charset="UTF-8" class="contact-form"><input type="hidden" name="form_type" value="customer" /><input type="hidden" name="utf8" value="✓" />
+				
+				
+				<div class="form-group">
+					<label for="email">Find out when we open</label>
+					<div class="input-group">
+						<input type="hidden" name="contact[tags]" value="prospect, password page">
+						<input type="email" name="contact[email]" id="email" placeholder="email@matilda.tokyo" class="form-control password--input">
+						<span class="input-group-btn"><input type="submit" value="申し込む" class="btn btn-default"></span>
+					</div>
+				</div>
+				
+			</form>
+		</div>
+
+    
+
+    
+      
+
+    
+
+		<div id="password--site-owner-options">
+			<p><a href="#" id="password-show">パスワードを使用してショップに入る</a></p>
+		</div>
+
+		<div id="footer">
+			<div id='powered'>
+				このストアは、<a href="http://www.shopify.com"> Shopify </a>によって提供されます
+			</div>
+		</div>
+
+	</div>
+
+
+
+</div>
+
+
+</div>
+
+
+  </div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+function onload() {
+	document.getElementById('password').focus();
+	$( "#password-show" ).click(function() {
+	  $( "#site-header" ).slideToggle( "slow");
+	});
+	$( ".password--close a" ).click(function() {
+	  $( "#site-header" ).slideToggle( "slow");
+	});
+	$(function() {
+	  if ( $('.storefront-password-form .errors').size() ) {
+	    $( "#site-header" ).slideToggle( "slow");
+	  }
+	});
+}
+document.addEventListener('shopify:section:load', onload);
+$(document).ready(onload);
+</script>
+
+</body>
+</html>

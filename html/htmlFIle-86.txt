@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="ja" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://www.chameleonline.jp/shops/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="http://www.chameleonline.jp/shops/wp-content/themes/twentyfifteen/js/html5.js"></script>
+	<![endif]-->
+    
+<style type="text/css">
+	
+#utilities {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: .6rem;
+    color: #fff;
+    z-index: 99;
+}
+
+#utilities ul {
+    position: relative;
+    background: #e5e0da;
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+#utilities li {
+    width: 33.3% !important;
+    float: left;
+    box-sizing: border-box;
+}
+
+#utilities a {
+    display: block;
+    text-align: center;
+    color: inherit;
+    padding: 0.5rem 3.5px;
+}
+
+.shadow {
+    box-shadow: 0px 1px 21px rgba(0, 0, 0, 0.8);
+}
+
+.kaisoku {
+	display:none;
+}
+
+@media screen and (max-width: 780px) {
+
+
+.kaisoku {
+    padding-top: 1em;
+	display:block;
+}
+
+.kaisoku a,.kaitori-button a
+ {
+    color: #fff;
+}
+
+.kaisoku ul {
+    text-align: justify;
+    padding: 0 .5em;
+}
+
+.kaisoku ul li {
+display: inline-block;
+    text-align: center;
+    background: linear-gradient(#38d494, #21a368);
+    padding: 0 .5em;
+    box-sizing: border-box;
+    border-radius: .5em;
+    font-size: 11px;
+    width: 32%;
+    color: #fff;
+    line-height: 1.5;
+    border-bottom: solid 1px #565656;
+    border-right: solid 1px #565656;
+    border-top: solid 1px #fff;
+    border-left: solid 1px #fff;
+    height: 65px;
+    vertical-align: top;
+}
+
+.kaisoku ul:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 0;
+}
+
+.kaisoku li:nth-child(n+2) p {
+    padding: .7em 0;
+}
+.kaisoku li:nth-child(3) {
+    background: linear-gradient(#4ad1ff, #006d92);
+}
+
+.kaisoku ul li:first-child {
+    background: linear-gradient(#ffde00, #ffa600);
+}
+	
+}
+
+
+</style>
+
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>お問い合わせ &#8211; カメレオンクラブ</title>
+
+<!-- All in One SEO Pack 2.5 by Michael Torbert of Semper Fi Web Design[-1,-1] -->
+<meta name="description"  content="ゲーム・フィギュアなどホビー商品の高額買取専門店カメレオンクラブでは、ゲームやトレカはもちろん、エアガン・ホットトイズ・鉄道模型・ミニカー・超合金など、各種ホビー商品を買取りしております。業界最高額提示と即日対応による買取り。ゲームやトレカ、フィギュアの買取に関するお問い合わせについて" />
+
+<meta name="keywords"  content="ゲーム買取,フィギュア買取" />
+
+<link rel="canonical" href="http://www.chameleonline.jp/contact/" />
+<!-- /all in one seo pack -->
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="カメレオンクラブ &raquo; フィード" href="http://www.chameleonline.jp/feed/" />
+<link rel="alternate" type="application/rss+xml" title="カメレオンクラブ &raquo; コメントフィード" href="http://www.chameleonline.jp/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.chameleonline.jp\/shops\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.7"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.chameleonline.jp/shops/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-mobile-css'  href='http://www.chameleonline.jp/shops/wp-content/themes/customize/js/jquery-mobile/jquery.mobile.structure-1.4.5.min.css?ver=1.4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfifteen-fonts-css'  href='https://fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css'  href='http://www.chameleonline.jp/shops/wp-content/themes/twentyfifteen/genericons/genericons.css?ver=3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfifteen-style-css'  href='http://www.chameleonline.jp/shops/wp-content/themes/customize/style.css?ver=4.9.7' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfifteen-ie-css'  href='http://www.chameleonline.jp/shops/wp-content/themes/twentyfifteen/css/ie.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='twentyfifteen-ie7-css'  href='http://www.chameleonline.jp/shops/wp-content/themes/twentyfifteen/css/ie7.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='http://www.chameleonline.jp/shops/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='http://www.chameleonline.jp/shops/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://www.chameleonline.jp/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.chameleonline.jp/shops/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.chameleonline.jp/shops/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.7" />
+<link rel='shortlink' href='http://www.chameleonline.jp/?p=1514' />
+<link rel="alternate" type="application/json+oembed" href="http://www.chameleonline.jp/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.chameleonline.jp%2Fcontact%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://www.chameleonline.jp/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.chameleonline.jp%2Fcontact%2F&#038;format=xml" />
+
+</head>
+
+<body class="page-template-default page page-id-1514">
+<div id="page" class="hfeed site" data-role="page">
+<a class="skip-link screen-reader-text" href="#content">コンテンツへスキップ</a>
+<header id="masthead" class="shadow site-header" role="banner" data-role="header" data-position="fixed" data-tap-toggle="false"><div class="fix">
+<p class="site-description">エアガン、ゲーム、フィギュア高価買取｜ORBITAL(オービタル)+カメレオンクラブ</p><div class="site-branding">
+	<div class="site-name"><a href="http://www.chameleonline.jp/" rel="home">カメレオンクラブ</a></div>
+	<span class="phone"><a href="tel:0120-091-619">0120-091-619</a></span>	<a href="#drawer-menu" class="jqm-link"></a>
+</div>
+</div></header>
+<nav id="menu-primary" class="navigation ui-content menu" role="navigation"><ul><li id="menu-item-7083" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-7083"><a href="http://www.chameleonline.jp">HOME</a></li>
+<li id="menu-item-7084" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7084"><a href="/flow/">即日買取の流れ</a></li>
+<li id="menu-item-7085" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7085"><a href="/service/">買取サービス</a></li>
+<li id="menu-item-7086" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7086"><a href="/item/">買取アイテム</a></li>
+<li id="menu-item-7087" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7087"><a href="/shops/">買取センターのご案内</a></li>
+<li id="menu-item-7088" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7088"><a href="/inquiry/">かんたん査定</a></li>
+<li id="menu-item-7089" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7089"><a href="/sell/">通販サイト</a></li>
+</ul></nav><div id="content" class="site-content ui-content">
+
+<div class="kaisoku">
+<ul>
+<li>
+<p><a href="http://www.chameleonline.jp/gametrg-sp/" class="ui-link" data-ajax="false">ゲーム&amp;トレカ<br>
+買取</a></p>
+</li>
+<li>
+<p><a href="http://www.chameleonline.jp/sp/" class="ui-link" data-ajax="false">ホビー買取</a></p>
+</li>
+<li>
+<p><a href="http://www.orbital.site/category/sell"  target="_blank" class="ui-link" data-ajax="false">通販</a></p>
+</li>
+</ul>
+</div>
+
+<div class="fix">
+<div id="breadcrumbs"><!-- Breadcrumb NavXT 6.0.4 -->
+<span typeof="v:Breadcrumb"><a rel="v:url" property="v:title" title="Go to カメレオンクラブ" href="http://www.chameleonline.jp" class="home">カメレオンクラブ</a></span> &gt; <span property="itemListElement" typeof="ListItem"><span property="name">お問い合わせ</span><meta property="position" content="2"></span></div><main id="main" class="site-main" role="main">
+<article id="post-1514" class="post-1514 page type-page status-publish hentry">
+<header class="entry-header">
+<h1 class="entry-title">お問い合わせ</h1></header>
+<div class="entry-thumbnail"></div>
+<div class="entry-content">
+<p>お問い合わせはお気軽に。<br />
+ご不明な点、お品物のご質問などございましたら、メールまたはお電話にてご連絡下さい。</p>
+<p>Tel：0120-091-619</p>
+<p>担当：蜷川、多賀谷</p>
+<p>下記の査定フォームからもご連絡頂けます。「その他」の欄に、ご質問やご意見などご記載下さい。<br />
+お客様からのお問い合わせお待ちしております。<br />
+※パソコンのお客様は、その他の欄の右下部分をクリック頂きまして、クリックした状態でマウスを動かして頂きますと、枠が広がり記載しやすくなります。</p>
+<div role="form" class="wpcf7" id="wpcf7-f1460-p1514-o1" lang="ja" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="/contact/#wpcf7-f1460-p1514-o1" method="post" class="wpcf7-form" enctype="multipart/form-data" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="1460" />
+<input type="hidden" name="_wpcf7_version" value="5.0.1" />
+<input type="hidden" name="_wpcf7_locale" value="ja" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1460-p1514-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="1514" />
+</div>
+<div class="grid grid-a">
+<div class="grid-item-a">
+<p>1、お品物について（必須）<br><span class="wpcf7-form-control-wrap menu-474"><select name="menu-474" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false"><option value="">---</option><option value="ゲーム">ゲーム</option><option value="エアガン">エアガン</option><option value="鉄道模型">鉄道模型</option><option value="フィギュア">フィギュア</option><option value="おもちゃ">おもちゃ</option><option value="超合金">超合金</option><option value="その他">その他</option></select></span></p>
+<p>2、お品物の種類や商品名・タイトルなど（必須）<br><span class="wpcf7-form-control-wrap text-832"><input type="text" name="text-832" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="東京マルイ　エアガン　HK417 アーリーバリアント" /></span></p>
+<p>3、複数ある場合はジャンルを問わずタイトルをご記入下さい<br><span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span></p>
+<p>画像（無くても可）<br><span class="wpcf7-form-control-wrap file-836"><input type="file" name="file-836" size="40" class="wpcf7-form-control wpcf7-file" accept=".jpg,.JPG,.zip,.gif,.png,.pdf" aria-invalid="false" /></span></p>
+<p>画像（無くても可）<br><span class="wpcf7-form-control-wrap file-837"><input type="file" name="file-837" size="40" class="wpcf7-form-control wpcf7-file" accept=".jpg,.JPG,.zip,.gif,.png,.pdf" aria-invalid="false" /></span></p>
+<p>画像（無くても可）<br><span class="wpcf7-form-control-wrap file-838"><input type="file" name="file-838" size="40" class="wpcf7-form-control wpcf7-file" accept=".jpg,.JPG,.zip,.gif,.png,.pdf" aria-invalid="false" /></span></p>
+</div>
+<div class="grid-item-b">
+<p>お名前（必須）<br><span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span></p>
+<p>電話番号（必須）<br><span class="wpcf7-form-control-wrap your-tel"><input type="tel" name="your-tel" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" /></span></p>
+<p>お住まいの地域<br><span class="wpcf7-form-control-wrap your-pref"><select name="your-pref" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false"><option value="">---</option><option value="北海道">北海道</option><option value="青森">青森</option><option value="岩手">岩手</option><option value="宮城">宮城</option><option value="秋田">秋田</option><option value="山形">山形</option><option value="福島">福島</option><option value="新潟">新潟</option><option value="長野">長野</option><option value="富山">富山</option><option value="石川">石川</option><option value="福井">福井</option><option value="東京">東京</option><option value="神奈川">神奈川</option><option value="埼玉">埼玉</option><option value="千葉">千葉</option><option value="茨城">茨城</option><option value="栃木">栃木</option><option value="群馬">群馬</option><option value="山梨">山梨</option><option value="愛知">愛知</option><option value="岐阜">岐阜</option><option value="静岡">静岡</option><option value="三重">三重</option><option value="大阪">大阪</option><option value="兵庫">兵庫</option><option value="京都">京都</option><option value="滋賀">滋賀</option><option value="奈良">奈良</option><option value="和歌山">和歌山</option><option value="鳥取">鳥取</option><option value="島根">島根</option><option value="岡山">岡山</option><option value="広島">広島</option><option value="山口">山口</option><option value="徳島">徳島</option><option value="香川">香川</option><option value="愛媛">愛媛</option><option value="高知">高知</option><option value="福岡">福岡</option><option value="佐賀">佐賀</option><option value="長崎">長崎</option><option value="熊本">熊本</option><option value="大分">大分</option><option value="宮崎">宮崎</option><option value="鹿児島">鹿児島</option><option value="沖縄">沖縄</option></select></span></p>
+<p>メールアドレス（必須）<br><span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" /></span></p>
+<p>備考<br><br><span class="wpcf7-form-control-wrap text-833"><input type="text" name="text-833" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" /></span></p>
+</div>
+</div>
+<p><input type="submit" value="GO！" class="wpcf7-form-control wpcf7-submit" /></p>
+<div style="margin-top:20px;"><a href="tel:0120091619" onClick="ga('send', 'event',  'タップ', 'tel', '0120996686');"><img src="http://www.chameleonline.jp/shops/wp-content/uploads/2015/12/call01.png"></a></div>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
+</div>
+<footer class="entry-footer">
+</footer>
+</article></main>
+<div id="sidebar" class="sidebar" role="complementary">
+<aside id="text-2" class="widget widget_text"><h2 class="widget-title">ご案内</h2>			<div class="textwidget"><p class="center"><a href="/shops/"><img src="http://www.chameleonline.jp/shops/wp-content/uploads/2015/12/shopicon.png" alt="買取店舗案内"></a></p>
+</div>
+		</aside><aside id="text-3" class="widget widget_text">			<div class="textwidget"><p class="center"><a href="/results/"><img src="http://www.chameleonline.jp/shops/wp-content/uploads/2015/12/jisseki1.png" alt="買取実績案内"></a></p>
+</div>
+		</aside><aside id="text-4" class="widget widget_text"><h2 class="widget-title">買取商品</h2>			<div class="textwidget"><p class="center"><a href="/gun/"><img src="http://www.chameleonline.jp/shops/wp-content/themes/customize/img/P001.png" alt="エアガン買取"></a></p>
+<p class="center"><a href="/gun/"><img src="http://www.chameleonline.jp/shops/wp-content/themes/customize/img/P002.png" alt="モデルガン買取"></a></p>
+<p class="center"><a href="/hottoys/"><img src="http://www.chameleonline.jp/shops/wp-content/themes/customize/img/P003.png" alt="ホットトイズ"></a></p>
+<p class="center"><a href="/figure/"><img src="http://www.chameleonline.jp/shops/wp-content/themes/customize/img/P004.png" alt="フィギュア買取"></a></p>
+<p class="center"><a href="/retro/"><img src="http://www.chameleonline.jp/shops/wp-content/themes/customize/img/P005.png" alt="レトロゲーム"></a></p>
+<p class="center"><a href="/hobby/"><img src="http://www.chameleonline.jp/shops/wp-content/themes/customize/img/P006.png" alt="ホビートイ"></a></p>
+<p class="center"><a href="/train/"><img src="http://www.chameleonline.jp/shops/wp-content/themes/customize/img/P007.png" alt="鉄道模型買取"></a></p>
+<p class="center"><a href="/model/"><img src="http://www.chameleonline.jp/shops/wp-content/themes/customize/img/P009.png" alt="ラジコンプラモ"></a></p>
+<p class="center"><a href="/minicar/"><img src="http://www.chameleonline.jp/shops/wp-content/themes/customize/img/P008.png" alt="ミニカー"></a></p>
+<p class="center"><img src="http://www.chameleonline.jp/shops/wp-content/themes/customize/img/P011.png" alt="ミリタリーウォッチ"></p>
+<p class="center"><img src="http://www.chameleonline.jp/shops/wp-content/themes/customize/img/P012.png" alt="ナイフ"></p>
+<p class="center"><a href="/game/"><img src="http://www.chameleonline.jp/shops/wp-content/themes/customize/img/kaitori_tvgame.png" alt="ゲーム"></a></p>
+<p class="center"><a href="/item/card/"><img src="http://www.chameleonline.jp/shops/wp-content/themes/customize/img/kaitori_toreka.png" alt="トレカ"></a></p>
+<p class="center"><a href="/rider/"><img src="http://www.chameleonline.jp/shops/wp-content/themes/customize/img/kaitori_rider.png" alt="仮面ライダー"></a></p>
+<p class="center"><a href="/chougoukin/"><img src="http://www.chameleonline.jp/shops/wp-content/themes/customize/img/kaitori_chogokin.png" alt="超合金"></a></p>
+</div>
+		</aside><aside id="nav_menu-2" class="widget widget_nav_menu"><h2 class="widget-title">買取実績</h2><div class="menu-%e8%b2%b7%e5%8f%96%e3%82%b8%e3%83%a3%e3%83%b3%e3%83%ab%e5%88%a5%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%b9-container"><ul id="menu-%e8%b2%b7%e5%8f%96%e3%82%b8%e3%83%a3%e3%83%b3%e3%83%ab%e5%88%a5%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%b9" class="menu"><li id="menu-item-7109" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7109"><a href="http://www.chameleonline.jp/gun/guns-results">エアガン・モデルガン買取実績</a></li>
+<li id="menu-item-7110" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7110"><a href="http://www.chameleonline.jp/hottoys/hottoyses-results">ホットトイズ買取実績</a></li>
+<li id="menu-item-7111" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7111"><a href="http://www.chameleonline.jp/figure/figures-results/">フィギュア買取実績</a></li>
+<li id="menu-item-7112" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7112"><a href="http://www.chameleonline.jp/retro/retros-results/">レトロゲーム買取実績</a></li>
+<li id="menu-item-7113" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7113"><a href="http://www.chameleonline.jp/game/games-results/">ゲーム買取実績</a></li>
+<li id="menu-item-7114" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7114"><a href="http://www.chameleonline.jp/card/cards-results/">遊戯王などトレカ買取実績</a></li>
+<li id="menu-item-7115" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7115"><a href="http://www.chameleonline.jp/rider/riders-results/">仮面ライダー買取実績</a></li>
+<li id="menu-item-7116" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7116"><a href="http://www.chameleonline.jp/chougoukin/chougoukins-results/">超合金買取実績</a></li>
+<li id="menu-item-7108" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7108"><a href="http://www.chameleonline.jp/train/trains-results">鉄道模型買取実績</a></li>
+<li id="menu-item-7107" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7107"><a href="http://www.chameleonline.jp/model/models-results">ラジコン・プラモ買取実績</a></li>
+<li id="menu-item-7106" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7106"><a href="http://www.chameleonline.jp/minicar/minicars-results">ミニカー買取実績</a></li>
+</ul></div></aside><aside id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widget-title">タグ</h2><div class="tagcloud"><ul class='wp-tag-cloud' role='list'>
+	<li><a href="http://www.chameleonline.jp/tag/ics/" class="tag-cloud-link tag-link-121 tag-link-position-1" style="font-size: 8pt;" aria-label="ICS (1個の項目)">ICS</a></li>
+	<li><a href="http://www.chameleonline.jp/tag/ksc/" class="tag-cloud-link tag-link-74 tag-link-position-2" style="font-size: 8pt;" aria-label="KSC (1個の項目)">KSC</a></li>
+	<li><a href="http://www.chameleonline.jp/tag/%e3%82%a8%e3%82%a2%e3%82%ac%e3%83%b3/" class="tag-cloud-link tag-link-75 tag-link-position-3" style="font-size: 22pt;" aria-label="エアガン (4個の項目)">エアガン</a></li>
+	<li><a href="http://www.chameleonline.jp/tag/%e3%82%ac%e3%82%b9%e3%82%ac%e3%83%b3/" class="tag-cloud-link tag-link-76 tag-link-position-4" style="font-size: 8pt;" aria-label="ガスガン (1個の項目)">ガスガン</a></li>
+	<li><a href="http://www.chameleonline.jp/tag/%e3%82%ac%e3%82%b9%e3%82%ac%e3%83%b3%e8%b2%b7%e5%8f%96/" class="tag-cloud-link tag-link-77 tag-link-position-5" style="font-size: 8pt;" aria-label="ガスガン買取 (1個の項目)">ガスガン買取</a></li>
+	<li><a href="http://www.chameleonline.jp/tag/%e3%82%b0%e3%83%ac%e3%83%8d%e3%83%bc%e3%83%89%e3%83%a9%e3%83%b3%e3%83%81%e3%83%a3%e3%83%bc/" class="tag-cloud-link tag-link-122 tag-link-position-6" style="font-size: 8pt;" aria-label="グレネードランチャー (1個の項目)">グレネードランチャー</a></li>
+	<li><a href="http://www.chameleonline.jp/tag/%e3%82%b7%e3%83%a5%e3%82%a2%e3%83%95%e3%82%a1%e3%82%a4%e3%82%a2/" class="tag-cloud-link tag-link-78 tag-link-position-7" style="font-size: 8pt;" aria-label="シュアファイア (1個の項目)">シュアファイア</a></li>
+	<li><a href="http://www.chameleonline.jp/tag/%e3%82%bf%e3%82%ab%e3%83%a9%e3%83%88%e3%83%9f%e3%83%bc/" class="tag-cloud-link tag-link-79 tag-link-position-8" style="font-size: 8pt;" aria-label="タカラトミー (1個の項目)">タカラトミー</a></li>
+	<li><a href="http://www.chameleonline.jp/tag/%e3%83%95%e3%82%a3%e3%82%ae%e3%83%a5%e3%82%a2/" class="tag-cloud-link tag-link-80 tag-link-position-9" style="font-size: 8pt;" aria-label="フィギュア (1個の項目)">フィギュア</a></li>
+	<li><a href="http://www.chameleonline.jp/tag/%e3%83%95%e3%83%a9%e3%83%b3%e3%82%af%e3%83%aa%e3%83%b3%e3%83%bb%e3%83%9f%e3%83%b3%e3%83%88/" class="tag-cloud-link tag-link-123 tag-link-position-10" style="font-size: 8pt;" aria-label="フランクリン・ミント (1個の項目)">フランクリン・ミント</a></li>
+	<li><a href="http://www.chameleonline.jp/tag/%e3%83%9e%e3%83%83%e3%83%89%e3%83%9e%e3%83%83%e3%82%af%e3%82%b9/" class="tag-cloud-link tag-link-120 tag-link-position-11" style="font-size: 8pt;" aria-label="マッドマックス (1個の項目)">マッドマックス</a></li>
+	<li><a href="http://www.chameleonline.jp/tag/%e3%83%9e%e3%83%ab%e3%82%b7%e3%83%b3/" class="tag-cloud-link tag-link-81 tag-link-position-12" style="font-size: 8pt;" aria-label="マルシン (1個の項目)">マルシン</a></li>
+	<li><a href="http://www.chameleonline.jp/tag/%e3%83%9f%e3%83%8b%e3%83%81%e3%83%a3%e3%83%b3%e3%83%97%e3%82%b9/" class="tag-cloud-link tag-link-82 tag-link-position-13" style="font-size: 8pt;" aria-label="ミニチャンプス (1個の項目)">ミニチャンプス</a></li>
+	<li><a href="http://www.chameleonline.jp/tag/%e3%83%a2%e3%83%87%e3%83%ab%e3%82%ac%e3%83%b3%e8%b2%b7%e5%8f%96/" class="tag-cloud-link tag-link-83 tag-link-position-14" style="font-size: 8pt;" aria-label="モデルガン買取 (1個の項目)">モデルガン買取</a></li>
+	<li><a href="http://www.chameleonline.jp/tag/%e3%83%a9%e3%82%b8%e3%82%b3%e3%83%b3%e8%b2%b7%e5%8f%96/" class="tag-cloud-link tag-link-84 tag-link-position-15" style="font-size: 14.3pt;" aria-label="ラジコン買取 (2個の項目)">ラジコン買取</a></li>
+	<li><a href="http://www.chameleonline.jp/tag/%e6%9d%b1%e4%ba%ac%e3%83%9e%e3%83%ab%e3%82%a4/" class="tag-cloud-link tag-link-85 tag-link-position-16" style="font-size: 18.5pt;" aria-label="東京マルイ (3個の項目)">東京マルイ</a></li>
+</ul>
+</div>
+</aside><aside id="text-5" class="widget widget_text"><h2 class="widget-title">サンキュー！SNS</h2>			<div class="textwidget"><div class="fb-page" data-href="https://www.facebook.com/%E3%82%AB%E3%83%A1%E3%83%AC%E3%82%AA%E3%83%B3%E3%82%AF%E3%83%A9%E3%83%96-120630211317711/" data-width="500" data-height="250" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" data-show-posts="true"></div>
+<a class="twitter-timeline" href="https://twitter.com/chameleon_kun" data-widget-id="677842479362629632">@chameleon_kunさんのツイート</a>
+</div>
+		</aside><aside id="text-6" class="widget widget_text">			<div class="textwidget"><p><!-- p class="center"><a href="http://www.amazon.co.jp/gp/node/index.html?ie=UTF8&me=A36SPWD20N54HU&merchant=A36SPWD20N54HU&node=2441582051&ref_=sv__platinum_img" target="_blank"><img src="http://www.chameleonline.jp/shops/wp-content/uploads/2014/11/bn-amazon.jpg" alt="top016" width="450" height="200" class="alignnone size-full wp-image-1663" /></p>
+
+</a --!>
+
+
+<p>検索窓に商品名を入れて検索！左側メニューがメンテナンス中なのでご注意ください。</p>
+
+
+
+
+<p class="center"><a href="http://sellinglist.auctions.yahoo.co.jp/user/chameleonclub_vg?ei=UTF-8&sid=kamezoucom&u=%3Bkamezoucom&auccat=25464&slider=0#localnavi" target="_blank"><img src="http://www.chameleonline.jp/shops/wp-content/uploads/2014/11/bn-yauc.jpg" alt="top016" width="450" height="200" class="alignnone size-full wp-image-1663" /></p>
+
+</a>
+</p>
+</div>
+		</aside><aside id="text-7" class="widget widget_text"><h2 class="widget-title">EVENT</h2>			<div class="textwidget"><p class="center"><a href="http://www.chameleonline.jp/AGlp/index.html"><img src="http://www.chameleonline.jp/AGlp/img/ag_bn.jpg" alt="エアガンイベント"></a></p>
+<p class="center"><a href="http://www.chameleonline.jp/event/tokuyama.html"><img src="http://www.chameleonline.jp/shops/wp-content/themes/customize/img/event_tokuyama.png" alt="徳山店イベント情報"></a></p>
+</div>
+		</aside><aside id="text-8" class="widget widget_text"><h2 class="widget-title">LINEで簡単査定</h2>			<div class="textwidget"><p class="cen ter"><a href="/line"><img src="http://www.chameleonline.jp/shops/wp-content/themes/customize/img/line-satei_sp.png" alt="カンタンLINEで査定"></a></p>
+</div>
+		</aside><aside id="text-9" class="widget widget_text"><h2 class="widget-title">通販サイトのご案内</h2>			<div class="textwidget"><p><a href="http://www.orbital.site/category/womens-fashion" target="_blank"><img SRC=http://www.josho.co.jp/auctions/menu/category_menu001.png WIDTH=200 HEIGHT=40></a><br />
+<a href="http://www.orbital.site/category/brand" target="_blank"><img SRC=http://www.josho.co.jp/auctions/menu/category_menu002.png WIDTH=200 HEIGHT=40></a><br />
+<a href="http://www.orbital.site/category/watch" target="_blank"><img SRC=http://www.josho.co.jp/auctions/menu/category_menu003.png WIDTH=200 HEIGHT=40></a><br />
+<a href="http://www.orbital.site/category/cameras" target="_blank"><img SRC=http://www.josho.co.jp/auctions/menu/category_menu004.png WIDTH=200 HEIGHT=40></a><br />
+<a href="http://www.orbital.site/category/electronics" target="_blank"><img SRC=http://www.josho.co.jp/auctions/menu/category_menu005.png WIDTH=200 HEIGHT=40></a><br />
+<a href="http://www.orbital.site/category/audio" target="_blank"><img SRC=http://www.josho.co.jp/auctions/menu/category_menu006.png WIDTH=200 HEIGHT=40></a><br />
+<a href="http://www.orbital.site/category/toys" target="_blank"><img SRC=http://www.josho.co.jp/auctions/menu/category_menu007.png WIDTH=200 HEIGHT=40></a><br />
+<a href="http://www.orbital.site/category/bike" target="_blank"><img SRC=http://www.josho.co.jp/auctions/menu/category_menu008.png WIDTH=200 HEIGHT=40></a><br />
+<a href="http://www.orbital.site/category/toys" target="_blank"><img SRC=http://www.josho.co.jp/auctions/menu/category_menu009.png WIDTH=200 HEIGHT=40></a><br />
+<a href="http://www.orbital.site/category/toys" target="_blank"><img SRC=http://www.josho.co.jp/auctions/menu/category_menu010.png WIDTH=200 HEIGHT=40></a><br />
+<a href="http://www.orbital.site/category/musical-Instrument" target="_blank"><img SRC=http://www.josho.co.jp/auctions/menu/category_menu011.png WIDTH=200 HEIGHT=40></a></p>
+</div>
+		</aside><aside id="text-10" class="widget widget_text"><h2 class="widget-title">法人のお客様</h2>			<div class="textwidget"><p class="center"><a href="/business/"><img src="http://www.chameleonline.jp/shops/wp-content/uploads/2016/06/oyfb.jpg" alt="法人在庫買取" width="180" height="70" class="alignnone size-full wp-image-1467" /></a></p>
+</div>
+		</aside></div>
+</div></div>
+<footer id="colophon" class="site-footer" role="contentinfo" data-role="footer"><div 
+
+class="fix">
+<nav id="menu-footer" class="navigation menu" 
+
+role="navigation"><ul><li id="menu-item-7092" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-7092"><a href="/">HOME</a></li>
+<li id="menu-item-7093" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1514 current_page_item menu-item-7093"><a href="/contact/">お問い合わせ</a></li>
+<li id="menu-item-7094" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7094"><a href="/faq/">よくある質問</a></li>
+<li id="menu-item-7095" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7095"><a href="/company-2/">運営会社</a></li>
+<li id="menu-item-7096" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7096"><a href="/rules/">古物営業法に基づく表記</a></li>
+<li id="menu-item-7097" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7097"><a href="/inquiry/">かんたん査定</a></li>
+</ul></nav><div class="copyright">Copyright 2018 カメレオンクラブ All Rights Reserved.</div>
+</div></footer>
+<div id="utilities" class="navigation ui-content">
+<ul class="shadow cf">
+<li><a href="tel:0120091619" class="ui-link" data-ajax="false"><img src="http://www.orbital.site/lp/img/takuhai/sp/footer-tel.png"></a></li>
+<li><a href="https://line.me/R/ti/p/%40ylo8495q" class="ui-link" data-ajax="false"><img src="http://www.orbital.site/lp/img/takuhai/sp/footer-line.png"></a></li>
+<li><a href="http://www.chameleonline.jp/satei-form/" class="ui-link" data-ajax="false"><img src="http://www.orbital.site/lp/img/takuhai/sp/footer-mail.png"></a></li>
+</ul></div>
+
+
+<!-- div id="utilities" class="navigation ui-content"><ul>
+<li><a href="tel:0120-091-619"><img src="http://www.chameleonline.jp/shops/wp-content/themes/customize/img/footer_tel.png"></a></li><li><a href="/inquiry/"><img src="http://www.chameleonline.jp/shops/wp-content/themes/customize/img/footer_net.png"></a></li></ul></div -->
+<nav id="drawer-menu" class="navigation menu" role="navigation" data-role="panel" data-position="right" data-display="push"><ul><li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1458 current_page_item menu-item-1509"><a href="/">HOME</a></li>
+<li style="margin:1em 1em .5em;">▽買取▽</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1504"><a href="/flow/">即日買取の流れ</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1505"><a href="/service/">買取サービス</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1507"><a href="/item/">買取商品</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1648"><a href="/shops/">買取店舗案内</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1508"><a href="/faq/">よくある質問</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1506"><a href="/inquiry/">かんたん査定</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/about/">カメレオンクラブとは</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/company-2/">運営会社</a></li>
+<li style="margin:1em 1em .5em;">▽通販▽</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://www.orbital.site/category/sell">通販サイトORBITAL</a></li>
+</ul></nav></div>
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/4629766.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-6919696-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if 
+
+(d.getElementById(id)) return;js = d.createElement(s);js.id = id;js.src = 
+
+"//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5";fjs.parentNode.insertBefore(js, 
+
+fjs);}(document, 'script', 'facebook-jssdk'));</script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test
+
+(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement
+
+(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore
+
+(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<!-- リマーケティング タグの Google コード -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 948592036;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/948592036/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/www.chameleonline.jp\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"\u3042\u306a\u305f\u304c\u30ed\u30dc\u30c3\u30c8\u3067\u306f\u306a\u3044\u3053\u3068\u3092\u8a3c\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002"}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.chameleonline.jp/shops/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.1'></script>
+<script type='text/javascript' src='http://www.chameleonline.jp/shops/wp-content/themes/customize/js/jquery-mobile/jquery.mobile-1.4.5.min.js?ver=1.4.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var screenReaderText = {"expand":"<span class=\"screen-reader-text\">\u30b5\u30d6\u30e1\u30cb\u30e5\u30fc\u3092\u5c55\u958b<\/span>","collapse":"<span class=\"screen-reader-text\">\u30b5\u30d6\u30e1\u30cb\u30e5\u30fc\u3092\u9589\u3058\u308b<\/span>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.chameleonline.jp/shops/wp-content/themes/customize/js/functions.js?ver=20151110'></script>
+<script type='text/javascript' src='http://www.chameleonline.jp/shops/wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js?ver=20141010'></script>
+<script type='text/javascript' src='http://www.chameleonline.jp/shops/wp-includes/js/wp-embed.min.js?ver=4.9.7'></script>
+</body>
+</html>

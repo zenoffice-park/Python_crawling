@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie6 lt_ie10 lt_ie9 lt_ie8 lt_ie7" lang="ja" prefix="og: http://ogp.me/ns# fb: http://www.facebook.com/2008/fbml"> <![endif]-->
+<!--[if IE 7 ]> <html class="ie7 lt_ie10 lt_ie9 lt_ie8" lang="ja" prefix="og: http://ogp.me/ns# fb: http://www.facebook.com/2008/fbml"> <![endif]-->
+<!--[if IE 8 ]> <html class="ie8 lt_ie10 lt_ie9" lang="ja" prefix="og: http://ogp.me/ns# fb: http://www.facebook.com/2008/fbml"> <![endif]-->
+<!--[if IE 9 ]> <html class="ie9 lt_ie10" lang="ja" prefix="og: http://ogp.me/ns# fb: http://www.facebook.com/2008/fbml"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="ja" prefix="og: http://ogp.me/ns# fb: http://www.facebook.com/2008/fbml"> <!--<![endif]-->
+<head>
+<!-- Google Tag Manager 1 -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-54Q7CXZ');</script>
+<!-- End Google Tag Manager 1 -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-828348-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<meta charset="UTF-8">
+<title>小田急不動産の分譲ブランド「リーフィア」 </title>
+<meta name="description" content="リーフィア,新築,分譲,一戸建て,戸建,マンション,宅地,土地,物件,不動産,住宅,検索,情報,小田急不動産,小田急線,小田急沿線">
+<meta name="keywords" content="「リーフィア」ブランドサイト。新築一戸建て、マンション、土地・宅地などをご紹介します。">
+<meta name="viewport" content="width=device-width, initial-scale=1" id="vp">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta property="og:title" content="小田急不動産の分譲ブランド「リーフィア」 ">
+<meta property="og:type" content="website">
+<meta property="og:image" content="//www.odakyu-life.com/img/common/fb.png">
+<meta property="og:url" content="">
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="index" href="/sitemap.xml">
+<link rel="start" href="/" title="Home">
+<!-- <link rel="canonical" href=""> -->
+<link rel="stylesheet" href="/css/style.css">
+<link rel="alternate" type="application/rss+xml" title="" href="https://bizsearch-asp.accelatech.com/bizasp/index.php?a=ANRS001&corpId=atc080079">
+<script src="/js/script.js"></script>
+
+<link rel="stylesheet" href="/css/slick.css">
+<script src="/js/libs/slick.min.js"></script>
+<script src="/js/libs/jquery.heightLine.js"></script>
+<script src="/js/libs/jquery.cookie.js"></script>
+<script src="/js/top.js"></script>
+<script>
+var KNS = {
+	_setBukkenId: function (id) {
+		if ($.cookie('leafia_recent')) {
+			var recents = $.cookie('leafia_recent').split(':');
+		} else {
+			var recents = [];
+		}
+		recents.push(id)
+		recents = recents.filter(function (x, i, self) {return self.indexOf(x) === i;});
+		$.cookie('leafia_recent', recents.join(':'), { expires: 90, path: '/' });
+	},
+	_postJump: function (){
+		var _url = 'https://www.odakyu-leafia.jp/script/form/343/81/index.php';
+		var _vals = [];
+		$('input[type=checkbox].house_checkbox:checked').each(function() {
+			_vals.push($(this).val());
+		});
+
+		var html = '<form method="post" action="'+_url+'" id="postjump" style="display:none;" target="_blank">';
+		for(var cnt=0;cnt<_vals.length;cnt++){
+			html += '<input type="hidden" name="data_0_1[]" value="'+_vals[cnt]+'" >';
+		}
+		html += '</form>';
+		$("body").append(html);
+		$('#postjump').submit();
+		$('#postjump').remove();
+	}
+};
+$(function() {
+	$('.area_inquiry .btn_inquiry a').on('click', function(e) {
+		KNS._postJump();
+		e.preventDefault();
+	});
+});
+</script>
+
+<script type="text/javascript">
+  ;(function(){
+    "use strict";
+    var global = this;
+    global.StDmp = {};
+    StDmp.afterFunc=function(stSegsArray){
+      if(stSegsArray.indexOf("a3q") >= 0){
+        $(".satori_mansion").show();
+      }else if(stSegsArray.indexOf("ak9") >= 0){
+        $(".satori_houseLand").show();
+      }else if(stSegsArray.indexOf("btk") >= 0){
+        $(".satori_non").show();
+      };
+    };
+  }).call(this);
+</script>
+<script type="text/javascript" id="_-s-js-_" src="//satori.segs.jp/s.js?c=8fbef167"></script>
+
+<script>
+// google analytics	
+</script>
+</head>
+<body class="top">
+
+<!--↓↓↓ tag_body ↓↓↓-->
+
+<!--SATORIタグ-->
+<script type="text/javascript" id="_-s-js-_" src="//satori.segs.jp/s.js?c=8fbef167"></script>
+<!-- end SATORIタグ -->
+
+<!-- WebAntenna -->
+<script type="text/javascript" src="//tr.webantenna.info/js/webantenna.js"></script>
+<script type="text/javascript">
+if ( typeof( webantenna ) == 'function' ) {
+ _wa.account = 'WA19bt-1';
+ webantenna();
+}
+</script>
+<noscript>
+<img width="1" height="1" alt="" src="//tr.webantenna.info/_webantenna.png?ga=WA19bt-1&amp;jse=0">
+</noscript>
+<!-- end WebAntenna -->
+
+<!--axYTMタグ-->
+<script type="text/javascript">
+  (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=LbJiJui";
+    s.parentNode.insertBefore(tagjs, s);
+  }());
+</script>
+<noscript>
+  <iframe src="//b.yjtag.jp/iframe?c=LbJiJui" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+<!--end axYTMタグ-->
+
+<!--↑↑↑ ag_body ↑↑↑-->
+
+<noscript><div class="noscript"><p>当サイトを快適にご利用いただくには、ブラウザでJavaScriptを有効にしてください。</p></div></noscript>
+<div class="legacy_ie_message"><p>お使いのブラウザはサポート対象外です。推奨のブラウザをご利用ください。</p></div>
+
+<header class="site_header">
+	<div class="btn_menu"><span>MENU</span></div>
+	<div class="rows_top">
+		<div class="inner">
+			<h1>小田急不動産の新築分譲「リーフィア」</h1>
+			<div class="site_id"><a href="/"><img src="/img/common/logo.png" alt="リーフィア LEAFIA" width="144" height="66"></a></div>
+			<link rel="alternate" type="application/rss+xml" title="" href="https://bizsearch-asp.accelatech.com/bizasp/index.php?a=ANRS001&corpId=atc080079">
+			<form name="AccelaBizSearchASPForm" id="bizsearchAspForm" action="https://bizsearch-asp.accelatech.com/bizasp/index.php" method="get" class="site_search hidden_sp">
+				<input type="text" name="q" value="" size="30" id="bizsearchAspQuery" class="search_input"> 
+				<input type="submit" value=" 検 索 " class="search_confirm">
+				<a href="http://bizsearch-asp.accelatech.com/bizasp/index.php?a=ANRS001&corpId=atc080079" class="search_rss"><img src="https://bizsearch-asp.accelatech.com/bizasp/images/rss.png" border=0 alt="rss" title="最新の更新一覧をRSSで配信"></a>
+				<input type="hidden" name="corpId" value="atc080079" id="bizsearchAspCorpId">
+				<input type="hidden" name="en" value="">
+				<input type="hidden" name="layout" value="">
+				<input type="hidden" name="hits" value="">
+				<div class="search_pw">Powered by <a href="http://www.accelatech.com/" target="_blank">Accela BizSearch</a></div>
+			</form>
+			
+			<p class="btn_contact hidden_sp"><a href="http://www.odakyu-fudosan.co.jp/contact/">お問い合わせ</a></p>
+		</div>
+	</div>
+	
+	<nav class="global_nav">
+		<div class="inner">
+			<ul>
+				<li><a href="/" class="current"><img src="/img/common/icon_nav_home.png" alt="ホーム" width="18" height="15" class="ro"></a></li>
+				<li class="nav_sec_list"><a href="/#sec_list">物件検索</a></li>
+				<li><a href="/brand/" class="">ブランドコンセプト</a></li>
+				<li><a href="/quality/" class="">住まいづくりのこだわり</a></li>
+				<li><a href="/leafiaclub/" class="">リーフィアクラブ</a></li>
+				<li><a href="/service/" class="">ご成約後のサービス</a></li>
+				<li><a href="/life/" class="">リーフィアな暮らし</a></li>
+				<li><a href="/portfolio/" class="">実績</a></li>
+			</ul>
+			
+			<p class="btn_contact hidden_pc"><a href="http://www.odakyu-fudosan.co.jp/contact/">お問い合わせ</a></p>
+			<link rel="alternate" type="application/rss+xml" title="" href="http://bizsearch-asp.accelatech.com/bizasp/index.php?a=ANRS001&corpId=atc080079">
+			<form name="AccelaBizSearchASPForm" id="bizsearchAspForm" action="https://bizsearch-asp.accelatech.com/bizasp/index.php" method="get" class="site_search  hidden_pc">
+				<input type="text" name="q" value="" size="30" id="bizsearchAspQuery" class="search_input"> 
+				<input type="submit" value=" 検 索 " class="search_confirm">
+				<a href="http://bizsearch-asp.accelatech.com/bizasp/index.php?a=ANRS001&corpId=atc080079" class="search_rss"><img src="https://bizsearch-asp.accelatech.com/bizasp/images/rss.png" border=0 alt="rss" title="最新の更新一覧をRSSで配信"></a>
+				<input type="hidden" name="corpId" value="atc080079" id="bizsearchAspCorpId">
+				<input type="hidden" name="en" value="">
+				<input type="hidden" name="layout" value="">
+				<input type="hidden" name="hits" value="">
+				<div class="search_pw">Powered by <a href="http://www.accelatech.com/" target="_blank">Accela BizSearch</a></div>
+			</form>
+			
+		</div>
+	</nav>
+</header>
+				
+<div class="site_container">
+<main role="main">
+	<!-- top content -->
+	<section class="top_content">
+		<ul class="local_nav">
+			<li><a href="#sec_list" onClick="PUNITED.useful.innerPageLinkTo('#sec_list', 0); return false;"><em>List</em><br>
+			<span>物件一覧</span></a></li>
+			<li><a href="#sec_contents" onClick="PUNITED.useful.innerPageLinkTo('#sec_contents', 0); return false;"><em>Contents</em><br>
+			<span>コンテンツ</span></a></li>
+			<li><a href="#sec_news" onClick="PUNITED.useful.innerPageLinkTo('#sec_news', 0); return false;"><em>News</em><br>
+			<span>お知らせ</span></a></li>
+		</ul>
+		<div class="mainvisual satori_mansion" style="display:none;">
+			<div class="slider">
+				<div class="item"><a href="https://www.odakyu-leafia.jp/zadankai" target="_blank"><img src="/img/top/tetsudou_mania_pc.jpg" alt="鉄道マニア座談会" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="https://www.odakyu-leafia.jp/mansion/l-chitofuna/index.html" target="_blank"><img src="/img/top/mansion/chitosefunabashi_pc.jpg" alt="リーフィアレジデンス世田谷千歳船橋" width="975" height="462" class="js_srcset"></a></div>
+				<!--div class="item"><a href="http://tr.webantenna.info/rd?waad=OFS1Qn6C&ga=WA19bt-1" target="_blank"><img src="/img/top/welcome_7week_pc.jpg" alt="「Leafia welcome 7Weeks」来場キャンペーン" width="975" height="462" class="js_srcset"></a></div-->
+				<div class="item"><a href="/mansion/ebina-tower/index.html" target="_blank"><img src="/img/top/mansion/ebina-tower_pc.jpg" alt="リーフィアタワー海老名アクロスコート" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="/mansion/tpho-kamakura-ofuna/" target="_blank"><img src="/img/top/mansion/tpho-kamakura-ofuna_pc.jpg" alt="ザ・パークハウスオイコス鎌倉大船" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="/four-track-line2/" target="_blank"><img src="/img/top/four-track-line2_pc.jpg" alt="小田急は複々線へ！" width="975" height="462" class="js_srcset"></a></div>
+				<!--div class="item"><a href="http://tr.webantenna.info/rd?waad=CshxQYut&ga=WA19bt-1" target="_blank"><img src="/img/top/wcp_leafia_pc.jpg" alt="Wキャンペーン" width="975" height="462" class="js_srcset"></a></div-->
+				<div class="item"><a href="http://www.odakyu-fudosan.co.jp/mirainosumai/index.html" target="_blank"><img src="/img/top/img_mv_05_pc.jpg" alt="未来の住まい見える化PROJECT" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="http://www.place-c-kitami.com/" target="_blank"><img src="/img/top/mansion/odakyu_kitami_pc.jpg" alt="プレイスコート喜多見" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="/mansion/tph-f-aoi/index.html" target="_blank"><img src="/img/top/mansion/tph-f-aoi_pc.jpg" alt="ザ・パークハウス二子玉川碧の杜" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="/mansion/kinuta60/index.html" target="_blank"><img src="/img/top/mansion/kinuta60_pc.jpg" alt="リーフィアレジデンス世田谷砧" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="/mansion/kurihira84/index.html" target="_blank"><img src="/img/top/mansion/kurihira84_pc.jpg" alt="リーフィアレジデンス栗平" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="/mansion/komae38/index.html" target="_blank"><img src="/img/top/mansion/komae38_pc.jpg" alt="リーフィアレジデンス狛江　和泉本町" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="/mansion/kaisei63/index.html" target="_blank"><img src="/img/top/mansion/kaisei63_pc.jpg" alt="リーフィアレジデンス開成ステーションイースト" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="/mansion/isehara147/index.html" target="_blank"><img src="/img/top/mansion/isehara147_pc.jpg" alt="リーフィアレジデンス伊勢原" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="/mansion/higashi-rinkan46/index.html" target="_blank"><img src="/img/top/mansion/higashi-rinkan46_pc.jpg" alt="リーフィアレジデンス東林間" width="975" height="462" class="js_srcset"></a></div>
+				<!--div class="item"><a href="/mansion/machida42/index.html" target="_blank"><img src="/img/top/mansion/machida42_pc.jpg" alt="リーフィアレジデンス町田" width="975" height="462" class="js_srcset"></a></div-->
+				<!--div class="item"><a href="/mansion/place-v-kitami/index.html" target="_blank"><img src="/img/top/mansion/place-v-kitami_pc.jpg" alt="プレイスヴィラ喜多見" width="975" height="462" class="js_srcset"></a></div-->
+				<!--div class="item"><a href="/mansion/komae73/index.html" target="_blank"><img src="/img/top/mansion/komae73_pc.jpg" alt="リーフィアレジデンス狛江 東和泉" width="975" height="462" class="js_srcset"></a></div-->
+			</div>
+		</div>
+		<div class="mainvisual satori_houseLand" style="display:none;">
+			<div class="slider">
+				<div class="item"><a href="https://www.odakyu-leafia.jp/zadankai" target="_blank"><img src="/img/top/tetsudou_mania_pc.jpg" alt="鉄道マニア座談会" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="/house/matsubara9/index.html" target="_blank"><img src="/img/top/house/matsubara9_pc.jpg" alt="リーフィア世田谷松原" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="/house/oyama196/index.html" target="_blank"><img src="/img/top/house/oyama196_pc.jpg" alt="リーフィア町田小山ヶ丘9期" width="975" height="462" class="js_srcset"></a></div>
+				<!--div class="item"><a href="http://tr.webantenna.info/rd?waad=OFS1Qn6C&ga=WA19bt-1" target="_blank"><img src="/img/top/welcome_7week_pc.jpg" alt="「Leafia welcome 7Weeks」来場キャンペーン" width="975" height="462" class="js_srcset"></a></div-->
+				<div class="item"><a href="/house/sakura22/index.html" target="_blank"><img src="/img/top/house/sakura22_pc.jpg" alt="リーフィア世田谷桜" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="/four-track-line2/" target="_blank"><img src="/img/top/four-track-line2_pc.jpg" alt="小田急は複々線へ！" width="975" height="462" class="js_srcset"></a></div>
+				<!--div class="item"><a href="http://tr.webantenna.info/rd?waad=CshxQYut&ga=WA19bt-1" target="_blank"><img src="/img/top/wcp_leafia_pc.jpg" alt="Wキャンペーン" width="975" height="462" class="js_srcset"></a></div-->
+				<div class="item"><a href="http://www.odakyu-fudosan.co.jp/mirainosumai/index.html" target="_blank"><img src="/img/top/img_mv_05_pc.jpg" alt="未来の住まい見える化PROJECT" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="/house/lf-kaisei/index.html" target="_blank"><img src="/img/top/house/lf-kaisei_pc.jpg" alt="リーフィア開成" width="975" height="462" class="js_srcset"></a></div>
+				<!--div class="item"><a href="https://www.odakyu-leafia.jp/land/ouzenjikoguchi/" target="_blank"><img src="/img/top/house/ouzenjikoguchi_pc.jpg" alt="王禅寺東三丁目戸建計画" width="975" height="462" class="js_srcset"></a></div-->
+				<!--div class="item"><a href="/house/kyodo5/index.html" target="_blank"><img src="/img/top/house/kyodo5_pc.jpg" alt="リーフィア経堂　風雅の邸" width="975" height="462" class="js_srcset"></a></div-->
+				<!--div class="item"><a href="/house/komae5/index.html" target="_blank"><img src="/img/top/house/komae5_pc.jpg" alt="リーフィア狛江 時輝の街" width="975" height="462" class="js_srcset"></a></div-->
+				<div class="item"><a href="/house/odasaga20/index.html" target="_blank"><img src="/img/top/house/odasaga20_pc.jpg" alt="リーフィア小田急相模原ザ・スクエア" width="975" height="462" class="js_srcset"></a></div>
+				<!--div class="item"><a href="/house/odasaga13/index.html"><img src="/img/top/house/odasaga13_pc.jpg" alt="リーフィア小田急相模原ザ・プレイス" width="975" height="462" class="js_srcset"></a></div-->
+				<!--div class="item"><a href="/house/433/index.html" target="_blank"><img src="/img/top/house/433_pc.jpg" alt="リーフィア秦野今泉台第12期" width="975" height="462" class="js_srcset"></a></div-->
+				<!--<div class="item"><a href="/house/oyama196/index.html" target="_blank"><img src="/img/top/house/oyama196_pc.jpg" alt="リーフィア町田小山ヶ丘" width="975" height="462" class="js_srcset"></a></div>-->
+				<!--div class="item"><a href="/house/lfm68/index.html" target="_blank"><img src="/img/top/house/lfm68_pc.jpg" alt="リーフィア南大沢" width="975" height="462" class="js_srcset"></a></div-->
+				<!--div class="item"><a href="/house/yamaguchidai3/index.html" target="_blank"><img src="/img/top/house/yamaguchidai3_pc.jpg" alt="リーフィア山口台" width="975" height="462" class="js_srcset"></a></div-->
+				<!--div class="item"><a href="/house/yurigaoka24/index.html" target="_blank"><img src="/img/top/house/yurigaoka24_pc.jpg" alt="リーフィア百合ヶ丘" width="975" height="462" class="js_srcset"></a></div-->
+				<!--div class="item"><a href="/land/hamadayama1/index.html" target="_blank"><img src="/img/top/land/hamadayama1_pc.jpg" alt="浜田山一丁目宅地分譲" width="975" height="462" class="js_srcset"></a></div-->
+				<div class="item"><a href="/land/kaisei/index.html" target="_blank"><img src="/img/top/land/kaisei_pc.jpg" alt="小田急開成みなみ宅地分譲" width="975" height="462" class="js_srcset"></a></div>
+			</div>
+		</div>
+		<div class="mainvisual satori_non" style="display:none;">
+			<div class="slider">
+				<div class="item"><a href="https://www.odakyu-leafia.jp/mansion/l-chitofuna/index.html" target="_blank"><img src="/img/top/mansion/chitosefunabashi_pc.jpg" alt="リーフィアレジデンス世田谷千歳船橋" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="/house/matsubara9/index.html" target="_blank"><img src="/img/top/house/matsubara9_pc.jpg" alt="リーフィア世田谷松原" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="/house/oyama196/index.html" target="_blank"><img src="/img/top/house/oyama196_pc.jpg" alt="リーフィア町田小山ヶ丘9期" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="https://www.odakyu-leafia.jp/zadankai" target="_blank"><img src="/img/top/tetsudou_mania_pc.jpg" alt="鉄道マニア座談会" width="975" height="462" class="js_srcset"></a></div>
+				<!--div class="item"><a href="http://tr.webantenna.info/rd?waad=OFS1Qn6C&ga=WA19bt-1" target="_blank"><img src="/img/top/welcome_7week_pc.jpg" alt="「Leafia welcome 7Weeks」来場キャンペーン" width="975" height="462" class="js_srcset"></a></div-->
+				<div class="item"><a href="/four-track-line2/" target="_blank"><img src="/img/top/four-track-line2_pc.jpg" alt="小田急は複々線へ！" width="975" height="462" class="js_srcset"></a></div>
+				<!--div class="item"><a href="http://tr.webantenna.info/rd?waad=CshxQYut&ga=WA19bt-1" target="_blank"><img src="/img/top/wcp_leafia_pc.jpg" alt="Wキャンペーン" width="975" height="462" class="js_srcset"></a></div-->
+				<div class="item"><a href="http://www.odakyu-fudosan.co.jp/mirainosumai/index.html" target="_blank"><img src="/img/top/img_mv_05_pc.jpg" alt="未来の住まい見える化PROJECT" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="/mansion/ebina-tower/index.html" target="_blank"><img src="/img/top/mansion/ebina-tower_pc.jpg" alt="リーフィアタワー海老名アクロスコート" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="/mansion/tpho-kamakura-ofuna/" target="_blank"><img src="/img/top/mansion/tpho-kamakura-ofuna_pc.jpg" alt="ザ・パークハウスオイコス鎌倉大船" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="http://www.place-c-kitami.com/" target="_blank"><img src="/img/top/mansion/odakyu_kitami_pc.jpg" alt="プレイスコート喜多見" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="/house/lf-kaisei/index.html" target="_blank"><img src="/img/top/house/lf-kaisei_pc.jpg" alt="リーフィア開成" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="/mansion/tph-f-aoi/index.html" target="_blank"><img src="/img/top/mansion/tph-f-aoi_pc.jpg" alt="ザ・パークハウス二子玉川碧の杜" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="/mansion/kinuta60/index.html" target="_blank"><img src="/img/top/mansion/kinuta60_pc.jpg" alt="リーフィアレジデンス世田谷砧" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="/mansion/kurihira84/index.html" target="_blank"><img src="/img/top/mansion/kurihira84_pc.jpg" alt="リーフィアレジデンス栗平" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="/mansion/komae38/index.html" target="_blank"><img src="/img/top/mansion/komae38_pc.jpg" alt="リーフィアレジデンス狛江　和泉本町" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="/mansion/kaisei63/index.html" target="_blank"><img src="/img/top/mansion/kaisei63_pc.jpg" alt="リーフィアレジデンス開成ステーションイースト" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="/mansion/isehara147/index.html" target="_blank"><img src="/img/top/mansion/isehara147_pc.jpg" alt="リーフィアレジデンス伊勢原" width="975" height="462" class="js_srcset"></a></div>
+				<div class="item"><a href="/mansion/higashi-rinkan46/index.html" target="_blank"><img src="/img/top/mansion/higashi-rinkan46_pc.jpg" alt="リーフィアレジデンス東林間" width="975" height="462" class="js_srcset"></a></div>
+				<!--div class="item"><a href="/mansion/machida42/index.html" target="_blank"><img src="/img/top/mansion/machida42_pc.jpg" alt="リーフィアレジデンス町田" width="975" height="462" class="js_srcset"></a></div-->
+				<!--div class="item"><a href="/mansion/place-v-kitami/index.html" target="_blank"><img src="/img/top/mansion/place-v-kitami_pc.jpg" alt="プレイスヴィラ喜多見" width="975" height="462" class="js_srcset"></a></div-->
+				<!--div class="item"><a href="/mansion/komae73/index.html" target="_blank"><img src="/img/top/mansion/komae73_pc.jpg" alt="リーフィアレジデンス狛江 東和泉" width="975" height="462" class="js_srcset"></a></div-->
+                <div class="item"><a href="/house/sakura22/index.html" target="_blank"><img src="/img/top/house/sakura22_pc.jpg" alt="リーフィア世田谷桜" width="975" height="462" class="js_srcset"></a></div>
+				<!--div class="item"><a href="https://www.odakyu-leafia.jp/land/ouzenjikoguchi/" target="_blank"><img src="/img/top/house/ouzenjikoguchi_pc.jpg" alt="王禅寺東三丁目戸建計画" width="975" height="462" class="js_srcset"></a></div-->
+				<!--div class="item"><a href="/house/kyodo5/index.html" target="_blank"><img src="/img/top/house/kyodo5_pc.jpg" alt="リーフィア経堂　風雅の邸" width="975" height="462" class="js_srcset"></a></div-->
+				<!--div class="item"><a href="/house/komae5/index.html" target="_blank"><img src="/img/top/house/komae5_pc.jpg" alt="リーフィア狛江 時輝の街" width="975" height="462" class="js_srcset"></a></div-->
+				<div class="item"><a href="/house/odasaga20/index.html" target="_blank"><img src="/img/top/house/odasaga20_pc.jpg" alt="リーフィア小田急相模原ザ・スクエア" width="975" height="462" class="js_srcset"></a></div>
+				<!--div class="item"><a href="/house/odasaga13/index.html" target="_blank"><img src="/img/top/house/odasaga13_pc.jpg" alt="リーフィア小田急相模原ザ・プレイス" width="975" height="462" class="js_srcset"></a></div-->
+				<!--div class="item"><a href="/house/433/index.html" target="_blank"><img src="/img/top/house/433_pc.jpg" alt="リーフィア秦野今泉台第12期" width="975" height="462" class="js_srcset"></a></div-->
+				<!--<div class="item"><a href="/house/oyama196/index.html"><img src="/img/top/house/oyama196_pc.jpg" alt="リーフィア町田小山ヶ丘" width="975" height="462" class="js_srcset"></a></div>-->
+				<!--div class="item"><a href="/house/lfm68/index.html" target="_blank"><img src="/img/top/house/lfm68_pc.jpg" alt="リーフィア南大沢" width="975" height="462" class="js_srcset"></a></div-->
+				<!--div class="item"><a href="/house/yamaguchidai3/index.html" target="_blank"><img src="/img/top/house/yamaguchidai3_pc.jpg" alt="リーフィア山口台" width="975" height="462" class="js_srcset"></a></div-->
+				<!--div class="item"><a href="/house/yurigaoka24/index.html" target="_blank"><img src="/img/top/house/yurigaoka24_pc.jpg" alt="リーフィア百合ヶ丘" width="975" height="462" class="js_srcset"></a></div-->
+				<!--div class="item"><a href="/land/hamadayama1/index.html" target="_blank"><img src="/img/top/land/hamadayama1_pc.jpg" alt="浜田山一丁目宅地分譲" width="975" height="462" class="js_srcset"></a></div-->
+				<div class="item"><a href="/land/kaisei/index.html" target="_blank"><img src="/img/top/land/kaisei_pc.jpg" alt="小田急開成みなみ宅地分譲" width="975" height="462" class="js_srcset"></a></div>
+			</div>
+		</div>
+		
+		<section class="sec_pickup">
+			<h2 class="title_primary"><em>Pick up</em><br>
+			<span>ピックアップ</span></h2>
+			
+			<div class="pickup_wrapper clear_fix">
+
+				<div class="entry_house">
+					<figure><a href="https://www.odakyu-leafia.jp/mansion/l-chitofuna/index.html" target="_blank" onClick="KNS._setBukkenId(445);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/445/01.jpg" alt="" width="360" height="210">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="category">
+						<p class="type mansion">マンション</p>
+						<p class="area">世田谷・狛江エリア</p>
+
+					</div>
+					<h3 class="title"><a href="https://www.odakyu-leafia.jp/mansion/l-chitofuna/index.html" target="_blank" onClick="KNS._setBukkenId(445);">リーフィアレジデンス世田谷千歳船橋</a></h3>
+					<p class="desc">千歳船橋より徒歩13分</p>
+					<p class="access">小田急小田原線 千歳船橋駅
+徒歩13分
+
+</p>
+					<p class="floor"></p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.nomu.com/form/index/action/JDocumentInput/?local_id=J1110112" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/mansion/l-chitofuna/index.html" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(445);">物件サイト</a></div>
+					</div>
+				</div>
+				<div class="entry_house">
+					<figure><a href="https://www.odakyu-leafia.jp/house/matsubara9/index.html" target="_blank" onClick="KNS._setBukkenId(442);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/442/02.jpg" alt="" width="360" height="210">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="category">
+						<p class="type house">一戸建て</p>
+						<p class="area">世田谷・狛江エリア</p>
+
+					</div>
+					<h3 class="title"><label class="checkbox_primary"><input type="checkbox" name="" value="リーフィア世田谷松原" class="house_checkbox" autocomplete="off"><span></span></label><a href="https://www.odakyu-leafia.jp/house/matsubara9/index.html" target="_blank" onClick="KNS._setBukkenId(442);">リーフィア世田谷松原</a></h3>
+					<p class="desc">5駅4路線利用で、通勤通学に便利な松原エリアに誕生</p>
+					<p class="access">東急世田谷線 松原駅
+徒歩5分
+
+</p>
+					<p class="floor"></p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/script/form/442/222/index.php" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/house/matsubara9/index.html" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(442);">物件サイト</a></div>
+					</div>
+				</div>
+				<div class="entry_house">
+					<figure><a href="https://www.odakyu-leafia.jp/house/hamadayama1/index.html" target="_blank" onClick="KNS._setBukkenId(374);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/374/01.jpg" alt="" width="360" height="210">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="category">
+						<p class="type house">一戸建て</p>
+						<p class="area">世田谷・狛江エリア</p>
+
+					</div>
+					<h3 class="title"><label class="checkbox_primary"><input type="checkbox" name="" value="リーフィア浜田山" class="house_checkbox" autocomplete="off"><span></span></label><a href="https://www.odakyu-leafia.jp/house/hamadayama1/index.html" target="_blank" onClick="KNS._setBukkenId(374);">リーフィア浜田山</a></h3>
+					<p class="desc">京王井の頭線「浜田山」駅徒歩4分　全戸敷地面積100㎡超</p>
+					<p class="access">京王井の頭線 浜田山駅
+徒歩4分
+
+</p>
+					<p class="floor"></p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/script/form/374/214/index.php" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/house/hamadayama1/index.html" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(374);">物件サイト</a></div>
+					</div>
+				</div>
+				<div class="entry_house">
+					<figure><a href="https://www.odakyu-leafia.jp/house/sakura22/index.html" target="_blank" onClick="KNS._setBukkenId(437);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/437/01.jpg" alt="" width="360" height="210">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="category">
+						<p class="type house">一戸建て</p>
+						<p class="area">世田谷・狛江エリア</p>
+
+					</div>
+					<h3 class="title"><label class="checkbox_primary"><input type="checkbox" name="" value="リーフィア世田谷桜" class="house_checkbox" autocomplete="off"><span></span></label><a href="https://www.odakyu-leafia.jp/house/sakura22/index.html" target="_blank" onClick="KNS._setBukkenId(437);">リーフィア世田谷桜</a></h3>
+					<p class="desc">タウンセキュリティ導入。全22邸の新街区創造。</p>
+					<p class="access">小田急小田原線 経堂駅
+徒歩１２分
+
+</p>
+					<p class="floor"></p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/script/form/437/205/index.php" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/house/sakura22/index.html" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(437);">物件サイト</a></div>
+					</div>
+				</div>
+				<div class="entry_house">
+					<figure><a href="https://www.odakyu-leafia.jp/house/lf-kaisei/index.html" target="_blank" onClick="KNS._setBukkenId(369);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/369/01.jpg" alt="" width="360" height="210">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="category">
+						<p class="type house">一戸建て</p>
+						<p class="area">厚木・小田原エリア</p>
+
+					</div>
+					<h3 class="title"><label class="checkbox_primary"><input type="checkbox" name="" value="リーフィア開成" class="house_checkbox" autocomplete="off"><span></span></label><a href="https://www.odakyu-leafia.jp/house/lf-kaisei/index.html" target="_blank" onClick="KNS._setBukkenId(369);">リーフィア開成</a></h3>
+					<p class="desc">総区画数276区画　電線類地中化街区　土地45坪以上</p>
+					<p class="access">小田急小田原線 開成駅
+徒歩14分
+
+</p>
+					<p class="floor">3(4)LDK～4LDK</p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/script/form/369/155/index.php" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/house/lf-kaisei/index.html" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(369);">物件サイト</a></div>
+					</div>
+				</div>
+				<div class="entry_house">
+					<figure><a href="https://www.odakyu-leafia.jp/house/oyama196/index.html" target="_blank" onClick="KNS._setBukkenId(371);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/371/01.jpg" alt="" width="360" height="210">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="category">
+						<p class="type house">一戸建て</p>
+						<p class="area">橋本・南大沢エリア</p>
+
+					</div>
+					<h3 class="title"><label class="checkbox_primary"><input type="checkbox" name="" value="リーフィア町田小山ヶ丘" class="house_checkbox" autocomplete="off"><span></span></label><a href="https://www.odakyu-leafia.jp/house/oyama196/index.html" target="_blank" onClick="KNS._setBukkenId(371);">リーフィア町田小山ヶ丘</a></h3>
+					<p class="desc">全196邸の分譲地　景観協定認可の街　待望の新街区</p>
+					<p class="access">JR横浜線 橋本駅
+
+バス停：多摩美術大学南下車
+徒歩8分
+</p>
+					<p class="floor">4LDK</p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/script/form/371/159/index.php" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/house/oyama196/index.html" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(371);">物件サイト</a></div>
+					</div>
+				</div>
+				<div class="entry_house">
+					<figure><a href="https://www.odakyu-leafia.jp/mansion/komae38/index.html" target="_blank" onClick="KNS._setBukkenId(358);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/358/01.jpg" alt="" width="360" height="210">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="category">
+						<p class="type mansion">マンション</p>
+						<p class="area">世田谷・狛江エリア</p>
+
+					</div>
+					<h3 class="title"><label class="checkbox_primary"><input type="checkbox" name="" value="リーフィアレジデンス狛江　和泉本町" class="house_checkbox" autocomplete="off"><span></span></label><a href="https://www.odakyu-leafia.jp/mansion/komae38/index.html" target="_blank" onClick="KNS._setBukkenId(358);">リーフィアレジデンス狛江　和泉本町</a></h3>
+					<p class="desc">都心へ快適アクセス狛江駅徒歩9分、狛江第一小学校徒歩2分、2LDK～3LDK</p>
+					<p class="access">小田急小田原線 狛江駅
+徒歩9分
+
+</p>
+					<p class="floor">２LDK～３LDK</p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/script/form/358/133/index.php" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/mansion/komae38/index.html" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(358);">物件サイト</a></div>
+					</div>
+				</div>
+				<div class="entry_house">
+					<figure><a href="https://www.odakyu-leafia.jp/house/odasaga20/index.html" target="_blank" onClick="KNS._setBukkenId(376);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/376/01.jpg" alt="" width="360" height="210">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="category">
+						<p class="type house">一戸建て</p>
+						<p class="area">町田・相模原エリア</p>
+
+					</div>
+					<h3 class="title"><label class="checkbox_primary"><input type="checkbox" name="" value="リーフィア小田急相模原ザ・スクエア" class="house_checkbox" autocomplete="off"><span></span></label><a href="https://www.odakyu-leafia.jp/house/odasaga20/index.html" target="_blank" onClick="KNS._setBukkenId(376);">リーフィア小田急相模原ザ・スクエア</a></h3>
+					<p class="desc">最寄駅徒歩6分の利便な立地、閑静な住宅街、全20邸の街並</p>
+					<p class="access">小田急小田原線 小田急相模原駅
+徒歩6分
+
+</p>
+					<p class="floor">4LDK</p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/script/form/376/163/index.php" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/house/odasaga20/index.html" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(376);">物件サイト</a></div>
+					</div>
+				</div>
+				<div class="entry_house">
+					<figure><a href="https://www.odakyu-leafia.jp/mansion/tpho-kamakura-ofuna/" target="_blank" onClick="KNS._setBukkenId(444);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/444/01.png" alt="" width="360" height="210">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="category">
+						<p class="type mansion">マンション</p>
+						<p class="area">湘南エリア</p>
+
+					</div>
+					<h3 class="title"><a href="https://www.odakyu-leafia.jp/mansion/tpho-kamakura-ofuna/" target="_blank" onClick="KNS._setBukkenId(444);">ザ・パークハウス オイコス 鎌倉大船</a></h3>
+					<p class="desc">鎌倉市最大級のレジデンス、始まる</p>
+					<p class="access">東海道本線 大船駅
+徒歩9分
+
+</p>
+					<p class="floor"></p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/mansion/tpho-kamakura-ofuna/request.html" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/mansion/tpho-kamakura-ofuna/" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(444);">物件サイト</a></div>
+					</div>
+				</div>
+
+				
+			</div>
+		</section>
+		
+		<section class="sec_list" id="sec_list">
+			<h2 class="title_primary"><em>List</em><br>
+			<span>物件一覧</span></h2>
+
+			<div class="area_filter">
+				<section class="sec_filter">
+					<h3 class="title">物件絞込</h3>
+					<section class="sec_cateogry">
+						<h4 class="title js_category_label">種別で絞込</h4>
+						<ul class="list_category">
+							<li><label class="checkbox_primary"><input type="checkbox" name="" value="" class="category_checkbox" checked="checked" data-check="mansion" autocomplete="off"><span></span> マンション</label></li>
+							<li><label class="checkbox_primary"><input type="checkbox" name="" value="" class="category_checkbox" checked="checked" data-check="house" autocomplete="off"><span></span> 一戸建て・宅地</label></li>
+						</ul>
+						
+						
+					</section>
+					<section class="sec_area">
+						<h4 class="title js_area_label">エリアで絞込</h4>
+						<p class="area_select">全てのエリア</p>
+					</section>
+				</section>
+				<div class="area_map">
+					<div class="btn_close hidden_sp"><a href="#"><img src="/img/top/btn_close.png" alt="Close" width="70" height="17" class="ro"></a></div>
+					<ul class="list_area_map">
+						
+						<li class="item_01"><label class="checkbox_secondly"><input type="checkbox" name="" value="" class="area_checkbox" checked="checked" data-area="area1" autocomplete="off"><span>新宿・代々木エリア</span></label></li>
+						<li class="item_02"><label class="checkbox_secondly"><input type="checkbox" name="" value="" class="area_checkbox" checked="checked" data-area="area2" autocomplete="off"><span>世田谷・狛江エリア</span></label></li>
+						<li class="item_03"><label class="checkbox_secondly"><input type="checkbox" name="" value="" class="area_checkbox" checked="checked" data-area="area3" autocomplete="off"><span>橋本・南大沢エリア</span></label></li>
+						<li class="item_04"><label class="checkbox_secondly"><input type="checkbox" name="" value="" class="area_checkbox" checked="checked" data-area="area4" autocomplete="off"><span>新百合ヶ丘・多摩エリア</span></label></li>
+						<li class="item_05"><label class="checkbox_secondly"><input type="checkbox" name="" value="" class="area_checkbox" checked="checked" data-area="area5" autocomplete="off"><span>町田・相模原エリア</span></label></li>
+						<li class="item_06"><label class="checkbox_secondly"><input type="checkbox" name="" value="" class="area_checkbox" checked="checked" data-area="area6" autocomplete="off"><span>厚木・小田原エリア</span></label></li>
+						<li class="item_07"><label class="checkbox_secondly"><input type="checkbox" name="" value="" class="area_checkbox" checked="checked" data-area="area7" autocomplete="off"><span>湘南エリア</span></label></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="entry_wrapper">
+
+
+				<article class="entry_house theme_card" data-category="mansion" data-area="area2">
+					<figure><a href="https://www.odakyu-leafia.jp/mansion/l-chitofuna/index.html" target="_blank" onClick="KNS._setBukkenId(445);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/445/01.jpg" alt="" width="227">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="columns_right">
+						<div class="category">
+							<p class="type mansion">マンション</p>
+							<p class="area">世田谷・狛江エリア</p>
+						</div>
+						<h3 class="title"><a href="https://www.odakyu-leafia.jp/mansion/l-chitofuna/index.html" target="_blank" onClick="KNS._setBukkenId(445);">リーフィアレジデンス世田谷千歳船橋</a></h3>
+					</div>
+					<p class="desc">千歳船橋より徒歩13分</p>
+					<p class="access">小田急小田原線 千歳船橋駅
+徒歩13分
+
+</p>
+					<p class="floor"></p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.nomu.com/form/index/action/JDocumentInput/?local_id=J1110112" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/mansion/l-chitofuna/index.html" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(445);">物件サイト</a></div>
+					</div>
+				</article>
+
+				<article class="entry_house theme_card" data-category="house" data-area="area2">
+					<figure><a href="https://www.odakyu-leafia.jp/house/matsubara9/index.html" target="_blank" onClick="KNS._setBukkenId(442);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/442/01.jpg" alt="" width="227">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="columns_right">
+						<div class="category">
+							<p class="type house">一戸建て</p>
+							<p class="area">世田谷・狛江エリア</p>
+						</div>
+						<h3 class="title"><label class="checkbox_primary"><input type="checkbox" name="" value="リーフィア世田谷松原" class="house_checkbox" autocomplete="off"><span></span></label><a href="https://www.odakyu-leafia.jp/house/matsubara9/index.html" target="_blank" onClick="KNS._setBukkenId(442);">リーフィア世田谷松原</a></h3>
+					</div>
+					<p class="desc">5駅4路線利用で、通勤通学に便利な松原エリアに誕生</p>
+					<p class="access">東急世田谷線 松原駅
+徒歩5分
+
+</p>
+					<p class="floor"></p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/script/form/442/222/index.php" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/house/matsubara9/index.html" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(442);">物件サイト</a></div>
+					</div>
+				</article>
+
+				<article class="entry_house theme_card" data-category="house" data-area="area2">
+					<figure><a href="https://www.odakyu-leafia.jp/house/kinuta7/index.html" target="_blank" onClick="KNS._setBukkenId(439);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/439/01.jpg" alt="" width="227">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="columns_right">
+						<div class="category">
+							<p class="type house">一戸建て</p>
+							<p class="area">世田谷・狛江エリア</p>
+						</div>
+						<h3 class="title"><a href="https://www.odakyu-leafia.jp/house/kinuta7/index.html" target="_blank" onClick="KNS._setBukkenId(439);">リーフィア世田谷砧</a></h3>
+					</div>
+					<p class="desc">眺望の良い高台立地の全7邸</p>
+					<p class="access">小田急小田原線 祖師ヶ谷大蔵駅
+徒歩8分
+
+</p>
+					<p class="floor">3LDK～4LDK</p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/script/form/439/217/index.php" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/house/kinuta7/index.html" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(439);">物件サイト</a></div>
+					</div>
+				</article>
+
+				<article class="entry_house theme_card" data-category="mansion" data-area="area5">
+					<figure><a href="https://www.odakyu-leafia.jp/mansion/ebina-tower/index.html" target="_blank" onClick="KNS._setBukkenId(436);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/436/01.jpg" alt="" width="227">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="columns_right">
+						<div class="category">
+							<p class="type mansion">マンション</p>
+							<p class="area">町田・相模原エリア</p>
+						</div>
+						<h3 class="title"><label class="checkbox_primary"><input type="checkbox" name="" value="リーフィアタワー海老名アクロスコート" class="house_checkbox" autocomplete="off"><span></span></label><a href="https://www.odakyu-leafia.jp/mansion/ebina-tower/index.html" target="_blank" onClick="KNS._setBukkenId(436);">リーフィアタワー海老名アクロスコート</a></h3>
+					</div>
+					<p class="desc">海老名駅駅前開発内に誕生する31階建て免震タワーレジデンス</p>
+					<p class="access">小田急小田原線 海老名駅
+徒歩３分
+
+</p>
+					<p class="floor"></p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/script/form/436/187/index.php" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/mansion/ebina-tower/index.html" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(436);">物件サイト</a></div>
+					</div>
+				</article>
+
+				<article class="entry_house theme_card" data-category="house" data-area="area2">
+					<figure><a href="https://www.odakyu-leafia.jp/house/hamadayama1/index.html" target="_blank" onClick="KNS._setBukkenId(374);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/374/01.jpg" alt="" width="227">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="columns_right">
+						<div class="category">
+							<p class="type house">一戸建て</p>
+							<p class="area">世田谷・狛江エリア</p>
+						</div>
+						<h3 class="title"><label class="checkbox_primary"><input type="checkbox" name="" value="リーフィア浜田山" class="house_checkbox" autocomplete="off"><span></span></label><a href="https://www.odakyu-leafia.jp/house/hamadayama1/index.html" target="_blank" onClick="KNS._setBukkenId(374);">リーフィア浜田山</a></h3>
+					</div>
+					<p class="desc">京王井の頭線「浜田山」駅徒歩4分 全戸敷地面積100㎡超</p>
+					<p class="access">京王井の頭線 浜田山駅
+徒歩4分
+
+</p>
+					<p class="floor"></p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/script/form/374/214/index.php" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/house/hamadayama1/index.html" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(374);">物件サイト</a></div>
+					</div>
+				</article>
+
+				<article class="entry_house theme_card" data-category="house" data-area="area2">
+					<figure><a href="https://www.odakyu-leafia.jp/house/sakura22/index.html" target="_blank" onClick="KNS._setBukkenId(437);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/437/01.jpg" alt="" width="227">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="columns_right">
+						<div class="category">
+							<p class="type house">一戸建て</p>
+							<p class="area">世田谷・狛江エリア</p>
+						</div>
+						<h3 class="title"><label class="checkbox_primary"><input type="checkbox" name="" value="リーフィア世田谷桜" class="house_checkbox" autocomplete="off"><span></span></label><a href="https://www.odakyu-leafia.jp/house/sakura22/index.html" target="_blank" onClick="KNS._setBukkenId(437);">リーフィア世田谷桜</a></h3>
+					</div>
+					<p class="desc">タウンセキュリティ導入。全22邸の新街区創造。</p>
+					<p class="access">小田急小田原線 経堂駅
+徒歩１２分
+
+</p>
+					<p class="floor"></p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/script/form/437/205/index.php" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/house/sakura22/index.html" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(437);">物件サイト</a></div>
+					</div>
+				</article>
+
+				<article class="entry_house theme_card" data-category="house" data-area="area6">
+					<figure><a href="https://www.odakyu-leafia.jp/house/lf-kaisei/index.html" target="_blank" onClick="KNS._setBukkenId(369);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/369/01.jpg" alt="" width="227">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="columns_right">
+						<div class="category">
+							<p class="type house">一戸建て</p>
+							<p class="area">厚木・小田原エリア</p>
+						</div>
+						<h3 class="title"><label class="checkbox_primary"><input type="checkbox" name="" value="リーフィア開成" class="house_checkbox" autocomplete="off"><span></span></label><a href="https://www.odakyu-leafia.jp/house/lf-kaisei/index.html" target="_blank" onClick="KNS._setBukkenId(369);">リーフィア開成</a></h3>
+					</div>
+					<p class="desc">総区画数276区画　電線類地中化街区　土地45坪以上</p>
+					<p class="access">小田急小田原線 開成駅
+徒歩14分
+
+</p>
+					<p class="floor">3(4)LDK～4LDK</p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/script/form/369/155/index.php" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/house/lf-kaisei/index.html" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(369);">物件サイト</a></div>
+					</div>
+				</article>
+
+				<article class="entry_house theme_card" data-category="mansion" data-area="area2">
+					<figure><a href="https://www.odakyu-leafia.jp/mansion/kinuta60/index.html" target="_blank" onClick="KNS._setBukkenId(355);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/355/01.jpg" alt="" width="227">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="columns_right">
+						<div class="category">
+							<p class="type mansion">マンション</p>
+							<p class="area">世田谷・狛江エリア</p>
+						</div>
+						<h3 class="title"><label class="checkbox_primary"><input type="checkbox" name="" value="リーフィアレジデンス世田谷砧" class="house_checkbox" autocomplete="off"><span></span></label><a href="https://www.odakyu-leafia.jp/mansion/kinuta60/index.html" target="_blank" onClick="KNS._setBukkenId(355);">リーフィアレジデンス世田谷砧</a></h3>
+					</div>
+					<p class="desc">全邸南東・南西向き,3LDK,閑静な住宅街に誕生</p>
+					<p class="access">小田急小田原線 祖師ヶ谷大蔵駅
+徒歩11分
+
+</p>
+					<p class="floor">3LDK</p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/script/form/355/129/index.php" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/mansion/kinuta60/index.html" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(355);">物件サイト</a></div>
+					</div>
+				</article>
+
+				<article class="entry_house theme_card" data-category="mansion" data-area="area4">
+					<figure><a href="https://www.odakyu-leafia.jp/mansion/kurihira84/index.html" target="_blank" onClick="KNS._setBukkenId(359);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/359/01.jpg" alt="" width="227">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="columns_right">
+						<div class="category">
+							<p class="type mansion">マンション</p>
+							<p class="area">新百合ヶ丘・多摩エリア</p>
+						</div>
+						<h3 class="title"><label class="checkbox_primary"><input type="checkbox" name="" value="リーフィアレジデンス栗平" class="house_checkbox" autocomplete="off"><span></span></label><a href="https://www.odakyu-leafia.jp/mansion/kurihira84/index.html" target="_blank" onClick="KNS._setBukkenId(359);">リーフィアレジデンス栗平</a></h3>
+					</div>
+					<p class="desc">急行停車駅徒歩2分　新百合ヶ丘駅1駅4分　2LDK～4LDK　全戸南西向き</p>
+					<p class="access">小田急多摩線 栗平駅
+徒歩2分
+
+</p>
+					<p class="floor">2LDK～4LDK</p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/script/form/359/135/index.php" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/mansion/kurihira84/index.html" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(359);">物件サイト</a></div>
+					</div>
+				</article>
+
+				<article class="entry_house theme_card" data-category="mansion" data-area="area5">
+					<figure><a href="https://www.odakyu-leafia.jp/mansion/higashi-rinkan46/index.html" target="_blank" onClick="KNS._setBukkenId(361);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/361/01.jpg" alt="" width="227">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="columns_right">
+						<div class="category">
+							<p class="type mansion">マンション</p>
+							<p class="area">町田・相模原エリア</p>
+						</div>
+						<h3 class="title"><label class="checkbox_primary"><input type="checkbox" name="" value="リーフィアレジデンス東林間" class="house_checkbox" autocomplete="off"><span></span></label><a href="https://www.odakyu-leafia.jp/mansion/higashi-rinkan46/index.html" target="_blank" onClick="KNS._setBukkenId(361);">リーフィアレジデンス東林間</a></h3>
+					</div>
+					<p class="desc">東林間駅徒歩3分 相模大野生活圏 全棟南西・南東向き</p>
+					<p class="access">小田急江ノ島線 東林間駅
+徒歩3分
+
+</p>
+					<p class="floor"></p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/script/form/361/139/index.php" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/mansion/higashi-rinkan46/index.html" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(361);">物件サイト</a></div>
+					</div>
+				</article>
+
+				<article class="entry_house theme_card" data-category="mansion" data-area="area6">
+					<figure><a href="https://www.odakyu-leafia.jp/mansion/isehara147/index.html" target="_blank" onClick="KNS._setBukkenId(362);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/362/01.jpg" alt="" width="227">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="columns_right">
+						<div class="category">
+							<p class="type mansion">マンション</p>
+							<p class="area">厚木・小田原エリア</p>
+						</div>
+						<h3 class="title"><label class="checkbox_primary"><input type="checkbox" name="" value="リーフィアレジデンス伊勢原" class="house_checkbox" autocomplete="off"><span></span></label><a href="https://www.odakyu-leafia.jp/mansion/isehara147/index.html" target="_blank" onClick="KNS._setBukkenId(362);">リーフィアレジデンス伊勢原</a></h3>
+					</div>
+					<p class="desc">伊勢原駅徒歩6分　静かな住環境　大山を望む眺望</p>
+					<p class="access">小田急小田原線 伊勢原駅
+徒歩6分
+
+</p>
+					<p class="floor">2LDK～4LDK</p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/script/form/362/141/index.php" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/mansion/isehara147/index.html" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(362);">物件サイト</a></div>
+					</div>
+				</article>
+
+				<article class="entry_house theme_card" data-category="mansion" data-area="area6">
+					<figure><a href="https://www.odakyu-leafia.jp/mansion/kaisei63/" target="_blank" onClick="KNS._setBukkenId(363);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/363/01.jpg" alt="" width="227">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="columns_right">
+						<div class="category">
+							<p class="type mansion">マンション</p>
+							<p class="area">厚木・小田原エリア</p>
+						</div>
+						<h3 class="title"><label class="checkbox_primary"><input type="checkbox" name="" value="リーフィアレジデンス開成ステーションイースト" class="house_checkbox" autocomplete="off"><span></span></label><a href="https://www.odakyu-leafia.jp/mansion/kaisei63/" target="_blank" onClick="KNS._setBukkenId(363);">リーフィアレジデンス開成ステーションイースト</a></h3>
+					</div>
+					<p class="desc">開成駅徒歩4分</p>
+					<p class="access">小田急小田原線 開成駅
+徒歩4分
+
+</p>
+					<p class="floor">2LDK・4LDK</p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/script/form/363/143/index.php" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/mansion/kaisei63/" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(363);">物件サイト</a></div>
+					</div>
+				</article>
+
+				<article class="entry_house theme_card" data-category="house" data-area="area6">
+					<figure><a href="https://www.odakyu-leafia.jp/house/433/index.html" target="_blank" onClick="KNS._setBukkenId(433);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/433/01.jpg" alt="" width="227">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="columns_right">
+						<div class="category">
+							<p class="type house">一戸建て</p>
+							<p class="area">厚木・小田原エリア</p>
+						</div>
+						<h3 class="title"><label class="checkbox_primary"><input type="checkbox" name="" value="リーフィア秦野今泉台第12期" class="house_checkbox" autocomplete="off"><span></span></label><a href="https://www.odakyu-leafia.jp/house/433/index.html" target="_blank" onClick="KNS._setBukkenId(433);">リーフィア秦野今泉台第12期</a></h3>
+					</div>
+					<p class="desc">土地面積169㎡以上　大きな庭　パノラマビュー</p>
+					<p class="access">小田急小田原線 秦野駅
+徒歩15分
+
+</p>
+					<p class="floor">3LDK・4LDK</p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/script/form/433/183/index.php" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/house/433/index.html" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(433);">物件サイト</a></div>
+					</div>
+				</article>
+
+				<article class="entry_house theme_card" data-category="house" data-area="area3">
+					<figure><a href="https://www.odakyu-leafia.jp/house/oyama196/index.html" target="_blank" onClick="KNS._setBukkenId(371);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/371/01.jpg" alt="" width="227">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="columns_right">
+						<div class="category">
+							<p class="type house">一戸建て</p>
+							<p class="area">橋本・南大沢エリア</p>
+						</div>
+						<h3 class="title"><label class="checkbox_primary"><input type="checkbox" name="" value="リーフィア町田小山ヶ丘" class="house_checkbox" autocomplete="off"><span></span></label><a href="https://www.odakyu-leafia.jp/house/oyama196/index.html" target="_blank" onClick="KNS._setBukkenId(371);">リーフィア町田小山ヶ丘</a></h3>
+					</div>
+					<p class="desc">全196邸の分譲地　景観協定認可の街　待望の新街区</p>
+					<p class="access">JR横浜線 橋本駅
+
+バス停：多摩美術大学南下車
+徒歩8分
+</p>
+					<p class="floor">4LDK</p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/script/form/371/159/index.php" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/house/oyama196/index.html" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(371);">物件サイト</a></div>
+					</div>
+				</article>
+
+				<article class="entry_house theme_card" data-category="mansion" data-area="area2">
+					<figure><a href="https://www.odakyu-leafia.jp/mansion/komae38/index.html" target="_blank" onClick="KNS._setBukkenId(358);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/358/01.jpg" alt="" width="227">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="columns_right">
+						<div class="category">
+							<p class="type mansion">マンション</p>
+							<p class="area">世田谷・狛江エリア</p>
+						</div>
+						<h3 class="title"><label class="checkbox_primary"><input type="checkbox" name="" value="リーフィアレジデンス狛江　和泉本町" class="house_checkbox" autocomplete="off"><span></span></label><a href="https://www.odakyu-leafia.jp/mansion/komae38/index.html" target="_blank" onClick="KNS._setBukkenId(358);">リーフィアレジデンス狛江　和泉本町</a></h3>
+					</div>
+					<p class="desc">都心へ快適アクセス狛江駅徒歩9分、狛江第一小学校徒歩2分、2LDK～3LDK</p>
+					<p class="access">小田急小田原線 狛江駅
+徒歩9分
+
+</p>
+					<p class="floor">２LDK～３LDK</p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/script/form/358/133/index.php" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/mansion/komae38/index.html" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(358);">物件サイト</a></div>
+					</div>
+				</article>
+
+				<article class="entry_house theme_card" data-category="house" data-area="area5">
+					<figure><a href="https://www.odakyu-leafia.jp/house/odasaga20/index.html" target="_blank" onClick="KNS._setBukkenId(376);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/376/01.jpg" alt="" width="227">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="columns_right">
+						<div class="category">
+							<p class="type house">一戸建て</p>
+							<p class="area">町田・相模原エリア</p>
+						</div>
+						<h3 class="title"><label class="checkbox_primary"><input type="checkbox" name="" value="リーフィア小田急相模原ザ・スクエア" class="house_checkbox" autocomplete="off"><span></span></label><a href="https://www.odakyu-leafia.jp/house/odasaga20/index.html" target="_blank" onClick="KNS._setBukkenId(376);">リーフィア小田急相模原ザ・スクエア</a></h3>
+					</div>
+					<p class="desc">最寄駅徒歩6分の利便な立地、閑静な住宅街、全20邸の街並</p>
+					<p class="access">小田急小田原線 小田急相模原駅
+徒歩6分
+
+</p>
+					<p class="floor">4LDK</p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/script/form/376/163/index.php" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/house/odasaga20/index.html" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(376);">物件サイト</a></div>
+					</div>
+				</article>
+
+				<article class="entry_house theme_card" data-category="house" data-area="area6">
+					<figure><a href="https://www.odakyu-leafia.jp/land/kaisei/index.html" target="_blank" onClick="KNS._setBukkenId(373);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/373/01.jpg" alt="" width="227">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="columns_right">
+						<div class="category">
+							<!--<p class="type house">宅地</p>-->
+							<p class="type land">宅地</p>
+							<p class="area">厚木・小田原エリア</p>
+						</div>
+						<h3 class="title"><label class="checkbox_primary"><input type="checkbox" name="" value="小田急開成みなみ宅地分譲" class="house_checkbox" autocomplete="off"><span></span></label><a href="https://www.odakyu-leafia.jp/land/kaisei/index.html" target="_blank" onClick="KNS._setBukkenId(373);">小田急開成みなみ宅地分譲</a></h3>
+					</div>
+					<p class="desc">建築条件なし宅地　大規模区画整理地内　土地約45坪超</p>
+					<p class="access">小田急小田原線 開成駅
+徒歩8分
+
+</p>
+					<p class="floor">151.98㎡（約45.97坪）</p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/script/form/373/161/index.php" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/land/kaisei/index.html" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(373);">物件サイト</a></div>
+					</div>
+				</article>
+
+				<article class="entry_house theme_card" data-category="mansion" data-area="area2">
+					<figure><a href="https://www.odakyu-leafia.jp/mansion/tph-f-aoi/" target="_blank" onClick="KNS._setBukkenId(434);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/434/01.jpg" alt="" width="227">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="columns_right">
+						<div class="category">
+							<p class="type mansion">マンション</p>
+							<p class="area">世田谷・狛江エリア</p>
+						</div>
+						<h3 class="title"><a href="https://www.odakyu-leafia.jp/mansion/tph-f-aoi/" target="_blank" onClick="KNS._setBukkenId(434);">ザ・パークハウス二子玉川碧の杜</a></h3>
+					</div>
+					<p class="desc">85㎡台・2LDK～106㎡台・3LDK</p>
+					<p class="access">東急田園都市線 二子玉川駅
+徒歩10分
+
+</p>
+					<p class="floor"></p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/mansion/tph-f-aoi/request.html" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/mansion/tph-f-aoi/" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(434);">物件サイト</a></div>
+					</div>
+				</article>
+
+				<article class="entry_house theme_card" data-category="mansion" data-area="area7">
+					<figure><a href="https://www.odakyu-leafia.jp/mansion/tpho-kamakura-ofuna/" target="_blank" onClick="KNS._setBukkenId(444);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/444/01.png" alt="" width="227">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="columns_right">
+						<div class="category">
+							<p class="type mansion">マンション</p>
+							<p class="area">湘南エリア</p>
+						</div>
+						<h3 class="title"><a href="https://www.odakyu-leafia.jp/mansion/tpho-kamakura-ofuna/" target="_blank" onClick="KNS._setBukkenId(444);">ザ・パークハウス オイコス 鎌倉大船</a></h3>
+					</div>
+					<p class="desc">鎌倉市最大級のレジデンス、始まる</p>
+					<p class="access">東海道本線 大船駅
+徒歩9分
+
+</p>
+					<p class="floor"></p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/mansion/tpho-kamakura-ofuna/request.html" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/mansion/tpho-kamakura-ofuna/" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(444);">物件サイト</a></div>
+					</div>
+				</article>
+
+				<article class="entry_house theme_card" data-category="mansion" data-area="area2">
+					<figure><a href="https://www.odakyu-leafia.jp/mansion/place-c-kitami/" target="_blank" onClick="KNS._setBukkenId(440);">
+						<span class="corner_left"></span>
+						<img src="/lib/up_html/42/bukken_images/440/01.jpg" alt="" width="227">
+						<span class="corner_right"></span>
+					</a></figure>
+					<div class="columns_right">
+						<div class="category">
+							<p class="type mansion">マンション</p>
+							<p class="area">世田谷・狛江エリア</p>
+						</div>
+						<h3 class="title"><a href="https://www.odakyu-leafia.jp/mansion/place-c-kitami/" target="_blank" onClick="KNS._setBukkenId(440);">プレイスコート喜多見</a></h3>
+					</div>
+					<p class="desc">「プレイスガーデン」「プレイスヴィラ」から続く、三作目の”プレイス”誕生</p>
+					<p class="access">小田急小田原線 喜多見駅
+徒歩6分
+
+</p>
+					<p class="floor">2LDK～4LDK</p>
+					<div class="btn">
+						<div class="btn_inquiry"><a href="https://www.odakyu-leafia.jp/mansion/place-c-kitami/request.html" target="_blank" class="icon_blank_white">資料請求する</a></div>
+						<div class="btn_site"><a href="https://www.odakyu-leafia.jp/mansion/place-c-kitami/" target="_blank" class="icon_blank_white" onClick="KNS._setBukkenId(440);">物件サイト</a></div>
+					</div>
+				</article>
+
+
+			<div class="btn_all hidden_pc"><a href="#">全物件を見る</a></div>
+			<div class="btn_clear hidden_pc"><a href="#">物件を閉じる</a></div>
+			<p class="text_result">条件に当てはまる物件がありません。条件を変更して再度検索してください。</p>
+		</section>
+		
+		<section class="sec_contents clear_fix" id="sec_contents">
+			<h2 class="title_primary"><em>Contents</em><br>
+			<span>コンテンツ</span></h2>
+			
+			<p class="banner_main"><a href="/brand/"><img src="/img/top/banner_contents_concept_pc.jpg" alt="時と生きる。格と住まう。ブランドコンセプト" width="1140" height="420" class="js_srcset"></a></p>
+			<div class="banner_item"><a href="/quality/"><img src="/img/top/banner_contents_quality.jpg" alt="Quality 住まいづくりのこだわり" width="570" height="285"></a></div>
+			<div class="banner_item"><a href="/leafiaclub/"><img src="/img/top/banner_contents_club_pc.jpg" alt="LEAFIA Club リーフィアクラブ" width="570" height="285" class="js_srcset"></a></div>
+			<div class="banner_item"><a href="/service/"><img src="/img/top/banner_contents_services_pc.jpg" alt="Services ご成約者様向けサービス" width="570" height="285" class="js_srcset"></a></div>
+			<div class="banner_item"><a href="/life/"><img src="/img/top/banner_contents_life_pc.jpg" alt="LEAFIA Life リーフィアな暮らし" width="570" height="285" class="js_srcset"></a></div>
+			<div class="banner_item"><a href="/portfolio/"><img src="/img/top/banner_contents_cases.jpg" alt="Cases 実績" width="570" height="285"></a></div>
+			<div class="banner_item"><a href="http://www.odakyu-life.jp/" target="_blank"><img src="/img/top/banner_contents_odakyu_pc.jpg" alt="Odakyu Life 小田急のくらし" width="570" height="285" class="js_srcset"></a></div>
+		</section>
+		
+		<section class="sec_news" id="sec_news">
+			<h2 class="title_primary"><em>News</em><br>
+			<span>お知らせ</span></h2>
+			
+			<ul class="news_list">
+				<li><time class="news_date" datetime="2018-7-6">2018.7.6</time><a href="/house/matsubara9/" target="_blank">「リーフィア世田谷松原」公式サイトを公開しました。</a></li>
+				<li><time class="news_date" datetime="2018-7-3">2018.7.3</time><a href="/mansion/l-chitofuna/" target="_blank">「リーフィアレジデンス世田谷千歳船橋」公式サイトを公開しました。</a></li>
+				<li><time class="news_date" datetime="2018-6-30">2018.6.30</time><a href="/house/oyama196/" target="_blank">「リーフィア町田小山ヶ丘 第9期」公式サイトを公開しました。</a></li>
+				<!--<li><time class="news_date" datetime="2018-5-29">2018.5.29</time><a href="/mansion/tpho-kamakura-ofuna/" target="_blank">「ザ・パークハウスオイコス鎌倉大船」公式サイトを公開しました。</a></li>-->
+				<!--<li><time class="news_date" datetime="2018-5-8">2018.5.8</time><a href="/zadankai/" target="_blank">小田急線の魅力を語り尽くす！鉄道好きタレントによる座談会ページを公開しました。</a></li>-->
+				<!--li><time class="news_date" datetime="2018-4-27">2018.4.27</time><a href="http://tr.webantenna.info/rd?waad=OFS1Qn6C&ga=WA19bt-1" target="_blank">「Leafia　welcome　7Weeks」来場キャンペーン開催！詳細はこちら</a></li-->
+				<!--<li><time class="news_date" datetime="2018-2-9">2018.2.9</time><a href="http://www.place-c-kitami.com/" target="_blank">「プレイスコート喜多見」公式サイトを公開しました。</a></li>-->
+				<!--li><time class="news_date" datetime="2018-1-29">2018.1.29</time><a href="https://www.odakyu-leafia.jp/land/ouzenjikoguchi/" target="_blank">「王禅寺東三丁目　戸建計画」公式サイトを公開しました。</a></li-->
+				<!--li><time class="news_date" datetime="2017-12-27">2017.12.27</time><a href="https://www.odakyu-fudosan.co.jp/wcampaign/" target="_blank">「小田急線複々線化記念！Wでお得キャンペーン開催！」詳しくはこちら</a></li-->
+			</ul>
+		</section>
+		
+		<div class="area_inquiry">
+			<div class="btn_inquiry"><a href="#">チェックした物件を資料請求する</a></div>
+		</div>
+	<!-- /top content -->
+</main>
+<div class="area_link">
+	<div class="inner">
+		<div class="link_item"><a href="http://www.odakyu-chukai.com/" target="_blank"><img src="/img/top/banner_link_01.jpg" alt="中古物件をお探しの方はこちら" width="370" height="110"></a></div>
+		<div class="link_item"><a href="http://www.odakyu-chukai.com/sell/" target="_blank"><img src="/img/top/banner_link_02.jpg" alt="売却に関するご相談はこちら" width="370" height="110"></a></div>
+		<div class="link_item"><a href="http://www.odakyu-fudosan.co.jp/sumai/reform.html" target="_blank"><img src="/img/top/banner_link_03.jpg" alt="注文住宅・リフォーム" width="370" height="110"></a></div>
+	</div>
+</div>
+<!--<section class="sec_contact">
+	<div class="columns_left">
+		<h2 class="title">リーフィアインフォーメーションダイヤル</h2>
+		<p class="text_phonenum"><a href="tel:0120-092-070" class="text_tel">0120-092-070</a></p>
+		<p class="text_openhour">定休日：<br>
+		水曜日・木曜日</p>
+	</div>
+	<div class="columns_right">
+		<div class="btn_primary"><a href="http://www.odakyu-fudosan.co.jp/contact/">お問い合わせ</a></div>
+	</div>
+</section>-->
+
+<footer class="site_footer">
+	<div class="inner">
+		<ul class="footer_nav">
+			<li><a href="/">HOME</a></li>
+			<li><a href="/#sec_list">物件検索</a></li>
+			<li><a href="/brand/">ブランドコンセプト</a></li>
+			<li class="parent"><a href="/quality/">住まいづくりのこだわり</a><ul>
+				<li class="hidden_pc"><a href="/quality/">住まいづくりのこだわり TOP</a></li>
+				<li><a href="/quality/#sec_effort">住まいづくりのこだわり</a></li>
+				<li><a href="/quality/?category=house">品質の追求（戸建て編）</a></li>
+				<li><a href="/quality/?category=mansion">品質の追求（マンション編）</a></li>
+			</ul></li>
+		</ul>
+		<ul class="footer_nav">
+			<li class="parent"><a href="/leafiaclub/">リーフィアクラブ</a><ul>
+				<li class="hidden_pc"><a href="/leafiaclub/">リーフィアクラブ TOP</a></li>
+				<li><a href="/script/form/353/92/index.php">会員登録</a></li>
+				<li><a href="/leafiaclub/regulation.html">会員規約</a></li>
+			</ul></li>
+		</ul>
+		<ul class="footer_nav">
+			<li><a href="/service/">ご成約後のサービス</a></li>
+			<li><a href="/life/">リーフィアな暮らし</a></li>
+			<li><a href="/portfolio/">実績</a></li>
+		</ul>
+		<ul class="footer_nav sub">
+			<li><a href="http://www.odakyu-fudosan.co.jp/contact/" target="_blank" class="icon_blank_white">お問い合わせ</a></li>
+			<li><a href="http://www.odakyu-fudosan.co.jp/policy/term.html" target="_blank" class="icon_blank_white">サイトのご利用にあたって</a></li>
+			<li><a href="http://www.odakyu-fudosan.co.jp/policy/" target="_blank" class="icon_blank_white">個人情報のお取り扱い</a></li>
+		</ul>
+		<ul class="footer_nav_last sub">
+			<li><a href="http://www.odakyu-chukai.com/" target="_blank" class="icon_blank_white">中古物件をお探しの方へ</a></li>
+			<li><a href="http://www.odakyu-chukai.com/sell/" target="_blank" class="icon_blank_white">売却に関するご相談</a></li>
+			<li><a href="http://www.odakyu-fudosan.co.jp/sumai/reform.html" target="_blank" class="icon_blank_white">注文住宅・リフォーム</a></li>
+			<li><a href="http://www.odakyu-fudosan.co.jp/benefit/ieto/" target="_blank" class="icon_blank_white">会員優待サービス「I eto」</a></li>
+		</ul>
+	</div>
+	<section class="sec_odakyu">
+		<div class="inner">
+			<h2 class="site_id"><img src="/img/common/logo_footer.png" alt="小田急不動産" width="157" height="38"></h2>
+			<p class="text_address">小田急不動産株式会社<br>
+			〒151-0061 東京都渋谷区初台1-47-1小田急西新宿ビル</p>
+			<p class="text_link"><a href="http://www.odakyu-fudosan.co.jp/" target="_blank" class="icon_blank_black">小田急不動産コーポレートサイト</a></p>
+		</div>
+	</section>
+	
+	<p class="copyright"><small>Copyright &copy; Odakyu Real Estate Co., Ltd. All rights reserved.</small></p>
+	<div class="pagetop"><a href="#" onclick="PUNITED.useful.jumpToPageTop();return false;"><img src="/img/common/btn_pagetop.png" alt="ページ上部に戻る" width="50" height="50" class="ro"></a></div>
+</footer>
+</div>
+
+</body>
+</html>

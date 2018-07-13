@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+
+
+
+<html lang="ja">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="NOODP,NOYDIR">
+
+<title>お問い合わせ(入力ページ) / フレコン選びで迷ったら【ふくろ屋ふくなが】にご相談下さい！</title>
+<meta name="author" content="フレコンバッグ　ふくろ屋ふくなが　株式会社フクナガエンジニアリング" />
+<meta name="description" content="フレコンバッグ、ソフトバッグの製造・販売の『ふくろ屋ふくなが』。即日発送・送料無料・無料サンプル有。" />
+<meta name="keywords" content="フレコンバッグ,フレコン,コンテナバッグ,土のう,トン袋,フレコンバック,フレコンパック" />
+<style>#loader{width:256px;height:85px;display:none;position:fixed;_position:absolute;top:50%;left:45%;margin-top:-128px;margin-left:-42px;z-index:100;}#fade{width:100%;height:100%;display:none;background-color:#fff;position:absolute;top:0px;left:0px;z-index:50;}</style>
+<link rel="stylesheet" href="/user_data/packages/default/css/reset.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/user_data/packages/default/css/common.css?ver=20180521-173107" type="text/css" media="all" />
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+
+
+
+
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="https://www.softbag.jp/rss/" />
+
+<link rel="apple-touch-icon" sizes="57x57" href="https://www.softbag.jp/user_data/packages/default/img/icon/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://www.softbag.jp/user_data/packages/default/img/icon/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://www.softbag.jp/user_data/packages/default/img/icon/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://www.softbag.jp/user_data/packages/default/img/icon/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://www.softbag.jp/user_data/packages/default/img/icon/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://www.softbag.jp/user_data/packages/default/img/icon/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://www.softbag.jp/user_data/packages/default/img/icon/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://www.softbag.jp/user_data/packages/default/img/icon/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.softbag.jp/user_data/packages/default/img/icon/apple-touch-icon-180x180.png">
+<link rel="shortcut icon" href="https://www.softbag.jp/user_data/packages/default/img/icon/favicon.ico">
+<link rel="icon" type="image/png" href="https://www.softbag.jp/user_data/packages/default/img/icon/favicon-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="https://www.softbag.jp/user_data/packages/default/img/icon/favicon-160x160.png" sizes="160x160">
+<link rel="icon" type="image/png" href="https://www.softbag.jp/user_data/packages/default/img/icon/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="https://www.softbag.jp/user_data/packages/default/img/icon/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="https://www.softbag.jp/user_data/packages/default/img/icon/favicon-32x32.png" sizes="32x32">
+
+<script type="text/javascript" src="https://www.softbag.jp/js/css.js"></script>
+<!--[if lte IE 9 ]><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script><!--<![endif]-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+
+
+<script type="text/javascript" src="https://www.softbag.jp/js/site_mig.js?ver=201707"></script>
+ 
+ 
+
+<script src="https://cdn.rawgit.com/AndroPlus-org/autokana/master/jquery.autoKana.js"></script>
+
+
+
+<script>
+$(document).ready(function() {
+	$(".category_single_area h2").hover(function(){
+		$(this).css("cursor","pointer"); 
+	},function(){
+		$(this).css("cursor","default"); 
+	});
+	$(".category_single_area .categorypadding").css("display","none");
+	$(".category_single_area h2").click(function(){
+		$(this).next().slideToggle("fast");
+	});
+});
+</script>
+<script type="text/javascript">
+    $.urlParam = function(name){
+    var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+    if (results==null){
+       return null;
+    }
+    else{
+       return results[1] || 0;
+    }
+}
+$(function(){
+	var headerHight = 20;
+	$('a[href^=#]').click(function(){
+		var speed = 500;
+		var href= $(this).attr("href");
+		var target = $(href == "#" || href == "" ? 'html' : href);
+		var position = target.offset().top-headerHight;
+		$("html, body").animate({scrollTop:position}, speed, "swing");
+		return false;
+	});
+});
+</script>
+
+<script>
+$(function() {
+	if ($.urlParam('dev') == 1){
+		$('.samplebutton').removeClass("red-b");
+		$('.samplebutton').addClass("orange");
+		$('.developing').show();
+		$('.developing_old').hide();
+	};
+	if ($.urlParam('abt') == 1){
+		$('#dropmenu').addClass("dropmenu_abt");
+	};
+});
+</script>
+
+
+<script type="text/javascript" src="//api.docodoco.jp/v5/docodoco?key=355Eoh52GJNVunD0Pww7iWJ6MVgNSYnvUIKTKMxpPh9dKTRjgW8z2G2kyRek7sO6" charset="utf-8"></script>
+<script type="text/javascript" src="https://www.softbag.jp/info/wp-content/themes/ecobag/js/docodoco_ua_plugin_2.js" charset="utf-8"></script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-999076-1', 'auto', {'allowLinker': true});
+ga('require', 'linker');
+ga('linker:autoLink', ['softbag.jp','ecosoft.co.jp']);
+ga('require', 'displayfeatures');
+ga('require', 'linkid');
+var ua = navigator.userAgent;
+ga('set', 'dimension1', ua);
+ga('set', 'dimension2', '157.205.87.146');
+ga('set', 'dimension4', SURFPOINT.getOrgName());
+ga('set', 'dimension5', SURFPOINT.getOrgUrl());
+ga('set', 'dimension6', getIndL(SURFPOINT.getOrgIndustrialCategoryL())); //業種大分類
+ga('set', 'dimension7', getEmp(SURFPOINT.getOrgEmployeesCode())); //従業員区分
+ga('set', 'dimension8', getIpo(SURFPOINT.getOrgIpoType())); //上場区分
+ga('set', 'dimension9', SURFPOINT.getPrefCode() + "_" + SURFPOINT.getPrefJName()); //都道府県
+ga('set', 'dimension10', getIndM(SURFPOINT.getOrgIndustrialCategoryM())); //業種中分類
+ga('set', 'dimension11', SURFPOINT.getOrgCode()); //CAR コード
+ga('set', 'dimension12', getTime());
+
+ga('require', 'ec');
+ga('send', 'pageview');
+</script>
+
+<!-- RTP tag --> 
+<script type='text/javascript'>
+(function(c,h,a,f,i,e){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+ c[a].a=i;c[a].e=e;var g=h.createElement("script");g.async=true;g.type="text/javascript";
+ g.src=f+'?aid='+i;var b=h.getElementsByTagName("script")[0];b.parentNode.insertBefore(g,b);
+ })(window,document,"rtp","//abrtp1-cdn.marketo.com/rtp-api/v1/rtp.js","softbagjp");
+ 
+rtp('send','view');
+rtp('get', 'campaign',true);
+</script>
+<!-- End of RTP tag -->
+
+<script src="//kitchen.juicer.cc/?color=lw3mcW8JVRo=" async></script>
+
+
+<!--[if lt IE 9]>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+<![endif]-->
+
+<meta property="og:image" content="https://www.softbag.jp/user_data/packages/default/img/common/ogp.png" />
+<meta property="og:site_name" content="ふくろ屋ふくなが" />
+<meta property="og:description" content="フレコンバッグ、ソフトバッグの製造・販売の『ふくろ屋ふくなが』。即日発送・送料無料・無料サンプル有。" />
+<meta property="og:title" content="お問い合わせ(入力ページ) | ふくろ屋ふくなが" />
+<meta property="og:url" content="//www.softbag.jp/contact/" />
+<meta property="og:type" content="article" />
+<meta property="fb:app_id" content="1072373839445475" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@feco_fukunaga" />
+
+<script type="application/ld+json">
+      {
+      "@context": "http://schema.org/",
+      "@type": "Organization",
+      "url": "https://www.softbag.jp/",
+      "logo": "https://www.softbag.jp/info/wp-content/uploads/logo_fukuroya_2.png"
+      }
+</script>
+
+<script type="text/javascript">//<![CDATA[
+    
+    $(function(){
+        
+    });
+//]]>
+</script>
+
+
+<script type="text/javascript">
+(function() {
+  var didInit = false;
+  function initMunchkin() {
+    if(didInit === false) {
+      didInit = true;
+      Munchkin.init('946-FSS-058', {"domainLevel":2});
+    }
+  }
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '//munchkin.marketo.net/munchkin.js';
+  s.onreadystatechange = function() {
+    if (this.readyState == 'complete' || this.readyState == 'loaded') {
+      initMunchkin();
+    }
+  };
+  s.onload = initMunchkin;
+  document.getElementsByTagName('head')[0].appendChild(s);
+})();
+</script>
+
+<!-- EBiS tag version4.10 start -->
+<script type="text/javascript">
+    (function(a,d,e,b,i,s){ window[i]=window[i]||[];var f=function(a,d,e,b,i,s){
+        var o=a.getElementsByTagName(d)[0],h=a.createElement(d),t='text/javascript';
+        h.type=t;h.async=e;h.onload=function(){ window[i].init(
+            { argument:s, auto:true }
+        );};h._p=o;return h;},h=f(a,d,e,b,i,s),l='//taj',j=b+s+'/cmt.js';h.src=l+'1.'+j;
+        h._p.parentNode.insertBefore(h,h._p);h.onerror=function(k){k=f(a,d,e,b,i,s);
+        k.src=l+'2.'+j;k._p.parentNode.insertBefore(k,k._p);};
+    })(document,'script',true,'ebis.ne.jp/','ebis','3vEnGRsU');
+</script>
+<!-- EBiS tag end -->
+
+</head>
+
+<!-- ▼BODY部 スタート -->
+<body id="top">
+
+
+
+<div class="frame_outer">
+
+        <!--▼HEADER-->
+
+<div id="wrapper">
+	<div id="header">
+	    <div id="logo">
+	            <h1>	            	                     <a href="/" class="pagetop">
+		            <img src="//www.softbag.jp/info/wp-content/uploads/nh001.png" alt="ふくろ屋ふくながはフレコンバッグの通販サイトです" width="199" height="98" /></a>
+	            	            
+	            	            </h1>	            	<a href="//www.softbag.jp/info/guide/delivery.html" id="logo_dfree"><img src="//www.softbag.jp/info/wp-content/uploads/hd025_ms.png" alt="ふくろ屋ふくながは全品送料無料、最短翌日お届け" width="174" height="124" /></a>
+	            	    </div>
+	    
+	    	    <div id="header_right2">
+
+			<div class="header_button">
+				<p><a href="/info/guide/delivery.html" title="到着日目安" class="btn-push btn-sss"><i class="fa fa-clock-o fa-fw"></i>到着日目安</a></p>
+				<p><a href="/info/guide/payment.html" title="お支払い方法" class="btn-push btn-sss"><i class="fa fa-jpy fa-fw"></i>お支払方法</a></p>
+				<p><a href="/info/guide/guide.html" title="購入ガイド" class="btn-push btn-sss"><i class="fa fa-question-circle fa-fw"></i>購入ガイド</a></p>
+				<p><a href="https://www.softbag.jp/mypage/login.php" title="マイページ・購入履歴" class="btn-push btn-sss"><i class="fa fa-user fa-fw"></i>マイページ・購入履歴</a></p>
+				<p><a href="https://www.softbag.jp/cart/" title="買い物カゴ" class="btn-push btn-sss"><i class="fa fa-shopping-cart fa-fw"></i>買い物カゴ <span class="header_button_cartitem">0</span></a></p>
+			</div>
+			
+			<div class="contact" style="float: none !important;">
+			<a href="https://www.softbag.jp/contact/" class="alignC" style="float: left;width: 200px;height:100px;padding: 10px;margin:14px 5px 8px 5px;border-radius:3px;box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.26);font-size:120%;line-height:1.4;background-color:#f9f9f9;text-decoration: none;">メールでのお問い合わせ<br /><i class="fa fa-envelope-square" style="font-size: 40px;"></i><br />24時間受付中です。<br /><span style="border-bottom:1px solid #666666">お問い合わせはこちら <i class="fa fa-arrow-circle-right fa-fw fa-lg" aria-hidden="true"></i></span></a>
+			<a href="https://www.softbag.jp/info/contact.html" class="alignC" style="float: left;width: 250px;height:100px;padding: 10px;margin:14px 5px 8px 5px;border-radius:3px;box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.26);font-size:130%;line-height:1.1;background-color:#f9f9f9;text-decoration: none;">お電話でのお問い合わせ<br /><span style="color:#D02428;font-size:1.5em;font-weight: bold;"><i class="fa fa-phone-square"></i> 06-6969-3632</span><br />FAXでのお問い合わせ<br /><span style="font-size:1.3em;font-weight: bold;"><i class="fa fa-fax"></i> 06-6969-3633</span><br />営業時間 平日 9:00～17:00</a>
+			
+			<a href="/info/guide/sample.html" title="無料サンプル" class="alignC" style="float: left;width: 225px;height:100px;padding: 10px;margin:14px 5px 8px 5px;border-radius:3px;box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.26);font-size:120%;line-height:1.6;background-color:#f9f9f9;text-decoration: none;background: url(https://www.softbag.jp/info/wp-content/uploads/nh_bg.png) no-repeat center center;">ふくろ屋ふくながでは<br /><span style="color:#388e3c;font-size:1.2em;font-weight:bold;">50種類以上のフレコンを<br />無料でお試し</span>できます。<br /><span style="border-bottom:1px solid #666666">詳しくはこちら <i class="fa fa-arrow-circle-right fa-fw fa-lg" aria-hidden="true"></i></span></a>
+			</div>
+			
+			<div id="menu_area">
+			<p style="float: right;margin:1px;"><a href="/info/guide/payment.html"><img src="https://www.softbag.jp/info/wp-content/uploads/header_payment.png?date=201704" alt="お支払い方法" width="330" height="50" /></a></p>
+			
+			<p style="float: right;"><a href="https://www.softbag.jp/contact/catalogue.php"><img src="//www.softbag.jp/info/wp-content/uploads/cat_ana.png?date=201510" alt="新しくなったカタログのご請求はこちらから" width="176" height="47" class="boxshadow1" style="border: 1px solid #3f51b5;border-radius: 3px;" /></a></p>
+			</div>
+		</div>
+		
+	<ul id="dropmenu" onclick="ga('send', 'event', 'UX', 'click', 'topbar');">
+		<li><a href="#">容量で選ぶ</a>
+			<ul>
+				<li><a href="/user_data/category_list.php?category_id=3">～500ℓ (小型)</a></li>
+				<li><a href="/user_data/category_list.php?category_id=4">800～1,000ℓ (小～中型)</a></li>
+				<li><a href="/user_data/category_list.php?category_id=7">1,000ℓ (中型)</a></li>
+				<li><a href="/user_data/category_list.php?category_id=8">1,050～1,250ℓ (中～大型)</a></li>
+				<li><a href="/user_data/category_list.php?category_id=9">1,600～2,100ℓ (特大)</a></li>
+			</ul>
+		</li>
+		<li><a href="#">特徴で選ぶ</a>
+			<ul>
+				<li><a href="/user_data/category_list.php?category_id=17">売れ筋商品</a></li>
+				<li><a href="/user_data/category_list.php?category_id=84" style="background: #F44336;">格安フレコン</a></li>
+				<li><a href="/user_data/category_list.php?category_id=16">排出口あり</a></li>
+				<li><a href="/user_data/category_list.php?category_id=15">排出口なし</a></li>
+				<li><a href="/user_data/category_list.php?category_id=14">漏れを防ぐ</a></li>
+				<li><a href="/user_data/category_list.php?category_id=13">内袋セット済</a></li>
+				<li><a href="/user_data/category_list.php?category_id=12">水が切れやすい</a></li>
+				<li><a href="/user_data/category_list.php?category_id=42">耐候性 (屋外保管)</a></li>
+				<li><a href="/user_data/category_list.php?category_id=78">熱に強い</a></li>
+				<li><a href="/user_data/category_list.php?category_id=11">耐荷重2t対応</a></li>
+			</ul>
+		</li>
+		<li><a href="#">入れたいもので選ぶ</a>
+			<ul class="nav_br_r">
+				<li><a href="/user_data/category_list.php?category_id=52">建廃物・がれき</a></li>
+				<li><a href="/user_data/category_list.php?category_id=53">石・砂</a></li>
+				<li><a href="/user_data/category_list.php?category_id=54">ガラス</a></li>
+				<li><a href="/user_data/category_list.php?category_id=55">金属スクラップ</a></li>
+				<li><a href="/user_data/category_list.php?category_id=56">金属製品</a></li>
+				<li><a href="/user_data/category_list.php?category_id=57">米・籾殻</a></li>
+				<li><a href="/user_data/category_list.php?category_id=58">穀類・野菜</a></li>
+				<li><a href="/user_data/category_list.php?category_id=59">堆肥・肥料</a></li>
+			</ul>
+			<ul class="nav_br_l">
+				<li><a href="/user_data/category_list.php?category_id=60">粉体物</a></li>
+				<li><a href="/user_data/category_list.php?category_id=61">土・培養土</a></li>
+				<li><a href="/user_data/category_list.php?category_id=62">資源再生物・剪定ゴミ</a></li>
+				<li><a href="/user_data/category_list.php?category_id=63">木屑・チップ</a></li>
+				<li><a href="/user_data/category_list.php?category_id=64">含水物・汚泥</a></li>
+				<li><a href="/user_data/category_list.php?category_id=65">樹脂ペレット</a></li>
+				<li><a href="/user_data/category_list.php?category_id=66">化学原料</a></li>
+				<li><a href="/user_data/category_list.php?category_id=67">その他廃棄物</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">フレコン関連商品</a>
+			<ul>
+				<li><a href="/user_data/category_list.php?category_id=68">フレコンスタンド (フレーム)</a></li>
+				<li><a href="/user_data/category_list.php?category_id=69">フレコン用内袋</a></li>
+				<li><a href="/user_data/category_list.php?category_id=70">フレコン用ゼッケン</a></li>
+				<li><a href="/user_data/category_list.php?category_id=75">フレコン用パレット</a></li>
+				<li><a href="/user_data/category_list.php?category_id=71">フレコンカバー</a></li>
+				<li><a href="/user_data/category_list.php?category_id=72">フレコン用荷札</a></li>
+				<li><a href="/user_data/category_list.php?category_id=74">フレコングリップ</a></li>
+				<li><a href="/user_data/category_list.php?category_id=76">フレコン補修テープ</a></li>
+				<li><a href="/user_data/category_list.php?category_id=77">フレコンストッパー</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="/user_data/category_list.php?category_id=0">商品一覧</a>
+		</li>
+		<li><a href="/user_data/search.php">かんたん検索</a></li>
+	</ul>
+	</div>
+<br style="clear:both;">
+<!--▲HEADER-->
+    <div id="container" class="clearfix">
+
+        
+                            <div id="leftcolumn" class="side_column">
+                                                    <!-- ▼ログイン -->
+                                            <div class="bloc_outer">
+	<div class="mb-40">
+    <div id="login_area">
+    	<div class="bloc_body">
+        <p class="login_head">マイページ</p>
+        <form name="login_form" id="login_form" method="post" action="/frontparts/login_check.php" onsubmit="return fnCheckLogin('login_form')">
+            <input type="hidden" name="transactionid" value="5496334e6ecf87ea319ddd1877359d1e7d62a82b" />
+            <input type="hidden" name="mode" value="login" />
+            <input type="hidden" name="url" value="/contact/" />
+            <div class="text">
+                                    <dl class="formlist">
+                        <dt>メールアドレス</dt>
+                        <dd>
+                            <input type="text" name="login_email" class="box160" value="" style="ime-mode: disabled;" />
+                        </dd>
+                    </dl>
+                    <dl class="formlist">
+                        <dt class="password">パスワード</dt>
+                        <dd><input type="password" name="login_pass" class="box160" /></dd>
+                    </dl>
+                    <p class="login_memory">
+                                                        <input type="checkbox" name="login_memory" value="1" checked id="login_memory_blk" />
+                            <label for="login_memory_blk">パソコンに記憶させる</label>
+                    </p>
+
+                    <p class="gray_ripple"><a title="ログイン" href="javascript:void(0)" onClick="document.forms['login_form'].submit(); return false;" class="ripple detail_button sidebar_button boxshadow2">
+		<i class="fa fa-sign-in fa-fw fa-lg"></i>ログイン</a>
+		</p>
+                                </div>
+                </form>
+            </div>
+        </div>
+            <ul id="login_guide">
+    	<li><i class="fa fa-question-circle fa-fw fa-lg"></i><a href="/forgot/" onclick="win01('/forgot/','forget','600','400'); return false;" target="_blank" style="color:#f90;">パスワードを忘れた方はこちら</a></li>
+    	<li><i class="fa fa-chevron-circle-right  fa-fw fa-lg"></i><a href="/entry/" style="color: #f90;">新規登録はこちら</a></li>
+    </ul>
+        </div>
+    <div class="clear"></div>
+</div>
+                                        <!-- ▲ログイン -->
+                                    <!-- ▼SSLサイトシール -->
+                                            <table style="border:none;" width="100" border="0" cellpadding="2" cellspacing="0" title="SSLのサイトシール">
+  <tr>
+    <td style="border:none;text-align:center;" width="100" valign="top">
+      <img alt="SSL GlobalSign Site Seal" border=0 id="ss_img" src="https://www.softbag.jp/info/wp-content/uploads/RapidSSL_SEAL-90x50.gif">
+    </td>
+  </tr>
+</table>                                        <!-- ▲SSLサイトシール -->
+                                            </div>
+                
+                <div  id="two_maincolumn_right" class="main_column" >
+                                    
+                        <!--▼CONTENTS-->
+
+
+<!--<script src="/js/fort.min.js"></script>-->
+
+<link href="//www.fukunaga-tire.jp/wp-content/themes/tire/js/validationEngine.jquery.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="/js/jquery.lightbox/lightbox.css" type="text/css" media="screen" />
+
+<style>
+.form input[type="text"]:hover{border:solid 1px #2196f3 !important
+}
+.formError + input[type="text"],.formError + textarea{background-color:#ffcdd2 !important
+}
+.card_h3 {
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 204, 128);
+    margin-top: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+}
+
+.small_inputs::after {
+    display: table;
+    content: "";
+    line-height: 0;
+}
+.small_inputs .input {
+    float: left;
+    padding: 15px 15px 5px;
+    width: 50%;
+    height: /*75px;*/auto;
+    border-right: 1px solid #E5E5E5 !important;
+    border-left: 1px solid #E5E5E5 !important;
+    border-bottom: medium none !important;
+}
+.small_inputs {
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+.gridform .input {
+    /*min-height:8em;*/
+    border-radius: 0px;
+    box-sizing: border-box;
+    position: relative;
+    padding: 5px 20px;
+    border-bottom: 1px solid #E5E5E5 !important;
+    background-color: #FFF;
+}
+.small_inputs .input label {
+    /*overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;*/
+    display: block;
+    width: 100%;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-size: 13px;
+    text-shadow: 0px -1px 1px rgba(255, 255, 255, 0.8);
+}
+.gridform label, .gridform input, .gridform button, .gridform select, .gridform textarea {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+.gridform .small_inputs .input input, .gridform .small_inputs .input .jq-dte {
+    margin-top: 2px;
+}
+.clean_form .input input {
+    padding: 5px 0px;
+    color: rgba(75, 89, 102, 0.85);
+}
+.gridform .input input[type="text"], .gridform .input .jq-dte, .gridform .input .selectBox {
+    box-shadow: none;
+    box-sizing: border-box;
+    /*width: 100%;*/
+    height: auto;
+    border: medium none;
+    font-size: 15px;
+}
+.gridform textarea, .gridform input, .uneditable-input {
+    background-color: #FFF;
+    border: 1px solid #333 !important;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset !important;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s !important;
+}
+.gridform select, .gridform textarea, .gridform input, .uneditable-input {
+    display: inline-block;
+    height: 20px;
+    padding: 6px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #555;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+.gridform input, .gridform button, .gridform select, .gridform textarea {
+font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+height: auto;
+}
+.port_f input{
+width:auto !important;
+border-bottom:2px solid #90caf9!important}
+.formError{
+left:50% !important;}
+.your-category-1formError,.tiretype-1formError{
+left:30% !important;}
+
+.w39{
+width: 39%;}
+.w40{
+width: 40%;}
+.w49{
+width: 49%;}
+.w50{
+width: 50%;}
+.w60{
+width: 60%;}
+.w100{
+width: 100% !important;}
+.contact_form dl dt {
+    margin-top: 0px !important;
+}
+.form-group {
+  background: white;
+  display: inline-block;
+  border: 1px solid #ccc;
+}
+.form-group dt{
+  display: block;
+  padding: 0.25em;
+  color: #616161;
+  border-bottom: 1px dashed #eee;
+  -webkit-user-select: none;
+  -moz-user-select: none;  
+  user-select: none
+}
+.form-group input {
+  display: block;
+  border: none;
+  font-size: 1em;
+  padding: 0.25em
+}
+.back_buttond{
+float:left;
+margin-right:15px;}
+
+.topblk_contact{
+font-size:1.2em;
+line-height: 1.2;
+}
+.topblk_contact_step{
+width:160px;
+float:left;
+margin-top:10px;
+margin-bottom:10px;
+border:1px solid #333;
+border-radius:3px;
+}
+.topblk_contact_stepnum{
+color: #fff;
+background-color:#03a9f4;
+display: inline-block;
+padding: 5px;
+}
+.topblk_contact_step_now{
+background-color:#ffc107;
+}
+.list_disc,.list_disc li{list-style: disc inside none;}
+#footer ul,#header_right2,#logo_dfree,#dropmenu{display: none !important;}
+#two_maincolumn_right{margin-top: -80px;}
+#conf_pp{text-align: center; padding-top: 20px; clear: both;}
+.formError{margin-left:-10% !important;}
+#grayout {
+position: fixed;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background: gray;
+opacity: 0.5;
+z-index: 1;
+display:none;
+}
+#email02{
+    font-size: 2em;
+    line-height: 1.3em;
+}
+</style>
+<script src="//www.fukunaga-tire.jp/wp-content/themes/tire/js/jquery.validationEngine-ja.js"></script>
+<script src="//www.fukunaga-tire.jp/wp-content/themes/tire/js/jquery.validationEngine.js"></script>
+
+<script type="text/javascript" src="/js/lightbox.min.js"></script>
+<div id="undercolumn">
+    <h2 class="h2_title">お問い合わせ(入力ページ)</h2>
+
+    <div id="undercolumn_contact">
+
+<div class="topblk_contact">
+	<div style="float:left;width:554px">
+	<p style="font-size:1.5em;font-weight:bold;line-height: 1.1;">ふくろ屋の商品や注文方法などのお問い合わせ</p>
+	<p class="topblk_contact_step topblk_contact_step_now"><span class="topblk_contact_stepnum">1.</span> 内容の入力</p>
+	<i class="fa fa-chevron-right fa-lg fa-fw" style="float:left;line-height:2.7em;"></i>
+	<p class="topblk_contact_step"><span class="topblk_contact_stepnum">2.</span> 内容の確認</p>
+	<i class="fa fa-chevron-right fa-lg fa-fw" style="float:left;line-height:2.7em;"></i>
+	<p class="topblk_contact_step"><span class="topblk_contact_stepnum">3.</span> 送信完了</p>
+	<br style="clear:both;">
+	<ul class="list_disc">
+		<li>どのフレコンを選べば良いのか分からない…</li>
+		<li>ネット注文で買う方法が分からない…</li>
+		<li>オーダーメイドのフレコンを作って欲しい…</li>
+	</ul>
+	など、どんなことでもお気軽にご相談ください!
+	<p style="width: 260px;margin-top:10px;float:left;">お電話でのご相談も可能です。<br />お急ぎの方はお電話ください!<br>
+	<span style="color:#D02428;font-size:1.6em;font-weight: bold;"><i class="fa fa-phone-square"></i> 06-6969-3632</span><br>営業時間 平日 9:00～17:00<br>※HPを見たとお伝えください。
+	</p>
+	<p style="padding-top: 45px;float:left;"><a title="よくあるご質問" href="https://www.softbag.jp/info/faq1.html" onClick="ga('send', 'event', '問い合わせ', 'よくあるご質問', 'クリック');" class="btn-push"><i class="fa fa-question-circle fa-fw fa-lg"></i>よくあるご質問</a></p>
+	</div>
+	
+	<div style="float:left;width:200px">
+		<img src="//www.softbag.jp/info/wp-content/uploads/cgirl-200x300.jpg" alt="お問い合わせください" width="200">
+		</div>
+</div>
+<br class="clear">
+        <p style="margin-top:10px;">内容によっては回答をさしあげるのにお時間をいただくこともございます。<br />
+        また、休業日は翌営業日以降の対応となりますのでご了承ください。</p>
+                <div class="login_area">
+            <h3 style="padding-top:15px;font-size:1.3em;"><i class="fa fa-angle-double-right fa-lg"></i>会員登録がお済みのお客様</h3>
+            <p class="inputtext">会員登録がお済みの方は、左側にある「マイページ」欄にてメールアドレス・パスワードをご入力の上「<i class="fa fa-sign-in fa-fw fa-lg"></i>ログイン」ボタンを押していただくと、お客様情報の入力をせずに済みますので、スムーズにお問い合わせしていただけます。ご活用ください。</p>
+            </div>
+        <div class="login_area">
+            <h3 style="font-size:1.3em;"><i class="fa fa-angle-double-right fa-lg"></i>まだ会員登録されていないお客様</h3>
+
+            <p class="inputtext"><a href="/entry/index.php">会員登録をする</a>と便利なマイページや会員限定特典をご利用いただけます。<br />
+                また、ログインするだけで、毎回お名前や住所などを入力することなくスムーズにお買い物をお楽しみいただけます。<br />
+                個人の方はもちろん、法人の方でもご登録して頂けます。<br />
+                ぜひ、この機会にご登録ください。<br />
+                ※お問い合わせにログインは必須ではありません。
+            </p>
+            <div class="inputbox">
+                <div class="btn_area">
+                    <ul>
+                        <li>
+                            <!--
+                            <p style="margin-top: 20px;"><a title="会員登録する" href="/entry/index.php" class="btn-push green"><img src="https://www.softbag.jp/info/wp-content/uploads/wakaba.png" height="30" style="vertical-align: middle;">会員登録する</a></p> -->
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                <span class="attention2">※オーダーメードをご注文・お問い合わせのお客様は、<br />お問い合わせ内容欄にご希望のオーダーメードを記載してください。</span>
+        <p style="margin: 5px 0px 5px;">※ロールベールキャッチャーは製造不可のため現在お取り扱いしておりません。ご了承ください。</p>
+
+        <div class="form"><form name="form1" method="post" action="?" enctype="multipart/form-data" class="formerr h-adr" id="contact_form">
+        <input type="hidden" class="ignore" name="transactionid" value="5496334e6ecf87ea319ddd1877359d1e7d62a82b" />
+        <input type="hidden" class="ignore" name="mode" value="confirm" />
+        <input type="hidden" name="image_key" value="" />
+        <input type="hidden" name="sample_image_realpath" value="" />
+        <input type="hidden" name="sample_image_urlpath" value="" />
+        <input type="hidden" class="p-country-name" value="Japan">
+        
+
+<div class="gridform">
+		<div class="small_inputs">
+		
+		     	<div class="input string optional first_name w100">
+		     	<label class="string optional"><span class="attentionB">(任意)</span> 図面や写真<br />
+			<span class="mini" id="sample_image_desc">(添付できるファイルは一つのみです)</span></label>
+			図面や写真 (形式: jpg、png、gif、pdf) を添付したい場合は下の「参照...」ボタンでファイルを選んでください。<br />
+			ファイルサイズは<span class="attention2">2MB以内</span>でお願いいたします。<br /><br />
+						<input type="file" name="sample_image" id="sample_image" style="" onChange="$('#grayout').show(0); fnModeSubmit('upload_image', 'image_key', 'sample_image'); return false;" />
+						
+		     	<div class="attention" style="font-size: 1.4em;line-height: 2;"></div>
+		     	</div>
+		     	
+		     	<div class="input string optional first_name w100"><label class="string optional" for="contents"><span class="attention2">(必須)</span> お問い合わせ内容をご入力ください。<br />
+				<span class="mini">(全角1000文字以下)</span></label>
+				   <input type="hidden" name="target_product" id="target_product"  value="" />
+				   <textarea name="contents" id="contents"  cols="60" rows="10" style=";width: 545px;" onfocus="ga('send', 'event', 'メール問い合わせ', '入力フォーム確認用', '11問い合わせ内容');">
+
+■お問い合わせ内容
+弊社へのお問い合わせ内容をお書きください。
+
+例:
+・こんな現場で使いたいけれど、どのフレコンがぴったりなんですか?
+・商品ページを見てもいまいち分からないところがあったのですが…</textarea>
+		     	<div class="attention"></div>
+		     	<p class="mini attention2">※ご注文に関するお問い合わせには、必ず「ご注文番号」をご記入くださいますようお願いいたします。</p>
+		     	</div>
+	</div>
+</div>
+
+<div class="gridform member_ac ">
+		<div class="small_inputs">
+		        <div class="input string required first_name w100"><label class="string optional" for="name01"><span class="attention2">(必須)</span> お名前</label><input type="text" class="box300" name="name01" id="name01" value="" maxlength="50" style=";" onfocus="ga('send', 'event', 'メール問い合わせ', '入力フォーム確認用', '01お名前');" placeholder="例: 福永 太郎" autocomplete="name" />　
+		     	<div class="attention"></div>
+		     	</div>
+		     	
+		     	<div class="input string required first_name w100"><label class="string optional" for="kana01"><span class="attention2">(必須)</span> お名前 (フリガナ)</label>
+				   <input type="text" class="box300" name="kana01" id="kana01" value="" maxlength="50" style=";" onfocus="ga('send', 'event', 'メール問い合わせ', '入力フォーム確認用', '02お名前フリガナ');" placeholder="例: フクナガ タロウ" />　
+		     	<div class="attention"></div>
+		     	</div>
+		     	
+		     	<div class="input string optional first_name w100"><label class="string optional" for="company_name"><span class="attentionB">(法人の場合必須)</span> 会社名</label>
+				   <input type="text" class="box300 ignore" name="company_name" id="company_name" value="" maxlength="50" style=";" onfocus="ga('send', 'event', 'メール問い合わせ', '入力フォーム確認用', '03会社名');" />
+		     	<div class="attention"></div>
+		     	</div>
+		     	
+		     	<div class="input string optional first_name w100"><label class="string optional" for="company_kana"><span class="attentionB">(法人の場合必須)</span> 会社名 (フリガナ)</label>
+				   <input type="text" class="box300 ignore" name="company_kana" id="company_kana" value="" maxlength="50" style=";" onfocus="ga('send', 'event', 'メール問い合わせ', '入力フォーム確認用', '04会社名フリガナ');" />
+		     	<div class="attention"></div>
+		     	</div>
+		     	
+		     	<tr>
+		     	<div class="input string optional first_name w100"><label class="string optional" for="department_name"><span class="attentionB">(法人の場合・任意)</span> 部署名</label>
+				   <input type="text" class="box300 ignore" name="department_name" id="department_name" value="" maxlength="50" style=";" onfocus="ga('send', 'event', 'メール問い合わせ', '入力フォーム確認用', '04部署名');" />
+		     	<div class="attention"></div>
+		     	</div>
+		     	
+		     	<div class="input string requiredm first_name w100"><label class="string optional" for="email"><span class="attention2">(必須)</span> メールアドレス</label>
+				   <input type="text" class="box380 top" name="email" id="email" value="" style="; ime-mode: disabled;" autocomplete="email" /><br />
+															<input type="text" class="box380" id="email02" name="email02" value="" style="; ime-mode: disabled;" onfocus="ga('send', 'event', 'メール問い合わせ', '入力フォーム確認用', '10メールアドレス');" autocomplete="email" /><br />
+					<p class="mini"><br><span class="attention2">確認のため2度入力してください。</span></p>
+		     	<div class="attention"></div>
+		     	</div>
+		     	
+		     	<div class="input string optional first_name w100"><label class="string optional" for="zip01"><span class="attentionB">(任意)</span> 郵便番号</label>
+				   <p class="top">
+						〒<input type="text" name="zip01" id="zip01" class="box120 ignore p-postal-code" value="" maxlength="8" style="; ime-mode: disabled;" onfocus="ga('send', 'event', 'メール問い合わせ', '入力フォーム確認用', '05郵便番号');" placeholder="例: 536-0014" autocomplete="shipping postal-code" />
+					</p>
+		     	<div class="attention"></div>
+		     	</div>
+		     	
+		     	<div class="input string optional first_name w100"><label class="string optional" for="addr01"><span class="attentionB">(任意)</span> 住所</label>
+				   					<p>
+						都道府県 市区町村名 (例：大阪府大阪市城東区鴫野西)<br />
+						<input type="text" class="box380 ignore p-region p-locality p-street-address" name="addr01" id="addr01" value="" style=";" onfocus="ga('send', 'event', 'メール問い合わせ', '入力フォーム確認用', '06住所1');" placeholder="例: 大阪府大阪市城東区鴫野西" autocomplete="shipping street-address" /><br />
+					</p>
+
+					<p>
+				 		番地・ビル名 (例：5-13-30)<br>
+						<input type="text" class="box380 ignore p-extended-address" name="addr02" value="" style=";" onfocus="ga('send', 'event', 'メール問い合わせ', '入力フォーム確認用', '07住所2');" placeholder="例: 5-13-30" />
+					</p>
+
+					<p class="mini"><br><span class="attention2">住所は2つに分けてご記入ください。マンション名は必ず記入してください。</span></p>
+					
+		     	<div class="attention"></div>
+		     	</div>
+		     	
+		     	<div class="input string optional first_name w100"><label class="string optional" for="tel01"><span class="attentionB">(任意)</span> 電話番号</label>
+				   <input type="text" class="box300 ignore" name="tel01" id="tel01" value="" maxlength="13" style="; ime-mode: disabled;" onfocus="ga('send', 'event', 'メール問い合わせ', '入力フォーム確認用', '08電話番号');" placeholder="例: 06-123-4567" />
+		     	<div class="attention"></div>
+		     	</div>
+		     	
+		     			     	
+		     	<div class="input string optional first_name w100">
+		     	<fieldset class="requiredarea">
+			<legend>
+		     	<label class="string optional label_title" for="job"><span class="attention2">(必須)</span> 業種</label>
+		     	</legend>
+				   				   				   			            <select name="job" style="" class="validate[required]">
+			                <option value="">選択してください</option>
+			                <option label="農業・ＪＡ" value="1">農業・ＪＡ</option>
+<option label="林業" value="2">林業</option>
+<option label="漁業" value="3">漁業</option>
+<option label="鉱業" value="4">鉱業</option>
+<option label="建設業" value="5">建設業</option>
+<option label="食品製造" value="6">食品製造</option>
+<option label="繊維製造業" value="7">繊維製造業</option>
+<option label="木材・紙パルプ製造" value="8">木材・紙パルプ製造</option>
+<option label="化学製造" value="9">化学製造</option>
+<option label="石油・石炭製造" value="10">石油・石炭製造</option>
+<option label="プラスチック製造業" value="11">プラスチック製造業</option>
+<option label="ゴム・皮製造" value="12">ゴム・皮製造</option>
+<option label="窯業・土石製品製造業" value="13">窯業・土石製品製造業</option>
+<option label="金属・金属製品製造" value="14">金属・金属製品製造</option>
+<option label="産業機械器具製造" value="15">産業機械器具製造</option>
+<option label="輸送用機械機具製造業" value="16">輸送用機械機具製造業</option>
+<option label="その他製造" value="17">その他製造</option>
+<option label="電気・ガス・水道業" value="18">電気・ガス・水道業</option>
+<option label="運輸・倉庫業" value="19">運輸・倉庫業</option>
+<option label="商社・卸売" value="20">商社・卸売</option>
+<option label="メンテナンス・サービス業" value="21">メンテナンス・サービス業</option>
+<option label="再生資源卸売" value="22">再生資源卸売</option>
+<option label="金属リサイクル業" value="23">金属リサイクル業</option>
+<option label="廃プラ・リサイクル業" value="24">廃プラ・リサイクル業</option>
+<option label="廃棄物処理業" value="25">廃棄物処理業</option>
+<option label="下水・ゴミ焼却処理施設" value="26">下水・ゴミ焼却処理施設</option>
+<option label="建廃・がれき・木材処理業" value="27">建廃・がれき・木材処理業</option>
+<option label="土壌改良・除染・除塩業" value="28">土壌改良・除染・除塩業</option>
+<option label="公務機関・財団・社団法人" value="29">公務機関・財団・社団法人</option>
+<option label="その他" value="30">その他</option>
+
+			            </select>
+			</fieldset>
+		     	<div class="attention"></div>
+		     	</div>
+		     	
+	</div>
+</div>
+	
+	<div id="conf_pp"><a href="//www.softbag.jp/info/privacy.html" id="check_pp">プライバシーポリシー</a>に同意していただける場合は、「確認ページへ」ボタンを押してください。</div>
+	
+        <div class="btn_area">
+            <ul>
+                <li>
+			<a title="確認ページへ" href="javascript:void(0)" onClick="document.forms['form1'].submit(); return false;" class="ripple detail_button cart_button boxshadow2 btn-submit" id="next_confirm">
+			<i class="fa fa-chevron-circle-right fa-fw fa-lg"></i>確認ページへ</a>
+                </li>
+            </ul>
+        </div>
+
+        </form></div>
+<div id="grayout"></div>
+<script>
+$.fn.autoKana('#name01', '#kana01', {katakana:true});
+$.fn.autoKana('#company_name', '#company_kana', {katakana:true});
+$('div.required').change(function(){
+    var isValid = $(this).find("input,textarea").validationEngine('validate');
+
+    if (isValid) {
+    $(this).find(".okm").remove();
+    $(this).find("input,textarea").after('<i class="fa fa-check-circle okm" style="font-size: 20px;vertical-align: middle;color: #4caf50;padding-left: 10px;"></i>');
+    }
+    else {
+    $(this).find(".okm").remove();
+    }
+
+    return isValid;
+});
+$('div.requiredm').change(function(){
+    var isValidm = $(this).children("#email").validationEngine('validate');
+    var isValidmc = $(this).children("#email02").validationEngine('validate');
+    
+    if (isValidm) {
+    $(this).find(".okm1").remove();
+    $(this).children("#email").after('<i class="fa fa-check-circle okm1" style="font-size: 20px;vertical-align: middle;color: #4caf50;padding-left: 10px;"></i>');
+    }
+    else {
+    $(this).find(".okm1").remove();
+    }
+    
+    if (isValidmc && $(this).children("#email02").val() != "") {
+    $(this).find(".okm2").remove();
+    $(this).children("#email02").after('<i class="fa fa-check-circle okm2" style="font-size: 20px;vertical-align: middle;color: #4caf50;padding-left: 10px;"></i>');
+    }
+    else {
+    $(this).find(".okm2").remove();
+    }
+
+    return (isValidm,isValidmc);
+});
+$(function() {
+	$('#contents').change(function(){
+		var txt  = $(this).val();
+		var han = txt.replace(/[Ａ-Ｚａ-ｚ０-９－！”＃＄％＆’（）＝＜＞，．？＿［］｛｝＠＾～￥]/g,function(s){return String.fromCharCode(s.charCodeAt(0)-65248)});
+		$(this).val(han);
+	});
+});
+</script>
+<script type="text/javascript">
+if(SURFPOINT){
+	    if(SURFPOINT.getCountryCode() == "CN" ){
+		$('#undercolumn').hide();
+		$('#undercolumn').after("現在メンテナンス中です");
+	}
+}
+
+$('input[name=name01]').addClass("validate[required]");
+$('input[name=kana01]').addClass("validate[required]");
+$('input[name=email]').addClass("validate[required,custom[email]]");
+$('input[name=email02]').addClass("validate[condRequired[email],equals[email]]");
+//$('textarea[name=contents]').addClass("validate[required]");
+$(document).ready(function(){
+$(".form form").validationEngine();
+    });
+</script>
+<script>
+(function($) {
+// style
+  var bgStyle = 'display: none;' +
+                'width: 100%;' +
+                'height: 2000px;' +
+                'position: fixed;' +
+                'top: 0;' +
+                'left: 0;' +
+                'z-index: 9999;' +
+                'background: #333;';
+
+  var wrapStyle = 'display: none;' +
+                  'width: 700px;' +
+                  'height:' + ($(window).height() * 0.9) + 'px;' +
+                  'margin: 0 0 0 -350px;' +
+                  'position: fixed;' +
+                  'top: 40px;' +
+                  'left: 50%;' +
+                  'z-index: 9999;' +
+                  'background: #fff;';
+
+  var btnStyle = 'display: none;' +
+                 'width: 40px;' +
+                 'height: 40px;' +
+                 'position: fixed;' +
+                 'top: 40px;' +
+                 'right: 230px;' +
+                 'z-index: 9999;' +
+                 'background: #999;' +
+                 'border-radius: 50%;' +
+                 'cursor: pointer;' +
+                 'line-height: 40px;' +
+                 'text-align: center;' +
+                 'color: #fff';
+
+  var html = '<div id="iframe-bg" style="' + bgStyle + '"></div>' +
+             '<div id="iframe-wrap" style="' + wrapStyle + '"></div>' +
+             '<div id="iframe-btn" style="' + btnStyle + '">X</div>';
+
+  // add element
+  $(html).appendTo('body');
+
+  $('#check_pp').click(function () {
+    var url = $(this).attr('href');
+
+    $('#iframe-wrap').html('<iframe src="' + url + '" width="100%" height="100%">');
+    $('#iframe-bg').fadeTo('normal', 0.8);
+
+    $('#iframe-wrap iframe').load(function () {
+      // 呼び出し先のヘッダーとフッターを隠す
+      $(this).contents().find('#container').css({'width':'650px'});
+      $(this).contents().find('#main').css({'width':'650px','float':'left'});
+      $(this).contents().find('#header,#menu,#footer_wrapper,.zopim,.go_pagetop,.footer_contact').hide();
+
+      $('#iframe-wrap').fadeIn();
+      $('#iframe-btn').fadeIn();
+    });
+
+    return false;
+  });
+
+$('#iframe-btn').click(function () {
+    $('#iframe-bg, #iframe-btn, #iframe-wrap').fadeOut();
+  });
+
+$(document).on('click touchend', function(event) {
+    if (!$.contains($("#iframe-wrap")[0], event.target)) { // (2)
+        $('#iframe-bg, #iframe-btn, #iframe-wrap').fadeOut();
+    }
+});
+
+})(jQuery);
+</script>
+<!--
+<p class="prog_tl">0%</p>
+<p class="prog_tm1">25%</p>
+<div class="top_fort">
+    <div class="colors"></div>
+</div>
+<p class="prog_tm">50%</p>
+<p class="prog_tm2">75%</p>
+<p class="prog_tr">100%</p>
+  <script>
+  flash()
+  </script>
+-->
+    </div>
+</div>
+</div>
+<!--▲CONTENTS-->
+            
+                                            </div>
+        
+                        
+                            <div id="bottomcolumn">
+<!-- ▼表示モード切替 -->
+<!-- ▲表示モード切替 -->
+            </div>
+                
+    </div>
+    
+                <!--▼FOOTER-->
+	
+</div>
+
+<script src="/js/lazyload/lazysizes.min.js" async=""></script>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1071958295;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1071958295/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<!--[if (gt IE 9)|!(IE)]><!-->
+<script>
+    (function(w,d,t,u,n,a,m){w['MauticTrackingObject']=n;
+        w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)},a=d.createElement(t),
+        m=d.getElementsByTagName(t)[0];a.async=1;a.src=u;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://ma.softbag.jp/mtc.js','mt');
+    if(SURFPOINT){
+	    if(SURFPOINT.getBCFlag() == "b" ){
+	        mt('send', 'pageview', {company: SURFPOINT.getOrgName() ,gyosyu_bunrui: SURFPOINT.getOrgIndustrialCategoryL() ,gyosyu_bunrui_txt: getIndL(SURFPOINT.getOrgIndustrialCategoryL()), employeescode: SURFPOINT.getOrgEmployeesCode(), employeescode_txt: getEmp(SURFPOINT.getOrgEmployeesCode()), grosscode: SURFPOINT.getOrgGrossCode(), grosscode_txt: getGross(SURFPOINT.getOrgGrossCode()), officecode: SURFPOINT.getOrgOfficeCode() ,industrialcategoryt: SURFPOINT.getOrgIndustrialCategoryT(),pref_dcdc:SURFPOINT.getPrefJName(),orgindustrialcategorym: getIndM(SURFPOINT.getOrgIndustrialCategoryM()) });
+	    } else {
+	        mt('send', 'pageview');
+	    }
+    }
+</script>
+<!--<![endif]-->
+
+    <div class="go_pagetop"><a class="link_pt_a" href="#top"><span class="link_pt"><i class="fa fa-arrow-circle-up fa-fw fa-lg"></i>ページトップへ</span></a></div>
+<div id="footer_wrap">
+    <div id="footer" class="clearfix">
+        <ul>
+		 <li><a href="/info/beginner1.html">▼ 初めての方へ</a></li>
+		 <li><a href="/info/faq1.html">▼ よくあるご質問</a></li>
+		 <li><a href="/info/company1/sitemap.html">▼ サイトマップ</a></li>
+		 <li><a href="https://www.softbag.jp/contact/">▼ お問い合わせ</a></li>
+		 <li><a href="/info/privacy.html">▼ プライバシーポリシー</a></li>
+		 <li><a href="/order/">▼ 特定商取引法に基づく表記</a></li>
+		 <li><a href="/info/spec.html">▼ 推奨環境</a></li>
+		 <li><a href="/contact/data_collect.php">▼ 不具合のご報告</a></li>
+                 <li><a href="https://www.ecosoft.co.jp/company/profile.html">▼ 会社概要</a></li>
+		</ul>
+		<p class="copyright"><i class="fa fa-copyright fa-fw"></i> 2006 Fukunaga Engineering Co., Ltd.</p>
+		
+    </div>
+<script src="https://yubinbango.github.io/yubinbango/yubinbango.js" charset="UTF-8"></script>
+
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="/js/ripple.min.js"></script>
+<!--<![endif]-->
+<script>
+$(document).ready(function() {
+	$("img[src='/upload/save_image/icon_blank.png']").remove();
+	$(".attention:empty").remove();
+	try{
+	$('html,body').animate({
+	scrollTop: $('.formerr .attention').offset().top-200}, {
+	duration: 300,
+ 	easing: "swing",
+  	complete: function(){
+	}
+	 });
+	 }catch(e){ 
+	}
+
+  	try{
+	$('html,body').animate({
+	scrollTop: $('#favo-ed').offset().top-200}, {
+	duration: 300,
+ 	easing: "swing"
+	 });
+	 }catch(e){ 
+	}
+	
+	try{
+	$(".ripple").ripple();
+	}catch(e){ 
+  	}
+});
+</script>
+        
+<!--▲FOOTER-->
+</div>                    </div>
+
+<noscript>
+    <p class="nojs"><i class="fa fa-exclamation-triangle fa-fw fa-lg"></i>JavaScriptを有効にしてご利用下さい。<br />ご注文などが正常にできない可能性があります。</p>
+</noscript>
+<!--[if lte IE 9]>
+    <p class="nojs"><i class="fa fa-exclamation-triangle fa-fw fa-lg"></i>
+    お使いのブラウザが古いため、ご注文などが正常にできない可能性があります。<br />
+    また、個人情報漏洩に繋がる深刻な不具合があり危険ですので、できるだけ早く推奨環境への変更をお願いいたします。<br />
+    <a href="https://www.softbag.jp/info/spec1.html">詳しくはふくろ屋ふくながの推奨環境をご覧ください</a>。</p>
+<![endif]-->
+
+<noscript><style type="text/css">
+<!--
+body{
+    margin-top: 5em;
+}
+.nojs{
+    text-align: center;
+    background-color: #ffcdd2;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 2.5em;
+}
+-->
+</style></noscript>
+<!--[if lte IE 9]>
+<style type="text/css">
+<!--
+body{
+    margin-top: 7em;
+}
+.nojs{
+    text-align: center;
+    background-color: #ffcdd2;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 4em;
+}
+-->
+</style>
+<![endif]-->
+
+</body><!-- ▲BODY部 エンド -->
+
+</html>

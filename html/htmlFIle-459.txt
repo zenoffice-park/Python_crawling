@@ -1,0 +1,1082 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="人工知能「KIBIT（キビット）」を搭載したデータ解析プラットフォームによるソフトウェア・ソリューションが、マーケティング調査や特許検索、重要書類のクオリティチェック等の他、情報漏えいなどの内部不正調査をはじめとした企業のビジネス課題を独自のデータ解析で支援いたします。">
+<meta name="keywords" content="FRONTEO,Lit i View,ビッグデータ,解析,行動情報科学,Landscaping,ランドスケーピング,人工知能,AI,KIBIT,キビット,カルテル,特許検索,マーケティング調査,不正防止,メール監査,不正調査,テキストマイニング,自然言語解析,機械学習">
+<title>人工知能「KIBIT」搭載 テキストデータ解析ビジネスソフトウェア・ソリューション｜FRONTEO</title>
+<!-- ogp -->
+<meta property="og:title" content="人工知能「KIBIT」搭載 テキストデータ解析ビジネスソフトウェア・ソリューション｜FRONTEO">
+<meta property="og:type" content="website">
+<meta property="og:description" content="人工知能「KIBIT（キビット）」を搭載したデータ解析プラットフォームによるソフトウェア・ソリューションが、マーケティング調査や特許検索、重要書類のクオリティチェック等の他、情報漏えいなどの内部不正調査をはじめとした企業のビジネス課題を独自のデータ解析で支援いたします。">
+<meta property="og:url" content="http://kibit-platform.com/">
+<meta property="og:image" content="http://kibit-platform.com/common_jp/img/og_image.jpg">
+<meta property="og:site_name" content="FRONTEO 人工知能「KIBIT」ビジネスソリューション">
+<meta property="fb:app_id" content="1677925325816595">
+<!-- //ogp -->
+<link rel="stylesheet" href="/common_jp/css/master.css" media="screen,print">
+<link rel="stylesheet" href="/common_jp/css/print.css" media="print">
+<script src="/common_jp/js/run_head.js"></script>
+</head>
+
+<body class="home">
+<!-- ======================== Header START =================================== -->
+<!-- facebook -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- /facebook -->
+
+<header>
+<div class="header global">
+<div class="header-content">
+<h1 class="logo-01">
+<a href="/"><img src="/common_jp/img/logo-site_01.png" alt="KIBIT ビジネスソリューション"></a>
+</h1>
+<p class="sub-title"><small>FRONTEO 人工知能 KIBIT ビジネスソリューション</small></p>
+
+<div class="sub">
+<div class="sub-content">
+<!--
+<div class="region">
+<ul class="current">
+<li><a href="/" hreflang="ja">Find Your Region</a>
+<ul class="other-region">
+<li><a href="/" hreflang="ja">Japan</a></li>
+<li><a href="/en/" hreflang="en">United States</a></li>
+<li><a href="/tw/" hreflang="zh-tw">China</a></li>
+<li><a href="/kr/" hreflang="ko">Korea</a></li>
+</ul>
+</li>
+</ul>
+</div>
+-->
+
+<p class="collaboration"><a class="btn-02" href="/partner/"><span>協業をご検討の方へ</span></a></p>
+<!-- /sub-content --></div>
+<div class="sub-content">
+<div class="info">
+<ul>
+<li><a href="/cto-message/">CTOメッセージ</a></li>
+<li><a href="/info/">お知らせ</a></li>
+</ul>
+</div>
+<form method="get" action="/search/index.html" id="search-form" name="search-form" role="search">
+<fieldset><legend>サイト内検索</legend>
+<input type="search" id="searchText01" class="search-box" value="" name="q" title="サイト内検索"><input type="image" src="/common_jp/img/icn-search_01.png" class="button" alt="検索">
+</fieldset>
+</form>
+<!-- /sub-content --></div>
+<div class="sub-content">
+<p class="inquiry"><a class="btn-01" href="https://reg18.smp.ne.jp/regist/is?SMPFORM=mjmd-qeoak-258d2c8e3d12153b6ebf6d126e4dc325" target="_blank"><span>製品・サービスに関する</span><br>
+<em>お問い合わせ</em></a></p>
+<p class="num"><img src="/common_jp/img/txt-site_01.png" alt="03-5463-6375"></p>
+<!-- /sub-content --></div>
+<!-- /sub --></div>
+
+<nav>
+<div class="nav global">
+<ul class="layer-01">
+<li class="solution"><a href="#"><img src="/common_jp/img/gnavi_01.gif" alt="目的から探す"></a>
+<div class="layer-02">
+<ul>
+<li><a href="/solution/sales-support/">受注機会・失注リスクの抽出</a></li>
+<li><a href="/products/knowledge-probe/">コンプライアンス違反チェック</a></li>
+<li><a href="/solution/customer-analysis/">お客様の声の分析・活用</a></li>
+<li><a href="/products/knowledge-probe/">市場・競合・技術調査の効率化</a></li>
+<li><a href="/solution/project-management/">プロジェクトの炎上防止</a></li>
+<li><a href="/products/knowledge-probe/">論文検索</a></li>
+<li><a href="/products/knowledge-probe/">技術開発Q＆Aサポート</a></li>
+<li><a href="/solution/patent-search/">特許調査・分析・知財戦略</a></li>
+<li><a href="/solution/hr-management/">人事領域の課題解決</a></li>
+<li><a href="/solution/information-leakage/">情報漏洩の予防と対策</a></li>
+<li><a href="/products/email-auditor/">メール監査</a></li>
+<li><a href="/solution/cartel/">カルテル・独占禁止法対策</a></li>
+<li><a href="/solution/fcpa/">不正会計・贈収賄・FCPA対策</a></li>
+<li><a href="/products/knowledge-probe/">景表法への抵触チェック</a></li>
+<li><a href="/products/training/">AI活用エキスパートの育成</a></li>
+<li><a href="/products/ai-support/">AI運用のアウトソーシング</a></li>
+</ul>
+<!-- /layer-02 --></div>
+</li>
+<li class="job"><a href="#"><img src="/common_jp/img/gnavi_02.gif" alt="職種から探す"></a>
+<div class="layer-02">
+<ul>
+<li>
+<dl>
+<dt>営業・販売</dt>
+<dd><a href="/solution/sales-support/">受注機会・失注リスクの抽出</a></dd>
+<dd><a href="/products/knowledge-probe/">コンプライアンス違反チェック</a></dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt>マーケティング</dt>
+<dd><a href="/solution/sales-support/">受注機会・失注リスクの抽出</a></dd>
+<dd><a href="/solution/customer-analysis/">お客様の声の分析・活用</a></dd>
+<dd><a href="/products/knowledge-probe/">市場・競合・技術調査の効率化</a></dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt>製造・開発・知財</dt>
+<dd><a href="/solution/project-management/">プロジェクトの炎上防止</a></dd>
+<dd><a href="/products/knowledge-probe/">市場・競合・技術調査の効率化</a></dd>
+<dd><a href="/products/knowledge-probe/">論文検索</a></dd>
+<dd><a href="/products/knowledge-probe/">技術開発Q＆Aサポート</a></dd>
+<dd><a href="/solution/patent-search/">特許調査・分析・知財戦略</a></dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt>人事・労務</dt>
+<dd><a href="/solution/hr-management/">人事領域の課題解決</a></dd>
+</dl>
+</li>
+<li class="clear">
+<dl>
+<dt>カスタマーサポート</dt>
+<dd><a href="/solution/customer-analysis/">お客様の声の分析・活用</a></dd>
+</dl>
+</li>
+<li>
+<dl>
+<dt>内部監査・法務・コンプライアンス</dt>
+<dd><a href="/solution/information-leakage/">情報漏洩の予防と対策</a></dd>
+<dd><a href="/products/email-auditor/">メール監査</a></dd>
+<dd><a href="/solution/cartel/">カルテル・独占禁止法対策</a></dd>
+<dd><a href="/solution/fcpa/">不正会計・贈収賄・FCPA対策</a></dd>
+<dd><a href="/products/knowledge-probe/">景表法への抵触チェック</a></dd>
+<dd><a href="/products/knowledge-probe/">コンプライアンス違反チェック</a></dd>
+</dl>
+</li>
+</ul>
+</div>
+</li>
+<li class="products"><a href="#"><img src="/common_jp/img/gnavi_03.gif" alt="製品名から探す"></a>
+<div class="layer-02">
+<ul>
+<li class="products"><a href="/products/">製品一覧</a></li>
+</ul>
+<ul>
+<li><a href="/products/knowledge-probe/">Knowledge Probe</a></li>
+<li><a href="/products/patent-explorer/">Patent Explorer</a></li>
+<li><a href="/products/email-auditor/">Email Auditor</a></li>
+<li><a href="/products/training/">AI活用トレーニング</a></li>
+<li><a href="/products/ai-support/">AIプロセスアウトソーシング</a></li>
+<li><a href="https://www.kibiro.com/biz/" target="_blank">Kibiro for Biz<img src="/common_jp/img/icon-window_02.png" alt="新しいウィンドウで開く" class="icon-window-01"></a></li>
+</ul>
+<!-- /layer-02 --></div>
+</li>
+<li class="seminar"><a href="/seminar/"><img src="/common_jp/img/gnavi_04.gif" alt="イベント/セミナー"></a></li>
+<li class="secure"><a href="/secure/dl-contents/"><img src="/common_jp/img/gnavi_05.gif" alt="資料ダウンロード"></a></li>
+<li class="technology"><a href="/technology/kibit/"><img src="/common_jp/img/gnavi_06.gif" alt="FRONTEOの技術"></a></li>
+</ul>
+<!-- /nav global --></div>
+</nav>
+<!-- /header-content --></div>
+<!-- /header global --></div>
+</header>
+<!-- ======================== Header END =================================== -->
+
+<!-- ======================== Mainvisual START =================================== -->
+<div class="main-visual">
+<div class="mv-frame">
+<h1 class="heading"><img src="/img_jp/index-bg_01.jpg" alt="FRONTEO 人工知能「KIBIT」ビジネスソリューション"></h1>
+<!-- <p class="lead"><img src="/img_jp/txt-lead_01.png" alt="人工知能「KIBIT（キビット）」を搭載したデータ解析プラットフォームによるソフトウェア・ソリューションが、マーケティング調査や特許検索、重要書類のクオリティチェック等の他、情報漏えいなどの内部不正調査をはじめとした企業のビジネス課題を独自のデータ解析で支援いたします。"></p>
+<p class="link"><a href="/products/knowledge-probe/"><img src="/img_jp/txt-lead_02.png" alt="詳しくはこちら"></a></p> -->
+<!--/mv-frame--></div>
+<!--/main-visual--></div>
+<!-- ======================== Mainvisual END =================================== -->
+
+
+<main>
+<!-- ======================== Content area START =================================== -->
+
+<!-- ======================== Carousel START =================================== -->
+<div class="customer-frame content">
+<div class="cnt-frame carousel">
+<dl class="group-info-customer item">
+<dt><img src="/img_jp/txt-carousel_01.png" alt="導入ユーザー"></dt>
+<dd>
+<div class="group-info-banner">
+<ul>
+<li><img src="/common_jp/img/bnr-customer_01.png" alt="Panasonic"></li>
+<li><img src="/common_jp/img/bnr-customer_03.png" alt="FURUNO"></li>
+<li><img src="/common_jp/img/bnr-customer_04.png" alt="TPK"></li>
+<li><img src="/common_jp/img/bnr-customer_11.png" alt="EIZO"></li>
+</ul>
+<!-- /group-info-banner --></div>
+</dd>
+</dl>
+<dl class="group-info-customer item">
+<dt><img src="/img_jp/txt-carousel_01.png" alt="導入ユーザー"></dt>
+<dd>
+<div class="group-info-banner">
+<ul>
+<li><img src="/common_jp/img/bnr-customer_12.png" alt="三井住友銀行"></li>
+<li><img src="/common_jp/img/bnr-customer_13.png" alt="Mitsubishi Heavy Industries, Ltd."></li>
+<li><img src="/common_jp/img/bnr-customer_17.png" alt="LITALICO"></li>
+<li><img src="/common_jp/img/bnr-customer_25.png" alt="株式会社ソラスト"></li>
+</ul>
+<!-- /group-info-banner --></div>
+</dd>
+</dl>
+<dl class="group-info-customer item">
+<dt><img src="/img_jp/txt-carousel_01.png" alt="導入ユーザー"></dt>
+<dd>
+<div class="group-info-banner">
+<ul>
+<li><img src="/common_jp/img/bnr-customer_27.png" alt="株式会社横浜銀行"></li>
+<li><img src="/common_jp/img/bnr-customer_28.png" alt="東京海上日動火災保険株式会社"></li>
+<li><img src="/common_jp/img/bnr-customer_30.png" alt="株式会社りそな銀行"></li>
+<li><img src="/common_jp/img/bnr-customer_05.png" alt="YAZAKI"></li>
+</ul>
+<!-- /group-info-banner --></div>
+</dd>
+</dl>
+<dl class="group-info-customer item">
+<dt><img src="/img_jp/txt-carousel_01.png" alt="導入ユーザー"></dt>
+<dd>
+<div class="group-info-banner">
+<ul>
+<li><img src="/common_jp/img/bnr-customer_06.png" alt="TOYO TIRES"></li>
+<li><img src="/common_jp/img/bnr-customer_07.png" alt="INNOLUX"></li>
+<li><img src="/common_jp/img/bnr-customer_14.png" alt="RACE"></li>
+<li><img src="/common_jp/img/bnr-customer_16.png" alt="JDI"></li>
+</ul>
+<!-- /group-info-banner --></div>
+</dd>
+</dl>
+<dl class="group-info-customer item">
+<dt><img src="/img_jp/txt-carousel_01.png" alt="導入ユーザー"></dt>
+<dd>
+<div class="group-info-banner">
+<ul>
+<li><img src="/common_jp/img/bnr-customer_22.png" alt="EVERGREEN LINE"></li>
+<li><img src="/common_jp/img/bnr-customer_10.png" alt="昭和電工株式会社"></li>
+<li><img src="/common_jp/img/bnr-customer_15.png" alt="株式会社三菱化学テクノリサーチ"></li>
+<li><img src="/common_jp/img/bnr-customer_19.png" alt="宇部興産株式会社"></li>
+</ul>
+<!-- /group-info-banner --></div>
+</dd>
+</dl>
+<dl class="group-info-customer item">
+<dt><img src="/img_jp/txt-carousel_01.png" alt="導入ユーザー"></dt>
+<dd>
+<div class="group-info-banner">
+<ul>
+<li><img src="/common_jp/img/bnr-customer_23.png" alt="株式会社デンソー"></li>
+<li><img src="/common_jp/img/bnr-customer_24.png" alt="DIC株式会社"></li>
+<li><img src="/common_jp/img/bnr-customer_26.png" alt="アルパイン株式会社"></li>
+<li><img src="/common_jp/img/bnr-customer_29.png" alt="株式会社クラレ"></li>
+</ul>
+<!-- /group-info-banner --></div>
+</dd>
+</dl>
+<dl class="group-info-customer item">
+<dt><img src="/img_jp/txt-carousel_01.png" alt="導入ユーザー"></dt>
+<dd>
+<div class="group-info-banner">
+<ul>
+<li><img src="/common_jp/img/bnr-customer_31.png" alt="大和住銀投信投資顧問株式会社"></li>
+<li><img src="/common_jp/img/bnr-customer_32.png" alt="東ソー株式会社"></li>
+<li><img src="/common_jp/img/bnr-customer_33.png" alt="第一三共株式会社"></li>
+<li><img src="/common_jp/img/bnr-customer_34.png" alt="東洋紡株式会社"></li>
+</ul>
+<!-- /group-info-banner --></div>
+</dd>
+</dl>
+<dl class="group-info-customer item">
+<dt><img src="/img_jp/txt-carousel_01.png" alt="導入ユーザー"></dt>
+<dd>
+<div class="group-info-banner">
+<ul>
+<li><img src="/common_jp/img/bnr-customer_39.png" alt="ＳＭＢＣ日興証券株式会社"></li>
+<li><img src="/common_jp/img/bnr-customer_40.png" alt="三井化学株式会社"></li>
+<li><img src="/common_jp/img/bnr-customer_41.png" alt="リバーフィールド株式会社"></li>
+<li><img src="/common_jp/img/bnr-customer_42.png" alt="綜研化学株式会社"></li>
+</ul>
+<!-- /group-info-banner --></div>
+</dd>
+</dl>
+<dl class="group-info-customer item">
+<dt><img src="/img_jp/txt-carousel_01.png" alt="導入ユーザー"></dt>
+<dd>
+<div class="group-info-banner">
+<ul>
+<li><img src="/common_jp/img/bnr-customer_43.png" alt="サッポロホールディングス株式会社"></li>
+<li><img src="/common_jp/img/bnr-customer_44.png" alt="株式会社ＵＦＪ銀行"></li>
+<li><img src="/common_jp/img/bnr-customer_45.png" alt="東レ株式会社"></li>
+<li><img src="/common_jp/img/bnr-customer_46.png" alt="グローリー株式会社"></li>
+</ul>
+<!-- /group-info-banner --></div>
+</dd>
+</dl>
+<dl class="group-info-customer item">
+<dt><img src="/img_jp/txt-carousel_02.png" alt="共同開発パートナー"></dt>
+<dd>
+<div class="group-info-banner">
+<ul>
+<li><img src="/common_jp/img/bnr-customer_08.png" alt="トヨタテクニカルディベロップメント株式会社"></li>
+</ul>
+<!-- /group-info-banner --></div>
+</dd>
+</dl>
+<!-- /cnt-frame --></div>
+<!-- /customer-frame carousel --></div>
+<!-- ======================== Carousel END =================================== -->
+
+<!-- ======================== Tab area START =================================== -->
+<div class="tab-frame">
+<div class="cnt-frame">
+<ul class="tab-01 list-tab">
+<li><a href="#tab-01">目的から探す</a></li>
+<li><a href="#tab-02">職種から探す</a></li>
+</ul>
+<!-- /cnt-frame --></div>
+
+<div class="tabs">
+<!-- ======================== Solution tab START =================================== -->
+<div id="tab-01" class="content var-bg panel">
+<div class="cnt-frame">
+<ul class="lay-column3 solution">
+<li class="col">
+<a href="/solution/sales-support/">
+<div class="lay-image img-posl">
+<div class="text">
+<ul>
+<li class="link">受注機会・失注リスクの抽出</li>
+</ul>
+</div>
+<div class="img">
+<img src="/common_jp/img/icon-solution_01.png" alt="">
+</div>
+<!-- /lay-image --></div>
+</a>
+<!-- /col --></li>
+
+<li class="col">
+<a href="/products/knowledge-probe/">
+<div class="lay-image img-posl">
+<div class="text">
+<ul>
+<li class="link">コンプライアンス違反チェック</li>
+</ul>
+</div>
+<div class="img">
+<img src="/common_jp/img/icon-solution_01.png" alt="">
+</div>
+<!-- /lay-image --></div>
+</a>
+<!-- /col --></li>
+
+<li class="col">
+<a href="/solution/customer-analysis/">
+<div class="lay-image img-posl">
+<div class="text">
+<ul>
+<li class="link">お客様の声の分析・活用</li>
+</ul>
+</div>
+<div class="img">
+<img src="/common_jp/img/icon-solution_02.png" alt="">
+</div>
+<!-- /lay-image --></div>
+</a>
+<!-- /col --></li>
+
+<li class="col">
+<a href="/products/knowledge-probe/">
+<div class="lay-image img-posl">
+<div class="text">
+<ul>
+<li class="link">市場・競合調査・技術調査の効率化</li>
+</ul>
+</div>
+<div class="img">
+<img src="/common_jp/img/icon-solution_11.png" alt="">
+</div>
+<!-- /lay-image --></div>
+</a>
+<!-- /col --></li>
+
+<li class="col">
+<a href="/products/knowledge-probe/">
+<div class="lay-image img-posl">
+<div class="text">
+<ul>
+<li class="link">論文検索</li>
+</ul>
+</div>
+<div class="img">
+<img src="/img_jp/icon-job_07.png" alt="">
+</div>
+<!-- /lay-image --></div>
+</a>
+<!-- /col --></li>
+
+<li class="col">
+<a href="/products/knowledge-probe/">
+<div class="lay-image img-posl">
+<div class="text">
+<ul>
+<li class="link">技術開発Q＆Aサポート</li>
+</ul>
+</div>
+<div class="img">
+<img src="/common_jp/img/icon-solution_11.png" alt="">
+</div>
+<!-- /lay-image --></div>
+</a>
+<!-- /col --></li>
+
+<li class="col">
+<a href="/solution/patent-search/">
+<div class="lay-image img-posl">
+<div class="text">
+<ul>
+<li class="link">特許調査・分析・知財戦略</li>
+</ul>
+</div>
+<div class="img">
+<img src="/common_jp/img/icon-solution_08.png" alt="">
+</div>
+<!-- /lay-image --></div>
+</a>
+<!-- /col --></li>
+
+<li class="col">
+<a href="/solution/hr-management/">
+<div class="lay-image img-posl">
+<div class="text">
+<ul>
+<li class="link">人材流出・ハラスメント防止</li>
+</ul>
+</div>
+<div class="img">
+<img src="/common_jp/img/icon-solution_03.png" alt="">
+</div>
+<!-- /lay-image --></div>
+</a>
+<!-- /col --></li>
+
+<li class="col">
+<a href="/solution/project-management/">
+<div class="lay-image img-posl">
+<div class="text">
+<ul>
+<li class="link">プロジェクトの炎上防止</li>
+</ul>
+</div>
+<div class="img">
+<img src="/common_jp/img/icon-solution_04.png" alt="">
+</div>
+<!-- /lay-image --></div>
+</a>
+<!-- /col --></li>
+
+<li class="col">
+<a href="/solution/information-leakage/">
+<div class="lay-image img-posl">
+<div class="text">
+<ul>
+<li class="link">情報漏洩の予防と対策</li>
+</ul>
+</div>
+<div class="img">
+<img src="/common_jp/img/icon-solution_05.png" alt="">
+</div>
+<!-- /lay-image --></div>
+</a>
+<!-- /col --></li>
+
+<li class="col">
+<a href="/solution/cartel/">
+<div class="lay-image img-posl">
+<div class="text">
+<ul>
+<li class="link">カルテル・独占禁止法対策</li>
+</ul>
+</div>
+<div class="img">
+<img src="/common_jp/img/icon-solution_06.png" alt="">
+</div>
+<!-- /lay-image --></div>
+</a>
+<!-- /col --></li>
+
+<li class="col">
+<a href="/solution/fcpa/">
+<div class="lay-image img-posl">
+<div class="text">
+<ul>
+<li class="link">不正会計・贈収賄・FCPA対策</li>
+</ul>
+</div>
+<div class="img">
+<img src="/common_jp/img/icon-solution_07.png" alt="">
+</div>
+<!-- /lay-image --></div>
+</a>
+<!-- /col --></li>
+
+<li class="col">
+<a href="/products/email-auditor/">
+<div class="lay-image img-posl">
+<div class="text">
+<ul>
+<li class="link">メール監査</li>
+</ul>
+</div>
+<div class="img">
+<img src="/common_jp/img/icon-solution_09.png" alt="">
+</div>
+<!-- /lay-image --></div>
+</a>
+<!-- /col --></li>
+
+<li class="col">
+<a href="/products/knowledge-probe/">
+<div class="lay-image img-posl">
+<div class="text">
+<ul>
+<li class="link">景表法への抵触チェック</li>
+</ul>
+</div>
+<div class="img">
+<img src="/common_jp/img/icon-solution_10.png" alt="">
+</div>
+<!-- /lay-image --></div>
+</a>
+<!-- /col --></li>
+
+<!-- /lay-column3 solution --></ul>
+<!-- /cnt-frame --></div>
+<!-- /content --></div>
+<!-- ======================== Solution tab END =================================== -->
+
+<!-- ======================== Job tab START =================================== -->
+<div id="tab-02" class="content var-bg panel">
+<div class="cnt-frame">
+<ul class="lay-column3 job">
+<li class="col toggle-frame js-toggle">
+<a class="toggle-hook" href="#">
+<div class="lay-image img-posl">
+<div class="text">
+<ul>
+<li>営業・販売<span class="toggle-txt">開く</span></li>
+</ul>
+</div>
+<div class="img">
+<img src="/img_jp/icon-job_01.png" alt="">
+</div>
+<!-- /lay-image --></div>
+</a>
+<ul class="toggle-box hide">
+<li><a href="/solution/sales-support/">受注機会・失注リスクの抽出</a></li>
+<li><a href="/products/knowledge-probe/">コンプライアンス違反チェック</a></li>
+</ul>
+<!-- /col --></li>
+
+<li class="col toggle-frame js-toggle">
+<a class="toggle-hook" href="#">
+<div class="lay-image img-posl">
+<div class="text">
+<ul>
+<li>マーケティング<span class="toggle-txt">開く</span></li>
+</ul>
+</div>
+<div class="img">
+<img src="/img_jp/icon-job_02.png" alt="">
+</div>
+<!-- /lay-image --></div>
+</a>
+<ul class="toggle-box hide">
+<li><a href="/solution/sales-support/">受注機会・失注リスクの抽出</a></li>
+<li><a href="/solution/customer-analysis/">お客様の声の分析・活用</a></li>
+<li><a href="/products/knowledge-probe/">市場・競合調査・技術調査の効率化</a></li>
+</ul>
+<!-- /col --></li>
+
+<li class="col toggle-frame js-toggle">
+<a class="toggle-hook" href="#">
+<div class="lay-image img-posl">
+<div class="text">
+<ul>
+<li>製造・開発・知財<span class="toggle-txt">開く</span></li>
+</ul>
+</div>
+<div class="img">
+<img src="/img_jp/icon-job_03.png" alt="">
+</div>
+<!-- /lay-image --></div>
+</a>
+<ul class="toggle-box hide">
+<li><a href="/solution/project-management/">プロジェクトの炎上防止</a></li>
+<li><a href="/products/knowledge-probe/">市場・競合調査・技術調査の効率化</a></li>
+<li><a href="/products/knowledge-probe/">論文検索</a></li>
+<li><a href="/products/knowledge-probe/">技術開発Q＆Aサポート</a></li>
+<li><a href="/solution/patent-search/">特許調査・分析・知財戦略</a></li>
+</ul>
+<!-- /col --></li>
+
+<li class="col toggle-frame js-toggle">
+<a class="toggle-hook" href="#">
+<div class="lay-image img-posl">
+<div class="text">
+<ul>
+<li>人事・労務<span class="toggle-txt">開く</span></li>
+</ul>
+</div>
+<div class="img">
+<img src="/img_jp/icon-job_04.png" alt="">
+</div>
+<!-- /lay-image --></div>
+</a>
+<ul class="toggle-box hide">
+<li><a href="/solution/hr-management/">人材流出・ハラスメント防止</a></li>
+</ul>
+<!-- /col --></li>
+
+<li class="col toggle-frame js-toggle">
+<a class="toggle-hook" href="#">
+<div class="lay-image img-posl">
+<div class="text">
+<ul>
+<li>カスタマーサポート<span class="toggle-txt">開く</span></li>
+</ul>
+</div>
+<div class="img">
+<img src="/img_jp/icon-job_05.png" alt="">
+</div>
+<!-- /lay-image --></div>
+</a>
+<ul class="toggle-box">
+<li><a href="/solution/customer-analysis/">お客様の声の分析・活用</a></li>
+</ul>
+<!-- /col --></li>
+
+<li class="col toggle-frame js-toggle">
+<a class="toggle-hook" href="#">
+<div class="lay-image img-posl">
+<div class="text">
+<ul>
+<li>法務・コンプライアンス<span class="toggle-txt">開く</span></li>
+</ul>
+</div>
+<div class="img">
+<img src="/img_jp/icon-job_06.png" alt="">
+</div>
+<!-- /lay-image --></div>
+</a>
+<ul class="toggle-box">
+<li><a href="/solution/information-leakage/">情報漏洩の予防と対策</a></li>
+<li><a href="/products/email-auditor/">メール監査</a></li>
+<li><a href="/solution/cartel/">カルテル・独占禁止法対策</a></li>
+<li><a href="/solution/fcpa/">不正会計・贈収賄・FCPA対策</a></li>
+<li><a href="/products/knowledge-probe/">景表法への抵触チェック</a></li>
+<li><a href="/products/knowledge-probe/">コンプライアンス違反チェック</a></li>
+</ul>
+<!-- /col --></li>
+
+<li class="col toggle-frame js-toggle">
+<a class="toggle-hook" href="#">
+<div class="lay-image img-posl">
+<div class="text">
+<ul>
+<li>情報セキュリティー<span class="toggle-txt">開く</span></li>
+</ul>
+</div>
+<div class="img">
+<img src="/img_jp/icon-job_08.png" alt="">
+</div>
+<!-- /lay-image --></div>
+</a>
+<ul class="toggle-box hide">
+<li><a href="/solution/information-leakage/">情報漏洩の予防と対策</a></li>
+<li><a href="/products/email-auditor/">メール監査</a></li>
+</ul>
+<!-- /col --></li>
+
+<!-- /lay-column3 job --></ul>
+<!-- /cnt-frame --></div>
+<!-- /content --></div>
+<!-- ======================== Job tab END =================================== -->
+<!-- /tabs --></div>
+<!-- /tab-frame --></div>
+<!-- ======================== Tab area END =================================== -->
+
+<div class="content">
+<div class="cnt-frame">
+
+<h2 class="heading-02-01"><img src="/img_jp/index-hdg_02.png" alt="製品一覧"></h2>
+
+<ul class="lay-column4">
+<li class="col">
+<a href="/products/knowledge-probe/">
+<div class="lay-image">
+<div class="text">
+<dl>
+<dt>Knowledge Probe</dt>
+<dd>ビジネスデータ分析支援システム</dd>
+</dl>
+</div>
+<div class="img">
+<img src="/img_jp/index-img_02.jpg" alt="">
+</div>
+<!-- /lay-image --></div>
+</a>
+<!-- /col --></li>
+
+<li class="col">
+<a href="/products/patent-explorer/">
+<div class="lay-image">
+<div class="text">
+<dl>
+<dt>Patent Explorer</dt>
+<dd>特許調査・分析システム</dd>
+</dl>
+</div>
+<div class="img">
+<img src="/img_jp/index-img_01.jpg" alt="">
+</div>
+<!-- /lay-image --></div>
+</a>
+<!-- /col --></li>
+
+<li class="col">
+<a href="/products/email-auditor/">
+<div class="lay-image">
+<div class="text">
+<dl>
+<dt>Email Auditor</dt>
+<dd>電子メール自動監査システム</dd>
+</dl>
+</div>
+<div class="img">
+<img src="/img_jp/index-img_07.jpg" alt="">
+</div>
+<!-- /lay-image --></div>
+</a>
+<!-- /col --></li>
+
+<li class="col">
+<a href="https://www.kibiro.com/biz/" target="_blank">
+<div class="lay-image">
+<div class="text">
+<dl>
+<dt>Kibiro for Biz<img src="/common_jp/img/icon-window_02.png" alt="新しいウィンドウで開く" class="icon-window-01"></dt>
+<dd>受付・接客支援ロボット</dd>
+</dl>
+</div>
+<div class="img">
+<img src="/img_jp/kpkibiro.png" alt="">
+</div>
+<!-- /lay-image --></div>
+</a>
+<!-- /col --></li>
+<!-- /lay-column4 --></ul>
+
+<!-- /cnt-frame --></div>
+<!-- /content --></div>
+
+<!-- ======================== Banner area START =================================== -->
+<!-- <div class="content">
+<div class="cnt-frame">
+<div class="img"><a href="dummy"><img src="dummy" alt="dummy"></a></div> -->
+<!-- /cnt-frame --><!-- </div> -->
+<!-- /content --><!-- </div> -->
+<!-- ======================== Banner area END =================================== -->
+
+<div class="content var-bg">
+<div class="cnt-frame">
+<h2 class="heading-02-01"><img src="/common_jp/img/hdg-info_01.png" alt="お知らせ"></h2>
+<ul class="link-info-01">
+<li>
+<div class="item"><span class="data">2018.07.12</span></div>
+<div class="note"><a href="http://www.kibit-platform.com/seminar/">「分かりやすい」と毎月ご好評をいただいていた、KIBITオンラインセミナーを、いつでも動画で見られるようになりました！</a></div></li>
+<li>
+<div class="item"><span class="data">2018.07.06</span></div>
+<div class="note"><a href="https://reg18.smp.ne.jp/regist/is?SMPFORM=mjmd-qhkhn-7389d3eeb50d410781ff592fa12e1465">【金融機関の方対象】8月2日（木）「Fintech AI 活用・実現セミナー」開催のお知らせ</a></div></li>
+<li>
+<div class="item"><span class="data">2018.07.04</span></div>
+<div class="note"><a href="http://www.kibit-platform.com/products/patent-explorer/">グローリー株式会社様のロゴを導入ユーザーとして掲載</a></div></li>
+<li>
+<div class="item"><span class="data">2018.05.07</span></div>
+<div class="note"><a href="http://www.kibit-platform.com/">東レ株式会社様のロゴを導入ユーザーとして掲載</a></div></li>
+</ul>
+
+<p class="link-03"><a href="/info/">お知らせ一覧</a></p>
+<!-- /cnt-frame --></div>
+<!-- /content --></div>
+<!-- ======================== Content area END =================================== -->
+</main>
+
+<!-- ========================= SNS START ========================= -->
+<div class="content">
+<div class="cnt-frame pt00 pb00">
+<ul class="list-sns">
+<li class="fb-share"><div class="fb-like" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div></li>
+<li class="twitter"><a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
+<li class="gplus"><div class="g-plus" data-action="share" data-annotation="bubble"></div></li>
+<li class="hatena"><a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="simple-balloon" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script></li>
+</ul>
+<!-- /cnt-frame --></div>
+<!-- /content --></div>
+<!-- ======================== SNS END =================================== -->
+
+<!-- ========================= Customer START ========================= -->
+﻿<div class="customer-frame">
+<div class="cnt-frame">
+<dl class="group-info-customer">
+<dt><img src="/common_jp/img/txt-customer_01.png" alt="Intelligence Cloud 導入ユーザー"></dt>
+<dd>
+<div class="group-info-banner">
+<ul>
+<li><img src="/common_jp/img/bnr-customer_01.png" alt="Panasonic"></li>
+<li><img src="/common_jp/img/bnr-customer_03.png" alt="FURUNO"></li>
+<li><img src="/common_jp/img/bnr-customer_04.png" alt="TPK"></li>
+<li><img src="/common_jp/img/bnr-customer_11.png" alt="EIZO"></li>
+</ul>
+<!-- /group-info-banner --></div>
+<div class="group-info-banner">
+<ul>
+<li><img src="/common_jp/img/bnr-customer_12.png" alt="三井住友銀行"></li>
+</ul>
+<!-- /group-info-banner --></div>
+</dd>
+</dl>
+<dl class="group-info-customer">
+<dt><img src="/common_jp/img/txt-customer_05.png" alt="KIBIT Knowledge Probe 導入ユーザー"></dt>
+<dd>
+<div class="group-info-banner">
+<ul>
+<li><img src="/common_jp/img/bnr-customer_13.png" alt="Mitsubishi Heavy Industries, Ltd."></li>
+<li><img src="/common_jp/img/bnr-customer_17.png" alt="LITALICO"></li>
+<li><img src="/common_jp/img/bnr-customer_25.png" alt="株式会社ソラスト"></li>
+<li><img src="/common_jp/img/bnr-customer_27.png" alt="株式会社横浜銀行"></li>
+</ul>
+<!-- /group-info-banner --></div>
+<div class="group-info-banner">
+<ul>
+<li><img src="/common_jp/img/bnr-customer_28.png" alt="東京海上日動火災保険株式会社"></li>
+<li><img src="/common_jp/img/bnr-customer_30.png" alt="株式会社りそな銀行"></li>
+<li><img src="/common_jp/img/bnr-customer_31.png" alt="大和住銀投信投資顧問株式会社"></li>
+<li><img src="/common_jp/img/bnr-customer_33.png" alt="第一三共株式会社"></li>
+</ul>
+<!-- /group-info-banner --></div>
+<div class="group-info-banner">
+<ul>
+<li><img src="/common_jp/img/bnr-customer_39.png" alt="ＳＭＢＣ日興証券株式会社"></li>
+<li><img src="/common_jp/img/bnr-customer_44.png" alt="株式会社三菱ＵＦＪ銀行"></li>
+</dd>
+</dl>
+<dl class="group-info-customer">
+<dt><img src="/common_jp/img/txt-customer_02.png" alt="KIBIT Email Auditor 導入ユーザー"></dt>
+<dd>
+<div class="group-info-banner">
+<ul>
+<li><img src="/common_jp/img/bnr-customer_05.png" alt="YAZAKI"></li>
+<li><img src="/common_jp/img/bnr-customer_06.png" alt="TOYO TIRES"></li>
+<li><img src="/common_jp/img/bnr-customer_07.png" alt="INNOLUX"></li>
+<li><img src="/common_jp/img/bnr-customer_14.png" alt="RACE"></li>
+</ul>
+<!-- /group-info-banner --></div>
+<div class="group-info-banner">
+<ul>
+<li><img src="/common_jp/img/bnr-customer_16.png" alt="JDI"></li>
+<li><img src="/common_jp/img/bnr-customer_22.png" alt="EVERGREEN LINE"></li>
+</ul>
+<!-- /group-info-banner --></div>
+</dd>
+</dl>
+<dl class="group-info-customer">
+<dt><img src="/common_jp/img/txt-customer_03.png" alt="KIBIT Patent Explorer 導入ユーザー"></dt>
+<dd>
+<div class="group-info-banner">
+<ul>
+<li><img src="/common_jp/img/bnr-customer_10.png" alt="昭和電工株式会社"></li>
+<li><img src="/common_jp/img/bnr-customer_15.png" alt="株式会社三菱化学テクノリサーチ"></li>
+<li><img src="/common_jp/img/bnr-customer_19.png" alt="宇部興産株式会社"></li></li>
+<li><img src="/common_jp/img/bnr-customer_23.png" alt="株式会社デンソー"></li>
+</ul>
+<!-- /group-info-banner --></div>
+<div class="group-info-banner">
+<ul>
+<li><img src="/common_jp/img/bnr-customer_24.png" alt="DIC株式会社"></li>
+<li><img src="/common_jp/img/bnr-customer_26.png" alt="アルパイン株式会社"></li>
+<li><img src="/common_jp/img/bnr-customer_29.png" alt="株式会社クラレ"></li>
+<li><img src="/common_jp/img/bnr-customer_32.png" alt="東ソー株式会社"></li>
+</UL>
+<!-- /group-info-banner --></div>
+<div class="group-info-banner">
+<ul>
+<li><img src="/common_jp/img/bnr-customer_34.png" alt="東洋紡株式会社"></li>
+<li><img src="/common_jp/img/bnr-customer_40.png" alt="三井化学株式会社"></li>
+<li><img src="/common_jp/img/bnr-customer_41.png" alt="リバーフィールド株式会社"></li>
+<li><img src="/common_jp/img/bnr-customer_42.png" alt="綜研化学株式会社"></li>
+</UL>
+<!-- /group-info-banner --></div>
+<div class="group-info-banner">
+<ul>
+<li><img src="/common_jp/img/bnr-customer_43.png" alt="サッポロホールディングス株式会社"></li>
+<li><img src="/common_jp/img/bnr-customer_45.png" alt="東レ株式会社"></li>
+<li><img src="/common_jp/img/bnr-customer_46.png" alt="グローリー株式会社"></li>
+</UL>
+<!-- /group-info-banner --></div>
+</dd>
+</dl>
+<dl class="group-info-customer">
+<dt><img src="/common_jp/img/txt-customer_04.png" alt="KIBIT Patent Explorer 共同開発パートナー"></dt>
+<dd>
+<div class="group-info-banner">
+<ul>
+<li><img src="/common_jp/img/bnr-customer_08.png" alt="トヨタテクニカルディベロップメント株式会社"></li>
+</ul>
+<!-- /group-info-banner --></div>
+</dd>
+</dl>
+<dl class="group-info-customer">
+<dt><img src="/common_jp/img/txt-customer_06.png" alt="KIBIT マーケティングパートナー"></dt>
+<dd>
+<div class="group-info-banner">
+<ul>
+<li><img src="/common_jp/img/bnr-customer_36.png" alt="SCSK株式会社"></li>
+</ul>
+<!-- /group-info-banner --></div>
+</dd>
+</dl>
+<dl class="group-info-customer">
+<dt><img src="/common_jp/img/txt-customer_07.png" alt="KIBIT ビジネスパートナー"></dt>
+<dd>
+<div class="group-info-banner">
+<ul>
+<li><img src="/common_jp/img/bnr-customer_38.png" alt="AI sales株式会社"></li>
+</ul>
+<!-- /group-info-banner --></div>
+</dd>
+</dl>
+<!-- /cnt-frame --></div>
+<!-- /customer-frame --></div>
+<!-- ======================== Customer END =================================== -->
+
+<!-- ========================= Inquiry START ========================= -->
+<div class="inquiry-frame">
+<div class="cnt-frame">
+<h2 class="heading"><img src="/common_jp/img/hdg-inquiry_01.png" alt="製品・サービスに関するお問い合わせ"></h2>
+<div class="lay-inquiry">
+<div class="col">
+<div class="box-inquiry-01 email">
+<div class="icon"><img src="/common_jp/img/icon-inquiry_01.png" alt=""></div>
+<dl>
+<dt><span><img src="/common_jp/img/txt-inquiry_01.png" alt="メールでのお問い合わせはこちら"></span></dt>
+<dd><p><a class="btn-01" href="https://reg18.smp.ne.jp/regist/is?SMPFORM=mjmd-qeoak-258d2c8e3d12153b6ebf6d126e4dc325" target="_blank">お問い合わせ</a></p></dd>
+</dl>
+<!-- /box-inquiry-01 --></div>
+<!-- /col --></div>
+<div class="col">
+<div class="box-inquiry-01 tel">
+<div class="icon"><img src="/common_jp/img/icon-inquiry_02.png" alt=""></div>
+<dl>
+<dt><span><img src="/common_jp/img/txt-inquiry_02.png" alt="電話でのお問い合わせはこちら"></span></dt>
+<dd><img src="/common_jp/img/txt-inquiry_03.png" alt="株式会社FRONTEO ビジネスソリューション本部"></dd>
+<dd class="num"><img src="/common_jp/img/txt-inquiry_04.png" alt="03-5463-6375"></dd>
+</dl>
+<!-- /box-inquiry-01 --></div>
+<!-- /col --></div>
+<!-- /lay-inquiry --></div>
+<!-- /cnt-frame --></div>
+<!-- /inquiry-frame --></div>
+<!-- ======================== Inquiry END =================================== -->
+
+<!-- ======================== Footer START =================================== -->
+<p class="mt00"><a href="#top" class="btn-pagetop"><img src="/common_jp/img/icon-pagetop_01.gif" alt="ページトップへ"></a></p>
+
+<footer>
+<div class="footer global">
+<div class="cnt-frame">
+<div class="group-info-site">
+<p class="logo-01"><a href="http://www.fronteo.com/" target="_blank"><img src="/common_jp/img/logo-site_03.png" alt="FRONTEO 株式会社FRONTEO"></a></p>
+<div class="info-site">
+<ul>
+<li><a href="/policy/termsofuse.html">利用規約</a></li>
+<li><a href="/policy/security.html">情報セキュリティポリシー</a></li>
+<li><a href="/policy/privacy.html">個人情報の取扱いについて</a></li>
+</ul>
+<p class="copyright"><small>Copyright &copy; FRONTEO, Inc. All Rights Reserved.</small></p>
+<!-- /info-site --></div>
+<!-- /group-info-site --></div>
+<!-- /cnt-frame --></div>
+<!-- /footer global --></div>
+</footer>
+<!-- ======================== Footer END =================================== -->
+
+<!-- ======================== Script START =================================== -->
+<!-- google+ -->
+<script src="https://apis.google.com/js/platform.js" async defer>
+  {lang: 'ja'}
+</script>
+<!-- /google+ -->
+
+<!-- yahoo -->
+<script type="text/javascript">
+  (function () {
+    var tagjs = document.createElement("script");
+    var s = document.getElementsByTagName("script")[0];
+    tagjs.async = true;
+    tagjs.src = "//s.yjtag.jp/tag.js#site=alSH0uR";
+    s.parentNode.insertBefore(tagjs, s);
+  }());
+</script>
+<noscript>
+  <iframe src="//b.yjtag.jp/iframe?c=alSH0uR" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+<!-- /yahoo -->
+
+<!-- GA -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79260001-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- /GA -->
+
+<!-- User Insight PCDF Code Start : kibit-platform.com -->
+<script type="text/javascript">
+<!--
+var _uic = _uic ||{}; var _uih = _uih ||{};_uih['id'] = 50524;
+_uih['lg_id'] = '';
+_uih['fb_id'] = '';
+_uih['tw_id'] = '';
+_uih['uigr_1'] = ''; _uih['uigr_2'] = ''; _uih['uigr_3'] = ''; _uih['uigr_4'] = ''; _uih['uigr_5'] = '';
+_uih['uigr_6'] = ''; _uih['uigr_7'] = ''; _uih['uigr_8'] = ''; _uih['uigr_9'] = ''; _uih['uigr_10'] = '';
+/* DO NOT ALTER BELOW THIS LINE */
+/* WITH FIRST PARTY COOKIE */
+(function() {
+var bi = document.createElement('scri'+'pt');bi.type = 'text/javascript'; bi.async = true;
+bi.src = ('https:' == document.location.protocol ? 'https://bs' : 'http://c') + '.nakanohito.jp/b3/bi.js';
+var s = document.getElementsByTagName('scri'+'pt')[0];s.parentNode.insertBefore(bi, s);
+})();
+//-->
+</script>
+<!-- User Insight PCDF Code End : kibit-platform.com -->
+
+<script src="/common_jp/js/jquery.js"></script>
+<script src="/common_jp/js/run_foot.js"></script>
+<!-- ======================== Script END =================================== -->
+
+</body>
+</html>

@@ -1,0 +1,1617 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<title>WHEATON - Biopharmaceutical &amp; Life Science Products</title>
+<meta name="description" content="WHEATON Industries provides you best offer on Life science, bio-pharmaceutical and laboratory products. Order your high quality WHEATON products now. " />
+<meta name="keywords" content="Wheaton, life science products, Wheaton glass, Wheaton science products, Wheaton industries, science products, laboratory products, biopharmaceutical products, Wheaton Science Packaging" />
+<meta name="robots" content="INDEX,FOLLOW" />
+<meta name="msvalidate.01" content="9025AD236A05CDC7095CD7EE58595DF8" />
+<link rel="shortcut icon" href="https://www.wheaton.com/skin/frontend/wheaton/default/favicon.ico" type="image/x-icon">
+<link rel="icon" href="https://www.wheaton.com/skin/frontend/wheaton/default/favicon.ico" type="image/x-icon">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+
+<!--<script type="text/javascript" src="//cdn.evgnet.com/beacon/kimblechase/wheaton/scripts/evergage.min.js"></script>-->
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.3.0/prototype.js"></script>
+<script language="javascript" type="text/javascript">
+<!--
+    var SKIN_URL = 'https://www.wheaton.com/skin/';
+-->
+</script>
+
+<!--[if lt IE 7]>
+<script type="text/javascript">
+//<![CDATA[
+    var BLANK_URL = 'https://media.wheaton.com/js/blank.html';
+    var BLANK_IMG = 'https://media.wheaton.com/js/spacer.gif';
+//]]>
+</script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="https://www.wheaton.com/skin/frontend/wheaton/default/css/styles.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://www.wheaton.com/skin/frontend/wheaton/default/css/reset.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://www.wheaton.com/skin/frontend/base/default/css/widgets.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://www.wheaton.com/skin/frontend/base/default/css/news/news.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://www.wheaton.com/skin/frontend/wheaton/default/css/mediaappearance/mediaappearance.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://www.wheaton.com/skin/frontend/wheaton/default/css/mediaappearance/shadowbox.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://www.wheaton.com/skin/frontend/wheaton/default/css/mediaappearance/carousel.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://www.wheaton.com/skin/frontend/wheaton/default/css/mediaappearance/tabs.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://www.wheaton.com/skin/frontend/wheaton/default/css/gallerymedia.css" media="all" />
+<link rel="stylesheet" type="text/css" href="https://www.wheaton.com/skin/frontend/wheaton/default/css/print.css" media="print" />
+<script type="text/javascript" src="https://media.wheaton.com/js/prototype/prototype.js"></script>
+<script type="text/javascript" src="https://media.wheaton.com/js/lib/ccard.js"></script>
+<script type="text/javascript" src="https://media.wheaton.com/js/prototype/validation.js"></script>
+<script type="text/javascript" src="https://media.wheaton.com/js/scriptaculous/builder.js"></script>
+<script type="text/javascript" src="https://media.wheaton.com/js/scriptaculous/effects.js"></script>
+<script type="text/javascript" src="https://media.wheaton.com/js/scriptaculous/dragdrop.js"></script>
+<script type="text/javascript" src="https://media.wheaton.com/js/scriptaculous/controls.js"></script>
+<script type="text/javascript" src="https://media.wheaton.com/js/scriptaculous/slider.js"></script>
+<script type="text/javascript" src="https://media.wheaton.com/js/varien/js.js"></script>
+<script type="text/javascript" src="https://media.wheaton.com/js/varien/form.js"></script>
+<script type="text/javascript" src="https://media.wheaton.com/js/varien/menu.js"></script>
+<script type="text/javascript" src="https://media.wheaton.com/js/mage/translate.js"></script>
+<script type="text/javascript" src="https://media.wheaton.com/js/mage/cookies.js"></script>
+<script type="text/javascript" src="https://media.wheaton.com/js/news/news.js"></script>
+<script type="text/javascript" src="https://media.wheaton.com/js/mediaappearance/shadowbox.js"></script>
+<script type="text/javascript" src="https://media.wheaton.com/js/mediaappearance/filmed.js"></script>
+<script type="text/javascript" src="https://media.wheaton.com/js/mediaappearance/carousel.packed.js"></script>
+<script type="text/javascript" src="https://media.wheaton.com/js/mediaappearance/carousel.js"></script>
+<script type="text/javascript" src="https://media.wheaton.com/js/mediaappearance/tabs.js"></script>
+<!--[if lt IE 8]>
+<link rel="stylesheet" type="text/css" href="https://www.wheaton.com/skin/frontend/wheaton/default/css/styles-ie.css" media="all" />
+<![endif]-->
+<!--[if lt IE 7]>
+<script type="text/javascript" src="https://media.wheaton.com/js/lib/ds-sleight.js"></script>
+<script type="text/javascript" src="https://www.wheaton.com/skin/frontend/base/default/js/ie6.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+//<![CDATA[
+Mage.Cookies.path     = '/';
+Mage.Cookies.domain   = '.wheaton.com';
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+optionalZipCountries = ["HK","IE","MO","PA"];
+//]]>
+</script>
+<script type="text/javascript">//<![CDATA[
+        var Translator = new Translate([]);
+        //]]></script><script src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.3.0/prototype.js"></script>
+<script>(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+  }
+  _fbq.push(['addPixelId', '455480151265864']);
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=455480151265864&amp;ev=PixelInitialized" /></noscript>
+
+<meta name="google-site-verification" content="lHTtmdcJaVyXANnW-P37JVHP_yBP-CIinJuieUrK6wU" /> 
+<script type="text/javascript">// <![CDATA[
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-13298515-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+// ]]></script>
+
+<style>
+.MLSearchImg { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+   z-index: 1;
+
+}
+
+.MLSearchForm { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+   z-index: 1000;
+
+}
+
+.mlQUOTESTYLE { position: relative; top: -5px; }
+
+.tabs_content ul li {
+    list-style-type: square;
+}
+
+/* press release navbar */
+ul#list-nav {
+font-family: times, serif;
+font-size:14px;
+list-style:none;
+margin-left: 20px;
+padding:0;
+width:455px;
+overflow: auto;
+}
+ul#list-nav li {
+display:inline;
+}
+ul#list-nav li a {
+text-decoration:none;
+display: block;
+padding:5px 21px;
+background:#FFFFFF;
+color:#FE642E;
+float:left;
+text-align:left;
+border-top:2px solid #FE642E;
+border-right:2px solid #FE642E;
+border-bottom:2px solid #FE642E;
+border-left:2px solid #FE642E;
+}
+ul#list-nav li a:hover {
+background:#FE642E;
+color:#FFFFFF;
+border-top:2px solid #FE642E;
+border-right:2px solid #FE642E;
+border-bottom:2px solid #FE642E;
+border-left:2px solid #FE642E;
+}
+/* custom glass header */
+#list-nav2 {
+width:465px;
+margin:0;
+position: absolute;
+padding:0px 0;
+background:#3D3331;
+}
+ul#list-nav2 {
+font-family: Arial, serif;
+font-size:14px;
+
+list-style:ab;
+margin:0;
+padding: 0 0 0 20px;
+width:455px;
+overflow: auto;
+}
+ul#list-nav2 li {
+display:inline;
+float -100 left;
+margin: 26px 0px 0 5 px;
+}
+ul#list-nav2 li a {
+text-decoration:none;
+display: block;
+padding:5px 42px;
+background:#FE642E;
+color:#FFFFFF;
+float: left;
+text-align:left;
+
+border-right:8px solid #FFFFFF;
+border-bottom:0px solid #000000;
+
+}
+ul#list-nav2 li a:hover {
+background:#FFFFFF;
+color:#FE642E;
+
+border-bottom:0px solid #000000;
+
+}
+
+/* FAQ Button */
+
+#list-nav3 {
+  border-style: solid;
+  border-width : 1px 4px 4px 1px;
+  text-decoration : none;
+  padding : 4px;
+  border-color : #69f #00f #00f #69f;
+}
+a:hover { border-color: #ccc; }
+
+
+#Frame5 { 
+    float: right; 
+    margin: 10px; 
+}
+#outerdiv {position:absolute;top:50%;left:50%;overflow:show;}
+#innerdiv {position:absolute;top:-(50% of your height);left:-(50% of your width);}.. i.e. top:-30px;left:-77px; 
+}
+.five {  
+        border-width: 12px;  
+        -webkit-border-image: url(multiple-borders.gif) 12 12 12 12 repeat;  
+        -moz-border-image: url(multiple-borders.gif) 12 12 12 12 repeat;  
+        border-image: url(multiple-borders) 12 12 12 12 repeat; /* for Opera */  
+    }  
+
+/* Lit Page */
+
+table.hovertable {
+  font-family: verdana,arial,sans-serif;
+  font-size:11px;
+  width:960px;
+  color:#333333;
+  border-width: 1px;
+  border-color: #999999;
+  border-collapse: collapse;
+}
+table.hovertable th {
+
+  
+  border-width: 1px;
+  padding: 8px;
+  border-style: none;
+}
+table.hovertable tr {
+}
+table.hovertable td {
+  border-width: 1px;
+  padding: 8px;
+  border-style: none;
+}
+
+/* FAQ */
+h2{padding-bottom:1em}
+ul.hshow{
+  list-style:none;
+  margin:1em;
+  padding:0;
+
+  position:relative;
+  padding-top:0px;
+
+}
+ul.hshow li{line-height:1.2em;position:relative;}
+ul.hshow li a{
+  text-decoration:none;
+  display:block;
+}
+ul.hshow li a strong{
+  
+  color:#000;
+  padding:0 10px;
+
+  border:0px solid #ccc;
+  position:relative;
+  cursor:pointer
+} 
+
+
+
+ul.hshow li a span{
+  ;
+  text-align:left;
+  padding:5px;
+  color:#000;
+  
+ display:none;
+ float:left;clear:both;
+  position:relative;
+  z-index:99;
+}
+
+ul.hshow li a:hover {visibility:visible;color:#f00;}
+ul.hshow li a:focus strong{}
+ul.hshow li a:focus span {display:block}
+ul.hshow li a{outline:none}
+
+ul.hshow li a:active strong{}
+ul.hshow li a:active{overflow:visible;height:auto}
+ul.hshow li a:active strong{background:}
+ul.hshow li a:active span{display:block}
+
+p.explain{
+  clear:both;
+  margin-top:2em;
+  border-top:2px dashed #ccc;
+  padding-top:10px;
+}
+
+.celline1{
+float: left; 
+
+}
+#homeThree li
+{
+margin-top:auto;
+margin-bottom:auto;
+   vertical-align: middle;
+   display: inline-block;
+
+}
+
+#navcontainer
+{
+margin-top:auto;
+margin-bottom:auto;
+margin-left:auto;
+margin-right:auto;
+text-align: center;
+width: 980px;
+
+}
+
+#homeDiv
+{
+margin-left:auto;
+margin-right:auto;
+margin-top:auto;
+margin-bottom:auto;
+width: 970px;
+height: 50px;
+border: 2px #DADADA solid;
+background-color: #DADADA;
+color: #575252;
+font-size: inherit;
+font-weight: inherit;
+font-family: Arial, Helvetica, sans-serif;
+font-style:vertical-align: middle;
+text-decoration: inherit;
+line-height: 3.00em;
+}
+
+
+.shadow {
+  -webkit-box-shadow: .5px .5px 2px 3px #ededed;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    .5px .5px 2px 3px #ededed;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         .5px .5px 2px 3px #ededed;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+#slideshow #slideshowWindow { width:500px; height:257px; margin:0; padding:0; position:relative; overflow:hidden; } 
+#slideshow #slideshowWindow .slide { margin:0; padding:0; width:500px; height:257px; float:left; position:relative; }
+
+
+#fixedheight {
+                table-layout: fixed;
+           
+
+            }
+
+            #fixedheight td {
+                width: 500px;
+               margin: 50px;
+ padding: 10px; 
+            }
+
+            #fixedheight td div {
+                height: 275px;
+                overflow: hidden;
+            }
+
+
+  .lbox {
+    color: #eee;
+    height: 350px;
+                border: 5px solid #83C2ff;
+                border-radius: 25px;
+                background: #2992F8;
+                padding-top: 5px;
+                padding-left:5px;
+  }
+
+
+.fadein { position:relative; width:500px; height:332px; }
+.fadein img { position:absolute; left:0; top:0; }
+
+area:hover
+{
+    border:1px solid black;
+}
+
+</style>
+
+
+
+
+
+
+<script type="text/javascript">// <![CDATA[
+ jQuery(document).ready(function() {
+    var currentPosition = 0; 
+    var slideWidth = 500;
+    var slides = jQuery('.slide');
+    //var slides.length = 0; 
+    //var numberOfSlides = slides.length;
+    var numberOfSlides = 0; 
+    var slideShowInterval; 
+    var speed = 6000; 
+
+    slideShowInterval = setInterval(changePosition, speed); 
+    slides.wrapAll('<div id="slidesHolder"></div>');
+    slides.css({ 'float' : 'left' }); 
+
+    jQuery('#slidesHolder').css('width', slideWidth * numberOfSlides); 
+
+    function changePosition() { 
+      if (currentPosition == numberOfSlides - 1) { 
+        currentPosition = 0; 
+      } else {
+        currentPosition++; 
+      } 
+
+      moveSlide(); 
+    } 
+
+    function moveSlide() { 
+      jQuery('#slidesHolder').animate({'marginLeft' : slideWidth * (-currentPosition)}); 
+    }  
+
+  }); 
+// ]]></script>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">var _kmq = _kmq || [];
+    var _kmk = _kmk || 'ec0ae871545f80f0632a8bae7e7869ca1bfe20bf';
+    function _kms(u){
+    setTimeout(function(){
+    var d = document, f = d.getElementsByTagName('script')[0],
+    s = d.createElement('script');
+    s.type = 'text/javascript'; s.async = true; s.src = u;
+    f.parentNode.insertBefore(s, f);
+    }, 1);
+    }
+    _kms('//i.kissmetrics.com/i.js');
+    _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
+    </script>
+
+
+
+
+
+<script type="text/javascript">
+/*
+// <![CDATA[
+   // a cross reference of area names to text to be shown for each area
+    var xref = {
+        acround: "<b>Ac Round</b> are delicious and may turn your skin orange!",
+        asparagus: "<b>Asparagus</b> is one of the first vegetables of the spring. " 
+            +"Being a dark green, it's great for you, and has interesting side effects.",
+        squash: "<b>Squash</b> is a winter vegetable, and not eaten raw too much. Is that really squash?",
+        redpepper: "<b>Red peppers</b> are actually the same as green peppers, they've just been left on "
+            +"the vine longer. Delicious when fire-roasted.",
+        yellowpepper: "Similar to red peppers, <b>yellow peppers</b> are sometimes sweeter.",
+        celery: "<b>Celery</b> is a fascinating vegetable. Being mostly water, it actually takes your body "
+            +"more calories to process it than it provides.",
+        cucumbers: "<b>Cucumbers</b> are cool.",
+        broccoli: "<b>Broccoli</b> is like a forest of goodness in your mouth. And very good for you. "
+            +"Eat lots of broccoli!",
+        dip: "Everything here is good for you but this one. <b>Don't be a dip!</b>"
+    };
+    
+    var defaultDipTooltip = 'I know you want the dip. But it\'s loaded with saturated fat, just skip it '
+        +'and enjoy as many delicious, crisp vegetables as you can eat.';
+    
+    var image = jQuery('#map');
+
+    image.mapster(
+    {
+        fillOpacity: 0.4,
+        fillColor: "d42e16",
+        stroke: true,
+        strokeColor: "3320FF",
+        strokeOpacity: 0.8,
+        strokeWidth: 4,
+        singleSelect: true,
+        mapKey: 'name',
+        listKey: 'name',
+        onClick: function (e) {
+            var newToolTip = defaultDipTooltip;
+            
+            // update text depending on area selected
+            jQuery('#selections').html(xref[e.key]);
+            
+            // if Asparagus selected, change the tooltip
+            if (e.key === 'asparagus') {
+                newToolTip = "OK. I know I have come down on the dip before, but let's be real. "
+                    +"Raw asparagus without any of that delicious ranch and onion dressing "
+                    +"slathered all over it is not so good.";
+            }
+            image.mapster('set_options', { 
+                areas: [{
+                    key: "dip",
+                    toolTip: newToolTip
+                    }]
+                });
+        },
+        showToolTip: true,
+        toolTipClose: ["tooltip-click", "area-click"],
+        areas: [
+            {
+                key: "acround",
+                fillColor: "ffffff"
+            },
+            {
+                key: "yellowpepper",
+                fillColor: "000000"
+            },
+            {
+                key: "carrots",
+                fillColor: "000000"
+            },
+            {
+                key: "dip",
+                toolTip: defaultDipTooltip
+            },
+            {
+                key: "asparagus",
+                strokeColor: "FFFFFF"
+            }
+            ]
+    });
+// ]]>*/
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-13298515-1', 'auto');
+  ga('send', 'pageview');
+
+
+</script>
+
+<script language="JavaScript">
+/*
+var i = 0;
+var path = new Array();
+ 
+// LIST OF IMAGES
+path[0] = "http://wheaton.com/media/ML/images/MLslide5.jpg";
+path[1] = "http://wheaton.com/media/ML/images/MLslide6.jpg";
+path[2] = "http://wheaton.com/media/ML/images/MLslide4.jpg";
+
+function swapImage()
+{
+   document.slide.src = path[i];
+   if(i < path.length - 1) i++; else i = 0;
+   setTimeout("swapImage()",6000);
+}
+window.onload=swapImage;
+*/
+</script>
+
+
+
+<script src="https://www.wheaton.com/skin/frontend/wheaton/default/js/jquery.cycle.all.js" type="text/javascript"></script>
+<script type="text/javascript">
+jQuery.noConflict();
+   jQuery(function(){
+         jQuery('ul#slideshow').cycle({
+            timeout: 5000,  // milliseconds between slide transitions (0 to disable auto advance)
+            fx:      'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+            pager:   '#pager',  // selector for element to use as pager container
+            pause:   1,	  // true to enable "pause on hover"
+            pauseOnPagerHover: 1 // true to pause when hovering over pager link
+        });
+     });
+</script>
+<link href="https://www.wheaton.com/skin/frontend/wheaton/default/css/dropdown.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://www.wheaton.com/skin/frontend/wheaton/default/js/jquery.hoverIntent.minified.js"></script>
+<script type="text/javascript" src="https://www.wheaton.com/skin/frontend/wheaton/default/js/jquery.dcmegamenu.1.2.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function(jQuery){
+	jQuery('.mega-menu-6').dcMegaMenu({
+		rowItems: '3',
+		speed: 'slow',
+		effect: 'slide'
+	});
+
+	jQuery('.mega-menu-7').dcMegaMenu({
+		rowItems: '3',
+		speed: 'slow',
+		effect: 'slide'
+	});
+});
+</script>
+
+
+<script type="text/javascript" src="https://www.wheaton.com/skin/frontend/wheaton/default/js/cufon-yui.js"></script>
+<script type="text/javascript" src="https://www.wheaton.com/skin/frontend/wheaton/default/js/ITC_Avant_Garde.js"></script>
+<script type="text/javascript" src="https://www.wheaton.com/skin/frontend/wheaton/default/js/font_style.js"></script>
+
+<!---- top links dropdown ---->
+<script type="text/javascript" src="https://www.wheaton.com/skin/frontend/wheaton/default/js/dropdowntabs.js"></script>
+
+<!--[if IE]>
+<link href="https://www.wheaton.com/skin/frontend/wheaton/default/css/ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+
+</head>
+<body class=" cms-index-index cms-home">
+
+        <noscript>
+        <div class="noscript">
+            <div class="noscript-inner">
+                <p><strong>JavaScript seem to be disabled in your browser.</strong></p>
+                <p>You must have JavaScript enabled in your browser to utilize the functionality of this website.</p>
+            </div>
+        </div>
+    </noscript>
+
+
+        
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!-- header start -->
+
+
+<div class="dwkheader" style="height: auto; width: auto; background: #189dd9;">
+<a href="http://www.dwk-lifesciences.com/">
+<img src="https://media.wheaton.com/media/images/dwk_top-banner_ccc_en.png" style="margin: 0 auto; padding: 10px; display:block; border:0">
+</a>
+</div>
+
+<div id="header">
+  <div class="logo">
+  <a href="http://wheaton.com/">
+  <!-- old: PUc0Vqp[1].gif  new: logo-stacked.png -->
+  <img src="https://wheaton.com/media/images/logo-stacked.png" alt="WHEATON" border="0" />
+  </a></div>
+
+
+  <div class="top_right">
+<div class="user_info">
+</div>
+  <div class="toplinks" id="glowmenu" >
+    <ul>
+      <li><a href="http://www.dwk-lifesciences.com/index.html" rel="dropmenu1_d">DWK LifeSciences</a></li>
+      <li><a href="#" rel="dropmenu2_d">Log In or Register</a></li>
+      <li><a href="#" rel="dropmenu3_d">Help</a></li>
+      <li><a href="http://wheaton.com/customer/account/login/">Account</a></li>
+	        <li class="last"><a href="#" rel="dropmenu5_d"><img src="https://www.wheaton.com/skin/frontend/wheaton/default/images/cart_icon.png" alt="cart" />Cart <strong>(0 Items)</strong></a></li>
+    </ul>
+  </div>
+  </div>
+
+  <div id="dropmenu1_d" class="dropmenudiv_d topmenu">
+    <ul class="dropdown_links">
+     <!--<li><a href="http://www.wheaton-uk.com">WHEATON-UK</a></li>-->
+
+      <li><a href="http://www.socorex.ch">Socorex Swiss</a></li>
+    </ul>
+
+</div>
+
+  <div id="dropmenu2_d" class="dropmenudiv_d topmenu">
+
+    <div class="login_form">
+	<form action="http://wheaton.com/customer/account/loginPost/" method="post">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="left" valign="top"> Email Address:<br />
+           <input type="text" name="login[username]" id="mini-login" class="input1" /></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"> Password:<br />
+            <input type="password" name="login[password]" id="mini-password" class="input1" /></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><input name="" type="checkbox" value="" />
+            <span>Remember my username on this computer</span></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><button type="submit" class="button"><img src="https://www.wheaton.com/skin/frontend/wheaton/default/images/signin_bt.jpg" alt="Sign In" /></button></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><span> Forgot your <a href="http://wheaton.com/customer/account/forgotpassword/">username</a> or <a href="http://wheaton.com/customer/account/forgotpassword/">password</a> ?<br />
+            Not registered? <a href="http://wheaton.com/customer/account/create/">Sign up now!</a></span></td>
+        </tr>
+      </table>
+	</form>
+    </div>
+  </div>
+  <div id="dropmenu3_d" class="dropmenudiv_d topmenu">
+    <div class="help">
+      <p><a href="#">USA, Puerto Rico &amp; Canada</a><br />
+        1.800.225.1437</p>
+      <p><a href="#">International</a><br />
+        +1.856.825.1100</p>
+      <p><a href="#">Fax</a><br />
+        1.856.825.1368</p>
+    </div>
+  </div>
+  <div id="dropmenu4_d" class="dropmenudiv_d topmenu">
+    <ul class="dropdown_links">
+      <li><a href="http://wheaton.com/customer/account/">Account Home Page</a></li>
+      <li><a href="http://wheaton.com/sales/order/history/">Track An Order</a></li>
+      <li><a href="http://wheaton.com/sales/order/history/">View Order History</a></li>
+      <li><a href="http://wheaton.com/wishlist/">Saved Items</a></li>
+    </ul>
+  </div>
+      <div id="dropmenu5_d" class="dropmenudiv_d topmenu">
+    <ul class="dropdown_links">
+      <li><a href="http://wheaton.com/checkout/cart/">Items in your Cart</a>
+        <div class="cart_info">
+        <form action="#" class="contactForm" name="cform" method="post">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+              <th scope="col" colspan="2">There is no items in cart</th>
+            </tr>
+			          </table>
+		</form>
+        </div>
+      </li>
+      <li class="active"><a href="http://wheaton.com/wishlist/">Saved Items</a>  &nbsp;&nbsp;&nbsp;&nbsp; <a href="javascript:void(0);" onclick="window.location='http://wheaton.com/checkout/onepage/';">Checkout</a></li>
+    </ul>
+  </div>
+  <script type="text/javascript">
+//SYNTAX: tabdropdown.init("menu_id", [integer OR "auto"])
+tabdropdown.init("glowmenu", "auto")
+</script> 
+</div>
+
+<!-- header end --> 
+<!-- nav start -->
+<style>
+    .datared a:hover {
+        background: url(/media/images/BTSalesButtonDWK.jpg) center repeat !important;
+        color: white !important;
+    }
+</style>
+<div id="base_nav">
+  <div id="main_nav">
+    <div class="demo-container">
+      <div class="red">
+        <div class="navigation">
+          <div class="nav_indent">
+            <ul class="mega-menu-6 mega-menu">
+              <li class="shop_bt"><a href="http://wheaton.com/promotions">SALE</a></li>
+
+
+              <li class="blog_bt"><a href="http://blog.wheaton.com">Blog</a></li>
+
+             <!-- <li class="datared">
+                <a href="http://wheaton.com/dwk-life-sciences">DWK Life Sciences</a>
+              </li>-->
+		
+	     <li><a href="#">DWK Life Sciences</a>
+		<ul>
+			<li><a href="http://wheaton.com/dwk-life-sciences">DWK Life Sciences</a></li>
+			<li><a href="https://media.wheaton.com/media/Quality_Policy.pdf" target="_blank">Quality Policy</a></li>
+			<li><a href="https://media.wheaton.com/media/EHS_Policy.pdf" target="_blank">EHS Policy</a></li>
+			<li><a href="https://media.wheaton.com/media/ISO_9001.pdf" target="_blank">ISO 9001</a></li>
+			<li><a href="https://media.wheaton.com/media/ISO_14001.pdf" target="_blank">ISO 14001</a></li>
+		</ul>
+	     </li>
+
+              <li><a href="#">Capabilities</a>
+                <ul>
+                                 <!-- <li><a href="http://wheaton.com/corporate-capability">Corporate Capability</a></li>-->
+				  <li><a href="http://wheaton.com/media/catalogs/WHEATON%20Corporate%20Capability/index.html" target="_blank">Corporate Capability</a></li>
+                                  <li><a href="http://wheaton.com/custom-glass">Custom Glass Capabilities</a></li>
+                                  <li><a href="http://wheaton.com/plastic-manufacturing">Plastic Manufacturing Capabilities</a></li>
+                                  <li><a href="http://wheaton.com/glass-capabilities">Glass Capabilities</a></li>
+                                  <li><a href="http://wheaton.com/packaging-configuration">Secondary Processes and Packaging Capabilities</a></li>
+                                </ul>
+              </li>
+
+
+
+              <li><a href="#">Media &amp; Events </a>
+                          <ul>
+                                         <li><a href="http://wheaton.com/social-media-info">Social Media Info </a></li>
+
+                                         <li><a href="http://wheaton.com/press-releases">Press Releases </a></li>
+                                                                                 <li><a href="http://wheaton.com/trade-shows">Trade Shows </a></li>
+                                         <li><a href="http://wheaton.com/community-outreach">Community Outreach </a></li>
+
+                          </ul>
+                          </li>
+
+        <li><a href="##">Resources</a>
+                        <ul>
+                                  <li><a href="http://wheaton.com/faq">FAQ</a></li>
+                                  <li><a href="http://wheaton.com/promotions">Promotions</a></li>
+                                  <li><a href="http://wheaton.com/catalogs">eCatalogs</a></li>
+                                  <li><a href="http://wheaton.com/echarts-guides">eCharts & Guides</a></li>
+                                  <li><a href="http://wheaton.com/white-papers">White Papers &amp; Case Studies</a></li>
+                                  <li><a href="http://wheaton.com/videos">Videos</a></li>
+
+                        </ul>
+              </li>
+
+
+
+
+
+
+
+<li><a href="#">Contact Us</a>
+
+<ul>
+<li>
+<ul>
+<li><a href="http://wheaton.com/contact-info">Contact Information / Location &amp; Directions</a></li>
+  <li><a href="http://wheaton.com/careers">Careers</a></li>
+<li><a href="#">North American Sales Teams</a>
+
+<ul>
+<li><a href="http://wheaton.com/north-american-research-team-east">North American Research - East</a></li>
+<li><a href="http://wheaton.com/north-american-research-team-west">North American Research - West</a></li>
+<li><a href="http://wheaton.com/north-american-packaging-specialists">North American Packaging Specialists</a></li>
+<!-- <li><a href="< ?php echo $this->getBaseUrl()?>north-american-chromatography-specialists">North American Chromatography Specialists</a></li> -->
+</ul>
+</li>
+<li><a href="#">International Sales Team</a>
+<ul>
+        <li><a href="http://wheaton.com/sales-development">Sales & Development</a></li>
+<!--
+        <li><a href="http://wheaton.com/european-distribution">European Distribution</a></li>
+                <li><a href="http://wheaton.com/uk-sales">WHEATON UK</a></li>
+ -->
+</ul>
+
+</li>
+<li><a href="http://wheaton.com/technical-support">Technical Support</a></li>
+<li><a href="#">Distributors</a>
+<ul>
+                <li><a href="http://wheaton.com/north-american-distributors">North American</a></li>
+                <li><a href="http://wheaton.com/international-distributors">International</a></li>
+</ul>
+
+</li>
+</ul>
+</li>
+</ul>
+</li>
+
+
+
+
+
+
+
+            </ul>
+          </div>
+          <div class="search_col">
+            <form id="search_mini_form" action="http://wheaton.com/catalogsearch/result/" method="get">
+<input type="hidden" name="order" value="relevance"> 
+<input type="hidden" name="dir" value="desc">
+       <div class="search_input">
+	   <input id="search" type="text" name="q" value=""/>
+        </div>
+        <div class="search_button">
+          <button type="submit" title="Search" class="button" style="padding-top:0.5px;"><img src="https://www.wheaton.com/skin/frontend/wheaton/default/images/search_iconDWK.png" alt="Search"/></button>
+        <script type="text/javascript">
+        //<![CDATA[
+            var searchForm = new Varien.searchForm('search_mini_form', 'search', 'SEARCH WHEATON');
+            //searchForm.initAutocomplete('http://wheaton.com/catalogsearch/ajax/suggest/', 'search_autocomplete');
+        //]]>
+        </script>
+        </div>	
+</form>
+          </div>
+        </div>
+        <div class="clear"></div>
+                                        <div class="sub_nav">
+          <ul class="mega-menu-6 mega-menu2">
+            <li><a href="http://wheaton.com/lab.html" style="border-left:1px solid #999999">Laboratory</a>
+              <ul>
+                <li>
+                  <ul>
+                    <li><a href="http://wheaton.com/lab/antibind-microplates.html">AntiBIND&trade; Microplates</a></li>
+                    <li><a href="http://wheaton.com/lab/ampules-vacules.html">Ampules</a></li>
+                    <li><a href="http://wheaton.com/glass-bottles">Bottles Glass</a></li>
+                    <li><a href="http://wheaton.com/plastic-bottles">Bottles Plastic</a></li>
+                    <li><a href="http://wheaton.com/lab/caps-and-closures.html">Caps and Closures</a>
+                      <ul>
+                        <li><a href="http://wheaton.com/lab/caps-and-closures/screw-caps.html">Screw Caps</a></li>
+                        <li><a href="http://wheaton.com/lab/caps-and-closures/snap-caps.html">Snap Caps</a></li>
+                        <li><a href="http://wheaton.com/lab/caps-and-closures/stoppers.html">Stoppers</a></li>
+                        <li><a href="http://wheaton.com/lab/caps-and-closures/seals.html">Seals</a></li>
+                        <li><a href="http://wheaton.com/lab/caps-and-closures/septa.html">Septa</a></li>
+			<li><a href="http://wheaton.com/lab/caps-and-closures/sterile-stoppers-1.html">Sterile Stoppers</a></li>
+			<li><a href="http://wheaton.com/lab/caps-and-closures/sterile-seals.html">Sterile Seals</a></li>                     
+ 		     </ul>
+                    </li>
+                    <li><a href="http://wheaton.com/lab/cell-culture.html">Cell Culture</a>
+                      <ul>
+                        <li><a href="http://wheaton.com/cell-culture/celline-flask.html">CELLine FLASKS</a></li>
+                        <li><a href="http://wheaton.com/lab/cell-culture/cell-culture-tubes.html">Culture Tubes</a></li>
+                        <li><a href="http://wheaton.com/lab/cell-culture/flasks.html">Flasks</a></li>
+                        <li><a href="http://wheaton.com/petg-pc/erlenmeyer-flasks-accessories.html">Erlenmeyer Flasks & Accessories</a></li>
+                        <li><a href="http://wheaton.com/lab/cell-culture/hybridization-bottles.html">Hybridization Bottles</a></li>
+                        <li><a href="http://wheaton.com/lab/cell-culture/incubators.html">Incubators</a></li>
+                        <li><a href="http://wheaton.com/lab/cell-culture/magnetic-stirrers.html">Magnetic Stirrers</a></li>
+                        <li><a href="http://wheaton.com/lab/cell-culture/media-bottles.html">Media Bottles</a></li>
+                        <li><a href="http://wheaton.com/lab/cell-culture/stirrers-homogenizer.html">Overhead  Stirrers/Homogenizer</a></li>
+                        <li><a href="http://wheaton.com/lab/cell-culture/roller-bottles.html">Roller Bottles</a></li>
+                        <li><a href="http://wheaton.com/lab/cell-culture/roller-equipment.html">Roller Equipment</a></li>
+                        <li><a href="http://wheaton.com/lab/cell-culture/staining-ware.html">Staining Ware</a></li>
+                        <li><a href="http://wheaton.com/lab/cell-culture/tissue-grinders.html">Tissue Grinders</a></li>
+                        <li><a href="http://wheaton.com/cell-culture/celline-flask.html">CELLine FLASKS</a></li>
+
+                      </ul>
+                    </li>
+                    <li><a href="http://wheaton.com/lab/chemistry-glassware.html">Chemistry Glassware</a></li>
+                  </ul>
+                </li>
+             <li>                 
+		 <ul>
+		   <li><a>Completepak Kits</a>
+			<ul>
+			<li><a href="http://wheaton.com/completePAK" target="_blank">Sterile Clear Kits</a></li>
+			</ul>
+		   </li>
+	            <li><a href="http://wheaton.com/lab/crimping-devices.html">Crimping Tools</a></li>
+                    <li><a href="http://wheaton.com/lab/cryogenics.html">Cryogenics</a>
+                    <li><a href="http://wheaton.com/dualfusion.html">DualFusion Vials</a>
+                      <ul>
+                        <li><a href="http://wheaton.com/lab/micro-tubes.html">Microtubes</a></li>
+                        <li><a href="http://wheaton.com/lab/cryogenics/cryovials.html">Cryovials</a></li>
+                        <li><a href="http://wheaton.com/lab/cryogenics/storage-boxes.html">Storage Boxes</a></li>
+                        <li><a href="http://wheaton.com/lab/cryogenics/barcode-scanner.html">Barcode Scanner</a></li>
+                        <li><a href="http://wheaton.com/lab/cryogenics/accessories.html">Accessories</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="http://wheaton.com/lab/desiccators.html">Desiccators</a></li>
+                    <li><a href="http://wheaton.com/lab/dispensers.html">Dispensers</a>
+                      <ul>
+                        <li><a href="http://wheaton.com/lab/dispensers/bottletop-dispensers.html">Bottletop Dispensers</a></li>
+                        <li><a href="http://wheaton.com/lab/dispensers/pumps.html">Pumps</a></li>
+                        <li><a href="http://wheaton.com/lab/dispensers/self-refilling-syringes.html">Self-Refilling Syringes</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="http://wheaton.com/lab/equipment.html">Equipment</a>
+                      <ul>
+                        <li><a href="http://wheaton.com/lab/equipment/crimping-devices.html">Crimping Devices</a></li>
+                        <li><a href="http://wheaton.com/lab/equipment/pumps-and-tubing.html">Pumps and Tubing</a></li>
+                        <li><a href="http://wheaton.com/lab/equipment/magnetic-stirrers.html">Magnetic Stirrers</a></li>
+                        <li><a href="http://wheaton.com/lab/equipment/overhead-stirrers-homogenizer.html">Overhead Stirrers</a></li>
+                                                <li><a href="http://wheaton.com/lab/equipment/incubators.html">Incubators</a></li>
+                                                <li><a href="http://wheaton.com/lab/equipment/roller-equipment.html">Roller Equipment</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="http://wheaton.com/lab/filtration.html">Filtration</a></li>
+                    <li><a href="http://wheaton.com/lab/flasks.html">Flasks</a></li>
+                  </ul>
+                </li>
+                <li><a href="http://wheaton.com/lab/imhoff-cone.html">Imhoff Cone</a>
+                  <ul>
+                    <li><a href="http://wheaton.com/lab/micro-tubes.html">Microtubes</a></li>
+                    <li><a href="http://wheaton.com/lab/pipettes.html">Pipettes</a>
+                      <ul>
+                        <li><a href="http://wheaton.com/lab/pipettes/pipette-tips.html">Pipette Tips</a></li>
+                        <li><a href="http://wheaton.com/lab/pipettes/pipette-accessories.html">Pipette Accessories</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="http://wheaton.com/lab/pumps.html">Pumps </a></li>
+                    <li><a href="http://wheaton.com/lab/racks.html">Racks</a></li>
+                    <li><a href="http://wheaton.com/lab/roller-culture.html">Roller Culture</a>
+                      <ul>
+                        <li> <a href="http://wheaton.com/lab/roller-culture/incubators.html">Incubators</a></li>
+                        <li> <a href="http://wheaton.com/lab/roller-culture/roller-equipment.html">Roller Equipment</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="http://wheaton.com/lab/sample-collection.html">Sample Collection</a></li>
+                    <li><a href="http://wheaton.com/lab/staining-ware.html">Staining Ware</a></li>
+                    <li><a href="http://wheaton.com/lab/tissue-grinder.html">Tissue Grinders</a></li>
+                    <li><a href="http://wheaton.com/lab/vials.html">Vials</a>
+                      <ul>
+                        <li><a href="http://wheaton.com/lab/vials/chromatography.html">Chromatography</a></li>
+                        <li><a href="http://wheaton.com/lab/vials/cryogenic.html">Cryogenics</a></li>
+
+                    <li><a href="http://wheaton.com/dualfusion.html">DualFusion Vials</a>
+<li><a href="http://wheaton.com/lab/vials/headspace.html">Headspace</a></li>
+                        <li><a href="http://wheaton.com/lab/vials/high-recovery.html">High Recovery</a></li>
+                        <li><a href="http://wheaton.com/microliter.html">Microliter</a></li>
+                        <li><a href="http://wheaton.com/lab/micro-tubes.html">Microtubes</a></li>
+                        <li><a href="http://wheaton.com/lab/vials/sample.html">Sample</a></li>
+                        <li><a href="http://wheaton.com/lab/vials/scintillation.html">Scintillation</a></li>
+                        <li><a href="http://wheaton.com/lab/vials/serum.html">Serum</a></li>
+                        <li><a href="http://wheaton.com/lab/vials/tube.html">Tube</a></li>
+                        <li><a href="http://wheaton.com/lab/vials/vacule.html">Vacule</a></li>
+			<li><a href="http://wheaton.com/lab/vials/sterile-vials.html">Sterile Vials</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="http://wheaton.com/primary-packaging.html">Primary PKG.</a>
+            <ul>
+		 <li><a href="http://wheaton.com/primary-packaging/closures.html">Closures</a>
+                  <ul>
+                    <li>
+                      <ul>
+                        <li><a href="http://wheaton.com/primary-packaging/closures/rubber-stoppers.html">Rubber Stoppers</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/closures/septa.html">Septas</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/closures/aluminum-seals.html">Aluminum Seals</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/closures/screw-thread-closures.html">Screw Thread Closures</a></li>
+                    	<li><a href="http://wheaton.com/primary-packaging/closures/sterile-stoppers.html">Sterile Stoppers</a></li>
+		    	<li><a href="http://wheaton.com/primary-packaging/closures/sterile-seals.html">Sterile Seals</a></li> 
+		     </ul>
+                    </li>
+		  <li><a>Completepak Kits</a>
+			<ul><li><a href="http://wheaton.com/completePAK" target="_blank">Sterile Clear Kits</a></li></ul>
+		  </li>
+                    <li><a href="http://wheaton.com/primary-packaging/diagnostic-containers.html">Diagnostic Containers</a>
+                      <ul>
+                        <li><a href="http://wheaton.com/primary-packaging/diagnostic-containers/tubular-diagnostic-vials.html">Tubular Diagnostic Vials</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/diagnostic-containers/molded-diagnostic-bottles.html">Molded Diagnostic Bottles</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/diagnostic-containers/pet-diagnostic-bottles.html">PET Diagnostic Bottles</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="http://wheaton.com/primary-packaging/equipment.html">Equipment</a>
+                      <ul>
+                        <li><a href="http://wheaton.com/primary-packaging/equipment/crimping-devices.html">Crimping Devices</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/equipment/pumps-and-tubing.html">Pumps and Tubing</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/equipment/magnetic-stirrers.html">Magnetic Stirrers</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/equipment/overhead-stirrers-homogenizer.html">Overhead Stirrers</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/equipment/incubators.html">Incubators</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/equipment/roller-equipment.html">Roller Equipment</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="http://wheaton.com/primary-packaging/glass.html">Glass</a>
+                  <ul>
+                    <li>
+                      <ul>
+                        <li><a href="http://wheaton.com/primary-packaging/glass/molded-bottles.html">Molded Bottles</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/glass/tubular-vials.html">Tubular Vials</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/glass/high-recovery-vials.html">High Recovery Vials</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/glass/ampules.html">Ampules</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/glass/dropping-bottles-and-assemblies.html">Dropping Bottles & Assemblies</a></li>
+			<li><a href="http://wheaton.com/primary-packaging/glass/sterile-vials.html">Sterile Vials</a></li>                     
+		      </ul>
+                    </li>
+                    <li><a href="http://wheaton.com/primary-packaging/high-recovery-vials.html">High Recovery Vials</a>
+                      <ul>
+                        <li><a href="http://wheaton.com/primary-packaging/high-recovery-vials/elite-packaging-vials.html">Elite Packaging Vials</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/high-recovery-vials/nextgen-v-vials.html">NextGen V Vials</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/high-recovery-vials/e-z-ex-traction-vials.html">E-Z Ex-Traction Vials</a></li>
+                                        </ul>
+                                        </li>
+                    <li><a href="http://wheaton.com/primary-packaging/lyophilization.html">Lyophilization</a>
+                                                <ul>
+                        <li><a href="http://wheaton.com/primary-packaging/lyophilization/molded-bottles.html">Molded Bottles</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/lyophilization/tubular-vials.html">Tubular Vials</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/lyophilization/vacule-ampules.html">Vacule Ampules</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/lyophilization/plastic-crimp-serum-bottles.html">Plastic Crimp / Serum Bottles</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/lyophilization/caps-for-lyophilization.html">Caps for Lyophilization</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/lyophilization/seals-for-lyophilization.html">Seals for Lyophilization</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/lyophilization/stoppers-for-lyophilization.html">Stoppers for Lyophilization</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/lyophilization/crimping-devices.html">Crimping Devices</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="http://wheaton.com/primary-packaging/plastic.html">Plastic</a>
+                  <ul>
+                    <li>
+                      <ul>
+                        <li><a href="http://wheaton.com/primary-packaging/plastic/elite-packaging-vials.html">Elite Packaging Vials</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/plastic/dropping-bottles-tips-closures.html">Dropping Bottles, Tips &amp; Closures</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/plastic/leak-resistant-bottles.html">Leak Resistant Bottles</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/plastic/pet-diagnostic-bottles.html">PET Diagnostic Bottles</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/plastic/media-bottles.html">Media Bottles</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/plastic/crimp-serum-bottles.html">Crimp / Serum Bottles</a></li>
+                        <li><a href="http://wheaton.com/primary-packaging/plastic/general-plastic-bottles.html">General Plastic Bottles</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="http://wheaton.com/cell-culture.html">Cell Culture</a>
+              <ul>
+                <li>
+                  <ul>
+                    <li><a href="http://wheaton.com/cell-culture/culture-tubes.html">Culture Tubes</a></li>
+                    <li><a href="http://wheaton.com/cell-culture/flasks.html">Flasks</a></li>
+                        <li><a href="http://wheaton.com/petg-pc/erlenmeyer-flasks-accessories.html">Erlenmeyer Flasks & Accessories</a></li>
+                    <li><a href="http://wheaton.com/cell-culture/hybridization-bottles.html">Hybridization Bottles</a></li>
+                    <li><a href="http://wheaton.com/cell-culture/incubators.html">Incubators</a></li>
+                    <li><a href="http://wheaton.com/cell-culture/magnetic-stirrers.html">Magnetic Stirrers</a></li>
+                    <li><a href="http://wheaton.com/cell-culture/celline-flask.html">CELLine FLASKS</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li><a href="http://wheaton.com/cell-culture/media-bottles.html">Media Bottles</a></li>
+                    <li><a href="http://wheaton.com/cell-culture/overhead-stirrers-homogenizer.html">Overhead Stirrers/ Homogenizer</a></li>
+                    <li><a href="http://wheaton.com/cell-culture/roller-bottles.html">Roller Bottles</a></li>
+                    <li><a href="http://wheaton.com/cell-culture/roller-equipment.html">Roller Equipment</a></li>
+                    <li><a href="http://wheaton.com/cell-culture/staining-ware.html">Staining Ware </a></li>
+                    <li><a href="http://wheaton.com/cell-culture/tissure-grinders.html">Tissue Grinders</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="http://wheaton.com/diagnostic-package.html">Diagnostic PKG.</a>
+              <ul>
+                <li>
+                  <ul>
+		    <li><a>Completepak Kits</a>
+			<ul><li><a href="http://wheaton.com/completePAK" target="_blank">Sterile Clear Kits</a></li></ul>
+		    </li>
+		    <li><a href="http://wheaton.com/diagnostic-package/closures.html">Closures</a>
+                      <ul>
+                        <li><a href="http://wheaton.com/diagnostic-package/closures/rubber-stoppers.html">Rubber Stoppers</a></li>
+                        <li><a href="http://wheaton.com/diagnostic-package/closures/septas.html">Septas</a></li>
+                        <li><a href="http://wheaton.com/diagnostic-package/closures/aluminum-seals.html">Aluminum Seals</a></li>
+                        <li><a href="http://wheaton.com/diagnostic-package/closures/screw-thread-closures.html">Screw Thread Closures</a></li>
+			<li><a href="http://wheaton.com/diagnostic-package/closures/sterile-stoppers.html">Sterile Stoppers</a></li>
+			<li><a href="http://wheaton.com/diagnostic-package/closures/sterile-seals.html">Sterile Seals</a></li>                     
+		      </ul>
+                    </li>
+                    <li><a href="http://wheaton.com/diagnostic-package/diagnostic-containers.html">Diagnostic Containers</a>
+                      <ul>
+                        <li><a href="http://wheaton.com/diagnostic-package/diagnostic-containers/tubular-diagnostic-vials.html">Tubular Diagnostic Vials</a></li>
+                        <li><a href="http://wheaton.com/diagnostic-package/diagnostic-containers/molded-diagnostic-bottles.html">Molded Diagnostic Bottles</a></li>
+                        <li><a href="http://wheaton.com/diagnostic-package/diagnostic-containers/pet-diagnostic-bottles.html">PET Diagnostic Bottles</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="http://wheaton.com/diagnostic-package/equipment.html">Equipment</a>
+                      <ul>
+                        <li><a href="http://wheaton.com/diagnostic-package/equipment/crimping-device.html">Crimping Devices</a></li>
+                        <li><a href="http://wheaton.com/diagnostic-package/equipment/pumps-and-tubing.html">Pumps and Tubing</a></li>
+                        <li><a href="http://wheaton.com/diagnostic-package/equipment/magnetic-stirrers.html">Magnetic Stirrers</a></li>
+                        <li><a href="http://wheaton.com/diagnostic-package/equipment/overhead-stirrers-homogenizer.html">Overhead Stirrers</a></li>
+                                                <li><a href="http://wheaton.com/diagnostic-package/equipment/incubators.html">Incubators</a></li>
+                                                <li><a href="http://wheaton.com/diagnostic-package/equipment/roller-equipment.html">Roller Equipment</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li><a href="http://wheaton.com/diagnostic-package/glass.html">Glass </a>
+                      <ul>
+                        <li><a href="http://wheaton.com/diagnostic-package/glass/molded-bottles.html">Molded Bottles</a></li>
+                        <li><a href="http://wheaton.com/diagnostic-package/glass/tubular-vials.html">Tubular Vials</a></li>
+                        <li><a href="http://wheaton.com/diagnostic-package/glass/high-recovery-vials.html">High Recovery Vials</a></li>
+                        <li><a href="http://wheaton.com/diagnostic-package/glass/ampules.html">Ampules</a></li>
+			<li><a href="http://wheaton.com/diagnostic-package/glass/sterile-vials.html">Sterile Vials</a></li>                     
+ 		     </ul>
+                    </li>
+                    <li><a href="http://wheaton.com/diagnostic-package/high-recovery-vials.html">High Recovery Vials</a>
+                      <ul>
+                        <li><a href="http://wheaton.com/diagnostic-package/high-recovery-vials/elite-packaging-vials.html">Elite Packaging Vials</a></li>
+                        <li><a href="http://wheaton.com/diagnostic-package/high-recovery-vials/nextgen-v-vials.html">NextGen V Vials</a></li>
+                        <li><a href="http://wheaton.com/diagnostic-package/high-recovery-vials/e-z-ex-traction-vials.html">E-Z Ex-Traction Vials</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="http://wheaton.com/diagnostic-package/lyophilization.html">Lyophilization </a>
+                      <ul>
+                        <li><a href="http://wheaton.com/diagnostic-package/lyophilization/molded-bottles.html">Molded Bottles</a></li>
+                        <li><a href="http://wheaton.com/diagnostic-package/lyophilization/tubular-vials.html">Tubular Vials</a></li>
+                        <li><a href="http://wheaton.com/diagnostic-package/lyophilization/vacule-ampules.html">Vacule Ampules</a></li>
+                        <li><a href="http://wheaton.com/diagnostic-package/lyophilization/plastic-crimp-serum-bottles.html">Plastic Crimp / Serum Bottles</a></li>
+                        <li><a href="http://wheaton.com/diagnostic-package/lyophilization/caps-for-lyophilization.html">Caps for Lyophilization</a></li>
+                        <li><a href="http://wheaton.com/diagnostic-package/lyophilization/seals-for-lyophilization.html">Seals for Lyophilization</a></li>
+                        <li><a href="http://wheaton.com/diagnostic-package/lyophilization/stoppers-for-lyophilization.html">Stoppers for Lyophilization</a></li>
+                        <li><a href="http://wheaton.com/diagnostic-package/lyophilization/crimping-device.html">Crimping Devices</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li><a href="http://wheaton.com/diagnostic-package/pipettes.html">Pipettes</a>
+                      <ul>
+                        <li><a href="http://wheaton.com/diagnostic-package/pipettes/pipette-tips.html">Pipette Tips</a></li>
+                        <li><a href="http://wheaton.com/diagnostic-package/pipettes/accessories.html">Pipette Accessories</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="http://wheaton.com/biopharmaceutical.html">Biopharm</a>
+              <ul>
+                <li>
+                  <ul>
+		    <li><a>Completepak Kits</a>
+			<ul><li><a href="http://wheaton.com/completePAK" target="_blank">Sterile Clear Kits</a></li></ul>
+		    </li>
+                    <li><a href="http://wheaton.com/biopharmaceutical/closures.html">Closures</a>
+                      <ul>
+                        <li><a href="http://wheaton.com/biopharmaceutical/closures/rubber-stoppers.html">Rubber Stoppers</a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/closures/septas.html">Septas</a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/closures/aluminum-seals.html">Aluminum Seals</a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/closures/screw-thread-closures.html">Screw Thread Closures</a></li>
+			<li><a href="http://wheaton.com/biopharmaceutical/closures/sterile-stoppers.html">Sterile Stoppers</a></li>
+			<li><a href="http://wheaton.com/biopharmaceutical/closures/sterile-seals.html">Sterile Seals</a></li>                     
+ 		     </ul>
+                    </li>
+                    <li><a href="http://wheaton.com/biopharmaceutical/diagnostic-containers.html">Diagnostic Containers</a>
+                      <ul>
+                        <li><a href="http://wheaton.com/biopharmaceutical/diagnostic-containers/tubular-diagnostic-vials.html">Tubular Diagnostic Vials</a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/diagnostic-containers/molded-diagnostic-bottles.html">Molded Diagnostic Bottles</a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/diagnostic-containers/pet-diagnostic-bottles.html">PET Diagnostic Bottles</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="http://wheaton.com/biopharmaceutical/equipment.html">Equipment</a>
+                      <ul>
+                        <li><a href="http://wheaton.com/biopharmaceutical/equipment/crimping-devices.html">Crimping Devices</a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/equipment/pumps-and-tubing.html">Pumps and Tubing</a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/equipment/magnetic-stirrers.html">Magnetic Stirrers</a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/equipment/overhead-stirrers-homogenizer.html">Overhead Stirrers</a></li>
+                                                <li><a href="http://wheaton.com/biopharmaceutical/equipment/incubators.html">Incubators</a></li>
+                                                <li><a href="http://wheaton.com/biopharmaceutical/equipment/roller-equipment.html">Roller Equipment</a></li>
+                                                <li><a href="http://wheaton.com/biopharmaceutical/equipment/bottletop-dispensers.html">Bottletop Dispensers</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li><a href="http://wheaton.com/biopharmaceutical/glass.html">Glass </a>
+                      <ul>
+                        <li><a href="http://wheaton.com/biopharmaceutical/glass/bottles.html">Molded Bottles</a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/glass/tubular-vials.html">Tubular Vials</a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/glass/high-recovery-vials.html">High Recovery Vials</a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/glass/ampules.html">Ampules</a></li>
+			<li><a href="http://wheaton.com/biopharmaceutical/glass/sterile-vials.html">Sterile Vials</a></li>                     
+		     </ul>
+                    </li>
+                    <li><a href="http://wheaton.com/biopharmaceutical/high-recovery-vials.html">High Recovery Vials</a>
+                      <ul>
+                        <li><a href="http://wheaton.com/biopharmaceutical/high-recovery-vials/elite-packaging-vials.html">Elite Packaging Vials</a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/high-recovery-vials/nextgen-v-vials.html">NextGen V Vials</a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/high-recovery-vials/e-z-ex-traction-vials.html">E-Z Ex-Traction Vials</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="http://wheaton.com/biopharmaceutical/lyophilization.html">Lyophilization </a>
+                      <ul>
+                        <li><a href="http://wheaton.com/biopharmaceutical/lyophilization/molded-bottles.html">Molded Bottles</a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/lyophilization/tubular-vials.html">Tubular Vials</a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/lyophilization/ampules.html">Vacule Ampules</a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/lyophilization/plastic-crimp-serum-bottles.html">Plastic Crimp / Serum Bottles</a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/lyophilization/caps-for-lyophilization.html">Caps for Lyophilization</a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/lyophilization/seals-for-lyophilization.html">Seals for Lyophilization</a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/lyophilization/lyophilization-stoppers.html">Stoppers for Lyophilization</a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/lyophilization/crimping-devices.html">Crimping Devices</a></li>
+                      </ul>
+                    </li>
+                                 </ul>
+                </li>
+                <li>
+                  <ul>
+                    <li><a href="http://wheaton.com/biopharmaceutical/pipettes.html">Pipettes</a>
+                      <ul>
+                        <li><a href="http://wheaton.com/biopharmaceutical/pipettes/pipette-tips.html">Pipette Tips</a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/pipettes/pipette-accessories.html">Pipette Accessories</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="http://wheaton.com/biopharmaceutical/plastic-containers.html">Plastic Containers</a>
+                      <ul>
+                        <li><a href="http://wheaton.com/biopharmaceutical/plastic-containers/elite-packaging-vials.html">Elite Packaging vials </a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/plastic-containers/dropping-bottles-tips-closures.html">Dropping Bottles, Tips &amp; Closures </a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/plastic-containers/leak-resistant-bottles.html">Leak Resistant Bottles </a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/plastic-containers/petg-diagnostic-bottles.html">PET Diagnostic Bottles</a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/plastic-containers/media-bottles.html">Media Bottles </a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/plastic-containers/crimp-serum-bottles.html">Crimp / Serum Bottles</a></li>
+                        <li><a href="http://wheaton.com/biopharmaceutical/plastic-containers/general-plastic-bottles.html">General Plastic Bottles </a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          <li><a href="http://wheaton.com/socorex_1">Pipettes</a>
+                      <ul>
+
+                        <li><a href="http://wheaton.com/socorex/variable-volume-single-channel-pipettes.html">Manual Pipettes</a></li>
+
+                        <li><a href="http://wheaton.com/socorex/bottle-top-dispensers.html">Bottle Top Dispensers</a></li>
+                        <li><a href="http://wheaton.com/socorex/low-profile-dispensers.html">Low Profile Dispensers</a></li>
+                        <li><a href="http://wheaton.com/socorex/pipette-controllers.html">Pipette Controllers</a></li>
+                        <li><a href="http://wheaton.com/socorex/electronic-pipettes.html">Electronic Pipettes</a></li>
+                                            <li><a href="http://wheaton.com/socorex/repeater-pipette.html">Repeater Pipette</a></li>
+                        <li><a href="http://wheaton.com/socorex/fixed-volume-pipettes.html">Fixed Volume Pipettes</a></li>
+                        <li><a href="http://wheaton.com/socorex/calibra-digital-pipettes.html"> Precision Digital Pipettes</a></li>
+                        <li><a href="http://wheaton.com/socorex/dilution-pipette.html">1:10 Dilution Pipette</a></li>
+                        <li><a href="http://wheaton.com/socorex/micro-dispenser-pipette.html">Microdispenser Pipette</a></li>
+                                                <li><a href="http://wheaton.com/socorex/pasteur-pipettes.html">Pasteur Pipettes</a></li>
+                        <li><a href="http://wheaton.com/socorex/positive-displacement-pipettes.html">Positive Displacement Micropipettes</a></li>
+                        <li><a href="http://wheaton.com/socorex/syringes.html">Syringes</a></li>
+                                                <li><a href="http://wheaton.com/socorex/pipette-tips-8.html">Pipette Tips</a></li>
+                                                <li><a href="http://wheaton.com/socorex/stands-and-consumables.html">Stands &amp; Consumables</a></li>
+                        <li><a href="http://wheaton.com/liquid-handling-service-center">Service Center</a></li>
+                      </ul>
+                   </li>
+           <li class="last"><a href="http://wheaton.com/microliter">CHROMATOGRAPHY</a>
+                <ul>
+                        <li><a href="http://wheaton.com/lab/antibind-microplates.html">AntiBIND&trade; Microplates</a></li>
+                                <li><a href="http://wheaton.com/microliter/microliter-vial-certs-page.html">Certified Vials</a></li>
+                        <li><a href="http://wheaton.com/microliter/microliter-vials.html">MicroLiter Vials</a></li>
+                        <li><a href="http://wheaton.com/microliter/microliter-caps-septa.html">MicroLiter Caps/Septa</a></li>
+                        <li><a href="http://wheaton.com/microliter/microliter-kits-convenience.html">MicroLiter Kits (Convenience)</a></li>
+                        <li><a href="http://wheaton.com/microliter/microliter-mpss.html">MicroLiter MPSS</a></li>
+                                                <li><a href="http://wheaton.com/laboratory/chromatography.html">WHEATON CHROMATOGRAPHY</a></li>
+                </ul>
+                   </li>
+                  </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- nav end -->
+
+       <!--<div class="main-container col1-layout">
+            <div class="main">-->
+                                <!--<div class="col-main">-->
+                    <div style="width:960px; margin:0 auto">
+										</div>
+                    <div class="std"><div id="slider_outer">
+<ul id="slideshow">
+<li>
+<div class="banner"><a href="http://www.dwk-lifesciences.com/"> <img title="DWK" alt="DWK" src="http://go.wheaton.com/l/63412/2017-11-10/42fjbx/63412/141323/WHEATON_DWK_change.jpg" height="454" width="960" /> </a></div>
+</li>
+<li>
+<div class="banner"><a href="http://go.wheaton.com/Duranglassgate" target="blank"> <img title="DURAN Innovative Bottle Systems" alt="DURAN Innovative Bottle Systems" src="http://go.wheaton.com/l/63412/2018-05-17/4ccvl9/63412/155164/Duran_InnBottSys.jpg" height="454" width="960" /> </a></div>
+</li>
+<li>
+<div class="banner"><a href="http://wheaton.com/completePAK" target="blank"> <img title="CompletePAK" alt="CompletePAK vial kits" src="http://go.wheaton.com/l/63412/2018-02-16/4773b9/63412/147776/CP_banner_2.jpg" height="454" width="960" /> </a></div>
+</li>
+<li>
+<div class="banner"><a href="http://go.wheaton.com/barcodingsample"> <img title="Bar Coding" alt="Bar Coding" src="http://go.wheaton.com/l/63412/2017-07-12/3rl7cg/63412/131597/barcoding2017.jpg" height="454" width="960" /> </a></div>
+</li>
+</ul>
+<div id="pager">&nbsp;</div>
+</div>
+<!-- slider end -->
+<div id="navcontainer">
+<ul id="homeThree">
+<li style="text-align: center;"><a href="http://www.dwk-lifesciences.com/"> <img title="WHEATON - Biopharmaceutical &amp; Life Science Products" alt="WHEATON - Biopharmaceutical &amp; Life Science Products" src="http://go.wheaton.com/l/63412/2017-11-13/42fqd4/63412/141383/DWK_change.jpg" height="275" width="275" /> </a></li>
+<li style="text-align: center; width: 41%;"><a href="http://go.wheaton.com/ivdkitting"> <img title="WHEATON - Biopharmaceutical &amp; Life Science Products" alt="WHEATON - Biopharmaceutical &amp; Life Science Products" src="http://go.wheaton.com/l/63412/2017-08-24/3wclz2/63412/135141/IVDKitting.jpg" /> </a></li>
+<li style="text-align: center;"><a href="http://go.wheaton.com/microliter-samples-web" target="_blank"> <img title="WHEATON - Biopharmaceutical &amp; Life Science Products" alt="WHEATON - Biopharmaceutical &amp; Life Science Products" src="https://media.wheaton.com/media/images/MLsample.jpg" /> </a></li>
+</ul>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<!-- container start -->
+<p><div id="container_outer">
+<div class="top_shadow">
+<div class="bottom_shadow">
+<div class="container">
+<div class="press_release">
+<a href="http://wheaton.com/press-releases/"><h2>Media</h2></a>
+
+
+<div class="press_content">
+
+			
+		<div class="press_indent">
+			<h5>June 01, 2017<br /><a href="http://wheaton.com/dwk-announcement" > DWK Life Sceinces is the new name for precision labware</a></h5>
+			  
+			<p id="desc1-1" style="display:block">Millville, NJ – In June 2017 the companies DURAN Group, Wheaton Industries and Kimble Chase merged to form a new global company ...</p>
+			<p id="desc1-2" style="display:none;">Millville, NJ – In June 2017 the companies DURAN Group, Wheaton Industries and Kimble Chase merged to form a new global company – DWK Life Sciences.</p>
+			<p align="right"><a href="javascript:void(0)" onclick="showFullContent('desc1')" class="highslide more">Read More</a></p>
+		</div>
+		
+			
+		<div class="press_indent">
+			<h5>March 06, 2017<br /><a href="http://wheaton.com/dwk-brand" > DURAN GROUP announces new corporate identity at Pittcon creating a leading global provider of laboratory glassware for the life sciences industry</a></h5>
+			  
+			<p id="desc2-1" style="display:block">Millville, NJ –DURAN GROUP is pleased to announce that following our acquisition of WHEATON Industries</p>
+			<p id="desc2-2" style="display:none;">Millville, NJ –DURAN GROUP is pleased to announce that following our acquisition of WHEATON Industries</p>
+			<p align="right"><a href="javascript:void(0)" onclick="showFullContent('desc2')" class="highslide more">Read More</a></p>
+		</div>
+		
+			
+		<div class="press_indent">
+			<h5>July 31, 2016<br /><a href="http://wheaton.com/dualfusion-vial" > The NEW DualFUSION vial is the first vial that combines the benefits of a strong, protective plastic outer layer and the high-performance barrier properties of an inner silica layer</a></h5>
+			  
+			<p id="desc3-1" style="display:block"><i>New line of purpose-built, ready-to-sterilize, uniquely barcoded vials will be introduced at the American Association of Clinic...</p>
+			<p id="desc3-2" style="display:none;"><i>New line of purpose-built, ready-to-sterilize, uniquely barcoded vials will be introduced at the American Association of Clinical Chemistry Annual Meeting July 31 - August 4</i></p>
+			<p align="right"><a href="javascript:void(0)" onclick="showFullContent('desc3')" class="highslide more">Read More</a></p>
+		</div>
+		
+				
+		
+</div>
+
+<script type="text/javascript">
+function showFullContent(id){
+	//alert(id+'-2')
+	if(document.getElementById(id+'-2').style.display=='none'){
+		document.getElementById(id+'-2').style.display='block';
+		document.getElementById(id+'-1').style.display='none';
+	}else{
+		document.getElementById(id+'-2').style.display='none';
+		document.getElementById(id+'-1').style.display='block';
+	}
+
+}
+</script></div>
+<div class="latest_post">
+<h2>LATEST POSTS &nbsp;</h2></a>
+<div class="post_content">
+
+<a class="twitter-timeline"  href="https://twitter.com/WheatonProducts"  data-widget-id="349945420325199872">Tweets by @WheatonProducts</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+<div class="post_indent">
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 250,
+  height: 400,
+  theme: {
+    shell: {
+      background: '#afd1d1',
+      color: '#05000a'
+    },
+    tweets: {
+      background: '#afd1d1',
+      color: '#050305',
+      links: '#1065cc'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('@WheatonProducts').start();
+</script></div>
+
+<!--<div class="post_indent">
+<div class="icon"><img src="https://www.wheaton.com/skin/frontend/wheaton/default/images/linkedin.jpg" alt="linkedin" /></div>
+<img src="https://www.wheaton.com/skin/frontend/wheaton/default/images/linkedin-post.jpg" alt="linkedin" /></div>-->
+</div>
+</div>
+
+<div class="recent_shows">
+<a href="http://wheaton.com/trade-shows/"><h2>Trade Shows and Information</h2></a>
+
+<div class="eventcont">
+
+
+<div class="show_content">				
+<h5>Upcoming Shows:</h5>
+		
+					
+					<div class="recentshow_indent">
+					<p>June 04, 2018					<!--<br/>
+					<span style="color:#2A82B5; font-weight:bold">Bio International</span>-->
+					</p>
+					  
+									
+     
+					<p id="event-24-1" style="display:block"><b>Bio International</b>
+<br/>
+June 4-7
+<br/>
+Boston, MA<br/>
+Booth 1815</p>
+					<p id="event-24-2" style="display:none;"><b>Bio International</b>
+<br/>
+June 4-7
+<br/>
+Boston, MA<br/>
+Booth 1815</p>
+
+                    <br/>
+					<hr/>
+					</div>
+													
+		
+					
+					<div class="recentshow_indent">
+					<p>July 29, 2018					<!--<br/>
+					<span style="color:#2A82B5; font-weight:bold">AACC</span>-->
+					</p>
+					  
+									
+     
+					<p id="event-28-1" style="display:block"><b>AACC</b>
+<br/>
+July 29 - Aug 2
+<br/>
+Chicago, IL
+Booth 1684</p>
+					<p id="event-28-2" style="display:none;"><b>AACC</b>
+<br/>
+July 29 - Aug 2
+<br/>
+Chicago, IL
+Booth 1684</p>
+
+                    <br/>
+					<hr/>
+					</div>
+													
+<div class="recentshow_indent">
+		<p><a href="/trade-shows/"  class="highslide more">Read More</a></p>
+</div>
+
+        </div>
+
+
+</div> 
+
+<script type="text/javascript">
+function showFullevent(id){
+	//alert(id+'-2')
+	if(document.getElementById(id+'-2').style.display=='none'){
+		document.getElementById(id+'-2').style.display='block';
+		document.getElementById(id+'-1').style.display='none';
+	}else{
+		document.getElementById(id+'-2').style.display='none';
+		document.getElementById(id+'-1').style.display='block';
+	}
+
+}
+</script>
+
+</div>
+
+</div>
+</div>
+</div>
+</div></p>
+<!-- container end -->
+<p>&nbsp;</p></div>                <!--</div>-->
+            <!--</div>
+        </div>-->
+        
+<!-- footer start -->
+<div id="footer" class="footer_text">
+  <p><a href="http://wheaton.com/careers">Careers</a> | <a href="http://wheaton.com/contact-info">Contact Us</a> | <a href="mailto:MLV.Services@DWK-LifeSciences.com&subject=DWK Life Sciences Webmaster query">Webmaster</a> | <a href="http://wheaton.com/disclaimer">Legal Disclaimer</a> | <a href="http://wheaton.com/privacy-statement">Privacy Statement</a> | <a href="http://wheaton.com/return-procedure">Return Policy</a> | <a href="http://wheaton.com/terms-conditions">Terms &amp; Conditions</a><br />
+    If you are having trouble viewing the WHEATON.com, please click <a href="http://wheaton.com/Help">here</a><br />
+    Telephone: USA, Puerto Rico &amp; Canada 1.800.225.1437 &bull; International: +1.856.825.1100 &bull; FAX 1.856.825.1368
+    <br />
+    <a href="http://seobrand.com/" target="_blank">SEO Services</a> by SEO Brand Marketing. &nbsp;&copy; 2017 DWK Life Sciences Inc. All Rights Reserved. 
+
+</p><br />
+</div>
+<!-- footer end -->         
+ 
+<script type="text/javascript">
+piAId = '64412';
+piCId = '2180';
+
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
+</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"18eb57b2fd","applicationID":"10632440","transactionName":"bwcEYxRZWxVZARdfXlZNJ1QSUVoIFwEORR5RDAJSHhdcCFwHGw==","queueTime":0,"applicationTime":88,"atts":"Q0AHFVxDSBs=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
